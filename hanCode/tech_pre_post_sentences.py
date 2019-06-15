@@ -121,7 +121,8 @@ def check_tech_pairs(pre, words, post):
                 rtn.append(second)
                 post_check = True
     if len(rtn) > 0 and not pre_check and not post_check:
-        return (" ".join(words), "\t".join(rtn)) # (sentence, tech pairs)
+        #return (" ".join(words), "\t".join(rtn)) # (sentence, tech pairs)
+        return None
     elif len(rtn) > 0 and (pre_check or post_check):
         return (" ".join(pre), " ".join(words)," ".join(post), "\t".join(rtn))
     else:
@@ -159,7 +160,7 @@ def main(start):
                 if rtn is not None:
                     if len(rtn)==2:
                         compa_sent_count += 1
-                        data_file = open(os.path.join(os.pardir, "out", table_name, "{}.txt".format(os.getpid())), "a")
+                        data_file = open(os.path.join(os.pardir, "outnew", table_name, "{}.txt".format(os.getpid())), "a")
                         data_file.write("{}\n".format(current_id))
                         data_file.write("{}\n".format(rtn[1]))
                         data_file.write("{}\n".format(rtn[0]))
@@ -167,7 +168,7 @@ def main(start):
                         data_file.close()
                     else:
                         compa_sent_count += 1
-                        data_file = open(os.path.join(os.pardir, "out", table_name, "{}.txt".format(os.getpid())), "a")
+                        data_file = open(os.path.join(os.pardir, "outnew", table_name, "{}.txt".format(os.getpid())), "a")
                         data_file.write("{}\n".format(current_id))
                         data_file.write("{}\n".format(rtn[3]))
                         data_file.write("{}\n".format(rtn[0]))

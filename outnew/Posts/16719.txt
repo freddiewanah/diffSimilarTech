@@ -1,0 +1,2928 @@
+2880052
+int	chars
+create table users user_id int unsigned not null auto_increment username varchar 255 default null pass chars 40 not null primary key user_id
+create table users_articles id int unsigned not null auto_increment user_id int unsigned mnot null title text not null acontent longtext not null primary key id
+here is the code i have so far
+
+2880396
+implements	extends
+also there a tomcat server is bundled in the download and the samples are already deployed in it
+you can implements this feature both with blazeds and livecycle data services
+blazeds provides remote and messaging features the messaging features is the one allowing you to synchronize the data between the clients lcds extends blazeds adding new features like data management productivity improvements pdf generation edge server for dealing with dmz zones mda development portal integration etc
+
+2880644
+post	get
+to do this i would read up on lex and yacc or the gnu variants flex and bison to get a feel for how you can lexicalize input and then place it into some sort of hierarchical structure
+either way i suggest you read the wikipedia entries on earley and cyk parsers i would link to them but the spam prevention won t allow me to post more than one link
+it should shed some light on the basics of natural language parsing
+
+2880920
+width	margin
+the code
+i m using extjs and just trying to solve a simple problem i have a form with a fixed width
+i want to center this form within a normal ext.panel. i m trying to achieve this the css-way - setting the left and right margin to auto
+
+2880923
+nsurlconnection	nsoperationqueue
+that s totally your responsibility
+the iphone will start all your asynchronous nsurlconnection s in parallel
+the only thing that will stop it is your memory i recently implemented a connection pool my solution was based on nsoperationqueue just because of that
+
+2881411
+ant	maven
+this is how i did it note that we re using ant in our legacy corporate project you probably should be using maven which should eliminate 50 of those steps below 1.download the most recent jax-ws distribution from the exact version i got was jaxws2.2-20091203.zip 2.place the jax-ws jars with the dependencies in a separate folder like lib webservices
+3.create a patternset in ant to reference those jars 4.include the patternset in your war-related goal
+this could look something like not the flatten true parameter - it s important as weblogic 9.x is by default not smart enough to access jars located in a different lcoation than web-inf lib inside your war file 5.in case of clashes weblogic uses its own jars by default
+
+2881411
+post	put
+after some 3 days of frustration. and yes i know i should ve put 9 and 10 under a single bullet-point but the title 10 steps to deploy a jax-ws web service under web logic 9.2 using ant sounds just so much better
+please edit this post and improve it if you find something missing
+
+
+2881758
+equals	gethashcode
+read this article at msdn
+you need to override equals object obj
+it is always expected that you implement gethashcode when you modify equals
+
+2881939
+put	get
+but always i get false data - i test without modifying the bytebuffer
+only thing i do is to put it into the native method into jni
+then cast it into a and convert it back into a bytebuffer before returning it back to java
+
+2882305
+post	get
+if you had asked how to get all the comments for multiple posts as efficiently as possible i d point you to my blog for a good technique but since you haven t i won t because that would just be blog-whoring
+you should define on the post to give you easy access from post to comment
+once you ve done that it s a simple backwards relationship note that this isn t really a question of efficiency
+
+2882325
+erlang	ocaml
+haskell is a good choice for learning techniques and functional programming but isn t what i d call the most practical language to do real work in at this time
+erlang is more practical but not quite as amenable to metaprogramming
+ocaml is another possible choice but suffers a bit on the practicality front as well
+
+2882325
+haskell	ocaml
+ocaml is another possible choice but suffers a bit on the practicality front as well
+it is more accessible than haskell in many regards however
+in the scripting language world ruby is a language in which metaprogramming is a popular technique
+
+2882328
+lisp	prolog
+some prolog ai books start with implementing a meta-interpreter in prolog and then changing it by need
+the second is as mentioned lisp and particularly clos common list object system which includes commands for meta-oop
+finally python support a nice and not too obscure mechanism for run-time meta-programming which is it s meta-classes classes that create classes
+
+2882394
+lisp	prolog
+third let over lambda by doug hoyte
+an advanced book best read after graham s on lisp
+for prolog you can read programming in prolog by clocksin and mellish get the latest edition
+
+2882397
+put	get
+prints boo boo note that this follows the intended specification in the original code trim and skips null
+the cause you can t put an integer in a
+that s why you get arraystoreexception
+
+2882476
+versioning	upgrade
+also on the size and location of the development team and of course organization
+if you support several versioning of the database you might need even more environments
+in real world i found the following approach rather satisfying single central database application for testing purposes gets all the changes by various developers periodically merged into it local copies for development so you are free to drop and reload the whole database upgrade scripts are maintained for any changes to schema auxiliary and sample data sets here are some further points if two developers two teams are working on changes that can affect each other then they should complete their tasks independently and then integrate merge and test
+
+2882524
+folder	directory
+this works fine in a dev server the folder that has the flex app lives inside the web project and in the dev ennvironment makes calls hostname ie www.someurl.com in the actual live scenario this will be an intranet so not hostname to call the flex app seems to have trouble calling directory name it seems to totally miss the virtual directory name
+im thinking moving the flex app folder out and hosting as a separate app might make it work
+
+
+2882711
+maven	pom.xml
+i ll leave it to the community to decide whether this should be closed as a duplicate
+as my maven project grows i m trying to stay on top of the project structure
+so far i have a nested directory layout with 2-3 levels where there s a pom.xml on each level with module entries corresponding to the directories at that level
+
+2882761
+integer	fractions	subtract	add
+for example on an x86 it translates almost directly to fyl2x y log 2 x and f2xm1 2 x -1 fyl2x fld st 0 frndint fsubr st 1 st fxch st 1 fchs f2xmi fld1 faddp st 1 st fscale fstp st 1 the code ends up a little longer than you might expect primarily because f2xm1 only works with numbers in the range -1.0..1.0
+the fld st 0 frndint fsubr st 1 st piece subtract off the integer part so we re left with only the fractions
+we apply f2xm1 to that add the 1 back on then use fscale to handle the integer part of the exponentiation
+
+2882841
+post	put
+in the event handler put response.redirect your_new_page
+response.redirect or server.transfer slightly more complicated and probably not what you need a cross page post
+
+
+2882883
+folder	directory
+this will save you a lot of headaches with jars versioning
+as a general rule you should avoid putting jar files in the tomcat lib folder
+tomcat doesn t need jar files other than those originally to be found in its lib directory
+
+2882883
+folder	directory
+tomcat doesn t need jar files other than those originally to be found in its lib directory
+if you need a jar file you should put it in web-inf lib folder of your application
+this will save you a lot of headaches with jars versioning
+
+2882886
+base	fractions
+once you have a good grasp on the algorithm for that reduced case you will find it fairly straightforward to extend it to handle fractions exponents
+typically the implementation of the pow double double function in math libraries is based on the identity using this identity you only need to know how to raise a single number a to an arbitrary exponent and how to take a logarithm base a
+you have effectively turned a complicated multi-variable function into a two functions of a single variable and a multiplication which is pretty easy to implement
+
+2882977
+serializable	deserialization
+i think it s because you re using public fields instead of properties for name and userid
+edit it appears it also has to do with the fact that you are using the serializable attribute instead of datacontract and datamember
+check out this post for more detail c# automatic property deserialization of json
+
+2883056
+post	get	post	get
+def get self self.post
+i ve used this class listsubs webapp.requesthandler def post self self.response.out.write this works nicely
+def get self self.post
+
+2883237
+put	get
+right now it seems to be working except that the exe build can t load any of my images cannot load image c path to build exe.win32-3.1 resources image.png file is not a windows bmp file googling has revealed that this happens when the sdl imaging library doesn t get included correctly
+however sdl_image.dll and libpng12-0.dll are both put by cx_freeze into my build directory so it seems to me like everything should be fine
+edit i solved this problem by porting my script to python 2.6 and using py2exe instead since it had some functionality anyway that i needed
+
+2883293
+maven	pom.xml	maven-release-plugin	pom.xml
+why is the sources jar still being built
+i am trying to release a web project using maven 2.2.1 and the maven-release-plugin 2.0-beta-9 but it always fails when doing release perform on generating the sources jar for the ear project which makes sense since the ear project doesn t have any source
+to try to disable the building of a sources jar for the ear project i added the following to the pom.xml for my ear project the version of the release plugin is set in a parent pom.xml upon running the release again after checking in this change i got the same error while generating the sources jar for the ear project even though this should have been disabled by the previous pom.xml snippet
+
+2883320
+serializable	deserialization
+perhaps you need to think a little more about what you mean by simply serializing the object since that s the rub
+if you re talking about the inbuilt java serializable then you wouldn t even need to retain the file extension
+the serialized form has enough information such that the deserialization process will produce an identical object without any additional help
+
+2883353
+for-loop	loops
+i am deciding on whether to do it i am already optimizing or whether it will be a waste of my time
+will a compiler optimize tihs into somecondition is trivially constant within the for-loop
+this may seem obvious and that i should do this myself but if you have more than one condition then you are dealing with permuatations of for loops so the code would get quite a bit longer
+
+2883386
+cpu	processors
+on an old compaq 1ghz 1 processors machine i was able to create about 10 000 counters and monitor them remotely for about 20 cpu usage
+these aren t custom counters just checking cpu or whatever
+basically you can monitor all the counters on any decent newer machine with very little impact
+
+2883608
+post	get	post	get
+it is a fairly common principal that an http get changing data on the server is a bad idea
+changing the server s state should usually happen through a post
+as a result each url which is used for both get and post should have specific actions that differ based on the type of request
+
+2883866
+accessor	properties	accessor	ivar
+in objective-c getters get the variable and are usually named the same thing as the variable so in the person example the getter would be - int age and setters set the variable it would be named - void setage int theage
+if you use accessor you can freely change your implementation in the future even getting rid of the ivar completely if necessary without reliant classes breaking
+in objective-c the combination of an ivar and accessor is often called a properties although there doesn t necessary have to be an ivar if the value is dynamically created
+
+2883866
+accessor	superclass
+you should rarely if ever access ivars in superclass
+if you re a purist you shouldn t even directly access ivars in the same class except in accessor init and dealloc and the latter two are subject to debate
+
+
+2883923
+inherited	properties	inherited	properties
+the inotifypropertrypropertychanged.propertychanged event is fired on the same properties
+the combobox control inherited from the listcontrol control
+the selecteditem properties is a proper member of the combobox control
+
+2883993
+console.readline	console.writeline	console.readline	console.writeline
+so far output is working fine but the trouble is with input. for example i cannot execute a simple program that will do the following console.writeline please enter your name
+string name console.readline
+console.writeline hi there + name
+
+2884086
+dictionary	map
+typically the term dictionary was used before the mathematical term map took hold
+also dictionary tend to have a key type of string but that s not 100 true everywhere
+
+
+2884212
+dokuwiki	phpbb	dokuwiki	phpbb
+it s for phpbb but the same general principal applies
+i ve done this before i used this tutorial to allow dokuwiki to grab the drupal credentials
+it s for phpbb but the same general principal applies
+
+2884279
+memset	malloc
+always memset-ing to 0 after malloc is a very good practice
+i also use memset buffer 0 sizeof buffer
+the risk of not using it is that there is no guarantee that the buffer you are using is completely empty there might be garbage which may lead to unpredictable behavior
+
+2884311
+memset	calloc
+either is undesirable
+however unless completely eschewing dynamically allocated memory most statically allocated buffers are typically rather small which makes memset relatively cheap
+in fact much cheaper than most calls to calloc for dynamic blocks which tend to be bigger than 2k
+
+2884327
+division	multiplication
+in particular the newton-raphson method when implemented carefully can ensure that the time performance of your division is within a constant factor of your arbitrary-precision multiplication
+you should probably try something like long division but using computer words instead of digits
+in a high-level language it will be most convenient to consider your digit to be half the size of your largest fixed-precision integer
+
+2884505
+zlib	libz
+sspi libidn ...
+with the help of question #197444 i have managed to build curl libcurl from source on windows from within the visual studio 2010 ide openssl 1.0.0 and zlib 1.2.5
+the problem i see is that at the moment if i run the resulting curl.exe with the argument -v then the version that it report is curl 7.20.1 i386-pc-win32 libcurl 7.20.1 openssl 0.9.8d zlib 1.2.3 protocols dict file ftp ftps http https imap imaps ldap pop3 pop3s rtsp smtp smtps telnet tftp features asynchdns largefile ntlm ssl libz note the versions reported for both openssl zlib doesn t match if what i actually used
+
+2884738
+innodb	myisam	innodb	myisam
+myisam will leave the changes and possible even the table in corrupt state
+innodb will rollback the transaction
+myisam will leave the changes and possible even the table in corrupt state
+
+2884765
+argumentnullexception	argumentexception
+afterall it is presumably anyway a problem with the input and not the algorithm used to construct the thing
+argumentnullexception is an obvious choice for the first check
+since it appears that a thing is derived from an input parameter i would throw an argumentexception to indicate that a thing cannot be constructed from the specified input
+
+2884770
+getter	setter
+in that case you should always use the setter
+accessing the field directly or using the getter usually doesn t make a big difference unless your getter performs some lazy initialization or other processing
+so it depends on what the getter does but my rule of thumb is to always use the getter except in specific cases
+
+2884802
+nullreferenceexception	invalidoperationexception	nullreferenceexception	argumentnullexception
+if some other thing is null you should probably throw an invalidoperationexception with a descriptive message
+you should never explicitly throw a nullreferenceexception
+if null was passed as a parameter you should throw an argumentnullexception with the name of the parameter
+
+2884802
+invalidoperationexception	argumentnullexception
+if null was passed as a parameter you should throw an argumentnullexception with the name of the parameter
+if some other thing is null you should probably throw an invalidoperationexception with a descriptive message
+
+
+2884816
+installation	upgrade
+1b how do i know if that upgrade is compatible with 5.8.4 of perl i don t want to upgrade perl at this point 2 if not how do i apply that patch defined in that link
+i am making a change to perl tk for an application that has its own resident perl and modules installation so we can drop the app in and go
+i ve found a problem i am experiencing that i just stumbled on what seems to be the patch i need here bug confirmed
+
+2884885
+invalidoperationexception	argumentexception
+on the other hand it s odd to throw argumentexception after using the argument
+invalidoperationexception isn t quite appropriate here but i might be tempted to use it as the closest thing to a contract failure.
+edit you should also consider creating your own exception as per aaronaught s answer
+
+2884903
+strcpy	strncpy
+strncpy is a special case where it will stop copying at a null byte but still continue to pad the output with nulls up to the specified length
+strcpy and other str methods stop when they encounter a null 0 byte
+memcpy and related functions to not stop when they encounter a null byte
+
+2885280
+std	ostream
+i would like to use the istream connection in a std ostream
+something like this to accomplish this i ve implemented the following code yes the code compiles and seems to work but i ve not had the pleasure of implementing a std streambuf before
+so i d just like to know if it s correct and complete
+
+2885435
+memcpy	strcpy
+as opposed to strcpy which will blissfully copy forever until a 0 byte is found - even if said byte is well beyond your buffer
+memcpy is used to copy from source to dest no matter what the source data contains
+it also tends to be very hardware optimized and will often read system words int s long s at a time to speed up copying when alignment allows
+
+2885781
+subnet	packets
+that is almost certainly a gateway s ip address
+you will probably be able to guess the network address and subnet mask based on the ip address of the gateway but this might not be something you can trust
+if you want to try to make this work on a network with a non-standard netmask you can try to do the following. make two ip address sized accumulator variables and then for each arp verified address in your table you do you could also use destination ip addresses that aren t multicast in packets that came from the gateway for this but you would have to know the gateway before you could flag them as such
+
+2885826
+avr	microcontroller	avr	microcontroller
+also for everyone recommending microcontroller like the arduino platform and basic stamp they are not fpgas
+atmel sells a device with a 5-20k gate fpga integrated with an 8bit avr core
+also for everyone recommending microcontroller like the arduino platform and basic stamp they are not fpgas
+
+2885859
+for-loop	arrays
+both arraylist and linkedlist implement contains in terms of indexof arraylist - indexof is a c-style for-loop on the backing arrays
+linkedlist - indexof walks the linked list in a c-style for-loop
+for 3 and 4 you have to distinguish between containskey and containsvalue
+
+2886167
+postgresql	mysql
+think of how different mysql and oracle are .
+or postgresql and microsoft sql
+they all attempt to meet some kind of common sql-like specification .
+
+2886291
+cassini	iis
+ultidev cassini runs on all flavors of windows xp including windows xp home windows vista windows 2000 and windows 2003 server
+check out cassini ultidev cassini is a free light-weight and redistributable web server that can host asp.net 3.5 3.0 2.0 and 1.1 applications and static html sites
+whenever your customers need an alternative to iis ultidev cassini web server is the answer
+
+2886291
+cassini	iis
+whenever your customers need an alternative to iis ultidev cassini web server is the answer
+ultidev cassini was built using microsoft cassini web server sample as a base but was vastly improved and expanded compared to original cassini sample by adding lots of new features and fixing existing bugs
+ultidev cassini runs on all flavors of windows xp including windows xp home windows vista windows 2000 and windows 2003 server
+
+2886343
+subtraction	multiplication
+as is true in all multiplication variations of upper digits do not influence the lower digits of the multiplication result
+robert jenkins 96 bit mix function robert jenkins has developed a hash function based on a sequence of subtraction exclusive-or and bit shift
+all the sources in this article are written as java methods where the operator represents the concept of unsigned right shift
+
+2886443
+put	get
+part of the proposal is the discussion of how current popular templating engines work
+this is an easier question to answer the trend seems to be to put it into a script element with type text html
+since most browsers don t know what to do with a script of that type the element goes ignored but is still part of the dom so you can get to it using a selector
+
+2886530
+system.xml	xmlnodelist
+i ve got the full source code here if it helps i know the epubconstructor.parsedocument method is horribly messy i m just trying to get it working at the moment before i split it into classes
+so i m currently working on an epub reader application and i ve been reading through a bunch of regular xml files just fine with system.xml and xmldocument however now i m trying to open the xhtml files that contain the actual book text and they re xhtml files
+now i don t really know the difference between the two but i m getting the following error with this code in the same document using the same xmldocument and xmlnodelist variable xmldoc.load path.combine directory.getcurrentdirectory oebps part1.xhtml
+
+2886627
+for-loop	loops
+if you literally have a tiny loops i j and k are fine and typical index counters
+sometimes a more descriptive name can help illuminate intent but if the for-loop is set up like the following then a more descriptive name doesn t really matter
+that said abbreviations should never be used unless they re used consistently
+
+2886649
+for-loop	loops
+just confused if i need to create another loops for that or not
+working on an rsync script and the portion below is in a for-loop
+what i want to achieve is assign a variable to every arguement after 3
+
+2886726
+email	dkim
+i would agree with him that the first 2 things you should address are reverse ptr record and dkim signing
+also very important ip address of the box to send email not already being blacklisted
+make sure postmaster emailsendingdomain.com is a valid email box if your server generated email needs to appear to come from somewhere else like a contact form needing to come from name email provided in a form follow these guidelines for email headers
+
+2886983
+strcpy	strncpy	strlen	strncpy	strlen	strcpy
+depending on c function strings need or don t need an ending 0
+functions like strlen and strcpy need to work on 0 terminated strings in order to know when to stop
+functions like strncpy don t need the source string to be 0-terminated since one argument tells how many characters to copy
+
+2886983
+strlen	strncpy
+functions like strncpy don t need the source string to be 0-terminated since one argument tells how many characters to copy
+when you declare name as you do the contents of what name points to is stored in read-only memory and can not be modified however you can use name in c functions that do not modify the contents strlen name or when used as a source
+
+
+2886986
+persistent	transient
+for example if you were using clojure you could use transient to some additional speed
+if you structure your data in such a way that you can use a persistent data structure to model your neural network functional updates to the neural network will be cheap at least compared to copying the whole thing
+if it is still not fast enough your language may allow other techniques such as careful use of mutation to speed it up
+
+2887029
+hash	md5
+from simple things like your suggestion add squares of elements and computing xor the elements to complicated things like sort them print them to a string and compute md5 on them
+but since collisions are still possible you have to verify any hash match by comparing the original lists if you keep them sorted this is easy
+
+
+2887107
+folder	dir
+these are the steps i took created an empty dir root cloned all repos that i want to be subrepos inside this folder root sub1 root sub2 created and added the .hgsub file in the root repo root .hgsub and put all the mappings of the sub repos in it using tortoisehg right clicked on root and selected create repository here again with tortoise selected all the files inside root and added them to to the root repo commited the root repo pushed the local root repo into an empty repo i have set up on kiln then i pulled the root repo in eclipse using import- mercurial
+now i see that all the subrepos appear as though they are unversioned no orange cylinder icon next to their corresponding folder in the eclipse file explorer
+furthermore when i right click on one of the subrepos i don t get all the hg commands in the team menu as i usually get with root projects - no pull push etc
+
+2887190
+restrict	shared
+more functionality for a given amount of implementation effort the existing primitives can be combined to solve a much larger range of tasks than what would be the case if the same effort went into implementing monolithic non-composable commands
+as the linux command line example shows composability is not necessarily restrict to functional programming but the concept is the same have smallish pieces of code that do restrict tasks and build more complex functionality by routing the outputs and inputs appropriately
+the point is that functional programming is well suited to this with immutable variables and restrictions on side effects you can compose more easily as you need not worry about what happens under the hood in the function being called - like updating a shared variable so the result will be invalid for certain sequences of operations or accessing a shared lock so certain call sequences will give a deadlock
+
+2887292
+put	get
+when i press submit with no values entered into the form i get the error messages for each of the inputs as expected
+however no matter what i put in newpassword2 or newemail2 they never pass validation
+i ve tried everything from copy and paste to making them one letter each to no success
+
+2887368
+put	get
+i understand that the oncreate is called when the program starts but its how the bundles get passed around and how they are pertinent
+can anyone try to put this into plain english because i cant seem to find it well described
+thanks
+
+2887422
+move	drag
+but you will need to write code to detect the drag remove the toolbar element from the visual tree and then add it as a root visual to your own window or hwndsource
+you ll then need to detect when the window is over your drop zone to move the toolbar from the window to the main window s visual tree and close the other window
+
+
+2887684
+pull	push
+but you cannot have the webservice push the changes to its clients the webservice cannot detect changes and then notify the clients
+the clients have to come and ask the web service for the data pull model
+if you need to be able to notify clients of changes you might be better off posting a message onto a message queue like msmq and have the clients who are interested in that data notification listen on that queue for new messages to show up
+
+2887727
+free	malloc
+if you wish to allocate the strings dynamically you can make the elements pointers to char but then you must malloc memory for each string not forgetting the extra char for the trailing 0 that c strings have
+and free all of them when you are done unless you just exit the program at that point
+
+
+2887757
+accessor	superclass	accessor	properties	superclass	subclassing
+remember that assigning to a properties is a message and that your object is not fully initialized yet
+sending a message to an incompletely-initialized or incompletely-deallocated object is asking for trouble particularly when subclassing are involved since they may override the accessor methods in ways the superclass doesn t expect
+so in init only assign directly to the instance variables
+
+2887907
+gdk	cairo
+to draw an ellipse you could use gdk_draw_arc
+note that using gdk for drawing is quite outdated
+you could use cairo and functions cairo_rectangle and cairo_arc for this
+
+2888009
+pseudo-class	visited
+the link selector specifies the behavior of the link when it s not clicked nor activated for any reason in other words in its normal state
+the active pseudo-class adds a style to an element that is activated
+if you need to be more specific and for example want to highlight what you mouseover in other word only when the link is under your mouse put this in the head section of your html if you want to highlight what you already visited vs what not put this in the head section of your html then every clicked link would be highlighted when you come back to the page
+
+2888145
+ant	maven
+at the end of the maven build we have a few jar and war files that we need to deploy onto our development testing environment
+right now we re using a pretty hefty ant script that performs several tasks on both windows linux machines starts stops services copies deletes files builds some stuff and then executes it etc ant does the job well - but the script is quickly getting very large and to be honest it feels inadequate for the task at hand
+i ve heard of gant but i m not sure that s the right way to go
+
+2888423
+implements	extends
+e.g
+if you don t want to use datainputstream.readfully there is ioutils.readfully from apache commons-io or you can implements the read loop explicitly
+if you have more advanced needs such as reading from a segment in the middle of the file or larger amounts of data then extends inputstream and overriding the read byte int int as well as read will give you better performance than just overriding the read method
+
+2888544
+xslt	xquery	xslt	xquery
+in xpath 2.x this also means xslt 2.x and xquery 1.x simply escape an apostrophe by entering two adjacent apostrophes escape a quote by entering two adjacent quotes as defined by the xpath 2.0 language
+in xpath 1.0 you can use the built-in entities and in xslt 1.0 alternatively you can define your and variables put the content the literal or the literal character in the body of the xslt variable not in the select attribute
+in xpath 2.x this also means xslt 2.x and xquery 1.x simply escape an apostrophe by entering two adjacent apostrophes escape a quote by entering two adjacent quotes as defined by the xpath 2.0 language
+
+2888790
+screens	hdpi
+in terms of getting access to both devices i ve heard good things about device anywhere but have never personally tried their service
+if all you want to do is check that your activity layout looks good on both screens i would say that testing on one of them is probably sufficient
+they are both hdpi devices so android should use the same resources when drawing the screens
+
+2888969
+firefox	safari
+the following works in recent webkit browsers including safari on iphone running os 3.0
+it uses the non-standard but convenient intersectsnode method of range which exists in webkit but was removed from firefox in 3.0 so it doesn t work in recent versions of firefox but could be made to do so trivially
+the following will surround each selected text node with a element with a class of someclass and also a unique class to allow easy undoing
+
+2888985
+versioning	upgrade
+on that remote server the instance node is named sql2008 and is versioning 10
+when i connect to the sql2008 remote instance from my local pc the connection is shown locally as being a sql server versioning 8.0 instance
+i suspect that locally i am only being shown databases that are somehow in the remote 2008 instance but have not been upgrade
+
+2889093
+int	chars
+your unsigned chars array isn t null-terminated
+usually it would look something like this if it isn t null-terminated output will continue until a nul byte is found that s why it outputs values that are placed in the memory behind your array like the int bogus2 which is 0x00000718 in hex stored in little endian format 0x18 ctrl-x 0x07 ctrl-g 0x00 ends the output
+
+
+2889108
+mouseleave	mouseenter	mouseout	mouseenter	mouseout	mouseleave
+these are similar but mouseenter does not fire upon moving the mouse from a child element to the main element whereas mouseover will fire the event again
+the same logic applies to mouseleave vs mouseout
+however jquery provides a shortcut for this kind of usage the .hover method
+
+2889128
+post	get
+newbie a
+hey all this is my first post
+i recently upgraded a wordpress site all things load but on the top of the page and bottom of the page i get this error
+
+2889131
+google-chrome	firefox
+simple example here
+i m not sure it s possible to control the cursor but you can simply focus the element in google-chrome if your element with id editor has any content then the whole content will be selected
+in firefox you don t see a cursor but if you type after loading the page it will appear in the element
+
+2889231
+client-side	server-side
+this uses prototype but jquery closure and all the other libs can do much the same thing just with slightly different syntax server-side java in the jsp mdash
+this is just like getting fields from a form that s been submitted client-side javascript using prototype s ajax.request if you prefer jquery for the client-side here s that prototype code rewritten for jquery s ajax function
+
+
+2889291
+hide	show
+add the icon step #1 to the systray
+hide delete the application s entry in the task bar
+when the user double-clicks the application s icon in the systray do the following show the form
+
+2889354
+gridbaglayout	springlayout
+the springlayout has an example that does exaclty this
+the gridbaglayout is more difficult to use but also support row column type layout
+finally you can still use a gridlayout
+
+2889415
+mouse	keyboard
+here s an example code snippet of what i am doing currently so basically i wanna keep looping if the user hasn t clicked the mouse or pressed a key in the keyboard yet
+when the user presses a key or clicks the mouse i wanna stop and do a specific action
+the problem in my above code is that it doesnt stop whenever i do an action
+
+2889478
+post	get
+but generally the limit is around 2 000 characters for the get method of a url
+you can use a proxy page that does a post method if your api supports it and that has a larger limit of 5 000 characters
+we are currently investigating using a proxy page with the google map api as we have crashed into the 2 000 character limit
+
+2889520
+hash	hmac
+i believe this is because the security of an hmac is dependant on its secret key and a collision cannot be found until this key is obtained
+actually it s essentially because being able to generate a collision for a hash does not necessarily help you generate a collision for the hash-of-a-hash combined with the xoring used by hmacs
+no not if the hash has a preimage attack which allows you to prepend data to the input
+
+2889558
+google-chrome	safari	google-chrome	firefox
+everything i ve read tells me that my browser mappings are correct
+i have confirmed that my control adapters are not triggering in google-chrome and safari
+i ve debugged and the breakpoints inside the adapters just don t get hit in google-chrome safari when they work perfectly find in firefox ie
+
+2889558
+google-chrome	safari	google-chrome	firefox
+i ve debugged and the breakpoints inside the adapters just don t get hit in google-chrome safari when they work perfectly find in firefox ie
+so for google-chrome safari iis is just ignoring the mapping
+i used the charles proxy to check what user agents were being sent
+
+2889664
+margin	font-size
+here s what i have css html sample this is what it looks like with line-height 0 alt text this is with line-height 1 alt text if i change the font-size from 160px to 20px the white space proportionally gets smaller.
+note it s adding like 20px extra whitespace even if margin 0
+padding 0
+
+2889738
+int	chars	int	chars
+if printletter is really just supposed to print a single chars you should change its argument to be a chars
+the function is declared as which means it takes a pointer to an array of int
+on the other hand word is an array of chars and is a chars which is not at all the right type
+
+2889867
+equals	tostring
+from the api docs on abstractlist inherited by for instance arraylist linkedlist vector public boolean equals object o compares the specified object with this list for equality
+returns true if and only if the specified object is also a list both lists have the same size and all corresponding pairs of elements in the two lists are equals
+the same applies to for instance the tostring hashcode method and so on
+
+2889867
+equals	tostring
+the same applies to for instance the tostring hashcode method and so on
+as pascal mentions in the comments the list interface mentions the equals method and states the following in the documentation the list interface places additional stipulations beyond those specified in the collection interface on the contracts of the iterator add remove equals and hashcode methods
+
+
+2889902
+addition	multiplication
+for the record i ve been known to revert attempted optimizations that did not have the balance of performance gains i wanted. binary operations are faster than normal operations
+fwiw addition is a binary operation
+so is multiplication
+
+2889920
+fcntl	posix
+note that lseek adjusts the file position of the open file description associated with the file descriptor - so it affects other file descriptors duplicated from the original one
+removing the error handling from your code to reduce it you have now both fd0_dup and fds 0 refer to the same open file description because of the dup so the fcntl operation affected both file descriptors
+hence the observed behaviour here is required by posix
+
+2890341
+maven	m2e
+these are my options when creating a new project in the maven category in eclipse
+i m a beginner at maven and i ve played with it from a command line point of view a little so now i was trying to use it in eclipse
+i installed the m2e plugin to do so
+
+2890397
+base	fractions
+ignoring all the flame bait a quick google for immutable scheme yields some results
+it is odd to base a language choice soley on syntax
+after all learning syntax will take a few hours -- it is a tiny fractions of the investment required
+
+2890741
+put	get
+you might also consider running your string through a compression algorithm putting the compressed result into your c++ file by any of the above methods and decompressing after the program was loaded. i suspect you can get a decompression algorithm into a few thousand bytes
+i suspect you are running into a design limit on the size of a character string. most people really think that a million characters is long enough - to avoid such design limits i d try not to put the whole thing into a single literal string
+on the suspicion that #define macro bodies likewise have similar limits i t try not to put the entire thing in a single #define either
+
+2891014
+folder	directory
+and restart until they fix it and or in rubymine go to file open directory navigate to the directory or file that you require this should refresh the view don t add the .idea folder to git if you re using it not great but you can get round it
+i m experiencing the same couple of things seem to work ... close rubymine delete the .idea folder .
+sudo rm -r .idea if macos or linux .
+
+2891033
+configure	libtool
+here s a really basic example
+after you run these you should get a copy of ltmain.sh in the directory and you ll be all set to run the configure script mkdir sample cd sample echo int main void return 0
+foo.c echo bin_programs foo makefile.am autoscan mv configure.scan configure.ac # edit configure.ac add am_init_automake foreign # and lt_init set project name and bug-report-address autoreconf -ivf note that in this example libtool really isn t necessary since the example is just building a simple app
+
+2891054
+configure	libtool
+-g -o2 -mt qux.o -md -mp -mf .deps qux.tpo -c -o qux.o qux.c mv -f .deps qux.tpo .deps qux.po bin sh . libtool --tag cc --mode link gcc -g -o2 -o qux qux.o libtool link gcc -g -o2 -o qux qux.o # now use the silent rules . configure --enable-silent-rules dev null make clean all rm -f foo bar baz qux rm -rf .libs _libs rm -f .o rm -f .lo make all-am cc foo.o ccld foo cc bar.o ccld bar cc baz.o ccld baz cc qux.o ccld qux all that is needed is to add silent-rules to the invocation of am_init_automake in configure.ac and add the option --enable-silent-rules when you invoke configure
+there was much debate about requiring the option to be added at configure time when this feature was added and there is an easy workaround to make it unnecessary. note that with silent-rules enabled you can still get verbose output by running make v 1
+
+
+2891078
+put	get
+you may be able to get what you want by changing your import to this that might delay the exception until you access the value property of the lazy
+it might be better to write your version control providers so that they can successfully load even if the required dependencies aren t present and then put a property on them which will check if the dependency is present
+
+
+2891100
+put	get
+
+im trying to use rake in a project and if i put everything into rakefile it will be huge and hard to read find things so i tried to stick each namesapce in its own file in lib rake i added this to the top of my rake file it loads the file no problem but doesn t have the tasks
+i only have one .rake file as a test for now called servers.rake and it looks like this namespace server do task test do puts test end end so when i run rake server test id expect to see one line appear saying test instead i get rake aborted
+
+2891232
+int	chars
+there is no type binary number
+well an int is already represented in binary form internally unless you re using a very strange computer but that s an implementation detail -- conceptually it is just an integral number
+each time you print a number to the screen it must be converted to a string of chars
+
+2891290
+post	get
+you can send a message to a server and get a reply in under 100ms and can do that several times per second
+the other answers haven t spelled out a couple of important misconceptions in the original post which is that these games aren t websites and operate quite differently
+in particular there is no or little data-mining that needs to be speeded up
+
+2891472
+put	get	put	get
+including images etc so that a user would get a fully functional preview of the website only for websites without frame busting methods of course
+i was wondering if there is a webbased way to scale down a whole website and put it into an iframe
+including images etc so that a user would get a fully functional preview of the website only for websites without frame busting methods of course
+
+2891556
+footnotes	tabular
+the problem is how to do layout with floats figures and tables an similar objects and footnotes
+in particular it is hard to pick a place for a float with certainty that making room for the associated footnotes won t cause trouble
+so the standard tabular and figure environments don t even try
+
+2892221
+put	get
+my code is pretty much like this example as a workaround i ve experimented with using a loop to create a class for each span rising in increment until jquery input id test1 .length but i can t seem to get anything i do to work
+my fluency in jquery is being put to the test
+thanks for any help in advance
+
+2892253
+subtract	add
+take digits 3 and 4 30 and add 6
+take digits 5 and 6 98 and subtract 8
+take last 2 digits 25 subtract 5 then flip the digits and append all numbers
+
+2892261
+uibutton	uinavigationitem
+add your uibutton as a left or right barbuttonitem to the uinavigationitem
+note that you can create uibutton with any custom view you want
+so you can create it with uisegmentedcontrol as well - it is what s likely used in your example
+
+2892261
+uisegmentedcontrol	uibutton
+so you can create it with uisegmentedcontrol as well - it is what s likely used in your example
+workflow should be something like create momentary momentary property set to yes uisegmentedcontrol with 2 segments assign an image to each of them using setimage forsegmentatindex method
+then create uibutton initialized with this uisegmentedcontrol as a custom view using initwithcustomview method
+
+2892270
+strlen	strcmp
+strcmp gives -1 and return false
+throw in var_dump and strlen and this function for especially hard cases
+
+
+2892292
+for-loop	loops	for-loop	arrays
+these game elements themselves contain x and y coordinates similar to how they are stored in a two dimensional arrays
+i was wondering if there was a way to access these vector elements similar to two dimensional arrays access currently i am implementing an for-loop to cycle the elements while comparing its coordinates
+this kinda sucks when i need to refresh my display at every game cycle since the large number of comparisons and loops
+
+2892532
+maven	m2e
+maven install don t help
+but if i create war by maven install i can import it to eclipse and deploy it to tomcat by add and remove... in server popup
+since you are using m2e my recommendation would be to deploy your application using the wtp
+
+2892546
+xna	slimdx
+you may find slimdx more to your liking
+personally i found xna a little too game centric for my tastes
+i was more interested in design architecture type uses
+
+2892794
+int	chars
+since this is an integer and not a string it returns int not chars or
+calling printf does not have anything to do with returning from the function older versions of c allow a default return type of int
+however it s better to explicitly specify the return type
+
+2892969
+comparator	comparable
+if the ordering of an object is an implementation detail of the object the comparable is more appropriate
+if the ordering of the objects is controlled by the caller then comparator is more appropriate
+
+
+2893113
+versioning	upgrade
+forcing an upgrade is never easy
+i don t think any versioning of ruby are ever formally retired
+things like rails will eventually become incompatible but older versioning are always available
+
+2893113
+versioning	upgrade
+things like rails will eventually become incompatible but older versioning are always available
+people will continue using older versioning of ruby for a while
+forcing an upgrade is never easy
+
+2893241
+put	get
+i am training to get under a 5 error rate
+the algorithm must run on a webserver so i have put in a measure to stop training when it looks like it isn t going anywhere
+this is set to 10 000 training iterations
+
+2893271
+bibtex	latex
+you can generate a bibtex file the usual way until all the references are there then cut paste the .bbl file into place in your latex file and annotate and reformat away to your heart s content
+so i think that bibtex makes sense as a standard repository of the basic facts about citations you might make again and again in particular you can get it error-free
+my experience as a scientific editor is that most authors are sure that their bibliographies are error-free most have between 10 and 60 of entries having errors in them
+
+2893271
+bibtex	latex
+also if there are errors in your bibtex file you will need to correct them in two places
+why i don t like biblatex the bibtex prepresentation is a standard and is accepted by all kinds of other document processors
+you shouldn t put special latex formatting into your bibliographic database that will reduce the utility of that database
+
+2893321
+for-loop	arrays
+you could do something like this to use a foreach but you would still use i and j as index values for the arrays
+readability would be better preserved if you just went for the garden variety for-loop instead
+
+
+2893354
+put	get
+here is some source code in c# that you can try for yourself
+for each subtree find the middle element of the subtree and put that at the top of the tree
+find all the elements before the middle element and use this algorithm recursively to get the left subtree
+
+2893379
+srp	principles
+there is nothing inherent to the mvc pattern or its variations which lead to a violation of the single responsibility principles
+whether the implementation of a controller violates srp or not is based upon whether the encapsulated behavior has more than one reason to change just as any other class not because of any presupposed prescriptive use of the pattern
+the example you set forth is a subset of a basic forms over data application where the controller is merely providing crud operations for a given model
+
+2893513
+arp	dhcp
+that will give you mac and ip addresses for anyone that has recently for different values of recently... communicated with it
+listening for arp requests is the canonical way to do this
+independent of dhcp or not any connected computer that wishes to communicate with the outside world will have to make an arp request for the address of the default router
+
+2893513
+snmp	dhcp
+if the other computer uses dhcp it will make an arp request for it s own address as part of duplicate address detection which is also a broadcast you can snoop on
+this works more or less the same way for ipv6 except you need to look for neighbor discovery or router soliciation packets instead. like the answer alluded to if you have a switch to which you can telnet or use snmp on you can extract the mac table
+that will give you a list of mac adresses on each port in the switch
+
+2893560
+keydown	keyup
+however the noncharacter keys do raise the keydown and keyup events.
+i don t know about wpf but try the keydown event instead of the keypress event for winforms
+see the msdn article on control.keypress specifically the phrase the keypress event is not raised by noncharacter keys
+
+2893571
+feeds	rss	feeds	rss
+also i have noticed that in my rss feed reader some rss feeds show only a few lines of description and i have to click and go to the website for the full post
+but in some feeds i can see the full post within the feed reader
+ps my web page lets user enter a rss feed address and i need to validate if the feed exists
+
+2893713
+queue	fifo
+whenever there is a new dental appointment the first thread the creator puts the queue numbers in the array one after the other
+the second thread the remover removes the queue numbers from the array whenever the dentist has seen the patient
+this is done in a fifo fashion fifo
+
+2893713
+queue	fifo
+this is done in a fifo fashion fifo
+the algorithm of the creator is as follows if the array is not full then put a new number in it the numbers start at 1 and are incremented by one each time so the creator create queue number 1 2 3 etc. sleep for 1 to 10 seconds randomly repeat the algorithm of the remover is as follows if the array is not empty then remove its smallest queue number
+sleep for 1 to 10 seconds randomly repeat you should use mutex locks to protect things that must be protected
+
+2893858
+mongodb	dbref
+will it break anything
+i ve encountered several situations when using mongodb that require the use of dbrefs
+however i d also like to cache some fields from the referenced document in the dbref itself
+
+2893916
+gridview	objectdatasource
+i ve set the allowpaging true on my gridview
+i ve specified pagesize 10 on my gridview
+i ve set enablepaging true on the objectdatasource
+
+2894249
+accessor	properties
+another advantage to getters setters is that you can always make properties simple public variables initially and refactor them into getters setters later if needed without changing external code
+you don t have to preemptively build accessor for every variable
+you can wait until you decide you need them
+
+2894261
+client-side	server-side
+if you need separate field names you could always name the form fields with separate names and then merge them server-side with something like if this is strictly client-side i would just increment the needed fields and have a standard field name followed by _1 _2 etc
+you could easily merge them client-side or server side as needed
+i am not sure about json capabilities that would help here
+
+2894496
+hash	hmac
+that s part of the magic of prf
+therefore if we can find collisions for a hash function then we know that the internal compression function is not a prf
+this does not turn the collisions into an attack on hmac
+
+2894519
+pow	math.h
+as others have mentioned whenever you use anything out of math.h you need to link with -lm
+the reason it may appear that the second parameter works as a constant but not as a variable is that gcc has a built-in implementation of pow
+if the second parameter is a constant it might be using that where if it s a variable it s falling back on the glibc pow function
+
+2894519
+pow	math.h
+if the second parameter is a constant it might be using that where if it s a variable it s falling back on the glibc pow function
+see if you pass -fno-builtin to gcc you should see consistent behavior--in this case error messages no matter what you pass to pow
+as others have mentioned whenever you use anything out of math.h you need to link with -lm
+
+2894526
+post	get
+i m still trying to figure out how to do this and looking for the correct join format to get the information
+i ll post it if i figure it out. thanks for the interest in the question everyone
+been fun reading everyones comments coming in
+
+2894530
+client-side	server-side
+there already exist browser extensions that allow you to modify the dom and scripts on web pages but since it s only client-side they re the only ones that will know
+where xss becomes a problem is when people a use it to bypass client-side validation or input filtering or b when people use it to manipulate input fields for example changing the values of option tags in an acl to grant them permissions they shouldn t have
+the only way to prevent against these attacks is to sanitize and validate input on the server-side instead of or in addition to client-side validation
+
+2894530
+put	get
+that s pretty silly
+if someone put their username as then your script would parse as always use quotes around attributes
+even if they aren t user-inputted it s a good habit to get into
+
+2894541
+hid	keyboard
+if you want to create a keyboard on the screen that sort of thing can probably be done in userspace
+the typical way of creating hid devices is to use the iohid classes in iokit
+you can write a userclient that passes events in and out
+
+2894541
+hid	keyboard
+you can write a userclient that passes events in and out
+i m not sure what a virtual hid device is however i guess
+if you want to create a keyboard on the screen that sort of thing can probably be done in userspace
+
+2894822
+postgresql	mysql
+thanks
+first of all the framework of choice needs to have excellent support for postgresql
+i don t care about mysql because it doesn t have half of the features the application i will be porting requires
+
+2894937
+minimum	max	minimum	max
+followed by a top level domain name whose max length is 5 for museum
+lookahead makes sure that it has a minimum of 4 a.in and a maximum of 255 characters one or more labels separated by periods of length between 1 to 63 starting and ending with alphanumeric characters and containing alphanumeric chars and hyphens in the middle
+followed by a top level domain name whose max length is 5 for museum
+
+2894974
+maven	pom.xml
+if a pom.xml file is present it is using maven
+maven is also a make like tool but enforces a much stricter build cycle
+plus and this probably is its biggest advantage it automatically downloads supporting jars
+
+2894987
+typedef	struct
+see here for the gory details but the consensus seems to be that will define a struct pcb incomplete type which is a distinct type from pcb and the structure you re currently defining
+barring misspellings that error is almost invariably caused by a missing typedef
+in other words the compiler doesn t know about either the pcb_pq or pcb type or both
+
+2895106
+queue	fifo
+and well your buffer could be implemented as a simple fifo queue
+this means that your yielding thread should prepare data to process and make a push call to your queue now the processing thread
+it s behaviour should be described this way you should probably add some artificial delay like sleep x between calls to empty if
+
+2895149
+tiff	png
+so pass jpeg files straight through without conversion
+if a tiff container file contains a jpeg image then extract it to a standard jpeg format file
+otherwise it s probably best to convert that tiff file to png
+
+2895209
+typedef	struct
+this is the means i ve always used to construct types that point to themselves linked lists but i ve always thought you had to name the struct so you could use self-reference
+in other words you couldn t use within the structure because the typedef is not yet complete at that point
+but this particular sample does not name the structure and it still compiles
+
+2895209
+typedef	struct
+but this particular sample does not name the structure and it still compiles
+i thought originally there was some black magic going on in the compiler that automatically translated the above code because the structure and typedef names were the same
+this seems a clear violation since there is no struct nothing_like_xyz type defined anywhere
+
+2895332
+equals	compareto	comparator	comparable
+more formally removes the element with the lowest index i such that if such an element exists
+perhaps you were confusing this with treeset java.util.treeset note that the ordering maintained by a set whether or not an explicit comparator is provided must be consistent with equals if it is to correctly implement the set interface
+see comparable or comparator for a precise definition of consistent with equals. this is so because the set interface is defined in terms of the equals operation but a treeset instance performs all element comparisons using its compareto or compare method so two elements that are deemed equal by this method are from the standpoint of the set equal
+
+2895332
+arraylist	treeset	comparator	comparable
+see comparable or comparator for a precise definition of consistent with equals. this is so because the set interface is defined in terms of the equals operation but a treeset instance performs all element comparisons using its comparator or compare method so two elements that are deemed equal by this method are from the standpoint of the set equal
+unfortunately treeset.remove method itself doesn t have any explicit reminder of the above caveat but at least it s prominently placed at the top of the class documentation an illustrative example the following snippet illustrates the difference in behaviors between collections that use equals such as an arraylist and collections that use compare comparator such as a treeset
+
+
+2895430
+lisp	scheme
+maybe someday i will development my web application and turn into a great lisp expert
+in fact this is the second time for me to get to study lisp
+the first time was a couple of years ago when i was fascinated by the famous book sicp but found later scheme was so unbelievably immature for real life application
+
+2895430
+lisp	scheme
+the first time was a couple of years ago when i was fascinated by the famous book sicp but found later scheme was so unbelievably immature for real life application
+after reading some chapters of ansi common lisp i was pretty sure that is a great book full of detailed exploration of common lisp
+then i began to set up a web server in common lisp
+
+2895460
+instances	transient
+child is part of parent s transient collection child has a manytoone mapping to parent with fetchtype.lazy both are displayed on the same form to a user
+when user saves the data we first update parent instances and then child collection both using merge
+now comes the tricky part
+
+2895480
+folder	directory
+this unusual behavior was occuring because i had xml documentation file selected in the project build properties
+unchecking xml document file stopped the empty bin folder from being created
+still no idea why this was happening because the xml documentation file location was set to the same path as the assembly output path but no matter what i did as long as xml documentation file was checked i would always end up with an empty bin directory one level up from the actual bin folder
+
+2895661
+atomic	interlocked
+if you are on windows you can take a look at interlocked functions variables and if you are of the boost persuasion then you can look at their implementation of atomic variables
+if boost is too heavyweight putting atomic c++ into your favourite search engine will give you plenty of food for thought
+
+
+2895739
+internationalization	translation
+
+i am using bundle internationalization in my project
+i have initialized bundle via when i need to translation some text i am using a key to resourcebundle to get a value of it for example # msg.sometext
+
+2895740
+memcpy	memset
+in 10.6.3 memset works at the word level
+i didn t check memcpy but probably it s the same
+you are correct that it s possible for the compiler to do the work inline instead of calling these functions
+
+2896020
+implements	extends
+i dont know what you mean with extends but a object implements a marker interface
+for example the serializable interface in java a class implements this interface to indicate that its non-transient data members can be written to an objectoutputstream
+
+
+2896314
+ssl	https
+thanks
+i have my website secured using the verisign ssl protection
+i realised that the website takes too much time to load due to the fact the https shows on all the pages
+
+2896525
+udp	tcp
+udp communication is connection less as compared to tcp which need a connection
+when sending data from udp it is broadcasted
+which means it will be available only to receiver which are alive at a time of broadcasting
+
+2896533
+fadein	hide	hide	show
+edit also it show a fail message if a match in the array is not found
+here s one way to do it html jquery some related jquery docs hide fadein .keyup .val edit when running jquery code it is usually best to have your code run after the document has loaded
+you can do this a couple different ways
+
+2896633
+bash	subshell
+
+i am playing with using flock a bash command for file locks to prevent two different instances of the code from running more than once
+i am using this testing code i am running 2 subshell backgrounded
+
+2896679
+required	placeholder
+as samuel suggests you could restrict them to only editing the css and publishing their own graphic content - but this can be rather restrictive
+one approach to solving this problem is esi - but that required a high level of skill with the technology for anyone involved - and try to restrict peolpe from doing stuff they shouldn t is rather difficult
+another approach is for you to provide a set of html fragments which should contain matched tags and no positional font info other than classes and have the customer provide an html page with a set of placeholder where you insert your content customer provides another approach would be to provide the customer with an online thru-the-web editor
+
+2896691
+777	tmp
+this is how it should work query the db for all the datas export them to a text file using awk to show the different columns the problem is that two fields of the table i m querying contain sentences
+so awk obviously thinks that the white spaces between the different words are separators between columns so i came up with the following solution select into outfile output fields terminated by from table using awk to list the results obviously the separator now is but here i have another issue though i ve granted the file privilege to the mysql user i m using gave to mysql 777 on the directory where it should write even so i m receiving the following error path can t create write to file file errcode 13 frustrated by this i ve started surfing the web to find an answer and i found an incomplete one
+in a certain site they suggest to chown root root tmp chmod 1777 tmp etc init.d mysqld start i thought that if this solution works fine on tmp then there shouldn t be any problem on any other directory i choose
+
+2896693
+folder	directory
+you could then implement some heuristics based on system.getproperty os.name operating system name system.getproperty os.arch operating system architecture should be less interesting system.getproperty os.version operating system version
+the location of the default system documents or pictures folder is highly operating-system dependent distribution dependent user setting dependent
+the closest thing i can come up with is to start looking in the user home directory which you can get from system.getproperty user.home
+
+2897031
+post	get
+this will help in narrowing down the search results
+and yes i ve looked at this post
+i can t get it to work for me 3.1.3 sdk
+
+2897107
+folder	dir	folder	directory
+t get any problem while creating .tar.gz file but when use creates .zip file this problem comes across
+here is my code also if i use code below for dirpath dirnames filenames in os.walk source_dir myzip.write os.path.join dirpath filename os.path.basename filename myzip.close now the 2nd code taks all files even if it inside the folder subfolders creates a new .zip file and write to it without any directory strucure
+it even does not take dir structure for main folder and simply write all files from main dir or subdir to that .zip file
+
+2897122
+put	get
+dan
+i m struggling to do something which i thought should be straight forward basically i need to create an aspx page which i now realise must be put into a document library but the problem i have is it s only one page and when the page is displayed the breadcrumb has a link to the document library
+we really don t want the users to be able to get to the library via the breadcrumb and just want to show the page
+
+2897246
+weblogic	resin
+tomcat competes with jetty and resin but is not comparable with a java ee certified server
+bea oracle weblogic server is a commercial java ee application server that implements the whole java ee specification
+it is known to be a mature extremely stable secure performant application server and is used in many mission critical applications
+
+2897379
+int	double	int	boolean	int	boolean
+anyval includes boolean so there are no numeric operations defined
+here are you individual lists the computed least upper bound lub of double and int needed to capture the type of the new list that includes elements of both the arguments lists passed to is anyval
+anyval includes boolean so there are no numeric operations defined
+
+2897404
+rss	feed	rss	feed
+however this may not always be the case and if in any doubt you should contact the website administrators and ask them under what terms you may use their feed
+there is no umbrella license attached to the rss technology it is solely at the discretion of the content provider
+generally an rss feed that is not restricted behind a login page or similar mechanism is considered public content free to copy and redistribute
+
+2897781
+post	get
+
+i m trying to post data to a page that handles it for me
+i always get following error however ioerrorhandler ioerrorevent type ioerror bubbles false cancelable false eventphase 2 text error #2032 stream error
+
+2897814
+valgrind	glibc
+if you have been swapping versions of valgrind and glibc there s a chance you found a match but incorrectly configured valgrind at build time
+you probably want to ask about this on the valgrind user s mailing list which is extremely helpful
+you can suppress output from certain calls however suppressing the noise is all you are doing
+
+2897814
+valgrind	glibc
+you can suppress output from certain calls however suppressing the noise is all you are doing
+the calls are still going through valgrind
+to accomplish what you need you ideally match valgrind appropriately with glibc or use the macros in valgrind valgrind.h to work around them
+
+2897814
+valgrind	glibc
+to accomplish what you need you ideally match valgrind appropriately with glibc or use the macros in valgrind valgrind.h to work around them
+using those yes you can tell valgrind not to touch certain things
+i m not sure what calls are borking everything however you can also selectively not run bits of code in your own program if its run under valgrind
+
+2897814
+valgrind	glibc
+the other thing that comes to mind is to make sure that valgrind was compiled correctly to deal with threads
+keep in mind that atomic operations under valgrind could cause your program to crash during racey operations where it otherwise might not if not properly configured
+if you have been swapping versions of valgrind and glibc there s a chance you found a match but incorrectly configured valgrind at build time
+
+2897920
+inherited	properties	inherited	properties
+looping through properties for..in if it s really a javascript object you can do this to find out what properties it has that will tell you the names of its enumerable properties and whether those are properties of the instance itself or its prototype object
+for..in example the loop above would show alpha inherited beta own in no particular order. further information enumerable vs
+non-enumerable properties note that not all properties are enumerable
+
+2897921
+folder	directory
+how can i use it adding only the openssl path and not all the crypto subfolders i use
+i am trying to test the crypto library that comes with openssl i downloaded openssl from and it contains a crypto folder with subfolders for each encryption type
+i wanted to try bio_f_base64 so i created an empty console app and added the includes needed also added the paths to the bio and evp folders to c++ incl directory and also added the main openssl folder
+
+2897931
+libs	buildpath
+either way eclipse will automatically place the necessary server-specific libs in the project s classpath buildpath
+you should absolutely in no way extract and copy server-specific libs into web-inf lib or even worse the jre lib yourself to fix the compilation errors in eclipse
+it would make your webapplication tied to a specific server and thus completely unportable
+
+2897994
+cpu	processors
+the isr should do the following push any registers which it intends to alter or push all registers handle the interrupt reenable interrupts pop any registers which it pushed use the iret instructions which pops the cpu flags and instruction pointer value from the stack and thus returns to whatever was executing when the interrupt occured
+when an interrupt occurs the cpu does the following push the current address contents of the instruction pointer onto the stack
+also push the processors flags but not all the other processors registers jump to the address of the isr interrupt service routine which is specified in the interrupt descriptor table
+
+2897994
+cpu	processors
+also push the processors flags but not all the other processors registers jump to the address of the isr interrupt service routine which is specified in the interrupt descriptor table
+the isr should do the following push any registers which it intends to alter or push all registers handle the interrupt reenable interrupts pop any registers which it pushed use the iret instructions which pops the cpu flags and instruction pointer value from the stack and thus returns to whatever was executing when the interrupt occured
+
+
+2898110
+int	boolean	int	boolean	int	chars
+for boolean you should use if else as there are a very limited number of states
+in java switch only works for byte short chars int and enum
+for boolean you should use if else as there are a very limited number of states
+
+2898153
+cpu	processors
+changing and retrieving performance counter values might help with accessing the existing processors counter via code but this isn t something i ve tried personally
+this article from microsoft covers tuning .net application performance and highlights which counters to collect and compare to determine cpu and i o bound applications
+you sound like you want to monitor this during execution and bypass your cache when things get intensive
+
+2898300
+ant	maven
+you can also mention that ant together with ivy can handle dependencies quite similar to maven
+and it s quite easy to write your own ant tasks in java
+
+
+2898391
+memcpy	strcpy	memcpy	strcpy
+strcpy on the other hand will copy until it reads a nul aka 0 byte and then stop after that
+the main difference is that memcpy always copies the exact number of bytes you specify
+strcpy on the other hand will copy until it reads a nul aka 0 byte and then stop after that
+
+2898508
+subclass	superclass
+the superclass constructor runs before the subclass constructor so the overriding method in the subclass will be invoked before the subclass constructor has run
+if the overriding method depends on any initialization performed by the subclass constructor the method will not behave as expected
+here s an example to illustrate here when base constructor calls overrideme child has not finished initializing the final int x and the method gets the wrong value
+
+2898767
+apache	nginx
+then in your pages you can do things like nginx also supports server-side includes with it s ssi module html
+if you re using apache you can use server-side includes
+these basically provide include statements within html documents
+
+2898844
+google-chrome	safari	google-chrome	firefox
+thanks in advance
+been trying to add an image before the closing of the anchor tag if i use no image will appear in webkit google-chrome safari etc
+firefox and ie works fine
+
+2898851
+jar	war
+it can package in a number of different ways jar war ear etc
+if you choose a packaging that s not specific to web jar then you ll be able to build your app just fine
+
+
+2899001
+put	get
+this is all you need to do to get ahah kick-started into a custom bit of js
+as i said in my comment the ahah javascript has no error callback so put some breakpoints in ahah.js if things don t seem to be working as expected
+
+
+2899067
+puts	gets
+i ve changed targetx y to 0 to see if it does indeed move to the specified point and it does
+the problem is when i try and move the view back to where it was originally this puts the uiview about 3x as far as it should
+so the view usually gets put off the right side of the screen depending on where it is
+
+2899154
+comparator	comparable
+most of the framework sorting apis including linq will offer comparer support
+there are a few subtle points here it doesn t just support - it also supports the older non-generic comparator as a fallback
+this means that it can t be expressed just as for example a generic constraint it supports where t is comparable even though clearly isn t comparator or it prevents explosion of generic type constraints by not demanding them - for examle a can provide a sort even though it doesn t insist that all t are sortable
+
+2899172
+children	parent
+if it is intended as a parameter to a table-valued function ensure that your database compatibility mode is set to 90
+dbo.func_getrelatedacnts returns a table of related accounts all children from a given account
+it goes up to the top level parent account of a given account and then selects all child accounts from there
+
+2899183
+put	get
+for example say i have a list containing multiple items with the following structure fieldchar1 - character fieldchar2 - character fieldchar3 - character fieldnum1 - numeric fieldnum2 - numeric in a nutshell i want to be able to create a linq query that will sum fieldnum1 and fieldnum2 grouped by any one two or all three of the fieldchar fields that will be decided at runtime depending on the users requirements as well as selecting the fieldchar fields in the same query
+i have the dynamic.cs in my project which icludes a groupbymany extension method but i have to admit i am really not sure how to put these to use
+i am able to get the desired results if i use a query with hard-wired group by requests but not dynamically
+
+2899255
+hide	show
+a map may be drawn as an association in some situations but some kind of extension stereotypes will be needed or you can define a template class
+i don t like the template approach - it hide the associations btw the major players
+the last resource is the associationclass a special uml class used to define nxn relations with attributes what i think suits your problem where the integer field is some kind of counter of searchers related to the indexmanager. remember also that by code you can t see the other side of the relationship while uml is designed to show both sides navigation issues and so forth
+
+2899279
+jruby	mri
+this would be annoying even when using mri ruby however starting up jruby mongrel after every view edit is much slower and much more annoying
+note that once it starts up it s quite fast the only issue is startup--the jvm has to load up every time i start jruby mongrel. i m running jruby 1.5.0 rails 2.3.5 and java 6
+
+
+2899344
+apache	nginx	apache	nginx
+in fact nginx can use select instead of epoll if you compile it with the --with-select_module option and i bet it will still be more efficient than apache
+i m not as familiar with apache internals but a quick grep shows it does use select and epoll -- probably when the server is listening to multiple ports interfaces or if it does simultaneous backend requests for a single client
+incidentally i got started with this stuff trying to write a basic socket server and wanted to figure out how nginx was so freaking efficient
+
+2899429
+ssl	https
+but if you go to the homepage landing page since i control that i m going to rewrite the login page link to be http
+then i ll do a ssl handshake with the login page and send you the user the insecure version
+so now you re the user doing all your sensitive transactions - and the server thinks it s https - and i m in the middle doing shenanigans
+
+2899617
+subtract	addition	subtraction	addition
+the carry flag is set only if borrow was required
+when doing subtraction you set the carry flag prior to doing the subtract and the new carry flag tells if you had to borrow
+your example omitted the addition of 1 for the pre-set carry flag in bit 17 which will cause no carry in the result
+
+2899704
+rsa	aes
+but this is not standard practice and you could run into security issues you haven t thought of whereas block ciphers such as aes have standard means for dealing with the issues you may come across look at block modes -- essentially there s a security issue for example encrypting the same data with the same key multiple times and block modes are a built in way to deal with this
+i would really just stick to the standard practice of streaming with symmetric encryption and encrypting the symmetric key and essentially nothing else with rsa
+
+
+2899842
+cassini	iis
+i m still targeting the 3.5 framework but now i m using msbuild 4.0 since that s what visual studio 2010 uses
+everything still compiles correctly because it runs fine under cassini but when i deploy it to the same location same application pool identity etc it now behaves differently
+i still have the extensionless handler in the web.config but now when i navigate to the root of the application it does directory browsing and any routes that it had previously handled now come back as 404 errors being handled by the staticfile handler in iis
+
+2899859
+border-color	height
+the piece of code that i am using for this is echo fb swf imgstyle border-width 3px
+border-color white
+swfsrc apsolute url of the .swf in the server where i am hosting width 340 height 270 flashvars swfbgcolor 333333 wmode opaque
+
+2899929
+stateless	stateful
+there is nothing stopping you creating your own hidden fields in mvc to make it kinda stateful
+asp.net webforms is stateless too
+all http communications are
+
+2900131
+xsl-fo	xslt
+i found the xsl-fo designer from ecrion to be good for both programmers familiar with xslt and xsl-fo and old ladies that need to make changes to the templates we are deploying a desktop solution based on xsl-fo that replaces an older proprietary solution and the ladies can make small changes to the document templates
+fop is indeed not maintained anymore but the commercial vendors are doing a great job at providing faster and quite affordable solutions and the set of features is growing with every release a 2.0 draft of the xsl-fo specifications is now in the works
+
+
+2900189
+post	put
+if anything is bad he is informed and told to revisit the cc processing page to try again max of 3 times
+edit i have received a lot of really good response on this question - majority seem to agree on the following taking post variables after validation is run encrypting ccnum and cvv not sure you are allowed to store cvv in db at all though storing in temporary db access db immediately after review page is ok d decrypt details from db send information to processor receive response terminate db i think this makes sense overall
+i am programming in php and mysql db edit #2 i came across packet general which seems like an ideal solution but really don t want to pay for another software license to accomplish this goal. edit #3 - sample code i have now posted some example code i put together trying to make sense of the encryption decryption key and storage mentioned in this post
+
+2900294
+maven	pom.xml
+i don t mind instrumenting my junit tests for this as i already have to set up my gui test infrastructure but how do i conditionalize my pom.xml
+netbeans 6.5 with maven plugin
+ilane
+
+2900392
+setw	ostringstream
+i thought i could do this using just ostringstream and iomanip.setw like this the output here is field 00003000 vs input 3000 very nice
+however if i try a bigger number setw lets the output grow beyond 8 characters output field 2000000000 vs input 2000000000 the desired output is 20000000
+would the boost formatting do what i need in one step
+
+2900514
+put	get
+at this point i have a webpage where someone can successfully upload a file which gets stored under files on my webserver
+the python script also generates a unique random 5 letter code that gets stored in a database identifying the file i have another page called retrieve where a person should go put in the 5 letter code and it should pop up a filebox asking where to save the file
+at this point my retrieve script takes the code gets the location of the file on my server but how do i get the brower to start downloading
+
+2900531
+free	malloc
+in one of the callbacks there is a malloc and it creates a leak every time i render a new frame
+i v tried to free vertex but then the polygons did not render
+i also tried allocating on the heap then doing delete vertex but then the polygon rendered awkwardly
+
+2900610
+matplotlib	scipy
+python offers you very good libraries for that such as numpy scipy and matplotlib
+matplotlib has a very complete tutorial
+if you are directing your studies to the more molecular side of biomedical research python will provide you of very powerful tools
+
+2900675
+x86	64bit	x86	64bit
+but it helps if you tell us why you need it if you want your doubles to be ieee-754 64bit doubles the easiest way is to compile with -msse -mfpmath sse
+try section 8.6 of gough s introduction to gcc which demonstrates the x86 fldcw instruction
+but it helps if you tell us why you need it if you want your doubles to be ieee-754 64bit doubles the easiest way is to compile with -msse -mfpmath sse
+
+2900742
+jsf	wicket
+my requirements are java i need to make use of existing java libraries to access the relevant data 2 screens one for static data view maybe some search parameters other for basic form entry no fancy ajax required ideally easy for a web designer to come in and tart it up as necessary without having to rewrite everything my first stop was going to be to checkout wicket as i ve heard good things about it
+i don t have the time right now to dive into anything heavy which probably writes off jsf in my mind i played with jsf1 steep learning curve which i ve now slid back down
+i m happy to treat the result as throwaway so if there s a framework which starts of well but then doesn t scale up to bigger projects that would be ok
+
+2900799
+nsscanner	nsstring
+check out the documentation
+you don t need an nsscanner for that
+just use nsstring s -rangeofstring method
+
+2900923
+google-chrome	safari	google-chrome	firefox	google-chrome	firefox
+edit as tgr points out will let you read it back generically in firefox
+and as bradley mountford points out in a comment below it looks like you can read from webkit using the component parts too although only google-chrome seems to like border-top-left-radius where as both google-chrome safari handle -webkit-border-top-left-radius .
+so summarising you get the following based on your 5px setting in firefox in webkit tested in google-chrome safari
+
+2901111
+super	self	super	self
+from the python online documentation class c b def method self arg super c self .method arg so your exception would be defined as follows
+when you call super you need the subclass derived class as the first argument not the main base class
+from the python online documentation class c b def method self arg super c self .method arg so your exception would be defined as follows
+
+2901483
+valgrind	glibc
+things should just work and if they don t you have somebody to complain to
+as noted by unwind valgrind has an elaborate mechanism for controlling which procedures are instrumented and how
+but both valgrind and glibc are complicated beasts and you really really really don t want to do this
+
+2901490
+for-loop	loops
+just tried the intel compiler and saw a 49 speed boost for this code
+i have a very large nested for-loop in which some multiplications and additions are performed on floating point numbers
+this loops is taking up the majority of my processing time and is a bottleneck
+
+2901581
+virtualbox	parallels
+you might check for a similar feature in parallels
+windows 7 virtualbox 3.1.8 with i see better frame rates but the result is choppy
+without the option i see smooth results with frame rates about 50 of the native mac os x pipeline
+
+2901581
+virtualbox	parallels
+without the option i see smooth results with frame rates about 50 of the native mac os x pipeline
+the result hinges critically on installing the virtualbox host additions for graphics
+you might check for a similar feature in parallels
+
+2901590
+ubuntu	centos
+thanks for your help
+i m using ubuntu 10.04 and qt4.6 and i ve created an executable binary file on my own computer through qtcreator
+now i want to put my executable file on centos 5 but it seems that this executable file cannot run on centos
+
+2901732
+inherited	properties
+use a singleton object instead of all static shared properties
+here s an example in c# vb.net isn t too far off and just have the singleton class inherited from dependencyobject
+
+
+2901771
+filtering	grouping
+if you really need to run a whole grouping of queries using the same evaluated value your best bet is to create view with the field defined but you wouldn t want to do that for a one-off query
+as an alternative and in cases where performance is not much of an issue you could try something like though i don t believe that s supported by all sql dialects and again the optimizer is likely to do a much worse job which this kind of thing since it will run the select against the full users table and then filtering that result
+still for some situations this sort of query is appropriate there s a name for this.
+
+2901797
+post	get
+i m trying to post an image to a web service from the iphone
+i ll post the code first then explain everything i ve tried first thing this code works fine for anything but an image
+the web service is running on my local network and i can change the source code at will and if i change the imgin parameter to a string and pass a string in everything works fine i get a return value no problem
+
+2901843
+int	chars
+i m getting kind of frustrated as i m a java newbie i ve mostly only used freepascal before this
+i m trying to parse a simple text file in an int method and then output an int from such file so that other parts of the program can use it
+for testing purposes it also displays the chars value 9 in this case
+
+2901843
+int	chars
+for testing purposes it also displays the chars value 9 in this case
+the int value for some reason is 57
+i ve also tried it with another part of the text file which in that case should be 5 but is instead 53
+
+2901850
+int	chars
+for instance you probably don t need to explicitly use chars at all
+if you use a bufferedreader like parsed will be the int 9 as expected
+or you may be able to use scanner and its nextint
+
+2901919
+nsstring	nsdata
+if you re unlucky a soap library will make it 20000 larger
+it fails because the format specifier takes an object and calls - nsstring description to turn it into a string
+- nsdata description returns something like 31 32 33 65 66 67 for ascii 123abc hence you re submitting 31 32 33 65 66 67 which obviously isn t valid xml
+
+2901967
+google-chrome	firefox	google-chrome	firefox
+i am mainly because it has become my primary browser so all development is taking place on google-chrome then i test with ie and firefox
+i m curious to know who is testing against google-chrome
+i am mainly because it has become my primary browser so all development is taking place on google-chrome then i test with ie and firefox
+
+2901973
+google-chrome	safari	google-chrome	firefox
+when debugging js i use firefox firebug.
+google-chrome is using the webkit rendering engine similar to safari
+so if your site looks bad on google-chrome it ll probably look bad on safari.
+
+2902188
+implements	extends
+you are not implements the keyreleased method
+you re also not implements keytyped
+if you want to keep your current class structure you can add empty methods if you put the listener in a separate possibly inner class you could extends keyadapter which provides these empty methods for you
+
+2902324
+opensuse	linux
+you should consider distributions as systems of their own regardless of the fact they are all based on the linux kernel and compile binaries for each of those you want to support
+the opensuse build factory may help you if your goal is to provide binary packages
+
+
+2902332
+disk	ram
+but still it s the same machine
+your nosql system might be disk based therefore all your data is stored on disk instead of loaded into memory like sql server
+furthermore think about the architecture the disk is a cache for ram ram is caching for the cpu cache and the cpu cache is for the cpu registers
+
+2902454
+interpolation	splines
+you may also want to look up nurbs a type of splines surface and bezier patches
+triangulation is very fast if you need to do a lot of interpolation on a large data irregular dataset for example contouring a ground surface
+the interpolation is linear and discrete based solely on the three points of the triangle in which you are interpolating
+
+2902511
+division	multiplication
+double division in msvc 1 0.0 1.#inf000000000000 1 dbl_min 4.4942328371557898e+307
+in my example below double b may end up being negative due to floating point rounding errors and because the laws of physics are slightly slightly fudged in the game. both division by 0.0 and min_dbl produce the same outcome in the game because 1 0.0 and 1 dbl_min are effectively infinity
+like perhaps sqrt 0.0 1 0.0 and multiplication by 1.#inf000000000000 execute faster because they are special cases
+
+2902511
+division	multiplication
+like perhaps sqrt 0.0 1 0.0 and multiplication by 1.#inf000000000000 execute faster because they are special cases
+double division in msvc 1 0.0 1.#inf000000000000 1 dbl_min 4.4942328371557898e+307
+
+
+2902523
+implements	extends
+my current solution is to have an account class shared by server and client and extends this with a databasebackedaccount overriding setter-methods and providing a commit method on the server side
+i find this quite natural and nice however i ve had to implements all gory sql-details and orm myself
+
+
+2902747
+action-filter	onactionexecuting
+the question is where to populate this information to avoid cluttering all your controller actions
+a custom action-filter seems like a good place
+in the onactionexecuting method you could get the view model returned by the controller action and populate the contextual part if it derives from the base type
+
+2902747
+put	get
+in the onactionexecuted method you could get the view model returned by the controller action and populate the contextual part if it derives from the base type
+another option is to put the contextual information into the viewdata strongly typed views can also use viewdata but personally i hate having magic strings and doing casting in my views this could be overcome by using html helpers that will handle this viewdata
+
+
+2903076
+post	get
+if you just want to compose a get by yourself you can use jquery for that aswell so you only pass the parameters you really want which will give you 100 control of what is posted getted
+you have a couple of options here disable viewstate use jquery to remove the fields you don t want to post before the are sent to the server you don t have to disable viewstate on all pages just the pages that you do not care for the state to be saved
+but there is also the option to disable the viewstate completely if you never want to use it
+
+2903152
+free	malloc
+you can set this from gdb by using the set environment malloc_check_ 2 command before running your program
+the program should abort with the free call visible in the backtrace
+see the man page for malloc for more information
+
+2903188
+put	get
+in such cases you should put it in a datastore of some sorts as the others have indicated - be it a database text file or otherwise
+keep in mind that if you put it in an enum or a static class or some other part of your actual application the end-user will not be able to change it easily
+so if by some natural disaster or world war 3 some countries disappear merge separate get a new government type or name you need to be able to update your country list
+
+2903762
+button	checkbox
+thanks -
+i have 6 button on my gui
+the visibility of the button can be configured via checkbox
+
+2903839
+integer	fractions
+most programming languages and libraries follow this as well
+in mathematics rounding means rounding to the nearest integer so rounding 3.4 results in 3 and rounding 3.6 results in 4
+truncating on the other hand means removing the fractions part altogether so either 3.4 or 3.6 results in 3
+
+2904168
+bufferedreader	bufferedwriter	bufferedreader	printwriter
+filterreader and filterwriter character streams correspond back to filterinputstream and filteroutputstream byte stream classes
+however i noticed few changes as - bufferedinputstream extends filterinputstream but bufferedreader does not extend filterreader
+bufferedoutputstream and printstream both extend filteroutputstream but bufferedwriter and printwriter does not extend filterwriter
+
+2904283
+processors	hyperthreading
+
+i can already correctly detect the number of logical processors correctly on all three of these platforms
+to be able to detect the number of physical processors cores correctly i ll have to detect if hyperthreading is supported and active or enabled if you prefer and if so divide the number of logical processors by 2 to determine the number of physical processors
+
+2904310
+post	get
+barry if you would like to get credit for your comment please feel free to post it as an answer and i ll make sure to accept it
+since i haven t gotten any more feedback on this issue i thought i d just share what ended up being my solution as suggested by barry in a comment to the original post manually renaming the ...bin debug projectname .exe to something else projectname 1.exe is one work-around i m however not allowed to delete the file myself and i must say i find that a bit weird as one would believe the same lock preventing deletion would also prevent renaming...
+it s not a good solution but it s reasonable fast at least after you ve done it a couple of times it almost becomes a routine and at least way faster than restarting visual studio which is what i did in the beginning
+
+2904341
+try-catch	exception-handling
+strange enough the application simply keeps on running but with the incorrect screen updates
+at first we thought the problem was caused by a try-catch ... construction put there by an overactive ex-colleague but several hours later carefully inspecting the call stacks adding many breakpoints ... we found out that if there s an access violation in a paint event windows catches it and simply continues running the application
+is it normal that windows catches exception-handling errors during a paint event
+
+2904350
+actionscript	mxml
+so putting statements inside a tag in an mxml file is equivalent to putting code in a static block in a java class definition
+following the advice of www.flextras.com s answer i kept the generated actionscript classes and had a look
+the code inside tags is simply put in the class body as-is
+
+2904482
+post	get
+if the username in a server then it is returning the value as 1 otherwise empty and despite of successfully getting the value from the server based on username is present or not and assigning the value to variable x i m unable to get message when i pass already exist username
+edit this is what i m doing in post request in servlets
+
+
+2905039
+processors	hyperthreading
+i think that multi-core processors report that they are hyperthreading enabled even though each individual core can run only one thread
+it also returns the number of logical processors per physical processors in bits 23-16 of ebx
+i think that you d have to query each processors individually in order to hit all of the processors on your system
+
+2905054
+oledb	openrowset
+imex 1 to read all fields as text - this could have to do with mixing values text
+second option is try to install office data connectivity components from displaylang en - and work around oledb
+then setup your openrowset as such good luck
+
+2905082
+cpu	affinity
+on your app set the cpu affinity to run only on your shielded cpu
+effectively this should prevent the os from ever suspending your app as it will always be the only runnable process for that cpu
+never allow let your process willingly yield control to the os which is inherently non-deterministic for non realtime oses
+
+2905225
+int	chars
+but you could also try records if you do not use array strings are also arrays of chars or object properties you can directly save and load a record to memory stream file etc
+i use this in my asmprofiler to be able to read and write many small results very fast array of record with some int values can be saved and loaded with one move copymemory call
+
+
+2905497
+post	get	post	get
+you need to make a get request by changing type post to type get
+you re making a post to a static file which iis does not allow
+you need to make a get request by changing type post to type get
+
+2905512
+puts	gets
+the user gets a form with a browse button and then points to a excel file with a defined content format
+after that the vba code reads the data and puts it into the access database
+
+
+2905615
+folder	directory
+the dialog is only for one-at-a-time
+you can however add them yourself via the .actionscriptproperties file located in your project s root folder you have to browse via explorer to see it
+under the modules node add as many of the following elements as needed the destpath determines where the module will be located in the published directory structure
+
+2905707
+post	get	post	put
+this might be not the nicest solution but it is also used by other frameworks i have encountered symfony for php
+the documentation about .ajax s type attribute says the type of request to make post or get default is get
+note other http request methods such as put and delete can also be used here but they are not supported by all browsers
+
+2905707
+post	put
+use firebug or similar to find out which method is used
+one idea to make it working send the data using post but add an additional field
+on the server side your service has to recognize this and perform the put functionality
+
+2905751
+ready	each
+both scripts contain sample code that demonstrates how to use the core script code
+the solution i am posting is a couple production ready vbscripts that leverage whoami to find this information
+one cool thing about them is that they work with xp for information that is available on xp if you place a copy of the resource kit version of whoami.exe next to the script or in the system32 folder of each machine
+
+2906044
+xna	slimdx
+if it s just for learning purpose of the directx api but in c# i would say pick the windows api code pack or slimdx
+xna xna is a game oriented framework that allow you to target multiple hardware easily windows the xbox 360 zune and now windows phone 7 with version 4 using .net languages like c#
+note that there s not a 1-1 relation between xna and the directx sdk for instance it doesn t expose d3d10 or d3d11 or some interfaces that you can find in d3dx
+
+2906080
+cpu	processors
+the main problem is generally to put your processors when in idle in a low-consumption state deep sleep
+if you cannot reduce the cpu percentage used by much for example from 80 to 50 it won t make a big difference
+depending on what operating systems you are running the options may vary
+
+2906179
+keydown	keyup
+however on vista and windows 7 cmd + l causes problems regardless of low-level keyboard hooks win + l is always intercepted by windows and normally locks the workstation.
+you can disable workstation locking with this registry hack but pressing win + l still can t be rebound in ahk pressing win + l leaves winkey in the keydown state until the next additional winkey up
+simulating a keyup event doesn t seem to work either
+
+2906303
+createfile	deviceiocontrol
+to perform reads or writes simply call readfile and writefile buffer must be aligned on sector size
+more info can be found in physical disks and volumes section of the createfile api documentation
+alternatively you can also you deviceiocontrol function which sends a control code directly to a specified device driver causing the corresponding device to perform the corresponding operation
+
+2906480
+folder	directory
+i would put the test myclasstest in the same package com.example but in a separate folder test this is maven s standard directory layout
+but you can compile the class files for tests and main classes to the same output folder target
+
+
+2906620
+scrollable	panels	scrollable	panels
+if you really want to use a label you could put the label inside a scrollable panels control and set the label s autosize property to true
+a read-only scrollable textbox control will be much easier to use
+if you really want to use a label you could put the label inside a scrollable panels control and set the label s autosize property to true
+
+2906808
+put	get
+don t put all your eggs in one basket technique another technique off the top of my head is to create multiple windows in the background with the registration form and keep them all in sync when any the fields in any one changes
+this is a classical technique and really puts the don t put all your eggs in one basket saying into real-life usage
+another advantage of this awesome technique is even if the user closes one of the windows and later comes across an identical cloned window with all the fields they filled up-to-date populated they might get confused and think that they never closed the page
+
+2906952
+draggable	droppable
+drag drop columns this could be trickier
+i would start by applying the draggable behavior to elements
+the described above inside the elements could have a droppable behavior
+
+2907150
+int	double
+sql server s float type is an 8-byte floating-point value equivalent to c# s double
+like this if you want fractionalpart to be an int you can multiply it by 10 n where n is the number of digits you want and cast to int
+however beware of precision loss
+
+2907169
+folder	directory
+now this makes it necessary to put the unmanaged dll somewhere into the system32 directory or any other directory in the path environment variable
+now i want to change the wrapper native dll opensource so it loads the dlls also if they are only in the bin folder
+the absolute path is determined at runtime not at compile-time.
+
+2907463
+post	get
+as for whether to segment it by user id or by post id that depends on whether you will more often be looking for all posts viewed by a user segment by user_id to get them all in one query or all users who have viewed a post segment by post_id
+nope you don t really have much choice other than to store your visit data in a table with columns for at a bare minimum user id post id and timestamp if you need to track the last time that each user visited each post
+i question whether you need an id field in that table rather than using a composite key on user_id post_id but i d expect that to have a minor effect provided that you already have a unique index on user_id post_id
+
+2907463
+post	get
+if you break it up by user or post id then you will still be able to determine whether a given user has previously viewed a given post and if so on what date with only a single query
+if you segment it by date then that information will be spread across all tables and in the worst-case scenario of a user who has never previously viewed a post which i expect to be fairly common you ll need to separately query each and every table before having a definitive answer
+as for whether to segment it by user id or by post id that depends on whether you will more often be looking for all posts viewed by a user segment by user_id to get them all in one query or all users who have viewed a post segment by post_id
+
+2907814
+equals	gethashcode
+or you can have your class implement iequatable and override the default gethashcode and equals properties to make them equals if all the values are the same or whatever criteria is approproate
+assuming searchresultitem is a class and not a struct then as a reference type it is only truly equals if it is a reference to the same type
+but you have created a new object for each result
+
+2907814
+iequalitycomparer	iequatable
+but you have created a new object for each result
+all your values will be considered distinct unless you can pass in your own iequalitycomparer object
+or you can have your class implement iequatable and override the default gethashcode and equals properties to make them equal if all the values are the same or whatever criteria is approproate
+
+2907940
+int	boolean
+you can tell linkedlist is generic because the javadoc header shows -- the e is a generic type
+the definition of get is public e get int index -- since its return type is e whatever you specified for the linkedlist s generic type will be the type returned by that method
+similarly the add method s signature is public boolean add e o so it will only accept integers as arguments and will fail at compile time if you try to add the wrong type
+
+2908134
+affinity	processors
+however that said in today s world of shared processors caches this won t be a prerequisite for good thread scheduling
+you can influence a thread s affinity for a given core by calling the setprocessoraffinity method
+however i tend to shy away from doing this because the os is generally pretty good at getting your threads right
+
+2908211
+pull	push	pull	push
+tracking what has been pushed would be slightly tricky because you can push to multiple places
+and you can pull from multiple places
+so i could push to x then push to y then pull from z and my hg outgoing x output is difficult to predict local-only
+
+2908351
+g++	gcc	g++	gcc
+with gcc in can be done in a single pass as a side effect of the compilation by adding -mmd flag to cxxflags and to the end of the makefile body and as guys mentioned already always have gnu make manual around it is very helpful
+makefile part of the question this is pretty easy unless you don t need to generalize try something like the code below but replace space indentation with tabs near g++ automatic dependency graph generation a must feature for most make systems
+with gcc in can be done in a single pass as a side effect of the compilation by adding -mmd flag to cxxflags and to the end of the makefile body and as guys mentioned already always have gnu make manual around it is very helpful
+
+2908669
+put	get
+it is a very simular question jquery and ajax post issue edited the problem is your ajax call is not registering your script tag
+if you put the script on your main page and not the ascx then this will work
+or you can get the script tag from the ajax response and then register it with the dom
+
+2908675
+overwrite	preserve
+i haven t had a chance to try this on a mac or linux box but from reading around online the preserve flag is a normal stumbling block to come up against in a windows environment
+simply overwrite and replace everything in destination with whatever is in source or can i skip a file with conflicts and just log it for resolution later
+
+
+2908823
+post	get
+when i click the generate link i don t get the same output i get in the wp page as when i go directly to sample-ajax.php in my browser. i ve got my code 1 set up as follows mu-plugins sample.php mu-plugins sample sample-ajax.js.php mu-plugins sample sample-ajax.php 1 note the following tutorial got me this far but i m stumped at this point.
+i m writing a wordpress mu plugin it includes a link with each post and i want to use ajax to call one of the plugin functions when the user clicks on this link and then dynamically update the link-text with output from that function
+i m stuck with the ajax query
+
+2908830
+post	put
+this extension is then called by the registerroutes method in global.asax like so.
+after some more googling i reworded the question in this post
+using the answer from that question i was able to put together a suitable routing extension method which i include below
+
+2908864
+post	get
+i consider myself very good with math and about as logical as you can get but i have zero real-life programming knowledge
+the sites we want to make are all pretty web 2.0 ish meaning user-generated content commenting on post pages that change on the fly etc
+something that is a good indicator how most other languages work
+
+2908877
+decimal	ieee
+ieee floats floating points in programming languages are confusing because they re different from the way we use them in math
+instead the number operations should be viewed as expressions that are only converted to a decimal point format when needed printing to a screen
+maple and mathematica did this right i think
+
+2908932
+maven	m2e	maven	pom.xml	nexus	artifactory
+eclipse has m2e plugin and if you define locations of remote maven repositories in your pom.xml definition you can add dependencies in its pom.xml editor and it will automatically search the proper artifacts for you
+what is really helpful is using repository manager like nexus artifactory where you gather the most important maven repositories and then you don t need to declare particular repository locations in your pom.xml definition for various artifacts but everything will be proxied via nexus
+
+
+2908941
+ienumerable	iqueryable
+so instead of you can just write
+i believe in the 2nd case the type of myquery is an rather than ienumerable
+if you don t need anything specific to an iqueryable that you can t do with an ienumerable then they behave the same
+
+2908952
+implements	extends
+i seem to have a fair idea of what is being done but i still have a few things to sort out
+i have a interface and an class that implements the node interface
+i then created a a node that can have 0 to n children and that is part of an n -ary tree class that extends and implements
+
+2908961
+put	get
+in your openingfcn you would then add a line like you now have a choice to make
+the canonically correct way to store data in your gui is to put it in the handles structure and then store it with guidata as in the boilerplate is necessary because despite its name handles does not subclass handle and is passed by value not reference
+the guidata command sticks handles somewhere associated with the gui figure so you can get it in subsequent callbacks
+
+2908961
+put	get
+the guidata command sticks handles somewhere associated with the gui figure so you can get it in subsequent callbacks
+the problem with this approach is that when you put a large object in handles it makes the guidata command take forever
+this is true even though matlab is not supposed to copy data when passing by value unless absolutely necessary and it is even true if your object is a handle which takes like 4 bytes to pass back and forth
+
+2908964
+maven	pom.xml
+here is a copy of my pom.xml file which was generated using an archetype
+my goal is to take a grails web application and build it into a web archive war file using maven and the key is that it must populate the plugins folder without live access to the internet
+an out of the box grails webapp will already have the plugins folder populated with jar files but the maven build script should take care of populating it just like it does for any traditional war projects such as web-inf lib if it s empty this is an error when executing mvn grails run-app with grails 1.1 using maven 2.0.10 and org.grails grails-maven-plugin 1.0
+
+2908964
+maven	pom.xml
+an out of the box grails webapp will already have the plugins folder populated with jar files but the maven build script should take care of populating it just like it does for any traditional war projects such as web-inf lib if it s empty this is an error when executing mvn grails run-app with grails 1.1 using maven 2.0.10 and org.grails grails-maven-plugin 1.0
+this hibernate-1.1 plugin is needed to do gorm. the build machine does not have access to the internet and must use an internal enterprise repository so this error is just saying that maven can t find the required artifact anywhere
+that dependency is already included with the stock grails software that s installed locally so i just need to figure out how to get my pom.xml file to unpackage that zip file into my webapp s plugins folder
+
+2909020
+centos	linux
+my life felt ruined until i got this working for the sake of ipython
+i found this thread looking for an answer for the same longbit error while installing python readline for 32bit python on 64bit centos
+the link doesn t have the direct answer so i had to google further for the answer which might be straight-forward for seasoned linux users devs
+
+2909021
+jsf	seam	jsf	seam
+this what it looks like with seam
+i m developing a pure javaee6 application with jsf 2.0 and glassfish. my jsf implementation is primefaces beside mojarra provided by glassfish
+i want to verify if the values of 2 password fields in a jsf form are equal. with seam there is the neat component . i want do to the same without seam just using jsf or maybe a component of a jsf library
+
+2909065
+disk	ram
+the memory journaling mode stores the rollback journal in volatile ram
+this saves disk i o but at the expense of database safety and integrity
+if the application using sqlite crashes in the middle of a transaction when the memory journaling mode is set then the database file will very likely go corrupt
+
+2909087
+vim	emacs
+i do that even on my workstations where i do have full gnome environment
+i simply like the way vim works in the same terminal window i do other things
+when i tried emacs some time ago the first thing i changed was to disable its gui
+
+2909133
+folder	directory
+i ve tried clearing the url redirects from the iis admin console in the web control panel from my hosting provider and i ve also tried removing the httpd.ini file from the site root directory to try and clear all re-directs but for some reason when i go to the site it still wants to redirect in an endless loop
+the site is agrionline.biz before i did anything i had a subdirectory domain pointing set up which made actually use agrionline.biz site1 as the root folder. i wanted to change this so that instead of that i wanted my site to actually redirect to the site1 folder rather than use it as the root
+so i went into the iis admin console on my hosting providers web control panel and tried to add a url redirect from to site1
+
+2909464
+int	double
+any of the following would evaluate the way you expected 7.0 10 7 10.0 7.0 10.0 7 double 10
+you ve used int in the expression 7 10 and int 7 divided by int 10 is zero
+what you re expecting is floating point division
+
+2909770
+tstringlist	tlist
+i m wondering if these additions are very practical if you can t use strings with them
+edit someone mentioned tstringlist
+i ve used that up till now but i m asking about tlist
+
+2909772
+atoi	atof
+likewise you can have atol for ascii to long atof for ascii to float etc
+a google search for atoi ascii to integer confirms this on several pages
+i m having trouble finding any official source on it.
+
+2909798
+helpers	actioncontroller
+another way to get the url to the original referrer the back you re looking for is by using the request method
+you are trying to use a view helpers method in your controller
+the behavour you expect resides in actionview helpers urlhelper but the method you are calling is in actioncontroller base
+
+2909862
+move	drag
+
+i have ismovetopointenabled on for my slider so when i click anywhere on the component the selector move to my mouse
+the problem is if i have this option on and click and hold the mouse down to drag the selector the selector doesn t move
+
+2909998
+os.walk	pathlib
+if you use the concrete path variant you can also do actual os calls through them like chanding into a directory deleting the path opening the file it points to and much more
+use os.path.join to concatenate the directory and file name for path subdirs files in os.walk root for name in files print os.path.join path name note the usage of path and not root in the concatenation since using root would be incorrect
+in python 3.4 the pathlib module was added for easier path manipulations
+
+2910000
+folder	directory
+imo there shouldn t be any files in the solution folder that are not part of the solution anyways
+put the images folder somewhere else outside the solution folder
+if they re part of a website create a virtual directory for them
+
+2910000
+folder	directory
+if they re part of a website create a virtual directory for them
+imo there shouldn t be any files in the solution folder that are not part of the solution anyways
+
+
+2910037
+firefox	safari
+i am having issues with my secondary page header images shifting
+it is displaying correctly in firefox i haven t been able to check in ie yet w out access to a pc
+it was displaying correctly in chrome but shifting in safari
+
+2910064
+uiview	subviews
+by doing so my app automatically will load with the uitabbarcontroller in the root view
+how can i accomplish the following when my app loads a uiview will show 4 buttons clicking on a button will load a uitabbarcontroller not a uiview with a uitabbar that can display multiple views
+this seems challenging to me because in order for me to use the uitabbarcontroller i need to add this to the window s subviews in my appdelegate
+
+2910121
+post	get
+this seems like it should be simple but i ve been struggling for several hours to get anything working
+i simply need to have a notification post when a valid ip address is assigned
+i have tried polling via screachability but that seems to be inefficient
+
+2910125
+jar	manifest.mf	jar	manifest.mf
+manifest.mf contents can be main-class com.mastergaurav.test.app.mainclass class-path lib one.jar lib two.jar folder contents to execute java -jar my-main.jar
+you can create a folder say lib within the folder where you have the jar file
+manifest.mf contents can be main-class com.mastergaurav.test.app.mainclass class-path lib one.jar lib two.jar folder contents to execute java -jar my-main.jar
+
+2910186
+int	boolean
+this declares a local variable representing a true or false value similar to java s boolean
+logical procedure circuit int value v
+this declares a subprogram named circuit having a single int parameter v that is passed by value
+
+2910674
+inline-functions	inlining
+inlining improves performance only if the function to be inlined is simple accessors mutators no loops
+ideally i would use inline-functions instead of using macros to eliminate function call overhead
+however basing from your snippet the macros you have would call several nested functions
+
+2910694
+free	malloc
+a pointer to memory that is no longer allocated is called a dangling pointer and accessing it will usually cause strange program behaviour and crashes since its contents are probably not what you expect -- that piece of memory may have since been reallocated for some other purpose
+edit as stinky472 mentions another difference between delete and free is that only the former calls the object s destructor
+remember that you must call delete on an object allocated with new and free for memory allocated with malloc -- they can t be mixed. in c++ it s always best to use static allocation if possible but if not then prefer new to malloc
+
+2911014
+inherited	properties	inherited	properties
+enableviewstate properties on any container will override the behavior of all controls within that contain
+it get inherited form the parent one
+enableviewstate properties on any container will override the behavior of all controls within that contain
+
+2911022
+division	multiplication
+for example output 0 will be multiplication of a 1 to a n-1 and output 1 will be multiplication of a 0 and from a 2 to a n-1
+solve it without division operator and in o n
+i really tried to come up with a solution but i always end up with a complexity of o n 2
+
+2911117
+fontfamily	font-size
+i am not a css expert and working with css makes me feel worse than dealing with a second hand car dealer
+.main fontfamily arial trebuchet ms sans-serif
+font-size 0.8em
+
+2911117
+fontfamily	font-size
+.footer span color #666
+fontfamily arial trebuchet ms sans-serif
+font-size 0.7em
+
+2911343
+uiview	subviews
+in the uicatalog sample application see transitionviewcontroller there an example on how to animation two subviews
+the 2 uiview is a good approach
+by using the uiview animations functions you can switch between the log and the picker with the desired transition
+
+2911438
+boost	allocator
+edit moved my answer comment in here for the code formatting to bind the destroy function classfactory should have a longer lifetime than the shared_ptr if the classfactory instance is deleted the this pointer passed to the shared_ptr instance will be invalid - and crash your app when the shared_ptr deletes the yourclass instance
+here s the code to do what you want probably won t compile as i don t have boost on hand and i m writing it from memory i implemented this twice in two different projects
+in both the create and destroy functions were synchronized you can add a boost mutex lock around the use of allocator and they were members of a factory class and the destroy s signature was modified to through the usage of boost bind
+
+2911438
+boost	allocator
+in both the create and destroy functions were synchronized you can add a boost mutex lock around the use of allocator and they were members of a factory class and the destroy s signature was modified to through the usage of boost bind
+you can also avoid writing two extra functions the destroy and create by binding dirrectly in the boost shared_ptr constructor
+i m too lazy to write all that now
+
+2911798
+ffmpeg	libavformat
+i m using libavcodec libavformat libavutil of ffmpeg for encoding the video to h264 audio to aac and mux it stream using rtp
+so far i was able to encode video and audio correctly using libavcodec but now i see that ffmpeg seems to support rtp muxing too
+unfortunatelly i can t find any example code which shows how to perform h264 encoding and rtp muxing
+
+2912172
+sproutcore	cappuccino
+kind regards swami
+i recently found out about the sproutcore and capuccino frameworks for web app development as proper mvc approach to creating desktop-like applications
+as far as i could understand the main difference between the two frameworks is that cappuccino abstracts away the html+css+javascript to objective-j - a new programming language developed be the creators of capuccino that adds oo capabilities to javascript whereas sproutcore uses html5 css javascript
+
+2912172
+sproutcore	cappuccino
+as far as i could understand the main difference between the two frameworks is that cappuccino abstracts away the html+css+javascript to objective-j - a new programming language developed be the creators of capuccino that adds oo capabilities to javascript whereas sproutcore uses html5 css javascript
+after lots of pondering i thought it s probably best to go with technologies we know so i downloaded the sproutcore tools and did the tutorials and i have to say i was very impressed
+just the kind of thing i was looking for for organizing a complex web app
+
+2912248
+m2e	pom.xml
+javacode folder contains pom.xml
+i have installed m2e 0.10.x to eclipse and imported whole projectname folder to eclipse
+subfolders are displayed correctly but maven integration is not working correctly - for example i don t see src main java shortcut folder in eclipse but i have to click to open all folders
+
+2912305
+puts	gets
+in coment we make a channel between client and server where client subscribes for particular channel
+server puts its data in the channel when it has it
+when client reads the channel it gets all the data in the channel and channel is emptied
+
+2912387
+ceil	sin
+since your program must end with return expression it will be wrong or won t halt with probability 1
+return ceil random works
+if you allow only operators like + - sin you can prove that every expression built using random variables from u 0 1 and arithmetic operations using each random variable exactly once will represent an irrational number with probability 1
+
+2912413
+maven	pom.xml
+the maven assembly plugin configuration the above samples enclosed by goes in the pom.xml not in the assembly descriptor
+if you configure the maven assembly plugin to use src main assembly src.xml as assembly descriptor the file must exist so either rename your assembly descriptor or change the configuration the above sample was just.
+an example
+
+2912531
+ubuntu	debian
+the same is true of perl. the popularity contest shows python to be installed somewhat more often than mono but both are widespread 21 python-minimal 1584305 182870 1381149 20211 75 matthias klose 577 mono-gac 1403534 25795 1323328 54159 252 debian mono group as for commercial potential it s difficult to say without any idea what sector you might be working in
+if you are targeting servers especially running older versions of ubuntu mono will be less widespread
+if you are selling simple consumer desktop apps.
+
+2912577
+apache	nginx
+if you have a few hundred people visiting your website and you have keepalive enabled each of these browsers will keep an apache process or thread busy occupying memory on your server
+you can work around this by disabling keepalive on your apache server but this slows down the performance of your website because browsers can t reuse connections
+so instead you use nginx as a reverse proxy with keepalive enabled
+
+2912577
+apache	nginx	apache	nginx
+because nginx is local to your apache server each request only occupies an apache child or thread for a few microseconds
+that means you can serve thousands of people with only a tiny handful of apache processes
+also nginx s configuration is much more flexible than apache and by having it on the front end it gives you a lot of flexibility
+
+2912592
+gentoo	debian	gentoo	ubuntu	gentoo	linux	debian	linux	ubuntu	debian	ubuntu	linux
+i hate to say this but it is working as a charm under win7 but not really under linux
+under debian-like distros x k ubuntu debian .. or gentoo or.
+i just can t have the device working at all the device scan well it has its usb 5v so it is happy beeping blinking something happened in the dmesg but no immediate screen display of the rfid tag code as expected and seen under win7 support is claiming it is ok under rhel or sled enterprises distros.
+
+2912642
+int	chars
+also since it s variable might be 4 might be 20 chars it s harder to sql server to properly maintain a good index structure
+a string primary key is a bad idea so changing it to an int will help performance
+most databases uses the primary key index for lookups and comparisons choose a brief primary key one column if possible
+
+2912917
+int	chars
+the extra in front of the d is because in java the is a special chars so it has to be escaped
+try this you could try to parse the string into an int as well but usually people try to avoid throwing exceptions
+what i have done is that i have defined a regular expression that defines a number d means a numeric digit
+
+2913063
+inherited	subclassing
+
+i have a card-game application which makes use of single table inherited
+i have a class card and a database table cards with column type and a number of subclassing of card including and for the sake of argument
+
+2913063
+inherited	subclassing
+in an attempt to rationalise my models i have created a directory structure like so app + models + card.rb + base_game + foo.rb + expansion + bar.rb and modified environment.rb to contain however when my app reads a card from the database rails throws the following exception activerecord subclassnotfound the single-table inherited mechanism failed to locate the subclassing foo
+this error is raised because the column type is reserved for storing the class in case of inherited
+
+
+2913087
+ubuntu	linux
+as fellow developers i would like to know if you ve been in a similar situation and how you ve resolved it
+on a furthernote i can t just install ubuntu as my development machine and mirror the commands applications etc
+from the linux machine because it s a cluster master machine and so therefore it has quite a special configuration
+
+2913458
+put	get
+if two threads enter the next method at the same time they may both get the same value of the seed and both return the same value
+what i would do is forget about wrapping the number in a nsnumber object and just put the code in next and setseed in synchronised blocks i can t comment on whether your algorithm is right or not
+however your init method needs to call super init like so
+
+2913590
+post	get
+the code is a bit rustic but works and will get you heading the right direction
+if the resource requires a post then you must submit a post
+this is a fairly simple task
+
+2913746
+google-chrome	firefox
+i m sure that firebug has something similar for firefox
+if you are using google-chrome chromium there is a built in profiler which includes rendering
+this is what it looks like when run on this page press ctrl-shift-j to access the developer tools in google-chrome
+
+2913876
+children	parent
+so with an entity mapped as above you can then do
+a possible solution other than queries might be mapping children with in xml notation
+this way you can fetch the parent with whatever query you need then call parent.getchildren .size without loading the whole collection only a select count type query is executed
+
+2913973
+console.readline	console.writeline
+pause program execution to review results... console.writeline press enter to exit
+console.readline
+
+
+2914002
+multibyte	substr
+possibly performing slightly faster although you would likely not notice the difference is update binary email is needed to force case-sensitive matching
+for the first question i would choose something like just for the sake of being thorough this is multibyte safe even though i ve used length
+all that s needed is for the third argument of insert to be at least as large as the end of the substr
+
+2914026
+squash	branch	squash	merge
+it dumps all the work done on that other branch into a merge commit destroying history
+the history you describe though isn t a merge at all squash or otherwise
+it s a rebase
+
+2914264
+put	get
+i can get this to work no problem in a web app but im having trouble doing it in the website project
+pagebase the above sample is what is in my web application and works fine but if i try and put this in the app_code it doesnt pick up the masterpage class so i cant access the property
+hopefully its something easy i am over looking
+
+2914485
+filtering	grouping
+thus to get a list of the birthdayless people we write every person whose birth date is missing value which does exactly what it says
+the whose clause filtering the preceding list so that it only contains values matching the given predicate
+we then add that list to the new grouping which we create inline
+
+2914492
+innodb	myisam
+when i run causes myisam to finally correctly use 5-byte rows
+when i run the same alter table statement for innodb the avg_row_length does not change
+
+
+2914576
+post	get
+here is how i am trying to do it
+i m writing a greasemonkey script and i wanted to change the text of a forum post on a phpbb2 forum by using xpath to select the body of the post that occurs after a certain username but the whole thing is a giant mess of tables
+i need to get the postbody span that happens after the username in the b tag equals a certain name and then mess with the text
+
+2914641
+google-chrome	safari	google-chrome	firefox
+firefox and safari don t have this issue
+given the following string if i split the string on the commas i normally get an array as expected trouble is that in google-chrome for mac it appends extra properties to the array
+output from google-chrome s debugger arr array 0 one 1 two 2 three constructor function array index undefined input undefined length 3 so if i iterate over the array with a for in loop it iterates over the new properties
+
+2914733
+swt	swing
+addendum gilbert le blanc raises an excellent point about the ease portability of swing
+in contrast swt requires slightly more effort to deploy but some users prefer the greater fidelity of org.eclipse.swt.widgets.filedialog as shown here
+addendum i notice that filedialog displays a more native-looking window as seen here
+
+2914742
+put	get
+i have 2 classes the compile error is the type or namespace name class1 does not exist in the namespace my.app.foo in this situation i can t seem to get visual studio to recognize that foo.class1 refers to the first class
+if i mouse-over foo it shows that its trying to resolve that to my.app.foo.class1 if i put the line using foo
+at the top of the .cs file that contains class2 then it also resolves that to my.app.foo
+
+2914984
+inherited	properties
+so the natural solution was to take all the settings properties and break them into a separate settings class which could be serialized deserialized
+each car class could also inherited the settings class with one that sets the default values and can be serialized as the basis of user customization
+sofar so good
+
+2915123
+postgresql	mysql
+for example highscalability.com has good examples wikimedia architecture the master-slave category ... handling data in mega scale systems starting from slide 29 mysql scale-out approach for better performance and scalability as a key factor for wikipedia s growth chapter 24
+high availability and load balancing in postgresql documentation chapter 16
+i m not sure - i m eager to read answers from experts - but i think the schemas are identical in traditional replication scenari the tuning may be different though
+
+2915147
+scrollable	panels
+update here is an example script that will reproduce the problem the problem i have is really two-fold for my application and both are demonstrated to not work in the above example i need the left side of the panels horizontally scrollable and right justified i need the paned window widget the parent of the two panels to be vertically scrollable both left and right panels together scroll together
+i ve come across a bug i believe in perl tk 804.027 text widget using scrollable rotext . when i add a tag that selects all and apply the configuration change to justify to the right the scrollbars do not show up
+if i comment out the tagconfigure where i justify to the right the scrollbars come back
+
+2915289
+dictionary	map
+but anyway just give it a try as with all performance issues
+if you re really concerned about performance you could cache the results of the nsclassfromstring and put them in a dictionary
+on the other hand that s probably pretty much what nsclassfromstring really does a map lookup
+
+2915303
+hide	show
+i m using a jquery datepicker for selecting from to dates in a report and would like to show the dates to the client as mm-dd-yyyy but when the form is submitted submit as yyyy-mm-dd
+i ve come up with the following alternatives hide the text input for the from and to fields create dummy fields and make use of the following jquery date picker functions altfield and altformat to display the value to the client in their preferred way and deal only with the submitted values which are set through the alt functions
+have an onsubmit javascript call to change the dates from mm-dd-yyyy to dd-mm-yyyy and also change the value to change the date to the client s preferred format
+
+2915330
+inherited	subclassing
+see testify
+i don t think the above pattern is terrible but multiple inherited is certainly not idea
+i guess the reason you can t just have testheap be a subclassing of testcase is because it will automatically be picked up and run as test not knowing that it needs to be subclassing
+
+2915383
+put	get
+if the top part of the stack trace is the same as the earlier trace the full set of frames is only shown for the outermost exception and the other traces get the ... treatment
+put another way the chunk of a trace that isn t shown is a duplicate of a trace that appeared earlier in the exception cause chain
+for example suppose i have code where the method main calls one which calls two and so on
+
+2915477
+springboard	backgrounding
+urgent quit all backgrounding apps safari and ipod
+critical and beyond the kernel will take over probably killing springboard or even reboot
+killing the active app jetsam is not handled by springboard but launchd
+
+2915573
+metaclass	abc	metaclass	isinstance
+classes that use the metaclass can use abstractmethod and abstractproperty to define abstract methods and properties
+the metaclass will ensure that derived classes override the abstract methods and properties
+also classes that implement the abc without actually inheriting from it can register as implementing the interface so that issubclass and isinstance will work
+
+2915573
+abc	isinstance
+also classes that implement the abc without actually inheriting from it can register as implementing the interface so that issubclass and isinstance will work
+for example the collections module defines the sequence abc
+it also calls sequence.register tuple to register the built-in tuple type as a sequence even though tuple does not actually inherit from sequence
+
+2915584
+put	get	folder	directory
+this makes it very easy to get previous versions out without having to have lots of tag branches that are uniquely named
+if we did start using tag branches its been suggested then we d make a full path copy into the tags directory we d still merge onto a single tag branch and put a log comment marking the release number we just have too many modules to manage them as 1 tag folder per branch
+and no we never make changes to historical revisions - if a customer needs new functionality they have to upgrade to the latest version which is never a problem until they change the base platform version we don t use branches either as we tend to work on the head version of each module if we do need a branch for a major set of changes we will branch at the base level so we d create a base v2 - performance branch and branch everything
+
+2916009
+overwrite	preserve
+they are doing redim preserve datamatrix 7 i in both loops
+also it seems like the second loop just overwrite the data in the first loop is that correct
+
+
+2916139
+post	get
+would rather leak than crash until i get a better solution
+the second post here had useful info but their answer didn t work for me
+uiwebview in multithread viewcontroller it also seems that this may have been addressed in iphone os 4 but not sure
+
+2916209
+jar	manifest.mf
+further investigation shows surefire generates its own jar file in a temporary directory private var folders tr trevj1wihyyacuy-xmc3uu+++ti -tmp- surefirebooter7448562488934426857.jar and then uses this jar to load the library class
+this jar does not contain the resources i stuck under src main resources
+so putting a meta-inf manifest.mf file also does not work
+
+2916260
+versioning	upgrade
+if all else fails upgrade to 1.9.x i believe it is recommended for rails 3 anyway
+you may have two different versioning of ruby installed
+try gem env or sudo gem env and see which version of ruby it says you have
+
+2916672
+packets	pcap
+just take the ethernet frames that you get from pcap and extract the ip packets from them reassembling any that were fragmented
+then reorder the tcp segments from the ip packets according to the sequence numbers paying attention that you discard any duplicate data
+then process the stream as an http stream
+
+2916710
+systemtap	perf	systemtap	lttng	perf	lttng
+edit i missed one of the tracing frameworks there is also lttng if you re using busybox and can compile your own kernel perf is probably the most minimal way to go it s consists of turning on perf events in the kernel and compiling the perf tool that comes with the kernel source it s in tools perf
+not in the way you describe however there are various profiling tools for linux like oprofile systemtap and perf events i m not sure how well they d fit into embedded development though
+edit perf is probably best if you are running a recent enough kernel to use it since it s in the mainline so you just have to turn it on and it s really basic
+
+2916937
+snmp	mib	snmp	mib
+in other words is there a tool or method that will convert a mib tree to java objects that can be traversed in a program to retrieve oid s names descriptions
+i am programming a network management system and need to be able to print out meaningful names behind the oids that are received from snmp traps
+due to the nature size of this system it would not be a good idea to manually map every oid to a meaningful name for every mib on every device that is being used
+
+2916957
+actualheight	actualwidth
+none of them do
+actualheight always gives 16.0 no matter what size font
+actualwidth changes according to the text length but not the font size
+
+2916958
+fast-forward	merge
+hooray
+however if someone has pushed to origin before i do my commits are not fast-forward
+thus a merge commit ensues
+
+2917086
+datamapper	activerecord
+for example the activerecord orm solves composition using a composed_of method that will dynamically add the appropriate fields and properties to your class
+i m not saying that this is the way it should be done for example datamapper which is another orm for ruby choose a more conservative approach and so resembles more like fluent nhibernate it s just an example of how things can be done differently
+things like aop or di aren t a foreign concept for dynamic languages they are just usually done in an alternative way
+
+2917109
+cvs	svn
+when i change a file in one of these and run meld it diffs it against the svn version
+however for some of the other developers it diffs against cvs
+everyone is using meld 1.3.0 edit ok i see now that there is an option on the address bar in the directory view to select however some of the machines don t have that bar
+
+2917247
+post	put
+i try to write my own but googling around tells me that it s impossible to write an assignment operator for a class with const data members
+one post i found said that if you made the data member const that means you don t want assignment to happen in the first place. this makes sense
+i ve written a class with const data members and i never intended on using assignment on it but apparently i need assignment to put it in a vector
+
+2917309
+x86	64bit	x86	64bit
+i thought at first it was just a matter of a busted dllimport and my call had an invalid type in the params or a missing marshalas or whatever but looking at other registry functions and their dllimport declarations for instance on pinvoke.net i don t see what else to try i ve had hkey returned as both int and intptr both worked on 32-bit os and fail on 64bit os i ve got it down to as simple a repro case as i can - it just tries to create a random subkey then write a value to it
+it works fine on my win7 x86 box and fails on win7 x64 and 2008 r2 x64 even when it s still a 32-bit process even run from a 32-bit cmd prompt
+edit it also fails in the same way if it s a 64bit process. edit it works fine if the file passed in is empty - the problem case is for the existing software registry hive
+
+2917309
+x86	64bit	x86	64bit
+edit it also fails in the same way if it s a 64bit process. edit it works fine if the file passed in is empty - the problem case is for the existing software registry hive
+i extracted bare software registry hive files from 2008 r2 x64 and whs v1 x86 iso s and both have the same problem
+on win7 x86 info running as admin in 32-bit process on 32-bit os was able to create microsoft windows currentversion runonceex a95b1bbf-7a04-4707-bcca-6aee6afbfab7 and write a value under it on win7 x64 as 32-bit on win7 x64 as 64bit source
+
+2917358
+inotifycollectionchanged	inotifypropertychanged
+edit i love reading an answer thinking hey that s not right and then realizing i wrote it
+if you bind to an object that just implements inotifycollectionchanged the count in the ui won t change if items are added or removed ot the collection
+the object also has to implement inotifypropertychanged and raise propertychanged when the count property changes
+
+2917527
+prepare	execute	prepare	execute
+if desired you could construct a string and execute it as dynamic sql
+unfortunately you cannot parameterize table names for prepare statements
+if desired you could construct a string and execute it as dynamic sql
+
+2917699
+factors	mean
+in the joel s example ship date is what you want to estimate
+in most such situations there are random factors that impact our estimates
+when you have a random quantity you typically wants to know its mean and the standard deviation so that you can take appropriate actions
+
+2917724
+post	put
+hope this is useful
+a while back i found a great blog post on this topic at blog.atebits.com and have since started using loren brichter abtableviewcell class to do all of my uitableviewcells
+you end up with a simple container uiview to put all of your widgets and scrolling is lightning fast
+
+2917844
+rtp	sdp	rtp	sip	sip	sdp
+the minimum you need to build an sdp packet are the codecs you re offering and the ip socket you re accepting the rtp on
+for 2 once you get an ok response you will know the ip socket that the sip user agent server uas is listening on and the codecs it accepts and can start sending your rtp
+at the same time you should start receiving rtp from the uas as it will start sending at the same time it sends the ok
+
+2917917
+free	calloc	free	malloc
+in other words you have one block of dynamic memory and it contains a bunch of pointers to a bunch of dynamically allocated ncurses structures menu items
+so to clean up once you re done you need to free each of the dynamically allocated ncurses structures and then you need to free the block of memory that held the pointers to those structures
+in other words every calloc or malloc needs a free every new_item needs a free_item and so on
+
+2918155
+updatepanel	scriptmanager
+this error comes from the javascript that is generated by the asp.net scriptmanager control error sys.invalidoperationexception could not find updatepanel with id ctl00_contentplaceholder1_updatepanel2
+the javascript generated by the asp.net sciptmanager control seems to have a bug and cant handle hidden updatepanel
+a javascript error is thrown when a control within one updated panel tries to make another update panel visible
+
+2918444
+mouse	keyboard
+the description is enables or disables mouse and keyboard input to the specified window or control
+when input is disabled the window does not receive input such as mouse clicks and key presses
+when input is enabled the window receives all input
+
+2918449
+inline	inlining
+so i m looking for alternative tools that are more standard and easier to install
+i m looking a program to recursively inline all commands in a latex file
+by recursively i mean doing the inlining iteratively until no command remains in the final latex file
+
+2918513
+subclass	inherited
+and here are some more rules of thumb about inherited strategies single_table all the classes in a hierarchy are mapped to a single table this strategy provides good support polymorphic relationships between entities and queries that cover the entire class hierarchy
+may contain null fields for some subclass data table_per_class each class in a hierarchy mapped to a separate table and hence provides poor support for polymorphic relationships requires sql union or separate sql queries for each subclass joined no null fields compact data this provides good support for polymorphic relationships but requires one or more join operations may result in poor performance in short if your subclasses declare relatively few properties prefer the single_table strategy
+if not use a joined strategy unless you have a deep hierarchy in which case the cost of joins may become more expensive than unions and then table_per_class would be less worse
+
+2918757
+folder	directory
+this plays very well with version control
+you can use and all the files will be stored in the folder tmp pdf included
+because this is not an optimal solution i made my own tool pydflatex that compiles the latex source by stashing away the auxilliary files using the trick above and brings the pdf back to the current directory so after compiling you only have file.tex and file.pdf in your directory
+
+2918886
+mri	rubinius	mri	rubinius
+however in rubinius another ruby implementation almost all afaik of the core classes are implemented in pure ruby
+in yarv mri most of the core classes are implemented in c see array.c bignum.c string.c and so on but some of the less-core classes are implemented in ruby e.g set vector and so on
+however in rubinius another ruby implementation almost all afaik of the core classes are implemented in pure ruby
+
+2918935
+temporary	tablespace
+because i didn t want to store the xmltype permanently i tried loading it into a pl sql variable session memory and a temporary table
+loading it into a temporary table took five times as long as loading it into an xmltype variable 5 seconds compared to 1 second
+the difference is because temporary tables are not memory structures they are written to disk specifically your nominated temporary tablespace
+
+2919088
+installation	upgrade
+i ve created a virtual machine to test the upgrade process the upgrade was successful and all my files and workspaces exist in the new server too
+the problem is the new tfs installation has a new instanceid
+when i redirected on the clients to the new server the client seemed unable to match files and file states in the workspace with the ones on the new server
+
+2919375
+children	parent
+here s some code i use openfaces treetable mbuserinstitutions
+i ve got one problem with checkboxes in jsf. i want them to behave dependently on each other when i check a box which belongs to some object that has children then all checkboxes that belong to these children components must be checked either
+and also when i uncheck one of child s checkbox the parent should be unchecked too
+
+2919458
+google-chrome	firefox	google-chrome	firefox
+when i copy the code and change the src to a .wav file and run it on firefox it works perfectly
+i am having a problem getting onprogress event for the audio tag working on google-chrome
+it seems to work on firefox
+
+2919458
+google-chrome	firefox	google-chrome	firefox
+it seems to work on firefox
+works on google-chrome but there is no progress bar update
+when i copy the code and change the src to a .wav file and run it on firefox it works perfectly
+
+2919461
+sproutcore	javascriptmvc
+i know sproutcore is backed by apple and looks like it is getting more popular by the day and it has a nice green website whereas javascriptmvc looks less professional with less of a following and less momentum behind it
+i ve done the tutorials for both and i was impressed by sproutcore more in the jmvc tutorial you don t really do anything substantial - but somewhere in the back of my mind i feel that jmvc might just be better because it doesn t try and do too much - it just gives you mvc functionality based on a couple of jquery plugins and you can use jquery for everything else so its flexible
+whereas sproutcore seems to have more of its own api etc.
+
+2919528
+post	get
+
+i m trying to write a free text search algorithm for finding specific post on a wall similar kind of wall as facebook uses
+a user is suppose to be able to write some words in a search field and get hits on post that contain the words
+
+2919528
+post	get
+a user is suppose to be able to write some words in a search field and get hits on post that contain the words
+with the best match on top and then other post in decreasing order according to match score
+i m using the edit distance levenshtein e x y e to calculate the score for each post when compared to the query word x and post word y according to score x y 2 2 - e 1 - min e |x| |x| where |x| is the number of letters in the query word
+
+2919546
+scheme	common-lisp	lisp	scheme
+as comments pointed out defun creates a global function binding flet and labels at local scope
+first off the syntax is neither common lisp nor scheme the two main lisp dialects which are in common use
+in common-lisp syntax this works as expected the are a few things which are a bit more verbose than required here
+
+2919580
+stderr	fflush
+keep in mind this may severely affect your performance
+actually stderr is unbuffered by default but i think that s only in terms of the c runtime
+we ve solved this before with fflush stderr
+
+2919580
+stderr	fflush	stderr	fflush
+we ve solved this before with fflush stderr
+fsync fileno stderr
+although we actually did it to stdout but the same rules apply - the actual fflush may not be necessary for stderr but it does no harm
+
+2919631
+curb	libcurl	curb	libcurl
+i need libcurl for that
+also could you help me with gem install curb
+even curb seems to need libcurl looking forward for your help thank you gautam
+
+2919641
+fflush	gets
+i.e custom reports could be written in the backend and the results of these stored in the cache under a key which then gets shared with anyone who would want to see the data of this report redundancy and scalability if we start sharing this data with a large amount of customers
+the main disadvantages i can see of using something like memcache data is not persistent if machine is rebooted cache is fflush
+the main advantages of using mysql persistent data
+
+2919692
+instances	transient
+here you use transient one so you can do the following without fear of bugs
+will create new instances on every call just like will
+but if you are using containercontrolledlifetimemanager then anyway you ll have to use because unity offers no other way to do this
+
+2919795
+opera	safari	opera	firefox	opera	google-chrome	firefox	safari	google-chrome	safari	google-chrome	firefox
+credits to for the code i based this on.
+here s some code i use to add dynamic favicon support to opera firefox and google-chrome
+i couldn t get ie or safari working though
+
+2919795
+google-chrome	safari
+i couldn t get ie or safari working though
+basically google-chrome allows dynamic favicons but it only updates them when the page s location or an iframe etc in it changes as far as i can tell to change favicons just go favicon.change icon url using the above
+credits to for the code i based this on.
+
+2919894
+actionscript	mxml
+but on the downside it will require some overhead learning how it works more so if you plan on using graniteds as well but once you get the hang of it i think it s a great tool
+edit actionscript is very similar to javascript they re both based on ecma script so if you know that it won t be too hard to learn as
+also the mxml part is somewhat similar to using html but a lot more powerful since you can define your own classes and use them directly as a tag in the mxml part
+
+2920250
+getter	setter
+nested exception is org.hibernate.propertynotfoundexception could not find a setter for property reversedname in class item .
+18 more it looks like hibernate is interpreting getreversedname as a getter for a property however in this case it is a derived field and hence should not be persisted
+obviously in my actual code the business logic i m exposing is more complex but it isn t relevant to this question
+
+2920267
+profiling	instrumentation	profiling	instrumentation
+the classes can be used to do runtime instrumentation for almost any managed method
+there are profiling and debuggers that use these to collect information about a running process
+you could use methodrental to instrumentation code for diagnostic purposes
+
+2920267
+profiling	instrumentation
+you could use methodrental to instrumentation code for diagnostic purposes
+some examples function enter exit would give you an execution trace that you could use to derive profiling data from
+instrumenting synchronization primitives can help you diagnose race conditions
+
+2920355
+opera	safari	opera	firefox	opera	google-chrome	firefox	safari	google-chrome	safari	google-chrome	firefox	vp8	ogg
+or you could encode in h.264 and ogg to switch between them depending on the browser but your storage and processing requirements go up
+to add to the confusion there is a third video codec for html5 called vp8 or webm recently acquired and open-sourced by google this will be supported in firefox opera google-chrome and ie9 but not safari
+given the confusing landscape for html5 video at the moment you might be better off sticking with flash until things clear up unless you don t mind the extra effort or you need your videos to play on ipods pads
+
+2920399
+equals	gethashcode
+
+i m needing to know the best way to compare two objects and to find out if there equals
+i m overriding both gethashcode and equals
+
+2920424
+children	parent
+the layoutdata tells the composite how to behave on the parent
+the layout tells the composite how to arrange its children
+in your case you are not setting a layout on currentcentercomposite therefor calling layout has no effect
+
+2920457
+hash	md5
+ening up in a never ending story
+you must exclude the hash sum from the calculation
+then you have use it but you cant add the hash rum til the end of the file expecting it to be correct or if you calculate the run over new yu will always end ut with a new md5 hash
+
+2920486
+hash	md5
+for all possible permutations of an md5 hash create the hash and compare the result with the original
+consider any hash and imagine adding some random text to it
+since there is an infinite amount of possible texts you could add but only a finite amount of possible hash values there must be possible texts which yield the hash
+
+2920911
+subscript	superscript
+generally when you re using superscript to indicate exponentiation not indexing so the output you describe is definitely incorrect in some cases
+and for subscript what if you really do mean not
+a sequence of indices and of course if this crops up as part of a substitution you can probably figure out a way to fix it as part of the substitution.
+
+2921115
+equals	gethashcode
+a basic version is to take the hash of whatever member variables you re using for equality multiply each one with a separate coprime number and xor them together
+if you use dictionary or sortedlist and override equals you need to have a hash function else they will break
+equals is also used all over the place in the bcl and if anyone else uses your objects they will expect gethashcode to behave sensibly
+
+2921175
+int	chars
+cannot index. you d better revise the structure of your code
+if it is an array of int s you should print it with a format of d not s
+if array is an array of int if you use s the printf function will treat as a string therefore will dereference the value print out the chars there
+
+2921377
+jar	war
+when you ll run ant in the project directory it will try to find dependencies and probably at first will complain that it cannot find ivy
+ivy is a dependency manager that red5 project uses that can be found in the following url please notice that ant will tell you exactly where it searches for the required jar file just download the ivy zip unzip it and place the jar inside it in the requested directory
+once ant will compile the project properly just by running the commant ant it will also create a war file under dist directory
+
+2921427
+bazaar	git
+i believe git and hg both have sub-branches though
+with bazaar if you create two branches in a shared repository any common history they have lives within the repository and not the branch itself - the branch merely references it
+this saves disk space for repositories that have many branches of the same projects for different features as well as speeds up the creation of new branches you re not having to duplicate the files containing branch history
+
+2921634
+getelementsbytagname	getelementbyid
+the html element doesn t have a specified name attribute and i doubt if a custom name attribute will work that way in ie with getelementsbytagname
+first getelementsbytagname is broken in ie
+rather use getelementsbytagname and or getelementbyid
+
+2921673
+post	get
+for example gif files start with one of the following gif87a or gif89a many file formats have the same signature at the start of the file or have the same header format
+this signature is refered to as a magic number as described by me on this post
+a good place to get started is to go to www.wotsit.org
+
+2921695
+nunit	moq
+it requires a shift in my thinking.
+i had been looking to use nunit s assert to verify that the indexer setter in my someclass mock was being called with the correct value
+it seems that with moq the supported way to do this is to use the verifyset function
+
+2921698
+super	self	superclass	subclassing
+your method 2 would be correct if -initwithnibname bundle is the designated initialiser of the super class -init is the designated initialiser of your class your example is a bit bizarre since you deliberately throw daway the nib name and bundle parameters -init was correctly coded not to throw away the return value from super initwithnibname bundle in your class you have to cover all of the super class init methods to ensure that your designated initialiser ultimately gets invoked
+the apple documentation on designated initialisers has this to say on subclassing general principle the designated initializer in a class must through a message to super invoke the designated initializer in a superclass
+also designated initializers are chained to each other through messages to super while other initialization methods are chained to designated initializers through messages to self
+
+2921698
+super	self
+also designated initializers are chained to each other through messages to super while other initialization methods are chained to designated initializers through messages to self
+your method 2 would be correct if -initwithnibname bundle is the designated initialiser of the super class -init is the designated initialiser of your class your example is a bit bizarre since you deliberately throw daway the nib name and bundle parameters -init was correctly coded not to throw away the return value from super initwithnibname bundle in your class you have to cover all of the super class init methods to ensure that your designated initialiser ultimately gets invoked
+
+
+2921800
+rss	feed	rss	feed
+it provides a reusable object model for parsing and writing rss feed
+it is fully compatible with rss versions 0.90 0.91 0.92 and 2.0.1 implementing all constructs
+since standard syndication feed does not support other versions of rss
+
+2921816
+folder	directory
+however althoug the files are created succesfully on the device i can browse them and open them using the device s file explorer - they are fine when i connect the device to a windows xp computer none of the directory or files i created appear and the size of their parent files suggest they do not exist
+i have tried running over the adb checked logcat tried a signed release version and even written a second test application which just creates a folder this behaves the same ie it creates the folder but this is not visible in windows explorer - nothing anywhere gives me any suggestion as to what the problem might be
+if anyone has heard of this before or has any ideas as to what else | could try to fix it please get in touch
+
+2921853
+int	chars
+if implicit none is not used the fortran compiler makes assumptions as to what the variable type is by the first chars of the variable name
+any variable that begins with an i j k l m or n is assumed to be int and all else is assumed real
+so the first problem i see is idist - you are sending a single from vb and this probable causing the memory access violation you are seeing
+
+2921868
+put	get
+that s not terribly accurate on converted projects you ll have to add the element yourself
+put it in the propertygroup labeled globals the story is different when you use vs2012 and up the first version of vs that acquired the platform toolset setting in the general property page
+you must then select v90 to get a proper build that targets 3.5
+
+2921895
+rdf	owl
+i ve been working with rdf constantly for the last 3 years and now convert all rdf xml to turtle before dealing with any raw data although i do have a nice tool that writes everything in a useful order and automatically inserts backreference comments etc. good luck
+you are missing the rdf type properties because you haven t loaded any ontology containing the required rdfs domain or rdfs range statements and i don t think you ve used any reasoner to make these inferences
+you can load the domain or range statements along with the rest of the data or jena has a facility for automatically loading an ontology when it sees and owl imports statement
+
+2921895
+jena	reasoning
+the jena rdfsinferencer documented here will do the reasoning you want
+btw i ve found sesame to be a lot easier to use and more robust than jena for large scale stuff although for scraping a few triples either would be fine
+bbtw turtle a subset of n3 is much easier to read and edit than rdf xml
+
+2922126
+integer	unsigned
+2
+in two s complement which pretty much everything uses an integer is negated by inverting all the bits then adding 1
+hardware does this more efficiently than it sounds from the above description but that s the basic algorithm for subtraction even when values are unsigned
+
+2922166
+inherited	properties
+i tried creating another model that had a boolean properties to represent being checked and a properties of the model and passing a list of that model type to the view and creating a actionresult on the controller that accepts a list of the new model checked properties but it comes back null
+here s what i ve done for wrapping the models inside a collection for the view i inherited from for the controller i have this as the actionresult but when i break inside the actionresult the collection is null
+
+
+2922354
+temp	tmp
+also i am using a sunos box
+i have just installed hudson on a weblogic server and i am having issues with the nodes going off line due to the free temp space falling below the 1gig threshold
+now i have checked my tmp folder thinking hudson uses that but it is sitting at 10gigs free
+
+2922511
+poisson	weibull
+the sum of n iid random variables has a gamma distribution
+the number of tasks ahead of the text return also has a dicrete distribution - let s say it s poisson
+i don t have the time to derive the resulting distribution but simulating it using risk i get either a weibull or gamma distribution
+
+2922551
+folder	directory
+i m trying to decide how much nesting we should do on the disk directory ec is the application name and common booktransfer or biztalk applications separated out for easier deploy undeploy
+proposal #1 proposal #2 - a flatter approach current structure perhaps too many nested folder the main is in case we branch we would then have other branches with identical structure
+
+
+2922724
+equals	tostring
+not a big deal just more time consuming then i expected
+the customizations were named queries we added cascade types our own to string methods equals and hash code methods
+i thought about creating classes that extended the entities to add in the tostring equals and hascode methods that way if we regenerated them they would not be lost
+
+2922781
+sum	coalesce
+having said that yes you should also use coalesce or ifnull to turn null values to 0
+i don t think the sum is the problem
+i think it may be your group by c.author_id where you are grouping by the right side of a left outer join
+
+2922783
+folder	directory
+thanks
+i have a folder called notes naturally they will be categorized into folder and within those folder there will also be sub-folders for sub categories
+now my problem is i have a function that walks through 3 levels of sub directory note that this is still very much a work in progress
+
+2922846
+daemons	systemd
+how can i detect if a user currently working with the systemd so the daemons have not to put it in sleep-mode
+i use the function iopmschedulepowerevent to schedule sleep or wake-events and registered my daemons with ioregisterforsystempower to receive power-state-changes
+everything works fine
+
+2923084
+iboutlet	ibaction
+you need to create two ibaction in your class ontouchdown and ontouchup
+create an iboutlet for your button too
+then go to interface builder and wire up the button to the iboutlet and wire up the action for touch down to ontouchdown and the actions for touch up inside and touch up outside to ontouchup. ontouchdown is where you ll set your highlighted font
+
+2923231
+git-rebase	undo
+git branch -d a git push origin heads a git branch b a git push origin a a alternately you can use the following command to undo that last commit
+git revert c4 which will make your timeline look like c1--c2--c3-- b c4-- c c4 -- a where c4 is a commit that undoes c4 i don t recommend using git-rebase or revert on a branch that has been pushed to a remote repo they can cause tons of trouble for you or anyone else using that repo
+
+
+2923240
+listview	gridview	gridview	listviewitem
+
+i m using theexpression dark wpf theme with a listview view property set to a gridview to display some user data like the following the rows have white text with a dark background and white background when selected however the text color doesnt change when selected and it makes very difficult to read i would like the text to have a dark color when the row is selected
+i have searched for a way to style the text color but with no success here is the control template for the listviewitem the trigger that changes the background color simply applies an animation to change the selectedrectangle opacity but i cant change the text color on the same trigger i tried using a setter for the foreground color on the listviewitem but with no success
+
+2923249
+int	boolean
+what this means is that you can t safely perform boolean operations on boolean without null-checking or exception handling
+same goes for doing math operations on an int
+for a long time i was a fan of autoboxing in java1.5+ because i thought it got java closer to be truly object-oriented
+
+2923319
+int	boolean
+that s why a boolean can refer to null
+so can an int
+so can a string etc
+
+2923437
+persistent	transient
+if cat has an assigned identifier or a composite key the identifier should be assigned to the cat instance before calling save
+you can also use persistent instead of save with the semantics defined in the ejb3 early draft
+persistent makes a transient instance persistent
+
+2923437
+persistent	transient	instances	transient
+persistent makes a transient instances persistent
+however it does not guarantee that the identifier value will be assigned to the persistent instances immediately the assignment might happen at flush time. persistent also guarantees that it will not execute an insert statement if it is called outside of transaction boundaries
+this is useful in long-running conversations with an extended session persistence context
+
+2923536
+google-chrome	firefox
+edit it seems to be working in firefox though jquery isn t returning undefined it is returning
+so this is a google-chrome problem at the moment
+
+
+2923600
+hide	show
+when you click the button it calls some javascript to show the
+clicking away from the hide the list
+what i really want is to make the appear fully expanded as if you had clicked on the down arrow but i can t get this working
+
+2923710
+google-chrome	firefox
+the one below is a 3x3 bmp.
+the following code displays correctly in google-chrome or ie the image is 200px wide
+in firefox and opera the max-width style is ignored completely
+
+2923712
+implements	extends
+you ve almost certainly got a core design problem here
+i would suggest making a single abstract class called abstracta that implements the interface a but had null implementations for all of its methods
+then have each of your implementing classes extends abstracta
+
+2923712
+implements	extends
+then have each of your implementing classes extends abstracta
+also i would wonder why you have a single interface with all these methods when they aren t intended all to be implements by each class that implements the interface
+you ve almost certainly got a core design problem here
+
+2923781
+google-chrome	safari	google-chrome	firefox	google-chrome	firefox
+javascript html in firefox i get the video harness but the actual video doesn t load. in ie8 the video harness doesn t even appear
+edit got this to work with artiom s fix. looks like this works fine with google-chrome and safari
+i m using a codec firefox doesn t support so it doesn t work there
+
+2924116
+post	get
+thanks
+i have no idea how to handle this in coldfusion 9 i have a form being submitted post with element checkboxes called items
+when i do a no-problem i get all the items shown with the proper names like eg however doing a results in an error
+
+2924130
+persistent	transient
+from the all too brief description it sounds like your data is really transient data and a cache system or other nosql-like arrangement may be a better fit
+if you do need to persistent the data eventually you could have a separate process that pulls the current data from the cache mechanism and loads it into your db
+then you would be limited by how long it took to extract it vs
+
+2924217
+folder	directory
+accidental damage to files such as removing the wrong ones or replacing with different versions is reduced since files are located in different directory
+deletion of files in the person folder will not affect files in the shape folder
+this is just my opinion your mileage may vary
+
+2924327
+ant	maven
+setting the system parameters has always worked for me and had the advantage of being outside of the build file for example when i m working from home with no proxies
+to configure no proxy options i don t know how to exclude local hosts using the ant proxy mechanism
+all i can suggest is trying to configure the jre directly maven resolver for maven central dependencies you need a resolver that looks like this this will automatically go to the maven central url . according to the doco this resolver will use the module poms in maven to determine transient dependencies
+
+2924394
+unsigned	short
+as long as a char object is large enough to store any member of the implementation s basic character set note that this explicitly forbids variable-length encodings then the implementation may even choose an encoding that represents basic latin in a way that is incompatible with any common encoding
+it is confusing that the char signed char and unsigned char types share char in their names but it is important to keep in mind that char does not belong to the same family of fundamental types as signed char and unsigned char
+signed char is in the family of signed integer types there are four signed integer types signed char short int int and long int. and unsigned char is in the family of unsigned integer types for each of the signed integer types there exists a corresponding but different unsigned integer type unsigned char unsigned short int unsigned int and unsigned long int .
+
+2924394
+unsigned	short
+signed char is in the family of signed integer types there are four signed integer types signed char short int int and long int. and unsigned char is in the family of unsigned integer types for each of the signed integer types there exists a corresponding but different unsigned integer type unsigned char unsigned short int unsigned int and unsigned long int .
+the one similarity between the char signed char and unsigned char types is that they occupy the same amount of storage and have the same alignment requirements
+thus you can reinterpret_cast from to in order to determine the numeric value of a character in the execution character set
+
+2924726
+int	chars
+for one your function is going to take in an inputstream and return an int
+you have your function set up to take in an int called inputstream and return an int
+inputstream has a function read which loads the next chars of the stream or -1 if there are no remaining chars
+
+2924726
+int	chars	int	chars
+inputstream has a function read which loads the next chars of the stream or -1 if there are no remaining chars
+you ll need to define an int counter and then call read as many times as it takes to get that response of -1
+once you see a -1 you know that you re at the end of the stream and you can return the counter which will have a value equal to the number of chars
+
+2924747
+post	put
+you ve now enabled the id you need to be passed to the client and back through the form you now just need to put it in when you create the form for display in the first place hopefully that doesn t lead you off on the wrong track - completely untested e oe ymmv etc etc
+not sure if this ll be appropriate for your app or not but you could try making use of a form widget in particular the hiddeninput one to include the post id in the form
+something like not sure that s entirely correct but see overriding-the-default-field-types-or-widgets for more
+
+2924828
+int	chars
+of course if you re specifying a string literal where the chars aren t actually present in the database s default collation then you need it
+it s like you can suffix a number with l in c et al to indicate it s a long literal instead of an int
+writing n ibm is either being precise or a slave to habit depending on your point of view
+
+2924959
+width	height
+table new my_table array style boarder solid thin gray
+width 100px
+table- height 200px
+
+2925382
+post	get
+this is not what you want obviously but still the most common usage you display some data in formfields after receiving a get request
+you post to an update action
+if you have errors you want to redisplay the form with the values you entered still available
+
+2925533
+class-method	delegation
+you cannot use this method to create a delegation from a function pointer to another managed delegation
+the part about c++ is likely referring to function pointers for class-method
+this should still work for global functions
+
+2925681
+gzipinputstream	gzipoutputstream
+in an applet you can consider to send the data compressed using gzipoutputstream
+you ll only need to develop a specific servlet on the server side which listens on requests from the applet only and knows that it needs to decompress the httpservletrequest#getinputstream accordingly using gzipinputstream
+
+
+2925828
+integer	fractions
+if it is defined as a number in the database that could include fractions eg 3.5
+if you define it as number 10 0 then it will always be an integer
+since you are trying to pull it out as a string .asstring there could be a conversion issue
+
+2926152
+folder	directory	folder	directory
+regardless see this link regarding fileio with medium trust you likely need to add a section to your web.config to provide specific access to your appdir to override the setting from the parent site virtual directory
+for some reason it would appear that by default your iis is not allowing access to your bin folder
+this is probably inherited from the parent site above your virtual directory
+
+2926157
+stdout	fflush
+this will work even if you have printed something without a newline
+yes output to stdout in c using printf is normally line buffered
+this means that printf will collect output until either the buffer is full or the output contains a n newline if you want to force the output of the buffer call fflush stdout
+
+2926242
+joptionpane	jdialog
+that s the code in new envelope...
+now my joptionpane opens new window with envelope overfiew but i can t change size of this window
+that s because you re using joptionpane tray using jdialog or jframe instead also i wanted to have sender s data in upper left corner and receiver s data in bottom right
+
+2926286
+put	get
+controlname is actually short-hand for me.controls controlname 1 it should not be suprising that you don t get any compile-time checks against mistyping the control name
+put another way if the bang operator is bad and the dot operator is good then you might think me.controls controlname is better than me
+controlname because the first version uses a dot but in this case the dot isn t any better at all since you are still accessing the control name via a parameter
+
+2926432
+versioning	upgrade
+thanks
+the eclipse and equinox teams have released a new versioning of equinox framework which is 3.5.2
+i am currently using equinox 3.5.0 and considering to upgrade to equinox 3.5.2
+
+2926676
+installation	upgrade
+i you only want to enable the dom xml extension in php4 read this manual page
+if php is compiled without dom support you ll have to recompile php or find a precompiled binary which suits your needs. the manual clearly states that there are no installation needed in php5 and no configuration options
+if you are for some reason running php 4 you should really upgrade to php 5
+
+2926790
+trie	tree
+what i would like to do is be able to store the data as a trie
+this way i can traverse the different branches of the trie and return the most relevant result
+second how do i traverse the tree
+
+2926794
+folder	directory
+the problem i have is that i have a production site where the site is in the root directory yet i have my development site in a localhost subdirectory
+eg vs if i have for example an images folder i want to reference the images from the site root by using the initial slash in the href
+eg using a relative href without the initial slash is not an option
+
+2927184
+serializable	deserialization	serializable	deserialization
+the complement to serializable is deserialization which takes the serialized data and reconstitutes the original object representation
+serializable which is not specific to .net is the process of converting an in-memory object into some form of bits and bytes that are suitable for transmission over the internet or storage on disk
+the complement to serializable is deserialization which takes the serialized data and reconstitutes the original object representation
+
+2927217
+powerpc	i386
+as for the architecture it only depends on the available architectures in the binaries of the sdk
+for example with a 10.5 sdk you can target four architectures intel 32bits powerpc 32bits intel 64bits powerpc 64bits while with a 10.6 sdk you can only target three architecture intel 32bits powerpc 32bits intel 64bits
+as you are using snow leopard you can either target i386 intel 32bits ppc powerpc 32bits or x86_64 intel 64bits very simply by passing an architecture option like this gcc -arch i386 or like this for configure-based projects
+
+2927414
+sorting	filtering
+think that you may have much users opening the same page and this will load the whole data in memory for each user and the gc may not have time enough to free all that stuff
+devexpress provides for this the linqservermodedatasource that does all the paging and sorting in the data server
+if you cannot use that try to retrieve a smaller set of data by filtering it
+
+2927453
+put	get
+note i needed a delay to get it to work
+i think if you want put back then applescript is the way to go
+i was able to do it without any sound by muting the volume moving the file then unmuting the volume
+
+2927540
+implements	extends
+the processdatamotorferdsel class extends processdatacommon so imo it should work
+i need help to generify and implements the visitor pattern. we are using tons of instanceof and it is a pain
+i am sure it can be modified but i am not sure how to do it
+
+2927579
+maven	pom.xml
+see when you perform a release with this tool the following steps are carried out check that there are no uncommitted changes in the sources check that there are no snapshot dependencies change the version in the poms from x-snapshot to a new version you will be prompted for the versions to use transform the scm information in the pom.xml to include the final destination of the tag run the project tests against the modified poms to confirm everything is in working order commit the modified poms tag the code in the scm with a version name this will be prompted for bump the version in the poms to a new value y-snapshot these values will also be prompted for commit the modified poms these steps are sufficient for most release processes
+we manage release numbers in maven
+we then use the maven release plugin to increment the version numbers when we need to release
+
+2927816
+exponent	modulo	exponent	modulo
+the modulo is not secret in the rsa crypto-system so there should be no need to encrypt this
+you are not attempting to encrypt the private exponent which is the actual secret part
+the private exponent is always smaller than the modulo so you should be able to encrypt it using the raw rsa operation if you make sure to remove the prepended zero
+
+2927836
+persistent	transient
+so far i ve tried setting it to be transient but that just ends up with it being null all the time
+i m just getting to grips with jpa in a simple java web app running on glassfish 3 persistent provider is eclipselink
+so far i m really liking it bugs in netbeans glassfish interaction aside but there s a thing that i want to be able to do that i m not sure how to do
+
+2927965
+feedparser	beautifulsoup	rss	feed
+if you have any problems with those post more specific questions
+you can parse rss feed with feedparser and download files with urllib2
+if you need to parse html use beautifulsoup
+

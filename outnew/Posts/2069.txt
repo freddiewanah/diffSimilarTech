@@ -1,0 +1,66 @@
+29760
+installation	upgrade
+basically the current workflow is installation upgrade runs.
+kill background application install new files startup background application this works for published applications and interactive msi installation - it s only assigned applications that seem to have the problem
+as step 3 happens in the system context rather than the user context ideally i d have the development team patch the exe file to prevent launching in the system context but that s a release cycle away and i m looking for an installer-based solution for the interim
+
+29770
+vim	emacs
+haven t played with both enough yet or tried more types of refactoring but i will do some more hacking with them
+in the meantime i ve tried it two tools that have some sort of integration with vim
+the first is rope a python refactoring library that comes with a vim and emacs plug-in
+
+29801
+post	put
+prior to using hibernate or other orms when i would do sql directly in jdbc or odbc i would put all the sql statements as either public fields of an object with a naming convention or in a property file also with a naming convention for the values say prep_stmt_xxxx
+and use either reflection or iterate over the values at startup in a test cases b startup of the application some rdbms allow you to pre-compile with prepared statements before execution so on startup post login i would pre-compile the prep-stmts at startup to make the application self testing
+even for 100 s of statements on a good rdbms thats only a few seconds
+
+29801
+versioning	upgrade
+different name
+anyway i came in in versioning 2..
+it was costing a lot of money to do upgrade
+
+29900
+bazaar	git
+you ll probably need to be able to run python scripts on your webserver to host either of them
+i d look at either mercurial or bazaar
+i m told git also works on windows but i suspect the windows port is still a second class port at best
+
+29923
+bazaar	svn	bazaar	git
+in git you can do the same with playing around in the index staging area but bazaar has a better ui for it
+most of the people were reluctant to move over as they have to type in two commands to commit and push bazaar ci + bazaar push
+also it was difficult for them to understand the concept of branches and merging no one uses branches or merges them in svn
+
+29972
+teamcity	nant	nant	cruisecontrol
+here is an article i wrote about using ci with cruisecontrol.net it has a nant build script in the comments that can be re-used across projects continuous integration with cruisecontrol
+i use teamcity with an nant build script
+teamcity makes it easy to setup the ci server part and nant build script makes it easy to do a number of tasks as far as report generation is concerned
+
+29972
+cruisecontrol	teamcity	nant	cruisecontrol
+teamcity makes it easy to setup the ci server part and nant build script makes it easy to do a number of tasks as far as report generation is concerned
+here is an article i wrote about using ci with cruisecontrol.net it has a nant build script in the comments that can be re-used across projects continuous integration with cruisecontrol
+
+
+30025
+ncover	fxcop
+nunit to run unit tests
+ncover to perform code coverage
+fxcop for static analysis reports
+
+30062
+int	chars	int	boolean
+however there isn t actually a boolean data type in oracle
+googling the subject discovered several approaches use an int and just don t bother assigning anything other than 0 or 1 to it
+use a chars field with y or n as the only two values
+
+30197
+firefox	safari
+here s the relevant documentation for gears workerpool api whatwg has a draft recommendation for worker threads web workers and there s also mozilla s dom worker threads update june 2009 current state of browser support for javascript threads firefox 3.5 has web workers
+some demos of web workers if you want to see them in action simulated annealing try it link space invaders link at end of post moonbat javascript benchmark first link the gears plugin can also be installed in firefox
+safari 4 and the webkit nightlies have worker threads javascript ray tracer chrome has gears baked in so it can do threads although it requires a confirmation prompt from the user and it uses a different api to web workers although it will work in any browser with the gears plugin installed google gears workerpool demo not a good example as it runs too fast to test in chrome and firefox although ie runs it slow enough to see it blocking interaction ie8 and ie9 can only do threads with the gears plugin installed
+

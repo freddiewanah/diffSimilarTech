@@ -1,0 +1,12 @@
+29004
+put	get	put	get
+i would love some code examples so for instance how can i get the following problem solved
+sometimes i need to quickly extract some arbitrary data from xml files to put into a csv format
+i would love some code examples so for instance how can i get the following problem solved
+
+29144
+cvs	svn
+edit to clarify i know both perforce svn allow locking merging but svn encourages a liberal edit merge method whereas as i understand it perforce encourages a checkout-checkin method
+i ve always used subversion or cvs for version control which use a merge methodology
+one of my friends raves about perforce and how great it is with its change lists and check-out methodology
+

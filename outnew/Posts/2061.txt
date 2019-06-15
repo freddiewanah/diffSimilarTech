@@ -1,0 +1,42 @@
+26942
+swt	swing
+combined with the free nsis installer you can build a nice package for your windows users
+edit did not see that you use swt
+don t know if it works with swt as well because i used only swing in my apps
+
+27051
+ubuntu	debian
+however you must make locale files for en_nz
+for ubuntu edit var lib locales supported.d local and add en_nz iso-8859-1 to the file
+if your system is another distribution including debian the location will be different
+
+27156
+feeds	rss
+i played with it during beta back in the day however i had a blast
+its really fun and easy to aggregate different feeds and you can add logic or filters to the pipes
+you can even do more then just rss like import images from flickr
+
+27256
+jquery	scriptaculous
+to put some names out there prototype scriptaculous jquery dojo yui ...those all seem to have active users and contributers so they are probably worth reading up on to see if they meet your needs
+jquery is good but with a little extra effort maybe you ll find that something else works better for you
+good luck
+
+27281
+post	get
+it would look like this then to get the selected key you could do or if you are using xhtml then you can create a custom namespace
+since you say the keys can repeat using the value attribute is probably not an option since then you wouldn t be able to tell which of the different options with the same value was selected on the form post
+
+
+27340
+post	get
+then in the httphandler perform the same hash and only run if they match
+should i added variables to the query string or post the data i need to send
+i d like to come up with a solution that would prevent a person with basic computer skills from accidentally or intentionally accessing the page directly considering the callback is buried in the client code it would take someone with equal determination to get either the querystring or the post request
+
+27345
+mamp	wamp
+i know that i can do it using macports but i d prefer not to make any changes to my default os x php installation
+i m running mamp 1.7.2 on a mac and i d like to install the extension php_gd2
+i know that on windows using wamp i d simply select the php_gd2 entry in the extensions menu to activate it
+

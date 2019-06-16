@@ -10,7 +10,7 @@ import os.path
 import pickle
 from prepros import get_words
 
-batch = 480
+batch = 48000
 s = batch * 8 * 7
 table_name = "Posts"
 

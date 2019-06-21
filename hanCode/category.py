@@ -22,6 +22,11 @@ nn = {}
 rbr = {}
 other = {}
 
+word_dict = {}
+
+not_word = ["is", "the", "than", "to", "s", "ve", "i", "a", "or", "and", "it", "of", "you", "be", "are", "more", "in",
+            "with", "much", "but", "on", "has", "have", "for", "if", "n", "t", "so", "does", "that", "as", "which",
+            "your"]
 
 def get_pos_tag(words):
     """ Get POS tag of words.
@@ -114,41 +119,47 @@ def main():
 
     for cate in categories:
         for sent in categories[cate]:
-            jjr = {}
-            jj = {}
-            nn = {}
-            rbr = {}
-            other = {}
-            word_list = []
-            tag_list = []
-            word_list, tag_list = get_pos_tag(sent.split())
-            extract_topic(word_list,tag_list)
+            word_list = sent.split()
+            for w in word_list:
+                if w not in not_word:
+                    add_dict(word_dict, w)
+        sorted_word_dict = sorted(word_dict.items(), key=operator.itemgetter(1), reverse=True)
+        with open(os.path.join(os.pardir, "outnew", "cate", "{}.txt".format(cate)), "a") as out_file:
+            for word, frequency in sorted_word_dict:
+                out_file.write("{:<20}{}\n".format(word, frequency))
 
-            sorted_jjr = sorted(jjr.items(), key=operator.itemgetter(1), reverse=True)
-            sorted_jj = sorted(jj.items(), key=operator.itemgetter(1), reverse=True)
-            sorted_nn = sorted(nn.items(), key=operator.itemgetter(1), reverse=True)
-            sorted_rbr = sorted(rbr.items(), key=operator.itemgetter(1), reverse=True)
-            sorted_other = sorted(other.items(), key=operator.itemgetter(1), reverse=True)
 
-            with open(os.path.join(os.pardir, "outnew", "cate", "{}_jjr.txt".format(cate)), "a") as out_file:
-                for word, frequency in sorted_jjr:
-                    out_file.write("{:<20}{}\n".format(word, frequency))
+        #     word_list = []
+        #     tag_list = []
+        #     word_list, tag_list = get_pos_tag(sent.split())
+        #     extract_topic(word_list,tag_list)
+        #
+        # sorted_jjr = sorted(jjr.items(), key=operator.itemgetter(1), reverse=True)
+        # sorted_jj = sorted(jj.items(), key=operator.itemgetter(1), reverse=True)
+        # sorted_nn = sorted(nn.items(), key=operator.itemgetter(1), reverse=True)
+        # sorted_rbr = sorted(rbr.items(), key=operator.itemgetter(1), reverse=True)
+        # sorted_other = sorted(other.items(), key=operator.itemgetter(1), reverse=True)
+        #
+        # with open(os.path.join(os.pardir, "outnew", "cate", "{}_jjr.txt".format(cate)), "a") as out_file:
+        #     for word, frequency in sorted_jjr:
+        #         out_file.write("{:<20}{}\n".format(word, frequency))
+        #
+        # with open(os.path.join(os.pardir, "outnew", "cate", "{}_jj.txt".format(cate)), "a") as out_file1:
+        #     for word, frequency in sorted_jj:
+        #         out_file1.write("{:<20}{}\n".format(word, frequency))
+        #
+        # with open(os.path.join(os.pardir, "outnew", "cate", "{}_nn.txt".format(cate)), "a") as out_file2:
+        #     for word, frequency in sorted_nn:
+        #         out_file2.write("{:<20}{}\n".format(word, frequency))
+        #
+        # with open(os.path.join(os.pardir, "outnew", "cate", "{}_rbr.txt".format(cate)), "a") as out_file3:
+        #     for word, frequency in sorted_rbr:
+        #         out_file3.write("{:<20}{}\n".format(word, frequency))
+        #
+        # with open(os.path.join(os.pardir, "outnew", "cate", "{}_other.txt".format(cate)), "a") as out_file4:
+        #     for word, frequency in sorted_other:
+        #             out_file4.write("{:<20}{}\n".format(word, frequency))
 
-            with open(os.path.join(os.pardir, "outnew", "cate", "{}_jj.txt".format(cate)), "a") as out_file1:
-                for word, frequency in sorted_jj:
-                    out_file1.write("{:<20}{}\n".format(word, frequency))
-
-            with open(os.path.join(os.pardir, "outnew", "cate", "{}_nn.txt".format(cate)), "a") as out_file2:
-                for word, frequency in sorted_nn:
-                    out_file2.write("{:<20}{}\n".format(word, frequency))
-
-            with open(os.path.join(os.pardir, "outnew", "cate", "{}_rbr.txt".format(cate)), "a") as out_file3:
-                for word, frequency in sorted_rbr:
-                    out_file3.write("{:<20}{}\n".format(word, frequency))
-
-            with open(os.path.join(os.pardir, "outnew", "cate", "{}_other.txt".format(cate)), "a") as out_file4:
-                for word, frequency in sorted_other:
-                    out_file4.write("{:<20}{}\n".format(word, frequency))
 
 main()
 

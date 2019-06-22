@@ -118,6 +118,7 @@ def main():
 
 
     for cate in categories:
+        word_dict.clear()
         for sent in categories[cate]:
             word_list = sent.split()
             for w in word_list:

@@ -1,0 +1,45 @@
+Algorithm: speed, better, performance, secure, memory
+
+Application & App: better, complexity, speed, functions
+
+Browser: better, speed, size, performance
+
+Class: better, complexity, speed, size, features
+
+Database & Dbms: better, speed, features, performance, popular
+
+Editor: better, complexity, powerful
+
+Engine: better, speed, complexity,
+
+Format: better, size, quality
+
+Framework: better, speed, complexity, features
+
+Function: speed, better, memory, secure
+
+Language: better, common, complexity, speed, powerful, features
+
+Library: better, speed, complexity, performance, features
+
+Method: secure, better, speed, requirements
+
+Operation: precedence, speed, cost
+
+OS: better, stable, complexity, features, size
+
+Package: speed, better, complexity, efficient
+
+Protocol: speed, better, reliable, size, complexity
+
+Structure: speed, better, efficient, memory, complexity
+
+System: better, complexity, speed
+
+Tool: better, powerful, complexity, reliable
+
+
+
+
+
+

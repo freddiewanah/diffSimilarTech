@@ -1,5 +1,0 @@
-search              1
-each                1
-tabs                1
-one                 1
-toolbar             1

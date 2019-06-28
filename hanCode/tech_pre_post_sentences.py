@@ -15,10 +15,13 @@ import spacy
 from spacy.matcher import Matcher
 from multiprocessing.dummy import Pool as ThreadPool
 
-batch = 100000
+batch = 500000
 s = batch * 8 * 7
 table_name = "Posts"
 
+remove_word = [" much ", " a ", " an ", " i "]
+
+selected_tech_pairs = ["ubuntu", "debian", "anjuta", "kdevelop", "postgresql", "mysql", "firefox", "safari", "google-chrome", "firefox", "cassini", "iis", "quicksort", "mergesort", "git", "bazaar", "jython", "pypy", "verilog", "vdhl", "awt", "swing", "vmware", "virtualbox", "vim", "emacs"]
 
 similar_techs_file = open(os.path.join(os.pardir, "data", "similar_techs.pkl"), 'rb')
 similar_techs = pickle.load(similar_techs_file)
@@ -64,10 +67,56 @@ class PatternMatcher:
         # self.matcher.add(4,
         #             None,
         #             [{'ORTH': 'CV'}, {'ORTH': 'TECH'}])
-        self.matcher.add(2,
-                    None,
-                    [{'ORTH': 'VB'}, {'ORTH': 'VBN'}, {'ORTH': 'TECH'}],
-                    [{'ORTH': 'VB'}, {'ORTH': 'VBN'}, {}, {'ORTH': 'TECH'}])
+        # self.matcher.add(2,
+        #             None,
+        #             [{'ORTH': 'VB'}, {'ORTH': 'VBN'}, {'ORTH': 'TECH'}],
+        #             [{'ORTH': 'VB'}, {'ORTH': 'VBN'}, {}, {'ORTH': 'TECH'}])
+
+        self.matcher.add(4,
+                         None,
+                         [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'},  {}, {'ORTH': 'RB'}],
+                         [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'}],
+                         [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
+                         [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
+                         [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
+
+
+                         )
+
+        self.matcher.add(5,
+                         None,
+
+                         [{'ORTH': 'TECH'}, {'ORTH': 'VBP'}, {'ORTH': 'NN'}],
+                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBP'}, {'ORTH': 'NN'}],
+                         [{'ORTH': 'TECH'}, {'ORTH': 'VBP'}, {}, {'ORTH': 'NN'}],
+                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBP'}, {}, {'ORTH': 'NN'}],
+
+                         [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'NN'}],
+                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'NN'}],
+                         [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'NN'}],
+                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'NN'}],
+                         )
+        self.matcher.add(6,
+                         None,
+                         [{'ORTH': 'TECH'}, {'ORTH': 'VBP'}, {'ORTH': 'RB'}],
+                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBP'}, {'ORTH': 'RB'}],
+                         [{'ORTH': 'TECH'}, {'ORTH': 'VBP'}, {}, {'ORTH': 'RB'}],
+                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBP'}, {}, {'ORTH': 'RB'}],
+
+                         [{'ORTH': 'TECH'}, {'ORTH': 'VBP'}, {'ORTH': 'RBR'}],
+                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBP'}, {'ORTH': 'RBR'}],
+                         [{'ORTH': 'TECH'}, {'ORTH': 'VBP'}, {}, {'ORTH': 'RBR'}],
+                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBP'}, {}, {'ORTH': 'RBR'}],
+
+                         )
+
+        self.matcher.add(7,
+                         None,
+                         [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {'ORTH': 'TECH'}],
+                         [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {}, {'ORTH': 'TECH'}],
+
+
+                         )
         # self.matcher.add(6,
         #             None,
         #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'JJS'}],
@@ -93,7 +142,7 @@ class PatternMatcher:
                     [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'JJ'}],
                     [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJ'}],
                     [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJ'}],
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {}, {}, {'ORTH': 'JJ'}],
+                    # [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {}, {}, {'ORTH': 'JJ'}],
                     [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJ'}])
         self.matcher.add(3,
                     None,
@@ -101,7 +150,7 @@ class PatternMatcher:
                     [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
                     [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
                     [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {}, {}, {'ORTH': 'RB'}],
+                    # [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {}, {}, {'ORTH': 'RB'}],
                     [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}])
         # self.matcher.add(9,
         #             None,
@@ -127,23 +176,38 @@ class PatternMatcher:
         return tag_list
 
     def match_pattern(self, pre, words, post, current_id, tech_pair):
-        tag_list = self.add_pos_tag(words, tech_pair)
-        pre_tag_list = self.add_pos_tag(pre, tech_pair)
-        post_tag_list = self.add_pos_tag(post, tech_pair)
-        words_patterns = self.matcher(self.nlp(u'{}'.format(" ".join(tag_list))))
-        pre_patterns = self.matcher(self.nlp(u'{}'.format(" ".join(pre_tag_list))))
-        post_patterns = self.matcher(self.nlp(u'{}'.format(" ".join(post_tag_list))))
+        pre_rm = pre
+        words_rm = words
+        post_rm = post
+        for w in remove_word:
+
+            pre_rm = pre_rm.replace(w, ' ')
+            words_rm = words_rm.replace(w, ' ')
+            post_rm = post_rm.replace(w, ' ')
+
+        tag_list = self.add_pos_tag(words_rm, tech_pair)
+        pre_tag_list = self.add_pos_tag(pre_rm, tech_pair)
+        post_tag_list = self.add_pos_tag(post_rm, tech_pair)
+        words_patterns = []
+        pre_patterns = []
+        post_patterns = []
+        if len(tag_list) > 0:
+            words_patterns = self.matcher(self.nlp(u'{}'.format(" ".join(tag_list))))
+        if len(pre_tag_list) > 0:
+            pre_patterns = self.matcher(self.nlp(u'{}'.format(" ".join(pre_tag_list))))
+        if len(post_tag_list) > 0:
+            post_patterns = self.matcher(self.nlp(u'{}'.format(" ".join(post_tag_list))))
         patterns = pre_patterns + words_patterns + post_patterns
         if patterns != []:
             self.compa_sent_count += 1
-            out_file = open(os.path.join(os.pardir, "outnew", "pattern", "sentences_{}.txt".format(os.getpid())), "a")
+            out_file = open(os.path.join(os.pardir, "outnew", "pattern_v4", "sentences_{}.txt".format(os.getpid())), "a")
             out_file.write("{}\n".format(current_id))
             out_file.write("{}\nPattern(s): \n".format(tech_pair))
             out_file.write("{}\n".format(pre))
             out_file.write("{}\n".format(words))
             out_file.write("{}\n".format(post))
             out_file.close()
-            data = open(os.path.join(os.pardir, "outnew", "pattern", "output_{}.txt".format(os.getpid())), "a")
+            data = open(os.path.join(os.pardir, "outnew", "pattern_v4", "output_{}.txt".format(os.getpid())), "a")
             data.write("{}\n".format(current_id))
             data.write("{}\nPattern(s): ".format(tech_pair))
             for pattern in patterns:
@@ -151,11 +215,11 @@ class PatternMatcher:
                 data.write(str(pattern[0])+"\t")
                 # data_file = open(os.path.join(os.pardir, "out", "tech_v2", "{}.txt".format(pattern[0])), "a")
             data.write("\n")
-            if pre_patterns != []:
+            if pre_patterns != [] or tech_pair[0] in pre or tech_pair[1] in pre:
                 data.write("{}\n".format(pre))
-            if words_patterns != []:
+            if words_patterns != [] or tech_pair[0] in words or tech_pair[1] in words:
                 data.write("{}\n".format(words))
-            if post_patterns != []:
+            if post_patterns != [] or tech_pair[0] in post or tech_pair[1] in post:
                 data.write("{}\n".format(post))
             data.write("\n\n\n")
             data.close()
@@ -243,6 +307,8 @@ def check_tech_pairs(pre, words, post):
 
     rtn = []
     for (first, second) in tech_pairs:
+        if first not in selected_tech_pairs or second not in selected_tech_pairs:
+            continue
         if first in words and second in words:
             rtn.append(first)
             rtn.append(second)
@@ -277,7 +343,7 @@ def main(start):
         conn = psycopg2.connect('dbname=stackoverflow port=5433 host=localhost')
         cursor = conn.cursor()
         query = "SELECT Id, Body FROM {} WHERE Score > 0 AND posttypeid != 1 AND Id >= {} AND Id < {}".format(table_name, start, start+batch)
-        # query = "SELECT Id, Body FROM Posts WHERE Id = 27440"
+        # query = "SELECT Id, Body FROM Posts WHERE Id = 11969"
         cursor.execute(query)
         for current_id, row in cursor.fetchall():
             post_count += 1
@@ -298,7 +364,7 @@ def main(start):
                 if rtn is not None:
                     if len(rtn)==2:
                         compa_sent_count += 1
-                        data_file = open(os.path.join(os.pardir, "outnew", table_name, "{}.txt".format(os.getpid())), "a")
+                        data_file = open(os.path.join(os.pardir, "outnew", "{}_v4".format(table_name), "{}.txt".format(os.getpid())), "a")
                         data_file.write("{}\n".format(current_id))
                         data_file.write("{}\n".format(rtn[1]))
                         data_file.write("{}\n".format(rtn[0]))
@@ -306,8 +372,8 @@ def main(start):
                         data_file.close()
                     else:
                         compa_sent_count += 1
-                        pattern_matcher.match_pattern(rtn[0], rtn[1], rtn[2], current_id, rtn[3])
-                        data_file = open(os.path.join(os.pardir, "outnew", table_name, "{}.txt".format(os.getpid())), "a")
+
+                        data_file = open(os.path.join(os.pardir, "outnew", "{}_v4".format(table_name), "{}.txt".format(os.getpid())), "a")
                         data_file.write("{}\n".format(current_id))
                         data_file.write("{}\n".format(rtn[3]))
                         data_file.write("{}\n".format(rtn[0]))
@@ -315,6 +381,8 @@ def main(start):
                         data_file.write("{}\n".format(rtn[2]))
                         data_file.write("\n")
                         data_file.close()
+                        pattern_matcher.match_pattern(rtn[0], rtn[1], rtn[2], current_id, rtn[3])
+
 
     finally:
         print("Proc {}: {}/{} from {} to {} ({} posts)".format(os.getpid(), compa_sent_count, total_sent_count, start, current_id, post_count))
@@ -328,7 +396,8 @@ def main(start):
 # for proc in procs:
 #     proc.join()
 
-data = [0, 100000, 200000, 300000]
+
+data = [0]
 pool = ThreadPool()
 pool.map(main, data)
 pool.close()

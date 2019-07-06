@@ -1,0 +1,4313 @@
+532
+maven pom.xml
+Pattern(s): 3	5	
+maven helps quite a lot with this problem when i m coding java
+we commit the pom.xml to the scs and the maven repository contains all our dependencies. for me that seems like a nice way to do it
+
+
+
+568
+int chars
+Pattern(s): 4	3	
+so would produce an error because int is not an object
+int is one of the few primitives in java along with chars and some others
+
+
+
+568
+int chars
+Pattern(s): 1	5	
+so int is a fancy way to work with an int just as perhaps string is a fancy way to work with a group of chars
+
+
+
+669
+hash md5
+Pattern(s): 0	
+the better you can optimize your password hash function the faster your password hash function gets the weaker your scheme is
+md5 and sha1 even conventional block ciphers like des are designed to be fast
+
+
+
+1269
+cvs svn
+Pattern(s): 3	
+the two approaches are more or less the same idea but svn was specifically designed to fix long standing flaws in cvs so in theory at least svn will always be the better choice
+
+
+
+1331
+robocopy xcopy
+Pattern(s): 3	
+you get note xcopy is now deprecated please use robocopy
+
+
+
+1517
+emacs aquamacs
+Pattern(s): 0	1	
+someone syncs carbon emacs with the upstream tree quarterly i think
+aquamacs has a more irregular schedule but it s seen some pretty major updates over the last year
+
+
+
+1718
+phpunit simpletest
+Pattern(s): 1	
+phpunit is run from the linux command line by default though there are http interfaces available for it
+simpletest is web-based by nature and is much easier to get up and running imo
+
+
+
+1821
+nunit mstest
+Pattern(s): 3	1	1	
+for the conservative types me nunit is still available and still more than capable
+for the microsoft-types mstest is adequate but slow and clunky compared to nunit
+
+
+
+2068
+mvp presenter
+Pattern(s): 1	
+i blogged about this a while back quoting on todd snyder s excellent post on the difference between the two here are the key differences between the patterns mvp pattern view is more loosely coupled to the model
+the presenter is responsible for binding the model to the view
+
+
+
+2562
+wmv flv
+Pattern(s): 6	3	
+i found the production of wmv much better and easier than flv because all windows flv encoders i tried are not really good and stable whereas pretty much every tool can natively output wmv
+
+
+
+2585
+post get
+Pattern(s): 0	0	
+i went back to michael s post did some more poking and realized that i did need to do a double conversion and eventually worked out this little nugget convert.tostring convert.tochar int32.parse encodedstring.substring intparseindex 2 system.globalization.numberstyles.hexnumber
+
+
+
+2905
+vim emacs
+Pattern(s): 3	3	1	
+further update just fyi i am not trying to push emacs over vim it s just what i use and it s a great editor as i m sure vim is too
+it is daunting at first as i m sure vim is too but the question was about text editors on linux besides vi.
+emacs seems the logical choice to me but gedit is a great simple text editor with some nice features if that s all you are looking for
+
+
+
+2905
+vim gedit
+Pattern(s): 3	3	1	5	3	3	1	1	
+further update just fyi i am not trying to push emacs over vim it s just what i use and it s a great editor as i m sure vim is too
+it is daunting at first as i m sure vim is too but the question was about text editors on linux besides vi.
+emacs seems the logical choice to me but gedit is a great simple text editor with some nice features if that s all you are looking for
+
+
+
+3806
+robocopy xcopy
+Pattern(s): 1	5	7	
+besides the already mentioned robocopy xxcopy has a free version
+its syntax is backwards compatible with xcopy but has tons of additional options xxcopy help x create a 42kb file with all the options available
+
+
+
+3979
+mbunit nunit
+Pattern(s): 5	5	
+nunit does have a litter bit better tool support though
+i am using resharper to run mbunit tests
+
+
+
+6713
+junit testng
+Pattern(s): 3	
+we didn t want people to feel uncomfortable writing tests while getting to know testng because we wanted them to keep writing a lot of tests
+also junit is pretty much the de-facto standard in the java world
+
+
+
+6716
+post get
+Pattern(s): 5	
+i think this is right design-wise and makes tests a lot easier and is usually what you get if you do tdd
+more about this can be read in the google testing blog latest post see point 9
+
+
+
+8309
+vim gedit
+Pattern(s): 5	
+i agree with mike though i m a vim die-hard
+i ve been using gedit quite frequently lately when i m doing lightweight ruby scripting
+
+
+
+8381
+debian linux
+Pattern(s): 5	
+for the rails side of things though i d actually suggest a virtual machine running linux. ubuntu works well the only caveat is that you have to install rubygems manually as it does not adhere to the great debian filesystem naming ideology - i suggest this because if you want to do advanced things such as installing imagemagick rmagick or memcached or a number of other plugins which require native c libraries it becomes very painful very quickly if you re on windows
+
+
+
+8381
+ubuntu linux
+Pattern(s): 3	
+for the rails side of things though i d actually suggest a virtual machine running linux. ubuntu works well the only caveat is that you have to install rubygems manually as it does not adhere to the great debian filesystem naming ideology - i suggest this because if you want to do advanced things such as installing imagemagick rmagick or memcached or a number of other plugins which require native c libraries it becomes very painful very quickly if you re on windows
+
+
+
+8381
+ubuntu debian
+Pattern(s): 5	3	
+for the rails side of things though i d actually suggest a virtual machine running linux. ubuntu works well the only caveat is that you have to install rubygems manually as it does not adhere to the great debian filesystem naming ideology - i suggest this because if you want to do advanced things such as installing imagemagick rmagick or memcached or a number of other plugins which require native c libraries it becomes very painful very quickly if you re on windows
+
+
+
+11663
+post get
+Pattern(s): 1	5	
+this blog post has a good summary of the target audiences
+
+
+
+11969
+vmware virtualbox
+Pattern(s): 4	5	
+one feature of vmware i really like is the ability to snapshot the system
+i do this before every software install and when one of them goes awry i just revert the virtualbox back to the pre-install state
+
+
+
+13942
+imperative declarative
+Pattern(s): 3	0	
+imperative
+declarative is usually better for anything where you really don t need the fine-grained control over how something is done
+
+
+
+15928
+mouse keyboard
+Pattern(s): 5	
+you may want to look into adding some alternatives - mouse controlled hover menu for those comfortable with the mouse
+keyboard based control via access keys and the like for others
+
+
+
+16381
+equals gethashcode
+Pattern(s): 5	
+then the two items are definitely not equals
+all you want is a gethashcode algorithm that splits up your collection into roughly even groups - it shouldn t form the key as the hashtable or will need to use the hash to optimise retrieval
+
+
+
+19403
+goto break
+Pattern(s): 3	
+basically it will be enhancing the ability to break out of switch nested if statements
+here s the concept example i found of course once the goto rumor was out there was nothing to stop some evil guys to propagate an additional comefrom joke
+
+
+
+20713
+rss feed
+Pattern(s): 3	1	3	5	
+rss is not an official internet standards track protocol
+however rss has enough adoption that you can reasonably expect it to be consumable by a variety of clients
+as there are quite a few deprecated versions of rss you might conceivably have to support rss feed that vary quite a bit in their formatting details
+
+
+
+20713
+rss feed
+Pattern(s): 3	
+as there are quite a few deprecated versions of rss you might conceivably have to support rss feed that vary quite a bit in their formatting details
+rss does not have a registered media content type
+
+
+
+20866
+int chars
+Pattern(s): 5	
+to read the 2nd bit of a bitset you need to find the int that contains the bit you want in this case it s the first int bitwise and that int with 2 value 0x02 to find out if that bit is set however if memory is a bottleneck and you have a lot of boolean using a bitset could make sense if you re target platform is a mobile phone or it s some state in a very busy web service note a std vector of bool usually has a specialisation to use the equivalent of a bitset thus making it much smaller and also slower for the same reasons
+so if speed is an issue you ll be better off using a vector of chars or even int or even just use an old school bool array
+
+
+
+20866
+int boolean
+Pattern(s): 5	4	5	
+to read the 2nd bit of a bitset you need to find the int that contains the bit you want in this case it s the first int bitwise and that int with 2 value 0x02 to find out if that bit is set however if memory is a bottleneck and you have a lot of boolean using a bitset could make sense if you re target platform is a mobile phone or it s some state in a very busy web service note a std vector of bool usually has a specialisation to use the equivalent of a bitset thus making it much smaller and also slower for the same reasons
+
+
+
+21277
+int double
+Pattern(s): 5	
+the trick is to convert the floats so that they re ordered as if int and then just see how different they are
+i have no idea why this damn thing is screwing up my underscores
+
+
+
+21619
+moq nmock
+Pattern(s): 3	1	
+i ve used rhino mocks and nmock
+moq was so simple and solved all the problems i had with the other frameworks
+
+
+
+23048
+mockito jmock
+Pattern(s): 1	
+i ve had good success using mockito
+when i tried learning about jmock and easymock i found the learning curve to be a bit steep though maybe that s just me
+
+
+
+24269
+pascal delphi
+Pattern(s): 5	
+i spent six years in delphi and loved it to bits
+the main strength for me of c# over object pascal is the syntax - it s much cleaner
+
+
+
+27256
+jquery scriptaculous
+Pattern(s): 1	
+to put some names out there prototype scriptaculous jquery dojo yui ...those all seem to have active users and contributers so they are probably worth reading up on to see if they meet your needs
+jquery is good but with a little extra effort maybe you ll find that something else works better for you
+
+
+
+27440
+postgresql mysql
+Pattern(s): 3	1	3	
+mysql is much more commonly provided by web hosts
+postgresql is a much more mature product
+there s this discussion addressing your better question apparently according to this web page mysql is fast when concurrent access levels are low and when there are many more reads than writes
+
+
+
+29748
+apache lighttpd
+Pattern(s): 5	5	
+or you can serve django without using apache but with another server that supports fastcgi natively the documentation mentions that you can do this if you don t have any apache specific needs
+i guess the reason must be to save memory. lighttpd this is the server that runs youtube
+
+
+
+29923
+bazaar git
+Pattern(s): 0	5	1	
+most of the people were reluctant to move over as they have to type in two commands to commit and push bazaar ci + bazaar push
+also it was difficult for them to understand the concept of branches and merging no one uses branches or merges them in svn
+
+
+
+29972
+cruisecontrol teamcity
+Pattern(s): 1	1	
+teamcity makes it easy to setup the ci server part and nant build script makes it easy to do a number of tasks as far as report generation is concerned
+here is an article i wrote about using ci with cruisecontrol.net it has a nant build script in the comments that can be re-used across projects continuous integration with cruisecontrol
+
+
+
+30598
+subclass abstract-class
+Pattern(s): 3	1	1	
+in this way i am saying that foouser subclass is not an account but does act like an editable object
+likewise baraccount extends from account but is not a user subclass but implements editable listable and also versionable
+adding all of these apis for editable listable and versionable into the abstract-class itself would not only be cluttered and ugly but would either duplicate the common interfaces in account and user or force my user object to implement versionable probably just to throw an exception
+
+
+
+31042
+perforce svn
+Pattern(s): 0	
+i use perforce right now and for some reason i like svn better
+perforce definitely gives me a better indication that there s going to be merge conflicts and even has built-in tools to help me resolve the merges
+
+
+
+31574
+spaces delimiter
+Pattern(s): 1	
+note single quotes even no quotes if the value doesn t contain a spaces is valid according to the w3c html spec
+quote by default sgml requires that all attribute values be delimiter using either double quotation marks ascii decimal 34 or single quotation marks ascii decimal 39 .
+
+
+
+33180
+public protected
+Pattern(s): 1	
+public inheritance implied an is-a type of relationship and private inheritance implied a is-implemented-in-terms-of kind of relationship
+since layering or composition accomplished this in an arguably simpler fashion private inheritance was only used when absolutely required by protected members or virtual functions required it - according to scott meyers in effective c++ item 42
+
+
+
+34338
+phpunit simpletest
+Pattern(s): 3	
+simpletest also ships with a very simple html gui which is quite easy to extend if you want to
+as far as i know phpunit does not include a html gui but there are gui s available to download such as cool
+
+
+
+34681
+hash md5
+Pattern(s): 5	
+if an attacker can generate two messages m and m that both hash to the same value they can use these messages against you
+sha-1 and md5 also suffer from message extension attacks which can fatally weaken your application if you re not careful
+
+
+
+35057
+folder directory
+Pattern(s): 5	
+unlike in com gacutil copies the file to an opaque directory under systemroot assembly and that s where they run from
+it wouldn t make sense to ask gacutil register a folder not that you can do that with regsvr32 either
+
+
+
+35605
+filesystems ntfs
+Pattern(s): 5	
+the nix family of filesystems include ext3 zfs ufs etc
+windows primarily has had support for fat16 32 and their own filesystem ntfs
+
+
+
+35627
+filesystems ntfs
+Pattern(s): 6	
+when people say that unix filesystems are better they might mean to be saying oh ext3 stores bits in such as way that corruption happens way less than ntfs but they might also be talking about design choices made at the common layer above
+
+
+
+35967
+apache lighttpd
+Pattern(s): 6	
+if you have spare physical resources and have the technical skills and experience to maintain production machines running different operating systems i d recommend going running lighttpd on either linux or freebsd
+a light os install with a static file optimized server will perform faster than apache or iis on a heavy os
+
+
+
+37408
+daemons systemd
+Pattern(s): 1	
+that makes the rendezvous between the app and the daemons trivial and it also makes it straightforward to develop multiple front-ends or possibly a framework that wraps communication with the daemons
+the mac os x launchd systemd is really cool this way
+
+
+
+37606
+queue fifo
+Pattern(s): 5	
+it adds a point of failure and deployment nightmare the queue is a point of failure and you need to deal with setting the right permissions on all boxes to read write messages etc in enterprise software you pay in blood for these type of things
+
+
+
+37716
+hash md5
+Pattern(s): 1	
+random bit strings are obtained by taking a md5 hash of the contents of this pool
+the one-way hash function distills the true random bits from pool data and hides the state of the pool from adversaries
+
+
+
+37854
+postgresql mysql
+Pattern(s): 3	
+and postgresql was originally written by some of the same people in the 80s as a successor to ingres
+oracle goes way back and i m not sure where mysql came in
+
+
+
+40699
+google-chrome firefox
+Pattern(s): 3	
+google-chrome does support the netscape plugin api but that is for displaying certain kinds of content
+you seem to be after a extention api really firefox is the only major browser to encourage and support third party extentions to browsing capability that aren t simply new toolbars nothing in the developer documentation points to a browser enhancing api - google seem to want to keep a tight reign on the look and feel of the application
+
+
+
+40708
+button checkbox
+Pattern(s): 5	
+click the send report button to report a google chrome bug
+i don t see any reference to public bug tracking.
+
+
+
+43213
+matlab simulink
+Pattern(s): 5	
+i don t think it can be done using existing simulink blocks
+i think i am going to have to take the xpcserial c code that comes with matlab take the code that sets the rs-232 speed and wrap it in my own s-function
+
+
+
+43213
+matlab s-function
+Pattern(s): 5	
+i think i am going to have to take the xpcserial c code that comes with matlab take the code that sets the rs-232 speed and wrap it in my own s-function
+
+
+
+44357
+sorting filtering
+Pattern(s): 3	3	
+wiener filtering or other filtering or simple histogram analysis is often an easy way to baseline in the presence of noise
+finally if your data is typically noisy and you re getting data off the card as unreferenced single-ended output or even referenced just not differential and if you re averaging lots of observations into each data point try sorting those observations and throwing away the first and last quartile and averaging what remains
+
+
+
+44576
+profiling debugging
+Pattern(s): 1	3	
+i choose to log deliberately as i go as this means the log data is meaningful depending on logging framework you can add level severity category information so that the log data can be filtered you can make sure that the right level of information is present not too much not too little you know when writing the code which the most important things are and can therefore ensure they are logged using some form of code injection profiling or tracing tool to generate logs would most likely generate verbose less useful logs that would be harder to dive into
+they may be useful as a debugging aid however
+
+
+
+45272
+daemons systemd
+Pattern(s): 5	
+as you point out the term load balancing carries the implication of multiple servers - what you want to look for is information about how to write a linux network daemons
+the two kes systemd calls you ll want to look at are called fork and exec
+
+
+
+46971
+phpunit simpletest
+Pattern(s): 1	
+i found the zend to phpunit connection much harder to get working especially with the debugger
+the way we use simpletest in-house is with a continuous integration script that we wrote ourselves
+
+
+
+47472
+goto break
+Pattern(s): 3	
+i had a series of five nested counted loops and i needed to be able to break out of the entire structure from the inside early based on certain conditions i could just have easily declared a boolean break variable and used it as part of the conditional for each loop but in this instance i decided a goto was just as practical and just as readable
+
+
+
+52266
+switching screens
+Pattern(s): 6	
+if you had one controller running on the box in front of which you sit you could use keyboard and mouse input to switching it between open sockets with different renderers
+you shouldn t need to resize the output window to less than full screens anymore with this approach ever
+
+
+
+53125
+folder directory
+Pattern(s): 1	
+to me adding a symlink pointing to your development folder seems like a tidy solution to the problem
+if the main project is on a different machine webserver you could use something like sshfs to mount your development directory into the right place on the webserver
+
+
+
+54968
+prepare execute
+Pattern(s): 1	5	
+from the documentation a prepare statement is a server-side object that can be used to optimize performance
+when the prepare statement is execute the specifie statement is parsed rewritten and planned
+
+
+
+57262
+versioning upgrade
+Pattern(s): 6	
+i always use the most up-to-date versioning of the framework
+this may be a small up-front burden on users but the app has a much longer life between upgrade
+
+
+
+57806
+goto break
+Pattern(s): 1	
+but continue and break are enforced by the compiler and have their own associated rules
+goto has no such limitations though the net effect might almost be the same in some circumstances
+
+
+
+58091
+post put
+Pattern(s): 5	
+if every method is just a static call straight to the data source then the post class is really a factory
+you could certainly put the static methods in post into the post class this is how csla works but they are still factory methods
+
+
+
+58363
+memcached apc
+Pattern(s): 6	
+apc pros simple fast speeds up php execution also cons doesn t work for distributed systems each machine stores its cache locally memcached pros fast ish can be installed on a separate server for all web servers to use highly tested developed at livejournal used by all the big guys facebook yahoo mozilla cons slower than apc possible network latency slightly more configuration i wouldn t recommend writing your own there are plenty out there
+
+
+
+58785
+robocopy xcopy
+Pattern(s): 1	5	
+robocopy robocopy or robust file copy is a command-line directory and or file replication command
+robocopy functionally replaces xcopy with more options
+
+
+
+59054
+hash salt
+Pattern(s): 1	
+the usual solution is to use a secret salt plus additional user information to make the hashed results unique- something like as long as your salt is secret or your attacker doesn t know the precise creation date of the user s record a dictionary attack will fail- even in the event that they are able to pull down the password field
+
+
+
+60077
+children parent
+Pattern(s): 5	
+as far as i know a process doesn t have an explicit list of its children s pids but it can easily be built since a process should know which child processes it spawns
+for example the unix fork call returns the child pid in the parent process and 0 in the child process createprocess on windows returns iirc the pid of the new process created
+
+
+
+60119
+cassini iis
+Pattern(s): 3	5	
+cassini does not support https
+however you can use iis to do this if your using iis 5.1 download the ms iis toolpack for iis 6.0 it comes with a tool to create self signed ssl certificates
+
+
+
+60531
+folder directory
+Pattern(s): 3	
+the default folder is actually the same as the current working folder for the buffer it can be different for every file you work with
+say that the file you are working with is located in c dir_a then the working directory for that buffer will by default be c dir_a
+
+
+
+62848
+g++ gcc
+Pattern(s): 1	3	3	1	
+but i m pretty sure g++ v4 is the standard development c++ compiler if you install the c++ development environment at all
+g++ v3 is usually just available as a special install
+for opensuse 11 gcc 4.3 is the current package installed when you pick the base development pattern
+
+
+
+64422
+cpu processors
+Pattern(s): 1	
+next you need to know that the fourth number in these lines is a measure of idle time and thus the fourth number on the cpu line is the total idle time for all processors since boot time
+
+
+
+64422
+cpu processors
+Pattern(s): 1	
+for example if you take a sample and get cpu 2330047 0 2365006 1063853632 9035 9463 96114 0 then one second later you get this sample cpu 2330047 0 2365007 1063854028 9035 9463 96114 0 subtract the two numbers and you get a diff of 396 which means that your cpu had been idle for 3.96 seconds out of the last 1.00 second
+the trick of course is that you need to divide by the number of processors
+
+
+
+65472
+perforce cvs
+Pattern(s): 3	
+if you want to stick to the older centralized model i d recommend perforce if you can afford it or subversion if you don t want to pay for perforce
+i d recommend subversion over cvs because it s got enough features to make it worthwhile but is similar enough that devs who already know cvs will still be comfortable
+
+
+
+68674
+ubuntu linux
+Pattern(s): 7	
+ubuntu is getting closer but there are still numerous things with linux that will keep the grandmothers of the world from using it
+
+
+
+69040
+actionscript mxml
+Pattern(s): 4	1	5	
+mxmlc an actionscript and mxml compiler to output the final swf file for deployment to flash player. 2
+compc a static library compiler for actionscript that outputs swc files. 3
+
+
+
+70428
+quicksort mergesort
+Pattern(s): 1	
+from the wikipedia entry on quicksort quicksort also competes with mergesort another recursive sort algorithm but with the benefit of worst-case θ nlogn running time. mergesort is a stable sort unlike quicksort and heapsort and can be easily adapted to operate on linked lists and very large lists stored on slow-to-access media such as disk storage or network attached storage. although quicksort can be written to operate on linked lists it will often suffer from poor pivot choices without random access
+
+
+
+70428
+mergesort in-place
+Pattern(s): 1	
+from the wikipedia entry on quicksort quicksort also competes with mergesort another recursive sort algorithm but with the benefit of worst-case θ nlogn running time. mergesort is a stable sort unlike quicksort and heapsort and can be easily adapted to operate on linked lists and very large lists stored on slow-to-access media such as disk storage or network attached storage. although quicksort can be written to operate on linked lists it will often suffer from poor pivot choices without random access
+the main disadvantage of mergesort is that when operating on arrays it requires θ n auxiliary space in the best case whereas the variant of quicksort with in-place partitioning and tail recursion uses only θ logn space
+
+
+
+70428
+mergesort heapsort
+Pattern(s): 1	
+from the wikipedia entry on quicksort quicksort also competes with mergesort another recursive sort algorithm but with the benefit of worst-case θ nlogn running time. mergesort is a stable sort unlike quicksort and heapsort and can be easily adapted to operate on linked lists and very large lists stored on slow-to-access media such as disk storage or network attached storage. although quicksort can be written to operate on linked lists it will often suffer from poor pivot choices without random access
+
+
+
+70428
+mergesort in-place
+Pattern(s): 1	1	
+the main disadvantage of mergesort is that when operating on arrays it requires θ n auxiliary space in the best case whereas the variant of quicksort with in-place partitioning and tail recursion uses only θ logn space
+note that when operating on linked lists mergesort only requires a small constant amount of auxiliary storage.
+
+
+
+70430
+quicksort mergesort
+Pattern(s): 3	3	5	5	
+wikipedia s explanation is typically quicksort is significantly faster in practice than other θ nlogn algorithms because its inner loop can be efficiently implemented on most architectures and in most real-world data it is possible to make design choices which minimize the probability of requiring quadratic time
+quicksort mergesort i think there are also issues with the amount of storage needed for mergesort which is ω n that quicksort implementations don t have
+
+
+
+70741
+subtract addition
+Pattern(s): 5	1	6	
+in the first loop you can use plain addition since you are only ever oring with single bits and you can narrow the scope of by iterating over indices
+in the second loop you can subtract 1 from the index instead of producing an unnecessary 0th output list element that needs to be shift ed off and where you unnecessarily iterate m n times where m is the number of output lists and n is the number of unique elements iterating over the unique elements would reduce the iterations to just n which is a significant win in typical use cases where m is much larger than n and would simplify the code
+
+
+
+72219
+hash md5
+Pattern(s): 3	1	
+example md5 x y z is unique and you can store only the resulting string
+the hash is not a performant idea but you get the concept
+
+
+
+73946
+post get
+Pattern(s): 1	5	
+this msdn forum post shows a vb.net developer asking a question about getting the results of a range as an array
+
+
+
+74550
+mouseover mouseout
+Pattern(s): 1	
+this task can also be accomplished with jquery and other libraries although i haven t found explicit documentation for this -- amendment to the edit ie has a problem with the onmouseout for select controls it doesn t consider mouseover on options being a mouseover on the select
+
+
+
+76040
+xna slimdx
+Pattern(s): 1	
+there is also slimdx which is under constant development as a means of providing a lean wrapper of directx in a similar fashion as managed directx which was i believe discontinued by microsoft in favor of xna
+
+
+
+77625
+innodb myisam
+Pattern(s): 1	1	0	6	
+i found that the table-level locking in myisam caused serious performance problems for our workload which sounds similar to yours
+unfortunately i also found that performance under innodb was also worse than i d hoped
+
+
+
+77777
+rss feed
+Pattern(s): 1	
+i wouldn t use xml for storing rss items
+a feed reader makes constant updates as it receives data
+
+
+
+77794
+bazaar git
+Pattern(s): 6	
+mercurial and bazaar resemble themselves very much on the surface
+they both provide basic distributed version control as in offline commit and merging multiple branches are both written in python and are both slower than git
+
+
+
+77943
+bazaar git
+Pattern(s): 1	1	
+git is fastest but all three are fast enough
+bazaar is the most flexible it has transparent read-write support for svn repositories and cares a lot about the user experience
+
+
+
+77945
+quicksort mergesort
+Pattern(s): 3	3	6	0	5	1	1	
+with o n 2 worst case that rarely happens quicksort is potentially far slower than the o nlogn of the merge sort
+quicksort has less overhead so with small n and slow computers it is better
+but computers are so fast today that the additional overhead of a mergesort is negligible and the risk of a very slow quicksort far outweighs the insignificant overhead of a mergesort in most cases
+
+
+
+79771
+subtraction addition
+Pattern(s): 8	5	
+addition and subtraction are then a very simple integer operation such as 0.72 + 1 becomes 72 + 100 becomes 172 becomes 1.72
+multiplication is slightly more complex as it needs an integer multiply followed by a scale back such as 0.72 2 becomes 72 200 becomes 14400 becomes 144 scaleback becomes 1.44
+
+
+
+79771
+subtraction multiplication
+Pattern(s): 3	
+addition and subtraction are then a very simple integer operation such as 0.72 + 1 becomes 72 + 100 becomes 172 becomes 1.72
+multiplication is slightly more complex as it needs an integer multiply followed by a scale back such as 0.72 2 becomes 72 200 becomes 14400 becomes 144 scaleback becomes 1.44
+
+
+
+79771
+addition multiplication
+Pattern(s): 3	8	5	
+addition and subtraction are then a very simple integer operation such as 0.72 + 1 becomes 72 + 100 becomes 172 becomes 1.72
+multiplication is slightly more complex as it needs an integer multiply followed by a scale back such as 0.72 2 becomes 72 200 becomes 14400 becomes 144 scaleback becomes 1.44
+
+
+
+85803
+postgresql mysql
+Pattern(s): 1	
+postgresql has the basic of sql and a lot more so if your mysql do not use fancy mysql stuff you will be ok
+
+
+
+88049
+hash salt
+Pattern(s): 1	
+username donkey key 99754106633f94d350db34d548d6091a server checks if his calculated hash is the same as the one submitted
+advantages of this method -server never knows password only salt hash
+
+
+
+88049
+hash salt
+Pattern(s): 3	
+advantages of this method -server never knows password only salt hash
+-even the hash is never transmitted through the wire - no replay attacks
+
+
+
+89677
+udp tcp
+Pattern(s): 3	1	
+if you re connecting to a named instance and udp is not available when connecting to it then you may need to specify the protocol as well
+example tcp 192.168.1.21 sql2k5 1443
+
+
+
+89848
+profiling benchmarking
+Pattern(s): 5	
+which just goes to show if you don t know how to do proper code profiling don t be doing this stuff
+the speed difference of these two methods are within the same big o speed as proven by leon timmermans opcode analyisis - the benchmarking are just going to show differences based on other local conditions not necessarily your code
+
+
+
+90040
+put get
+Pattern(s): 1	
+you could not get a 100 but still have tested all your 80 freq used code-paths
+having tests that test every throw exceptiontypex or similar defensive programming guard you ve put in is a nice to have not a must have so trust yourself or your developers to be thorough and cover every path through their code
+
+
+
+90062
+umbraco dotnetnuke
+Pattern(s): 5	
+umbraco gets my vote as a good cms that comes close to joomla in maturity and out of the box functionality
+i m not that fond of dotnetnuke but it s been at least a year since i ran it thru its paces
+
+
+
+91993
+boost allocator
+Pattern(s): 5	
+you may see a factor 10 speed-boost just plugging a simple pool allocator into the dictionary template
+afaik boost has a component that can be directly used
+
+
+
+94447
+superclass subclassing
+Pattern(s): 1	1	
+suppose this method is changed in the parent class to this change will not cause any compile time errors or warnings - but it completely changes the intended behavior of the subclassing
+to answer your question you should use the override annotation if the lack of a method with the same signature in a superclass is indicative of a bug
+
+
+
+95522
+superclass subclassing
+Pattern(s): 5	
+you could make an annotation enforceauthor with inherited on the superclass and use compiler annotations since java 1.6 to catch up at compile time
+then you have a reference to the subclassing and can check if another annotation author is missing
+
+
+
+97431
+google-chrome safari
+Pattern(s): 1	
+google-chrome is full featured browser
+so you should be asking for webkit rendering engine google-chrome use developed by safari s guys control
+
+
+
+98683
+allegro sdl
+Pattern(s): 5	5	
+for allegro there is collegro
+for sdl there is sdl_collide.h or sdl-collide
+
+
+
+99194
+for-loop loops
+Pattern(s): 0	1	
+i would agree that the for-loop is clearer and more appropriate when iterating
+the while loops is appropriate for polling or where the number of loops to meet exit condition will change based on activity inside loops
+
+
+
+99235
+x86 mips
+Pattern(s): 3	1	8	
+sgi used to but now their machines are all on x86 ia-64 chips. if you find assembly language appealing and want to work in assembly further learn the arm instruction set
+arm is only a little more complex than mips and virtually all mobile phones smart phones and pdas now use arm chips made by dozens of manufacturers
+
+
+
+102717
+extjs gxt
+Pattern(s): 1	5	1	5	
+gwt extjs is a gwt wrapper around the extjs library
+gxt is native gwt
+
+
+
+102717
+extjs gxt
+Pattern(s): 3	1	5	
+however the future is with gxt as it s native gwt and actually developed by the company that made extjs
+gwt extjs is somewhat crippled as the license changed on the extjs library thus slowing the development of gwt extjs
+overall i think gwt gxt is a good solution for developing a web application
+
+
+
+103227
+hash salt
+Pattern(s): 1	5	
+comparing hash is a good solution
+make sure that you don t just salt all the credit card numbers with the same constant salt though
+
+
+
+103658
+rsa aes
+Pattern(s): 5	
+there should be implementations of rsa available for all the languages you mentioned
+if you don t care if the third-party can decrypt the data then aes is the way to go
+
+
+
+105339
+int double
+Pattern(s): 1	
+for floats and double it s more difficult as with plain int as these may or not may be in the host machines byte-order
+
+
+
+105570
+maven m2e
+Pattern(s): 3	
+unlike most build tools maven uses conventions wisely well better than many others at least and it has plugins for every area you mentioned unit tests maven surefire plugin eclipse integration m2e deploying war file war plugin and deploy plugin maven can also help you in integration tests on tomcat if you have some since you can start stop or deploy a war using the cargo plugin
+
+
+
+105570
+maven cargo
+Pattern(s): 3	
+unlike most build tools maven uses conventions wisely well better than many others at least and it has plugins for every area you mentioned unit tests maven surefire plugin eclipse integration m2e deploying war file war plugin and deploy plugin maven can also help you in integration tests on tomcat if you have some since you can start stop or deploy a war using the cargo plugin
+
+
+
+107415
+post put
+Pattern(s): 1	
+an http put is supposed to accept the body of the request and then store that at the resource identified by the uri
+an http post is more general
+
+
+
+107450
+post put
+Pattern(s): 4	5	
+http 1.1 rfc location for post difference between post and put the rfc itself explains the core difference the fundamental difference between the post and put requests is reflected in the different meaning of the request-uri
+the uri in a post request identifies the resource that will handle the enclosed entity
+
+
+
+107883
+factors mean
+Pattern(s): 1	5	
+if instead we want to say that a function grows exactly as quickly as some other function we use theta to make that point i ll write t f n to mean theta of f n in markdown
+t g n is short hand for being bounded from above and below by g n again up to a scaling factors and asymptotically
+
+
+
+108030
+udp tcp
+Pattern(s): 5	
+there are various standard reliable udp protocols out there what experiences do you have with them
+i think you really need to prove to yourself that tcp is in fact too slow for your needs if you need reliability in your protocol
+
+
+
+109038
+cairngorm puremvc
+Pattern(s): 5	
+in short cairngorm is the visualbasic of flex it works but will teach you a lot of bad habits
+puremvc isn t so bad it just isn t a very good fit for writing flex applications
+
+
+
+110037
+jxtable jtable
+Pattern(s): 5	4	1	5	
+jxtable is an extension of jtable that supports multi-column sorting as well as other functions that jtable doesn t provide
+
+
+
+113048
+width margin
+Pattern(s): 1	
+also make sure that their row has a fixed width which is equal to the sum of the cell widths + margin + padding
+
+
+
+114000
+inline inlining
+Pattern(s): 5	
+functions called using virtual dispatch are not inline there is one kind of penalty for virtual functions which is easy to forget about virtual calls are not inline in a common situation where the type of the object is not know compile time
+if your function is small and suitable for inlining this penalty may be very significant as you are not only adding a call overhead but the compiler is also limited in how it can optimize the calling function it has to assume the virtual function may have changed some registers or memory locations it cannot propagate constant values between the caller and the callee
+
+
+
+114544
+postgresql mysql
+Pattern(s): 5	5	3	
+these databases are very different - mysql is speed and simplicity postgresql is robustness and concurrency
+it will be easier for you to learn postgresql it is not that hard
+
+
+
+115944
+getter setter
+Pattern(s): 5	3	5	
+therefore if there is no business logic for example when a getter simply returns a value or a setter sets it then there is no point in writing a test
+if however there is some logic getter changes the data in some way before returning it then yes you should have a unit test. as a general rule i believe one should not write tests for beans that do not contain any business logic
+
+
+
+116114
+stdout stderr
+Pattern(s): 3	
+this is more easily and flexibly accomplished by redirecting the stdout stream further getting rid of stderr is easily accomplished in situations where it makes sense to use backticks i prefer to use the qx in order to emphasize that there is a heavy-weight command occurring
+
+
+
+116753
+hash salt
+Pattern(s): 1	5	
+add a unique salt to the hash password value store the salt value in the db
+when a unique salt is used the benefit of using a more secure algorithm than sha1 or md5 is not really necessary at that point it s an incremental improvement whereas using a salt is a monumental improvement
+
+
+
+116753
+hash md5
+Pattern(s): 3	1	
+add a unique salt to the hash password value store the salt value in the db
+when a unique salt is used the benefit of using a more secure algorithm than sha1 or md5 is not really necessary at that point it s an incremental improvement whereas using a salt is a monumental improvement
+
+
+
+116753
+salt md5
+Pattern(s): 3	1	1	5	
+when a unique salt is used the benefit of using a more secure algorithm than sha1 or md5 is not really necessary at that point it s an incremental improvement whereas using a salt is a monumental improvement
+
+
+
+116767
+salt md5
+Pattern(s): 3	
+the ready availability of cloud computing and powerful parallel-processor graphics cards means that passwords up to 8 or 9 characters hashed as md5 or sha1 are now trivially breakable
+now a long salt is a must as is something tougher like sha512
+
+
+
+118049
+post get
+Pattern(s): 1	5	
+since you are calling this multiple times you may get better performance copying the list once and destructively deleting from it
+alternatively looking back over your original post it is a little confusing.
+
+
+
+120140
+maven pom.xml
+Pattern(s): 5	
+if you use maven there is an argument for saying that the .project and .classpath files are derived artifacts
+this is only true if you generate them every time you do a build and if you have never had to tweak them by hand or inadvertently changed them by changing some preferences after generating them from the pom.xml
+
+
+
+120284
+lisp prolog
+Pattern(s): 5	5	5	5	
+add prolog like backtracking to the language that very seamlessly integrates with normal lisp code see screamer an xml templating extension to common lisp includes an example of reader macros that are plugins for the lisp parser a ton of small dsl s like loop or iterate for easy looping
+
+
+
+122300
+sudo passwd
+Pattern(s): 3	3	
+i d also have to wonder why so many people have the root passwd
+sudo is there specifically to avoid giving people the root password.
+
+
+
+123307
+lxml celementtree
+Pattern(s): 5	
+it s pythonic comes in the box with python 2.5 including the c version celementtree xml.etree.celementtree which is 20 times faster than the pure python version and is very easy to use
+lxml has some perfomance advantages but they are uneven and you should check the benchmarks first for your use case
+
+
+
+123307
+lxml elementtree
+Pattern(s): 5	
+lxml has some perfomance advantages but they are uneven and you should check the benchmarks first for your use case
+
+
+
+123855
+redmine trac
+Pattern(s): 1	
+i started with trac but i found the mercurial support and the administrative interface for everything to be much better in redmine
+
+
+
+125908
+post get
+Pattern(s): 5	
+the helpful bit of the googled post above is in fact this is a known bug in the windows xp visual styles implementation
+certain controls like imagelist do not get properly initialized when they ve been created before the app calls application.enablevisualstyles
+
+
+
+126003
+google-chrome firefox
+Pattern(s): 5	
+fullscreen minimal google-chrome vnc server instance no visible ui + you can choose your resolution
+use xinit with xvnc as the x server to do this - you ll need to read all the manpages
+
+
+
+129864
+post get
+Pattern(s): 5	
+please have a look at this stackoverflow post which has a list of book recommendations
+in terms of best practices get familiar with the m-v-vm pattern
+
+
+
+133160
+firefox safari
+Pattern(s): 4	5	
+afaik there is no difference on the part of browsers as both firefox and ie will incorrectly cache the response from a url with a querystring in the same way they cache the response from a url without a querystring
+in the case of safari it respects the spec and doesn t cache urls with querystrings
+
+
+
+135226
+getter setter
+Pattern(s): 5	
+here s the full version breakdown ie 6-7 support jscript 5 which is equivalent to ecmascript 3 javascript 1.5 ie 8 supports jscript 6 which is equivalent to ecmascript 3 javascript 1.5 - more bug fixes over jscript 5 firefox 1.0 supports javascript 1.5 ecmascript 3 equivalent firefox 1.5 supports javascript 1.6 1.5 + array extras + e4x + misc. firefox 2.0 supports javascript 1.7 1.6 + generator + iterators + let + misc. firefox 3.0 supports javascript 1.8 1.7 + generator expressions + expression closures + misc. the next version of firefox will support javascript 1.9 1.8 + to be determined opera supports a language that is equivalent to ecmascript 3 + getter and setter + misc
+
+
+
+135367
+boost stl
+Pattern(s): 5	6	
+use of placeholders in a boost bind expression looks much less magical than naked boost lambda placeholders and finds easier acceptance during code reviews
+
+
+
+135739
+for-loop loops
+Pattern(s): 1	
+the for-loop is imperative the algorithms are declarative
+when you write std max_element it s obvious what you need when you use a loops to achieve the same it s not necessarily so
+
+
+
+137344
+inherited subclassing
+Pattern(s): 3	
+in cases where the diamond is not avoidable using virtual inherited
+the biggest caveat however with virtual bases is that the constructor for the virtual base must be called by the most derived class meaning that a class that derives virtually has no control over the constructor parameters
+
+
+
+139276
+gridview repeater
+Pattern(s): 5	5	3	
+since you re building the layout by hand listview and repeater require more code
+gridview is an updated datagrid so there is hardly any reason to use datagrid
+gridview works really well when hooked up to standard asp.net datasources but restricts you to a tabular layout with lots of layout rules
+
+
+
+140719
+boost stl
+Pattern(s): 1	5	
+boost thread is great i m not sure whether you can say its part of the language though
+it depends if you consider the crt stl boost to be part of c++ or an optional add-on library
+
+
+
+142778
+.htaccess httpd.conf
+Pattern(s): 1	1	5	
+also check that .htaccess is readable by the httpd process
+check the error_log - it will tell you of any errors in .htaccess if it s being used. putting an intentional syntax error in .htaccess is a good check to make sure the file is being used -- you should get a 500 error on any page in the same directory
+lastly you can enable a rewrite log using commands like the following in your httpd.conf rewritelog logs rewritelog rewriteloglevel 7 the log file thus generated will give you the gory detail of which rewrite rules matched and how they were handled
+
+
+
+143221
+bitarray bitvector
+Pattern(s): 5	1	5	
+bitarray was the best answer i found when i recently had a similar need
+it s a c extension so much faster than bitvector which is pure python and stores its data in an actual bitfield so it s eight times more memory efficient than a numpy boolean array which appears to use a byte per element.
+
+
+
+143267
+maven pom.xml
+Pattern(s): 5	
+here are the two ways for maven use the tomcat plugin
+you don t need to include it in pom.xml just issue the goal mvn tomcat deploy the plugin is included in maven 2
+
+
+
+143846
+bmp ppm
+Pattern(s): 3	
+if you want antialiasing make sure to use a format that supports transparency bmp and tga do
+ppm does not
+
+
+
+144089
+ienumerable icollection
+Pattern(s): 1	
+however many linq methods special case for when the object implementing ienumerable actually implements icollection
+i ve seen this for ienumerable.contains at least. in practice this means that linq ienumerable.contains calls the fast hashset.contains for example if the ienumerable actually is a hashset
+
+
+
+144890
+quicksort mergesort
+Pattern(s): 1	
+other than that quicksort is known to be very fast on arrays just like mergesort is the common choice for lists
+
+
+
+144997
+inline inlining
+Pattern(s): 3	5	
+the inline keyword is just a hint to the compiler
+some will even do inlining across translation units where they decide it s helpful
+
+
+
+145200
+ironruby ironpython
+Pattern(s): 1	5	
+this will allow you to run ironruby run most ruby programs when 1.0 ships then they can improve perf as they go
+i suspect ironpython has a similar story
+
+
+
+145897
+nginx lighttpd
+Pattern(s): 5	
+inside each container you can setup apache or any other webserver nginx lighttpd .. . this way you don t have one apache for everything but could create a container for any subset of services per project
+
+
+
+145952
+inline inlining
+Pattern(s): 5	
+inline works like a copy paste controlled by the compiler which is quite different from a pre-processor macro the macro will be forcibly inlined will pollute all the namespaces and code won t be easily debuggable and will be done even if the compiler would have ruled it as inefficient
+
+
+
+145952
+inline-functions inlining
+Pattern(s): 5	
+it may also decide to inline-functions not marked as inline at compilation or linking time
+inline works like a copy paste controlled by the compiler which is quite different from a pre-processor macro the macro will be forcibly inlined will pollute all the namespaces and code won t be easily debuggable and will be done even if the compiler would have ruled it as inefficient
+
+
+
+147161
+int double
+Pattern(s): 5	
+if the most significant bit of the int is 0 increase the exponent by one shift the int left by one and fill the least significant bit in with a new random bit
+repeat until either you hit a 1 in the most significant place or else the exponent gets too big for your double 1023
+
+
+
+147195
+post put
+Pattern(s): 5	
+it s common to have uri differences or message content differences to distinguish between post and put when a person is clicking submit on a form
+it however isn t very clean because your code has to determine if you re in the post create case or post update case
+
+
+
+147195
+post get
+Pattern(s): 5	
+it however isn t very clean because your code has to determine if you re in the post create case or post update case
+
+
+
+147281
+clang llvm
+Pattern(s): 5	
+under development for now but clang does c analysis and is targeted to handle c++ over time
+it s part of the llvm project
+
+
+
+149437
+range max
+Pattern(s): 3	1	
+know your range of data
+a float is only good for 6 to 7 digits of precision so that means a max of about +-9999.99 without rounding
+
+
+
+149442
+google-chrome safari
+Pattern(s): 4	1	
+at first i believed it was a built-in feature of the wysiwym markdown editor but shog9 is correct it s not baked-in at all but is courtesy of the jquery plugin textarearesizer i was lead astray by the browser was using to check on the editor demo because google-chrome itself adds the expandable functionality on textareas mdash
+much like the safari browser does
+
+
+
+150009
+unsigned short
+Pattern(s): 5	3	
+i believe that compiler takes a hint to disable padding when you use the unsigned int wwindow 16 syntax
+also note that a short is not guaranteed to be 16 bits
+
+
+
+150148
+filtering grouping
+Pattern(s): 5	3	3	7	
+extract method is the nearest a datatable provides in termes of filtering it returns an array of pointers to datarows
+grouping is not so powerful as in tclientdataset as also indexing is poorer
+
+
+
+150195
+put get
+Pattern(s): 5	
+keytool doesn t have key export built in to avoid accidental disclosure of this sensitive material so you might want to consider some extra safeguards that could be put in place to protect your exported keys
+here is some simple code that gives you unencrypted pkcs #8 privatekeyinfo that can be used by openssl see the -nocrypt option of its pkcs8 utility if you need other formats you can use a keyfactory to get a transparent key specification for different types of keys
+
+
+
+150988
+floating-point integer
+Pattern(s): 5	5	
+algorithms for going the other way printing the best decimal number from a floating-number are found in burger and dybvig s printing floating-point numbers quickly and accurately downloadable here
+this also requires multiple-precision integer arithmetic see also david m gay s correctly rounded binary-decimal and decimal-binary conversions for algorithms going both ways
+
+
+
+151336
+installation upgrade
+Pattern(s): 5	
+msiexec.exe then interprets this database to do the actual installation
+the version property you mention is used by msi engine internally for upgrade uninstalls etc and is never displayed
+
+
+
+152132
+versioning upgrade
+Pattern(s): 3	1	
+doing it this way we can stay with versioning 1 of a project until upgrading to versioning 1.5 is absolutely necessary
+you still have the job with adding dll s when deciding to upgrade to a other versioning of the dll though
+
+
+
+152425
+put get
+Pattern(s): 1	5	5	
+but don t just take my word for it in access-ordered linked hash maps merely querying the map with get is a structural modification the linked hash map s javadoc if you are absolutely sure that there are no caches no collection statistics no optimizations no funny stuff at all - you don t need to sync
+in that case i would have put a type constraint on the collection don t declare the collection as a map which would allow linkedhashmap but as hashmap for the purists a final subclass of hashmap but that might be taking it too far...
+
+
+
+153015
+udp tcp
+Pattern(s): 1	
+since ip has become the dominant protocol a port in networking terms has become synonomous with either a udp or tcp port number - which is a portion of the socket address
+udp is connection-less - meaning no virtual circuit between the 2 endpoints is ever created
+
+
+
+154070
+client-side server-side
+Pattern(s): 5	
+if you re generating the link on the server we would need to know what server-side language you re using to give more specific advice
+if you re generating the tag client-side as a string in javascript don t do that use document.createelement use the string.replace method on the argument string to pick out characters that will break the syntax you re generating and replace them with escaped versions
+
+
+
+157456
+perforce svn
+Pattern(s): 1	
+but the svn clients are better especially the eclipse plugin
+perforce is more expensive
+
+
+
+157551
+perforce svn
+Pattern(s): 5	
+i have used both and in my experience perforce makes a lot of sense if you have a big team and or codebase
+otherwise i would pick svn - it is easier to set up and maintain
+
+
+
+157625
+perforce svn
+Pattern(s): 1	5	
+it has features analogous to those available in perforce but is free foss
+either is a great alternative to svn when working with a large team
+
+
+
+157949
+client-side server-side
+Pattern(s): 3	3	
+a form should always have server-side validation
+client-side validation is only there as a convenience
+
+
+
+159454
+width height
+Pattern(s): 1	1	
+you need to listen for width changes on the content composite mparent compute the minimum height again given the new content width and call setminheight on the scrolled composite with new height
+in listening for size changes note that we ignore any resize events where the width stays the same
+this is because changes in the height of the content do not affect the minimum height of the content as long as the width is the same
+
+
+
+167434
+boost stl
+Pattern(s): 5	
+but even then it s most likely you would be using plain stl containers and not boost
+boost only provides the tr1 containers for those compilers that do not yet include tr1
+
+
+
+168129
+scheme racket
+Pattern(s): 1	1	3	
+plt scheme features a built-in continuation-based web server
+update plt scheme is now called racket
+
+
+
+168366
+onclick onsubmit
+Pattern(s): 1	
+if i attach an onclick handler to the submit button i can see that the button is being clicked - but if i attach an onsubmit handler to the form i get nothing
+if i make the button onclick handler submit the form through javascript it works fine - it s just the direct submission that s not working
+
+
+
+168366
+submit submission
+Pattern(s): 1	
+if i make the button onclick handler submit the form through javascript it works fine - it s just the direct submission that s not working
+
+
+
+168723
+profiling debugging
+Pattern(s): 5	
+sql server profiling is my tool of choice but only for the db end obviously
+it should be noted this is for optimizing queries and performance and debugging
+
+
+
+169351
+ant maven
+Pattern(s): 5	
+forget ant
+maven is the way to go if you ask me
+
+
+
+172270
+accessor properties
+Pattern(s): 5	
+declare accessors using properties you make life much simpler for yourself if you always use accessor methods to assign values to instance variables except in and dealloc methods
+
+
+
+172899
+wordpress joomla
+Pattern(s): 3	1	
+if you don t have many complex requirements i think wordpress is not a bad idea
+if you need to expand the site later on and add different functionality like forums gallery polls etc. you better go for a proper cms solution like joomla drupal and likewise
+
+
+
+173007
+g++ gcc
+Pattern(s): 3	
+also if you use g++ to link the object files it automatically links in the std c++ libraries gcc does not do this
+
+
+
+173406
+firefox safari
+Pattern(s): 1	5	
+currently i believe that safari is the only shipping browser to support any of these and i believe it only supports the client side databases and local storage parts
+edit olliej correction firefox 3 supports the application cache but alas not the client side db
+
+
+
+173419
+profiling benchmarking
+Pattern(s): 6	
+into your code allowing you to arbitrarily benchmarking any section of code note only recommended for short sections not things taking dozens of milliseconds or more
+its accurate to the clock cycle though in some rare cases it can change how the code in between is compiled in which case you re better off with a profiling though profiling are generally more effort to use for specific sections of code
+
+
+
+176144
+opera firefox
+Pattern(s): 3	1	3	0	
+my support list in order of priority currently looks like this unless a client expresses a need to expand it safari 3 firefox 2 firefox 3 ie 7 ie 8 beta public-facing functionality works looks correct in ie 6 google-chrome the reason i take this approach is that first it s best to work in a standards-compliant browser before tweaking to broken engines
+second safari has the greatest standards support combined with a marketshare which isn t negligible opera is just hard to justify for cost benefit reasons
+third in my experience going from safari to firefox is usually less problematic than the other way around
+
+
+
+176144
+opera google-chrome
+Pattern(s): 3	1	
+my support list in order of priority currently looks like this unless a client expresses a need to expand it safari 3 firefox 2 firefox 3 ie 7 ie 8 beta public-facing functionality works looks correct in ie 6 google-chrome the reason i take this approach is that first it s best to work in a standards-compliant browser before tweaking to broken engines
+second safari has the greatest standards support combined with a marketshare which isn t negligible opera is just hard to justify for cost benefit reasons
+
+
+
+176144
+opera safari
+Pattern(s): 3	1	
+second safari has the greatest standards support combined with a marketshare which isn t negligible opera is just hard to justify for cost benefit reasons
+
+
+
+176144
+google-chrome firefox
+Pattern(s): 3	
+google-chrome comes last because it s so likely to just work if safari is good to go
+edit firefox 2 comes before firefox 3 because its support set is more restricted
+
+
+
+176144
+google-chrome safari
+Pattern(s): 3	1	
+google-chrome comes last because it s so likely to just work if safari is good to go
+
+
+
+179813
+verilog vhdl
+Pattern(s): 5	0	
+for hdl choice verilog is to c as vhdl is to ada
+so verilog is easier to get started with but you can make mistakes more easily
+
+
+
+180634
+inherited subclassing
+Pattern(s): 3	
+probably due to a delphi background and i always make it private to avoid the problem when the inherited is erroneously omitted from a class but a subclassing tries to use it
+
+
+
+181372
+matlab simulink
+Pattern(s): 1	5	
+for further comparison with python i can say that matlab provides a full package for you to do your work without the need of looking around for external libraries and implementing extra functions
+one last point about matlab which i see is not mentioned in the answers here is that it has a very powerful visual modeling simulation environment called simulink
+
+
+
+182092
+int boolean
+Pattern(s): 1	
+as a workaround i ve done the following which will replace the text of the statement with the numbers ending up as something like where buildingid in 1 2 3 4 note that this is getting close to a sql injection vulnerability but since it s an int array is safe
+arbitrary strings are not safe but there s no way to embed sql statements in an integer or datetime boolean etc
+
+
+
+182664
+ubuntu linux
+Pattern(s): 5	
+the latest versions of ubuntu include an installer called wubi which installs ubuntu as a windows application ie it can be uninstalled from add remove programs and sets up the dual boot for you
+it s great for those who want to give linux a try without a system overhaul
+
+
+
+182776
+getdate datepart
+Pattern(s): 5	
+select datediff m 0 getdate
+1327 the next part adds that number of months plus 1 to the 0 timestamp giving you the starting point of the next calendar month
+
+
+
+184762
+int boolean
+Pattern(s): 1	
+private static int testval 6
+public static boolean version1 boolean found false
+
+
+
+186279
+inherited properties
+Pattern(s): 1	5	1	5	
+adding a properties to the prototype of a function object will make it available to the constructed object as well as to all of the objects which inherit from it
+advantages there may not be a hard and fast rule as to why prototypal inherited is an advantageous form of code-reuse
+code reuse itself is advantageous and prototypal inherited is a sensible way of going about it
+
+
+
+186668
+folder directory
+Pattern(s): 3	
+no matter if you use safari or firefox or possibly another browser it is standard or mac that browsers search their plugins in that folder
+it is named library internet plug-ins and as always on mac this directory exists twice
+
+
+
+189634
+inherited properties
+Pattern(s): 5	
+otherwise if the properties is inherited use the value of the parent element generally the computed value
+
+
+
+190149
+prng random
+Pattern(s): 3	1	
+in your case i d consider using a large prng 32 bit or larger to shuffle your 10 000 numbers and then send the numbers out in the shuffled order
+once they re used up you can shuffle again - since the prng is so large you ll be able to go through the 10k numbers many times before duplicating a sequence
+
+
+
+190745
+cpu processors
+Pattern(s): 3	
+100 concurrent users consuming 10 cpu does not mean 500 concurrent at 50 it could be 20 or it could be 100
+your bottleneck could be processors or memory or network bandwidth
+
+
+
+193952
+superclass subclassing
+Pattern(s): 5	3	
+call is for calling non-virtual static or superclass methods the target of the call is not subject to overriding
+callvirt is for calling virtual methods so that if this is a subclassing that overrides the method the subclassing version is called instead
+
+
+
+194248
+lxml elementtree
+Pattern(s): 5	
+elementtree as in python 2.5 has only a small feature set compared to full-blown xml libraries but it s enough for many applications
+if you need a validating parser or complete xpath support lxml is the way to go
+
+
+
+194456
+client-side server-side
+Pattern(s): 3	1	
+edit i ll leave this answer here as a sort of theoretical reference point but it sounds like the autocompleter answer is likely to be more useful to you disclaimer although i work for google which clearly has suggest elements in various uis i haven t looked at any of the code around this area nor even spoken to anyone about the client-side aspect
+the server-side language is probably irrelevant here
+
+
+
+195398
+postgresql mysql
+Pattern(s): 0	
+of course the picture is not so simple innodb tables on mysql have a very different performance behaviour at the load levels where postgresql s better locks overtake mysql s other parts of your platform could be the bottlenecks
+postgresql does comply better with standards so it can be easier to replace later
+
+
+
+196580
+apache nginx
+Pattern(s): 5	
+from a raw performance perspective nginx is faster but not so much faster that i would include that as a determining factor
+apache has the advantage in the area of modules available and the fact that it is pretty much standard
+
+
+
+197420
+pthreads fork
+Pattern(s): 5	
+having said this i would not use this code - i would either be inclined to fork mklink or look at the native library from jruby jpython sorry i cant look it up atm as my network connection is flakey
+i seem to recall that jruby has written a library that wraps up various pthreads apis into java thinks like chown that are required for ruby compliance but are not cross platform
+
+
+
+197437
+hash salt
+Pattern(s): 3	1	
+thus suppose you wanted a coupon for user 23 worth 200 you might build up a string like 23_200 and calculate an md5 hash with a secret salt of billthelizard to get 2671519131e974ee6fc746151e98f4a8 thus the complete code you give the customer is 200_23_2671519131e974ee6fc746151e98f4a8 now when you received the code you break it apart and check that md5 200_23 +secret 2671519131e974ee6fc746151e98f4a8 to verify the value edit if an 32 character hash is too long you could always truncate it chopping it down to 8 chars would still give you 4294967296 different hash values
+
+
+
+197437
+hash md5
+Pattern(s): 3	1	
+thus suppose you wanted a coupon for user 23 worth 200 you might build up a string like 23_200 and calculate an md5 hash with a secret salt of billthelizard to get 2671519131e974ee6fc746151e98f4a8 thus the complete code you give the customer is 200_23_2671519131e974ee6fc746151e98f4a8 now when you received the code you break it apart and check that md5 200_23 +secret 2671519131e974ee6fc746151e98f4a8 to verify the value edit if an 32 character hash is too long you could always truncate it chopping it down to 8 chars would still give you 4294967296 different hash values
+
+
+
+198473
+post get
+Pattern(s): 1	
+get or query string posts are really good for information required for either bookmarking a particular item or for assisting in search engine optimization and indexing items
+post is good for standard forms used to submit one time data
+
+
+
+198607
+xna slimdx
+Pattern(s): 1	5	3	
+xna provides several math constants including 3d specialists like pi 2 etc. and some advanced math functions with float precision though not the trigonometric functions
+while that is most likely not an option for you since xna is not as slim as slimdx it certainly means that system.math is either actually missing something or the performance hit is not that big
+
+
+
+200235
+ubuntu linux
+Pattern(s): 1	
+i tried the first alpha version current is 3 of the flex builder under ubuntu and it was just okay but not useable for productive just alpha flashdevelop works only under windows maybe with wine.
+and in my opinion it s not a good ide fdt is on eye level with the flex builder but also not free and i don t know if it runs innately on linux
+
+
+
+200341
+jar war
+Pattern(s): 3	1	
+heck you can store content directly in a war file which is basically a jar file with a few extra bits
+yes you may need to write a custom resolver to use classloader.getresourceasstream but basically as you re given the ability to generate the content however you like fetching it from a jar file seems perfectly reasonable
+
+
+
+200715
+xslt xquery
+Pattern(s): 5	3	1	
+xslt is an example of a functional programming language for doing transformations of data or documents represented as xml -- admittedly a very verbose and very limited one
+if i remember correctly xquery is also purely functional
+
+
+
+201298
+configobj configparser
+Pattern(s): 3	5	
+configobj is essentially a replacement for configparser with support for nested sections and much more
+
+
+
+201835
+ienumerable ilist
+Pattern(s): 5	
+by using ilist you make this a requirement so that nobody can inadvertently return an ienumerable
+
+
+
+203242
+inherited subclassing
+Pattern(s): 5	5	
+in short single table inherited sti is a design pattern that allows a mapping of oop inherited relationships to the database
+if you define any subclassing from your activerecord model objects then you should consider sti
+
+
+
+203444
+prng random
+Pattern(s): 6	1	
+normally seeding a new state takes quite while for a serious prng and making new ones each time won t really help much. the only case i can think of where you might want more than one prng is for different systems say in a casino game you have one generator for shuffling cards and a separate one to generate comments done by the computer control characters this way really dedicated users can t guess outcomes based on character behaviors
+a nice solution for seeding is to use this random.org they supply random numbers generated from the atmospheric noise for free
+
+
+
+203550
+g++ gcc
+Pattern(s): 5	
+or if you really want to use gcc add -lstdc++ to the command line like so gcc test.cpp -lstdc++ running md5 against the a.out produced under each scenario shows that it s the same output
+but yeah g++ probably makes your world a simpler place
+
+
+
+204777
+union distinct
+Pattern(s): 3	
+union - when the object returned by this method is enumerated union enumerates first and second in that order and yields each element that has not already been yielded
+edit i ve moved distinct to preserving order based on this implementation
+
+
+
+206345
+int boolean
+Pattern(s): 5	5	1	1	
+a boolean is about truth and falseness
+an int is about whole numbers
+
+
+
+206964
+soappy suds
+Pattern(s): 1	
+has a module called soappy which is different than soapy above
+newer libraries suds very pythonic and easy to create wsdl-consuming soap clients
+
+
+
+207062
+google-chrome firefox
+Pattern(s): 1	5	5	
+google-chrome is a general term for the ui of a browser
+firefox also has the word google-chrome all over its code base
+
+
+
+207937
+concurrenthashmap readwritelock
+Pattern(s): 3	
+if a map-type structure is more appropriate you can use a concurrenthashmap
+with a list a readwritelock is probably the most effective way
+
+
+
+208011
+sudo passwd
+Pattern(s): 1	
+the root passwd is disabled and people have to use sudo to get root access
+
+
+
+210685
+post put
+Pattern(s): 1	
+doing this violates my resource-oriented architecture but it conforms to the less restrictive rules of rest. in short replacing put delete in favor of post makes the api harder to read and put delete calls are no longer idempotent
+
+
+
+210685
+post get
+Pattern(s): 1	
+restful web services chapter 8 section overloading post reads if you want to do without put and delete altogether it s entirely restful to expose safe operations on resources through get and all other operations through overloaded post
+doing this violates my resource-oriented architecture but it conforms to the less restrictive rules of rest. in short replacing put delete in favor of post makes the api harder to read and put delete calls are no longer idempotent
+
+
+
+215617
+cpu processors
+Pattern(s): 1	
+your best bet is to get a java cpuid utility that gives you the processors information and then match it against a table you ll have to generate that gives you the threads per core that the processors manages without a real context switch
+
+
+
+215746
+opera firefox
+Pattern(s): 1	5	1	5	
+opera has native svg support firefox has native svg support internet explorer does not include svg support natively
+
+
+
+215746
+opera safari
+Pattern(s): 1	5	1	5	
+opera has native svg support firefox has native svg support internet explorer does not include svg support natively
+safari has native svg support for images and fonts since version 3.1
+
+
+
+215746
+firefox safari
+Pattern(s): 1	5	1	5	
+opera has native svg support firefox has native svg support internet explorer does not include svg support natively
+safari has native svg support for images and fonts since version 3.1
+
+
+
+215746
+google-chrome safari
+Pattern(s): 1	5	1	5	
+safari has native svg support for images and fonts since version 3.1
+camino contains native svg support as per its own documentation google-chrome uses an old version of web kit to support svg natively konqueror has svg support via a plugin ksvg2 from 2007 a here is a list of the state of svg support in many browsers
+
+
+
+216153
+haskell scheme
+Pattern(s): 3	1	
+it s not too widely used but definitely seems like a solid language to use especially considering the robustness of drscheme which in fact compiles scheme programs to native binary code
+after that - haskell is incredibly interesting
+
+
+
+217361
+dictionary map
+Pattern(s): 1	1	
+since dictionary t t implements ienumerable you could use linq as so edit actually you may be able to use dictionary directly as if it doesn t map key value the way you want you can always go back to linq
+
+
+
+217672
+inherited properties
+Pattern(s): 1	
+inherited generally maps to an is-a relationship
+since your container is a list but with some other things i would inherit from list and add your additional properties to your subclassing
+
+
+
+217672
+inherited subclassing
+Pattern(s): 1	
+inherited generally maps to an is-a relationship
+since your container is a list but with some other things i would inherit from list and add your additional properties to your subclassing
+
+
+
+219124
+fastcgi scgi
+Pattern(s): 4	5	
+from my experience only fastcgi really works and it can be used in apache either via mod_fastcgi or if you can run a separate python daemon with mod_proxy_fcgi
+wsgi is a protocol much like cgi which defines a set of rules how webserver and python code can interact it is defined as pep333
+
+
+
+219490
+sqldatasource objectdatasource
+Pattern(s): 5	
+my understanding is that with sqldatasource connection management is performed for you and you have nothing to fear
+objectdatasource doesn t talk to the database directly in the first place so it will be safe -- as long as the underlying object performs its connection and reader management correctly
+
+
+
+222347
+post get
+Pattern(s): 3	
+into the code will throw an exception that will not get handled
+the second version from the original post does not have this problem and it is generally preferred
+
+
+
+223288
+client-side server-side
+Pattern(s): 5	3	1	
+if javascript validation didn t work for any reason regular server-side validation scenario page reload with error informations takes place using the same server-side script
+this solution isn t as responsive as pure client-side validation needs time to send receive data between client and server but is quite simple and you don t need to translate validation rules to javascript
+
+
+
+227544
+try-catch exception-handling
+Pattern(s): 1	
+to me that programmer and quality overhead is the primary argument against using try-catch for process flow
+the computer overhead of exception-handling is insignificant in comparison and usually tiny in terms of the application s ability to meet real-world performance requirements
+
+
+
+228349
+uinavigationcontroller uinavigationbar
+Pattern(s): 5	
+i believe the uinavigationcontroller assumes that your controller view frames don t include the area beneath the navigation bar
+uibarstyleblacktranslucent is more often used for uitoolbar so apple probably didn t make it easy to use it nicely with uinavigationbar
+
+
+
+228349
+uinavigationcontroller uinavigationbar
+Pattern(s): 5	
+you ll probably need to abandon the uinavigationcontroller or start hacking the frames careful with rotations if you want to reliably render under the bar area
+also if your intention is to hide the navigation bar after a few seconds you ll have a much easier time if you make it fade out like the photos app instead of trying to slide it up like mobile safari
+
+
+
+229451
+gif png
+Pattern(s): 4	3	
+i see that the gimp manual states his png8 format like gif uses only one bit for transparency
+
+
+
+229736
+for-loop loops
+Pattern(s): 3	
+somehow the for-loop is mostly designed to run a number of times know in advance you can still use break to terminate early so the dynamic evaluation of the stop term is more annoying than useful if you really need dynamic evaluation you use or
+on some other languages like lua the stop condition is evaluated only once at loops init
+
+
+
+230208
+daemons systemd
+Pattern(s): 5	1	3	
+so far we ve had zero issues as a result of this process except when the build server kicks in while our source control systemd also known as the daemons spawn see so many of my recent remarks performs a large multi-file check-in
+as daemons spawn doesn t support transacted check-ins. however this is a very rare occurrence -- perhaps once every 5 or 6 weeks
+
+
+
+232756
+free malloc
+Pattern(s): 5	
+if you can consistently reproduce the problem with specific input parameters you should debug like this first debug to the precise free that causes the problem
+then figure out when the memory that is about to be free d was malloc ed
+
+
+
+233457
+folder directory
+Pattern(s): 5	
+it replaces all the permissions set in order to set only the ones defined in the command so after the command accessing files resulted in a access denied even with my admin user it applied on the c windows directory while i called the command from the wwwroot folder
+so after some tests the right command is t applies on specified folder and subfolders e edits the acl instead of replacing it
+
+
+
+235727
+nemerle boo
+Pattern(s): 4	
+a key factor for linq is the ability of the compiler to generate expression trees. i am using a macro in nemerle that converts a given nemerle expression into an expression tree object. i can then pass this to the where select etc extension methods on iqueryables. it s not quite the syntax of c# and vb but it s close enough for me
+i got the nemerle macro via a link on this post it should be possible to create a similar macro for boo
+
+
+
+236111
+free malloc
+Pattern(s): 5	3	
+on linux with glibc the memory is actually always returned to the os above a certain size glibc malloc uses mmap for big allocations controlled by mmap_threshold and in that case free calls munmap which frees automatically the reserved memory
+below that threshold it uses brk and free does not return the memory in that case
+
+
+
+237818
+folder directory
+Pattern(s): 5	5	
+this basically adds a .git folder to the current directory
+this is like using visualsvn creating a new repository then checking it out to a working directory just without the server vim myfile.txt - make a new file if you have existing files you obviously can skip this git add myfile.txt - start tracking the new file similar to svn add ing a file git commit - commits whatever you have run git add on
+
+
+
+238937
+serializable deserialization
+Pattern(s): 5	
+i use it in a class tree which serializable to a xml file
+on the deserialization the parser class returns a pointer to the base class which has a enumeration for the type of the subclass because you don t know which type it is until you parse it
+
+
+
+240272
+post put
+Pattern(s): 3	
+therefore post is not considered safe or idempotent
+
+
+
+241908
+octal hex
+Pattern(s): 1	
+so octal became popular because it allowed you to think in groups of three bits and you could use symbols we are familiar with as numbers 0 1 2 3 4 5 6 7
+but groups of four which is another power of 2 gives the humans a lot more mental computing power than octal hex is based on 4 bits which is also a power of 2
+
+
+
+241908
+octal binary
+Pattern(s): 3	3	1	1	1	
+even a simple task for a human in binary is long winded simple second grade math is still a lot of ones and zeros
+so octal became popular because it allowed you to think in groups of three bits and you could use symbols we are familiar with as numbers 0 1 2 3 4 5 6 7
+
+
+
+242348
+innodb myisam
+Pattern(s): 3	
+the other major thing to watch out for is that innodb does not support fulltext indices nor insert delayed
+but then myisam doesn t support referential integrity
+
+
+
+243197
+redmine bugzilla
+Pattern(s): 1	
+it is open source ajax enabled email interface scm integration integrated wiki configurable trackers workflow and roles rss and email notifications i have used jira too hard bugzilla too rubbish and fogbugz too expensive and i think redmine is fantastic
+
+
+
+244233
+octal hex
+Pattern(s): 1	
+hex maps 4 bits to one hex nibble 0-f so a byte is stored in two nibbles 00-ff
+octal was popular on digital equipment dec and other older machines but one octal digit maps to three bits so it doesn t cross byte boundaries as nicely
+
+
+
+244240
+put get
+Pattern(s): 5	
+usability notes personally i hate when sites put the forgot password or forgot username or help links inbetween the password field and the login button
+as a keyboard user i shouldn t have to tab over them to get to the submit button
+
+
+
+245871
+versioning upgrade
+Pattern(s): 5	
+you may need to upgrade to the most recent versioning of jython or eclipse
+but it s quite possible they haven t yet released a versioning that supports this os
+
+
+
+246649
+vb.net vb6
+Pattern(s): 3	3	
+the reason for this is you already know the syntax and that vb.net is not enough like vb6 to make it as easy a move as you might expect
+
+
+
+247984
+cobertura eclemma
+Pattern(s): 1	5	
+i use a combination of cobertura checkstyle ecl emma and findbugs
+eclemma is an awesome eclipse plugin that shows the code coverage by coloring the java source in the editor screenshot - the coverage is generated by running a junit test
+
+
+
+248757
+sudo passwd
+Pattern(s): 1	5	
+edit looks like sudo has a nopasswd mode so i think it should work since you re running the programs as external commands
+
+
+
+249498
+int double
+Pattern(s): 5	
+integers are stored with the right-most bit being 1 and each bit to the left being double that 2 4 8 ...
+it s easy to see that this can store any int up to 2 n where n is the number of bits
+
+
+
+249511
+datediff difference
+Pattern(s): 5	
+with one-digit accuracy this won t make much difference but do not try to calculate new dates based on the resulting value as they will not be 100 accurate
+i ll try and find a way to format that more nicely... this yields 8.3 the formula takes into account that between 2008-04-13 and 2008-11-05 datediff mm ... returns 7 but really it is not seven months in between but less
+
+
+
+251023
+cvs svn
+Pattern(s): 5	
+they would have to access code via our svn and would be unlikely to get paid without meeting unit testing and code review requirements
+if contracting i d make sure to have solid experience of both vss check-in out and cvs merge conflict models
+
+
+
+251773
+switching screens
+Pattern(s): 0	
+it makes it easier for the user to arrange their workspace and switching between documents using the os s app switching capabilities
+a lot of mdi applications prevent this by corraling multiple documents into the same window which limits usability of screens real estate in a multiple monitor scenario
+
+
+
+252122
+versioning upgrade
+Pattern(s): 5	
+support of multiple server versioning means design and implementation of multiple versioning of parsers and related infra in parallel. this multiplies time and cost to develop test and support
+at the same time the core module is an important product base that enables not only intellisense feature but also other products including upgrade advisor to analyze scripts
+
+
+
+252733
+goto break
+Pattern(s): 5	
+in c# you can still have one case fall through to another - you just have to make the fall thru explicit by jumping to the next case using a goto
+it s too bad java didn t take the opportunity to break from the c semantics
+
+
+
+253390
+cvs svn
+Pattern(s): 5	
+for cvs pycvs may be worth a look
+for svn there is pysvn which is pretty good
+
+
+
+253463
+redmine trac
+Pattern(s): 5	5	
+with trac you can have multi-project setups as well having a separate environment for each project but in the end it s a workaround
+redmine has builtin support for multi-project environments
+
+
+
+253740
+hash md5
+Pattern(s): 1	0	3	
+actually all other aspects being equal a slower hash function is more secure than a fast one
+this is because a slower hash function results in slower generation of rainbow tables and slower brute forcing or dictionary attacks on the password
+from thomas ptacek at as referenced in this coding horror article the problem is that md5 is fast
+
+
+
+254130
+mouse keyboard
+Pattern(s): 4	
+however i think most flash developers and especially those who make games rely on the fact that keyboard input is caught by the flash application regardless of where the mouse is
+
+
+
+255743
+inherited subclassing
+Pattern(s): 5	5	
+if what you want is to inherited the behavior of an array it s usually a better idea to do that with a has-a relationship rather than an is-a
+that is to write a class that has an nsarray instance variable and simply forwards the relevant messages to it
+
+
+
+256099
+client-side server-side
+Pattern(s): 3	1	0	5	3	
+but the server-side part is pretty simple
+the client-side part is trickier i think
+i found this article helpful he s writing things in php but the client side work is pretty much the same
+
+
+
+256521
+skip-lists tree
+Pattern(s): 5	
+from the wikipedia article you quoted θ n operations which force us to visit every node in ascending order such as printing the entire list provide the opportunity to perform a behind-the-scenes derandomization of the level structure of the skip-lists in an optimal way bringing the skip-lists to o log n search time
+... a skip-lists upon which we have not recently performed any such θ n operations does not provide the same absolute worst-case performance guarantees as more traditional balanced tree data structures because it is always possible though with very low probability that the coin-flips used to build the skip-lists will produce a badly balanced structure edit so it s a trade-off skip lists use less memory at the risk that they might degenerate into an unbalanced tree
+
+
+
+257043
+des aes
+Pattern(s): 3	0	
+triple des is generally better but there are some known theoretical attacks
+if you have a choice of cipher you might want to look at aes instead
+
+
+
+257790
+tapestry wicket
+Pattern(s): 1	3	
+there s also wicket a very decent comparison of wicket and tapestry is available here
+
+
+
+257953
+width height
+Pattern(s): 3	0	3	1	
+safari will expand up to a width of 800px unless the width is already greater than 800 in which case it maintains that width and only modifies the window height
+of course if there aren t any hard width values then the design is a liquid layout so the concern about designing for a particular width is somewhat altered
+
+
+
+258093
+awt swing
+Pattern(s): 1	8	
+i don t think that awt is capable of restyling native component peers in a reliable fashion
+i know for certain that swt can t and it s a far more sophisticated toolkit than awt
+this is part of why it was essentially deprecated in favor of swing back in java 1.2
+
+
+
+260148
+lxml libxml2
+Pattern(s): 1	
+libxml2 libxslt also come with their own much lower-level python bindings but lxml is much more straightforward and pythonic and it seems to have great performance as well
+
+
+
+260148
+lxml elementtree
+Pattern(s): 1	
+it provides a nice easy-to-use binding for libxml2 and libxslt and it also implements the elementtree
+libxml2 libxslt also come with their own much lower-level python bindings but lxml is much more straightforward and pythonic and it seems to have great performance as well
+
+
+
+260735
+keydown keyup
+Pattern(s): 5	1	
+keydown is the moment the key is pushed down. keyup is after the key has been released
+
+
+
+260972
+strcpy strncpy
+Pattern(s): 5	1	5	
+it makes sense to use strncpy over strcpy for safety if you don t know the source string will fit inside the destination buffer
+however strncpy has a major performance issue in that it always writes the amount of bytes specified for the size
+
+
+
+261159
+public protected
+Pattern(s): 1	3	5	
+define all your constructors protected making them public is pointless anyway your subclass constructor s can call one constructor of the abstract class
+it may even have to call it if there is no no-arg constructor in the abstract class in any case don t forget that if you don t define a constructor then the compiler will automatically generate one for you this one is public has no argument and does nothing
+
+
+
+261277
+boost stl
+Pattern(s): 5	
+boost has a utility called next and its inverse prior for just that purpose
+i recommend nicola bonelli s answer to be accepted. that s part of the stl and doesn t require using boost if your code doesn t use boost thanks to the commenters for pointing this out
+
+
+
+262916
+scheme racket
+Pattern(s): 5	
+the standard name for timing the execution of expressions in most scheme implementations is time
+here is an example from within racket
+
+
+
+264473
+innodb myisam
+Pattern(s): 1	5	1	
+sqlite runs in-process with the client application no network capability very low query overhead because of this potentially rather fast for easy queries because there is less ipc system calls and data copying to do
+very limited concurrency i think it s either one writer or multiple readers per database file mysql far more features choice of engines innodb provides good features for many workloads much more control of storage backup restore etc network-capable - which allows its use in large scale applications better concurrency - the innodb engine has mvcc which means that readers do not block writers nor do writers block readers
+even the old myisam engine has table-level locking rather than for the whole database as sqlite
+
+
+
+264777
+hide show
+Pattern(s): 5	
+you might try the style.display property hide document.getelementbyid yourelem .style.display none
+show document.getelementbyid yourelem .style.display
+
+
+
+265372
+client-side server-side
+Pattern(s): 1	
+asp.net validation controls also provide two ways of validation server-side or client-side
+the nice thing about these validation controls is that it will preform client-side validation when it detects the browser is able unless client-side validation has been disabled
+
+
+
+267096
+implements extends
+Pattern(s): 5	
+if your abstract class is the only class that will ever implements the interface then you can always just check for instances of the abstract class you don t need the interface
+but if you want to be future-compatible with new classes not yet written which will not extends the abstract class but could use the interface then keep using the interface now
+
+
+
+267099
+g++ gcc
+Pattern(s): 5	5	
+to add to what others have said g++ is the gnu c++ compiler
+gcc is the gnu compiler collection not the gnu c compiler as many people assume
+
+
+
+268287
+inherited subclassing
+Pattern(s): 5	0	5	
+there is a cost to designing for inherited it can pin down your implementation you have to declare which methods are going to call which other methods in case a user overrides one but not the other it reveals your implementation rather than just the effects it means you have to think of more possibilities when designing things like equals are hard to design in an inherited tree it requires more documentation an immutable type which is subclassing may become mutable ick item 17 of effective java goes into more details on this - regardless of the fact that it s written in the context of java the advice applies to .net as well
+
+
+
+268335
+ssd sata
+Pattern(s): 1	3	
+to improve the speed the first thing i d try is a faster hard drive or an ssd
+sata is pretty much the easiest fastest option
+
+
+
+271143
+int chars
+Pattern(s): 3	
+that makes a bit-count of at least 16 for short and int and 32 for long
+for chars it states explicitly that it should have at least 8 bits char_bit . c++ inherits those rules for the limits.h file so in c++ we have the same fundamental requirements for those values
+
+
+
+272898
+post get
+Pattern(s): 1	
+without testing it or even trying to compile it i would do something like also here s a link to a blog post that achieves the same accross web applications
+and finally a word of advice you ll get better search results if you use programmatically instead of code wise
+
+
+
+273855
+punctuation words
+Pattern(s): 5	
+for your particular case i think comparing the search to real words sounds like the way to go with a words list like that
+the alternative styles punctuation require a bit more work but i doubt users will use that often enough to be an issue
+
+
+
+276151
+ssl https
+Pattern(s): 5	
+------ previous answer ------------ ssl hosts must be tied to a unique ip address port combination thus you cannot use virtual hosting or at least it can only have one ssl host per ip address
+this is due to the fact that https begins encryption before the host parameter is sent in http and thus it cannot determine which cipher to use from the hostname - all it has is the ip address
+
+
+
+277233
+g++ gcc
+Pattern(s): 1	1	
+when executing gcc from the command line g++ is the c++ compiler while gcc is the general c compiler
+
+
+
+277452
+innodb myisam
+Pattern(s): 5	5	
+myisam uses a data file and an index file for each table stored in a directory named after the database
+innodb seems to lump everything together in a file called ibdata1
+
+
+
+277887
+versioning upgrade
+Pattern(s): 3	
+most of the time the download is a setup program created by innosetup which updates the users system and database to the latest versioning
+when a new paid upgrade is needed i then send the user to a purchase upgrade form
+
+
+
+278739
+jboss weblogic
+Pattern(s): 1	
+i do not think jboss is bad in anyway it simply isn t as up-to-date
+most of my experience is on weblogic but i have used jboss and glassfish
+
+
+
+279287
+folder directory
+Pattern(s): 1	
+if you structure your project this way src __init__.py main.py dirfoo __init__.py foo.py dirbar __init__.py bar.py then from foo.py you should be able to do import dirfoo.foo or from dirfoo.foo import fooobject per tom s comment this does require that the src folder is accessible either via site_packages or your search path
+also as he mentions __init__.py is implicitly imported when you first import a module in that package directory
+
+
+
+280057
+mousemove mouseleave
+Pattern(s): 1	
+mousemove is the correct event in vb6
+you ll have to do some work to manually detect when the mouseleave the client area cleanly
+
+
+
+280881
+phpunit simpletest
+Pattern(s): 7	
+phpunit seems to have a bigger userbase which may count as an argument for switching
+i m quite happy with simpletest though
+
+
+
+280900
+vbscript vba
+Pattern(s): 3	3	
+vbscript works quite well with the jet engine
+however i do not see why you say it is not possible to export a query to a csv file from within access. sub transfercsv docmd.transfertext acexportdelim putnameofqueryhere c putpathand filenamehere.csv true end sub is the usual way in vba
+
+
+
+281024
+ubuntu centos
+Pattern(s): 1	5	
+fedora and ubuntu use totally different package managers so you won t be able to easily do it in any sort of generic way
+in centos which is redhat enterprise edition with the serial numbers filed off and so therefore pretty close to fedora we did this using kickstart files
+
+
+
+282162
+phpunit simpletest
+Pattern(s): 3	1	
+read the tutorials on how to write and run tests on the homepage of phpunit
+it is quite easy and well described
+
+
+
+284711
+uinavigationcontroller uitabbarcontroller
+Pattern(s): 1	1	5	5	1	5	
+in general your application should have a tab controller one of who s tab s loads a uinavigationcontroller which in turn loads it s views - not that both maintain management over the different views
+it is also improper to refer to the display of a uiviewcontroller as such an object doesn t have a visual representation
+
+
+
+284851
+junit testng
+Pattern(s): 1	
+in either case segmenting out the tests as both testng and junit do is helpful with integration tests too
+
+
+
+285627
+cvs svn
+Pattern(s): 4	3	
+it isn t a static entity like a cvs tag is well to be fair you can move a tag on individual cvs files which effectively changes it
+
+
+
+285809
+serializable deserialization
+Pattern(s): 3	3	
+if the receiver has loaded a class for the object that has a different serialversionuid than that of the corresponding sender s class then deserialization will result in an invalidclassexception
+a serializable class can declare its own serialversionuid explicitly by declaring a field named serialversionuid that must be static final and of type long if a serializable class does not explicitly declare a serialversionuid then the serializable runtime will calculate a default serialversionuid value for that class based on various aspects of the class as described in the java tm object serializable specification
+
+
+
+286303
+swt swing
+Pattern(s): 3	5	1	
+it depends with eclipse 3.4 swt 3.4 is quite supported with macos
+now swt is os specific and you may not have the same flexibility than swing so you need to have good reason for looking for an alternative to swing especially when you consider there are good lafs look and feel for java
+
+
+
+288615
+hash md5
+Pattern(s): 3	1	
+as of 2017 there s no research that comes even close to feasibility so even a determined well-funded attacker can t compute a url that would hash to a hash of any existing url in your database
+the only known collision attack against md5 is not useful for attacking url-like keys
+
+
+
+289061
+int double
+Pattern(s): 5	
+if you are working on octal you can simply if you are working on hex you can simply but for decimal you should probably do it the way jesse beder suggests most systems have a fast int divide
+if you re working on a system that doesn t you could use the double dabble algorithm to fast convert to bcd
+
+
+
+289891
+public protected
+Pattern(s): 5	
+protected and private are not an essential part of good encapsulation
+you can do good design with everything being public that s the way python works for example
+
+
+
+290253
+int boolean
+Pattern(s): 1	
+a tinyint is an 8-bit int value a bit field can store between 1 bit bit 1 and 64 bits bit 64
+for a boolean values bit 1 is pretty common
+
+
+
+290253
+tinyint boolean
+Pattern(s): 1	1	
+a tinyint is an 8-bit int value a bit field can store between 1 bit bit 1 and 64 bits bit 64
+for a boolean values bit 1 is pretty common
+
+
+
+290553
+inherited properties
+Pattern(s): 3	1	
+was its support for mixin inherited - the methods from any other classes could be reused in your class
+as long as your class provided the properties that these methods used it worked just fine and there was no diamond problem or other multiple-inheritance gotchas to worry about
+
+
+
+290643
+haskell scheme
+Pattern(s): 3	1	1	
+haskell programmer ate so many bananas that his eyes bugged out now he needs new lenses
+post-doc haskell programmer from uustalu vene and pardo s recursion scheme from comonads 4 tenured professor teaching haskell to freshmen
+
+
+
+290894
+rss feed
+Pattern(s): 3	
+there s no reason to have multiple formats for a site available and any modern feed client can now parse atom feed
+atom has quite a few technical advantages over rss and is being widely supported and utilized by major companies such as google and microsoft
+
+
+
+293323
+put get
+Pattern(s): 5	
+weekly progress reports once a week take half an hour to put together a simple report that covers the following achievements assumptions dependancies issues resolutions it shouldn t take much effort to do this and it will give you a very good insight into how the project is tracking
+
+
+
+294744
+cassini iis
+Pattern(s): 5	
+if you are debugging locally using the light weight web server cassini you can apply this trick to cassini itself
+if you are debuggin directly on a web server though inside of iis i don t know how to get this trick to work but hopefully it will lead you in the right direction
+
+
+
+294983
+vsts tfs
+Pattern(s): 5	
+you could write your own vsts-style extensions using the existing vs api which say uses a config file for the authentication credentials as the tfs api does support authentication through a manually-created user we have an external application at work which authenticates against our tfs server and is used by employees of our many offices on different domains
+
+
+
+295657
+sorting filtering
+Pattern(s): 3	
+of course if those additional clauses go anywhere near user text input you have to sanitize them to prevent sql injection attacks. the database can filtering faster than any other tier in general because using a where clause on the database will often allow the database to avoid even reading the unnecessary records off the disk which is several orders of magnitude slower than anything you can do with the cpu
+sorting is often faster on the db as well because the db can often do the joins in such a way that records are already sorted in the order you want them
+
+
+
+296057
+ubuntu centos
+Pattern(s): 1	1	
+i would recommend going with a linux distro that has a friendly community ubuntu centos debranded free rhel or rhel you pay them to help you
+
+
+
+296057
+ubuntu linux
+Pattern(s): 1	
+i would recommend going with a linux distro that has a friendly community ubuntu centos debranded free rhel or rhel you pay them to help you
+
+
+
+296057
+ubuntu debian
+Pattern(s): 1	
+cli is super powerful much more than the command prompt on windows i know about powershell... from a gui perspective i typically have the terminal cli running anyway from a debian ubuntu perspective start stop processes sudo etc init.d apache stop or sudo etc init.d apache start text editors gedit gui - gnome kate gui - kde vim cli or nano cli processes running ps -aux terminate process add a package sudo apt-get install php5-cli upgrade patch a system there is a whole lot of information here and a large variety of options to choose from
+i would recommend going with a linux distro that has a friendly community ubuntu centos debranded free rhel or rhel you pay them to help you
+
+
+
+298306
+maven pom.xml
+Pattern(s): 3	
+info checking out file opt viewstore common maven my_lf_ss vobs test_alm lf_build pom.xml info error build failure info info unable to enable editing on the pom.xml provider message the cleartool command failed. command output cleartool error element opt viewstore common maven my_lf_ss vobs test_alm lf_build pom.xml is already checked out to view my_lf_ss .
+
+
+
+299702
+put get
+Pattern(s): 5	
+from understanding weak references by ethan nicholas weak references a weak reference simply put is a reference that isn t strong enough to force an object to remain in memory. weak references allow you to leverage the garbage collector s ability to determine reachability for you so you don t have to do it yourself
+you create a weak reference like this and then elsewhere in the code you can use weakwidget.get to get the actual widget object
+
+
+
+300837
+unsigned short
+Pattern(s): 5	
+but the problem with this approach is that you cast from unsigned char to void and then to some different type
+the standard doesn t guarantee the address remains the same and in addition dereferencing that pointer would be undefined behavior
+
+
+
+300851
+integer unsigned
+Pattern(s): 1	
+please see additional documentation in the php manual the size of an integer is platform-dependent although a maximum value of about two billion is the usual value that s 32 bits signed
+php does not support unsigned integers
+
+
+
+300861
+floating-point integer
+Pattern(s): 3	
+however these only go so far if you add a large integer to a large integer php will see that the result is too big to fit into a normal integer and will assign it to a floating-point number
+floating-point numbers floats themselves only go so high however and there s a point around the sixteen-digit mark where php will just lose the plot entirely
+
+
+
+301746
+cpython ironpython
+Pattern(s): 5	
+everyone else seems to have the cpython - sql server side covered
+if you want to use ironpython you can use the standard ado.net api to talk to the database if you ve already got ironpython you don t need to install anything else
+
+
+
+304143
+accessor properties
+Pattern(s): 4	
+sadly and its counterpart are last i checked only recognized by kvo for set as in nsset properties not array properties so you don t get free kvo notifications with them unless you implement them on top of accessor it does recognize
+
+
+
+304798
+opera firefox
+Pattern(s): 3	
+i did some testing with strings a while ago with ie7 opera and firefox
+opera took only 0.4s to perform the test but ie7 hadn t finished after 20 minutes
+
+
+
+304880
+maven m2e
+Pattern(s): 1	5	
+along with the m2e plugin for eclipse managing dependencies becomes a doddle - it has an excellent dependency visualisation tool
+overall i would say maven is a great tool starting out on a project but may start to lose its way once your build begins to gain complexity
+
+
+
+305596
+vbscript vba
+Pattern(s): 5	
+the code is as follows and then the c# code changing the vba to read aclink rather than acimport should allow linking
+edit re comments i cannot help with c# but here is some vbscript that links a table from one mdb to another
+
+
+
+306053
+ostream ostringstream
+Pattern(s): 5	
+because it s a temporary we cannot trivially convert to an ostream object through casting
+both the constructor obviously and str are class ostringstream methods. yes we need to use .str
+
+
+
+308480
+maven pom.xml
+Pattern(s): 5	
+since 2.0.9 default versions are provided by the super pom.xml for most important plugins dependency plug-in included so 2.0 version will be downloaded which has list goal
+or you can try removing the cached version of the plug-in from the repository .m2 repository org maven plugins maven-dependency-plugin where is the user home directory
+
+
+
+310913
+vb.net vb6
+Pattern(s): 5	
+in my vb.net code i would use ctype to do this
+however when i try to use ctype in vb6 i get a sub or function not defined error
+
+
+
+313523
+np-hard np-complete
+Pattern(s): 3	
+that is the np in np-hard does not mean non-deterministic polynomial time
+
+
+
+314719
+inherited subclassing
+Pattern(s): 5	5	
+now django implements inherited using a onetoonefield
+because of this an instance of a base class that has a subclassing instance gets a reference to that instance named appropriately
+
+
+
+316491
+vbscript jscript
+Pattern(s): 3	3	
+one of which is the ability to include external script files of both the vbscript and jscript flavors
+i never got very deep into it but i think it would do what you re wanting to do. you can include javascript vbscript or modules of other wscript script languages
+
+
+
+317990
+crypt hash
+Pattern(s): 0	5	
+my sense is that encode and decode are probably good solutions when you want the data to be recoverable but that unrecoverable hash using crypt md5 is a better approach for stored passwords
+
+
+
+317990
+crypt md5
+Pattern(s): 0	0	5	5	
+my sense is that encode and decode are probably good solutions when you want the data to be recoverable but that unrecoverable hash using crypt md5 is a better approach for stored passwords
+
+
+
+317990
+crypt salt
+Pattern(s): 0	5	
+by computing a hash from a visitor-supplied string plus some salt of course i can tell whether the user provided the same password twice without the security risk of allowing my application to be able to decrypt the provided password possibly maliciously
+my sense is that encode and decode are probably good solutions when you want the data to be recoverable but that unrecoverable hash using crypt md5 is a better approach for stored passwords
+
+
+
+317990
+hash md5
+Pattern(s): 0	5	
+my sense is that encode and decode are probably good solutions when you want the data to be recoverable but that unrecoverable hash using crypt md5 is a better approach for stored passwords
+
+
+
+318010
+hash salt
+Pattern(s): 3	
+some applications require the user s password to be retrievable as opposed to a system where the user s password is randomly reset to something if forgotten because it cannot be decrypted because you re using a hash
+also keep with the suggestion of using a salt value whether you hash or encrypt
+
+
+
+318829
+jsf seam
+Pattern(s): 3	1	
+hibernate + jsf is a very common combination
+but if you are asking about using jsf managed beans with a jpa framework have a look at seam
+
+
+
+320181
+inherited subclassing
+Pattern(s): 1	3	
+it is easy to remove the sealed tag if the class needs to change to allow inherited in the future
+however if you want to change a class which is already being used as a base class for some other type you risk breaking the subclassing when you change the base class
+
+
+
+322081
+getter setter
+Pattern(s): 1	3	1	
+the dbkey property getter is virtual in the il because it is in an interface
+the setter is not virtual because it is not part of the interface but part of the concrete class
+
+
+
+322088
+serializable deserialization
+Pattern(s): 5	
+when you make a change that breaks serialization or deserialization this test will fail
+the only thing checking the xml data is going to find for you is if your serializable is emitting a superset of what the deserializer requires and the deserializer silently ignores stuff it doesn t expect
+
+
+
+322330
+prepare execute
+Pattern(s): 4	
+the scenario in which you would get benefit from a prepare query is when you prepare it and execute it many times during the same php request
+
+
+
+322875
+floating-point fixed-point
+Pattern(s): 5	
+source wikipedia double precision for a detailed description of how floating point values are handled in java see the section 4.2.3 floating-point types formats and values of the java language specification
+the byte char int long types are fixed-point numbers which are exact representions of numbers
+
+
+
+323221
+inherited properties
+Pattern(s): 3	1	
+to talk to the same instance between appdomains it must inherited from marshalbyrefobject
+done this way every method call to the object including properties etc is actually a remoting call to the other app-domain
+
+
+
+323809
+firefox safari
+Pattern(s): 5	
+as the others said you can use firebug and that will sort you out no worries on firefox
+chrome safari both have a built-in developer console which has an almost identical interface to firebug s console so your code should be portable across those browsers
+
+
+
+324087
+filesystems ntfs
+Pattern(s): 3	3	
+if i were you i would never rely on any version of any filesystems driver be it microsoft s be it another os s to be consistent about the algorithm it uses to generate short file names
+the exact behavior of the microsoft fastfat and ntfs drivers is not officially documented except as somewhat high level overviews thus are not part of the api contract
+
+
+
+324355
+lxml libxml2
+Pattern(s): 0	3	1	
+also libxml2 has more features
+lxml is mostly api compatible with xml.etree.elementtree
+
+
+
+326637
+gridview objectdatasource
+Pattern(s): 5	
+all of the datakey values will always be passed to the delete method because the fields named by datakeynames are intended to be the field or fields that uniquely identify that item in the gridview
+they re often used for more than that to easily maintain extra fields on a per-row basis in viewstate as you are here but doing so has the side-effect that you re seeing with the objectdatasource methods
+
+
+
+327402
+prng random
+Pattern(s): 5	
+what you want to do is to have an uniform random generated but restricted to a certain range in this case an entropy of 4
+if your prng has say an entropy of 32-bit you cannot be certain that computing the output mod 4 will work as expected
+
+
+
+328797
+ienumerable ilist
+Pattern(s): 5	
+this makes the interfaces similar in name only while icollection and ienumerable t differ by very little
+from this list the only non-generic classes that don t have a generic counterpart are bitarray and caseinsensitivecomparer
+
+
+
+328797
+ienumerable icollection
+Pattern(s): 1	1	1	1	5	
+this makes the interfaces similar in name only while icollection and ienumerable t differ by very little
+from this list the only non-generic classes that don t have a generic counterpart are bitarray and caseinsensitivecomparer
+
+
+
+329243
+division addition
+Pattern(s): 0	
+since most processors can do an addition comparison or multiplication in a single cycle those are all counted as one flop
+but division always takes longer
+
+
+
+329243
+division multiplication
+Pattern(s): 0	
+since most processors can do an addition comparison or multiplication in a single cycle those are all counted as one flop
+but division always takes longer
+
+
+
+330039
+crypt salt
+Pattern(s): 5	5	
+python s crypt is a wrapper for the system s crypt function
+from the linux crypt man page char crypt const char key const char salt
+
+
+
+330999
+cvs svn
+Pattern(s): 3	
+svn was designed explicitly to be a better cvs
+
+
+
+331283
+crypt md5
+Pattern(s): 3	
+note that this is a gnu extension to crypt see man crypt on a linux system
+md5 and now even sha1 may be broken but they are still relatively good for password hash and md5 is still the standard for linux local passwords
+
+
+
+332975
+profiling instrumentation
+Pattern(s): 5	
+aqtime is an instrumenting profiling
+instrumenting profilers often aren t suitable for measuring code time particularly in microbenchmarks like yours because the cost of the instrumentation often outweighs the cost of the thing being measured
+
+
+
+333305
+icmp udp
+Pattern(s): 5	
+it allows for tcp pings like the standard ruby ping but also udp http and icmp pings
+an icmp ping requires root privileges but the others do not
+
+
+
+333631
+webkit gecko
+Pattern(s): 3	3	5	
+with gecko-engined browsers you get in terms of other browsers implementing these features i m only aware of webkit implementing array extras but it s actually quite easy to monkeypatch support for those in all browsers since they re just additional methods
+gecko opera and webkit also support the canvas element which although being a new html element is used via javascript so i m not sure if that fits your criteria
+
+
+
+333723
+opera firefox
+Pattern(s): 5	
+both opera and firefox support some css3
+
+
+
+335122
+pascal delphi
+Pattern(s): 5	5	
+i don t think there are any machine code decompilers that produce pascal code
+most delphi decompilers parse form and rtti data but do not actually decompile the machine code
+
+
+
+335379
+filesystems ntfs
+Pattern(s): 1	
+happily sql server 2008 allows you to have your cake and eat it too with the filestream attribute in sql server 2008 you can apply the filestream attribute to a varbinary column and sql server then stores the data for that column on the local ntfs filesystems
+storing the data on the filesystems brings two key benefits performance matches the streaming performance of the filesystems
+
+
+
+338821
+wordpress joomla
+Pattern(s): 5	3	1	
+however using joomla can be difficult at first as its content organization is rather complex
+if the site would consist of basic blog-like webpages then wordpress is the way to go
+wordpress is a very simple blogging cms with a huge user community
+
+
+
+338821
+wordpress joomla
+Pattern(s): 3	1	4	1	
+wordpress is a very simple blogging cms with a huge user community
+it s very easy to use has many plugins for it and the newest version of wordpress even has auto-updating features
+wordpress isn t as good as joomla when it comes to user management though
+
+
+
+339988
+folder directory
+Pattern(s): 5	
+setting the folder search paths in the visual studio settings to fix an include issue is generally not really a good idea from a design point of view
+your code will be less portable to different machines with different directory lay-outs. br my suggestion would be to settle on an organisation of your code so that the relative paths of the sub-directories relative to your including code are fixed add the base folder to the project project properties - configuration properties - c c++ - additional include directory additional include directory add the subdirectories to the #include statements #include subdirectory somefile.h
+
+
+
+343465
+post put
+Pattern(s): 5	
+a put to that identifier means replace your information with mine
+post adds information and delete eliminates information
+
+
+
+346183
+public protected
+Pattern(s): 3	1	5	5	
+don t assume that the goal should be to keep all variables private. in cases of inheritance making variables as protected is usually a good alternative
+rather than marking all instance data public you create getter setter for those that need to be accessed to the outside world
+
+
+
+346953
+width margin
+Pattern(s): 5	
+by default divs are block elements and take up the entire width of their parent - in this case the entire document propagating through the #outer div so the automatic margin style has no effect
+
+
+
+348516
+filesystems ntfs
+Pattern(s): 3	
+one other note if you are using ntfs based storage windows server etc you might consider finding a way around putting thousands and thousands of files in one directory
+i am not sure why but sometimes the filesystems does not cope well with that situation
+
+
+
+350084
+codeigniter cakephp
+Pattern(s): 5	5	
+codeigniter gives you the most elbowroom of the first three
+doesn t exactly enforce oop it leaves it up to you
+
+
+
+354067
+inherited properties
+Pattern(s): 5	1	5	
+i wouldn t create a publisher class to inherited book since publisher isn t a book it is metadata information about a book. the bible though would inherited book
+my advice would be to create a publisher properties on the book. this publisher could be of type ipublishinformation and the string publisher could use a namedpublisher string name class implementing ipublishinformation
+
+
+
+354253
+mergesort timsort
+Pattern(s): 1	
+a galloping mergesort such as python s built-in sort c.f
+timsort has good expected performance when there are large runs of already-sorted data like in your example identical objects -- you ll skip o log n work per merge
+
+
+
+354405
+implements extends
+Pattern(s): 5	
+i agree with jeebee consider implements your helper methods somewhere other than an abstract base class
+if your helper method commony only exists in abstract base class b all classes which implement interface a will have to also extends base class b in order to take advantage of that implementation of commony
+
+
+
+355064
+trie tree
+Pattern(s): 1	
+to store a word like stackoverflow insert into trie path values s st sta stac stack stacko stackov stackove stackover stackover stackoverf stackoverflo stackoverflow
+the materialized path in the tree is the prefixed sequence of characters itself
+
+
+
+355405
+folder directory
+Pattern(s): 5	
+generally when i configure iis i set the properties for the default web site to a folder that doesn t contain anything then create individual entries within iis for each web site
+for example you would create a new entry for myapplication.com and set its home directory to the proper folder on the server that contains your root files usually c inetpub wwwroot myapplication.com but it could be anywhere you like
+
+
+
+355552
+haskell scheme
+Pattern(s): 3	0	
+but haskell is a bit trickier in that you can attempt to redefine a variable within the same scope but instead you just introduce another recursion equation
+this is a pitfall for people who learned ml or scheme first this is perfectly good ml or scheme let but haskel has scheme letrec semantics without the restriction to lambda values
+
+
+
+355768
+inherited subclassing
+Pattern(s): 1	
+that is why effective java and others say you should favour delegation before inherited if possible
+i think krosenvold s solution sounds clean
+
+
+
+356028
+range max
+Pattern(s): 3	1	
+yep easily possible just make sure you re covering the times in your indexes to pull it based purely off the dates a small amount of trickery is required due to sphinx requiring a bounded range x..y as opposed to x y
+the use of min max value is very inelegant but i m not aware of a good way around it at the moment
+
+
+
+356920
+google-chrome safari
+Pattern(s): 1	3	
+google-chrome uses webkit a fairly standard rendering engine
+safari uses it also and it doesn t sound like webkit is going away
+
+
+
+359392
+x86 64bit
+Pattern(s): 5	
+it s your com component is housed in a com server ie a seperate process then you won t need to do anything special as the com subsystem will remote your calls from your x64 app to the x86 app and back again
+if your component is an in-process com component then you ll have to rethink things as a 64bit process can t use 32 bit in process com components
+
+
+
+360276
+ssl https
+Pattern(s): 1	1	
+libcurl is a free and easy-to-use client-side url transfer library supporting ftp ftps http https scp sftp tftp telnet dict ldap ldaps and file
+libcurl supports ssl certificates http post http put ftp uploading http form based upload proxies cookies user+password authentication basic digest ntlm negotiate kerberos4 file transfer resume http proxy tunneling and more
+
+
+
+360494
+cpu processors
+Pattern(s): 0	1	
+some of its strategies include passive loadbalancing if a physical cpu is running more than one task the scheduler will attempt to run any new tasks on a second physical processors
+active loadbalancing if there are 3 tasks 2 on one physical cpu and 1 on the other when the second physical processors goes idle the scheduler will attempt to migrate one of the tasks to it
+
+
+
+360958
+int double
+Pattern(s): 5	
+without really knowing what the problem is a few things look a bit odd also mixing decimal and int in a calculation can lead to unexpected results unless you really know what you are doing
+i suggest using only decimals or double which are way faster and usually have enough precision for engineering computations
+
+
+
+361157
+uiviewcontroller uinavigationcontroller
+Pattern(s): 1	
+because the view owned by a uiviewcontroller fills the available space in its parent
+its parent will be either a uiwindow or the view controlled by something like a uinavigationcontroller or uitabbarcontroller
+
+
+
+361509
+pop-up dialog
+Pattern(s): 5	
+modal dialog the evil form of dialog boxes in general constrain the user to only one action
+some answers seem to misapprehend that it s any pop-up that asks for user confirmation
+
+
+
+361949
+udp tcp
+Pattern(s): 3	
+udp is often used for various types of realtime traffic that doesn t need strict ordering to be useful
+this is because tcp enforces an ordering before passing data to an application by default you can get around this by setting the urg pointer but no one seems to ever do this and that can be highly undesirable in an environment where you d rather get current realtime data than get old data reliably
+
+
+
+363080
+submit submission
+Pattern(s): 5	5	
+the working form is what is displayed to the user - it s just a container and can contain elements from various forms
+various buttons on the form don t actually submit but call a form handler validation routine in javascript
+the handler validation routine dynamically sets the action of the submission form and adds the required elements to that form dynamically so it can be submitted
+
+
+
+364598
+put get
+Pattern(s): 5	
+it won t make a huge difference but one thing i would suggest is not putting the gwt javascript code into your main template but rather only put it on the pages that need it
+
+
+
+365126
+post get
+Pattern(s): 5	
+you don t have support for team explorer and vs built in source control access in isolated shell see this post from vin though not directly related - if you are using vs sdk 1.1 to develop your packages - remember that the managed package framework is no longer available with the default distribution
+so don t get surprised if your old packages can t load mpf files after moving to sdk 1.1
+
+
+
+367279
+versioning upgrade
+Pattern(s): 1	
+compatible upgrade
+when merely altering a table to add a column that permits nulls the versioning number stays the same
+
+
+
+370703
+public protected
+Pattern(s): 4	
+and as a last remark i d make the methods protected
+there s usually no reason at all to keep them public and reducing the number of public members keeps your public interface clean
+
+
+
+371946
+stringbuilder stringwriter
+Pattern(s): 3	1	
+i suspect it s because it s writing to a stringbuilder which is inherently utf-16
+an alternative to get round this is to create a class derived from stringwriter but which overrides the encoding property
+
+
+
+372121
+inherited subclassing
+Pattern(s): 5	
+because python has multiple inherited you may also see something like this class someabstraction object pass # lots of stuff - but missing something class mixin1 object def something self pass # one implementation class mixin2 object def something self pass # another class concrete1 someabstraction mixin1 pass class concrete2 someabstraction mixin2 pass this uses a kind of abstract superclass with mixins to create concrete subclassing that are disjoint
+
+
+
+373139
+versioning upgrade
+Pattern(s): 5	
+update since december 2008 base is now up to versioning 2.1 it has become an excellent product
+i don t remember what it used to cost but i paid for the 1.x to 2.x upgrade
+
+
+
+373446
+bluecloth rdiscount
+Pattern(s): 1	
+ryan s post includes the following benchmark of 100 iterations of a markdown test bluecloth 13.029987s total time 00.130300s average maruku 08.424132s total time 00.084241s average rdiscount 00.082019s total time 00.000820s average update august 2009 bluecloth2 was released it s speed is on par with rdiscount because it is based on rdiscount - it is not pure ruby
+
+
+
+374296
+maven pom.xml
+Pattern(s): 5	
+i don t know about artifactory but here are my reasons for using nexus dead simple install and since 1.2 dead simple upgrade too very good web ui easy to maintain almost no administrative overhead provides you with rss feed of recently installed broken artifacts and errors it can group several repositories so you can mirror several sources but need only one or two entries in your settings.xml deploying from maven works out of the box no need for webdav hacks etc
+it s free you can redirect access paths some broken pom.xml requires a.b.c from xxx
+
+
+
+374428
+equals compareto
+Pattern(s): 4	3	
+this is only for classes implementing comparable and allows for an implementation of equals which is always the same
+all comparison logics to be located into one place only the compareto function
+
+
+
+375694
+vbscript vb6
+Pattern(s): 5	
+rc1 i tested this with your code from vbscript and from within office 2007 s excel everything works fine
+since your able to create the com object from within a vb6 form we should assume that your .net framework is ok
+
+
+
+376828
+haskell scheme
+Pattern(s): 3	5	3	
+examples the programming language scheme is dynamically typed aka duck-typed and it has many dozens of interpreted implementations but also some fine native-code compilers including larceny gambit and plt scheme which includes both an interpreter and a jit compiler making seamless transitions
+the programming language haskell is statically typed
+
+
+
+376913
+try-catch exception-handling
+Pattern(s): 3	1	
+for complex production-grade scenarios it is a horrible practice to have multiple try-catch statements and it is highly inflexible practice to have these statements within the business logic at all
+windows cloud computing team their code has to be efficient and reliable seems to stick with the exception-handling handling action policies instead
+
+
+
+379153
+filtering grouping
+Pattern(s): 0	
+this form also allows you to put the filtering clauses with the individual subquery and save the joining clauses for the final select
+at work our development grouping generally finds them easier to maintain and frequently faster
+
+
+
+379443
+inherited properties
+Pattern(s): 5	
+if your boss is hostile to inherited try aggregation
+has-a relationships rather than inherited s is-a relationship. assuming you interface with the api in question via an object maybe you can just keep that object in a properties of your framework main class so you d interact with it like
+
+
+
+379625
+post get
+Pattern(s): 3	
+for instance let s assume that you have a get request to a page which lets the user add an administrator to a site and the user clicks a link to a page which does a response.redirect username attackernamehere
+while normally a post does not offer much protection against this nothing will stop someone from having a form method post action sharepoint has a concept of form digests which contain information about the previous request that is generating the post back including the user s name
+
+
+
+381559
+salt md5
+Pattern(s): 5	
+if it s a well-known algorithm like md5 and someone can get hold of the hash output then on their own cpu time they can rapidly check against possible passwords and if they find a match then they ve got the password
+adding salt prevents this kind of attack see the wikipedia article
+
+
+
+381853
+factors matrix
+Pattern(s): 1	
+check out jama tnt -- it s got the nist stamp-of-approval on it and they ve already handled some of the simpler linear algebra math various factors algorithms
+linear algebra involves lots of tricky issues with numerical precision hilbert matrix and as much as i like doing my own thing this is one of those areas where you might want to use a good solid foundation that s already been well-tested
+
+
+
+382960
+rss feed
+Pattern(s): 4	3	4	1	1	
+the philosophy of rss is indeed that the reader is responsible for presentation
+many people think that rss should be plain text and that css in rss feed is inappropriate
+
+
+
+384041
+bazaar svn
+Pattern(s): 4	
+hm the most popular is easily svn which an old-fashioned centralized system but it s a bit of a pain to set up imo
+requires special software on the server. i personally am quite fond of bazaar which is distributed and a server repository only requires ftp access and nothing else on the server
+
+
+
+384966
+dotnetzip sharpziplib
+Pattern(s): 3	
+i ve found the dotnetzip library to be this easiest way to work with zip files
+sharpziplib is a far more powerful and flexible solution
+
+
+
+389002
+innodb myisam
+Pattern(s): 5	5	
+a non-pk unique index will never be clustered in innodb
+on the other hand some other engines myisam in particular don t cluster the pk so the primary key is just like a normal unique index
+
+
+
+389748
+goto break
+Pattern(s): 5	
+continue is kind of like goto
+it s easier to think about them in contrast break terminates the loop jumps to the code below it
+
+
+
+389824
+innodb myisam
+Pattern(s): 1	1	
+myisam is effectively always autocommit
+innodb enforces foreign key constraints
+
+
+
+390005
+decimal ieee
+Pattern(s): 1	
+the double type complies with the iec 60559 1989 ieee 754 standard for binary floating-point arithmetic
+edit the reason why decimal has a getbits and double does not is that decimal preserves significant digits
+
+
+
+391098
+updatepanel scriptmanager
+Pattern(s): 5	
+if you re a jquery fan you re probably using it already to do much of what you do with asp.net ajax so if you can consider getting rid of scriptmanager completely
+if you can t do that or if you use updatepanel then link the jquery download to google this way for ver 1.2.6 google promotes linking this way to minimize the necessity to download jquery again and again
+
+
+
+392599
+cpu processors
+Pattern(s): 5	3	
+so we ve an architectural instruction set or architectural machine code and an inner-level micro-instruction set which is hidden from the outer world. the trace cache of the intel processors was conceived to store such ops to optimize the superscalar performance of the processors as the cpu executes uops not the architectural instruction-set available for execution by programs
+
+
+
+395751
+inherited properties
+Pattern(s): 5	
+it also normally requires a lot of copy.copy ing to maintain inherited and to copy from class to instance and means you have to look in many places to see whats going on always looking from metaclass up which goes against the python grain also. i have been picking through formencode and sqlalchemy code to see if such a declarative style was worth it and its clearly not
+such style should be left to descriptors such as properties and methods and immutable data. ruby has better support for such declarative styles and i am glad the core python language is not going down that route
+
+
+
+397179
+post get
+Pattern(s): 0	
+stepping back and looking clearly and unbiased at the problem as a whole in other words ignoring the 4+ hours i invested looking into restful services i am attempting to get the thing working without rest for now and the references i am attempting to follow at the moment are these - this seems applicable for what i want
+lextm i hear you on this after i wrote the post i scanned closer through the wcf security guide and made notes on all my requirements based on the options given they want you to think about on each tenet
+
+
+
+397268
+x86 64bit
+Pattern(s): 1	
+in order to use them you need to build your application as 32 bit x86
+64bit windows has different 32 and 64bit registry nodes
+
+
+
+397529
+perl tcl
+Pattern(s): 1	
+even when writing in c c++ i found a useful pattern was to embed a domain specific scripting language tcl though i don t much like that language
+the actual choice of language is i think a religious choice though there are some tradeoffs that are obvious readability for example - perl is useful but is too easy to write cryptic scripts in
+
+
+
+399731
+webclient webrequest
+Pattern(s): 1	1	
+namespace system.net assembly system in system.dll you can alternatively use the system.net.webclient class webclient class provides common methods for sending data to and receiving data from a resource identified by a uri
+namespace system.net assembly system in system.dll this class simplifies some common tasks like downloading a file method downloadfile the webclient class provides common methods for sending data to or receiving data from any local intranet or internet resource identified by a uri
+the webclient class uses the webrequest class to provide access to resources
+
+
+
+401693
+salt md5
+Pattern(s): 6	
+i usually use sha1 and salt with the user id or some other user-specific piece of information and sometimes i additionally use a constant salt so i have 2 parts to the salt
+sha1 is now also considered somewhat compromised but to a far lesser degree than md5
+
+
+
+402349
+int double
+Pattern(s): 5	
+most times though i stick with signed int unless i am forced to use something larger given the problem constraints
+any sort of physics modeling i do usually requires floats or double even if i don t need the precision
+
+
+
+402485
+button checkbox
+Pattern(s): 5	5	
+if you don t see the list all button click the match button in the main toolbar. on the grep panel you can turn on the line-based and the invert results checkbox to get a list of non-matching lines in the files you re grepping through
+
+
+
+408200
+for-loop loops
+Pattern(s): 1	1	
+matlab s for-loop is static in nature
+you cannot modify loops variable between iterations unlike the for initialization
+
+
+
+408830
+awt swing
+Pattern(s): 1	
+because awt uses native gui widgets your os knows about them and handles putting them in front of each other etc. whereas swing widgets are meaningless pixels within a window from your os s point of view
+
+
+
+410373
+dotnetzip sharpziplib
+Pattern(s): 5	
+dotnetzip does zip64 passwords aes encryption streams sfx and unicode
+everyone who uses it says it is much simpler to use than sharpziplib
+
+
+
+412091
+postgresql mysql
+Pattern(s): 6	
+for any application that wants to use an open source database the hands-down answer is postgresql
+it s a lot more enterprise-ready than mysql not to mention that it follows the sql standard a lot better
+
+
+
+412765
+free malloc
+Pattern(s): 3	
+second the suggested automatic free cannot work malloc does not initialize the allocated memory
+
+
+
+413151
+hash md5
+Pattern(s): 3	
+if you want to make a tamper-proof string which is human readable add a secure hash to it
+md5 is indeed falling out of favour so try sha1
+
+
+
+413338
+mouse keyboard
+Pattern(s): 1	
+it is possible to re-arrange the file tabs by using the mouse to drag-sort them click and hold the mouse button on a tab and then drag it to the new location
+this should make it possible to arrange them so that keyboard switching is more natural
+
+
+
+416340
+keydown keyup
+Pattern(s): 4	3	
+by the time keyup or keypress is triggered the default for keydown has already happened
+
+
+
+416568
+for-loop loops
+Pattern(s): 6	
+using a boolean for this purpose would also be good and you could even wire it into the condition of each for-loop
+for example though if you re using more than two loops it might be more appropriate to wrap them in a function and just use return to exit the function and all of the loops too
+
+
+
+416917
+boost allocator
+Pattern(s): 3	1	
+replacing your containers with boost containers is not a good idea
+the work to make appropriate custom allocator wouldn t be that bad but you d be violating the spirit of your allocate at startup rule
+
+
+
+418145
+vb.net vb6
+Pattern(s): 5	
+if you were a mac os programmer in the 80s and 90s you d probably be a bit annoyed too if not quite in the same boat as vb6 programmers
+.net and vb.net c# are a viable proposition in the long term
+
+
+
+419198
+free malloc
+Pattern(s): 1	
+in this case the free is correct because p points to a memory location on the heap which was allocated by malloc
+
+
+
+419869
+freebsd linux
+Pattern(s): 5	
+not really a comparison but here are what big projects are using centralized vcses subversion apache gcc ruby mplayer zope plone xiph freebsd webkit .
+cvs cvs distributed vcses git linux kernel kde perl ruby on rails android wine fedora x.org mediawiki django vlc mono gnome samba cups gnupg emacs elpa.
+
+
+
+421081
+hash salt
+Pattern(s): 6	
+if the look-up is considerably faster than the hash function which it probably is this will considerably speed up cracking the file
+but if the password file is salt then the rainbow table would have to contain salt
+
+
+
+421305
+post put
+Pattern(s): 5	
+the community tends to rely on paper books which become outdated and misleading in a matter of weeks thousands upon thousands of unreliable contradictory blog post and screencasts which also suffer severely from the quickly-outdated problem
+don t think peepcode is going to save you
+
+
+
+422343
+int double
+Pattern(s): 1	
+since floats and double already implement these values you might as well use them instead of trying to find the largest smallest values on your platform
+with int it s more difficult to use infinity since it s not supported by hardware
+
+
+
+422511
+kerberos ntlm
+Pattern(s): 0	
+from my experience kerberos is more of a prefered method but i have not worked with it much so unfortunately i don t have much advise as far as that goes
+on a side note i recall reading somewhere that the jre also has ways of tying into ntlm on your web server in order to obtain identity information for the authenticated user
+
+
+
+424750
+post get
+Pattern(s): 5	
+these operations can be used to take the original revision apply the operations to it and you ll get the next revision more on this below
+pretend the original post is the array of user id s you have prepared the one currently only containing a bunch of values equal to the first author s id and apply the operations to this
+
+
+
+424750
+post get
+Pattern(s): 1	1	
+example this is the first post which is cool 1111111111111111111111111111111111111 this is the second post which is the second post. 11111111111122222211111111111111112222222222111111 -- copied ------ the only problem with this algorith and this post in its entirety is that i m not entirely sure it produces what i would call an intuitively fair result
+
+
+
+425061
+x86 64bit
+Pattern(s): 3	
+the x86 compiler will take advantage of some optimizations that the x64 one does not
+for example in .net 3.5 the 32-bit jit will inline function calls with structs as arguments but the 64bit jit does not
+
+
+
+425061
+x86 64bit
+Pattern(s): 3	3	
+for example in .net 3.5 the 32-bit jit will inline function calls with structs as arguments but the 64bit jit does not
+in production code i have seen x86 builds running as much as 20 faster than x64 builds with no other changes
+
+
+
+425167
+folder directory
+Pattern(s): 1	
+what we do is to have one folder that is watched for assemblies
+when an assembly is added the application copies it to a temp directory gives it a unique file name and loads it from there
+
+
+
+426058
+bazaar git
+Pattern(s): 3	8	1	5	
+take a look at bazaar
+it s rather less daunting than git and has a useful-looking interface to subversion repositories via bzr-svn
+
+
+
+426861
+jsf seam
+Pattern(s): 1	5	
+spring mvc seam struts are not suitable here
+jsf is a good choice but it has quite a learning curve
+
+
+
+426905
+for-loop loops
+Pattern(s): 8	7	
+in time it may be more effective than a loops
+the list s foreach version is actually as fast as a for-loop although i can t find the link that proves that
+
+
+
+429192
+websphere ibm
+Pattern(s): 5	5	
+websphere is a brand name applied to a number of ibm products
+
+
+
+430553
+unsigned short
+Pattern(s): 3	1	
+reading between the lines i think the logic was something like this generally the java designers wanted to simplify the repertoire of data types available for everyday purposes they felt that the most common need was for signed data types for implementing certain algorithms unsigned arithmetic is sometimes needed but the kind of programmers that would be implementing such algorithms would also have the knowledge to work round doing unsigned arithmetic with signed data types mostly i d say it was a reasonable decision
+done away with short when did you last use 16-bit signed arithmetic
+
+
+
+432844
+int boolean
+Pattern(s): 1	5	4	3	5	4	
+another way to do it is bool a bool b the xor operator on two boolean is logical xor unlike on ints where it s bitwise
+which makes sense since bool is just a subclass of int but is implemented to only have the values 0 and 1
+
+
+
+434047
+int chars
+Pattern(s): 5	1	
+the following is quoted from the book chars literals have type int and they get there by following the rules for promotion from type chars
+this is too briefly covered in k r 1 on page 39 where it says every chars in an expression is converted into an int....notice that all float s in an expression are converted to double....since a function argument is an expression type conversions also take place when arguments are passed to functions in particular chars and short become int float becomes double
+
+
+
+434277
+put get
+Pattern(s): 6	
+now suppose you want to add some sort of ajax functionality or put up a service interface to your system
+now that you accept more than simple get post json or xml your model will have to distinguish between each request type and know how to parse them
+
+
+
+434691
+ilist icollection
+Pattern(s): 1	
+ilist only implements ienumerable by associaton
+it implements ienumerable precisely because it inherits icollection which is ienumerable
+
+
+
+435410
+button checkbox
+Pattern(s): 5	
+instead of using an html button consider using an actionlink and construct it to include the id of the member being approved
+another alternative would be to have a checkbox whose value is the id of the member being approved that the admin can select for each member to be approved and a similar one for reject and one each approve reject buttons for the entire form
+
+
+
+435696
+maven pom.xml
+Pattern(s): 5	
+with maven you don t do it this way
+here s what you do go to mvnrespoitory search for the library you want to add copy the dependency statement into your pom.xml rebuild via mvn now maven will connect and download the jar along with the list of dependencies and automatically resolve any additional dependencies that jar may have had
+
+
+
+435831
+vb.net vb6
+Pattern(s): 4	3	
+if costs are a constraint you could try this there is a wizard in visual studio that will attempt to upgrade vb6 to vb.net
+it s not 100 accurate and you will have to write code for things vb.net does not support such as control arrays etc
+
+
+
+436417
+firefox safari
+Pattern(s): 1	
+normal or break-word. this is currently supported in ie safari and firefox 3.1 alpha
+with older and current versions of firefox there is no standard way google was my friend of doing it
+
+
+
+436754
+inherited subclassing
+Pattern(s): 6	
+accessor methods themselves getdee are inherited but instance variables are not
+if instance variables could be overridden in subclassing like you re trying to do here it would cause many more problems than it would fix
+
+
+
+437296
+bazaar svn
+Pattern(s): 5	
+git has git-svn bazaar has bzr-svn and mercurial has hgsubversion extension
+
+
+
+437296
+bazaar git
+Pattern(s): 1	5	
+git has git-svn bazaar has bzr-svn and mercurial has hgsubversion extension
+
+
+
+439146
+cvs svn
+Pattern(s): 1	
+i ve never really been a cvs user so i do not know what common use-cases the solved wanted to... by using check-out hooks actually i haven t known them
+svn provides pre-commit and post-commit hooks among some others which should be able to do whatever one wants to be done per-change on the source
+
+
+
+439178
+fileinputstream fileoutputstream
+Pattern(s): 1	
+... fileinputstream fis new fileinputstream new file c test.html
+fileoutputstream fos new fileoutputstream new file c test.pdf
+
+
+
+444002
+client-side server-side
+Pattern(s): 5	
+if the vbscript is client-side you have a problem
+if it runs server-side then it s easy as long as the web server has read rights
+
+
+
+444733
+put get
+Pattern(s): 5	5	
+the parameter for remove get is of type object
+for put it is of type k
+
+
+
+445982
+uiview calayer
+Pattern(s): 1	
+the problem was that drawrect inside a uiimageview subclass was not being called by the calayer for the drawing
+so when i switched the parent of this subclass to uiview implemented my own property for the image and also adjusted the animation - everything came together
+
+
+
+453149
+matlab simulink
+Pattern(s): 3	
+i believe that there is a compiler that can compile a matlab program into an equivalent c program which can then be compiled to an executable
+i m not sure what simulink is exactly
+
+
+
+453751
+kerberos ntlm
+Pattern(s): 1	5	5	
+there are 3 authentication protocols that can be used to perform authentication between java and active directory on linux or any other platform and these are not just specific to http services kerberos - kerberos provides single sign-on sso and delegation but web servers also need spnego support to accept sso through ie
+ntlm - ntlm supports sso through ie and other browsers if they are properly configured
+
+
+
+453751
+kerberos ldap
+Pattern(s): 5	
+iwa is a simple term that basically means kerberos or ntlm or spnego to negotiate kerberos or ntlm
+using an ldap bind as a way to validate credentials is not efficient and requires ssl
+
+
+
+453751
+kerberos ntlm
+Pattern(s): 5	5	1	5	
+the sun implementation of kerberos has been a comedy of errors over the years so based on sun s track record in this area i wouldn t make any promises about their spengo implementation until you have that bird in hand
+for ntlm there is a free oss project called jcifs that has an ntlm http authentication servlet filter
+
+
+
+455359
+int double
+Pattern(s): 8	5	
+you can restrict to struct or class types only and i do think that there need to be numeric or operator based restrictions must support + int and string are really quite different certainly more different than int and double
+it wouldn t make much sense for a generic class to support the immutable reference type of string and the value type of int without also supporting other types more similar to either of them
+
+
+
+455776
+haskell ocaml
+Pattern(s): 6	
+i think haskell did a number of things better than ml when it comes to syntactic forms but f# s roots are in ml
+the benefit is that a good subset of f# cross-compiles with ocaml which helped bootstrap the f# language and user community
+
+
+
+456819
+cpu affinity
+Pattern(s): 3	
+if you want to this as a cpu load simulation you might want to take a few addtional steps on a multicore system be sure to either spawn the loop like this in multiple threads one for each cpu or execute the process multiple times and to make the scheduling predictable assign thread process affinity explicitly sometimes you may also want to increase the thread process priority to simulate the environment where cpu is heavily loaded with high priority applications
+
+
+
+457325
+innodb myisam
+Pattern(s): 5	
+important to note in mysql count is very fast on myisam tables for or not-null columns since the row count is cached
+innodb has no row count caching so there is no difference in performance for count or count column_name regardless if the column can be null or not
+
+
+
+458986
+pascal delphi
+Pattern(s): 5	5	
+inno setup allows you to create quite powerful exe installers with an easy largely .ini-file based syntax but it forces you to learn pascal if you need custom coding
+as a long-time delphi coder i d always go inno setup though that s probably very biased i m an inno setup fan since around 1996
+
+
+
+459061
+perforce cvs
+Pattern(s): 1	5	
+this is roughly equivalent to the workflow in cvs or subversion. you would synchronize your working copy go off and develop and then ask perforce to figure out what you did while it wasn t watching
+perforce has a nice document describing the process working disconnected from the perforce server one thing the document doesn t mention is the allwrite clientspec attribute which marks all files in your working directory as writable instead of only the files you have checked out
+
+
+
+461738
+hash salt
+Pattern(s): 5	
+you wouldn t even need a guid - you could even just hash the key since it s a one-way operation and can t be easily reversed
+you could even salt your key before you hash it which would make it virtually unbreakable by making the key unpredictable
+
+
+
+461754
+cvs svn
+Pattern(s): 1	3	
+i use svn with the tortoisesvn shell add-on and i m quite happy with it
+cvs is alright too but gets very slow as projects get large
+
+
+
+461862
+salt md5
+Pattern(s): 5	
+the salt is base64 encoded in the output as the hash
+
+
+
+465681
+cvs svn
+Pattern(s): 5	5	
+as for resources for cvs see cvs home if you want to talk about svn i d suggest the svn book itself and this question
+
+
+
+465871
+actionscript mxml
+Pattern(s): 1	
+there is a prototype of an actionscript 3 version but it is not even in beta yet and i admit that i haven t had the time to test it
+i haven t found anything similar for xml let alone mxml
+
+
+
+466397
+cvs svn
+Pattern(s): 1	
+cvs is old and not very fast in terms of branching tagging branch tag creation depends linearly on number of files in a project you should think of your branching strategy first do you want to have a stable trunk feature branches developer branches unstable trunk release branches platform branches this heavily depends on your project and development philosophy if you want to use svn you really have to think of your repository layout because nearly all softwareprojects are module-based and you should find a structure in which you can easily tag all needed modules
+
+
+
+466571
+ubuntu debian
+Pattern(s): 5	
+there s a really good article at debian package a day about it
+it does require kernel patching although ubuntu already has the patch applied i m not sure about any other distributions.
+
+
+
+470352
+daemons systemd
+Pattern(s): 5	
+an important point might be that rather than having a cron job run once every second have a always-running daemons that s automatically restarted on exit - or something like that
+one reason is just as you describe it yourself if a lot of users request emails to be sent out and the queue builds up one cronjob won t have time to finnish before the ext one stats and you risk having your systemd flooded with processes
+
+
+
+472197
+int chars
+Pattern(s): 5	5	5	5	
+i would add as well as a common trick in these sort of questions it in the assumption you make that i is an int
+other common assumptions might be s is a string x y are a double ch is a chars b is a byte etc. if you see a question like this you can bet that i is not its expect type
+
+
+
+472197
+int double
+Pattern(s): 5	
+i would add as well as a common trick in these sort of questions it in the assumption you make that i is an int
+other common assumptions might be s is a string x y are a double ch is a chars b is a byte etc. if you see a question like this you can bet that i is not its expect type
+
+
+
+474081
+implements extends
+Pattern(s): 3	5	
+they should only be used to extends class functionality
+if you have access to the base class code and the functionality you re trying to implements is logically part of the inheritance heirarchy then you should put it in the abstract class
+
+
+
+474577
+implements extends
+Pattern(s): 5	
+implements equals and hashcode
+
+
+
+475541
+testdriven.net xunit.net
+Pattern(s): 5	5	
+windows registry editor version 5.00 hkey_local_machine software mutantdesign testdriven.net testrunners xunit.net 4 assemblypath c _files programs programming xunit.net xunit-1.1.0 xunit.runner.tdnet.dll typename xunit.runner.tdnet.tdnetrunner long answer i ve run into this problem a couple of times both on 32 and 64 bit versions of windows
+testdriven.net uses the registry to store a list of test frameworks avaialable
+xunit.net comes with an installer xunit.installer run as admin which is supposed to make the correct registry entries
+
+
+
+475953
+jython pypy
+Pattern(s): 1	
+the main thing that will encourage developers to write code that s different from what they would write in cpython is the lack of c extension modules like numpy this is a problem in jython and pypy as well
+an interesting project to keep your eye on is ironclad which will let you call c extension modules from within ironpython
+
+
+
+475953
+cpython pypy
+Pattern(s): 5	1	
+the main thing that will encourage developers to write code that s different from what they would write in cpython is the lack of c extension modules like numpy this is a problem in jython and pypy as well
+an interesting project to keep your eye on is ironclad which will let you call c extension modules from within ironpython
+
+
+
+475953
+cpython ironpython
+Pattern(s): 3	5	1	
+ironpython is quickly becoming one of the best in this respect though and there is a lot of traffic on planet python about it
+the main thing that will encourage developers to write code that s different from what they would write in cpython is the lack of c extension modules like numpy this is a problem in jython and pypy as well
+an interesting project to keep your eye on is ironclad which will let you call c extension modules from within ironpython
+
+
+
+476026
+accessor properties
+Pattern(s): 5	
+i think its a good idea to always use the accessor
+then if you need any special logic when getting or setting the properties you know that everything is performing that logic
+
+
+
+476079
+accessor properties
+Pattern(s): 1	
+aside from the point made by others whether to use an accessor or a field directly may need to be informed by semantics
+some times the semantics of an external consumer accessing a properties is different from the mechanical necessity of accessing its value by internal code
+
+
+
+476332
+post get
+Pattern(s): 1	
+the best way to get a beep sound is to pinvoke into the messagebeep function
+the pinvoke signature for this method is pretty straight forward this blog post has an excellent more thorough example on archive.org
+
+
+
+477769
+int chars
+Pattern(s): 5	1	1	
+java int -------------------------- signed | unsigned -------------------------- long 64-bit | int 32-bit | short 16-bit | chars 16-bit byte 8-bit | chars is the only unsigned int type
+
+
+
+479422
+post put
+Pattern(s): 5	
+that other post is java
+you can t put methods in enums in c#
+
+
+
+480078
+google-chrome firefox
+Pattern(s): 5	
+safari and google-chrome have a built in web inspector right click and select inspect element
+firefox has the firebug plugin
+
+
+
+480810
+16-bit 64bit
+Pattern(s): 5	
+for an unmanaged dll file you need to first check if it is a 16-bit dll file hopefully not . then check the image _file_header.machine field
+someone else took the time to work this out already so i will just repeat here to distinguish between a 32-bit and 64bit pe file you should check image_file_header.machine field
+
+
+
+481432
+awt swing
+Pattern(s): 5	
+awt s windowadapter also has a windowclosing event that you can override and hook to a window that you want to monitor
+swing inherits this
+
+
+
+481432
+swt swing
+Pattern(s): 3	3	
+swing inherits this
+i believe swt does as well
+
+
+
+483323
+superclass subclassing
+Pattern(s): 5	5	
+this seems to be the case in the sample code
+but it is not a very good example as the concrete superclass already implements a default functionality for foo
+when there is an abstract subclassing that redefines it to be purely virtual it is a sign for me that the class hierarchy is flawed because a subclassing and the callers of foo usually should be able to fall back to the default implementation
+
+
+
+483441
+i2c spi
+Pattern(s): 6	5	5	
+if you have more than 3 spi devices consider using an hc138 as a decoder to produce the individual device cs lines from a set of address bits and a master chip select line from the microprocessor
+since only one cs line is supposed to be low at a time i2c is a pain
+
+
+
+483708
+octal hex
+Pattern(s): 5	
+my preferred way is quoting from man perlfunc oct expr oct interprets expr as an octal string and returns the corresponding value
+if expr happens to start off with 0x interprets it as a hex string
+
+
+
+484745
+postgresql mysql
+Pattern(s): 1	5	6	3	
+mysql is easy to set up fast for oltp and generally takes the approach of doing few things and doing them well
+postgresql is kind of the opposite -- it s a database researcher s favorite playground which means it has a dozen different join strategies storage engines advanced optional packages and all kinds of stuff
+it s slower than mysql when doing things mysql does well and blows it out of the water when doing things mysql just doesn t know how to do see above with hash joins
+
+
+
+485150
+int chars
+Pattern(s): 1	
+723 - this set of chars refers to a literal integer value
+
+
+
+485994
+folder directory
+Pattern(s): 1	5	
+putting external libraries in the lib folder is a bad practice
+you need to edit the file server servername conf jboss-service.xml and add rigth after then create a directory named server servername lib ext and drop your external jars in there
+
+
+
+486440
+toolbar tabs
+Pattern(s): 1	5	
+with sdi you re having problems with users confusing the toolbar or palettes of inactive windows with active windows
+tabs are fixed in number and permanently open when each tab is a different component of the same data object
+
+
+
+488668
+vmware virtualbox
+Pattern(s): 5	
+vmware requires you to submit your contact information to download vmware server
+sun s virtualbox gets the job done and you can just download the application without registration or hassles
+
+
+
+488728
+put get
+Pattern(s): 5	
+you may also want to put the whole converted program in a checked region
+c# doesn t even warn on fixnum overflow -- the first approximation would be to treat overflow as if you re memory constrained in lisp if overflow yeilds too big a number to fit in remaining memory similar behavior results
+
+
+
+488893
+hash salt
+Pattern(s): 1	
+this hash method is available in php using the hash function
+you should also apply a random salt to the password
+
+
+
+488978
+mockito jmock
+Pattern(s): 0	
+the easymock support is complete but the mockito plugin needs some more work
+we are planning to add jmock support as well
+
+
+
+489290
+filesystems ntfs
+Pattern(s): 5	
+app that would use win32 apis to determine the filesystems write a plug-in for nsis that would use win32 apis to determine the filesystems edit borzio updated his before i finished mine you might need to add something i found on the winamp forums execwait with file redirection without the it was not working on my system to generate a redirected file
+
+
+
+490528
+button checkbox
+Pattern(s): 5	
+edited by op this works on my version of tortoisesvn the old kind without the next button go to the folder that stuff was delated from right click in explorer go to tortoisesvn - merge.
+in the from section enter the revision that did the delete in the to section enter the revision before the delete
+
+
+
+491577
+int chars
+Pattern(s): 5	
+its values represent unicode chars from u0000 to uffff from 0 to 2 16 1
+if an int operator has an operand of type long then the other operand is also converted to type long
+
+
+
+493199
+bazaar svn
+Pattern(s): 5	5	
+a very important missing thing in bazaar is cp
+you cannot have multiple files sharing the same history as you have in svn see for example here and here
+
+
+
+493983
+profiling instrumentation
+Pattern(s): 3	1	
+i tried codeanalyst once but as far as i could see it was doing polling rather than instrumentation and hence gave fairly crude results
+haven t found any free profiling for windows that i liked better than that
+
+
+
+495425
+children parent
+Pattern(s): 5	
+however this only configures plugins that are actually referenced within the plugins element in the children
+the children have every right to override pluginmanagement definitions
+for example parent project pom need to run mvn install to ensure this is visible to your child project child project pom
+
+
+
+495737
+hash md5
+Pattern(s): 5	
+it sounds like you want a hash of some sort
+it doesn t need to be secure so nothing as complicated as md5 or sha but something along the lines of char1 + char2 + char3 + .
+
+
+
+497332
+haskell sml
+Pattern(s): 1	1	1	
+haskell is extreme lazy pure has active users lots of documentation and makes runnable applications
+sml is less extreme strict impure has active users formal specification many implementations sml nj mlton moscow ml etc.
+
+
+
+497849
+quicksort mergesort
+Pattern(s): 0	5	
+i could imagine that by directly accessing the memory using c for example one can improve the performance of quicksort more than it is possible with mergesort
+another reason is that mergesort needs more memory because it s hard to implement it as an in-place sort
+
+
+
+497849
+mergesort in-place
+Pattern(s): 0	5	
+another reason is that mergesort needs more memory because it s hard to implement it as an in-place sort
+
+
+
+497933
+quicksort mergesort
+Pattern(s): 1	3	3	
+as a result for relatively small datasets quicksort is more likely to get cache hits and therefore just tends to run faster on most hardware
+mergesort is still a pretty good solution for large data sets or other data structures like linked lists as your experiments confirm
+
+
+
+498135
+filesystems ntfs
+Pattern(s): 5	5	5	5	
+this will vary with the operating system filesystems see wikipedia comparison on filesystems entry
+for windows ntfs it is supposed to be 255 however i have encountered problems with commands and api functions with fully qualified filenames at about 120 characters
+
+
+
+498594
+int chars
+Pattern(s): 6	
+storing 1000 int are smaller than storing 1000 strings
+well as long as the strings are longer than a few chars that is
+
+
+
+499390
+decimal ieee
+Pattern(s): 3	
+they use the same ieee binary representation so there is no possible data loss when translating to and from the database format
+the max precision of the .net decimal is 28 so there is no use defining an oracle number with a higher precision
+
+
+
+499950
+post get
+Pattern(s): 5	1	
+the verb get doesn t make sense in that context
+you probably want a session resource btw this is how restful_auth works . so you would say create me a session for this user or something like post sessions where the body of the post is the username password for the user. this also has the good side effect of not saving the password in the history or letting someone capture it on the http proxy
+
+
+

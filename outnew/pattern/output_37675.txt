@@ -1,0 +1,248 @@
+2905
+vim	emacs	vim	emacs
+Pattern(s): 3	3	1	
+further update just fyi i am not trying to push emacs over vim it s just what i use and it s a great editor as i m sure vim is too
+it is daunting at first as i m sure vim is too but the question was about text editors on linux besides vi.
+emacs seems the logical choice to me but gedit is a great simple text editor with some nice features if that s all you are looking for
+
+
+
+104095
+cassini	iis
+Pattern(s): 3	
+the idea is that a developer does not need to have iis installed and configured to test his application
+
+
+
+5108
+ubuntu	debian
+Pattern(s): 1	
+or ubuntu has some nice gui things that make it easy to control apache mysql php
+
+
+
+106334
+postgresql	mysql
+Pattern(s): 3	1	
+in your example you would want something like this select o.id o.address o.otherdetails group_concat concat e.firstname e.lastname as employees from employees e inner join organization o on o.org_id e.org_id group by o.org_id postgresql - edit postgresql 9.0 is equally simple now that string_agg expression delimiter is built-in
+
+
+
+207062
+google-chrome	firefox
+Pattern(s): 1	
+google-chrome is a general term for the ui of a browser
+
+
+
+110162
+postgresql	mysql
+Pattern(s): 3	
+mysql is a pretty popular database lots of tools are available and lots of books
+
+
+
+210096
+ubuntu	debian
+Pattern(s): 1	
+urgency low sandro tosi debian control - list items lines in description starts with 2 space to avoid reformat on webpages closes #480341 bernd zeimetz debian patches 02_reconnect.dpatch - dropping patch comment in storm which explains the problem
+
+
+
+212565
+quicksort	mergesort
+Pattern(s): 1	
+mergesort this will teach how to merge which is important because there are a ton of speedups you can get by merging two sorted lists together as well as how to divide the problem into smaller sub problems important for dealing with hierarchical structures and also used in quick sort
+
+
+
+17249
+anjuta	kdevelop
+Pattern(s): 1	
+anjuta is an equivalent project on gnome but i find it unusable for real work
+
+
+
+114544
+postgresql	mysql
+Pattern(s): 3	
+it will be easier for you to learn postgresql it is not that hard
+
+
+
+215746
+firefox	safari
+Pattern(s): 1	1	
+opera has native svg support firefox has native svg support internet explorer does not include svg support natively
+safari has native svg support for images and fonts since version 3.1
+
+
+
+215746
+google-chrome	safari
+Pattern(s): 1	1	
+safari has native svg support for images and fonts since version 3.1
+camino contains native svg support as per its own documentation google-chrome uses an old version of web kit to support svg natively konqueror has svg support via a plugin ksvg2 from 2007 a here is a list of the state of svg support in many browsers
+
+
+
+24174
+anjuta	kdevelop
+Pattern(s): 3	1	
+i hear anjuta is pretty slick for gnome users
+
+
+
+27440
+postgresql	mysql	postgresql	mysql
+Pattern(s): 3	3	1	3	
+mysql is much more commonly provided by web hosts
+postgresql is a much more mature product
+there s this discussion addressing your better question apparently according to this web page mysql is fast when concurrent access levels are low and when there are many more reads than writes
+
+
+
+29923
+bazaar	git
+Pattern(s): 0	
+in git you can do the same with playing around in the index staging area but bazaar has a better ui for it
+
+
+
+30197
+firefox	safari
+Pattern(s): 2	
+some demos of web workers if you want to see them in action simulated annealing try it link space invaders link at end of post moonbat javascript benchmark first link the gears plugin can also be installed in firefox
+
+
+
+37660
+postgresql	mysql
+Pattern(s): 3	3	
+i use postgresql and my answer works correctly there i tried it
+
+
+
+40699
+google-chrome	firefox
+Pattern(s): 3	
+you seem to be after a extention api really firefox is the only major browser to encourage and support third party extentions to browsing capability that aren t simply new toolbars nothing in the developer documentation points to a browser enhancing api - google seem to want to keep a tight reign on the look and feel of the application
+
+
+
+144890
+quicksort	merge sort
+Pattern(s): 3	1	
+other than that quicksort is known to be very fast on arrays just like mergesort is the common choice for lists
+
+
+
+149442
+google-chrome	safari	google-chrome	safari
+Pattern(s): 1	
+at first i believed it was a built-in feature of the wysiwym markdown editor but shog9 is correct it s not baked-in at all but is courtesy of the jquery plugin textarearesizer i was lead astray by the browser was using to check on the editor demo because google-chrome itself adds the expandable functionality on textareas mdash
+
+
+
+60119
+cassini	iis
+Pattern(s): 3	
+cassini does not support https
+
+
+
+356920
+google-chrome	safari
+Pattern(s): 1	
+google-chrome uses webkit a fairly standard rendering engine
+
+
+
+258093
+awt	swing
+Pattern(s): 1	1	
+i don t think that awt is capable of restyling native component peers in a reliable fashion
+
+
+
+259460
+postgresql	mysql
+Pattern(s): 1	
+postgresql is more compliant but if you re comfortable with mysql and you re using an orm you should probably use that
+
+
+
+70427
+quicksort	mergesort
+Pattern(s): 1	
+quicksort is vulnerable to denial of service attacks
+
+
+
+70430
+quicksort	mergesort	quicksort	mergesort
+Pattern(s): 3	3	
+wikipedia s explanation is typically quicksort is significantly faster in practice than other θ nlogn algorithms because its inner loop can be efficiently implemented on most architectures and in most real-world data it is possible to make design choices which minimize the probability of requiring quadratic time
+
+
+
+77794
+bazaar	git	bazaar	git
+Pattern(s): 3	1	
+it is very easy to lose a commit or ruin a repository especially if you do not understand the inner workings of git
+
+
+
+77794
+bazaar	git
+Pattern(s): 3	1	0	3	1	
+git well is not for the uninitiated
+it is much faster than both mercurial and bazaar and was written to manage the linux kernel
+it is the fastest of the three and it is also the most powerful of the three by quite a margin
+
+
+
+77943
+bazaar	git
+Pattern(s): 1	1	
+bazaar is the most flexible it has transparent read-write support for svn repositories and cares a lot about the user experience
+
+
+
+77945
+quicksort	mergesort
+Pattern(s): 3	3	0	1	1	
+with o n 2 worst case that rarely happens quicksort is potentially far slower than the o nlogn of the merge sort
+quicksort has less overhead so with small n and slow computers it is better
+but computers are so fast today that the additional overhead of a mergesort is negligible and the risk of a very slow quicksort far outweighs the insignificant overhead of a mergesort in most cases
+
+
+
+173406
+firefox	safari
+Pattern(s): 1	
+currently i believe that safari is the only shipping browser to support any of these and i believe it only supports the client side databases and local storage parts
+
+
+
+176144
+google-chrome	safari	google-chrome	firefox
+Pattern(s): 3	1	
+google-chrome comes last because it s so likely to just work if safari is good to go
+
+
+
+85803
+postgresql	mysql
+Pattern(s): 1	
+postgresql has the basic of sql and a lot more so if your mysql do not use fancy mysql stuff you will be ok
+
+
+
+86173
+jython	pypy
+Pattern(s): 1	
+pypy is an experimental interpreter compiler that may one day supplant cpython but for now is more of a testbed for new ideas
+
+
+

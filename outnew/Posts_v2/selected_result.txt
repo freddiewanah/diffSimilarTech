@@ -1,0 +1,154 @@
+
+
+104095
+cassini	iis
+cassini is not ment to be a replacement
+cassini is ment to be a light waight test webserver
+the idea is that a developer does not need to have iis installed and configured to test his application
+
+
+11969 not in 
+vmware	virtualbox
+that being said you should probably try them out with the particular environment and apps you will be using and see which one is best for you
+one feature of vmware i really like is the ability to snapshot the system
+i do this before every software install and when one of them goes awry i just revert the virtualbox back to the pre-install state
+
+
+110162
+postgresql	mysql
+mysql is a pretty popular database lots of tools are available and lots of books
+sqlite and postgresql are also quite popular and also free open-source
+
+
+212565
+quicksort	mergesort
+mergesort this will teach how to merge which is important because there are a ton of speedups you can get by merging two sorted lists together as well as how to divide the problem into smaller sub problems important for dealing with hierarchical structures and also used in quick sort
+quicksort though faster is much harder to understand
+you need two scanning variables a pivot item etc.
+
+17249
+anjuta	kdevelop
+kdevelop is a kde project but run on gnome
+anjuta is an equivalent project on gnome but i find it unusable for real work
+for the rest of the stack gcc make valgrind ddd a gdb ide and python for scripting my code
+
+114544
+postgresql	mysql
+these databases are very different - mysql is speed and simplicity postgresql is robustness and concurrency
+it will be easier for you to learn postgresql it is not that hard
+
+
+215746
+firefox	safari
+camino contains native svg support as per its own documentation google-chrome uses an old version of web kit to support svg natively konqueror has svg support via a plugin ksvg2 from 2007 a here is a list of the state of svg support in many browsers
+opera has native svg support firefox has native svg support internet explorer does not include svg support natively
+safari has native svg support for images and fonts since version 3.1
+
+215746
+google-chrome	safari
+safari has native svg support for images and fonts since version 3.1
+camino contains native svg support as per its own documentation google-chrome uses an old version of web kit to support svg natively konqueror has svg support via a plugin ksvg2 from 2007 a here is a list of the state of svg support in many browsers
+
+
+24174
+anjuta	kdevelop
+code blocks is also very promising and i like that one best
+i hear anjuta is pretty slick for gnome users
+i played a bit with kdevelop and it s nice but sort of lacking featurewise
+
+120052 not in 
+bazaar	git
+difficulty with git has been understanding the implications of the distributed model
+i did glance briefly at other dvcses like bazaar and mercurial and they seemed to be somewhat more newbie-friendly
+anyway as others have said subversion is probably the easiest way to get used to the version control mindset and get practical experience of the benefits of vcs rollback branches collaborative development easier code review etc
+
+
+27440
+postgresql	mysql	postgresql	mysql
+mysql is much more commonly provided by web hosts
+postgresql is a much more mature product
+there s this discussion addressing your better question apparently according to this web page mysql is fast when concurrent access levels are low and when there are many more reads than writes
+
+
+323809 not in 
+firefox	safari
+dammit that was the property i was looking for
+as the others said you can use firebug and that will sort you out no worries on firefox
+chrome safari both have a built-in developer console which has an almost identical interface to firebug s console so your code should be portable across those browsers
+
+29923
+bazaar	git
+in git you can do the same with playing around in the index staging area but bazaar has a better ui for it
+most of the people were reluctant to move over as they have to type in two commands to commit and push bazaar ci + bazaar push
+also it was difficult for them to understand the concept of branches and merging no one uses branches or merges them in svn
+
+
+
+35297 not in 
+bazaar	git
+bazaar also had better documentation for integrating with native applications like visual c
+i ve had the best luck with bazaar followed by mercurial
+never could get git to work correctly
+
+
+
+234867 not in
+bazaar	git
+for more technical people git could be good it has been developed by linux kernel people after all
+bazaar or mercurial are probably better for those looking for ease of use
+
+144890 
+quicksort	mergesort
+note that the bit-flipping trick can be used regardless of what sorting algorithm you actually use.
+all things being equal i d expect most people to use whatever is most conveniently available and that tends to be quicksort 3
+other than that quicksort is known to be very fast on arrays just like mergesort is the common choice for lists
+
+
+60119 
+cassini	iis
+at this point you will be able to run your localhost over https
+cassini does not support https
+however you can use iis to do this if your using iis 5.1 download the ms iis toolpack for iis 6.0 it comes with a tool to create self signed ssl certificates
+
+
+259460 
+postgresql	mysql
+postgresql is more compliant but if you re comfortable with mysql and you re using an orm you should probably use that
+i suggest using nhibernate with postgresql
+you can do all your testing and development on sqlite so you don t need to have an instance of postgresql running on your dev machine
+
+
+70427
+quicksort	mergesort
+i m a bigger fan of mergesort than i am of quicksort for these reasons
+quicksort has a better average case complexity but in some applications it is the wrong choice
+quicksort is vulnerable to denial of service attacks
+
+
+77794
+bazaar	git	bazaar	git
+it is very easy to lose a commit or ruin a repository especially if you do not understand the inner workings of git
+mercurial and bazaar resemble themselves very much on the surface
+they both provide basic distributed version control as in offline commit and merging multiple branches are both written in python and are both slower than git
+
+77794
+bazaar	git
+git well is not for the uninitiated
+it is much faster than both mercurial and bazaar and was written to manage the linux kernel
+it is the fastest of the three and it is also the most powerful of the three by quite a margin
+
+77943
+bazaar	git
+git is fastest but all three are fast enough
+bazaar is the most flexible it has transparent read-write support for svn repositories and cares a lot about the user experience
+mercurial is somewhere in the middle
+
+
+86173
+jython	pypy
+pypy is an experimental interpreter compiler that may one day supplant cpython but for now is more of a testbed for new ideas
+jython and ironpython are useful if you have an overriding need to interface with existing libraries written in a different platform like if you have 100 000 lines of java and you just want to write a 20-line python script
+not particularly useful for anything else in my opinion because they are perpetually a few versions behind cpython due to community inertia
+
+
+

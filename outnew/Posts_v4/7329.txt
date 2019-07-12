@@ -1,0 +1,1470 @@
+388
+put	get
+these numbers get painfully large very quickly
+here s a solution i put together in java
+you ll need to provide two runtime arguments corresponding to x and y
+
+396
+dns	spf
+the spf website includes a wizard to generate the dns information for your site
+check your reverse dns to make sure the ip address of your mail server points to the domain name that you use for sending mail
+make sure that the ip-address that you re using is not on a blacklist make sure that the reply-to address is a valid existing address
+
+532
+maven	pom.xml
+
+maven helps quite a lot with this problem when i m coding java
+we commit the pom.xml to the scs and the maven repository contains all our dependencies. for me that seems like a nice way to do it
+
+568
+int	chars
+meaning if you made a new integer you could call some method on i whereas with an int you cannot call any methods on it because it is simply a primitive
+so would produce an error because int is not an object
+int is one of the few primitives in java along with chars and some others
+
+568
+int	chars	int	chars
+int is one of the few primitives in java along with chars and some others
+i m not 100 sure but i m thinking that the int object more or less just has an int property and a whole bunch of methods to interact with that property like the tostring method for example
+so int is a fancy way to work with an int just as perhaps string is a fancy way to work with a group of chars
+
+591
+put	get	versioning	upgrade	versioning	upgrade
+this way an upgrade just runs the upgrade script but if we have to recreate the db we don t need to run 100 scripts to get there
+depending on how i m deploying the db changes i ll also usually put a versioning table in the db that holds the versioning of the db
+then rather than make any human decisions about which scripts to run whatever code i have running the create upgrade scripts uses the versioning to determine what to run
+
+669
+hash	md5
+with incremental crackers the time depends on how fast you can make the password hash function run
+the better you can optimize your password hash function the faster your password hash function gets the weaker your scheme is
+md5 and sha1 even conventional block ciphers like des are designed to be fast
+
+877
+x86	64bit
+
+you ll need to compile with the target cpu set to x86 to force your code to use the 32 bit version of the vfp ole db provider
+microsoft has stated that there are no plans on releasing a 64bit edition of the visual foxpro ole db provider
+
+906
+put	get
+if you get lazy and don t notify the people in charge of translations or you embed strings without going through your localization system it will be a nightmare to try and fix it later
+similarly if localization is an afterthought it will be very difficult to put in place
+bottom line if you don t have all visible strings stored externally in a standard place it will be very difficult to find all that need to be localized
+
+1114
+put	get
+there is no single-point solution to this kind of error
+you need to put a real exception handler a catch block upstream of all places where this error occurs and forward it to for example a global handler method class that will determine if it is safe to simply report and continue based on exception type and or content
+edit it is possible to disable hack the error-reporting mechanism built into windows so the mandatory crash and burn dialog does not get displayed when your app goes down
+
+1269
+cvs	svn
+
+the subversion book has an appendix that details important differences from cvs which may help you make your decision
+the two approaches are more or less the same idea but svn was specifically designed to fix long standing flaws in cvs so in theory at least svn will always be the better choice
+
+1331
+robocopy	xcopy
+
+use robocopy robust file copy
+you get note xcopy is now deprecated please use robocopy
+
+1331
+robocopy	xcopy
+you get note xcopy is now deprecated please use robocopy
+so start getting used to robocopy
+
+
+1517
+emacs	aquamacs
+aquamacs is very usable and looks pretty good
+supports both traditional mac os style keyboard shortcuts command-o command-s and the control meta shortcuts for those raised on traditional emacs
+it is definitely more mac-like than carbon emacs
+
+1517
+emacs	aquamacs
+i can t speak to the extensiveness of the included elisp packages either
+someone syncs carbon emacs with the upstream tree quarterly i think
+aquamacs has a more irregular schedule but it s seen some pretty major updates over the last year
+
+1517
+emacs	aquamacs
+aquamacs has a more irregular schedule but it s seen some pretty major updates over the last year
+gnu emacs for osx can be found at emacsformacosx.com
+in addition to the latest stable release there are also pre-release test builds and nightly builds and atom-editor feeds are provided for tracking all three release types
+
+1718
+phpunit	simpletest
+the framework will run all the tests against your code and then report back success or failure of each test
+phpunit is run from the linux command line by default though there are http interfaces available for it
+simpletest is web-based by nature and is much easier to get up and running imo
+
+1718
+phpunit	simpletest
+simpletest is web-based by nature and is much easier to get up and running imo
+in combination with xdebug phpunit can give you automated statistics for code coverage which some people find very useful
+some teams write hooks from their subversion repository so that unit tests are run automatically whenever you commit changes
+
+1821
+nunit	mstest
+crazy good i guess
+for the conservative types me nunit is still available and still more than capable
+for the microsoft-types mstest is adequate but slow and clunky compared to nunit
+
+1894
+versioning	upgrade
+should a client or customer call you with a problem with versioning 1.0.1 and you are using 1.0.2 bringing the database back to his versioning will not be a problem
+in your database create a table called schema where you put in the current versioning of the database
+then writing a program that can upgrade or downgrade your database for you is easy
+
+2067
+mvp	presenter
+mvp designs have the presenter access the model and interact with the view
+having said that asp.net mvc is by these definitions an mvp framework because the controller accesses the model to populate the view which is meant to have no logic just displays the variables provided by the controller
+to perhaps get an idea of the asp.net mvc distinction from mvp check out this mix presentation by scott hanselman
+
+2068
+mvp	presenter
+
+i blogged about this a while back quoting on todd snyder s excellent post on the difference between the two here are the key differences between the patterns mvp pattern view is more loosely coupled to the model
+the presenter is responsible for binding the model to the view
+
+2069
+mvp	presenter
+
+mvp model-view-presenter mvc model-view-controller both presentation patterns
+they separate the dependencies between a model think domain objects your screen web page the view and how your ui is supposed to behave presenter controller they are fairly similar in concept folks initialize the presenter controller differently depending on taste
+
+2312
+vbscript	vb6
+
+whatever your things are need to be written outside of vbscript
+in vb6 you can write a custom collection class then you ll need to compile to an activex dll and register it on your webserver to access it
+
+2562
+wmv	flv
+don t let me even start ranting about that pile of .
+the only other alternative of flash that i would personally consider is silverlight which allows streaming wmv videos
+i found the production of wmv much better and easier than flv because all windows flv encoders i tried are not really good and stable whereas pretty much every tool can natively output wmv
+
+2585
+post	get
+
+i went back to michael s post did some more poking and realized that i did need to do a double conversion and eventually worked out this little nugget convert.tostring convert.tochar int32.parse encodedstring.substring intparseindex 2 system.globalization.numberstyles.hexnumber
+from there i simply made a loop to go through all the characters 2 by 2 and get them hexified and then translated to a string
+
+2862
+ubuntu	linux
+
+i bounce about between mac windows and ubuntu and while emacs used to be my editor of choice i m finding that in my old age i prefer to something gui-based using command-line for the shell is still fine by me
+my preferred editor is komodo edit which the advantages of being free as in beer available for mac windows and linux syntax highlighting for a boatload of languages including c++ and php i m using it for ruby python and php myself code completion even for classes i defined myself ability to remote save via ftp sftp or scp support for organizing your files into projects tabs and other interface niceties i m not sure how lightweight it is but it certainly feels snappier than eclipse
+
+2883
+versioning	upgrade
+i used the extra line in my cfg as folows it allows me to xm console hostname from dom0
+i think this was from a problem with the xen setup in the versioning prior to 8.04 i m not sure which versioning that was
+i m not sure if the same change is necessary in 8.04 as i m an upgrade and didn t change any of my domu configs after the upgrade
+
+2905
+vim	gedit	vim	emacs	vim	emacs
+further update just fyi i am not trying to push emacs over vim it s just what i use and it s a great editor as i m sure vim is too
+it is daunting at first as i m sure vim is too but the question was about text editors on linux besides vi.
+emacs seems the logical choice to me but gedit is a great simple text editor with some nice features if that s all you are looking for
+
+3580
+installation	upgrade
+you can skirt this to some extent by creating installers for the components however with clickonce deployment you have to create the logic to update said component installers
+i ve in a previous life used wise for windows installer to create installation packages
+while creating upgrade with it were not automatic like clickonce is they were more precise and less headache filled when it came to other components that needed to be registered added
+
+3806
+robocopy	xcopy
+
+besides the already mentioned robocopy xxcopy has a free version
+its syntax is backwards compatible with xcopy but has tons of additional options xxcopy help x create a 42kb file with all the options available
+
+3869
+perforce	svn	perforce	cvs
+visual sourcesafe - i m not much in the microsoft world so i have no idea about this one other than people like to rag on it as they rag on everything from microsoft
+sccs - for historical interest we mention this the great-grandaddy of many of the above rcs - and the grandaddy of many of the above my recommendation you re safest with either git svn or perforce since a lot of people use them they are cross platform have good guis you can buy books about them etc
+dont consider cvs sccs rcs they are antique
+
+3979
+mbunit	nunit
+nunit does have a litter bit better tool support though
+i am using resharper to run mbunit tests
+i ve had problems with testdriven.net running my setup methods for mbunit
+
+4087
+mvp	presenter
+
+mvp the view is in charge
+the view in most cases creates its presenter
+
+4192
+int	double
+you can still use the double pointer because you probably want to do manipulations on the data structure not the pointer to pointers of data structures call this function with printf my int is d. n whatsmyint array 2 4
+output my int is 6.
+
+
+4521
+post	get
+
+a few months back i wrote a blog post about fluent interfaces and linq which used an extension method on and another class to provide the following natural way of paginating a linq collection
+you can get the code from the msdn code gallery page pipelines filters fluent api and linq to sql
+
+4678
+hash	md5
+
+the normal way is to compute a hash of the two files and compare that
+md5 and sha1 are typical hash algorithms
+
+4902
+websphere	ibm
+was 6.1 as installed with rational application developer 7 the documentation is very poor in this area and there is a dearth of practical examples
+using the websphere application server was ant tasks to run as described here you need to run them from your server profile bin directory using the ws_ant.sh or ws_ant.bat commands
+command . ws_ant.sh -buildfile ibm rationalsdp7.0 workspace mywebappdeploy applist.xml a deployment script notes you can only run this once
+
+5103
+put	get
+google any column longest layouts
+the best way is to put the left and right cols inside a wrapper div float the left and right cols and then float the wrapper - this makes it stretch to the height of the inner containers - then set background image on the outer wrapper
+but watch for any horizontal margins on the floated elements in case you get the ie double margin float bug
+
+5108
+ubuntu	debian
+
+this article has some of the best ways to lock things down some highlights make sure no one can browse the directories make sure only root has write privileges to everything and only root has read privileges to certain config files run mod_security the article also takes some pointers from this book apache securiy o reilly press as far as distros i ve run debain and ubuntu but it just depends on how much you want to do
+i ran debian with no x and just ssh d into it whenever i needed anything
+
+5501
+inherited	properties
+they might as well be fields properties have other advantages over fields
+they re a more explicit contract they re serialized they can be debugged later they re a nice place for extension through inherited
+the clunkier syntax is an accidental complexity -- .net 3.5 for example overcomes this
+
+5614
+post	get
+
+i would do the form post in your code behind using httpwebrequest class
+here is a good helper class to get your started from there you can just do a response.redirect or perhaps you need to vary your action based on the outcome of the post if there was an error display it to the user or whatever
+
+5614
+post	get
+here is a good helper class to get your started from there you can just do a response.redirect or perhaps you need to vary your action based on the outcome of the post if there was an error display it to the user or whatever
+i think you already had the answer in your question to be honest - sounds like you think it is a post or redirect when in reality you can do them both from your code behind
+
+
+6100
+wadl	wsdl
+restful web services do not not use wsdl because the service can t be described by it and the feeling is that rest is simpler and easier to understand
+some people have proposed wadl as a way to describe rest services
+languages like python ruby and php make it easier to work with rest
+
+6226
+versioning	upgrade
+
+this code will check if the database is in versioning 1 which is stored in a table created automatically if it is outdated then the command is executed
+to update the metadata.sql in the repository we run this upgrade locally and then extract the full database metadata
+
+6359
+post	get
+
+i m using post-commit hooks i think it s this one to post a message to a forum on basecamp for each commit
+two advantages as the lead developer i get a roll-up of commits every morning via the rss feed from that basecamp forum and can see what my team has been up to pretty quickly
+
+6382
+versioning	upgrade
+these scripts will upgrade the current production database to the new versioning in development
+your build process can restore a copy of the production database into an appropriate environment and run all the scripts from source control on it which will update the database to the current versioning
+we do this on a daily basis to make sure all the scripts run correctly
+
+6405
+free	realloc	free	malloc
+i think the cleanest solution here is to avoid using realloc when trying to modify the function caller s input
+just malloc a new buffer return that and let the caller decide whether or not to free the old text
+this has the added benefit of letting the caller keep the original string
+
+6671
+junit	testng
+the biggest advantage testng has is annotations.
+which junit added in version 4 anyways
+
+
+6713
+junit	testng	junit	testng
+i spent sometime considering which move was better and eventually we realized that testng has no killer features
+it s nice and has some features junit 4 doesn t have but we don t need them
+we didn t want people to feel uncomfortable writing tests while getting to know testng because we wanted them to keep writing a lot of tests
+
+6713
+junit	testng
+we didn t want people to feel uncomfortable writing tests while getting to know testng because we wanted them to keep writing a lot of tests
+also junit is pretty much the de-facto standard in the java world
+there s no decent tool that doesn t support it from the box you can find a lot of help on the web and they added a lot of new features in the past year which shows it s alive
+
+6716
+post	get
+i think this is right design-wise and makes tests a lot easier and is usually what you get if you do tdd
+more about this can be read in the google testing blog latest post see point 9
+also i ve been working mainly in java in the past 4 years and i can say that i can count on one hand the number of times i ve created a final sealed class
+
+7800
+hide	show
+don t use server-side code to do this because that would require a postback
+instead of using visibility false you can just set a css property that hide the button
+then in javascript switch that property back whenever you want to show the button again
+
+8309
+vim	gedit
+
+i agree with mike though i m a vim die-hard
+i ve been using gedit quite frequently lately when i m doing lightweight ruby scripting
+
+8381
+debian	linux	ubuntu	linux	ubuntu	debian
+i use it daily and it s great although not without it s share of bugs
+for the rails side of things though i d actually suggest a virtual machine running linux. ubuntu works well the only caveat is that you have to install rubygems manually as it does not adhere to the great debian filesystem naming ideology - i suggest this because if you want to do advanced things such as installing imagemagick rmagick or memcached or a number of other plugins which require native c libraries it becomes very painful very quickly if you re on windows
+a second reason is that unless you are very atypical your production server will likely be running linux too
+
+8570
+implements	extends
+please don t extends interfaces
+an interface is a clean contract that a class should implements and your usage of said classes must be restricted to what is in the core interface for this to work correctly
+that is why you always declare the interface as the type instead of the actual class
+
+9218
+ubuntu	linux	ubuntu	debian
+let the nice package maintainers from linux distros such as debian or ubuntu do the work for you
+install from the distro s precompiled packages and staying current becomes a matter of issuing the occasional apt-get update apt-get -u dist-upgrade command or using whatever fancy gui tool ubuntu provides
+
+
+10232
+ant	maven
+that being said if you re already using ant it can be a little tricky to transition over to maven
+so if you re in that position i would recommend using the flexunit tasks available here ant task both of these libraries do basically the same thing they launch a generated flexunit test runner mxml application in a window and open a socket connection back to the build process using a junit test runner
+amazingly enough it works pretty well
+
+10536
+lisp	scheme
+
+nathan i ve upmodded the common lisp links because you asked about lisp especially with reference to emacs lisp
+however common lisp is very different from scheme
+
+10536
+lisp	scheme
+as you mentioned sicp is for learning scheme not lisp or at least not common lisp and not emacs lisp
+there are some overlap in principles however you can t simply cut and paste code from sicp and expect it to run on any common lisp or emacs lisp system
+-
+
+10678
+moq	typemock
+when i needed to unit test a web forms app that wasn t designed for testability typemock saved my life
+but when i take the time to pick an architectural pattern mvc or design one that allows for mockability you know public virtualize state changing methods i use moq
+it is so simple to use and so simple to teach others
+
+10882
+put	get
+yeah you can get started with java or something at low cost but for me locally the vast demand is for .net developers which can be costly getting up and running with
+however this is rapidly has not becoming the case with the amount of work put in by ms with releasing pretty damn good express editions of their main development product line
+its a lifelong career
+
+10956
+accessor	properties
+if the class isn t sealed you can create a harness for it by extending it and then exposing all your internals within the child class
+alternatively you could use reflection yech or use mstest s accessor generators
+you need to clone your object and then go through every single properties and variable that your object has and determine if it was copied correctly or cloned correctly
+
+11170
+nunit	mstest
+
+stick to nunit
+don t go anywhere near mstest
+
+11170
+nunit	mstest
+don t go anywhere near mstest
+nunit + resharper is an absolute joy to work with
+
+
+11247
+multiplying	add
+oj has basically summed up a really good process of learning i d just add that having a good foundation in geometric math vectors matrices as a minimum cannot be underestimated - but it s not as hard as people sometimes make out
+learning what a dot product cross product normal vector and matrix multiplying are and do is a good first step
+try to understand exactly what is happening between world view projection-clip screen space what the perspective divide is etc
+
+11663
+post	get
+in general the things ms focuses on for each vary because the two languages are targeted at very different audiences
+this blog post has a good summary of the target audiences
+it is probably a good idea to determine which audience you are in because it will determine what kind of tools you ll get from microsoft
+
+11679
+post	get
+
+i m trying to cobble together a good answer from all the post so help me edit this here is a method of doing this although it does transforming the strings and is not unicode friendly it should be portable which is a plus from what i have read this is more portable than stricmp because stricmp is not in fact part of the std library but only implemented by most compiler vendors
+to get a truly unicode friendly implementation it appears you must go outside the std library
+
+11969
+vmware	virtualbox
+that being said you should probably try them out with the particular environment and apps you will be using and see which one is best for you
+one feature of vmware i really like is the ability to snapshot the system
+i do this before every software install and when one of them goes awry i just revert the virtualbox back to the pre-install state
+
+12055
+post	get
+ok i was going to just bullet point but i wanted to see this work for myself so i cobbled together some very rough code but the concept is there and it seems to work
+apologies for the long post the safeloader this will basically be the bubble i mentioned
+it will get the controls html catching any errors that occur during rendering
+
+12248
+post	get	post	put
+and with the now very small amount of application specfic code they get put into company.applications.applicationname this helps me really think about business objects a lot more since i dont want too much within this namespace so i come up with more flexible designs
+sorry for the long post
+it s kind of rambling
+
+12279
+subtraction	multiplication
+
+jeff doing a subtraction on datetime returns a timespan anyway
+so you can just do datetime.utcnow - dt .totalseconds i m also surprised to see the constants multiplied-out by hand and then comments added with the multiplication in
+
+12444
+post	get
+if you re on nix you can use the curl commandline program inside your shell script to get this done fairly easily
+like jsight said you will need to analyze the actual forms you re using on the webpage using fiddler or just looking at the form elements and re-creating the post through curl.
+
+
+12519
+implements	extends
+
+daniel keep in mind that just because something is possbile in iis and via any number of off box solutions like hardware load balancers and ssl doesn t mean that it is supported by sharepoint or that it is implements in the same way
+you can do what you are asking for however you should do it via sharepoint central administration and create or extends a web application and then extends and existing application
+
+12756
+collabnet	svn
+
+i ve followed the instructions given at the collabnet site they use the windows sc to create the service which runs svnserve
+this has worked for me without any problems using svn 1.4 and 1.5
+
+13064
+range	minimum
+an excerpt from the art of software testing by glenford j
+myers if an input condition specifies a range of values write test cases for the ends of the range and invalid-input test cases for situations just beyond the ends
+if an input condition specifies a number of values write test cases for the minimum and maximum number of values and one beneath and beyond these values
+
+13251
+implements	extends
+
+the upcoming release of the framework design guidelines 2nd edition will have some guidance for implements extension methods but in general you should only define extension methods where they make semantic sense and are providing helper functionality relevant to every implementation
+you also should avoid extends system.object as not all .net languages will be able to call the extension method as an extension
+
+13635
+post	get
+
+brad abrams specifically warns against enum.isdefined in his post the danger of oversimplification
+the best way to get rid of this requirement that is the need to validate enums is to remove ways where users can get it wrong an input box of some sort
+
+13942
+imperative	declarative	imperative	declarative
+another debate implied in this argument though is declarative programming vs
+imperative
+declarative is usually better for anything where you really don t need the fine-grained control over how something is done
+
+14261
+actionscript	mxml
+it s more terse bindings are extemely easy to set up etc
+however bindings in pure actionscript need not be that much of a pain
+it will never be as simple as in mxml where a lot of things are done for you but it can be done with not too much effort
+
+14412
+junit	testng
+testng s other big draw cards for me include test parameters data providers annotation transformers and more than anything - the vibrant and responsive user community
+whilst on the surface one might not think all of testngs features above might not be needed once you start to understand the flexibility bring to your tests you ll wonder how you coped with junit
+disclaimer - i ve not used junit 4.x at all so am unable to really comment on advances or new features there
+
+14462
+disk	ram
+you will notice a big performance improvement if your app uses a lot of memory and the pc has enough ram to keep up with it
+i ve found that 32bit .net apps tend to start throwing out of memory exceptions when you get to around 1.6gb in use but they start to thrash the disk due to paging long before that - so you end being i o bound
+basically if you re bottleneck is cpu then 64bit is unlikely to help
+
+14630
+case-sensitive	case-insensitive
+
+unfortunately subversion is case-sensitive
+this is due to the fact that files from subversion can be checked out on both case-sensitive file systems nix and case-insensitive file systems windows mac
+
+14964
+put	get
+then ms changed some of the loader code
+i got onto msdn and ranted about it and was told in no uncertain terms only an idiot would put that many symbols in a single assembly
+which is one of the reasons i no longer participate on msdn. well color me stupid but i don t think i should have to change the physical structure of my application breaking things out into satellite dlls merely to get around the fact that the loader has decided 10 001 symbols is 1 too many
+
+15432
+srp	principles
+as long as you re avoiding jury-rigging an element to take the responsibilty of something it wasn t primarily designed for or doing some other ad-hoc thing that dilute the simplicity of an object then violate whatever principles you want
+but i find that it s easier to get srp correct then to do something more elaborate that is just as robust
+
+
+15476
+folder	directory
+
+personally i prefer home username .bin this way the bin folder is hidden but you can still add it to the path and execute all scripts with the x-bit inside
+i like my home directory to be clean at first glance with very few folders
+
+15928
+mouse	keyboard
+but by going an all javascript route you could be making it easier for one group of people users with co-ordination difficulties but making it difficult for others anyone with javascript turned off for some reason
+you may want to look into adding some alternatives - mouse controlled hover menu for those comfortable with the mouse
+keyboard based control via access keys and the like for others
+
+16381
+equals	gethashcode
+then call the full slow equals method
+then the two items are definitely not equals
+all you want is a gethashcode algorithm that splits up your collection into roughly even groups - it shouldn t form the key as the hashtable or will need to use the hash to optimise retrieval
+
+17233
+client-side	server-side
+yeah it s bloatware but you get a lot of functionality that wouldn t be much fun to re-invent sorting paging grouping column reordering inline editing templating server-side and client-side
+the client-side apis are nice too
+
+
+17579
+accessor	properties
+this has a purpose it allows other types to infer what methods and properties are available for an object following an interface
+giving them protected internal accessor defeats the purpose of an interface
+if you are adamant that you need to provide an access modifier for a method either leave it out of the interface or as you said use an abstract class
+
+17601
+next	except
+just encapsule your text as wordobjects per word and give them a method getwidth then start at the first word adding up the rowlength until it is greater than the available space
+if so wrap the last word and start counting again for the next row starting with this one ecetera
+with hyphenation you need hyphenation rules in a common format like hy-phen-a-tion then its the same as above except you need to split the last word which has caused the overflow
+
+17942
+client-side	server-side
+compare this to many of the other languages and you can see why using server-side javascript to provide a plugin architecture is so enticing
+a secondary popular solution one which can be seen through a project like jaxer is that a common problem of web applications that do client-side validation is that since javascript is easily bypassed in the browser validation has to be run once again on the server
+a system like jaxer allows you to write some validation functionality that is reusable between both server and client
+
+18521
+mouse	keyboard
+
+i used this in a program where i needed to simulate clicks and mouse movements
+global mouse and keyboard library
+
+18574
+post	get
+
+pre linq i used datareader to fill list of my own custom domain objects but post linq i have been using l2s to fill l2s entities or l2s to fill domain objects
+once i get a bit more time to investigate i suspect that entity framework objects will be my new favourite solution
+
+19403
+goto	break
+basically it will be enhancing the ability to break out of switch nested if statements
+here s the concept example i found of course once the goto rumor was out there was nothing to stop some evil guys to propagate an additional comefrom joke
+be on your toes
+
+20512
+put	get
+if your program is small and not doing much it might be that the project is corrupted and needs to get rebuilt
+make a new project from scratch and put your files and settings back in by hand
+
+
+20612
+ssl	https
+you really want your users to be focussed on entering complete and accurate credit card information and having a map on the same screen may be distracting
+for the record though virtual earth certainly does fully support ssl
+to enable it you simple need to change the script reference from http to https and append s 1 to the url becomes
+
+20713
+rss	feed
+rss is not an official internet standards track protocol
+however rss has enough adoption that you can reasonably expect it to be consumable by a variety of clients
+as there are quite a few deprecated versions of rss you might conceivably have to support rss feed that vary quite a bit in their formatting details
+
+20713
+rss	feed
+as there are quite a few deprecated versions of rss you might conceivably have to support rss feed that vary quite a bit in their formatting details
+rss does not have a registered media content type
+however enough publishers use the same unregistered content type that it is almost a defacto mime type
+
+20795
+vim	textmate
+you can fetch it here
+alternatively if you want to use vim on os x i ve heard good things about macvim
+beyond those there are the obvious textedit textmate etc line of editors
+
+20866
+int	chars	int	boolean
+e.g
+to read the 2nd bit of a bitset you need to find the int that contains the bit you want in this case it s the first int bitwise and that int with 2 value 0x02 to find out if that bit is set however if memory is a bottleneck and you have a lot of boolean using a bitset could make sense if you re target platform is a mobile phone or it s some state in a very busy web service note a std vector of bool usually has a specialisation to use the equivalent of a bitset thus making it much smaller and also slower for the same reasons
+so if speed is an issue you ll be better off using a vector of chars or even int or even just use an old school bool array
+
+20890
+put	get
+values in the data can be changed and rows can appear or disappear in the data set before the end of the transaction
+simply put when you are using this isolation level and you are performing multiple queries on an active table as part of one transaction there is no guarantee that the information returned to you within different parts of the transaction will remain the same
+you could query the same data twice within one transaction and get different results this might happen in the case where a different user was updating the same data in the midst of your transaction
+
+21277
+int	double
+a similar technique can be used for double
+the trick is to convert the floats so that they re ordered as if int and then just see how different they are
+i have no idea why this damn thing is screwing up my underscores
+
+21326
+inline	inlining
+any function can be declared inline and putting the function body in the class definition is one way of doing that
+you could also have done however it s up to the compiler if it actually does inline the function
+vc++ pretty much ignores your requests for inlining
+
+21326
+inline	inlining
+vc++ pretty much ignores your requests for inlining
+it will only inline a function if it thinks it s a good idea
+recent versions of the compiler will also inline things that are in seperate .obj files and not declared inline from code in different .cpp files if you use link time code generation
+
+21619
+moq	nmock
+this is much faster than storing the state of the database and resetting it after every test
+i highly recommend moq as your mocking framework
+i ve used rhino mocks and nmock
+
+21619
+moq	nmock
+i ve used rhino mocks and nmock
+moq was so simple and solved all the problems i had with the other frameworks
+
+
+21668
+emacs	aquamacs
+in much the way that aquamacs makes an os x-friendly version of emacs the emacsw32 project makes emacs out-of-the-box work just like a windows text editor
+mind you all of emacs power and complexity is there but if you don t already have muscle memory built up there s no reason not to use ctrl-c x v as copy cut paste instead of m-w c-k c-y just to be cool
+emacsw32 also brings windows-compliant open save dialogs sane crlf file handling and quite a bit more
+
+22219
+cpython	pypy	cpython	ironpython
+however one big difference between the java and python approaches is that with reference counting in the common case no circular references objects are cleaned up immediately rather than at some indeterminate later date
+for example i can write sloppy non-portable code in cpython such as and the file descriptor for that file i opened will be cleaned up immediately because as soon as the reference to the open file goes away the file is garbage collected and the file descriptor is freed
+of course if i run jython or ironpython or possibly pypy then the garbage collector won t necessarily run until much later
+
+22765
+onclick	onsubmit
+so it s not an expected behaviour since it only occurs when you have just one textbox and you have the focus on the textbox
+i m afraid you ve found a bug on the browser and you ll have to find a workaround or avoid using the onclick event in that case
+i use the onsubmit event for validations because it s a safer event that is more likely to work on different browsers and situations
+
+23008
+put	get
+always start with a .sql file that is the source of your stored procedure
+put it in version control once you have written your code
+the next time you want to edit your stored procedure get it from your source control than your database
+
+23048
+mockito	jmock
+
+i ve had good success using mockito
+when i tried learning about jmock and easymock i found the learning curve to be a bit steep though maybe that s just me
+
+23048
+mockito	jmock
+when i tried learning about jmock and easymock i found the learning curve to be a bit steep though maybe that s just me
+i like mockito because of its simple and clean syntax that i was able to grasp pretty quickly
+the minimal syntax is designed to support the common cases very well although the few times i needed to do something more complicated i found what i wanted was supported and easy to grasp
+
+23137
+post	get
+from 1
+in ruby this will be very bad performance wise with lots of post
+a better way would be to retrieve the post read by the current user and then use activerecord calculations to get a count without retrieving all the post in the database this should go into your post model to follow best practices of not having finders in the view or controller post.rb then your view will just be
+
+23335
+lisp	smalltalk
+also objective is smalltalk
+in functional school we would have nearly functional some considered them to be impure lisp family and ml family and many purely functional haskell erlang etc
+by the way there are many general languages such as perl python ruby
+
+23557
+hash	salt
+now both of our password hashes are the same
+so if i see the stored hash codes i will know your password is the same as mine jeff
+so we can add a salt string to the password
+
+23693
+put	get
+this example also shows range creation and the list reduction meta-operator combined with the numeric infix multiplication operator
+it also shows that you can put in the signature instead of returns uint after it
+you can get away with starting the range with 2 as the multiply operator will return 1 when called without any arguments
+
+23702
+versioning	upgrade
+it would be pretty easy to write a script that would tag both repositories with the same id each time you upgrade the library and used it in the project
+then if you need to roll back to a previous versioning you just see what its most recent tag was and roll the library back to that versioning
+update sorry i ve been in mercurial land for a while and forgot that subversion doesn t directly support tagging
+
+23804
+versioning	upgrade
+you see some versions of mysql had different commands that were used in various versions
+so what compatibility mode allows you to do is take a database and export the sql to be compatible with another versioning of mysql
+thus you may want to upgrade your mysql 3 server to 4 - this compatibility mode allows for the export your database or individual tables to create a sql file that can import into a mysql 4 versioning server should work in 5 also
+
+23960
+put	get
+if you have something like fxcop available to you run it do what it says or have a darn good reason why you aren t
+then we can look at how the code is put together how it functions and things that we can do to improve upon it
+in this way you get a different perspective on how to solve a problem and why someone thinks that way
+
+23997
+des	aes
+they can be m n m bit input n bit output. for example in the aes s-box the number of bits in input is equal to the number of bits in output
+in des m 6 and n 4
+the input is expanded from 32 to 48 bits in the first stages of des
+
+24269
+pascal	delphi
+i spent six years in delphi and loved it to bits
+the main strength for me of c# over object pascal is the syntax - it s much cleaner
+there are some really great new features in c# 3 dotnet 3.5 - checkout linq
+
+24308
+inherited	properties
+you can t really argue against those properties - there is no trade-off made and it is always a cleaner way to modulize things
+other aspects of oop including inherited and polymorphism are important too but as others have alluded to those are commonly over used
+ie sometimes people use inherited and or polymorphism because they can not because they should have
+
+24446
+int	chars
+
+ensure you don t use incremting int for session ids
+much better to use a guid or some other long randomly generated chars string
+
+24476
+goto	break
+exiting nested loops if you re in a nested loop and need to break out of all loops a goto can make this much cleaner and simpler than break statements and if-checks
+low-level performance improvements this is only valid in perf-critical code but goto statements execute very quickly and can give you a boost when moving through a function
+this is a double-edged sword however because a compiler typically cannot optimize code that contains gotos
+
+24884
+for-loop	loops
+
+there is a compiler switch which enables c99 mode which amongst other things allows declaration of a variable inside the for-loop
+to turn it on use the compiler switch or as oysterd says declare the variable outside loops
+
+24908
+strdup	malloc
+suppose you have a strdup function that duplicates a string and you call it like this you can see that the program works but you have allocated memory via malloc without freeing it up
+you have lost your pointer to the first memory block when you called strdup the second time
+this is no big deal for this small amount of memory but consider the case you have now used up 11 gig of memory possibly more depending on your memory manager and if you have not crashed your process is probably running pretty slowly
+
+25105
+freebsd	linux
+
+noting the lack of bsds here i figured i d chip in the design and implementation of the freebsd operating system dead-tree book unix and bsd courses courses and videos freebsd architecture handbook online book i haven t taken any of the courses myself but i ve heard marshall kirk mckusick speak on other occasions and he is really good at what he does
+and of course the bsd man pages which are an excellent resource as they are maintained to a far greater extent than your average linux man-page
+
+26068
+apache	lighttpd
+you may not want to server all files using apache and use lighttpd lighty to server static files
+apache can do this
+multiple sites on same server virtual server hosting on apache
+
+26315
+vbscript	vb6
+1 you can use com components developed in vb6 or the like to separate some of your business logic from your ui
+2 you can create classes in vbscript
+there is no concept of inheritance and other more advanced features are missing from the implementation but you can encapsulate logic in classes that helps reduce the spagehtti-ness of your app
+
+26350
+lisp	scheme
+both provide a very simple and intuitive introduction to both scheme and functional programming that proves far simpler for new students or hobbyists than any of the typical volumes that rub off like a nonfiction rendition of war peace
+once they ve moved beyond the schemer series sicp and on lisp are both fantastic choices
+
+
+26597
+put	get
+if you are really worried about performance don t use .htaccess files those are slow
+put all your rewrite rules in your apache config which is only read once on startup
+.htaccess files get re-parsed on every request along with every .htaccess file in parent folders
+
+26682
+profiling	instrumentation
+
+my only experience profiling c++ code is with aqtime by automatedqa now smartbear software
+it has several types of profilers built in performance memory windows handles exception tracing static analysis etc. and instrumentation the code to get the results
+
+26942
+swt	swing
+combined with the free nsis installer you can build a nice package for your windows users
+edit did not see that you use swt
+don t know if it works with swt as well because i used only swing in my apps
+
+27051
+ubuntu	debian
+however you must make locale files for en_nz
+for ubuntu edit var lib locales supported.d local and add en_nz iso-8859-1 to the file
+if your system is another distribution including debian the location will be different
+
+27256
+jquery	scriptaculous
+to put some names out there prototype scriptaculous jquery dojo yui ...those all seem to have active users and contributers so they are probably worth reading up on to see if they meet your needs
+jquery is good but with a little extra effort maybe you ll find that something else works better for you
+good luck
+
+27281
+post	get
+it would look like this then to get the selected key you could do or if you are using xhtml then you can create a custom namespace
+since you say the keys can repeat using the value attribute is probably not an option since then you wouldn t be able to tell which of the different options with the same value was selected on the form post
+
+
+27340
+post	get
+
+should i added variables to the query string or post the data i need to send
+i d like to come up with a solution that would prevent a person with basic computer skills from accidentally or intentionally accessing the page directly considering the callback is buried in the client code it would take someone with equal determination to get either the querystring or the post request
+
+27429
+put	get
+
+create a prototype instanace of each class and put them in a hashtable inside the factory with the string you expect in the xml as the key
+so createtask just finds the right prototype object by get ing from the hashtable
+
+27440
+postgresql	mysql	postgresql	mysql
+mysql is much more commonly provided by web hosts
+postgresql is a much more mature product
+there s this discussion addressing your better question apparently according to this web page mysql is fast when concurrent access levels are low and when there are many more reads than writes
+
+27450
+client-side	server-side
+
+in that case yes the third line is the simplest you can get at client-side
+in addition you can serve out additional server-side objects from the myserverobject instance if you include public accessors for them in iremoteserver interface so accessing those objects become the simple matter of method calls or property accesses on your main server object so you don t have to use activator for every single thing
+
+29748
+apache	lighttpd
+what you do is that you start your django fastcgi server in a separate process and then configures apache via rewrites to call this process when needed
+or you can serve django without using apache but with another server that supports fastcgi natively the documentation mentions that you can do this if you don t have any apache specific needs
+i guess the reason must be to save memory. lighttpd this is the server that runs youtube
+
+29770
+vim	emacs
+
+in the meantime i ve tried it two tools that have some sort of integration with vim
+the first is rope a python refactoring library that comes with a vim and emacs plug-in
+
+29801
+post	put
+prior to using hibernate or other orms when i would do sql directly in jdbc or odbc i would put all the sql statements as either public fields of an object with a naming convention or in a property file also with a naming convention for the values say prep_stmt_xxxx
+and use either reflection or iterate over the values at startup in a test cases b startup of the application some rdbms allow you to pre-compile with prepared statements before execution so on startup post login i would pre-compile the prep-stmts at startup to make the application self testing
+even for 100 s of statements on a good rdbms thats only a few seconds
+
+29801
+versioning	upgrade
+different name
+anyway i came in in versioning 2..
+it was costing a lot of money to do upgrade
+
+29900
+bazaar	git
+
+i d look at either mercurial or bazaar
+i m told git also works on windows but i suspect the windows port is still a second class port at best
+
+29923
+bazaar	git	bazaar	svn
+in git you can do the same with playing around in the index staging area but bazaar has a better ui for it
+most of the people were reluctant to move over as they have to type in two commands to commit and push bazaar ci + bazaar push
+also it was difficult for them to understand the concept of branches and merging no one uses branches or merges them in svn
+
+29972
+cruisecontrol	teamcity
+teamcity makes it easy to setup the ci server part and nant build script makes it easy to do a number of tasks as far as report generation is concerned
+here is an article i wrote about using ci with cruisecontrol.net it has a nant build script in the comments that can be re-used across projects continuous integration with cruisecontrol
+
+
+30197
+firefox	safari
+here s the relevant documentation for gears workerpool api whatwg has a draft recommendation for worker threads web workers and there s also mozilla s dom worker threads update june 2009 current state of browser support for javascript threads firefox 3.5 has web workers
+some demos of web workers if you want to see them in action simulated annealing try it link space invaders link at end of post moonbat javascript benchmark first link the gears plugin can also be installed in firefox
+safari 4 and the webkit nightlies have worker threads javascript ray tracer chrome has gears baked in so it can do threads although it requires a confirmation prompt from the user and it uses a different api to web workers although it will work in any browser with the gears plugin installed google gears workerpool demo not a good example as it runs too fast to test in chrome and firefox although ie runs it slow enough to see it blocking interaction ie8 and ie9 can only do threads with the gears plugin installed
+
+30243
+emacs	textmate
+easy to set up and really customizable i use it for just about everything
+there s also a lot of talk about emacs plugins if you re already using that normally
+gedit how to set up like textmate
+
+30598
+subclass	abstract-class	implements	extends
+in this way i am saying that foouser subclass is not an account but does act like an editable object
+likewise baraccount extends from account but is not a user subclass but implements editable listable and also versionable
+adding all of these apis for editable listable and versionable into the abstract-class itself would not only be cluttered and ugly but would either duplicate the common interfaces in account and user or force my user object to implement versionable probably just to throw an exception
+
+30841
+subtract	add
+you cannot use this running total field in the page header too however because crystal will add the value in the first row on the page to it first so in your example it would show 9 rather than 4 at the top of page 2
+to work around this create a formula field which subtract the current value of the value field from the running total #rtotal - tablename.value and put this formula field in your page header
+
+
+31042
+perforce	svn
+i use perforce right now and for some reason i like svn better
+perforce definitely gives me a better indication that there s going to be merge conflicts and even has built-in tools to help me resolve the merges
+it has the same problem where if someone makes tons of changes over a long time the merge will be more difficult
+
+31288
+accessor	properties
+cocoa s collection classes which all have mutable an immutable variants are nsarray ordered can contain an object multiple times nsdictionary unordered mapping from keys to values keys are copied nsset unordered can contain an object only once nscountedset unordered can contain an object multiple times the immutable variants help a lot with efficiency
+the standard pattern for accessor of classes that have mutable variants is to copy rather than retain
+this is codified in the properties mechanism by using the copy attribute on the properties this means that if you pass a mutable array to something that takes an array it will be copied and if you pass that to something else it will be copied again
+
+31574
+spaces	delimiter
+
+note single quotes even no quotes if the value doesn t contain a spaces is valid according to the w3c html spec
+quote by default sgml requires that all attribute values be delimiter using either double quotation marks ascii decimal 34 or single quotation marks ascii decimal 39 .
+
+32062
+public	protected
+fwiw i ve never seen anyone use protected class inheritance and if i remember correctly i think stroustrup even considered the protected level to be a mistake in c++
+there s precious little you cannot do if you remove that protection level and only rely on public and private
+
+
+32219
+accessor	properties
+my problem with this is that adding more logic later requires that you add blanket logic that applies to all properties accessed with the getter setter or that you use if or switch statements to evaluate which properties you re accessing so that you can apply specific logic
+i like your solution and i applaud you for it--i m just not satisfied with the limitations that php has when it comes to implicit accessor methods
+
+
+32477
+cpu	processors
+this class has methods to set processoraffinity or even set a preferred processors -- not sure what that is
+disclaimer i ve experienced a similar problem where i thought the cpu s were under utilized and researched a lot of this stuff
+however based on all that i read it appeared that is wasn t a very good idea as evidenced by the comments posted here as well
+
+32521
+prng	random
+
+there is a half-way house here which has some use which is to seed your prng with a constant
+that allows you to generate random data which is repeatable
+
+32572
+put	get
+this gets you comfortable with the make-up of the object and helps you get intimately knowledgeable about how it ll look from various positions
+that may not apply directly to what you re doing but it should give you an indicator as to the amount of discipline that may be involved in getting to the point you seek. definitely put together a library of stuff that you can look to for inspiration
+value physical media that you can flip through over websites
+
+32775
+gmail	hotmail
+if hotmail server goes down gmail server wiil try to resend the message it will depend on server software configuration
+if the process terminates ok then ok if not gmail server will notify you that he wasn t able to deliver the message
+
+
+32865
+inherited	properties
+if your using a web site project no project file then start by checking that both your page and your control both set the classname properties in the first line of your aspx ascx file and that you specify the full name of the class including the namespace
+example control language vb autoeventwireup false classname yourprojectname.yourusercontrol inherited yourprojectname.yourusercontrol codefile yourusercontrol.ascx.vb many times not setting all of these will still work but you will get odd compiler errors and behavior in vs
+if you using a web site application project try deleting the designer file manually and then right click on your project and choose convert from web application. this will should recreate the designer file for you
+
+33010
+equals	compareto
+it s generally a bad choice when equals can be overridden because that breaks the symmetry property
+option #2 allows the class to be safely extended without overriding equals or breaking symmetry
+if your class is also comparable the equals and compareto methods should be consistent too
+
+33010
+equals	compareto
+if your class is also comparable the equals and compareto methods should be consistent too
+here s a template for the equals method in a comparable class
+
+
+33180
+public	protected
+c++ allowed all three kinds
+public inheritance implied an is-a type of relationship and private inheritance implied a is-implemented-in-terms-of kind of relationship
+since layering or composition accomplished this in an arguably simpler fashion private inheritance was only used when absolutely required by protected members or virtual functions required it - according to scott meyers in effective c++ item 42
+
+33503
+put	get
+
+my cdrecord method did support dvd burning i just looked over the code and boy did i forget how much time and effort i put into that class
+cdrecord has no problem burning just about any type of media you throw at it but since it is a stand alone application i had to do a lot of parsing to get useful information
+
+33507
+put	get
+the difference is that i had the cache do the cloning
+when you put an object into the cache the cache will clone the object first and store the cloned version so you can mutate the original object without poisoning the cache
+when you get an object from the cache the cache returns a clone of the object instead of the stored object again so that the caller can mutate the object without effecting the cached canonical object
+
+33570
+for-loop	arrays	for-loop	loops
+
+i d warn again doing a double for-loop to pull out each datacell s data and writing out individually to an excel cell
+instead use a 2d object arrays and loops through your datagrid saving all your data there
+
+34338
+phpunit	simpletest
+simpletest also ships with a very simple html gui which is quite easy to extend if you want to
+as far as i know phpunit does not include a html gui but there are gui s available to download such as cool
+
+
+34645
+inherited	properties
+there are two kinds of limits soft limits are simply the currently enforced limits hard limits mark the maximum value which cannot be exceeded by setting a soft limit soft limits could be set by any user while hard limits are changeable only by root. limits are a properties of a process
+they are inherited when a child process is created so system-wide limits should be set during the system initialization in init scripts and user limits should be set during user login for example by using pam_limits
+there are often defaults set when the machine boots
+
+34681
+hash	md5
+the principle source of weakness in both of these designs is that the second property which i outlined above does not hold for these constructions
+if an attacker can generate two messages m and m that both hash to the same value they can use these messages against you
+sha-1 and md5 also suffer from message extension attacks which can fatally weaken your application if you re not careful
+
+34681
+hash	md5
+sha-1 and md5 also suffer from message extension attacks which can fatally weaken your application if you re not careful
+a more modern hash such as whirpool is a better choice
+it does not suffer from these message extension attacks and uses the same mathematics as aes uses to prove security against a variety of attacks
+
+34905
+post	get
+i sort of follow these basic rules
+only do modifying sql actions such as insert update delete through post
+never get
+
+34969
+next	except
+all we re talking about is an expression whose value is a function
+a simple example using scala for the next line is where the argument to the foreach method is an expression for an anonymous function
+the above line is more or less the same as writing something like this not quite real code but you ll get the idea except that you don t need to bother with declaring the function somewhere else and having to look for it when you revisit the code later
+
+35057
+folder	directory
+unlike in com gacutil copies the file to an opaque directory under systemroot assembly and that s where they run from
+it wouldn t make sense to ask gacutil register a folder not that you can do that with regsvr32 either
+you can use a batch for command such as if you place that in a batch file you must replace a with a
+
+35297
+bazaar	git
+
+i ve had the best luck with bazaar followed by mercurial
+never could get git to work correctly
+
+35492
+haskell	scheme
+my favorite general less academic online tutorials the haskell wikibook which contains all of the excellent yet another haskell tutorial
+this tutorial helps with specifics of setting up a haskell distro and running example programs for example. learn you a haskell for great good in the spirit of why s poignant guide to ruby but more to the point
+write yourself a scheme in 48 hours
+
+35492
+haskell	scheme
+write yourself a scheme in 48 hours
+get your hands dirty learning haskell with a real project
+books on functional programming with haskell lambda calculus combinators more theoretical but in a very down to earth manner davie s introduction to functional programming systems using haskell laziness and program correctness thinking functionally bird s introduction to functional programming using haskell
+
+35517
+xsl-fo	xslt
+
+as you are sure about needing to represent the presentational side of things it may be worth looking at the xsl-fo w3c recommendation
+this is a full-blown page description language and the deeply unfashionable other half of the better-known xslt
+
+35605
+filesystems	ntfs
+there is no unix and windows file systems
+the nix family of filesystems include ext3 zfs ufs etc
+windows primarily has had support for fat16 32 and their own filesystem ntfs
+
+35627
+filesystems	ntfs
+
+i m not at all familiar with the inner workings of the unix filesystems as in how the bits and bytes are stored but really that part is interchangeable ext3 reiserfs etc
+when people say that unix filesystems are better they might mean to be saying oh ext3 stores bits in such as way that corruption happens way less than ntfs but they might also be talking about design choices made at the common layer above
+
+35710
+client-side	server-side
+
+you should do as much client-side processing as possible
+this will enable your application to scale better than doing processing server-side
+
+35770
+xfce	gnome	xfce	gnome
+it s also important to make the distinction between gnome libraries and gtk and likewise kde libraries and qt
+if you write the code to use gtk or qt it should work fine for users of any desktop environment including less popular ones like xfce
+if you use other gnome or kde-specific libraries to do non-widget-related tasks your app would be less portable between desktop environments
+
+35967
+apache	lighttpd
+if you have spare physical resources and have the technical skills and experience to maintain production machines running different operating systems i d recommend going running lighttpd on either linux or freebsd
+a light os install with a static file optimized server will perform faster than apache or iis on a heavy os
+however unless you are extremely comfortable with these solutions just stick to iis on windows
+
+36615
+direct3d	gdi
+
+i think you can still use all of the normal direct3d tools but you won t be able to render to a surface associated with the screen
+you ll have to render to a dib or some such and blt it with gdi to a normal window hdc
+
+37046
+put	get
+the threads are only allowed to return from o.wait one-by-one but they each will get their turn
+simply put it depends on why your threads are waiting to be notified
+in some cases all waiting threads can take useful action once the wait finishes
+
+37364
+post	get
+
+regrading the preserve transparency then yes like stated in other post imagesavealpha have to be set to true to use the alpha flag imagealphablending must be set to false else it doesn t work
+also i spotted two minor things in your code you don t need to call getimagesize to get the width height for imagecopyresmapled the and should be -1 the value since the cordinates starts at 0 and not 1 so it would copy them into an empty pixel
+
+37407
+public	protected
+
+generally if something is not deliberately conceived as public i make it private
+if a situation arises where i need access to that private variable or method from a derived class i change it from private to protected
+
+37408
+daemons	systemd
+the use of a unix-domain socket means that the erlang daemons could be launchd on-demand by launchd and the cocoa front-end could find the path to the socket to use via an environment variable
+that makes the rendezvous between the app and the daemons trivial and it also makes it straightforward to develop multiple front-ends or possibly a framework that wraps communication with the daemons
+the mac os x launchd systemd is really cool this way
+
+37410
+ubuntu	linux	ubuntu	debian
+
+i am writing this on a centrino 1.5ghz 512mb ram running ubuntu
+it s debian based and is the first linux distro i have tried that actually worked with my laptop on first install
+
+37606
+queue	fifo
+some reasons why msmq doesn t work when you need to change the logic of the queue to not fifo but something like the oldest red message or the oldest blue message you can t do it
+i know what people will say you can do it by having a red queue and a blue queue
+it adds a point of failure and deployment nightmare the queue is a point of failure and you need to deal with setting the right permissions on all boxes to read write messages etc in enterprise software you pay in blood for these type of things
+
+37660
+postgresql	mysql
+i use postgresql and my answer works correctly there i tried it
+see the postgresql update docs under parameters expression where it mentions that expressions on the right hand side of set clauses explicitly use the old values of columns
+i see that the corresponding mysql update docs contain the statement single-table update assignments are generally evaluated from left to right which implies the behaviour you describe
+
+37716
+hash	md5
+random bit strings are obtained by taking a md5 hash of the contents of this pool
+the one-way hash function distills the true random bits from pool data and hides the state of the pool from adversaries
+the dev random routine maintains an estimate of true randomness in the pool and decreases it every time random strings are requested for use
+
+37724
+postgresql	mysql
+mysql select concat field1 field2 from table
+postgresql select field1 || || field2 from table
+
+
+37854
+postgresql	mysql
+if you trace microsoft sql server back to its roots i think you ll find ingres - one of the very first relational databases written in the 70s
+and postgresql was originally written by some of the same people in the 80s as a successor to ingres
+oracle goes way back and i m not sure where mysql came in
+
+38350
+ubuntu	linux
+i d like a response from a linux user preferably developer who has experience with coming up with similar looking fonts
+i really don t want to have to give ubuntu firefox users any sans-serif
+
+
+38889
+post	get
+
+gregg miskely has a blog post on this
+you might get it to work if both local accounts have the same user name and password
+
+39033
+google-chrome	firefox
+but the new internet explorer 8 beta 2 and the just announced google-chrome browser are heading in that direction so i suppose firefox will be heading there too
+here is a post google-chrome process manager by john resig from mozilla and jquery fame on the subject
+
+
+39034
+implements	extends
+the idea is that anyone can extends behavior without the need to know the behind the scenes stuff
+a lot of frameworks rely on this behavioral pattern asp.net where you have to implements the hooks in a page or a user controls such as the generated page_load method which is called by the load event the template method calls the hooks behind the scenes
+there are a lot more examples of this
+
+39786
+cvs	svn
+
+both subversion and cvs call them keywords
+have a look in the svn manual here scroll down to svn keywords or here for cvs
+
+39963
+hash	salt	hash	md5
+
+.httpasswd files are just text files with a specific format depending on the hash function specified
+if you are using md5 they look like this that s the login a colon apr1 the salt and 1000 times md5 encoded as base64
+
+39963
+hash	salt	hash	md5	hash	md5
+if you are using md5 they look like this that s the login a colon apr1 the salt and 1000 times md5 encoded as base64
+if you select sha1 they look like this that s the login a colon the string sha and the sha1 hash encoded with base64
+if your language has an implementation of either md5 or sha1 and base64 you can just create the file like this here s more information on the format
+
+40280
+put	get
+i would start by applying the principles of mvc to any new code that you are able to work on ie
+move business logic to something akin to a model put all your layout view code in one place as you gain experience with new code in mvc you can start seeing opportunities to change the existing code subtly so that it also falls in line
+it can be a very slow process but if you can show the benefits of this way of doing it then you will be able to convince others and get the entire team on board
+
+40336
+cpu	processors
+
+to answer your question as stated would require digging into the instruction timings of the particular cpu that this code will be running on which therefore require me to make a bunch of assumptions around the state of the caches in the system and the assembly code emitted by the compiler
+it would be an interesting and useful exercise from the perspective of understanding how your processors of choice actually works but in the real world the difference will be negligible
+
+40699
+google-chrome	firefox
+
+google-chrome does support the netscape plugin api but that is for displaying certain kinds of content
+you seem to be after a extention api really firefox is the only major browser to encourage and support third party extentions to browsing capability that aren t simply new toolbars nothing in the developer documentation points to a browser enhancing api - google seem to want to keep a tight reign on the look and feel of the application
+
+40708
+button	checkbox
+keep send source of current page and send screenshot of current page checkbox selected
+click the send report button to report a google chrome bug
+i don t see any reference to public bug tracking.
+
+40828
+post	get
+i was able to get past the exceptions however although probably not in a way that will work will great for you
+but here s what i found this mailing list post had a discussion of what looks to be the same issue you are experiencing
+from there i added a couple dummy classes in the main program.cs file and then added the using lines into timedefparser.cs and timedeflexer.cs with that the exceptions would bubble into the fake exception classes and could be handled there but there was still an exception being thrown in the mtokens method in timedeflexer.cs
+
+41357
+ienumerable	ilist
+i imagine that for ilist implementations count simply reads the number of elements directly while any has to query the ienumerable.getenumerator method create an instance and call movenext at least once
+edit matt i can only assume that the count extension method for ienumerable is doing something like this yes of course it does
+this is what i meant
+
+41521
+button	checkbox
+one is the usual click button and the other is a toggle button that acts similar to a checkbox
+the default property of the commandbutton is actually the value property that indicates whether a button is toggled
+by setting the property the click event is generated
+
+41932
+google-chrome	firefox
+see for example - v8 tracemonkey squirrelfish ie8 benchmarks .
+needless to say google-chrome s v8 blows away all the current builds of the next-generation of javascript vms
+just to be clear webkit and firefox engines haven t even hit beta but it looks like the performance bar has just been set to an astronomical height by the v8 team.
+
+42047
+metaphone	soundex
+as noted soundex was developed in the 19th century for american names
+metaphone will give you some results when checking the work of poor spellers who are sounding it out and spelling phonetically
+edit distance is good at catching typos such as repeated letters transposed letters or hitting the wrong key
+
+42912
+google-chrome	firefox
+
+google-chrome s approach is difficult to write and requires forethought from the developers
+ie and firefox are both attempting to move to a process-per-tab model but due to backwards compatibility are not able to transition quickly
+
+42912
+google-chrome	firefox
+ie and firefox are both attempting to move to a process-per-tab model but due to backwards compatibility are not able to transition quickly
+google-chrome being an entirely new browser build on a clean rendering engine webkit was easier to write in this way
+
+
+43213
+matlab	simulink	matlab	s-function
+i don t think it can be done using existing simulink blocks
+i think i am going to have to take the xpcserial c code that comes with matlab take the code that sets the rs-232 speed and wrap it in my own s-function
+
+
+43300
+for-loop	arrays
+
+i would use unsafe code and run the for-loop comparing int32 pointers
+maybe you should also consider checking the arrays to be non-null
+
+44289
+cvs	svn	cvs	svn
+merging and branching are very different and if you branch and merge frequently unless you have svn 1.5 running on your server have to know when you branched this isn t very clear in the tortoise svn dialogs
+michael says the branching and merging is intuitive i would argue that after using cvs for 10 years it is not
+if your are running the svn server on linux it may be hard to get your sa to move to svn 1.5 as the default install 1.4.x
+
+44303
+equals	compareto
+compareto ends up calling a compareinfo method that does a comparison using the current culture
+equals is called by the operator
+if you consider overloads then things get different
+
+44357
+sorting	filtering
+wiener filtering or other filtering or simple histogram analysis is often an easy way to baseline in the presence of noise
+finally if your data is typically noisy and you re getting data off the card as unreferenced single-ended output or even referenced just not differential and if you re averaging lots of observations into each data point try sorting those observations and throwing away the first and last quartile and averaging what remains
+there are a host of such outlier elimination tactics that can be really useful
+
+44576
+profiling	debugging
+
+i choose to log deliberately as i go as this means the log data is meaningful depending on logging framework you can add level severity category information so that the log data can be filtered you can make sure that the right level of information is present not too much not too little you know when writing the code which the most important things are and can therefore ensure they are logged using some form of code injection profiling or tracing tool to generate logs would most likely generate verbose less useful logs that would be harder to dive into
+they may be useful as a debugging aid however
+
+45272
+daemons	systemd
+in that way the work which is being done does not block the acceptance of more requests
+as you point out the term load balancing carries the implication of multiple servers - what you want to look for is information about how to write a linux network daemons
+the two kes systemd calls you ll want to look at are called fork and exec
+
+45421
+ogre	irrlicht
+recently irrlicht has acquired official .net bindings allowing users to develop in .net languages such as vb.net c# and boo
+there is also ogre 3d and also axiom engine
+
+
+46015
+post	put
+the uri that the post request is sent to should not be the uri for the resource being modified
+you should either post to a collection resource that adds a newly created resource each time with the uri for the new resource in the location header and a 202 status code or post to an updater resource that updates a resource with a supplied uri in the request s content or custom header
+if you re using an xmlhttprequest object you can set the method to put and submit the data to the resource s uri
+
+46102
+move	drag
+all you then have to do is drag and drop the file from one folder to the where you want it
+it ll ask you to add a commit message and it defaults it to move file folder remotely
+
+
+46290
+versioning	upgrade
+it s the namespace alias qualifier extern alias youraliashere
+you can use it to load multiple versioning of the same type
+this can be useful in maintenance or upgrade scenarios where you have an updated version of your type that won t work in some old code but you need to upgrade it to the new version
+
+46614
+post	get
+
+use post for destructive actions such as creation i m aware of the irony editing and deletion because you can t hit a post action in the address bar of your browser
+use get when it s safe to allow a person to call an action
+
+46639
+post	get	post	put
+a restful app will use puts for operations which are not safe but idempotent
+i know the question was about get and post but i ll return to post in a second
+typically a put is used for editing a resource editing a question or an answer on stack overflow for example
+
+46639
+post	put	post	put
+typically a put is used for editing a resource editing a question or an answer on stack overflow for example
+a post would be used for any operation which is neither safe or idempotent
+typically a post would be used to create a new resource for example creating a new so question though in some designs a put would be used for this also
+
+46639
+post	get	post	put
+typically a post would be used to create a new resource for example creating a new so question though in some designs a put would be used for this also
+if you run the post twice you would end up creating two new questions
+there s also a delete operation but i m guessing i can leave that there discussion in practical terms modern web browsers typically only support get and post reliably you can perform all of these operations via javascript calls but in terms of entering data in forms and pressing submit you ve generally got the two options
+
+46639
+post	get	post	get	post	put	put	get	put	get
+there s also a delete operation but i m guessing i can leave that there discussion in practical terms modern web browsers typically only support get and post reliably you can perform all of these operations via javascript calls but in terms of entering data in forms and pressing submit you ve generally got the two options
+in a restful application the post will often be overriden to provide the put and delete calls also
+but even if you are not following restful principles it can be useful to think in terms of using get for retrieving viewing information and post for creating editing information
+
+46971
+phpunit	simpletest
+there is a command line test runner and web-based test runner and there is even an eclipse plugin to let you run unit tests from the ide itself
+i found the zend to phpunit connection much harder to get working especially with the debugger
+the way we use simpletest in-house is with a continuous integration script that we wrote ourselves
+
+47273
+put	get
+
+it s really late and i only spent about 10 minutes on this so its extremely sloppy however it does work and will give you a good jumping off point i put these classes in an assembly to test it and it generated the following sql create table fakedataclass id bigint anint bigint astring nvarchar 255 afloat float afkreference bigint create table fkclass id bigint afkint bigint go alter table fakedataclass with nocheck add constraint fk_afkreference foreign key afkreference references fkclass id go some further thoughts...i d consider adding an attribute such as sqltable to your classes that way it only generates tables for the classes you want
+also this can be cleaned up a ton bugs fixed optimized the fk checker is a joke etc etc...just to get you started
+
+47472
+goto	break
+
+i can only recall using a goto once
+i had a series of five nested counted loops and i needed to be able to break out of the entire structure from the inside early based on certain conditions i could just have easily declared a boolean break variable and used it as part of the conditional for each loop but in this instance i decided a goto was just as practical and just as readable
+
+47735
+opera	safari	opera	firefox	firefox	safari
+different browsers implement this differently since it is not a common status code
+alas unlike the opera and firefox developers the ie developers have never read the spec and even the latest most secure ie7 will redirect the post request from domain a to domain b without any warnings or confirmation dialogs
+safari also acts in an interesting manner while it does not raise a confirmation dialog and performs the redirect it throws away the post data effectively changing 307 redirect into the more common 302
+
+47909
+udp	tcp	udp	tcp
+also the tcp header contains a lot of overhead intended for different signals and message delivery detection
+for a message exchange udp will probably suffice if a small chance of failure is acceptable
+if receipt must be verified tcp is your best option
+
+47929
+udp	tcp
+for more information i recommend the simple but very comprehensible skullbox explanation tcp vs
+udp
+
+
+48001
+superclass	subclassing	superclass	subclassing
+another wrinkle in subclassing naming is multiple-level hierarchies
+... rather than blindly prepend the modifiers to the immediate superclass think about the name from the reader s perspective
+use that superclass as the basis for the subclassing name. interface two styles of naming interfaces depend on how you are thinking of the interfaces
+
+48050
+post	get
+for one any links in them are quite likely to have rel nofollow attributes so seeing that within a block might imply that it s a comment
+the main interesting thing to look for would be changes in the structure of post for m the same site
+for example there s also a very good chance that each comment will have its own anchor so people can link directly to it so you could look at the differing numbers of a name xxx tags in a given page on the same site to get an idea of the relative numbers of comments
+
+48074
+profiling	debugging
+
+unless you really need high performance on multiple embedded platforms don t change how you code for performance reasons until you profiling
+code that s written awkwardly to optimize for performance is hard to debugging and hard to maintain
+
+48074
+profiling	debugging
+code that s written awkwardly to optimize for performance is hard to debugging and hard to maintain
+write a test case and profiling it on your target
+once you know the actual cost of modulus then decide if the alternate solution is worth coding
+
+48093
+division	modulo
+all the assembly language i have seen x86 68000 implement the modulo using a division
+actually the division assembly operation returns the result of the division and the remaining in two different registers
+
+
+48103
+division	subtract	division	modulo	division	modulo
+processors with multipliers have interesting division routines using the multiplier but you can get from division result to modulo with just another two steps multiply and subtract so it s still comparable
+if the processor has a built in division routine you ll likely see it also provides the remainder
+still there is a small branch of number theory devoted to modular arithmetic which requires study if you really want to understand how to optimize a modulo
+
+48228
+post	get
+you can submit form on the web page from you program by sending post get request to a website
+typical login form looks like you can send a post request to the website providing values for username password fields
+what happens after you send your request is largely depends on a website usually you will be redirected to some page
+
+49151
+post	get
+... messagebox.show hello world
+also as per this other stack post in visual studio expand the project in solution tree right click on references add reference select system.windows.forms on framework tab
+this will get the messagebox working in conjunction with the using system.windows.forms reference from above
+
+49256
+des	aes
+it has been analyzed extensively and is now used worldwide as was the case with its predecessor the data encryption standard des .
+so as a rule of thumb you are not supposed to use des or its variants because it is being phased out
+as of now it is better to use aes
+
+49290
+implements	extends
+here is a summary of what he says existing classes can be easily retrofitted to implements a new interface
+all you need to do is implements the interface and add the required methods
+existing classes cannot be retrofitted easily to extends a new abstract class
+

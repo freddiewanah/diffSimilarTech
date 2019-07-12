@@ -1,0 +1,204 @@
+2905
+vim	emacs	vim	emacs
+Pattern(s): 
+further update just fyi i am not trying to push emacs over vim it s just what i use and it s a great editor as i m sure vim is too
+it is daunting at first as i m sure vim is too but the question was about text editors on linux besides vi.
+emacs seems the logical choice to me but gedit is a great simple text editor with some nice features if that s all you are looking for
+104095
+cassini	iis
+Pattern(s): 
+cassini is not ment to be a replacement
+cassini is ment to be a light waight test webserver
+the idea is that a developer does not need to have iis installed and configured to test his application
+5108
+ubuntu	debian
+Pattern(s): 
+or ubuntu has some nice gui things that make it easy to control apache mysql php
+this article has some of the best ways to lock things down some highlights make sure no one can browse the directories make sure only root has write privileges to everything and only root has read privileges to certain config files run mod_security the article also takes some pointers from this book apache securiy o reilly press as far as distros i ve run debain and ubuntu but it just depends on how much you want to do
+i ran debian with no x and just ssh d into it whenever i needed anything
+106334
+postgresql	mysql
+Pattern(s): 
+in your example you would want something like this select o.id o.address o.otherdetails group_concat concat e.firstname e.lastname as employees from employees e inner join organization o on o.org_id e.org_id group by o.org_id postgresql - edit postgresql 9.0 is equally simple now that string_agg expression delimiter is built-in
+here it is with comma-space between elements select o.id o.address o.otherdetails string_agg e.firstname || || e.lastname as employees from employees e inner join organization o on o.org_id e.org_id group by o.org_id postgresql before 9.0 allows you to define your own aggregate functions with create aggregate
+slightly more work than mysql but much more flexible
+207062
+google-chrome	firefox
+Pattern(s): 
+a folder called google-chrome can mean any number of things
+google-chrome is a general term for the ui of a browser
+firefox also has the word google-chrome all over its code base
+110162
+postgresql	mysql
+Pattern(s): 
+mysql is a pretty popular database lots of tools are available and lots of books
+sqlite and postgresql are also quite popular and also free open-source
+
+210096
+ubuntu	debian
+Pattern(s): 
+urgency low sandro tosi debian control - list items lines in description starts with 2 space to avoid reformat on webpages closes #480341 bernd zeimetz debian patches 02_reconnect.dpatch - dropping patch comment in storm which explains the problem
+if you are using ubuntu linux there was a patch added to the python-mysql package that added the ability to set that same mysql_opt_reconnect option see here
+i have not tried it though
+212565
+quicksort	mergesort
+Pattern(s): 
+mergesort this will teach how to merge which is important because there are a ton of speedups you can get by merging two sorted lists together as well as how to divide the problem into smaller sub problems important for dealing with hierarchical structures and also used in quick sort
+quicksort though faster is much harder to understand
+you need two scanning variables a pivot item etc.
+17249
+anjuta	kdevelop
+Pattern(s): 
+kdevelop is a kde project but run on gnome
+anjuta is an equivalent project on gnome but i find it unusable for real work
+for the rest of the stack gcc make valgrind ddd a gdb ide and python for scripting my code
+114544
+postgresql	mysql
+Pattern(s): 
+these databases are very different - mysql is speed and simplicity postgresql is robustness and concurrency
+it will be easier for you to learn postgresql it is not that hard
+
+215746
+firefox	safari
+Pattern(s): 
+camino contains native svg support as per its own documentation google-chrome uses an old version of web kit to support svg natively konqueror has svg support via a plugin ksvg2 from 2007 a here is a list of the state of svg support in many browsers
+opera has native svg support firefox has native svg support internet explorer does not include svg support natively
+safari has native svg support for images and fonts since version 3.1
+215746
+google-chrome	safari
+Pattern(s): 
+safari has native svg support for images and fonts since version 3.1
+camino contains native svg support as per its own documentation google-chrome uses an old version of web kit to support svg natively konqueror has svg support via a plugin ksvg2 from 2007 a here is a list of the state of svg support in many browsers
+
+24174
+anjuta	kdevelop
+Pattern(s): 
+code blocks is also very promising and i like that one best
+i hear anjuta is pretty slick for gnome users
+i played a bit with kdevelop and it s nice but sort of lacking featurewise
+27440
+postgresql	mysql	postgresql	mysql
+Pattern(s): 
+mysql is much more commonly provided by web hosts
+postgresql is a much more mature product
+there s this discussion addressing your better question apparently according to this web page mysql is fast when concurrent access levels are low and when there are many more reads than writes
+29923
+bazaar	git
+Pattern(s): 
+in git you can do the same with playing around in the index staging area but bazaar has a better ui for it
+most of the people were reluctant to move over as they have to type in two commands to commit and push bazaar ci + bazaar push
+also it was difficult for them to understand the concept of branches and merging no one uses branches or merges them in svn
+30197
+firefox	safari
+Pattern(s): 
+here s the relevant documentation for gears workerpool api whatwg has a draft recommendation for worker threads web workers and there s also mozilla s dom worker threads update june 2009 current state of browser support for javascript threads firefox 3.5 has web workers
+some demos of web workers if you want to see them in action simulated annealing try it link space invaders link at end of post moonbat javascript benchmark first link the gears plugin can also be installed in firefox
+safari 4 and the webkit nightlies have worker threads javascript ray tracer chrome has gears baked in so it can do threads although it requires a confirmation prompt from the user and it uses a different api to web workers although it will work in any browser with the gears plugin installed google gears workerpool demo not a good example as it runs too fast to test in chrome and firefox although ie runs it slow enough to see it blocking interaction ie8 and ie9 can only do threads with the gears plugin installed
+37660
+postgresql	mysql
+Pattern(s): 
+i use postgresql and my answer works correctly there i tried it
+see the postgresql update docs under parameters expression where it mentions that expressions on the right hand side of set clauses explicitly use the old values of columns
+i see that the corresponding mysql update docs contain the statement single-table update assignments are generally evaluated from left to right which implies the behaviour you describe
+40699
+google-chrome	firefox
+Pattern(s): 
+you might find a more conclusive answer on the development site dev.chromium.org and some of the developers might be on irc on #chromium on freenode
+google-chrome does support the netscape plugin api but that is for displaying certain kinds of content
+you seem to be after a extention api really firefox is the only major browser to encourage and support third party extentions to browsing capability that aren t simply new toolbars nothing in the developer documentation points to a browser enhancing api - google seem to want to keep a tight reign on the look and feel of the application
+144890
+quicksort	mergesort
+Pattern(s): 
+note that the bit-flipping trick can be used regardless of what sorting algorithm you actually use.
+all things being equal i d expect most people to use whatever is most conveniently available and that tends to be quicksort 3
+other than that quicksort is known to be very fast on arrays just like mergesort is the common choice for lists
+149442
+google-chrome	safari	google-chrome	safari
+Pattern(s): 
+much like the safari browser does
+at first i believed it was a built-in feature of the wysiwym markdown editor but shog9 is correct it s not baked-in at all but is courtesy of the jquery plugin textarearesizer i was lead astray by the browser was using to check on the editor demo because google-chrome itself adds the expandable functionality on textareas mdash
+much like the safari browser does
+60119
+cassini	iis
+Pattern(s): 
+at this point you will be able to run your localhost over https
+cassini does not support https
+however you can use iis to do this if your using iis 5.1 download the ms iis toolpack for iis 6.0 it comes with a tool to create self signed ssl certificates
+356920
+google-chrome	safari
+Pattern(s): 
+if you have the necessary resources i would advise to look into fixing it up
+google-chrome uses webkit a fairly standard rendering engine
+safari uses it also and it doesn t sound like webkit is going away
+258093
+awt	swing
+Pattern(s): 
+i don t think that awt is capable of restyling native component peers in a reliable fashion
+i know for certain that swt can t and it s a far more sophisticated toolkit than awt
+this is part of why it was essentially deprecated in favor of swing back in java 1.2
+259460
+postgresql	mysql
+Pattern(s): 
+postgresql is more compliant but if you re comfortable with mysql and you re using an orm you should probably use that
+i suggest using nhibernate with postgresql
+you can do all your testing and development on sqlite so you don t need to have an instance of postgresql running on your dev machine
+70427
+quicksort	mergesort
+Pattern(s): 
+i m a bigger fan of mergesort than i am of quicksort for these reasons
+quicksort has a better average case complexity but in some applications it is the wrong choice
+quicksort is vulnerable to denial of service attacks
+70430
+quicksort	mergesort	quicksort	mergesort
+Pattern(s): 
+in the worst case they are the same amount of algorithmic time but mergesort requires more storage
+wikipedia s explanation is typically quicksort is significantly faster in practice than other θ nlogn algorithms because its inner loop can be efficiently implemented on most architectures and in most real-world data it is possible to make design choices which minimize the probability of requiring quadratic time
+quicksort mergesort i think there are also issues with the amount of storage needed for mergesort which is ω n that quicksort implementations don t have
+77794
+bazaar	git	bazaar	git
+Pattern(s): 
+it is very easy to lose a commit or ruin a repository especially if you do not understand the inner workings of git
+mercurial and bazaar resemble themselves very much on the surface
+they both provide basic distributed version control as in offline commit and merging multiple branches are both written in python and are both slower than git
+77794
+bazaar	git
+Pattern(s): 
+git well is not for the uninitiated
+it is much faster than both mercurial and bazaar and was written to manage the linux kernel
+it is the fastest of the three and it is also the most powerful of the three by quite a margin
+77943
+bazaar	git
+Pattern(s): 
+git is fastest but all three are fast enough
+bazaar is the most flexible it has transparent read-write support for svn repositories and cares a lot about the user experience
+mercurial is somewhere in the middle
+77945
+quicksort	mergesort
+Pattern(s): 
+with o n 2 worst case that rarely happens quicksort is potentially far slower than the o nlogn of the merge sort
+quicksort has less overhead so with small n and slow computers it is better
+but computers are so fast today that the additional overhead of a mergesort is negligible and the risk of a very slow quicksort far outweighs the insignificant overhead of a mergesort in most cases
+173406
+firefox	safari
+Pattern(s): 
+currently i believe that safari is the only shipping browser to support any of these and i believe it only supports the client side databases and local storage parts
+edit olliej correction firefox 3 supports the application cache but alas not the client side db
+
+176144
+google-chrome	safari	google-chrome	firefox
+Pattern(s): 
+also a side effect of targeting safari first ie is likely to be less painful as the webkit team has gone to great lengths to comply with existing practices wherever possible
+google-chrome comes last because it s so likely to just work if safari is good to go
+edit firefox 2 comes before firefox 3 because its support set is more restricted
+85803
+postgresql	mysql
+Pattern(s): 
+we still have few problems with the postgresql one
+we did a move from a mysql3 to postgresql 8.2 then 8.3
+postgresql has the basic of sql and a lot more so if your mysql do not use fancy mysql stuff you will be ok
+86173
+jython	pypy
+Pattern(s): 
+pypy is an experimental interpreter compiler that may one day supplant cpython but for now is more of a testbed for new ideas
+jython and ironpython are useful if you have an overriding need to interface with existing libraries written in a different platform like if you have 100 000 lines of java and you just want to write a 20-line python script
+not particularly useful for anything else in my opinion because they are perpetually a few versions behind cpython due to community inertia

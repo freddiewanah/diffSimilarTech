@@ -1,0 +1,864 @@
+2905
+vim	emacs	vim	emacs
+further update just fyi i am not trying to push emacs over vim it s just what i use and it s a great editor as i m sure vim is too
+it is daunting at first as i m sure vim is too but the question was about text editors on linux besides vi.
+emacs seems the logical choice to me but gedit is a great simple text editor with some nice features if that s all you are looking for
+
+5108
+ubuntu	debian
+or ubuntu has some nice gui things that make it easy to control apache mysql php
+this article has some of the best ways to lock things down some highlights make sure no one can browse the directories make sure only root has write privileges to everything and only root has read privileges to certain config files run mod_security the article also takes some pointers from this book apache securiy o reilly press as far as distros i ve run debain and ubuntu but it just depends on how much you want to do
+i ran debian with no x and just ssh d into it whenever i needed anything
+
+9218
+ubuntu	debian
+let the nice package maintainers from linux distros such as debian or ubuntu do the work for you
+install from the distro s precompiled packages and staying current becomes a matter of issuing the occasional apt-get update apt-get -u dist-upgrade command or using whatever fancy gui tool ubuntu provides
+
+
+11969
+vmware	virtualbox
+that being said you should probably try them out with the particular environment and apps you will be using and see which one is best for you
+one feature of vmware i really like is the ability to snapshot the system
+i do this before every software install and when one of them goes awry i just revert the virtualbox back to the pre-install state
+
+17249
+anjuta	kdevelop
+kdevelop is a kde project but run on gnome
+anjuta is an equivalent project on gnome but i find it unusable for real work
+for the rest of the stack gcc make valgrind ddd a gdb ide and python for scripting my code
+
+24174
+anjuta	kdevelop
+code blocks is also very promising and i like that one best
+i hear anjuta is pretty slick for gnome users
+i played a bit with kdevelop and it s nice but sort of lacking featurewise
+
+27051
+ubuntu	debian
+however you must make locale files for en_nz
+for ubuntu edit var lib locales supported.d local and add en_nz iso-8859-1 to the file
+if your system is another distribution including debian the location will be different
+
+27440
+postgresql	mysql	postgresql	mysql
+mysql is much more commonly provided by web hosts
+postgresql is a much more mature product
+there s this discussion addressing your better question apparently according to this web page mysql is fast when concurrent access levels are low and when there are many more reads than writes
+
+29770
+vim	emacs
+haven t played with both enough yet or tried more types of refactoring but i will do some more hacking with them
+in the meantime i ve tried it two tools that have some sort of integration with vim
+the first is rope a python refactoring library that comes with a vim and emacs plug-in
+
+29900
+bazaar	git
+you ll probably need to be able to run python scripts on your webserver to host either of them
+i d look at either mercurial or bazaar
+i m told git also works on windows but i suspect the windows port is still a second class port at best
+
+29923
+bazaar	git
+in git you can do the same with playing around in the index staging area but bazaar has a better ui for it
+most of the people were reluctant to move over as they have to type in two commands to commit and push bazaar ci + bazaar push
+also it was difficult for them to understand the concept of branches and merging no one uses branches or merges them in svn
+
+30197
+firefox	safari
+here s the relevant documentation for gears workerpool api whatwg has a draft recommendation for worker threads web workers and there s also mozilla s dom worker threads update june 2009 current state of browser support for javascript threads firefox 3.5 has web workers
+some demos of web workers if you want to see them in action simulated annealing try it link space invaders link at end of post moonbat javascript benchmark first link the gears plugin can also be installed in firefox
+safari 4 and the webkit nightlies have worker threads javascript ray tracer chrome has gears baked in so it can do threads although it requires a confirmation prompt from the user and it uses a different api to web workers although it will work in any browser with the gears plugin installed google gears workerpool demo not a good example as it runs too fast to test in chrome and firefox although ie runs it slow enough to see it blocking interaction ie8 and ie9 can only do threads with the gears plugin installed
+
+35297
+bazaar	git
+bazaar also had better documentation for integrating with native applications like visual c
+i ve had the best luck with bazaar followed by mercurial
+never could get git to work correctly
+
+37410
+ubuntu	debian
+find more info here
+i am writing this on a centrino 1.5ghz 512mb ram running ubuntu
+it s debian based and is the first linux distro i have tried that actually worked with my laptop on first install
+
+37660
+postgresql	mysql
+i use postgresql and my answer works correctly there i tried it
+see the postgresql update docs under parameters expression where it mentions that expressions on the right hand side of set clauses explicitly use the old values of columns
+i see that the corresponding mysql update docs contain the statement single-table update assignments are generally evaluated from left to right which implies the behaviour you describe
+
+37724
+postgresql	mysql
+mysql select concat field1 field2 from table
+postgresql select field1 || || field2 from table
+
+
+37854
+postgresql	mysql
+if you trace microsoft sql server back to its roots i think you ll find ingres - one of the very first relational databases written in the 70s
+and postgresql was originally written by some of the same people in the 80s as a successor to ingres
+oracle goes way back and i m not sure where mysql came in
+
+39033
+google-chrome	firefox
+but the new internet explorer 8 beta 2 and the just announced google-chrome browser are heading in that direction so i suppose firefox will be heading there too
+here is a post google-chrome process manager by john resig from mozilla and jquery fame on the subject
+
+
+40699
+google-chrome	firefox
+you might find a more conclusive answer on the development site dev.chromium.org and some of the developers might be on irc on #chromium on freenode
+google-chrome does support the netscape plugin api but that is for displaying certain kinds of content
+you seem to be after a extention api really firefox is the only major browser to encourage and support third party extentions to browsing capability that aren t simply new toolbars nothing in the developer documentation points to a browser enhancing api - google seem to want to keep a tight reign on the look and feel of the application
+
+41932
+google-chrome	firefox
+see for example - v8 tracemonkey squirrelfish ie8 benchmarks .
+needless to say google-chrome s v8 blows away all the current builds of the next-generation of javascript vms
+just to be clear webkit and firefox engines haven t even hit beta but it looks like the performance bar has just been set to an astronomical height by the v8 team.
+
+42912
+google-chrome	firefox
+google-chrome being an entirely new browser build on a clean rendering engine webkit was easier to write in this way
+google-chrome s approach is difficult to write and requires forethought from the developers
+ie and firefox are both attempting to move to a process-per-tab model but due to backwards compatibility are not able to transition quickly
+
+42912
+google-chrome	firefox
+ie and firefox are both attempting to move to a process-per-tab model but due to backwards compatibility are not able to transition quickly
+google-chrome being an entirely new browser build on a clean rendering engine webkit was easier to write in this way
+
+
+47735
+firefox	safari
+different browsers implement this differently since it is not a common status code
+alas unlike the opera and firefox developers the ie developers have never read the spec and even the latest most secure ie7 will redirect the post request from domain a to domain b without any warnings or confirmation dialogs
+safari also acts in an interesting manner while it does not raise a confirmation dialog and performs the redirect it throws away the post data effectively changing 307 redirect into the more common 302
+
+50846
+google-chrome	safari
+hth alastair
+there are a number of known incompatibilities between tinymce and webkit the rendering engine used by google-chrome
+if you re using tinymce 2.x you might want to try the safari plug-in to tinymce
+
+51410
+awt	swing
+same can be said of activex by the way
+1 awt made for horrid uis
+swing improved on that but it was too late because.
+
+55578
+vmware	virtualbox
+virtualbox users open a terminal.app on your mac you can find it in applications utilities and run the following sequence of commands replacing input.vhd with the name of the vhd file you re starting from and output.vdi with the name you want your final disk image to have applications q.app contents macos qemu-img convert -o raw -f vpc input.vhd temp.bin vboxmanage convertdd temp.bin output.vdi rm temp.bin mv output.vdi library virtualbox vdi vboxmanage modifyvdi output.vdi compact start virtualbox and create a new virtual machine select the new vdi file you ve just created as the boot hard disk vmware fusion users open a terminal.app on your mac you can find it in applications utilities and run the following commands replacing input.vhd and output.vmdk with the name of the vhd file you re working on and the name you want your resulting disk image to have applications q.app contents macos qemu-img convert -o vmdk -f vpc input.vhd output.vmdk mv output.vmdk documents virtual machines.localized this will probably take a while it takes around 30 minutes per disk image on my 2.4ghz core 2 duo macbook w 2gb ram
+start vmware fusion and create a new virtual machine in the advanced disk options select use and existing disk and find the vmdk file you just created
+
+
+60119
+cassini	iis
+at this point you will be able to run your localhost over https
+cassini does not support https
+however you can use iis to do this if your using iis 5.1 download the ms iis toolpack for iis 6.0 it comes with a tool to create self signed ssl certificates
+
+60815
+postgresql	mysql
+i know that postgresql sqlite mysql and oracle have the ability to order by a random function so you can use this in sqlalchemy from sqlalchemy.sql.expression import func select select.order_by func.random # for postgresql sqlite select.order_by func.rand # for mysql select.order_by dbms_random.value # for oracle next you need to limit the query by the number of records you need for example using .limit
+bear in mind that at least in postgresql selecting random record has severe perfomance issues
+here is good article about it
+
+65582
+firefox	safari
+search for doscroll in the event.js
+yui uses three tests to do this for firefox and recent webkit there s a domcontentloaded event that is fired
+for older safari the document.readystate watched until it becomes loaded or complete
+
+67626
+google-chrome	firefox
+and it s slow as hell in firefox
+works better with opera and google-chrome though. ff3 windows xp ati
+
+
+67878
+google-chrome	firefox	google-chrome	safari
+additionally won t work for your example as it will either work when word-breaking but when not word-breaking not display any hyphens or work when not word-breaking but display two hyphens when word-breaking since it adds a hyphen on a break
+your example works as expected in google-chrome safari windows and ie8
+the text breaks out of the 150px box in firefox 3 and opera 9.5
+
+70042
+bazaar	git
+and give me the flexibility i need see my article on git + visual studio
+i think bazaar can do similar things and might be better at one thing it can easily support non-distributed central-repository based development
+
+
+70427
+quicksort	mergesort
+i m a bigger fan of mergesort than i am of quicksort for these reasons
+quicksort has a better average case complexity but in some applications it is the wrong choice
+quicksort is vulnerable to denial of service attacks
+
+70430
+quicksort	mergesort	quicksort	mergesort
+in the worst case they are the same amount of algorithmic time but mergesort requires more storage
+wikipedia s explanation is typically quicksort is significantly faster in practice than other θ nlogn algorithms because its inner loop can be efficiently implemented on most architectures and in most real-world data it is possible to make design choices which minimize the probability of requiring quadratic time
+quicksort mergesort i think there are also issues with the amount of storage needed for mergesort which is ω n that quicksort implementations don t have
+
+77794
+bazaar	git	bazaar	git
+it is very easy to lose a commit or ruin a repository especially if you do not understand the inner workings of git
+mercurial and bazaar resemble themselves very much on the surface
+they both provide basic distributed version control as in offline commit and merging multiple branches are both written in python and are both slower than git
+
+77794
+bazaar	git
+git well is not for the uninitiated
+it is much faster than both mercurial and bazaar and was written to manage the linux kernel
+it is the fastest of the three and it is also the most powerful of the three by quite a margin
+
+77943
+bazaar	git
+git is fastest but all three are fast enough
+bazaar is the most flexible it has transparent read-write support for svn repositories and cares a lot about the user experience
+mercurial is somewhere in the middle
+
+77945
+quicksort	mergesort
+with o n 2 worst case that rarely happens quicksort is potentially far slower than the o nlogn of the merge sort
+quicksort has less overhead so with small n and slow computers it is better
+but computers are so fast today that the additional overhead of a mergesort is negligible and the risk of a very slow quicksort far outweighs the insignificant overhead of a mergesort in most cases
+
+85803
+postgresql	mysql
+we still have few problems with the postgresql one
+we did a move from a mysql3 to postgresql 8.2 then 8.3
+postgresql has the basic of sql and a lot more so if your mysql do not use fancy mysql stuff you will be ok
+
+86173
+jython	pypy
+pypy is an experimental interpreter compiler that may one day supplant cpython but for now is more of a testbed for new ideas
+jython and ironpython are useful if you have an overriding need to interface with existing libraries written in a different platform like if you have 100 000 lines of java and you just want to write a 20-line python script
+not particularly useful for anything else in my opinion because they are perpetually a few versions behind cpython due to community inertia
+
+88632
+firefox	safari
+from that point i consider the market share and try to ensure a reasonable support level for all other browsers
+for example even .net developers occasionally use firefox maybe even opera
+safari and google-chrome are possibilities too now
+
+89714
+firefox	safari
+ones that are definitely not dead are ie6 starting to push it ie7 ie8 latest opera 9.x latest firefox 3.x latest safari 3.x and others that have about the same capabilities
+firefox 2.x isn t dead either and is needed for win9x users if they don t want to use opera
+
+
+97431
+google-chrome	safari
+it is not real ie it s mainly only its rendering engine html+css+js plus web client http and some more protocols control itself has no menu bookmarks etc
+google-chrome is full featured browser
+so you should be asking for webkit rendering engine google-chrome use developed by safari s guys control
+
+103817
+cassini	iis
+slow startup compared to iis
+the built in web server for visual studio is called cassini and here are a few of its limitations.
+it can host only one asp.net application per port
+
+104095
+cassini	iis
+cassini is not ment to be a replacement
+cassini is ment to be a light waight test webserver
+the idea is that a developer does not need to have iis installed and configured to test his application
+
+105921
+postgresql	mysql
+or you can use the free tool pgadmin
+i like postgresql maestro
+i also use their version for mysql
+
+106334
+postgresql	mysql
+in your example you would want something like this select o.id o.address o.otherdetails group_concat concat e.firstname e.lastname as employees from employees e inner join organization o on o.org_id e.org_id group by o.org_id postgresql - edit postgresql 9.0 is equally simple now that string_agg expression delimiter is built-in
+here it is with comma-space between elements select o.id o.address o.otherdetails string_agg e.firstname || || e.lastname as employees from employees e inner join organization o on o.org_id e.org_id group by o.org_id postgresql before 9.0 allows you to define your own aggregate functions with create aggregate
+slightly more work than mysql but much more flexible
+
+108421
+vmware	virtualbox
+intel-based macintoshes can boot windows and apple provides windows drivers for their various devices as part of a href rel nofollow noreferrer boot camp. a alternately you can buy a href rel nofollow noreferrer parallels a or a href rel nofollow noreferrer vmware fusion a for less than 100
+i use vmware fusion
+there is also a mac version of a href rel nofollow noreferrer virtualbox a from sun which is free though i have never used it
+
+109979
+vmware	virtualbox
+for myself i stick with vmware workstation 7+ years and vmware server for my linux-hosted virtualization needs
+at work it s vmware workstation on windows vmware server on windows and vmware esx on bare metal
+i ll probably have another look at xen kvm and virtualbox at some point but for right now compatibility between work and home is paramount
+
+110162
+postgresql	mysql
+mysql is a pretty popular database lots of tools are available and lots of books
+sqlite and postgresql are also quite popular and also free open-source
+
+
+114544
+postgresql	mysql
+these databases are very different - mysql is speed and simplicity postgresql is robustness and concurrency
+it will be easier for you to learn postgresql it is not that hard
+
+
+118325
+firefox	safari	firefox	safari	google-chrome	firefox	google-chrome	safari	google-chrome	safari
+firefox with ie tab because those are the two browsers with the most market share and google-chrome because it is one of the few windows browsers that use webkit meaning it should display similarly to safari
+i use firefox with ie tab and google-chrome
+firefox with ie tab because those are the two browsers with the most market share and google-chrome because it is one of the few windows browsers that use webkit meaning it should display similarly to safari
+
+120052
+bazaar	git
+difficulty with git has been understanding the implications of the distributed model
+i did glance briefly at other dvcses like bazaar and mercurial and they seemed to be somewhat more newbie-friendly
+anyway as others have said subversion is probably the easiest way to get used to the version control mindset and get practical experience of the benefits of vcs rollback branches collaborative development easier code review etc
+
+126003
+google-chrome	firefox
+or you could fire up firefox in full screen mode in a dedicated vnc server instance and use a screenshot grabber to take the screenshot
+fullscreen minimal google-chrome vnc server instance no visible ui + you can choose your resolution
+use xinit with xvnc as the x server to do this - you ll need to read all the manpages
+
+129279
+vmware	virtualbox
+you can revert to any previous snapshots and name them
+3 it has nat support and bridged networking like the vmware and microsoft products
+4 there is no server version of virtualbox but i know it shares an engine with qemu so it may be possible to host your vbox images on qemu
+
+133160
+firefox	safari
+it pays to have the headers set correctly and it s worth investigating etags
+afaik there is no difference on the part of browsers as both firefox and ie will incorrectly cache the response from a url with a querystring in the same way they cache the response from a url without a querystring
+in the case of safari it respects the spec and doesn t cache urls with querystrings
+
+133954
+google-chrome	firefox
+if you are creating a firefox plugin place your code in a xul overlay
+if you really want to allow any web page to do whatever it is your plugin does you can establish some mechanism through wich the page can ask the plugin to do the operation with its google-chrome privileges and send the result to the page afterwards
+
+
+134999
+bazaar	git
+non-distributed solutions such as subversion don t have that capability
+a href rel nofollow noreferrer bazaar a does what you re asking for in terms of working very well standalone and there was a 2007 summer of code project to build a href rel nofollow noreferrer a visual studio integration plugin a which appears to have a href rel nofollow noreferrer produced an at-least-partially-functional product a
+bazaar and other distributed tools such as git mercurial darcs and the like are ideal because you can have your repository stored in multiple places ie
+
+135226
+firefox	safari
+john resig has a good explanation
+here s the full version breakdown ie 6-7 support jscript 5 which is equivalent to ecmascript 3 javascript 1.5 ie 8 supports jscript 6 which is equivalent to ecmascript 3 javascript 1.5 - more bug fixes over jscript 5 firefox 1.0 supports javascript 1.5 ecmascript 3 equivalent firefox 1.5 supports javascript 1.6 1.5 + array extras + e4x + misc. firefox 2.0 supports javascript 1.7 1.6 + generator + iterators + let + misc. firefox 3.0 supports javascript 1.8 1.7 + generator expressions + expression closures + misc. the next version of firefox will support javascript 1.9 1.8 + to be determined opera supports a language that is equivalent to ecmascript 3 + getter and setter + misc
+safari supports a language that is equivalent to ecmascript 3 + getter and setter + misc
+
+144890
+quicksort	mergesort
+note that the bit-flipping trick can be used regardless of what sorting algorithm you actually use.
+all things being equal i d expect most people to use whatever is most conveniently available and that tends to be quicksort 3
+other than that quicksort is known to be very fast on arrays just like mergesort is the common choice for lists
+
+149442
+google-chrome	safari	google-chrome	safari
+much like the safari browser does
+at first i believed it was a built-in feature of the wysiwym markdown editor but shog9 is correct it s not baked-in at all but is courtesy of the jquery plugin textarearesizer i was lead astray by the browser was using to check on the editor demo because google-chrome itself adds the expandable functionality on textareas mdash
+much like the safari browser does
+
+150593
+firefox	safari
+safari 3.1 for webkit opera for presto
+i m pretty sure firefox will start supporting html5 partially in 3.1 all support is extremely partial
+check here for information on what is supported
+
+151912
+postgresql	mysql
+each client will receive the last inserted id for the last statement that client executed
+this is the sequence solution for postgresql you d have to do it in a stored procedure or on your application code of course
+for mysql the transaction is important not to trip on your own feet in case you re using the same connection for more than one insert
+
+161503
+cassini	iis
+in this case you need to change the regional settings of the account under which the asp.net app is running
+if you are developing with vs2005 or later you re probably running under the cassini web server under the identity of the current user - so just change the current user s settings
+if you re using iis you probably want to change the regional settings of the aspnet account - you can do this from regional settings in the control panel by checking the checkbox apply to current user and to the default user profile
+
+163395
+google-chrome	firefox
+after noticing that some of you are still trying to get this to work i decided to try a new approach
+my results are far better this time around - at least on google-chrome on linux
+i no longer have a windows pc available to me so i can only test on google-chrome firefox on ubuntu
+
+173406
+firefox	safari
+currently i believe that safari is the only shipping browser to support any of these and i believe it only supports the client side databases and local storage parts
+edit olliej correction firefox 3 supports the application cache but alas not the client side db
+
+
+175905
+firefox	safari
+finally there should be a very specific customer request to invest the time and money making support for the other browsers like opera safari e.t.c
+firefox ie7 and ie6 are enough to cover more than 90 of the browser market share
+it is a good idea to read the new web standards and take in account what microsoft prepares for ie8
+
+175905
+google-chrome	safari
+it is a good idea to read the new web standards and take in account what microsoft prepares for ie8
+then you can try to be compatible with google-chrome
+finally there should be a very specific customer request to invest the time and money making support for the other browsers like opera safari e.t.c
+
+176071
+google-chrome	firefox
+if the interface does not rely heavily on javascript then it must degrade gracefully enough to be usable in text based and mobile browsers such as opera mobile links lynx iphone etc this includes any necessary optimisations for the screen size informational non-application sites must be at least tested with a screenreader i will put no significant effort into supporting firefox 1 and ie5.5 or below
+new functionality must be tested and at least working with upcoming browsers such as ie8 and google-chrome
+it s pointless ignoring these as they are both likely to become very popular in the coming months and years
+
+176144
+google-chrome	firefox	google-chrome	safari
+also a side effect of targeting safari first ie is likely to be less painful as the webkit team has gone to great lengths to comply with existing practices wherever possible
+google-chrome comes last because it s so likely to just work if safari is good to go
+edit firefox 2 comes before firefox 3 because its support set is more restricted
+
+181815
+firefox	safari
+hopefully your target audience will have a correctly configured system to display their own language
+for me both the bbc sites you link to get the proper characters in the window title bar using firefox or ie on windows
+i suspect you don t have the right fonts installed though i m not sure entirely what fonts it is that you would be missing to cause this problem particularly not if safari works
+
+195398
+postgresql	mysql
+of course the picture is not so simple innodb tables on mysql have a very different performance behaviour at the load levels where postgresql s better locks overtake mysql s other parts of your platform could be the bottlenecks
+postgresql does comply better with standards so it can be easier to replace later
+in the end the choice has so many variables that no matter which way you go you ll find some important issue that makes it the right choice
+
+196705
+postgresql	mysql
+you will find more than 500 users there and some of them are development companies building projects for their clients
+my impression is that most of them use postgresql that s what i do to and some others use the google app engine
+in fact web2py is the only framework that allows you to write code once and the same code will run on gae sqlite mysql postgresql oracle mssql and firebird with the limitations imposed by gae
+
+196933
+firefox	safari	google-chrome	firefox	google-chrome	safari
+but the savings in transferred bytes can be enormous
+i ve successfully tested it in firefox 3 msie 7 opera 9 and google-chrome
+it apparently doesn t work this way in safari 3
+
+203428
+postgresql	mysql	postgresql	mysql
+i m not sure if there is an equivalent for mysql but you can always do this which is a bit ugly but should work in both mysql and postgresql
+in postgresql you can do this select whatever from mytable where something ilike match this
+i m not sure if there is an equivalent for mysql but you can always do this which is a bit ugly but should work in both mysql and postgresql
+
+205216
+cassini	iis
+then you will get the benefits of connection pooling while avoiding passing credentials
+when you re running a web site using cassini the account used by the web server process is your own account that you use to log on to your windows machine
+that account will be different on iis
+
+207062
+google-chrome	firefox
+firefox also has the word google-chrome all over its code base
+google-chrome is an application not a window or a directx which you can create as a control
+you can however as someone already mention host a webkit control
+
+207062
+google-chrome	firefox
+a folder called google-chrome can mean any number of things
+google-chrome is a general term for the ui of a browser
+firefox also has the word google-chrome all over its code base
+
+210096
+ubuntu	debian
+urgency low sandro tosi debian control - list items lines in description starts with 2 space to avoid reformat on webpages closes #480341 bernd zeimetz debian patches 02_reconnect.dpatch - dropping patch comment in storm which explains the problem
+if you are using ubuntu linux there was a patch added to the python-mysql package that added the ability to set that same mysql_opt_reconnect option see here
+i have not tried it though
+
+212565
+quicksort	mergesort
+mergesort this will teach how to merge which is important because there are a ton of speedups you can get by merging two sorted lists together as well as how to divide the problem into smaller sub problems important for dealing with hierarchical structures and also used in quick sort
+quicksort though faster is much harder to understand
+you need two scanning variables a pivot item etc.
+
+215746
+firefox	safari
+camino contains native svg support as per its own documentation google-chrome uses an old version of web kit to support svg natively konqueror has svg support via a plugin ksvg2 from 2007 a here is a list of the state of svg support in many browsers
+opera has native svg support firefox has native svg support internet explorer does not include svg support natively
+safari has native svg support for images and fonts since version 3.1
+
+215746
+google-chrome	safari
+safari has native svg support for images and fonts since version 3.1
+camino contains native svg support as per its own documentation google-chrome uses an old version of web kit to support svg natively konqueror has svg support via a plugin ksvg2 from 2007 a here is a list of the state of svg support in many browsers
+
+
+220279
+cassini	iis
+in windows you can find hosts here c windows system32 drivers etc you can go into your web project settings and have it use the local iis as a host instead and then it will work fine
+microsoft doesn t allow this on purpose - they don t want you deploying your application with cassini
+it s compiled right into its code
+
+234867
+bazaar	git
+for more technical people git could be good it has been developed by linux kernel people after all
+bazaar or mercurial are probably better for those looking for ease of use
+
+
+237472
+vim	emacs
+also whichever editor you prefer vim or emacs learn it back forth
+if you like vim then get steve oualline s vim book
+
+
+258093
+awt	swing
+i don t think that awt is capable of restyling native component peers in a reliable fashion
+i know for certain that swt can t and it s a far more sophisticated toolkit than awt
+this is part of why it was essentially deprecated in favor of swing back in java 1.2
+
+258148
+vim	emacs
+if anything you re gonna be more comfortable using emacs on colemak than on qwerty at least i was
+in vim it s a lot trickier since hjkl will be completely messed-up
+then again i ve always felt that hlkl was broken and should have instead been jkj
+
+259460
+postgresql	mysql
+postgresql is more compliant but if you re comfortable with mysql and you re using an orm you should probably use that
+i suggest using nhibernate with postgresql
+you can do all your testing and development on sqlite so you don t need to have an instance of postgresql running on your dev machine
+
+269015
+firefox	safari
+actually only ie gives this information which isn t important for the server in most cases
+neither firefox nor opera at least provide this info
+update also tried with safari still no path.
+
+269015
+google-chrome	safari
+update also tried with safari still no path.
+somebody reported that google-chrome might provide the info although being a beta that might change.
+perhaps you might need them in some intranet cases
+
+281685
+cassini	iis
+i use iis all the time it s pretty easy to setup and you guys are already doing that.
+i know at one point i had an issue with authentication not working as expected on cassini built in development server also if you need to test things like isapi plugins a re-writer for example i m not sure how that s done on cassini
+the constantly changing port is also rather disconcerting to me
+
+281685
+cassini	iis
+the constantly changing port is also rather disconcerting to me
+also for each web project in your solution it fires up another instance of a cassini server and each one takes anywhere from 20 to 50 mb of memory
+i use iis all the time it s pretty easy to setup and you guys are already doing that.
+
+289163
+cassini	iis	cassini	iis
+the other thing that s a pretty big gotcha is debugging web services is much easier using iis and vdirs rather than separate cassini instances
+as i stated here your developers need to be aware that cassini runs as the local user which is typically an admin account for developers
+the development will be able to access any file or resource that their account can which is quite different from what they will see on an iis 6 server
+
+294744
+cassini	iis
+here s a link to how this is accomplished debugging asp.net is a bit different though and i m not sure if this will work for you
+if you are debugging locally using the light weight web server cassini you can apply this trick to cassini itself
+if you are debuggin directly on a web server though inside of iis i don t know how to get this trick to work but hopefully it will lead you in the right direction
+
+296057
+ubuntu	debian
+cli is super powerful much more than the command prompt on windows i know about powershell... from a gui perspective i typically have the terminal cli running anyway from a debian ubuntu perspective start stop processes sudo etc init.d apache stop or sudo etc init.d apache start text editors gedit gui - gnome kate gui - kde vim cli or nano cli processes running ps -aux terminate process add a package sudo apt-get install php5-cli upgrade patch a system there is a whole lot of information here and a large variety of options to choose from
+i would recommend going with a linux distro that has a friendly community ubuntu centos debranded free rhel or rhel you pay them to help you
+there is definitely going to be a lot of value for you to play around with a distribution over a weekend on a virtual machine or spare machine at home work
+
+299256
+firefox	safari
+a short tutorial that demonstrates mixing xul javascript and other technologies to update a website
+lastly here s a good lifehacker tutorial on firefox extensions add-ons which shows you much of the above for a simple example and then how to package it as an .xpi so others can easily add it to and manage it from their firefox
+i don t have any insight into safari but it s based on webkit and there should be some resources on customizing it similar to how you d use xul on firefox
+
+299849
+firefox	safari
+i see this behaviour on firefox for example not safari for what that s worth
+you can reload the page and bypass the cache on firefox using ctrl - shift - r and you ll see the check value doesn t carry a normal ctrl - r will grab the info from the cache however edit i was able to disable this server side on firefox setting a cache control header cache-control no-store this seems to disable the remember form values feature of firefox
+
+
+301140
+postgresql	mysql
+ecpg will do with c++ that is was not the case for some other preprocessors .
+you should have a look at c preprocessors that exists traditionaly with databases ecpg for postgresql pro c for oracle .
+which lets you embed straight sql directly in your source files or an orginal system for mysql
+
+312468
+firefox	safari
+instead if you want to read the inside size use clientwidth clientheight instead of offsetwidth offsetheight or measure the offsetwidth of a block inside the one with the scrollbar
+document.body.offsetwidth returns the innerwidth value from left hand side to the left side of the vertical scrollbar in firefox
+not for me it doesn t it returns the same value as ie opera konqueror and safari
+
+320820
+awt	swing
+however awt and swing objects allocate some amount of native resources that need to be freed
+furthermore the awt thread treats the windows as top-level objects preventing them from being garbage collected and the jvm from terminating
+thus when you are done with your window you need to dispose of it which frees the native resources that it has allocated
+
+323809
+firefox	safari
+dammit that was the property i was looking for
+as the others said you can use firebug and that will sort you out no worries on firefox
+chrome safari both have a built-in developer console which has an almost identical interface to firebug s console so your code should be portable across those browsers
+
+326953
+postgresql	mysql	postgresql	mysql
+mysql exempts schema modifications from transactions
+i have a postgresql background so that s an obvious thing to do begin a transaction do some stuff commit or rollback -- postgresql isn t picky about what do some stuff is
+you can find a few bugs on this if you look through mysql s bug base
+
+342137
+cassini	iis	cassini	iis
+i ve had problems with security thread.currentprincipal etc on cassini that just disappeared when i started debugging against iis
+probably not relevant to this discussion but be careful testing debugging on cassini
+its threading model is different from iis
+
+343797
+bazaar	git
+basically id does not make any sense with bazaar git and other distributed source code management tools
+having automatically generated id tags that show a sensible version number is impossible to do with dscm tools like bazaar because everybody s line of development can be different from all others
+so somebody could refer to version 1.41 of a file but your version 1.41 of that file is different
+
+349968
+postgresql	mysql
+you can certainly make a case against mysql since some of the most important features in regard to data safety have been added only recently
+if you re concerned about that use postgresql instead
+as for the language you write your app in php has definitely proven to be able to run extremely large and complex systems
+
+350855
+anjuta	kdevelop
+looks promising
+then there are some others where i cannot tell you how they are since i ve not tested them including anjuta for the gnome desktop and code blocks written with wxwidgets it s quite cross-platform
+if all you want is a gui for the compiler and a symbol browser you could also use geany which is very fast and includes an embedded terminal like kdevelop
+
+353563
+cassini	iis
+you will also need to add a script mapping in the application configuration for .jss to the aspnet_isapi.dll in windows microsoft.net framework vxxxx directory
+iis6 doesn t do the intergrated pipeline that is intrinsic to cassini and is default in iis7
+edit details in iis manager open application properties
+
+356920
+google-chrome	safari
+if you have the necessary resources i would advise to look into fixing it up
+google-chrome uses webkit a fairly standard rendering engine
+safari uses it also and it doesn t sound like webkit is going away
+
+373684
+google-chrome	firefox	google-chrome	firefox	google-chrome	safari
+i ve noticed that there can sometimes be problems where using a font like arial it shows up fine in firefox google-chrome ie but on safari it can cause a line to wrap because the font is slightly bigger
+safari uses mac fonts but google-chrome would use windows fonts
+i ve noticed that there can sometimes be problems where using a font like arial it shows up fine in firefox google-chrome ie but on safari it can cause a line to wrap because the font is slightly bigger
+
+376065
+google-chrome	firefox	google-chrome	safari
+then apply ie-specific fixes
+hopefully it ll render ok in google-chrome and safari
+the reason is that there are fixes available to make ie work properly but not many to make firefox behave badly
+
+384640
+bazaar	git
+basically id does not make any sense with bazaar git and other distributed source code management tools
+as i ve written before having automatically generated id tags that show a sensible version number is impossible to do with dscm tools like bazaar because everybody s line of development can be different from all others
+so somebody could refer to version 1.41 of a file but your version 1.41 of that file is different
+
+387060
+vim	emacs
+same environment will work on solaris as well but this is of course force you to use vim as editor i pretty sure that emacs can work with both ctags and cscope as well
+you might want give a try to vim it s a bit hard at first but soon you can t work another way
+the most efficient editor imho
+
+402883
+google-chrome	firefox
+including a script tag which would load fire off your javascript code
+for a basic extension you would place your code in the google-chrome content directory of the extension
+you would hook this content into firefox using an overlay
+
+407475
+google-chrome	firefox
+now that gmail suggests people switch from ie to firefox and google-chrome i m guessing we ll see ie lose more and more market share to those browsers
+google-chrome doesn t have much of a user-base now but i can imagine that will change
+
+
+408830
+awt	swing
+finally you might also want to check out swt the gui toolkit used for eclipse and an alternative to both awt and swing which is somewhat of a return to the awt idea of accessing native widgets through java
+awt is a java interface to native system gui code present in your os
+it will not work the same on every system although it tries
+
+408830
+awt	swing
+features of widgets that aren t the same on every platform might not be supported or worse they might work differently on each platform
+people used to invest lots of effort to get their awt applications to work consistently across platforms - for instance they may try to make calls into native code from java
+because awt uses native gui widgets your os knows about them and handles putting them in front of each other etc. whereas swing widgets are meaningless pixels within a window from your os s point of view
+
+409472
+firefox	safari
+also the resource inspector in webkit browsers like safari or chrome will do the same for you
+there is a firefox add-in called lori life-of-request info which does this it displays the total number of bytes and other stats on the toolbar and if you right click on it it offers to copy the detailed stats to the clipboard which contains the urls themselves
+it works for ajax requests i am not sure about swf though
+
+412091
+postgresql	mysql	postgresql	mysql
+mysql has improved a lot with its later versions but postgresql still beats it in every category
+for any application that wants to use an open source database the hands-down answer is postgresql
+it s a lot more enterprise-ready than mysql not to mention that it follows the sql standard a lot better
+
+412292
+vmware	virtualbox
+there is also sun s virtualbox which is free and the latest version is rather nice but i haven t looked at how slow disk operations are yet
+with vmware disk operations are slower
+for php development i doubt it would be a problem but you d definitely notice it if you are compiling a large c++ project
+
+416189
+firefox	safari	firefox	safari
+a simple browsermatch safari nokeepalive in the apache configuration did the trick
+using mod_wsgi made the problem go away for firefox
+limiting my research to an interaction problem between apache and safari i stumbled upon this bug report for apache that describes something very similar to what is happening and it is apparently still open
+
+417012
+awt	swing
+this allowed the awt to rely heavily on the paint subsystem in each native platform
+... with the introduction of lightweight components in jdk 1.1 a lightweight component is one that reuses the native window of its closest heavyweight ancestor the awt needed to implement the paint processing for lightweight components in the shared java code
+as swing is implemented in java it does have some performance disadvantage however i hear that performance has improved in recent releases of java
+
+419869
+vim	emacs	vim	emacs
+cvs cvs distributed vcses git linux kernel kde perl ruby on rails android wine fedora x.org mediawiki django vlc mono gnome samba cups gnupg emacs elpa.
+mercurial hg mozilla and mozdev openjdk java opensolaris alsa ntfs-3g dovecot moinmoin mutt petsc octave fenics aptitude python xemacs xen vim xine.
+bzr emacs apt mailman mysql squid .
+
+426058
+bazaar	git
+it will allow you to check out code from your subversion repositories develop independently with local history and check your code back in to subversion as and when you need to
+take a look at bazaar
+it s rather less daunting than git and has a useful-looking interface to subversion repositories via bzr-svn
+
+427463
+cassini	iis	cassini	iis
+to work around it you can set your project to use a local iis installation instead - that will give you more control over directory browsing default documents etc
+i assume you re talking about cassini the one visual studio comes with for development - if so then you re out of luck because you can t change the default document it uses or not in any way i know of anyway
+to work around it you can set your project to use a local iis installation instead - that will give you more control over directory browsing default documents etc
+
+436417
+firefox	safari
+normal or break-word. this is currently supported in ie safari and firefox 3.1 alpha
+with older and current versions of firefox there is no standard way google was my friend of doing it
+some suggest using a small script that adds in the middle of the word
+
+439744
+firefox	safari
+on the plus side it s trivial to just use the constructor that takes a string instead
+you don t even have to convert the numeric month into a string on firefox at least so i was hoping a naive implementation would work
+however after trying it out it works successfully in firefox chrome and opera but fails in konqueror invalid date safari invalid date and ie nan
+
+442233
+google-chrome	firefox
+values are normalized after the fastest result per browser to make it easier to compare which method is faster conclusion when i did this test 3 years ago -a was fastest but now math.abs x is faster in firefox
+in google-chrome abs a and -a got the same time and it was only 3 ms difference to the slowest method when i tested it with 10 000 000 numbers
+my recommendation use math.abs a
+
+444369
+firefox	safari
+for best results use opera 9.2x- not 9.5+ safari or konqueror on this page
+it partially works in firefox nested functions are not tidied meaning that most scripts you want to tidy still end up unreadable and fails to reformat code in ie and icab 3-
+since you can always keep a copy of opera 9.2 on your computer as well as whatever the current version is i recommend you use opera and keep a copy of it around for use with jstidy
+
+458776
+awt	swing
+i think a swing awt component must have focus for this to work
+you ll want to hook in the java awt event queue to be absolutely sure you can get a global jvm wide keypress
+use i think there may be other ways to accomplish global key presses with action maps
+
+462454
+cassini	iis	cassini	iis
+edit and now 6 1 2 years later i d recommend iis express instead
+you can try the cassini web server
+edit and now 6 1 2 years later i d recommend iis express instead
+
+463954
+firefox	safari
+firefox is just better for web development and i prefer safari overall
+firefox lets you use different profiles
+each profile can have separate preferences themes and plugins
+
+463954
+firefox	safari
+each profile can have separate preferences themes and plugins
+start firefox on windows this way firefox.exe -profilemanager to create or manage profiling
+i use firefox and webkit for web debugging and safari for regular web browsing however
+
+466571
+ubuntu	debian
+there s a really good article at debian package a day about it
+it does require kernel patching although ubuntu already has the patch applied i m not sure about any other distributions.
+
+
+467432
+firefox	safari
+-
+according to w3schools window.top is supported in ie since v4 firefox v1 and opera v9
+i can personally vouch for it working in safari as i just tried their example code in my own browser
+
+476769
+google-chrome	firefox	google-chrome	firefox
+the main browser google-chrome browser content ... itself firefox add-ons where on windows xp at least is
+mozilla google-chrome urls refer to actual files located in a .jar file in some fairly well-defined places
+the main browser google-chrome browser content ... itself firefox add-ons where on windows xp at least is
+
+479522
+cassini	iis	cassini	iis
+either way you need to configure either wamp or iis to listen on a port other than port 80 then you can access one on and one on
+cassini the build in debugging webserver uses high ports when you fire an app up
+either way you need to configure either wamp or iis to listen on a port other than port 80 then you can access one on and one on
+
+480078
+google-chrome	firefox	google-chrome	safari
+ie has ie dev toolbar
+safari and google-chrome have a built in web inspector right click and select inspect element
+firefox has the firebug plugin
+
+481432
+awt	swing
+you can however catch when the jvm is terminating by adding a shutdown hook
+awt s windowadapter also has a windowclosing event that you can override and hook to a window that you want to monitor
+swing inherits this
+
+484517
+firefox	safari
+i was not able to duplicate it in webkit-based browsers chrome and safari
+antonio i m afraid that the problem is in firefox it self
+when gecko detects a change to the width of an iframe it repaints the page and causes that refresh. there s no way that i know of to change this behavior short of using a different technique
+
+484745
+postgresql	mysql	postgresql	mysql
+mysql is easy to set up fast for oltp and generally takes the approach of doing few things and doing them well
+postgresql is kind of the opposite -- it s a database researcher s favorite playground which means it has a dozen different join strategies storage engines advanced optional packages and all kinds of stuff
+it s slower than mysql when doing things mysql does well and blows it out of the water when doing things mysql just doesn t know how to do see above with hash joins
+
+488668
+vmware	virtualbox	vmware	virtualbox
+click here to download pre-built virtualbox images akin to vmware virtual appliances
+vmware requires you to submit your contact information to download vmware server
+sun s virtualbox gets the job done and you can just download the application without registration or hassles
+
+493241
+bazaar	git
+in summary bzr was great when i was cutting my teeth on dvcs but i m now very happy with git and github
+i was using bazaar for a while which i liked a lot but it was only smaller projects and even then it was pretty slow
+so easy to learn but not super fast
+
+497933
+quicksort	mergesort
+mergesort is still a pretty good solution for large data sets or other data structures like linked lists as your experiments confirm
+one of the advantages of quicksort for relatively small array sizes is just an artifact of hardware implementation
+on arrays quicksort can be done in-place meaning that you re reading from and writing to the same area of memory
+
+497933
+quicksort	mergesort
+you can see both of these behaviors in your example implementations
+as a result for relatively small datasets quicksort is more likely to get cache hits and therefore just tends to run faster on most hardware
+mergesort is still a pretty good solution for large data sets or other data structures like linked lists as your experiments confirm
+

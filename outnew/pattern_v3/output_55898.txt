@@ -507,7 +507,7 @@ chrome safari both have a built-in developer console which has an almost identic
 
 
 
-326953 shouldbe excluded
+326953 should be excluded
 postgresql	mysql	postgresql	mysql
 Pattern(s): 5	7	
 mysql exempts schema modifications from transactions
@@ -515,7 +515,7 @@ i have a postgresql background so that s an obvious thing to do begin a transact
 
 
 
-342137 ???
+342137 should be excluded
 cassini	iis	cassini	iis
 Pattern(s): 7	
 i ve had problems with security thread.currentprincipal etc on cassini that just disappeared when i started debugging against iis

@@ -14,6 +14,9 @@ from nltk.parse import CoreNLPParser
 import spacy
 from spacy.matcher import Matcher
 from multiprocessing.dummy import Pool as ThreadPool
+from big_tag_group import selected_tags, full_list, selected_tags_dict
+from stanfordcorenlp import StanfordCoreNLP
+from old_pattern_matcher import OldPatternMatcher
 
 cin = {"than", "over", "beyond", "upon", "as", "against", "out", "behind",
        "under", "between", "after", "unlike", "with", "by", "opposite"}
@@ -28,6 +31,60 @@ cv = {"beat", "beats", "prefer", "prefers", "recommend", "recommends",
       "picks", "purchase", "purchases", "select", "selects", "race",
       "races", "compete", "competes", "match", "matches", "compare",
       "compares", "lose", "loses", "suck", "sucks"}
+nlp = StanfordCoreNLP('http://localhost', port=9000, quiet=False, memory='8g')
+
+def coreference(pre_words, words, post_words):
+    flag = False
+    if len(pre_words) > 0:
+        pre_words[0] = pre_words[0].capitalize()
+    words[0] = words[0].capitalize()
+    if len(post_words) > 0:
+        post_words[0] = post_words[0].capitalize()
+    text = ' '.join(pre_words) + ". " + ' '.join(words) + ". " + ' '.join(post_words)
+    if len(pre_words) + len(words) + len(post_words) >= 80:
+        return pre_words, words, post_words
+    for t in text.split():
+        t = t.strip('.')
+        t = t.strip(',')
+        if t in full_list and t in selected_tags_dict.keys():
+            for j in text.split():
+                if j in selected_tags_dict[t]:
+                    flag = True
+                    break
+        if flag:
+            break
+    pre_list = nlp.word_tokenize(' '.join(pre_words))
+    words_list = nlp.word_tokenize(' '.join(words))
+    post_list = nlp.word_tokenize(' '.join(post_words))
+
+    # print(text)
+    if flag:
+
+        for ps in nlp.coref(text):
+            # print(ps)
+            for tag in full_list:
+                if tag in ps[0][-1].split():
+
+                    ps[0] = (ps[0][0], ps[0][1], ps[0][1]+1, tag)
+            if ps[0][-1] not in full_list:
+                continue
+            for index in range(1, len(ps)):
+                if len(ps[index][-1].split()) == 1:
+                    if ps[index][0] == 1 and pre_list != []:
+                        for i in range(ps[index][1] - 1, ps[index][2] - 1):
+                            # print(post_list, i)
+                            pre_list.remove(pre_list[i])
+                        pre_list.insert(ps[index][1] - 1, ps[0][-1])
+                    elif ps[index][0] == 2 and pre_list != []:
+                        for i in range(ps[index][1] - 1, ps[index][2] - 1):
+                            words_list.remove(words_list[i])
+                        words_list.insert(ps[index][1] - 1, ps[0][-1])
+                    elif ps[index][0] == 3 and post_list != []:
+                        for i in range(ps[index][1] - 1, ps[index][2] - 1):
+                            # print(post_list, i)
+                            post_list.remove(post_list[i])
+                        post_list.insert(ps[index][1] - 1, ps[0][-1])
+    return pre_list, words_list, post_list
 
 def grouped(iterable, n):
     "s -> (s0,s1,s2,...sn-1), (sn,sn+1,sn+2,...s2n-1), (s2n,s2n+1,s2n+2,...s3n-1), ..."
@@ -50,7 +107,7 @@ batch = 500000
 s = batch * 8 * 7
 table_name = "Posts"
 
-remove_word = [" much ", " a ", " an ", " i ", "also", "really"]
+remove_word = [" much ", " a ", " an ", " i ", " also ", " really ", " s "]
 
 selected_tech_pairs = ["ubuntu", "debian", "anjuta", "kdevelop", "postgresql", "mysql", "firefox", "safari", "google-chrome", "firefox", "cassini", "iis", "quicksort", "mergesort", "git", "bazaar", "jython", "pypy", "verilog", "vdhl", "awt", "swing", "vmware", "virtualbox", "vim", "emacs"]
 
@@ -77,71 +134,46 @@ class PatternMatcher:
 
         self.nlp = spacy.load("en")
         self.matcher = Matcher(self.nlp.vocab)
-        self.matcher.add(6,
-                    None,
-                    [{'ORTH': 'JJR'}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}],
-                    [{'ORTH': 'JJR'}, {}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}],
-                    [{'ORTH': 'JJR'}, {'ORTH': 'CIN'}, {}, {'ORTH': 'TECH'}],
-                    [{'ORTH': 'JJR'}, {}, {'ORTH': 'CIN'}, {}, {'ORTH': 'TECH'}])
-        self.matcher.add(7,
-                    None,
-                    [{'ORTH': 'RB'}, {'ORTH': 'JJ'}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}],
-                    [{'ORTH': 'RB'}, {'ORTH': 'JJ'}, {}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}])
-        self.matcher.add(8,
-                    None,
-                    [{'ORTH': 'RBR'}, {'ORTH': 'JJ'}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}],
-                    [{'ORTH': 'RBR'}, {'ORTH': 'JJ'}, {}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}])
-        # self.matcher.add(2,
-        #             None,
-        #             [{'ORTH': 'CV'}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}],
-        #             [{'ORTH': 'CV'}, {}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}])
-        # self.matcher.add(3,
-        #             None,
-        #             [{'ORTH': 'CV'}, {'ORTH': 'VBG'}, {'ORTH': 'TECH'}])
-        # self.matcher.add(4,
-        #             None,
-        #             [{'ORTH': 'CV'}, {'ORTH': 'TECH'}])
-        # self.matcher.add(2,
-        #             None,
-        #             [{'ORTH': 'VB'}, {'ORTH': 'VBN'}, {'ORTH': 'TECH'}],
-        #             [{'ORTH': 'VB'}, {'ORTH': 'VBN'}, {}, {'ORTH': 'TECH'}])
-
-        self.matcher.add(4,
-                         None,
-                         [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'},  {}, {'ORTH': 'RB'}],
-                         [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}],
-                         [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
-                         [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
-                         [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
-
-
-                         )
-
-        self.matcher.add(5,
-                         None,
-
-                         [{'ORTH': 'TECH'}, {'ORTH': 'VBP'}, {'ORTH': 'NN'}],
-                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBP'}, {'ORTH': 'NN'}],
-                         [{'ORTH': 'TECH'}, {'ORTH': 'VBP'}, {}, {'ORTH': 'NN'}],
-                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBP'}, {}, {'ORTH': 'NN'}],
-
-                         [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'NN'}],
-                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'NN'}],
-                         [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'NN'}],
-                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'NN'}],
-                         )
         # self.matcher.add(6,
         #             None,
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'JJS'}],
-        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'JJS'}],
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJS'}],
-        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJS'}])
-        # self.matcher.add(10,
+        #             [{'ORTH': 'JJR'}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}],
+        #             [{'ORTH': 'JJR'}, {}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}],
+        #             [{'ORTH': 'JJR'}, {'ORTH': 'CIN'}, {}, {'ORTH': 'TECH'}],
+        #             [{'ORTH': 'JJR'}, {}, {'ORTH': 'CIN'}, {}, {'ORTH': 'TECH'}])
+        # self.matcher.add(7,
         #             None,
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RBR'}],
-        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'RBR'}],
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RBR'}],
-        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RBR'}])
+        #             [{'ORTH': 'RB'}, {'ORTH': 'JJ'}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}],
+        #             [{'ORTH': 'RB'}, {'ORTH': 'JJ'}, {}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}])
+        # self.matcher.add(8,
+        #             None,
+        #             [{'ORTH': 'RBR'}, {'ORTH': 'JJ'}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}],
+        #             [{'ORTH': 'RBR'}, {'ORTH': 'JJ'}, {}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}])
+        #
+        #
+        # self.matcher.add(4,
+        #                  None,
+        #                  [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'},  {}, {'ORTH': 'RB'}],
+        #                  [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}],
+        #                  [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
+        #                  [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
+        #                  [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
+        #
+        #
+        #                  )
+        #
+        # self.matcher.add(5,
+        #                  None,
+        #
+        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBP'}, {'ORTH': 'NN'}],
+        #                  [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBP'}, {'ORTH': 'NN'}],
+        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBP'}, {}, {'ORTH': 'NN'}],
+        #                  [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBP'}, {}, {'ORTH': 'NN'}],
+        #
+        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'NN'}],
+        #                  [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'NN'}],
+        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'NN'}],
+        #                  [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'NN'}],
+        #                  )
         self.matcher.add(0,
                     None,
                     [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'JJR'}],
@@ -155,42 +187,60 @@ class PatternMatcher:
                          # [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {}, {}, {'ORTH': 'JJR'}],
                          [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {}, {'ORTH': 'JJR'}]
                          )
+
         self.matcher.add(1,
                     None,
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'JJ'}],
-                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'JJ'}],
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJ'}],
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJ'}],
-                    # [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {}, {}, {'ORTH': 'JJ'}],
-                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJ'}],
-                         [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {'ORTH': 'JJ'}],
-                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {'ORTH': 'JJ'}],
-                         [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'JJ'}],
-                         [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'JJ'}],
-                         # [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {}, {}, {'ORTH': 'JJ'}],
-                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {}, {'ORTH': 'JJ'}]
+                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RBR'}],
+                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'RBR'}],
+                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RBR'}],
+                    # [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {}, {}, {'ORTH': 'JJR'}],
+                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RBR'}],
+                         [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {'ORTH': 'RBR'}],
+                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {'ORTH': 'RBR'}],
+                         [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'RBR'}],
+                         # [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {}, {}, {'ORTH': 'JJR'}],
+                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {}, {'ORTH': 'RBR'}]
                          )
-        self.matcher.add(3,
+
+        self.matcher.add(2,
                     None,
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
-                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
-                    # [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {}, {}, {'ORTH': 'RB'}],
-                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {'ORTH': 'RB'}],
-                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {'ORTH': 'RB'}],
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'RB'}],
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'RB'}],
-                    # [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {}, {}, {'ORTH': 'RB'}],
-                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {}, {'ORTH': 'RB'}]
+                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'JJR'}],
+                    [{'ORTH': 'TECH'}, {}, {}, {'ORTH': 'JJR'}],
+                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'RBR'}],
+                         [{'ORTH': 'TECH'}, {}, {}, {'ORTH': 'RBR'}],
+
                          )
-        # self.matcher.add(9,
+        # self.matcher.add(1,
         #             None,
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RBS'}],
-        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'RBS'}],
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RBS'}],
-        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RBS'}])
+        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'JJ'}],
+        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'JJ'}],
+        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJ'}],
+        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJ'}],
+        #             # [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {}, {}, {'ORTH': 'JJ'}],
+        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJ'}],
+        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {'ORTH': 'JJ'}],
+        #                  [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {'ORTH': 'JJ'}],
+        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'JJ'}],
+        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'JJ'}],
+        #                  # [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {}, {}, {'ORTH': 'JJ'}],
+        #                  [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {}, {'ORTH': 'JJ'}]
+        #                  )
+        # self.matcher.add(3,
+        #             None,
+        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
+        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
+        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
+        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
+        #             # [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {}, {}, {'ORTH': 'RB'}],
+        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
+        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {'ORTH': 'RB'}],
+        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {'ORTH': 'RB'}],
+        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'RB'}],
+        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'RB'}],
+        #             # [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {}, {}, {'ORTH': 'RB'}],
+        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {}, {'ORTH': 'RB'}]
+        #                  )
+
 
 
     def add_pos_tag(self, words, tech_pair):
@@ -206,7 +256,7 @@ class PatternMatcher:
                 tag_list.append("CIN")
             elif tag[:2] == "VB" and word in cv:
                 tag_list.append("CV")
-            elif word in tech_pair:
+            elif word == tech_pair.split()[0] or word == tech_pair.split()[1]:
                 tag_list.append("TECH")
             else:
                 tag_list.append(tag)
@@ -237,15 +287,15 @@ class PatternMatcher:
         patterns = pre_patterns + words_patterns + post_patterns
         if words_patterns != [] or post_patterns != []:
             self.compa_sent_count += 1
-            out_file = open(os.path.join(os.pardir, "outnew", "pattern_v4", "sentences_{}.txt".format(os.getpid())), "a")
-            out_file.write("{}\n".format(current_id))
-            out_file.write("{}\nPattern(s): \n".format(tech_pair))
-            out_file.write("{}\n".format(pre))
-            out_file.write("{}\n".format(words))
-            out_file.write("{}\n".format(post))
-            out_file.write("\n\n\n")
-            out_file.close()
-            data = open(os.path.join(os.pardir, "outnew", "pattern_v4", "output_{}.txt".format(os.getpid())), "a")
+            # out_file = open(os.path.join(os.pardir, "outnew", "pattern_v4", "sentences_{}.txt".format(os.getpid())), "a")
+            # out_file.write("{}\n".format(current_id))
+            # out_file.write("{}\nPattern(s): \n".format(tech_pair))
+            # out_file.write("{}\n".format(pre))
+            # out_file.write("{}\n".format(words))
+            # out_file.write("{}\n".format(post))
+            # out_file.write("\n\n\n")
+            # out_file.close()
+            data = open(os.path.join(os.pardir, "outnew", "pattern_v4", "pattern_{}.txt".format(os.getpid())), "a")
             data.write("{}\n".format(current_id))
             data.write("{}\nPattern(s): ".format(tech_pair))
             for pattern in patterns:
@@ -265,6 +315,7 @@ class PatternMatcher:
                             break
 
             elif words_patterns != []:
+                print(words_patterns)
                 for w in pre.split():
                     if w in tech_pair and w not in words:
                         data.write("{}\n".format(pre))
@@ -278,6 +329,8 @@ class PatternMatcher:
                             data.write("{}\n".format(post))
                             break
             elif (post_patterns != []) and post != words and post != pre:
+                print(post_tag_list)
+                print(post_rm)
                 for w in words.split():
                     if w in tech_pair and w not in post:
                         data.write("{}\n".format(words))
@@ -285,7 +338,9 @@ class PatternMatcher:
                 data.write("{}\n".format(post))
             data.write("\n\n\n")
             data.close()
-
+            return True
+        else:
+            return False
 
 
 def contains_tech(synonym, words):
@@ -332,7 +387,7 @@ def replace_synonym(synonym, tech, words):
     return rtn
 
 
-def check_tech_pairs(pre, words, post):
+def check_tech_pairs(pre, words, post, word_ori):
     """ Test if words contain similar tech pairs and replace synonym with tech.
 
         ([str]) -> (str, str)
@@ -364,31 +419,36 @@ def check_tech_pairs(pre, words, post):
     for (synonym, tech, l) in sorted(techs_list, key=operator.itemgetter(2), reverse=True):
         if synonym != tech:
             words = replace_synonym(synonym, tech, words)
+            word_ori = replace_synonym(synonym, tech, word_ori)
             pre = replace_synonym(synonym, tech, pre)
             post = replace_synonym(synonym, tech, post)
+    pre, words, post = coreference(pre, words, post)
+
 
     rtn = []
     for (first, second) in tech_pairs:
-        if (first, second) not in available_pairs and (second, first) not in available_pairs:
-             continue
-        if "{} or {}".format(first, second) in words or "{} and {}".format(first, second) in words or "{}, {}".format(first, second) in words or "{} or {}".format(second, first) in words or "{} and {}".format(second, first) in words or "{}, {}".format(second, first) in words:
-            continue
-        if first in words and second in words:
-            rtn.append(first)
-            rtn.append(second)
+        for selected_tag in selected_tags:
+            if first in selected_tag and second in selected_tag:
 
-        else:
-            if first in words and second in pre:
-                rtn.append(first)
-                rtn.append(second)
-                pre_check = True
-            if first in words and second in post:
-                rtn.append(first)
-                rtn.append(second)
-                post_check = True
+                if "{} or {}".format(first, second) in words or "{} and {}".format(first, second) in words or "{}, {}".format(first, second) in words or "{} or {}".format(second, first) in words or "{} and {}".format(second, first) in words or "{}, {}".format(second, first) in words:
+                    continue
+                if first in words and second in words and (first not in word_ori or second not in word_ori):
+                    rtn.append(first)
+                    rtn.append(second)
+                if first in words and second in words:
+                    continue
+                else:
+                    if first in words and second in pre:
+                        rtn.append(first)
+                        rtn.append(second)
+                        pre_check = True
+                    if first in words and second in post:
+                        rtn.append(first)
+                        rtn.append(second)
+                        post_check = True
     if len(rtn) > 0 and not pre_check and not post_check:
-        #return (" ".join(words), "\t".join(rtn)) # (sentence, tech pairs)
-        return None
+        return (" ".join(words), "\t".join(rtn)) # (sentence, tech pairs)
+        # return None
     elif len(rtn) > 0 and (pre_check or post_check):
         return (" ".join(pre), " ".join(words)," ".join(post), "\t".join(rtn))
     else:
@@ -401,15 +461,20 @@ def main(start):
     post_count = 0
     current_id = 0
     pattern_matcher = PatternMatcher()
+    old_pattern_matcher = OldPatternMatcher()
+
     try:
         pre_words = []
         post_words = []
         conn = psycopg2.connect('dbname=stackoverflow port=5433 host=localhost')
         cursor = conn.cursor()
-        query = "SELECT Id, Body FROM {} WHERE Score > 0 AND posttypeid != 1 AND Id >= {} AND Id < {}".format(table_name, start, start+batch)
-        # query = "SELECT Id, Body FROM Posts WHERE Id = 2905 or Id = 43213"
+        # query = "SELECT Id, Body FROM {} WHERE Score > 0 AND posttypeid != 1 AND Id >= {} AND Id < {}".format(table_name, 109038, start+batch)
+        # query = "SELECT Id, Body FROM Posts WHERE Id = 2562 "
+        query = "SELECT Id, Body FROM Posts WHERE Id = 109038 "
         cursor.execute(query)
+
         for current_id, row in cursor.fetchall():
+
             post_count += 1
             word_list = get_words(row)
             total_sent_count += len(word_list)
@@ -427,16 +492,18 @@ def main(start):
                 if words == []:
                     continue
 
-                rtn = check_tech_pairs(pre_words, words, post_words)
+                rtn = check_tech_pairs(pre_words, words, post_words, words)
                 if rtn is not None:
                     if len(rtn)==2:
+                        print("check old match pattern", current_id, rtn[0])
                         compa_sent_count += 1
-                        data_file = open(os.path.join(os.pardir, "outnew", "{}_v4".format(table_name), "{}.txt".format(os.getpid())), "a")
+                        data_file = open(os.path.join(os.pardir, "outnew", "oldPattern_{}_v4".format(table_name), "{}.txt".format(os.getpid())), "a")
                         data_file.write("{}\n".format(current_id))
                         data_file.write("{}\n".format(rtn[1]))
                         data_file.write("{}\n".format(rtn[0]))
                         data_file.write("\n")
                         data_file.close()
+                        old_pattern_matcher.old_match_pattern(rtn[0], current_id, rtn[1], table_name)
                     else:
                         compa_sent_count += 1
                         data_file = open(os.path.join(os.pardir, "outnew", "{}_v4".format(table_name), "{}.txt".format(os.getpid())), "a")
@@ -451,7 +518,7 @@ def main(start):
                         known_pairs = []
                         for x, y in grouped(pairs, 2):
                             if [x, y] not in known_pairs and [y, x] not in known_pairs:
-                                pattern_matcher.match_pattern(rtn[0], rtn[1], rtn[2], current_id, "{} {}".format(x, y))
+                                result = pattern_matcher.match_pattern(rtn[0], rtn[1], rtn[2], current_id, "{} {}".format(x, y))
                             known_pairs.append([x, y])
 
 

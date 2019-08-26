@@ -1,0 +1,184 @@
+and also apple does might not confidently announce that B is more faster than B in all the cases
+
+B is neither easier to read nor understand than B
+
+B print is more readable compared to B
+
+as you can see the B example is more complex and error prone than your B code
+
+the B runtime is smaller than the B runtime
+
+wouldn t B be slower than B in this case since it is layered on top of it
+
+my view is that if in some cases B is faster than B it doesn t mean that all over performance of B is slower
+
+there are multiple reasons why the B code is slower than the B code
+
+furthermore B is stricter than B when it comes to initialisers
+
+with B the code is much more readable than with B
+
+note that B s arrays are much more sensible than B s
+
+as you can see defining a singleton class in B is much easier than in B
+
+B is more strictly typed than B
+
+and also apple does might not confidently announce that B is more faster than B in all the cases
+
+B is neither easier to read nor understand than B
+
+B print is more readable compared to B
+
+as you can see the B example is more complex and error prone than your B code
+
+the B runtime is smaller than the B runtime
+
+wouldn t B be slower than B in this case since it is layered on top of it
+
+my view is that if in some cases B is faster than B it doesn t mean that all over performance of B is slower
+
+there are multiple reasons why the B code is slower than the B code
+
+furthermore B is stricter than B when it comes to initialisers
+
+with B the code is much more readable than with B
+
+note that B s arrays are much more sensible than B s
+
+as you can see defining a singleton class in B is much easier than in B
+
+B is more strictly typed than B
+
+because you can determine what code in a B is likely to do better than a B it has been determined more error free to use a compiled perspective for more things so as you can see with the availability of offset-management and lookup compiled behavior given to you in core perl there is no reason to mess with the symbol table if you don t have to
+
+B is in fact a superset of B not a subset -- B has more functionality built in than B itself
+
+B is in fact a superset of B not a subset -- B has more functionality built in than B itself
+
+if your output is going to be similar to your input with small changes then the B solution is often a lot simpler than the B solution
+
+B is significantly more appropriate to use than B for such kind of tasks
+
+this kind of processing is most easily done with B which is more expressive than B
+
+as for whether to use B or B the proof is in the pudding B is better at transforms and B is better at queries
+
+as dimitre says B is much better at this class of problem than B
+
+if your output is going to be similar to your input with small changes then the B solution is often a lot simpler than the B solution
+
+B is significantly more appropriate to use than B for such kind of tasks
+
+this kind of processing is most easily done with B which is more expressive than B
+
+as for whether to use B or B the proof is in the pudding B is better at transforms and B is better at queries
+
+as dimitre says B is much better at this class of problem than B
+
+B is closer to B than to common lisp but you could dip your toes into the lisp family without the speed bump of the emacs style of development
+
+B is closer to B than to common lisp but you could dip your toes into the lisp family without the speed bump of the emacs style of development
+
+B has a steeper learning curve compared to B
+
+B has a steeper learning curve compared to B
+
+coq is probably the most prominent language of the style but B has a more B-y feel as well as being written in B itself
+
+coq is probably the most prominent language of the style but B has a more B-y feel as well as being written in B itself
+
+like the rest of rest B is lightweight easier to understand and easier to write than B
+
+like the rest of rest B is lightweight easier to understand and easier to write than B
+
+but B will be more than B and i use B heavily to validate xml values and i should be able to produce html reports well
+
+B is perhaps more approachable than B however
+
+B is perhaps more approachable than B however
+
+because B is more or less superset of B it of course works also in B
+
+because B is more or less superset of B it of course works also in B
+
+B is also a good language for that purpose and it is simpler smaller than B
+
+B has fewer libraries than common B
+
+B is intentionally more compact than common B and you ll find that you can learn the language very quickly
+
+B is older than common B
+
+B is also a good language for that purpose and it is simpler smaller than B
+
+B has fewer libraries than common B
+
+B is intentionally more compact than common B and you ll find that you can learn the language very quickly
+
+B is older than common B
+
+first you can use B or q it just takes more work than B or q
+
+also B has stricter precedence rules than B
+
+also B has stricter precedence rules than B
+
+aside does this mean B is more homoiconic than B
+
+aside does this mean B is more homoiconic than B
+
+keith pointed out that B has a more powerful type system but it can also be said that B has a more powerful module system than B
+
+keith pointed out that B has a more powerful type system but it can also be said that B has a more powerful module system than B
+
+by these numbers and only these numbers B seems to be more widely-used than B
+
+B is more popular in europe and B is dominating in the us
+
+by these numbers and only these numbers B seems to be more widely-used than B
+
+B is more popular in europe and B is dominating in the us
+
+can i safely assume that B result is more precise than B and discard the B result completely
+
+quite apart from the fact that the language B is far more feature rich than B the fact that you have developed in B means that you have made extensive use of the .net class libraries including system.security.cryptography that you give as an example
+
+avoiding them by modifying B is lot easier than fixing the issues in B
+
+B appears much more complex then B and the learning curve is tough
+
+can i safely assume that B result is more precise than B and discard the B result completely
+
+quite apart from the fact that the language B is far more feature rich than B the fact that you have developed in B means that you have made extensive use of the .net class libraries including system.security.cryptography that you give as an example
+
+avoiding them by modifying B is lot easier than fixing the issues in B
+
+B appears much more complex then B and the learning curve is tough
+
+B has more structure than B
+
+B and Bs are more expressive than B which means here that you can capture more complex relations for instance you can also represent the link between sets of things Bs subclassof or use transitive properties hasancestor
+
+B is a more advanced language than B
+
+B has more structure than B
+
+B and Bs are more expressive than B which means here that you can capture more complex relations for instance you can also represent the link between sets of things Bs subclassof or use transitive properties hasancestor
+
+B is a more advanced language than B
+
+in this case a traversal-oriented approach is best maybe B is better since B doesn t allow you to specify traversal order
+
+in this case a traversal-oriented approach is best maybe B is better since B doesn t allow you to specify traversal order
+
+it is written in B which is a language somewhat simpler than B but broadly in the same family and not difficult to learn
+
+B is more verbose than B here
+
+it is written in B which is a language somewhat simpler than B but broadly in the same family and not difficult to learn
+
+B is more verbose than B here
+
+in B it s better to say B a decimal number like 32.98 is written 32 98 slash is used instead of point
+

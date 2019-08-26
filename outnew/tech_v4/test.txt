@@ -1,0 +1,408 @@
+22074
+nullpointerexception	illegalargumentexception
+Pattern(s): 10	
+In my mind illegalargumentexception seems more specific than using a nullpointerexception since nullpointerexception s telling me that the problem was with an argument i passed to the method and not with a value that may have been generated while performing the method
+
+
+109038
+cairngorm	puremvc
+Pattern(s): 8	
+Puremvc is more invasive than cairngorm meaning that your code is heavily dependent on the framework you have to subclass implement the framework classes interfaces but that doesn t mean that cairngorm isn t puremvc
+
+
+115838
+gif	png
+Pattern(s): 10	
+There might be some edge cases where gif is slightly better because the png format may have a slightly larger overhead from metadata but png s really not worth the worry
+
+
+218544
+centos	solaris	centos	linux
+Pattern(s): 7	
+And i do as much work as possible on our linux centos 5 system simply because the tools on centos are still newer than anything i can find readily packaged for aix solaris is somewhat better
+
+
+259080
+bluej	greenfoot
+Pattern(s): 10	
+greenfoot is developed by the same people that made bluej but greenfoot is way more graphical still allowing full java programming of the applications
+
+
+283405
+jboss	glassfish
+Pattern(s): 7	
+Jboss is a big and quite complex application and glassfish is smaller and i find jboss easier to understand
+
+
+410176
+photoshop	fireworks
+Pattern(s): 7	
+I find fireworks has an easier time dealing with vectors because fireworks re first class objects while in photoshop fireworks re actually a combination of a vector mask and a colour fill
+
+
+412091
+postgresql	mysql
+Pattern(s): 0	
+postgresql s a lot more enterprise-ready than mysql not to mention that postgresql follows the sql standard a lot better
+
+
+451931
+hex	binary
+Pattern(s): 10	
+When looking at low level commands binary often makes more sense to match the cpu and think in hex
+
+
+6671
+junit	testng
+Pattern(s): 8	
+testng strives to be much more configurable than junit but in the end they both work equally well
+
+
+26851
+perforce	svn
+Pattern(s): 8	
+perforce does have support for many other oses but our non-windows devs feel more comfortable with svn too
+
+
+47929
+udp	tcp
+Pattern(s): 10	
+udp is faster than tcp and the simple reason is because its nonexistent acknowledge packet ack that permits a continuous packet stream instead of tcp that acknowledges a set of packets calculated by using the tcp window size and round-trip time rtt
+
+
+48015
+emacs	textmate
+Pattern(s): 7	
+textmate is a better emacs for macs though that won t help you with solaris
+
+
+77883
+bazaar	git
+Pattern(s): 7	
+bazaar is imho easier to learn than git
+
+
+77945
+quicksort	mergesort
+Pattern(s): 10	
+quicksort is not better than mergesort
+
+
+91317
+webclient	webrequest
+Pattern(s): 7	
+webclient is sometimes easier to use than webrequest
+
+
+94070
+datamapper	activerecord
+Pattern(s): 10	
+datamapper is potentially more complex then activerecord but it s a lot easier to develop your domain model and database asynchronous then with activerecord
+
+
+109038
+cairngorm	puremvc
+Pattern(s): 10	8	
+puremvc is more invasive than cairngorm meaning that your code is heavily dependent on the framework you have to subclass implement the framework classes interfaces but that doesn t mean that cairngorm isn t puremvc
+
+
+127922
+mbunit	nunit
+Pattern(s): 7	
+mbunit has compatible syntax with nunit but has more features especially data driven tests
+
+
+157238
+lwjgl	jogl
+Pattern(s): 10	10	
+jogl is more java-like whereas lwjgl provides more gaming functionality on top of opengl access
+
+
+161216
+cvs	svn
+Pattern(s): 0	
+svn was supposed to be better than cvs but in some areas that didn t work well
+
+
+177565
+verilog	vhdl
+Pattern(s): 7	
+vhdl is more popular in europe and verilog is dominating in the us
+
+
+1037788
+coalesce	nvl	coalesce	isnull
+Pattern(s): 10	
+coalesce is more cross-compatible than isnull or nvl it works on mssql oracle mysql derby et al .
+
+
+1124848
+vbscript	vb6
+Pattern(s): 10	
+vbscript is much more convenient than creating an activex on vb6 or c# vb.net
+
+
+1140923
+postgresql	mysql
+Pattern(s): 7	
+mysql is more than capable of serving your needs as well as alex s suggestion of postgresql
+
+
+1162378
+postgresql	mysql
+Pattern(s): 7	0	
+postgresql requires more tuning than mysql to achieve optimal performance
+
+
+1168957
+cpython	ironpython
+Pattern(s): 7	
+cpython probably has better ide support at present than ironpython - so this may be a factor in the choosing of one over the other
+
+
+1200232
+gif	png
+Pattern(s): 0	10	
+png compresses much better than gif and allows more colors at the same time
+
+
+1258708
+strcpy	strncpy
+Pattern(s): 7	0	
+strncpy is not safer than strcpy it just trades one type of bugs with another
+
+
+1270393
+postgresql	mysql
+Pattern(s): 10	
+postgresql supports some more security features than mysql for example integration with gssapi or kerberos for logins last i checked mysql didn t have these
+
+
+1271575
+apache	nginx
+Pattern(s): 7	0	
+nginx uses less memory than apache given the size of your setup i would definitely recommend that
+
+
+1427158
+sortedlist	sorteddictionary
+Pattern(s): 0	
+sortedlist tkey tvalue uses less memory than sorteddictionary tkey
+
+
+1563301
+lxml	elementtree
+Pattern(s): 0	
+lxml -- 100x better than elementtree
+
+
+1589215
+cvs	svn
+Pattern(s): 0	
+svn in much better than cvs and have lot of mature tools for every platform
+
+
+1648539
+lxml	beautifulsoup
+Pattern(s): 10	
+beautifulsoup is more suitable for html parsing than lxml
+
+
+1648539
+lxml	beautifulsoup
+Pattern(s): 10	
+beautifulsoup is more suitable for html parsing than lxml
+
+
+1741448
+ftp	telnet
+Pattern(s): 10	
+ftp protocol is more complex than http or telnet form example
+
+
+1768520
+perforce	svn
+Pattern(s): 10	
+perforce offers more advanced branching and merging capabilities than svn
+
+
+1769414
+postgresql	mysql
+Pattern(s): 10	8	
+postgresql is more sql compliant than mysql
+
+
+1774364
+haskell	ocaml
+Pattern(s): 7	
+haskell has more momentum these days but there are plenty of good parsing libraries for ocaml as well including the peg parser generator aurochs menhir and the glr parser generator dypgen
+
+
+1774377
+innodb	myisam
+Pattern(s): 0	
+myisam inserts are going to be faster than innodb so if you re logging data and retrieving it later that will be a win
+
+
+1917713
+division	multiplication
+Pattern(s): 7	
+multiplication is far easier and faster for a cpu to do than division
+
+
+1930483
+udp	tcp
+Pattern(s): 10	
+tcp windowing is more expensive than raw udp but if you use udp to go faster and add a custom loss-recovery or seqno ack resend manager then that may slow you down again
+
+
+1972630
+ironruby	ironpython
+Pattern(s): 7	
+ironpython has had more time to focus on performance improvements but ironruby has made significant performance improvements as of late
+
+
+2014241
+apache	nginx
+Pattern(s): 0	
+nginx also happens to be better than apache at writing logfiles interestingly
+
+
+2089364
+mbunit	nunit	nunit	mstest
+Pattern(s): 10	
+nunit is more widespread mbunit has the most features but mstest has more manpower behind it
+
+
+2114537
+innodb	myisam
+Pattern(s): 0	
+innodb tables are about 4x bigger than their myisam counterparts
+
+
+2014241
+apache	nginx
+Pattern(s): 0	
+nginx also happens to be better than apache at writing logfiles interestingly
+
+
+2089364
+mbunit	nunit	nunit	mstest
+Pattern(s): 10	
+nunit is more widespread mbunit has the most features but mstest has more manpower behind it
+
+
+2114537
+innodb	myisam
+Pattern(s): 0	
+innodb tables are about 4x bigger than their myisam counterparts
+
+
+2287656
+coalesce	isnull
+Pattern(s): 0	
+isnull will be faster i think because it has lesser function code implementation for itself making it faster than coalesce
+
+
+2430575
+lxml	beautifulsoup
+Pattern(s): 7	
+lxml also has more features and offers beautifulsoup too
+
+
+2686734
+gif	png
+Pattern(s): 7	
+gif is smaller because it s based on an colour palette of 256 colours rather than the separate rgb values for each pixel or group of pixels in jpg and png
+
+
+2917821
+rsa	dsa
+Pattern(s): 0	
+dsa signatures are signficantly shorter than rsa ones
+
+
+3024677
+boost	stl
+Pattern(s): 0	
+boost s io stream might be a better solution than stl s own stream
+
+
+3035730
+moq	moles	typemock	moles
+Pattern(s): 10	
+moles is more often compared contrasted to typemock in that it offers a set of facilities outside of moq and or rhinomocks sweet spot
+
+
+3041805
+lisp	scheme
+Pattern(s): 7	0	
+scheme is intentionally more compact than common lisp and you ll find that you can learn the language very quickly
+
+
+3046580
+dotnetzip	sharpziplib
+Pattern(s): 8	
+dotnetzip offers native support and has a quite friendly api and is my opinion more flexible than sharpziplib
+
+
+3096764
+coalesce	isnull
+Pattern(s): 7	
+coalesce is the standard ansi way isnull gives slightly better performance although the difference is probably insignificant in most cases
+
+
+3215955
+lxml	beautifulsoup
+Pattern(s): 10	
+lxml is faster than beautifulsoup i think and has much better functionality while remaining relatively easy to use
+
+
+3223137
+gitolite	gitosis
+Pattern(s): 10	8	
+gitolite is far more advanced than gitosis and is quite easy to install directly from your workstation based on ssh communication with your git repository server
+
+
+3252727
+richfaces	icefaces
+Pattern(s): 7	
+icefaces provides more good looking components than richfaces
+
+
+3252727
+richfaces	icefaces
+Pattern(s): 7	
+richfaces has better ajax support than icefaces
+
+
+3629387
+tripledes	aes
+Pattern(s): 7	
+tripledes is generally not recommended because aes gives better security more efficiently you might like to see some comparative timings of block ciphers that i took in java to see just how bad it is
+
+
+3697715
+altera	xilinx
+Pattern(s): 0	
+xilinx tools suck but their raw silicon is better than altera
+
+
+3822232
+fink	macports
+Pattern(s): 7	0	
+fink has more packages than macports
+
+
+3918611
+udp	tcp
+Pattern(s): 0	
+udp is actually expected to work better than tcp in lossy networks or congested networks
+
+
+3961887
+innodb	myisam
+Pattern(s): 0	
+other than that innodb will generally be the better choice as myisam s got full transaction support and row-level locking
+
+

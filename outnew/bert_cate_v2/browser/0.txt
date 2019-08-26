@@ -1,0 +1,112 @@
+for comparison 0.68 usage means this outdated B release is more popular than the current and previous versions of B the penultimate version of safari on ios and ie 9 or 10
+
+since you noted thoughts on other browsers would be helpful B s kiosk mode seems more powerful than B s
+
+of late B has had much better performance than B
+
+is it because B has much better javascript support than B
+
+B is more flexible in this sense than B which is why it works there
+
+i have tried B and it better than B crash issue is not always happen but not solved this issue
+
+B is a bit more strict than B here
+
+on stable versions of B the permissions show allow and it still won t connect even with B works older versions of B work
+
+i have just noticed a site i am working on looks different in B than other browsers saf B everything is more saturated in B even a background-color rgb
+
+install firebug B version is better then a B one
+
+the reason B is slower than B is that the devmode plugin runs in a sandbox so calls and data have to cross the sandbox boundaries
+
+in B it takes some more time compared to B safari
+
+B is easier and better than B in finding the element from the webpage
+
+you can see if you look at the bottom and right hand edges of both B lines up perfectly but B seems further in both directions and i cannot work out why either in firebug or B dev tools
+
+B text is 1px lower than in B and ie
+
+the idea is that if they are using ie then they must install B frame and if they are using less than B 4 or opera 11.5 then they must upgrade their browser not not sure if the way i am doing that is correct
+
+open up the fiddle in both B B to see what i m talking about - in B the positioning of the background image is much lower than in B safari
+
+also it does appear that B consistently handles this better than ie or B
+
+suffice to say ie and B start having problems at larger heights than does B
+
+on linux B displays text about one pixel higher than B and opera
+
+although B is a better browser for developers than B cause it gives you more tools to work with
+
+for example if you have a text size of 15px well B makes a larger 15px than B does
+
+i m trying to add a ribbon to a page using css3 linear-gradients but the rendering in B looks a lot less pleasant than its B or ie alternative
+
+so why is B less efficient than B and ie
+
+btw B is less close to w3c specs than B de 42+ i d opt to start using B for your initial testing and then test it in ch to detect quirks
+
+the B apis are currently experimental hence these tools are likely to be better developed under B
+
+also about B i know still less than B and i m not sure about how it innerly manage resources among threads and if it is even possible to achieve what i want but if possible i d need to do the same work with B threads
+
+i ve found that B is greatly faster with imacros than B
+
+when i posted this on facebook someone said that since B is open source project developers optimized math.min but B didn t since B is just a modification of chromium but beside that above statement is not quite right that makes no sense because that doesn t explain the reason why B s and B s math.min a b performs in similar speed and B s math.min a b and B s performs in same speed because if B is faster than B then B s math.min a b should be much slower than B s
+
+B is more tolerant when it comes to image headers then ie and B
+
+B is stricter than B when it comes to loading data from your local filesystem
+
+by highlighting the shape of the two elements you can see that in B left the button is 2px taller than in B right
+
+B has like 40px less width than B in columns which is causing problems
+
+it s not the first time that the plugin for B works better for me than the one for B
+
+on B it s significantly faster to do this using 1 0 but on B it s slightly faster to do this using bool
+
+ps i ve noticed that in B situation is better than in B but new line still starts beneath tag
+
+the reason this is happening is because B renders the select box as a taller element than B and the container of the blue text is getting caught on the select s container element because it s now sticking out lower than the others
+
+B is more picky about characters that are set in uris than B
+
+as you said B is faster than B so the webdriver is trying to interact with the dom before when elements are not yet visible exist
+
+B works a bit better than B but the settimeout just seems to delay the final result being shown rather than delaying each step
+
+what B displays is about 5 inches higher than what B displays
+
+B - good a bit slower than B
+
+if B seems to finish earlier than B then that is the freezing glitch in action
+
+svg performance in B is slower than in webkit B and ie10
+
+bad buffering can also be a result of a slow computer because statistics show that B is better for a normal-fast computer and B works best on slow computers
+
+i ve found that the font-size in B is a bit larger than in B
+
+B takes almost 3 times longer than B
+
+in B this might be handled a little nicer than B but rather than completely redraw an element you should try to append only what you need
+
+i think B renders the moves better than B
+
+this seems to me like a bandwidth error or something like that originally i ve got the error when i played with the html 5 audio api and if i loaded the audio file 10-15 times sequentially then i ve got the error but now i ve discovered that i get the error without the audio api too just by reloading the site a lots of times also B gives me the error much faster than B wtf
+
+B renders open sans bolder than in B so you would need to apply a lighter font weight for B open sans google web fonts rendering in B
+
+i planned on using svgs for the entire site but with only 20-30 svg images of medium to high complexity used in the page and google-chrome already seems to be showing som jank and high paint times for scroll and B is even worse though B seems to do a lot better
+
+so to specify B greater than 20 B greater than 9.1 and ie greater than 9
+
+that i gave to every link in the set of links home about us products contact and it seems that B is making that 1px margin much bigger than B or google-chrome and distorting it
+
+small in B is smaller then small in B so never ever use them
+
+i saw that the discrepancy was because in B the text element is taller than in B and includes a slight amount of whitespace on top that doesn t show up in B in B the top of the text element is exactly when the text starts
+

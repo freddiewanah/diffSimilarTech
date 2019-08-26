@@ -1,0 +1,48 @@
+* have a lower overhead than * since the duplicate keys don t have to be stored per item but have the convenience of named access
+
+the other option is to use a foreach * which is slightly slower than a * but works almost equivalently for all practical purposes
+
+the main problem i know is the while * the logic behind it is not correct because last didah is always bigger than n * counter
+
+max_size must be big enough because a * is slower than lapply you want to do as little * through the for as possible but not too big or the list extension overhead will make the program slower
+
+the problem is that when the program first gets to the * 9 is not less than 0 so the value is false and it skips *
+
+a while * is imo more complicated to read than a *
+
+although both approaches are o n the * has a larger constant because of * overhead
+
+you should use a * which is more convenient to * in an arrays
+
+salu is used * counter so when you nest them more salu pressure is done and becomes a bottleneck when there are more than 9-10 * nested maybe some intelligent algorithm using same counter for all * should do the trick so not doing only salu in * body but adding some valu instructions is a plus
+
+the * is faster than the while * when n 1000000 each takes roughly 0.105544 and 0.2389421
+
+in some cases hand-writing a * is much faster than the equivalent accelerate functions because the compiler can optimize your * better than the function
+
+a * fits better to your requirements than a while *
+
+a * should be used don t you think what * makes is more clearly stated in the *
+
+the way you are using the kotlin * is much closer to java s foreach * for i indexes
+
+so why while * is faster than * and why need bunch of lists
+
+the range-based * syntax is cleaner and more universal but you can t execute the code in * for a specified range different than from begin to end
+
+that means you don t know how many iterations you re going to need so a while * is more suited to this task than a *
+
+a basic * is slower than a for - * with simplified test condition
+
+your while * always runs a fixed number of times so from a stylistic point of view you would be better off with a *
+
+also this * is better created as a *
+
+can anyone explain why the while * is taking more time than the * even though the looping of i and j is almost same
+
+but then normal * is far better for * than using for-in which is actually for object
+
+the * is faster than the foreach-loop if the * must only be
+
+next i can use 3rd 4th and 5th level of * means more than * statement will be assign
+

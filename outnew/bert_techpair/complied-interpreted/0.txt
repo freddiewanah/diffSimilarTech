@@ -1,0 +1,117 @@
+an T will typically run one to two orders of magnitude slower than a T
+are T better than T or vice-versa
+T tend to be but not always are significantly slower than T
+performance of programs in T is significantly better than that of an T
+my guess is that in T the efficiency benefit in using switch statements is indeed smaller than in T
+this is usually seen in dynamic T but is less common in T
+php is an  so will run a lile slower han a 
+his is a good quesion bu should be formulaed a lile differen in my opinion for example why are  slower han 
+while ruby and pyhon are boh  and operaion-for-operaion slower han  he realiy is in execuing an applicaion only a small porion of cpu ime is spen in your code and he majoriy is spen ino he buil-in libraries you call ino which are ofen naive implemenaions and hus are as fas as compiled code
+performance of programs in  is significanly beer han ha of an 
+an C will typically run one to two orders of magnitude slower than a B
+are B better than C or vice-versa
+C tend to be but not always are significantly slower than B
+performance of programs in B is significantly better than that of an C
+my guess is that in C the efficiency benefit in using switch statements is indeed smaller than in B
+this is usually seen in dynamic C but is less common in B
+a B will generally run faster than an C so i think ruby and php start behind the eight ball but it really comes down to how you use the language and how you structure the code
+and perl like any C is much slower than a B
+fact is that C like php are always slower than a B
+C execution speed are slower than B true but once there is need for more speed you can call in compiled stuff through gems or micro services
+it should be noted that C are inherently many time slower than natively B
+mostly C are a bit slower compared with B but i guess the difference is almost negligible in coffeescript javascript because of node.js
+php is an C so will run a little slower than a B
+an C surely makes it easier but this is still entirely possible with B like c
+then c which is one those languages closer to the processor level is very performant and generally speaking B because they turn your code into assembly language are more performant than C
+are B better than C or vice-versa
+this is a good question but should be formulated a little different in my opinion for example why are C slower than B
+performance of programs in B is significantly better than that of an C
+my guess is that in C the efficiency benefit in using switch statements is indeed smaller than in B
+this is usually seen in dynamic C but is less common in B
+a B will generally run faster than an C so i think ruby and php start behind the eight ball but it really comes down to how you use the language and how you structure the code
+an C will typically run one to two orders of magnitude slower than a B
+and perl like any C is much slower than a B
+fact is that C like php are always slower than a B
+from what i know a B such as c++ is much faster than an C such as javascript
+in my general programming experience compiled c c++ programs generally run faster than most other B like java or even compiled python and almost always run faster than C like uncompiled python or javascript
+C tend to be but not always are significantly slower than B
+it should be noted that C are inherently many time slower than natively B
+mostly C are a bit slower compared with B but i guess the difference is almost negligible in coffeescript javascript because of node.js
+naturally C will run slower than B as compiled code can be ran blindly by the cpu where as compiled code needs to be checked ran line by line
+php is an C so will run a little slower than a B
+python is an C so by definition is slower than other B but the drawback in the execution speed is not even noticeable in most of applications
+that being said a B like c will almost always be faster than an C like javascript
+this makes C generally slower than B due to the overhead of running the vm or interpreter
+while ruby and python are both C and operation-for-operation slower than B the reality is in executing an application only a small portion of cpu time is spent in your code and the majority is spent into the built-in libraries you call into which are often native implementations and thus are as fast as compiled code
+performance of programs in B is significantly better than that of an C
+writing in a B java or c++ in your examples would almost certainly give better performance than an C like php
+while java could be described as a compiled and C it s probably easier to think of java itself as a B and java bytecode as an C
+an C surely makes it easier but this is still entirely possible with B like c
+C are inherently less performant than B - c will generally outperform python - some operations more than others
+then c which is one those languages closer to the processor level is very performant and generally speaking B because they turn your code into assembly language are more performant than C
+my guess is that in C the efficiency benefit in using switch statements is indeed smaller than in B
+especially in an C like php where classes add more overhead than a B
+a B will generally run faster than an C so i think ruby and php start behind the eight ball but it really comes down to how you use the language and how you structure the code
+an C will typically run one to two orders of magnitude slower than a B
+and perl like any C is much slower than a B
+fact is that C like php are always slower than a B
+from what i know a B such as c++ is much faster than an C such as javascript
+in my general programming experience compiled c c++ programs generally run faster than most other B like java or even compiled python and almost always run faster than C like uncompiled python or javascript
+C execution speed are slower than B true but once there is need for more speed you can call in compiled stuff through gems or micro services
+C tend to be but not always are significantly slower than B
+it should be noted that C are inherently many time slower than natively B
+mostly C are a bit slower compared with B but i guess the difference is almost negligible in coffeescript javascript because of node.js
+naturally C will run slower than B as compiled code can be ran blindly by the cpu where as compiled code needs to be checked ran line by line
+php is an C so will run a little slower than a B
+python is an C so by definition is slower than other B but the drawback in the execution speed is not even noticeable in most of applications
+that being said a B like c will almost always be faster than an C like javascript
+this makes C generally slower than B due to the overhead of running the vm or interpreter
+while ruby and python are both C and operation-for-operation slower than B the reality is in executing an application only a small portion of cpu time is spent in your code and the majority is spent into the built-in libraries you call into which are often native implementations and thus are as fast as compiled code
+performance of programs in B is significantly better than that of an C
+writing in a B java or c++ in your examples would almost certainly give better performance than an C like php
+an C surely makes it easier but this is still entirely possible with B like c
+C are inherently less performant than B - c will generally outperform python - some operations more than others
+then c which is one those languages closer to the processor level is very performant and generally speaking B because they turn your code into assembly language are more performant than C
+my guess is that in C the efficiency benefit in using switch statements is indeed smaller than in B
+especially in an C like php where classes add more overhead than a B
+a B will generally run faster than an C so i think ruby and php start behind the eight ball but it really comes down to how you use the language and how you structure the code
+and perl like any C is much slower than a B
+fact is that C like php are always slower than a B
+in my general programming experience compiled c c++ programs generally run faster than most other B like java or even compiled python and almost always run faster than C like uncompiled python or javascript
+C execution speed are slower than B true but once there is need for more speed you can call in compiled stuff through gems or micro services
+C tend to be but not always are significantly slower than B
+it should be noted that C are inherently many time slower than natively B
+mostly C are a bit slower compared with B but i guess the difference is almost negligible in coffeescript javascript because of node.js
+naturally C will run slower than B as compiled code can be ran blindly by the cpu where as compiled code needs to be checked ran line by line
+php is an C so will run a little slower than a B
+python is an C so by definition is slower than other B but the drawback in the execution speed is not even noticeable in most of applications
+that being said a B like c will almost always be faster than an C like javascript
+this is a good question but should be formulated a little different in my opinion for example why are C slower than B
+this makes C generally slower than B due to the overhead of running the vm or interpreter
+while ruby and python are both C and operation-for-operation slower than B the reality is in executing an application only a small portion of cpu time is spent in your code and the majority is spent into the built-in libraries you call into which are often native implementations and thus are as fast as compiled code
+performance of programs in B is significantly better than that of an C
+writing in a B java or c++ in your examples would almost certainly give better performance than an C like php
+while java could be described as a compiled and C it s probably easier to think of java itself as a B and java bytecode as an C
+an C surely makes it easier but this is still entirely possible with B like c
+C are inherently less performant than B - c will generally outperform python - some operations more than others
+then c which is one those languages closer to the processor level is very performant and generally speaking B because they turn your code into assembly language are more performant than C
+my guess is that in C the efficiency benefit in using switch statements is indeed smaller than in B
+especially in an C like php where classes add more overhead than a B
+a B will generally run faster than an C so i think ruby and php start behind the eight ball but it really comes down to how you use the language and how you structure the code
+and perl like any C is much slower than a B
+fact is that C like php are always slower than a B
+in my general programming experience compiled c c++ programs generally run faster than most other B like java or even compiled python and almost always run faster than C like uncompiled python or javascript
+C execution speed are slower than B true but once there is need for more speed you can call in compiled stuff through gems or micro services
+it should be noted that C are inherently many time slower than natively B
+mostly C are a bit slower compared with B but i guess the difference is almost negligible in coffeescript javascript because of node.js
+naturally C will run slower than B as compiled code can be ran blindly by the cpu where as compiled code needs to be checked ran line by line
+php is an C so will run a little slower than a B
+python is an C so by definition is slower than other B but the drawback in the execution speed is not even noticeable in most of applications
+that being said a B like c will almost always be faster than an C like javascript
+this makes C generally slower than B due to the overhead of running the vm or interpreter
+while ruby and python are both C and operation-for-operation slower than B the reality is in executing an application only a small portion of cpu time is spent in your code and the majority is spent into the built-in libraries you call into which are often native implementations and thus are as fast as compiled code
+writing in a B java or c++ in your examples would almost certainly give better performance than an C like php
+an C surely makes it easier but this is still entirely possible with B like c
+C are inherently less performant than B - c will generally outperform python - some operations more than others
+then c which is one those languages closer to the processor level is very performant and generally speaking B because they turn your code into assembly language are more performant than C
+especially in an C like php where classes add more overhead than a B

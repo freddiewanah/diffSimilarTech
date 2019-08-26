@@ -1,0 +1,52 @@
+as you can see the * result is way longer then the one from *
+
+* is already slower than * up to a certain point it is actually faster when you have a ridiculously large database
+
+explain in * is way more useful than in *
+
+* is better than * in many ways
+
+i just recently switched databases to * which has given me a slew of problems although i must admit i like it a lot better than *
+
+you might look at * as i find it a bit easier to manage and maintain as i feel some aspects are more logical than *
+
+anyways * is bad and on longterm especially if you are enough good for java i suggest you to use some better db with * you were really satisfied i think
+
+i know * could be considered more mature than * with regards to locking thanks to mvcc - can i use row-locking or some other feature in * instead of the token field
+
+while * is less popular than * most of the serious web hosting supports it
+
+b use indexes - * has bigger repertoar of indexes then * so use it - there are gist gin indexes
+
+* is way better than * in nearly every respect
+
+as i said * is far superior and i hate mucking with * s bizarre bugs and i think that overall * performance is probably better than * for any even slightly complicated query
+
+* is a bit more restrictive than *
+
+i found that * 9.3 has better capabilities for json than the * versions i am using
+
+now i m not sure if i d say * is generally better than * -- there are certainly things that * does much better and so it certainly has its uses -- but these are a few things i absolutely love about it
+
+there are workloads where * is better and there are workloads where * is better
+
+in other words is * better or worse than * to handle unicode etc
+
+fyi * scales better than * on multi-processor overlapping requests from a review i was reading a few months back sorry no link
+
+in most regards * is slower than * especially when it comes to fine tuning in the end
+
+however * s sql features are far more advanced than * s and * has a tendency to silently ignore things you tell it to do - especially in a default installation and if you rely on a foreign key to be created that might be a very unpleasant surprise
+
+it s a shame * isn t more popular than * since it supports exactly this feature out-of-the-box you d only have to share one sequence object between tables.
+
+does this affect * harder than *
+
+not only does * have a far more flexible indexing than * but the table approaches are very different also meaning the appropriate indexing strategies are as different as the tactics are
+
+i am aware that * interpretation of the sql standard is stricter than * and that consequently this type of query won t work...and have read a number of posts on stackoverflow and elsewhere on the subject - but none of them seem to be the definitive answer on this subject
+
+* is easier than * but it doesn t really matter either way
+
+* is a little more strict than * about type conversion and does not let you implicitly cast convert between numbers and strings
+

@@ -1,0 +1,54 @@
+B is implemented well it is typically 2-3 times faster than B or
+
+previously discussed on so why is B better than B
+
+also note that B is generally more optimal than B see this as well which explains why it s taken advantage of when sorting primitives
+
+given that it is possible to vastly reduce the likelihood of the worst case of B s time complexity via random selection of the pivot for example i think one could argue that B is worse in all but the pathological case of B
+
+B - in general B is consistently faster than B however B is done in place and doesn t require allocating memory unlike B
+
+i ve looked at the question at why is B better than B
+
+however on smaller int sizes B gets slower and B gets faster
+
+using B assuming it s a little faster than B and requires a smaller key and
+
+because B runs in time o mn the overall asymptotic runtime is still o mn + n 2 log n so if m o n 2 note that this is little-o of n this approach is asymptotically faster than using B
+
+algorithms like B are much less user-friendly than B
+
+for 5 000 000 ints still stored in memory B becomes suddenly worse then B and mergesort
+
+each iteration in B is a lot simpler than B
+
+in theory insertion sort and B are worse than B
+
+this is because B is generally faster than B unless the call depth becomes to deep
+
+worst case for B is actually worse than B and mergesort but B is faster on average
+
+B has a better big-o than say B yet B performs much better in practice
+
+if i do B i can create the stack while i m sorting but would this be faster than a B and then build the stack afterwords
+
+so for instance B is faster than B in the worst case but slower in the average case
+
+from what i heard B should have better average case performance but from my tests it performs 4 times worse than B for array of random integers
+
+it is a variant of B which is particularly suitable for the sorting of very large amounts of data if a relatively high cost per compare operation is needed and on average better than B
+
+in the event that the B starts to degenerate it uses B which is o n log n worst-case but slightly slower than B on average to guarantee o n log n worst-case runtimes
+
+the reason B is slower in practice than B is due to the better locality of reference in B where data elements are within relatively close storage locations
+
+in theory B is worse than B
+
+asymptotic analysis reveals order of growth of B in the worst case is big-o n logn which is better than B s big-o n 2 as a worst case
+
+however B is somewhat slower in practice on most machines than a well-implemented B
+
+i ve read that B is better than B both in the best and the worst case although it uses a bit more memory
+
+no practically B is faster than B s for all pair shortest path generally
+

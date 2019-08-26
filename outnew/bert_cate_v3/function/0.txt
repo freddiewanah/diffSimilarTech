@@ -1,0 +1,160 @@
+i am getting a problem using * and * as in my code * is written earlier then fget but it does not run it runs after * runs
+
+we keep track of what cmd s length ought to be in a variable and copy the string with * which is slightly faster than * and does neither check string length nor copy the extra zero at end of string
+
+information - use * as it s faster than * and we know
+
+it is understandable that * is faster than *
+
+the problem is that * is only slighly slower than * when i expect it to be about two times slower since it operations on twice the memory
+
+as i noted in comments however if you re willing to rely on posix s * then that s cleaner than * + malloc + and has the same semantics you take responsibility for freeing the memory allocated for the copy
+
+all * functions have that problem but some are more robust than *
+
+i would like to apply a * code solution on my webpage which is more compact than * and sha-1 because i want to use them as keys in a json * table
+
+as an example of the second option i ll use * here because it makes more sense than * for random data but * would have identical usage other than the interpolation option.
+
+if your .so are statically linked to c++ runtimes - you should * objects in the same module where they were allocated since new delete is something more than * * and need some extra info to work properly
+
+besides * is a better option than * as * can handle failures better
+
+use * it does better error reporting than *
+
+you can also look into * which is better than using * in terms of error checking
+
+you need to error check * and ensure there are as many passed before using them -- * is better than * as helps detect errors
+
+all have more or less cumbersome and non-obvious error checking involving errno * is way much better than * in any case so avoid using *
+
+i prefer using these short forms because to me year * is shorter to type and better to read than * yyyy *
+
+also * is a better alternative to *
+
+* is more pythonic but * is fine here too
+
+the * loop variant was consistently 45x slower than the * loop
+
+you can also use * which is the more general form of * and is actually part of the sql standard
+
+to prefer * over * when given the choice is that * tends to produce query plans that are more efficient than *
+
+* can only have one input however it s been shown to be slightly faster than *
+
+* will go through the listed values and choose the first one that isn t null it s more portable code than * or ivnl etc
+
+on the subject of performance on sql server * often performs better than * but the latter is ansi compliant if that is important to you
+
+i ve been told that * is less costly than * but research doesn t indicate that
+
+in this case i would use * which provides more levels than * rather than the case stement
+
+you can use * also in place of * as * is comparatively faster than *
+
+this is pretty much the ifloop answer but * is slightly faster than *
+
+* is more cross-compatible than * or nvl it works on mssql oracle mysql derby et al.
+
+in some circumstances * is faster than case or *
+
+* performs better than the generic * and better than having another and
+
+my question is is fast implementation of * x 0.5f faster than fast * x
+
+and is as far as i know faster than the combination of * and memset on the other hand * alone is faster than *
+
+you may be interested in looking at the * keyword which i think is better than the * keyword when you can make use of it
+
+indeed * is better than * and 1 * is better than *
+
+in few words * is safer then * but it is slower too
+
+is * slower than * as one can give pre-calculated string length to it but * does not receive such information
+
+* is a little bit safer than * because you specify how many comparisons will be made at most
+
+you should use * to compare your strings it s safer than *
+
+needless to say * product has more than one * which is kept in the producthas table
+
+works because * a b is always one greater than * a b except when a b is a whole number
+
+why does * perform slower than * on my system
+
+edit * is 2x faster than * on the server
+
+it is entirely possible that in most implementations the cost of a * function call will not be significantly greater than * in any scenario in which the behavior of both is defined
+
+note that * has more overhead than * because it has to determine which direction of copying is safe
+
+on some arm platform im working on * was 3 times faster than * for short unalligned load
+
+in addition as mats petersson said * is cache friendlier than *
+
+as an added answer there is also the * which is more general than *
+
+* is more general version of *
+
+with a lower order * that works better but then you lose the advantage of cubic *
+
+note the use of std * is safer and more convenient than std * *
+
+at first glance it must be significantly faster because * must be significantly faster than *
+
+from what i can gather * generates much better random numbers than rand does however i haven t seen a way to seed it and i would like to just like using *
+
+i should also mention that * has this built-in and may be a better solution than *
+
+* is far more flexible handling the allocation of space for you with * it is up to you
+
+a * can occur significantly faster than a * memcpy and free
+
+my question is why is malloc + * so much slower than *
+
+see also why malloc + * is slower than *
+
+in other words * is no more type-wise than *
+
+likely not as cheap as xor against n values but seems like there s possibility for better quality results at a minimal extra cost especially if the data being * is much larger than the * value
+
+you ll probably need to get data anyway so the unique * is probably faster too because you won t need to calculate the * over username
+
+most attacks involve generating * for common passwords so for reasonably complicated passwords it becomes harder especially with * some people use usernames as * others use randomly generated numbers
+
+interestingly for 1 million rows per file the optimised version of read.csv and * take 422 and 430 more time than * whilst without optimisation this leaps to around 1500 and 1005 longer
+
+generally speaking the * keyword is used more now to allow you to violate the one definition rule when you define a function in a header than to give the compiler a hint about *
+
+in reality the * keyword has less to do with * code and more to do with allowing legal violation of the one definition rule
+
+i m well aware that * is more of compiler decision than of user going so far as even to * non-specified *-functions so the user control is almost negligible
+
+but as the * code gets longer the savings for * become smaller so maybe you could just have a hard limit on the size of the code - any code to be * must be smaller than the limit
+
+just wanted to add that using strrpos + * is slightly faster than * + end
+
+it s like asking whether * is faster than *
+
+the * function is used here because it is more portable than * or ifnull
+
+* is probably better than * in most cases
+
+a * is nothing more than syntactic shorthand for a get set *
+
+so i guess * should be much faster than *
+
+i was exploring around with c regarding * since most people says that it is safer than * additional parameter length to avoid buffer overflows
+
+* could be better replaced by * which does some bound checking
+
+for instance * is mostly useless it gives you nothing more than *
+
+the best solution is to write a custom version of * that is less weird or if you know the length of the input just use *
+
+if not multiple * calls will still be faster than multiple * calls because the overhead of the latter will be greater
+
+even if underlying implementation is not so different * is much faster because it does not have to check what it s copying * will stop when it ll copy the end of string character null
+
+but for the example you give it doesn t matter - if it s going to fail it will be in the initial strlen so * doesn t buy you anything in terms of safety and presumbly * is slower as it has to both check bounds and for nul and any difference between * and strcpy isn t worth changing code for speculatively
+

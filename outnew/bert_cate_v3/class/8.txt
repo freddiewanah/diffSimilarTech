@@ -1,0 +1,38 @@
+a solution i ve used is a simple subclass of * which allows more customization than subclassing * and less hassle than nsattributedstring et al
+
+in other words if a * is more accessible than its * then the access modifier of the * loses effect
+
+here having a * makes more sense or at least having a realnumber * of number
+
+watch out you can t query a * if you have more than 1 * then something like in jql
+
+you can t cast a * in a * because the * may have a bigger interface than the * means the * can have functions like getunixtimestamp that the * doesn t have
+
+if the * is more specific then it might fill in all by 2 of the arguments to its * __init__ method
+
+this class leverages * which is a lower level approach to using *
+
+* is more useful when a new * wants to change the way a method works if you just need to change the data the class uses to work probably an approach like this would do the trick
+
+since ireadwrite implements ireadonly ireadwrite is said to be a * of ireadonly although * is more accurately used to describe a class which * a base class rather then implements an interface--for the sake of simplicity they are very nearly the same concept
+
+secondviewcontroller which is a subclass of firstviewcontroller also has a * but has one more *
+
+i don t see any form * in the code you posted so either the posted code has been modified or the * is higher in the * tree simpleformcontroller
+
+multiple * makes it easier to compose classes from small mixin base classes that implement functionality and have * to remember state
+
+* code is generally less optimized than * one
+
+the * class methods are convenience methods for common animations but are more limited than *
+
+it means a declared * is more than a pair of * methods getter setter
+
+edit as willeke has pointed out accessing a * directly is technically faster than doing so via an * via self
+
+it is a feature it is about * api but the same is true or worse with * api
+
+besides the * api is easier to use than *
+
+* is more general subclasses support writing to different places * is a specific one writing to a string
+

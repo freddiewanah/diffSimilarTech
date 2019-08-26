@@ -1,0 +1,25 @@
+from what i know a T such as c++ is much faster than an T such as javascript
+that being said a T like c will almost always be faster than an T like javascript
+while java could be described as a compiled and T it s probably easier to think of java itself as a T and java bytecode as an T
+a  will generally run faser han an  so i hink ruby and php sar behind he eigh ball bu i really comes down o how you use he language and how you srucure he code
+an  will ypically run one o wo orders of magniude slower han a 
+i should be noed ha  are inherenly many ime slower han naively 
+an  surely makes i easier bu his is sill enirely possible wih  like c
+a B will generally run faster than an C so i think ruby and php start behind the eight ball but it really comes down to how you use the language and how you structure the code
+and perl like any C is much slower than a B
+fact is that C like php are always slower than a B
+it should be noted that C are inherently many time slower than natively B
+mostly C are a bit slower compared with B but i guess the difference is almost negligible in coffeescript javascript because of node.js
+php is an C so will run a little slower than a B
+this is a good question but should be formulated a little different in my opinion for example why are C slower than B
+an C surely makes it easier but this is still entirely possible with B like c
+especially in an C like php where classes add more overhead than a B
+from what i know a B such as c++ is much faster than an C such as javascript
+in my general programming experience compiled c c++ programs generally run faster than most other B like java or even compiled python and almost always run faster than C like uncompiled python or javascript
+that being said a B like c will almost always be faster than an C like javascript
+writing in a B java or c++ in your examples would almost certainly give better performance than an C like php
+while java could be described as a compiled and C it s probably easier to think of java itself as a B and java bytecode as an C
+this is usually seen in dynamic C but is less common in B
+this is usually seen in dynamic C but is less common in B
+from what i know a B such as c++ is much faster than an C such as javascript
+are B better than C or vice-versa

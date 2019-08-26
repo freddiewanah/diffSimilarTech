@@ -1,0 +1,12 @@
+on unix like environments B is more native and you can use slime which is usually available as a os package or as a separate download for B
+
+i have found that B has better plugins for providing some of the more ide-oriented capabilities but like boltclock said B is really just a powerful text editor and does not try to be a one-stop-shop ide
+
+B has better github support out of the box but B has a several git packages
+
+B has better github support out of the box but B has a several git packages
+
+if you are on linux eg ubuntu you may try B for ease of use with some plug-ins but to handle very large files you re better off with B
+
+if you are on linux eg ubuntu you may try B for ease of use with some plug-ins but to handle very large files you re better off with B
+

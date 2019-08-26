@@ -1,0 +1,76 @@
+each operation takes a specific length and typically * will take more than *
+
+the * has higher precedence and therefore binds more tightly than *
+
+you expression is then 7 + 5 7 + 5 which is 7 + 35 + 5 as * has a higher precedence than *
+
+it is well-known that the processor instruction for * takes several times more time than * division is even worse upd which is not true any more see below
+
+remember that * even with strings binds tighter than * so we must use brackets
+
+m_expr can expand to a u_expr because unaries bind tighter than * operations and a_expr can expand to a m_expr because * operations bind tighter than * operations
+
+* is nearly always a lot slower than *
+
+* is higher precedence than * and * is left-associative so this is equivalent to but knowing that only tells you that the first * will happen before the second * and that the * will happen before the second *
+
+in the above example the instance of exprbinop* is a child of the instance of exprbinopmul although precedence of * is higher than precedence of * which results from the proper consideration of the parentheses
+
+* is still somewhat more expensive than * on modern computers and compilers go to some effort to replace them with one or two shifts+* instructions
+
+with regard to implementation it also takes advantage of a bit of a non-obvious property of r precedence rules actually this is true of other languages as well such as c c++ and java namely that unary negative is higher than * which is higher than binary * thus the calculation for is equivalent to
+
+doesn t get evaluated the way you are expecting the * operator has higher precedence than the * operator
+
+in the code we calculate 1.0 sum .. because a * usually is more expensive than a * and thus can gain some efficiency with that
+
+in fact if the intent is to divide by 22 10 or some other real value that isn t necessarily exactly representable in binary floating-point then half the times the * is more accurate than the * because it happens by coincidence that the relative error for 1 x is less than the relative error for x
+
+here s one idea which uses one * and one shift so it ll be faster than a * on most systems
+
+according to stephen canon modern implementations favor taylor expansion over rational function approximation where * is much slower than *
+
+i would also suggest to replace terms like a l1 0.3e1 with as * is faster then *
+
+following advise i received * is cheaper than * i revised one code line and interestingly enough 71.2 dropped to 1.7 but the if statement just below shot up to 64.8 â i just don t get it
+
+if a remains the same and b is changing say if your code is in a loop and it s clear that a does not change between two iterations for instance because it s a const variable then the original version can execute faster because * is cheaper than * assuming the compiler moves the computation of 1 .
+
+since you re resizing the window make sure to assign the w and h values not as numbers but as products or dynamic numbers * is faster than * but you can also use *
+
+the * should perform somewhat better than *
+
+which one is faster is indeed a cpu-specific issue or at least how much faster is cpu specific yes * is typically seen as slower than *
+
+it has to do with the fact that * is itself done by means of binary shifts and additions - far fewer than with *
+
+i used * for both operations because * is typically faster than *
+
+i wonder why everybody missed that * is much faster than *
+
+it is well known that integer * is slow operation typically several times slower than integer *
+
+* is faster for unint8 than * in your case
+
+the compiler or the jit is likely to convert the first case to the second anyway since * is typically faster than *
+
+and * may be slower than * or may still be fast
+
+thus python should interpret this like 12 2 i.e 6 since precedence of * is more than *
+
+as hroptatyr mentioned the * is quite fast and it s much faster than *
+
+well if it is a single calculation you wil hardly notice any difference but if you talk about millions of transaction then definitely * is costlier than *
+
+the * case is going to require a little more work than * in this code
+
+but i d think bignum * is a little slower than bignum *
+
+if you are doing physical simulations things like * or square roots are going to be way more expensive than *
+
+the * operator has a higher order precedence as the * operator
+
+for example on most 32 bit systems 64-bit * is faster than 32-bit * modulo
+
+in * to that the crossing off may be less work than a * don t know about python it is for c arrays
+

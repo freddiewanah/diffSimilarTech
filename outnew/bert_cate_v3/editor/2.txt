@@ -1,0 +1,12 @@
+personally i m using * right now which i find easier than * for searching and navigating the code but everyone has their taste
+
+i have found that * has better plugins for providing some of the more ide-oriented capabilities but like boltclock said * is really just a powerful text editor and does not try to be a one-stop-shop ide
+
+in studio 3 much of this sort of functionality is still coming as * is going more of a * bundle route for a great deal of their features which i think is really cool
+
+i like the idea of the of editing inside the terminal and like the key bindings of * but the text highlighting in my * is much worse than in *
+
+* has better github support out of the box but * has a several git packages
+
+* has better performance than *
+

@@ -1,0 +1,6 @@
+i have tried * too but * is smarter than * on this aspect
+
+note that using the * parser is a lot slower than * s default parser
+
+according to some benchmark tests * is nearly 100 times faster than *
+

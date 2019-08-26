@@ -1,0 +1,28 @@
+i had been taught that * is almost always quicker than * and i understand that there is some debate on this topic but i at least expected it to be closer than this
+
+scenarios when * is worse than *
+
+surely there is some situation in which the * approach is better than the * approach
+
+after a lot of googling i ve found that most sources say that the * algorithm is more efficient than the * algorithm
+
+* as suggested in your question tends to be slower than either * s or a - it is primarily used when there are negative edge-weights which there are not here
+
+because * runs in time o mn the overall asymptotic runtime is still o mn + n 2 log n so if m o n 2 note that this is little-o of n this approach is asymptotically faster than using *
+
+in theory insertion sort and * are worse than *
+
+each iteration in * is a lot simpler than *
+
+* has a better big-o than say * yet * performs much better in practice
+
+in practice however * is usually faster then *
+
+* time complexity is typically o n log n but it s worst case is o n 2 which is avoided with the switch to * since * is always o n log n but slower than * so it s only used to avoid o n 2
+
+in the event that the * starts to degenerate it uses * which is o n log n worst-case but slightly slower than * on average to guarantee o n log n worst-case runtimes
+
+from what i heard * should have better average case performance but from my tests it performs 4 times worse than * for array of random integers
+
+indeed * s algorithm is better than * s in this case the complexity for * is o m n 2 and in this problem m is much much higher than n so the o n 3 time complexity of * is better
+

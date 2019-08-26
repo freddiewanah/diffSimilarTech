@@ -1,0 +1,92 @@
+you can try x1 c1 and then x1 + c1 but i don t think the * is much faster than * on todays cpus
+
+*ition and * is worse as these have to be done in sequence of two operations and the second operation requires the first to have completed - this is not the case if the compiler is just producing two * operations on independent data
+
+adding and * logarithms of factorials then taking the exponential at the end is more reliable than * and dividing factorials directly
+
+p is sometimes chosen to be 31 because not only is it prime but a compiler resolves it to a bitshift and a * which is much faster than a *
+
+* is more mathematical if you like while the remainder in the c-family is consistent with the common integer * satisfying and this is adopted from old fortran
+
+inverse * for 300 time take 1.422 seconde more than executing * sub and multiplication 10k time even the core of inverse * is build with same * and sub and multiplication functions and for this number it just do 150 time inside while help plz why
+
+matrix * is the easier one there are several matrix implementations with a * method in packages org.apache.spark.mllib.linalg and org.apache.spark.mllib.linalg.distributed
+
+* is the easier of the tasks just remember to * each block of one number with the other and carry the zeros
+
+* is slightly more complex as it needs an integer * followed by a scale back such as 0.72 2 becomes 72 200 becomes 14400 becomes 144 scaleback becomes 1.44
+
+* first is probably simpler than using floating point if you only want an integer result and if you know that the * will never overflow
+
+we observe that for 7 nodes 1 2 3 5 6 8 9 we are getting further by 1 * 7 9-2 to the score for other 2 4 7 we are getting closer by 1 * 2
+
+sure that s probably compiled or jit d away but you should avoid * in performance critical code it s far slower than *
+
+but determining the digit and the carry by * is much more concise and for the larger factors also much more efficient when * a digit by 100 the result is on average 450 requiring 45 subtractions but two *s are sufficient for all factors
+
+* of quaternion a by quaternion b is nothing more than * a by the multiplicative inverse of b
+
+more generally you can always just try * the base by itself a number of times no greater than the * and you are bound to find a cycle
+
+also integer * is less expensive so you may just do the divide first and calculate the * 10
+
+in general * is more costlier than * right
+
+* operations and usually significantly faster than * and division
+
+for floating point operations addition and * are harder than * and division so they may be slower or not again it depends on how much transistor real estate there is dedicated to the fpu
+
+little wonder you get errors the * is normally shorter than the * which is always the same size as the key size
+
+when i generate rsa key pairs by openssl it seems like private key private * is always less than public key *
+
+using the pow function and passing a * value is faster than computing the full * and then taking the * because the * can be applied to the partial products at each stage of the calculation which stops the value from getting too large 10 6 to the power of 10 6 has 6 million decimal digits with a * applied at each step the values never have to grow larger than the size of the * - about 13 digits in this example
+
+if memory serves this is the same technique slide rules used although they also took advantage of with the idea being that * is easier than * but my exposure to slide rules is limited to an eccentric high school physics teacher and a cryptographic teacher using it to explain certain tricks with big number math
+
+not sure about this but * should take more time than * so it s slowing it down ex
+
+or has a lower precedence than just as * in mathematics has a lower precedence than *
+
+for example if you had a class in which it would make sense to do * before * how could you make the * operator have higher precedence than the * one
+
+is the * really weaker than the *
+
+can someone explain this behaviour * operator has higher precedence than * operator
+
+the conditional test and * is typically less expensive than a * especially if the sum does not frequently exceed mod
+
+as you can see * is about an order of magnitude slower than *
+
+the * operation binds tighter than i.e is evaluated ahead of the * so you are taking a square root of a negative number
+
+recently someone suggested to me that * is always more expensive than *
+
+in all other cases * appears to be several times slower than *
+
+on modern processors float * is a good order of magnitude slower than float * when measured by reciprocal throughput
+
+similar to pmg s solution but still faster because * is faster than * -
+
+i picked c 1 1 8 for this example simply because it is exact in ieee-754 floating-point representation and typically * is much faster than *
+
+* has worse latency than * or addition by a factor of 2 to 4 on modern x86 cpus and worse throughput by a factor of 6 to 40
+
+most optimizing c compilers optimize it out to a * operation which is much faster than * it can be done only if the divisor is constant though
+
+it will be much slower i don t have benchmarks but i would guess at least an order of magnitude maybe more decimal will not benefit from any hardware acceleration and arithmetic on it will require relatively expensive * * by powers of 10 which is far more expensive than * and dividion by powers of 2 to match the exponent before addition subtraction and to bring the exponent back into range after * *
+
+this can be a major clock-cycle saver since * is often much faster than a * operation
+
+for example an * is typically much faster than a *
+
+this happens because the * operator has higher precedence than the + * operator
+
+to start with i need multiplication and * to take higher precedence than * and subtraction
+
+note that * has a higher precedence than *
+
+i need to find out that how much * operation is faster than * operation in a gpu
+
+however naive * will get slower and slower as the * increases
+

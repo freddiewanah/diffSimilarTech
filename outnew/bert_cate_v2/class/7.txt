@@ -1,0 +1,38 @@
+if you want to display your file as plain text the widget B is better then B
+
+the B is slightly easier to implement than the B which also needs a qtablemodel as backend but it has less capabilities
+
+android 5.0 api 21 allows surface input to B which is often much more convenient than B
+
+in ios 5.0 and later you can use B of core location framework as for ios lower than 5.0 B of map kit framework
+
+B is a shorter and more concise syntax but behind the scenes it uses a B so in terms of performance it won t be faster it will be equivalent
+
+a B is much easier than a B
+
+the first thought is that you could build a uiview showing image and text then attach a B to it which would be more flexible than B
+
+the issue is that once the alpha of the B is less than 1.0 i can see all the B sides and the one that gets me the most is the outline of an uiimageview can be seen that would otherwise not as it is the same colour as the B
+
+my problem is B is more complicated than B
+
+B has a much simpler interface than B and takes care of reading and writing from the streams for you
+
+B is much more powerful tool than B
+
+depending on how your application is structured this means you may want to have your own base class implementing iresource which creates your custom not found resource for all of its B or better make a wrapper since composition is better than B
+
+the internal view hierarchy of B is much more complicated than it appears and starting from ios 7 it is not even added to any B so it s no big surprise that it doesn t participate to the responder chain as you expect
+
+potentially you are trying to model something in B that is better suited for composition or your base class should be taking in an object instead of individual related B if the B aren t related then perhaps your base class is doing too much single responsibility principle
+
+now in .net for desktop controls you can use B which is much more powerful than the old tag B anyway
+
+textureview will display B rendering but is much more flexible than B and will follow the normal layout hierarchy in android which allows views to be moved on the display
+
+it means a declared B is more than a pair of B methods getter setter
+
+if adding 2000 entities and saving the changes at the end B is 3 to 5 times slower than B btw. i know that adding a large amount of entities would be better using sqlbulkcopy but that s not the point
+
+both a B and opengl are used for getting high performance graphics and animation s.but still opengl is the best option to get high performance graphics because it is well documented and you will have more control over the B .but in B some of the classes are depreciated in the current versions .its almost not possible to make a rssurfaceview to transparent
+

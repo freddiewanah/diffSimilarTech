@@ -1,0 +1,30 @@
+in this respect * is less desirable on a server than rhel or * which stick to more mature versions
+
+i believe that * is better than * when it comes to mono as it is much easier to setup and seems to be better supported
+
+* is more consistent and reliable because it is enterprise while * is geared towards desktops and personal computers
+
+if your system * is older like * wheezy for example your glibc version will be older than the required one
+
+note that centos software versions are older than * s but versions of * software are newer than * s versions
+
+* is getting closer but there are still numerous things with * that will keep the grandmothers of the world from using it
+
+you can use alpine * docker image it is very light and is better than both * and centos image to be used as the docker
+
+* however is less forgiving and has a filesystem that is case sensitive at least my dev * version does but i guess it is the default for *
+
+also very particular that this should be done on centos or amazon * which makes things worse for me as i have been on * for long
+
+since * 10.10 is newer than * squeeze if you can do it on squeeze you can certainly do it on *
+
+the main advantage of the * image is the smaller size â it clocks in at around 85.1 mb compared to around 200 mb for *
+
+i believe * is smaller * wheezy smaller still or even alpine for tiny start point
+
+* heavily relies on python scripting and generally consumes more resources than *
+
+he says he uses * and is less familiar with * and so i am posting here
+
+we recently have migrated redmine from a server which was running under * 5.5 with the same ror environment the same load the performance was a way better than on * 7
+

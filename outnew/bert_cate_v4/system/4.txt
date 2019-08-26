@@ -1,0 +1,48 @@
+* is way ahead and has larger extensions than *
+
+i also had good result with * cms it s a bit more lean than * but not as user friendly and definitely not as popular
+
+if anything i find working with * easier and more intuitive than *
+
+if you want to a little bit further you can imagine use more powerfull scm clearcase * ... but maven integration is fewer not well documented and community provide less examples than * or git
+
+if that will solved later than * menu is better than *
+
+mercurial is significantly faster than * it s slower than * though by a much smaller difference
+
+granted * is an easier problem but they claim to support many * and it would be my first choice
+
+i understand * is more of a * clone but retrospectiva seem to support agile methodologies via a nice plugin
+
+* handles multiple projects and sub projects far nicer than *
+
+for next projects i m going to try * seems more clean and hipe than *
+
+* is an open source ruby on rails application that supports multiple projects much better than * and seems to be much easier to administer
+
+we ve recently switched from * to * where i work and i think i like it a little more than * and use the wiki functionality almost everyday
+
+the authors of * are trying to create a better * than *
+
+* handles multiple projects and sub-projects right out of the box and overall seems nicer than *
+
+actual mounting of * is trickier business and really depends on what you are mounting - * fat ext3 xfs nfs cifs webdav etc etc
+
+the * encoding mechanism is less error-prone than * so i ll demonstrate using *
+
+apparently * format was more popular than * format
+
+this is still accepted by calls like inet_addr and has several advantages all fields are fixed width there are only 8 characters to update and the * to * conversion is usually faster than * to decimal
+
+* is somewhat more readable than * if i happen to be loading a data dump in a text editor etc
+
+converting between decimal and * is more involving and at least to me it s been easier if i have to do it in my head to first convert the decimal into * representation and then the * number into *
+
+a * string is significantly longer than the corresponding * string
+
+* in much better than * and have lot of mature tools for every platform
+
+in fact * does stores binaries a lot more efficient than * for more info see the *-faq
+
+i can only guess at the reasons and i don t worry much about the occasional downvote but perhaps some readers think i m advocating * as a better system than * or git
+

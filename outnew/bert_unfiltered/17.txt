@@ -1,0 +1,443 @@
+file must higher B target B
+tested mp3 files different B takes one second 6000 files stored different B
+test updated see works identically whether using varargs fail home B 5 sub B
+said B faster B uses platform component due arrival faster processor ..
+also linearsvc class B performs even better B whch also surprising considering wrapper B
+plugin B slower B
+userwarning B version recent one B
+since B takes longer url may also able open right B well using site.openweb
+iphone compact B mode status bar hidden navigation bar height B
+write separate css width 650px B 650 B
+thing get activity still B rectangle smaller B dimensions camera becomes weird image rotated 90 degrees moves move phone left moving phone right
+B worse design move things B class downcast specific class
+specifically makes possible write B plays nicely B strongly typed B
+B smarter B singleton class
+injecting B application harder B application still possible
+executable size B application bigger size B application
+view B faster B mean performance B slower
+recommend take look B turned work even nicer B helps also things like versioning api mamange multiple endpoints nicly
+make happen minimal project B nothing call super B
+level abstraction B higher B
+provide useful example shows B could useful B
+note recommend using B - faster B memory leaks comes built-in ad blocker
+respect B desirable server rhel B stick mature versions
+obvious B would otherwise making sfphpview- render run slower B
+regarding comparison B B experience B lightweight compared B
+B text smaller left B right
+matter preferences browser implementation eg B works faster brackets B works faster dots
+B better B - suck regard
+likely post value one characters breaking html page ie B bit forgiving B
+time soon B add-on api restrictive B
+B included os x things listed deprecated better luck B past
+since patterns 0 1 values think numeric values long 64bit B enough converted later B matrix
+wait really constant B arrays B array indexing take longer last B array indexing even process 5
+secondly current version B consumes memory B rather large set
+B jit make execute faster B
+jython unpredictableâ sometimes almost fast B sometimes slower B
+point time B 9 faster B micro benchmark
+double B floating point definition also complex B
+example locality references influence cache hits misses B performs better B
+replace strdup strlen malloc B B slightly faster B
+visual inspections suggests B length likely 200 300 character B
+seen B function really faster B
+B validation responsive user always back proper B checks
+B typically slower B
+B mathematical like remainder c-family consistent common integer B satisfying adopted old fortran
+sum B easier use B allows configuration
+similar functionality speaks B flexible features could use facetgrid object B
+also think working B easier using B dataframes numpy arrays
+big caveat B generally memory available storage though. default 32mb B big adavantage still fast distributed multiple servers running could share data
+however B verification expect verification calls 100x issue 10x slower B verification
+web2py may young mailing 2000 month similar B far B
+compare active B tag stack overflow pylons B though argue getting started simply easier B irrespective
+strongly suggest either first two options latter latter always play nicely B B handle transactions one B involved
+suppose char p B assigns say bytes memory allocated B p used B memory allocated p
+one interesting experiment try try B memory B pointer
+another B like even B - dry
+1 - B script generates .class files B
+already said B replacement gnu make B primary buildout dependency-management application
+B B different real point comparing B still B + dependency management
+side using macros B always advanced B lisp implementations
+relatively slow since reading hard B slower reading B
+another added benefit approach could make program run faster since fixed-point B arithmetic faster B arithmetic
+generally B math faster B math
+B may somewhat slower B generally
+first bit banging B complicated bit banging B
+know B complex slow B uart etc. constrain
+B requires tuning B achieve optimal performance
+B better B partitioning tables date
+found B 9.3 better capabilities json B versions using
+suggest B capable features better support complex queries datatypes B tuning options
+benchmarking 3 years ago may stale... showed large datasets basically B fulltext 10-100x faster B xapian 10-100x faster B integrated
+weak point iirc B handle better B work around reverting changes rollbacks
+explain B useful B
+wonder B single insert statement completely faster B autocommit turned
+B better B ways
+restrict user select 10 asp.net B B click event user select 10 B alert box pop select 10 B
+tell opengl draw square appear rectangle screen instead x axis edges larger axis edges screen B wider screen B suggested image
+B bigger B B 100 B 100
+want negative x greater B greater B
+draw crossed rectangle B 2 larger B using low-level graphics package facilities call
+whenever B B shall portrai eventually load css file even original screen initialized landscape
+B bitmap greater B returned image landscape rotate 90 degrees
+order need find svg portrait landscape - meaning B smaller B former latter
+solution choose minimum metric B B since multi-window mode B smaller B
+stretch B larger B crops image even switch object-fit contain
+post used 56.25 make ratio 16 9 understand maths 100 16 9 seem B larger B
+setting per ratio super view B B iphone B greater B
+want set page orientation portrait B size higher B size
+yet save image image landscape B bigger B
+ratio bigger 1 B bigger B let say 700px 500px resizing image filled white spaces top bottom image
+upon review appears occur image B greater B
+else B longer B set B 500px B auto
+presence tab bar controller enough make B 768 - 20 - 49 699 smaller B 1024 - 320 - 1 gutter 703
+get B B uibuttons compare lastpressedbutton.frame.origin.x B -B away
+screen B bigger B makes image looks expanded B like
+essentially stating class cboxphoto run function add class relative image B greater x B greater x
+media screen B B
+developing found B based browsers general handle operations quicker B
+B seems like anti-aliasing B
+set ecpm B mobfox higher B
+example B better B
+things like cmd B know - yes cmd B kind shared network B thousands files ls significantly slower B
+shortly put running benchmarks page database operations serving static dynamic content shown plain cherrypy twice fast B memcached half faster B
+B seems consistently tick 0 01 better B distinction reconstruct sign extra test
+check B lightweight obscure B
+takes page free_page_list updates mem_map zeroes page returns physical address page. another post explains well also explains using B better B + memset
+bcrypt weaker B although still three orders magnitude stronger B requires 4 kb memory
+found B better plugins providing ide-oriented capabilities like boltclock said B really powerful text editor try one-stop-shop ide
+B little bit safer B specify comparisons made
+however variety fft sizes found B slower B openmp
+started experimenting B smaller services kind like B
+2 B bit structured B basic within 10 mins familiar mvc design great develop portals incredibly quickly
+xda-forums read memu - powerful B pc better B
+using fittext time B greater 100px set exact B per B
+perfectly honest B popular B least work live
+packets discarded unordered B faster B
+suppose one misconception B slower B
+B faster requires bandwidth B
+instance zeromq leverage B multicast run faster B protocol application programmer need learn new api
+confirmation B packets slightly faster B
+trying avoid Bclient B faster would work B since streamed
+B low-level comparing B
+according analysis B rijndael-128 twice fast B 3B bigger size secure
+generate rsa pairs openssl seems like private private B always public B
+isinstance g str g.lower g B higher precedence B
+B complex reference solution efficient 128-bit B using carry flag
+B faster B rarely enough worth putting lack acid-compliance
+B tables smaller footprints B ones myth
+B reliable B
+discussions even mysql documents mentioned updates B performs better B
+everyone know B needs aroud 4 memory B
+B B higher data type precedence var B data types
+long B 127 B stored one byte
+using B buffer initialize cv mat unsigned B explains values written fourth element B seems 4 larger unsigned B machine
+seems pretty silly presumably 16-bit B takes twice instructions 8-bit B
+B short happen smaller B current platform implicitly promoted B major source bugs
+since take 32 bit B type input hex representation 8 B
+2 since B smaller B one use memory object carefully
+entirely possible implementations cost B function call significantly greater B behavior defined
+know another plugin named B corner available however file size massively bigger B decided B
+B may also stable linux environment especially fetch re-written development release 0.2-0 r-forge performance par better B
+B one line B
+view using B simply easier unless experience B
+B weaker gui technologies relating accessibility compared B rate
+trying thing B correct B
+building application bottle B see comfortable B batteries included
+also noticed B significantly faster stable old B based widgets
+multiplication division B precedence higher precedence B subtraction
+however still performs worse initially B 3 B size increases asymptotically worse B exactly 2
+use one B timer preferably several B timers
+B already found complicated powerful B may explain simple functions slower B
+truetype B font provides better compression B 1.0
+numbers always equal greater B value equal B value
+httpwebresponse B little bit lower level B
+also use B simpler B order set cookiecontainer need derive B override protected getwebrequest method
+like idea editing inside terminal like bindings B text highlighting B worse B
+wanted investigate B significantly faster B program
+B closer imperative oo features recommend learn B functional mindbending resources
+example B average cost n.log B average cost n.log sorting average cost - yet B typically faster B
+B time complexity typically worst 2 avoided switch B since B always slower B used avoid 2
+heard B faster foreach B
+use B convenient B arrays
+main know B logic behind correct last didah always bigger B counter
+one place enhanced B faster naively implemented traditional B like
+theory B quicker B looks length attribute foo every time though B real-world use going make immeasurably small difference
+went script B adding values classpath one B
+test ago result B faster foreach B
+think would precedence left-to-right think B would calculated first B prior B instruction one level
+split string regular expression saying B one B one B
+p.s work B smaller B
+without B seems like use B
+blog post comparison B would better B
+every time B finds larger number stored send new B root B
+asp B 100 better cleaner simpler nicer B makes job joy rather B head ache
+contrary B c-like require explicit enabling script running accepts relative paths sensitive loosely typed scripting compared B
+B longer maintained work B 1.0 newer
+believe works general provided B B
+chance optimal set variable2 strictly B parameter variable1 strictly greater B parameter variable1 also addition constraints need introduce new binary variable equals 1
+example B greater B want disable button view
+regearding comment also know deal B better B ogg really
+B trickier private members class B B protected public
+B operation binds tighter i.e evaluated ahead B taking square root negative number
+remember multiplication B remainder operators higher precedence B
+ps radix B usually faster compact B suffers side effects B comparing hash tables though significant course
+floating point B better floating point B
+faster B 32bits slower x64 B
+B better github support box B several git packages
+add often heard B faster B serving static files point sometimes worth using B static files reverse proxying B dynamic content
+fast static assets B faster B serving static assets css images ... uses little memory
+fortunately B finally ended completely pixel based still alter viewport scaling .net seems handle better B
+B richer languages B schema Bs
+type B faster type B cause curious work
+B somehow category repeated 1 B eg
+far security goes B better B data sent behind-the-scenes rather embedded url making typical protocol login info
+apart common misleading information B safer B
+standard B request secure B one
+B method preferred B really matter internally uses B B
+curl commands seem work B commands older req.body B
+B B
+also note B newer B make B faster whatever planning use number cycles taken function probably important B vs B argument example see answer
+simd math libraries B B however seem B B2
+B version indeed appear faster B version original implementations optimised implementations
+said find B complete B like recent blog posts illustrate
+answer klochner seems quite popular familiar B seems heavy complex B
+phusion B 4 enterprise bring features B rainbows example band garbage collection dynamically adjust number processes based traffic completely automates rolling restarts need scripting
+best testdriven.net disables instrumentation B makes B blazing fast - faster B example
+ass supports formatting options B simpler format modified force_style B filter
+uses B underneath faster B
+side note attempting create new customer may want use B instead may considered restful B generally updating existing resource
+nice comparison threads processes clone B better B
+according wikipedia B format provides better compression B
+really expected B slower B
+performance B better B
+B faster api 37x complex B api
+B high level B naming
+know bit older es2015 new data structure called B similar B would use c#
+B younger B B final draft 2006 B came 2008-9
+B faster B verification
+even though B fast mostly faster equivalent B
+copy B efficient B coding system.arraycopy
+running quick benchmark seems B 4x faster even worst replace every single time construct new B hold replacements
+B faster foreach-loop B must
+also change logic B since ever greater B length
+means declared B pair B methods getter setter
+seems internet explorer B strict B security
+B secure B
+B restrictive B private restrictive B
+speed query propose pseudomedian B faster involve B
+use B B find super flexible
+insertng search binary tree need keep track B stored specific order child smaller B left greater equal right B 2 B
+expecting B widget little larger sizehint B layout
+still think min heap represented array guarantees B smaller child says nothing B arranged sorted order left right
+used think heaps property seems requirement B B
+would think could simply increment element z-index two work due B cannot higher z-index B B z-index set
+max-heapfiy method heap bubbles max top particular node B lower value B
+inheritance father access methods B better inherit implement new methods nothing B child class
+manytoone plan tree B one B
+table represents id_1 B id_2 B B B one B known many-to-many relationship
+B lower level B allows minimise number round-trips x server leading lower latency
+using sparse format suggestions welcome formats able use data B dense format using function names variables works muuch slower B
+already know B heavy weight approach contrast B
+solved past successfully using B robust B
+need iterate find first B greater 3 even B return
+B range greater B type
+used B calculate B result B precise B lost precision
+B hold precision B
+topbar B height bigger topbar B height everywhere except iphone 6 plus
+according javadoc B needs return negative integer zero positive integer object B greater specified object
+likely hashcode faster unless whatever calling hashcode + B slower calling B
+icomparable declares B method returns integer specifies B greater relationship two objects type
+calculate actual minimum B continue sorted maximum B B greater minimum B found far
+rest browsers report correct width document B reports smaller one example screen resolution 1920x1080 ie B reports 1920 B reports 1903
+instance B outperform B although B provably better B worst
+might helpful see B usually faster B since understand pretty quickly find B clear winner
+B run faster B even though worst-case execution time longer
+looked B better B
+want exlude number 4 means B smaller 1 use r.nextint 5 result excluded number return B allowed 5 never generated used B - 1
+B z1 z2 B equal table2 B value2 table1.type table2.type
+larger B means greater B value smaller min value decimal
+think fair say B similar B use iterative relaxation
+value B 3 seconds beyond current time time B still B time show hint
+B faster B
+made left B div2 greater B div1 worked
+suppose char p B assigns say bytes memory allocated B p used B memory allocated p
+goof version using B string_ref faster still due reduced B
+find B one clearer B one
+also B bandwidth higher B ssd network bandwidth B latency lower
+images resolution size B sometimes bigger B versa images
+medium B becomes larger B would default landscape size
+upon review appears occur image B greater B
+hover toggles B B device B wider 768px click toggles B B device B 768px
+B 540px overwrite B B
+however B greater B indicating still portrait mode .
+technique work B resized extended word wrapping sentence wider B text box textbox creates new line automatically
+working landscape photo photo B greater photo B
+word recognize landscaped B must greater B
+tried setting report properties per observation moment B becomes lower B ssrs automatically convert landscape
+works expected exception B window lesser B image get cropped even using contain
+note image portrait images B higher B could measure find orientation
+first two commented lines setting B B dialog works second two uncommented lines work displayed B slightly smaller content overflows vertically B
+size 10 B 10 B
+happening B greater B
+images thats displayed images B image greater B image
+B image greater B rotate image 270 degrees
+view B greater B able satisfy constraints colorview B lessthanorequalto view B
+B - set B make priority B
+works desired landscape image B greater B however portrait automatically rotates image interchange B B without flag get rotation done
+know B greater B greater
+portrait B screen B
+adding class image image B greater B
+preferred B B actual B B could manually invoke pack frame
+rotate device B becomes B ignore change B gets dramatically smaller B remains safe assume keyboard shown throw show keyboard event
+specifically window B 680px iframe B
+photos taken devices pass successfully rotated portrait B bigger B
+B far common B
+B safer handle soap request B data returned may longer 32767 bytes
+ldpi assets look bad high density screens exponentially smaller B exponentially smaller B
+put images B folder appearance smaller B ldpi
+normally server need know client address beforehand B knottier B usual stream-oriented approach socket communication ways
+use B size devices like galaxy note huge B phones higher resolution B dpi think
+also try sklearn.linear_model.logisticregression sklearn.svm.linearsvc implemented using B scalable B albeit memory efficients linear models scikit-learn
+would also moderately B actually faster B
+hopefully knows B higher precedence B expression equivalent probably intended macro writer
+instead computing slower instead computed x + x B faster B
+difference two assign B thread level assign one B spread load threads assigned one B
+package answer may solve reading numbers directly B easier achieve goal thought might post anyway information users may need use large B 22 digits
+B larger capacity B conversion guaranteed work
+strings 6 B already possible strings B values 2 32 69 5.23
+regarding last portion number bits B always B cause
+normally range B wider B
+size B smaller size B
+understand B smaller size B
+5.2.10 paragraph 7 says assuming B stricter alignment B round trip generates unspecified value resulting
+try converting ascii B keys one B always get incorrect result
+second thing since signed B capable holding full range unsigned B values implementation
+B B numeric types B guaranteed smaller B therefore supplying B B expected safe nutshell yes
+following stackoverflow answer reference describes B larger B backs assertion discussion
+shifting types automatically promoted B wider B often
+B larger B - get value + random data following memory
+B arguments B could make optional B add placeholders B
+works B b always one greater B b except b whole number
+- B seeing one object greater B another
+ldpi assets look bad high density B exponentially smaller B exponentially smaller hdpi
+B really weaker B
+hinted analysis finding common B depth values across datasets able track implemented excel cater datasets might contain depth values B common B greater maximum possibly
+summarize given time B t1 t2 day determine remaining time left longer B time
+possible find cut B-flow min-cut would B flow network would greater B capacity s-t cut
+first run query find min B security id find difference min B finally find value 10 B like
+B requirement smaller B requirement
+4.if B value greater current value array add difference ans add difference current value update B left
+one issue related oncollectionchanged - notifycollectionchangedeventargs required index opposed item B come box easier B anyhow
+say B method see answer dasblinkenlight + must work better B +
+even small inputs B work B physically faster every
+5 000 000 ints still stored memory B becomes suddenly worse B mergesort
+instance B faster B worst slower average
+B higher overhead B worst vs
+simple B faster foreach B
+although approaches B larger constant B overhead
+came across situation need implement B one B control variable
+suspect curly braces correct place per scheff comment scope page variable contained within B attempting operations B
+alternative write slightly complex split either B tabs note pass strtok one B
+syntax B zero positive integer number indicating Bimum number matches B integer equal greater B indicating Bimum number matches
+set date 1 1 2012 kendo datepicker B date 1 1 2013 greater B date 1 1 2014 defined datepicker options
+compare value lower B higher B
+afaik integers first bit used sign probably absolute value B integer lower absolute value B integer
+copy events table2 created_at strictly greater B created_at table3 strictly B created_at table1 table1
+user dragging node check position exceeds either B either B
+2 check see B greater next entry B
+given value higher B lower B values keys holding B B given respectively
+thought recursive cte first query pulling B date patient union table date least 30 days greater B patients cte date B join statement
+right side two groups left group B greater right group B 4 4 1 2 6 2
+value B + B-B 2 B B B step 1
+however get 2 2 matrix select value smaller B predictions larger B predictions since data either false occurrence
+sigmoid approximates clamp never smaller B never larger B
+need receive product 2 B value -5 -1 B value 18 15
+B greater B zoom happen
+looks like default calulation range slider B + B - B 2 B B B
+number one greater B current node one B next node
+negating B value int would mathematically give us 2147483648 since one larger B value
+trying grab B price B price B price entry_date greater B price entry_date
+example B greater B want disable button view
+alternately could assume instead intending take smallest possible distance two outer angles B could actually lower value B still valid testing
+comparing B lesser current B greater current
+every condition satisfying last rule means B price always greater B price working
+setting B higher B cause 380 error
+creating element array also check whether B B
+also assume first value vector B vector B second value well on.
+age range 0..100 want also validate crossing values mean B greather equal B
+person sees also nothing wrong B B
+B number fail B number fail B smaller B fail
+change Bbetamt 241.55 2400.25 message comes B bet amount must greater B bet amount
+say B group 1 greater B group 2
+want validation B price always B price B price greater B price
+run query B returned larger B
+idea work nodes tree leaves upward checking whether node value greater B left subtree B right subtree checking whether left right subtrees bsts
+u change field B 0.8 error shows B B till moment field shown red border since wrong
+value smaller B want get B value greater B want get B
+trouble enter invalid value textbox tooltip appears says exception thrown target invocation instead B distance must greater B distance
+possible use xml-schema require B attribute greater B attribute
+B bigger B maybe Bus gc workers
+would like calendar display B B date range date date thing greater B B greyed
+B finite B throw syntaxerror exception
+B larger zero belongs complete category B naturally larger zero
+change B textbox greater B control would correctly marked invalid
+note let B B value lett B B
+last operation B greater B called self assignment
+thus loop exits able tell whether values B B real initial values changed another would test loop whether B bigger B - file empty
+4- need loop B check rating higher B
+constraints like B must bigger B neither bigger 100 lesser 0
+throws data B greater B
+one possible error B value B value
+last bit needed limit time selected earlier B date greater B date check date selected matching datepicker control
+program takes B B data throws data B greater B
+best algorithm generate random simple parallel edges self-loops undirected graph given number nodes node number edges B greater B
+achieve somehwat similar results typing values smaller B corrected B although still prevented typing values greater B due validator
+let check first equal larger B smaller equal B
+entered value greater B value set B value B value set B
+chances generating B value exactly 10 B value low test give trying find values satisfy condition
+easily understand B greater B
+want set B jan 1 B dec 31 value currently inspecting greater B set B equal value likewise B
+please observe B one tuple B next tuple
+. script.m file.csv 7 20 test fails get output B 7 must B 20
+1 would validate B indeed equal B
+is_valid inputvalue larger B smaller B
+fail B age row 2 B age row 1...
+new bie es want use script filter get match array least one element B greater B B B param script
+take look picture - range want ending time greater B starting time B
+write for-loop loops arrays taking integer value item B save B greater B save B
+opposite causing loop nothing since z never smaller B larger B
+B 10 slower B
+B uses memory B given size setup would definitely recommend
+none .net libraries syntax differences B strict B
+means amount data could pass using B verb using query string B method
+everybody saying B secure B used https
+noticed sometimes B result retrieved earlier load .js file completed B error course plugin work
+vector instructions may use array B require higher alignment B
+receive file api would use B request simpler B multipart fetch data stream inB
+convert make comparisons B better B
+also B considered better limit scope iterating variable use println need system.out system need string B override tostring output numbers user entered loops like
+specify B greater 20 B greater 9.1 ie greater 9
+implementing B fine-grain comparison provides B method greater-than less-than comparison opposed equals simply is-equal-or-not comparison
+least m+1 2 larger maximum hi B least m+1 2 smaller B lo
+B 5000 50000 want achive maxpoint select box want display values greater B points selected value
+misunderstanding incrementing B faster B
+traverse tree B B usually searching specific node long binary tree implemented left B B right B greater B need links one direction find node
+understand heap structure B node always larger smaller B nodes
+unless rounding goes grandchild width B room hold B
+chosen root node already easy construct bst taking consideration left B B node right B greater B node
+prevent B element overflowed B element B element position absolute hight B higher B
+however possible rotate current situation since B end becoming lesser B
+get B two B
+B already 1 B
+thought using pairing function makes B exponentially bigger B splits integer overflow
+words B row one B sending fields child B data duplicated B
+item multiple B also one B
+would prefer 1st one since maintaining 1 value B easier efficient maintaining B
+want search B B words would want get user records activity within given period time eventtimestamp
+B row linked one B without duplicating data
+smallest state B greater B state update B
+selects direct B B exactly one level deeper B
+clause basically includes B 4 B B b.employee_id null
+two rectangles B wider high B placed next
+simple B has_many B relationship trying get B B

@@ -1,0 +1,102 @@
+plus the overhead of doing it is extremely costly- * queries against hbase are on my cluster at least an order of magnitude slower than against plain * files
+
+the third line displays the data with the maximum useful precision - an * 754 64bit floating-point number has slightly less than 16 * digits of precision so all those digits of the literal in math.h are pointless perhaps they can be seen as future-proofing against a possible future redefinition in a format with more precision
+
+* is way ahead and has larger extensions than *
+
+consider * its architecture is definitely better than * s
+
+i ve even tried to pin archetypes and atcontentypes so that the * uses older versions example those used in * 4.2 by adding the following to my pinnedversions.cfg file which gets called after everything else
+
+your * record requires more than 10 * lookups to process
+
+* is soooo much faster than * because all the check-outs are stored on the server so it doesn t have to check every file on an update
+
+* works much better when disconnected from the network - with * you have to tell the server when you ve done a checkout
+
+i have been trying out * to see if i like it better than *
+
+i seem to be getting the impression that * is more popular than * nowadays
+
+imho creating templates for * is the easier than most other cms i know typo * modx as you simply have to replace parts of the static version with * tags menu content etc. it still needs some time to get used to the system but its not that hard
+
+imho * is better do work and customize than *
+
+* is in an earlier stage than chef * and other tools out there when it comes to community support
+
+i would not mind changing to for example * or * if needed i am a bit afraid of * to be honest everything i read about * seems 10x more technical than anything i read about mercurial or * and installing it on windows seems to imply installing all sorts of secondary software it seems but that is another matter
+
+i hear all this stuff about * being slower than *
+
+mercurial is significantly faster than * it s slower than * though by a much smaller difference
+
+it works fine and fits all my needs but recently i found that * works better than * so i decided to use it but i face a problem with * usability because most * s gui not user friendly as * explorer so i want your advice based on a practical experience which best * s gui user friendly or which one is most similar to * explorer
+
+* is easier to extend in an api way * is easier to extend in a unix way pipes
+
+thinking you can format * blocks any better in a cms such as * and use * just for the backend will put you on a hiding to nothing to end up with a fairly useless setup that isn t going to go anywhere
+
+most modern * are also considerably more complex than * which would add further difficulty to the implementation
+
+since the * is more than likely * or *32 protecting it permission based way would be more convoluted
+
+the authors of * are trying to create a better * than *
+
+* handles multiple projects and sub projects far nicer than *
+
+i d recommend * like the other posters as it is more complete than *
+
+we found * to be a better than * simply because it is easier to use
+
+i wound up going with * and it s way better than *
+
+if you need to load from a well-defined * fat or * this is more tricky you have only 450 bytes of space because 60 of the 512 bytes are used by the * internally for code that interprets the data of the * finds the file containing the code and loads it into memory
+
+* is much more complex and time consuming due to the more complex nature of this *
+
+when people say that unix * are better they might mean to be saying oh ext3 stores bits in such as way that corruption happens way less than * but they might also be talking about design choices made at the common layer above
+
+the problem is that windows * is slower than typical linux * for these lookups
+
+nobody has ever accused git of being easy-to-use no * for example although i hear it s coming so you might be better off with * beanstalk
+
+the compare dialog of * is more about file and with git you have to compare two master branches not just two commits of the same branches both pointing to the same * central repo
+
+unfortunately using * consumes way more space and takes significantly longer i m dealing with 500gb of data and around 1 2 million records so i would really like to get the straight * method to work
+
+as others have pointed out * is much more convenient than * anyway - you just need to remember how each of the * digit 0-f looks in * and replace groups of 4 bits with a single * digit
+
+* is just less verbose and can express anything a * number can
+
+converting between decimal and * is more involving and at least to me it s been easier if i have to do it in my head to first convert the decimal into * representation and then the * number into *
+
+in fact * does stores binaries a lot more efficient than * for more info see the *-faq
+
+the first one can be solved by using * +ssh which is the more comparable format as * uses its own protocol as well
+
+* in much better than * and have lot of mature tools for every platform
+
+* was supposed to be better than * but in some areas that didn t work well
+
+i can only guess at the reasons and i don t worry much about the occasional downvote but perhaps some readers think i m advocating * as a better system than * or git
+
+if you use * then it still okay because * handles binary files much better than *
+
+part of the point of * was to make the use of branches and merging much easier than in *
+
+just a wild guess here but if you re using * on the server this observation might be based on the fact that * simply is much better at merging than * because it has the notion of mergepoints
+
+microsoft has the microsoft speech api sapi however if you want simple * it is better not to reinvent the wheel and customize an * implementation which i guess falls under the great * library for c++ category it s c not c++ but if you know c++ you should be able to understand the c . using *now you may not even need to write any custom code it may do what you want already
+
+this means the buffer is enough for printing the number in * and since * representation uses no more digits than * it will be enough for * representation too
+
+hex or maybe * depending on the machine being emulated will be clearer than using * since similar opcodes tend to vary in bits not digits
+
+can a * section create more than 1 *
+
+i didn t work with these applications yet but afaik * and ezpublish both php are considered much more professional than *
+
+* high availabilty is only available when you have more than one * configured
+
+* seems much more like * with branches just being separate directories so maybe not
+

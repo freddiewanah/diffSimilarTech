@@ -1,0 +1,102 @@
+from my personal use i experienced about 5 - 10 times less disk usage due to B s compression and it s much much faster than B or innodb
+
+if you would like a unified front-end for B and opentsdb you could consider grafana which has support for both B and opentsdb but less functionality than B in regard to B
+
+the benchmark shows B is 2 to 3 times faster than B on a normal page
+
+B is a high performance 2 to 3 times faster than B pure java template which use razor like syntax
+
+the maximum representable value with B 754-2008 binary32 is so the base 2 log of a number stored in binary 32 is less than B 128
+
+if you are targeting android you can use firefox for android by developing a webapp that has native B support and because of it will be much faster than B or other javascript solution
+
+it is working only for simple .php files but B is more complex and after long period of loading it show B nothing found site loaded
+
+i m working in a spring mvc project and i want to use a template engine i originally choose apache B because a slideshare presentation that says it was two times faster than B page 41 and since i m working with big tables i need to use a fast template engine does apache B supports html5 if not is there other template engine that supports html5 that is not B
+
+i m using the module B in my python script and many more such as B and numpy etc B module only works on python2 not for python3
+
+B is stricter than B
+
+B is often considered to consume less memory than B but this depends a lot on how the browser is implemented
+
+so the easiest way is to use one either B or B B has probably better support for svg these days plus i can t find package of B right now
+
+B is more complex while B is simpler
+
+B tables are even slower than B tables for inserts and the delayed key write option is not available
+
+the script was tested using B and it indexes products relatively fast much much faster than B
+
+tuning B which is the better engine requires adjusting different values than B which is often the fast-but-unsafe default
+
+generally B is much better for preserving your data integrity so stick with it and do not go back to B there is also a matter of what each engine is best fore but unless you give us more details there is no point in dwelling on that
+
+in a thread i came to know that B is faster for reads B is faster for writes
+
+but when B is really better than B
+
+B is faster for certain queries and supports fulltext and spatial indexes while B is transactional and more concurrent
+
+B is a safer acid compliant engine with some integrity features that B lacks
+
+with B there is less time lost from table locking while B is faster in table readings
+
+B is also being developed more than B
+
+B uses row level locking while B can only use table level locking that is why B has crash revovery is better than B
+
+anyone who thinks B is faster is either not tuning B correctly or has such small data that who cares
+
+B generally performs faster because it lacks certain functions B has such as rollback... but it has only table locking
+
+B is faster but does not support the use of transactions like B does
+
+although 4m isn t that many rows with contention and depending on your structure and database engine it may take a while i think B alters take longer than B because B requires whole table locks and handles concurrency less well
+
+B is much much stricter than B
+
+some people have said that for reads B is faster but recent improvements in B have either alleviated or eradicated this difference
+
+there may be some exotic corner cases where B performs marginally better for certain workloads table-scans or high-volume insert-only work but the default choice should be B unless you can prove you have a case that B does better
+
+i know B tends to be a bit slower than B on counting but this is far too long
+
+after all B shouldn t be slower than B when using count + where but that s exactly what is happening here
+
+B is slightly faster than B and implements the fulltext index which is quite useful for integrating search capabilities
+
+even this blog from 2007 shows benchmark results that B is on par with or faster than B under most workloads
+
+B is actually better than B for spatial data btw because it also supports r-tree spatial indexes but not as powerful queries as postgis. if you just need points though B or B b-trees are adequate
+
+select queries in B runs 2x faster then in B but the updates and insert queries are much slower in B
+
+ok there are some cases where B is faster than B but rarely enough that it s worth putting up with the lack of acid-compliance
+
+B is actually faster than B in quite a few cases so it depends on what your application s mix of selects updates concurrent queries indexes buffer configuration etc
+
+also i can t see your table engine but B is better for full text searching rather than B
+
+however B tends to be slower as B
+
+in general is B faster than B
+
+as you know B table sizes are about three or more times smaller than same B tables
+
+B is faster when the query is simple but it s much slower in a high concurrent environment as its table level lock comparing to B s row level lock
+
+2 - i have read about B vs B the conclusion for me was that B is faster when it comes to read-only whereas B is designed for tables that get updated or inserts more frequently
+
+there are other optimizations available but general rule is that B will be quicker than B is even with table growth
+
+i ve also noticed that B is significantly faster and more stable that the old B based widgets
+
+so basically when B is more about how objects will behave themselves during application running the B is more about how you write your code before application running
+
+B provides much better native whitespace handling recent B releases provide more interesting content controls #define #evaluate # literal block #
+
+B is nicer templating tool and it was created by B and its designed to work cross language originally which can be forked from git - B
+
+i use B on tables of up to 18 billion rows and nothing else comes close it s at least 100 times faster than B for random inserts on big tables
+

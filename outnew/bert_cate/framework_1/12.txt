@@ -1,0 +1,20 @@
+this is only a guess and is not based on actual performance testing probably B will be doing better than B
+
+this is only a guess and is not based on actual performance testing probably B will be doing better than B
+
+i have found one benchmark in which B is faster than B and another benchmark in which B is faster than B
+
+i have found one benchmark in which B is faster than B and another benchmark in which B is faster than B
+
+thus i suspect when people say that B is much faster than B it is because of the loading and updating delays but the actual test execution time appears to be very similar
+
+nonetheless i tried to compare the sum of all test speeds and in some cases B is faster and in other cases B is faster
+
+thus i suspect when people say that B is much faster than B it is because of the loading and updating delays but the actual test execution time appears to be very similar
+
+nonetheless i tried to compare the sum of all test speeds and in some cases B is faster and in other cases B is faster
+
+in my personal benchmarks B is undeniably faster than B due to lazy loading
+
+in my personal benchmarks B is undeniably faster than B due to lazy loading
+

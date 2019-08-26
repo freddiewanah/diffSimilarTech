@@ -1,0 +1,38 @@
+you can * * the status bar on android 4.1 api level 16 and higher by using * * functionality
+
+the plugin defaults to requiring a * request to logout but using the config setting you reference you can make your application more convenient to use but less secure by allowing * or * requests
+
+it is just an example that shows a scenario in which * is more secure than * but i don t think it would be a good idea to choose * over * from this attack reason
+
+why * method is faster than *
+
+when i try to * more than 100 * it returns
+
+after that is done you can go into security details where * is slightly less secure than * - see the comments for details.
+
+i need to create a menu based on that list but cannot simply list all * and * it because it is a busy blog and has more than 2000 *
+
+in this case * may be better than * anyways
+
+is * method is better than * method if you use a form
+
+maybe i would mostly always choose * over * it s more tidy and refreshing and going back issues with * method are a thing from the past in any major browser they just ask you if you want to resend the data don t they
+
+i m searching for the best method to * result with database contain more than 100000 * and more than 100000 cat
+
+i normally use something like this tag.object.annotate num_* count * .filter num_*__gt 2 to * tags with more than 2 *
+
+*s have a size restrictions * do not or at least it s a configurable setting on the server and has a larger higher end than a * request would
+
+the * is usually faster because it has no encapsulation sends data via url usually with a 255 character limit as * exists encapsulation by being sent by the body of the http request
+
+although putting data with * method little harder than simple *
+
+i * somehow category repeated if it has more than 1 * eg
+
+in my opinion the second way to achieve this is better because using * is not thats ecure in my opinion.it s easier than using *
+
+there is a default limit of * method which is 2mb which is way higher than *
+
+on the php docs link above they say a * request is much simpler than a * request when uploading file along with this advantage what other advantages disadvanatges do the * has got compared to the *
+

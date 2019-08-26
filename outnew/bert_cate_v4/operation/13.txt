@@ -1,0 +1,16 @@
+isinstance g str and g.lower or g * is of higher precedence than *
+
+* may be heavier than * but a commenter pointed out that reciprocals are just as fast as * on modern cpus in which case this isn t correct for your case so if you do have 1 x appearing somewhere inside a loop and more than once you can assist by caching the result inside the loop and then using y
+
+both operations are done down at the floating point unit fpu level and even in the world of integral alus the * circuit is a far busier place than a * circuit
+
+floating point * usually takes fewer cycles than floating point *
+
+floating point * is faster than * so if speed is relevant
+
+* is inherently a much slower operation than *
+
+if you are sure that a floating point * is better than a floating point * then
+
+finally we all know that multiplication and * have higher precedence than * and subtraction so we can remove the extraneous parentheses so this turns into
+

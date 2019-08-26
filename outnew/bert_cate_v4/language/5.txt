@@ -1,0 +1,16 @@
+the * one is dramatically slower then * implementation
+
+* is perhaps more approachable than * however
+
+* has fewer libraries than common *
+
+t s purpose is to test the thesis developed by steele and sussman in their series of papers about * that * may be used as the basis for a practical programming language of exceptional expressive power and that implementations of * could perform better than other * systems and competitively with implementations of programming languages such as c and bliss which are usually considered to be inherently more efficient than * on conventional machine architectures
+
+because * is eagerly evaluated the execution model is far easier to comprehend and debugging via printf works a lot better than in *
+
+* provides more mechanisms for asserting shapes of * graphs as does new work on * shapes
+
+* is richer than languages such as * schema *s
+
+it is written in * which is a language somewhat simpler than * but broadly in the same family and not difficult to learn
+

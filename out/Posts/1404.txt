@@ -1,0 +1,20 @@
+28541
+aptana	radrails
+i started out with radrails then moved to aptana when they took it over wasn t too bad
+
+28551
+submit	submission
+in a day or two i ll be ready to submit my iphone app to the appstore and i m curious whether people who have gone through this process have any tips suggestions for a smooth submission process
+
+28693
+coalesce	nullif
+nhibernate will return long for count queries on sql server formula must contain parenthesis when needed these hql function names may cause conflict in your hql reserved names are substring locate trim length bit_length coalesce nullif abs mod sqrt upper lower cast extract concat current_timestamp sysdate second minute hour day month year str any when meta-type class the persistent type is a string containing the class.fullname in order to set a parameter in a query you must use setparameter paraname typeof yourclass .fullname nhibernateutil.classmetatype mapping any default meta-type is string was class
+
+28760
+prefuse	flare
+depending on your needs a couple others you might look at flare prefuse
+
+28769
+ilist	icollection
+there s also ilist or icollection if you want to use a construct that is still somewhat flexible but also has the feature you require
+

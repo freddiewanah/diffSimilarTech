@@ -1,0 +1,182 @@
+B is more expensive than B for example
+
+des is the least secure B is better but i d go for the B
+
+you can also see that for smaller collections B is faster but then B takes the lead but all of this is case specific so take your time to study all 4 algorithms
+
+interestingly B performs more comparisons on average than B - 1.44 n lg n expected for B versus n lg n for B
+
+scenarios when B is worse than B
+
+B generally runs faster than B but under some circumstances it can degrade to quadratic running time
+
+B is more natural to implement for linked lists but you can do B very nicely
+
+it might be helpful to see why B is usually faster than B since if you understand the reasons you can pretty quickly find some cases where B is a clear winner
+
+B is worse complexity than B in the worst case.
+
+depending on where i look people say B is faster than B due to its locality of reference cache hits etc
+
+i had been taught that B is almost always quicker than B and i understand that there is some debate on this topic but i at least expected it to be closer than this
+
+normally B is faster than B which is faster than heapsort
+
+when comparing my B implementation with std sort on my compiler and my implementation of B i noticed an odd pattern on large data sets when operating on 64 bit integers B is consistently faster than B
+
+B is also more complicated than B especially if you want to write a really solid implementation and so if you re aiming for simplicity and maintainability merge sort becomes a promising alternative with very little performance loss
+
+B usually is better than B for two reasons
+
+B is not better it is well suited for a different kind of application than B
+
+the B algorithm is faster than B which is what sorted will get you when called on a sequence of objects via java.util.arrays.sort
+
+for example locality of references has influence on cache hits or misses which is the reason why B performs better than B
+
+i have read that B is much faster than B in practise and the reason for this is the hidden constant
+
+the biggest difference that can be produced between the two of them will always be to B s detriment and it involves lists that are already largely sorted or contain a large number of ties when B does better than B the difference will not be nearly so great
+
+i do know though that B has more compares but less swaps than B which i learned from another stackoverflow discussion B vs merge sort
+
+i know B is better since it is stable and doesn t have n 2 as worst case but i required to implement B
+
+B is approximately 40 faster than B on random data because of fewer data movements
+
+B has better locality of reference than B which means that the accesses performed in B are usually faster than the corresponding accesses in B
+
+to be specific the B runs faster than B in the first test case and loses badly in the following 9 tests
+
+after a lot of googling i ve found that most sources say that the B algorithm is more efficient than the B algorithm
+
+the only issue with applying that technique for the single source shortest path problem is that reweighting with B takes o mn time which is slower than B s o m log n
+
+in fact i think it is fair to say that B is more similar to B because of its use of iterative relaxation
+
+but under what circumstances is the B algorithm better than the B algorithm
+
+since a proper implementation of B is faster than B use B unless there are negative weight edges in the graph
+
+i guess B is older and B is newer
+
+B signatures are signficantly shorter than B ones
+
+B has signature that is independent of key strength and is much smaller than B signature for equivalent security B 1024 1568 vs B 192
+
+that continued usage of 1024-bit prime field elgamal or B keys is much riskier than it is for 1024-bit B all are still commonly used because once a successful attack has been conducted against a single well-chosen prime field all users of that prime field may be affected at little additional effort.
+
+however in this case B key size is less than B key size
+
+then you use it as seed in B which is less good that one is a non-cryptographic B and its output may exhibit some structure which will not register in a statistical measurement tool but might be exploited by an intelligent attacker
+
+the non-B B behaviour is more a reflection on the quality of the rand B â it is often not very good
+
+if you use B no extra memory is needed at all though B will be much slower than B
+
+B code is 8 times larger than B
+
+by comparison B see section 3.2 and other block ciphers are much faster than the B algorithm
+
+B turned out to be even slower than B but for my current requirements a much simpler algorythm rc4 is sufficient
+
+i ve read that B encryption is more secure than the triple B encryption ms is using in their example above
+
+edit 3B is better than B in the sense that it s significantly more secure but still less secure than B but its performance is of necessity significantly worse than B B or twofish because you re essentially applying B three times
+
+if B is negotiated it s faster than B and 3B used by default by older applications
+
+according to this analysis B rijndael-128 is more than twice as fast as B 3B with a bigger key size more secure
+
+which steps of B encryption makes it less vulnerable than B
+
+turns out this was a hardware failure the B commands need more power than the B crypto1 ones 50 more which the antenna failed to deliver at the reading range i was testing with
+
+this shows that the timings are sensitive to buffering and that B is faster than B
+
+since the next is not far the number of B steps is much fewer than with B matching
+
+the whole purpose of using B to secure the communication or any symmetric key encryption is that it s a lot faster than B or any public key encryption
+
+B is much slower than B
+
+block crypto algorithms like B do suffer from this problem too but without a pki B is no less safe than B
+
+asymmetric encryption ex B is no more secure than symmetric encryption ex B
+
+and regarding your first question it is definitely possible to encrypt decrypt messages directly using B there are only technical and performance reasons B is much faster than B why B is used only to encrypt a session key and B is used to encrypt decrypt the messages themselves
+
+execution of B is more faster than B for same key sizes
+
+it shows that B encrypt is faster then B encrypt
+
+there are two reasons for that performance B is faster then B and resources B is less resource hungry than B
+
+how is B less secure than B in this scenario
+
+note however that doing so means that each encrypted chunk has its own padding and that B is much more computationally expensive than B
+
+considering most B moduli are at least 1024 bit this will be much larger than an B key
+
+as far as efficiency B is going to be orders of magnitudes slower than B so the trade-off you make is that you give up simplicity you give up the simplicity of using B in favor of some B chunking in return for poor performance you get the slower performance of B.
+
+so the 115 seconds will be reduced to 3-4 secs plus the encryption decryption time used for B which is much faster than B
+
+asymmetric key encryption ex B is no more secure than symmetric key encryption ex B
+
+while 256-bit B might sound less secure than 4096-bit B they might actually be quite similar from the offered protection
+
+the B key is encrypting much more data but is much faster than B encryption
+
+in your particular case an B key of 2048 bits has a lot less strenght than an B key of 256 bits
+
+one of the reasons to do so is that B is much slower than for example B
+
+B is more difficult to implement B but the out-of-place version is very cache-friendly - i suspect real-world implementations accept the o n space overhead - ram is cheap but memory bandwidth is a major bottleneck so trading memory for cache-efficiency and speed is often a good deal
+
+1 B merge sort is used when you want to sort a list in o nlogn time while using less space than standard B
+
+another reason is that B needs more memory because it s hard to implement it as an B sort
+
+why it is said B has better constant factor than B and therefore B is better than B in average
+
+B time complexity is typically o n log n but it s worst case is o n 2 which is avoided with the switch to B since B is always o n log n but slower than B so it s only used to avoid o n 2
+
+the difference is large enough that the constant factor in front of the n log n term in B is lower than the constant factor in front of the n log n term in B which is one reason why B is much faster than B
+
+for example B average cost t n.log n and B average cost t n.log n are both sorting algorithms with the same average cost - yet B is typically much faster than B
+
+however B is slower than B in the average case in the sense that B performs c n log n whereas B has d n log n performance with d being significantly smaller than c the numbers c and d are constants
+
+for example B is faster than B in general although their time complexity are the same
+
+when you say something like B should be faster than B what makes you say that
+
+but there are many citations of real world tests which show that B is significantly slower than B on average
+
+because B is actually slower than B for each n
+
+can anyone explain why B performs better and under what circumstances quichesort would be better than both B and B
+
+however B s worst-case performance is significantly worse than B s is
+
+these formats allow various data compression codecs note that B is now much more popular than B and can also provide other benefits such as fast serializable deserialization column pruning and bundled metadata
+
+in my tests B performs better than B by the way
+
+B is also significantly faster than B for decompression
+
+B is used by python and java for their sort methods and is rather supernaturally fast but it s a more complex algorithm than B which matters if you re working in something like c - so if you just need something that works pretty well and is simple go with B
+
+why B or introsort or any comparison-based sorting algorithm is more common than B
+
+which of the two consumes more memory is not defined and depends on the input sequence to be sorted as well as on algorithm tuning parameters see the comments to one of the answers to why B is more popular than B
+
+B is much faster then B at verification
+
+B is much faster than B for private key operations so it should definitely be preferred over B when high efficiency is required unless B is still fast enough something that may very well be the case
+
+in cs B is less commonly used because we have much better algorithms B and merge-sort come to mind
+
+indeed B s algorithm is better than B s in this case the complexity for B is o m n 2 and in this problem m is much much higher than n so the o n 3 time complexity of B is better
+

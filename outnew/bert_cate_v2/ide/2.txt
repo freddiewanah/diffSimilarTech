@@ -1,0 +1,10 @@
+if you re focussing on pure client code then i find B to be an excellent javascript html ide - even better than B
+
+consider using B canvas now ga which is an added-value iframe with more security and easier integration with B apis than raw iframes - see
+
+B is more of a replacement of an ide for mac and linux in windows the recommended thing is to use visual studio or B
+
+webstorm + pycharm + B + phpstorm though to be fair B has more features than B atm
+
+for that purpose i want to transform the B model into a c version and launch it from a B script so that the process would be much faster than opening B environment
+

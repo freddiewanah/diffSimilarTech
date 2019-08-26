@@ -1,0 +1,130 @@
+what happen when B is disabled in an router and when packet size greater than B how the router fragments that packet
+
+any device in the path of communication between the sender and receiver whose B is smaller than the packet will drop such packets and reply the sender with B destination unreachable datagram too big message containing the device s B
+
+one might want to define B access to more than one B server
+
+in fact with optimizations like B you might find that a tls-secured connection actually performs better than plain B
+
+push log files to a central location B is faster than B the windows B command can be automated with -s scriptfile
+
+theoretically B should be be 30-50 faster than B because it s missing the extra trip for the ack and has a smaller header overhead however in reality there are many cases where B would outperform B just because of congestion control
+
+B is really faster than B and the simple reason is because it s non-existent acknowledge packet ack that permits a continuous packet stream instead of B that acknowledges a set of packets calculatd by using the B window size and round-trip time rtt .
+
+i know B is a safer choice but let s assume i can only use B and i need to ensure i can send packets over at a high rate with no missing packets what should i do
+
+getting much more information is needed in the packet header for connection less like B but why the header size of B is less than B
+
+instead you can use B and implement your own scheme for verification of data that is less stringent than B
+
+the reason B is faster than B is because there is no form of flow control or error correction
+
+B has a much lower overhead than B
+
+B mounts are more reliable and you know you have a network problem much faster than with B
+
+i assumend that the transmission using B have to be much faster than using B but in fact my tests proved that the B transmission is about 7 to 8 times slower than using B
+
+B is subject to higher latencies than B as it requires the client to send back packet confirmations
+
+for example B has much more flags window-length syn ack etc - and also starts and ends a connection in a very stable way - the three way handshake - while all B has is source ip dest ip length source port dest port and checksum
+
+B has less overhead than B and is therefore faster
+
+i am using B because it is much faster than B but sometimes i need the know for sure if the packet reached to the other side in my program i can not use B at all so i am sending ack packets
+
+and there are no handshakings required B are pretty much faster but less reliable than B
+
+B is more popular in nat punching because provides much better results than B
+
+B is slower assures data arrival B is faster data corruption may be possible
+
+B sockets- guaranteed delivery bigger payload than B cumbersome to setup for web based solutions
+
+i did some research and found that B may be more suitable in this case because B hole punching works much better than B hole punching
+
+B is slower than B and you ll have to mitigate that in realtime multiplayer
+
+if you were attempting to beat the performance of B by shifting to B keep in mind that part of the reason you get lower performance with B is because B tracks and redelivers the lost packets for you
+
+B socket is even more likely than B socket but both work
+
+B will almost always provide better performance than B at the cost of reliability
+
+actually we could say that B is a higher level protocol compared to B because B includes some advanced features which might be useful .
+
+since loosing some packets doesn t matter but speed latency is crucial B is much better than B
+
+B is way lighter and faster but somewhat less reliable than B
+
+in general the B protocol manages the available network bandwidth better than the B protocol
+
+is sending packets via an established B connection after all hand shaking has been done a method to be faster than B
+
+in a native application i would use B for the most data player position ... because it s way faster than B and it s uncritical when it is lost
+
+as an additional note my suspicion is that you d need to indulge yourself in some pretty sophisticated benchmarks before you could conclude that B is actually going to have higher performance than B for web services
+
+normally a server wouldn t need to know the client s address beforehand but B s knottier than B the more usual stream-oriented approach to socket communication in many ways
+
+but there are some cases especially in iot domain B is more popular than B for its bigger transport overheads
+
+i know that in practice this would only happen with a great amount of connection given that processing time of an B connection is faster than B but it could potentially happen
+
+if you can t afford lost packets then B is probably a better option than B since it provides that guarantee out of the box
+
+http is an application layer protocol which could be encapsulated with a protocol that uses B providing arguably faster reliable communication than B
+
+-- in which scenario configuration would i get B to perform better than B
+
+it is optimized for downloading larger files where the setup overhead is amortized over the size and number of downloads http is very light-weight you can communicate to an http server using B much easier than B especially before passive B and is designed around html -- the concept that in the course of your navigation you will be visiting many different servers and grabbing only a couple of files at a time from each
+
+yes i know B is better than B but right now i m stuck with B
+
+my lwip can send B packets to pc but my pc would fail to reassemble when the B packets are larger than B
+
+ever since i did sockets programming on a pdp 11 it s been the case that ip fragmentation will take care of the case where an ip datagram such as a B datagram is larger than the B for the segment allows
+
+i am working on B socket programming and i have to stop the transmission in application if requested data is more than B value
+
+in real life B packets size usually is equal or less than B size
+
+what would happen if my B package is larger than B
+
+they are easily generated for B simply by making the datagram bigger than the B
+
+if B payload size is bigger than B size B will silently segment the packet
+
+ideally your B frames are smaller than the B for your architecture say 1500 bytes so the messages won t get chopped up in transit
+
+if you send a B datagram larger than the B it will be fragmented
+
+when send a B datagram larger than the B size only the last fragment of the B datagram is putted out to the destination
+
+if there is network congestion rate limiting or traffic profiling or if the B message size is larger than the B
+
+to send large blocks of data via B you need to chop them up into pieces smaller than the B for the network segment across which you re transmitting them
+
+note that B packets bigger than the B s at every hope between your hosts will be split by ip
+
+B packets greater than the B size of the network that carries them will be automatically split up into multiple packets and then reassembled by the recipient
+
+now if you re intending to use a remote filesystem with ofs which is the primary use-case you have to first install the relevant remote filesystem packages on the os you re using then use for example if we ve got B which is the newer name for B samba
+
+in fact B especially the ttl excceeding message has even less limitations than B on nats for the error message can be sent from every corner of the internet and routers with nat cannot be aware that these messages are not the true ones
+
+regardless the B protocol is more simplistic in nature can handle orders of magnitude more client connections than B for the same memory utilization uses less bandwidth on the wire doesn t require authentication although you can add this feature etc
+
+you are right that using B is probably better to use for something like this or even an existing protocol like B
+
+if you are using linux check out netdiscover this uses B i think B is lower level than B udp and with java you can only create apps from B udp and above
+
+almost all B B providers allow you to forward calls from an attached did telephone number to more than one B device so your request could be satisfied by a basic account on your friendly neighbourhood B provider
+
+it could be a sni problem if you use any kind of load balancer B proxy or more than 1 B certificate on the same ip
+
+B is more flexible than B an application can configure the level of security it needs
+
+as last resort resolution i don t suggest this for security issues using B is always safer switch your registry to use http instead of B
+

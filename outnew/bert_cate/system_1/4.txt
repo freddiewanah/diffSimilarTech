@@ -1,0 +1,54 @@
+the third line displays the data with the maximum useful precision - an B 754 64bit floating-point number has slightly less than 16 B digits of precision so all those digits of the literal in math.h are pointless perhaps they can be seen as future-proofing against a possible future redefinition in a format with more precision
+
+the maximum representable value with B 754-2008 binary32 is so the base 2 log of a number stored in binary 32 is less than B 128
+
+double has its B floating point definition which is also much more complex than B
+
+extfs4 or B are between 25 and 40 faster than B or refs depending on the optimization
+
+B is way ahead and has larger extensions than B
+
+it is working only for simple .php files but B is more complex and after long period of loading it show B nothing found site loaded
+
+since B is a bit more complete than B when it comes to features you could define separate issues with custom field for your tasks
+
+thinking you can format B blocks any better in a cms such as B and use B just for the backend will put you on a hiding to nothing to end up with a fairly useless setup that isn t going to go anywhere
+
+the B encoding mechanism is less error-prone than B so i ll demonstrate using B
+
+the B encoding mechanism is less error-prone than B so i ll demonstrate using B
+
+B is just less verbose and can express anything a B number can
+
+this is still accepted by calls like inet_addr and has several advantages all fields are fixed width there are only 8 characters to update and the B to B conversion is usually faster than B to decimal
+
+base64 is usually used in instances to represent arbitrary B data in a text format it has a 33.3 overhead but that s better than say B notation which has a 50 overhead
+
+format_int in B case it loops 4 times then 4 times more than B and dec cases
+
+wondering mainly if B uses less disk space or more than the same in B
+
+in this case i converted the B to B and found the file size on the hard drive it was on my own laptop at the time but it was much smaller in B than in B but there could have been some compression applied i dont know but everything on the web said B would actually be bigger than B
+
+the first one can be solved by using B +ssh which is the more comparable format as B uses its own protocol as well
+
+wondering mainly if B uses less disk space or more than the same in B
+
+in this case i converted the B to B and found the file size on the hard drive it was on my own laptop at the time but it was much smaller in B than in B but there could have been some compression applied i dont know but everything on the web said B would actually be bigger than B
+
+the first one can be solved by using B +ssh which is the more comparable format as B uses its own protocol as well
+
+however B protocol is much faster so i suggest using B B for performance reasons
+
+this means the buffer is enough for printing the number in B and since B representation uses no more digits than B it will be enough for B representation too
+
+bitshifts just go easier with hexaB than B and is often more convenient to read than B
+
+hex or maybe B depending on the machine being emulated will be clearer than using B since similar opcodes tend to vary in bits not digits
+
+this means the buffer is enough for printing the number in B and since B representation uses no more digits than B it will be enough for B representation too
+
+bitshifts just go easier with hexaB than B and is often more convenient to read than B
+
+hex or maybe B depending on the machine being emulated will be clearer than using B since similar opcodes tend to vary in bits not digits
+

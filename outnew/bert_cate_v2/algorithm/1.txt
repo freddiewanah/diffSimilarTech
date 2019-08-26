@@ -1,0 +1,84 @@
+should be as fast as B B turned out to be much faster than B in software typically 5 to 10 times faster
+
+for instance B can outperform B although B is provably better than B in the worst case
+
+that s hard to say.the worst of B is n log2n -n+1 which is accurate if n equals 2 k i have already proved this .and for any n it s between n lg n - n + 1 and n lg n + n + o lg n .but for B its best is nlog2n also n equals 2 k .if you divide B by B it equals one when n is infinite.so it s as if the worst case of B is better than the best case of B why do we use B
+
+for the 10 tests on the same list the results should be quite the same at least all showing that B is faster than B or vice vesa
+
+B is usually faster than B just because it s easier to code a tight implementation and the operations it does can go faster
+
+that way B can reach recursive base case more quicker than B
+
+as many people have noted the average case performance for B is faster than B
+
+B is more sensitive to input sortedness in a positive way than B
+
+B consistently has less recursive calls than B
+
+B is slightly slower than B but it does not have B s susceptibility to pathological cases
+
+purely in terms of the number of comparisons performed is B always more efficient than B
+
+why is B better than B
+
+B uses about 30 less comparisons than B
+
+when comparison function is a callback function like in B libc implementation B is slower than B by 15 on random input and 30 for already sorted array for 64 bit integers
+
+it s because that B is generally faster that people use it instead of B
+
+in most cases B will run faster than B even though the worst-case execution time is longer
+
+parallelizing B is simpler than B in-place
+
+i personally would use B for my encryption as it is lighter and more secure than B in fact i think it is the de facto algorithm at the moment
+
+but B is older and weaker than B
+
+surely there is some situation in which the B approach is better than the B approach
+
+however if g is guaranteed to have only non-negative weights g is non-positive weights then B s algorithm could be better choice over B
+
+B as suggested in your question tends to be slower than either B s or a - it is primarily used when there are negative edge-weights which there are not here
+
+however B verification expect verification calls to be 100x issue is about 10x slower than B verification
+
+this is why B is much slower than B
+
+B is also a better choice than B because it has much better breadth of support for signatures still considered secure by nist
+
+normally quicksort is faster than B which is faster than B
+
+what baffles me is that my B seems to be slower than B in both of the languages
+
+if you used B then you might see a better speedup over the B 3B observations
+
+also see why B is more secure than B
+
+B is usually substantially slower than B on modern hardware and has keys that are far too short for modern use
+
+but if you use public key encryption to encrypt messages you are a limited to small messages -- a 1024 bit B key encrypts less than 128 bytes and b going to pay in performance because public key encryption is much more costly than symmetric key encryption such as B encryption
+
+that is actually not the case with B which is --- more so than B --- just a math equation
+
+like you heard asymmetric cryptography like B is much slower than symmetric cryptography B but it does have it s advantages simpler key management a single private key to protect
+
+in practice however B is usually faster then B
+
+after several tests i found out that my B is way quicker than B i think it should be the other way around my selection sort is also faster than insertion sort
+
+so for even small inputs B does less work than B and is physically faster for every n
+
+in their respective worst cases B is faster than B
+
+B also has a better cache access behavior than B
+
+you can indeed show that on average B will do more comparisons than B roughly 1.44 n log 2 n for B versus n log 2 n versus B
+
+B also consistently decompresses 20 + faster than B which is a pretty big win if you want it for files you re reading a lot over hadoop
+
+if that is so you might find that B runs faster than B
+
+if it is true then B will always take less comparison than B because on real life data there is some pattern except data is truly random
+

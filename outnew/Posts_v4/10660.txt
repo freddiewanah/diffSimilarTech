@@ -1,0 +1,10 @@
+912729
+inline	inlining
+next if you want to mark a function as inline there s no reason not to do it in debug builds as well
+the inline keyword has almost nothing to do with the compiler actually inlining functions
+
+912729
+inline	inlining
+and that makes it easire for the compiler to inline calls to the function
+finally inlining is not always a performance improvement
+

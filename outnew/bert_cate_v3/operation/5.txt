@@ -1,0 +1,94 @@
+so the compiler can t make the optimization because it can t tell if you wanted the exact behavior where * is better or the implemented behavior where the scale of sum affects the result of the *
+
+so we must show that a gradeschool * circuit is o log n times deeper than an * circuit
+
+python respects this definition whereas in most other programming language the * is really more like a reaminder after * operator
+
+if you compute * a power of two using bitwise and is simpler and generally faster than performing *
+
+this is easy to implement with buttons select items click up or down buttons to * - just loop through and apply the * to each selected item but much more difficult with * reordering
+
+i got a *gable object done with jquery ui and when i * it it s way slower than i * my mouse
+
+it ends up in a state of confusion...you basically cannot release the * of the table it keeps getting bigger and smaller as you * your mouse - but you can never let go and release it to get the size you want
+
+perhaps it s the case that * is much more accurate than reciprocal plus *
+
+edit as gregs points out in the comments you cannot be sure that the private * of the key you want to encrypt is smaller than the * of the key you want to use to encrypt with
+
+the private * is always smaller than the * so you should be able to encrypt it using the raw rsa operation if you make sure to remove the prepended zero
+
+in rsa signing a message m means *iation with the private * d the result r is the smallest integer 0 and smaller than the * n so that
+
+using the pow function and passing a * value is faster than computing the full * and then taking the * because the * can be applied to the partial products at each stage of the calculation which stops the value from getting too large 10 6 to the power of 10 6 has 6 million decimal digits with a * applied at each step the values never have to grow larger than the size of the * - about 13 digits in this example
+
+i must also add that designing the rsa key so that the private * is substantially shorter than the * to speed up operations is a security risk if the * is smaller than 29 of the * length then the key can be cracked
+
+the private * must not be longer than the *
+
+1024 bit private * large number lower than the *
+
+this is similar to operator precedence in mathematics where for example * has a higher priority than *
+
+for instance in arithmetic * has higher precedence than *
+
+an expression like binds as not because of associativity but because 2 * has higher precedence that + 2 *
+
+the * are the bottleneck of the calculation even though they may be one instruction a * takes longer than an *
+
+its the * that historically was slower than the *
+
+that is essentially the one case in which repeated * 0 or 1 times a special case of repeated * can be and commonly is but not necessarily faster than division-based *
+
+the reason is that the * is slower than *
+
+i read in couple of blogs that in java * reminder operator is slower than *
+
+that s because the * operator has a higher precedence than the * operator -
+
+this platform is probably not representative of your microcontroller but the test shows that on this platform the * is considerably slower than the *
+
+* is much more expensive than *
+
+if you think back to grade school you ll recall that * was harder than addition and * was harder than *
+
+which one is faster is indeed a cpu-specific issue or at least how much faster is cpu specific yes * is typically seen as slower than *
+
+change the half to 0.5 and you should be golden for the math part also * is faster so use it instead of * when possible
+
+in a 64 bit application this code will be a lot faster than in a 32 bit application in a 32 bit application multiplying two 64 bit numbers take 3 * and 3 additions on 32 bit values - however it might be still faster than a * on a 32 bit machine
+
+you always need to know the magic number here 0xaaaaaaab and the correct operations after the * shifts and or additions in most cases and both is different depending on the number you want to divide by and both take too much cpu time to calculate them on the fly that would be slower than hardware *
+
+i was always taught that * is slower than * but i have no real proof of thisâ has anyone got an opinion on this before i start benchmarking and running test
+
+* is a lot more expensive than *
+
+if a remains the same and b is changing say if your code is in a loop and it s clear that a does not change between two iterations for instance because it s a const variable then the original version can execute faster because * is cheaper than * assuming the compiler moves the computation of 1 .
+
+on many processors integer * is faster than integer *
+
+floating point * is faster than * so if speed is relevant
+
+if you continue to use your method of performing this task then you need to manually check if the * of the two lower order decimal digits has caused a carry by checking if the result of the * is greater than 10 and if it is * 10 from the number and then add 1 to the higher order digit calculation
+
+i was thinking that there could be an issue if the result from the * is bigger than what 15 bits can represent 32767 or if i get a negative number in the *
+
+here it is conceivable that * is slower than *
+
+the * has higher precedence than the * so what you re calculating is sumaverage1+ sumaverage2 5 which is integer * which is probably not what you want
+
+in * to that the crossing off may be less work than a * don t know about python it is for c arrays
+
+the * and subtraction is okay because the types of a and b force them to be performed using floating point arithmetic - but because * binds more tightly than * and subtraction it s like using the brackets above only the immediate operands are considered
+
+best example the * it an an * are both o 1 but usually the * takes far more cycles time to execute than the *
+
+the * operator has a higher precendence than the * operator so your function is calculating 1 1 + e -x
+
+* is even easier as you dont have to line up the decimal points you just do the math on the significant digits and simply add the *
+
+however with really very small parameter 2 in your case * is faster than *
+
+this tiny overhead on add is vastly outweighed by the savings on lookups since all programmers should know and understand that * compares are vastly slower than * especially with unicode - the cpu can t just do a block compare of data but must check each pair of characters specially even using a table look-up this is vastly slower
+

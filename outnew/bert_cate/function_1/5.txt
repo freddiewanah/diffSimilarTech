@@ -1,0 +1,180 @@
+B is rarely slower than B or strncpy and often significantly faster
+
+B can be more efficient than B since rep movs is highly optimized on intel cpus esp
+
+performance difference B is usually more efficient than B which must scan the data it copies
+
+so i feel that on x86 B is faster than B
+
+your macro with memset and B was not any safer than B
+
+is B usually faster than B on most real platforms
+
+memset behaves like B but the difference is that B copied the data as it is byte but B copies the formatted string as well so takes more time than B to execute
+
+B is rarely slower than B or strncpy and often significantly faster
+
+B can be more efficient than B since rep movs is highly optimized on intel cpus esp
+
+performance difference B is usually more efficient than B which must scan the data it copies
+
+so i feel that on x86 B is faster than B
+
+your macro with memset and B was not any safer than B
+
+is B usually faster than B on most real platforms
+
+memset behaves like B but the difference is that B copied the data as it is byte but B copies the formatted string as well so takes more time than B to execute
+
+but as that reference points out B is way faster than B and sha functions although it doesn t do a direct comparison to the object.gethashcode method i mentioned above
+
+it is likely that you could do an sha B of 100kb in well less than 10 second though and though sha-1 is still theoretically flawed it is of higher strength than B
+
+it is likely that you could do an sha B of 100kb in well less than 10 second though and though sha-1 is still theoretically flawed it is of higher strength than B
+
+marcus yes B is faster than B and faster than python but why
+
+use B it does better error reporting than B
+
+i understand that B and strtof are preferred to B atof since the former detect errors and also B is much more flexible than B when it comes to non-base-10
+
+i would recommend B which provides better error handling than B or sscanf
+
+all have more or less cumbersome and non-obvious error checking involving errno B is way much better than B in any case so avoid using B
+
+B is more pythonic but B is fine here too
+
+if you measure properly you ll see there s essentially no difference B is microscopically faster than B in this example but well within noise
+
+why is B slower than B + lst i
+
+B is more pythonic but B is fine here too
+
+if you measure properly you ll see there s essentially no difference B is microscopically faster than B in this example but well within noise
+
+why is B slower than B + lst i
+
+the B loop variant was consistently 45x slower than the B loop
+
+doing things like 1000 successive B is much slower than doing one single B of 1000 bytes
+
+B performs better than the generic B and better than having another and
+
+B will be faster i think because it has lesser function code implementation for itself making it faster than B
+
+this is pretty much the ifloop answer but B is slightly faster than B
+
+edit based on the tests done by multiple people and by theory B seems to be a better option over B
+
+B performs better than the generic B and better than having another and
+
+B will be faster i think because it has lesser function code implementation for itself making it faster than B
+
+this is pretty much the ifloop answer but B is slightly faster than B
+
+edit based on the tests done by multiple people and by theory B seems to be a better option over B
+
+or maybe flip them on my machine B seems faster than B
+
+B is faster than B reason is that B processed single dimensional array to pointer format whereas B takes double dimensional array and before processed it converts to single dimensional array then to pointer format
+
+if end up using the memory anyway B is still faster than B and memset but the difference is not quite so ridiculous
+
+and is as far as i know faster than the combination of B and memset on the other hand B alone is faster than B
+
+those answers was that B can allocate larger blocks than B can and etc
+
+also B is slower than B from operating system memory allocation perspective
+
+i remember somewhere i have read that B is slower than B because B performs initialization to zero after performing memory allocation
+
+B is faster than B reason is that B processed single dimensional array to pointer format whereas B takes double dimensional array and before processed it converts to single dimensional array then to pointer format
+
+if end up using the memory anyway B is still faster than B and memset but the difference is not quite so ridiculous
+
+and is as far as i know faster than the combination of B and memset on the other hand B alone is faster than B
+
+those answers was that B can allocate larger blocks than B can and etc
+
+also B is slower than B from operating system memory allocation perspective
+
+i remember somewhere i have read that B is slower than B because B performs initialization to zero after performing memory allocation
+
+as you can see from the above tests B is consistently faster compared to memalloc B and free
+
+as we can see copying manually with B is always slower than B because in this scenario malloc is guaranteed to allocate new memory and you re forced to copy the data in every allocation which shows us that B is indeed reusing the same address and enlarging the block size in some cases
+
+as you can see from the above tests B is consistently faster compared to memalloc B and free
+
+as we can see copying manually with B is always slower than B because in this scenario malloc is guaranteed to allocate new memory and you re forced to copy the data in every allocation which shows us that B is indeed reusing the same address and enlarging the block size in some cases
+
+with typical libraries on common modern hardware B is faster than B
+
+finally i also made a benchmark test which shows that B operation is slightly better than sapply B and significantly better than vectorised B alone
+
+finally i also made a benchmark test which shows that B operation is slightly better than sapply B and significantly better than vectorised B alone
+
+after looking it s seems that B is much faster and better in term of security even if the underlying B function sha1 is broken which is not the case when using rsa-sha1
+
+after looking it s seems that B is much faster and better in term of security even if the underlying B function sha1 is broken which is not the case when using rsa-sha1
+
+why is B so much slower than B or hand rolled copy on the server
+
+why does B perform slower than B on my system
+
+the question is about is there really any platform where B is faster than B
+
+in addition as mats petersson said B is cache friendlier than B
+
+so in what platform and how B can be significantly faster than B if there is none why providing two similiar functions instead of just B and lead to a lots of bug
+
+from reading other so questions such as this or this gives the impression that B should work faster than B and intuitively this should be so
+
+std B may be very slightly slower than std B emphasis added because it has to first check whether the source and target ranges overlap
+
+that s why B can temporarily require more memory than a B free pair
+
+that s why B can temporarily require more memory than a B free pair
+
+then for reading i find B to be more powerful than B fscanf the differences between them all are summarized here
+
+then for reading i find B to be more powerful than B fscanf the differences between them all are summarized here
+
+my question is why is malloc + B so much slower than B
+
+see also why malloc + B is slower than B
+
+malloc + B is slower than B under certain conditions
+
+my question is why is malloc + B so much slower than B
+
+see also why malloc + B is slower than B
+
+malloc + B is slower than B under certain conditions
+
+this is the case here because B hello is greater than 3 your last B argument
+
+B ... is extremely fast 10 - 100 times faster than B ... or read.csv ... for large datasets
+
+B ... is extremely fast 10 - 100 times faster than B ... or read.csv ... for large datasets
+
+afaik B is not slower than B
+
+afaik B is not slower than B
+
+but when is B and clone better than B
+
+i probably feel B might be bit faster than B as B changes the pointer position to the new address space that you have mentioned and there is no date read is happening
+
+i probably feel B might be bit faster than B as B changes the pointer position to the new address space that you have mentioned and there is no date read is happening
+
+using B is considered safier than B because the second one can easily cause buffer overrun
+
+using B 3 is better than B 3 but things like strlcpy 3 are better still
+
+doing a single B and B is faster and simpler than doing 2-3 B calls
+
+i confirmed that in debug mode the B version is slower about 130 âµs vs 60 âµs for the B version
+
+even if underlying implementation is not so different B is much faster because it does not have to check what it s copying B will stop when it ll copy the end of string character null
+

@@ -1,0 +1,206 @@
+* is free in my opinion has better chart than * it doesnâ t have events
+
+you should be able to do this in * which has a better license than * by just throwing what they showed in this blog post on its side
+
+anyway if you re willing to do advanced 3d stuff * is way better than *
+
+personally i ve used * in the past and found the performance much better than * for 3d scatter plotting though the python bindings are somewhat in question moving forward i think
+
+as a result of this comparison i see that * is performing so much worse than * that i m starting to doubt about my code
+
+for more complex xml reading writing you better check * which is heavier than *
+
+but this popular wsgi benchmark says * is way slower than *
+
+because * is updated more frequently than * a * * build is provided to ensure compatibility with the latest stable version of *
+
+the solution from charliefl is approximately 100x faster than * depending on browser in this case and * being up to 2x faster than *
+
+i believe * is a better choice over * more details in this blog post
+
+edit as pointed out in the comment * is likely to be a better solution than *
+
+in its stead you can use * - which does filtering a lot easier than *
+
+according to this answer the * plugin might work better than * for media-queried resizes
+
+they merged with * which in my opinion is a better choice than *
+
+i have tried * too but * is smarter than * on this aspect
+
+i ve found * which is more like the * but it lacks a lot of * libraries
+
+if you definitely need svg and want to only use existing elements you may want to look at * which is raphaels younger sister and shares a lot of the same codebase or another like *
+
+* has more components but lack combobox available in *
+
+enthought-dev is * faster than *
+
+i wish program with * and * is faster than with only *
+
+new to * already loving it so much better than *
+
+the downside is that you are losing the big part of the * s appeal in its simplicity and technically could be better off by using * s dsl
+
+quick takeaway of the benchmark jackson performs 5 to 6 times better than * and more than twice better than *
+
+i think * looks so much better than * but for quick zooming panning functionality my first question is is this better off in * or can * handle slick zoom pan even though it s not tile-based
+
+the standard html.parser option handles broken html less well than other options while the * option is closest to how a modern browser would handle broken html albeit at a slower rate than * would handle html parsing
+
+you can also try sklearn.linear_model.logisticregression and sklearn.svm.linearsvc both implemented using * that is more scalable than * albeit less memory efficients than other linear models in scikit-learn
+
+when i evaluated * it was less mature than *
+
+at least for .executemany * seems to be more proficient than * as the sql statement is only prepared once for all submitted values
+
+i hear * is nicer the *
+
+first of all if it was not for the relative complexity of the expressions here * would have been definitely the better option over *
+
+if you are dealing with docx document * is more convenient than *
+
+is * faster slower than * during training
+
+more than this methodology i would suggest to you to do the training directly in * as it claimed that * optimizers are 5-10 times faster than * s optimizers
+
+i found another approach using the * context passed to the handler of draw events but it resulted in capturing a region of the parent window that was larger than the *
+
+you may also use * which is a simpler encoder than *
+
+it is similar in spirit to keras which is built as a high-level api on top of * tensorflow cntk although the main difference is that * implements only one backend allowing it to integrate more deeply with * features
+
+regarding skinning i feel * default skinning to be more basic than * one but i think both have ways to make them as beautiful as your css skills allow you
+
+to draw you can use either plain * which is more basic or use * which is more flexible drawing library nb
+
+you should try * i think its much better than *
+
+it can be hard to get the layuots exact the way you want in * it s usually easier in *
+
+so in my view using * is simply easier unless you have more experience in *
+
+* is claimed to be faster than * although in modern versions * is also fast enough
+
+* is the weaker of the gui technologies relating to accessibility in java compared to * at any rate
+
+* has a more platform-specific look about it but java ships with * built-in there s no messing about with external libraries as with * although the use of eclipse may make that much easier i still develop quite a bit of my stuff from the command line unfortunately
+
+* has no any other unnecessary things so it is better than * or qprogressbar
+
+with * it s more common to use * already mentioned by jeff foster
+
+* is more strict the * so i m now learning it
+
+the origin server would get the images from s3 process them using * since it s much faster than * then serve them
+
+* provides more extensive api documentation than *
+
+while * aims to be more lightweight than * * is by far the more mature proj
+
+as a side-effect of implementing proper parent traversal * is a bit slower than * for parsing
+
+the * library includes a confusion matrix that is simple to use and produces a nicer output than *
+
+* is better than * because while in offline mode no internet connectivity * tries to fetch record form server whereas * maintains its cache form where it fetched the images
+
+it seems that the idea of * it to be more declarative than * so you just have pure
+
+i would also recommend you to check * as its way much better than *
+
+but if convenience is more important than efficiency yes you probably should consider a tree model not dom necessarily * is better for example or data binding jaxb or *
+
+* is faster than the * 2.3 malloc.
+
+for semantic zooming you ll notice that * is significantly faster than *
+
+finally i haven t done much with animation but i think you re entirely correct - * provides more animation support than * especially in terms of animated transitions
+
+if you don t plan to move to mobiles later tkinter or * may be a better choice than *
+
+2 readability library content is passable slower on average than * but faster than *
+
+note that * is probably a better option than * for this kind of task nowadays for the reasons given by * s author
+
+i do understand that traditionally they are saying that * are stricter than * however what i do not get is the following
+
+note that using the * parser is a lot slower than * s default parser
+
+* is significantly more powerful and robust than * in my experienced opinion
+
+according to the above posts and my own experience * is definitely faster than *
+
+edit don t use this for html work use the * library it s python based and much faster than *
+
+according to some benchmark tests * is nearly 100 times faster than *
+
+i ve found that even if * is faster than * for documents that size it s usually best to try to reduce the size to a few kb via regex or direct stripping and load that into bs as you are doing now
+
+one of the things that makes * better than * is support for proper css-like class selection or even supports full css selectors if you want to use them
+
+speed isn t important here but in other applications it is good to know that regexes are very fast 100 times faster than * and 1000 faster than *
+
+it s generally accepted that * is faster than * ref
+
+* is said to be slower than * but i suggest you use a profiling tool here to find the best set of options here
+
+yes * is slower than *
+
+in my experience * via mit-shm extension was significantly faster than * surfaces not sure i used * in the most optimal way though
+
+so i think * would a better choice than *
+
+if your company s concern is to avoid big unknown libraries which is prefectly understandable i d advise you to stick with * which is smaller that *
+
+for my project * is better then * because * is filling up all gaps * is just looking for the first possible gap and doesn t fill empty gaps
+
+also it seems * lib has better performance than other packages such as * which i haven t tried personally
+
+also i want to know if google * is better than * for json parsing
+
+keep in mind though that * is a larger library than * so depending on your case you might prefer * to avoid 65k methods limitation
+
+large objects google * performs faster than * and simple json
+
+in my case i found * little faster than * i used default serialization because so far i don t have a need to customize serialization
+
+* is faster with smaller documents and * is faster with large documents
+
+i ve seen questions like this come up before and the general consensus is that * is much faster than *
+
+i found * better than * performance project activity better docs ...
+
+finally if * just isn t working for you try * it s better documented than *
+
+* looks more good option to work than * bcoz it has inbuilt support its easy to learn its long time support guarantee for seam+* combination
+
+* is far more flexible for working with data so i often bring parts of * dataframes into memory manipulate columns and create new ones
+
+but if you will look at the accuracy level * have more accurate detection than *
+
+so * is just a library for creating windows in a better way than * did before
+
+edit 31 march 2014 for what it s worth i have found that * is much better at text extraction than itextsharp notwithstanding a bespoke strategy implementation and * tet is slightly better than * but it s quite expensive
+
+or if you re really focused on only doing opengl i may suggest using * which is the better * but you ll have to draw the menus yourself using opengl
+
+between these * is much closer to * in character -- a small toolkit for abstracting away most of the os-dependent parts so you can produce opengl programs with relatively little hassle
+
+edit 31 march 2014 for what it s worth i have found that * is much better at text extraction than * notwithstanding a bespoke strategy implementation and pdflib tet is slightly better than * but it s quite expensive
+
+* presents a more direct view of the protocol than * does so you often have to look at either the protocol specs or * source code to find out what the underlying protocol request is to find an equivalent
+
+note that * is significantly slower then for example * because it reads in class files directly instead of using reflective access in order to avoid class loading
+
+this makes for example * or proxetta significantly slower than * which simply reads the methods via the reflection api and overrides them
+
+if you re building a simple demo of a rendering mechanism * is way better than * it takes care of a lot of the details that * would otherwise require
+
+however if you re developing a serious application * is more likely to be the tool you need to use as * abstracts more than a real application would normally want to
+
+* is much more easier while many of people use * or sfml they re more flexible and feature-full than *
+
+since you tagged this with python you might find * more useful than * but the real question here should be about how to do the conversion not the library request since library requests are off topic for stack overflow
+
+* is faster than * but i ve never found an application where the speed boost paid for the hassles of distribution
+

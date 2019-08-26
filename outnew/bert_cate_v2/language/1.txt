@@ -1,0 +1,90 @@
+there are multiple reasons why the B code is slower than the B code
+
+personally i prefer B because you can use c very easily as anything that is legal in c is also legal in B added to which B is a more procedural in style where B is quite clearly object orientated
+
+as you can see defining a singleton class in B is much easier than in B
+
+so i ve started learning B because it looks way better than B
+
+if you get a difference between B and B it s more because B is probably better on optimisation
+
+as B is the older programming language for ios or macos applications B allows you to use those classes structs in your code
+
+B is clearer on versions releases and i keep asking myself if i am missing something related to B since i can t find this information
+
+B is much more free and easy with types and compilation checks where B isn t
+
+so it should have always been gkagent under B in order to be strictly correct however B is less type-safe than B so you could get away with it with the possibility that you d get an unrecognized selector exception if a gkagent object was ever passed to the delegate method and you assumed it was a gkagent2d
+
+B also prevents us i believe from overriding a parent class s property but also still lets us observe changes to that property--this is much better than B s approach
+
+B print is more readable compared to B
+
+adding lightweight generics to your B api makes it easier to interface with B because your api gets translated more precisely
+
+early this month i started learning B as i found it fun and easier than B
+
+however when i switch to B 4.0 the methods declared in B is no longer visible in B
+
+the B runtime is smaller than the B runtime
+
+B in that case would not be safer but less safe than B
+
+those attributes let you create B code which is more understandable by B and complier warn you when you break the rule for example
+
+while i think the move to B is prudent but i think it overstates the case to argue that B is significantly more secure that B
+
+i find that B is much nicer for working with core audio than B
+
+furthermore B is stricter than B when it comes to initialisers
+
+because you can determine what code in a B is likely to do better than a B it has been determined more error free to use a compiled perspective for more things so as you can see with the availability of offset-management and lookup compiled behavior given to you in core perl there is no reason to mess with the symbol table if you don t have to
+
+as dimitre says B is much better at this class of problem than B
+
+what s the deal i thought B would be nicer than B
+
+B is quicker than B but for what you re going to do you re trading speed for convenience - B comes with all the different ui classes list scrollbars etc already there
+
+i can see that my skeleton B module is slightly larger than my B module 66kb vs
+
+but B will be more than B and i use B heavily to validate xml values and i should be able to produce html reports well
+
+i noted that while in languages like c variable identifiers can only be alphanumberics and underscores common B allows many more characters to be used like and at least B does
+
+i don t see why sbcl should be so fast - B is a far simpler language than common B
+
+overall common B is much more uniform than B and more radical language experiments if done at all are usually embedded as a portable library rather than defining a whole new language dialect
+
+i ve also found B ides much more user-friendly than B s plt B is a good one
+
+i am not sure it can satisfy you but B test is 4 times slower than B
+
+keith pointed out that B has a more powerful type system but it can also be said that B has a more powerful module system than B
+
+you will also likely find the performance characteristics of your B code more intuitive than B because of B s lazy evaluation
+
+when writing code in B as i am wont to do as i have never been a fan of asp.net and B is infinitely more elegant than B you can call upon the arguments collection
+
+...i suggest doing all of the scripting from within the B file and avoiding the use of .cmd .bat files completely if you can as B is much more readable and powerful though i prefer using the B language instead but that s just me
+
+pacoblaze was written in B which like adam said less common than B
+
+B appears much more complex then B and the learning curve is tough
+
+none of the .net libraries are there and there are some syntax differences as B is more strict than B is
+
+biggest of all is that adding new features to your B application is more expensive than it would be if the application was in a better language like c# or B
+
+if you don t already know B there s little point in learning it now - your time could be put to much better use by learning B c#
+
+also developing enterprise application is such new languages java c# B rubby is easier that B because they rely on frameworks every body can write c# java code that function but it requires tricks good practices and some of imagination to write B strong and rehusable code
+
+fortunately B finally ended all that and is completely pixel based you can still alter you viewport scaling but .net seems to handle that much better than B
+
+recently we noticed that B queries run faster than B so we decided to convert our queries
+
+B seems much more clear to me than B and in general it seems that the guys in neo4j are going with B
+
+B is no better nor worse than B ruby python or any other scripting language in this regard -- they all do basic file operations with equal aplomb
+

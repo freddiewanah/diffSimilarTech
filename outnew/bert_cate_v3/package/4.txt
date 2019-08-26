@@ -1,0 +1,8 @@
+b * runs always slower than * sequential around 10 times slower
+
+you might want to use r markdown and * which is easier than using * and r as also zhaoy suggested
+
+* deals with badly formed html better than * is actively maintained * isn t and is a lot faster since it uses libxml2 internally
+
+* provides more human-readable wrappers around the base r functions though as of dec 2014 the development version has a branch built on top of * mentioned below
+

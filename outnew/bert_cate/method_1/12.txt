@@ -1,0 +1,50 @@
+and my guess as to why an element is being dropped is your B method never returns a 1 in any case so elements are always considered to be less than or B to other elements which is probably screwing with the treeset
+
+this interface defines the method B t which will return a negative number zero or a positive number if the first object is less than B to or greater than the other one respectively
+
+with this rather than needing to implement a comparator all you need to implement is the int B class o method in the class which returns a negative integer zero or a positive integer as this object is less than B to or greater than the specified object.
+
+according to javadoc B needs to return a negative integer zero or a positive integer as this object is less than B to or greater than the specified object
+
+note that in both cases you can take advantage of the fact that int also implements so you can use its B method to determine whether corresponding values in each instance of your class are less than B to or greater than each other
+
+i am using the B method in java to try and check if a certain date is greater than or B than 24 hours after another date
+
+is a generic type at compile time java will require that an instance provide an implementation of int B t o which from the javadoc returns a negative integer zero or a positive integer as this object is less than B to or greater than the specified object
+
+the interface defines one method B that must return a negative integer zero or a positive integer if this object is less than B to or greater than the other object respectively
+
+i know that in java there is a B method that you can write in a class that will compare two variables and return a value -1 1 or 0 signifing greater than less than and B to operations
+
+and my guess as to why an element is being dropped is your B method never returns a 1 in any case so elements are always considered to be less than or B to other elements which is probably screwing with the treeset
+
+this interface defines the method B t which will return a negative number zero or a positive number if the first object is less than B to or greater than the other one respectively
+
+with this rather than needing to implement a comparator all you need to implement is the int B class o method in the class which returns a negative integer zero or a positive integer as this object is less than B to or greater than the specified object.
+
+according to javadoc B needs to return a negative integer zero or a positive integer as this object is less than B to or greater than the specified object
+
+note that in both cases you can take advantage of the fact that int also implements so you can use its B method to determine whether corresponding values in each instance of your class are less than B to or greater than each other
+
+i am using the B method in java to try and check if a certain date is greater than or B than 24 hours after another date
+
+is a generic type at compile time java will require that an instance provide an implementation of int B t o which from the javadoc returns a negative integer zero or a positive integer as this object is less than B to or greater than the specified object
+
+the interface defines one method B that must return a negative integer zero or a positive integer if this object is less than B to or greater than the other object respectively
+
+i know that in java there is a B method that you can write in a class that will compare two variables and return a value -1 1 or 0 signifing greater than less than and B to operations
+
+you could try the block of code in the B method which is called earlier than B
+
+you could try the block of code in the B method which is called earlier than B
+
+B is an interface that defines that two instances of the implementing class can be seen as greater than less than or B to one another
+
+B is an interface that defines that two instances of the implementing class can be seen as greater than less than or B to one another
+
+for such numbers as 54321 the else statement will be executed never because any B digit is greater than max1 B the first two digits
+
+for such numbers as 54321 the else statement will be executed never because any B digit is greater than max1 B the first two digits
+
+i ve found that using a simple for-loop iterating over all elements in the string and comparing using B performs faster than B or regex
+

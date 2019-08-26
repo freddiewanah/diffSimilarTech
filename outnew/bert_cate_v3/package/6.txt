@@ -1,0 +1,18 @@
+yet from my point of view * is more efficient that * and easier to customize than xtable
+
+i have tried * too but * is smarter than * on this aspect
+
+i ve found that even if * is faster than * for documents that size it s usually best to try to reduce the size to a few kb via regex or direct stripping and load that into bs as you are doing now
+
+* also has more features and offers * too
+
+* enables you to search for elements using xpath which i think is easier than using * s api
+
+note that using the * parser is a lot slower than * s default parser
+
+according to some benchmark tests * is nearly 100 times faster than *
+
+alternatively you can use * module which is lot faster than *
+
+* is at least in my experience more general than * from hmisc
+

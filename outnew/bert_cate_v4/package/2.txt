@@ -1,0 +1,10 @@
+with library * you can have a prettier more compact form see soto s answer for an even more compact one with *
+
+note that while you could use * for the job it s not particularly better suited than regular *
+
+note that * is probably a better option than * for this kind of task nowadays for the reasons given by * s author
+
+i prefere * it s a harder to understand but much faster than *
+
+* is also much much faster than *
+

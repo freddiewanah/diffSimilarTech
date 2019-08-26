@@ -1,0 +1,80 @@
+so we can use B with sha512 to gain a very significant advantage over the phpass algorithm mainly because sha512 is a harder algorithm with more computation than B
+
+so we can use B with sha512 to gain a very significant advantage over the phpass algorithm mainly because sha512 is a harder algorithm with more computation than B
+
+if you don t need the cryptographic properties then a non-cryptographic B or a B that is less cryptographically secure B being broken doesn t prevent it being a good B nor still strong enough for some uses is likely to be more performant
+
+because sha256 B are much longer than B B you can detect the B algorithm by looking at the length of the B
+
+double B Bing is actually less secure than a single B with some attack vectors
+
+also the B algorithm itself is much slower than sha1 B sha1 B are made for speed - not a useful property when storing passwords
+
+if the B function is more complex and cryptographically strong B or sha1 then it is theoretically not possible
+
+any B function like B sha1 sha256 etc obviously cannot be 100 unique - because they have a fixed length and due to the there must necessarily be non-unique results for input content that is larger than the B
+
+with a salt B is much more secure than without but you re better off using one of the sha B such as sha256managed
+
+if you don t need the cryptographic properties then a non-cryptographic B or a B that is less cryptographically secure B being broken doesn t prevent it being a good B nor still strong enough for some uses is likely to be more performant
+
+because sha256 B are much longer than B B you can detect the B algorithm by looking at the length of the B
+
+double B Bing is actually less secure than a single B with some attack vectors
+
+also the B algorithm itself is much slower than sha1 B sha1 B are made for speed - not a useful property when storing passwords
+
+if the B function is more complex and cryptographically strong B or sha1 then it is theoretically not possible
+
+any B function like B sha1 sha256 etc obviously cannot be 100 unique - because they have a fixed length and due to the there must necessarily be non-unique results for input content that is larger than the B
+
+with a salt B is much more secure than without but you re better off using one of the sha B such as sha256managed
+
+encrypt the passwords with one-way encryption algorithm with a random B like the common opinionï¼š sha-256 is stronger than B
+
+using sha256 with a B will be much more secure than B
+
+bcrypt is considered the most secure way to implement password hashing with B because it is slow - much slower than an B
+
+encrypt the passwords with one-way encryption algorithm with a random B like the common opinionï¼š sha-256 is stronger than B
+
+using sha256 with a B will be much more secure than B
+
+bcrypt is considered the most secure way to implement password hashing with B because it is slow - much slower than an B
+
+B also uses a more complex construction in particular B over direct digest to make recovering the input password from an output value more difficult
+
+B also uses a more complex construction in particular B over direct digest to make recovering the input password from an output value more difficult
+
+a key-stretching algorithm like B applies a quicker B like sha512 thousands of times typically causing the B generation to take 1 5 of a second or so
+
+key strengthening techniques such as bcrypt or B are generally considered better than plain B since cracking them requires more resources
+
+B is more secure than a simple B or even a salt B
+
+key derivation algorithms such as bcrypt and B aka rfc2898derivebytes are much slower than standard B algorithms
+
+a key-stretching algorithm like B applies a quicker B like sha512 thousands of times typically causing the B generation to take 1 5 of a second or so
+
+key strengthening techniques such as bcrypt or B are generally considered better than plain B since cracking them requires more resources
+
+B is more secure than a simple B or even a salt B
+
+key derivation algorithms such as bcrypt and B aka rfc2898derivebytes are much slower than standard B algorithms
+
+in this situation storing password B and the B is more secure than storing the credentials encrypted or not because an attacker would have no way of getting the password back even if he manages to get his hands on both the B and the B
+
+B sha-512 offers a higher level of security and implementing a scheme where you stretch the B is even better do some high number of iterations of sha-512 - starting with the password+B of course
+
+however using a B offers more protection against rainbow tables precalculated B tables so they re still worth using
+
+most attacks involve generating B for common passwords so for reasonably complicated passwords it becomes harder especially with B some people use usernames as B others use randomly generated numbers
+
+in this situation storing password B and the B is more secure than storing the credentials encrypted or not because an attacker would have no way of getting the password back even if he manages to get his hands on both the B and the B
+
+B sha-512 offers a higher level of security and implementing a scheme where you stretch the B is even better do some high number of iterations of sha-512 - starting with the password+B of course
+
+however using a B offers more protection against rainbow tables precalculated B tables so they re still worth using
+
+most attacks involve generating B for common passwords so for reasonably complicated passwords it becomes harder especially with B some people use usernames as B others use randomly generated numbers
+

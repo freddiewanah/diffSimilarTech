@@ -1,0 +1,256 @@
+actually adding new resource B nothing adding resource B build.gradle
+copying B better zip entire stata8 B - significantly reduce copying time since plenty small-sized files
+tried B B sometimes file size convert B smaller B also sometimes larger original file size
+try convert B number bigger maximum B crashes instead returning nil
+B 1 typically larger B 2 Bernal structure
+machine B swap loop completes 11 faster B swap loop
+conversions promote float B smaller B B unsigned B
+resulting B higher B value simple B math sometimes stops working
+detecting thinking may mistake part - B specific B
+thought pass 1 argument would picked first argument B specific B
+work long B bigger fit B
+really considering B higher magnitude B
+need iterate find first B greater 3 even B return
+B specialized interface extend B
+B slower B
+means B 7x faster B
+example text size 15px well B makes larger 15px B
+B render new tiles panning laggy using maps.google.com issue B better B
+sticking B debugging angular 2 outside vs user experience better B especially working typescript files stick unless figure
+B seems B first tried give logged console
+font-face bold B bolder B
+keep mind time faster time B faster B
+B also complicated B especially want write really solid implementation aiming simplicity maintainability merge sort becomes promising alternative little performance loss
+trying create figure colorbar extend beyond data B go higher B value data
+last B larger B value
+getting step exceeds specified B error default step value 1 larger B B result .
+right B slower B see
+right B faster B
+look quick start guide B site difficult B powerful
+another important difference B report information B specifically related using
+sized relative entire viewport body B default B body
+recently switched unity unreal first thing wanted create B thing seems support skydome far polygons B generated .dds Bmap files far huge used webgl projects
+B works better 32bit B framework
+B could considered better B
+B complex set even though generally considered faster B reach certain limit simultanious users site
+low traffic site huge tokens B send across network actually makes slower B
+since B value slightly B rounded thanks .nextdown B part going one B
+B established support B played catch last year working method latest versions
+3-2 B B
+get B distance B need 3 5 16 3 16 5 3 16 5 9.6
+arise image-B greater image-B image B greater B resize image swapping image B B applying cifilter..
+bin B smaller zero bar B might become large
+seems happen page B B
+B smaller B physically
+appears format B larger B
+B larger B itâ landscape mode.
+rotate device B becomes B ignore change B gets dramatically smaller B remains safe assume keyboard shown throw show keyboard event
+make B proportional B set B bigger B
+breaks views B comparatively larger B
+far seems work expected x-axis wrapper bigger y-axis B B B wrapper bigger B gets distorted
+however resize window B B longer renders correct x location
+B greater B individual page add dictionary entry page explicitly set rotation
+want fit B 100 wish become bigger B leave certain container
+fixed document xps page orientation set landscape page media size B longer B displays correctly viewer landscape
+image portrait B greater B image B 100 within div vertically centered
+fixed min-B B pixel count higher B B set element element size fixed min-B B element size wont look across monitors
+model fitting properly B B aspect ration 1
+however B larger B aspect fit increase B uiimageview
+B greater B return target otherwise return proportional B
+found view landscape mode test view B view B
+image B greater maxB B greater maxB like proportionally resize image fits maxB x maxB
+bitmap B greater maxB B greater maxB like proportionally resize image fits maxB x maxB
+look image B check whether B smaller B B smaller B set either one smaller B
+create document B smaller B mediabox defined rectangle portrait rotate page adding rotate entry equal 90 page dictionary
+also image B B smaller displayB scale might want cap image B instead
+want target B greater B think like min-aspect-ratio 101 100 like might work
+prevents stretching simply places black bar right hand side B greater B
+need images 300 B 100 B want convert B 300 B 100 B changing dpi 75dpi
+portrait orientation one B smaller B
+edit solves given B greater equal B
+B significantly versatile B always used place
+seem getting impression B popular B nowadays
+remember somewhere read B slower B B performs initialization zero performing memory allocation
+far know faster combination B memset hand B alone faster B
+B faster since B initializes allocated memory contain zeros
+connect method command binding B attached event ask general B micro
+B faster solution B
+try fit B using B package know B flexible need use B
+pedantic note printing B types might wider int B insure final computed result matches specifier
+think B renders moves better B
+B complex hood B
+usually B higher precedence B grammar posted reverse might part
+example 1 + 2 3 treated 1 + 2 3 whereas 1 2 + 3 treated 1 2 + 3 since B higher precedence B
+B nearly always slower B
+cpus take three four cycles B bit slower B
+B higher precedence B
+integer floating-point B execute faster B counterparts
+integers B harder B may slower B may still fast long sufficient cpu-power dedicated
+B faster B
+m_expr expand u_expr unaries bind tighter B operations a_expr expand m_expr B operations bind tighter B operations
+done extremely large image feel B might better job B
+probably find B performs good deal better B
+B scalable B support properties acid
+B provides complex keys structure B foreign keys regenerating keys really slow B
+2 B lower rank B
+would B requires 16 bits would need treated B poB
+specific pay close attention byte-order handling ipv4 address port numbers structures sockaddr_in in_addr data members B types larger B whose contents required network byte order
+apache B popular qpid B - indeed jms provider would work fine
+seems B better B sense easy set maintenance cluster
+example want use abstract-class B specific type abstract B fruit apple orange banana grape strawberries etc. want use non-abstract B relationship dad son
+imo B better admob especially using B ads
+think B mature ajax integration ajax components events easy use B ones
+using B better idea B clear get crowded - fight takes longer period run next fight
+capturing group 1 first pattern B first matches takes B
+actually B resemblance return instructions jump pretty structured comparison B
+impression implementantion B kind adaptive delay gets bigger B count increases
+B readable B
+says enhanced B 3x faster regular B well great easier write anyways need index
+one B clearer simpler B
+B binds tightly B
+however B faster Bing even though clock cycles used B verses B according particular cpu datasheet says instructions used
+B far flexible handling allocation space B
+experience B slower B
+taken example two B character string could subvert maybe taking longer string B would two undersirable effects
+variation pentadecagon free set arbitrary values diagonal range B..B containing x fill rest array lower B one side higher B
+means Bimum B repetitions B repetitions
+want check number B B range would likely want check higher B lower B
+- preceeding symbol template expected appear exactly Bimum B B
+hue value cyclic need process B B values B hue might bigger B hue value
+eventually B equal B nothing forces B become B
+example validation looking B value larger B value needs error error corrected either textbox error textbox needs removed happens
+first 0 B radius even smaller 5 B radius
+another idea done inserts delete rows schedule_time greater B value schedule_time column schedule_time B value schedule_time column
+also record edge function produces value greater B B you.will.know.about.it
+urbg B returns smallest urbg result_type operator could return strictly B
+could iterate objects find current limits 9B B could even calculate measures time sth smaller B happens store new B
+top B heap k pop top term push B heap
+want user select options two selectbox verify B price value lower B price value show message
+return badrequest B value cannot greater B value
+right side B side greater equal B side print print false
+one thing keep mind B similiar B wordprocessingml file structure inside package every sheet seperate file
+project B faster uses B speed comparasion found
+B temporarily require memory B free pair
+ideone B 3 slower B copy + back_inserter + B vector 15 slower memcpy raw buffer
+x86 64 processors performing 32-bit B operations efficient B 8-bit operations due operand prefix byte decoded
+one faster indeed cpu-specific issue least faster cpu specific yes B typically seen slower B
+one could use B soap attachments api runs lower level B
+issue glsl 130 wont run properly somewhat modern B 5850 hardware identical runs perfectly fine older laptop B card
+even though B better capabilities prefer B due Bs complexity overhead lack ui control api
+array .sort 6 actually B fastest general purpose #sort better B situations
+handle setting B makes easier implement B cleans things
+though similar ui ux B performs significantly better B especially heavy lifting like working large files complex snr plugins heavy processing files buffers
+textureview display B rendering flexible B follow normal layout hierarchy android allows views moved display
+could use B succinctly running B dcast separately employed girls guys
+also B uses memory B
+B friendly configuration wise htaccess htpasswd rewrite rules B fast regard static assets
+B definitely work faster B
+look sift surf B good sift implementation also implements mser hog smaller B
+templates B standard meaning B related one definition rule actual B
+B suitable html parsing B
+point article trying make B easier implement already B place
+side note using B efficient using B B would go
+B rarely used modern coding likely perform better B loop compiler optimizations applied limitations used
+heartbeat mechanism B model definitely easier implement B model far efficient
+used B api sdk better B api till know embed songs use player anyways B good try goodluck
+build-in support work pkcs#12 B work containers differ standart B B
+customer willing work bit might shed light situation get crash dump B maybe simpler sysinternals B error message showing
+first step would investigate B B simultaneous multithreading could lead poorer performances B without technology
+computer 1 eigen3 performance worse number total B virtual + physical - due B greater number physical B
+using B arrayadapter worse B
+B closer B character -- small toolkit abstracting away os-dependent parts produce opengl programs relatively little hassle
+specifically B height bigger B
+B greater B max throw error
+query given based date B first sort records idea find difference created_at updated_at status success time difference 5 B 5 15
+B better worse B scripting regard -- basic file operations equal aplomb
+occasionally B needs write method B another common one stringio handle
+believe B 2 B
+performance B components generally slower buggier B due pure issues various platforms
+testing far google B addon far better B
+B still better B
+perf hit ridiculous know apple say B execute faster B low level harmless
+level abstraction B higher B
+situation B appropriate B
+B makes sense B maybe typo book
+B would likely yield better performance B since excel formula engine dynamically typed
+B effective B B needed anyhow work also want multiples for-loop dont forget close
+use B quite better B
+B uses 30 comparisons B
+B generally runs faster B circumstances degrade quadratic running time
+know B better since stable 2 worst required implement B
+B always better B
+testing practicality openmp gnu parallel sort standard found parallel B algorithm significantly slower B algorithm
+think B would better jcomponents B implements tablecelleditor maybe example similair output
+since servers omit working copy generally expect B bare repositories smaller B non-bare repositories
+instance B better B checking time whether strtok returns null
+B simpler older default called project B newer powerful flexible
+B could considered better B
+B complex set even though generally considered faster B reach certain limit simultanious users site
+also B better alternative B
+B better B macs though help solaris
+want use B used extensively yet partly exercise gain greater mastery B
+read B contains project management tools B
+B better B different
+understand websockets top B higher latency B underlies webrtc example sending binary data server browser also could 2 peers webrtc
+first bit banging B complicated bit banging B
+given B reputation things better B least good daresay B would demonstrate similar performance properly used
+drupal 7 B 5.0.15 higher pdo B 8.3 higher
+B license bsd undoubtedly simple B
+might need check B greater B use B 100 else B 100
+want B know B better use use B
+B seems gaining popularity B seem B
+typical libraries common modern hardware B faster B
+browsers implement B events noticed accurate B
+B flexible B multiple like support parallel testing example
+packets discarded unordered B faster B
+hello developing application needs send image via B socket.i know B better protocol playing kryonet learnt B better type application.i small class made
+note B difficult work B packets always guaranteed delivered
+3 first done yet change storage engine B row level locking newer versions mysql optimization B
+B better performance B though B needs attention tuning configuration B supports atomic changes transactions foreign keys B resistant corrupting data crash
+B usually better B tables available insert update delete happening B uses row level locking updates whereas B uses table level locking
+2 - read B vs B conclusion B faster comes read-only whereas B designed tables get updated inserts frequently
+sometimes got asked interviews benefits B B B better B
+modifications data said B works faster uses row locking instead table locking like B
+oracle B better removed B 8.0
+least .executemany B seems proficient B sql statement prepared submitted values
+given 4.13 says B lower rank B means B converted B needed needed
+B better worse B
+B better B
+though B looks mature B web api still bit confused
+understand B B clone retrospectiva seem support agile methodologies via nice plugin
+last B really better B
+B really better B
+well B B essentially try thing B method accurate B
+using B considered better B screwy ways event loop works
+like B suffer without B safe B
+writing B examples would almost certainly give better performance B like
+said B like almost always faster B like
+B higher class B slower
+like use B B working B
+labeled B like would better B purpose
+think instead B better find item break B
+need B better B
+foreach B slower B
+B slightly slower foreach B
+B performing far better B
+get similar highlightings B B ubuntu
+B better ui B
+B better B
+B requests safer restful requests safer B requests
+normally use like tag.object.annotate num_B count B .filter num_B__gt 2 B tags 2 B
+want use B request since says guidelines restful api use B purpose plus might want send data B handle
+someone around help B better B
+either B easier maintain up-to-date B see programs like B work
+B maintained dozen features B author actually responds emails
+features stemming discussions permit extreme B processes symmetrically like provision extensive independence B
+suggest give look B far better B also actively developed
+edit realized B may well cleaner B
+B probably better B
+use B accurate B
+B views height set wrap_content know behavior wrap_content fit content size unless bigger B
+invariant B B
+go B better newer B
+unfortunately B packed structs significantly looser B caused significant problems sharing objects
+would theoretically cut time half seems B faster B least use took time
+might want look B options B
+batch file needs run windows vista later use B instead even powerful tool B built operating system

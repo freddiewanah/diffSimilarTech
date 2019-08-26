@@ -1,0 +1,54 @@
+userwarning your * version is more recent than the one *
+
+* is more modular than * * around 5kb * around 17kb but is generally lighter because you only include the specific modules you need
+
+for similar functionality that speaks * but has more flexible features you could use the facetgrid object from *
+
+they do this using a jquery plugin called * which is a more complete version of * you pay for
+
+not to be confused * is more recent and * was used in some distributions of linux
+
+ubuntu 12.04 ships with the * fork * in version 0.8 which is more compatible with * 1.0+ or even later * versions iirc
+
+also if this controller is an hid the * library might be a better fit than *
+
+* uses an older version of * which i believe was the latest free * version
+
+* parser does a better job than * or html.parser handling the debate element in this case
+
+* is the faster parser and can handle broken html quite well * comes closest to how your browser would parse broken html but is a lot slower
+
+* parser is generally faster * is the most lenient one - this kind of difference would be relevant if you have a broken or non-well-formed html to parse
+
+* has better computational graph visualizations than * and torch
+
+and using keras or * is way simpler to develop nns then pure * which was just side research project in montreal to support development of pylearn
+
+* community is smaller and it doesn t provide that many tools as * does
+
+in my opinion * is easier to learn and to use but the results of * are often nicer - you can often feel that a * application behaves not completely right
+
+instead doing it with * which i found to be the fastest somehow even faster than *
+
+currently * supports the older * v.5.1 while there is a newer * 6.0 available on nvidia site
+
+or * directly .for more details * 3.0 documentation
+
+for starters * is no longer actively maintained and the author even recommends alternatives such as *
+
+* is much faster than * and probably the fastest parser available for python
+
+it uses * underneath and is much faster than *
+
+i prefere * it s a harder to understand but much faster than *
+
+you ll probably find that * runs faster than * but in my uses * was very easy to learn and use and handled typical crappy html as found in the wild well enough that i don t have need for anything else
+
+alternatively you can use * module which is lot faster than *
+
+performance of * is better than *
+
+* is faster but the api is 37x more complex than the * api
+
+* is lower level than * and allows you to minimise the number of round-trips to the x server leading to lower latency
+

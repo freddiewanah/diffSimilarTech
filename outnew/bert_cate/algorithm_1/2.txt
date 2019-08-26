@@ -1,0 +1,76 @@
+that continued usage of 1024-bit prime field elgamal or B keys is much riskier than it is for 1024-bit B all are still commonly used because once a successful attack has been conducted against a single well-chosen prime field all users of that prime field may be affected at little additional effort.
+
+B is also a better choice than B because it has much better breadth of support for signatures still considered secure by nist
+
+B has signature that is independent of key strength and is much smaller than B signature for equivalent security B 1024 1568 vs B 192
+
+then you use it as seed in B which is less good that one is a non-cryptographic B and its output may exhibit some structure which will not register in a statistical measurement tool but might be exploited by an intelligent attacker
+
+by comparison B see section 3.2 and other block ciphers are much faster than the B algorithm
+
+by comparison B see section 3.2 and other block ciphers are much faster than the B algorithm
+
+i ve read that B encryption is more secure than the triple B encryption ms is using in their example above
+
+which steps of B encryption makes it less vulnerable than B
+
+i ve read that B encryption is more secure than the triple B encryption ms is using in their example above
+
+which steps of B encryption makes it less vulnerable than B
+
+the whole purpose of using B to secure the communication or any symmetric key encryption is that it s a lot faster than B or any public key encryption
+
+in your particular case an B key of 2048 bits has a lot less strenght than an B key of 256 bits
+
+asymmetric key encryption ex B is no more secure than symmetric key encryption ex B
+
+algorithms like B are much less user-friendly than B
+
+asymmetric encryption ex B is no more secure than symmetric encryption ex B
+
+considering most B moduli are at least 1024 bit this will be much larger than an B key
+
+it shows that B encrypt is faster then B encrypt
+
+block crypto algorithms like B do suffer from this problem too but without a pki B is no less safe than B
+
+so the 115 seconds will be reduced to 3-4 secs plus the encryption decryption time used for B which is much faster than B
+
+but if you use public key encryption to encrypt messages you are a limited to small messages -- a 1024 bit B key encrypts less than 128 bytes and b going to pay in performance because public key encryption is much more costly than symmetric key encryption such as B encryption
+
+note however that doing so means that each encrypted chunk has its own padding and that B is much more computationally expensive than B
+
+and regarding your first question it is definitely possible to encrypt decrypt messages directly using B there are only technical and performance reasons B is much faster than B why B is used only to encrypt a session key and B is used to encrypt decrypt the messages themselves
+
+like you heard asymmetric cryptography like B is much slower than symmetric cryptography B but it does have it s advantages simpler key management a single private key to protect
+
+the B key is encrypting much more data but is much faster than B encryption
+
+the whole purpose of using B to secure the communication or any symmetric key encryption is that it s a lot faster than B or any public key encryption
+
+in your particular case an B key of 2048 bits has a lot less strenght than an B key of 256 bits
+
+asymmetric key encryption ex B is no more secure than symmetric key encryption ex B
+
+algorithms like B are much less user-friendly than B
+
+asymmetric encryption ex B is no more secure than symmetric encryption ex B
+
+considering most B moduli are at least 1024 bit this will be much larger than an B key
+
+it shows that B encrypt is faster then B encrypt
+
+block crypto algorithms like B do suffer from this problem too but without a pki B is no less safe than B
+
+so the 115 seconds will be reduced to 3-4 secs plus the encryption decryption time used for B which is much faster than B
+
+but if you use public key encryption to encrypt messages you are a limited to small messages -- a 1024 bit B key encrypts less than 128 bytes and b going to pay in performance because public key encryption is much more costly than symmetric key encryption such as B encryption
+
+note however that doing so means that each encrypted chunk has its own padding and that B is much more computationally expensive than B
+
+and regarding your first question it is definitely possible to encrypt decrypt messages directly using B there are only technical and performance reasons B is much faster than B why B is used only to encrypt a session key and B is used to encrypt decrypt the messages themselves
+
+like you heard asymmetric cryptography like B is much slower than symmetric cryptography B but it does have it s advantages simpler key management a single private key to protect
+
+the B key is encrypting much more data but is much faster than B encryption
+

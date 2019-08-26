@@ -1,0 +1,28 @@
+B has a higher level it also inherited form B const on it should have no effect in fact not the same meaning about the no effect on immutable object
+
+the roundabout method i ve employed is to create additional columns with a regular B and counta formulae - in other words i count the number of countries a B has visited more than x times B and then use the counta to sum the number of B in that column who have visited x times
+
+to get the html instead of hardcoding it as above use the B class since it has a simplier api than B
+
+i have a B with more than 5 B so the morenavigationcontroller is available
+
+if i set a pixmap to a B that is larger that the window it will add scrollbars so is it possible to get what is displayed in the B
+
+when using embed in - B the new view will be a bit bigger than the B
+
+the B version is definitely faster since having the controls loose on the B took more like 2 seconds to update
+
+i want to add a B inside an B and this B will be smaller than the B
+
+in this case B is bigger than B that s why the second statement is correct
+
+also i think the B class is more idiomatic these days than hand rolling B
+
+since ireadwrite implements ireadonly ireadwrite is said to be a B of ireadonly although B is more accurately used to describe a class which B a base class rather then implements an interface--for the sake of simplicity they are very nearly the same concept
+
+the ardalahmet solution is not the right one if you need different backgrounds for each B when you have more than one B such as in a uitabbar because it using B categories
+
+you need to create a B and decorates it with printstream or better B with printwriter
+
+you can use a bezier path either in a custom B w drawrect or easier with a B whose curvature can be controlled via its control points
+

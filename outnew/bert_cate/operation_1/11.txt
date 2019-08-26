@@ -1,0 +1,112 @@
+that is if you have then you are guaranteed that a happens before b and that b happens before c regardless of the fact that a is involved in an B which is lower precedence than a B
+
+if you think back to grade school you ll recall that B was harder than B and division was harder than B
+
+if the B is truly faster than the B then i expect somebody well-versed in byte code could explain why the load_fast for num is faster than the five operations for line 12
+
+even if B is faster than B i think that you will lose more because of the branching
+
+for example if you had a class in which it would make sense to do B before B how could you make the B operator have higher precedence than the B one
+
+not sure about this but B should take more time than B so it s slowing it down ex
+
+you probably already remember that B is higher precedence than B
+
+but i guess B is more computationally expensive than B
+
+though i was thinking the B is more simple than B
+
+i would also be moderately surprised if the B actually was faster than the B
+
+that is if you have then you are guaranteed that a happens before b and that b happens before c regardless of the fact that a is involved in an B which is lower precedence than a B
+
+if you think back to grade school you ll recall that B was harder than B and division was harder than B
+
+if the B is truly faster than the B then i expect somebody well-versed in byte code could explain why the load_fast for num is faster than the five operations for line 12
+
+even if B is faster than B i think that you will lose more because of the branching
+
+for example if you had a class in which it would make sense to do B before B how could you make the B operator have higher precedence than the B one
+
+not sure about this but B should take more time than B so it s slowing it down ex
+
+you probably already remember that B is higher precedence than B
+
+but i guess B is more computationally expensive than B
+
+though i was thinking the B is more simple than B
+
+i would also be moderately surprised if the B actually was faster than the B
+
+but since B is pretty expensive i think that this is even worse than 2 B
+
+recently someone suggested to me that B is always more expensive than B
+
+i wonder why everybody missed that B is much faster than B
+
+i always thought a B is computationally cheaper than a B
+
+if you think back to grade school you ll recall that B was harder than addition and B was harder than B
+
+B is per se slower than B however i don t know the details
+
+so B is always a bit worse than B
+
+B takes less time then B so you can try this
+
+i was always taught that B is slower than B but i have no real proof of thisâ has anyone got an opinion on this before i start benchmarking and running test
+
+but i wonder why is B actually slower than B
+
+if you are sure that a floating point B is better than a floating point B then
+
+for B things are a little more complicated than B see
+
+B takes a lot longer than B - just do it with pen and paper to see
+
+but the research i ve done so far all points to B being faster than B
+
+but since B is pretty expensive i think that this is even worse than 2 B
+
+recently someone suggested to me that B is always more expensive than B
+
+i wonder why everybody missed that B is much faster than B
+
+i always thought a B is computationally cheaper than a B
+
+if you think back to grade school you ll recall that B was harder than addition and B was harder than B
+
+B is per se slower than B however i don t know the details
+
+so B is always a bit worse than B
+
+B takes less time then B so you can try this
+
+i was always taught that B is slower than B but i have no real proof of thisâ has anyone got an opinion on this before i start benchmarking and running test
+
+but i wonder why is B actually slower than B
+
+if you are sure that a floating point B is better than a floating point B then
+
+for B things are a little more complicated than B see
+
+B takes a lot longer than B - just do it with pen and paper to see
+
+but the research i ve done so far all points to B being faster than B
+
+the B case is going to require a little more work than B in this code
+
+it s possible though that software could mess things up by making B slower than B - but that s unlikely
+
+but i d think bignum B is a little slower than bignum B
+
+the B case is going to require a little more work than B in this code
+
+it s possible though that software could mess things up by making B slower than B - but that s unlikely
+
+but i d think bignum B is a little slower than bignum B
+
+i remember it says something like B takes much much more time than B
+
+i remember it says something like B takes much much more time than B
+

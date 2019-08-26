@@ -1,0 +1,106 @@
+note i recommend using * - it is much faster than * as it doesn t have memory leaks and comes with a built-in ad blocker
+
+especially in * there is much more green in the painting than in *
+
+my guess is * is caching more agressively and thats why you are seeing worse load time on *
+
+the idea is that if they are using ie then they must install * frame and if they are using less than * 4 or opera 11.5 then they must upgrade their browser not not sure if the way i am doing that is correct
+
+i usually use * s developer mode which imho already gives even more details than *
+
+i think from my tests perhaps * has more strict standards than * about cookie manipulation
+
+even then * s fonts look thinner than in * or ie
+
+* has a bigger time difference yet * is the one with the gap in the animation
+
+when i run my http web server on google * it gives more 324 error than in *
+
+in * the font appears to be 1px smaller than * and ie and i cannot see why
+
+here is a simple performance test showing that in * filling is faster than clearing i am not sure what goes on with * and canvas nowadays but in * clearing is many times faster than filling both significantly faster than *
+
+so i wonder the benchmark is also influenced by the installed extensions or * is really so much higher than * in performance
+
+ellipsis still wraps in * but is more user friendly in * by adding the .
+
+why is * so much slower than * on my laptop
+
+if you are able to enforce browser usage i find that * on android preserves line breaks when copying and pasting much better than *
+
+but in * the left-collumn gets a much bigger height than in *
+
+they use iframes in * which seems better but in * they do this by putting manually defined span and font tags
+
+tldr in * filter is slightly faster in * that s the opposite
+
+font-face bold in * is bolder than in *
+
+the position of the list in * is always higher than that of * no matter how i padding or margin the list
+
+found that the issue stemmed from using the * webdriver which apparently has much higher security than its * counterpart
+
+while the rest of the browsers report the correct width of the document * reports a smaller one example at screen resolution of 1920x1080 ie * and safari reports 1920 while * reports 1903
+
+pd note that * s developer tools are better and more complete than * developer tools but in essence are for the same purpose
+
+in * it takes some more time compared to * safari
+
+it seems * applies some formatting to render better than *
+
+i ve been trying to sum up values over a swipe and see how different browsers report values and they vary a lot with safari reporting order of magnitude bigger numbers on almost all platforms * reporting quite more like 3 times more than * * being balanced on the long run but quite different among platforms on small movements on ubuntu gnome nearly only +3 or -3 seems like it sums up smaller events and then send a big +3
+
+* seems to animate the element quicker than * does and so while a duration of 1s is enough for the animation in * * needs it to be 2s to be slower and show the effect
+
+the funny thing is that for abc_def property * is actually much faster than * and ie as i expected
+
+using the same data * does in less than 5 seconds what took ie and * 10 to 15 seconds to accomplish
+
+in my experience * will be a lot faster than * to debug huge js files
+
+why height in * is bigger than * of input
+
+my * adds more chopping to video playing itself * plays the video much better
+
+as you can see ie 8 is about 5 times slower than * 3.6 and almost 20 times slower than * 9 at least when using sunspider tests
+
+in * the render of new tiles and the panning is laggy this is not the case when using maps.google.com so it s not an issue of * being better than *
+
+i ve found that the font-size in * is a bit larger than in *
+
+the trouble is choosing a good value for x since for this particular page * is so very much faster than * which is faster than ie
+
+in ie8 and * it runs even faster than * in general and this slow down never happens
+
+this is sporadic and i see it happening most of the time with * 4.0.1 and 5.0 and to a lesser extent with *
+
+* extensions have much more power than * and have wider access to browser s internal api
+
+it seems that in * ie the line-through style is a bit lower than * i am not sure if this is because of the implementation of different browsers or something
+
+in * it seems .prototype is faster * shows no difference between the two although generally performs slower than *
+
+i d say that * is correct in being stricter than * here even though i m not entirely sure the base uri has changed and this new uri should be used for the relative uri #symboltype1 too
+
+* is stricter than * when it comes to loading data from your local filesystem
+
+if i remove this code the width of green image in * becomes smaller but it s still bigger than necessary about 100px the * images keeps unchanged
+
+my knowledge of * is better than * so my apologies if i missed something
+
+for example i ve read that * and ie will fix framerates slower than *
+
+from testing this in * and * it seems * is more forgiving in that it parses the style string and puts the right style in place for you but * does not
+
+* 5.1.10 6534.59.10 middle handles a smaller viewport but in sort order with a smaller viewport computes new image sizes even smaller than *
+
+* comes in at just under 41ms performing better than * but still not great
+
+in * the background of my menu navigation drop-down menu s is much wider than in * firefox
+
+to me it looks like * gets it more right than * text is generally more around a middle line
+
+please especially test on * because it has some more problems than * and google-chrome
+
+google-chrome or * on a mac could be much faster than * on a pc especially with newer apis
+

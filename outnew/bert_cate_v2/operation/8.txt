@@ -1,0 +1,30 @@
+division B has higher precedence than B subtraction and parentheses is required to do B subtraction before B division
+
+associativity and precedence specify that the last two statements must be performed in that order since B has higher precedence than B
+
+B is more complex and you can reference the solution in the question efficient 128-bit B using carry flag
+
+the result of the B was better than the B the by 0.0070000 milliseconds over the course of 2 million or 200 000 iterations
+
+division and B are indeed costly hardware operations whatever you do this is more related to hardware architecture than to languages or compilers perhaps ten times slower than B
+
+then you can process any length number using very few division remainder B operations which is important because they are much slower than B
+
+B can also cause a divide-by-zero and it has a higher precedence than B
+
+where B binds more tightly than B
+
+then i think it would be the problem of precedence in most case they are left-to-right and i think B would be calculated first because in c B is more prior than B instruction by one level
+
+the B operator has a higher precedence than the B operator + so you need to enclose the sum with brackets before dividing
+
+this happens because the B operator has higher precedence than the + B operator
+
+B has a higher precedence than B or subtraction so it s really this
+
+performing B on this slightly larger type will pretty much always be faster than doing B or modulo on the type itself
+
+i remember it says something like B takes much much more time than B
+
+so if your code has tough data dependency problems B is about 12 times faster than B
+

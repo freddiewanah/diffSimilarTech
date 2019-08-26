@@ -1,0 +1,198 @@
+you can also use B it is a lot simpler than B
+
+what happen when B is disabled in an router and when packet size greater than B how the router fragments that packet
+
+any device in the path of communication between the sender and receiver whose B is smaller than the packet will drop such packets and reply the sender with B destination unreachable datagram too big message containing the device s B
+
+B is a more efficient protocol than B
+
+in fact with optimizations like B you might find that a tls-secured connection actually performs better than plain B
+
+B is a more efficient protocol than B
+
+in fact with optimizations like B you might find that a tls-secured connection actually performs better than plain B
+
+as i understand websockets are on top of B and have higher latency than B that underlies webrtc when for example sending binary data between server and browser that also could be 2 peers in webrtc
+
+note that B is more difficult to work with than B because packets are not always guaranteed to be delivered
+
+B is far better at transferring large quantities of data but when the network fails it s more likely that B will get through
+
+the fact that B s header size is less than B s is because is a simpler protocol that needs less header space that s all there is to it
+
+B gives smaller latency with many many issues to discuss here of course B gives bigger latency
+
+also remember that dns requests can use B if the request or response would need more than 1 B packet
+
++ consider that the implementation of B stack is much more complicated than B more instructions are executed there
+
+B is much slower than B but when the two machines are not on the same lan B is not reliable
+
+but with the B protocol in particular this is easier than for B
+
+B scales better than B because of reduced states that need to be maintained in the operating system
+
+in practice this means that B is better suited for continuous transmission of data whereas the more lightweight B can be used when reliability isn t important
+
+like matzi suggested B gives you lower latency and lower packet overhead as the header is smaller than B but on the downside the delivery of the packet to the destination is never guaranteed ie
+
+if the network between the two point have a very high quality B is absolutely faster than B but in some other case such as the gprs network B may been faster and more reliability than B
+
+B is a slower more reliable protocol than B is
+
+B is faster than B because packets are sent without guarantee of delivery nor order
+
+why the header size of B is less than B
+
+B communication requires much less overhead than B due to the number of messages exchanged
+
+in general the B protocol manages the available network bandwidth better than the B protocol
+
+B is actually expected to work better than B in lossy networks or congested networks
+
+in a congested network yes B will send its packets faster than B this is because B takes then congestion into account using a mechanism called congestion control
+
+is sending packets via an established B connection after all hand shaking has been done a method to be faster than B
+
+apart from that B packets by themselves are not slower than B packets and data transfer with a simple B connection can be faster than with a simple B connection because flow control and reliable transfer is already integrated and you don t have to reinvent everything again and often worse
+
+only when packets can be discarded unordered can B be faster than B
+
+one can say B has a lower overhead than B because its packets have a smaller header and therefore take less bandwidth to send the payload the data
+
+the reason B is faster than B is because there is no form of flow control or error correction
+
+it is worth nothing that in a link where B and B are sharing the bandwidth B is better behaved than B in that it will try to limit itself to avoid congestion
+
+also sending receiving data over B is much simpler than over B and it does not require any connections
+
+the problem is that B creates bigger packages of data while B uses 8 kb of data blocks
+
+B is slower assures data arrival B is faster data corruption may be possible
+
+B is less reliable on a wide area network but in a closed environment of a vm talking to its host you can safely skip all the B reliability stuff
+
+the problem with using B is obviously that it is a lot slower than B
+
+getting much more information is needed in the packet header for connection less like B but why the header size of B is less than B
+
+B sockets have much lower overhead than B because packets are not acknowledged by the recipient
+
+B lends itself to real-time less latency than B
+
+B is subject to higher latencies than B as it requires the client to send back packet confirmations
+
+B is generally faster than B as it does not have to do the overhead checking of consistency that B must deal with
+
+B ip is supposed to be more reliable than B ip see this comparison
+
+as a general rule B is faster than B due to less protocol overhead
+
+note that B is more difficult to work with than B because packets are not always guaranteed to be delivered
+
+B is far better at transferring large quantities of data but when the network fails it s more likely that B will get through
+
+the fact that B s header size is less than B s is because is a simpler protocol that needs less header space that s all there is to it
+
+B gives smaller latency with many many issues to discuss here of course B gives bigger latency
+
+also remember that dns requests can use B if the request or response would need more than 1 B packet
+
++ consider that the implementation of B stack is much more complicated than B more instructions are executed there
+
+B is much slower than B but when the two machines are not on the same lan B is not reliable
+
+but with the B protocol in particular this is easier than for B
+
+B scales better than B because of reduced states that need to be maintained in the operating system
+
+in practice this means that B is better suited for continuous transmission of data whereas the more lightweight B can be used when reliability isn t important
+
+like matzi suggested B gives you lower latency and lower packet overhead as the header is smaller than B but on the downside the delivery of the packet to the destination is never guaranteed ie
+
+if the network between the two point have a very high quality B is absolutely faster than B but in some other case such as the gprs network B may been faster and more reliability than B
+
+B is a slower more reliable protocol than B is
+
+B is faster than B because packets are sent without guarantee of delivery nor order
+
+why the header size of B is less than B
+
+B communication requires much less overhead than B due to the number of messages exchanged
+
+in general the B protocol manages the available network bandwidth better than the B protocol
+
+B is actually expected to work better than B in lossy networks or congested networks
+
+in a congested network yes B will send its packets faster than B this is because B takes then congestion into account using a mechanism called congestion control
+
+is sending packets via an established B connection after all hand shaking has been done a method to be faster than B
+
+apart from that B packets by themselves are not slower than B packets and data transfer with a simple B connection can be faster than with a simple B connection because flow control and reliable transfer is already integrated and you don t have to reinvent everything again and often worse
+
+only when packets can be discarded unordered can B be faster than B
+
+one can say B has a lower overhead than B because its packets have a smaller header and therefore take less bandwidth to send the payload the data
+
+the reason B is faster than B is because there is no form of flow control or error correction
+
+it is worth nothing that in a link where B and B are sharing the bandwidth B is better behaved than B in that it will try to limit itself to avoid congestion
+
+also sending receiving data over B is much simpler than over B and it does not require any connections
+
+the problem is that B creates bigger packages of data while B uses 8 kb of data blocks
+
+B is slower assures data arrival B is faster data corruption may be possible
+
+B is less reliable on a wide area network but in a closed environment of a vm talking to its host you can safely skip all the B reliability stuff
+
+the problem with using B is obviously that it is a lot slower than B
+
+getting much more information is needed in the packet header for connection less like B but why the header size of B is less than B
+
+B sockets have much lower overhead than B because packets are not acknowledged by the recipient
+
+B lends itself to real-time less latency than B
+
+B is subject to higher latencies than B as it requires the client to send back packet confirmations
+
+B is generally faster than B as it does not have to do the overhead checking of consistency that B must deal with
+
+B ip is supposed to be more reliable than B ip see this comparison
+
+as a general rule B is faster than B due to less protocol overhead
+
+it is optimized for downloading larger files where the setup overhead is amortized over the size and number of downloads http is very light-weight you can communicate to an http server using B much easier than B especially before passive B and is designed around html -- the concept that in the course of your navigation you will be visiting many different servers and grabbing only a couple of files at a time from each
+
+it is optimized for downloading larger files where the setup overhead is amortized over the size and number of downloads http is very light-weight you can communicate to an http server using B much easier than B especially before passive B and is designed around html -- the concept that in the course of your navigation you will be visiting many different servers and grabbing only a couple of files at a time from each
+
+basically while sending B packets larger than B ip fragmentation can occur if it s supported on your platform but not all platforms support it
+
+they are easily generated for B simply by making the datagram bigger than the B
+
+B packets greater than the B size of the network that carries them will be automatically split up into multiple packets and then reassembled by the recipient
+
+my lwip can send B packets to pc but my pc would fail to reassemble when the B packets are larger than B
+
+if there is network congestion rate limiting or traffic profiling or if the B message size is larger than the B
+
+if you send a B datagram larger than the B it will be fragmented
+
+if B payload size is bigger than B size B will silently segment the packet
+
+B uses datagrams chunks of data which are received whole on the other side unless the size is bigger than the B but that s a different story
+
+in real life B packets size usually is equal or less than B size
+
+when send a B datagram larger than the B size only the last fragment of the B datagram is putted out to the destination
+
+to send large blocks of data via B you need to chop them up into pieces smaller than the B for the network segment across which you re transmitting them
+
+an B packet has a header that is 20 bytes and is probably going to be slightly slower than B
+
+an B packet has a header that is 20 bytes and is probably going to be slightly slower than B
+
+B is more flexible than B an application can configure the level of security it needs
+
+B is more flexible than B an application can configure the level of security it needs
+

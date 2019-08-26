@@ -1,0 +1,196 @@
+double has its B floating point definition which is also much more complex than B
+
+it is said that if you have a mostly read based application you should use B as it is better than B
+
+i am creating an commerce website and i am stuck in a database problem i am storing customer orders please tell me which is better B or B i have to use transaction like feature in customer order table and i personally prefer B because it is much faster than B and it also supports full-text searching is there any way to use transaction like rollback feature in B so that if anything goes wrong table will be rollback to its previous state how to do that without any external library or any other server side access and i have to use mysql
+
+B is much faster for reads but since it locks the whole table for writes this is where overall throughput drops compared with B
+
+there are some situations when B is infinitely more efficient than B when manipulating large data dumps offline because of table lock
+
+B is not faster than B anymore for most types of queries
+
+B supports longer rows than B does
+
+if you use a where clause though it changes the execution pattern to use indexes so in general B will be slower than B on full unrestricted counts where as the performance matches up on restricted counts
+
+B has more overhead but uses row-level locking so that reads and writes can happen concurrently without the problems that B s table locking incurs
+
+nothing is 100 safe but B properly used is a lot safer than B against data loss and corruption
+
+B also tends to store data in less space than B
+
+if your database has a large B buffer pool and a small key buffer then B performance is going to be better than B performance especially for large tables
+
+B tables are even slower than B tables for inserts and the delayed key write option is not available
+
+B is the perfect choice since the database is almost only used for reading and B is significantly faster that B
+
+B is more concurrent than B since it provides row-level locking
+
+B is faster in data warehousing situations such as full table scan reporting etc.. but B can actually be faster in many cases with normal oltp queries
+
+so that means that in practice an B write will take 3 times longer than a B write
+
+if there are many modifications of the data it s said that B works faster because it uses row locking instead of table locking like B
+
+B consumes more disk space than B -- typically 2x-3x
+
+B is faster when the query is simple but it s much slower in a high concurrent environment as its table level lock comparing to B s row level lock
+
+B is actually faster than B in quite a few cases so it depends on what your application s mix of selects updates concurrent queries indexes buffer configuration etc
+
+B implements mvcc multi-versioning concurrency control so locking is much more complex than with B
+
+B is often faster than B but isn t safe to use in a production environment for critical data
+
+B is more scalable and B doesn t support any of the properties of acid
+
+B inserts are going to be faster than B so if you re logging data and retrieving it later that will be a win
+
+you can also use compression on the tables to keep them smaller but B is vastly better than B at data integrity
+
+B is transactional so inserts will generally be slower than B
+
+if you are not using transactions while storing or updating tables switch table type to B its quite faster than B with much less overhead
+
+B is still widely used in web applications as it has traditionally been perceived as faster than B in situations where most db access is reads
+
+B does support transactions and referential integrity but the trade-off is that it is a bit slower than B
+
+select queries in B runs 2x faster then in B but the updates and insert queries are much slower in B
+
+B is more susceptible to data corruption than B and usually B performs better because it caches both data and indexes
+
+one thing is that if your inserts are not in the order of increasing primary keys B can take a bit longer than B
+
+generally B is much better for preserving your data integrity so stick with it and do not go back to B there is also a matter of what each engine is best fore but unless you give us more details there is no point in dwelling on that
+
+put another way let s say i start with a new B table and insert 20 gb of data assuming that 20 gb incorporates all the excess B stuff i realize data stored in B is larger than B then i delete all data then i insert 10 gb of data
+
+this also affects how it is stored which leads to B being slower than B on insert due to B requiring a full index re-write on every insertion
+
+if you have so many records in the table then the first thing is to change the table engine to B if its not B because for large number of records B is much faster as it caches the table data while on the contrary B engine only caches the indexes so each time it has to do a full table scan from disk if the data required cannot be fetched from index
+
+am i right that B is better for frequent concurrent updates and inserts than B
+
+although 4m isn t that many rows with contention and depending on your structure and database engine it may take a while i think B alters take longer than B because B requires whole table locks and handles concurrency less well
+
+use B usually much faster than B if your data base isnt transaction oriented
+
+edited to add B is faster than B because it is simpler
+
+therefore accessing B consumes less resources than B
+
+in a thread i came to know that B is faster for reads B is faster for writes
+
+B -- more effecient than B because of the way the primary key is clustered with the data in B
+
+B uses less memory than B and the actual data files are often quite a bit larger for B
+
+you will need about six times less disk space to store and memory to process your dataset compared to B or about 2-3 times less than archived B
+
+we know that B is faster than B when we don t have many concurrent updates inserts
+
+B is faster but does not support the use of transactions like B does
+
+B is better than B when you don t need those advanced features and storage speed is more important than other concerns
+
+it is said that if you have a mostly read based application you should use B as it is better than B
+
+i am creating an commerce website and i am stuck in a database problem i am storing customer orders please tell me which is better B or B i have to use transaction like feature in customer order table and i personally prefer B because it is much faster than B and it also supports full-text searching is there any way to use transaction like rollback feature in B so that if anything goes wrong table will be rollback to its previous state how to do that without any external library or any other server side access and i have to use mysql
+
+B is much faster for reads but since it locks the whole table for writes this is where overall throughput drops compared with B
+
+there are some situations when B is infinitely more efficient than B when manipulating large data dumps offline because of table lock
+
+B is not faster than B anymore for most types of queries
+
+B supports longer rows than B does
+
+if you use a where clause though it changes the execution pattern to use indexes so in general B will be slower than B on full unrestricted counts where as the performance matches up on restricted counts
+
+B has more overhead but uses row-level locking so that reads and writes can happen concurrently without the problems that B s table locking incurs
+
+nothing is 100 safe but B properly used is a lot safer than B against data loss and corruption
+
+B also tends to store data in less space than B
+
+if your database has a large B buffer pool and a small key buffer then B performance is going to be better than B performance especially for large tables
+
+B tables are even slower than B tables for inserts and the delayed key write option is not available
+
+B is the perfect choice since the database is almost only used for reading and B is significantly faster that B
+
+B is more concurrent than B since it provides row-level locking
+
+B is faster in data warehousing situations such as full table scan reporting etc.. but B can actually be faster in many cases with normal oltp queries
+
+so that means that in practice an B write will take 3 times longer than a B write
+
+if there are many modifications of the data it s said that B works faster because it uses row locking instead of table locking like B
+
+B consumes more disk space than B -- typically 2x-3x
+
+B is faster when the query is simple but it s much slower in a high concurrent environment as its table level lock comparing to B s row level lock
+
+B is actually faster than B in quite a few cases so it depends on what your application s mix of selects updates concurrent queries indexes buffer configuration etc
+
+B implements mvcc multi-versioning concurrency control so locking is much more complex than with B
+
+B is often faster than B but isn t safe to use in a production environment for critical data
+
+B is more scalable and B doesn t support any of the properties of acid
+
+B inserts are going to be faster than B so if you re logging data and retrieving it later that will be a win
+
+you can also use compression on the tables to keep them smaller but B is vastly better than B at data integrity
+
+B is transactional so inserts will generally be slower than B
+
+if you are not using transactions while storing or updating tables switch table type to B its quite faster than B with much less overhead
+
+B is still widely used in web applications as it has traditionally been perceived as faster than B in situations where most db access is reads
+
+B does support transactions and referential integrity but the trade-off is that it is a bit slower than B
+
+select queries in B runs 2x faster then in B but the updates and insert queries are much slower in B
+
+B is more susceptible to data corruption than B and usually B performs better because it caches both data and indexes
+
+one thing is that if your inserts are not in the order of increasing primary keys B can take a bit longer than B
+
+generally B is much better for preserving your data integrity so stick with it and do not go back to B there is also a matter of what each engine is best fore but unless you give us more details there is no point in dwelling on that
+
+put another way let s say i start with a new B table and insert 20 gb of data assuming that 20 gb incorporates all the excess B stuff i realize data stored in B is larger than B then i delete all data then i insert 10 gb of data
+
+this also affects how it is stored which leads to B being slower than B on insert due to B requiring a full index re-write on every insertion
+
+if you have so many records in the table then the first thing is to change the table engine to B if its not B because for large number of records B is much faster as it caches the table data while on the contrary B engine only caches the indexes so each time it has to do a full table scan from disk if the data required cannot be fetched from index
+
+am i right that B is better for frequent concurrent updates and inserts than B
+
+although 4m isn t that many rows with contention and depending on your structure and database engine it may take a while i think B alters take longer than B because B requires whole table locks and handles concurrency less well
+
+use B usually much faster than B if your data base isnt transaction oriented
+
+edited to add B is faster than B because it is simpler
+
+therefore accessing B consumes less resources than B
+
+in a thread i came to know that B is faster for reads B is faster for writes
+
+B -- more effecient than B because of the way the primary key is clustered with the data in B
+
+B uses less memory than B and the actual data files are often quite a bit larger for B
+
+you will need about six times less disk space to store and memory to process your dataset compared to B or about 2-3 times less than archived B
+
+we know that B is faster than B when we don t have many concurrent updates inserts
+
+B is faster but does not support the use of transactions like B does
+
+B is better than B when you don t need those advanced features and storage speed is more important than other concerns
+
+so basically when B is more about how objects will behave themselves during application running the B is more about how you write your code before application running
+

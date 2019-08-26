@@ -1,0 +1,36 @@
+i am writing an app based on * which has more than 10 viewcontrollers with corresponding *
+
+the framespace for the * becomes smaller because * manipulates the view by adding a uinavigationbar which is 44.0f in size
+
+the app uses a * that never has more than 1 * on it s stack
+
+in my app i have a rootpageviewcontroller which contains the * and one or more detailpageviewcontroller with a * as a childview
+
+if you want to use a continuous gesture that tracks the user s finger you can use uipangesturerecognizer rather than * and i think animatewithduration is better than * in that case
+
+i have a * with more than 5 * so the morenavigationcontroller is available
+
+generaly * better using with connection *
+
+change the contentsize of your scrollview.your * size and uiscrollview size is same if the uiscrollview contentsize is more than its * size then scroll will happen change the line overviewscroll setcontentsize cgsizemake screenframe.size.width screenframe.size.height-25
+
+i want to add a * of smaller frame as * to parental view but i am not getting the needed
+
+i noticed * had worse performance than *
+
+the * overridden method cannot have weaker access than * method
+
+* is much more customizable than *
+
+using * is potentially slightly on the order of a few milliseconds slower than using * directly
+
+* is easier but * is more powerful and allows for more control
+
+secondviewcontroller which is a subclass of firstviewcontroller also has a * but has one more *
+
+i need show files from qfilesystemmodel in * and customize that tree to show one more column with * so user can pick 0..n files from that *
+
+but in your case alertview is displayed above alertcontroller ie why it feels like * is whitier than *
+
+on the server side you re using * which is nothing more than a socket or * factory
+

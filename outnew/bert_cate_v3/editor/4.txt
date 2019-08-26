@@ -1,0 +1,8 @@
+on unix like environments * is more native and you can use slime which is usually available as a os package or as a separate download for *
+
+on windows machine i would probably go with * personally i now use programmers * 2 however it does not support a spell checker and i don t really thinks it s better than * by any measure
+
+if you are on linux eg ubuntu you may try * for ease of use with some plug-ins but to handle very large files you re better off with *
+
+i have * 8 as well as * cs3 on my windows pc but i m more familiar with *
+

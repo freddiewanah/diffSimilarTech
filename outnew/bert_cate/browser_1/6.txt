@@ -1,0 +1,100 @@
+here the working header request with B bigger than B request
+
+B is extremely slow for your code path but grep seems to be 50 faster than array.filter here making it 900 slower than the B run
+
+btw B is less close to w3c specs than B de 42+ i d opt to start using B for your initial testing and then test it in ch to detect quirks
+
+safari and opera work with the B setting but B and ie display the iframed page larger than B causing part of the text to be cut off
+
+B sends back and html collection that is longer really better imo than B ie or chromium
+
+in B there is more files download 47 than in B ie 42
+
+B dev tools are by far better than B ie whatever imho
+
+i usually use B s developer mode which imho already gives even more details than B
+
+graph beeing cut in B is a known issue B does not respect some print css and works much better with B not all versions still
+
+try your current setup in B B typically has a narrower minimum viewport width and try something like min-width 600px in B and your styles should be applied as expected layout.css will be applied when the viewport is at least 600px wide
+
+also B s map function is up to 2x slower than B on my machine
+
+B allocates lots of memory during that preloading up to 20-30 times more than B or safari do and even twice as much as ie
+
+i ve ran into out of memory errors on B with canvas heights greater than 8000 B seems to handle much higher at least to 32000
+
+tldr in B filter is slightly faster in B that s the opposite
+
+spidermonkey B is slower 50 of B max speed but the speed is consistent
+
+however a sdp object local description by B does not contain datachannel at all and moreover the sdp is much shorter than B and less information bundled
+
+here the working header request with B bigger than B request
+
+B is extremely slow for your code path but grep seems to be 50 faster than array.filter here making it 900 slower than the B run
+
+btw B is less close to w3c specs than B de 42+ i d opt to start using B for your initial testing and then test it in ch to detect quirks
+
+safari and opera work with the B setting but B and ie display the iframed page larger than B causing part of the text to be cut off
+
+B sends back and html collection that is longer really better imo than B ie or chromium
+
+in B there is more files download 47 than in B ie 42
+
+B dev tools are by far better than B ie whatever imho
+
+i usually use B s developer mode which imho already gives even more details than B
+
+graph beeing cut in B is a known issue B does not respect some print css and works much better with B not all versions still
+
+try your current setup in B B typically has a narrower minimum viewport width and try something like min-width 600px in B and your styles should be applied as expected layout.css will be applied when the viewport is at least 600px wide
+
+also B s map function is up to 2x slower than B on my machine
+
+B allocates lots of memory during that preloading up to 20-30 times more than B or safari do and even twice as much as ie
+
+i ve ran into out of memory errors on B with canvas heights greater than 8000 B seems to handle much higher at least to 32000
+
+tldr in B filter is slightly faster in B that s the opposite
+
+spidermonkey B is slower 50 of B max speed but the speed is consistent
+
+however a sdp object local description by B does not contain datachannel at all and moreover the sdp is much shorter than B and less information bundled
+
+B just provides far more access to its own internals and system to the extensions so its technically possible to do more with them than with B widgets or google-chrome extensions
+
+but if firebug donâ t enabled after launch B â time equal 2ms that faster than B and google-chrome and difference between empty filled array disappears
+
+for example in the classic browser share example if the B is at 45 i want to be rendered inside the pie distance -40 may be and where the slice is less such as B at 6 - i want it to be shown outside with a connector
+
+update under linux gentoo amd64 it s the same - B reneders slightly larger fonts than B but nothing that looks odd
+
+B just provides far more access to its own internals and system to the extensions so its technically possible to do more with them than with B widgets or google-chrome extensions
+
+but if firebug donâ t enabled after launch B â time equal 2ms that faster than B and google-chrome and difference between empty filled array disappears
+
+for example in the classic browser share example if the B is at 45 i want to be rendered inside the pie distance -40 may be and where the slice is less such as B at 6 - i want it to be shown outside with a connector
+
+update under linux gentoo amd64 it s the same - B reneders slightly larger fonts than B but nothing that looks odd
+
+my ipad 1 B js benchmarked 38 times slower than B on my pc
+
+ios B is more ios B than B itself
+
+B 5.1.10 6534.59.10 middle handles a smaller viewport but in sort order with a smaller viewport computes new image sizes even smaller than B
+
+my ipad 1 B js benchmarked 38 times slower than B on my pc
+
+ios B is more ios B than B itself
+
+B 5.1.10 6534.59.10 middle handles a smaller viewport but in sort order with a smaller viewport computes new image sizes even smaller than B
+
+works in google-chrome firefox a bit weirdish blur effect on hover B ends look smaller B ends look smaller
+
+works in google-chrome firefox a bit weirdish blur effect on hover B ends look smaller B ends look smaller
+
+font looks sharp in google-chrome B ie8 not as good as other 2 but less fuzzy than B
+
+font looks sharp in google-chrome B ie8 not as good as other 2 but less fuzzy than B
+

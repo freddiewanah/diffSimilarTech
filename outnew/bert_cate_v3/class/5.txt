@@ -1,0 +1,58 @@
+i have tried connecting the qscrollbars but the maximum of the * is smaller than the * s
+
+the framespace for the * becomes smaller because * manipulates the view by adding a uinavigationbar which is 44.0f in size
+
+however the * gauge1 is always bigger than the other one.i want to use a * because the application has to work on different sizes of a screen
+
+* is indeed better in reading floating point values than *
+
+if i set a pixmap to a * that is larger that the window it will add scrollbars so is it possible to get what is displayed in the *
+
+by default when you scale a * larger than the * in which it is displayed it will show the necessary scroll bars
+
+the * version is definitely faster since having the controls loose on the * took more like 2 seconds to update
+
+the * is taller than the screen so in ib i pulled it out of the scroll view so i could see it all but i never moved it back to being a * of the scroll view
+
+the issue is that once the alpha of the * is less than 1.0 i can see all the * sides and the one that gets me the most is the outline of an uiimageview can be seen that would otherwise not as it is the same colour as the *
+
+do i just create a new * that is 4px larger than the selected object and and make the selected view a * of it
+
+of course uiscrollview can have more than one content view just as any * can have more than one * and this case it will be more difficult to render its layer
+
+a * is no more than a wrapper for an underlying *
+
+i want to add a * inside an * and this * will be smaller than the *
+
+i noticed * had worse performance than *
+
+this breaks the inherited and the * is no longer an instance of the *
+
+the fact that the * is more selective only actually writes about what it writes is new functionality especially in light of the fact that the * promises nothing
+
+a * is more flexible and is treated as an entire object which responds to all * methods plus it s own
+
+still you cannot inherited from a as * cannot have a lower visibility than *
+
+in this case * is bigger than * that s why the second statement is correct
+
+also consider using * instead of * if you don t need to edit information inside since * take longer to allocate and init and are generally slower than *
+
+the * is nothing more than a uiview with one or more * and background and selector views
+
+when you re not worrying about * this is more flexible if the * of the object changes
+
+but the problem i am facing if text is doted inside the label it calculates * size less than * size in the below code
+
+if the * is larger it will then wrap around the * to the next line
+
+at first i tried reading the original pdf with a * and finding the signature hex strings to split it into smaller files with a * as i have done with jpgs
+
+now in .net for desktop controls you can use * which is much more powerful than the old tag * anyway
+
+* is known for being slower than a * and consume a lot of memory and you are using a plain table model anyways so try with a *
+
+* is newer api which should polish developers experience when using most common tasks - simply the api is better designed but you still have to get * from * and use the older api if you want to use some more complex features
+
+all-in all the reason is that * is able to do more things than * and can do anything * can hence the direction of inheritance
+

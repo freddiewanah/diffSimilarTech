@@ -1,0 +1,22 @@
+but i ve found that B 2 has some features i like more than B and also tm v2 which is in beta
+
+B or webstorm are far more accessible than B so it usually happens with their editor rather than mine
+
+since B is much older than the extensible B as opposed to the relatively non-extensible vi it has a much larger collection of extension modes covering almost any purpose you can imagine
+
+B is more powerful than B it s scripting engine is far more flexible and there are far more scripts modes and the likes built around B
+
+maybe not productive in the same way - i d say B is quicker for editing files B is better at doing everything else again i would personally say things like flymake-mode vcs bindings are such are quicker to use than the B equivalent
+
+you might want to try B - it has an inbuilt tutorial and some people like me find it easier over B no flames pls
+
+and i tend to think that after a moderate amount of customisation of either one B will still start up faster than B
+
+i like the idea of the of editing inside the terminal and like the key bindings of B but the text highlighting in my B is much worse than in B
+
+B has better github support out of the box but B has a several git packages
+
+though similar in ui and ux B performs significantly better than B especially in heavy lifting like working with large files complex snr or plugins that do heavy processing on files buffers
+
+why B uses more memory and takes more time to start as compare to B editor
+

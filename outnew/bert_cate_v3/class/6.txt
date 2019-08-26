@@ -1,0 +1,24 @@
+* has a higher level it also inherited form * const on it should have no effect in fact not the same meaning about the no effect on immutable object
+
+with explicit * calling your * can accept more or fewer arguments than its * and can decide itself what to pass when calling the *
+
+* must allow more than the * not less and going from an argument being optional to not optional is allowing less
+
+take note of this there is no way to * more than one * at a time
+
+if we are creating an object of a * and invoking the method of * and if * extends more than one class which * method should be called
+
+shouldn t a * interfaced be able to take in more than the * interfacec and use the same method
+
+so i inspected the compiled firebasemessagingservice which was the * of com.google.firebase.iid.zzb and had zzae intent method as private but its * firebasemessagingservice had protected access i know that * cannot have weaker reference than its * so i guess there is something wrong with firebasemessagingservice library
+
+a * may be used by itself or more conveniently with a * or qdatastream
+
+httpwebresponse and * are a little bit lower level than *
+
+similarly as the * gains more methods it * the list of superclass in the order in which they were named that precede it
+
+with * is trickier because any private members of a class are not * by the * but protected and public are
+
+however i could not find it the documentation so it may * more than *
+

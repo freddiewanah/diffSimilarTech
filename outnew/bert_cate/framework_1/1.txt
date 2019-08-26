@@ -1,0 +1,64 @@
+this is another reason why i d prefer rhinomocks and B over B B uses the older expectation style whereas rhinomocks and B both support the arrange act assert approach where you specify you expected interactions as assertions at the end of the test like this
+
+B is newer more feature rich and heavier than B B is designed to have a much smaller footprint so you will most likely find yourself creating functionality in B to match cake s
+
+i personally use B which probably falls in to the heavy framework category but is at least much lighter than B and lighter than zend too i think
+
+B is newer more feature rich and heavier than B B is designed to have a much smaller footprint so you will most likely find yourself creating functionality in B to match cake s
+
+i personally use B which probably falls in to the heavy framework category but is at least much lighter than B and lighter than zend too i think
+
+it s very heavyweight and not fully featured for forms so prism or B works better as these are designed for forms from the ground up but if you do use B for forms its easy to go native if you need
+
+according to my experience B is easy to use but it has some pros and cons too every framework has but i used B on some projects and i think B is much more better than B
+
+according to my experience B is easy to use but it has some pros and cons too every framework has but i used B on some projects and i think B is much more better than B
+
+2 B a bit more structured than B but you have a basic app up within 10 mins and if your familiar with mvc design its a great way to develop portals incredibly quickly
+
+2 B a bit more structured than B but you have a basic app up within 10 mins and if your familiar with mvc design its a great way to develop portals incredibly quickly
+
+if you have to do a lot of this honestly B is more flexible but you can absolutely get it done in B
+
+if you have to do a lot of this honestly B is more flexible but you can absolutely get it done in B
+
+if you actually need dao s this is something that comes out-of-the-box in B and put partly in B roo but there is also a great addon for B roo hades addon that does a great job at this maybe even better than B
+
+either will do the trick but bottle or in my preference B will be faster as it is much more lightweight than B
+
+B is very batteries included meaning that it comes with much more out-of-the-box than say B and to me a large part of that the user auth system
+
+current task looks like B is ok for it since it is smaller and simplier than B
+
+either will do the trick but bottle or in my preference B will be faster as it is much more lightweight than B
+
+B is very batteries included meaning that it comes with much more out-of-the-box than say B and to me a large part of that the user auth system
+
+current task looks like B is ok for it since it is smaller and simplier than B
+
+in my opinion this is a more elegant solution than jsf and i think B s ioc container makes it more powerful than B
+
+in my opinion this is a more elegant solution than jsf and i think B s ioc container makes it more powerful than B
+
+B is more powerful verstile but to get started with it i feel you have to be a better php developer than you do to get started with something like B
+
+B is more powerful verstile but to get started with it i feel you have to be a better php developer than you do to get started with something like B
+
+i ve found B to be really effective and surprisingly lightweight....it aims to be more lightweight than B
+
+i ve found B to be really effective and surprisingly lightweight....it aims to be more lightweight than B
+
+B is more often compared contrasted to B in that it offers a set of facilities outside of moq and or rhinomocks sweet spot
+
+but B offers far more than just doing away with the need for your own writables although that is in my view a considerable plus it offers fairly efficient serialization the choice between serializing against generated entity classes like B requires or using a so-called genericrecord structure instead and not having to have tagged data
+
+but B offers far more than just doing away with the need for your own writables although that is in my view a considerable plus it offers fairly efficient serialization the choice between serializing against generated entity classes like B requires or using a so-called genericrecord structure instead and not having to have tagged data
+
+both give you the ability to implement things in a variety of ways which can be confusing but B provides more of the code that you would have to write yourself in B as standard which for me personally is more important for rapid prototyping than the wealth of B examples available
+
+but on the other hand although new the B package is actually more complete imo than B
+
+both give you the ability to implement things in a variety of ways which can be confusing but B provides more of the code that you would have to write yourself in B as standard which for me personally is more important for rapid prototyping than the wealth of B examples available
+
+but on the other hand although new the B package is actually more complete imo than B
+

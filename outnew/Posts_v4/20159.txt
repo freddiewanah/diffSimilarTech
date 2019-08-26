@@ -1,6 +1,0 @@
-2905
-vim	gedit	vim	emacs	vim	emacs
-further update just fyi i am not trying to push emacs over vim it s just what i use and it s a great editor as i m sure vim is too
-it is daunting at first as i m sure vim is too but the question was about text editors on linux besides vi.
-emacs seems the logical choice to me but gedit is a great simple text editor with some nice features if that s all you are looking for
-

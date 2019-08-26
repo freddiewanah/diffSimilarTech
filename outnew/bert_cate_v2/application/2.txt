@@ -1,0 +1,6 @@
+if you are targeting android you can use firefox for android by developing a webapp that has native B support and because of it will be much faster than B or other javascript solution
+
+since B is a bit more complete than B when it comes to features you could define separate issues with custom field for your tasks
+
+so basically when B is more about how objects will behave themselves during application running the B is more about how you write your code before application running
+

@@ -1,0 +1,42 @@
+personally i think B is much better suited for mocking the unmockable and i prefer a combination of B for my own interfaces and classes and B for framework and externalities like file i o gui db connections etc
+
+i did some reading on B and it seems to be able to do what i m thinking of although at a much lower level than B
+
+the docs for B 2 are clear user-friendly and much less intimidating than B 2 docs
+
+i have worked pretty heavily with both flavors of the gwt B libraries though i ve spent more time with B recently
+
+from what i have read on here i here that B is more popular over B
+
+i would say B would be easier over B as the default ui elements look really good
+
+we started experimenting with B on smaller services and kind of like it more than B
+
+personally i d say B might have the edge as it encourages convention more than B would
+
+B offers you more options and possibilites how to run your tests and in which order especially something B can t
+
+B has more capabilities and can be helpful with integration tests B is more focused on unit tests
+
+i m new to sever-side programming.some people told me that B is more suitable for beginners like me than B
+
+B seemed a bit easier than B and i started to do a hello world B app with this tutorial
+
+is B better than B
+
+i read that B for beginner is better than B because educational reasons at the same time B have B oscar
+
+i d totally go with B unless one dependency B is better than three B jinja2 and werkzeug
+
+i ve found B to be really effective and surprisingly lightweight....it aims to be more lightweight than B
+
+B is more often compared contrasted to B in that it offers a set of facilities outside of moq and or rhinomocks sweet spot
+
+having said that B has a lower initial learning curve than B as it was specifically designed as a learning tool
+
+to answer klochner both seems quite popular but ruby is not a language that i am familiar with and B seems more heavy and complex to me than B
+
+i am new to B it s good for coding but it is not much faster than B
+
+sinatra and B are not automatically faster than B
+

@@ -1,0 +1,52 @@
+if you would like a unified front-end for * and opentsdb you could consider grafana which has support for both * and opentsdb but less functionality than * in regard to *
+
+anyway i just prefer not to use it because * is slower then *
+
+you are right because * is really faster than *
+
+and now i have learned that * uses more memory at-least while reading than * engine so i am trying to change the default engine of mysql to use *
+
+there is a difference between the different storage engines though * is faster for a lot of select * is faster for a lot of insert update because it uses row locking instead of table locking and the way it handles indexes
+
+generally * is much better for preserving your data integrity so stick with it and do not go back to * there is also a matter of what each engine is best fore but unless you give us more details there is no point in dwelling on that
+
+* is usually much better than * at tables being available while insert update and delete are happening because * uses row level locking for updates whereas * uses table level locking
+
+it is a massive over simplification in some cases and plain wrong in others to say we know that * is faster than *
+
+* is newer while * is older
+
+therefore accessing * consumes less resources than *
+
+you can also use compression on the tables to keep them smaller but * is vastly better than * at data integrity
+
+* is more strict in data integrity while * is not as
+
+* is almost 4 time faster than * which is not acceptable in the environment we are working as i mentioned earlier that every second is worth many dollers for us
+
+there are some situations when * is infinitely more efficient than * when manipulating large data dumps offline because of table lock
+
+* is a better choice as * is really old engine and would fade away in near future
+
+sometimes i got asked on some interviews what benefits does * have against * and when * is better than *
+
+* delivered 4.6x higher throughput than * while achieving
+
+use * usually much faster than * if your data base isnt transaction oriented
+
+* inserts are going to be faster than * so if you re logging data and retrieving it later that will be a win
+
+i currently have * and i would like to stay with it because it had far better performance than * in my case but i heard that * has acid transactions
+
+* is much much stricter than *
+
+in fact oracle is so sure that * is better that they removed * from 8.0
+
+* is better than * when you don t need those advanced features and storage speed is more important than other concerns
+
+generally you can have as good performance for reading as in * in * tables - you just can use count without where clause and you always should have a suitable index for where clauses as in * table scan will be slower than in *
+
+* provides much better native whitespace handling recent * releases provide more interesting content controls #define #evaluate # literal block #
+
+* is worse than * and stringtemplate has got its own issues
+

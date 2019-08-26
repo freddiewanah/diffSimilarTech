@@ -1,0 +1,18 @@
+in either case * is going to add a tiny amount of overhead so it s likely to be technically slower than * but not by any meaningful amount like it takes 5.1 seconds to insert 20k records vs 5.0 seconds
+
+* is more suitable for html parsing than *
+
+according to the above posts and my own experience * is definitely faster than *
+
+the reason for using * for such a task is that it cleans html files better than * do
+
+how can i find all div and span tags with order preserved.with * it is very simple but i switched recently to * since it is much faster than *
+
+* enables you to search for elements using xpath which i think is easier than using * s api
+
+it s generally accepted that * is faster than * ref
+
+* is much easier to deal with and usually performance is good enough but for large brute force algorithms like this * will probably be at least an order of magnitude faster
+
+in the first example * is 3x slower than data.table and in the second its 200x faster than * and 100 times faster than data.table
+

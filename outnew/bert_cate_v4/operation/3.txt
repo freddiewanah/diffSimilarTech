@@ -1,0 +1,82 @@
+since bit wise operations can be done very fast and * operations are relatively slow this type of * is much faster than doing a *
+
+* gives you a remainder which is why it s better than straight * in situations where you re number of elements can change
+
+the official tutorial on bitwise and * operators has more information about other related operators and * left shift right shift
+
+just because * has a higher precedence than * doesn t mean we need to perform all * in the expression before doing any *
+
+of course * has higher precedence binds more tightly than *
+
+based on the order of operations e.g where * is evaluated with higher priority than * push the operators and operands onto a stack
+
+i know that * operation is more trivial than * operation
+
+of course it is 10 because the * operator has a lower precedence than the * operator and so 4 + 3 2 always means 4 + 3 2
+
+* is more complex and you can reference the solution in the question efficient 128-bit * using carry flag
+
+instead of computing the slower it instead computed x + x because * is faster than *
+
+for instance in arithmetic * has higher precedence than *
+
+the * has a higher precedence than *
+
+multiplication division and * have the same precedence and they all have higher precedence than * and subtraction
+
+division and * are indeed costly hardware operations whatever you do this is more related to hardware architecture than to languages or compilers perhaps ten times slower than *
+
+* is faster than mul but if you want to * two general values mul is far faster than any loop iterating * operations
+
+for example fp * throughput is lower than fma or * on intel before skylake 1 vector per clock instead of 2
+
+* and divide have higher precedence than * and subtract
+
+moreover i would like to * the pow in my evaluator with an higher precedence than * and divide
+
+you can * higher and lower resolutions by * or dividing them by 2
+
+because the * operator has higher precedence than *
+
+can be fast or it can be awfully slow even if * is done entirely in hardware if it is done using a div instruction this instruction is about 3 to 4 times slower than a * on modern cpus
+
+i was always taught that * is slower than * but i have no real proof of thisâ has anyone got an opinion on this before i start benchmarking and running test
+
+the cpu operation for float * is much more complicated than *
+
+but the research i ve done so far all points to * being faster than *
+
+* by 5.0 is more accurate than * by an approximate 0.2
+
+i always thought a * is computationally cheaper than a *
+
+you always need to know the magic number here 0xaaaaaaab and the correct operations after the * shifts and or additions in most cases and both is different depending on the number you want to divide by and both take too much cpu time to calculate them on the fly that would be slower than hardware *
+
+iirc floating-point * is much less expensive than * so this might be faster than both
+
+the intuition is that * is a more costly affair than *
+
+but since * is pretty expensive i think that this is even worse than 2 *
+
+the tostring should be slower than parse since * is generally slower than *
+
+yes * is usually much slower than *
+
+change the half to 0.5 and you should be golden for the math part also * is faster so use it instead of * when possible
+
+from the performance side float * is faster than * but i don t think that in the gui code it can create significant difference
+
+but i wonder why is * actually slower than *
+
+* and square roots for huge number of bits are not much more complex than *
+
+this because 1 x is simpler than y x and * is faster than *
+
+here it is conceivable that * is slower than *
+
+multiplication and * operators have higher precedence than * and subtraction in c++ same as in scientific notation
+
+* is performed by repeated subtraction therefore needs more level of subtract logic making * slower than *
+
+it is true that * and modulo a * operation is slower than *
+

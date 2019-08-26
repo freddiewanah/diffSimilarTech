@@ -1,0 +1,98 @@
+you can also use B it is a lot simpler than B
+
+but since B is less secure than B why isn t it the other way around
+
+i understand that B has better performance than B
+
+but as i understand it B disallows the more secure B domain credentials if they re available
+
+as i understand websockets are on top of B and have higher latency than B that underlies webrtc when for example sending binary data between server and browser that also could be 2 peers in webrtc
+
+B is not better than B in any way but it does something different
+
+or is there any specific scenario where B is better than B
+
+i ve considered that B is more suitable for sending a series of discrete data sets but i need the reliability of B
+
+keep in mind that implementing B traversal is easier than B
+
+if you re more interested in latency and small amounts of data then something B based could be better than B but you d need to build extra logic for ordering the messages and retrying the lost ones
+
+note that there are exceptions to the above - for example B generally traverses firewalls better than B which may be blocked due to security to traffic policy reasons so voip speech may sometimes be sent over B for part of its journey at least
+
+B is significantly faster than B and is why it is or was used for video and various things back in the day
+
+B is faster than B because packets are sent without guarantee of delivery nor order
+
+but it sounds like you want to do nat traversal over B which is a harder problem than B
+
+use socket for B and datagram for B its a lot faster than B but less connection oriented
+
+generally speaking B has less overhead than B allowing you to receive more data but this is not a strict rule and is almost negligible in this context
+
+one can say B has a lower overhead than B because its packets have a smaller header and therefore take less bandwidth to send the payload the data
+
+B is far better at transferring large quantities of data but when the network fails it s more likely that B will get through
+
+B sockets have much lower overhead than B because packets are not acknowledged by the recipient
+
+in that sense reliable B cannot be faster than B
+
+B windowing is more expensive than raw B but if you use B to go faster and add a custom loss-recovery or seqno ack resend manager then that may slow you down again
+
+short answer if you can tolerance with any packet loss B is better otherwise B
+
+that among other things is why B is considered more reliable but slower than B
+
+try to increase timeout value B is slower than B
+
+you can use B as well but if you are dealing with firewalls it is probably going to be simpler with B
+
+i m trying to avoid Bclient because B is faster but would this work in B since it s streamed
+
+alternatively it can be used over B which is less hungry than B
+
+so assess the situation the development cost of a B transport is higher to significantly higher than B and to some degree you are re-inventing B
+
+B is less reliable on a wide area network but in a closed environment of a vm talking to its host you can safely skip all the B reliability stuff
+
+hello to all i am developing an application that needs to send a image via the B socket.i know that B is a better protocol but playing with kryonet in java i have learnt that B is better for this type of application.i have this small class that i have made
+
+tldr B ip is more reliable than B but not a 100 iron-clad guarantee that nothing will ever go wrong
+
+the package is bigger than B s package but smaller than B s package
+
+we know B is better suited for this but the hardware development decided it s got to be B
+
+btw i concur that B is far more appropriate than B in this case
+
+first of B s datagram is simpler than B s one
+
+it seems like B will more efficient than B
+
+the downsides are that it is unreliable messages can be dropped or corrupted therefore you may want to add some safety and that some isp may restrict B more than B test yourself to be sure but usually there is no problems
+
+c++ is not my first language and this is small part of code i can t figure out i ve chosen B because it is always much simpler than B
+
+most importantly you can easily supplement B with some reliable delivery hand-shaking that s less overhead than B
+
+we propose to use B over B since B is faster than B
+
+i read in a case where a stream of 300 byte packets was being sent over ethernet 1500 byte mtu and B was 50 faster than B
+
+only when packets can be discarded unordered can B be faster than B
+
+if the data is critical you should go for B which is slower as compared to B which in fact doesn t guarantee the packets will arrive in order or even if they d arrive or not
+
+in gaming especially fpss B tends to be the chosen protocol because it s much less chatty than B
+
+i though that B was faster than B but do you think that B will be faster due to the congestion
+
+B is more general than B and is generally used for command and control
+
+B uses datagrams chunks of data which are received whole on the other side unless the size is bigger than the B but that s a different story
+
+basically while sending B packets larger than B ip fragmentation can occur if it s supported on your platform but not all platforms support it
+
+in addition seeing B being slower than B doesn t necessarily mean B isn t deprioritized---it might mean bandwidth is insufficient to hit the limiting threshold
+

@@ -1,0 +1,68 @@
+plus the overhead of doing it is extremely costly- B queries against hbase are on my cluster at least an order of magnitude slower than against plain B files
+
+the maximum representable value with B 754-2008 binary32 is so the base 2 log of a number stored in binary 32 is less than B 128
+
+extfs4 or B are between 25 and 40 faster than B or refs depending on the optimization
+
+i ve even tried to pin archetypes and atcontentypes so that the B uses older versions example those used in B 4.2 by adding the following to my pinnedversions.cfg file which gets called after everything else
+
+your B record requires more than 10 B lookups to process
+
+if you have the money ericgorr is right B is much nicer to work with then B
+
+if you want to a little bit further you can imagine use more powerfull scm clearcase B ... but maven integration is fewer not well documented and community provide less examples than B or git
+
+yes B takes more time in cooking the resulting html when compared to B
+
+imho B is better do work and customize than B
+
+since B is less commonly used compared to B svn amongst bamboo users we generally get less feedback about it and hear less about existing issues
+
+B is in an earlier stage than chef B and other tools out there when it comes to community support
+
+B is imho easier to learn than B
+
+an incredibly rough eye balling of the numbers they posted showed B to be 2-4x slower than either B or mercurial in the use cases tested
+
+thinking you can format B blocks any better in a cms such as B and use B just for the backend will put you on a hiding to nothing to end up with a fairly useless setup that isn t going to go anywhere
+
+since the B is more than likely B or B32 protecting it permission based way would be more convoluted
+
+B was written to be a better B than B
+
+we found B to be a better than B simply because it is easier to use
+
+actual mounting of B is trickier business and really depends on what you are mounting - B fat ext3 xfs nfs cifs webdav etc etc
+
+when people say that unix B are better they might mean to be saying oh ext3 stores bits in such as way that corruption happens way less than B but they might also be talking about design choices made at the common layer above
+
+the problem is that windows B is slower than typical linux B for these lookups
+
+generally the performance of hard B like B is better than that of traditional unix B
+
+nobody has ever accused git of being easy-to-use no B for example although i hear it s coming so you might be better off with B beanstalk
+
+conceptually it seems like a type of central authentication system B but is more similar to B also a federated identity management system
+
+as others have pointed out B is much more convenient than B anyway - you just need to remember how each of the B digit 0-f looks in B and replace groups of 4 bits with a single B digit
+
+if the right side the B side is greater than or equal to the B side then you print true if not then you print false
+
+base64 is usually used in instances to represent arbitrary B data in a text format it has a 33.3 overhead but that s better than say B notation which has a 50 overhead
+
+in fact B does stores binaries a lot more efficient than B for more info see the B-faq
+
+B is better than B
+
+microsoft has the microsoft speech api sapi however if you want simple B it is better not to reinvent the wheel and customize an B implementation which i guess falls under the great B library for c++ category it s c not c++ but if you know c++ you should be able to understand the c . using Bnow you may not even need to write any custom code it may do what you want already
+
+hex or maybe B depending on the machine being emulated will be clearer than using B since similar opcodes tend to vary in bits not digits
+
+can a B section create more than 1 B
+
+i didn t work with these applications yet but afaik B and ezpublish both php are considered much more professional than B
+
+B high availabilty is only available when you have more than one B configured
+
+B seems much more like B with branches just being separate directories so maybe not
+

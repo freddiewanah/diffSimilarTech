@@ -1,0 +1,299 @@
+furthermore B slower B
+des least secure B better go B
+view expect B need change view declaration also really need perform find use B first return result B since payload B smaller B
+B really fast switching B ios.
+B caching agressively thats seeing worse load time B
+try current setup B B typically narrower minimum viewport width try like min-width 600px B styles applied expected layout.css applied viewport least 600px wide
+B extremely slow path grep seems 50 faster array.filter making 900 slower B run
+B takes space B
+determining B hull far difficult B hull
+open using B better version B imo expressed fairly simply using flattendeep element multi-dimensional array
+likely B allocates memory puts so-called guard values happen contain null bytes puts metadata used B later metadata happens contain null byte right position
+hood technique tag milestone releases projects giving version number manage dependencies B similar tool bit sophisticated B
+similar nature whether B better B c# better
+B access fast B access
+data B take space B
+intermediate output shuffled job become slow need B based shuffle slower B based shuffle
+os heap uses cpu virtual memory hardware free fragmentation issues even effectively use B swap space allowing allocate memory available B
+saying B better security whereas B becoming feature rich.
+since B sane B tricks report
+B always little bit mature B
+second snippet previous one B 20 smaller B equal previous example plus max-B limit 100px
+ensured B value B always
+window B bigger window B portrait landscape orientation
+devices seem recognize highest dimension max-B amazon kindle 2 appear treat lower dimension B higher B
+already see dimensions captured image B smaller B whereas uiimageview B larger B - proportions different
+B larger B get undefined behaviour probably writing random memory happen
+enter multiwindow mode window longer fits screen - B greater B considered landscape
+meaning #fluid-container large B B diameter circle B #fluid-container around B greater B #max-circle diameter equivalent #fluid-container B
+various different image sizes running site - B greater B versa
+sounds like need B iteration slower B really want
+according benchmark B little bit better B serving bigger static contents B would good static flv contents
+implementation B type say pointers bigger B type provide
+panels must side side large B must responsive B gets smaller B vertical orientation
+B faster B acknowledge congestion detection
+B quicker B using quickfix using B
+B templating looks easier B
+B harder B
+therefore accessing B consumes resources B
+although outer foo B better match call foo name lookup stops finding outer inner foo B outer foo B hidden program prBs inner
+B bigger B result operation typed B storing B
+today B popular B writing files outside data store B would common need work nsimagerep get
+also use B gae compatible easier B
+given two ranges b B one greater one B
+like heard like B slower B simpler management single private protect
+B higher level bindings llvm B B ones provide interesting type safety guarantees B far libraries use 1700 packages making easier glue together components
+however arrayfun B disguise often slower writing B explicitly
+anyone explain B taking time B even though looping j almost
+decremented B still faster B incremented B length upper limit comparison fair margin
+B popular date B new release time though testing webforms still useful B good support
+B provide application-level support fair bit better B
+person sees also nothing wrong B B
+also added control check values could bins B value greater B value
+one whenever B changed greater B change equal B like
+performed survey B B loadleveler B better B handling large nodes single cluster
+B 5.0 accurate B approximate 0.2
+wonder B actually slower B
+difference first number shows rounding intermediate calculation happens B higher internal precision 80 bit arm B
+see form B posted either posted modified B higher B tree simpleformcontroller
+B popular features B smaller faster features
+B fast lighter B
+configured tomcat B web server past never slowness practically speaking B said lighter faster B web server
+however B source greater B simply copy first bytes terminate string dest null byte space
+never mind B binds stronger B
+note B values via B var instead B wich makes sense since sending via B form
+B appropriate B queries safe semantics
+using custom delegate methods run B request performed earlier B cannot B B done
+edit taking account said comments though looks secure recommended w3 see touheed khan answer B secure B riggsfolly said
+enough use limit B 50 B
+buf1 buf2 buf3 small enough located l1 cache l2 cache l2 cache 1mb .both B B band width limited datalen increase B need time B
+B generally optimized B one
+however seen object B faster B
+use floating divs instead looks like modal B better B
+B could better replaced B bound checking
+unfortunately work B one B
+1 node stop local min smaller B ii smaller B precondition deciding check node
+wrote one query fails particular B 10 B
+say B faster B also simplification - B-based rendering technologies different performance characteristics
+des least secure B better go B
+practically determinized give B exponentially larger B means
+note first combobox item B jcombobox B better use B
+B deprecated B extend jframe instead frame
+since sizeof B probably smaller sizeof B going lead horror
+asked B faster B
+note cast result B better suited years B precision returned extract
+since B representing non-decimal number 1 B represented decimal-number precision 32 bytes float 1.0 say B smaller B logic B promoted B B demoted B
+machine B swap loop completes 11 faster B swap loop
+often using B math faster B
+maybe division B B faster B
+clearly calling B x B asking trouble since B store bigger numbers B
+upccode B larger long data type tried B float works
+calculation works fine B mode soon switch B mode distance bottom button bigger B mode
+B older programming ios macos applications B allows use structs
+see B example complex error prone B
+attributes let create B understandable B complier warn break rule example
+worth mentioning commercial product named B powerful B
+point view B model easier grasp since B defacto standard feels weird change little
+B generic B though
+B slower B 2 slightly slower 1
+compiler make optimization tell wanted exact behavior B better implemented behavior scale sum affects result B
+ejb3 thing B better B session beans
+B specialized interface extend B
+experience found B seems faster B although hard data back
+trying hard like B far find worse B ways
+B - good bit slower B
+B plugin system works development mode B slower B see details
+B provides detailed information ajax errors even B say
+example text size 15px well B makes larger 15px B
+B get away B aborting
+found programming B extensions easier B come across similar xpcom B
+ran test individually timer B actually performed better B hope helps
+B 2.1 B better counterpart B rpc use db4o together
+macvim B thicker whereas B slicker sophisticated
+keep track cmd length ought variable copy string B slightly faster B neither check string length copy extra zero end string
+notice B faster B unless source string smaller buffer size rarely ip addesses.
+size known normally non-naive implementation B faster B since takes profit cpu data bus size
+B similar peter gutmann B gnu gnutls
+possible use B one B like
+B B backend 18x - 19x slower B tensorflow backend
+B routine B_gemm higher performance B
+oo class B abstract features B B
+construct B comparative slower B
+B pythonic B shudder soap
+release drawer slide open B greater half B close
+B difficult include B outside box
+launch internet explorer box gets immediately huge distance B bigger B screen noticed run stackoverflow snippet function box move
+sha-256 uses 64 characters database index column proven B reliable B sha-1
+malloc B harder thereâ also B realloc
+B superset B subset -- B functionality built B
+B meta-program use B scripts run junit tests
+B 100 thousand faster B database access
+becuase reading B usually faster kind memory storage divice os copy progB B B start executing progB
+B 1000s slower B memory usage increases machine grinds closer halt
+compared B 2 x left-shift divinding 2 x right-shift noted binary shift faster B operation
+used project B better integrated B especially exceptions
+B representation memory add third link - B variables B ones
+B easier B really matter either
+ps also migrate B smarter B choosing right indexes
+B gets better performance coming former B partisan
+said B acid compliant B handles fks needing would generally recommend based expressed post
+basically 30 images varying B length greater 750px B 500 px B
+using media screen orientation portrait means B screen bigger B soft keyboard popup B screen become bigger B happen
+wondering possible automatically arrange icons B gets smaller x last icon row gets pushed next row grows B
+2 take one div modal-body B B fixed greater ifrmae B B like
+B greater B border thickness sides
+however rotating rectangular image new B B bigger two screenshots help clarify rotation rotating rotating -- little handles show images x B B extends
+trying figure print api handle paper sizes B greater B
+current rotate crop edges B larger B
+solution use variable increment generated let say 13 rows echoes cells must exact B may add new line text longer text cell table 1280px B
+since B bigger B top bottom parts captured image showing live feed naturally
+fit image B gridview maintaining aspect ratio crop remaining B unless image B smaller gridview B matched
+right image look like square B larger B
+window B smaller B orientation would considered portrait
+compact B actually greater B pushing label screen
+B image greater B landscape
+B bigger B smaller container B stretch 100 B trimmed side
+seems like trying make B wider B
+popular formats 4 3 16 9 B larger B
+B bigger B print image-horizontal else print image-vertical
+diameter dot shall exceed half B aggregation diamond shall larger B line
+try loading image whose B lower B
+thumb text B B track thumb shape scaled
+result look like square B seems larger B
+set portrait page B page B
+B page greater B device
+want target B greater B think like min-aspect-ratio 101 100 like might work
+effectively show scrollbar needed horizontal content wider B vertical content taller B
+window B bigger window B portrait landscape orientation
+parent B lower B
+uploaded images taken cameras arrive server B greater B regardless shot
+want set page orientation portrait B size higher B size
+want show landscape mode B greater B phone otherwise show portrait mode
+documents likely portrait format taller wide B greater B
+webview landscape setting B longer B
+img tags rotateimg class B greater B
+causing problems since B greater B stay within object memory normal accesses
+displaying full-screen background image also basic function detecting whether device B larger B
+function def randomrects x B B x top left corner B must 90 B 70
+B wider B make target size 500 x 375 otherwise make 375 x 500
+see opencv source fitellipse B ellipse always larger B
+look image B check whether B smaller B B smaller B set either one smaller B
+image B greater maxB B greater maxB like proportionally resize image fits maxB x maxB
+B higher threshold right panels gain additional B righttoppanel loses B faster rightbottompanel decreasing B jframe
+B greater B return target otherwise return proportional B
+alternatively use filter method filter images B greater B add required class
+comes B B sets B child B element
+means viewport B 970 viewport B 0 serve nothing
+trying use universal image loader uil test project think trouble loading images B greater B
+seem remember reading somewhere report B smaller B printout automatically rotated landscape
+ratio little one since B longer B left right boundaries essentially like -1.5 1.5 whatever ratio happens
+course would displays B bigger B area covered
+example B greater B resize B 500 pixels scale B accordingly original aspect ratio preserved
+B gets longer B increases want B exceed 35px start 5px
+use swing-x components B powerful B
+suppose B faster B slight second overal page height shorter
+simply looking B value cross table need B B menu
+want calculate B B cheaper calculate B B calculate B sqrt 1-B 2 get B
+check B lightweight obscure B
+today machines non-issue ever find dealing older gear experience B far likely work wonky terminal B
+addition B B division
+try fit B using B package know B flexible need use B
+B B int implementations smaller B int
+see B worse kde B superior
+B worse kde B superior
+notice B header fields B header fields populated information handshake
+sending packets via established B connection hand shaking done method faster B
+B stack considerably simpler B stack
+general rule B faster B due protocol overhead
+B always faster B
+twitter desktop accomodates Bizes around 1048px wide B smaller probably B smartphone open twitter browser phone instantly redirected prompted download twitter
+contrast nexus 7 B higher actual B resolution ipad mini reports web page smaller B size
+B even faster B 3B cpu supports B-ni
+B higher precedence B B left-associative equivalent knowing tells first B happen second B B happen second B
+start number want reach divisible 5 divide 5 B 5 results shorter solution B 3
+probably find B performs good deal better B
+B uses row level locking B use table level locking B crash revovery better B
+therefore B handle higher levels concurrency better B
+B api also bit richer B api
+would suggest make using visual studio 2010 sp1 install B express upgrade B like real B switch project use B express see get exception
+B even 1 corresponding B
+typically B take memory B end larger value incremented
+warning language-lawyering follows. might loophole allows extended B types wider range _bool narrower range B
+since B smaller B would
+understand security obscurity aware B varchar columns larger 4 B take space B 1 byte
+stated standard unsigned B rank B type switch condition B means
+let assume minute using unsigned B applies larger B course
+however encountering issue B entered 10 B long program still say lenght 10
+possible convert B string longer 10-12 B fixed length possible mix B numbers reversed original B
+think conversion builtin B types binary-and operation likely make faster working B B B written rather
+B turns 38 need version string come 380 one zero added end B wanted max three B B three B zeroes added make three
+dealing docx document B convenient B
+B lower bound B upper bound
+satisfy B test 4 slower B
+tests B x75 faster B
+frameworks fairly easy implement B easier B imo although B built authentication layer use albeit difficult implement client server like need
+B older extensions dbunit B
+relevant discussion well fb_graph B gem better B using facebook graph
+B richer api compared B
+however B somewhat slower practice machines well-implemented B
+see B used commercial devices cheaper B pic
+says enhanced B 3x faster regular B well great easier write anyways need index
+B always runs fixed number stylistic point view would better B
+windows B 20 faster original B ie B perform
+foreach B takes time B
+reverse B generally faster B well
+know giving B B work split wrong information road name B info split wrong column
+B provides extensive api documentation B
+works nicely rich ui perspective boring wondering since B image bigger B could assuming possible B container suck bigger image fills dimensions
+calculate B part 1 might expect B part slightly one
+note equivalent 10 faster since B around 10 slower B
+B aims lightweight B B far mature proj
+implement normal different sized circle packing resize circles biggest bigger planet B size distances bigger B distance x1-x2 2+ y1-y2 2 Bdistance pair circles
+return error deepend B greater B could never really happen testing -
+edit correcting B lenght bigger B lenght
+may apply empty array works well B B
+B heap one element B heap
+select B want could limit allpossibleids B table id
+syntax B positive integer number indicating Bimum number matches B integer equal greater B indicating Bimum number matches
+filter limit rows adjacent numbers B 4 7 B 6 12
+test whether entered value B value set value B value implying value must greater B set value B attribute
+checks first last group smaller B greater B done simple checks affect complexity
+B example B oop perspective
+trying create template B since knoledge B
+words B type-wise B
+malloc + B slower B certain conditions
+malloc + B slower B
+B ajax support far verbose B
+B inherently slower operation B
+B takes longer B - pen paper see
+B faster B 2.3 malloc.
+main advantage B image smaller size clocks around 85.1 mb compared around 200 mb B
+next find threading model B efficient B
+finally experience B faster B
+B configured respond requests matching predefined pattern far easier B
+B made work B 2 B 3 however newer B therefore B support using B 3
+B worse performance B
+think B better B
+able B 100 B single rest api call linkedin company updates
+type B faster type B cause curious work
+B slightly faster values sent header unlike B values sent request body format content type specifies
+B far 50 B
+expected B 1.5x faster B
+plan move mobiles later tkinter B may better B
+understand traditionally saying B stricter B however get following
+note using B parser slower B default parser
+size B performs better B store
+B gives better alpha result B
+B plugin nicer mature B
+B 1.6 includes low-level streaming api new parser actually faster B
+plan use B extensively application seems safer better B
+certain irony given within xslt B stylesheets generally idiomatic B stylesheets
+B light B B creates view creating table whereas B
+edit double B specifically designed better B work languages english
+speed query propose pseudomedian B faster involve B
+query lists B sharing B one B
+use rgba instead container div set opacity opacity properties inherited B even text nodes meaning descendant kind higher opacity B
+need pull array type make heap B always greater equal B
+please notice family cell stretches house one B rows B cell streches house one B rows
+B nothing thin layer glue making gobject B .
+aware bourne shell B capable B

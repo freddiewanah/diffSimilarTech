@@ -1,0 +1,255 @@
+currently using B orientation devices B orientation looks better phones meanwhile B orientation looks better tablets
+issue height B mode lower B
+B mode display rows B mode
+B lesser space B able view top scrollview portion would scrollable
+want images fit inside width text area change dynamically window size want height meaning course B images take horizontal space B ones
+condition reads loop zipped tighter either B five B ends match
+one drawback B vertices might slightly intuitive B area two proportional
+looks like B smaller screenshot B could defined break-point yet
+ie B higher baseline B baseline
+apparently B pickier B
+website noticed tooltip delay B higher B
+B course process escape sequences B would
+approach using purely images screenshots generating B B events similar manual testing activities performed real monitor B B
+B difficult include B outside box
+content leads B 100 table containing setting left right B auto center table within containing
+B image greater B set B fixed value auto stretch B
+B B element need big bigger B B image setting created image object
+also B smaller start flashing higher B
+add detail opening paint picasa viewer ... see picture squeezed horizontally 50 B smaller B eye
+printer sees feeds portrait rotation report viewer prints landscape B greater B
+demo illustrate change landscape portrait using css orientation window B higher B
+B wider B shorter 44
+B longer B set B 500px set B auto
+think want pure css need make calculation see images B B
+collection view occupies whole screen simply check B B take result landscape orientation
+item border 1px B item 2px B property
+...then using animate click event could give B value animation time B delay equal bigger B animation time value...that trick stiff actually using ui
+draw test rectangles B B otherwise window remain clear
+however want redesign layout make adjustments based wether screen landscape B larger B portrait B larger B mode definitely use css media queries
+uil loads images correctly B equal B
+best bet would describing windows.current.sizechanged event testing B B
+likewise B greater B
+noticed horizontaladvance chars f w smaller normal B verticaladvance char smaller B
+solved resize B larger 800px B larger 600px
+surely working detect landscape B higher B image need rotate
+check B greater B rotate screen
+create new transparent png white 200 200 place newly generated image apprioriately i.e B place vertically centered B place horizontally centered save file
+let assume B array bigger B otherwise split another direction
+B bigger B print image-horizontal else print image-vertical
+using resize function wrap div container browser B 801px B greater B
+basic idea behind approach map coordinates images interval dividing B assuming B larger dimension matter smaller B
+image renders try pinch zoom B picture changes bigger smaller B stuck iphone screen B
+B higher value B browser orientation portrait
+found things online state B must always greater B seen source checks accompanying cannot find
+set B 36 appears grow B-36 instance set B B one narrow cells number lets say 60px B gets displayed greater B appears rectangle square
+actually even rather since B greater B
+B higher B versa
+technique work B resized extended word wrapping sentence wider B text box textbox creates new line automatically
+screen B smaller B need white circle radius B 2 B smaller B need circle radius B 2
+trying generate multiplication table t-sql microsoft sql server 2012 stuck B greater B
+using liquid fun android project glsurfaceview B equal bigger B works well set B bigger B particles rendering work well
+similarly max-B effect B greater B
+B greater B
+cant get orientation exif server root access fix going see B B rotate working properly
+B greater B set B 100 css B greater B set B 100
+works point user screen B B
+version gives fixed 500px B image looses aspect ratio viewport smaller image B
+note observed margins appears image B larger B
+edit would diamonds B greater equal B
+works fine image square B B
+would like avoid top bottom padding uiimageview images B greater B
+pass value B larger B get wide figure
+run B set storyboard B fine change B view nowhere
+B B
+bold meaning B greater B makes portrait view landscape
+B higher threshold right panels gain additional B righttoppanel loses B faster rightbottompanel decreasing B jframe
+images ratio fit imageview B B image B B imageview B B
+goal top wrapper container green take B vertical black wrapper left column wrapper larger B rotated black wrapper
+image B probably going B really depends type image using tall want carousel image
+extracted solution media query browser size B B
+since B smaller B trick
+went fullscreen wide B greater B would see sidebar left maybe also right
+looks like page landscape dimensions page created B greater B
+please help...this one sony experia model.whose B B less.this particular layout working fine B B almost adjusted physical devices.like samsung htc
+deal thought B would nicer B
+would say pure B better programming whether use flash ide flex ide relevant B better non-programmers combine components programmed
+B 2.2 framework better compatability B resolutions densities
+tradefoff B becomes slower compared B
+decode passwords re-encode B recommend little fancy B
+B fancy wrapper B bringing uiresponder events animation conveniences among things
+B exact B long number exponents remain range
+32-bit float B larger -1..1 need find B maximum values calculate scale factor gets samples within int16 B
+B create stack sorting would faster B build stack afterwords
+value B larger B pop-up occur
+trying understand would happen B node somehow smaller B nodes.
+following advise received B cheaper B revised one line interestingly enough 71.2 dropped 1.7 statement shot 64.8 get
+dynamic memory management small embedded system tricky begin B complicated B malloc course
+small B smaller small B never ever use
+zoom google chrome zoom levels cause B larger B element
+please notice family cell stretches house one B rows B cell streches house one B rows
+collapsible panel designed B green wider B red
+using B better B
+express combinations states B states got B states B thing
+B relatively similar B apart B capabilities B probably simplest form start tools complete project hope helps
+also linearsvc class B performs even better B whch also surprising considering wrapper B
+want display file plain text widget B better B
+since float typically promoted B varargs calls B smaller B break
+B hold smaller range B
+decent understanding error B higher precedence B B cant necessarily store B value
+convert object Bo B Bo B take care B value bigger B
+B slower B
+range B wider range B long
+B comparisons hashes expensive B number comparisons theta number hashes
+use abs B narrower fabs B fabsf float labs x long
+understand compiler happy B might larger B hold particular control guaranteed value 1 10 know okay
+well multithread performance B version 2.6 better B precision
+gcc 4.9 prBs error second overload discarded B better match B
+precision parameter B amount change B delta stop algorithm
+writing B 2.0 professional work personal opinion indeed ready enterprise applications -- maybe even B ever
+B allow absolutely B allow almost probably robust considering B modern stronger typing B
+objects come magically existence B B
+similar incron however B uses simpler read B file instead plain text file
+experience B better performance B
+actually work B forgiving B errors
+general found B finnicky B
+maximum representable value B 754-2008 binary32 base 2 number stored binary 32 B 128
+interesting answer found B better B
+depending look say B faster B due locality reference cache hits
+B first field value greater 0 B -1
+p sometimes chosen 31 prime compiler resolves bitshift B faster B
+simple give feel B hence B slower computers still long B stepwise fashion tha grade school
+since bit wise operations done fast B operations relatively slow type B faster B
+higher B means B image result infrequent extreme deviations opposed frequent modestly sized deviations
+measure higher B means B result infrequent extreme deviations opposed frequent modestly sized deviations
+make mistake B number 1.0 instead 1 use compiler optimization B last longer B number 1
+unless using static typing feature B strongly typed B
+dimitre says B better class B
+fancy compilers understand un interrelatedness instructions limited extent automatically interleave instruction flows probably longer window B sees better utilise B
+presume know using B slower B decimal number 5 always slower 0.2
+B quaternion quaternion b nothing B multiplicative inverse b
+according agner instruction tables single fp B slower single reciprocal op single B op
+read following pemdas precedence B B
+B solves general representing real numbers Bs real numbers larger maximum B Bs representable 16777216 nearly uniform relative accuracy least 1 2 precision
+performing B division coarser B division
+hearing group leader B better B working coordinates
+B bigger B landscape
+rotate might need two sets constraints one B B B B
+say resize browser window B larger B media portrait
+check see B B title greater B B main
+far seems work expected x-axis wrapper bigger y-axis B B B wrapper bigger B gets distorted
+specifically image B greater 250px resize B 250px B auto
+image B larger B landscape scale B 1024 pixels scale B appropriate value maintain aspect ratio
+desktop mobile showing images full screen B cutting image parts higher screen B job without
+despite set numbers column B larger row B
+also integer B expensive may divide first calculate B 10
+edit based tests done multiple theory B seems better B
+vector want calculate component-wise function say B B faster use vvBB accelerate pipeline calculations B B entries vector faster uBg for-loop vector
+first B x faster accurate B x 0.5 think
+addition B rectangular bound calculation cheaper B
+t-sql unary minus made priority B lower B
+end using memory anyway B still faster B memset difference quite ridiculous
+B faster B B processed single dimensional array pointer format whereas B takes double dimensional array processed converts single dimensional array pointer format
+B slowly increases part string still line 1 linearly gets wider B increases
+B indeed better reading floating point values B
+also limited memory processing resources worth bearing mind B costly protocol avoids overheads B incurs due inbuilt connection management
+B runs time mn asymptotic runtime still mn + 2 2 note little-o approach asymptotically faster using B
+B hard precisely B means variant hard B decision np-hard
+B faster B faster shift
+B computationally expensive B
+since parentheses used around B B infer probably B lower precedence B
+since B expensive B want let machine paralleliz possible saving stalls B means spend time waiting B loop would B loop
+B relatively complex operation likely slower say B comparison
+almost always B better B
+B proved faster B
+find B slower inserts updates bear mind offers better level durability - tune approximately durability B see good performance hopefully
+B 3 variable larger sizeof B
+depending B B system assume B bits B Bermediate sums may overflowing
+sizeof B larger B system
+remove operator warning always emitted probably good result expression B promotions larger unsigned B
+primary keys short typical size abbreviations rarely longer 4 B -- xxxl --- size smaller B database engines B typically 4 8 bytes
+x type B B B better conversion B
+B bigger memory area B read pick values beside B end effectively random value
+use B x x 4 B greater B one
+B smaller B rare embedded systems difference computed simple subtraction promoted B difference guaranteed fit range type B
+B statement becomes B sooner later need parsed optimized compiled B
+B faster slower B training
+B adder slower B add
+add B number prime prime factor larger B solution
+B B greater B xy...that possible
+measured time takes calculate distance vector rows B object work slower B 3 normal distance function
+B 1.6.0 B maximum 1.0.0 inclusion
+example standard mandates B B types like short int long may wider B requirements
+B already found complicated powerful B may explain simple functions slower B
+indeed show average B comparisons B roughly 1.44 2 B versus 2 versus B
+theory insertion sort B worse B
+respective worst B faster B
+say like B faster B makes say
+B suitable countable B
+note using apply functions instead B better depends actual purpose B
+also aside objective-c foreach B convenient manually setting B counter
+according benchmark sefan B answers take ammount time fruity B answers take bit shorter B answers second multiple B answers take far longer
+B sppropriate B
+using B control flow better B
+B faster mul want B two general values mul far faster loop iterating B operations
+B sub cheaper B better throughput lower latency
+taken example two B character string could subvert maybe taking longer string B would two undersirable effects
+dis B B part sets range B B values distribution come means never generate value bigger B smaller B
+check beta1 - beta2 alpha1 - alpha2 greater B x1_line1 x2_line1 B x1_line1 x2_line1
+seeing use slider move either end B B appears display value step value greater B B
+likely tm2 value larger B int32 value lower B int32 value...i would add check like.
+clicking check button compares two values alerts B B
+replacing return luckynumber B B
+want check number B B range would likely want check higher B lower B
+format_int B loops 4 4 B dec
+one important B alot shorter easier read B humans
+B slower B
+numbers 54321 else statement executed never B digit greater max1 B first two digits
+ask uncompressed B contains pcm data better B yes sometimes better really matters human ear postprocessing perform data
+need convert B another base use decimal writing B constants would ten useful B constants
+B higher precedence B parenthesis around B
+platform probably representative microcontroller test shows platform B considerably slower B
+B commonly used B
+likely B efficient sort dictionary use binary B ternary B
+B usually faster B
+latter yes floating point B generally faster B
+machines B slower B machines j multiplies j divides run faster 2 n-2 B one B
+change half 0.5 golden math part also B faster use instead B possible
+B usually significantly faster B
+since B higher precedence B
+B expensive B
+since resizing window make assign w h values numbers products dynamic numbers B faster B also use B
+floating point B better floating point B
+machines particularly without hardware support B B slower operation B approach yield considerable speedup
+optimizing compilers optimize B operation faster B done divisor constant though
+take look B non completely random data performs better B asymptotic complexity B lower constants
+B actually quite easier B opinion
+new B want try since apparently faster resource-hungry B see would hard thing achieve
+calculating B takes iteration checking B
+classifying multi-paragraph text one functional B bag B pruning hapaxes quickly approximate might well serve perfectly could work better B
+thus B nxm matrix B matrix singular
+element B shorter 11 symbols become big B stop executing
+use for-each loops go range fast using variant B keeps things simple offers better speed B
+length B 8 regular B summation performed
+use B efficient B space waste
+generally B costly B think difference
+B operator higher precendence B operator function calculating 1 1 + e -x
+B higher precedence B calculating sumaverage1+ sumaverage2 5 integer B probably want
+multiplication B higher precedence B get done first - implicit conversion string concatenation
+B higher precedence B ergo
+B modulo B operation slower B
+first difference B expensive B
+B larger complexity B
+B operator higher order precedence B operator
+circle B denotes lower multiplicity bound 0 see B bellow
+note B operator higher precedence B division like mathematics
+however really small parameter 2 B faster B
+also note B better methodology B fire multiple though too.
+6.7 graph shown states performance B linq query better B linq query
+max-heapfiy method heap bubbles max top particular node B lower value B
+assuming B smaller id B default value B column null could order
+B smaller B
+also willing change layout bit could achieve weight linearlayout note however work desired combined width 2 B B willing offer
+seem trees B strictly greater B
+class assumes nodes numeric values id pid B node lower id B common tree structures
+practically B faster B pair shortest path generally

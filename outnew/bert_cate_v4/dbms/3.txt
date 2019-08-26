@@ -1,0 +1,52 @@
+i read in some blog that * performs at least as good if not better than * while also offering more complex types like mongodb would
+
+the number of requests * could serve is consistently 3 to 5 times lower than *
+
+* will always be a little bit more mature than *
+
+either * more proven than * for such huge data
+
+* gets much better performance and this is coming from a former * partisan
+
+why * is more capable than others * etc. on django
+
+as for reliability i think that * is more reliable especially when compared to * using myisam - innodb is a lot better here
+
+unfortunately in * select count is often slower than * to which it often get s compared to
+
+this is ancedotal but the * servers i ve managed have always been much less troublesome than * which likes to randomly crash once in a while occasionally corrupting a table on the way down
+
+i did a simple performance test and i noticed * is slower than *
+
+i wonder why * s single insert statement is completely faster than * s when autocommit is turned on
+
+in my cases * was better than * * do not completely support unicode
+
+do you find rails with * is slower than * knowing that it produce more query on the background
+
+* is older than * so it might have influenced them
+
+following the first answer it appears that * is more compliant to sql standard than * so it needs a group by clause for each selected column you want to display with your aggregated function
+
+drupal 7 * 5.0.15 or higher with pdo * 8.3 or higher
+
+some people were saying that * is better for security purposes whereas * is becoming more feature rich.
+
+while * has a larger user base * is gaining more an more popularity ever since implementing several crucial features that were missing in earlier versions
+
+* requires more tuning than * to achieve optimal performance
+
+and a wiki for why * is better than *
+
+generally speaking i find * lends itself to 24 7 operations better than *
+
+* is also a lot better imo than * and is the recommended database to use with django according to a lot of the people close to django
+
+the question is is * somehow more resistant than * to sql injection attack under the perl dbi and why might this be the case
+
+though * is more popular than * but instagram is using * maybe due to these reasons
+
+* supports recursive queries in the form of recursive common table expressions which make querying heirarchical data easier than in * and also give better performance
+
+in my personal openion * is slower than * and mongo db
+

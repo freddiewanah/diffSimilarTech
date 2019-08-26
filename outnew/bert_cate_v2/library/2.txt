@@ -1,0 +1,130 @@
+i found B easier to use with more options and better documentation than B or graphael
+
+also linearsvc class from B performs even better than B whch is also surprising considering that it s a wrapper of B
+
+edit more recent B does a better job of not always padding to powers of 2 length so is closer in output to the B case
+
+should i be surprised that the B B backend is about 18x - 19x slower than the B tensorflow backend
+
+the B results seems much more stable but B results have some drastic fluctuation
+
+the use of B is also a performant option but slightly lower than B
+
+but this popular wsgi benchmark says B is way slower than B
+
+B routine B_gemm has higher performance than B in some cases
+
+i am stunned right now seeing a B performing 100-150 faster than B in even simple native functions such as array.every in chrome
+
+if i remember correctly B argued they were faster than B because the use non-native functions for key operations
+
+B is definitely not slower than B
+
+edit as pointed out in the comment B is likely to be a better solution than B
+
+B has more components but lack combobox available in B
+
+B is more developed and tested generally since B came out later than rf
+
+on the downside B is less mature than B so it has less features and documentation available
+
+i have noticed that content extraction is faster in B but searching words using regex in the content extracted by B takes longer time than B
+
+enthought-dev is B faster than B
+
+i wish program with B and B is faster than with only B
+
+B supports older versions of ie whereas B is based on current web standards
+
+however for a variety of fft problem sizes i ve found that B is slower than B with openmp
+
+i am working on a code which needs to be time efficient and thus using B for this purpose but when i try to compute fft of a very large data in parallel it is slower than cpu B and the reason i find after finding the time for every line of code using high precision timing code is that cudamalloc taking around 0.983 sec while the time for rest of the lines of code is around 0.00xx sec which is expected ..
+
+at least for .executemany B seems to be more proficient than B as the sql statement is only prepared once for all submitted values
+
+B s api is also a bit richer than B s api
+
+is B faster slower than B during training
+
+B provides a simpler quicker way to build and train models in B at no performance cost since the models are still being run by the same B engine
+
+inspecting the assembly shows that in the sequential access case B is faster because the sum becomes vectorized while it does not when using raw B multi_array
+
+B is better at marketing itself than long-time players of the open-source market like torch and B
+
+it is similar in spirit to keras which is built as a high-level api on top of B tensorflow cntk although the main difference is that B implements only one backend allowing it to integrate more deeply with B features
+
+give B a go the api is a lot simpler than B
+
+B is the weaker of the gui technologies relating to accessibility in java compared to B at any rate
+
+B has no any other unnecessary things so it is better than B or qprogressbar
+
+there exists a simd fork of B which claims to have much better performance than B or plain B but there are no comparisons to opencv
+
+B provides more extensive api documentation than B
+
+B also seems to be faster than B using better multitasking
+
+B is better than B because while in offline mode no internet connectivity B tries to fetch record form server whereas B maintains its cache form where it fetched the images
+
+jemalloc and B with some setting changes can be more aggressive than B to release memory to the os - but again it depends on the allocation patterns
+
+B is faster than the B 2.3 malloc.
+
+2 readability library content is passable slower on average than B but faster than B
+
+B is significantly more powerful and robust than B in my experienced opinion
+
+it uses B underneath and is much faster than B
+
+i prefer to use B better than B
+
+for starters B is no longer actively maintained and the author even recommends alternatives such as B
+
+B is a higher level library above B
+
+B is much more aimed towards gaming with opengl where as B is more worried about complete and perfect bindings to opengl opencl
+
+large objects google B performs faster than B and simple json
+
+further more B really seems to be faster than B json
+
+note also that B comes with less features out of the box than genson or B
+
+in my case i found B little faster than B i used default serialization because so far i don t have a need to customize serialization
+
+performance of B is better than B
+
+according to the performance results at for serialization with databind with strings B.tojson myobject B is over 10x slower than B
+
+also i want to know if google B is better than B for json parsing
+
+very small object google B performs faster than B and simple json
+
+going to go ahead and say that B is a lot more user friendly albeit less powerful than B
+
+take a look at the B json parser it s faster than the one in android and faster than B and supports streaming
+
+B has better ajax support than B
+
+B provides more good looking components than B
+
+that said i found B to be a useful product and much better than B especially in terms of the quality of the documentation
+
+1 i guess B will be slower than B for smaller datasets
+
+between these B is much closer to B in character -- a small toolkit for abstracting away most of the os-dependent parts so you can produce opengl programs with relatively little hassle
+
+B is more about json-based persistence in the vein of B which can do json too and sounds a bit too heavyweight for just an applet
+
+somehow the layout algorithms in B seem to display a better layout than in B rendering is also better i think though most of the layout algorithms in B are based on B implementation
+
+i used it because it is small 6 kb compiled with just the extraction making it far smaller than B which is more than 150 kb and is more permissive than B
+
+this makes for example B or proxetta significantly slower than B which simply reads the methods via the reflection api and overrides them
+
+if you re building a simple demo of a rendering mechanism B is way better than B it takes care of a lot of the details that B would otherwise require
+
+B xml module faster than B
+

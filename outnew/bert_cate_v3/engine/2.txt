@@ -1,0 +1,82 @@
+* is a high performance 2 to 3 times faster than * pure java template which use razor like syntax
+
+* has a stronger syntax than html and is easier to convert to * this way
+
+* is often considered to consume less memory than * but this depends a lot on how the browser is implemented
+
+with * there is less time lost from table locking while * is faster in table readings
+
+there are other optimizations available but general rule is that * will be quicker than * is even with table growth
+
+for an oltp type system * is usually more sensible than * did you check the contention before trying a different engine
+
+1 in mysql engines * is better or *
+
+first question is it normal that * is much slower 7x slower than * for such usage
+
+* is often faster than * in terms of raw performance mostly because it is not acid
+
+one thing is that if your inserts are not in the order of increasing primary keys * can take a bit longer than *
+
+* -- more effecient than * because of the way the primary key is clustered with the data in *
+
+* has a higher resource consumption rates then * so keep that in mind
+
+as you are no doubt aware from your searches * is primarily better than * for high volume inserts not counting non-comparable features like foreign keys or full text searches which are exclusive to * and * respectively while * is primarily useful for tables which are read more often than they are written to
+
+you insert in there but never select from there as far as i know today * is better than * in this case
+
+* seems slightly faster than * but this is really marginal
+
+* is more space friendly than * you can start with that one
+
+furthermore i do not have control over the engine â * or * * performs better due to row based locking instead of table as in case of *
+
+* generally performs faster because it lacks certain functions * has such as rollback... but it has only table locking
+
+* also tends to store data in less space than *
+
+* is relatively newer than * and is transaction safe
+
+* is a safer acid compliant engine with some integrity features that * lacks
+
+this also affects how it is stored which leads to * being slower than * on insert due to * requiring a full index re-write on every insertion
+
+* table is a bit slower than * tables but i don t think it is a major problem as you told you are using drupal system is that a kind of mult-sites like a word-press system
+
+* supports better locking semantics so if there will be occasional or frequent writes or if you want better data integrity i d suggest starting there and then benchmarking * later if you can t hit your performance targets
+
+* is more concurrent than * since it provides row-level locking
+
+someone just told me that * is much better than *
+
+* implements mvcc multi-versioning concurrency control so locking is much more complex than with *
+
+* is slightly faster than * and implements the fulltext index which is quite useful for integrating search capabilities
+
+nothing is 100 safe but * properly used is a lot safer than * against data loss and corruption
+
+however * tends to be slower as *
+
+* for reads may well be faster than *
+
+in my opinion * use to be faster than * now they are pretty much the same in speed
+
+but in certain scenarios * works better than *
+
+it is said that if you have a mostly read based application you should use * as it is better than *
+
+2 - i have read about * vs * the conclusion for me was that * is faster when it comes to read-only whereas * is designed for tables that get updated or inserts more frequently
+
+there are several q a for why is * much slower than * but i could not find any topic for the opposite
+
+* is faster in data warehousing situations such as full table scan reporting etc.. but * can actually be faster in many cases with normal oltp queries
+
+so that means that in practice an * write will take 3 times longer than a * write
+
+if your in the market for a templating engine * a new templating engine used by symfony is much better than * imho
+
+* is more advanced but a little complex as compared to apache *
+
+probably you can take a look at * template engine which is much faster than * and velocity also much easier to use
+

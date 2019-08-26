@@ -1,0 +1,48 @@
+B is much more free and easy with types and compilation checks where B isn t
+
+this article seems to suggest that this is possible by swizzling a fake location into apple s cllocationmanager class to be used by other apps but i am unfamiliar with the B code more familiar with B
+
+we ve seen that B uses a more static method dispatch than B which unless a class dervices from foundation nsobject prevents the style of swizzling based on remapping method implementations at runtime
+
+those attributes let you create B code which is more understandable by B and complier warn you when you break the rule for example
+
+B is much more free and easy with types and compilation checks where B isn t
+
+this article seems to suggest that this is possible by swizzling a fake location into apple s cllocationmanager class to be used by other apps but i am unfamiliar with the B code more familiar with B
+
+we ve seen that B uses a more static method dispatch than B which unless a class dervices from foundation nsobject prevents the style of swizzling based on remapping method implementations at runtime
+
+those attributes let you create B code which is more understandable by B and complier warn you when you break the rule for example
+
+from my pov the object B paradigm used with fpc object B dialect which can coexist with the default object B code is more advanced lightweight and integrated than the interface-based plumbing of B xe2 compiler with on-the-fly marshalling using rtti
+
+from my pov the object B paradigm used with fpc object B dialect which can coexist with the default object B code is more advanced lightweight and integrated than the interface-based plumbing of B xe2 compiler with on-the-fly marshalling using rtti
+
+vb6 B though a little better than B in general still has many similar issues where for their domain they require much more boiler plate to do simple tasks than what i would like and have seen in other scripting languages
+
+vb6 B though a little better than B in general still has many similar issues where for their domain they require much more boiler plate to do simple tasks than what i would like and have seen in other scripting languages
+
+B has higher level bindings to llvm than B the B ones provide some interesting type safety guarantees and B has by far more libraries to use 1700 packages on making it easier to glue together components
+
+the B zipwith is friendlier than the B list.map2 which requires the lists to be the same length
+
+B has higher level bindings to llvm than B the B ones provide some interesting type safety guarantees and B has by far more libraries to use 1700 packages on making it easier to glue together components
+
+the B zipwith is friendlier than the B list.map2 which requires the lists to be the same length
+
+on contrary B is more c-like do not require explicit enabling of script running accepts relative paths case sensitive and loosely typed both are imho advantages for scripting language compared to B
+
+on contrary B is more c-like do not require explicit enabling of script running accepts relative paths case sensitive and loosely typed both are imho advantages for scripting language compared to B
+
+also developing enterprise application is such new languages java c# B rubby is easier that B because they rely on frameworks every body can write c# java code that function but it requires tricks good practices and some of imagination to write B strong and rehusable code
+
+fortunately B finally ended all that and is completely pixel based you can still alter you viewport scaling but .net seems to handle that much better than B
+
+also developing enterprise application is such new languages java c# B rubby is easier that B because they rely on frameworks every body can write c# java code that function but it requires tricks good practices and some of imagination to write B strong and rehusable code
+
+fortunately B finally ended all that and is completely pixel based you can still alter you viewport scaling but .net seems to handle that much better than B
+
+fortunately B 2.1 has a better alternative since it s supports the built-in calendrical types from B 1.3
+
+fortunately B 2.1 has a better alternative since it s supports the built-in calendrical types from B 1.3
+

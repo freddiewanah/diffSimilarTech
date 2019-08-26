@@ -1,0 +1,10 @@
+textmate isn t known to perform well on large files but * supposedly performs better than * on large files and yet supports legacy textmate syntax parsers
+
+* or webstorm are far more accessible than * so it usually happens with their editor rather than mine
+
+in studio 3 much of this sort of functionality is still coming as * is going more of a * bundle route for a great deal of their features which i think is really cool
+
+why * uses more memory and takes more time to start as compare to * editor
+
+* has better github support out of the box but * has a several git packages
+

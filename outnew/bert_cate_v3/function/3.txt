@@ -1,0 +1,188 @@
+* is faster than * and also enforces you to specify a buffer size
+
+* is rarely slower than * or strncpy and often significantly faster
+
+* is usually faster than * for longer strings
+
+if size is known normally a non-naive implementation of * is faster than * since it takes profit of the cpu s data bus size
+
+because of the above replace strdup with strlen malloc * * is slightly faster than *
+
+performance difference * is usually more efficient than * which must scan the data it copies
+
+but as that reference points out * is way faster than * and sha functions although it doesn t do a direct comparison to the object.gethashcode method i mentioned above
+
+* of course does not process escape sequences any more than * would
+
+or is the * with by just typically much slower than *
+
+additionally if you have * then it is much more convenient than * + malloc + strcpy with identical result including the same obligation to free the allocated storage when you no longer need it
+
+finally sha1 * are safer than * i tell you that because you used the * tag in your post
+
+the wrapper uses these in such a way that even the * implementation is significantly more secure than a simple *
+
+because sha256 * are much longer than * * you can detect the * algorithm by looking at the length of the *
+
+the * cake generates are more complex than *
+
+crypt with * is simply more expensive than *
+
+with a salt * is much more secure than without but you re better off using one of the sha * such as sha256managed
+
+you can for example store a * stored with something stronger than *
+
+mac os x llvm gcc based crypt fuction is borked junk hardwired to only use des a proven breakable * worse than *
+
+but if you still wish to figure out the phpbb password encryption * it is no longer * in version 3.0 or higher and is a custom *
+
+the fact that bcrypt produces * slower than * because of security reasons is also clear for me
+
+marcus yes * is faster than * and faster than python but why
+
+one interesting experiment you can try is to try and * more memory after you * d that pointer
+
+in this context * store is different and incompatible with heap because the new delete * store library is simpler and quicker than the * * realloc calloc heap library and thus provides huge memory usage gains to the c++ embedded programmer in a context where you have only 512 bytes of ram
+
+remember * is quite expensive action and * costs even much more than *
+
+i understand that * and strtof are preferred to * atof since the former detect errors and also * is much more flexible than * when it comes to non-base-10
+
+if you want to accept a number rather than a digit and only a number * works much better than * as it allows you to check for failures
+
+you can also use * which is obviously better than *
+
+for instance * is better than * and you should be checking each time whether strtok returns null
+
+i start off calling gets to fill the buffer then using * to convert the human-readable text in buffer to an actual computer int value - note that * is more powerful than * and uses long int instead of int as its declared type
+
+i would recommend * which provides better error handling than * or sscanf
+
+* is also more appropriate than *
+
+if you measure properly you ll see there s essentially no difference * is microscopically faster than * in this example but well within noise
+
+you might have even noticed the * version is simpler than the * version
+
+using * is better option than * or case..when for this problem since the input values for the * expression can be evaluated multiple times
+
+but depending on the answers to those questions i m guessing that * might do the trick for you better than *
+
+- * should be more portable than *
+
+3.14 is pretty close but a little smaller than pi and * 3.14 is thus pretty close but a little bigger than 0 * 3.14 is thus pretty close but a little smaller in absolute terms than -1 so tan 3.14 is a little less than 0
+
+if i want to calculate a * and a * is it cheaper to calculate a * and a * or calculate a * then a sqrt 1-* 2 to get the *
+
+* is faster since * initializes the allocated memory to contain all zeros
+
+* does take longer than * because it has to zero out all the memory you asked for before giving it to you
+
+as written * would be better than * but the question used * and it would not be hard to make it sensible for use with this code too for example a conditional assignment in set_matrix such as
+
+edit i m not a java expert but i think that in java members of new array are initialized to 0 or null so * is more correct than * in my code
+
+those answers was that * can allocate larger blocks than * can and etc
+
+it s conceivable that * could return address of memory location that is already pre-initialized with zeros thus it may be faster than * + memset combo
+
+in terms of speed * is likely to be faster than * + memset if memory needs to be zeroed out
+
+this is an enormous amount of extra work and explains why * is faster than * and memset
+
+bcrypt is weaker than * although still three orders of magnitude stronger than * because it only requires 4 kb of memory
+
+as you can see from the above tests * is consistently faster compared to memalloc * and free
+
+as we can see copying manually with * is always slower than * because in this scenario malloc is guaranteed to allocate new memory and you re forced to copy the data in every allocation which shows us that * is indeed reusing the same address and enlarging the block size in some cases
+
+finally i also made a benchmark test which shows that * operation is slightly better than sapply * and significantly better than vectorised * alone
+
+after looking it s seems that * is much faster and better in term of security even if the underlying * function sha1 is broken which is not the case when using rsa-sha1
+
+in some cases on embedded platforms where a fast * function may not be available these may be more efficient than *
+
+note * is safer than *
+
+using sha256 with a * will be much more secure than *
+
+std * may be very slightly slower than std * emphasis added because it has to first check whether the source and target ranges overlap
+
+* is more efficient than *. in general use * only if you have to
+
+why is * so much slower than * or hand rolled copy on the server
+
+if you know buffers cannot overlap * is fine and may in any given library use optimizations that allow it to be faster than *
+
+* on the laptop runs slower than * but oddly enough runs at the same speed as the * on the server
+
+so in what platform and how * can be significantly faster than * if there is none why providing two similiar functions instead of just * and lead to a lots of bug
+
+and it said * might be very slightly slower than *
+
+nonatomic properties don t use locks but direct * is faster because it skips the * call
+
+since i provided a * example above your read loop can be much better written with * as follows
+
+* often gives you more memory that you ask and stores the actual value in a special location that * can access at a later time
+
+that s why * can temporarily require more memory than a * free pair
+
+i mean i think * is way smarter so why do we even need *
+
+* is worse than * in that you will need to have the old and new pointers valid during the *
+
+in c memory most other things are managed by the programmer so * is no worse than forgetting to * malloc ed memory failing to null terminate a string using incorrect format string in scanf and invoking undefined behaviour accessing dangling pointer etc
+
+then for reading i find * to be more powerful than * fscanf the differences between them all are summarized here
+
+if for some strange reason you can do the obvious * would be more efficient than *
+
+malloc + * is slower than * under certain conditions
+
+key strengthening techniques such as bcrypt or * are generally considered better than plain * since cracking them requires more resources
+
+in this situation storing password * and the * is more secure than storing the credentials encrypted or not because an attacker would have no way of getting the password back even if he manages to get his hands on both the * and the *
+
+however using a * offers more protection against rainbow tables precalculated * tables so they re still worth using
+
+could i use * to do this more succinctly than running * and dcast separately for each of employed girls guys
+
+or indeed if your system has * or you re willing to write an implementation then * is much cleaner than * + strcpy
+
+this is the case here because * hello is greater than 3 your last * argument
+
+i m pretty sure the linker will * equivalent strings so the total will be less than the * of the parts for these sections but i guess typically not by much
+
+a similar argument can be made for * functions * is generally faster but will remain in the same big-o complexity class although there is an additional size tradeoff * makes your compiled program larger if the code was being used in many places
+
+this allows you to use the assignment operator instead of * and requires 1 less call to * - the one you make
+
+there is a nice comparison of threads and processes here when is clone and * better than *
+
+a malloc * pair can be better than a * if you don t need to keep around the original memory
+
+myth 3 * is a safer version of *
+
+in general * is a safer alternative to *
+
+using * is considered safier than * because the second one can easily cause buffer overrun
+
+you should use * or * safer than * to copy the string stored in the array between arrays
+
+using * 3 is better than * 3 but things like strlcpy 3 are better still
+
+* is not safer than * it just trades one type of bugs with another
+
+so that the * is more secure than *
+
+* is more recommended that * because protect your code against buffer overflow
+
+the math.floor * method being marginally faster than * and mod
+
+you d be better off using * for this as it s dumber than *
+
+if you compute the length of the string for unrelated reasons or have the length of the string from other resources it s unclear to me whether * is better or worse than *
+
+* is newer and seems to support more *ing alogrithms than *
+

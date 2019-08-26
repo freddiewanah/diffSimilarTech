@@ -1,0 +1,16 @@
+4755
+lisp	scheme
+Changed: 
+In summary learning lisp or scheme may not yield many practical applications beyond ai but scheme is an extremely valuable learning experience as many others have stated
+Origin: 
+In summary learning lisp or scheme may not yield many practical applications beyond ai but it is an extremely valuable learning experience as many others have stated
+
+
+12756
+collabnet	svn
+Changed: 
+collabnet has worked for me without any problems using svn 1.4 and 1.5
+Origin: 
+This has worked for me without any problems using svn 1.4 and 1.5
+
+

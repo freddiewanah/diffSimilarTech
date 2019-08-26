@@ -1,0 +1,44 @@
+should i be surprised that the * * backend is about 18x - 19x slower than the * tensorflow backend
+
+* is another faster implementation of * that will provide a lot of utility methods for working wit arrays objects functions etc
+
+* is more modular than * * around 5kb * around 17kb but is generally lighter because you only include the specific modules you need
+
+enthought-dev is * faster than *
+
+you can have a look at this speed performance benchmark from * which suggests that * is about 3-4 times slower than * 3
+
+my speed test claims that svg is significantly faster than canvas at least * seems to be significantly faster than *
+
+quick takeaway of the benchmark jackson performs 5 to 6 times better than * and more than twice better than *
+
+* is considered faster than linear * and often used for large scale data set
+
+* provides a simpler quicker way to build and train models in * at no performance cost since the models are still being run by the same * engine
+
+* has better computational graph visualizations than * and torch
+
+it * runs much faster than *
+
+fixing bugs in * is much harder than in * most classes in * are final or contain hostile checks in the constructor to make sure no one extends them the package is signed so you can t simply replace classes and so far i tried several times to compile * from sources - and failed
+
+p.s. my recommendation would be to remove jsonobject conversion and instead return an object of actual class as internally spring uses * which is more powerful json framework then *
+
+then we found * also have same issue but increase rate is less than *
+
+* runs in less than one minute and * takes 4 hours
+
+pyquery is based on * so it s also much faster than *
+
+for those commenting that * is obsolete personally i like it more than *
+
+* 1.6 now includes a low-level streaming api and a new parser which is actually faster than *
+
+* is not particularly fast but the * library can almost compete with most binary serializers * is 2-4x faster than * in most situations and 10-20x faster on utf-8 because it has special code for utf-8
+
+very small object google * performs faster than * and simple json
+
+basically * was only slightly slower than *
+
+* is faster than * but i ve never found an application where the speed boost paid for the hassles of distribution
+

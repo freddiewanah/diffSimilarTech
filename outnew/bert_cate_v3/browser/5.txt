@@ -1,0 +1,60 @@
+since you noted thoughts on other browsers would be helpful * s kiosk mode seems more powerful than * s
+
+* is more tolerant when it comes to image headers then ie and *
+
+also ie and * seems to work better than *
+
+i m on a mac os x 10.8.2 running * 18.0.2 - it actually runs the game faster and smoother than my * 25.0.1364.99
+
+i usually use * s developer mode which imho already gives even more details than *
+
+when i run my http web server on google * it gives more 324 error than in *
+
+using * even it s slower than * it s still more respectful of privacy
+
+update just tried it on * 30 and it did not experience the same slowdown in a worker thread but it was slower than * when run in the main thread
+
+* is easier and better than * in finding the element from the webpage
+
+* allocates lots of memory during that preloading up to 20-30 times more than * or safari do and even twice as much as ie
+
+i built a site and the problem is * display font-size 1px bigger than *
+
+found that the issue stemmed from using the * webdriver which apparently has much higher security than its * counterpart
+
+the results varied from a browser to another * 4.0b12 is faster using but * webkit and opera is faster when using
+
+i ve learned partly by trawling this site that the * security is fussier and the app loads correctly without errors in * and ie but i can t find any resources that are loaded from a non https source
+
+in * and other browsers the background is much whiter and brighter than in *
+
+* is more technically correct in this case as it outputs the state of the object at each point in the loop whereas * is apparently waiting until the end of the loop to output each console.log but i m not aware of a standards specification that covers the console host object
+
+i need to do the same condition but for less than * version 46 and for less than * version 44
+
+* is a bit more strict than * here
+
+i guess * is smarter about me being careless than * is
+
+* extensions have much more power than * and have wider access to browser s internal api
+
+* gsap performance is still much worse than in * but * gsap does still lag every few repeats or so while in * the css animations do not
+
+support exists in * and my test just confirmed thisâ but the handle is a little less noticeable than in *
+
+* is more picky about characters that are set in uris than *
+
+* may be sniffing the document s encoding with more flexibility than * is
+
+dus anyone knows if there is something wrong with my json or if * is harder to get than *
+
+* makes child block s height larger than *
+
+the one used by * and is slower than mobile * s nitro javascript engine
+
+* 5.1.10 6534.59.10 middle handles a smaller viewport but in sort order with a smaller viewport computes new image sizes even smaller than *
+
+* renders open sans bolder than in * so you would need to apply a lighter font weight for * open sans google web fonts rendering in *
+
+i just tested geolocation on * 3.6 and iphone * os 3.1.3 the result is interesting * is more accurate than *
+

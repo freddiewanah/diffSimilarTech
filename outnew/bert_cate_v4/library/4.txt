@@ -1,0 +1,44 @@
+if everything is correct why * perform so much better than *
+
+basically collections are things that implement some kind of iterable interface and they internally use the same iteration method though * source is a bit more convoluted than *
+
+* has far more capabilities than *
+
+* seems to be gaining more popularity than * but most people seem to be on *
+
+and i ve read that using * is far faster more memory efficient for such tasks as such i ve ported my * classifier to accord net like so
+
+in my testing the slow-down from using * ranges from about 1.5-3.0 times slower than using * but its performance will depend on your application
+
+fixing bugs in * is much harder than in * most classes in * are final or contain hostile checks in the constructor to make sure no one extends them the package is signed so you can t simply replace classes and so far i tried several times to compile * from sources - and failed
+
+i thought * was supposed to be leaner meaner than *
+
+* is not that much faster -- and the outputted file sizes are significantly higher than *
+
+quick takeaway of the benchmark * performs 5 to 6 times better than * and more than twice better than gson
+
+then we found * also have same issue but increase rate is less than *
+
+* is faster than * i think and has much better functionality while remaining relatively easy to use
+
+* will let you use xpath here which i think will be less painful than * s interface
+
+pyquery is based on * so it s also much faster than *
+
+for those commenting that * is obsolete personally i like it more than *
+
+we plan to use * extensively in the application as it seems safer and better than *
+
+further more * really seems to be faster than * json
+
+take a look at the * json parser it s faster than the one in android and faster than * and supports streaming
+
+i looking to use a suite of nlp tools for a personal project and i was wondering whether stanford s * is easier to use or *
+
+basically * was only slightly slower than *
+
+note please do tell me if * is more easy or this *
+
+* xml module faster than *
+

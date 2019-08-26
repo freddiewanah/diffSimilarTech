@@ -1,0 +1,42 @@
+especially in B there is much more green in the painting than in B
+
+i built a site and the problem is B display font-size 1px bigger than B
+
+B is probably easier than B these days
+
+B has a bigger time difference yet B is the one with the gap in the animation
+
+B s parsing may be more strict than B is at having things like trailing commas as specified by the standard at as stated in danilo celic s answer
+
+B extensions are considerably more limited than B extensions â â they can only hook the behavior of the browser in certain predefined ways
+
+in B it s less noticeable but in B it s very noticeable
+
+i m taking a quite educated guess here that B is more forgiving with the irregular syntax than B
+
+in my experience B has better javascript performance than B
+
+also for animations B chromium behaves much better that is why i use it for development but do my general browsing in B
+
+B is lightning fast when you use the dom api but vastly slower using the .innerhtml operator by a magnitude 1000-fold slower however B is worse than B in some areas for instance the append test is much slower than B but the innerhtml test runs much faster than B
+
+most likely your post value has one or more characters in it that are breaking the html of the page and ie B are being a bit more forgiving than B is
+
+use B network in development tools and check your requests sometimes it just sends options request in cross origin i insist on B because it s network tool is much more detailed than B and safari
+
+here the working header request with B bigger than B request
+
+i ve learned partly by trawling this site that the B security is fussier and the app loads correctly without errors in B and ie but i can t find any resources that are loaded from a non https source
+
+while the rest of the browsers report the correct width of the document B reports a smaller one example at screen resolution of 1920x1080 ie B and safari reports 1920 while B reports 1903
+
+though from a design perspective it may be easier to simply add the extra 5px to the width designing for the worst case browser to prevent wrapping in B which is worse than extra space in B ie
+
+support exists in B and my test just confirmed thisâ but the handle is a little less noticeable than in B
+
+now when clicking a time less than 1 millisecond will be displayed however it obviously takes nearly a second on my computer until the changed color actually is displayed where btw. B seems to be faster than B
+
+B is slower than B in javascript
+
+update under linux gentoo amd64 it s the same - B reneders slightly larger fonts than B but nothing that looks odd
+

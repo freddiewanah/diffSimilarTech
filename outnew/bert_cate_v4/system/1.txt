@@ -1,0 +1,68 @@
+double has its * floating point definition which is also much more complex than *
+
+extfs4 or * are between 25 and 40 faster than * or refs depending on the optimization
+
+i ve even tried to pin archetypes and atcontentypes so that the * uses older versions example those used in * 4.2 by adding the following to my pinnedversions.cfg file which gets called after everything else
+
+research showed me that * is simpler to use over * so i decided to use * but have no idea how to install it.can anyone please tell me what are the steps you need to take in order to install * bug tracking system in a small company to track website mobile portal bugs
+
+* offers more advanced branching and merging capabilities than *
+
+* works much better when disconnected from the network - with * you have to tell the server when you ve done a checkout
+
+imho * is better do work and customize than *
+
+imho creating templates for * is the easier than most other cms i know typo * modx as you simply have to replace parts of the static version with * tags menu content etc. it still needs some time to get used to the system but its not that hard
+
+yes * takes more time in cooking the resulting html when compared to *
+
+* is imho easier to learn than *
+
+a lot of articles about * will tell you it is a lot slower than * or mercurial
+
+an incredibly rough eye balling of the numbers they posted showed * to be 2-4x slower than either * or mercurial in the use cases tested
+
+* is easier to extend in an api way * is easier to extend in a unix way pipes
+
+thinking you can format * blocks any better in a cms such as * and use * just for the backend will put you on a hiding to nothing to end up with a fairly useless setup that isn t going to go anywhere
+
+since the * is more than likely * or *32 protecting it permission based way would be more convoluted
+
+we found * to be a better than * simply because it is easier to use
+
+* is much more complex and time consuming due to the more complex nature of this *
+
+if you need to load from a well-defined * fat or * this is more tricky you have only 450 bytes of space because 60 of the 512 bytes are used by the * internally for code that interprets the data of the * finds the file containing the code and loads it into memory
+
+nobody has ever accused git of being easy-to-use no * for example although i hear it s coming so you might be better off with * beanstalk
+
+if the right side the * side is greater than or equal to the * side then you print true if not then you print false
+
+it seems the from a readability and usability standpoint the * representation is a better way of defining * numbers
+
+* encoding is far more readable than * that s why sublime uses it
+
+* is much better then * and git or mercurial are even better again
+
+* is better than * because it was designed to be - it s roughly the same thing with some simplications and new features
+
+the other distributed tools are a lot faster * is slow as hell even * can be faster sometimes have much more useful features than * are developing rapidly while seeing any new feature in * takes years
+
+the first one can be solved by using * +ssh which is the more comparable format as * uses its own protocol as well
+
+in addition another coworker said * was a lot more popular than *
+
+just a wild guess here but if you re using * on the server this observation might be based on the fact that * simply is much better at merging than * because it has the notion of mergepoints
+
+however * protocol is much faster so i suggest using * * for performance reasons
+
+microsoft has the microsoft speech api sapi however if you want simple * it is better not to reinvent the wheel and customize an * implementation which i guess falls under the great * library for c++ category it s c not c++ but if you know c++ you should be able to understand the c . using *now you may not even need to write any custom code it may do what you want already
+
+hex or maybe * depending on the machine being emulated will be clearer than using * since similar opcodes tend to vary in bits not digits
+
+bitshifts just go easier with hexa* than * and is often more convenient to read than *
+
+i didn t work with these applications yet but afaik * and ezpublish both php are considered much more professional than *
+
+* seems much more like * with branches just being separate directories so maybe not
+

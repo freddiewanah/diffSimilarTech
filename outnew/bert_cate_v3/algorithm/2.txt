@@ -1,0 +1,80 @@
+* is more expensive than * for example
+
+des is the least secure * is better but i d go for the *
+
+from what i ve read i was expecting * to be faster than * but on my code it is not so i assume there must be a problem with my * algorithm
+
+why is * better than *
+
+* is implemented well it is typically 2-3 times faster than * or
+
+* is also more complicated than * especially if you want to write a really solid implementation and so if you re aiming for simplicity and maintainability merge sort becomes a promising alternative with very little performance loss
+
+to be specific the * runs faster than * in the first test case and loses badly in the following 9 tests
+
+* has better locality of reference than * which means that the accesses performed in * are usually faster than the corresponding accesses in *
+
+* is not better than *
+
+* generally runs faster than * but under some circumstances it can degrade to quadratic running time
+
+when comparing my * implementation with std sort on my compiler and my implementation of * i noticed an odd pattern on large data sets when operating on 64 bit integers * is consistently faster than *
+
+* is not better it is well suited for a different kind of application than *
+
+an interesting answer about this can be found at why is * better than *
+
+in fact i think it is fair to say that * is more similar to * because of its use of iterative relaxation
+
+however * verification expect verification calls to be 100x issue is about 10x slower than * verification
+
+i have made some testing and it came out that * is lot slower than *
+
+by comparison * see section 3.2 and other block ciphers are much faster than the * algorithm
+
+* turned out to be even slower than * but for my current requirements a much simpler algorythm rc4 is sufficient
+
+* is usually substantially slower than * on modern hardware and has keys that are far too short for modern use
+
+edit 3* is better than * in the sense that it s significantly more secure but still less secure than * but its performance is of necessity significantly worse than * * or twofish because you re essentially applying * three times
+
+according to this analysis * rijndael-128 is more than twice as fast as * 3* with a bigger key size more secure
+
+if * is negotiated it s faster than * and 3* used by default by older applications
+
+note that the effective key size of * is larger than triple *
+
+since the next is not far the number of * steps is much fewer than with * matching
+
+it shows that * encrypt is faster then * encrypt
+
+for 5 000 000 ints still stored in memory * becomes suddenly worse then * and mergesort
+
+in theory * is worse than *
+
+after several tests i found out that my * is way quicker than * i think it should be the other way around my selection sort is also faster than insertion sort
+
+when you say something like * should be faster than * what makes you say that
+
+* also has a better cache access behavior than *
+
+worst case for * is actually worse than * and mergesort but * is faster on average
+
+so for instance * is faster than * in the worst case but slower in the average case
+
+so for even small inputs * does less work than * and is physically faster for every n
+
+but there are many citations of real world tests which show that * is significantly slower than * on average
+
+* has higher overhead than * but its worst case is o n log n vs
+
+for example * is faster than * in general although their time complexity are the same
+
+what makes * faster than * in practice is its constant that was ignored by big o analysis
+
+because * is actually slower than * for each n
+
+* also consistently decompresses 20 + faster than * which is a pretty big win if you want it for files you re reading a lot over hadoop
+
+* is much faster then * at verification
+

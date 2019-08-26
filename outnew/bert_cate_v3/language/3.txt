@@ -1,0 +1,54 @@
+you will notice that * bundles are always about 4-5 mb larger than their * counterparts and this is precisely why
+
+* s compiler is also doing a lot more than * s compiler considering * is more strongly typed and does not required specifying imports among other things
+
+furthermore * is stricter than * when it comes to initialisers
+
+and also apple does might not confidently announce that * is more faster than * in all the cases
+
+personally i prefer * because you can use c very easily as anything that is legal in c is also legal in * added to which * is a more procedural in style where * is quite clearly object orientated
+
+early this month i started learning * as i found it fun and easier than *
+
+* will incur this penalty in fewer situations than * will for instance method calls to *-only protocol methods do not hit objc_msgsend but if the protocol is declared in * or if the * protocol is decorated with * such that it can be adopted by * objects as well then method calls to methods in that protocol adopted by * objects appear to be dispatched via objc_msgsend
+
+wouldn t * be slower than * in this case since it is layered on top of it
+
+with * the code is much more readable than with *
+
+this article seems to suggest that this is possible by swizzling a fake location into apple s cllocationmanager class to be used by other apps but i am unfamiliar with the * code more familiar with *
+
+i have a * application working fine and smooth to be more comfortable with * i decided to write the unit tests for this app in *
+
+because you can determine what code in a * is likely to do better than a * it has been determined more error free to use a compiled perspective for more things so as you can see with the availability of offset-management and lookup compiled behavior given to you in core perl there is no reason to mess with the symbol table if you don t have to
+
+* is more amenable to static analysis than * because it lacks the very dynamic template despatch mechanism
+
+i agree some mechanisms in * are slightly more verbose than * function definitions being my personal pet peeve and vice-versa
+
+* is coco but much more compatible with * more functional and more feature rich
+
+but * will be more than * and i use * heavily to validate xml values and i should be able to produce html reports well
+
+it s popular it s actively developed it has many libraries offering the features of a modern programming environment and * is somewhat simpler not to say better just simpler than common *
+
+i ve also found * ides much more user-friendly than * s plt * is a good one
+
+i also checked * and it seems a pretty cool language easy to do relations between data and easier than * but i d like to hear what you think
+
+another side note * inside xpath string looks a bit tidier than escaped * imo
+
+keith pointed out that * has a more powerful type system but it can also be said that * has a more powerful module system than *
+
+the reason i wanted to investigate this was because both c and * were significantly faster than * for this program
+
+asp with * is 100 times better cleaner simpler nicer than * and makes my job a joy rather than a * head ache
+
+by these numbers and only these numbers * seems to be more widely-used than *
+
+yes they are different but you can hardly say that the * version is less capable than the * version
+
+none of the .net libraries are there and there are some syntax differences as * is more strict than * is
+
+recently we noticed that * queries run faster than * so we decided to convert our queries
+

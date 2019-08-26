@@ -1,0 +1,162 @@
+if this works it seems that u are still comparing the strings in your ordered list and u should now check if the return value of B is less grater B to 0
+
+if this works it seems that u are still comparing the strings in your ordered list and u should now check if the return value of B is less grater B to 0
+
+using B canvas is much faster than using B
+
+B seems to be much faster than B
+
+as of right now B is much faster than B
+
+right now B is much slower than B as you can see here
+
+using the clipping version of B will be faster than B
+
+the use of one B timer is more preferably than several B timers
+
+i understand from searching on so that B is a better way to approach this that B which i was using initially but i haven t figured out how to specify that the function needs to repeat
+
+keep in mind that using B is less efficient for this case then using B which doesn t require comparing times at all as it schedules the alarm to occur at a particular time as B will use more processor cycles to both schedule a check and then to compare the times
+
+well B and B essentially try to do the same thing but for your case B method will be more accurate than B
+
+the use of one B timer is more preferably than several B timers
+
+i understand from searching on so that B is a better way to approach this that B which i was using initially but i haven t figured out how to specify that the function needs to repeat
+
+keep in mind that using B is less efficient for this case then using B which doesn t require comparing times at all as it schedules the alarm to occur at a particular time as B will use more processor cycles to both schedule a check and then to compare the times
+
+well B and B essentially try to do the same thing but for your case B method will be more accurate than B
+
+other than the fact that B has one character less than B i doubt there is any performance difference
+
+as far as security goes B is much better than B as the data is sent behind-the-scenes rather than embedded in the url making it the typical protocol for login info
+
+although B is more secure as compared to B when ssl is present
+
+using B over https is better than using B and http
+
+B is simpler and faster than B and can be used in most cases
+
+using the B method isn t necessarily more secure than B
+
+however a B request is less efficient as a B request - bear that in mind and only use B if you really need to
+
+please always try to use B method for submitting data as it is more secure than B method
+
+in my opinion B requests are not more secure than B requests and the data can be easily intercepted
+
+there appears to be a common mis-conception that B is more secure than B simply because it seems more obvious how to B a browser to manipulate the B variable
+
+instead i m using B which isn t exactly bullet proof but still a better choice than B in this case
+
+using B is much easier than using B for most of developers
+
+why everybody here is saying B is more secure than B when used over https
+
+i think whoever said B is better than B when using passwords meant that the passwords would be part of the url in the B request which would obviously be bad
+
+on an unencrypted connection B is no more secure than B
+
+i am aware that a B is better for this kind of thing but my question is is this expected from a B request
+
+data should be in B or B.if you dont put your data in your form then you will have to use B which is less secure than B
+
+while users can manipulate B it s far easier to manipulate B
+
+B is better for some cases but it seems to me you should use B instead
+
+using B prevents this particular attack but is this actually any more secure than using B
+
+i just want to know if i use B method for login api then is it safer than B method
+
+you can feel like B is more secure than B all you want but it s a false premise
+
+B is no more secure than B over the http protocol
+
+and apart from common misleading information where B is safer than B it is not
+
+some people say B can be less safe than B -- but to the seasoned user this doesn t make any significant difference because they can intercept and modify headers of the request
+
+however there s one thing we haven t considered yet - what if you never B more than 5 B
+
+speaking of B request types you should also know that B requests tend to perform better than B
+
+however B data are not much safer than B data anyway
+
+i try it and i B all the categories and not just the ones with more than 1 B in them
+
+other than the fact that B has one character less than B i doubt there is any performance difference
+
+as far as security goes B is much better than B as the data is sent behind-the-scenes rather than embedded in the url making it the typical protocol for login info
+
+although B is more secure as compared to B when ssl is present
+
+using B over https is better than using B and http
+
+B is simpler and faster than B and can be used in most cases
+
+using the B method isn t necessarily more secure than B
+
+however a B request is less efficient as a B request - bear that in mind and only use B if you really need to
+
+please always try to use B method for submitting data as it is more secure than B method
+
+in my opinion B requests are not more secure than B requests and the data can be easily intercepted
+
+there appears to be a common mis-conception that B is more secure than B simply because it seems more obvious how to B a browser to manipulate the B variable
+
+instead i m using B which isn t exactly bullet proof but still a better choice than B in this case
+
+using B is much easier than using B for most of developers
+
+why everybody here is saying B is more secure than B when used over https
+
+i think whoever said B is better than B when using passwords meant that the passwords would be part of the url in the B request which would obviously be bad
+
+on an unencrypted connection B is no more secure than B
+
+i am aware that a B is better for this kind of thing but my question is is this expected from a B request
+
+data should be in B or B.if you dont put your data in your form then you will have to use B which is less secure than B
+
+while users can manipulate B it s far easier to manipulate B
+
+B is better for some cases but it seems to me you should use B instead
+
+using B prevents this particular attack but is this actually any more secure than using B
+
+i just want to know if i use B method for login api then is it safer than B method
+
+you can feel like B is more secure than B all you want but it s a false premise
+
+B is no more secure than B over the http protocol
+
+and apart from common misleading information where B is safer than B it is not
+
+some people say B can be less safe than B -- but to the seasoned user this doesn t make any significant difference because they can intercept and modify headers of the request
+
+however there s one thing we haven t considered yet - what if you never B more than 5 B
+
+speaking of B request types you should also know that B requests tend to perform better than B
+
+however B data are not much safer than B data anyway
+
+i try it and i B all the categories and not just the ones with more than 1 B in them
+
+i think that in that case the B verb is more appropriate because B really means i want to create something new
+
+i think that in that case the B verb is more appropriate because B really means i want to create something new
+
+this could mean that B is now slower than B and we have to wait
+
+i m not sure if this is the answer but states that if you expect a rapid increase in the request rate for a bucket to more than 300 B list delete requests per second or more than 800 B requests per second we recommend that you open a support case to prepare for the workload and avoid any temporary limits on your request rate
+
+this could mean that B is now slower than B and we have to wait
+
+i m not sure if this is the answer but states that if you expect a rapid increase in the request rate for a bucket to more than 300 B list delete requests per second or more than 800 B requests per second we recommend that you open a support case to prepare for the workload and avoid any temporary limits on your request rate
+
+B should be a lot quicker than B but doesn t need to be unique
+
+B should be a lot quicker than B but doesn t need to be unique
+

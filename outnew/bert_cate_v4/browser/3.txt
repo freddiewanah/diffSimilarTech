@@ -1,0 +1,116 @@
+update3 now it works here which means that i couldn t fully reproduce my bug to show it to you but in general the problem is that the height of 5x5 table in * is less from * on 22px which is 22px gap between table container and a table itself
+
+* is slower than * in javascript
+
+this does not seem to occur in safari or ie and a similar permission error occurs sometimes in * but is reproducible more often than not in *
+
+using * even it s slower than * it s still more respectful of privacy
+
+i would like this function to work in * ie * etc but at the moment it only works in * and older than * version 49
+
+i have been trying to do this in * webextensions but if it s easier with * i will try it that way instead.
+
+it depends on the browser its definitely true for ie and * but seems slower on *
+
+my question is similar the same page in my pc renders fine * * but the same one on a server rendered smaller by * * ok
+
+i guess * is smarter about me being careless than * is
+
+i believe the error might be how * and * handles these multiple times included jquerys and it might be that * uses the older and * newer version
+
+the results varied from a browser to another * 4.0b12 is faster using but * webkit and opera is faster when using
+
+although * is a better browser for developers than * cause it gives you more tools to work with
+
+* is just more forgiving for some mistakes then *
+
+svg performance in * is slower than in webkit * and ie10
+
+i just found out that if you re using * you trigger antialiasing at 49px or higher however with * it s set at 257px or higher
+
+i inspected the range object in both * and * and then noticed that * s range object is far richer than * s
+
+the * console gives more information than the * console
+
+i m seeing a strange issue on windows in * the framerate is almost 2 times lower than in * on mac * and * have similar framerates
+
+in * this might be handled a little nicer than * but rather than completely redraw an element you should try to append only what you need
+
+the reason this is happening is because * renders the select box as a taller element than * and the container of the blue text is getting caught on the select s container element because it s now sticking out lower than the others
+
+i guess * is a bit more forgiving than *
+
+* and ie9 require a proper domain to run from presumably because they are more strict than * in the way they associate the localstorate object to a domain in * it doesn t need to be a domain as such
+
+i want to set my own time limit rather than use the browser s default i believe * s is much longer than * s
+
+in * it seems more or less ok but in * when i first tried it it should give me not logged in my console
+
+also ie and * seems to work better than *
+
+given these last two complications i am leaning towards a browser plugin as the solution probably * since low-level http stuff seems to be better supported than in * but i am wondering if anyone has an idea for a more cross-browser-y solution and or if there is something out there that might provide a good api for this kind of thing
+
+also why does * perform way better than * on this benchmark
+
+in * the green div is bigger than in * i really don t know what is the problem i think in * it displays as it should but in * and ie9 it displays different
+
+in * typeof is slower than the other two but in * it is the fastest
+
+maybe * is working faster than * try adding a wait with expected conditions
+
+that means * is more than 7x faster than * here
+
+for my website i noticed that tooltip delay in * was much higher than in *
+
+the issue that i encountered was that * was giving me height about 300px more than the * ie
+
+do you have any idea why * loads javascript function much slower than *
+
+right now * is faster than * sunspider tests so your statement it loads faster in * is not really correct
+
+it looks like it shows for * more-so than * but it might help
+
+* - good a bit slower than *
+
+performance is browser and device dependent for example * handles objects better than arrays while * prefers arrays
+
+it looks like * is smaller in your screenshot there so * could just not be at the defined break-point yet
+
+support exists in * and my test just confirmed thisâ but the handle is a little less noticeable than in *
+
+evidently * debugger firebug is better than * debugger
+
+if * seems to finish earlier than * then that is the freezing glitch in action
+
+this is trickier to work around and you should file a * bug describing the situation and where it s slower than * but you could potentially reduce the amount of buffer uploads by looking into instancing or using uniform arrays instead of updating vertexes for positions textures
+
+* works a bit better than * but the settimeout just seems to delay the final result being shown rather than delaying each step
+
+i ve learned partly by trawling this site that the * security is fussier and the app loads correctly without errors in * and ie but i can t find any resources that are loaded from a non https source
+
+transparency is also an issue however * seems to handle all three better than *
+
+the * apis are currently experimental hence these tools are likely to be better developed under *
+
+only * and * seem to have this issue * even worse than * but i don t care that much about *
+
+in * it goes little bit lower than in *
+
+* just provides far more access to its own internals and system to the extensions so its technically possible to do more with them than with * widgets or google-chrome extensions
+
+my ipad 1 * js benchmarked 38 times slower than * on my pc
+
+in any case vorbis clearly has the most coverage * has more of the market than * now opera is about half of * and obviously firefox is huge and it doesn t really have the strong opposition that theora has
+
+it also gets broken even more in ios * which is an older version of *
+
+okay * ios is more strict than * android when it comes to this all fine but it still needs to enable me to allow the connection through
+
+the one used by * and is slower than mobile * s nitro javascript engine
+
+* has more of the market than * not and invitation for flame wars just a personal opinion without any weight -
+
+on * everything is slower than on * still the object property access is more than two times faster
+
+that i gave to every link in the set of links home about us products contact and it seems that * is making that 1px margin much bigger than * or google-chrome and distorting it
+

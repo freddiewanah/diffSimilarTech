@@ -1,0 +1,68 @@
+the biggest difference that can be produced between the two of them will always be to * s detriment and it involves lists that are already largely sorted or contain a large number of ties when * does better than * the difference will not be nearly so great
+
+is * always better than *
+
+* is not better than *
+
+* is worse complexity than * in the worst case.
+
+* is not better it is well suited for a different kind of application than *
+
+* has better locality of reference than * which means that the accesses performed in * are usually faster than the corresponding accesses in *
+
+from what i ve read i was expecting * to be faster than * but on my code it is not so i assume there must be a problem with my * algorithm
+
+for instance * can outperform * although * is provably better than * in the worst case
+
+* - in general * is consistently faster than * however * is done in place and doesn t require allocating memory unlike *
+
+as many people have noted the average case performance for * is faster than *
+
+* is approximately 40 faster than * on random data because of fewer data movements
+
+that s hard to say.the worst of * is n log2n -n+1 which is accurate if n equals 2 k i have already proved this .and for any n it s between n lg n - n + 1 and n lg n + n + o lg n .but for * its best is nlog2n also n equals 2 k .if you divide * by * it equals one when n is infinite.so it s as if the worst case of * is better than the best case of * why do we use *
+
+interestingly * performs more comparisons on average than * - 1.44 n lg n expected for * versus n lg n for *
+
+i would say that the * is simpler for parallelizing than the *
+
+* has signature that is independent of key strength and is much smaller than * signature for equivalent security * 1024 1568 vs * 192
+
+a * signature generation could be somewhat faster than a * signature generation maybe up to twice faster
+
+then you use it as seed in * which is less good that one is a non-cryptographic * and its output may exhibit some structure which will not register in a statistical measurement tool but might be exploited by an intelligent attacker
+
+the non-* * behaviour is more a reflection on the quality of the rand * â it is often not very good
+
+if you use * no extra memory is needed at all though * will be much slower than *
+
+* turned out to be even slower than * but for my current requirements a much simpler algorythm rc4 is sufficient
+
+the capturing group 1 in the first pattern is * it first matches everything and takes as less as it *
+
+however * is somewhat slower in practice on most machines than a well-implemented *
+
+i was just going to say radix sort however that could be a bit above what you were looking to implement introsort is generally the accepted sorting solution for data it s a variation of * that switches to * when it reaches smaller sets as it s faster on smaller sets than *
+
+for example * is faster than * in general although their time complexity are the same
+
+but there are many citations of real world tests which show that * is significantly slower than * on average
+
+what makes * faster than * in practice is its constant that was ignored by big o analysis
+
+* has higher overhead than * but its worst case is o n log n vs
+
+the difference is large enough that the constant factor in front of the n log n term in * is lower than the constant factor in front of the n log n term in * which is one reason why * is much faster than *
+
+in fact the * algorithm works this way first arrange a random order into heap order and then obtain a sorted order somewhat less efficient than * on average
+
+asymptotic analysis reveals order of growth of * in the worst case is big-o n logn which is better than * s big-o n 2 as a worst case
+
+you can take a look at * which for non completely random data performs better than * they have the same asymptotic complexity but * has lower constants
+
+if it is true then * will always take less comparison than * because on real life data there is some pattern except data is truly random
+
+if you re interesting in reducing the size of the resulting cookies you should consider using * rather than * to produce the signatures - * signatures are considerably smaller than * signatures of an equivalent security factor
+
+indeed * s algorithm is better than * s in this case the complexity for * is o m n 2 and in this problem m is much much higher than n so the o n 3 time complexity of * is better
+

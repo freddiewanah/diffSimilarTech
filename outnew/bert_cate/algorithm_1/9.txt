@@ -1,0 +1,56 @@
+purely in terms of the number of comparisons performed is B always more efficient than B
+
+for instance B can outperform B although B is provably better than B in the worst case
+
+interestingly B performs more comparisons on average than B - 1.44 n lg n expected for B versus n lg n for B
+
+in most cases B will run faster than B even though the worst-case execution time is longer
+
+purely in terms of the number of comparisons performed is B always more efficient than B
+
+for instance B can outperform B although B is provably better than B in the worst case
+
+interestingly B performs more comparisons on average than B - 1.44 n lg n expected for B versus n lg n for B
+
+in most cases B will run faster than B even though the worst-case execution time is longer
+
+there are two reasons for that performance B is faster then B and resources B is less resource hungry than B
+
+there are two reasons for that performance B is faster then B and resources B is less resource hungry than B
+
+why it is said B has better constant factor than B and therefore B is better than B in average
+
+in their respective worst cases B is faster than B
+
+so for instance B is faster than B in the worst case but slower in the average case
+
+so for even small inputs B does less work than B and is physically faster for every n
+
+you can indeed show that on average B will do more comparisons than B roughly 1.44 n log 2 n for B versus n log 2 n versus B
+
+in other words the per-comparison-overhead of B is higher than the one of B
+
+however B is slower than B in the average case in the sense that B performs c n log n whereas B has d n log n performance with d being significantly smaller than c the numbers c and d are constants
+
+because B is actually slower than B for each n
+
+for example B is faster than B in general although their time complexity are the same
+
+why it is said B has better constant factor than B and therefore B is better than B in average
+
+in their respective worst cases B is faster than B
+
+so for instance B is faster than B in the worst case but slower in the average case
+
+so for even small inputs B does less work than B and is physically faster for every n
+
+you can indeed show that on average B will do more comparisons than B roughly 1.44 n log 2 n for B versus n log 2 n versus B
+
+in other words the per-comparison-overhead of B is higher than the one of B
+
+however B is slower than B in the average case in the sense that B performs c n log n whereas B has d n log n performance with d being significantly smaller than c the numbers c and d are constants
+
+because B is actually slower than B for each n
+
+for example B is faster than B in general although their time complexity are the same
+

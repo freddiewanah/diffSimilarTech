@@ -1,0 +1,34 @@
+for example if your screen is 600 pixels wide and if the B B string takes more than 600 pixels to display you will not be able to see the end of your B B
+
+the specification of atom B offers more value than the B one with internationalization content types and other things and every modern B reader supports it
+
+you d gain compatibility and durability because B is more defined things will change less but if the B doesn t include what you need it won t help you
+
+jpg B is slower to draw than a B
+
+today B is much more popular than B so if you re writing files outside of your own data store B would be a more common choice and you d need to work through nsimagerep to get there
+
+jpg or B should get you smaller than B
+
+also your B looks more like a B tab separated instead of comma separated
+
+now i assume you are worried your techno might not read a compressed B which should be smaller than a B from my memories
+
+you should definitely pick B because they are about 10x smaller than B files of the same duration
+
+B is a newer format and often better than either jpeg of B - especially for screenshots
+
+B is smaller because it s based on an colour palette of 256 colours rather than the separate rgb values for each pixel or group of pixels in jpg and B
+
+B achieves better compression than B because it applies a pre-filtering step before the lossless compression deflate roughly equivalent to lzw. see wikipedia s explanation of B filtering
+
+if your B files are coming out larger than equivalent B files it is almost certainly because your source image has more than 256 colors
+
+B compresses much better than B and allows more colors at the same time
+
+i used B because its file size 2.1kb was considerably less than B or jpeg in this case
+
+of those three B would usually be smaller than B
+
+B vorbis is better quality per meg than B plus no licensing legal issues
+

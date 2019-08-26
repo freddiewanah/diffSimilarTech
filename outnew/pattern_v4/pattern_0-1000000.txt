@@ -1,0 +1,268 @@
+77625
+innodb myisam
+Pattern(s): 0	
+I found that the table-level locking in myisam caused serious performance problems for our workload which sounds similar to yours
+Unfortunately i also found that performance under innodb was also worse than i d hoped
+
+
+
+77945
+quicksort mergesort
+Pattern(s): 0	1	
+With o n 2 worst case that rarely happens quicksort is potentially far slower than the o nlogn of the merge sort
+quicksort has less overhead so with small n and slow computers quicksort is better
+But computers are so fast today that the additional overhead of a mergesort is negligible and the risk of a very slow quicksort far outweighs the insignificant overhead of a mergesort in most cases
+
+
+
+90444
+udp tcp
+Pattern(s): 0	1	
+The protocol it s important that you decide whether you want tcp or udp
+udp has less overhead but isn t guaranteed delivery
+Conversely tcp is more trustworthy
+
+
+
+157238
+lwjgl jogl
+Pattern(s): 0	
+Consider using opengl use jogl of lwjgl
+Jogl is more java-like whereas lwjgl provides more gaming functionality on top of opengl access
+
+
+
+176144
+opera firefox
+Pattern(s): 0	
+Second safari has the greatest standards support combined with a marketshare which isn t negligible opera is just hard to justify for cost benefit reasons
+Third in my experience going from safari to firefox is usually less problematic than the other way around
+
+
+
+179813
+verilog vhdl
+Pattern(s): 0	
+For hdl choice verilog is to c as vhdl is to ada
+So verilog is easier to get started with but you can make mistakes more easily
+
+
+
+256092
+bazaar git
+Pattern(s): 0	
+I have used bazaar a.k.a bazaar for some time now and have found it an excellent and free version control tool check it out here
+Bazaar is a distributed version tool just like git but is imo simpler to setup and use
+
+
+
+257043
+des aes
+Pattern(s): 0	
+Triple des is generally better but there are some known theoretical attacks
+If you have a choice of cipher you might want to look at aes instead
+
+
+
+260148
+lxml libxml2
+Pattern(s): 1	
+It provides a nice easy-to-use binding for libxml2 and libxslt and it also implements the elementtree
+Libxml2 libxslt also come with their own much lower-level python bindings but lxml is much more straightforward and pythonic and it seems to have great performance as well
+
+
+
+260148
+lxml elementtree
+Pattern(s): 1	
+It provides a nice easy-to-use binding for libxml2 and libxslt and it also implements the elementtree
+Libxml2 libxslt also come with their own much lower-level python bindings but lxml is much more straightforward and pythonic and it seems to have great performance as well
+
+
+
+260277
+skip-lists tree
+Pattern(s): 1	
+The rebalance operation can affect large portions of the tree which would require a mutex lock on many of the tree nodes
+Inserting a node into a skip-lists is far more localized only nodes directly linked to the affected node need to be locked
+
+
+
+327972
+innodb myisam
+Pattern(s): 0	
+Another thing is that i think you use myisam table engine which locks the entire table on update.i suggest you use innodb instead
+innodb is slower on select - queries but faster on insert and update because innodb only locks the row innodb s working on and not the entire table
+
+
+
+355552
+haskell scheme
+Pattern(s): 0	
+But haskell is a bit trickier in that you can attempt to redefine a variable within the same scope but instead you just introduce another recursion equation
+This is a pitfall for people who learned ml or scheme first
+
+
+
+422511
+kerberos ntlm
+Pattern(s): 0	
+From my experience kerberos is more of a prefered method but i have not worked with it much so unfortunately i don t have much advise as far as that goes
+On a side note i recall reading somewhere that the jre also has ways of tying into ntlm on your web server in order to obtain identity information for the authenticated user
+
+
+
+497967
+quicksort mergesort
+Pattern(s): 0	
+The biggest difference that can be produced between the two of them will always be to quicksort s detriment and it involves lists that are already largely sorted or contain a large number of ties when quicksort does better than mergesort the difference will not be nearly so great
+
+
+
+542262
+awt swing
+Pattern(s): 0	
+If you are planning to move your gui onto multiple platforms then go with awt
+Otherwise swing gives you a much broader set of components to work with
+
+
+
+543022
+udp tcp
+Pattern(s): 0	
+udp was more of a convenience than anything .
+
+
+
+548705
+haskell scheme
+Pattern(s): 0	
+In lisp scheme a function is thought of a piece of code and examining a function simply means examining its code
+In haskell a function means something closer to its mathematical definition as a map from a set a to a set b
+
+
+
+568612
+ubuntu linux
+Pattern(s): 1	
+I d stick with ubuntu if ubuntu was more compatible with windows programs
+. net development while in school typically isn t done on a linux distribution
+
+
+
+573102
+bash zsh
+Pattern(s): 0	0	
+Another solution to the command line too long problem is to use a c-style for-loop within bash
+This works in as well though i bet zsh zsh has some niftier way of using zsh i m just still new to zsh
+
+
+
+573582
+required placeholder
+Pattern(s): 0	
+That is our quite simple bind object would not fit into the small buffer and would required operator new to be stored
+If the bind object above would use a compressed _ pair it can actually reduce its size to 8 bytes or 4 bytes for non-member function pointer often because the placeholder is nothing more than an empty object
+
+
+
+601996
+wxhaskell gtk2hs
+Pattern(s): 0	
+I think that if linux was my main development and delivery platform i d probably use gtk2hs
+linux isn t however i deliver mainly to windows with occasional osx and i think wxhaskell is a better match to these platforms although both options support all three platforms
+
+
+
+610260
+memcpy strncpy
+Pattern(s): 0	
+But for the example you give it doesn t matter - if it s going to fail it will be in the initial strlen so strncpy doesn t buy you anything in terms of safety and presumbly strncpy is slower as it has to both check bounds and for nul and any difference between memcpy and strcpy isn t worth changing code for speculatively
+
+
+
+610260
+strcpy strncpy
+Pattern(s): 0	
+But for the example you give it doesn t matter - if it s going to fail it will be in the initial strlen so strncpy doesn t buy you anything in terms of safety and presumbly strncpy is slower as it has to both check bounds and for nul and any difference between memcpy and strcpy isn t worth changing code for speculatively
+
+
+
+611158
+portrait landscape
+Pattern(s): 0	
+There are some applications where portrait is still better though if you have to show a document in large resolution or if you have some monitor as in network monitor running and want to see more lines at once
+
+
+
+649402
+portrait landscape
+Pattern(s): 1	
+If you re working mostly with text as most programmers or other technical folks do or even documents then portrait mode is much more valuable
+In fact the general trend in displays is all the wrong direction aspect ratios are squishing landscape displays to a mail slot to better fit the format of movies
+
+
+
+729163
+realloc memmove
+Pattern(s): 0	0	
+The specific error you re getting is likely because one of your strings is length 0 and realloc foo 0 simply gives you that error on your system or because you re writing the trailing 0 in unallocated memory and overwriting something else important causing corruption
+Simply rearranging pointers frags i frags i +1 or using memmove is easier quicker and stops you wasting memory though
+
+
+
+729994
+setinterval settimeout
+Pattern(s): 0	
+The setinterval makes it easier to cancel future execution of your code
+If you use settimeout you must keep track of the timer id in case you wish to cancel it later on
+
+
+
+774698
+udp tcp
+Pattern(s): 0	
+This description is only really valid for tcp ip sockets however
+The udp case is simpler and quite different since udp sockets are not necessarily connected
+
+
+
+803700
+nginx lighttpd
+Pattern(s): 1	1	
+s simple and nginx nginx is even more ridiculously fast and lightweight than lighttpd
+
+
+
+830889
+uiview uiwindow
+Pattern(s): 1	
+The uiview is something generic provides common methods you use to create all types of views and access their properties
+While uiwindow is more concrete class defines objects that manage and coordinate the windows an application displays on the screen .
+
+
+
+843116
+punctuation words
+Pattern(s): 0	
+Then you process one sentence at a time after removing all punctuation commas semi-colons colons and so on
+Then when you re left with an array of words it becomes simpler
+
+
+
+869908
+fgets strtol
+Pattern(s): 0	
+For interactive input fgets is better
+You ll then want to use either strtol strtoul strtod nsscanner or nsnumberformatter to convert the input to numeric types
+
+
+
+869908
+fgets strtod
+Pattern(s): 0	
+For interactive input fgets is better
+You ll then want to use either strtol strtoul strtod nsscanner or nsnumberformatter to convert the input to numeric types
+
+
+

@@ -1,0 +1,32 @@
+B offers more advanced branching and merging capabilities than B
+
+B does have support for many other oses but our non-windows devs feel more comfortable with B too
+
+B is soooo much faster than B because all the check-outs are stored on the server so it doesn t have to check every file on an update
+
+make sure you re using a source control system that supports branching and merging i ve had experience with B and B and while B is better B is free
+
+note most recently i have been using B and hg with fully powerful regexps so may be looking for stuff more powerful than B provides
+
+B is another one that s easy to use i would say easier than B to learn but it uses an sqlite file to store your code and i m not sure if it scales to really big projects
+
+i d recommend B like the other posters as it is more complete than B
+
+B is much more complex and time consuming due to the more complex nature of this B
+
+although i myself have prior experience in implementing B much simpler ones than B xfs or ext2 i would not tackle this job
+
+from what i understand B was more popular than B among users of 18-bit architectures since a word would be exactly 6 B digits
+
+converting between decimal and B is more involving and at least to me it s been easier if i have to do it in my head to first convert the decimal into B representation and then the B number into B
+
+but when anyone human looks at it they look at it in B using a B editor which is much easier than reading B
+
+a B string is significantly longer than the corresponding B string
+
+if you use B then it still okay because B handles binary files much better than B
+
+you ll need to convert B to another base here i use decimal when writing this code because c doesn t have B constants which would be ten times more useful than B constants
+
+however B protocol is much faster so i suggest using B B for performance reasons
+

@@ -1,0 +1,162 @@
+B is more of a handshake done with the server while B is the actual stream coming in once the handshake is done and you start streaming
+
+B is more of a handshake done with the server while B is the actual stream coming in once the handshake is done and you start streaming
+
+in short as an authentication protocol B is far more secure out of the box is de-centralized and will put less load on your directory authentication servers than B will
+
+in short as an authentication protocol B is far more secure out of the box is de-centralized and will put less load on your directory authentication servers than B will
+
+for a low traffic site the huge tokens that B send across the network actually makes it slower than B
+
+for a low traffic site the huge tokens that B send across the network actually makes it slower than B
+
+push log files to a central location B is faster than B the windows B command can be automated with -s scriptfile
+
+push log files to a central location B is faster than B the windows B command can be automated with -s scriptfile
+
+for instance zeromq can leverage B multicast to run faster than any B protocol but the application programmer doesn t need to learn a new api
+
+it may be that the kernel heuristics for servering B connections is more aggressive than for B sockets since B connections require more state and more continuous processing than do B sockets
+
+use socket for B and datagram for B its a lot faster than B but less connection oriented
+
+B is more popular in nat punching because provides much better results than B
+
+B windowing is more expensive than raw B but if you use B to go faster and add a custom loss-recovery or seqno ack resend manager then that may slow you down again
+
+http is an application layer protocol which could be encapsulated with a protocol that uses B providing arguably faster reliable communication than B
+
+in gaming especially fpss B tends to be the chosen protocol because it s much less chatty than B
+
+a heartbeat is by nature a connectionless contrivance so it goes that B connectionless is more relevant here than B connection-oriented
+
+in a native application i would use B for the most data player position ... because it s way faster than B and it s uncritical when it is lost
+
+B protocol is unreliable but much much faster than B which is most commonly used for communication
+
+i was going through internet and so and understood that web sockets are encapsulations to B which by itself is slower than B ofcourse at the cost of reliability but i couldnt find much info if websockets or B would be ideal to implement such a server
+
+B sockets- guaranteed delivery bigger payload than B cumbersome to setup for web based solutions
+
+because of B requires connection and provides security it is slower than B and therefore it should not be preffered during a video streaming
+
+you could get them to do a B multicast within a lan environment to identify the programs using protocol messages then have a stored cache of each other s identity and then use B to connect and do main exchanging of messages which is more reliable than B
+
+for example B has much more flags window-length syn ack etc - and also starts and ends a connection in a very stable way - the three way handshake - while all B has is source ip dest ip length source port dest port and checksum
+
+B is simpler protocol than B and you can still simulate features of B using B
+
+for this particular application sending simple data chunk to the client from an index given by the client B will not perform any better than B
+
+the decision on yours the B protocol used for connection oriented network that is more secure than B
+
+i used iperf on two linux machines to send data using both B and B i found that B performs better than B average 65 better
+
+for example i read an experiment in which a stream of 300 byte packets was being sent over ethernet 1500 byte mtu and B was 50 faster than B
+
+B is extremely faster than B which is suitable to stream a user s voice input
+
+if they are connected over the internet you could try to use the examples for B but B has more overhead than B
+
+but when i used iperf on two linux machines to send data using both B and B i found that B performs better than B for 10mb of data
+
+as far as B goes i think B is more generally used protocol for more data-centric requests like chat or things that require packet integrity B tolerates packet loss to lower latency
+
+i read in a case where a stream of 300 byte packets was being sent over ethernet 1500 byte mtu and B was 50 faster than B
+
+B streaming for audio can be less helpful than B rtp as you d have to turn off nagling
+
+at my company we have found memory mapped files to be much faster than loopback B ip for communication on the same box so i m assuming it would be faster than B too
+
+B packets are easier structured than B packets but sacrifice security for their size
+
+for instance zeromq can leverage B multicast to run faster than any B protocol but the application programmer doesn t need to learn a new api
+
+it may be that the kernel heuristics for servering B connections is more aggressive than for B sockets since B connections require more state and more continuous processing than do B sockets
+
+use socket for B and datagram for B its a lot faster than B but less connection oriented
+
+B is more popular in nat punching because provides much better results than B
+
+B windowing is more expensive than raw B but if you use B to go faster and add a custom loss-recovery or seqno ack resend manager then that may slow you down again
+
+http is an application layer protocol which could be encapsulated with a protocol that uses B providing arguably faster reliable communication than B
+
+in gaming especially fpss B tends to be the chosen protocol because it s much less chatty than B
+
+a heartbeat is by nature a connectionless contrivance so it goes that B connectionless is more relevant here than B connection-oriented
+
+in a native application i would use B for the most data player position ... because it s way faster than B and it s uncritical when it is lost
+
+B protocol is unreliable but much much faster than B which is most commonly used for communication
+
+i was going through internet and so and understood that web sockets are encapsulations to B which by itself is slower than B ofcourse at the cost of reliability but i couldnt find much info if websockets or B would be ideal to implement such a server
+
+B sockets- guaranteed delivery bigger payload than B cumbersome to setup for web based solutions
+
+because of B requires connection and provides security it is slower than B and therefore it should not be preffered during a video streaming
+
+you could get them to do a B multicast within a lan environment to identify the programs using protocol messages then have a stored cache of each other s identity and then use B to connect and do main exchanging of messages which is more reliable than B
+
+for example B has much more flags window-length syn ack etc - and also starts and ends a connection in a very stable way - the three way handshake - while all B has is source ip dest ip length source port dest port and checksum
+
+B is simpler protocol than B and you can still simulate features of B using B
+
+for this particular application sending simple data chunk to the client from an index given by the client B will not perform any better than B
+
+the decision on yours the B protocol used for connection oriented network that is more secure than B
+
+i used iperf on two linux machines to send data using both B and B i found that B performs better than B average 65 better
+
+for example i read an experiment in which a stream of 300 byte packets was being sent over ethernet 1500 byte mtu and B was 50 faster than B
+
+B is extremely faster than B which is suitable to stream a user s voice input
+
+if they are connected over the internet you could try to use the examples for B but B has more overhead than B
+
+but when i used iperf on two linux machines to send data using both B and B i found that B performs better than B for 10mb of data
+
+as far as B goes i think B is more generally used protocol for more data-centric requests like chat or things that require packet integrity B tolerates packet loss to lower latency
+
+i read in a case where a stream of 300 byte packets was being sent over ethernet 1500 byte mtu and B was 50 faster than B
+
+B streaming for audio can be less helpful than B rtp as you d have to turn off nagling
+
+at my company we have found memory mapped files to be much faster than loopback B ip for communication on the same box so i m assuming it would be faster than B too
+
+B packets are easier structured than B packets but sacrifice security for their size
+
+the strange thing is that when streaming is done via rtsp unicast B generates both sender reports and receiver reports but when streaming is done via B multicast only sender reports are generated
+
+B protocol is more complex than http or B form example
+
+B protocol is more complex than http or B form example
+
+ideally your B frames are smaller than the B for your architecture say 1500 bytes so the messages won t get chopped up in transit
+
+note that B packets bigger than the B s at every hope between your hosts will be split by ip
+
+now if you re intending to use a remote filesystem with ofs which is the primary use-case you have to first install the relevant remote filesystem packages on the os you re using then use for example if we ve got B which is the newer name for B samba
+
+now if you re intending to use a remote filesystem with ofs which is the primary use-case you have to first install the relevant remote filesystem packages on the os you re using then use for example if we ve got B which is the newer name for B samba
+
+in fact B especially the ttl excceeding message has even less limitations than B on nats for the error message can be sent from every corner of the internet and routers with nat cannot be aware that these messages are not the true ones
+
+in fact B especially the ttl excceeding message has even less limitations than B on nats for the error message can be sent from every corner of the internet and routers with nat cannot be aware that these messages are not the true ones
+
+regardless the B protocol is more simplistic in nature can handle orders of magnitude more client connections than B for the same memory utilization uses less bandwidth on the wire doesn t require authentication although you can add this feature etc
+
+regardless the B protocol is more simplistic in nature can handle orders of magnitude more client connections than B for the same memory utilization uses less bandwidth on the wire doesn t require authentication although you can add this feature etc
+
+if you are using linux check out netdiscover this uses B i think B is lower level than B udp and with java you can only create apps from B udp and above
+
+if you are using linux check out netdiscover this uses B i think B is lower level than B udp and with java you can only create apps from B udp and above
+
+you could always use B that will work both on http and B websites but loading a B resource is slower than loading a http resource because of the encryption and B handshakes
+
+there is a limitation on creating virtual hosts for name based virtual host while using B 443 port so if you want to have more than one B port enabled you will need ip based virtual hosting
+
+you could always use B that will work both on http and B websites but loading a B resource is slower than loading a http resource because of the encryption and B handshakes
+
+there is a limitation on creating virtual hosts for name based virtual host while using B 443 port so if you want to have more than one B port enabled you will need ip based virtual hosting
+

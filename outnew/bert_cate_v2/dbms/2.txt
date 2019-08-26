@@ -1,0 +1,50 @@
+for these ultra simple queries B can be slower than B - B has richer planner that works better on more complex queries but on trivial queries is slower
+
+i ve found that B is in my expirience is slower as B
+
+is B a better option than B for partitioning tables by date
+
+in most regards B is slower than B especially when it comes to fine tuning in the end
+
+B is already slower than B up to a certain point it is actually faster when you have a ridiculously large database
+
+B requires more tuning than B to achieve optimal performance
+
+either B more proven than B for such huge data
+
+with correct locking for safety reasons and heavy concurrent use B performed better than B
+
+then B is much better than B
+
+in your case B may be a better option than B because your query is going to likely be against secondary indexes
+
+i feel B is much more mature and robust than B
+
+may be B takes less time than B
+
+i cannot propose any db not knowing your specific needs but if you want to use a free software which excludes oracle and you re not already experienced with B you should try B which is more powerful than B
+
+from how i understand it B is a more correct database implementation while B is less correct less compliant but faster
+
+i d also recommend B over B if you are going to have nested comments as B does hierarchical querying better than B
+
+all that said B is much more acid compliant than B it handles fks just as you re needing and i would generally recommend it based on what you ve expressed in your post
+
+ps you can also migrate to B it s smarter than B when choosing right indexes
+
+B is probably more often offered by shared hosting providers B is probably a little more powerful
+
+B specifically has gotten easier to manage while B has lost some of the simplicity that gave it an advantage without picking up enough features that really matter
+
+B is faster than B s innodb
+
+i hear B is more robust and doesn t crash like B does in these situations
+
+in my cases B was better than B B do not completely support unicode
+
+if you want to use sql i strongly reccommend B it seems to deal with large databases and frequent writes a lot better than B
+
+B is also a lot better imo than B and is the recommended database to use with django according to a lot of the people close to django
+
+B is easier than B but it doesn t really matter either way
+

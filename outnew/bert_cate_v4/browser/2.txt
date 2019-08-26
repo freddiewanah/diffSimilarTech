@@ -1,0 +1,84 @@
+since you noted thoughts on other browsers would be helpful * s kiosk mode seems more powerful than * s
+
+on linux * displays text about one pixel higher than * and opera
+
+i have too problem with text in the * is bigger maybe bolder as in * .
+
+in * it s less noticeable but in * it s very noticeable
+
+in * the input button has more padding than in *
+
+because of how * s plugin system works development mode in * is much slower than in * or safari see here for more details
+
+suffice to say ie and * start having problems at larger heights than does *
+
+you can see if you look at the bottom and right hand edges of both * lines up perfectly but * seems further in both directions and i cannot work out why either in firebug or * dev tools
+
+when i posted this on facebook someone said that since * is open source project developers optimized math.min but * didn t since * is just a modification of chromium but beside that above statement is not quite right that makes no sense because that doesn t explain the reason why * s and * s math.min a b performs in similar speed and * s math.min a b and * s performs in same speed because if * is faster than * then * s math.min a b should be much slower than * s
+
+and also does anyone know why is * so much slower than * in 3d rendering
+
+what * displays is about 5 inches higher than what * displays
+
+* is easier and better than * in finding the element from the webpage
+
+however a sdp object local description by * does not contain datachannel at all and moreover the sdp is much shorter than * and less information bundled
+
+* is a bit more strict than * here
+
+* is lightning fast when you use the dom api but vastly slower using the .innerhtml operator by a magnitude 1000-fold slower however * is worse than * in some areas for instance the append test is much slower than * but the innerhtml test runs much faster than *
+
+it works fine even for italics but i m aware that the user s browser is being asked to make a best-guess here and have noticed that * will make individual chars appear slightly fatter than * when i do things this way
+
+better use * even thought * is not slower than * for once probably the tracing for the image comparison pays off yay
+
+often * is understanding more thing then it should and * is bringing you the reality back in your face eheh
+
+* has a more advanced plugin than the * extension but both work
+
+i ve tested the sample on * and it s a bit slower than * but usable
+
+* gsap performance is still much worse than in * but * gsap does still lag every few repeats or so while in * the css animations do not
+
+if we remove the font-size it appears properly in * but shows up smaller in *
+
+here the working header request with * bigger than * request
+
+* is more tolerant when it comes to image headers then ie and *
+
+on * it s significantly faster to do this using 1 0 but on * it s slightly faster to do this using bool
+
+in my experience * has better javascript performance than *
+
+in * it seems that this is 1px lower than in * and safari
+
+this makes * 50x faster than * and 70x faster than safari is there any known reason for that
+
+spidermonkey * is slower 50 of * max speed but the speed is consistent
+
+i have encounter a problem with * that is similar to an older issue with * at this url scrolling blocks javascript execution in *
+
+what s up with * that the debugger behaves less conveniently than *
+
+use * rather than * - * with dev mode is much slower than *
+
+* is slower than * which boats one of the highest javascript engines a modified version of webkit
+
+* is even slower that *
+
+i ve found that * is greatly faster with imacros than *
+
+i have been working with linear parsers lately and noticed the performance in * v37 was much slower than in * v30
+
+of late * has had much better performance than *
+
+install firebug * version is better then a * one
+
+so if something works on * it s more likely to work straightaway on * more than it is on firefox - but that s just a family resemblance at the end of the day you ll still have to test each as every webkit browser product and version still uses a different version of webkit
+
+i planned on using svgs for the entire site but with only 20-30 svg images of medium to high complexity used in the page and google-chrome already seems to be showing som jank and high paint times for scroll and * is even worse though * seems to do a lot better
+
+the service is still in beta trial and * conversion is working better than * one
+
+so to specify * greater than 20 * greater than 9.1 and ie greater than 9
+

@@ -1,0 +1,286 @@
+B 10 B
+B approach seems closer bare metal since jdk 6 brought improvements B rendering pipeline would go B java2d approach
+B newer better api B
+B implementation widely used require B fallback browsers
+third possibility would send form discovery B either broadcast better B udp
+decent understanding error B higher precedence B B cant necessarily store B value
+note float values passed prBf automatically converted B numeric types shorter B promoted B
+second thoughts B surely better candidate B
+use firebug B think reliable B
+top B gives access packages B
+B designers went trouble make B without constraints almost wish said since often misquoted
+keep mind B B B applications definition better B ones
+thing accepted answer B succinctly B gridviewpager like
+B gives larger errors tried B
+think makes sense B class take higher priority B interface
+however know B comparable like functionality B even intellij
+B server better B
+open fiddle B B see talking - B positioning background image lower B
+B better support B
+B extensions power B wider access browser internal api
+B files download 47 B ie 42
+tldr B filter slightly faster B opposite
+looking issue inspection tools browsers seems B making #main_nav_bar ul 10px wider B
+simple performance test showing B filling faster clearing goes B nowadays B clearing faster filling significantly faster B
+trouble choosing good value x since particular page B faster B faster ie
+B 2.1 B better counterpart B rpc use db4o together
+answer simple - pickle B slower implemeneted pure opposed B
+B lower learning curve would recommend B
+well B larger ambitious project B
+think fair say B similar B use iterative relaxation
+surely situation B approach better B approach
+noted comments however willing rely posix B cleaner B + malloc + semantics take responsibility freeing memory allocated copy
+value B greater B active touch going
+B ahead larger extensions B
+believe B better B details blog post
+stunned right seeing B performing 100-150 faster B even simple native functions array.every chrome
+B caching database queries improving performance regard B improving performance
+using function window .resize detect total B open windows plus B greater window B hide first chat window show last one space windows
+wrapper uses even B implementation significantly secure simple B
+B functions sha-1 also B collisions although likely B
+note usually happens release B strict default errors say B
+course ordering could forced obj.gettype .tostring using lexical order since strict order necessary B wondering efficient B
+found B like B lacks B libraries
+addition previous answers strncpy char pointer seems unsafe opinion B safer need remember B outside function inconsistent hierarchy program following
+munge together solution B B better solution managing dependencies B
+B faster B
+consider taking look B simpler webdriver api B
+like make B images slightly larger B text B B line
+however nowhere checked B view added top view greater B bitmaptosave
+needed compare B B uiimage B larger B add border
+may better quick dirty method would inspect display B B display.getsize point point - B greater B normal mode landscape otherwise portrait
+image B greater 2048 need scale 2048 image B greater 1229 need scale 1229
+chrome however stops displaying B becomes larger 8130 pixels B constant - 834 px
+might need check B greater B use B 100 else B 100
+use .scroll overflow css property set scroll auto element explicit B B B B contents
+setting imageview check B image greater B rotate 90 needed
+assume max 30 upto 100 zooming effect aspect image B B desired B B
+B gets dramatically larger B stays throw hide keyboard event
+would happy applying class B 100 image B auto B B
+mean resize B web browser desktop pc B B web browser portrait.css file override current style
+look wheter image B higher B opposite according set B B value B B set proportionally get stretched
+could adjust B iframe scrollbars present check iframes scrollB offsetB scroll B higher increase B iframe B scrollbar prolly 5-10px check
+likewise change img #clock defined B instead defined B clock scale properly viewport B greater B
+B bigger B want B set auto
+x + button.getB check screen B yes x well bound regerenate random x similary x bound check + button.getB screen B
+example B greater B resize B 500 pixels scale B accordingly original aspect ratio preserved
+fullscreen image standard 16 9 scales proportionally unless users B larger B
+B shorter B position wrong
+div B B greater img B B.
+browser table cell B bigger B set whole table dimensions
+see page B wider B runs desktop simulator device like 7 pad extra space pushed top bottom
+effectively show scrollbar needed horizontal content wider B vertical content taller B
+also integer B expensive may divide first calculate B 10
+B consumes lesser battery power B thread
+reading related performance B B std B std B slower B B
+vector want calculate component-wise function say B B faster use vvBB accelerate pipeline calculations B B entries vector faster uBg for-loop vector
+used B 10+ years never really B scripting always subjectively beliving one area B weaker B
+title B faster B example
+conceivable B could return address memory location already pre-initialized zeros thus may faster B + memset combo
+according test - B slightly faster B since use animations
+B B depend since B popular B packages dependency B example car
+old modern systems implement special B call somewhat strict limitations although strict B requireemnts B avoid copy performance
+B similar B component
+looked B operator higher precedence conditional operator conditional operator right-to-left B
+using B might produce better results B tags branches.
+B 5.1.10 6534.59.10 middle handles smaller viewport sort order smaller viewport computes new image sizes even smaller B
+think B looks better B quick zooming panning functionality first better B B handle slick zoom pan even though tile-based
+opengl better playing around experimenting easily draw triangle without messing hardware buffers available larger selection platforms plus B better B compile assembly
+B smaller 900px B fixed liquid via media query B liquid width allow images scale text wrap whole bunch great things
+according benchmarks B seems provides better performance B performance change significantly able focus investigation nginx ec2 configurations
+impression common B getting stuff done B education fun
+document B like json structure B specific
+B capabilities helpful integration tests B focused unit tests
+2 B needs processing network interface level B itâ
+mostly work esri though little bit work B mostly clients whose engineering departments using cad B
+B higher operator precedence B done two Bs calculating value
+tuning B better engine requires adjusting different values B often fast-but-unsafe default
+since updates think B would better B
+need six disk space store memory process dataset compared B 2-3 archived B
+told B faster executing writes slower B reads cannot back could find article analyses however guy told high regard feel free ignore point research
+area think B change buffer better job B
+original solution naive - deal B hash 100 base 36 - meaning would prB 3 B
+mean B consumes space also means B 36 4 different keys
+data setter script generated automatically chose B B take space B B .c file
+well B uses slots since B usually one byte
+regarding last portion number bits B always B cause
+B higher datatype B lower datatype.
+likely means scanf overwriting adjacent array since sizeof unsigned B likely greater sizeof B
+cast value B one terser four B
+since B smaller B would
+aside rusty B efficient B know overlapping memory
+B seemed bit easier B started hello world B tutorial
+granted B easier claim support B would first
+B written better B B
+recommend B like posters complete B
+either trick bottle preference B faster lightweight B
+B complex time consuming due complex nature B
+division B indeed costly hardware operations whatever related hardware architecture languages compilers perhaps ten slower B
+finally note default ichol references lower triangle input B returns lower triangular B
+either intend use B partly experience partly well documented functionality blade syntax slightly cleaner B although template engine point really
+market templating engine B new templating engine used symfony better B
+hinted analysis finding common B depth values across datasets able track implemented excel cater datasets might contain depth values B common B greater maximum possibly
+considering B moduli least 1024 bit larger B
+one languages closer processor level performant generally speaking B turn assembly performant B
+B like always slower B
+performance programs B significantly better B
+B higher class B slower
+value B top equal greater B fixed header B
+short - care comparisons B better B
+therefore parfor B simply must slower B transmit data workers operate
+noticed time ago B typically generates several machine instructions B
+B slightly slower foreach B
+luiggi mendoza commented splitting s+ instead would resolve issue number B one B
+thought B supposed leaner meaner B
+B converted faster B although test conversion cuda processing
+want use B B around 10 faster B
+appears consider B lower precedence B division
+shows B faster framework B restify B faster restify
+B supports .Brc one files gemfile either B directive specify
+think exactly want B provides better serialization B
+B value larger B value B value gets reset value 100 larger B value
+said average guaranteed least large B value column larger B value column
+happen B value digits B value
+2 plotting new series values B greater B
+afaik integers first bit used sign probably absolute value B integer lower absolute value B integer
+syntax B zero positive integer number indicating Bimum number matches B integer equal greater B indicating Bimum number matches
+parameter B equal B
+trying write method returns number words words parameter least B B haracters
+is_valid inputvalue larger B smaller B
+trying check B always B B B value always number B B empty
+comparing every value B every value B hit value B greater value B 55 B greater 22 B test set
+works large datasets users notice using B -only program slows programs B -using program data
+distributed tools faster B slow hell even B faster sometimes useful features B developing rapidly seeing new feature B takes years
+note could use B job particularly better suited regular B
+wild using B server observation might based B simply better merging B notion mergepoints
+understand B smaller worst audio quality compared B files
+suffix B dummy nodes suffix B
+use radix B wiki B wiki concerned performance.the radix B memory efficient compared B
+common knowledge B takes clock cycles compute B
+even though integer B instruction div idiv instruction set typically slow several slower B
+since paddle object B shared player enemy composition better B
+probably need get data anyway unique B probably faster need calculate B username
+cons B get B - also get gulp-utils things - using gulp first place
+idea dove nose-first B -- never used -- someone told better B dealing small tasks requests -- would know turn B proxy mind
+using two B associations always better relying B relations
+plugin defaults requiring B request logout using config setting reference make application convenient use secure allowing B B requests
+done go security details B slightly secure B - see comments details.
+taught using B requests better B reading would like switch B problems little unsure modify switch B
+various told go B since better B apparently idea also good support resharper using
+B newer qt documentation B states
+2 however B requires arguments data type thus stricter B first attempt implicit conversion
+in-order processing required better design would use another message processing supports B model think would fit better rebus B model
+datebox B z-index box mean B box z-index shows behind B panel
+yes least respect B smarter B
+B class methods convenience methods common animations limited B
+may find B helps using large amounts memory B regularly blocked fetching memory
+B also allows efficient paging simple B assuming using
+clear without performance tests native B faster big difference small B like 10-20 small
+simplified version actual B larger use B get every index
+turns hard coded maximum index B bigger B trying assign
+B section create 1 B
+therefore types access constructor derived types hence B makes sense B
+theory someone extending class B access knows someone merely using B access
+use B replay interface number attempted packets B different number packets showing B
+take B 1 B gives exception
+rather use B fstest write tests f# feels natural oo B style tests
+hide B since dealing B heavier compared simple normal new considered good practice considering use B check simple allocation succeeded watch program die
+unchecked B better use order copy paste ugly B rethrowing B add throws clause method
+new h guaranteed smallest old h B still larger old h B
+B equal smaller B
+labelling scheme left B 2 i+1 B height child right B 1 B
+node two B left child smaller value B right child bigger value
+B view larger B expansion suffix make difference well
+query lists B sharing B one B
+rather prefer B since faster B also require input sorted
+also implementations like jython B could slower B
+furthermore B slower B
+solution using B calculations quicker float B calculations
+another would add cast recommended due loss information error warns - fractional part simply removed value B hold larger smaller values B
+example B specific B 1 promoted 1.0
+know whether port support B acts like simple B worths look
+would like unified front-end B opentsdb could consider grafana support B opentsdb functionality B regard B
+since noted thoughts browsers would helpful B kiosk mode seems powerful B
+development done B connections solve problems sometimes simpler B connections
+would like function work B ie B moment works B older B version 49
+obviously B persnickety whereas B defaults moving sizing printout necessary
+B meaningful B chars 1
+biggest difference produced two always B detriment involves lists already largely sorted contain large number ties B better B difference nearly great
+understandable B faster B
+together B finding B
+B version contains B version
+deployed 2 cores 4gb B enough B run getting started example enterprise integrator
+top B bus slower B control data exchanged
+read B popular B
+work long B larger B dimensions
+also personally believe B better handling complex queries include sub-selects like B users used avoid
+want open source B smarter B well
+B always little bit mature B
+x equal B B writing array 0 y+1 cell
+could happen fft size larger B drawing area number spectral lines B
+brute forced bit forcing B box always larger B
+resize browser window div B becomes smaller inside div jump expanding B
+first example image whose B greater B
+see image B greater B script first makes image 128 px B
+landscape image would ideal B 300 slightly larger B 400 portrait image would ideal B 400 slightly larger B 300
+assuming units probably want set radius based y-data dimension figure B greater figure B
+collection view occupies whole screen simply check B B take result landscape orientation
+however nowhere checked B view added top view greater B bitmaptosave
+bin B smaller zero bar B might become large
+issue user may link image extremely large B B B B div causing overflow layout issues
+far tell detecting B grows greater B versa
+1 check B greater B
+generalize approach could try check whether offsettop element greater B container offsetleft bigger B
+screen B 0.5625 B outer layout parts start eat center
+currently using universal storyboard want image 3 4 B needs 33 greater B
+B 3 larger B unexpected
+tend use B need get first non-null value set 3 values B supports two parameters
+reviled indexes needed add indexes improved queries thet added B dynamic still perform better B
+B operations usually significantly faster B division
+need implementation B useful B
+B secure B
+understand B harder B
+like matzi suggested B gives lower latency lower packet overhead header smaller B downside delivery packet destination never guaranteed ie
+confirmation B packets slightly faster B
+evaluated B mature B
+akin B higher precedence B 3 sticks 4 instead 5 output 17
+B ints overhead simple B
+B -- effecient B primary clustered data B
+B scalable B support properties acid
+even half B bound require 3000 B bytes
+thus use objects type B smaller B values automatically converted B operation happens
+cannot B methods B
+B bigger B second statement correct
+really platform B faster B
+trying thing B correct B
+considering B moduli least 1024 bit larger B
+B momentum days plenty good parsing libraries B well including peg parser generator aurochs menhir glr parser generator dypgen
+equivalent B restrictive labels may used B continue statements
+iteration B simpler B
+prefer using B instead foreach B B preferably faster foreach B element solve using index follows
+wanted point answer since know B faster B
+means know iterations going need B suited task B
+experience B slower B
+B also platform let provide better integration additional B plugins android web development etc.
+validation B adding one B per B
+searched bit found B perform better B problems implement
+intuition B costly affair B
+usual programming practice one bother simply multiplying floating-point representation 180 ï B faster B
+picked 1 1 8 example simply exact ieee-754 floating-point representation typically B faster B
+friend point B actual B writing slower B
+always need know magic number 0xaaaaaaab correct operations B shifts additions different depending number want divide take cpu time calculate fly would slower hardware B
+B better suited B light single threaded vs B thread per request normal setups
+believe sending data using curl B method better B method
+B appropiate idempotent queries B appropiate action queries shoot foot easily understand security architecture application maintaining
+B request little safer B parameters stored browser history web server logs
+priority level B lower B
+best testdriven.net disables instrumentation B makes B blazing fast - faster B example
+first B modeling B
+real B columns B
+know B handles concurrency better B know
+enable setup ran every time asking B either lower B higher B higher B lower B
+multiplication B higher precedence B subtraction
+2.the B 2 done bit - shift operation really slower B
+using B already know better B
+looks like B bigger B
+works B element always higher B want make work universally

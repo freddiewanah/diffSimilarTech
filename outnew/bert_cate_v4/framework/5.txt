@@ -1,0 +1,36 @@
+this is another reason why i d prefer rhinomocks and * over * * uses the older expectation style whereas rhinomocks and * both support the arrange act assert approach where you specify you expected interactions as assertions at the end of the test like this
+
+why do people say * is somewhat harder than * for people new to mvc
+
+you cannot use mocks in conjunction with * it s better to let * provide the context you need here
+
+you can do it with * but works better in 32bit * framework
+
+developers community it might seem that * has a larger community of developers but during my career with * i ve found no bottleneck of having a question without an answer
+
+how can i connect a method and not a command with a binding from the * to an attached event to ask in a more general way with * micro
+
+with * it is even easier since you just need to bind a property on your * to selecteditem
+
+so latest * 2.0 is better than * according to this benchmarks
+
+if you are familiar of using * it is easier to switch into *
+
+* has a templating language of it s own it looks easier than * s
+
+you could argue that the * style is simpler and you can do it in * too it just isn t optimal but keeping the state only in the server has many advantages
+
+if you actually need dao s this is something that comes out-of-the-box in * and put partly in * roo but there is also a great addon for * roo hades addon that does a great job at this maybe even better than *
+
+either will do the trick but bottle or in my preference * will be faster as it is much more lightweight than *
+
+first its not a bad idea to use * to satisfy your requirement the uniqueness of node and added advantage compared to conventional technologies like apache-php is clearly explained in this following video why * is better .the notion of node being just used for advanced or complex applications is wrong you can use node for building applications which are very simple to anything of huge proportion.it would be a not so comfortable task for a node beginner to code without using any frameworks but by using this web application framework called * you need not code from scratch and its very easy to setup html pages using its simplified html templating language called jade and route requests also you can even use your html pages if you are not willing to use jade for rendering the views of your application .here are the series of tutorials which would help you tutorials on beginning with * basics of *js
+
+* is more powerful verstile but to get started with it i feel you have to be a better php developer than you do to get started with something like *
+
+i use * and * together but the language syntax of * makes more sense is semantic as * when testing for request expectations
+
+* seems to have an overall nicer syntax than * like the strongly-typed way the former deals with passing parameters to a constructor of a faked class
+
+while * has much more sophisticated widgets than gwt you still can t use * in conjunction with it which is why i rejected using *
+

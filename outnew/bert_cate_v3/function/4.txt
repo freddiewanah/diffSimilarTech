@@ -1,0 +1,84 @@
+that said the date class is much better in php5.3 -- it even has * subtract functions which would also solve your problem much better than * .
+
+* is simpler than * and can be implemented even more efficiently in places where the strings are known to be properly aligned
+
+if you always keep track of the lengths of your strings you can compare lengths and use * which is faster than *
+
+but sometimes * performs faster than * because it moves blocks of memory at a time which allows it to perform some optimization i will not go into details here
+
+* is not really any slower than *
+
+so i feel that on x86 * is faster than *
+
+notice that * is faster than * unless the source string is much smaller than the buffer s size which is rarely the case with ip addesses.
+
+* has 64 and 128-bit versions so you can experiment between the two and it s faster than * largely owing to * being a cryptographic hash function whereas murmur doesn t have the added expense complexity of being cryptographically secure i m assuming that you re not concerned about anybody attempting to intentionally generate hash collisions or anything like that
+
+* is no longer secure and it can be broken with a good gpu no typo you can use your graphics card to break a *
+
+suppose char p * n assigns more than n say n bytes of memory are allocated and * p is used to * the memory allocated to p
+
+you will find that * works better than * here
+
+is the performance of * field constant better than *
+
+sql server is probably smart enough to translate * into the equivalent sarg expression but if you are bent on using a function then * is a better choice because it is part of the sql standard allows for multiple values instead of just two with * and avoids using quite possibly the most confusing function name microsoft ever devised in *
+
+i understand the difference between these functions but my question is when checking for a single null value would * be any quicker than using *
+
+* is better then * because of how datatypes are handled
+
+an example of why * is better than *
+
+it takes a page off of the free_page_list updates mem_map zeroes the page and returns the physical address of the page. here s another post that explains it well and also explains why using * is better than * + memset
+
+if end up using the memory anyway * is still faster than * and memset but the difference is not quite so ridiculous
+
+this means * can potentially be faster than calling * followed by memset since it can skip the memset if it knows it will already by zeroed
+
+for this reason since * uses two arguments of type size_t it can allocate bigger blocks than * will ever be able to since * takes only one argument of type size_t
+
+* itself is slower than * because you have to spend some time to clear the contents of allocated memory
+
+with typical libraries on common modern hardware * is faster than *
+
+the structure of the * algorithm makes it less susceptible to attacks on properties of the underlying * algorithm
+
+* is better than a plain * because it is not vulnerable to * length extension attacks
+
+the question is about is there really any platform where * is faster than *
+
+as already pointed out in other answers * is more sophisticated than * such that it accounts for memory overlaps
+
+bad news is that the asmlib version of * is slower than the glibc version it is now running at the 300ms mark on par with the glibc version of *
+
+as an aside my c c++ is rusty but is not * more efficient than * if you know you don t have overlapping memory
+
+the various alternatives * * work roughly the same way * is easier to use when dealing with arrays and zero-fills the data while * is useful when you need to resize a block of memory
+
+technically accessing the * directly is faster than using * but there are very few situations in which it will make a significant performance difference and would probably be a case of premature optimization
+
+i m also looking for more examples and explanations of complex * more complex than * in common programming languages
+
+the justification of * is that it s faster than 2nd * manual copy free
+
+this * is nothing more than a random arbitrary string that you concatenate to the passwords and it will make your * password unique
+
+you might want to give the data.table package a try check out the * function which is much faster than *
+
+* * produces fatter code which is faster the * functions will not appear in the call stack
+
+templates will be * in the standard meaning of * which is more related to the one definition rule than to actual code *
+
+the ansi standard function * is simpler than using * and decode which should be obsoleted anyway
+
+if you don t mind the libc allocation functions * is even more efficient it wont copy the data on a shrink just mark the extra memory as * and if you grow the memory and there is memory * after it will mark the needed memory as used and not copy either
+
+in general it is nicer in c to have the caller allocate memory not the callee - hence why * is a nicer function in my opinion than *
+
+the compiler is * to choose a method that is more efficient than *
+
+it requests memory from the os kernel but the request is not satisfied until the memory is written to with * . this allows for greater efficiency in the system s memory management but it can result in misleading * behaviour
+
+* will always be faster than * for any real world situation even in the corner case i spoke before look page_copy_fwd_maybe
+

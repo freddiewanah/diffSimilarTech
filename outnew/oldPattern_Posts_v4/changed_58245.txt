@@ -1,0 +1,1376 @@
+2014207
+ubuntu	linux
+Changed: 
+So for an end-user a linux distribution say ubuntu is an operating system while for a programmer the linux kernel linux is a perfectly valid os depending on what you re trying to achieve
+Origin: 
+So for an end-user a linux distribution say ubuntu is an operating system while for a programmer the linux kernel itself is a perfectly valid os depending on what you re trying to achieve
+
+
+2018074
+urllib	httplib
+Changed: 
+Bonus answer with google app engine you can use any of httplib urllib or urllib2 but all of httplib are just wrappers for google s url fetch api
+Origin: 
+Bonus answer with google app engine you can use any of httplib urllib or urllib2 but all of them are just wrappers for google s url fetch api
+
+
+2024671
+jar	war
+Changed: 
+I thought i had verified this but because i was instantiating the client from inside a jar via webstart that was in war packed in a war i messed up the placement of the cxf runtime in my build process
+Origin: 
+I thought i had verified this but because i was instantiating the client from inside a jar via webstart that was in itself packed in a war i messed up the placement of the cxf runtime in my build process
+
+
+2025526
+draggable	droppable
+Changed: 
+From your description looks like you want touch - the draggable is considered overlapping as soon as it draggable touches the droppable
+Origin: 
+From your description it looks like you want touch - the draggable is considered overlapping as soon as it touches the droppable
+
+
+2031446
+uiview	subviews
+Changed: 
+In ib uiview will look something like __ view uiview table view uitableview image uiimageview you should be able to resize the subviews the way you want
+Origin: 
+In ib it will look something like __ view uiview table view uitableview image uiimageview you should be able to resize the subviews the way you want
+
+
+2034161
+vim	emacs
+Changed: 
+This file gets loaded emacs when emacs starts similar to the . vimrc file for vim
+Origin: 
+This file gets loaded up when emacs starts similar to the .vimrc file for vim
+
+
+2036451
+fseek	fgetc
+Changed: 
+For example calling fseek infile 0 seek _ set would reset fseek to the beginning of the file causing the next fgetc call to start over from the first character of the file
+Origin: 
+For example calling fseek infile 0 seek_set would reset it to the beginning of the file causing the next fgetc call to start over from the first character of the file
+
+
+2036910
+config	ini
+Changed: 
+Also have a look at zend _ config as config meets all your requirements already and let s you init the config object from xml ini and plain arrays
+Origin: 
+Also have a look at zend_config as it meets all your requirements already and let s you init the config object from xml ini and plain arrays
+
+
+2044166
+awt	swing
+Changed: 
+There is no benefit getting your head around awt as swing is essentially a replacement for swing
+Origin: 
+There is no benefit getting your head around awt as swing is essentially a replacement for it
+
+
+2053581
+awt	swing
+Changed: 
+The downside if you want to call properties that is that your application won t be able reuse any existing awt swing based libraries
+Origin: 
+The downside if you want to call it that is that your application won t be able reuse any existing awt swing based libraries
+
+
+2057765
+altera	xilinx
+Changed: 
+However both altera and xilinx have had xilinx free limited version for long enough you would be safe using xilinx
+Origin: 
+However both altera and xilinx have had their free limited version for long enough you would be safe using them
+
+
+2064685
+jsf	seam
+Changed: 
+If you are that interested in jsf i recommend looking into the seam framework which utilizes jsf but also somewhat simplifies jsf use
+Origin: 
+If you are that interested in jsf i recommend looking into the seam framework which utilizes jsf but also somewhat simplifies its use
+
+
+2070939
+vmware	virtualbox
+Changed: 
+virtualbox s the second link in the list on the virtualbox downloads page and should come up on the vmware fusion demo download
+Origin: 
+It s the second link in the list on the virtualbox downloads page and should come up on the vmware fusion demo download
+
+
+2079773
+innodb	myisam
+Changed: 
+Doing a sort like this is useful only when you want to backup a myisam table and restore myisam to an innodb table
+Origin: 
+Doing a sort like this is useful only when you want to backup a myisam table and restore it to an innodb table
+
+
+2080581
+ironruby	ironpython
+Changed: 
+The outer layer of the dlr which ships w ironpython and ironruby in microsoft.scripting.dll includes a set of hosting apis which includes an objectoperations api ironpython has getmember setmember methods
+Origin: 
+The outer layer of the dlr which ships w ironpython and ironruby in microsoft.scripting.dll includes a set of hosting apis which includes an objectoperations api that has getmember setmember methods
+
+
+2089907
+union	distinct
+Changed: 
+If you just use union without the all union will filter duplicates and therefore be equivalent to a full join but the query will also be a lot more expensive because it has to perform a distinct sort
+Origin: 
+If you just use union without the all it will filter duplicates and therefore be equivalent to a full join but the query will also be a lot more expensive because it has to perform a distinct sort
+
+
+2090468
+war	manifest.mf
+Changed: 
+You just put manifest.mf into web-inf lib in the war file
+Origin: 
+You just put it into web-inf lib in the war file
+
+
+2093514
+prng	random
+Changed: 
+Thus prng is not truly random hence the name pseudo random number generator
+Origin: 
+Thus it is not truly random hence the name pseudo random number generator
+
+
+2098827
+memcached	apc
+Changed: 
+The bottom line is that you could create a plesk 8 centos 5 apache 2 php 5.2.6 mysql 5.0.45 memcached apc ami and run as many of centos as you want
+Origin: 
+The bottom line is that you could create a plesk 8 centos 5 apache 2 php 5.2.6 mysql 5.0.45 memcached apc ami and run as many of them as you want
+
+
+2100640
+onresume	onpause
+Changed: 
+You d need to create your own subclass of application and then read and write to subclass from activity c in onresume and onpause
+Origin: 
+You d need to create your own subclass of application and then read and write to it from activity c in onresume and onpause
+
+
+2110458
+pascal	delphi
+Changed: 
+Introduced in delphi as i prefer the readability of delphi pascal over c and delphi derivative languages
+Origin: 
+Introduced in delphi as i prefer the readability of delphi pascal over c and it derivative languages
+
+
+2114851
+lisp	scheme
+Changed: 
+scheme are all pretty different languages but scheme re all lisp at the same time
+Origin: 
+These are all pretty different languages but they re all lisp at the same time
+
+
+2127864
+client-side	server-side
+Changed: 
+The communication between a widget s client-side and server-side is implemented deep in the core of vaadin so i think server-side would require quite a lot of work to get the widgets to work in a pure gwt environment
+Origin: 
+The communication between a widget s client-side and server-side is implemented deep in the core of vaadin so i think it would require quite a lot of work to get the widgets to work in a pure gwt environment
+
+
+2127897
+uiviewcontroller	uinavigationcontroller
+Changed: 
+Instead of making each tab a uiviewcontroller make uiviewcontroller a uinavigationcontroller then you can push and pop view controllers on uiviewcontroller which still show the tab bar
+Origin: 
+Instead of making each tab a uiviewcontroller make it a uinavigationcontroller then you can push and pop view controllers on it which still show the tab bar
+
+
+2132999
+jar	war
+Changed: 
+The maven philosophy is that each project should build one and only artifact jar war whatever you could probably hack something together so that you only have one maven project building 2 atrifacts but maven would be a hack
+Origin: 
+The maven philosophy is that each project should build one and only artifact jar war whatever you could probably hack something together so that you only have one maven project building 2 atrifacts but it would be a hack
+
+
+2155406
+gtk	gdk
+Changed: 
+gtk s not documented in the pygtk reference but gtk s in the gdk api documentation and is exposed through pygtk
+Origin: 
+it s not documented in the pygtk reference but it s in the gdk api documentation and is exposed through pygtk
+
+
+2157742
+namedtuple	dictionary
+Changed: 
+You need to reasign namedtuple simply use a dictionary or write a normal class instead
+Origin: 
+you need to reasign it simply use a dict or write a normal class instead
+
+
+2178048
+apache	nginx
+Changed: 
+Try cutting apache out of the loop you probably don t need apache . fire up django as a fastcgi server and connect nginx to that instead of apache
+Origin: 
+Try cutting apache out of the loop you probably don t need it. fire up django as a fastcgi server and connect nginx to that instead of apache
+
+
+2200296
+verilog	vhdl
+Changed: 
+verilog reminds me of c just as vhdl reminds me of ada
+Origin: 
+It reminds me of c just as vhdl reminds me of ada
+
+
+2205637
+jax-ws	saaj
+Changed: 
+I expect saaj to use less system resources than jax-ws
+Origin: 
+I expect it to use less system resources than jax-ws
+
+
+2208665
+apache	lighttpd	apache	nginx	nginx	lighttpd
+Changed: 
+You can see http being benchmarked against nginx lighttpd apache etc and come up on top link
+Origin: 
+You can see it being benchmarked against nginx lighttpd apache etc and come up on top link
+
+
+2208786
+uiview	subviews
+Changed: 
+So when you assign an uiview object to uiview you are merely changing what mysubview is referring to and no more as in this case the original uiview object that mysubview was referring to is still referred to within view s subviews property
+Origin: 
+So when you assign an uiview object to it you are merely changing what mysubview is referring to and no more as in this case the original uiview object that mysubview was referring to is still referred to within view s subviews property
+
+
+2220839
+wicket	stripes
+Changed: 
+I would advise you to look at stripes wicket or play i never used wicket myself though
+Origin: 
+I would advise you to look at stripes wicket or play i never used it myself though
+
+
+2225174
+boost	stl
+Changed: 
+If you are looking for something to expand on the stl that is supported by almost everything stl would be worth taking a look at the boost libraries
+Origin: 
+If you are looking for something to expand on the stl that is supported by almost everything it would be worth taking a look at the boost libraries
+
+
+2225871
+haskell	ocaml
+Changed: 
+I will use ocaml to explain pattern matching since ocaml s my functional language of choice but the concepts are the same in f# and haskell afaik
+Origin: 
+I will use ocaml to explain pattern matching since it s my functional language of choice but the concepts are the same in f# and haskell afaik
+
+
+2234103
+firefox	safari	google-chrome	safari	google-chrome	firefox
+Changed: 
+Here are the bug trackers for firefox gecko mozilla google-chrome chromium and safari if google-chrome happens not to work on windows or something like google-chrome
+Origin: 
+here are the bug trackers for firefox gecko mozilla chrome chromium and safari if it happens not to work on windows or something like that
+
+
+2237955
+quicksort	mergesort
+Changed: 
+If so algorithms like mergesort and quicksort can be parallelized because quicksort use the divide-and-conquer paradigm but since the same kinds of operations are performed on each half you should be aware that parallelizing will only benefit you if you are working on a system with multiple cores
+Origin: 
+If so algorithms like mergesort and quicksort can be parallelized because they use the divide-and-conquer paradigm but since the same kinds of operations are performed on each half you should be aware that parallelizing will only benefit you if you are working on a system with multiple cores
+
+
+2238266
+phong	shading
+Changed: 
+shading is common for people starting out in ray tracing to use a phong or gouraud lighting model
+Origin: 
+It is common for people starting out in ray tracing to use a phong or gouraud lighting model
+
+
+2243276
+opera	firefox
+Changed: 
+For example it generates a different version of gwt application file for firefox than it gwt for opera
+Origin: 
+For example it generates a different version of the application file for firefox than it does for opera
+
+
+2245062
+touchesbegan	touchesended
+Changed: 
+Remember you must receive a touchesbegan and touchesended without a touchescancelled between them in order to consider touchesbegan a touch
+Origin: 
+Remember you must receive a touchesbegan and touchesended without a touchescancelled between them in order to consider it a touch
+
+
+2245690
+debian	linux
+Changed: 
+A good place to start would be i recommend setting up a virtual box with debian linux and work within debian
+Origin: 
+A good place to start would be i recommend setting up a virtual box with debian linux and work within it
+
+
+2254251
+prepare	execute
+Changed: 
+I use a prepare statement and then execute prepare with parameters
+Origin: 
+i use a prepared statement and then execute it with parameters
+
+
+2256282
+calloc	malloc
+Changed: 
+Now there are two exceptions if you belong to the initialize everything camp you don t calloc but malloc because you are initializing floating-point numbers or pointers and you know that all bits zero doesn t necessarily mean 0 for floating-point
+Origin: 
+Now there are two exceptions if you belong to the initialize everything camp you don t calloc but malloc because you are initializing floating-point numbers or pointers and you know that all bits zero doesn t necessarily mean 0 for them
+
+
+2258060
+content-length	content-type
+Changed: 
+content-type is most often data from an html form which is url-encoded like the name so you need to url-encode your data before posting it and you need to know the size of the encoded data for the content-length
+Origin: 
+This is most often data from an html form which is url-encoded like the name so you need to url-encode your data before posting it and you need to know the size of the encoded data for the content-length
+
+
+2266058
+uilabel	nsstring
+Changed: 
+You can do uilabel like this by the way you don t need so many nsstring variables
+Origin: 
+You can do it like this by the way you don t need so many nsstring variables
+
+
+2268233
+n-gram	words
+Changed: 
+For example an n-gram of two would probably make n-gram very hard to create words over 6 but an n-gram of 4 would be very easy
+Origin: 
+For example an n-gram of two would probably make it very hard to create words over 6 but an n-gram of 4 would be very easy
+
+
+2269313
+haskell	ocaml
+Changed: 
+Secondly the haskell ffi is more powerful that is haskell does more with less code than ocaml s and more libraries are avaliable via hackage so i don t think foreign interfaces will be a deciding factor
+Origin: 
+Secondly the haskell ffi is more powerful that is it does more with less code than ocaml s and more libraries are avaliable via hackage so i don t think foreign interfaces will be a deciding factor
+
+
+2271760
+vim	textmate	nerdtree	netrw
+Changed: 
+Whereas the nerdtree feels as though netrw tries to emulate the behaviour of other ides and textmate s project drawer i feel that the netrw plugin does things the vim way
+Origin: 
+whereas the nerd tree feels as though it tries to emulate the behaviour of other ides and textmate s project drawer i feel that the netrw plugin does things the vim way
+
+
+2272332
+ssl	https
+Changed: 
+ssl worked for me because all of our connections are using https and we can set the socket factory with the method httpsurlconnection.setsslsocketfactory
+Origin: 
+This worked for me because all of our connections are using https and we can set the socket factory with the method httpsurlconnection.setsslsocketfactory
+
+
+2288489
+postgresql	mysql
+Changed: 
+Imho postgresql doesn t make sense to create a postgresql-engine in mysql if you want to use postgresql
+Origin: 
+Imho it doesn t make sense to create a postgresql-engine in mysql if you want to use postgresql
+
+
+2301736
+opera	safari
+Changed: 
+Quirksmode compatibility table update opera mini and safari mobile definitely support opera
+Origin: 
+Quirksmode compatibility table update opera mini and safari mobile definitely support it
+
+
+2302353
+slug	permalinks
+Changed: 
+Note from the wordpress codex there is a warning about performance if wordpress s at the start of the permalinks - i haven t used this so something you may want to look into category - a sanitized version of the category name category slug field on new edit category panel
+Origin: 
+note from the wordpress codex there is a warning about performance if it s at the start of the permalink - i haven t used this so something you may want to look into category - a sanitized version of the category name category slug field on new edit category panel
+
+
+2302683
+serializable	deserialization
+Changed: 
+Also if you re planning to do some serializable deserialization on your data and would like to do serializable really fast check out google s protocol buffers python tooling available
+Origin: 
+also if you re planning to do some serialisation deserialisation on your data and would like to do it really fast check out google s protocol buffers python tooling available
+
+
+2303017
+uiview	subviews
+Changed: 
+To test this i suggest putting your uiview over make uiview a subviews of an ordinary view and get the responder chain to work like you wish
+Origin: 
+to test this i suggest putting your uiview over make it a subview of an ordinary view and get the responder chain to work like you wish
+
+
+2309251
+rsa	aes
+Changed: 
+So in both approaches above you have to obtain the aes rsa key from another location possibly accessible only for the user under which your application server is started key has to do with os security
+Origin: 
+So in both approaches above you have to obtain the aes rsa key from another location possibly accessible only for the user under which your application server is started this has to do with os security
+
+
+2311047
+prng	random
+Changed: 
+random takes an integer as input reset the prng s internal state derived by the input to generate a sequence of random numbers according to random
+Origin: 
+It takes an integer as input reset the prng s internal state derived by the input to generate a sequence of random numbers according to it
+
+
+2311731
+firefox	safari	google-chrome	safari	google-chrome	firefox
+Changed: 
+google-chrome also detects whether the plugin is installed but no version info for versions 8 + in firefox safari and google-chrome
+Origin: 
+it also detects whether the plugin is installed but no version info for versions 8+ in firefox safari and chrome
+
+
+2317302
+gridview	repeater
+Changed: 
+You also need to databind the gridview repeater on each postback so databind gridview in the page load method
+Origin: 
+You also need to databind the gridview repeater on each postback so databind it in the page load method
+
+
+2328431
+client-side	server-side
+Changed: 
+Here s what you can do change pickimagefromdirectory to be a static method and mark updatepanel as a webmethod in the code-behind then on the client-side place the following script at the bottom after every asynchronous postback updatepanel will call your server-side web method and set the image src to a random url
+Origin: 
+Here s what you can do change pickimagefromdirectory to be a static method and mark it as a webmethod in the code-behind then on the client-side place the following script at the bottom after every asynchronous postback this will call your server-side web method and set the image src to a random url
+
+
+2336575
+gif	png
+Changed: 
+You should use png instead of gif because png offers better compression and features
+Origin: 
+You should use png instead of gif because it offers better compression and features
+
+
+2339767
+sudo	passwd
+Changed: 
+passwd will then be used as the default passwd when making ssh connections or calling the sudo program
+Origin: 
+it will then be used as the default password when making ssh connections or calling the sudo program
+
+
+2340873
+junit	mockito
+Changed: 
+For example assuming the interface is called myinterface and using junit 4 you ll need to do a static import on the mockito methods for contains to work
+Origin: 
+For example assuming the interface is called myinterface and using junit 4 you ll need to do a static import on the mockito methods for this to work
+
+
+2352357
+client-side	server-side
+Changed: 
+I would recommending learning the distinction between server-side tags and client-side tags because while similar in syntax server-side can have very different results for example self-closing script tags in browsers typically don t work when using third-party libraries
+Origin: 
+I would recommending learning the distinction between server-side tags and client-side tags because while similar in syntax they can have very different results for example self-closing script tags in browsers typically don t work when using third-party libraries
+
+
+2360151
+postgresql	mysql
+Changed: 
+I like postgresql because i come from an oracle background so postgresql feels more comfortable than mysql
+Origin: 
+I like postgresql because i come from an oracle background so it feels more comfortable than mysql
+
+
+2361775
+exponent	modulo
+Changed: 
+key contains the modulo and the exponent of the key
+Origin: 
+it contains the modulus and the exponent of the key
+
+
+2363572
+postgresql	mysql
+Changed: 
+They have providers for oracle mysql postgresql sqlite sql server from a cost perspective postgresql s an excellent deal i d say just pay for developer seats no server licensing
+Origin: 
+They have providers for oracle mysql postgresql sqlite sql server from a cost perspective it s an excellent deal i d say just pay for developer seats no server licensing
+
+
+2369259
+ienumerable	icollection
+Changed: 
+If icollection was legal or made sense to be a collection but not be enumerable then implementers of icollection wouldn t have to implement ienumerable also
+Origin: 
+If it was legal or made sense to be a collection but not be enumerable then implementers of icollection wouldn t have to implement ienumerable also
+
+
+2387414
+hex	binary
+Changed: 
+There is no way for a variable to remember that binary was input in hex
+Origin: 
+There is no way for a variable to remember that it was input in hex
+
+
+2395741
+udp	tcp
+Changed: 
+I would recommend steven s unix network programming which has a section on advanced udp and when udp s appropriate to use udp instead of tcp
+Origin: 
+I would recommend steven s unix network programming which has a section on advanced udp and when it s appropriate to use udp instead of tcp
+
+
+2409363
+uiviewcontroller	uinavigationcontroller
+Changed: 
+Typical usage if your uiviewcontroller is the root first view controller uinavigationcontroller uses a stack to keep track of the viewcontrollers uiviewcontroller manages
+Origin: 
+typical usage if your uiviewcontroller is the root first view controller uinavigationcontroller uses a stack to keep track of the viewcontrollers it manages
+
+
+2410286
+serializable	deserialization
+Changed: 
+I would choose to serializable deserialization to either the string unset or something along those lines or the string null
+Origin: 
+i would choose to serialize it to either the string unset or something along those lines or the string null
+
+
+2415287
+codeigniter	cakephp	codeigniter	yii	cakephp	yii
+Changed: 
+You should be able to solve this using cakephp symfony codeigniter yii zend or any other framework so codeigniter is better to do some real testing
+Origin: 
+You should be able to solve this using cakephp symfony codeigniter yii zend or any other framework so it is better to do some real testing
+
+
+2419243
+calloc	malloc
+Changed: 
+The latter actually is one of the reasons the calloc function exists on some platforms calloc can be implemented significantly more efficiently than a mere malloc followed by a memset to zero
+Origin: 
+The latter actually is one of the reasons the calloc function exists on some platforms it can be implemented significantly more efficiently than a mere malloc followed by a memset to zero
+
+
+2420716
+vim	emacs
+Changed: 
+I m not familiar with how the emacs integration works but in vim emacs works pretty much like a regular tag-stack in that you can jump to symbol and then pop back to a previous symbol
+Origin: 
+I m not familiar with how the emacs integration works but in vim it works pretty much like a regular tag-stack in that you can jump to symbol and then pop back to a previous symbol
+
+
+2432986
+awt	swing
+Changed: 
+swing really isn t the greatest design choice though since you generally don t want to mix awt heavyweight objects with swing lightweight
+Origin: 
+It really isn t the greatest design choice though since you generally don t want to mix awt heavyweight objects with swing lightweight
+
+
+2434001
+xna	spritebatch
+Changed: 
+Keep in mind that if you are changing the blend modes your spritebatch should be performing in the immediate mode i forget the xna term but the one where spritebatch doesn t do ordering of sprites for efficiency else spritebatch will be reset unexpectedly
+Origin: 
+Keep in mind that if you are changing the blend modes your spritebatch should be performing in the immediate mode i forget the xna term but the one where it doesn t do ordering of sprites for efficiency else it will be reset unexpectedly
+
+
+2440850
+lisp	scheme
+Changed: 
+lisp said python and pascal are much more widely used in business computing than scheme
+Origin: 
+That said python and pascal are much more widely used in business computing than scheme
+
+
+2447614
+opera	google-chrome
+Changed: 
+Also try with some other browsers like opera or google-chrome if you have access to opera
+Origin: 
+also try with some other browsers like opera or chrome if you have access to them
+
+
+2453822
+prng	random
+Changed: 
+A prng is said to be cryptographically secure if assuming that prng operates over a wide enough unknown n - bit key prng output is computationally indistinguishable from uniformly random bits
+Origin: 
+A prng is said to be cryptographically secure if assuming that it operates over a wide enough unknown n -bit key its output is computationally indistinguishable from uniformly random bits
+
+
+2465914
+bash	zsh
+Changed: 
+zsh can also be replaced with bash + find
+Origin: 
+It can also be replaced with bash + find
+
+
+2467513
+ubuntu	debian
+Changed: 
+Some distributions debian ubuntu already have packages for ubuntu so just use that
+Origin: 
+Some distributions debian ubuntu already have packages for it so just use that
+
+
+2472303
+sudo	passwd
+Changed: 
+It ll automatically pull you into the minibuffer window for your passwd m-x shell sudo whoami this should just ask for your passwd down at the bottom of the screen without displaying passwd
+Origin: 
+it ll automatically pull you into the minibuffer window for your password m-x shell sudo whoami this should just ask for your password down at the bottom of the screen without displaying it
+
+
+2472439
+sudo	passwd
+Changed: 
+Eval-ing shell-command sudo etc init.d apache2 restart now prompts me for a passwd instead of trying to guess sudo unsuccessfully
+Origin: 
+eval-ing shell-command sudo etc init.d apache2 restart now prompts me for a password instead of trying to guess it unsuccessfully
+
+
+2474454
+armadillo	lapack
+Changed: 
+However armadillo is recommended to install the lapack and atlas libraries in order to get added functionality
+Origin: 
+However it is recommended to install the lapack and atlas libraries in order to get added functionality
+
+
+2481548
+ubuntu	linux
+Changed: 
+linux can t say much for any distribution but ubuntu with the . deb packages but these operate a lot like one would expect an installer to
+Origin: 
+I can t say much for any distribution but ubuntu with the .deb packages but these operate a lot like one would expect an installer to
+
+
+2482196
+gmail	hotmail
+Changed: 
+Otherwise you might try sending confirmation e-mails to your own accounts on major e-mail sites like yahoo hotmail and gmail and then tweaking the wording until hotmail gets past the spam filters
+Origin: 
+otherwise you might try sending confirmation e-mails to your own accounts on major e-mail sites like yahoo hotmail and g-mail and then tweaking the wording until it gets past the spam filters
+
+
+2492978
+d3.js	protovis
+Changed: 
+One problem that both d3.js and protovis have for android is that d3.js depend on svg which for some reason is not supported in the stock browser for android 2.x and below
+Origin: 
+one problem that both d3 and protovis have for android is that they depend on svg which for some reason is not supported in the stock browser for android 2.x and below
+
+
+2494578
+lisp	scheme
+Changed: 
+I m talking lisp scheme style macros operators are static methods and scheme signatures are overly constrained and you can t create new ones
+Origin: 
+I m talking lisp scheme style macros operators are static methods and their signatures are overly constrained and you can t create new ones
+
+
+2495576
+jar	war
+Changed: 
+In this case we re packaging the war file so that war works like the normal jetty jar file on startup
+Origin: 
+In this case we re packaging the war file so that it works like the normal jetty jar file on startup
+
+
+2496719
+portrait	landscape
+Changed: 
+portrait three view controllers have this method the portrait has this each landscape controller has this the app starts in portrait
+Origin: 
+All three view controllers have this method the portrait has this each landscape controller has this the app starts in portrait
+
+
+2499718
+glassfish	weblogic
+Changed: 
+glassfish will take quite a while read years until java ee 6 compliant versions of websphere weblogic jboss etc are in production and can be used for real application
+Origin: 
+It will take quite a while read years until java ee 6 compliant versions of websphere weblogic jboss etc are in production and can be used for real application
+
+
+2504813
+comparator	comparable
+Changed: 
+And if they aren t comparable comparator can not compare them so this exception is thrown
+Origin: 
+And if they aren t comparable it cannot compare them so this exception is thrown
+
+
+2507231
+octal	hex
+Changed: 
+The same is true for octal but for various reasons hex s used less often in practice
+Origin: 
+The same is true for octal but for various reasons it s used less often in practice
+
+
+2507876
+jar	war
+Changed: 
+If you have code in your war that you are dependent on then that code should be in jar s own jar and then both the web app and the jar project would have a common dependency on jar
+Origin: 
+If you have code in your war that you are dependent on then that code should be in it s own jar and then both the web app and the jar project would have a common dependency on it
+
+
+2513037
+uiview	subviews
+Changed: 
+I then add every other uiview to uiview as a subviews
+Origin: 
+i then add every other uiview to it as a subview
+
+
+2513463
+namedtuple	dictionary
+Changed: 
+The namedtuple should not require any more memory according to the documentation than a regular tuple since namedtuple don t have a per instance dictionary
+Origin: 
+the named tuple should not require any more memory according to the documentation than a regular tuple since they don t have a per instance dictionary
+
+
+2533941
+udp	tcp
+Changed: 
+If you need udp in sequence try tcp
+Origin: 
+If you need them in sequence try tcp
+
+
+2534963
+phong	shading
+Changed: 
+Also please keep in mind that opengl s phong shading does not follow the phong shading model strictly because the normals are calculated per vertex and then interpolated inside the triangles normals are not calculated per point on the surface
+Origin: 
+Also please keep in mind that opengl s phong shading does not follow the phong shading model strictly because the normals are calculated per vertex and then interpolated inside the triangles they are not calculated per point on the surface
+
+
+2536508
+onfocus	onblur
+Changed: 
+You need set onfocus to something like you may also want to ass some code to the onblur when the box is left that can check if the field is empty then do something like this
+Origin: 
+You need set it to something like you may also want to ass some code to the onblur when the box is left that can check if the field is empty then do something like this
+
+
+2537774
+skip-lists	tree
+Changed: 
+tree are randomized data structures but generally tree are just as efficient as tree deterministic counterparts if not more and a skip-lists can be made deterministic
+Origin: 
+these are randomized data structures but generally they are just as efficient as their deterministic counterparts if not more and a skip list can be made deterministic
+
+
+2551545
+jlist	jtable
+Changed: 
+There is also a feature to bind the classes to swing components including jtable and jlist but i haven t tried swing
+Origin: 
+There is also a feature to bind the classes to swing components including jtable and jlist but i haven t tried it
+
+
+2567984
+cvs	svn
+Changed: 
+If your change tree is linear tree s usually a sign that you are using mercurial like you would use cvs or svn
+Origin: 
+If your change tree is linear it s usually a sign that you are using mercurial like you would use cvs or svn
+
+
+2589555
+google-chrome	firefox
+Changed: 
+Of course i think google-chrome s developer tools and firebug web developer for firefox are tremendously helpful as well ... each tool has google-chrome s area that google-chrome helps with
+Origin: 
+of course i think chrome s developer tools and firebug web developer for firefox are tremendously helpful as well...each tool has it s area that it helps with
+
+
+2604689
+jar	war
+Changed: 
+Get rid of all jsf jar s in the war s and provide jsf in ear only
+Origin: 
+Get rid of all jsf jar s in the war s and provide them in ear only
+
+
+2605897
+postgresql	mysql
+Changed: 
+I personally prefer postgresql over mysql and find postgresql very scalable even with millions or even billions of rows when setup correctly
+Origin: 
+I personally prefer postgresql over mysql and find it very scalable even with millions or even billions of rows when setup correctly
+
+
+2607727
+udp	tcp
+Changed: 
+You can either use udp and send a discrete chunk as a datagram or you can but structs into tcp data and let tcp go as a stream
+Origin: 
+You can either use udp and send a discrete chunk as a datagram or you can but structs into tcp data and let them go as a stream
+
+
+2614649
+sctp	tcp	sctp	udp
+Changed: 
+It provides the ability to send datagrams over a reliable tcp style connection in contrast to tcp sctp may be characterized as record-oriented meaning tcp transports data in terms of messages in a similar fashion to the user datagram protocol udp so that a group of bytes message sent in one transmission operation record is read exactly as that group at the receiver application
+Origin: 
+It provides the ability to send datagrams over a reliable tcp style connection in contrast to tcp sctp may be characterized as record-oriented meaning it transports data in terms of messages in a similar fashion to the user datagram protocol udp so that a group of bytes message sent in one transmission operation record is read exactly as that group at the receiver application
+
+
+2616966
+onkeyup	onkeydown
+Changed: 
+Afaik when you press a key in the softkeyboard ime s is called and when you press a hard key the ime is called at public boolean onkeyup int keycode keyevent event public boolean onkeydown int keycode keyevent event you can try calling that methods instead but i don t know if emulating a hard key would fix key
+Origin: 
+Afaik when you press a key in the softkeyboard ime s is called and when you press a hard key the ime is called at public boolean onkeyup int keycode keyevent event public boolean onkeydown int keycode keyevent event you can try calling that methods instead but i don t know if emulating a hard key would fix it
+
+
+2618028
+erd	diagram
+Changed: 
+The benefit is that someone can read the erd and construct a query from diagram without using numerous desc table commands to know what columns are where and what relates to what to construct proper joins
+Origin: 
+The benefit is that someone can read the erd and construct a query from it without using numerous desc table commands to know what columns are where and what relates to what to construct proper joins
+
+
+2624279
+subtraction	multiplication
+Changed: 
+0.5 and the multiplication scales subtraction to the range of -100
+Origin: 
+0.5 and the multiplication scales it to the range of -100
+
+
+2624868
+scheme	prolog
+Changed: 
+Low-level languages with higher-level flow control than assembly c c++ pascal high-level languages fortran cobol python perl highest-level languages prolog python scheme python appears twice by intent -- scheme spans a portion of the spectrum depending on how the code is written
+Origin: 
+Low-level languages with higher-level flow control than assembly c c++ pascal high-level languages fortran cobol python perl highest-level languages prolog python scheme python appears twice by intent -- it spans a portion of the spectrum depending on how the code is written
+
+
+2625939
+lisp	scheme
+Changed: 
+The usual thing to do with a symbol for a scheme or indeed any lisp interpreter is to look scheme up in some sort of environment
+Origin: 
+The usual thing to do with a symbol for a scheme or indeed any lisp interpreter is to look it up in some sort of environment
+
+
+2634128
+updatepanel	scriptmanager
+Changed: 
+scriptmanager doesn t matter that the updatepanel is on a masterpage
+Origin: 
+It doesn t matter that the updatepanel is on a masterpage
+
+
+2639245
+pascal	delphi
+Changed: 
+Updated i have tested the following code free pascal version 2.2.4 dll delphi 2009 exe main form pascal appeared that the procedure getastringproc works fine while the function getastringfunc leads to access violation
+Origin: 
+Updated i have tested the following code free pascal version 2.2.4 dll delphi 2009 exe main form it appeared that the procedure getastringproc works fine while the function getastringfunc leads to access violation
+
+
+2644069
+google-chrome	firefox
+Changed: 
+For this reason i suspect you re doing things the wrong quirky way and firefox google-chrome are actually interpreting google-chrome correctly
+Origin: 
+for this reason i suspect you re doing things the wrong quirky way and ff chrome are actually interpreting it correctly
+
+
+2666124
+bazaar	svn
+Changed: 
+You could try bazaar bazaar as bazaar supports workflows but i don t know if bazaar is really faster or wait for svn 1.7 with wc-ng and centralized meta-data
+Origin: 
+you could try bazaar bzr as it supports workflows but i don t know if it is really faster or wait for svn 1.7 with wc-ng and centralized meta-data
+
+
+2671932
+rsa	dsa
+Changed: 
+It boils down to how well you implement rsa to verify alice s as the sender everytime as the dsa algorithm allows you to certify a sender by matching the generated output
+Origin: 
+It boils down to how well you implement them to verify alice s as the sender everytime as the dsa algorithm allows you to certify a sender by matching the generated output
+
+
+2680818
+jar	manifest.mf
+Changed: 
+So try this save jar to helloworld.java compile jar create the manifest.mf file whit this content main-class helloworld and the pack all together
+Origin: 
+So try this save it to helloworld.java compile it create the manifest.mf file whit this content main-class helloworld and the pack all together
+
+
+2682873
+google-chrome	firefox
+Changed: 
+google-chrome are all modeled after firebug an extension for firefox and the existence of which is why firefox doesn t have one built in
+Origin: 
+they are all modeled after firebug an extension for firefox and the existence of which is why firefox doesn t have one built in
+
+
+2684468
+codeigniter	cakephp
+Changed: 
+A quick summary of frameworks i ve seen in use no particular order symfony cakephp zend framework codeigniter other suggestions using git svn for source control is a must even if you are the only developer svn can save you a lot of time personally i use zf
+Origin: 
+a quick summary of frameworks i ve seen in use no particular order symfony cakephp zend framework code igniter other suggestions using git svn for source control is a must even if you are the only developer it can save you a lot of time personally i use zf
+
+
+2688522
+calloc	malloc
+Changed: 
+For example if you allocate 16 bytes malloc will first try to get 16 bytes out of one of its pools and then calloc for more memory from the kernel when the pool runs dry
+Origin: 
+For example if you allocate 16 bytes malloc will first try to get 16 bytes out of one of its pools and then ask for more memory from the kernel when the pool runs dry
+
+
+2692369
+subtraction	multiplication
+Changed: 
+For multiplication division subtraction s harder ie more instructions
+Origin: 
+for multiplication division it s harder ie more instructions
+
+
+2698908
+boost	stl
+Changed: 
+The advantage of getting familiar with stl and boost is that boost are a good source to learn about templates and meta-programming in c++ which in turn can be used in devising better designs
+Origin: 
+The advantage of getting familiar with stl and boost is that they are a good source to learn about templates and meta-programming in c++ which in turn can be used in devising better designs
+
+
+2699569
+dictionary	map
+Changed: 
+For suitably large examples of each dictionary overcomes the constant factor by which dictionary s slower than std map and will actually do operations like lookup insertion etc
+Origin: 
+for suitably large examples of each dict overcomes the constant factor by which it s slower than std map and will actually do operations like lookup insertion etc
+
+
+2718363
+touchesbegan	touchesmoved
+Changed: 
+Subclass the uiview and use touchesbegan and touchesmoved to determine where to move the view as uiview being dragged
+Origin: 
+Subclass the uiview and use touchesbegan and touchesmoved to determine where to move the view as its being dragged
+
+
+2731678
+cdr	cons
+Changed: 
+Mccarthy s original lisp 1.5 programmer s manual did lisp with five functions car cdr cons eq and atom
+Origin: 
+Mccarthy s original lisp 1.5 programmer s manual did it with five functions car cdr cons eq and atom
+
+
+2755682
+dictionary	map
+Changed: 
+dictionary can map strings to actual functions
+Origin: 
+It can map strings to actual functions
+
+
+2756770
+implements	extends
+Changed: 
+You could implements base class with your cache methods then extends base class realview baseviewwithcachemethods def __ call __ self request if request.is _ ajax return self.ajax _ view return self.html _ view urlconf definition would be something like that
+Origin: 
+you could implement base class with your cache methods then extend it class realview baseviewwithcachemethods def __call__ self request if request.is_ajax return self.ajax_view return self.html_view urlconf definition would be something like that
+
+
+2762360
+noexcept	throw
+Changed: 
+The primary purpose of noexcept is optimization noexcept allows encourages the compiler to optimize around the assumption that no exceptions will be throw
+Origin: 
+the primary purpose of noexcept is optimization it allows encourages the compiler to optimize around the assumption that no exceptions will be thrown
+
+
+2770737
+base	fractions
+Changed: 
+base is probably most convenient to return the integer and fractions parts together in a single double
+Origin: 
+it is probably most convenient to return the integer and fractional parts together in a single double
+
+
+2774744
+hmac	md5
+Changed: 
+It has been shown that md4 has a few weaknesses which can be only theoretically exploited when trying to break hmac md4 but md5 does not apply to your problem
+Origin: 
+It has been shown that md4 has a few weaknesses which can be only theoretically exploited when trying to break hmac md4 but this does not apply to your problem
+
+
+2787796
+rdf	owl
+Changed: 
+Just learn rdf owl a w3c standard and owl can still get much more complex .
+Origin: 
+Just learn rdf owl a w3c standard and it can still get much more complex.
+
+
+2788223
+vim	emacs
+Changed: 
+git can be run on the command line but there are extensions for vim and emacs to automatically run git-wip each time a file is written
+Origin: 
+It can be run on the command line but there are extensions for vim and emacs to automatically run git-wip each time a file is written
+
+
+2790446
+mef	prism
+Changed: 
+Here are a few good ones mvvm light mef simple mvvm i d recommend not using prism as mef is more complicated than mef needs to be
+Origin: 
+Here are a few good ones mvvm light mef simple mvvm i d recommend not using prism as it is more complicated than it needs to be
+
+
+2795286
+strtol	atoi
+Changed: 
+Well i suppose you can use atoi instead of strtol which simplifies the error handling because atoi is less precise it doesn t get much simpler than this
+Origin: 
+Well i suppose you can use atoi instead of strtol which simplifies the error handling because it is less precise it doesn t get much simpler than this
+
+
+2804311
+django	web2py
+Changed: 
+This is because web2py was made long after django and has learned from django s mistakes though web2py makes all new mistakes
+Origin: 
+This is because web2py was made long after django and has learned from django s mistakes though it makes all new mistakes
+
+
+2804311
+django	web2py
+Changed: 
+Main difference and what is keeping me in web2py django has incredible documentation ... web2py is so intuitive that web2py doesn t need as much .
+Origin: 
+Main difference and what is keeping me in web2py django has incredible documentation...web2py is so intuitive that it doesn t need as much.
+
+
+2825900
+mp3	wav
+Changed: 
+mp3 can not directly load or play sound files in other formats like wav or aiff . ... but apparently there s a workaround
+Origin: 
+They cannot directly load or play sound files in other formats like wav or aiff. ... but apparently there s a workaround
+
+
+2831737
+postgresql	mysql
+Changed: 
+Go over the database definition and transform mysql to take advantage of functionality in postgresql that doesn t exist in mysql
+Origin: 
+Go over the database definition and transform it to take advantage of functionality in postgresql that doesn t exist in mysql
+
+
+2849866
+mef	prism
+Changed: 
+This series of posts is about silverlight ui composition but the techniques are essentially the same aside from packaging and deployment the only thing you won t get by using exclusively mef is the pub sub communication technology in prism called eventaggregator but this can be easily substituted by using eventaggregator itself prism is standalone .
+Origin: 
+This series of posts is about silverlight ui composition but the techniques are essentially the same aside from packaging and deployment the only thing you won t get by using exclusively mef is the pub sub communication technology in prism called eventaggregator but this can be easily substituted by using eventaggregator itself it is standalone.
+
+
+2852143
+uiview	uiwindow
+Changed: 
+Uiwindow can have uiview uiwindow can have uiview by uiwindow
+Origin: 
+uiwindow can have uiviews they can have uiviews by themselves
+
+
+2862094
+profiling	instrumentation
+Changed: 
+With instrumentation the profiling will show you data for any binaries you instrumentation as well as one level of callees if you call string.concat directly from your instrumented binary the profiling will show you how many times you called profiling and how long in aggregate the calls took
+Origin: 
+with instrumentation the profiler will show you data for any binaries you instrument as well as one level of callees if you call string.concat directly from your instrumented binary the profiler will show you how many times you called it and how long in aggregate the calls took
+
+
+2868949
+xna	slimdx
+Changed: 
+Also xna likes to pre-build xna s resources into directx files . x if you re working with dynamic files i think slimdx is the best choice for you
+Origin: 
+Also xna likes to pre-build it s resources into directx files .x if you re working with dynamic files i think slimdx is the best choice for you
+
+
+2873825
+serializable	deserialization
+Changed: 
+One is that serializable leads to an asymmetry between serializable deserialization
+Origin: 
+one is that it leads to an asymmetry between serialization deserialization
+
+
+2874458
+gtk	cairo
+Changed: 
+The library also supports text using libpango and ubuntu loves the use of cairo since gtk uses ubuntu
+Origin: 
+The library also supports text using libpango and ubuntu loves the use of cairo since gtk uses it
+
+
+2875288
+uinavigationcontroller	uitabbarcontroller
+Changed: 
+A uitabbarcontroller will only autorotate if all of uinavigationcontroller view controllers are set to autorotate
+Origin: 
+A uitabbarcontroller will only autorotate if all of its view controllers are set to autorotate
+
+
+2875631
+kde	gnome
+Changed: 
+Once i entered kde the commit proceeded subversion 1.6 added a feature where the os password store could be used for subversion passwords for example in the kde wallet or gnome keyring
+Origin: 
+Once i entered it the commit proceeded subversion 1.6 added a feature where the os password store could be used for subversion passwords for example in the kde wallet or gnome keyring
+
+
+2884915
+memcpy	memmove
+Changed: 
+I pretend memcpy doesn t exist as memcpy can fail if the source and destination areas of memory overlap whereas memmove will get memcpy right regardless . think of bcopy as an archaic variant of the functions
+Origin: 
+I pretend memcpy doesn t exist as it can fail if the source and destination areas of memory overlap whereas memmove will get it right regardless. think of bcopy as an archaic variant of the functions
+
+
+2889258
+google-chrome	firefox
+Changed: 
+Currently sts is only supported by google-chrome but firefox is working on google-chrome supporting this feature
+Origin: 
+currently sts is only supported by chrome but firefox is working on their supporting this feature
+
+
+2893020
+oncreate	findviewbyid
+Changed: 
+You can use findviewbyid int to identify the view objects in your layout that need to be updated and assign the result to an attribute in your oncreate to allow you to access oncreate later
+Origin: 
+You can use findviewbyid int to identify the view objects in your layout that need to be updated and assign the result to an attribute in your oncreate to allow you to access it later
+
+
+2895149
+tiff	png
+Changed: 
+Otherwise tiff s probably best to convert that tiff file to png
+Origin: 
+Otherwise it s probably best to convert that tiff file to png
+
+
+2901994
+google-chrome	firefox
+Changed: 
+For debugging javascript i tend to use google-chrome for google-chrome console and sometimes firebug in firefox - google-chrome re both very helpful
+Origin: 
+for debugging javascript i tend to use chrome for its console and sometimes firebug in ff - they re both very helpful
+
+
+2906690
+junit	jmockit
+Changed: 
+If the jmockit jar comes after the junit jar in the classpath jar might cause problems
+Origin: 
+If the jmockit jar comes after the junit jar in the classpath it might cause problems
+
+
+2910739
+haskell	ocaml
+Changed: 
+In particular scala has a powerful case class pattern-matching system that addressed pet peeves lingering from my experiences with standard ml ocaml and haskell the programmer can decide which fields of an object should be matchable as opposed to being forced to match on all of ocaml and variable-arity arguments are permitted
+Origin: 
+In particular scala has a powerful case class pattern-matching system that addressed pet peeves lingering from my experiences with standard ml ocaml and haskell the programmer can decide which fields of an object should be matchable as opposed to being forced to match on all of them and variable-arity arguments are permitted
+
+
+2912577
+apache	nginx
+Changed: 
+Also nginx s configuration is much more flexible than apache and by having nginx on the front end nginx gives you a lot of flexibility
+Origin: 
+Also nginx s configuration is much more flexible than apache and by having it on the front end it gives you a lot of flexibility
+
+
+2923086
+pascal	delphi
+Changed: 
+There s also free pascal headers to use ffmpeg in delphi from ffmpeg s c apis and dlls if you re adventuresome
+Origin: 
+There s also free pascal headers to use ffmpeg in delphi from it s c apis and dlls if you re adventuresome
+
+
+2925579
+pthreads	fork
+Changed: 
+So i ll state it again use the system calls provided by the various platforms fork + exec on pthreads createprocess on windows which specify exactly what fork are guaranteed to do or go with third party abstraction code
+Origin: 
+so i ll state it again use the system calls provided by the various platforms fork + exec on posix createprocess on windows which specify exactly what they are guaranteed to do or go with third party abstraction code
+
+
+2927816
+exponent	modulo
+Changed: 
+The private exponent is always smaller than the modulo so you should be able to encrypt exponent using the raw rsa operation if you make sure to remove the prepended zero
+Origin: 
+the private exponent is always smaller than the modulus so you should be able to encrypt it using the raw rsa operation if you make sure to remove the prepended zero
+
+
+2930877
+serializable	deserialization
+Changed: 
+deserialization lets the serializable know what the root element s name is
+Origin: 
+it lets the serializer know what the root element s name is
+
+
+2937484
+uiview	uiwindow
+Changed: 
+If uiwindow still isn t on top you can use bringsubviewtofront on the uiwindow remember a uiwindow is a uiview to bring uiwindow to the top of that level
+Origin: 
+If it still isn t on top you can use bringsubviewtofront on the uiwindow remember a uiwindow is a uiview to bring it to the top of that level
+
+
+2944829
+multiplying	multiplication
+Changed: 
+In turn this means multiplication is important whether you are multiplying row vectors on the left or columns on the right
+Origin: 
+In turn this means it is important whether you are multiplying row vectors on the left or columns on the right
+
+
+2945254
+ssl	https
+Changed: 
+If compiled w ssl curl will handle https as easily as ssl handles http
+Origin: 
+If compiled w ssl curl will handle https as easily as it handles http
+
+
+2954290
+gridview	repeater	gridview	sqldatasource
+Changed: 
+Edit based on user comment well for what you are doing i wouldn t really recommend a sqldatasource as sqldatasource is really meant to be bound to a control such as a gridview or repeater
+Origin: 
+Edit based on user comment well for what you are doing i wouldn t really recommend a sqldatasource as it is really meant to be bound to a control such as a gridview or repeater
+
+
+2962978
+uiview	calayer
+Changed: 
+A calayer only deals with drawing calayer and encapsulating the information needed to do uiview
+Origin: 
+A calayer only deals with drawing itself and encapsulating the information needed to do that
+
+
+2975784
+equals	gethashcode
+Changed: 
+Unless you override gethashcode equals uses reference equality - which means gethashcode only returns true if two objects are actually the same instance
+Origin: 
+Unless you override it equals uses reference equality - which means it only returns true if two objects are actually the same instance
+
+
+2977758
+monodevelop	sharpdevelop
+Changed: 
+Technically monodevelop is a fork of sharpdevelop but monodevelop been a long time so monodevelop might be completely different now
+Origin: 
+Technically monodevelop is a fork of sharpdevelop but its been a long time so they might be completely different now
+
+
+2985456
+ubuntu	debian
+Changed: 
+Remember that ubuntu is based on debian so ubuntu works the same
+Origin: 
+Remember that ubuntu is based on debian so it works the same
+
+
+2985959
+persistent	transient
+Changed: 
+Although fetched properties are not live like itunes smart playlists properties can be used to easily filter members of one or more relationships according to attributes persistent or transient of any object in the connected object graph
+Origin: 
+Although fetched properties are not live like itunes smart playlists they can be used to easily filter members of one or more relationships according to attributes persistent or transient of any object in the connected object graph
+
+
+2994324
+awt	swing
+Changed: 
+Behavior pure java design allows for a greater range of behavior for swing components since swing are not limited by the native peers that awt uses
+Origin: 
+Behavior pure java design allows for a greater range of behavior for swing components since they are not limited by the native peers that awt uses
+
+
+2996677
+ssl	https
+Changed: 
+https is due to iis not being able to read the host headers and know which ssl cert to use to decrypt them since they are encrypted
+Origin: 
+This is due to iis not being able to read the host headers and know which ssl cert to use to decrypt them since they are encrypted
+
+
+2998669
+ubuntu	linux
+Changed: 
+You might want to try going to ubuntu s website and installing linux and just using linux day-to-day the way you d use windows
+Origin: 
+You might want to try going to ubuntu s website and installing linux and just using it day-to-day the way you d use windows
+
+
+3000392
+cruisecontrol	teamcity
+Changed: 
+For continuous integration software there is teamcity for one also cruisecontrol and cruisecontrol . net counterpart are notable
+Origin: 
+For continuous integration software there is teamcity for one also cruisecontrol and its .net counterpart are notable
+
+

@@ -1,0 +1,66 @@
+* is fast alloca is fast copying the string up to the first n is fast puts is faster than * but is is most likely far slower than all three operations mentioned before together
+
+* is usually faster than * for longer strings
+
+* is faster than * and also enforces you to specify a buffer size
+
+for example for small amounts of data an * optimised for large amounts of data may be significantly slower than a * that wasn t optimised for large amounts of data
+
+information - use * as it s faster than * and we know
+
+notice that * is faster than * unless the source string is much smaller than the buffer s size which is rarely the case with ip addesses.
+
+while * gives you automatic de-*tion on function exit the stack is usually a smaller resource than the * heap and if you exhaust the heap it gives you back null
+
+crypt with * is simply more expensive than *
+
+obviously * is much more difficult to reverse even in this anything that will * to the right value sense then a simplistic algorithm like take the last two digits
+
+valid choices for *ing include sha1 or * although sha1 is preferable because it produces a larger * and is considered cryptographically stronger than *
+
+* finds 10 more * bytes and marks them as used
+
+in addition to the previous answers the strncpy char pointer which seems unsafe for my opinion and the * which is safer but you need to remember to * it outside of the function and its inconsistent with the hierarchy of the program you can do the following
+
+you will find that * works better than * here
+
+but depending on the answers to those questions i m guessing that * might do the trick for you better than *
+
+g_new and g_new0 both take the same arguments unlike * that takes less arguments than *
+
+is * slower than * as one can give pre-calculated string length to it but * does not receive such information
+
+* also uses a more complex construction in particular * over direct digest to make recovering the input password from an output value more difficult
+
+* is still a little bit slower than *
+
+* is more secure than a simple * or even a salt *
+
+a key-stretching algorithm like * applies a quicker * like sha512 thousands of times typically causing the * generation to take 1 5 of a second or so
+
+however using a * offers more protection against rainbow tables precalculated * tables so they re still worth using
+
+this is the case here because * hello is greater than 3 your last * argument
+
+generally speaking the * keyword is used more now to allow you to violate the one definition rule when you define a function in a header than to give the compiler a hint about *
+
+but as the * code gets longer the savings for * become smaller so maybe you could just have a hard limit on the size of the code - any code to be * must be smaller than the limit
+
+* is more efficient than * as it only evaluates the second argument if the first is null whereas * evaluates both arguments every time
+
+2 however * requires all arguments to be of the same data type thus being stricter than * which will first attempt an implicit conversion
+
+a * is nothing more than syntactic shorthand for a get set *
+
+that suggests another aspect where a declared * is more than a pair of * methods that is more static type checking although it is undesirable here
+
+using * is considered safier than * because the second one can easily cause buffer overrun
+
+* could be better replaced by * which does some bound checking
+
+if * is anything like * it will write one byte more than * returns to zero terminate the string
+
+if not multiple * calls will still be faster than multiple * calls because the overhead of the latter will be greater
+
+which is more efficient is up for debate but based on cpu bulk instructions which can copy an entire block of memory in one instruction * is probably faster as * would check each copied byte for a nul character
+

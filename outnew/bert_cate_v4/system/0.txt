@@ -1,0 +1,62 @@
+plus the overhead of doing it is extremely costly- * queries against hbase are on my cluster at least an order of magnitude slower than against plain * files
+
+the maximum representable value with * 754-2008 binary32 is so the base 2 log of a number stored in binary 32 is less than * 128
+
+it is working only for simple .php files but * is more complex and after long period of loading it show * nothing found site loaded
+
+your * record requires more than 10 * lookups to process
+
+* is soooo much faster than * because all the check-outs are stored on the server so it doesn t have to check every file on an update
+
+if you have the money ericgorr is right * is much nicer to work with then *
+
+* does have support for many other oses but our non-windows devs feel more comfortable with * too
+
+since * is less commonly used compared to * svn amongst bamboo users we generally get less feedback about it and hear less about existing issues
+
+* is in an earlier stage than chef * and other tools out there when it comes to community support
+
+note most recently i have been using * and hg with fully powerful regexps so may be looking for stuff more powerful than * provides
+
+* is another one that s easy to use i would say easier than * to learn but it uses an sqlite file to store your code and i m not sure if it scales to really big projects
+
+from the article it sounds like * isn t a database any more than * is a database
+
+i wound up going with * and it s way better than *
+
+the problem is that windows * is slower than typical linux * for these lookups
+
+when people say that unix * are better they might mean to be saying oh ext3 stores bits in such as way that corruption happens way less than * but they might also be talking about design choices made at the common layer above
+
+although i myself have prior experience in implementing * much simpler ones than * xfs or ext2 i would not tackle this job
+
+from what i understand * was more popular than * among users of 18-bit architectures since a word would be exactly 6 * digits
+
+conceptually it seems like a type of central authentication system * but is more similar to * also a federated identity management system
+
+as others have pointed out * is much more convenient than * anyway - you just need to remember how each of the * digit 0-f looks in * and replace groups of 4 bits with a single * digit
+
+base64 is usually used in instances to represent arbitrary * data in a text format it has a 33.3 overhead but that s better than say * notation which has a 50 overhead
+
+the conversion from * to * is even simpler since you can simply expand each * digit into the corresponding * for example 0xa4 - 1010 0100
+
+but when anyone human looks at it they look at it in * using a * editor which is much easier than reading *
+
+and because * is much more readable and useful than * - it s often used and shown
+
+i ve been using images to store data since editing * data through paint.net is much friendlier than most * editors
+
+format_int in * case it loops 4 times then 4 times more than * and dec cases
+
+wondering mainly if * uses less disk space or more than the same in *
+
+that being said i think * is better in every other respect and you probably shouldn t start a new project with *
+
+* is better than *
+
+this means the buffer is enough for printing the number in * and since * representation uses no more digits than * it will be enough for * representation too
+
+can a * section create more than 1 *
+
+* high availabilty is only available when you have more than one * configured
+

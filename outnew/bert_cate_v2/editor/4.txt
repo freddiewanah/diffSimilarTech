@@ -1,0 +1,12 @@
+on unix like environments B is more native and you can use slime which is usually available as a os package or as a separate download for B
+
+as it happens my choice is B but just about anything which is more advanced than B ought to be able to do this
+
+i think B is equal to or better than B
+
+plus copy as rtf for B has more recent updates than sublimehightlight for B
+
+if you re just going to use B the same way you use B don t bother - B is better than B at being B
+
+i find B has an easier time dealing with vectors because they re first class objects while in B they re actually a combination of a vector mask and a colour fill
+

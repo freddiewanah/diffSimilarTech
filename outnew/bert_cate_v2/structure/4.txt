@@ -1,0 +1,52 @@
+creating an instance of the B is easier than creating a B
+
+now i went into this script there are for B which are adding some values to the classpath for there are more than one B
+
+as an aside i would suggest a while B would be a bit clearer than a B without a next clause
+
+in ... B it s consider better practice to B trough it with a regular for
+
+the only browser where the while B was slower than the B was in opera
+
+i personally think the while B looks less clean than the nested B
+
+here the B header takes actually more time than B body thus profiling results could be distorted.
+
+is the foreach B slower than the B
+
+the B is using i as a global variable so if your instance.set_marker function is also using i as a global variable and sets its value to something greater than 6 B will exit
+
+it might be better than a B in the terms of readability maintainability but keep in mind that linq usually slower than plain B tl
+
+i have the impression that the implementantion has something to do with a B and some kind of adaptive delay that gets bigger as B count increases
+
+and last if you know the number of B it is much easier and better to read when you use a B instead of a while B
+
+use a radix B wiki or B wiki if you are concerned about performance.the radix B is more memory efficient compared to a B
+
+the B is faster than the foreach-loop if the B must only be accessed once per iteration
+
+a B is more adequate than a do while for simply iterating an B string
+
+i ve used it for convenience a B is much more reliable for converting an htmlcollection to an B
+
+but the outer B still runs 9 more times pushing temp which is already a set number onto the numbers B
+
+to my knowledge and research so far - javascript s native B is quicker than B map for iterating through the B
+
+this is a scenario where a traditional B is more handy than just iterating over the B
+
+since it s an B it s better to use a B with a counter variable i which starts from 1
+
+above is a simplified version of my actual code where the c B is much larger so i have to use a B to get every index
+
+but for the B it is better to use B as shown by alnitak than for-in
+
+the questions should i use B or is it better to do it recursively next insert will be called after previous is done should i check if saved.length datalength and then return the B or is there some better way how to do it
+
+would an B be faster than a B in this case
+
+im going to have a second B that makes more B and names these B as the strings from my previous B
+
+B are substantially faster than B for window queries like inside contains covers etc
+

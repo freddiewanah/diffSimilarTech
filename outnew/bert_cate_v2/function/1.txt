@@ -1,0 +1,190 @@
+rest assured though that B is better equipped in the general case for string comparisons than B is
+
+memset behaves like B but the difference is that B copied the data as it is byte but B copies the formatted string as well so takes more time than B to execute
+
+B of course does not process escape sequences any more than B would
+
+as i noted in comments however if you re willing to rely on posix s B then that s cleaner than B + malloc + and has the same semantics you take responsibility for freeing the memory allocated for the copy
+
+you can for example store a B stored with something stronger than B
+
+obviously B is much more difficult to reverse even in this anything that will B to the right value sense then a simplistic algorithm like take the last two digits
+
+if the B function is more complex and cryptographically strong B or sha1 then it is theoretically not possible
+
+using a non-reversible B such as B is much more secure and you can store the B value as clear text
+
+use B and choose Bing algorithm that suits you well if possible something stronger than B but don t go all the way to sha512 either
+
+any B function like B sha1 sha256 etc obviously cannot be 100 unique - because they have a fixed length and due to the there must necessarily be non-unique results for input content that is larger than the B
+
+mac os x llvm gcc based crypt fuction is borked junk hardwired to only use des a proven breakable B worse than B
+
+marcus yes B is faster than B and faster than python but why
+
+in addition to the previous answers the strncpy char pointer which seems unsafe for my opinion and the B which is safer but you need to remember to B it outside of the function and its inconsistent with the hierarchy of the program you can do the following
+
+how does B know how much memory to be B d which was earlier allocated by B or calloc
+
+if your .so are statically linked to c++ runtimes - you should B objects in the same module where they were allocated since new delete is something more than B B and need some extra info to work properly
+
+besides B is a better option than B as B can handle failures better
+
+if you want to accept a number rather than a digit and only a number B works much better than B as it allows you to check for failures
+
+i would recommend B which provides better error handling than B or sscanf
+
+i start off calling gets to fill the buffer then using B to convert the human-readable text in buffer to an actual computer int value - note that B is more powerful than B and uses long int instead of int as its declared type
+
+for instance B is better than B and you should be checking each time whether strtok returns null
+
+the c function B is much better make it a habit to prefer that one to B
+
+use B it does better error reporting than B
+
+you can also look into B which is better than using B in terms of error checking
+
+also B is a better alternative to B
+
+B is also more appropriate than B
+
+B is more pythonic but B is fine here too
+
+why is B slower than B + lst i
+
+the B loop variant was consistently 45x slower than the B loop
+
+doing things like 1000 successive B is much slower than doing one single B of 1000 bytes
+
+B will go through the listed values and choose the first one that isn t null it s more portable code than B or ivnl etc
+
+in most cases it has reviled indexes that needed to be add and in most cases the indexes improved the queries the most but after thet have been added the B and dynamic still perform better than the B
+
+B is more correct of course you could just embed B over and over and over... but put that under a performance microscope and B may just win
+
+i ve been told that B is less costly than B but research doesn t indicate that
+
+B is faster than B
+
+i understand the difference between these functions but my question is when checking for a single null value would B be any quicker than using B
+
+on the subject of performance on sql server B often performs better than B but the latter is ansi compliant if that is important to you
+
+B can only have one input however it s been shown to be slightly faster than B
+
+so if we have a vector and want to calculate a component-wise function over it say B and B it is faster to use vvBB from accelerate because it will pipeline the calculations of B and B for all the entries in the vector which is faster than uBg a for-loop over the vector
+
+first of all B x should be faster and more accurate than B x 0.5 why do you think it s in the library
+
+if end up using the memory anyway B is still faster than B and memset but the difference is not quite so ridiculous
+
+i remember somewhere i have read that B is slower than B because B performs initialization to zero after performing memory allocation
+
+B does take longer than B because it has to zero out all the memory you asked for before giving it to you
+
+in terms of speed B is likely to be faster than B + memset if memory needs to be zeroed out
+
+B itself is slower than B because you have to spend some time to clear the contents of allocated memory
+
+B is arguably a better option than bcrypt B having been much more thoroughly studied and tested
+
+as we can see copying manually with B is always slower than B because in this scenario malloc is guaranteed to allocate new memory and you re forced to copy the data in every allocation which shows us that B is indeed reusing the same address and enlarging the block size in some cases
+
+finally i also made a benchmark test which shows that B operation is slightly better than sapply B and significantly better than vectorised B alone
+
+B is more secure than B
+
+in few words B is safer then B but it is slower too
+
+also have a look at B which is safer version of B
+
+needless to say B product has more than one B which is kept in the producthas table
+
+so B idx is the lower element and B idx is the higher
+
+the B times the B are greater than the B xy...that s very much possible
+
+B is still a little bit slower than B
+
+B is more efficient than B. in general use B only if you have to
+
+why does B perform slower than B on my system
+
+this means that B might be very slightly slower than B as it cannot make the same assumptions
+
+in addition as mats petersson said B is cache friendlier than B
+
+while B will be only slightly slower than B due to the assumptions it needs to make about the source and destination in B they cannot overlap it should still be far superior to any standard loop
+
+i changed out total for B which is more consistent with other databases sqlite B
+
+B is more general version of B
+
+with a lower order B that works better but then you lose the advantage of cubic B
+
+note the use of std B is safer and more convenient than std B B
+
+from what i can gather B generates much better random numbers than rand does however i haven t seen a way to seed it and i would like to just like using B
+
+one more edit if you want to use B instead which you asked about in the comments - and it s even safer than B since it will increase the buffer size as needed you would change to change the code a little bit
+
+B is worse than B in that you will need to have the old and new pointers valid during the B
+
+in the case of overflow a free B pair costs less than B because of its internal hidden memcpy
+
+but if it works with large datasets the users will notice that using the B -only program slows down other programs much more than the B -using program with the same data
+
+then for reading i find B to be more powerful than B fscanf the differences between them all are summarized here
+
+see also why malloc + B is slower than B
+
+in other words B is no more type-wise than B
+
+malloc + B is slower than B under certain conditions
+
+my question is why is malloc + B so much slower than B
+
+B sha-512 offers a higher level of security and implementing a scheme where you stretch the B is even better do some high number of iterations of sha-512 - starting with the password+B of course
+
+in this situation storing password B and the B is more secure than storing the credentials encrypted or not because an attacker would have no way of getting the password back even if he manages to get his hands on both the B and the B
+
+the more randomness and more characters your B has the better for the B but anything that s several characters long and random works
+
+i don t know how safe could it be and how difficult is for the hacker to determinate the technique i use the thing is that the result has the same length as the B and is harder to determinate a B so if for any reason in the history hacker uses a rainbow table and catches a probable result it will be the wrong
+
+most attacks involve generating B for common passwords so for reasonably complicated passwords it becomes harder especially with B some people use usernames as B others use randomly generated numbers
+
+could i use B to do this more succinctly than running B and dcast separately for each of employed girls guys
+
+however if B source is greater than n then B will simply copy the first n bytes and will not terminate the string dest with a null byte because there is no space for it
+
+the other suggestion keep repeating until x stops changing does not work either because for non-perfect squares x will alternate between the B and the ceiling of the root â because of integer mathematics the term n x will alternate when x is slightly smaller or slightly larger than B n
+
+for reading large csv files you should either use readr read_csv or data.table B as both are much faster than base B
+
+i m pretty sure the linker will B equivalent strings so the total will be less than the B of the parts for these sections but i guess typically not by much
+
+if your compiler can do this then writing functions in a way that the compiler is able to B is better than manually B the calls yourself
+
+afaik B is not slower than B
+
+but when is B and clone better than B
+
+a malloc B pair can be better than a B if you don t need to keep around the original memory
+
+in general it is nicer in c to have the caller allocate memory not the callee - hence why B is a nicer function in my opinion than B
+
+myth 3 B is a safer version of B
+
+using B is considered safier than B because the second one can easily cause buffer overrun
+
+so that the B is more secure than B
+
+the best solution is to write a custom version of B that is less weird or if you know the length of the input just use B
+
+B could be better replaced by B which does some bound checking
+
+it should be in my opinion more strongly noted that password hashing with B is no longer secure and should not be used as others noted use B or bcrypt
+
+the B version is not more complex or more dangerous than the B version
+

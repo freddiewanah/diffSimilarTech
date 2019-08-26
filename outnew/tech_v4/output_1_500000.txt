@@ -1,0 +1,48 @@
+5070199
+quicksort	mergesort
+Pattern(s): 0	
+Quicksort generally runs faster than mergesort but under some circumstances quicksort can degrade to quadratic running time
+
+
+5123066
+strncmp	strcmp
+Pattern(s): 7	0	
+strncmp is much safer than strcmp
+
+
+5332864
+cpython	pypy
+Pattern(s): 0	
+From a pypy blog post in february ... highlights and the status of pypy most python benchmarks run much faster than with cpython or psyco the real-world pypy compiler toolchain pypy 200 klocs runs twice as fast supports x86 32 and 64bit and is in the process of supporting arm .
+
+
+5372482
+scheme	racket
+Pattern(s): 0	
+There are various object systems you can load as libraries when you want to do oop but integration with existing code heavily depends on the scheme dialect and scheme surrounding culture chicken scheme seems to be more object-oriented than racket for instance
+
+
+5423061
+udp	tcp
+Pattern(s): 0	
+Tcp is subject to higher latencies than udp as tcp requires the client to send back packet confirmations
+
+
+5475705
+apache	nginx
+Pattern(s): 0	
+nginx s much lighter than apache
+
+
+5545821
+profiling	debugging
+Pattern(s): 0	
+debugging will help you alot more than sql profiling will
+
+
+5756128
+bmp	png
+Pattern(s): 0	
+Not only do png files have natural support for transparency png are also smaller than bmp files
+
+

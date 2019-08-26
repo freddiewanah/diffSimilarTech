@@ -1,0 +1,52 @@
+* is more than capable of serving your needs as well as alex s suggestion of *
+
+i am using * btw which can do more than * incase that changes things
+
+i suggest * it s more capable has more features and better support for complex queries and datatypes than * and has a lot of tuning options
+
+from how i understand it * is a more correct database implementation while * is less correct less compliant but faster
+
+as for reliability i think that * is more reliable especially when compared to * using myisam - innodb is a lot better here
+
+does that mean perhaps rails team favor * slightly more than *
+
+since * is a lot more sane than * there are not that many tricks to report on
+
+triggers in * have a syntax a bit more complex than * because they execute procedures as the action
+
+* is more compliant but if you re comfortable with * and you re using an orm you should probably use that
+
+* specifically has gotten easier to manage while * has lost some of the simplicity that gave it an advantage without picking up enough features that really matter
+
+if you are looking for location based queries in relational databases * is more matured compared to *
+
+if you need spatial data capabilities postgis with * is better than *
+
+however people often argue that * is cleaner and easier to use that *
+
+* is worth learning and much more advanced than *
+
+* is probably more often offered by shared hosting providers * is probably a little more powerful
+
+for these ultra simple queries * can be slower than * - * has richer planner that works better on more complex queries but on trivial queries is slower
+
+may be * takes less time than *
+
+looks like * is a little more compliant than * so try this instead
+
+in fact this presentation which still refers to an older incomplete version of * s opengis support suggests that with proper indexing some * geospatial actions may actually perform better than * postgis though i m sure that s up for debate
+
+the other question is that what i am hearing from our group leader is that * is better than * when working with coordinates
+
+and a wiki for why * is better than *
+
+this is a weak point that iirc * can handle better but with * you have to work around that by reverting the changes yourself in case of rollbacks
+
+generally speaking i find * lends itself to 24 7 operations better than *
+
+i did a simple performance test and i noticed * is slower than *
+
+* is easier than * but it doesn t really matter either way
+
+i ve found that * is in my expirience is slower as *
+

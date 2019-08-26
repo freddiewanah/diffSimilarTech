@@ -1,0 +1,32 @@
+jpg * is slower to draw than a *
+
+the resulting * compression may produce a file size larger than your * compression
+
+you should definitely pick * because they are about 10x smaller than * files of the same duration
+
+either way applying gain and or attenuation to time-domain sample data as in a * file is much easier than trying to apply these effects to frequency-domain data as in an * file
+
+since that appears to generate index-color * files which are smaller than the * files that doxygen generates
+
+wewtaco i noticed that your * file has wider dimension than the * file and i am guess that could be a reason the black bars are showing up
+
+while * is definitely better that * occasionally there is a use case for needing to stay in * format
+
+one thing to note is that * supports a smaller palette than * - only up to 256 colors
+
+i used * because its file size 2.1kb was considerably less than * or jpeg in this case
+
+there might be some edge cases where * is slightly better because the * format may have a slightly larger overhead from metadata but it s really not worth the worry
+
+just press save and give it a name and that photoshop image will be saved into a transparent background * file which presents more colors and it s smaller than a * file and is as good as a jpg
+
+it will always be a web format which basically comes down to jpg * and * with * being very unlikely because of its limitations * can contain 256 colors at most and is generally larger than *
+
+* images are always compressed lossless but their compression algorithm works better than competition *
+
+but keep in mind that the * color palette is way smaller than *
+
+moreover * vorbis is better then * at all bitrates
+
+ie s * is slower than other browser s *
+

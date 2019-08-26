@@ -1,0 +1,66 @@
+the only problem that as far as i know using B is slower than using B and it was required in old browser versions like firefox 2 or such
+
+using B canvas is much faster than using B
+
+as of right now B is much faster than B
+
+i have seen that the B function is really faster than the B
+
+i think using B is safer than B
+
+B is more useful than B here as it recurs automatically and you don t need to keep setting it
+
+i find B is a little cleaner than chaining B calls
+
+in this case B behaves more like B ..
+
+if your B takes more than one argument it s not called a B anymore
+
+i need a query to B results from stackexchange dataset in such a way that it returns me 100 top reputation users with not more than 3 B body of B for each user
+
+i think using B is more elegant and has more options for further development than passing them via B
+
+and apart from common misleading information where B is safer than B it is not
+
+a B request will be slightly smaller than a B although using websockets would give a more accurate figure
+
+however a B request is less efficient as a B request - bear that in mind and only use B if you really need to
+
+B requests can be much larger than B requests as B requests are limited by the maximum length of a url
+
+B is more secure than B because you aren t showing information anywhere
+
+so for creating a friendship B method suits better than B
+
+i have been trying B data out of new reddit B but theres limitation where you cant B data from more than 100 B
+
+Bs have a size restrictions B do not or at least it s a configurable setting on the server and has a larger higher end than a B request would
+
+as a pragmatist i m inclined to use B because implementing it is way simpler than B
+
+B requests are no less insecure than B requests
+
+is B method is better than B method if you use a form
+
+as far as security goes B is much better than B as the data is sent behind-the-scenes rather than embedded in the url making it the typical protocol for login info
+
+B has a lot more advantages than B
+
+a B has broader application and is generally used to send persistent data to a server in fact prescriptively B should not be used for this purpose
+
+also you can determine if someone is submitting a form or Bting the form by checking if _server request_method B which is cleaner than using a B url parameter though i guess there s nothing wrong with the other approach...
+
+i need to create a menu based on that list but cannot simply list all B and B it because it is a busy blog and has more than 2000 B
+
+we provide a number of support resources which may B faster response than B on third party sites including the virtuoso users mailing list public support forums and confidential support cases
+
+although B is more secure as compared to B when ssl is present
+
+B is better for some cases but it seems to me you should use B instead
+
+i try it and i B all the categories and not just the ones with more than 1 B in them
+
+however if you want to B more than one B rather use functions mentioned above i think the most important thing is to grab them in one db query and not in ineffective way one-by-one
+
+B is designed for file uploads moreso than B which requires doing a multipart upload but then it comes down to what your server can do as to which is more convenient for you to implement
+

@@ -1,0 +1,118 @@
+* is a more efficient protocol than *
+
+* 2 is even better than * and check this article for a use case regarding *
+
+in fact in some ways * is better than *
+
+i understand that * has better performance than *
+
+how * is better then *
+
+plus once * becomes more common * slow down won t really account for anything much
+
+you will notice that the * header has more fields than the * header and many of those fields will be populated by information from the handshake
+
+* is way better then * for that
+
+as an additional note my suspicion is that you d need to indulge yourself in some pretty sophisticated benchmarks before you could conclude that * is actually going to have higher performance than * for web services
+
+* is connection less but at the same level as *
+
+i am confused why * throughput is bigger than *
+
+like matzi suggested * gives you lower latency and lower packet overhead as the header is smaller than * but on the downside the delivery of the packet to the destination is never guaranteed ie
+
+2 * needs more processing at network interface level where as in * itâ s not
+
+because there is no confirmation on * packets it s slightly faster than *
+
+* mounts are more reliable and you know you have a network problem much faster than with *
+
+* has less overhead than * and is therefore faster
+
+it is worth nothing that in a link where * and * are sharing the bandwidth * is better behaved than * in that it will try to limit itself to avoid congestion
+
+so assess the situation the development cost of a * transport is higher to significantly higher than * and to some degree you are re-inventing *
+
+* is certainly going to be more reliable than * since * doesn t guarantee packet delivery which is probably why you application is hanging on the receive
+
+you could get them to do a * multicast within a lan environment to identify the programs using protocol messages then have a stored cache of each other s identity and then use * to connect and do main exchanging of messages which is more reliable than *
+
+* is more of a fire and forget whereas * maintains a connection state
+
+note that there are exceptions to the above - for example * generally traverses firewalls better than * which may be blocked due to security to traffic policy reasons so voip speech may sometimes be sent over * for part of its journey at least
+
+it was introduced since the nat traversal for * is much more complicated than *
+
+* communication is connection less as compared to * which need a connection
+
+* will almost always provide better performance than * at the cost of reliability
+
+for example i read an experiment in which a stream of 300 byte packets was being sent over ethernet 1500 byte mtu and * was 50 faster than *
+
+* gives smaller latency with many many issues to discuss here of course * gives bigger latency
+
+this was surprising for me as it is well known fact that * performs better than *
+
+* lends itself to real-time less latency than *
+
+* is less reliable on a wide area network but in a closed environment of a vm talking to its host you can safely skip all the * reliability stuff
+
+* should be much faster than * because there are no acknowledge and congestion detection
+
+also if you have very limited memory processing resources it is worth bearing in mind that * is a less costly protocol as it avoids a lot of the overheads * incurs due to its inbuilt connection management
+
+only when packets can be discarded unordered can * be faster than *
+
+in practice this means that * is better suited for continuous transmission of data whereas the more lightweight * can be used when reliability isn t important
+
+if the network between the two point have a very high quality * is absolutely faster than * but in some other case such as the gprs network * may been faster and more reliability than *
+
+certainly * has more overhead than *
+
+* is slower than * and you ll have to mitigate that in realtime multiplayer
+
+maybe one of you guys already sees a problem in the code snippets or have any other suggestion or hint for me why my * transmission is slower than *
+
+if your client connections are more or less permanent and not too many clients are connected at the same time * is only slightly worse than *
+
+* is much better than * in terms of reliability
+
+use socket for * and datagram for * its a lot faster than * but less connection oriented
+
+if you re more interested in latency and small amounts of data then something * based could be better than * but you d need to build extra logic for ordering the messages and retrying the lost ones
+
+in my experience * based code is generally less complex than * based code
+
+* is subject to higher latencies than * as it requires the client to send back packet confirmations
+
+you can use * as well but if you are dealing with firewalls it is probably going to be simpler with *
+
+4 * is a slower than *
+
+the decision on yours the * protocol used for connection oriented network that is more secure than *
+
+i m trying to avoid *client because * is faster but would this work in * since it s streamed
+
+please note however that this architecture implements * which is much slower than * and will not work for any type of fast-paced data intensive games but should accomplish your goals given your description above
+
+yes * is much much lighter than *
+
+* is faster and requires less bandwidth than *
+
+* is a bit slower than * but more failsafe
+
+at my company we have found memory mapped files to be much faster than loopback * ip for communication on the same box so i m assuming it would be faster than * too
+
+* socket is even more likely than * socket but both work
+
+what s currently baffling me is in my results * finishes almost 2x faster than *
+
+* is significantly easier do you really need * btw
+
+* ip is supposed to be more reliable than * ip see this comparison
+
+* protocol is more complex than http or * form example
+
+in real life * packets size usually is equal or less than * size
+

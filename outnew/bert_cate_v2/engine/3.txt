@@ -1,0 +1,56 @@
+B types libraries are fantastic for financial applications because we re used to dealing with the style of rounding required in financial stuff but there is the cost that they tend to be slower than B floating point
+
+double has its B floating point definition which is also much more complex than B
+
+B is more strict in data integrity while B is not as
+
+B table is much faster than B but no rollback is possible
+
+in my opinion B use to be faster than B now they are pretty much the same in speed
+
+B shouldn t be much slower than B
+
+in B the count s when where group by or join is not used execute slower than in B because the row count is not stored internally
+
+B tables have smaller footprints than B ones myth
+
+B supports better locking semantics so if there will be occasional or frequent writes or if you want better data integrity i d suggest starting there and then benchmarking B later if you can t hit your performance targets
+
+B is almost 4 time faster than B which is not acceptable in the environment we are working as i mentioned earlier that every second is worth many dollers for us
+
+you insert in there but never select from there as far as i know today B is better than B in this case
+
+i am trying to compare the B and B write read performance but i am suprised that the B s read is much more slower than B while its write is much more faster this is totally opposite compared to what i have learned
+
+oracle has kept improving B by so much that they declare that it is better than B in virtually all situations
+
+generally speaking B is slower than B as B is atomic while B is not
+
+am i right that B is better for frequent concurrent updates and inserts than B
+
+i did a search online comparing B and B but all of the articles i read judged B being faster than B on select queries
+
+if you have so many records in the table then the first thing is to change the table engine to B if its not B because for large number of records B is much faster as it caches the table data while on the contrary B engine only caches the indexes so each time it has to do a full table scan from disk if the data required cannot be fetched from index
+
+B is not faster than B anymore for most types of queries
+
+if you use a where clause though it changes the execution pattern to use indexes so in general B will be slower than B on full unrestricted counts where as the performance matches up on restricted counts
+
+this also affects how it is stored which leads to B being slower than B on insert due to B requiring a full index re-write on every insertion
+
+B is often faster than B in terms of raw performance mostly because it is not acid
+
+since B is better on selecting while B is better on writing
+
+B for reads may well be faster than B
+
+also note that some mysql engines are faster than others for example B may run faster than B at expense of the lack of real foreign keys
+
+generally you can have as good performance for reading as in B in B tables - you just can use count without where clause and you always should have a suitable index for where clauses as in B table scan will be slower than in B
+
+you can also try using B since it s said is better than B handling bulk inserts with data already on it
+
+have you considered changing to B - it has much better concurrency support and in some contexts will run faster than B
+
+either way i intend to use B partly because i have lots of experience with it and partly because its much more well documented and has much more functionality than blade and to me the syntax is slightly cleaner than B although the template engine is not the point of this question really
+

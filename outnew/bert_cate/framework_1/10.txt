@@ -1,0 +1,34 @@
+personally i think B is much better suited for mocking the unmockable and i prefer a combination of B for my own interfaces and classes and B for framework and externalities like file i o gui db connections etc
+
+personally i think B is much better suited for mocking the unmockable and i prefer a combination of B for my own interfaces and classes and B for framework and externalities like file i o gui db connections etc
+
+i would say B would be easier over B as the default ui elements look really good
+
+i would say B would be easier over B as the default ui elements look really good
+
+personally i d say B might have the edge as it encourages convention more than B would
+
+personally i d say B might have the edge as it encourages convention more than B would
+
+though B looks more mature than B web api i m still a bit confused
+
+i d totally go with B unless one dependency B is better than three B jinja2 and werkzeug
+
+i d totally go with B unless one dependency B is better than three B jinja2 and werkzeug
+
+B the actionbean approach doesn t look much better than B
+
+B the actionbean approach doesn t look much better than B
+
+as i understand it B supports gae better out of the box than B
+
+and B is more lightweight than B rails whatever on pretty much all counts
+
+as i understand it B supports gae better out of the box than B
+
+and B is more lightweight than B rails whatever on pretty much all counts
+
+but i don t know anything about sinatra and B is the footprint and speed really that better than B
+
+but i don t know anything about sinatra and B is the footprint and speed really that better than B
+

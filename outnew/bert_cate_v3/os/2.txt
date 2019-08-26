@@ -1,0 +1,22 @@
+this is because your * system has newer system libraries than your * one
+
+is there anything obvious in * that would otherwise be making sfphpview- render run slower than *
+
+see but if you are using a * distro there may be shortcut instructions that make it simpler under * for example there are shortcuts in
+
+i don t know why arch * is slower than * on your machine
+
+i m testing some simple benchmarking calculations on win7 and * * 16 to compare the timings and being wonder win appears to be much faster than *
+
+one one * distro fuser -n tcp 3000 will report a process if i own the process yet on another * distro i think centos it won t report the process even if i own it
+
+recompiling * kernels is harder -- it will require working with * build tools
+
+as for * being more stable than * for using as server it can be true in very rare occasions where the package is very obscure
+
+i m in * wheezy which is much more recent than * 10.04
+
+note that * software versions are older than * s but versions of opensuse software are newer than * s versions
+
+just a tip but from personal experience i ve found that * works much better on low-end hardware than a modern * distro does
+

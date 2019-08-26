@@ -1,0 +1,52 @@
+there are multiple reasons why the * code is slower than the * code
+
+note that * s arrays are much more sensible than * s
+
+or is it merely a hint to whatever tool converts between * and * to better deal with * optionals
+
+most importantly for your image processing app the compiler will optimize * code to run faster than *
+
+* is neither easier to read nor understand than *
+
+my view is that if in some cases * is faster than * it doesn t mean that all over performance of * is slower
+
+* is more amenable to static analysis than * because it lacks the very dynamic template despatch mechanism
+
+as dimitre says * is much better at this class of problem than *
+
+all of * s languages can interoperate so your language of choice is up to you though the rnrs languages tend to go unused in the * community #lang * is much more useful for writing programs than any of the * implementations but they can be useful if you want to write programs that run on different * implementations
+
+in free and turbo * file handling is much more easier than in * in * we have assign instead of assignfile and close instead of closefile
+
+* is coco but much more compatible with * more functional and more feature rich
+
+vb6 * though a little better than * in general still has many similar issues where for their domain they require much more boiler plate to do simple tasks than what i would like and have seen in other scripting languages
+
+opengl is better for playing around and experimenting because you can easily draw triangle without messing with hardware buffers available on larger selection of platforms plus * is better than * because it doesn t compile into assembly
+
+it s popular it s actively developed it has many libraries offering the features of a modern programming environment and * is somewhat simpler not to say better just simpler than common *
+
+please consider also to use * for code generation that s much nicer than * and integrates smoothly with xtext infrastructure
+
+the * zipwith is friendlier than the * list.map2 which requires the lists to be the same length
+
+* is closer to c++ because of it s imperative and oo features but i recommend you learn * as it is more functional more mindbending and has more resources
+
+* has higher level bindings to llvm than * the * ones provide some interesting type safety guarantees and * has by far more libraries to use 1700 packages on making it easier to glue together components
+
+i would just use * but * s syntax is so much better than * s and * is pure and has cool features such as type classes
+
+the inclusion of * code into a batch file is simpler than * and the translation of a small code segment from vbs to * is not problematic
+
+when writing code in * as i am wont to do as i have never been a fan of asp.net and * is infinitely more elegant than * you can call upon the arguments collection
+
+pacoblaze was written in * which like adam said less common than *
+
+none of the .net libraries are there and there are some syntax differences as * is more strict than * is
+
+avoiding them by modifying * is lot easier than fixing the issues in *
+
+while * syntax looks more related to shell syntax like bash or tcsh * is actually more closely related to * or php or ruby
+
+fortunately * 2.1 has a better alternative since it s supports the built-in calendrical types from * 1.3
+

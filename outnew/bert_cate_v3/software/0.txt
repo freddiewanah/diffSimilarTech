@@ -1,0 +1,16 @@
+* has clearly cheaper tco and technologically superior platform * is a bit more polished hortonworks for pure open source don t read this as free or cheap as most companies end up spending more money on hw to get any value
+
+* has more features but costs 80 * on the other hand is more basic but is free for most users see * licensing faq for details
+
+from my experience * 5 is faster than * 4.2 rc3 and has better smp performance
+
+in xda-forums i read about memu - most powerful * for pc better than *
+
+yes some functionality possible only on device but you can try also * app player which has more possibilities than *
+
+we started with ehcache * server array cause it s well-known backed by * and has bigger community support than *
+
+i mostly work with esri software though i ve had a little bit of work with * mostly for clients whose engineering departments are using cad more than *
+
+microsoft has the microsoft speech api sapi however if you want simple * it is better not to reinvent the wheel and customize an * implementation which i guess falls under the great * library for c++ category it s c not c++ but if you know c++ you should be able to understand the c . using *now you may not even need to write any custom code it may do what you want already
+

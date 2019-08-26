@@ -1,0 +1,70 @@
+B is neither easier to read nor understand than B
+
+we ve seen that B uses a more static method dispatch than B which unless a class dervices from foundation nsobject prevents the style of swizzling based on remapping method implementations at runtime
+
+my view is that if in some cases B is faster than B it doesn t mean that all over performance of B is slower
+
+after reading some related articles i don t think B is more effective than B
+
+one of the reasons we want to move is because B is more secure than B
+
+wouldn t B be slower than B in this case since it is layered on top of it
+
+you will notice that B bundles are always about 4-5 mb larger than their B counterparts and this is precisely why
+
+as you can see the B example is more complex and error prone than your B code
+
+writing B 2.0 in my professional work my personal opinion is that it s indeed ready for enterprise applications -- maybe even more than B ever were
+
+most importantly for your image processing app the compiler will optimize B code to run faster than B
+
+i m learning B and much less familiar with B but for the life of me i can t figure out how they are trying to achieve the goal stated as build list of encodings sorted and including only those with human readable names.
+
+bottom line i would personally hesitate to draw any simple conclusions of B is faster than B or vice versa
+
+fortunately the vbide for B has more classes and methods for working with vb projects than the B version of vbide
+
+there are various object systems you can load as libraries when you want to do oop but integration with existing code heavily depends on the B dialect and its surrounding culture chicken B seems to be more object-oriented than B for instance
+
+i agree some mechanisms in B are slightly more verbose than B function definitions being my personal pet peeve and vice-versa
+
+coq is probably the most prominent language of the style but B has a more B-y feel as well as being written in B itself
+
+like the rest of rest B is lightweight easier to understand and easier to write than B
+
+B is perhaps more approachable than B however
+
+because B is more or less superset of B it of course works also in B
+
+i ve noticed that the common B approach is more conservative than the approach B has
+
+however gambit B has smoother access to c c++ code libraries which far outnumber common B s libraries
+
+B is intentionally more compact than common B and you ll find that you can learn the language very quickly
+
+B has fewer libraries than common B
+
+aside does this mean B is more homoiconic than B
+
+B has fewer industrial users than B and although it does have multicore support it is still being developed in a very unproductive direction
+
+B is more popular in europe and B is dominating in the us
+
+by these numbers and only these numbers B seems to be more widely-used than B
+
+i read somewhere that B s macro service is more powerful than B s
+
+especially as B is becoming more and more of a distant memory and the B language takes on a life of its own in conjunction with the core .net framework advancing
+
+i assume the same control in B would be datagridview and i m fairly sure that you can probably make it look better than in B but if you want really good looking ones you might want to look at thirdparty grid controls
+
+B provides more mechanisms for asserting shapes of B graphs as does new work on B shapes
+
+B has more structure than B
+
+B is more verbose than B here
+
+i know that B performs better for some regex but will the B performance really be this bad in comparison
+
+in B it s better to say B a decimal number like 32.98 is written 32 98 slash is used instead of point
+

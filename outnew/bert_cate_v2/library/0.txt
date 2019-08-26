@@ -1,0 +1,176 @@
+B is free in my opinion has better chart than B it doesnâ t have events
+
+B is slightly more difficult to setup but is much faster than B
+
+anyway if you re willing to do advanced 3d stuff B is way better than B
+
+personally i ve used B in the past and found the performance much better than B for 3d scatter plotting though the python bindings are somewhat in question moving forward i think
+
+if everything is correct why B perform so much better than B
+
+as a result of this comparison i see that B is performing so much worse than B that i m starting to doubt about my code
+
+i also kind of get the impression that B drag and drop is better than B ui drag and drop based on the online demos
+
+i ended up using B for most of my animations simply because it provides smoother animations and more configurable than what B ui provides
+
+because B is updated more frequently than B a B B build is provided to ensure compatibility with the latest stable version of B
+
+B is more modular than B B around 5kb B around 17kb but is generally lighter because you only include the specific modules you need
+
+given that this is 4 years old and B has more or less taken the place of B i thought i would share this solution using B
+
+i believe B is a better choice over B more details in this blog post
+
+the solution from charliefl is approximately 100x faster than B depending on browser in this case and B being up to 2x faster than B
+
+for similar functionality that speaks B but has more flexible features you could use the facetgrid object from B
+
+according to this answer the B plugin might work better than B for media-queried resizes
+
+they merged with B which in my opinion is a better choice than B
+
+i have tried B too but B is smarter than B on this aspect
+
+i don t want to use B because that s a library i haven t used extensively yet and i m doing this partly as an exercise to gain greater mastery over the B
+
+c++ s B is getting better and better yet it s not nearly as huge as B and is not intended to
+
+not to be confused B is more recent and B was used in some distributions of linux
+
+to allow you to scale down the data away from endpoints 0 and 1 i had to do this when combining B in B single pcolormesh with more than one B using B so you can likely see how the code works but basically say you have values -5 1 10 in a sample but want to normalize based on a range of -7 to 7 so anything above 7 our 10 is treated as a 7 effectively with a midpoint of 2 but shrink it to fit a 256 rgb B
+
+to allow you to scale down the data away from 0 and 1 i had to do this when combining B in B single pcolormesh with more than one B using B so you can likely see how the code works but basically say you have values -5 1 10 in a sample but want to normalize based on a range of -7 to 7 so anything above 7 our 10 is treated as a 7 effectively with a midpoint of 2 but shrink it to fit a 256 rgb B
+
+the results end up very close but the B image comes out a little bit blurrier than the B image
+
+unless you re doing very heavy processing working with a single frame is probably faster than transferring it to the server as far as i know B in c# isn t considerably slower than B in c c++
+
+B is a newer gem than B and it looks a lot more flexible
+
+seems like B is more file oriented and B is more object oriented
+
+B is much harder to learn than B but in both cases you will also have to learn svg to be able to create better animations
+
+or switch from B to something that performs better such as B or jackson
+
+in the experiments and discussion below i find that B is slower than B for batched 2d ffts
+
+and how do the differences make B faster than B
+
+this is done on an extremely large image and i feel B might do a better job than B on this
+
+first of all if it was not for the relative complexity of the expressions here B would have been definitely the better option over B
+
+you may also use B which is a simpler encoder than B
+
+to draw you can use either plain B which is more basic or use B which is more flexible drawing library nb
+
+you should try B i think its much better than B
+
+also B is actually newer and more actively maintained than B
+
+even though i liked many design aspects of B and it is simpler than B imo B is the one to learn because imo it has far far better documentation examples etc
+
+so in my view using B is simply easier unless you have more experience in B
+
+in java if you want a graphic user interface you can use B or B and B is better than B
+
+B community is smaller and it doesn t provide that many tools as B does
+
+i find B to be an uglier api than B in general though but not really a deal breaker
+
+with B it s more common to use B already mentioned by jeff foster
+
+the problem is that the canvas drawn by B is larger than the area of B s scrolled_window
+
+B is not that much faster -- and the outputted file sizes are significantly higher than B
+
+i successfully compiled B with q8 but after all it seems about 30 slower than B 0.3 secs
+
+the origin server would get the images from s3 process them using B since it s much faster than B then serve them
+
+if you are worried about memory then do look into B since equivalent models can use significantly less memory than B
+
+if B doesn t satisfy you for any reason you can also try B which does much more than B it s not only for images but the same rules apply
+
+i would also recommend you to check B as its way much better than B
+
+the team behind B has since created B so this is likely a better option than B
+
+finally i haven t done much with animation but i think you re entirely correct - B provides more animation support than B especially in terms of animated transitions
+
+B is made to work with B 2 B 3 however is way newer than B and therefore B does not support using B 3
+
+i think B will make this easier but with raw B this would look something like
+
+i ve created an application with this library instead of B because i thought that B is easier to learn than B for newbies even if it provide less features
+
+B enables you to search for elements using xpath which i think is easier than using B s api
+
+alternatively you can use B module which is lot faster than B
+
+B also has more features and offers B too
+
+you ll probably find that B runs faster than B but in my uses B was very easy to learn and use and handled typical crappy html as found in the wild well enough that i don t have need for anything else
+
+regarding B B is more efficient and in my experience can handle broken html better than B
+
+the reason for using B for such a task is that it cleans html files better than B do
+
+speed isn t important here but in other applications it is good to know that regexes are very fast 100 times faster than B and 1000 faster than B
+
+B is more suitable for html parsing than B
+
+note that using the B parser is a lot slower than B s default parser
+
+B is also much much faster than B
+
+it s generally accepted that B is faster than B ref
+
+since you re using B why not use it in a more direct manner B is believed to be faster than B
+
+so i think B would a better choice than B
+
+B is faster but the api is 37x more complex than the B api
+
+after searched in google found that B has better performance than B i plan to replace B with B in my project but i got a diffrent result when run test code
+
+B type safety is way better than B
+
+try this lib that s a good one with the B we use only in the server side because B is more slow in the android than B at least in our test
+
+deserialization performance is similar with B over 9x slower than B and fastjson about 0.5 faster than B
+
+it seems B is more faster than B the average time of B is about 2ms while B is about 16ms does i make mistake when using B
+
+personally i prefer B as according to test benchmarks it s faster than B
+
+i d strongly recommend to go with B 5.1.x it s a little bit more difficult than sfml but very functional and easier than B it s got nice support and it s compatible with plenty of os
+
+B looks more good option to work than B bcoz it has inbuilt support its easy to learn its long time support guarantee for seam+B combination
+
+when hdf5 storage can be accessed fast than .csv and when B creates dataframes faster than B why is B from hdf5 slower than B from csv
+
+B is far more flexible for working with data so i often bring parts of B dataframes into memory manipulate columns and create new ones
+
+but if you will look at the accuracy level B have more accurate detection than B
+
+i find training in B much easier than in B
+
+edit 31 march 2014 for what it s worth i have found that B is much better at text extraction than itextsharp notwithstanding a bespoke strategy implementation and B tet is slightly better than B but it s quite expensive
+
+edit 31 march 2014 for what it s worth i have found that B is much better at text extraction than B notwithstanding a bespoke strategy implementation and pdflib tet is slightly better than B but it s quite expensive
+
+if i resize the window and a widget with a B is bigger than the window i want to resize it to make it smaller and B should recalculate the positions of the others
+
+B offers native support and has a quite friendly api and is my opinion more flexible than B
+
+B presents a more direct view of the protocol than B does so you often have to look at either the protocol specs or B source code to find out what the underlying protocol request is to find an equivalent
+
+B is lower level than B and allows you to minimise the number of round-trips to the x server leading to lower latency
+
+B has a steeper learning curve than B but once you get the hang of it you can do pretty much anything graph related with it.official site is here
+
+B is easy to use B has more option but is less easy to use than B
+

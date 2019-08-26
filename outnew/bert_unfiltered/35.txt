@@ -1,0 +1,310 @@
+run ls B | head B files execution time 50 faster ls B | tail
+B looks better B task
+wanted check B value bigger maximum B value converting function return optional value able check using optional binding
+note cast result B better suited years B precision returned extract
+B looks better B using filesystem instead database keep repository
+B packages B
+one project team responsible B may well involve B - different countries different legal requirements currencies payment providers etc. one team improving base
+depending use B might fit better B
+reading related articles think B effective B
+know using B better B another query going performed
+B focuses logs adhoc search B focuses creating dashboards visualizing time series data
+also B 4 hardware accelerated marginally faster ie9 faster B
+judging benchmarks posted B speed center appears B faster B two tests presented
+biggest difference produced two always B detriment involves lists already largely sorted contain large number ties B better B difference nearly great
+B worse complexity B worst case.
+B worse B
+B provides far access internals system extensions technically possible B widgets extensions
+B gives better performance B search done indexing actual search performed exact match
+B signature generation could somewhat faster B signature generation maybe twice faster
+even B smaller B could assume read data already B 90 time
+rate B speeds orders magnitude lower B speed concerned mode unless course turns caching different two modes
+loosely speaking B 1000 faster B cpu faster still
+successfully scipy.ndimage B domain better results B image processing like
+use B need transactional access one B session
+assuming B always bigger B drive parent height
+button bottom constrained bottom B however top constrained bottom subtitle B subtitleB taller B
+B better B
+image B bigger B want minumum zoom B
+rotate angle want want make rotated square squashed making B 2 3 smaller B
+sides move toward never reach since B 100 greater B 30
+may want check B greater B
+specifically image B greater 250px resize B 250px B auto
+uiscrollview scroll B B unless contentsize property B B larger frame property B B
+landscape B bigger B
+B B scale B ratio B B leave B 4 units -2 +2
+B greater 200 need calculate new B
+avoid cropping either top B left B
+B return larger dimension B correct
+algorithm could optimized rotate points exchange x-y coordinates B occupied area larger B
+plus B becomes common B slow really account
+B class seems handle better rotations B
+background learning B earlier worked B cl little foray clojure
+B gives detailed information help diagnose fix B problems
+already built view take drawable use focused pinch-zoom drag auto-scale images B images dynamically takes images larger B
+B faster B packets sent without guarantee delivery order
+worth nothing link B B sharing bandwidth B better behaved B try limit avoid congestion
+particular application sending simple data chunk client index given client B perform better B
+using B faster B sometimes need know packet reached side program use B sending ack packets
+writing server bear mind sequence events B socket harder B socket since well normal socket bind calls also listen accept
+B slower B
+database large B buffer pool small buffer B performance going better B performance especially large tables
+beginning insert performance B almost 50 slower B tokudb 40 slower B
+B also developed B
+search online comparing B B articles read judged B faster B select queries
+zim excellent searching B always faster B
+know B hold data 4 bytes bigger B use providing data types use
+draw use either plain B basic use B flexible drawing nb
+configuring B gave change B easy configure according benchmark faster B
+windows B slower typical linux B lookups
+threads B granular B B+
+words per-comparison-overhead B higher one B
+respective worst B faster B
+last know number B easier better read use B instead B
+mind B simpler understand traversing backwards B
+B fits better requirements B
+even use lowly B easier B construct variable names paste access objects get
+included sapply call test day starting day n. 7+1 8 15-day sliding window defined check B temperature higher 90th B window test1
+quick takeaway benchmark B performs 5 6 better B twice better gson
+converted B B found file size hard drive laptop time smaller B B could compression applied dont know web said B would actually bigger B
+B supposed better B areas work well
+using fileformat thought B uses memory B formats based B compressed
+assume worried techno might read compressed B smaller B memories
+may elegant method need convert ad-hoc thinking comparison B may easier B
+fast awfully slow even B done entirely hardware done using div instruction instruction 3 4 slower B modern cpus
+friend point B actual B writing slower B
+hand B connection far reliable better supported course inherent advantage speed since well supported suffer pitfalls B connectivity
+tests B performs better B
+B support higher precision 80 bits really need B fp algorithm likely check numerics instead solving brute force
+potentially trying model B better suited composition base class taking object instead individual related B B related perhaps base class single responsibility principle
+hacker point view B forgery easier B forgery first B link second need point malware website hidden iframe autosubmit forms fail tokens checked
+someone around help B better B
+reading large csv files either use readr read_csv data.table B faster base B
+opinion B usually better specific number iterating every item B foreach usually straightforward
+B B like suggestion kernel regarding B use
+traversal-oriented approach best maybe B better since B allow specify traversal order
+neo4j B still faster obviously effect B queries neo4j might issue B implementation neo4j
+want prevent two divs placed another B width becomes smaller B combinded width
+since pseudo-element floated B B div happens better yet seems contain floated B well - really want
+second B class .main-body lightseagreen color column-layouted flexbox container .content-main plum color bigger height B want
+use thinking using condition could specify height B higher B height background-color different
+B nothing thin layer glue making gobject B .
+however B guru get B B easily leverage .net platform far home
+possible jython B faster B well backed heavily optimized virtual machines .net clr
+B easier use B sfml flexible feature-full B
+B version complex dangerous B version
+precision B may B Broducing problems
+except B better B storing join_angle radians
+wanted check B value bigger maximum B value converting function return optional value able check using optional binding
+B upcast B without loss pow function B efficient B
+extra arguments variatic functions types smaller B promoted B passed floating poB types smaller B promoted B passed
+B better B though help keep precision
+64-bit long written B greater 2 53 ieee B 52-bit mantissa reading B lose precision
+using B method B greater
+need call B method indicate result comparison returning integer greater B 0
+one drawback B vertices might slightly intuitive B area two proportional
+haskell get constant largest smallest possible positive B greater B represented doubles
+B might handled little nicer B rather completely redraw element try append need
+2 install B extension also one B B one reliable -- B addict like use
+perhaps using B type values numeric would work better B b
+link mentioned microsoft says c# type keywords aliases Berchangeable need aliases poB view B meaningful bool B32 meaningful B aliases
+one B B works better B B
+one item note aware default z-index B default B using together requires set B basez higher B default 3000.
+B also complicated B especially want write really solid implementation aiming simplicity maintainability merge sort becomes promising alternative little performance loss
+10 tests results quite least showing B faster B
+always keep track lengths strings compare lengths use B faster B
+getting step exceeds specified B error default step value 1 larger B B result .
+figuring necessary exponent B straightforward describe B min possible absolute values input easily find suitable corresponding binary minimum Bimum exponent
+keep mind cast int throw exception value outside B int - greater B value int resultant cast -2147483648
+recursive cte troublesome limited B size 32 767 smaller potential B sizes real possibility slow
+want validate number decimal two decimal minimum B greater 0.00 B B 99.99
+B function produces integers 0 B len step 3
+got constant defined data_out B cnt incremented clock never reaches value greater B B data_out
+signed 64-bit integer B âˆ 2 63 2 63 âˆ 1 absolute value 0x8000000000000000 âˆ 2 63 2 63 bigger B 64-bit integer
+would like calendar display min B date B date date thing greater B min greyed
+create equal bins simply first define min B value slightly smaller B
+value B greater B active touch going
+using extra variable avoid costly B resulting time 18.9s significantly better B statically known constant
+see B result longer one B
+B slower B
+general work specified B bigger real one exceed B auto center content found div
+title goes h1 example text p div set two left B greater B image
+B dump output cause conflicts B value longer B outputs
+still wish figure phpbb password B longer B version 3.0 higher custom B
+B B generally produces going faster B input documents
+presumably mac B aligns bigger boundaries spotting pointer passing B correct since wrong alignment
+understand B strtof preferred B atof since former detect errors also B flexible B comes non-base-10
+B slightly complex needs integer B followed scale back 0.72 2 becomes 72 200 becomes 14400 becomes 144 scaleback becomes 1.44
+B faster B
+reading audio files B faster reading audio files hard B
+take space B math slower B math
+however due unpredictable B precision issues sometimes little exact B rounded
+however B smaller width B
+unfortunately B select count often slower B often get compared
+header image would like 100 screen B B screen shorter B 100 screen B B screen shorter B
+could also magic orientationchange toggle viewport B greater viewport B
+B higher B versa
+B screen bigger B monitor landscape scale better
+believe aspect ratio defined B B mean vision framework cannot detect rectangles B bigger B
+image static B B access blog mobile device image cut bigger B device
+image B B smaller form contentpane B B might well scale since image fit screen
+check matter B set #content naturalsize checks ratio container B sets smaller B original preventing black bars appearing original B smaller B
+B greater 320 B greater 480 scale becomes close 320x480 possible keeping proper proportion B B
+ps image source B B always bigger B B parameters B B ratio preserved
+various different image sizes running site - B greater B versa
+landscape pages created 2 ways set B larger B set page rotation 90 270 degrees portrait page
+need check xpos B ypos B greater equal zero
+actually even rather since B greater B
+photo vertical orientation please notice B higher 6000 pixels B 4000 pixels definitely vertical photo
+regular imageview handles resizing images using match_parent B wrap_content B tested match_parent results scale image B picture lower B quite typical
+struggling couple hours found adjustment msoshapetrapezoid coefficient must multiplied B form B B B form B B
+image B greater 2048 need scale 2048 image B greater 1229 need scale 1229
+today browser implements vertical slider based solely B greater B
+image stretched image container B bigger image actual B
+set B B like stretch supports device sizes ....i need B stretch well though happen matter tried B keeps turning smaller B
+although uiimageview square uiimage B larger B
+however build apk run android phone image distorted B greater B
+seems printing seems come third inner for-loop also B B possible fourth for-loop
+screen always gets rotated landscape instead set portrait B smaller B
+thought use another image source slider B window greater B
+one maintains aspect ratio one makes B larger maximum one makes B larger maximum
+works well happens B 600px B 400px two conditions match
+also explains adjustment 0.5 B form B adjustment 0.5 max value B divided B max value 0.5
+trying make html page tablet compattible trying hide menu B B works page loads change orientation tablet menu div remains place
+B B implies portrait-secondary
+function correctly B smaller B since l ranges 1
+explain logic sets B 100 checks B greater B 100 fine
+majority desktop laptop screens nowadays B greater B
+generally always try B base number greater B bound find cycle
+prefer B B given B tends produce query plans efficient B
+realized B would load slower B seems ridiculous fresh install
+implementation B type say pointers bigger B type provide
+object B type int signed int whose B rank equal rank int B int bit field type _bool int signed int B int
+data density B better B - since gets mentioned often replies
+B resizes longer navbar B two lines take space
+B smaller present B
+though thinking B simple B
+value expression evaluated according precedence rules 62 B higher precedence B
+B higher operator precedence B done two Bs calculating value
+probably already remember B higher precedence B
+B slightly faster B implements fulltext index quite useful integrating search capabilities
+B slower B
+B susceptible data corruption B usually B performs better caches data indexes
+B slower B
+answer pretty clear B smaller B objective-c designed back 80s shaving bytes always good
+note B larger range values B check value stored myB fit Bo B
+i.e string B allocate two B allocate use
+allow assign B B since B larger domain B
+second every time new line feed allocated end B sequence input smaller B n-1
+theoretically possible smaller sizeof example B stricter alignment requirements B could reasonable thing
+really concat B place inside single B starters B larger byte-wise entire B obviously fit
+however B long 1.21x faster B short
+narrowing conversion rank B higher rank B
+writes B contain 0 9 10 B
+implicitly least sort assume B smaller range B conversion B allows least one value represented come file
+auto one B longer B lexer definitely work
+work range B greater unsigned B
+adding B B B bigger B chooses bigger data type B result a.k.a
+program designed take B name 15 B store arrays
+one drawback believe compute B divider make line shorter 80 B longest line shorter 80 B exactly 80 B
+B basically nothing B whose value encoding B
+zim excellent searching B always faster B
+even picky compilers issue warning shift B wider 7 bits try - get warning shift wider B allows
+add alphabet B number B number greater 4 B length string match fail failing
+working B faster B
+prevent B 7 B modulo used like
+assuming utdc_samples also B type larger B assignment fine
+means num B better num B first overload better match selected
+long B 127 B stored one byte
+would B requires 16 bits would need treated B poB
+B closer B string
+B exact B long number exponents remain range
+growth B larger golden B happen
+use multiplication speed 1024x1204 B B ten 7.1 old 0.6s new using single thread without using sse avx
+cause integer overflow arithmetic operation attempts create numeric value outside B represented given number bits either larger maximum lower B representable value
+32-bit float B larger -1..1 need find B maximum values calculate scale factor gets samples within int16 B
+objective function guaranteed finite contionuous interpolation B along first second derivatives one B B B monotonic
+B may used conveniently B qdatastream
+B inherently performant B - generally outperform - operations
+B powerful B worth price tag
+value B top equal greater B fixed header B
+css B 100 gives element B actually greater 100 size B
+example B average cost n.log B average cost n.log sorting average cost - yet B typically faster B
+B widly used B ther B perferable
+hey guys anyone tell jsperf seems indicate B actually faster B
+B appropriate B
+worth pointing general foreach B expensive memory-wise compared B see details
+working load amount images sd card using asynctask + B test galaxy nexus working perfectly crash use 33 B
+tests found one B tested titled B astronomically slower B
+instead explode use preg_split use s+ B + 1 B
+p.s work B smaller B
+function fails B greater B
+syntax B B B zero positive integer number indicating Bimum number matches B integer equal greater B indicating Bimum number matches
+know general set range B Bs B Bes intersect circular nature degrees makes bit complicated
+version uses closure B B values raising exception B smaller B
+find average values given b need filter said eliBating values greater B b B b
+results thousands term stats unequal B B values well even results equal B B values
+first iteration B heap holds larger part B heap
+warning mt_rand function.mt-rand B 0 smaller B 1 users avsm www pa-include functions.php line 332
+number B update B new number greater B update B new number
+said average guaranteed least large B value column larger B value column
+urbg B returns largest urbg result_type operator could return strictly greater B
+convert string B greater B
+could even without predicate xpath xquery comparisons set-like semantic means iff one B value equal greater one B value
+given point cloud want remove points B greater B x z direction
+B B
+represents number B value greater B value
+two dropdownlist supposed age want make cant make B age higher B age
+provinces larger B size smaller B size
+printing B greater B checking
+ask user B value also may negative must greater B though
+check special three a1 b1 greater B three a2 b2 B
+want make user enter zero B value also B value B value equal - need range values B - B
+would like split image tiles tiles area must larger B tile area eg 1024 bytes smaller B tile area eg 2048 bytes
+hue value cyclic need process B B values B hue might bigger B hue value
+function return false value B bound greater B bound
+get B number loop lower B number
+one whenever B changed greater B change equal B like
+however sometimes gives value B B
+would like column extrema dataframe beeing B2015 B215 bigger B smaller B2015 B2015 smaller B
+warning mt_rand B -1 smaller B 1
+seems readability usability standpoint B representation better defining B numbers
+essentially one repeated B 0 1 special repeated B commonly necessarily faster division-based B
+serve pretty purpose hide complexity B accordion better continuous-reading easier quickly go B section tabs seems random-access
+included sapply call test day starting day n. 7+1 8 15-day sliding window defined check B temperature higher 90th B window test1
+notice 99th B 40mb B sized partition still reported 3.44gb
+B better binary search B searching
+use radix B wiki B wiki concerned performance.the radix B memory efficient compared B
+however general one could expect B expensive operation B
+one faster indeed cpu-specific issue least faster cpu specific yes B typically seen slower B
+B faster B second method faster
+formally means B cannot complexity worse B
+B becomes difficult use dateparts B looks like minutes seconds
+B secure B
+would broken differently would B higher precedence B like multiplication
+means buffer enough printing number B since B representation uses digits B enough B representation
+one would fill B lesser global B use argsort -
+modifying B work simple B
+copy B efficient B coding system.arraycopy
+B better use B shown alnitak for-in
+query given based date B first sort records idea find difference created_at updated_at status success time difference 5 B 5 15
+take B 1 B gives exception
+B even easier dont line decimal points math significant digits simply add B
+works B thread always id B
+max heap B node always larger B
+update done directly child table B B .
+B lower z-index modal behind modal regardless B z-index
+gives loop get duplicated B B one B
+number methods described fix B collapses smaller floating B
+thought using pseudos display top-to-bottom bottom shadows containing element pseudos display within B element positioning B z-index higher B effect
+edit words B larger total width B fine
+still think min heap represented array guarantees B smaller child says nothing B arranged sorted order left right
+used think heaps property seems requirement B B
+z-index B higher B
+B views may different width bigger B view
+really helps keeps B branch stable B
+B 2 B
+understanding written vanilla B comfortable B hard translate
+7n 10 part continuing equation B segment numbers larger smaller B Bs..
+perfectly possible use rsa B composed two B factors p q two things noted
+example give matter - going fail initial strlen B buy safety presumbly B slower check bounds nul difference B strcpy worth changing speculatively

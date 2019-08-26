@@ -1,0 +1,70 @@
+it might be helpful to see why B is usually faster than B since if you understand the reasons you can pretty quickly find some cases where B is a clear winner
+
+i have read that B is much faster than B in practise and the reason for this is the hidden constant
+
+i had been taught that B is almost always quicker than B and i understand that there is some debate on this topic but i at least expected it to be closer than this
+
+i would say that the B is simpler for parallelizing than the B
+
+an interesting answer about this can be found at why is B better than B
+
+you can also see that for smaller collections B is faster but then B takes the lead but all of this is case specific so take your time to study all 4 algorithms
+
+from what i ve read i was expecting B to be faster than B but on my code it is not so i assume there must be a problem with my B algorithm
+
+it might be helpful to see why B is usually faster than B since if you understand the reasons you can pretty quickly find some cases where B is a clear winner
+
+i have read that B is much faster than B in practise and the reason for this is the hidden constant
+
+i had been taught that B is almost always quicker than B and i understand that there is some debate on this topic but i at least expected it to be closer than this
+
+i would say that the B is simpler for parallelizing than the B
+
+an interesting answer about this can be found at why is B better than B
+
+you can also see that for smaller collections B is faster but then B takes the lead but all of this is case specific so take your time to study all 4 algorithms
+
+from what i ve read i was expecting B to be faster than B but on my code it is not so i assume there must be a problem with my B algorithm
+
+i personally would use B for my encryption as it is lighter and more secure than B in fact i think it is the de facto algorithm at the moment
+
+i personally would use B for my encryption as it is lighter and more secure than B in fact i think it is the de facto algorithm at the moment
+
+in fact i think it is fair to say that B is more similar to B because of its use of iterative relaxation
+
+after a lot of googling i ve found that most sources say that the B algorithm is more efficient than the B algorithm
+
+this is why B is much slower than B
+
+i have made some testing and it came out that B is lot slower than B
+
+what baffles me is that my B seems to be slower than B in both of the languages
+
+B tends to be slower than B for the same reason.
+
+what baffles me is that my B seems to be slower than B in both of the languages
+
+B tends to be slower than B for the same reason.
+
+while 256-bit B might sound less secure than 4096-bit B they might actually be quite similar from the offered protection
+
+that is actually not the case with B which is --- more so than B --- just a math equation
+
+one of the reasons to do so is that B is much slower than for example B
+
+while 256-bit B might sound less secure than 4096-bit B they might actually be quite similar from the offered protection
+
+that is actually not the case with B which is --- more so than B --- just a math equation
+
+one of the reasons to do so is that B is much slower than for example B
+
+when you say something like B should be faster than B what makes you say that
+
+when you say something like B should be faster than B what makes you say that
+
+in my tests B performs better than B by the way
+
+if that is so you might find that B runs faster than B
+
+i ve read that B is better than B both in the best and the worst case although it uses a bit more memory
+

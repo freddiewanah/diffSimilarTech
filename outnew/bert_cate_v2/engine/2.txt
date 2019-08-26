@@ -1,0 +1,68 @@
+B is a strong typed java template engine using razor like syntax with high performance 2 to 3 times faster than B and fm
+
+anyway i just prefer not to use it because B is slower then B
+
+B table is a bit slower than B tables but i don t think it is a major problem as you told you are using drupal system is that a kind of mult-sites like a word-press system
+
+there is a difference between the different storage engines though B is faster for a lot of select B is faster for a lot of insert update because it uses row locking instead of table locking and the way it handles indexes
+
+you can also use compression on the tables to keep them smaller but B is vastly better than B at data integrity
+
+also B is slower than B unless B is blocking for a huge select
+
+now the response i got from my boss is that i need to prove that B will run faster than B
+
+3 mysqlhotcopy inly works on B tables and in most applications you are better off with B
+
+i am creating an commerce website and i am stuck in a database problem i am storing customer orders please tell me which is better B or B i have to use transaction like feature in customer order table and i personally prefer B because it is much faster than B and it also supports full-text searching is there any way to use transaction like rollback feature in B so that if anything goes wrong table will be rollback to its previous state how to do that without any external library or any other server side access and i have to use mysql
+
+if you are not using transactions while storing or updating tables switch table type to B its quite faster than B with much less overhead
+
+3 a first of all if you haven t done yet change the storage engine to B which has row level locking and in newer versions of mysql has more optimization than B has
+
+also mysql version starting from 5.5 - B performs faster than B
+
+B is newer while B is older
+
+B is more susceptible to data corruption than B and usually B performs better because it caches both data and indexes
+
+B has better performance than B though B needs more attention to tuning the configuration B supports atomic changes transactions foreign keys and B is much more resistant to corrupting data in a crash
+
+the trope about B being faster than B is a holdover from code that was current in the mid-2000 s
+
+B also tends to store data in less space than B
+
+so that means that in practice an B write will take 3 times longer than a B write
+
+this is one way in which B is sometimes better than B
+
+it is a massive over simplification in some cases and plain wrong in others to say we know that B is faster than B
+
+i heard correct me if i am wrong that B is better for tables that will be updated a lot because of row locking opposed to B s table locking
+
+database performance of the B is not necessary faster than the B engine
+
+B consumes more disk space than B -- typically 2x-3x
+
+B is faster than B for reads myth
+
+B uses less memory than B and the actual data files are often quite a bit larger for B
+
+use B usually much faster than B if your data base isnt transaction oriented
+
+B is more scalable and B doesn t support any of the properties of acid
+
+B handles inserts with composite primary keys quicker than B
+
+B tables are about 4x bigger than their B counterparts
+
+after testing it seems that B is faster than B when using when there is no where clause
+
+edited to add B is faster than B because it is simpler
+
+B has proved to be faster than B for me
+
+if you use B which i like better than B - although i still prefer self-restraint+plain php most ide s that support django templating should work with it since the syntax is nearly the same
+
+B is no way better than B 3d or am not trying to prove that
+

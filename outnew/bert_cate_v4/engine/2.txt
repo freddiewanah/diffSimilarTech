@@ -1,0 +1,84 @@
+odd that * is more tolerant than *
+
+my understanding is * is pretty good smaller than *
+
+* seems to like anti-aliasing more than *
+
+* is often considered to consume less memory than * but this depends a lot on how the browser is implemented
+
+* is harder to tune since it has more knobs but a properly tuned * system can often have higher throughput than * due to better locking and better i o patterns
+
+* for reads may well be faster than *
+
+also note that some mysql engines are faster than others for example * may run faster than * at expense of the lack of real foreign keys
+
+the lone exception is * which is an older mysql storage engine which does not support transactions is more prone to corruption and generally tends to perform worse than *
+
+first question is it normal that * is much slower 7x slower than * for such usage
+
+* is actually better than * for spatial data btw because it also supports r-tree spatial indexes but not as powerful queries as postgis. if you just need points though * or * b-trees are adequate
+
+but in certain scenarios * works better than *
+
+as you are no doubt aware from your searches * is primarily better than * for high volume inserts not counting non-comparable features like foreign keys or full text searches which are exclusive to * and * respectively while * is primarily useful for tables which are read more often than they are written to
+
+generally speaking * is slower than * as * is atomic while * is not
+
+tuning * which is the better engine requires adjusting different values than * which is often the fast-but-unsafe default
+
+* is more strict in data integrity while * is loose
+
+* is often slower than * being a transactional db engine with acid properties
+
+some people have said that for reads * is faster but recent improvements in * have either alleviated or eradicated this difference
+
+out of experience i m involved to a project that uses huge amount of data using mysql and we mostly prefer * for data that can be generated it allows to achieve much higher performance losing transactions but generally speaking * is faster but * is more reliable
+
+you will need about six times less disk space to store and memory to process your dataset compared to * or about 2-3 times less than archived *
+
+* uses row level locking while * can only use table level locking that is why * has crash revovery is better than *
+
+* is slower for read only databases because it has features acid compliant row level locking that * leaves out
+
+also mysql version starting from 5.5 - * performs faster than *
+
+database performance of the * is not necessary faster than the * engine
+
+there are some situations when * is infinitely more efficient than * when manipulating large data dumps offline because of table lock
+
+have you considered changing to * - it has much better concurrency support and in some contexts will run faster than *
+
+* not only has the advantages you list but it is also faster than * in many benchmarks
+
+there are other optimizations available but general rule is that * will be quicker than * is even with table growth
+
+am i right that * is better for frequent concurrent updates and inserts than *
+
+now the response i got from my boss is that i need to prove that * will run faster than *
+
+* implements mvcc multi-versioning concurrency control so locking is much more complex than with *
+
+note however that for high traffic websites we do modify the joomla core and we also switch the tables from * to * regardless what others might think here * is much faster than *
+
+you insert in there but never select from there as far as i know today * is better than * in this case
+
+* also tends to store data in less space than *
+
+it is possible that the config of your * engine is more efficient for your searches than the way you have * set up
+
+to our suprise * took hours more than *
+
+* is slower than * but in which cases
+
+* would be a better choice than * for a high-write table
+
+nothing is 100 safe but * properly used is a lot safer than * against data loss and corruption
+
+yes it is an old wives tale that * is faster than *
+
+if your in the market for a templating engine * a new templating engine used by symfony is much better than * imho
+
+i m trying to create a template in * since i have more knoledge than *
+
+* is more powerful than *
+

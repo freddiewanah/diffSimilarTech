@@ -1,0 +1,70 @@
+B is a more efficient protocol than B
+
+B is complex to set up and even though it generally is considered faster than B this is only true when you reach a certain limit of simultanious users on your site
+
+i m using keep-alive so i think the B handshake is more or less totally out but i hope to move to B soon so i don t really know how that helps after the initial handshake
+
+if i d directly say that B is faster comparatively than B that it is used for such applications
+
+B is generally faster than B as it does not have to do the overhead checking of consistency that B must deal with
+
+if your client connections are more or less permanent and not too many clients are connected at the same time B is only slightly worse than B
+
+in practice this means that B is better suited for continuous transmission of data whereas the more lightweight B can be used when reliability isn t important
+
+B just has a smaller overhead than B but that comes at the cost of reliability
+
+like matzi suggested B gives you lower latency and lower packet overhead as the header is smaller than B but on the downside the delivery of the packet to the destination is never guaranteed ie
+
+for this particular application sending simple data chunk to the client from an index given by the client B will not perform any better than B
+
+the reason i asking this is because i read B is slower than B because B ensures order of packets
+
+B is simpler protocol than B and you can still simulate features of B using B
+
+as such traversing a nat through B is much easier than B
+
+but when i used iperf on two linux machines to send data using both B and B i found that B performs better than B for 10mb of data
+
+B is significantly easier do you really need B btw
+
+what s currently baffling me is in my results B finishes almost 2x faster than B
+
+at my company we have found memory mapped files to be much faster than loopback B ip for communication on the same box so i m assuming it would be faster than B too
+
+the key question was related to what kind of situations would B be the better choice over B
+
+one often finds the argument that B is faster then B
+
+also remember that dns requests can use B if the request or response would need more than 1 B packet
+
+there is a perception that B is faster than B but i think it depends on the situation - take a look at this discussion for some further discussion on speed reliability etc between B and B go down through all the high scored answers
+
+i think B will perform better than B gcdasyncsocket in your case video transfer
+
+also sending receiving data over B is much simpler than over B and it does not require any connections
+
+the fact that B s header size is less than B s is because is a simpler protocol that needs less header space that s all there is to it
+
+please note however that this architecture implements B which is much slower than B and will not work for any type of fast-paced data intensive games but should accomplish your goals given your description above
+
+B is more of a fire and forget whereas B maintains a connection state
+
+instead of implementing all these over B it is much better just to switch to B
+
+also note that it is easy to implement your own stack on top of B that performs worse than B
+
+apart from that B packets by themselves are not slower than B packets and data transfer with a simple B connection can be faster than with a simple B connection because flow control and reliable transfer is already integrated and you don t have to reinvent everything again and often worse
+
+from experience i can tell you B is about 10-15 faster than B on dedicated and B-tuned networks
+
+the problem with using B is obviously that it is a lot slower than B
+
+B as you know B is faster than B even if B may miss some
+
+B is quicker than B but if you re using quickfix you ll be using B
+
+in my experience B based code is generally less complex than B based code
+
+certainly B has more overhead than B
+

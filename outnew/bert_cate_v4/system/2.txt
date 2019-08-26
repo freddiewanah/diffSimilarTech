@@ -1,0 +1,46 @@
+consider * its architecture is definitely better than * s
+
+but in my opinion for most sites * is a better choice than *
+
+since * is a bit more complete than * when it comes to features you could define separate issues with custom field for your tasks
+
+make sure you re using a source control system that supports branching and merging i ve had experience with * and * and while * is better * is free
+
+i ve read that * contains less project management tools than *
+
+i have been trying out * to see if i like it better than *
+
+however if i d built a new site with a cms on java i d probably go with * cms because the documentation and community is more mature despite that it s newer than *
+
+i seem to be getting the impression that * is more popular than * nowadays
+
+i hear all this stuff about * being slower than *
+
+i would not mind changing to for example * or * if needed i am a bit afraid of * to be honest everything i read about * seems 10x more technical than anything i read about mercurial or * and installing it on windows seems to imply installing all sorts of secondary software it seems but that is another matter
+
+it works fine and fits all my needs but recently i found that * works better than * so i decided to use it but i face a problem with * usability because most * s gui not user friendly as * explorer so i want your advice based on a practical experience which best * s gui user friendly or which one is most similar to * explorer
+
+most modern * are also considerably more complex than * which would add further difficulty to the implementation
+
+i d recommend * like the other posters as it is more complete than *
+
+* was written to be a better * than *
+
+generally the performance of hard * like * is better than that of traditional unix *
+
+the compare dialog of * is more about file and with git you have to compare two master branches not just two commits of the same branches both pointing to the same * central repo
+
+one important reason is because * is alot shorter and easier to read than * is for humans
+
+if you use * then it still okay because * handles binary files much better than *
+
+* was supposed to be better than * but in some areas that didn t work well
+
+for all the reasons linked in the comment and elsewhere * tends to be a much better enviroment than * or vss unless you have some weird requirements - so if you can successfully import your history and save the company money i wouldn t see why the bosses wouldn t go for it
+
+in this case i converted the * to * and found the file size on the hard drive it was on my own laptop at the time but it was much smaller in * than in * but there could have been some compression applied i dont know but everything on the web said * would actually be bigger than *
+
+part of the point of * was to make the use of branches and merging much easier than in *
+
+* s issue *king is little better than * s...i know a lot of folks love * but i find it very inflexible
+

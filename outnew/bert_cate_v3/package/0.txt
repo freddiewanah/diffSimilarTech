@@ -1,0 +1,10 @@
+however there are many others ts * which is generally faster than * .
+
+according to the above posts and my own experience * is definitely faster than *
+
+the reason for using * for such a task is that it cleans html files better than * do
+
+it uses * underneath and is much faster than *
+
+* is more suitable for html parsing than *
+

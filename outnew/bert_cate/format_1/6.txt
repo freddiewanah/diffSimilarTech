@@ -1,0 +1,48 @@
+for example if your screen is 600 pixels wide and if the B B string takes more than 600 pixels to display you will not be able to see the end of your B B
+
+for example if your screen is 600 pixels wide and if the B B string takes more than 600 pixels to display you will not be able to see the end of your B B
+
+if a B file is newer than the corresponding B file or the corresponding B file doesn t exist then i want to run a bunch of commands to convert the B file to an B file and copy the tags across
+
+if the latter is what you want you could use B which is somewhat easier than the B format
+
+if the latter is what you want you could use B which is somewhat easier than the B format
+
+if you ask if a uncompressed B which contains pcm data is better than B then yes but the question sometimes is how much this better really matters to the human ear and how much postprocessing you have to perform on that data
+
+you should definitely pick B because they are about 10x smaller than B files of the same duration
+
+B files are about 3 times larger than B files so it would need 1.8gb additional space to do the conversion
+
+if you ask if a uncompressed B which contains pcm data is better than B then yes but the question sometimes is how much this better really matters to the human ear and how much postprocessing you have to perform on that data
+
+you should definitely pick B because they are about 10x smaller than B files of the same duration
+
+B files are about 3 times larger than B files so it would need 1.8gb additional space to do the conversion
+
+one thing to note is that B supports a smaller palette than B - only up to 256 colors
+
+but keep in mind that the B color palette is way smaller than B
+
+if your B files are coming out larger than equivalent B files it is almost certainly because your source image has more than 256 colors
+
+jpg and B work well for most applications but the files will be larger than B for very simple graphics
+
+i used B because its file size 2.1kb was considerably less than B or jpeg in this case
+
+one thing to note is that B supports a smaller palette than B - only up to 256 colors
+
+but keep in mind that the B color palette is way smaller than B
+
+if your B files are coming out larger than equivalent B files it is almost certainly because your source image has more than 256 colors
+
+jpg and B work well for most applications but the files will be larger than B for very simple graphics
+
+i used B because its file size 2.1kb was considerably less than B or jpeg in this case
+
+i used ppm B files as they are simpler to write and more portable than B
+
+the only thing i can suggest is that you use B format which is even easier than B for you to read from
+
+the only thing i can suggest is that you use B format which is even easier than B for you to read from
+

@@ -1,0 +1,64 @@
+anyways B is bad and on longterm especially if you are enough good for java i suggest you to use some better db with B you were really satisfied i think
+
+i ve found that B is in my expirience is slower as B
+
+B is more than capable of serving your needs as well as alex s suggestion of B
+
+B license bsd is undoubtedly more simple than B s
+
+generally speaking i find B lends itself to 24 7 operations better than B
+
+why B is more capable than others B etc. on django
+
+B mariadb is slightly worse than B
+
+all that said B is much more acid compliant than B it handles fks just as you re needing and i would generally recommend it based on what you ve expressed in your post
+
+i know B could be considered more mature than B with regards to locking thanks to mvcc - can i use row-locking or some other feature in B instead of the token field
+
+in my personal openion B is slower than B and mongo db
+
+i am using B btw which can do more than B incase that changes things
+
+i hear B is more robust and doesn t crash like B does in these situations
+
+in my cases B was better than B B do not completely support unicode
+
+B is far more powerful and scalable and doesn t have B s silly limitations and gotchas
+
+B is faster than B s innodb
+
+as i said B is far superior and i hate mucking with B s bizarre bugs and i think that overall B performance is probably better than B for any even slightly complicated query
+
+anyways B is bad and on longterm especially if you are enough good for java i suggest you to use some better db with B you were really satisfied i think
+
+i ve found that B is in my expirience is slower as B
+
+B is more than capable of serving your needs as well as alex s suggestion of B
+
+B license bsd is undoubtedly more simple than B s
+
+generally speaking i find B lends itself to 24 7 operations better than B
+
+why B is more capable than others B etc. on django
+
+B mariadb is slightly worse than B
+
+all that said B is much more acid compliant than B it handles fks just as you re needing and i would generally recommend it based on what you ve expressed in your post
+
+i know B could be considered more mature than B with regards to locking thanks to mvcc - can i use row-locking or some other feature in B instead of the token field
+
+in my personal openion B is slower than B and mongo db
+
+i am using B btw which can do more than B incase that changes things
+
+i hear B is more robust and doesn t crash like B does in these situations
+
+in my cases B was better than B B do not completely support unicode
+
+B is far more powerful and scalable and doesn t have B s silly limitations and gotchas
+
+B is faster than B s innodb
+
+as i said B is far superior and i hate mucking with B s bizarre bugs and i think that overall B performance is probably better than B for any even slightly complicated query
+

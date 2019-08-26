@@ -1,0 +1,120 @@
+* probably is more complete to manage canvas than * but the problem is always to exclude the finger touch if i m using the pen
+
+also nice to know is the fact that the latest version of * and also * don t know since when but longer than * supports userscripts out of the box no need to install any add-ons
+
+* may be sniffing the document s encoding with more flexibility than * is
+
+in * the button should be a tad smaller than in *
+
+* is more forgiving or you could call it less compliant * less so
+
+however if thats the case does this mean * is faster in execution than *
+
+2 install the * extension there s also one for * but the * one is more reliable -- so if you re a * addict like i am then use both
+
+it works in * because * is more lax about this security restriction and * happens to be more strict on mixed-content errors
+
+or does this mean * is less secured on that point than *
+
+i have tried * and it better than * crash issue is not always happen but not solved this issue
+
+but * keeps being less responsive than * or ie
+
+also * s map function is up to 2x slower than * on my machine
+
+also * 4 has hardware accelerated canvas that is marginally faster than ie9 and a lot faster than *
+
+* is more technically correct in this case as it outputs the state of the object at each point in the loop whereas * is apparently waiting until the end of the loop to output each console.log but i m not aware of a standards specification that covers the console host object
+
+based on what you have provided i cannot tell if * actually does load faster than *
+
+on my computer * performs much better than * on these tests using jsperf
+
+i ve ran into out of memory errors on * with canvas heights greater than 8000 * seems to handle much higher at least to 32000
+
+apparently * is pickier than *
+
+i m trying to add a ribbon to a page using css3 linear-gradients but the rendering in * looks a lot less pleasant than its * or ie alternative
+
+* s default textbox includes more padding than ie *
+
+notably this doesn t happen in all browsers * renders more smoothly than ie and * for instance but is there any way i can make those white lines stop appearing when the user zooms in
+
+after looking into the issue with the inspection tools of both browsers it seems that * is making the #main_nav_bar ul 10px wider than *
+
+for example if you have a text size of 15px well * makes a larger 15px than * does
+
+bad buffering can also be a result of a slow computer because statistics show that * is better for a normal-fast computer and * works best on slow computers
+
+i suspect that this may be the case because ie and * need to know about the content of the div earlier than *
+
+* text is 1px lower than in * and ie
+
+open up the fiddle in both * * to see what i m talking about - in * the positioning of the background image is much lower than in * safari
+
+i know different engines render fonts differently and but the issue i m having is that * renders the font higher than * - at the size i am displaying the font this is very noticeable 3 or 4 px - which on a button means they re totally misaligned
+
+arabic default font in * is larger than it is in *
+
+* provides more detailed information about the ajax errors even when * doesn t say anything
+
+as * s v8 is dramatically faster than * s spidermonkey at the moment these things are constantly in flux pick the forward loop as it s faster on the slower engine
+
+in my testing * is nicer it pops-up the unresponsive alert whereas * apparently doesn t care
+
+i need to do the same condition but for less than * version 46 and for less than * version 44
+
+obviously * is more persnickety whereas * defaults to moving and sizing the printout as necessary
+
+thus i think * is perhaps more right but other developers at * think otherwise
+
+so why is * less efficient than * and ie
+
+i am not concerned about the fact that * runs faster as browser js implementations will vary so much as the wide spread of results encountered in * that makes getting an accurate result impossible
+
+is it because * has much better javascript support than *
+
+but i guess * i have version 10 should be much faster than * 3.6
+
+* is more flexible in this sense than * which is why it works there
+
+it s just a matter of preferences and browser implementation eg * works faster with brackets while * works faster with the dots
+
+the most interesting thing i noted is that certain test combos in * are much quicker than even *
+
+* is reporting the missing key with a higher severity than * is so i want to eliminate that as a possible cause
+
+now when clicking a time less than 1 millisecond will be displayed however it obviously takes nearly a second on my computer until the changed color actually is displayed where btw. * seems to be faster than *
+
+as you said * is faster than * so the webdriver is trying to interact with the dom before when elements are not yet visible exist
+
+* thumbnail 4 times smaller than on *
+
+i found programming * extensions easier than * but i couldn t come across something similar to xpcom in *
+
+when i ran the test individually with a timer * actually performed better than * hope this helps
+
+but if firebug donâ t enabled after launch * â time equal 2ms that faster than * and google-chrome and difference between empty filled array disappears
+
+it s not even a webkit issue unless * s got a newer version than *
+
+i think * renders the moves better than *
+
+* renders open sans bolder than in * so you would need to apply a lighter font weight for * open sans google web fonts rendering in *
+
+* is worse than *
+
+* still uses the older version while * uses a more current one
+
+conclusion diff1 is faster in firefox opera and * diff2 is faster in ie and *
+
+i read somewhere that * has more stringent requirements on cross domain scripting - it and * share the same code base
+
+small in * is smaller then small in * so never ever use them
+
+* behaves better than * but an error message â œone error in opening the pageâ â shows up in the status bar if you remove the iframe during the load event
+
+it seems that ie and * are less strict than *
+
+font looks sharp in google-chrome * ie8 not as good as other 2 but less fuzzy than *
+

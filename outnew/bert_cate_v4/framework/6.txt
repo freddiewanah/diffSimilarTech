@@ -1,0 +1,52 @@
+personally i think * is much better suited for mocking the unmockable and i prefer a combination of * for my own interfaces and classes and * for framework and externalities like file i o gui db connections etc
+
+i suspect * doesn t have quite as flexible a structure it s smaller and lighter than * but a quick look at the * manual to see how behaviors components helpers and the vendors folder may be helpful
+
+* is considered slower than * but you can tweak it to enhance speed
+
+web2py may be young but the mailing list has 2000 messages month which is similar to * and far more than *
+
+it s very heavyweight and not fully featured for forms so prism or * works better as these are designed for forms from the ground up but if you do use * for forms its easy to go native if you need
+
+i have worked pretty heavily with both flavors of the gwt * libraries though i ve spent more time with * recently
+
+according to my experience * is easy to use but it has some pros and cons too every framework has but i used * on some projects and i think * is much more better than *
+
+this is only a guess and is not based on actual performance testing probably * will be doing better than *
+
+we started experimenting with * on smaller services and kind of like it more than *
+
+2 * a bit more structured than * but you have a basic app up within 10 mins and if your familiar with mvc design its a great way to develop portals incredibly quickly
+
+i know this can be achieved with * but in my experience it is easier with *
+
+here is what it would look like with * it s a little more contrived with * since you can t pass parameters directly to test functions
+
+* is more powerful with * but not necessarily richfaces or icefaces for they mostly just extend the component set which is anyway fall down to standard html components when rendered by *
+
+* seemed a bit easier than * and i started to do a hello world * app with this tutorial
+
+but a friend told me to begin with * as it s simpler and will help me when i start learning * as * is more complicated than *
+
+* is more focused on simplicity instead of functionality while * has more functionality
+
+but if the use of mongodb is a must then i suggest that you reconsider using * in the first place because mongodb has a better integration with * through mongoengine
+
+performing this asynchronous testing is actually possible in * but is handled better in another javascript testing framework * js
+
+1 split those tests to unit and acceptance and use a tool like * to help you do acceptance which is way more elegant than * for this kind of test
+
+* is rather faster than *
+
+i have no concrete figures on that but from my own experience i d estimate that instrumented tests are around 100-400 slower * seeming to be faster than ms *
+
+and * is more lightweight than * rails whatever on pretty much all counts
+
+i prefer * because there are more conveniences built into the environment than offered by * but * is much newer than * and hindsight always makes it easier make new implementations better
+
+i m in the hate it part so anything i said is biased plus in our test prototypes developing in * was faster than *
+
+before i am using * but i found out that * is much better than * and it has a lot of features
+
+also take a look at * as this has lower overhead than * and works with * forms
+

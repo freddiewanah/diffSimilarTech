@@ -1,0 +1,74 @@
+first just a heads up you may want to try firebug+firepath on * which is a more handy tool than * s developer tool
+
+in * it takes some more time compared to * safari
+
+* thumbnail 4 times smaller than on *
+
+and additionally the algorithm that * uses is better than the one in * at least for handling the resizing of text
+
+in * it s less noticeable but in * it s very noticeable
+
+i have been working with linear parsers lately and noticed the performance in * v37 was much slower than in * v30
+
+as you can see ie 8 is about 5 times slower than * 3.6 and almost 20 times slower than * 9 at least when using sunspider tests
+
+* is probably easier than * these days
+
+right now * is faster than * sunspider tests so your statement it loads faster in * is not really correct
+
+* is just faster than * which just faster than ie at bit-wise operations
+
+it looks like * is smaller in your screenshot there so * could just not be at the defined break-point yet
+
+i have too problem with text in the * is bigger maybe bolder as in * .
+
+install firebug * version is better then a * one
+
+suffice to say ie and * start having problems at larger heights than does *
+
+* text is 1px lower than in * and ie
+
+if i remove this code the width of green image in * becomes smaller but it s still bigger than necessary about 100px the * images keeps unchanged
+
+we use * though which i believe uses more ram than *
+
+* is slower than * which boats one of the highest javascript engines a modified version of webkit
+
+i m sticking with * debugging of my angular 2 app outside of vs code as its user experience is better than * especially when working with typescript files so i ll stick with that for now unless i can figure this out
+
+* is slower than * in javascript
+
+transparency is also an issue however * seems to handle all three better than *
+
+if * seems to finish earlier than * then that is the freezing glitch in action
+
+here is a simple performance test showing that in * filling is faster than clearing i am not sure what goes on with * and canvas nowadays but in * clearing is many times faster than filling both significantly faster than *
+
+it s just a matter of preferences and browser implementation eg * works faster with brackets while * works faster with the dots
+
+i know different engines render fonts differently and but the issue i m having is that * renders the font higher than * - at the size i am displaying the font this is very noticeable 3 or 4 px - which on a button means they re totally misaligned
+
+ie8 is the same and * is much better but i ve migrated away to * now so would like to stick with the one browser if possible
+
+what * displays is about 5 inches higher than what * displays
+
+while the rest of the browsers report the correct width of the document * reports a smaller one example at screen resolution of 1920x1080 ie * and safari reports 1920 while * reports 1903
+
+in * it seems .prototype is faster * shows no difference between the two although generally performs slower than *
+
+* just provides far more access to its own internals and system to the extensions so its technically possible to do more with them than with * widgets or google-chrome extensions
+
+update under linux gentoo amd64 it s the same - * reneders slightly larger fonts than * but nothing that looks odd
+
+i read somewhere that * has more stringent requirements on cross domain scripting - it and * share the same code base
+
+if i try to do a google search for website loading slower in * than in * i get a lot of results about how * is slower than *
+
+ios * is more ios * than * itself
+
+* is more funny than * i can easily make * cache my page but * does not
+
+i think * renders the moves better than *
+
+* is just better for web development and i prefer * overall
+

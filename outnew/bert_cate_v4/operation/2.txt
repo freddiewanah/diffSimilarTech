@@ -1,0 +1,88 @@
+so the compiler can t make the optimization because it can t tell if you wanted the exact behavior where * is better or the implemented behavior where the scale of sum affects the result of the *
+
+similarly if you skip the five first elements your loop takes o n-5 time but that too is the same as o n because adding or * a constant is even weaker than * by a constant
+
+the logic is * by 2 whole number 0.1 2 0.2 and if it s bigger than 1 * and continue
+
+* is faster than *
+
+if * result is larger than 1 push the current transformer to the results array and * the current wattage from the total wattage
+
+if i make a mistake and * a number by 1.0 instead of 1 and i do not use any compiler optimization then my * will last much longer than * a number by 1
+
+mathematically left shifting is the same as * a number by a power of 2 but as the operation is done only by shifting it is much faster than doing *
+
+i need some help though i need each number in that list to be * from 27 then if the result is less than 33 * 94 then print the numbers as they were just with that sum completed how do i do this
+
+just take the difference and if it s negative * 2pi and then if it s greater than 2pi * 2pi
+
+provided a string i want to convert the chars from the string to an int * a value from another method getkey to this number and if the result is greater than 26 * 26
+
+to find all the pairs of integers x and y that sum to n when cubed set x to the largest integer less than the cube root of n set y to 0 then repeatedly * 1 to y if the sum of the cubes is less than n * 1 from x if the sum of the cubes is greater than n and output the pair otherwise stopping when x and y cross
+
+look at it this way based on your logic while x is greater than 100 * 5 while it s greater than 500 * 5 .
+
+i read about python following pemdas that is precedence of * is more than *
+
+according to agner s instruction tables a single fp * is slower than a single reciprocal op and a single * op
+
+an expression like binds as not because of associativity but because 2 * has higher precedence that + 2 *
+
+though i was thinking the * is more simple than *
+
+in any case if * is faster than * a better solution might be to use a table and index by it
+
+this is valid under normal arithmetic operator precedence rules because * has higher precedence than * +
+
+on modern processors floating point * is generally slightly more expensive than * which is one reason why compilers will typically replace by x+x
+
+the and operator has higher precedence than or just like * has higher precedence than *
+
+so in your case an expression like 3+2 5 would yield 25 instead of 13 because * is of higher precedence than *
+
+start with the number you want to reach and if it s divisible by 5 then divide by 5 because * by 5 results in a shorter solution than * by 3
+
+* has higher precedence than * subtraction
+
+that s because the * oprator has higher precedence than *
+
+because * has a higher precedence than *
+
+so ideally i want to have approximate relative times of elementary operations execution like * typically takes 5 times more time than * exponent is about 100 *
+
+* has a higher precedence than * so it is evaluated first
+
+in technical terms the x * operator has higher precedence than the + * operator
+
+i assume that is parsed correctly because the two operators have different precedences meaning that associativity does not come into play and that your grammar correctly implements precedence although you should note that is a more standard example for showing that * has higher precedence than * since simple left-to-right parsing of gives the same result as your parser
+
+the result of the * was better than the * the by 0.0070000 milliseconds over the course of 2 million or 200 000 iterations
+
+* sub are cheaper than * better throughput and lower latency
+
+if the numbers are huge dividing x by b might be betterâ * is usually slower than * but getting out of the huge-number domain early might help more than avoiding *
+
+easiest way is to simply recognize that * is nothing more than the * of the dividend y and the inverse of the divisor x
+
+* is far easier and faster for a cpu to do than *
+
+* algorithms are slower than * algorithms in most cases
+
+because * is often much slower than * if performance is critical you might keep a table with powers of ten and their reciprocals
+
+usually * is a lot more expensive than * but a smart compiler will often convert * by a compile-time constant to a * anyway
+
+on many processors integer * is faster than integer *
+
+a111 * is equal or better than *
+
+* has a higher precedence than * or subtraction so it s really this
+
+multiplication and * have a higher precedence than * and subtraction
+
+the * operator has a higher precedence than the * operator + so you need to enclose the sum with brackets before dividing
+
+so if your code has tough data dependency problems * is about 12 times faster than *
+
+the * has higher precedence than the * so what you re calculating is sumaverage1+ sumaverage2 5 which is integer * which is probably not what you want
+

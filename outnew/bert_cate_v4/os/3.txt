@@ -1,0 +1,10 @@
+is there anything obvious in * that would otherwise be making sfphpview- render run slower than *
+
+* makes it easier to maintain groups of machines without having to manually update each one using *
+
+i m testing some simple benchmarking calculations on win7 and * * 16 to compare the timings and being wonder win appears to be much faster than *
+
+i m in * wheezy which is much more recent than * 10.04
+
+the main advantage of the * image is the smaller size â it clocks in at around 85.1 mb compared to around 200 mb for *
+

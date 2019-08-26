@@ -1,0 +1,40 @@
+programmers like to use this property to speed up programs because it s easy to chop off some number of bits but performing a * is much harder it s about as hard as doing a *
+
+but that s not the case here since division and * have higher precedence than * and there are no parentheses involved
+
+well we know it is the first one because of precedence - the binary * operator has higher precedence than the binary + * operator and is resolved first
+
+because * is faster than * and can be faster than shift
+
+it s because * has higher precedence than *
+
+since * has a higher precedence than * the same convention is used
+
+for example in the expression 1 + 5 3 the answer is 16 and not 18 because the * operator has a higher precedence than the * + operator
+
+it is because * operator has higher precedence over the * + operator
+
+for example * is of higher precedence than * so 2 + 3 x 4 is equivalent to 2 + 3 x 4 not 2 + 3 x 4
+
+in arithmetic * has higher precedence than *
+
+division and * have higher precedence than * so what this is actually doing is
+
+clearly ruby considers the * operator to be of a higher precedence than the * + operator
+
+* has higher operator priority than * in java
+
+* can also cause a divide-by-zero and it has a higher precedence than *
+
+in this since * has greater precedence than * therefore x 10 will execute first and here we are dividing two int irrespective of the fact that the variable where final answer is stored is a double so answer will be an int i.e 5 10 0 and then * of an int and double will be done here int will be promoted to a double
+
+* has higher precedence than *
+
+it is common knowledge that * takes many more clock cycles to compute than *
+
+if * are o n 2 this is slower than long * for large numbers o n 2 vs o n 2 log n
+
+2.the * by 2 can be done by bit - shift operation is it really slower than *
+
+and * has larger complexity than *
+

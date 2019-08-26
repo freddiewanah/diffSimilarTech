@@ -1,0 +1,6 @@
+i am not sure if * server will be much better than *
+
+in my experience i ve found that * seems to be faster than * although i don t have any hard data to back it up
+
+however i wonder if this is the best way of doing this if you want to observe specific behaviour you might be better off isolating a specific input file and debugging against a local pseudo-cluster and if you want system * you could do worse than give * a lookm as it is pretty mauch already built into hadoop
+

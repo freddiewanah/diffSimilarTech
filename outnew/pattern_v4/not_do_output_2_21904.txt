@@ -1,0 +1,1760 @@
+10162011
+passenger webrick
+Pattern(s): 1	
+phusion passenger is a full fledged rails server
+when it is used webrick is not involved
+
+
+
+10175756
+cpython pypy
+Pattern(s): 1	
+the real speed difference comes from the fact that unlike cpython which is interpreting whole program as bytecode pypy uses just-in-time jit compilation into machine code for rpython parts
+pypy isn t python interpreter implemented in python it s python interpreter and compiler implemented in rpython which is a restricted statically typed subset of python rpython is a restricted subset of python that is amenable to static analysis
+
+
+
+10217018
+dbcontext objectcontext
+Pattern(s): 5	
+it discovers entity sets based on dbset properties defined on the dbcontext derived class or in general it discovers your model based on your code
+objectcontext does not do any discovery and is not convention based
+
+
+
+10363117
+scheme racket
+Pattern(s): 5	
+scheme is defined by a standard
+racket isn t
+
+
+
+10429195
+innodb myisam
+Pattern(s): 1	
+introduction doctrine2 uses innodb which supports foreign keys used in doctrine associations
+but as myisam does not support this yet you can not use myisam to manage doctrine entities
+
+
+
+10528232
+cassini iis
+Pattern(s): 1	
+t work asp.net dev server cassini iis express and multiple threads
+if so i ve seen quite a few people saying that cassini cannot execute requests in parallel
+
+
+
+10533590
+google-chrome firefox
+Pattern(s): 5	
+browsers based on webkit google-chrome safari have html5 speach input
+example unfortunately firefox doesn t have such method
+
+
+
+10684001
+pthreads fork
+Pattern(s): 5	
+from the pthreads spec section you quote above
+the reference to create handles using fork isn t elaborated on further in this section but the spec for fork adds a little detail the child process shall have its own copy of the parent s file descriptors
+
+
+
+10690755
+realloc calloc
+Pattern(s): 1	
+do not free ptr if realloc is successful
+some folks may point out that in some esoteric systems calloc may not do what you expect specifically for pointer and floating point types
+
+
+
+10803241
+innodb myisam
+Pattern(s): 5	
+and yes using innodb makes a difference
+if you were using for instance myisam you wouldn t have transactions at all so any change will be permanent similarly to autocommit true
+
+
+
+10864646
+realloc malloc
+Pattern(s): 5	
+also i should note that in same cases you don t have to do a copy even when realloc increases the size for example if the next block in the heap is free
+malloc does not initialize memory to zero
+
+
+
+11044973
+firefox safari
+Pattern(s): 5	
+ie and firefox implement the spec correctly by putting the properties on the prototype
+chrome and safari do not they put the properties directly on the object
+
+
+
+11065399
+gradle ivy
+Pattern(s): 5	
+note that one key difference between sbt and gradle is its dependency management sbt ivy with a a revision which can be given as a fixed one 1.5.2 for instance or as latest or dynamic one
+see ivy dependency that means the -snapshot mechanism support can be problematic even though mark harrah details in this thread it is true the cache can get confused but it is not true that ivy doesn t understand resolving snapshots
+
+
+
+11157350
+google-chrome firefox
+Pattern(s): 5	
+it would appear that google-chrome will fire the click and context menu events as the op is expecting.
+but ie and firefox do not which is more the behaviour i would expect
+
+
+
+11240968
+qgraphicsview qgraphicsscene
+Pattern(s): 2	
+i have done a similar thing to use a qgraphicsscene qgraphicsview to display items in a model
+despite it s name qgraphicsview isn t part of the model view framework so i implemented a custom view class which drew the model data on the qgraphicsscene
+
+
+
+11245313
+innodb myisam
+Pattern(s): 3	
+innodb creates indices automatically for foreign keys
+myisam does not support foreign keys at all
+
+
+
+11344149
+vbscript jscript
+Pattern(s): 2	
+this will use jscript to get the utc date and time into a format that vbscript can then understand and operate on once you have utc then you can apply your own rules to convert that to ist predictably
+asp vbscript doesn t understand the concept of timezones just what the current server time is
+
+
+
+11609264
+comparator comparable
+Pattern(s): 1	
+you save memory by not creating new comparator objects and comparator is useful if you are comparing objects of different types which is not your case
+your listdata object should implements comparable not comparator interface
+
+
+
+11622152
+postgresql mysql
+Pattern(s): 3	
+sqlite is for local site and postgresql is very populare but i think it s just a choice
+if you want to use mysql it isn t a problem
+
+
+
+11671483
+ember.js backbone.js
+Pattern(s): 5	
+ember.js is 42k minified+gzip while backbone.js is just 5.6kb
+ember.js packs a lot of power in it which the barebones backbone.js doesn t give you
+
+
+
+11711308
+google-chrome firefox
+Pattern(s): 5	
+so far i can only make this work in google-chrome writing c zebra will alert c zebra
+firefox doesn t sustain the comments inside the function body when decompiled unfortunately
+
+
+
+11869634
+innodb myisam
+Pattern(s): 5	
+there are four 4 methods for handling this method #1 setup automatic myisam repair see my post on how to set this up upon a mysql restart mar 15 2012 method #2 use innodb instead of myisam innodb has crash recovery built into the storage engine s initialization
+myisam does not method #3 use aria instead of myisam aria is mariadb s drop-in replacement for myisam
+
+
+
+11940604
+g++ gcc
+Pattern(s): 2	
+you need to link with -lstdc++ using g++ to link instead of gcc or ld does that automaticaly
+see compiling c++ programs in the gcc manual however the use of gcc does not add the c++ library
+
+
+
+10114381
+udp tcp
+Pattern(s): 5	
+hint udp does not have connections so you don t have a listener socket
+for tcp you open a listener socket on which connections can be accepted
+
+
+
+10264503
+.htaccess httpd.conf
+Pattern(s): 5	
+possible duplicate of zend mod rewrite not working i believe the issue is that allowoverride is set to none for the web directory you are using which means the .htaccess will not be processed
+you will have to edit httpd.conf and set allowoverride all
+
+
+
+10287595
+erd diagram
+Pattern(s): 1	
+if you already have an erd what additional alternate property do you want to illustrate with a uml class diagram that the erd doesn t give you
+on the assumption the diagram is for human consumption only you re not code generating from it then you should use uml to expose the information you re trying to communicate
+
+
+
+10387713
+junit testng
+Pattern(s): 3	
+i suspect what you re trying to do will be easy with testng - junit does not have the grouping capability that testng does
+i always recommend that people switch to testng which is just like junit 4 except with more functionality
+
+
+
+10461517
+octal decimal
+Pattern(s): 5	
+note octal values are denoted in java by leading zero normal decimal number cannot have a leading zero
+because 0123 in not decimal digit its octal base 8 so this is equal to 83 to convert a number k to decimal use the formula that defines its base-8 representation an octal numeral consists of an ascii digit 0 followed by one or more of the ascii digits 0 through 7 and can represent a positive zero or negative integer
+
+
+
+10480101
+dbcontext objectcontext
+Pattern(s): 5	
+for example i ve read that dbcontext doesn t have the ste self-tracking entities capability
+ste was created for objectcontext and i don t think it was ported to dbcontext but you can try to implement this capability yourself
+
+
+
+10499458
+google-chrome safari
+Pattern(s): 5	
+from the blog post it seems it is buggy in safari so maybe google-chrome has not implemented it yet
+i m unable to activate that experiment myself there s no developer tools experiments in my google-chrome flags but from safari i found this explanation in short it is a little utility that allows you to enter blocks of html and css and have it rendered on the fly
+
+
+
+10533036
+ienumerable iqueryable
+Pattern(s): 3	
+ienumerable ienumerable is best suitable for working with in-memory collection. ienumerable doesn t move between items it is forward only collection
+iqueryable iqueryable best suits for remote data source like a database or web service. iqueryable is a very powerful feature that enables a variety of interesting deferred execution scenarios like paging and composition based queries
+
+
+
+10533093
+ienumerable iqueryable
+Pattern(s): 3	
+ienumerable ienumerable is best suitable for working with in-memory collection or local queries . ienumerable doesn t move between items it is forward only collection
+iqueryable iqueryable best suits for remote data source like a database or web service or remote queries . iqueryable is a very powerful feature that enables a variety of interesting deferred execution scenarios like paging and composition based queries
+
+
+
+10633193
+udp tcp
+Pattern(s): 5	
+if you are thinking about connecting devices that are under the same wifi ap router and without setting up any server then i would suggest you to consider using udp multicast which has been available since api level 1 udp does not guarantee data delivery could be lost so i would use udp multicast for device discovery and open up a tcp connection for data that requires guaranteed delivery
+tcp listening port can be advertised via udp multicast so that everyone can connect with each other over tcp
+
+
+
+10702338
+decimal ieee
+Pattern(s): 5	
+decimal cannot use the fpu
+you get best performance with float or real which map to a standard ieee floating point number which is supported by the fpu
+
+
+
+10800833
+agda ats
+Pattern(s): 1	
+agda is not designed to be a general-purpose programming language
+ats is a dependently-typed language that is designed for low-level programming though it s somewhat less elegant than agda
+
+
+
+10801252
+primefaces richfaces
+Pattern(s): 3	
+standard jsf and primefaces does not support request based el evaluation in attributes
+richfaces is the only who supports that
+
+
+
+10967108
+opera firefox
+Pattern(s): 5	
+websockets work with google-chrome firefox opera but not ie but you can use a lib that fixes things to use flash if ie is that important
+there s such an example for aleph the only thing you need to do wrt closure s websocket object is change the constructor for the wrapped socket to whatever firefox s websocket is for firefox can t remember what it is but it s not websocket or at least that s what you used to have to do but it works with google-chrome anyway
+
+
+
+11018269
+bash subshell
+Pattern(s): 3	
+bash doesn t have threads and processes don t share memory
+and subshell are still different processes - they inherit their state from their parent but they have no shared data with them
+
+
+
+11167187
+google-chrome firefox
+Pattern(s): 5	
+code that relies on the trick does not work in google-chrome because google-chrome does not support the inline processing of xml within javascript
+this is a perk of firefox which supports e4x while google-chrome doesn t
+
+
+
+11243999
+haskell agda
+Pattern(s): 5	
+haskell unlike agda does not have dependent types so there is no way to do exactly what you want
+types cannot be parameterized by value since haskell enforces a phase distinction between runtime and compile time
+
+
+
+11255651
+gson jackson
+Pattern(s): 1	
+gson does not have a built in feature to simply handle deserialization of such a json sequence
+see comments. if switching json-to from-java apis is an option jackson does have such a feature as demonstrated below
+
+
+
+11344149
+vbscript jscript
+Pattern(s): 3	
+asp vbscript doesn t understand the concept of timezones just what the current server time is
+jscript asp does and luckily enough you can mix and match your scripting languages in asp
+
+
+
+11350136
+portrait landscape
+Pattern(s): 1	
+first i think there s a typo in your question -- on a 640x960 display 640 wide is portrait mode not landscape
+portrait is vertical landscape is horizontal
+
+
+
+11603395
+uicontrol uibutton
+Pattern(s): 5	
+if uicontrol doesn t do what you want you ll need to roll your own event management
+uibutton is a subclass of uicontrol
+
+
+
+11730665
+uiview subviews
+Pattern(s): 5	
+the problem here is that the uiview doesn t own its uiviewcontroller
+in the first block of code you held the uiview around by adding it to a subviews but let the uiviewcontroller go away
+
+
+
+11769306
+rpm yum
+Pattern(s): 5	
+finally it is possible that version or rpm does not match the version of python you installed. be careful with centos and version of python you install - later python than 2.4 can break yum
+i think for your version yum is built with python 2.4
+
+
+
+11895699
+atof strtod
+Pattern(s): 1	
+meanwhile atof is not locale-aware
+the language specification does not require atof strtod to recognize locale-specific number formats for locales other than c locale
+
+
+
+11937185
+centos linux
+Pattern(s): 3	
+this is definitely amazon linux centos based not ubuntu
+another hint is that the default username in amazon linux is usually ec2-user while in ubuntu it is ubuntu at least if you use the default stock ami
+
+
+
+12059546
+selecteditem selectedindex
+Pattern(s): 3	
+after debugging when the field is added back to the list of fields it still retains the previous selecteditem value - and then the combobox s selectedindex is immediately set to -1
+preventing this in the setter for formfield.selectedoperator and by trying selecteditem selectedindex doesn t help
+
+
+
+12082396
+udp tcp
+Pattern(s): 5	
+udp doesn t care and thus sends less packets
+in my experience udp based code is generally less complex than tcp based code
+
+
+
+12098951
+content-length content-type
+Pattern(s): 5	
+the most common quirks with ie9 that often do not bother web browsers are mismatches in content-length well this did bother safari last time i looked possibly content-type this acts in reverse - ie9 sometimes correctly gleans html mimetype even if the content-type is wrong connection close
+so yes it could be a problem with http pipelining specifically if you pipeline a request with invalid content-length and not even chunked-transfer-encoding ie might wait for the request to finish
+
+
+
+12101094
+clang llvm
+Pattern(s): 5	
+clang though also based on llvm does not support cuda
+2016-05-01 update clang now supports cuda
+
+
+
+12129326
+.htaccess httpd.conf
+Pattern(s): 3	
+you might try searching the internet for .htaccess options not allowed here
+a suggestion i found using google is check to make sure that your httpd.conf file has allowoverride all
+
+
+
+12190604
+uiview subviews
+Pattern(s): 5	
+and in the implementation add you should be doing it as a uiview not a uiviewcontroller
+the general rule in ios development is that view controllers take up the entire screen and views are used for subviews that take up part of the screen though this is less the case for ipad
+
+
+
+12211332
+vim textmate
+Pattern(s): 5	
+textmate 1 you need to create a symbolic link i have textmate 1 i use vim now ln -s applications textmate.app contents resources mate usr local bin mate
+by adding the following to the core section in .gitconfig update ok if it s already there then the issue is probably with textmate and not git
+
+
+
+12258446
+postgresql mysql
+Pattern(s): 1	
+mysql i wouldn t recommend because you are really tying everything to one app only that can write to the db sql mode soup means relations are basically a private api instead of the public api they are in postgresql firebird and ingres and this means less flexibility down the road
+however with postgresql you get a top-notch extensible development platform in a box
+
+
+
+12282599
+google-chrome firefox
+Pattern(s): 1	
+internet explorer and google-chrome automatically make global variables for dom elements with id values
+firefox doesn t because no standard says it should and it s a goofy idea anyway
+
+
+
+12422218
+calloc malloc
+Pattern(s): 5	
+secondly malloc does not initialize the memory allocated while calloc initializes the allocated memory to zero
+calloc allocates a memory area the length will be the product of its parameters
+
+
+
+12462053
+clang llvm
+Pattern(s): 1	
+in fact in the clang compiler it plays a major role but that s entirely internal - what comes out of clang is pure native arm ios machine code
+llvm is not a virtual machine in that sense of the word
+
+
+
+12533649
+onchange onfocus
+Pattern(s): 5	
+if the value of an element is changed via script then your onchange will not be triggered
+in such cases you need to save the value onfocus and check the value onblur and trigger onchange manually
+
+
+
+12571621
+rvm bundler
+Pattern(s): 5	
+you could uninstall the newer version s of bundler though this is a crappy way to deal with the issue or since you re using rvm just create a gemset for rails 3.0.1
+note this requires that bundler not be in your global gemset for the ruby version you re trying to use
+
+
+
+12599696
+udp tcp
+Pattern(s): 3	
+first off you ll want tcp streams not udp datagrams
+datagrams are limited in size and udp is inherently unreliable
+
+
+
+12649192
+equals gethashcode
+Pattern(s): 5	
+if the gethashcode are not equals then two objects are not equals
+if gethashcode is equals then two objects may or may not be equal. equals is the tie breaker
+
+
+
+12651036
+ssl https
+Pattern(s): 5	
+data transferred over ssl will not be cached by the visitor s browser instead will be downloaded each time a page is loaded
+using ssl https is recommended if a page contains sensitive data personal data or offers interactions like contact forms etc
+
+
+
+12679917
+fread strcpy
+Pattern(s): 1	
+a probable cause for the behaviour is that strcpy requires the source string to be null terminated which is not the case here as fread does not append a null terminator for you nor could it in this case as fread is reading the exact buffer size
+strcpy also appends a null terminator which means the strcpy call will definitely be writing beyond the buffer
+
+
+
+12686116
+padrino ruby-on-rails
+Pattern(s): 5	
+sinatra and padrino are not automatically faster than ruby-on-rails
+they are just smaller than ruby-on-rails and supply the developer with a smaller more focussed toolkit
+
+
+
+12780476
+notepad++ sublimetext
+Pattern(s): 3	
+notepad++ is also not great at detecting it but when you know the encoding you can set it manually
+sublimetext is as far as i know best at detecting the encoding also in large files
+
+
+
+12835140
+factors matrix
+Pattern(s): 3	
+if your code is slow this probably means that your factors is not that sparse sparse anymore
+you need to make sure that your matrix is properly reordered to minimize the fill added non-zero entries during sparse factorization
+
+
+
+12843558
+google-chrome firefox
+Pattern(s): 1	
+i tried several tests of google-chrome v ie9 and google-chrome would not work under any configuration with the root password set
+i also tested firefox it also worked fine the issue is only with google-chrome
+
+
+
+12867428
+cpython pypy
+Pattern(s): 5	
+cpython s reference counting scheme for memory management arguably has more predictable performance impacts than pypy s various gc systems although this isn t necessarily true of all pure gc strategies
+pypy does not yet fully support python 3.x although that is an active work item
+
+
+
+12890280
+jtextfield jlabel
+Pattern(s): 1	
+for your case you can use jtextfield not jlabel edit heres related question enter link description here
+i still searching for this answer too here s i try so far.. i create jpopup and put the jtable in there.. then i use jlabel not jcombobox when user click jlabel then the popup jtable will show in that jlabel location.. when user select value on jtable then the popup will dispose then the jlabel will show the result
+
+
+
+12903383
+google-chrome safari
+Pattern(s): 1	
+since safari didn t like the trailing lf in your header i tried removing it i.e when i make this change google-chrome is able to see your response message i.e got hello shows up in the javascript console
+safari still doesn t work
+
+
+
+12913535
+ecobertura eclemma
+Pattern(s): 1	
+no idea whether ecobertura has the same issue though
+one factor may be that eclemma does not measure coverage correctly for exception handling code - it may tell you that code is not covered when in fact it is executed if you step through with the debugger the code is indeed executed
+
+
+
+12955959
+daemons systemd
+Pattern(s): 5	
+double-check that your window manager or a hotkey daemons isn t consuming your f1 s before they hit your process
+this works fine f1 closes the program on my systemd i did notice that keycatch was undefined
+
+
+
+12975190
+configobj configparser
+Pattern(s): 1	
+configparser seemed cumbersome to me maybe even dare i say it unpythonic and with configobj i encountered an esoteric problem with lists i d prefer to be able to align them vertically since mine get really long and it didn t help that the latest version was published more than two years ago
+the api of configparser however looked as spiffy as that of configobj albeit not as feature-rich and when we move to python 3 i can probably switch to the built-in version easily
+
+
+
+13038245
+serializable deserialization
+Pattern(s): 5	
+you might need a different view on deserialization and not just on serializable and that would be a jackson 2.0 feature - supported by spring 3.2 and backported into spring 3.1
+using a view on serializable only is a feature since jackson 1.4
+
+
+
+13051170
+memcpy strncpy
+Pattern(s): 5	
+instead you should use memcpy and then terminate the new string memcpy does not check for 0 and so is faster
+matthew when you already know the length of the string you are copying you don t need strcpy or strncpy which check each character looking for the 0 at the end
+
+
+
+13054742
+setinterval settimeout
+Pattern(s): 3	
+you should use settimeout instead of setinterval as setinterval will not stop until you stop it using clearinterval or by unloading the page
+at the other hand settimeout will run only once for each loop with delay of 6000ms
+
+
+
+13151385
+octal decimal
+Pattern(s): 3	
+for further reading on this back to your problem with jsch the decimal integer 775 s octal representation is 0o1407 my suspicion is that the decimal 775 is actually sent instead of the octal 775 and filezilla may very well be truncating the stuff to the left of the 3rd least significant digit of 0o1407 because it s not unreasonable for it to assume there s nothing past the 3rd least significant bit now 509 is the decimal representation of octal 775 try using that with jsch instead
+the file permissions code in unix 777 for example are octal not decimal
+
+
+
+13154077
+thin unicorn
+Pattern(s): 3	
+for example to implement rolling restarts in mongrel and thin you need quite a lot of steps in your deployment scripts
+unicorn doesn t require as many steps but still significantly
+
+
+
+13154422
+uiview subviews
+Pattern(s): 3	
+i had subclassed uiview added it inside uiscrollview and the gesture recognizers of my subclassed uiview s subviews were not firing - except for the ones that were initially visible as before any scrolling
+the simple fix was to add the uiview s subviews directly to the uiscrollview instead of my subclassed uiview
+
+
+
+13247601
+memcpy realloc
+Pattern(s): 3	
+calling it twice for contraction and expansion or calling malloc-new memcpy free-old is very unlikely to be as efficient though as with all optimisations you should measure don t guess
+keep in mind that realloc doesn t necessarily have to copy your memory at all
+
+
+
+13247861
+innodb myisam
+Pattern(s): 1	
+innodb implements row-level lock for inserting and updating while myisam implements table-level lock
+innodb has transactions while myisam does not
+
+
+
+13247861
+innodb myisam
+Pattern(s): 1	
+innodb has transactions while myisam does not
+innodb has foreign keys and relationship contraints while myisam does not
+
+
+
+13247861
+innodb myisam
+Pattern(s): 5	
+innodb has foreign keys and relationship contraints while myisam does not
+innodb has better crash recovery while myisam is poor at recovering data integrity at system crashes
+
+
+
+13247861
+innodb myisam
+Pattern(s): 1	
+innodb has better crash recovery while myisam is poor at recovering data integrity at system crashes
+myisam has full-text search index while innodb has not
+
+
+
+13259411
+firefox safari
+Pattern(s): 1	
+safari also doesn t apply it but interestingly it does if you go on to press a key on the keyboard. in firefox however the hover class is applied immediately
+since chrome and firefox were the only two i initially tested with i thought this was a bug in chrome
+
+
+
+13276564
+tabcontrol tabitem
+Pattern(s): 5	
+this case had to be fixed in the tabcontrol itself because tests showed when the fake visility is set for the first time the tabitem does not have access to it s tabcontrol yet
+because of that i also used a attached property for the tabcontrol which corrects this issue
+
+
+
+13407535
+awt swing
+Pattern(s): 5	
+if you need to modify swing components from threads other than the awt event dispatch thread use
+swing is not thread-safe
+
+
+
+13409241
+google-chrome firefox
+Pattern(s): 5	
+on my machine with no tel handler google-chrome simply does nothing ie9 says some content or files on this webpage require a program that you don t have installed
+reasonable and firefox says firefox doesn t know how to open this address because the protocol tel isn t associated with any program
+
+
+
+13411307
+postgresql mysql
+Pattern(s): 1	
+sqlfiddle demos postgresql works fine sqlite3 works fine same query text but needed single-valued inserts due to apparent jdbc driver limitation mysql 5.5 fails two ways
+mysql doesn t like a. rowid quoting even in ansi mode so i had to un-quote
+
+
+
+13496434
+division modulo
+Pattern(s): 5	
+second your algorithm is trial division not the sieve of eratosthenes and will have time complexity o n 2 instead of o n log log n
+the modulo gives the game away
+
+
+
+13501360
+rsa aes
+Pattern(s): 1	
+rsa is not intended for bulk data encryption
+instead use a symmetric cipher like aes to encrypt your large string
+
+
+
+13522918
+inline inlining
+Pattern(s): 5	
+this inline does not necessarily mean the usual macro style inlining
+the macro style inlining is decided by compiler and the programmer doesn t have much control over it
+
+
+
+13541711
+memmove malloc
+Pattern(s): 2	
+note that you can use memmove to perform the copy instead of the for-loop
+also note that the cast of the return value of malloc is not required and should be avoided
+
+
+
+13585357
+strdup strncpy
+Pattern(s): 3	
+i suspect strdup is actually the most appropriate for what you are doing you seem to want to allocate new memory for the duplicated string
+strcpy and strncpy do not allocate new memory
+
+
+
+13585357
+strncpy malloc
+Pattern(s): 5	
+strcpy and strncpy do not allocate new memory
+strdup returns a pointer to the newly allocated memory exactly as malloc does and strcpy and strcpy take char arguments and do not allocate memory
+
+
+
+13590026
+debian linux
+Pattern(s): 5	
+debian uses a modified bash which does not do this when invoked as sh.
+i guess if you run mount than you need root privileges so maybe this is your case excerpt from man system on linux do not use system from a program with set-user-id or set-group-id privileges because strange values for some environment variables might be used to subvert system integrity
+
+
+
+13629348
+macports homebrew
+Pattern(s): 2	
+try uninstalling ffmpeg and using homebrew to install the package instead of macports brew install ffmpeg --with-libvpx or brew reinstall ffmpeg --with-libvpx then your command should work
+your configuration of macports was not built with libvpx
+
+
+
+13659233
+serializable deserialization
+Pattern(s): 1	
+this class is as follows the key here is using the serializable to write an anonymous object that includes only the desired properties
+note that readjson is left unimplemented - i am assuming that deserialization is not required at this stage
+
+
+
+13668722
+vim emacs
+Pattern(s): 3	
+but emacs is not vim they have different ideas behind both
+vim is just a text editor with programming extensions it s not a place for terminal inside just as for tetris and m-x doctor
+
+
+
+13689722
+portrait landscape
+Pattern(s): 3	
+just because you perceive it as landscape doesn t mean it s actually not rotated portrait
+in short draw your splash screens as if they are portrait but draw them sideways
+
+
+
+13837311
+postgresql mysql
+Pattern(s): 5	
+function for postgresql i do not know
+for mysql please see the load xml syntax docs
+
+
+
+13915359
+ienumerable icollection
+Pattern(s): 1	
+ienumerable is fine that can t alter the collection
+icollection is not
+
+
+
+13993216
+client-side server-side
+Pattern(s): 1	
+client-side validation isn t a security measure it s just a better user experience
+server-side validation is the only real validation
+
+
+
+13995985
+google-chrome firefox
+Pattern(s): 5	
+when you access the app within facebook https is used to transfer the data but google-chrome has blocked content delivered over normal http as a result and insists that everything be transfered securely whereas firefox isn t so fussy
+here s what the console is showing in google-chrome google s js api has been blocked and the javascript fails to run
+
+
+
+14017089
+postgresql mysql
+Pattern(s): 1	
+postgresql has a native boolean type where true is represented by the string literal t and false by f there are other literals but those are the most common ones
+mysql doesn t have a native boolean type and uses c-style integers for booleans instead
+
+
+
+14038388
+hex binary
+Pattern(s): 1	
+if you consider look at the coa8010b c0 in hex is equal to 192 in decimal a8 168 01 1 and 0b 11
+in short this is a binary representation not a string representation of 192.168.1.11
+
+
+
+14160749
+google-chrome firefox
+Pattern(s): 5	
+this will horizontally align the checkboxes. see also text-align right has margin or buffer in google-chrome adjust the width of both input elements in that form to 1em
+google-chrome seems to automatically expand the width of these to the available space in the container while firefox does not
+
+
+
+14160809
+cypher gremlin
+Pattern(s): 1	
+in my projects i typically use gremlin and then call cypher from within gremlin or not when i need tabular results or expressive pattern matching- both are a pain in the gremlin dsl
+the neo4j team s efforts on cypher have been really impressive and it s come a long way
+
+
+
+14164507
+realloc malloc
+Pattern(s): 1	
+allocate the block using malloc not new and then use realloc
+realloc knows how much free space is available after the block for expansion
+
+
+
+14165942
+super self
+Pattern(s): 5	
+it finds c.__init__ and therefore super d self .__init__ calls c.__init__ self
+notice that super is not trying to access getattr b __init__
+
+
+
+14244931
+mockito jmockit
+Pattern(s): 1	
+8.1.1.2 final classes of the java language specification 8.4.3.3 final methods of the jls 4.10 of the java virtual machine specification that mockito cannot bypass means mockito isn t currently able to overcome final classes or final methods in order to mock them because at moment mockito uses cglib to generate subclasses of the type to mock
+but other frameworks like powermock or jmockit may be able to do it as they have other strategies to overcome this
+
+
+
+14269667
+selecteditem selectedindex
+Pattern(s): 5	
+the symptoms of the bug are that selectionchanged doesn t fire selectedindex selecteditem aren t reliable and that back navigation into a page with panorama resets the panorama selected item
+for example the following code sample will never fire the messagebox and selectedindex selecteditem won t indicate the correct expected values
+
+
+
+14290569
+strcpy strncpy
+Pattern(s): 1	
+notice the routine is strncpy not strcpy
+strcpy is unsafe
+
+
+
+14349944
+mathml mathjax
+Pattern(s): 5	
+for tex-like input you could give jqmath a try it is much smaller and faster than mathjax but doesn t try to do such a complete job for mathml input webkit and firefox now support that by default but getting math fonts installed by default on the platforms is still an issue and it may take a while for the mathml support to reach all relevant browsers
+for example mathml is in chrome 24 released last week but neither the mobile version of chrome nor the android stock browser use a new enough webkit base at present
+
+
+
+14398264
+union distinct
+Pattern(s): 5	
+depending on the query ef will generate either union all with distinct or just union so your explicit distinct is not necessary
+the linq equivalent of union all is concat
+
+
+
+14435909
+runtimeexception unchecked-exception
+Pattern(s): 5	
+runtimeexception are a subset of unchecked-exception for exceptions from which recovery is possible
+unchecked-exception are not checked at compile-time which means that the compiler doesn t require methods to catch or to specify with a throws them
+
+
+
+14540687
+uiviewcontroller uinavigationcontroller
+Pattern(s): 5	
+i ve performed extensive logging and breakpoint setting investigating if didreceivememorywarning unloads the view when a uiviewcontroller is not the visibleviewcontroller
+the results a uiviewcontroller s view does not get unloaded tested using arc in a uinavigationcontroller -based project
+
+
+
+14569386
+serializable deserialization
+Pattern(s): 5	
+i have rolled back the project to the initial state without classes map or custom serializable and changed the struct type to class type and it worked
+in resume this exception error is related to structs deserialization not with interfaces deserialization
+
+
+
+14627362
+awt swing
+Pattern(s): 1	
+awt does not work faster
+swing components are light weight
+
+
+
+14659261
+apache nginx
+Pattern(s): 5	
+if apache is not a requirement then you can use another server for example nginx
+there is a tutorial for getting nginx running on an ec2 environment
+
+
+
+14723945
+clang llvm
+Pattern(s): 1	
+edit apparently i m mistaken and clang does use some other integer types as well see jens s comment below
+yes llvm does not make a distinction between signed and unsigned integer type so both will be lowered to i32
+
+
+
+14755895
+setinterval settimeout
+Pattern(s): 3	
+second these methods return a token that you can use to cancel a setinterval do this instead later when you want to stop
+first you are using settimeout not setinterval
+
+
+
+14842056
+g++ gcc
+Pattern(s): 1	
+so running the gcc command automatically includes the c standard libraries running g++ automatically includes the c++ standard libraries etc
+but notice running gcc does not automatically link in the c++ standard library
+
+
+
+14952823
+mongodb bson
+Pattern(s): 3	
+also mongodb does not require json php what-ever that is handling knowledge
+all results from mongodb come into the driver as bson and are then de-serialzed to a standard dict within php namely an associative array
+
+
+
+14959402
+profiling instrumentation
+Pattern(s): 3	
+this is useful for code profiling but not so much for memory profiling
+build mono.cecil for the cf and use it to instrumentation emit right on the target device
+
+
+
+14997738
+udp mtu
+Pattern(s): 5	
+with udp you have to take care by yourself of transmission order udp datagram number 1 could be received after a udp datagram number 2 and lost packets udp doesn t grant delivery of the datagram you should use tcp for big size transfers where the order of the packets matters
+about mtu you don t have to care if it is smaller than the size of the data you re going to send
+
+
+
+15014585
+apache nginx
+Pattern(s): 3	
+this is valid directive whether you use apache or not
+you don t have to use it but you better do because nginx is very good at serving static files
+
+
+
+15031370
+subtraction addition
+Pattern(s): 1	
+with x subtraction works return d3.select circle .attr cx - 17
+addition doesn t return d3.select circle .attr cx + 17
+
+
+
+15070416
+innodb myisam
+Pattern(s): 1	
+i m assuming you are using innodb so this answer is only valid for that engine or any other transaction-capable engine meaning myisam isn t included
+by default innodb runs in auto-commit mode
+
+
+
+15108783
+inline inlining
+Pattern(s): 5	
+if the call is inline there is no difference between the two approaches - as long as the parameter is known at compile time which it must be a decent compiler will remove the unnecessary switch in both cases
+the only case where you would see a difference is if inlining does not occur - in this case the templated approach would allow the switch to be removed while the other would not
+
+
+
+15119815
+ffmpeg libav
+Pattern(s): 1	
+you re using a crippled fake version of ffprobe that originates from libav not ffmpeg ubuntu switched from ffmpeg to libav because the debian ubuntu ffmpeg package maintainer is a libav developer
+the intentional usage of the names ffmpeg and ffprobe for something not from ffmpeg was disappointing and is misguiding to users and misrepresents the work of the ffmpeg developers
+
+
+
+15180084
+scheme rebol
+Pattern(s): 1	
+and this is in addition to the r2 command port scheme being built-in native code which also wouldn t be portable to r3 even if it were open sourced because r3 s system model is different too
+and regardless of its portability r2 contains a lot of commercially licensed code that rebol technologies doesn t have the right to open source - pretty much everything that it could open made it into r3 already
+
+
+
+15184612
+couchbase couchdb
+Pattern(s): 3	
+meanwhile couchdb is an actively maintained open-source project couchbase server is a completely separate project it is a newer project but it is not a newer version of couchdb - they are not even compatible and since even new tools for creating couchapps still keep being developed eg
+see the kanso project then couchdb is not going anywhere soon
+
+
+
+15200534
+ubuntu centos
+Pattern(s): 3	
+check if prelink is installed with dpkg -l prelink # ubuntu debian derived rpm -qv prelink # centos red hat derived and check the configuration usually in etc prelink.conf and one of etc defaults prelink or etc sysconfig prelink
+on ubuntu but not on centos rh directories under usr local bin sbin lib are included for processing
+
+
+
+15200534
+ubuntu debian
+Pattern(s): 5	
+check if prelink is installed with dpkg -l prelink # ubuntu debian derived rpm -qv prelink # centos red hat derived and check the configuration usually in etc prelink.conf and one of etc defaults prelink or etc sysconfig prelink
+on ubuntu but not on centos rh directories under usr local bin sbin lib are included for processing
+
+
+
+15275739
+vb.net vb6
+Pattern(s): 5	
+many people when coming from vb6 to vb.net miss control arrays
+but in reality it s the other way round vb.net doesn t have control arrays because it doesn t need them any more controls can be put into normal arrays and collections in vb6 control arrays were a hack to work around the fact that you couldn t create normal arrays of controls
+
+
+
+15305030
+strcpy strncpy
+Pattern(s): 1	
+use strcpy or add a null terminator after using strncpy
+strncpy does not add the null terminator 0 where as strcpy does
+
+
+
+15327337
+sqldatasource objectdatasource
+Pattern(s): 3	
+i d say sqldatasource is not very appropiated for n-layered applications except n 1 since it talks directly to sql server
+on the other hand objectdatasource is a perfectly acceptable option since allows you to call methods from classes on any of the layers the web layer has access to
+
+
+
+15337282
+ssl https
+Pattern(s): 1	
+server authentication for free https ssl doesn t only solve encryption but also server authentication so that the client can verify whether it s actually talking to the right service
+guaranteed to work on the internet http https traffic is common on the internet so you won t run into routing problems or firewalls which are hard to traverse
+
+
+
+15379023
+google-chrome safari
+Pattern(s): 5	
+google-chrome does not offer nightly builds although they do have an open source project called chromium that does offer nightly builds google-chrome is based on chromium but they are not identical
+similarly safari does not offer nightly builds either though again they have an open source project based on webkit
+
+
+
+15441462
+cstring bstr
+Pattern(s): 5	
+if the bstr doesn t have nul s embedded inside you can simply pass it to a cstring constructor that will make a deep-copy of it and you can locally work with your cstring
+modifications to that cstring won t be visible on the original bstr
+
+
+
+15558403
+innodb myisam
+Pattern(s): 1	
+innodb implements row-level lock for inserting and updating while myisam implements table-level lock
+innodb has transactions while myisam does not
+
+
+
+15558403
+innodb myisam
+Pattern(s): 1	
+innodb has transactions while myisam does not
+innodb has foreign keys and relationship contraints while myisam does not. innodb has better crash recovery while myisam is poor at recovering data integrity at system crashes
+
+
+
+15558403
+innodb myisam
+Pattern(s): 1	
+innodb has foreign keys and relationship contraints while myisam does not. innodb has better crash recovery while myisam is poor at recovering data integrity at system crashes
+myisam has full-text search index while innodb has not
+
+
+
+15587786
+gam mgcv
+Pattern(s): 5	
+mgcv gam doesn t find the knots - it places them for you and you can control where it places them via the knots argument
+in mgcv gam there is a way to do this your q2 via the predict.gam method and
+
+
+
+15698397
+gruntjs package.json
+Pattern(s): 5	
+it s likely that gruntjs is not installed locally in your project folder which is different than grunt-cli
+you have it in your package.json so try doing npm install or alternately npm install gruntjs
+
+
+
+15984559
+google-chrome firefox
+Pattern(s): 5	
+thus when you login with google-chrome wp sends a login cookie to google-chrome starting a new session
+when you then access the site with firefox firefox doesn t have a login cookie so wp prompts you to login and then sends a login cookie to firefox also starting a new session
+
+
+
+15988523
+firefox safari
+Pattern(s): 5	
+for example firefox doesn t include an origin header on same-origin requests
+but chrome and safari include an origin header on same-origin post put delete requests same-origin get requests will not have an origin header
+
+
+
+16007343
+equals gethashcode
+Pattern(s): 3	
+move safegethashcode out of your test class so you can use it as extension on string and other reference types as for implementation of i assume your issame is just incorrectly named method also strangely marked with override - there is no issame in any of .net classes especially not in object make sure to implement base equals as well see sample in iequatable.equals for implementation of both equals calls shortened sample note normally equals does not need to use gethashcode first
+dictionary the main reason gethashcode exists always checks hash code itself before calling equals
+
+
+
+16182317
+viewdidload viewdidappear
+Pattern(s): 5	
+this would mean that viewdidload is not called again and the _groups variable is therefore not updated
+i would try putting your _groups code in viewdidappear followed by a reloaddata call on the tableview
+
+
+
+16192727
+vb.net vb6
+Pattern(s): 3	
+the semantics of the operator in vb.net are just a bit different from those of c# and the standard object.equals
+the semantics are inherited from vb6 and cannot be changed for backward compatibility reasons
+
+
+
+16225596
+ssl https
+Pattern(s): 5	
+in addition i ve put a field that allows us to determine if we should require ssl or not i m using it with the debug pre-processor
+now this requiressl will do the following base on your requirements attribute value - ignore won t do nothing. - http will force redirection to http protocol. - https will force redirection to https protocol
+
+
+
+16230931
+division modulo
+Pattern(s): 5	
+all snippets left-arg right-arg quotient remainder truncated division floored division knuth euclidean division
+in ansi c the sign of the result of the modulo is not defined for negative inputs
+
+
+
+16232926
+mongodb bson
+Pattern(s): 1	
+the actual checking is done inside mongodb and not mongoengine
+the object sent to mongodb should be the same but this is where it gets tricky as with bson order is important and in python with dictionaries its not
+
+
+
+16322346
+udp tcp
+Pattern(s): 1	
+your best solution though would probably be to switch from tcp which is ill suited to this task to udp which is probably a better match
+udp does not have connection state and it s also unreliable in that no automatic retries are attempted
+
+
+
+16378370
+sqldatasource objectdatasource
+Pattern(s): 1	
+sqldatasource is not good for custom paging
+i have to add another pager part and like old asp page to manually write the code. but objectdatasource is much easy for this
+
+
+
+16399826
+nunit mstest
+Pattern(s): 2	
+you can then use nunit to run the tests outside vs or use tools like resharper to run those tests inside vs
+actually mstest doesn t work with simple class library projects. you will have to create a unit test project and place your tests there
+
+
+
+16403869
+html5lib beautifulsoup
+Pattern(s): 5	
+telling beautifulsoup to use html5lib will give you the result you want beautifulsoup markup html5lib you ll need to install html5lib of course
+beautifulsoup 4 doesn t have quote_tags because it has no parser of its own it relies on external parsers
+
+
+
+16510866
+serializable deserialization
+Pattern(s): 3	
+in fact for example in gson serializable deserialization is quite straightforward with a simple pojo just like this serializable deserialization i suggest you to take a look at gson documentation which is pretty clear and quite short once you read it you ll understand everything much better.
+those libraries do not need to use files to operate so answering your question no file serializable is not mandatory
+
+
+
+16550403
+email dkim
+Pattern(s): 3	
+first is impossible to be sure that an email will not be marked as spam the only way is that the person who receive the email add the sender address in a white list
+spf and dkim are only to guarantee that the email comes from that domain or email but not to guarantee that it is not spam
+
+
+
+16572041
+google-chrome firefox
+Pattern(s): 1	
+it s probably not really the regexp that s different but rather as you pointed out yourself firefox adds quotes around the url while safari and google-chrome does not
+hence in firefox you get .jpg which is matched by your regexp but in safari and google-chrome you get .jpg which does not matched by your regexp
+
+
+
+16659487
+bash zsh
+Pattern(s): 5	
+since bash doesn t have a precmd i m not sure how to do this
+i m not sure how to do this in bash but in zsh there s a hook that gets run before every command
+
+
+
+16720979
+quicksort mergesort
+Pattern(s): 5	
+there are numerous problems with this question starting with the fact that you ve implemented a very slow version of quicksort but asked a question about mergesort
+mergesort is not typically implemented as a tail recursive algorithm
+
+
+
+16745577
+xslt xquery
+Pattern(s): 5	
+xslt 2.0 and xquery 1.0 utilize xpath 2.0 which is what you are recognizing as xquery in the code above
+the above code is xslt 2.0 not xquery
+
+
+
+16778792
+jar war
+Pattern(s): 5	
+tomcat will not find the class if the poi jar isn t in the web-inf lib of your deployment
+check your war or exploded deployment to see if it s there
+
+
+
+16841699
+gradle ivy
+Pattern(s): 5	
+they will be mapped to ivy configurations when gradle generates an ivy.xml
+gradle s configurations are heavily inspired from ivy not ant but they aren t fully equivalent to ivy s configurations and we d have to discuss what you mean by equivalent
+
+
+
+16841814
+division addition
+Pattern(s): 1	
+division gets really bad
+interestingly the matrix addition is not much difference at all
+
+
+
+16847428
+bazaar svn
+Pattern(s): 1	
+bazaar does not have a subrepository feature
+correction apparently there s a bzr-externals plugin available at lp bzr-externals though it emulates the svn externals feature not git submodules or mercurial subrepos. however this can fairly easily be worked around if you do not want to switch version control systems
+
+
+
+16911586
+g++ gcc
+Pattern(s): 1	
+mex is just a tool which calls one underneath and since g++ is the c++ compiler of gcc you should install this one
+as far as i know it will still not work because matlab supports only gcc 4.3 not sure about that
+
+
+
+17024479
+junit testng
+Pattern(s): 5	
+testng from a very early stage was suitable for integration automation testing it has a more powerful version of dataprovider than junit even before junit had dataprovider capabilities
+it has much better annotation support than junit and unlike junit testng does not require your before after class methods to be static
+
+
+
+17130986
+cpython pypy
+Pattern(s): 5	
+and pypy being implemented in a subset of python lets you run python code faster than cpython which rightly should blow your mind
+- actually compiling to c so cpython does not translate your python code to c by itself
+
+
+
+17159415
+youtube vimeo
+Pattern(s): 5	
+afaik youtube does not offer this service - it only allows you to select members to view the video
+not only that but you can add a bunch of videos to an album in vimeo and password-protect the album so you only have to change the password for the album
+
+
+
+17253152
+hmac md5
+Pattern(s): 5	
+but typically hmac is a better choice on those situations and this does not apply to password hashing
+short answer is that md5 md5 pw as password hash sucks because you re not using a salt it s fast if you d iterate md5 not twice but a million times and you d include a salt it d be a decent password hash
+
+
+
+17274203
+oncreate onstart
+Pattern(s): 3	
+when putting the phone to sleep onpause and onstop get called but ondestroy doesn t so that oncreate doesn t get called when turning the phone back on
+onrestart onstart and onresume do get called checked on nexus 7 by modifying the activity lifecycle training app to add log messages in all lifecycle methods so try to move as much code in initialisetabhost as you can from oncreate to onstart leaving only the minimum necessary in oncreate or leave it there and add the relevant part of it to onrestart
+
+
+
+17380264
+clang llvm
+Pattern(s): 5	
+change the lib target in the xcode to use the new clang llvm add a cflag -fsanitize address
+then build if some api such as opengl system video function is reported not supported then you can put it into the app project your clang doesn t support compiling it
+
+
+
+17421510
+udp tcp
+Pattern(s): 5	
+if you re going to use udp instead of tcp you have to do everything tcp does that udp doesn t by yourself if you need it
+one of the things tcp does is transmit pacing -- slow start exponential backoff and so on
+
+
+
+17764624
+srt subtitle
+Pattern(s): 3	
+the message you get means that your ssa or srt file doesn t specify the playresx and y values
+so the vfilter assume a display resolution of 384x288 thats why your subtitle looks so small on a 1280x576 video
+
+
+
+17826484
+persistent transient
+Pattern(s): 5	
+second a pojo can be either persistent your hibernate session is aware of the object and will save changes to the database when your transaction gets fflush or closed or transient hibernate doesn t know anything about this object and won t save changes to the database
+calling save makes a transient object persistent and has no effect on a pojo that s already persistent
+
+
+
+17839439
+scheme rebol
+Pattern(s): 1	
+the rebol http scheme really isn t designed with this in mind it s geared toward reading content the way you would in a browser not services over http
+in saying that you can hack the protocol to subvert how rebol 2 handles different response codes the caveat here is that the http protocol has to have been initiated any http port opened read
+
+
+
+17842145
+queue fifo
+Pattern(s): 2	
+edit in response to your comment time to dive a little deeper into the amqp specification then perhaps 3.1.4 message queue a message queue is a named fifo buffer that holds message on behalf of a set of consumer applications. applications can freely create share use and destroy message queue within the limits of their authority. note that in the presence of multiple readers from a queue or client transactions or use of priority fields or use of message selectors or implementation-specific delivery optimisations the queue may not exhibit true fifo characteristics
+the only way to guarantee fifo is to have just one consumer connected to a queue
+
+
+
+17891208
+uilabel uitextview
+Pattern(s): 5	
+uilabel does not have any inherent padding applied
+uitextview has padding that nsstring s drawing methods do not have
+
+
+
+18062996
+bower npm
+Pattern(s): 1	
+any scripts that you include beforehand say a non-browserified jquery will just become a global and bower does not prevent you from accessing globals
+beware though some packages distributed via npm based on client-side libraries do not conform entirely to commonjs spec
+
+
+
+18104836
+addition multiplication
+Pattern(s): 1	
+in general matrix addition is well-defined mathematical operation so your point about not respecting math requirements is simply wrong
+matrix multiplication is not commutative so you shouldn t expect that either
+
+
+
+18137404
+spaces delimiter
+Pattern(s): 1	
+the quote is the delimiter not the spaces
+the leading spaces are ignored the odd part about this is that in theory there s no need to pass the length to the word it s already there in the string
+
+
+
+18139586
+innodb myisam
+Pattern(s): 1	
+innodb supports row-level locking transactions and foreign key constraints
+myisam doesn t
+
+
+
+18152727
+postgresql mysql
+Pattern(s): 5	
+note the above code works for mysql but not for postgresql
+the documentation for postgresql select says an output column s name can be used to refer to the column s value in order by and group by clauses but not in the where or having clauses
+
+
+
+18165141
+division subtraction
+Pattern(s): 1	
+division requires iterative subtraction that cannot be performed simultaneously so it takes longer
+in fact some fp units speed up division by performing a reciprocal approximation and multiplying by that
+
+
+
+18191609
+ubuntu debian
+Pattern(s): 1	
+it seems that the debian ubuntu php doesn t bundle the gd library with it some security reason
+you have to recompile php follow this helpful step by step guide on doing so with debian ubuntu open up a terminal. become root by typing su and enter your root password when prompted
+
+
+
+18238760
+vb.net vb6
+Pattern(s): 3	
+vb.net is actually the name of two rather different languages which are selected based upon the option strict setting
+the option strict off dialect which is unfortunately the default was designed to facilitate porting of vb6 code and has horrible goofy semantics which are even worse than those of vb6 i m not sure even its designers know all of the odd corner cases of the way different types interact
+
+
+
+18269176
+opera google-chrome
+Pattern(s): 1	
+there is a good post from mozilla on media formats supported by html it states the mp4 container format with the h.264 video codec and either the aac audio codec or the mp3 audio codec is natively supported by internet explorer safari and google-chrome but chromium and opera do not support the format
+also this so answer states google-chrome can play .mp4 with h-264 video but not mpeg-4 visual video
+
+
+
+18286616
+google-chrome firefox
+Pattern(s): 1	
+google-chrome happens to provide the event object in global scope hence no error but firefox doesn t hence an error
+i d suggest to add the event parameter to the event handler there is an additional difference if you don t define the event parameter event will refer to the native event object in google-chrome which is different than the event object which jquery passes to the handler
+
+
+
+18291714
+opengl-es glsurfaceview
+Pattern(s): 3	
+if you want more than one opengl-es context running concurrently that is much more complicated but it has been discussed recently on the khronos.org opengl-es forum
+glsurfaceview is not designed to do this but you can do it by using textureviews instead
+
+
+
+18304983
+firefox safari
+Pattern(s): 1	
+to make it work in firefox just insert the new element into the dom apendchild etc
+i don t think this will work in safari isn t properly supported yet afaik
+
+
+
+18324531
+backbone.js javascriptmvc
+Pattern(s): 1	
+i suggest you study backbone.js example here backbone.js is the simplest javascriptmvc library not a framework that you can find
+it clearly defines what model the data that is synced to rest api view this is kind of confusing as view plus router in backbone.js is equal to controller in mvc world and template this is the view in mvc world
+
+
+
+18333667
+mri rubinius
+Pattern(s): 1	
+that is running multiple multithreaded processes. hybrid mode allows ruby and python which despite having a global interpreter lock to fully utilize all cpu cores. 1 in puma the hybrid mode is called clustered . 1 only the case on mri not on jruby and rubinius
+jruby and rubinius fully support multi-core threads in a single process
+
+
+
+18398991
+passenger unicorn
+Pattern(s): 1	
+phusion passenger enterprise mathieu otak amiot comments passenger is not as stable as most people think
+a nginx + unicorn is more stable imho
+
+
+
+18404543
+webkit gecko
+Pattern(s): 3	
+the upshot is that in some cases webkit ends up recomputing style on a lot more elements than gecko does as far as i can tell but in others it ends up recomputing style on many fewer elements
+for example given a selector like .foo span and a div that changes class from foo to bar gecko will restyle all later siblings of the div while webkit will not do any work at all if there are no span kids since it would never have marked the parent as being affected by the + in that case
+
+
+
+18461572
+firefox safari
+Pattern(s): 5	
+firefox seems to mess up fonts the most - on the other hand the text looks bold
+chrome and safari doesn t alter fonts nearly as much making them look sharper but not really bold at all
+
+
+
+18504642
+bash zsh
+Pattern(s): 5	
+some shells support float others don t bash doesn t support float values
+zsh does support float values
+
+
+
+18563737
+build.gradle gradlew
+Pattern(s): 5	
+build.gradle tested with android studio 0.2.6 and android gradlew plugin 0.5
+i tested all the solutions presented here and they all lack of something version of gradlew gradlew plugin not supported library project not supported no integration with android studio etc
+
+
+
+18597709
+memcpy strncpy
+Pattern(s): 5	
+on the other hand memcpy doesn t care about 0 bytes and just copies the whole thing
+to put it another way strncpy finds a 0 byte inside the first integer and stops copying
+
+
+
+18753835
+flac ogg
+Pattern(s): 3	
+android default browser formats ogg vorbis yes mp3 yes flac no not 100 certain data uris yes autoplay allowed tbc user interaction event required tbc limitations full audio doesn t seem to play
+tested with short sounds android chrome formats ogg vorbis yes mp3 yes flac yes data uris yes bug fixed in chrome 34 which is currently in beta autoplay allowed no bug user interaction event required yes limitations ended event never fires
+
+
+
+18920739
+rsa aes
+Pattern(s): 1	
+you should be encrypting your data with a symmetric key like aes then encrypting the symmetric key with rsa
+rsa should not be used to encrypt this kind of data
+
+
+
+18926665
+udp tcp
+Pattern(s): 1	
+fwiw dns is based on udp so talking to a public dns server might be a good starting point
+apache is an http server http being a protocol built on tcp not udp
+
+
+
+18933086
+uiviewcontroller uinavigationcontroller
+Pattern(s): 1	
+the message you are seeing is because at index 0 there is a uiviewcontroller instance corresponding with the label view controller - gestures in your storyboard and you are trying to send it a message that uiviewcontroller does not respond to in the belief that it is a uinavigationcontroller
+the uinavigationcontroller that contains the playersviewcontroller controller is at index 1 in the tab bar controller s viewcontrollers array
+
+
+
+19066399
+listview gridview
+Pattern(s): 1	
+the gridview is visible by default and the listview is not
+when we navigate to the page the visualstatemanager is called after the page is rendered and therefore when navigated to the gridview is visible for a short time and calls the loadmoreitemsasync method before it gets hidden
+
+
+
+19136930
+apache nginx
+Pattern(s): 2	
+but websockets or server sent events would be a much better idea. however using server sent events sse on apache is also not really a good idea as apache will create a proces for each open connection
+if you would like to use sse i suggest using nginx link to sse
+
+
+
+19204335
+serializable deserialization
+Pattern(s): 3	
+the other is that while datacontractjsonserializer writes the local offset during serializable it doesn t use it properly during deserialization
+it just assumes that if any offset is provided that the time should be local - even if the computer doing the deserialization has a completely different offset
+
+
+
+19261409
+google-chrome firefox
+Pattern(s): 1	
+the google-chrome launcher also has the same issue but you must have it installed in the appdata folder of your profile which is the first place the google-chrome launcher checks
+the firefox launcher doesn t take into account 64 bit windows
+
+
+
+19350736
+udp tcp
+Pattern(s): 5	
+udp does not guarantee packets will be received in the same order they are sent or even received at all or that they are recevied exactly once
+udp is more of a fire and forget whereas tcp maintains a connection state
+
+
+
+19482051
+apache nginx
+Pattern(s): 3	
+it is however the case that the most common installation of php on unix systems is a single threaded setup as is the most common apache installation and nginx doesn t have a thread based architecture whatever
+in this most common unix setup each http server process accepting requests can do one of a few things spawn a php interpreter process cgi - generic cgi gateway manipulate an in process instance of the interpreter mod_php5 - apache specific php module services both mpm and worker installations of apache communicate with an fcgi process php-fpm - commonly used with nginx some apache usage goes on still ... in the most common windows setup and some more advanced unix setups php can and does operate multiple interpreter threads in one process
+
+
+
+19547446
+whirlpool md5
+Pattern(s): 1	
+namely that you can use the smaller and cheap checksum to see if doing the more expensive md5 sha whirlpool is worth considering in the event of changed files
+adler-32 and md5 are not comparable in this way
+
+
+
+19631737
+g++ gcc
+Pattern(s): 3	
+if gcc g++ are not installed then you need to install them via homebrew
+cmake setup in the cmake settings make sure that both the c and c++ cuda host compilers are set to your install of gcc g++ usually in usr local bin
+
+
+
+19704574
+google-chrome firefox
+Pattern(s): 1	
+assuming you ve solved the initial issue which can be solved only by adding a specific domain to the access-control-allow-origin and removing the wildcard the next steps are you have to remove the http-only from the set-cookie header otherwise you will never be able to receive a cookie generated by your angular code this setup will already work in firefox though not in google-chrome to make it work for google-chrome too you need to a send a different domain from localhost in the cookie using the domain your ws are hosted
+you can even use wildcards like .domain.com instead of ws.domain.com b then you ll need to make a call to the domain you specified in the cookie otherwise google-chrome won t store your cookie optional i would remove that api path in favor of a and that should to the trick
+
+
+
+19809895
+division modulo
+Pattern(s): 5	
+try print 9 3 print 9 3 you will get 0 3.0 modulo returns the remainder of the division and the division operator returns the quotient of the division
+you should use modulo not division operator
+
+
+
+19832393
+google-chrome firefox
+Pattern(s): 1	
+also place the perspective property here more on that later this is part of the problem as firefox requires it google-chrome does not - this explains why it works there
+the next issue with firefox is that overflow hidden set on .home-auto-interactive causes all descendant elements to be flattened according to the spec w3c transform-style
+
+
+
+19924023
+namenode hdfs
+Pattern(s): 1	
+hadoop does not try to hide this the namenode is a single point of failure for the hdfs cluster
+hdfs is not currently a high availability system
+
+
+
+19984752
+strcpy strncpy
+Pattern(s): 1	
+let s say i want to replace all calls to strcpy with calls to strncpy you shouldn t do that unless you are working with fixed-size strings remember that strncpy not only copies up to the terminating null but also fills the rest of the string with null bytes
+if you are looking for a modern replacement of strcpy consider using strlcpy instead
+
+
+

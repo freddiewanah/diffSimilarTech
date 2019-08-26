@@ -1,0 +1,52 @@
+is there anything obvious in B that would otherwise be making sfphpview- render run slower than B
+
+B is more consistent and reliable because it is enterprise while B is geared towards desktops and personal computers
+
+is there anything obvious in B that would otherwise be making sfphpview- render run slower than B
+
+B is more consistent and reliable because it is enterprise while B is geared towards desktops and personal computers
+
+personally i develop on the windows but deploy on B where couldn t find the scrapyd package at all at the time i was working on it and noticed that performance of scrapy is considerably worse than on B box so you might reconsider your target
+
+personally i develop on the windows but deploy on B where couldn t find the scrapyd package at all at the time i was working on it and noticed that performance of scrapy is considerably worse than on B box so you might reconsider your target
+
+it s true that the B compatibility exists but i ve found that earlier mac machines does not have the propper hardware and you experience some lacks in memory and graphics when upgrading more than one B
+
+it s true that the B compatibility exists but i ve found that earlier mac machines does not have the propper hardware and you experience some lacks in memory and graphics when upgrading more than one B
+
+both commands works in the same way only difference is B list installed output maybe bigger than B -qa because B will show package dependencies also in its output
+
+B is getting closer but there are still numerous things with B that will keep the grandmothers of the world from using it
+
+i m testing some simple benchmarking calculations on win7 and B B 16 to compare the timings and being wonder win appears to be much faster than B
+
+also very particular that this should be done on centos or amazon B which makes things worse for me as i have been on B for long
+
+you can use alpine B docker image it is very light and is better than both B and centos image to be used as the docker
+
+B is getting closer but there are still numerous things with B that will keep the grandmothers of the world from using it
+
+i m testing some simple benchmarking calculations on win7 and B B 16 to compare the timings and being wonder win appears to be much faster than B
+
+also very particular that this should be done on centos or amazon B which makes things worse for me as i have been on B for long
+
+you can use alpine B docker image it is very light and is better than both B and centos image to be used as the docker
+
+i would give you more info except a ip aliasing on B 7 is more involved than i like much easier on B and b i m not familiar at all with configuring nginx very easy on apache
+
+i would give you more info except a ip aliasing on B 7 is more involved than i like much easier on B and b i m not familiar at all with configuring nginx very easy on apache
+
+i want test unix-like operating systems on historicial computers like commodore amiga atari st and i386 cpu and run posix compatible apps like pkgsrc x window system and blackbox wm for 40mhz higher versions B 1.5 is best os for those systems better than B but it is not posix-compatible
+
+the main advantage of the B image is the smaller size â it clocks in at around 85.1 mb compared to around 200 mb for B
+
+B has nicer frontend and could be more suitable for windows emigrants while B is more for backend guys
+
+the main advantage of the B image is the smaller size â it clocks in at around 85.1 mb compared to around 200 mb for B
+
+B has nicer frontend and could be more suitable for windows emigrants while B is more for backend guys
+
+be aware that the bourne shell in B is more capable than on B
+
+be aware that the bourne shell in B is more capable than on B
+

@@ -1,0 +1,98 @@
+at the beginning the insert performance of innodb is almost 50 times slower than B and B is 40 times slower than B
+
+the benchmark shows B is 2 to 3 times faster than B on a normal page
+
+B has better crash recovery while B is poor at recovering data integrity at system crashes
+
+however B tends to be slower as B
+
+edit for the read-performance this link shows that B often is actually not slower than B
+
+B for reads may well be faster than B
+
+B is more strict in data integrity while B is not as
+
+B delivers better read performance compared to B at the cost of being less acid compliant
+
+B is more strict in data integrity while B is loose
+
+oracle has kept improving B by so much that they declare that it is better than B in virtually all situations
+
+B has better crash recovery while B is poor at recovering
+
+generally speaking B is slower than B as B is atomic while B is not
+
+with B there is less time lost from table locking while B is faster in table readings
+
+first question is it normal that B is much slower 7x slower than B for such usage
+
+B table is much faster than B but no rollback is possible
+
+speed does matter here B is still slightly faster than B especially for reads
+
+at the beginning the insert performance of B is almost 50 times slower than B and tokudb is 40 times slower than B
+
+B is slower than B but in which cases
+
+B delivered 4.6x higher throughput than B while achieving
+
+B is faster than B for reads myth
+
+B is often faster than B in terms of raw performance mostly because it is not acid
+
+after testing it seems that B is faster than B when using when there is no where clause
+
+B generally performs faster because it lacks certain functions B has such as rollback... but it has only table locking
+
+there are other optimizations available but general rule is that B will be quicker than B is even with table growth
+
+also B is slower than B unless B is blocking for a huge select
+
+B has better crash recovery while B is poor at recovering data integrity at system crashes
+
+however B tends to be slower as B
+
+edit for the read-performance this link shows that B often is actually not slower than B
+
+B for reads may well be faster than B
+
+B is more strict in data integrity while B is not as
+
+B delivers better read performance compared to B at the cost of being less acid compliant
+
+B is more strict in data integrity while B is loose
+
+oracle has kept improving B by so much that they declare that it is better than B in virtually all situations
+
+B has better crash recovery while B is poor at recovering
+
+generally speaking B is slower than B as B is atomic while B is not
+
+with B there is less time lost from table locking while B is faster in table readings
+
+first question is it normal that B is much slower 7x slower than B for such usage
+
+B table is much faster than B but no rollback is possible
+
+speed does matter here B is still slightly faster than B especially for reads
+
+at the beginning the insert performance of B is almost 50 times slower than B and tokudb is 40 times slower than B
+
+B is slower than B but in which cases
+
+B delivered 4.6x higher throughput than B while achieving
+
+B is faster than B for reads myth
+
+B is often faster than B in terms of raw performance mostly because it is not acid
+
+after testing it seems that B is faster than B when using when there is no where clause
+
+B generally performs faster because it lacks certain functions B has such as rollback... but it has only table locking
+
+there are other optimizations available but general rule is that B will be quicker than B is even with table growth
+
+also B is slower than B unless B is blocking for a huge select
+
+template engines are rarely the cause of performance problems even if B is slightly faster than B i doubt the effort of learning a new template language etc
+

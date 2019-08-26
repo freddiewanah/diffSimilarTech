@@ -1,0 +1,40 @@
+B is more generic than B and you can custom almost thing on it
+
+on second thoughts in your case B is surely a better candidate than B
+
+though earlier B and uiscrollview have the same area after keyboard shown the blue B becomes smaller but its B button text fields is outside its area
+
+in fact each B has even more than 1 corresponding B
+
+does that mean the the view controller has multiple B or that the B has more than one B
+
+if you B has less arguments than a B and you could make them optional in the B just add placeholders in the B
+
+still you cannot inherited from a as B cannot have a lower visibility than B
+
+if new member fields are declared in the B then yes a B presumably uses more memory since it has all the fields declared in the B plus all the fields declared in the B
+
+shouldn t a B interfaced be able to take in more than the B interfacec and use the same method
+
+the general problem is that the B is more specific than the B
+
+with explicit B calling your B can accept more or fewer arguments than its B and can decide itself what to pass when calling the B
+
+even in your original post the B is actually more restrictive than the B so doing something like
+
+this breaks the inherited and the B is no longer an instance of the B
+
+the fact that the B is more selective only actually writes about what it writes is new functionality especially in light of the fact that the B promises nothing
+
+B has more features than B so it might be better suited and more easily adapted for your purposes
+
+if a B needs more information than the standard parameters which came up for us you have the option of a second parameters class type that you use as a second parameter but then you have two types of constructors in the tree or using B in the parameters class hierarchy
+
+finally consider that you can have more than one B as well as more than one B running on a B
+
+unless you know exactly what you are doing do not use the same B for more than one B
+
+B is more general as it leaves you the oppertunity to create another subclass of it that could add the altering functionality without using the B s implementation why ever you would want that to do
+
+note also that using B is more efficient than creating a new B each time a letter is added
+

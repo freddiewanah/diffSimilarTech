@@ -1,0 +1,16 @@
+115838
+gif	png
+Changed: 
+There might be some edge cases where gif is slightly better because the png format may have a slightly larger overhead from metadata but png s really not worth the worry
+Origin: 
+There might be some edge cases where gif is slightly better because the png format may have a slightly larger overhead from metadata but it s really not worth the worry
+
+
+115838
+gif	png
+Changed: 
+png may just be the tools i m using but gif files usually seem to be a bit smaller than a comparible png that may indeed be due to the encoding tool you use
+Origin: 
+It may just be the tools i m using but gif files usually seem to be a bit smaller than a comparible png that may indeed be due to the encoding tool you use
+
+

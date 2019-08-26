@@ -1,0 +1,377 @@
+hardware unit present floats B faster B unless also hardware B support
+use float data type add f end floating poB literal assumes B data type gives error short byte lower ranges B
+really might need cast Bo B check see result greater B
+soon B needs 29 bits atom changed Bo number type really represented 29 bit poBer actual 64 bit B precision float
+B takes longer w w 2 0 B
+B better B though help keep precision
+B multiplications however 1.5 faster B multiplications
+nub comparing big B slower comparing B
+B method decide fields used comparison greater B
+call B method decide whether bigger B int
+B returns negative integer zero positive integer object B greater specified object
+interface defines one method B must return negative integer zero positive integer object B greater object respectively
+works seems u still comparing strings ordered u check return value B grater B 0
+per page linked B returns negative integer zero positive integer object B greater specified object.
+B method returns one -1 0 1 depending whether argument B greater respectively
+know B method write class compare two variables return value -1 1 0 signifing greater B operations
+B return negative integer zero positive integer object B greater specified object
+implement B temporary temporary.B left returns negative integer zero positive integer temporary B greater left
+note take advantage int also implements use B method determine whether corresponding values instance class B greater
+icomparable declares B method returns integer specifies B greater relationship two objects type
+best solution add new column called engmaterial add english B possible solve better B .net
+learned B B
+B easier B text images
+B -documentary provides content documentary B
+bottom line would personally hesitate draw simple conclusions B faster B versa
+B browsers background whiter brighter B
+B supposedly faster B gevent based co-routines greenlets supposedly makes faster web server
+interestingly B performs comparisons average B - 1.44 expected B versus B
+read B faster B practise hidden constant
+10 tests results quite least showing B faster B
+2 min B greater equal B B.
+B z1 z2 B equal table2 B value2 table1.type table2.type
+first tried solution using would select every coordinate B check valid would call center position count number steps higher B B would remove coordinate
+keep mind cast int throw exception value outside B int - greater B value int resultant cast -2147483648
+reference points B faster B sha functions although direct comparison object.gethashcode method mentioned
+duration B greater duration B player complete B actions first even though B come first jump different x-position move duration 4 complete B
+programmers like use property speed programs easy chop number bits performing B harder hard B
+keep mind B project B file also conforms B standard directory layout get started
+notice arrow rendered B 296 px inside carousal space left border carousal arrow even though add padding B
+understand B strtof preferred B atof since former detect errors also B flexible B comes non-base-10
+make mistake B number 1.0 instead 1 use compiler optimization B last longer B number 1
+whether use B B proof pudding B better transforms B better queries
+small differences B generally stricter syntax semantics adobe B often decisions driven performance concerns compatibility adobe B would make B slower
+know lengths strings B sensible - nominally faster B check nulls goes
+worked pretty heavily flavors gwt B libraries though spent time B recently
+B simpler B
+practice using B easier B manage re-configure
+call reorientation method viewwilltransitiontosize manually pass size parameter size B greater B
+works B image longer B around
+image B larger B scaletypes fitstart fitend fitcenter work
+trying rotate images whose B B left-top corner 90 degrees
+landscape B smaller B
+workaround could detect size viewport B greater B display normally
+works well happens B 600px B 400px two conditions match
+tried add class added background image input.but B B aligned bigger text box.on trying change B input size reduced background img inside input
+unfortunately 100vw includes scrollbar B page content higher window B annoying horizontal scrollbar appears
+popular formats 4 3 16 9 B larger B
+verify B 2x B B 2x B
+seems like trying make B wider B
+caption vertical slider demo ie documentation erroneously indicates setting B greater B display range slider vertically work
+B greater B swaps calculation logic two directions otherwise
+since want track cars simpler approach based consideration person smaller car reference bounding boxes person usually B greater B usually person standing walking car around
+B B greater containers B B make automatically shrink keeping proportions
+B larger B B B swapped angle corrected
+taking second example B greater B shrunk window horizontally 25px 350 - 325 beyond point image starts shrink
+suspect B right form data may acceptable button calling B form data
+example B macro shortcut f3 f4 easier B qq q
+edit expert think members new array initialized 0 null B correct B
+B arguably better bcrypt B thoroughly studied tested
+B simpler B automatically done save automatically waits animation done hiding element current
+B earlier stage chef B tools comes community support
+quick takeaway benchmark jackson performs 5 6 better B twice better B
+one used B slower mobile B nitro engine
+okay B ios strict B android comes fine still needs enable allow connection
+B worse B
+B still uses older version B uses current one
+B also susceptible issue although significantly better job B getting realtime api re-connected
+give using B use B instead tests found B far better B quite problems B
+keep mind implementing B traversal easier B
+B even faster B 3B cpu supports B-ni
+higher precedence brackets optional - B higher precedence B
+example class would make sense B B could make B operator higher precedence B one
+even B faster B think lose branching
+would also moderately B actually faster B
+operator higher precedence like B higher precedence B
+every multiplicative-expression additive-expression makes B bind tighter B
+start number want reach divisible 5 divide 5 B 5 results shorter solution B 3
+guaranteed happens b b happens regardless involved B lower precedence B
+concrete example B example better done using B illustrated
+take well added components example B better B
+B susceptible data corruption B usually B performs better caches data indexes
+B count group join used execute slower B row count stored internally
+size B certainly larger size B
+stated standard unsigned B rank B type switch condition B means
+probably always use id number change type name need update user table also allows keep datasize table full B smaller one full 45 B varB
+three B types rank signed type rank always B
+multiplication part variables operands get promoted B conversion rank unsigned B conversion rank B end equivalent
+get data faster comparing B strings longer comparing two B
+string 12 B give 10s length sting greater B white space
+allocating sizeof B bytes memory strings likely 4 input strings read scanf must longer 3 B
+B appears put counter place back Bo map incrementing B frequency
+B smaller B rare embedded systems difference computed simple subtraction promoted B difference guaranteed fit range type B
+B smaller B return prepend zeroes make longer number
+use B x x 4 B shorter B one
+perhaps B distributed-system internet-wide pointers B system call perhaps even legacy 32-bit limit
+content length item B duper long snippet need see labels behave barely B onto multiple lines. content power cycle item tried turning back
+take note B one B time
+creating object B invoking method B B extends one class B method called
+added answer also B general B
+satisfy B test 4 slower B
+read B cpu resources intensive B
+also forgot mention junit testing framework great eclipse plugin B coverage better B eB easier use course try maven post mentionned try ant build tool
+ex B secure ex B
+read B faster B figured would give shot dealing constantly updated variables
+achive counter maybe B better B
+B usually better want piece run certain number B better condition keep running general boolean flag set certain condition met
+use value counter program think B better B
+changing chmod maybe even working B better dealing root-access using B
+choosing B full-service whereas B traditional service giving access boxes needing sysadmin skills
+seems going deploy cluster think B better unless willing pay enterprise edition B support clustering
+zend B appears performant B fully featured reliable
+B item larger B div always place appointment B div box directly one targetting
+B easier make bug-free B
+know B actually mid try put B right place
+need receive product 2 B value -5 -1 B value 18 15
+B larger zero belongs complete category B naturally larger zero
+clicking check button compares two values alerts B B
+syntax B positive integer number indicating Bimum number matches B integer equal greater B indicating Bimum number matches
+value greater B B need reset value increment next index step
+note pick number least B B
+value smaller B want get B value greater B want get B
+user dragging node check position exceeds either B either B
+B B
+need consider trivial gridpoints outside polygon x-coordinates higher smaller B B x-coordinates polygon y-coordinates higher smaller B B y-coordiantes polygon
+want find objects B value smaller equal passed B-value B value larger equal passed B-value
+may assume caller method pass B B parameter B equal B
+would like split image tiles tiles area must larger B tile area eg 1024 bytes smaller B tile area eg 2048 bytes
+looks like either segment exists smaller asked trying create new one smaller system B size shmB greater B shmB
+interval variable probably wrong B smaller B
+trouble enter invalid value textbox tooltip appears says exception thrown target invocation instead B distance must greater B distance
+confirm events landing table2 B created_at table1 B created_at table2 delete firehose1
+whole job single for-loop reading stdin look larger B smaller B need arrays
+l B 1 omitting l B means lower bound 0 1 ditto r B r B
+using B 2 see one B method takes idictionary parameter html attributes
+B encoding far readable B sublime uses
+conditional test B typically expensive B especially sum frequently exceed mod
+serve pretty purpose hide complexity B accordion better continuous-reading easier quickly go B section tabs seems random-access
+B earlier B
+B simpler B
+B inherently faster better B
+obviously quite bit B mandated int equally obviously B mandated long long
+however general one could expect B expensive operation B
+B faster B see fog tables
+first B faster B
+read net B usually easier compute B
+read B higher presedence B
+B B architectures differ enough certain tasks bitcoin mining B vastly better B
+4 B cuda technology easier flexible B brook+
+however could find documentation may B B
+B stronger makes guarantees B
+B faster lighter find easier work B .htaccess support B analog due performance concern
+serving static files B efficient B
+appears common mis-conception B secure B simply seems obvious B browser manipulate B variable
+B goes details B charles proxy work android 7 nougat
+priority level B lower B
+according performance results serialization databind strings B.tojson myobject B 10x slower B
+note also B comes features box genson B
+B particularly fast B almost compete binary serializers B 2-4x faster B situations 10-20x faster utf-8 special utf-8
+difference B vector like array B B value pairs
+B performed repeated subtraction therefore needs level subtract logic making B slower B
+physical simulations things like B square roots going expensive B
+understand B hot right never played learning B time-effective vs using B know pretty well excite
+use vertex array model looks perfect switch B model looks worse vertex B
+font looks sharp B ie8 good 2 fuzzy B
+myth 3 B safer version B
+B recommended B protect buffer overflow
+B higher B
+events seem follow strict sequential rules second B comes earlier first B timer gets initialized multiple
+know B performs better regex B performance really bad comparison
+B stable B
+however possible rotate current situation since B end becoming lesser B
+heap data structure maintains property B B B greater B
+B becomes smaller total width B numbers 1 2 3 4 dictate B shrink stay within new B width
+need pull array type make heap B always greater equal B
+trying take array type switch values around correctly corresponds rules heap B always greater 2 B
+ultimately want filter B objects 2 B
+since B #wr B #con_bottom fit
+properties binary search tree already know B larger B 15 therefore using one instead 25 valid
+individuals subject crossover B likely worse either B
+tree binary tree sense node two B child nodes greater B node
+words B div wider narrower multiple B unused space remains within B div
+think short second answer covers heap constraint B greater B completely specify heap usually one possible arrangement
+understanding B efficient recommended B data entity persistence framework request-response framework like rpc
+B sophisticated widgets gwt still use B conjunction rejected using B
+B faster B
+B presents direct view protocol B often look either protocol specs B source find underlying protocol request find equivalent
+running B batch also .net work well B batch cheaper custom activity B cluster
+consequently B potentially faster B especially multithreading
+therefore B number could greater B B 3 10 + 2 10 + 2 10 7 10
+B like visual basic string B
+B provides human-readable wrappers around base r functions though dec 2014 development version branch built top B mentioned
+perfectly possible use rsa B composed two B factors p q two things noted
+windows xp however works fine local file systems watching B mapped network drive throws ioexception trying watch 50 B
+starting base B know B goes 1 B deep past base B
+use B -128 127 get better results B -128 127 former uses caches values later
+bear mind B returned larger smaller held B program behaviour undefined
+implicit conversion byte B indeed specific implicit conversion byte B according widening primitive conversions rules
+soon B needs 29 bits atom changed Bo number type really represented 29 bit poBer actual 64 bit B precision float
+one operands B result multiplication would B allows larger range B
+general casting long B simpler B B
+work long B bigger fit B
+getting outofmemory declare B 1000 memory allocated immediately additionally B take space Bs-an B representation also save space
+1 data B data form takes space B float
+figured happening storing wall coordinates B although B certainly accurate B still exact
+using printf faster B scanf little faster B 0.04s + - 0.05
+B features costs 80 B hand basic free users see B licensing details
+based provided cannot tell B actually load faster B
+time soon B add-on api restrictive B
+ie B footer link text larger B therefore margins set icons work
+also B know still B innerly manage resources among threads even possible achieve want possible need work B threads
+B may sniffing document encoding flexibility B
+B faster B
+might want try running trainer B already -- significantly faster B workloads
+disable elastic axis make specify B higher B value select point
+last B larger B value
+logic B 2 whole number 0.1 2 0.2 bigger 1 B continue
+B updated frequently B B B build provided ensure compatibility latest stable version B
+believe B better B details blog post
+easy implement buttons select click buttons B - loop apply B selected item difficult B reordering
+div B 660px left hidden B higher maximum B main container
+website x-scrollable devices forgot add row inside 100 +15px left B +15px right B bigger window B
+need help though need number B 27 result 33 B 94 print numbers sum completed
+provided string want convert chars string int B value another method getkey number result greater 26 B 26
+might even noticed B version simpler B version
+django easy use B instead B tried query data B faster B x10 faster using inner join analyse shows uses indexes unlike B
+benchmarking 3 years ago may stale... showed large datasets basically B fulltext 10-100x faster B xapian 10-100x faster B integrated
+look speed performance benchmark B suggests B 3-4 slower B 3
+applies window objects also scrollable frames overflow css property set scroll auto element explicit B B B B contents
+seems like image B larger image B reality
+personally would extract separate class could isolation verify given B larger B returned scalr.mode.fit_to_B
+B browser window larger B body B equal window B
+B longer B set B 500px set B auto
+however want redesign layout make adjustments based wether screen landscape B larger B portrait B larger B mode definitely use css media queries
+edit would diamonds B greater equal B
+image exaggerated B normally bigger B
+uiscreen mainscreen knows really want B greater B whether actually either query actual dimensions query whether device portrait mode landscape
+easy enough using check whether B greater B signature portrait mode
+try minimize page resize size smaller screen espicially minimized vertical manner B page longer B footer becomes blank white background-image becomes shorter
+B bigger B B 100 B 100
+found detect orientation pdf document iphone sdk - try get dimensions pdf B always bigger B matter orientation pdf has.
+gives figure B 300x smaller B
+essentially stating div #colorbox class cboxphoto run function add class relative image B greater x B greater x
+B image greater B want crop B
+left larger body B top larger body B
+appbar whose B greater device B
+B smaller B store B one variable called value else store B
+want boardpanel always square size equal minimum gamepanel B B gamepanel B greater B empty space left right smaller empty space top bottom
+i.e browser B goes smaller image scale overlapping going text staying centre goes B
+parent B higher B
+works fine image equal B ahd B B greater B versa trouble comes
+suspect ios sets landscape flag usable B larger usable B
+default image B fill 100 view port B 100vw page B greater B landscape orientation background-size overridden image B fills 100 view port B 100vh
+landscape orientation one B bigger B
+check B image B bigger B reduce image B instead reduce B fill container like
+approach work B container larger B child overflows parent demonstrated following snippet
+aspect ratio 1 B larger B
+even odd B greater B around
+lower imagebuttons shown whenever B image imageview B
+extracted solution media query browser size B B
+get vertical scroll bar B increases 500px horizontal scroll bar B increases 250px
+B greater B
+B higher B
+B image smaller B set B equal B crop B accordingly aspect unchanged
+pretty ifloop answer B slightly faster B
+B B load button B .thanks
+B seems consistently tick 0 01 better B distinction reconstruct sign extra test
+tom karzes mentioned B also better using B calculating square roots
+fast implementation B x 0.5f faster fast B x
+cut paste B takes steps B iirc
+conceivable B could return address memory location already pre-initialized zeros thus may faster B + memset combo
+system pick closest match B closer B xxB
+would say pure B better programming whether use flash ide flex ide relevant B better non-programmers combine components programmed
+request response handling B kind lightweight B 4.2.3
+thing makes B better B spies capable programming spies expectations withargs ... .called.
+alignment may fail B B narrower B int
+ios B ios B B
+point nothing since B longer there... external B blank B sake exercise
+first use B q takes work B q
+expression like binds associativity 2 B higher precedence + 2 B
+speed B though still faster B
+yes pow slower B B slower B
+arithmetic B higher precedence B
+B nearly always slower B
+trig functions precedence lower B higher B
+remember B even strings binds tighter B must use brackets
+huge performance boost look like B quicker fulltext mysql B
+con encounter issues related versions dependencies B B
+may even use different server say nginx B overhead traditional B setup
+know using B better paradigm value guid B appended front
+B bigger space B
+B bigger B result operation typed B storing B
+note B typically narrower B rare systems B B may width
+rank unsigned B B
+see absolutely write like since B main shorter 9 non white-space B vs 15 concise perfectly valid
+note size B B conversion B B make lose
+B usually 4 bytes thinking really need 10 B varchar 10 would do.
+dist fonts B gruntfile.js license B readme.md
+B runs faster B
+still cannot inherited B cannot lower visibility B
+hand want rounding elimination fractions one direction std B goes always higher std B always goes lower
+B higher 0 B lower 0 axis means tiles outside camera scoop
+integer multiplication division B slower integer B subtraction
+B contiguous value one smaller B value one bigger maximum gap within B
+simply checking values two input textboxes alerting user B price B price evaluating backwards
+like heard like B slower B simpler management single private protect
+B looks better B iterating right direction
+using B B slower normal B might wanna take look
+B faster foreach B
+B readable B
+heard B faster foreach B
+update made changes already suspecting already pointed enhanced B slower outside trivial tight B cost miniscule fraction cost logic B
+example fp B throughput lower fma B intel skylake 1 vector per clock instead 2
+mmmm B somewhat developed B respects
+happen B value digits B value
+overlaps B endtime B starttime
+never predict value greater B B
+another idea done inserts delete rows schedule_time greater B value schedule_time column schedule_time B value schedule_time column
+every insert check value bigger B smaller B set properly
+know B actually mid try put B right place
+simply preventing user select B value B value
+trials concur B twice B trials concur
+example values B 0 lower limit first value B 0 upper limit first value etc. function return following
+looks like either segment exists smaller asked trying create new one smaller system B size shmB greater B shmB
+top B heap k pop top term push B heap
+val - B B - B performs scaling number greater B - B B subtracted never zero B subtracted
+total number odd B heap one element B heap
+next row data sequential order B year record 1 B year record 2
+B lower B increment positive B-B divisible increment
+lower B set B higher B set B
+trying write method returns number words words parameter least B B haracters
+value entered would get checked see higher B lower B
+B looks really good works almost 2x faster B data.
+well known integer B slow operation typically several slower integer B
+B one number operations far computational complexity theory concerned expensive B
+pretty possible compute polynomial B efficient B see following table algorithm 3 slower single B
+B things little complicated B see
+B unpredictableâ sometimes almost fast B sometimes slower cpython
+found B really effective surprisingly lightweight....it aims lightweight B
+found B also issue increase rate B
+think a.__init__ B x better B .__init__ x supports multiple inheritance find B
+also stated martijn pieters using B B .__str__ better deck.__str__ B
+try B write ups suggest worse B job
+B simpler faster B used
+simd math libraries B B however seem B B2
+B scalar 2.7x faster B vectorized speed 3x matrix size 128x128
+B clearly faster smaller values nearlly fast B
+B performs faster efficiently B B produces errors data set
+according wikipedia bmp B 65536 characters latest version B contains 107000 characters B one million points
+also seems B lib better performance packages B tried personally
+according performance results serialization databind strings B.tojson myobject B 10x slower B
+conditions B proven faster B also exists jsonp json.simple
+B setup launches older B setup bootstrapper ui
+think writing two apps B better idea write wp8 first end remove special wp8 features downgrade wp7.5 maybe write wp7.5 add wp8 features B wp8
+B older work need B
+running B higher B follow steps
+- went back B bigger jumps B actually ran site B went perfectly
+however current production mysql B earlier v5.7.7 removal restriction views one criteria assessed making decision B
+B younger B B final draft 2006 B came 2008-9
+B issue Bking little better B s...i know folks love B find inflexible
+override methods make B tolerant B means make unequal objects hash opposite
+B B better B load average 1.0 processes B single core
+B restrictive B
+even though everybody says slow B 2-6x faster B
+B preferable B B may occur multiple user keeps pressed
+simply put max heap heap value B greater value B
+first example B 3x slower data.table second 200x faster B 100 faster data.table
+calculating B first k delete first element directly heap min B according whether greater B using pointers use heapify position

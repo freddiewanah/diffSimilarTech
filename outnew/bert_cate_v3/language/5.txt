@@ -1,0 +1,26 @@
+it seems to me that * would be way simpler to learn then * for beginners i know because i learned it in like 2 months and * is less complicated and better laid out then *
+
+download xcode free and learn * or * * is easier to learn than *
+
+* also prevents us i believe from overriding a parent class s property but also still lets us observe changes to that property--this is much better than * s approach
+
+no objects come magically into existence in * any more than in *
+
+in free and turbo * file handling is much more easier than in * in * we have assign instead of assignfile and close instead of closefile
+
+i believe that the reports are using something more along the lines of * edit oregonghost says * which actually makes more sense than * than vb.net and very limited at that
+
+i would just use * but * s syntax is so much better than * s and * is pure and has cool features such as type classes
+
+* has fewer industrial users than * and although it does have multicore support it is still being developed in a very unproductive direction
+
+on contrary * is more c-like do not require explicit enabling of script running accepts relative paths case sensitive and loosely typed both are imho advantages for scripting language compared to *
+
+however i ve noticed that running the * tools is becoming more and more painful over time so i m looking at the possibility of migrating this code to * 2008
+
+also developing enterprise application is such new languages java c# * rubby is easier that * because they rely on frameworks every body can write c# java code that function but it requires tricks good practices and some of imagination to write * strong and rehusable code
+
+* is faster than * for most of the benchmarks on languages benchmark game
+
+fortunately * 2.1 has a better alternative since it s supports the built-in calendrical types from * 1.3
+

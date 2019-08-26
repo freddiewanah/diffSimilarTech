@@ -1,0 +1,26 @@
+now this works fine in B and safari and i have had to use assitional css settings for firefox but ie and B both display my ribbon div about 25px higher than in B or safari
+
+also nice to know is the fact that the latest version of B and also B don t know since when but longer than B supports userscripts out of the box no need to install any add-ons
+
+this doesn t happen in B and is less frequent in B than in ie
+
+in my experience B is sometimes more lenient than B but i would definitely test in both
+
+in B typeof is slower than the other two but in B it is the fastest
+
+the results varied from a browser to another B 4.0b12 is faster using but B webkit and opera is faster when using
+
+B thumbnail 4 times smaller than on B
+
+in ie8 and B it runs even faster than B in general and this slow down never happens
+
+i had a hiccup in B but found a fix after figuring out B is a bit more picky than B when defining svg attributes
+
+this makes B 50x faster than B and 70x faster than safari is there any known reason for that
+
+B 5.1.10 6534.59.10 middle handles a smaller viewport but in sort order with a smaller viewport computes new image sizes even smaller than B
+
+so if something works on B it s more likely to work straightaway on B more than it is on firefox - but that s just a family resemblance at the end of the day you ll still have to test each as every webkit browser product and version still uses a different version of webkit
+
+in particular a font may be rendered quite differently between the various browsers and operating systems in current use - B and macos use more anti-alisaing than B or ie but ie9 has a new feature called cleartype which also affects font rendering
+

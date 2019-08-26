@@ -1,0 +1,52 @@
+the B compiler is doing a lot more and is quite a bit newer than the B compiler so it unlikely it will be as stable fast for quite some time
+
+download xcode free and learn B or B B is easier to learn than B
+
+B is more strictly typed than B
+
+B -documentary provides more content than the documentary for B
+
+B is stricter about runtime type correctness than B so duck typing alone is not enough
+
+executable size of B application is much bigger than size of B application
+
+specifically it makes it possible to write B code that plays nicely with B which is more strongly typed than B
+
+however i read that B was the successor of B and i would feel more comfortable with B syntax
+
+but B is less dynamically typed than B and has less support for reflection
+
+usually i find B s method naming to be cleaner than B s but init methods can be an exception
+
+apple seems to claim that the optional type in B is safer than nil in B but i don t understand why this is so
+
+B will incur this penalty in fewer situations than B will for instance method calls to B-only protocol methods do not hit objc_msgsend but if the protocol is declared in B or if the B protocol is decorated with B such that it can be adopted by B objects as well then method calls to methods in that protocol adopted by B objects appear to be dispatched via objc_msgsend
+
+it is possible for B to be faster than pure B in things that you would traditionally use c or c++ for anyway
+
+B being a whole lot less than B
+
+as for whether to use B or B the proof is in the pudding B is better at transforms and B is better at queries
+
+this kind of processing is most easily done with B which is more expressive than B
+
+all of B s languages can interoperate so your language of choice is up to you though the rnrs languages tend to go unused in the B community #lang B is much more useful for writing programs than any of the B implementations but they can be useful if you want to write programs that run on different B implementations
+
+so yes it can be used with flash or rather pure B but it is a little less convenient than with B where everything is set up by the framework because it takes more under the hood configuration to be able to run all the necessary parts for remoting
+
+i would say pure B is better for programming whether you use flash ide or flex ide is not that relevant and B is better for non-programmers to combine the components programmed in as
+
+B does not provide an alternative and any alternative that was provided would likely be less reliable as B does not have the resources that sun oracle ibm etc
+
+that said it is a B which has fewer batteries included as compared to common B
+
+another side note B inside xpath string looks a bit tidier than escaped B imo
+
+the B zipwith is friendlier than the B list.map2 which requires the lists to be the same length
+
+however i ve noticed that running the B tools is becoming more and more painful over time so i m looking at the possibility of migrating this code to B 2008
+
+avoiding them by modifying B is lot easier than fixing the issues in B
+
+common B is an image base language although usually to a lesser extent than B
+

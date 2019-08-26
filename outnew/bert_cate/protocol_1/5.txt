@@ -1,0 +1,72 @@
+B is more pythonic than B or shudder soap
+
+B is more pythonic than B or shudder soap
+
+B is really faster than B and the simple reason is because it s non-existent acknowledge packet ack that permits a continuous packet stream instead of B that acknowledges a set of packets calculatd by using the B window size and round-trip time rtt .
+
+2 B needs more processing at network interface level where as in B itâ s not
+
+short answer if you can tolerance with any packet loss B is better otherwise B
+
+B - more reliable than B but this comes with some overhead there is a distinct connection a better match for games which require less frequent data transmission such as turn based games as is your game
+
+since loosing some packets doesn t matter but speed latency is crucial B is much better than B
+
+so assess the situation the development cost of a B transport is higher to significantly higher than B and to some degree you are re-inventing B
+
+B is significantly easier do you really need B btw
+
+tldr B ip is more reliable than B but not a 100 iron-clad guarantee that nothing will ever go wrong
+
+B is faster than B and the simple reason is because its nonexistent acknowledge packet ack that permits a continuous packet stream instead of B that acknowledges a set of packets calculated by using the B window size and round-trip time rtt
+
+but there are some cases especially in iot domain B is more popular than B for its bigger transport overheads
+
+B communication is connection less as compared to B which need a connection
+
+first of B s datagram is simpler than B s one
+
+most importantly you can easily supplement B with some reliable delivery hand-shaking that s less overhead than B
+
+B is more of a fire and forget whereas B maintains a connection state
+
+i think B will perform better than B gcdasyncsocket in your case video transfer
+
+B is really faster than B and the simple reason is because it s non-existent acknowledge packet ack that permits a continuous packet stream instead of B that acknowledges a set of packets calculatd by using the B window size and round-trip time rtt .
+
+2 B needs more processing at network interface level where as in B itâ s not
+
+short answer if you can tolerance with any packet loss B is better otherwise B
+
+B - more reliable than B but this comes with some overhead there is a distinct connection a better match for games which require less frequent data transmission such as turn based games as is your game
+
+since loosing some packets doesn t matter but speed latency is crucial B is much better than B
+
+so assess the situation the development cost of a B transport is higher to significantly higher than B and to some degree you are re-inventing B
+
+B is significantly easier do you really need B btw
+
+tldr B ip is more reliable than B but not a 100 iron-clad guarantee that nothing will ever go wrong
+
+B is faster than B and the simple reason is because its nonexistent acknowledge packet ack that permits a continuous packet stream instead of B that acknowledges a set of packets calculated by using the B window size and round-trip time rtt
+
+but there are some cases especially in iot domain B is more popular than B for its bigger transport overheads
+
+B communication is connection less as compared to B which need a connection
+
+first of B s datagram is simpler than B s one
+
+most importantly you can easily supplement B with some reliable delivery hand-shaking that s less overhead than B
+
+B is more of a fire and forget whereas B maintains a connection state
+
+i think B will perform better than B gcdasyncsocket in your case video transfer
+
+it could be a sni problem if you use any kind of load balancer B proxy or more than 1 B certificate on the same ip
+
+as last resort resolution i don t suggest this for security issues using B is always safer switch your registry to use http instead of B
+
+it could be a sni problem if you use any kind of load balancer B proxy or more than 1 B certificate on the same ip
+
+as last resort resolution i don t suggest this for security issues using B is always safer switch your registry to use http instead of B
+

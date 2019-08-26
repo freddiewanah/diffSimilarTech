@@ -1,0 +1,76 @@
+now this works fine in * and safari and i have had to use assitional css settings for firefox but ie and * both display my ribbon div about 25px higher than in * or safari
+
+btw * is less close to w3c specs than * de 42+ i d opt to start using * for your initial testing and then test it in ch to detect quirks
+
+i use * for development as i find it runs faster than * and ie so it is a bore to guess where the icons are
+
+in * the button is wider than in *
+
+this is due to the simple fact that * has been in the extension business longer than * or ie
+
+and additionally the algorithm that * uses is better than the one in * at least for handling the resizing of text
+
+in my experience * is sometimes more lenient than * but i would definitely test in both
+
+the logs only seem to work with a * browser which is a laugh as usually * is better at running google apps than *
+
+in general i have found * to be more finnicky than *
+
+i am checking it in * and * and see that in * spacing between letter is larger than in *
+
+* on nexus 7 is a bit better at producing reasonable sample rate readings but the updating of the display is even more sluggish than *
+
+i m on a mac os x 10.8.2 running * 18.0.2 - it actually runs the game faster and smoother than my * 25.0.1364.99
+
+currently with the 10px top padding the cells in * look taller than in *
+
+safari and opera work with the * setting but * and ie display the iframed page larger than * causing part of the text to be cut off
+
+use * network in development tools and check your requests sometimes it just sends options request in cross origin i insist on * because it s network tool is much more detailed than * and safari
+
+and of course the results - if they are reproducible - might suggest that * is faster than * or that * just prioritises timeouts over dom events
+
+i have just noticed a site i am working on looks different in * than other browsers saf * everything is more saturated in * even a background-color rgb
+
+the same word in * look wider than in *
+
+maybe * is more lenient when it comes to illegal characters in the url than * or something like that
+
+* is clearly less secured it deliberately allows something that * locks down
+
+* encodes more characters than *
+
+is this due to * being more strict than *
+
+it is also proper browser behavior * is just stricter about it than * is
+
+my menu links seem in * correctly but in * my menu links are 1 px smaller than *
+
+so * is better than * - but both suck in that regard
+
+most noticeably if you look or * * and then internet explorer 9 you ll notice that the terms and conditions are slightly higher than in * or * and thus slightly touching the main content area
+
+for example in the classic browser share example if the * is at 45 i want to be rendered inside the pie distance -40 may be and where the slice is less such as * at 6 - i want it to be shown outside with a connector
+
+a lot of people use iphones ipads and * is literally the only option even * is more like * in disguise... so it s quite a portion of users who are suffering from this issue
+
+if i try to do a google search for website loading slower in * than in * i get a lot of results about how * is slower than *
+
+* makes child block s height larger than *
+
+* is more funny than * i can easily make * cache my page but * does not
+
+the * controller bar is the quicktime bar which is smaller and dark so the movement is less noticeable than * which has a big blue progress bar
+
+ios * is more ios * than * itself
+
+* also is susceptible to this same issue although it does a significantly better job than * at getting the realtime api re-connected
+
+works in google-chrome firefox a bit weirdish blur effect on hover * ends look smaller * ends look smaller
+
+in ie and * fullscreen_block appears closer to the bottom than in * and google-chrome
+
+* is just better for web development and i prefer * overall
+
+in * it is several pixels higher up than in * and google-chrome and significantly lower in opera
+

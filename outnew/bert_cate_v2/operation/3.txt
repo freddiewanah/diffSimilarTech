@@ -1,0 +1,48 @@
+B first field from the other and if the value is not greater than 0 B by -1
+
+similarly if you skip the five first elements your loop takes o n-5 time but that too is the same as o n because adding or B a constant is even weaker than B by a constant
+
+just take the difference and if it s negative B 2pi and then if it s greater than 2pi B 2pi
+
+provided a string i want to convert the chars from the string to an int B a value from another method getkey to this number and if the result is greater than 26 B 26
+
+we observe that for 7 nodes 1 2 3 5 6 8 9 we are getting further by 1 B 7 9-2 to the score for other 2 4 7 we are getting closer by 1 B 2
+
+these can be compared to B by 2 x left-shift or divinding by 2 x right-shift but it should be noted that a binary shift is much faster than a B operation
+
+but i guess B is more computationally expensive than B
+
+B has higher precedence than B + which is why 2+3 4 is interpreted as 2+ 3 4 both in c and normal math
+
+since B is more expensive than B you want to let the machine paralleliz it as much as possible so saving your stalls for the B means you spend less time waiting in the B loop than you would in the B loop
+
+B is much harder than B
+
+the difference is that in the second pattern the concatenation x followed by y in xy has higher precedence than the choice either x or y in x|y like B has higher precedence than B so the pattern is equivalent to
+
+also remember B is much more expensive than B
+
+the precedence relationship is the same B is higher then B
+
+clearly ruby considers the B operator to be of a higher precedence than the B + operator
+
+and as you hopefully knows B have higher precedence than B so the expression is equivalent to probably not what was intended by the macro writer
+
+i assume that is parsed correctly because the two operators have different precedences meaning that associativity does not come into play and that your grammar correctly implements precedence although you should note that is a more standard example for showing that B has higher precedence than B since simple left-to-right parsing of gives the same result as your parser
+
+if memory serves this is the same technique slide rules used although they also took advantage of with the idea being that B is easier than B but my exposure to slide rules is limited to an eccentric high school physics teacher and a cryptographic teacher using it to explain certain tricks with big number math
+
+other cpus take three or four cycles to do a B which is a bit slower than B
+
+the B has a higher operator precedence than the B operator therefore it will happen before the B
+
+on a cpu with a fast multiplier B may only be on the order of 4 times slower than B but on normal hardware it s 16-32 times slower for a 32 bit operation
+
+or is there something about B that is more convenient than B in programming
+
+B may be heavier than B but a commenter pointed out that reciprocals are just as fast as B on modern cpus in which case this isn t correct for your case so if you do have 1 x appearing somewhere inside a loop and more than once you can assist by caching the result inside the loop and then using y
+
+if B are o n 2 this is slower than long B for large numbers o n 2 vs o n 2 log n
+
+for example an B is typically much faster than a B
+

@@ -1,0 +1,160 @@
+i ve used both B is more robust but B is easier on the eyes
+
+you should be able to do this in B which has a better license than B by just throwing what they showed in this blog post on its side
+
+B has more options for moving the camera than B but it doesn t seem to have a way to rotate around the y axis so i m guessing i ll need to perform some complex calculations on the azimuth and elevation to achieve the same result - but i m at a loss as to where to start i m new to working in 3d space and my brain doesn t think that way yet
+
+B makes it easier to visualize the data but B looks more professional
+
+i haven t played around with it recently but i think B is more flexible here in terms of mixing dtypes but doesn t give you all the B dataframe conveniences obviously
+
+the B docs explain how to use drawees and you can see right from their xml definition that they are much more customizable than B
+
+for more complex xml reading writing you better check B which is heavier than B
+
+B is more forgiving in terms of well-formed xml structure see i had to edit the xml a bit to make things work for B and it s actually much easier to work with
+
+the B has a more involved setup than the B but it does allow for more customization of what and where it displays
+
+i ve found B which is more like the B but it lacks a lot of B libraries
+
+if you definitely need svg and want to only use existing elements you may want to look at B which is raphaels younger sister and shares a lot of the same codebase or another like B
+
+i haven t tried any of these in a jsf 2 application but i would recommend using the B one at least the documentation is better than B
+
+start with B as it s text extraction abilities are better than B s
+
+B s io stream might be a better solution than B s own stream
+
+i ve used both for the same project B is better integrated with the B and especially c++ exceptions
+
+as for not reinventing the wheel like many have said already make sure to first explore the possibilities in the standard template library B which is much richer than you might think and then look at B www.B.org which has libraries for a lot of diverse purposes and they are extremely high quality and some are just works of art like spirit proto lambda and mpl
+
+once you re past the basics with c++ learning how to use parts of B and then how it works will be better than tackling B
+
+B has far more capabilities than B
+
+new to B already loving it so much better than B
+
+B seems to be gaining more popularity than B but most people seem to be on B
+
+the downside is that you are losing the big part of the B s appeal in its simplicity and technically could be better off by using B s dsl
+
+i think B looks so much better than B but for quick zooming panning functionality my first question is is this better off in B or can B handle slick zoom pan even though it s not tile-based
+
+B uses an older version of B which i believe was the latest free B version
+
+B is the faster parser and can handle broken html quite well B comes closest to how your browser would parse broken html but is a lot slower
+
+you can also try sklearn.linear_model.logisticregression and sklearn.svm.linearsvc both implemented using B that is more scalable than B albeit less memory efficients than other linear models in scikit-learn
+
+when i evaluated B it was less mature than B
+
+i hear B is nicer the B
+
+B seems more flexible but i am unclear about what the most direct way of using it to save a full B dataframe with multiindex and all
+
+if you are dealing with docx document B is more convenient than B
+
+is B consumes more gpu memory than equivalent B model training
+
+i know another plugin named B corner is available however it s file size being massively bigger than B i decided to with B
+
+i think B has a more mature ajax integration and their ajax components and events are more easy to use for me than B ones
+
+B has a more platform-specific look about it but java ships with B built-in there s no messing about with external libraries as with B although the use of eclipse may make that much easier i still develop quite a bit of my stuff from the command line unfortunately
+
+is B faster than B
+
+fixing bugs in B is much harder than in B most classes in B are final or contain hostile checks in the constructor to make sure no one extends them the package is signed so you can t simply replace classes and so far i tried several times to compile B from sources - and failed
+
+B became slower than B because it uses proxy to os widgets
+
+in my opinion B is easier to learn and to use but the results of B are often nicer - you can often feel that a B application behaves not completely right
+
+B is claimed to be faster than B although in modern versions B is also fast enough
+
+i d say that B is actually more evolved than B
+
+B is more strict the B so i m now learning it
+
+for me B is performing far better than B
+
+mmmm B is somewhat less developed than B in many respects
+
+i thought B was supposed to be leaner meaner than B
+
+B converted much faster than B although i did not test conversion with cuda processing
+
+while B aims to be more lightweight than B B is by far the more mature proj
+
+as a side-effect of implementing proper parent traversal B is a bit slower than B for parsing
+
+or B directly .for more details B 3.0 documentation
+
+several things i found in the cocos2d forums lead me to believe it s an issue with the B implementation on ios but i ve tried using both stb_image and lodepng to avoid B and those libraries actually performed even worse than B
+
+quick takeaway of the benchmark B performs 5 to 6 times better than B and more than twice better than gson
+
+looking briefly at the list-like combinators for B i m more familiar with B i think you can solve this by folding over the result of the psome combinator
+
+it seems that the idea of B it to be more declarative than B so you just have pure
+
+but if convenience is more important than efficiency yes you probably should consider a tree model not dom necessarily B is better for example or data binding jaxb or B
+
+the cons of B is that you get more than just B - you also get gulp-utils and other things - which is a problem if you are not using gulp in the first place
+
+for semantic zooming you ll notice that B is significantly faster than B
+
+if you don t plan to move to mobiles later tkinter or B may be a better choice than B
+
+i ve found that even if B is faster than B for documents that size it s usually best to try to reduce the size to a few kb via regex or direct stripping and load that into bs as you are doing now
+
+B is faster than B i think and has much better functionality while remaining relatively easy to use
+
+B is much faster than B and probably the fastest parser available for python
+
+according to the above posts and my own experience B is definitely faster than B
+
+i would recommend B for html parsing it s simple and considerably faster than B can be as much as two orders of magnitude
+
+B is said to be slower than B but i suggest you use a profiling tool here to find the best set of options here
+
+yes B is slower than B
+
+in my experience B via mit-shm extension was significantly faster than B surfaces not sure i used B in the most optimal way though
+
+if your company s concern is to avoid big unknown libraries which is prefectly understandable i d advise you to stick with B which is smaller that B
+
+for my project B is better then B because B is filling up all gaps B is just looking for the first possible gap and doesn t fill empty gaps
+
+i ve seen questions like this come up before and the general consensus is that B is much faster than B
+
+B is not particularly fast but the B library can almost compete with most binary serializers B is 2-4x faster than B in most situations and 10-20x faster on utf-8 because it has special code for utf-8
+
+i found B better than B performance project activity better docs ...
+
+B is faster with smaller documents and B is faster with large documents
+
+i was also looking at B B sfml i didnt see much tutorials help on this but heard its better than B
+
+finally if B just isn t working for you try B it s better documented than B
+
+this may help those confused by B and hdf5 but more familiar with B like myself
+
+i looking to use a suite of nlp tools for a personal project and i was wondering whether stanford s B is easier to use or B
+
+or if you re really focused on only doing opengl i may suggest using B which is the better B but you ll have to draw the menus yourself using opengl
+
+the javadoc of B is way better than that of B
+
+however if you re developing a serious application B is more likely to be the tool you need to use as B abstracts more than a real application would normally want to
+
+B is much more easier while many of people use B or sfml they re more flexible and feature-full than B
+
+i am using a sparse format but suggestions are welcome on other formats too i am able to use the data with B in a dense format using the function names as variables and it works just muuch slower than with B
+
+since you tagged this with python you might find B more useful than B but the real question here should be about how to do the conversion not the library request since library requests are off topic for stack overflow
+
+B -- 100x better than B
+

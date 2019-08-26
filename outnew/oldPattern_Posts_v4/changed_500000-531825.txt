@@ -1,0 +1,56 @@
+503219
+vsto	add-in
+Changed: 
+Create a new vsto add-in without any additional code and run add-in
+Origin: 
+Create a new vsto add-in without any additional code and run it
+
+
+504907
+exponent	modulo
+Changed: 
+Like this on the c++ side you ll need to read the modulo and exponent values from disk convert modulo into bignum values
+Origin: 
+like this on the c++ side you ll need to read the modulus and exponent values from disk convert them into bignum values
+
+
+506159
+profiler	gprof
+Changed: 
+ubuntu s a kernel level profiler requiring a kernel module unlike gprof however also unlike gprof ubuntu can profile multithreaded applications
+Origin: 
+It s a kernel level profiler requiring a kernel module unlike gprof however also unlike gprof it can profile multithreaded applications
+
+
+512677
+prng	random
+Changed: 
+Given a fixed start seed prng will always generate the same sequence of random numbers which is what you re asking for
+Origin: 
+Given a fixed start seed it will always generate the same sequence of random numbers which is what you re asking for
+
+
+525486
+png	ico
+Changed: 
+And use png2ico myicon.ico logo16x16.png logo32x32.png logo255x255.png scheme creates an ico file from 1 or more png s and handles multiple sizes etc
+Origin: 
+And use png2ico myicon.ico logo16x16.png logo32x32.png logo255x255.png it creates an ico file from 1 or more png s and handles multiple sizes etc
+
+
+530014
+profiling	benchmarking
+Changed: 
+If you really believe that piece of code to be a performance bottleneck profiling or benchmarking profiling both ways
+Origin: 
+if you really believe that piece of code to be a performance bottleneck profile or benchmark it both ways
+
+
+531825
+rational-numbers	fractions
+Changed: 
+To give you a practical example take the set of rational-numbers or fractions are fractions re commonly called
+Origin: 
+to give you a practical example take the set of rational numbers or fractions are they re commonly called
+
+

@@ -17,6 +17,7 @@ from multiprocessing.dummy import Pool as ThreadPool
 from big_tag_group import selected_tags, full_list, selected_tags_dict
 from stanfordcorenlp import StanfordCoreNLP
 from old_pattern_matcher import OldPatternMatcher
+from filter_pronoun import Check_new_pattern
 
 cin = {"than", "over", "beyond", "upon", "as", "against", "out", "behind",
        "under", "between", "after", "unlike", "with", "by", "opposite"}
@@ -31,9 +32,10 @@ cv = {"beat", "beats", "prefer", "prefers", "recommend", "recommends",
       "picks", "purchase", "purchases", "select", "selects", "race",
       "races", "compete", "competes", "match", "matches", "compare",
       "compares", "lose", "loses", "suck", "sucks"}
-nlp = StanfordCoreNLP('http://localhost', port=9000, quiet=False, memory='8g')
+nlp = StanfordCoreNLP('http://localhost', port=9000, quiet=False, memory='6g')
 
 def coreference(pre_words, words, post_words):
+    changed = ""
     flag = False
     if len(pre_words) > 0:
         pre_words[0] = pre_words[0].capitalize()
@@ -42,7 +44,7 @@ def coreference(pre_words, words, post_words):
         post_words[0] = post_words[0].capitalize()
     text = ' '.join(pre_words) + ". " + ' '.join(words) + ". " + ' '.join(post_words)
     if len(pre_words) + len(words) + len(post_words) >= 80:
-        return pre_words, words, post_words
+        return pre_words, words, post_words, changed
     for t in text.split():
         t = t.strip('.')
         t = t.strip(',')
@@ -53,13 +55,12 @@ def coreference(pre_words, words, post_words):
                     break
         if flag:
             break
-    pre_list = nlp.word_tokenize(' '.join(pre_words))
-    words_list = nlp.word_tokenize(' '.join(words))
-    post_list = nlp.word_tokenize(' '.join(post_words))
-
     # print(text)
-    if flag:
 
+    if flag:
+        pre_list = nlp.word_tokenize(' '.join(pre_words))
+        words_list = nlp.word_tokenize(' '.join(words))
+        post_list = nlp.word_tokenize(' '.join(post_words))
         for ps in nlp.coref(text):
             # print(ps)
             for tag in full_list:
@@ -68,23 +69,33 @@ def coreference(pre_words, words, post_words):
                     ps[0] = (ps[0][0], ps[0][1], ps[0][1]+1, tag)
             if ps[0][-1] not in full_list:
                 continue
+            # print(ps)
             for index in range(1, len(ps)):
                 if len(ps[index][-1].split()) == 1:
                     if ps[index][0] == 1 and pre_list != []:
+                        continue
+                        # for i in range(ps[index][1] - 1, ps[index][2] - 1):
+                        #     # print(pre_list, i)
+                        #     if i < len(pre_list):
+                        #         pre_list.remove(pre_list[i])
+                        # pre_list.insert(ps[index][1] - 1, ps[0][-1])
+                        # changed = "pre"
+                    elif ps[index][0] == 2 and pre_list != [] and ps[0][-1].lower() != ps[index][-1].lower():
                         for i in range(ps[index][1] - 1, ps[index][2] - 1):
-                            # print(post_list, i)
-                            pre_list.remove(pre_list[i])
-                        pre_list.insert(ps[index][1] - 1, ps[0][-1])
-                    elif ps[index][0] == 2 and pre_list != []:
-                        for i in range(ps[index][1] - 1, ps[index][2] - 1):
-                            words_list.remove(words_list[i])
+                            if i < len(words_list):
+                                words_list.remove(words_list[i])
                         words_list.insert(ps[index][1] - 1, ps[0][-1])
-                    elif ps[index][0] == 3 and post_list != []:
+                        changed = "words"
+                    elif ps[index][0] == 3 and post_list != [] and ps[0][-1].lower() != ps[index][-1].lower():
                         for i in range(ps[index][1] - 1, ps[index][2] - 1):
                             # print(post_list, i)
-                            post_list.remove(post_list[i])
+                            if i < len(post_list):
+                                post_list.remove(post_list[i])
                         post_list.insert(ps[index][1] - 1, ps[0][-1])
-    return pre_list, words_list, post_list
+                        changed = "post"
+        return pre_list, words_list, post_list, changed
+    else:
+        return pre_words, words, post_words, changed
 
 def grouped(iterable, n):
     "s -> (s0,s1,s2,...sn-1), (sn,sn+1,sn+2,...s2n-1), (s2n,s2n+1,s2n+2,...s3n-1), ..."
@@ -103,7 +114,7 @@ def read_relation(path):
     return relations
 
 
-batch = 500000
+batch = 1000000
 s = batch * 8 * 7
 table_name = "Posts"
 
@@ -124,223 +135,6 @@ synonyms_file.close()
 
 print(datetime.datetime.now())
 
-class PatternMatcher:
-
-
-    def __init__(self):
-        self.count = {"0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0,
-                      "6": 0, "7": 0, "8": 0, "9": 0, "10": 0}
-        self.compa_sent_count = 0
-
-        self.nlp = spacy.load("en")
-        self.matcher = Matcher(self.nlp.vocab)
-        # self.matcher.add(6,
-        #             None,
-        #             [{'ORTH': 'JJR'}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}],
-        #             [{'ORTH': 'JJR'}, {}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}],
-        #             [{'ORTH': 'JJR'}, {'ORTH': 'CIN'}, {}, {'ORTH': 'TECH'}],
-        #             [{'ORTH': 'JJR'}, {}, {'ORTH': 'CIN'}, {}, {'ORTH': 'TECH'}])
-        # self.matcher.add(7,
-        #             None,
-        #             [{'ORTH': 'RB'}, {'ORTH': 'JJ'}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}],
-        #             [{'ORTH': 'RB'}, {'ORTH': 'JJ'}, {}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}])
-        # self.matcher.add(8,
-        #             None,
-        #             [{'ORTH': 'RBR'}, {'ORTH': 'JJ'}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}],
-        #             [{'ORTH': 'RBR'}, {'ORTH': 'JJ'}, {}, {'ORTH': 'CIN'}, {'ORTH': 'TECH'}])
-        #
-        #
-        # self.matcher.add(4,
-        #                  None,
-        #                  [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'},  {}, {'ORTH': 'RB'}],
-        #                  [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}],
-        #                  [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
-        #                  [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
-        #                  [{'ORTH': 'NN'}, {'ORTH': 'IN'}, {}, {'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
-        #
-        #
-        #                  )
-        #
-        # self.matcher.add(5,
-        #                  None,
-        #
-        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBP'}, {'ORTH': 'NN'}],
-        #                  [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBP'}, {'ORTH': 'NN'}],
-        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBP'}, {}, {'ORTH': 'NN'}],
-        #                  [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBP'}, {}, {'ORTH': 'NN'}],
-        #
-        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'NN'}],
-        #                  [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'NN'}],
-        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'NN'}],
-        #                  [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'NN'}],
-        #                  )
-        self.matcher.add(0,
-                    None,
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'JJR'}],
-                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'JJR'}],
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJR'}],
-                    # [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {}, {}, {'ORTH': 'JJR'}],
-                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJR'}],
-                         [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {'ORTH': 'JJR'}],
-                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {'ORTH': 'JJR'}],
-                         [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'JJR'}],
-                         # [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {}, {}, {'ORTH': 'JJR'}],
-                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {}, {'ORTH': 'JJR'}]
-                         )
-
-        self.matcher.add(1,
-                    None,
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RBR'}],
-                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'RBR'}],
-                    [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RBR'}],
-                    # [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {}, {}, {'ORTH': 'JJR'}],
-                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RBR'}],
-                         [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {'ORTH': 'RBR'}],
-                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {'ORTH': 'RBR'}],
-                         [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'RBR'}],
-                         # [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {}, {}, {'ORTH': 'JJR'}],
-                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {}, {'ORTH': 'RBR'}]
-                         )
-
-        self.matcher.add(2,
-                    None,
-                    [{'ORTH': 'TECH'}, {}, {'ORTH': 'JJR'}],
-                    [{'ORTH': 'TECH'}, {}, {}, {'ORTH': 'JJR'}],
-                         [{'ORTH': 'TECH'}, {}, {'ORTH': 'RBR'}],
-                         [{'ORTH': 'TECH'}, {}, {}, {'ORTH': 'RBR'}],
-
-                         )
-        # self.matcher.add(1,
-        #             None,
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'JJ'}],
-        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'JJ'}],
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJ'}],
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJ'}],
-        #             # [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {}, {}, {'ORTH': 'JJ'}],
-        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'JJ'}],
-        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {'ORTH': 'JJ'}],
-        #                  [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {'ORTH': 'JJ'}],
-        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'JJ'}],
-        #                  [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'JJ'}],
-        #                  # [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {}, {}, {'ORTH': 'JJ'}],
-        #                  [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {}, {'ORTH': 'JJ'}]
-        #                  )
-        # self.matcher.add(3,
-        #             None,
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
-        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {'ORTH': 'RB'}],
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
-        #             # [{'ORTH': 'TECH'}, {'ORTH': 'VBZ'}, {}, {}, {}, {'ORTH': 'RB'}],
-        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBZ'}, {}, {'ORTH': 'RB'}],
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {'ORTH': 'RB'}],
-        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {'ORTH': 'RB'}],
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'RB'}],
-        #             [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {'ORTH': 'RB'}],
-        #             # [{'ORTH': 'TECH'}, {'ORTH': 'VBD'}, {}, {}, {}, {'ORTH': 'RB'}],
-        #             [{'ORTH': 'TECH'}, {}, {'ORTH': 'VBD'}, {}, {'ORTH': 'RB'}]
-        #                  )
-
-
-
-    def add_pos_tag(self, words, tech_pair):
-        if len(words) == 0:
-            return []
-        words = words.split()
-        tagged_words = CoreNLPParser(url='http://localhost:9000', tagtype='pos').tag(words)
-        if len(words) != len(tagged_words):
-            tagged_words = pos_tag(words)
-        tag_list = []
-        for (word, tag) in tagged_words:
-            if tag == "IN" and word in cin:
-                tag_list.append("CIN")
-            elif tag[:2] == "VB" and word in cv:
-                tag_list.append("CV")
-            elif word == tech_pair.split()[0] or word == tech_pair.split()[1]:
-                tag_list.append("TECH")
-            else:
-                tag_list.append(tag)
-        return tag_list
-
-    def match_pattern(self, pre, words, post, current_id, tech_pair):
-        pre_rm = pre
-        words_rm = words
-        post_rm = post
-        for w in remove_word:
-
-            pre_rm = pre_rm.replace(w, ' ')
-            words_rm = words_rm.replace(w, ' ')
-            post_rm = post_rm.replace(w, ' ')
-
-        tag_list = self.add_pos_tag(words_rm, tech_pair)
-        pre_tag_list = self.add_pos_tag(pre_rm, tech_pair)
-        post_tag_list = self.add_pos_tag(post_rm, tech_pair)
-        words_patterns = []
-        pre_patterns = []
-        post_patterns = []
-        if len(tag_list) > 0:
-            words_patterns = self.matcher(self.nlp(u'{}'.format(" ".join(tag_list))))
-        if len(pre_tag_list) > 0:
-            pre_patterns = self.matcher(self.nlp(u'{}'.format(" ".join(pre_tag_list))))
-        if len(post_tag_list) > 0:
-            post_patterns = self.matcher(self.nlp(u'{}'.format(" ".join(post_tag_list))))
-        patterns = pre_patterns + words_patterns + post_patterns
-        if words_patterns != [] or post_patterns != []:
-            self.compa_sent_count += 1
-            # out_file = open(os.path.join(os.pardir, "outnew", "pattern_v4", "sentences_{}.txt".format(os.getpid())), "a")
-            # out_file.write("{}\n".format(current_id))
-            # out_file.write("{}\nPattern(s): \n".format(tech_pair))
-            # out_file.write("{}\n".format(pre))
-            # out_file.write("{}\n".format(words))
-            # out_file.write("{}\n".format(post))
-            # out_file.write("\n\n\n")
-            # out_file.close()
-            data = open(os.path.join(os.pardir, "outnew", "pattern_v4", "pattern_{}.txt".format(os.getpid())), "a")
-            data.write("{}\n".format(current_id))
-            data.write("{}\nPattern(s): ".format(tech_pair))
-            for pattern in patterns:
-                self.count[str(pattern[0])] += 1
-                data.write(str(pattern[0])+"\t")
-                # data_file = open(os.path.join(os.pardir, "out", "tech_v2", "{}.txt".format(pattern[0])), "a")
-            data.write("\n")
-            if (pre_patterns != []) and pre != words and words_patterns != []:
-                data.write("{}\n".format(pre))
-                data.write("{}\n".format(words))
-                if (post_patterns != []) and post != words and post != pre:
-                    data.write("{}\n".format(post))
-                else:
-                    for w in post.split():
-                        if w in tech_pair and w not in pre and w not in words:
-                            data.write("{}\n".format(post))
-                            break
-
-            elif words_patterns != []:
-                print(words_patterns)
-                for w in pre.split():
-                    if w in tech_pair and w not in words:
-                        data.write("{}\n".format(pre))
-                        break
-                data.write("{}\n".format(words))
-                if (post_patterns != []) and post != words and post != pre:
-                    data.write("{}\n".format(post))
-                else:
-                    for w in post.split():
-                        if w in tech_pair and w not in pre and w not in words:
-                            data.write("{}\n".format(post))
-                            break
-            elif (post_patterns != []) and post != words and post != pre:
-                print(post_tag_list)
-                print(post_rm)
-                for w in words.split():
-                    if w in tech_pair and w not in post:
-                        data.write("{}\n".format(words))
-                        break
-                data.write("{}\n".format(post))
-            data.write("\n\n\n")
-            data.close()
-            return True
-        else:
-            return False
 
 
 def contains_tech(synonym, words):
@@ -387,7 +181,7 @@ def replace_synonym(synonym, tech, words):
     return rtn
 
 
-def check_tech_pairs(pre, words, post, word_ori):
+def check_tech_pairs(pre, words, post, word_ori, post_ori, current_id):
     """ Test if words contain similar tech pairs and replace synonym with tech.
 
         ([str]) -> (str, str)
@@ -420,39 +214,54 @@ def check_tech_pairs(pre, words, post, word_ori):
         if synonym != tech:
             words = replace_synonym(synonym, tech, words)
             word_ori = replace_synonym(synonym, tech, word_ori)
+            post_ori = replace_synonym(synonym, tech, post_ori)
             pre = replace_synonym(synonym, tech, pre)
             post = replace_synonym(synonym, tech, post)
-    pre, words, post = coreference(pre, words, post)
+    pre, words, post, changed = coreference(pre, words, post)
+    Check_new_pattern(pre, words, post, tech_pairs, word_ori, current_id)
 
-
+    # for i in range(len(word_ori)):
+    #     if word_ori[i].lower().strip() != words[i].lower().strip():
+    #         word_diff = True
+    #         break
+    #
+    # for i in range(len(post_ori)):
+    #     if post_ori[i].lower().strip() != post[i].lower().strip():
+    #         post_diff = True
+    #         break
     rtn = []
+    rtn_post=[]
+    pos_check = False
     for (first, second) in tech_pairs:
         for selected_tag in selected_tags:
             if first in selected_tag and second in selected_tag:
 
                 if "{} or {}".format(first, second) in words or "{} and {}".format(first, second) in words or "{}, {}".format(first, second) in words or "{} or {}".format(second, first) in words or "{} and {}".format(second, first) in words or "{}, {}".format(second, first) in words:
                     continue
-                if first in words and second in words and (first not in word_ori or second not in word_ori):
+                if first in words and second in words and changed == "words":
                     rtn.append(first)
                     rtn.append(second)
-                if first in words and second in words:
-                    continue
-                else:
-                    if first in words and second in pre:
-                        rtn.append(first)
-                        rtn.append(second)
-                        pre_check = True
-                    if first in words and second in post:
-                        rtn.append(first)
-                        rtn.append(second)
-                        post_check = True
-    if len(rtn) > 0 and not pre_check and not post_check:
-        return (" ".join(words), "\t".join(rtn)) # (sentence, tech pairs)
+                if first in post and second in post and changed == "post":
+                    pos_check = True
+                    rtn_post.append(first)
+                    rtn_post.append(second)
+                # else:
+                #     if first in words and second in pre:
+                #         rtn.append(first)
+                #         rtn.append(second)
+                #         pre_check = True
+                #     if first in words and second in post:
+                #         rtn.append(first)
+                #         rtn.append(second)
+                #         post_check = True
+    return_list = []
+    if len(rtn) > 0 or len(rtn_post) > 0:
+        if not pos_check:
+            return_list.append((" ".join(words), "\t".join(rtn), "word", " ".join(word_ori))) # (sentence, tech pairs)
+        if pos_check:
+            return_list.append((" ".join(post), "\t".join(rtn_post), " post", " ".join(post_ori)))
         # return None
-    elif len(rtn) > 0 and (pre_check or post_check):
-        return (" ".join(pre), " ".join(words)," ".join(post), "\t".join(rtn))
-    else:
-        return None
+    return return_list
 
 
 def main(start):
@@ -460,7 +269,6 @@ def main(start):
     total_sent_count = 0
     post_count = 0
     current_id = 0
-    pattern_matcher = PatternMatcher()
     old_pattern_matcher = OldPatternMatcher()
 
     try:
@@ -468,9 +276,9 @@ def main(start):
         post_words = []
         conn = psycopg2.connect('dbname=stackoverflow port=5433 host=localhost')
         cursor = conn.cursor()
-        # query = "SELECT Id, Body FROM {} WHERE Score > 0 AND posttypeid != 1 AND Id >= {} AND Id < {}".format(table_name, 109038, start+batch)
-        # query = "SELECT Id, Body FROM Posts WHERE Id = 2562 "
-        query = "SELECT Id, Body FROM Posts WHERE Id = 109038 "
+        # query = "SELECT Id, Body FROM {} WHERE Score > 0 AND posttypeid != 1 AND Id >= {} AND Id < {}".format(table_name, start, start+batch)
+        # query = "SELECT Id, Body FROM Posts WHERE Id = 501697 or Id =16601 or Id =12756 "
+        query = "SELECT Id, Body FROM Posts WHERE Id = 1545598 "
         cursor.execute(query)
 
         for current_id, row in cursor.fetchall():
@@ -492,34 +300,34 @@ def main(start):
                 if words == []:
                     continue
 
-                rtn = check_tech_pairs(pre_words, words, post_words, words)
-                if rtn is not None:
-                    if len(rtn)==2:
-                        print("check old match pattern", current_id, rtn[0])
-                        compa_sent_count += 1
-                        data_file = open(os.path.join(os.pardir, "outnew", "oldPattern_{}_v4".format(table_name), "{}.txt".format(os.getpid())), "a")
-                        data_file.write("{}\n".format(current_id))
-                        data_file.write("{}\n".format(rtn[1]))
-                        data_file.write("{}\n".format(rtn[0]))
-                        data_file.write("\n")
-                        data_file.close()
-                        old_pattern_matcher.old_match_pattern(rtn[0], current_id, rtn[1], table_name)
-                    else:
-                        compa_sent_count += 1
-                        data_file = open(os.path.join(os.pardir, "outnew", "{}_v4".format(table_name), "{}.txt".format(os.getpid())), "a")
-                        data_file.write("{}\n".format(current_id))
-                        data_file.write("{}\n".format(rtn[3]))
-                        data_file.write("{}\n".format(rtn[0]))
-                        data_file.write("{}\n".format(rtn[1]))
-                        data_file.write("{}\n".format(rtn[2]))
-                        data_file.write("\n")
-                        data_file.close()
-                        pairs = rtn[3].split()
-                        known_pairs = []
-                        for x, y in grouped(pairs, 2):
-                            if [x, y] not in known_pairs and [y, x] not in known_pairs:
-                                result = pattern_matcher.match_pattern(rtn[0], rtn[1], rtn[2], current_id, "{} {}".format(x, y))
-                            known_pairs.append([x, y])
+                rtns = check_tech_pairs(pre_words, words, post_words, words, post_words,
+                                        current_id)
+                for rtn in rtns:
+                    if rtn is not None:
+                        if len(rtn)==4:
+                            compa_sent_count += 1
+                            data_file = open(os.path.join(os.pardir, "outnew", "oldPattern_{}_v4".format(table_name), "changed_{}.txt".format(os.getpid())), "a")
+                            data_file.write("{}\n".format(current_id))
+                            data_file.write("{}\n".format(rtn[1]))
+                            data_file.write("Changed: \n{}\n".format(rtn[0]))
+                            if rtn[2] == "word":
+                                data_file.write("Origin: \n{}\n".format(' '.join(words)))
+                            else:
+                                data_file.write("Origin: \n{}\n".format(' '.join(post_words)))
+                            data_file.write("\n\n")
+                            data_file.close()
+                            old_pattern_matcher.old_match_pattern(rtn[0], current_id, rtn[1], table_name, rtn[-1])
+                        else:
+                            compa_sent_count += 1
+                            data_file = open(os.path.join(os.pardir, "outnew", "{}_v4".format(table_name), "{}.txt".format(os.getpid())), "a")
+                            data_file.write("{}\n".format(current_id))
+                            data_file.write("{}\n".format(rtn[3]))
+                            data_file.write("{}\n".format(rtn[0]))
+                            data_file.write("{}\n".format(rtn[1]))
+                            data_file.write("{}\n".format(rtn[2]))
+                            data_file.write("\n")
+                            data_file.close()
+
 
 
 
@@ -537,7 +345,7 @@ def main(start):
 #     proc.join()
 
 
-data = [0]
+data = [5000000]
 pool = ThreadPool()
 pool.map(main, data)
 pool.close()

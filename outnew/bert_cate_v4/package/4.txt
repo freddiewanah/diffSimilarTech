@@ -1,0 +1,12 @@
+if you are on linux and have chosen blas and * from a repo it is very likely that they are much slower than *
+
+* is significantly more powerful and robust than * in my experienced opinion
+
+one of the things that makes * better than * is support for proper css-like class selection or even supports full css selectors if you want to use them
+
+speed isn t important here but in other applications it is good to know that regexes are very fast 100 times faster than * and 1000 faster than *
+
+you might want to use r markdown and * which is easier than using * and r as also zhaoy suggested
+
+* deals with badly formed html better than * is actively maintained * isn t and is a lot faster since it uses libxml2 internally
+

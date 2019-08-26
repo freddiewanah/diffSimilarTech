@@ -1,0 +1,46 @@
+the * compiler is doing a lot more and is quite a bit newer than the * compiler so it unlikely it will be as stable fast for quite some time
+
+with * the code is much more readable than with *
+
+i don t think that as of today you can run these tests and determine with any certainty whether * 1.0 is faster or slower than *
+
+writing * 2.0 in my professional work my personal opinion is that it s indeed ready for enterprise applications -- maybe even more than * ever were
+
+also note that i use * more than *
+
+the * designers went through a lot of trouble to make sure that it s more than just * without the constraints of c in fact i almost wish they hadn t said that since it s so often misquoted
+
+* is in fact a superset of * not a subset -- * has more functionality built in than * itself
+
+as for whether to use * or * the proof is in the pudding * is better at transforms and * is better at queries
+
+* is closer to * than to common lisp but you could dip your toes into the lisp family without the speed bump of the emacs style of development
+
+right now * is much better as it supports a broader set of language and platform features than * .net ever did
+
+from my pov the object * paradigm used with fpc object * dialect which can coexist with the default object * code is more advanced lightweight and integrated than the interface-based plumbing of * xe2 compiler with on-the-fly marshalling using rtti
+
+while * is more expressive * pattern matching is simpler which means a simpler language definition compiler etc. and you still can do what you need at the cost of writing more code
+
+i would say pure * is better for programming whether you use flash ide or flex ide is not that relevant and * is better for non-programmers to combine the components programmed in as
+
+* is intentionally more compact than common * and you ll find that you can learn the language very quickly
+
+common * has a separate namespace for functions which makes operation like this more verbose than with *
+
+all in all t4 to me is more of a inside vs code-generation tool to quickly create c# or other files while * is more of a data-processing data-transformation tool to turn data from xml into another format typically html or pdf using *
+
+also * has stricter precedence rules than *
+
+* has fewer industrial users than * and although it does have multicore support it is still being developed in a very unproductive direction
+
+keith pointed out that * has a more powerful type system but it can also be said that * has a more powerful module system than *
+
+asp with * is 100 times better cleaner simpler nicer than * and makes my job a joy rather than a * head ache
+
+quite apart from the fact that the language * is far more feature rich than * the fact that you have developed in * means that you have made extensive use of the .net class libraries including system.security.cryptography that you give as an example
+
+in this case a traversal-oriented approach is best maybe * is better since * doesn t allow you to specify traversal order
+
+* is much more convenient than creating an activex on * or c# vb.net
+

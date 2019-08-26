@@ -1,0 +1,24 @@
+personally i develop on the windows but deploy on * where couldn t find the scrapyd package at all at the time i was working on it and noticed that performance of scrapy is considerably worse than on * box so you might reconsider your target
+
+it s true that the * compatibility exists but i ve found that earlier mac machines does not have the propper hardware and you experience some lacks in memory and graphics when upgrading more than one *
+
+both commands works in the same way only difference is * list installed output maybe bigger than * -qa because * will show package dependencies also in its output
+
+i am new at a firm and i was given a project that was on amazon * ami now we need to transfer project on another server and because i am more familiar with * than with amazon * ami i was wondering if there much difference and will project work perfectly
+
+also i would recommend doing a dual boot to * it s much easier to work with opencl in a * cli fashion
+
+although if you aren t interested in using adobe cs you can use * distro which is easier than other * distro and quiet popular so you won t have any problem finding solution
+
+even if you re on * it s much easier to get a precompiled version sudo apt install r-cran-rgl on * if you have the appropriate cran repositories set up
+
+i would give you more info except a ip aliasing on * 7 is more involved than i like much easier on * and b i m not familiar at all with configuring nginx very easy on apache
+
+i want test unix-like operating systems on historicial computers like commodore amiga atari st and i386 cpu and run posix compatible apps like pkgsrc x window system and blackbox wm for 40mhz higher versions * 1.5 is best os for those systems better than * but it is not posix-compatible
+
+this is because * 15.10 uses a newer version of libc and libstdc++ which is not available on * 8
+
+* is far less conservative than * so you will get closer to the bleeding edge
+
+* has nicer frontend and could be more suitable for windows emigrants while * is more for backend guys
+

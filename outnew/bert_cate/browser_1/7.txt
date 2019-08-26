@@ -1,0 +1,84 @@
+as you can see in the image B is running a lot longer than B
+
+as you can see in the image B is running a lot longer than B
+
+on B it s significantly faster to do this using 1 0 but on B it s slightly faster to do this using bool
+
+however if thats the case does this mean B is faster in execution than B
+
+why is B so much slower than B on my laptop
+
+is it because B has much better javascript support than B
+
+so why is B less efficient than B and ie
+
+i would like this function to work in B ie B etc but at the moment it only works in B and older than B version 49
+
+B is slower than B in javascript
+
+do you have any idea why B loads javascript function much slower than B
+
+and of course the results - if they are reproducible - might suggest that B is faster than B or that B just prioritises timeouts over dom events
+
+also why does B perform way better than B on this benchmark
+
+for example if you have a text size of 15px well B makes a larger 15px than B does
+
+in my experience B has better javascript performance than B
+
+and also does anyone know why is B so much slower than B in 3d rendering
+
+i ve tested the sample on B and it s a bit slower than B but usable
+
+that means B is more than 7x faster than B here
+
+it s not the first time that the plugin for B works better for me than the one for B
+
+i have been working with linear parsers lately and noticed the performance in B v37 was much slower than in B v30
+
+as you can see ie 8 is about 5 times slower than B 3.6 and almost 20 times slower than B 9 at least when using sunspider tests
+
+this makes B 50x faster than B and 70x faster than safari is there any known reason for that
+
+on B it s significantly faster to do this using 1 0 but on B it s slightly faster to do this using bool
+
+however if thats the case does this mean B is faster in execution than B
+
+why is B so much slower than B on my laptop
+
+is it because B has much better javascript support than B
+
+so why is B less efficient than B and ie
+
+i would like this function to work in B ie B etc but at the moment it only works in B and older than B version 49
+
+B is slower than B in javascript
+
+do you have any idea why B loads javascript function much slower than B
+
+and of course the results - if they are reproducible - might suggest that B is faster than B or that B just prioritises timeouts over dom events
+
+also why does B perform way better than B on this benchmark
+
+for example if you have a text size of 15px well B makes a larger 15px than B does
+
+in my experience B has better javascript performance than B
+
+and also does anyone know why is B so much slower than B in 3d rendering
+
+i ve tested the sample on B and it s a bit slower than B but usable
+
+that means B is more than 7x faster than B here
+
+it s not the first time that the plugin for B works better for me than the one for B
+
+i have been working with linear parsers lately and noticed the performance in B v37 was much slower than in B v30
+
+as you can see ie 8 is about 5 times slower than B 3.6 and almost 20 times slower than B 9 at least when using sunspider tests
+
+this makes B 50x faster than B and 70x faster than safari is there any known reason for that
+
+the problem with this code is that it doesn t quite work on B and works even worse on B
+
+the problem with this code is that it doesn t quite work on B and works even worse on B
+

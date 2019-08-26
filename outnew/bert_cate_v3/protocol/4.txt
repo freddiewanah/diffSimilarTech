@@ -1,0 +1,64 @@
+* is more pythonic than * or shudder soap
+
+* is not better than * in any way but it does something different
+
+also see this other so answer about the misconception that * is always faster than *
+
+for instance zeromq can leverage * multicast to run faster than any * protocol but the application programmer doesn t need to learn a new api
+
+hello to all i am developing an application that needs to send a image via the * socket.i know that * is a better protocol but playing with kryonet in java i have learnt that * is better for this type of application.i have this small class that i have made
+
+* windowing is more expensive than raw * but if you use * to go faster and add a custom loss-recovery or seqno ack resend manager then that may slow you down again
+
+tldr * ip is more reliable than * but not a 100 iron-clad guarantee that nothing will ever go wrong
+
+for some requirements * is better for some *
+
+* communication requires much less overhead than * due to the number of messages exchanged
+
+also note that it is easy to implement your own stack on top of * that performs worse than *
+
+maybe one of you guys already sees a problem in the code snippets or have any other suggestion or hint for me why my * transmission is slower than *
+
+* is not always faster than *
+
+what i have thought of so far is that * is going to be more reliable than * and in rmi corba we want network reliability
+
+* is extremely faster than * which is suitable to stream a user s voice input
+
+* is generally faster than * as it does not have to do the overhead checking of consistency that * must deal with
+
+-- in which scenario configuration would i get * to perform better than *
+
+at my company we have found memory mapped files to be much faster than loopback * ip for communication on the same box so i m assuming it would be faster than * too
+
+it seems like * will more efficient than *
+
+* should be much faster than * because there are no acknowledge and congestion detection
+
+* communication is connection less as compared to * which need a connection
+
+* is subject to higher latencies than * as it requires the client to send back packet confirmations
+
+a * stack is considerably simpler than a * stack
+
+for this particular application sending simple data chunk to the client from an index given by the client * will not perform any better than *
+
+i suppose this is one of the reasons for the misconception that * is slower than *
+
+the reason i asking this is because i read * is slower than * because * ensures order of packets
+
+* sockets have much lower overhead than * because packets are not acknowledged by the recipient
+
+* is less reliable on a wide area network but in a closed environment of a vm talking to its host you can safely skip all the * reliability stuff
+
+why the header size of * is less than *
+
+* lends itself to real-time less latency than *
+
+instead you can use * and implement your own scheme for verification of data that is less stringent than *
+
+* sockets- guaranteed delivery bigger payload than * cumbersome to setup for web based solutions
+
+* is more flexible than * an application can configure the level of security it needs
+

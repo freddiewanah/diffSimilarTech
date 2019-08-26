@@ -1,0 +1,94 @@
+furthermore B is much slower than B
+
+should be as fast as B B turned out to be much faster than B in software typically 5 to 10 times faster
+
+furthermore B is much slower than B
+
+should be as fast as B B turned out to be much faster than B in software typically 5 to 10 times faster
+
+B uses about 30 less comparisons than B
+
+B is implemented well it is typically 2-3 times faster than B or
+
+B generally runs faster than B but under some circumstances it can degrade to quadratic running time
+
+however on smaller int sizes B gets slower and B gets faster
+
+to be specific the B runs faster than B in the first test case and loses badly in the following 9 tests
+
+it s because that B is generally faster that people use it instead of B
+
+for the 10 tests on the same list the results should be quite the same at least all showing that B is faster than B or vice vesa
+
+as many people have noted the average case performance for B is faster than B
+
+B uses about 30 less comparisons than B
+
+B is implemented well it is typically 2-3 times faster than B or
+
+B generally runs faster than B but under some circumstances it can degrade to quadratic running time
+
+however on smaller int sizes B gets slower and B gets faster
+
+to be specific the B runs faster than B in the first test case and loses badly in the following 9 tests
+
+it s because that B is generally faster that people use it instead of B
+
+for the 10 tests on the same list the results should be quite the same at least all showing that B is faster than B or vice vesa
+
+as many people have noted the average case performance for B is faster than B
+
+B as suggested in your question tends to be slower than either B s or a - it is primarily used when there are negative edge-weights which there are not here
+
+use B it tends to be more compact than B
+
+B code is 8 times larger than B
+
+B code is 8 times larger than B
+
+B will indeed yield a considerably faster result than B
+
+using B assuming it s a little faster than B and requires a smaller key and
+
+according to this analysis B rijndael-128 is more than twice as fast as B 3B with a bigger key size more secure
+
+B will indeed yield a considerably faster result than B
+
+using B assuming it s a little faster than B and requires a smaller key and
+
+according to this analysis B rijndael-128 is more than twice as fast as B 3B with a bigger key size more secure
+
+B is much slower than B
+
+as far as efficiency B is going to be orders of magnitudes slower than B so the trade-off you make is that you give up simplicity you give up the simplicity of using B in favor of some B chunking in return for poor performance you get the slower performance of B.
+
+B is much slower than B
+
+as far as efficiency B is going to be orders of magnitudes slower than B so the trade-off you make is that you give up simplicity you give up the simplicity of using B in favor of some B chunking in return for poor performance you get the slower performance of B.
+
+but there are many citations of real world tests which show that B is significantly slower than B on average
+
+in practice however B is usually faster then B
+
+B has a better big-o than say B yet B performs much better in practice
+
+this is because B is generally faster than B unless the call depth becomes to deep
+
+however B s worst-case performance is significantly worse than B s is
+
+but there are many citations of real world tests which show that B is significantly slower than B on average
+
+in practice however B is usually faster then B
+
+B has a better big-o than say B yet B performs much better in practice
+
+this is because B is generally faster than B unless the call depth becomes to deep
+
+however B s worst-case performance is significantly worse than B s is
+
+B is also significantly faster than B for decompression
+
+B is much faster then B at verification
+
+B is much faster then B at verification
+

@@ -1,0 +1,54 @@
+parallelizing B is simpler than B in-place
+
+B consistently has less recursive calls than B
+
+this means that while the two underlying sorts it uses B and insertion sort are both worse than B for many kinds of data timsort only uses them when it is advantageous to do so
+
+that way B can reach recursive base case more quicker than B
+
+parallelizing B is simpler than B in-place
+
+B consistently has less recursive calls than B
+
+this means that while the two underlying sorts it uses B and insertion sort are both worse than B for many kinds of data timsort only uses them when it is advantageous to do so
+
+that way B can reach recursive base case more quicker than B
+
+however in this case B key size is less than B key size
+
+note that the effective key size of B is larger than triple B
+
+note that the effective key size of B is larger than triple B
+
+since the next is not far the number of B steps is much fewer than with B matching
+
+since the next is not far the number of B steps is much fewer than with B matching
+
+execution of B is more faster than B for same key sizes
+
+execution of B is more faster than B for same key sizes
+
+1 B merge sort is used when you want to sort a list in o nlogn time while using less space than standard B
+
+1 B merge sort is used when you want to sort a list in o nlogn time while using less space than standard B
+
+each iteration in B is a lot simpler than B
+
+in fact the B algorithm works this way first arrange a random order into heap order and then obtain a sorted order somewhat less efficient than B on average
+
+each iteration in B is a lot simpler than B
+
+in fact the B algorithm works this way first arrange a random order into heap order and then obtain a sorted order somewhat less efficient than B on average
+
+why B or introsort or any comparison-based sorting algorithm is more common than B
+
+why B or introsort or any comparison-based sorting algorithm is more common than B
+
+in cs B is less commonly used because we have much better algorithms B and merge-sort come to mind
+
+in cs B is less commonly used because we have much better algorithms B and merge-sort come to mind
+
+short answer B is more efficient in this case than naive application of B s
+
+short answer B is more efficient in this case than naive application of B s
+

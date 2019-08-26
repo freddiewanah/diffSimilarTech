@@ -1,0 +1,104 @@
+should be as fast as * * turned out to be much faster than * in software typically 5 to 10 times faster
+
+purely in terms of the number of comparisons performed is * always more efficient than *
+
+* is usually faster than * just because it s easier to code a tight implementation and the operations it does can go faster
+
+i know * is better since it is stable and doesn t have n 2 as worst case but i required to implement *
+
+it s because that * is generally faster that people use it instead of *
+
+i have been testing the practicality of openmp gnu parallel sort algorithms in the c++ standard library and have found the parallel * algorithm to be significantly slower than the * algorithm
+
+i do know though that * has more compares but less swaps than * which i learned from another stackoverflow discussion * vs merge sort
+
+previously discussed on so why is * better than *
+
+also note that * is generally more optimal than * see this as well which explains why it s taken advantage of when sorting primitives
+
+* may use more space than * i m not entirely sure and merge may be better for linkedlists
+
+for instance * can outperform * although * is provably better than * in the worst case
+
+the biggest difference that can be produced between the two of them will always be to * s detriment and it involves lists that are already largely sorted or contain a large number of ties when * does better than * the difference will not be nearly so great
+
+when comparison function is a callback function like in * libc implementation * is slower than * by 15 on random input and 30 for already sorted array for 64 bit integers
+
+interestingly * performs more comparisons on average than * - 1.44 n lg n expected for * versus n lg n for *
+
+the * algorithm is faster than * which is what sorted will get you when called on a sequence of objects via java.util.arrays.sort
+
+normally * is faster than * which is faster than heapsort
+
+for the 10 tests on the same list the results should be quite the same at least all showing that * is faster than * or vice vesa
+
+you can also see that for smaller collections * is faster but then * takes the lead but all of this is case specific so take your time to study all 4 algorithms
+
+i would say that the * is simpler for parallelizing than the *
+
+* signatures are signficantly shorter than * ones
+
+i guess * is older and * is newer
+
+but * is assumed to be on average somewhat slower than standard * quicksort
+
+then you use it as seed in * which is less good that one is a non-cryptographic * and its output may exhibit some structure which will not register in a statistical measurement tool but might be exploited by an intelligent attacker
+
+what baffles me is that my * seems to be slower than * in both of the languages
+
+typically * is slower than * and quicksort but that s usually under the assumption that comparisons are fast
+
+if you use * no extra memory is needed at all though * will be much slower than *
+
+* can be even much faster than * or 3* when the cpu supports *-ni
+
+though it s unrelated to your actual question * is generally slower than * at least in software so unless you really need to keep the key small * is almost certainly a better choice
+
+also see why * is more secure than *
+
+which steps of * encryption makes it less vulnerable than *
+
+* will indeed yield a considerably faster result than *
+
+the capturing group 1 in the first pattern is * it first matches everything and takes as less as it *
+
+and regarding your first question it is definitely possible to encrypt decrypt messages directly using * there are only technical and performance reasons * is much faster than * why * is used only to encrypt a session key and * is used to encrypt decrypt the messages themselves
+
+however * s worst-case performance is significantly worse than * s is
+
+in fact the * algorithm works this way first arrange a random order into heap order and then obtain a sorted order somewhat less efficient than * on average
+
+it is a variant of * which is particularly suitable for the sorting of very large amounts of data if a relatively high cost per compare operation is needed and on average better than *
+
+in other words the per-comparison-overhead of * is higher than the one of *
+
+the reason * is slower in practice than * is due to the better locality of reference in * where data elements are within relatively close storage locations
+
+however * is slower than * in the average case in the sense that * performs c n log n whereas * has d n log n performance with d being significantly smaller than c the numbers c and d are constants
+
+in short - if all we care about are comparisons * is a better choice than *
+
+average asymptotic order of * is o nlogn and it s usually more efficient than * due to smaller constants tighter loops
+
+can anyone explain why * performs better and under what circumstances quichesort would be better than both * and *
+
+in their respective worst cases * is faster than *
+
+in my tests * performs better than * by the way
+
+i ve read that * is better than * both in the best and the worst case although it uses a bit more memory
+
+if it is true then * will always take less comparison than * because on real life data there is some pattern except data is truly random
+
+java s array .sort is from about java 6 actually * the fastest general purpose #sort out there much better than * in many situations
+
+which of the two consumes more memory is not defined and depends on the input sequence to be sorted as well as on algorithm tuning parameters see the comments to one of the answers to why * is more popular than *
+
+* is much faster than * for private key operations so it should definitely be preferred over * when high efficiency is required unless * is still fast enough something that may very well be the case
+
+in cs * is less commonly used because we have much better algorithms * and merge-sort come to mind
+
+short answer * is more efficient in this case than naive application of * s
+
+no practically * is faster than * s for all pair shortest path generally
+

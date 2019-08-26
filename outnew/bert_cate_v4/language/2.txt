@@ -1,0 +1,34 @@
+as you can see defining a singleton class in * is much easier than in *
+
+we ve seen that * uses a more static method dispatch than * which unless a class dervices from foundation nsobject prevents the style of swizzling based on remapping method implementations at runtime
+
+those attributes let you create * code which is more understandable by * and complier warn you when you break the rule for example
+
+usually i find * s method naming to be cleaner than * s but init methods can be an exception
+
+if you get a difference between * and * it s more because * is probably better on optimisation
+
+fortunately the vbide for * has more classes and methods for working with vb projects than the * version of vbide
+
+* is significantly more appropriate to use than * for such kind of tasks
+
+because * is more or less superset of * it of course works also in *
+
+overall common * is much more uniform than * and more radical language experiments if done at all are usually embedded as a portable library rather than defining a whole new language dialect
+
+i ve also found * ides much more user-friendly than * s plt * is a good one
+
+* is a dependently-typed language that is designed for low-level programming though it s somewhat less elegant than *
+
+secondly the * ffi is more powerful that is it does more with less code than * s and more libraries are avaliable via hackage so i don t think foreign interfaces will be a deciding factor
+
+in dependently-typed languages like * it s probably more useful than in *
+
+i assume the same control in * would be datagridview and i m fairly sure that you can probably make it look better than in * but if you want really good looking ones you might want to look at thirdparty grid controls
+
+* is a more advanced language than *
+
+* has more structure than *
+
+neo4j and * is still faster and obviously this has no effect on the * queries on neo4j but that might be just a issue with the * implementation for neo4j
+

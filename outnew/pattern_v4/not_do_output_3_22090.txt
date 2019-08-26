@@ -1,0 +1,1336 @@
+20056622
+junit testng
+Pattern(s): 1	
+junit is creating a new instance of the test class before each test so junit fans like me will never face such problem
+testng is not creating a new instance of test class
+
+
+
+20067763
+openmpi mpich
+Pattern(s): 5	
+the fault tolerance in openmpi is kind of experimental one of the ompi developers namely jeff squyres visits stack overflow from time to time - he could give a more definitive answer and has to be explicitly enabled at library build time with an option like
+by default mpich also cannot handle such situations note that currently mpi does not guarantee that the program state remains consistent when an error is detected after an error is detected the state of mpi is undefined
+
+
+
+20335538
+namedtuple dictionary
+Pattern(s): 5	
+of course if namedtuple fit the bill you can skip the intermediate dictionary entirely
+background there s something very similar to your toy syntax that almost works getting only the list of values from the dictionary and unpacking it like a regular tuple . the problem with this is that dictionary aren t ordered their key value pairs are in an arbitrary order
+
+
+
+20493106
+udp tcp
+Pattern(s): 5	
+thus maximum throughput possible as compared to udp based transmission is already halved
+the tcp doesn t support multicasting or the new emerging standard of multicasting amt
+
+
+
+20521669
+google-chrome firefox
+Pattern(s): 5	
+turns out i was wrong - user downloaded the file via google-chrome which also sets this flag
+firefox doesn t set it i checked on the latest versions to date
+
+
+
+20561973
+erlang elixir
+Pattern(s): 5	
+if you search the erlang questions mailing list you can find plenty of discussion on the topic
+note that protocols in elixir are not implemented like that though
+
+
+
+20621908
+hex binary
+Pattern(s): 1	
+in this case you ve got a string of 10 hex characters representing your 4-byte number like this 0x55667788 in python 2.x you would be allowed to write this incorrect data to a binary file it would show up as the 10 bytes 30 78 35 35 36 36 37 37 38 38 rather than the four bytes you want 55 66 77 88
+python 3.x is smarter and only allows you to write bytes or bytearray or similar to a binary file not str
+
+
+
+20623723
+trie tree
+Pattern(s): 1	
+the other answers re trie are good
+but as a close approximation just for quick understanding vector internally uses a tree - not a binary tree but a 32-ary tree each 32-way node uses array 32 and can store either 0-32 references to child nodes or 0-32 pieces of data the tree is structured to be balanced in a certain way - it is n levels deep but levels 1 to n-1 are index-only levels 100 child references
+
+
+
+20652526
+calloc malloc
+Pattern(s): 5	
+comparing the signatures of the functions we have basically the argument to malloc is the product of the arguments to calloc
+you can convert by just setting one of them to 1 since the nmemb number of members to calloc doesn t affect the actual structure of the memory in any way this is safe
+
+
+
+20801140
+google-chrome safari
+Pattern(s): 1	
+you can set like so you can even prefetch pre-resolve dns queries or prerender a web page a-la google instant google-chrome google-chrome also does the same things as firefox and ie in this regard
+safari i have not been able to find solid proof of whether safari supports these things
+
+
+
+20980841
+uicollectionview uitableview
+Pattern(s): 5	
+every uicollectionview has a layout object a uicollectionviewlayout subclass that describes where each cell should go in the collection view s scroll view and which cells are visible in a given cgrect
+uitableview doesn t have this so it would be much harder to do anything that manipulates the position of its cells
+
+
+
+21017461
+viewdidload viewwillappear
+Pattern(s): 5	
+for those who would be caught in the same trap and come to this question in the future i ve been able to fix the issue from this settings write within viewdidload connect uiscrollview from storyboard to myscrollview as iboutlet property not using autolayout set x 0 y 0 width 320 height 568 to scrollview from within storyboard and also note that using autolayout doesn t work
+also using autolayout and setting contentsize within viewwillappear doesn t work either
+
+
+
+21062539
+splinter selenium
+Pattern(s): 5	
+however a seemingly undocumented feature is that you re able to access the underlying selenium webdriver instance of a splinter webdriver instance through its .driver property this allows us to use any selenium features that don t have wrappers in the splinter api like resizing the browser with the set_window_size method
+just do this browser.driver.set_window_size 640 480 the splinter api doesn t seem to directly support this - or at least not yet
+
+
+
+21122669
+floating-point fractions
+Pattern(s): 1	
+to compare floating-point quantities calculate the absolute value of their difference by using the abs method of the math class in the system namespace. determine an acceptable maximum difference such that you can consider the two quantities to be equal for practical purposes if their difference is no larger. compare the absolute value of the difference to the acceptable difference. alternatively double will return a number with greater precision
+the trouble is you re using single which is a floating-pont data type which doesn t work well with fractions that aren t binary fractions
+
+
+
+21264630
+runtimeexception unchecked-exception
+Pattern(s): 5	
+from the javadoc of runtimeexception runtimeexception is the superclass of those exceptions that can be thrown during the normal operation of the java virtual machine. runtimeexception and its subclassing are unchecked-exception
+unchecked-exception do not need to be declared in a method or constructor s throws clause if they can be thrown by the execution of the method or constructor and propagate outside the method or constructor boundary
+
+
+
+21350918
+jsf seam
+Pattern(s): 1	
+the page scope is indistinguishable from the ui component tree. therefore the page context is destroyed when jsf removes the ui component tree also called the view from the session
+however when this happens seam does not receive a callback and therefore the destroy method on a page-scoped component never gets called
+
+
+
+21362569
+firefox safari
+Pattern(s): 1	
+a bug has been filed with both google-chrome and safari again see the link but until then firefox sadly is the only browser that allows you to read form it
+there are two things at work here you should wait for rasterizehtml.drawhtml to finish before expecting anything from the canvas safari webkit cannot read back from the canvas once html actually a svg has been drawn there
+
+
+
+21568349
+dictionary map
+Pattern(s): 5	
+a more straightforward way to do this is create an empty dictionary hash map keyed by word
+the value is the count. for each file while not end of file read word if word in dictionary update count else if dictionary full sort dictionary by word output dictionary to temporary file clear dictionary add word to dictionary with count 1 end end if dictionary not empty sort dictionary by word output dictionary to temporary file you now have some number of temporary files each sorted by word and containing one word count pair per line
+
+
+
+21633735
+unicorn webrick
+Pattern(s): 1	
+so unicorn is ok but thin and webrick are not mmmm
+my guess is that the working directory used by the daemon process for thin and webrick is not rails.root
+
+
+
+21658665
+knitr latex
+Pattern(s): 2	
+i would probably just tell knitr to issue numbers wrapped inside a macro and then do the conversion with this macro untested and requires the package siunitx
+here s essentially the same as mark s answer but quite a bit more concise although if you re using knitr with latex this is arguably a task for latex not for r r provides the raw data latex is in charge of formatting
+
+
+
+21820642
+clang llvm
+Pattern(s): 1	
+colored diagnostics if you want colored error messages from clang be sure to install the ncurses development package libncurses-devel with cygwin setup beforehand
+without it clang will fallback to its colorless mode because llvm wouldn t be able to detect whether the terminal supports colors
+
+
+
+20253100
+rdf owl
+Pattern(s): 5	
+e.g. prop hasyieldstrength rdfs comment yieldstrength of material in pascals en . structured values perhaps using rdf value the other option is to make the range of those properties some sort of entity that specifies both the measurement and the unit so that your data would be like if you re working in owl i m not sure whether it s ok to use rdf value or not but you can certainly use your own vocabulary to do the same thing
+if you can use rdf value this is actually one the ways that the the rdf documentation says it can be used 5.4.3 rdf value rdf value is an instance of rdf property that may be used in describing structured values
+
+
+
+20726041
+zsh subshell
+Pattern(s): 1	
+portability mklement0 reports that the following works as is with bash dash and zsh but not ksh
+modern bash if you are running bash v4 or better the pid of the subshell is available in
+
+
+
+20870215
+g++ gcc
+Pattern(s): 5	
+if g++ does not implement it probably means that 80-bit computations are randomly rounded to the precision of the type when the compiler happened to have to spill some floating-point registers to memory leading the program below to print foo in some circumstances outside the programmer s control because the code in the ellipsis caused x that was held in an 80-bit floating-point register to be spilt to a 64-bit slot on the stack
+the c99 standard defines flt_eval_method a compiler-set macro that defines how excess precision should happen in a c program many c compilers still behave in a way that does not exactly conform to the most reasonable interpretation of the value of fp_eval_method that they define older gcc versions generating 387 code clang when generating 387 code
+
+
+
+20967944
+stringbuilder stringtokenizer
+Pattern(s): 1	
+stringbuilder is not immutable and string s can be appended to it without the overhead of creating new objects every time
+stringtokenizer worth noting -as rgraham said in the comments- that this class is deprecated
+
+
+
+20993362
+vmware virtualbox
+Pattern(s): 2	
+just make sure that when you add the vmdk into vmware don t click upgrade format when prompted keep the current one in case virtualbox doesn t accept it
+you can use vmware player to resize a vmdk
+
+
+
+21003284
+google-chrome safari
+Pattern(s): 3	
+google-chrome is not a supported browser for ssrs report builder
+only ie firefox and safari are officially supported
+
+
+
+21009442
+pandas pytables
+Pattern(s): 3	
+pytable solution since functionality provided by pandas is not needed and the processing is much slower see notebook below the best approach is using pytables or h5py directly
+i ve tried only the pytables approach so far
+
+
+
+21141068
+fossil git
+Pattern(s): 1	
+and another lesser-visible system using real database fossil doesn t have stellar performance pdf either
+git started as a minimal set of tools implementing a versioned file system and its author linus torvalds originally envisioned that a full-blown vcs will be a tool based on git
+
+
+
+21496996
+cvs svn
+Pattern(s): 5	
+cvs supports rollback commit feature while svn not you need to commit a second time and overwrite your previous commit manual rollback
+cvs only tracks modification file by file while svn tracks a whole commit as a new revision which means that it is easier to follow the history of your project
+
+
+
+21661920
+postgresql mysql
+Pattern(s): 5	
+current versions of mysql has not good planner as postgresql has there is progress - so complex queries are usually much better on postgresql - and really simple queries are better on mysql
+complexity of postgresql configuration is myth
+
+
+
+21838393
+uilabel uitextview
+Pattern(s): 2	
+uilabel isn t built with textkit on ios7 at least not in a way that is accessible to developers
+you d need to use uitextview to get access to textkit
+
+
+
+21917518
+google-chrome firefox
+Pattern(s): 1	
+and for me this trick only worked in firefox and not google-chrome
+however if in google-chrome you do shift+ctrl+n new incogneto window then go to your editor you ll see that it is working
+
+
+
+21992827
+haskell scheme
+Pattern(s): 2	
+it s in scheme not haskell but the languages are sufficiently similar at least at this conceptual level that each can serve as a decent model for the other
+to answer your second question first you can bind to a variable and unpack it simultaneously using note also that if you re not going to be using variables that you unpack it s haskell convention to bind them to _ this helps readers focus on what s actually important
+
+
+
+22053405
+accelerometer gyroscope
+Pattern(s): 3	
+however if you are trying to determine device tilt attitude you want to use the gyroscope not the accelerometer
+the accelerometer tells how fast the device is moving in each direction
+
+
+
+22105324
+jtextfield jlabel
+Pattern(s): 3	
+create a jtextfield and decorate it accordingly opacity border non-editable etc. so that it looks like a jlabel
+just put your messages in a jtextarea since jlabel aren t really well-suited for dynamic arbitrary text
+
+
+
+22183842
+cashapelayer calayer
+Pattern(s): 5	
+cashapelayer doesn t do anything of the kind when it doesn t have a path set so the documentation you reference is misleading
+this looks like it might be a copy-paste error in the documentation calayer s shadowpath property includes a similar block of text the default value of this property is nil which causes the layer to use a standard shadow shape
+
+
+
+22270508
+inline inlining
+Pattern(s): 1	
+inline has one guaranteed effect it allows you to define the same function identically in more than one translation unit and then requires the function to be defined in every translation unit where it s used
+inline also serves as a hint that calls of the function should be inlined at the machine code level but that hint can be freely ignored and in case of a recursive function logically must be ignored for some calls machine code call inlining is not the same as macro expansion in particular the macro doesn t respect scopes
+
+
+
+22280003
+udp tcp
+Pattern(s): 1	
+tcp has head-of-queue blocking as it guarantees complete and in-order delivery so when a packet gets lost in transit it has to wait for a retransmit of the missing packet whereas udp delivers packets to the application as they arrive including duplicates and without any guarantee that a packet arrives at all or which order they arrive it really is essentially ip with port numbers and an optional payload checksum added but that is fine for telephony for example where it usually simply doesn t matter when a few milliseconds of audio are missing but delay is very annoying so you don t bother with retransmits you just drop any duplicates sort reordered packets into the right order for a few hundred milliseconds of jitter buffer and if packets don t show up in time or at all they are simply skipped possible interpolated where supported by the codec
+also a major part of tcp is flow control to make sure you get as much througput as possible but without overloading the network which is kinda redundant as an overloaded network will drop your packets which means you d have to do retransmits which hurts throughput udp doesn t have any of that - which makes sense for applications like telephony as telephony with a given codec needs a certain amount of bandwidth you can not slow it down and additional bandwidth also doesn t make the call go faster
+
+
+
+22351603
+client-side server-side
+Pattern(s): 2	
+it runs on a user s browser client-side and not on a server
+if you want to upload pictures to a server then you need a server-side component to process your image files
+
+
+
+22378439
+client-side server-side
+Pattern(s): 5	
+something like this this would assign a javascript click handler to the client-side rendered output of button1
+of course button1 still causes a post-back but since it doesn t need to do anything server-side it doesn t even need to be a server-side control
+
+
+
+22410157
+google-chrome firefox
+Pattern(s): 5	
+that blue border is google-chrome specific firefox doesn t show it
+google-chrome adds the border to links
+
+
+
+22700828
+icomparable compareto
+Pattern(s): 5	
+you could implement the interface explicitly and then clients would have to cast to icomparable to see the method however note that your class is internal by default so the class is not even public
+i m assuming from your error that compareto is not public in your real code
+
+
+
+22795556
+ciimage uiimage
+Pattern(s): 3	
+it merely provides a reference to the ciimage that is already the basis of this uiimage
+but this uiimage does not have a ciimage basis
+
+
+
+23009371
+udp tcp
+Pattern(s): 1	
+tcp udp are elaborate protocols rules that govern how the two applications connect exchange data and terminate the connection
+udp does not have the connect terminating phase btw. its interesting
+
+
+
+23036819
+arraylist treeset
+Pattern(s): 3	
+then we could use treeset to sort an array faster than the method made specifically to sort it the saving gotten from not having to insert into the arraylist is fairly small
+if this were consistently true java developers would simply replace that method with treeset wouldn t they
+
+
+
+23056738
+http spdy
+Pattern(s): 5	
+after 1 http request follows 1 response
+you cannot send content type text csv and content type text html at the same time maybe yes with spdy but not with pure http
+
+
+
+23075702
+spaces linefeed
+Pattern(s): 1	
+also notepad++ can show white spaces chars including new lines which can be handy in such cases
+it is probably the application or system you are using to view your file ignoring the linefeed not c# ignoring it
+
+
+
+23129099
+pyenv virtualenv
+Pattern(s): 5	
+you can remove pyenv and install latest version of virtualenv and ask virtualenv to create the env for you by this command
+if you re using the latest version of virtualenv --no-site-packages isn t necessary anymore
+
+
+
+23135113
+gruntjs package.json
+Pattern(s): 1	
+run npm install grunt-cli -g if gruntjs is not found message gets displayed
+your package.json is not a valid json
+
+
+
+23287218
+clang llvm
+Pattern(s): 5	
+you will need to modify quite a bit of code for example there are portions of type definitions in ... llvm tools clang lib sema sema.cpp and ... llvm tools clang lib ast type.cpp
+if you grep for int128 good choice as clang itself doesn t use that much in itself as opposed to for example size_t you will see that it turns up in a lot of places
+
+
+
+23330060
+haskell scheme
+Pattern(s): 5	
+and you can t do it in haskell because haskell doesn t let you mutate a variable once it s been defined
+but you can do it in javascript or scheme define f1 x display first version got display x newline define around f before after lambda x before apply f x after set
+
+
+
+23335882
+ienumerable iqueryable
+Pattern(s): 5	
+the warning exists because an ienumerable can disguise something expensive such as a database call most likely an iqueryable and as ienumerable doesn t have caching as part of it s contract it will re-enumerate the source fresh
+this can lead to performance issues later on we have been stung by this a surprising amount and we don t even use iqueryable ours was on domain model traversal
+
+
+
+23399507
+udp tcp
+Pattern(s): 5	
+while you already know that udp is not reliable you maybe missed the other advantages of tcp
+relevant for you is that tcp has flow control and automatically scales down if the receiver is unable to cope with the senders speed packet loss
+
+
+
+23420635
+rvm bundler
+Pattern(s): 5	
+if you re using rvm try rvm use 2.x.x or whatever version it is you re using followed by a bundle install
+this could be one of two issues bundler isn t installed - in this case simply run gem install bundler you re using two different ruby installations or rubygems installations for your app than your development environment and the gemset for your production app doesn t include bundler
+
+
+
+23435637
+google-chrome firefox
+Pattern(s): 5	
+sorry for the bad news edit this is simply a limitation of stun not of sctp so google-chrome could do nothing about it if they wanted to
+firefox does not support sctp over tcp anyways
+
+
+
+23448834
+kerberos ntlm
+Pattern(s): 3	
+if you have a strict kerberos spnego only environment safest but all clients and users need to kerberos spnego enabled then use spnego.prompt.ntlm false because we only allow kerberos s pnego.allow.basic false because we only allow kerberos spnego.allow.unsecure.basic false not relevant because spnego.allow.basic false if you want to allow additional authentication mechanisms in addition to kerberos spnego than you have to decide which ones ntlm and or basic
+ntlm is not supported by this library so basic is the only one left
+
+
+
+23478172
+daemons systemd
+Pattern(s): 5	
+and whether the app is a daemons or not is also irrelevant
+what s relevant is whether the operating systemd considers your device to be a keyboard or not
+
+
+
+23489038
+org.json jackson
+Pattern(s): 3	
+your gist shows org.json code not jackson
+jackson has a perfectly able .equals implementation for all jsonnode s
+
+
+
+23507404
+libsvm liblinear
+Pattern(s): 3	
+not to mention that the algorithms are coded with different goals in mind libsvm is written in a way to allow switching between different kernel functions while liblinear is optimized to always be linear and have no concept of kernels at all
+which is why libsvm is not easily applicable to large scale problems even with a linear kernel and often it is suggested to use liblinear when you have large number of instances
+
+
+
+23507404
+libsvm liblinear
+Pattern(s): 1	
+which is why libsvm is not easily applicable to large scale problems even with a linear kernel and often it is suggested to use liblinear when you have large number of instances
+furthermore regarding multi-class problems with k classes libsvm by default implements the one-against-one approach by constructing binary classifiers while liblinear implements the one-vs-the-rest strategy by constructing k binary classifiers it also has an alternative method by crammer and singer for handling multi-class problems
+
+
+
+23640336
+google-chrome firefox
+Pattern(s): 5	
+google-chrome would not display the files and ie compatibility mode would corrupt them
+i did not test it in firefox before finding a solution
+
+
+
+23674340
+fileoutputstream bufferedwriter
+Pattern(s): 5	
+again fileoutputstream has a constructor allowing you to append instead of overwriting
+the bufferedwriter isn t the problem - it s the way you re constructing the filewriter
+
+
+
+23718911
+clang llvm
+Pattern(s): 1	
+as pointed out in another so answer clang -cc1 --help can be used to list supported compilation flags where we see the following which may be of interest to you -disable-llvm-optzns don t run llvm optimization passes -fno-elide-constructors disable c++ copy constructor elision -mdisable-fp-elim disable frame pointer elimination optimization
+clang does not support the -ggdb3 flag only -g as you have noticed
+
+
+
+23787539
+coalesce isnull
+Pattern(s): 5	
+you can do projections.sqlfunction coalesce nhibernateutil.string projections.property name projections.constant unknown to get a projection that does the equivalent of isnull
+isnull is not supported in nhibernates sql dialects but coalesce is and is the same thing for two parameters
+
+
+
+23809506
+factors matrix
+Pattern(s): 1	
+the unknown scale factors cannot be responsible for the reconstruction errors you see
+regardless of global scale the result of projecting onto the image pair a 3d point estimated from good matches and with a valid essential matrix should be consistent
+
+
+
+24024067
+arraylist treeset
+Pattern(s): 5	
+here you can define how to order the arraylist. if you don t add an comparator the treeset implicitly expects the arraylist to realize the comparable-interface which it does not do
+the treeset doesn t know how to sort the arraylists because there is no natural ordering for lists
+
+
+
+24042898
+swift objective-c
+Pattern(s): 1	
+you can work around the issue by wrapping your c++ code with objective-c and using the objective c wrapper in swift
+swift is not directly compatible with c++
+
+
+
+24181029
+vb.net vb6
+Pattern(s): 2	
+don t expect vb.net samples to work in vb6
+the two languages are incompatible on a number of levels not just because vb6 doesn t use the .net framework
+
+
+
+24373564
+webclient httpwebrequest
+Pattern(s): 5	
+using webclient using tcpclient you will need to use tcpclient class for what you want to do
+httpwebrequest does not provide the level access you need to the underlying stream and connection
+
+
+
+24411343
+udp tcp
+Pattern(s): 5	
+with udp you cannot send messages bigger than 64kb
+use tcp or split the payload yourself into multiple messages which will be extremely complex because messages can be lost
+
+
+
+24457397
+swift objective-c
+Pattern(s): 1	
+note that swift does have a full implementation of generics
+objective-c does not have generics so nsarray and nsmutablearray are not strongly typed in the way you desire
+
+
+
+24489745
+puma unicorn
+Pattern(s): 1	
+puma can spawn many workers and each worker can use many threads to process the request
+unicorn does not have threads as far as i know it just has the worker model
+
+
+
+24537049
+swift objective-c
+Pattern(s): 1	
+see also get a user-readable version of the class name in swift in objective-c nsstringfromclass was fine
+swift does not have the introspection capabilities yet as objective-c does
+
+
+
+24579873
+swift objective-c
+Pattern(s): 5	
+regarding your reply remember swift isn t fully baked yet and there may be many more apis available to us in future releases such as a unique set api reflection etc
+this should not deter you from learning swift as well as objective-c so don t give up
+
+
+
+24645106
+google-chrome firefox
+Pattern(s): 1	
+as noted in that bug page google-chrome has similar behavior on other special elements like and though it does happen to accept custom display styling on for some reason
+firefox does not in any case. to fix this you need to set display flex on a wrapper-div inside of the instead of on the itself
+
+
+
+24690703
+zsh subshell
+Pattern(s): 5	
+zsh is not affected because etc zshenv is read by every zsh instance
+to summarize and complement holdenweb s helpful answer particularly with respect to os x a subshell started from ipython with
+
+
+
+24774320
+viewdidload viewwillappear
+Pattern(s): 3	
+viewdidload is called once and only once when the view gets loaded
+in your situitation viewwillappear might not work as well because it s only called only if the view gets loaded on the canvas
+
+
+
+24836566
+clang llvm
+Pattern(s): 5	
+clang converts c c++ etc to llvm if llvm performs optimizations on the if and the llvm x86 backend writes out x86 machine code for execution
+despite the name llvm is not a virtual machine in the traditional sense - it is a computation model and representation that lends itself well to the task of manipulating code
+
+
+
+24881403
+udp tcp
+Pattern(s): 5	
+tcp has bigger overhead than udp because it needs to add more data to your payload but you are guaranteed that your data will be received in it s destination in the order you sent it and not corrupted
+udp does not have this features so it can t guarantee that
+
+
+
+24945814
+google-chrome firefox
+Pattern(s): 5	
+google-chrome adjusts the file size to 0 when you delete a file
+sadly firefox does not do this
+
+
+
+24947269
+innodb myisam
+Pattern(s): 5	
+innodb was not a default storage engine until mysql 5.5
+in my case myisam was the default storage engine and did not support the transactions
+
+
+
+25016135
+html5lib beautifulsoup
+Pattern(s): 5	
+beautifulsoup ranks lxml s parser as being the best then html5lib s then python s built-in parser
+this is because of the differences in beautifulsoup parsers as you can see html5lib cannot get the body from this particular html
+
+
+
+25058826
+cdr cons
+Pattern(s): 5	
+bar in this case cdr would not be part of tree structure
+note that while the car 1b component of each such cons is part of the tree structure the objects that are the cars of each cons in the tree are not themselves part of its tree structure unless they are also conses
+
+
+
+25164304
+decimal ieee
+Pattern(s): 5	
+if an approximate result is good enough and there are lots of calculations where it is you can use double but be aware that it s a binary floating point number and accurate rounding to decimal might not always be possible
+although in certain cases it might work in general there is no way to determine force the decimal precision of a double value or indeed any ieee floating point number
+
+
+
+25302983
+ienumerable ilist
+Pattern(s): 1	
+and since ilist inherits from ienumerable you can call where on both interfaces calling where on a ilist actually calls the ienumerable.where extension method
+so in both cases the same base method is called and the type of the resulting value will be an ienumerable not an ilist when applied to a list
+
+
+
+25324323
+google-chrome firefox
+Pattern(s): 5	
+google-chrome which uses a newer version of v8 throws an error if you don t use new
+i m not sure why firefox doesn t throw an error though
+
+
+
+25445352
+google-chrome safari
+Pattern(s): 1	
+the tryanchordownload approach should work on modern versions of firefox and google-chrome and is a cleaned-up version of code provided in this forum post
+the trysaveasdownload approach should theoretically work on any major modern browser though safari may not respect the specified file name
+
+
+
+25489717
+opera safari
+Pattern(s): 1	
+this works in google-chrome and opera but not firefox and safari this works in all mentioned browsers once i had a proper date object created the angularjs date filter works as expected
+i ran into this issue and found that the problem was google-chrome opera and firefox safari have different tolerances for creating a new javascript date object
+
+
+
+25493270
+openmpi mpich
+Pattern(s): 1	
+openmpi has only recently supported mpi-3 and i find that some mpi-3 features are buggy on some platforms mpich is not bug-free of course but bugs in mpi-3 features have been far less common
+historically openmpi has not had holistic support for mpi_thread_multiple which is critical for some applications
+
+
+
+25656262
+quicksort mergesort
+Pattern(s): 5	
+for instance quicksort does not have a tight bound unless we are talking specifically about either best average or worst case analysis as it s ω nlogn in the best and average cases but o n 2 in the worst case
+on the other hand mergesort is both ω nlogn and o nlogn therefore it s also θ nlogn
+
+
+
+25712222
+inline inlining
+Pattern(s): 1	
+the specific reasons why a function might not be inline when the inline keyword aren t documented by microsoft
+the closest i can find is the documentation for compiler warning c4710 . the inline keyword is only a hint and the compiler uses heuristics to determine whether inlining is a worthwhile optimization
+
+
+
+25788405
+directx gdi
+Pattern(s): 2	
+its possible that wpf can get around this since it uses directx to handle its drawing
+since winforms uses gdi there isn t a lot of support for floating precision within drawing
+
+
+
+25808990
+entity-relationship diagram
+Pattern(s): 5	
+unlike most people i prefer to make a sharp distinction between diagram that depict an entity-relationship model and ones that depict a relational model
+contrary to prevailing opinion entity-relationship modeling isn t just relational lite
+
+
+
+25827994
+swift objective-c
+Pattern(s): 3	
+no a class must be defined in swift or in objective-c not mixed language inside single class file sorry
+as you may have already noticed a class in swift is generally made by a single file with .swift extension while objective-c class is defined using two files .h and .m
+
+
+
+25915111
+google-chrome firefox
+Pattern(s): 5	
+i suspect the latter because google-chrome doesn t throw an error under the same circumstances
+for example firefox throws the error the second time
+
+
+
+25938890
+gruntjs package.json
+Pattern(s): 3	
+i think you are confusing gruntjs with npm because the gruntjs cannot handle dependencies it s simply a task runner
+the package.json file is here because you need the devdependencies for the gruntjs installation and all its plugins like grunt-contrib-concat
+
+
+
+25999518
+swift objective-c
+Pattern(s): 5	
+the idiom is for objective-c not swift
+in swift init blocks aren t normal functions and don t return anything
+
+
+
+26012210
+udp tcp
+Pattern(s): 5	
+udp is used by default for group membership and can be swithed off to tcp for example if you are running in a cloud environment where udp is not suitable
+for session replication on the other hand tcp is used org.apache.catalina.tribes.transport.replicationtransmitter
+
+
+
+26088292
+bower npm
+Pattern(s): 1	
+i m a npm bower noob - but what happened in my case was that i was using the angular js tutorial which seems to have bower set up to be used via npm and not via the command line directly
+note in my case i think my bower install got messed up. i ran this to fix up my bower install npm install -gf bower then i edited my bower.json file to add in a new library that i wanted to use in my case angular-sanitize i cd to the location of my project cd myprojectpath then to run bower i actually used npm install npm install this seems to to run bower as a node package which in turn scans bower.json and installs any missing bower packages
+
+
+
+26285749
+jython pypy
+Pattern(s): 1	
+jython doesn t deal in pointers it deals in java references which the jvm of course probably represents as pointers but you can t see those and wouldn t want to because the gc is allowed to move them around
+pypy lets different types have different kinds of id but the most general is just an index into a table of objects you ve called id on which is obviously not going to be a pointer
+
+
+
+26289863
+qtreewidget qtreeview
+Pattern(s): 5	
+as mumush mentions andrea s answer applies to the qtreewidget only not a qtreeview
+qtreeview has no selecteditems method so you have to use selectedindexes which will return you a list of qmodelindex objects
+
+
+
+26295653
+bash zsh
+Pattern(s): 1	
+the character is treated as special in filename expansions in zsh but only if the extended_glob option is set zsh setopt noextended_glob zsh echo head head zsh setopt extended_glob zsh echo head zsh no matches found head zsh bash doesn t have this feature
+to be precise bash does have an extended glob feature enabled by shopt -s extglob but bash s extended glob syntax doesn t treat the character as special. with this feature enabled is a special character similar to but with a different meaning
+
+
+
+26335481
+calloc malloc
+Pattern(s): 5	
+for malloc vs calloc it doesn t really matter
+a call to calloc is basically a malloc followed by a memset ptr 0 sizeof mallocd area
+
+
+
+26374568
+google-chrome safari
+Pattern(s): 5	
+in my blocks i was writing the video code like this here was my problem if i put the mp4 line first google-chrome would play the video part but there would be no sound
+if i put the webm line first google-chrome would play the video and sound correctly but apple safari would not detect the video at all
+
+
+
+26479138
+google-chrome firefox
+Pattern(s): 1	
+last i checked in google-chrome it couldn t process the output of webrtc through webaudio while firefox can
+however there are two bugs blocking firefox from taking webaudio-generated source streams in a peerconnection one of which has now been fixed in nightly aurora and the other should be shortly
+
+
+
+26486329
+swift objective-c
+Pattern(s): 5	
+swift temporary logging and fixme markers swift does not use a preprocessor so pragma flags and macros are not an option
+it is still possible though to provide similar functionality to the nlog and fixme macros used with objective-c by making use of the benign warning treating a forced downcast as optional will never produce nil i ve created some code to do this available under the mit license at here is an example of the usage from the documentation for snlog there are more usage cases shown on the snlog github page
+
+
+
+26491618
+entity-relationship diagram
+Pattern(s): 1	
+an entity-relationship diagram is more abstract
+sql server let you create a physical data model diagram that could come from a entity-relationship diagram or not
+
+
+
+26494754
+lxml elementtree
+Pattern(s): 1	
+update based on the new information that lxml.html is the parsing library lxml doesn t use pure xpath in the same way pure xml libraries might
+instead it s a marriage of xpath and the elementtree elementtree that s common to a lot of python xml html parsing libraries salted with a handful of its own homespun approaches
+
+
+
+26559063
+vbo vao
+Pattern(s): 1	
+in this case the vbo is automatically unbound from the currently bound vao but not from other vaos that are not currently bound
+if other vaos have references to the vbo the vbo will stay alive until all those bindings are broken or the vaos deleted
+
+
+
+26559967
+autocompletetextview spinner
+Pattern(s): 1	
+note as i experienced the last point is correct in spinner not in autocompletetextview
+because autocompletetextview is an edittext itself
+
+
+
+26726875
+mongodb bson
+Pattern(s): 5	
+mongodb doesn t use json in the first place
+it uses bson which is kinda similar to json from the outside but supports more types and more importantly is binary not text
+
+
+
+26729158
+dictionary map
+Pattern(s): 5	
+dictionary is an abstract class in java whereas map is an interface
+since java does not support multiple inheritances if a class extends dictionary it cannot extend any other class
+
+
+
+26736598
+jar manifest.mf
+Pattern(s): 5	
+yes gagravarr i discovered that the jar command doesn t use the -classpath argument although you don t get an error if you include it in the command line
+more importantly the class-path section of the manifest.mf file uses a space to separate the items instead of the semi-colon
+
+
+
+26780220
+arp udp
+Pattern(s): 5	
+once the kernel not your socket receives the arp reply it will know the targets mac address and can thus encapsulate your ip packet udp is based on ip into a frame for the local physical network with the local and target mac included and send it out through the network card
+arp is not a udp based protocol and thus cannot be captured with an udp socket
+
+
+
+26789506
+noexcept throw
+Pattern(s): 3	
+c++11 has introduced noexcept throw is somewhat deprecated and according to this less efficient noexcept is an improved version of throw which is deprecated in c++11
+unlike throw noexcept will not call std unexpected and may or may not unwind the stack which potentially allows the compiler to implement noexcept without the runtime overhead of throw
+
+
+
+26819699
+uiview subviews
+Pattern(s): 1	
+the calayer and its sublayers if any is a representation of a uiview but not its subviews
+each subviews has its own calayer
+
+
+
+26840054
+udp tftp
+Pattern(s): 5	
+udp does not have anything equivalent to tcp s sequence number acknowledgement number mechanism to let you track packets and detect packet loss
+if the higher-level protocol that s running on top of udp rtp tftp etc. has some sort of identification number or sequence number or block number that is unique per packet and that changes in a predictable way then you could display that number in a custom column and manually look for missing numbers but there is no way in the udp protocol itself to identify missing packets
+
+
+
+26853168
+runtimeexception unchecked-exception
+Pattern(s): 5	
+subclasses of exception other than runtimeexception will not
+exception has subclasses that are unchecked-exception runtimeexception extends exception
+
+
+
+26878163
+swift objective-c
+Pattern(s): 3	
+because it requires passing of c callback function and swift does not support it currently xcode 6.1.1
+then i had to fallback to objective-c and wrap it again
+
+
+
+26902428
+udp tcp
+Pattern(s): 5	
+udp does not care and will deliver the packets in this order to the application
+in tcp data have a sequence number so the receivers operating system will detect reordering and forward the data to the application in the correct order
+
+
+
+26948540
+vmware virtualbox
+Pattern(s): 2	
+for more information see these links unable to use hyper-v platform inside a windows 8 virtual machine how to enable windows server 2012 hyper-v role in vmware and some useful topics on virtualbox forums which explain why the feature is not available on virtualbox t 20589 t 52625 p 304452 i really miss this feature on virtualbox because i find vmware to be bloated and it slows the host system down much more than virtualbox does
+as far as i know virtualbox does not support it but vmware does even in their free vmware
+
+
+
+26955647
+google-chrome safari
+Pattern(s): 5	
+google-chrome did not display the html-document generated with xml data
+firefox and safari however did the job. doing some research i found out that i have to start google-chrome this way go to the terminal and and start google-chrome with the allow-file-access-from-files - flag by typing in google chrome.app --args --allow-file-access-from-files for those who have the same problem here is a demo
+
+
+
+26988312
+udp tcp
+Pattern(s): 1	
+note udp doesn t really have a concept of connect just sending and receiving packets
+if making a tcp connection is analogous to making telephone call then sending a udp packet is more like mailing a letter
+
+
+
+27025683
+bellman-ford dijkstra
+Pattern(s): 3	
+that makes your worst-case performance worse than bellman-ford which is therefore preferred for graphs with negative edges
+this doesn t mean that your modified dijkstra isn t useful
+
+
+
+27050581
+jacoco eclemma
+Pattern(s): 5	
+jacoco apparently uses keeps track of the classes it s watching via a hashmap whose hashcode is derived by the class definition so the hashcode will be different after mockito modifies the class so jacoco can t find the class in it s internal maps anymore
+discussed in more detail why eclemma doesn #39
+
+
+
+27293129
+haskell agda
+Pattern(s): 5	
+agda has this restriction as well but has now removed the mutual keyword in favour of giving types then definitions . to expand on this when you have dependant types the automatic dependency analysis à la haskell would be difficult or impossible because the dependancy order at the type level may very well be different than the dependancy order at the value level
+haskell doesn t have this problem because values can not appear in types so it can just do the dependancy analysis and then typecheck in that order
+
+
+
+27297486
+apache nginx
+Pattern(s): 5	
+i m fairly sure that same thing can be done with apache but i have no experience with setting up wsgi with apache
+the main point is that you ll actually need to run few different internal web-servers one for each app and you ll be able to unite them on the same port with nginx i m not sure if cherrypy supports listening to file socket instead of port so if it can - you may omit gunicorn and configure nginx directly with cherrypy servers
+
+
+
+27518276
+g++ gcc
+Pattern(s): 5	
+this is from man g++ however the use of gcc does not add the c++ library
+g++ is a program that calls gcc and automatically specifies linking against the c++ library
+
+
+
+27563283
+addition multiplication
+Pattern(s): 5	
+mathematical side note the num class generally models algebraic structures called rings which have a commutative addition and a not necessarily commutative multiplication which satisfy some compatibility rules
+in this case the addition is not commutative so it cannot be a ring
+
+
+
+27673808
+lxml beautifulsoup
+Pattern(s): 5	
+what you though can improve is don t let beautifulsoup go searching sections inside other sections by passing aside from that improvement lxml would do the job faster tree.xpath count section
+beautifulsoup cannot give you just a count number of tags it found
+
+
+
+27695354
+haskell agda
+Pattern(s): 5	
+here s the indexed state monad for example now i believe this approach is a fair bit more practical than indexing with monoids because haskell doesn t have kind classes or first-class type level functions that would make the monoid approach palatable
+it would be nice to have a verifiedmonoid class like in idris or agda which includes correctness proofs besides the usual methods
+
+
+
+27720766
+wildfly jboss
+Pattern(s): 5	
+the kitchensink sample can be deployed via mvn wildfly deploy not mvn jboss-as deploy
+make sure you don t mix wildfly with jboss and don t start the sample twice from eclipse and from maven
+
+
+
+27748747
+nsstring nsobject
+Pattern(s): 5	
+objective-c doesn t enforce types so n is actually an nsstring and not an nsnumber as you might suppose
+this works because all objects that inherit from nsobject have a description method
+
+
+
+27773760
+namenode hdfs
+Pattern(s): 1	
+check if you have formatted hdfs before starting hdfs services if hdfs was not formatted format hdfs using the following command and stop and start hdfs service again using the commands stop-dfs.sh and start-dfs.sh hadoop namenode -format
+looks like namenode is not running
+
+
+
+28029635
+pandas seaborn
+Pattern(s): 3	
+but i think it s easier to use the pandas plotting methods here anyway
+an easy trick might be to invert the y axis of your plot rather than futzing with the data seaborn barplot doesn t currently support horizontally oriented bars but if you want to control the order the bars appear in you can pass a list of values to the x_order param
+
+
+
+28064568
+elasticsearch kibana
+Pattern(s): 5	
+this error happened because you configure the url to your elasticsearch server not correct
+it should be refer to elastichsearch host in kibana3 config.js file elasticsearch your ip if you use domain to browser kibana please change ip to domain
+
+
+
+28092489
+google-chrome safari
+Pattern(s): 5	
+the point is that safari has a functionality google-chrome doesn t when safari auto-completes the request it sends the request
+google-chrome doesn t send the request until the enter button is pressed
+
+
+
+28096011
+punctuation words
+Pattern(s): 3	
+if you want to strip punctuation before comparing then use rstrip
+much easier split and either replace the words with the len of the words to replace or just keep the words os not needed you can simply use if you use str.replace as suggested in other answers partial matches will be replaced so also we explicitly pass a delimiter to split so when we rejoin we will keep the original string length intact
+
+
+
+28122838
+lisp scheme
+Pattern(s): 5	
+note that lisp is not a single language but a large family of somewhat similar languages
+you seem to have tried out scheme repl.it runs biwascheme and clojurescript
+
+
+
+28205122
+fgets fread
+Pattern(s): 1	
+on the bright side that makes the scan quadratically faster but computing the wrong result more rapidly is not really a win. you cannot use fgets to read binary files because the fgets interface doesn t tell you how much it read
+you can use the posix 2008 getline interface instead or you can do binary input with fread which is more efficient but will force you to count newlines yourself
+
+
+
+28226221
+setinterval settimeout
+Pattern(s): 3	
+setinterval is not the same as settimeout
+setinterval will run a piece or block of code periodically in a given interval while settimeout will run it only once or rather each time appviewmodel is invoked
+
+
+
+28249053
+ssl https
+Pattern(s): 3	
+ssl the s in https does not generally place any restrictions on how your ips work
+the ssl certificates are often issued to domains and or hostnames
+
+
+
+28399600
+bash tcsh
+Pattern(s): 5	
+unlike in most linuxes bash is not the default shell in freebsd
+rather tcsh is the default
+
+
+
+28404975
+jax-ws jax-rs
+Pattern(s): 5	
+dr jax-ws is meant for xml based web services such as soap
+jax-rs does not have the same restriction
+
+
+
+28548048
+udp tcp
+Pattern(s): 5	
+udp is a datagram protocol where each packet means a single entity independent of the other packets udp does not detected duplication reordering etc
+tcp instead is a stream protocol that is the whole transfer consists of a single unstructured octet stream similar to a large file
+
+
+
+28617603
+ioexception printwriter
+Pattern(s): 1	
+unfortunately most things that write throw ioexception which isn t permitted by the consumer functional interface that foreach expects
+but printwriter is different
+
+
+
+28622163
+pickle dill
+Pattern(s): 5	
+this means pickle does not work on objects defined in __main__ and it also doesn t work on many dynamically modified objects
+dill registers __main__ as a module so it has a valid namespace
+
+
+
+28628113
+qthread qobject
+Pattern(s): 5	
+the default run implementation in qthread runs an event loop for you the equivalent of the important thing about an event loop is that it allows objects owned by the thread to receive events on their slots which will be executed in that thread
+those objects are just qobject not qthreads
+
+
+
+28631429
+swift objective-c
+Pattern(s): 3	
+see swift is very type-safe language
+so when you mess any different type it s better to say to compiler what we are going to mess. so hash2 line will look like this here you just say that dictionary will be with keys type of string and values with any type anyobject goes from nsobject in objective-c and here any type because dog.self and person.self doesn t goes from objective-c and not the same type then while unwrapping you need to say what type it will be so next code will be like this here i just try not only to get key from dictionary but to cast it for person.type type
+
+
+
+28687948
+google-chrome safari
+Pattern(s): 3	
+improving css3 transition performance jerky css transform transition in google-chrome it is also known that google-chrome does not do as well a job accelerating css transitions as firefox and ie
+why transitions for some css properties are slow and none fluent css3 transform difference in firefox and google-chrome and ie in fact given that google rejected pointer event on the ground of speed which ie solved by gpu acceleration it can be said that google-chrome and webkit in general - safari is even slower is lagging behind on this front and the only way to help is contributing code to chromium webkit
+
+
+
+28916046
+wildfly jboss
+Pattern(s): 5	
+jboss 7 is an implementation of javaee 6. wildfly 8 is an implementation of javaee 7
+wildfly is the new name of jboss so that the company jboss and the application server jboss cannot induce confusion anymore
+
+
+
+29066121
+hex binary
+Pattern(s): 5	
+call integer.parseint str 16 in a try-catch if you get a numberformatexception it wasn t a valid hex encoded int
+computers perform math with binary not decimal and not hex
+
+
+
+29104148
+clang llvm
+Pattern(s): 5	
+note that clang still uses your system linker ld and this is fine
+currently llvm does not yet provide a fully functional alternative to this program but they are working on it
+
+
+
+29127962
+rsa aes
+Pattern(s): 1	
+rsa is not a substitute for aes
+aes is a symmetric cipher that can quickly encrypt and decrypt large messages
+
+
+
+29263171
+persistent transient
+Pattern(s): 5	
+if the persistent context participates in a transaction the in-memory state of the managed entities will get synchronized to the database
+a detached transient entity cannot be used with any entitymanager operation that requires a managed instance
+
+
+
+29323536
+google-chrome firefox
+Pattern(s): 3	
+however if your png has some other color profile such as adobergb then perhaps firefox is not compensating whereas google-chrome is
+in this case the firefox image is technically displayed incorrectly although it will match rgb font colors in your html whereas the google-chrome image is displayed correctly to the creator s original intent for the colors but will not match the rgb font colors in your html which are specified in srgb
+
+
+
+29324517
+innodb myisam
+Pattern(s): 1	
+i think now vs sys_date is the least of your problems. you are using innodb not myisam i hope
+myisam uses table locks and you won t be able to keep up. let s consider that way all the queries will be looking at the beginning of the table that will get all the data for the page and do it quite efficiently
+
+
+
+29409986
+clang llvm
+Pattern(s): 5	
+fresh compiler-rt build doesn t contain this library and fresh clang is not using it
+and i failed to compile since i didn t sync the other llvm projects before compiling i only put compiler-rt inside llvm projects directory and build from llvm build root directory
+
+
+
+29460445
+uilabel uitextview
+Pattern(s): 5	
+uilabel is a view uitextview is a view too the method boundingrectwithsize is not the same thing as a view frame is just the bounding rect to contain that text
+as suggested by aaron uitextview contains padding while uilabel not
+
+
+
+29606081
+quicksort mergesort
+Pattern(s): 5	
+quicksort cannot be used on lists
+for lists mergesort is the way to go as long as the list contains more than one element split it into two lists sort each of them then merge the two sorted lists into one since both lists are sorted only the heads have to be compared
+
+
+
+29699341
+swift objective-c
+Pattern(s): 3	
+however note that optional methods do not exist in pure swift they are there only because objective-c have them so there is no big reason for swift to have special grammar for optional methods
+also note that even objective-c doesn t have a special grammar for checking of existence of optional methods
+
+
+
+29777213
+build.gradle gradlew
+Pattern(s): 1	
+in your root build.gradle make sure buildscript section contains jcenter repository and andcom.novoda bintray-release 0.2.7 classpath
+it looks like gradlew could not find this plugin in all specified repositories
+
+
+
+29803832
+itextsharp razorpdf
+Pattern(s): 2	
+as for using itextsharp good places to start would be itextsharp tutorial how to convert html to pdf using itextsharp how to add page number in footer in pdf by itextsharp
+razorpdf does not have the ability to set the page numbers in the pdf file
+
+
+
+29923885
+bash tcsh
+Pattern(s): 5	
+the problem is that tcsh apparently removes escaping backslashes from history expansion exclamation points that it sees in double quoted strings whereas bash for some reason i ve never understood does not do that i m not sure you can get an exact duplicate of that alias in bash since i don t think bash will do history expansion on an alias expansion so the closest you can get is a function that takes files as arguments
+that example is a tcsh alias not a bash alias
+
+
+
+29948715
+mp4 h.264
+Pattern(s): 5	
+mp4 is not really a format but a container that can hold video in different formats
+firefox supports only h.264 encoded video
+
+
+
+29958491
+draggable droppable
+Pattern(s): 5	
+you re just changing the background of the droppable not actually moving the draggable
+if you want to move it then add the following lines to dropped function if you just want to change the display of draggable then try this edit regarding the id you don t need to pass it to the function
+
+
+

@@ -1,0 +1,34 @@
+i also had good result with B cms it s a bit more lean than B but not as user friendly and definitely not as popular
+
+consider B its architecture is definitely better than B s
+
+i have been trying out B to see if i like it better than B
+
+however if i d built a new site with a cms on java i d probably go with B cms because the documentation and community is more mature despite that it s newer than B
+
+it works fine and fits all my needs but recently i found that B works better than B so i decided to use it but i face a problem with B usability because most B s gui not user friendly as B explorer so i want your advice based on a practical experience which best B s gui user friendly or which one is most similar to B explorer
+
+granted B is an easier problem but they claim to support many B and it would be my first choice
+
+we ve recently switched from B to B where i work and i think i like it a little more than B and use the wiki functionality almost everyday
+
+B handles multiple projects and sub-projects right out of the box and overall seems nicer than B
+
+the compare dialog of B is more about file and with git you have to compare two master branches not just two commits of the same branches both pointing to the same B central repo
+
+and because B is much more readable and useful than B - it s often used and shown
+
+those B values seem a bit odd they re powers of two in decimal but in any case 0x128 the 0x is a standard prefix for B numbers is the larger of the numbers in magnitude and its B representation is 100101000
+
+wondering mainly if B uses less disk space or more than the same in B
+
+in this case i converted the B to B and found the file size on the hard drive it was on my own laptop at the time but it was much smaller in B than in B but there could have been some compression applied i dont know but everything on the web said B would actually be bigger than B
+
+B was supposed to be better than B but in some areas that didn t work well
+
+the first one can be solved by using B +ssh which is the more comparable format as B uses its own protocol as well
+
+just a wild guess here but if you re using B on the server this observation might be based on the fact that B simply is much better at merging than B because it has the notion of mergepoints
+
+B s issue Bking is little better than B s...i know a lot of folks love B but i find it very inflexible
+

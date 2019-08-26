@@ -1,0 +1,32 @@
+with B the code is much more readable than with B
+
+this is because the B dictionary is more strongly typed than the B nsdictionary
+
+as craig revealed within the announcement of B it is said to be faster than B by far
+
+im new to B but i like it more than B as it looks a bit like java does to me from syntax wise compared to B
+
+no objects come magically into existence in B any more than in B
+
+i m doing a comparison of B haskell B and es6 and i m less farmiliar with B and B but i want to represent all of these languages fairly so is this good B code
+
+B has a steeper learning curve compared to B
+
+some background i m learning B now having earlier worked with B and cl and a little foray into clojure
+
+i believe that the reports are using something more along the lines of B edit oregonghost says B which actually makes more sense than B than vb.net and very limited at that
+
+first you can use B or q it just takes more work than B or q
+
+B has more momentum these days but there are plenty of good parsing libraries for B as well including the peg parser generator aurochs menhir and the glr parser generator dypgen
+
+asp with B is 100 times better cleaner simpler nicer than B and makes my job a joy rather than a B head ache
+
+my experience is that designers can use whichever they prefer usually and most agree that B is easier to use and the code is shorter fact than equivalent B
+
+B is a better language than B use its com capabilities to save you from writing endless sketchy B code
+
+quite apart from the fact that the language B is far more feature rich than B the fact that you have developed in B means that you have made extensive use of the .net class libraries including system.security.cryptography that you give as an example
+
+neo4j and B is still faster and obviously this has no effect on the B queries on neo4j but that might be just a issue with the B implementation for neo4j
+

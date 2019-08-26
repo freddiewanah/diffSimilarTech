@@ -1,0 +1,78 @@
+plus the overhead of doing it is extremely costly- B queries against hbase are on my cluster at least an order of magnitude slower than against plain B files
+
+plus the overhead of doing it is extremely costly- B queries against hbase are on my cluster at least an order of magnitude slower than against plain B files
+
+B types libraries are fantastic for financial applications because we re used to dealing with the style of rounding required in financial stuff but there is the cost that they tend to be slower than B floating point
+
+i ve even tried to pin archetypes and atcontentypes so that the B uses older versions example those used in B 4.2 by adding the following to my pinnedversions.cfg file which gets called after everything else
+
+i ve even tried to pin archetypes and atcontentypes so that the B uses older versions example those used in B 4.2 by adding the following to my pinnedversions.cfg file which gets called after everything else
+
+B offers more advanced branching and merging capabilities than B
+
+if you want to a little bit further you can imagine use more powerfull scm clearcase B ... but maven integration is fewer not well documented and community provide less examples than B or git
+
+B offers more advanced branching and merging capabilities than B
+
+if you want to a little bit further you can imagine use more powerfull scm clearcase B ... but maven integration is fewer not well documented and community provide less examples than B or git
+
+imho creating templates for B is the easier than most other cms i know typo B modx as you simply have to replace parts of the static version with B tags menu content etc. it still needs some time to get used to the system but its not that hard
+
+imho creating templates for B is the easier than most other cms i know typo B modx as you simply have to replace parts of the static version with B tags menu content etc. it still needs some time to get used to the system but its not that hard
+
+since B is less commonly used compared to B svn amongst bamboo users we generally get less feedback about it and hear less about existing issues
+
+since B is less commonly used compared to B svn amongst bamboo users we generally get less feedback about it and hear less about existing issues
+
+B is in an earlier stage than chef B and other tools out there when it comes to community support
+
+B is in an earlier stage than chef B and other tools out there when it comes to community support
+
+note most recently i have been using B and hg with fully powerful regexps so may be looking for stuff more powerful than B provides
+
+note most recently i have been using B and hg with fully powerful regexps so may be looking for stuff more powerful than B provides
+
+since the B is more than likely B or B32 protecting it permission based way would be more convoluted
+
+since the B is more than likely B or B32 protecting it permission based way would be more convoluted
+
+i understand B is more of a B clone but retrospectiva seem to support agile methodologies via a nice plugin
+
+when people say that unix B are better they might mean to be saying oh ext3 stores bits in such as way that corruption happens way less than B but they might also be talking about design choices made at the common layer above
+
+actual mounting of B is trickier business and really depends on what you are mounting - B fat ext3 xfs nfs cifs webdav etc etc
+
+although i myself have prior experience in implementing B much simpler ones than B xfs or ext2 i would not tackle this job
+
+if you need to load from a well-defined B fat or B this is more tricky you have only 450 bytes of space because 60 of the 512 bytes are used by the B internally for code that interprets the data of the B finds the file containing the code and loads it into memory
+
+when people say that unix B are better they might mean to be saying oh ext3 stores bits in such as way that corruption happens way less than B but they might also be talking about design choices made at the common layer above
+
+actual mounting of B is trickier business and really depends on what you are mounting - B fat ext3 xfs nfs cifs webdav etc etc
+
+although i myself have prior experience in implementing B much simpler ones than B xfs or ext2 i would not tackle this job
+
+if you need to load from a well-defined B fat or B this is more tricky you have only 450 bytes of space because 60 of the 512 bytes are used by the B internally for code that interprets the data of the B finds the file containing the code and loads it into memory
+
+the compare dialog of B is more about file and with git you have to compare two master branches not just two commits of the same branches both pointing to the same B central repo
+
+conceptually it seems like a type of central authentication system B but is more similar to B also a federated identity management system
+
+i ve been using images to store data since editing B data through paint.net is much friendlier than most B editors
+
+- i usually find debugging memory in B x command is easier than B so i will not use my solution
+
+B in much better than B and have lot of mature tools for every platform
+
+B in much better than B and have lot of mature tools for every platform
+
+microsoft has the microsoft speech api sapi however if you want simple B it is better not to reinvent the wheel and customize an B implementation which i guess falls under the great B library for c++ category it s c not c++ but if you know c++ you should be able to understand the c . using Bnow you may not even need to write any custom code it may do what you want already
+
+i didn t work with these applications yet but afaik B and ezpublish both php are considered much more professional than B
+
+i didn t work with these applications yet but afaik B and ezpublish both php are considered much more professional than B
+
+B seems much more like B with branches just being separate directories so maybe not
+
+B seems much more like B with branches just being separate directories so maybe not
+

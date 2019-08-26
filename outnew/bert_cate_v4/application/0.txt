@@ -1,0 +1,26 @@
+if you are targeting android you can use firefox for android by developing a webapp that has native * support and because of it will be much faster than * or other javascript solution
+
+since * is a bit more complete than * when it comes to features you could define separate issues with custom field for your tasks
+
+i ve read that * contains less project management tools than *
+
+i have been trying out * to see if i like it better than *
+
+i think you ll find that your team will like either trac or * more than * or mantis
+
+for next projects i m going to try * seems more clean and hipe than *
+
+i d recommend * like the other posters as it is more complete than *
+
+we ve recently switched from * to * where i work and i think i like it a little more than * and use the wiki functionality almost everyday
+
+the authors of * are trying to create a better * than *
+
+* handles multiple projects and sub-projects right out of the box and overall seems nicer than *
+
+* was written to be a better * than *
+
+the compare dialog of * is more about file and with git you have to compare two master branches not just two commits of the same branches both pointing to the same * central repo
+
+* s issue *king is little better than * s...i know a lot of folks love * but i find it very inflexible
+

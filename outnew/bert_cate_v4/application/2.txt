@@ -1,0 +1,16 @@
+if you would like a unified front-end for * and opentsdb you could consider grafana which has support for both * and opentsdb but less functionality than * in regard to *
+
+* focuses more on logs and adhoc search while * focuses more on creating dashboards for visualizing time series data
+
+* is more of visualization only while * is for searching the logs is that right
+
+for load testing * is better option but you have quite enough funding then go for loadrunner * rational performance tester and for cloud try blazemeter
+
+research showed me that * is simpler to use over * so i decided to use * but have no idea how to install it.can anyone please tell me what are the steps you need to take in order to install * bug tracking system in a small company to track website mobile portal bugs
+
+imo * is better than admob especially when using their * ads
+
+we found * to be a better than * simply because it is easier to use
+
+nobody has ever accused git of being easy-to-use no * for example although i hear it s coming so you might be better off with * beanstalk
+

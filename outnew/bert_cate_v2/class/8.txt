@@ -1,0 +1,42 @@
+i am writing an app based on B which has more than 10 viewcontrollers with corresponding B
+
+actionlink B is more often used to generate url properly based on the B route values etc and anchor tag based on htmlattributes etc
+
+hence the B which runs much better than a java B thingy
+
+the B is more of a behind-the-scenes organizer for holding and displaying other B s
+
+in my app i have a rootpageviewcontroller which contains the B and one or more detailpageviewcontroller with a B as a childview
+
+however i wish to use a custom B that uses an internal cggradient for drawing instead as this should produce smoother results than B see here
+
+if you want to use a continuous gesture that tracks the user s finger you can use uipangesturerecognizer rather than B and i think animatewithduration is better than B in that case
+
+change the contentsize of your scrollview.your B size and uiscrollview size is same if the uiscrollview contentsize is more than its B size then scroll will happen change the line overviewscroll setcontentsize cgsizemake screenframe.size.width screenframe.size.height-25
+
+B must allow more than the B not less and going from an argument being optional to not optional is allowing less
+
+using B is potentially slightly on the order of a few milliseconds slower than using B directly
+
+httpwebresponse and B are a little bit lower level than B
+
+B is more useful when a new B wants to change the way a method works if you just need to change the data the class uses to work probably an approach like this would do the trick
+
+on ideone the B is about 3 times slower than B copy + back_inserter + B vector and about 15 times slower than memcpy into a raw buffer
+
+for example public static void copy reader r writer w throws B is more useful reusable than public static void copy filereader r B w throws B
+
+counter1 can be used with instanceof and B but is more verbose and doesn t have real private B eg count B is exposed
+
+using dedicated methods for getting and setting B is also more clear in B
+
+i need show files from qfilesystemmodel in B and customize that tree to show one more column with B so user can pick 0..n files from that B
+
+however take some time to consider how you re currently using B and whether you are able to give ios 8 users a better experience by supporting B
+
+it is a feature it is about B api but the same is true or worse with B api
+
+B is newer api which should polish developers experience when using most common tasks - simply the api is better designed but you still have to get B from B and use the older api if you want to use some more complex features
+
+posting Bs to B is faster than using signal-slot invocations because there are no copy constructors called and there s no marshalling done except directly by you upon construction of a B
+

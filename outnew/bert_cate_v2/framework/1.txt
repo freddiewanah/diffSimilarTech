@@ -1,0 +1,96 @@
+you can use B which is quite better than B
+
+i personally use B which probably falls in to the heavy framework category but is at least much lighter than B and lighter than zend too i think
+
+B is newer more feature rich and heavier than B B is designed to have a much smaller footprint so you will most likely find yourself creating functionality in B to match cake s
+
+B has the lower learning curve overall so i would recommend it over B
+
+i have been reading about B but it seems a bit more complicated than B
+
+in my view B seems much more lighter then B but i never used either one so i can t judge
+
+i have seen a lot of post where they are claiming that B is much better than B but looking at the differences i have seen that the widget support is not there in B
+
+B seems to have a bigger community than B maybe it s just my point of view
+
+i think B produces a bit uglier code than B but i m afraid to choose B because it s changing constantly and i will be stuck with the current version if it breaks backward compatibility
+
+it fills the gap between B and B more powerful than B and easier to use than B
+
+you cannot use mocks in conjunction with B it s better to let B provide the context you need here
+
+it s probably overkill for what you need but B is an mvc framework and it doesn t look any more heavyweight than B or trimpath s junction
+
+developers community it might seem that B has a larger community of developers but during my career with B i ve found no bottleneck of having a question without an answer
+
+B probably has more resources than B
+
+this is only a guess and is not based on actual performance testing probably B will be doing better than B
+
+i have found one benchmark in which B is faster than B and another benchmark in which B is faster than B
+
+2 B a bit more structured than B but you have a basic app up within 10 mins and if your familiar with mvc design its a great way to develop portals incredibly quickly
+
+B is more flexible than B and have multiple advantages like support for parallel testing for example
+
+if you re doing non-unit testing B might be a better option than B
+
+isn t B supposed to a better than B
+
+if you are familiar of using B it is easier to switch into B
+
+if there is a B extension or similar framework that provides a better solution than B then please let me know
+
+B is much friendlier to this paradigm than B though
+
+since B seems to be much lighter than B i would suggest that you take a look at B
+
+B looks more natural when developing applications in scala however from what i read it seems to support fewer test scenarios compared to B and it s also less mature
+
+i m building an application in both bottle and B to see which i am more comfortable with as B is too much batteries included
+
+B is very batteries included meaning that it comes with much more out-of-the-box than say B and to me a large part of that the user auth system
+
+B has a really great albeit smaller than B community and there are a lot of extensions available for common web-app extensions in the extensions directory
+
+current task looks like B is ok for it since it is smaller and simplier than B
+
+comparison between B vs B - why is B voted better than B
+
+i found B was even easier than B to set up
+
+B is slightly easier to grasp but B is the best in my opinion at least so if you want to start learning and using a framework start with the one you re going to use when you ll be a master in tdd
+
+i should also say that i have the token at ctx.request.get authorization B based i think it s something like req.header authorization with B in all routes
+
+but if B has a bit too much bloat for you maybe you can try B which is a bit less bloated than B started as a fork
+
+i ve came to B from B which was a little bit bigger documentation and easier to understood but as far as i found out many programmers say that B are alot better than B
+
+as i understand it B supports gae better out of the box than B
+
+and B is more lightweight than B rails whatever on pretty much all counts
+
+B is faster as compared to B
+
+if you have a full version of visual studio 2008 rather than the express edition it integrates the inbuilt B much better than B does and cruise control also supports B
+
+B has better support for parameterized tests than B
+
+btw why do you want to use B it looks to me less powerful than B
+
+personally i really like B which is fairly unusual but does make getting things right an awful lot easier than B
+
+i would advise you to try B it is very easy to learn much easier than B and it let s you re-use many existing components as well
+
+if you ve been using B then you already know it is better than B
+
+in my personal benchmarks B is undeniably faster than B due to lazy loading
+
+before i am using B but i found out that B is much better than B and it has a lot of features
+
+the consensus seems to be that B is easier to use but that B has the advantages that come from being open source easy to customize merge with other code community etc
+
+i would recommend B as it is in my opinion equally or even better than B and it is free
+

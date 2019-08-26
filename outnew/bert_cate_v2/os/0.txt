@@ -1,0 +1,36 @@
+this is because your B system has newer system libraries than your B one
+
+is there anything obvious in B that would otherwise be making sfphpview- render run slower than B
+
+personally i develop on the windows but deploy on B where couldn t find the scrapyd package at all at the time i was working on it and noticed that performance of scrapy is considerably worse than on B box so you might reconsider your target
+
+if your system B is older like B wheezy for example your glibc version will be older than the required one
+
+B makes it easier to maintain groups of machines without having to manually update each one using B
+
+note that centos software versions are older than B s but versions of B software are newer than B s versions
+
+B however is less forgiving and has a filesystem that is case sensitive at least my dev B version does but i guess it is the default for B
+
+also very particular that this should be done on centos or amazon B which makes things worse for me as i have been on B for long
+
+you can use alpine B docker image it is very light and is better than both B and centos image to be used as the docker
+
+sometimes a B distribution contains far more than an operating system but is informally referred to by a single name such as B and so the line between what the operating system is the B kernel and standard libraries perhaps and the applications that merely ship with that operating system the gnome and kde environments on B is pretty gray
+
+i am new at a firm and i was given a project that was on amazon B ami now we need to transfer project on another server and because i am more familiar with B than with amazon B ami i was wondering if there much difference and will project work perfectly
+
+i want test unix-like operating systems on historicial computers like commodore amiga atari st and i386 cpu and run posix compatible apps like pkgsrc x window system and blackbox wm for 40mhz higher versions B 1.5 is best os for those systems better than B but it is not posix-compatible
+
+B is far less conservative than B so you will get closer to the bleeding edge
+
+B heavily relies on python scripting and generally consumes more resources than B
+
+i believe B is smaller B wheezy smaller still or even alpine for tiny start point
+
+since B 10.10 is newer than B squeeze if you can do it on squeeze you can certainly do it on B
+
+we recently have migrated redmine from a server which was running under B 5.5 with the same ror environment the same load the performance was a way better than on B 7
+
+note that B software versions are older than B s but versions of opensuse software are newer than B s versions
+

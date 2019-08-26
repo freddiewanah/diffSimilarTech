@@ -1,0 +1,240 @@
+one might want to define B access to more than one B server
+
+one might want to define B access to more than one B server
+
+B could be considered as a better option than B
+
+but as i understand it B disallows the more secure B domain credentials if they re available
+
+B is complex to set up and even though it generally is considered faster than B this is only true when you reach a certain limit of simultanious users on your site
+
+B could be considered as a better option than B
+
+but as i understand it B disallows the more secure B domain credentials if they re available
+
+B is complex to set up and even though it generally is considered faster than B this is only true when you reach a certain limit of simultanious users on your site
+
+if we assume that you live in a poor coverage area and your phone and your tower are constantly dropping the signal then re-establishing a B connection is no worse off than re-establishing a tcp connection modulo B handshake
+
+i m using keep-alive so i think the B handshake is more or less totally out but i hope to move to B soon so i don t really know how that helps after the initial handshake
+
+plus once B becomes more common B slow down won t really account for anything much
+
+if we assume that you live in a poor coverage area and your phone and your tower are constantly dropping the signal then re-establishing a B connection is no worse off than re-establishing a tcp connection modulo B handshake
+
+i m using keep-alive so i think the B handshake is more or less totally out but i hope to move to B soon so i don t really know how that helps after the initial handshake
+
+plus once B becomes more common B slow down won t really account for anything much
+
+B has to do a lot of error checking to ensure that your packets don t get dropped and so B is much slower than B
+
+if i d directly say that B is faster comparatively than B that it is used for such applications
+
+you ve struck lucky with the requirements - because you re going from B - B it s actually a lot simpler than doing B - B
+
+what s currently baffling me is in my results B finishes almost 2x faster than B
+
+B is certainly going to be more reliable than B since B doesn t guarantee packet delivery which is probably why you application is hanging on the receive
+
+also if you have very limited memory processing resources it is worth bearing in mind that B is a less costly protocol as it avoids a lot of the overheads B incurs due to its inbuilt connection management
+
+instead you can use B and implement your own scheme for verification of data that is less stringent than B
+
+when writing your server bear in mind that the sequence of events for a B socket is much harder than for a B socket since as well as the normal socket and bind calls you also have to listen and accept
+
+hello to all i am developing an application that needs to send a image via the B socket.i know that B is a better protocol but playing with kryonet in java i have learnt that B is better for this type of application.i have this small class that i have made
+
+also note that it is easy to implement your own stack on top of B that performs worse than B
+
+i assumend that the transmission using B have to be much faster than using B but in fact my tests proved that the B transmission is about 7 to 8 times slower than using B
+
+instead of implementing all these over B it is much better just to switch to B
+
+B mounts are more reliable and you know you have a network problem much faster than with B
+
+while B has less network overhead than B it generally relies on you the developer to come up with your own mechanisms for flow control fragmentation handling lost packets etc.
+
+actually we could say that B is a higher level protocol compared to B because B includes some advanced features which might be useful .
+
+we know B is better suited for this but the hardware development decided it s got to be B
+
+note that there are exceptions to the above - for example B generally traverses firewalls better than B which may be blocked due to security to traffic policy reasons so voip speech may sometimes be sent over B for part of its journey at least
+
+you will notice that the B header has more fields than the B header and many of those fields will be populated by information from the handshake
+
+from experience i can tell you B is about 10-15 faster than B on dedicated and B-tuned networks
+
+the reason i asking this is because i read B is slower than B because B ensures order of packets
+
+B is also more work than B if you need reliability which is built in to B
+
+B is quicker than B but if you re using quickfix you ll be using B
+
+i ve considered that B is more suitable for sending a series of discrete data sets but i need the reliability of B
+
+if your client connections are more or less permanent and not too many clients are connected at the same time B is only slightly worse than B
+
+if you can t afford lost packets then B is probably a better option than B since it provides that guarantee out of the box
+
+i know that in practice this would only happen with a great amount of connection given that processing time of an B connection is faster than B but it could potentially happen
+
+i m trying to avoid Bclient because B is faster but would this work in B since it s streamed
+
+normally a server wouldn t need to know the client s address beforehand but B s knottier than B the more usual stream-oriented approach to socket communication in many ways
+
+B has bigger overhead than B because it needs to add more data to your payload but you are guaranteed that your data will be received in it s destination in the order you sent it and not corrupted
+
+B is reliable but slower than B while B is not safe and i have to implement my own fault-handling codes
+
+theoretically B should be be 30-50 faster than B because it s missing the extra trip for the ack and has a smaller header overhead however in reality there are many cases where B would outperform B just because of congestion control
+
+generally speaking B has less overhead than B allowing you to receive more data but this is not a strict rule and is almost negligible in this context
+
+if you re more interested in latency and small amounts of data then something B based could be better than B but you d need to build extra logic for ordering the messages and retrying the lost ones
+
+the downsides are that it is unreliable messages can be dropped or corrupted therefore you may want to add some safety and that some isp may restrict B more than B test yourself to be sure but usually there is no problems
+
+please note however that this architecture implements B which is much slower than B and will not work for any type of fast-paced data intensive games but should accomplish your goals given your description above
+
+some protocols are more complex because what s needed are some but not all of the features of B but more than what B provides
+
+if the data is critical you should go for B which is slower as compared to B which in fact doesn t guarantee the packets will arrive in order or even if they d arrive or not
+
+i know B is better to send file but i have a homework about sending file via B protocol
+
+B is slower than B and you ll have to mitigate that in realtime multiplayer
+
+i m aware of the differences in general the facts like B is more accurate while B is more fast
+
+i am using B because it is much faster than B but sometimes i need the know for sure if the packet reached to the other side in my program i can not use B at all so i am sending ack packets
+
+you can use B as well but if you are dealing with firewalls it is probably going to be simpler with B
+
+c++ is not my first language and this is small part of code i can t figure out i ve chosen B because it is always much simpler than B
+
+if you care a lot about efficiency or really need tens of thousands of connections then implementing your specific protocol in B will always be better than B
+
+what i have thought of so far is that B is going to be more reliable than B and in rmi corba we want network reliability
+
+the key question was related to what kind of situations would B be the better choice over B
+
+i did some research and found that B may be more suitable in this case because B hole punching works much better than B hole punching
+
+maybe one of you guys already sees a problem in the code snippets or have any other suggestion or hint for me why my B transmission is slower than B
+
+as an additional note my suspicion is that you d need to indulge yourself in some pretty sophisticated benchmarks before you could conclude that B is actually going to have higher performance than B for web services
+
+B has to do a lot of error checking to ensure that your packets don t get dropped and so B is much slower than B
+
+if i d directly say that B is faster comparatively than B that it is used for such applications
+
+you ve struck lucky with the requirements - because you re going from B - B it s actually a lot simpler than doing B - B
+
+what s currently baffling me is in my results B finishes almost 2x faster than B
+
+B is certainly going to be more reliable than B since B doesn t guarantee packet delivery which is probably why you application is hanging on the receive
+
+also if you have very limited memory processing resources it is worth bearing in mind that B is a less costly protocol as it avoids a lot of the overheads B incurs due to its inbuilt connection management
+
+instead you can use B and implement your own scheme for verification of data that is less stringent than B
+
+when writing your server bear in mind that the sequence of events for a B socket is much harder than for a B socket since as well as the normal socket and bind calls you also have to listen and accept
+
+hello to all i am developing an application that needs to send a image via the B socket.i know that B is a better protocol but playing with kryonet in java i have learnt that B is better for this type of application.i have this small class that i have made
+
+also note that it is easy to implement your own stack on top of B that performs worse than B
+
+i assumend that the transmission using B have to be much faster than using B but in fact my tests proved that the B transmission is about 7 to 8 times slower than using B
+
+instead of implementing all these over B it is much better just to switch to B
+
+B mounts are more reliable and you know you have a network problem much faster than with B
+
+while B has less network overhead than B it generally relies on you the developer to come up with your own mechanisms for flow control fragmentation handling lost packets etc.
+
+actually we could say that B is a higher level protocol compared to B because B includes some advanced features which might be useful .
+
+we know B is better suited for this but the hardware development decided it s got to be B
+
+note that there are exceptions to the above - for example B generally traverses firewalls better than B which may be blocked due to security to traffic policy reasons so voip speech may sometimes be sent over B for part of its journey at least
+
+you will notice that the B header has more fields than the B header and many of those fields will be populated by information from the handshake
+
+from experience i can tell you B is about 10-15 faster than B on dedicated and B-tuned networks
+
+the reason i asking this is because i read B is slower than B because B ensures order of packets
+
+B is also more work than B if you need reliability which is built in to B
+
+B is quicker than B but if you re using quickfix you ll be using B
+
+i ve considered that B is more suitable for sending a series of discrete data sets but i need the reliability of B
+
+if your client connections are more or less permanent and not too many clients are connected at the same time B is only slightly worse than B
+
+if you can t afford lost packets then B is probably a better option than B since it provides that guarantee out of the box
+
+i know that in practice this would only happen with a great amount of connection given that processing time of an B connection is faster than B but it could potentially happen
+
+i m trying to avoid Bclient because B is faster but would this work in B since it s streamed
+
+normally a server wouldn t need to know the client s address beforehand but B s knottier than B the more usual stream-oriented approach to socket communication in many ways
+
+B has bigger overhead than B because it needs to add more data to your payload but you are guaranteed that your data will be received in it s destination in the order you sent it and not corrupted
+
+B is reliable but slower than B while B is not safe and i have to implement my own fault-handling codes
+
+theoretically B should be be 30-50 faster than B because it s missing the extra trip for the ack and has a smaller header overhead however in reality there are many cases where B would outperform B just because of congestion control
+
+generally speaking B has less overhead than B allowing you to receive more data but this is not a strict rule and is almost negligible in this context
+
+if you re more interested in latency and small amounts of data then something B based could be better than B but you d need to build extra logic for ordering the messages and retrying the lost ones
+
+the downsides are that it is unreliable messages can be dropped or corrupted therefore you may want to add some safety and that some isp may restrict B more than B test yourself to be sure but usually there is no problems
+
+please note however that this architecture implements B which is much slower than B and will not work for any type of fast-paced data intensive games but should accomplish your goals given your description above
+
+some protocols are more complex because what s needed are some but not all of the features of B but more than what B provides
+
+if the data is critical you should go for B which is slower as compared to B which in fact doesn t guarantee the packets will arrive in order or even if they d arrive or not
+
+i know B is better to send file but i have a homework about sending file via B protocol
+
+B is slower than B and you ll have to mitigate that in realtime multiplayer
+
+i m aware of the differences in general the facts like B is more accurate while B is more fast
+
+i am using B because it is much faster than B but sometimes i need the know for sure if the packet reached to the other side in my program i can not use B at all so i am sending ack packets
+
+you can use B as well but if you are dealing with firewalls it is probably going to be simpler with B
+
+c++ is not my first language and this is small part of code i can t figure out i ve chosen B because it is always much simpler than B
+
+if you care a lot about efficiency or really need tens of thousands of connections then implementing your specific protocol in B will always be better than B
+
+what i have thought of so far is that B is going to be more reliable than B and in rmi corba we want network reliability
+
+the key question was related to what kind of situations would B be the better choice over B
+
+i did some research and found that B may be more suitable in this case because B hole punching works much better than B hole punching
+
+maybe one of you guys already sees a problem in the code snippets or have any other suggestion or hint for me why my B transmission is slower than B
+
+as an additional note my suspicion is that you d need to indulge yourself in some pretty sophisticated benchmarks before you could conclude that B is actually going to have higher performance than B for web services
+
+ever since i did sockets programming on a pdp 11 it s been the case that ip fragmentation will take care of the case where an ip datagram such as a B datagram is larger than the B for the segment allows
+
+i am working on B socket programming and i have to stop the transmission in application if requested data is more than B value
+
+and also don t forget - B much more customizable than B
+
+you are right that using B is probably better to use for something like this or even an existing protocol like B
+
+almost all B B providers allow you to forward calls from an attached did telephone number to more than one B device so your request could be satisfied by a basic account on your friendly neighbourhood B provider
+
+almost all B B providers allow you to forward calls from an attached did telephone number to more than one B device so your request could be satisfied by a basic account on your friendly neighbourhood B provider
+
+since B proxy is in theory nothing more than a B tunnel i thought i could give that property another try
+
+since B proxy is in theory nothing more than a B tunnel i thought i could give that property another try
+

@@ -1,0 +1,200 @@
+B and ie9 require a proper domain to run from presumably because they are more strict than B in the way they associate the localstorate object to a domain in B it doesn t need to be a domain as such
+
+any ideas why B is apply more spacing than B ie
+
+i m taking a quite educated guess here that B is more forgiving with the irregular syntax than B
+
+this does not seem to occur in safari or ie and a similar permission error occurs sometimes in B but is reproducible more often than not in B
+
+i ve found that B is greatly faster with imacros than B
+
+it looks like B is smaller in your screenshot there so B could just not be at the defined break-point yet
+
+and additionally the algorithm that B uses is better than the one in B at least for handling the resizing of text
+
+B s parsing may be more strict than B is at having things like trailing commas as specified by the standard at as stated in danilo celic s answer
+
+B is easier and better than B in finding the element from the webpage
+
+the position of the list in B is always higher than that of B no matter how i padding or margin the list
+
+B is more tolerant when it comes to image headers then ie and B
+
+B is more technically correct in this case as it outputs the state of the object at each point in the loop whereas B is apparently waiting until the end of the loop to output each console.log but i m not aware of a standards specification that covers the console host object
+
+it seems B applies some formatting to render better than B
+
+the B console gives more information than the B console
+
+if B seems to finish earlier than B then that is the freezing glitch in action
+
+B renders longer input fields than B and ie
+
+B has a bigger time difference yet B is the one with the gap in the animation
+
+B may be sniffing the document s encoding with more flexibility than B is
+
+B renders passwords smaller than B
+
+my B adds more chopping to video playing itself B plays the video much better
+
+also for animations B chromium behaves much better that is why i use it for development but do my general browsing in B
+
+B on nexus 7 is a bit better at producing reasonable sample rate readings but the updating of the display is even more sluggish than B
+
+for example using renatoargh s test B is faster with option 2 B with option 1
+
+when i ran the test individually with a timer B actually performed better than B hope this helps
+
+use B rather than B - B with dev mode is much slower than B
+
+better use B even thought B is not slower than B for once probably the tracing for the image comparison pays off yay
+
+update just tried it on B 30 and it did not experience the same slowdown in a worker thread but it was slower than B when run in the main thread
+
+on my computer B performs much better than B on these tests using jsperf
+
+right now B is faster than B sunspider tests so your statement it loads faster in B is not really correct
+
+B works a bit better than B but the settimeout just seems to delay the final result being shown rather than delaying each step
+
+bad buffering can also be a result of a slow computer because statistics show that B is better for a normal-fast computer and B works best on slow computers
+
+obviously B is more persnickety whereas B defaults to moving and sizing the printout as necessary
+
+install firebug B version is better then a B one
+
+evidently B debugger firebug is better than B debugger
+
+open up the fiddle in both B B to see what i m talking about - in B the positioning of the background image is much lower than in B safari
+
+i just found out that if you re using B you trigger antialiasing at 49px or higher however with B it s set at 257px or higher
+
+so i wonder the benchmark is also influenced by the installed extensions or B is really so much higher than B in performance
+
+in B the render of new tiles and the panning is laggy this is not the case when using maps.google.com so it s not an issue of B being better than B
+
+i believe the error might be how B and B handles these multiple times included jquerys and it might be that B uses the older and B newer version
+
+even if you give the inputs a attribute B renders them wider than B
+
+the reason this is happening is because B renders the select box as a taller element than B and the container of the blue text is getting caught on the select s container element because it s now sticking out lower than the others
+
+B seems to animate the element quicker than B does and so while a duration of 1s is enough for the animation in B B needs it to be 2s to be slower and show the effect
+
+we use B though which i believe uses more ram than B
+
+maybe B is working faster than B try adding a wait with expected conditions
+
+B and ie9 require a proper domain to run from presumably because they are more strict than B in the way they associate the localstorate object to a domain in B it doesn t need to be a domain as such
+
+any ideas why B is apply more spacing than B ie
+
+i m taking a quite educated guess here that B is more forgiving with the irregular syntax than B
+
+this does not seem to occur in safari or ie and a similar permission error occurs sometimes in B but is reproducible more often than not in B
+
+i ve found that B is greatly faster with imacros than B
+
+it looks like B is smaller in your screenshot there so B could just not be at the defined break-point yet
+
+and additionally the algorithm that B uses is better than the one in B at least for handling the resizing of text
+
+B s parsing may be more strict than B is at having things like trailing commas as specified by the standard at as stated in danilo celic s answer
+
+B is easier and better than B in finding the element from the webpage
+
+the position of the list in B is always higher than that of B no matter how i padding or margin the list
+
+B is more tolerant when it comes to image headers then ie and B
+
+B is more technically correct in this case as it outputs the state of the object at each point in the loop whereas B is apparently waiting until the end of the loop to output each console.log but i m not aware of a standards specification that covers the console host object
+
+it seems B applies some formatting to render better than B
+
+the B console gives more information than the B console
+
+if B seems to finish earlier than B then that is the freezing glitch in action
+
+B renders longer input fields than B and ie
+
+B has a bigger time difference yet B is the one with the gap in the animation
+
+B may be sniffing the document s encoding with more flexibility than B is
+
+B renders passwords smaller than B
+
+my B adds more chopping to video playing itself B plays the video much better
+
+also for animations B chromium behaves much better that is why i use it for development but do my general browsing in B
+
+B on nexus 7 is a bit better at producing reasonable sample rate readings but the updating of the display is even more sluggish than B
+
+for example using renatoargh s test B is faster with option 2 B with option 1
+
+when i ran the test individually with a timer B actually performed better than B hope this helps
+
+use B rather than B - B with dev mode is much slower than B
+
+better use B even thought B is not slower than B for once probably the tracing for the image comparison pays off yay
+
+update just tried it on B 30 and it did not experience the same slowdown in a worker thread but it was slower than B when run in the main thread
+
+on my computer B performs much better than B on these tests using jsperf
+
+right now B is faster than B sunspider tests so your statement it loads faster in B is not really correct
+
+B works a bit better than B but the settimeout just seems to delay the final result being shown rather than delaying each step
+
+bad buffering can also be a result of a slow computer because statistics show that B is better for a normal-fast computer and B works best on slow computers
+
+obviously B is more persnickety whereas B defaults to moving and sizing the printout as necessary
+
+install firebug B version is better then a B one
+
+evidently B debugger firebug is better than B debugger
+
+open up the fiddle in both B B to see what i m talking about - in B the positioning of the background image is much lower than in B safari
+
+i just found out that if you re using B you trigger antialiasing at 49px or higher however with B it s set at 257px or higher
+
+so i wonder the benchmark is also influenced by the installed extensions or B is really so much higher than B in performance
+
+in B the render of new tiles and the panning is laggy this is not the case when using maps.google.com so it s not an issue of B being better than B
+
+i believe the error might be how B and B handles these multiple times included jquerys and it might be that B uses the older and B newer version
+
+even if you give the inputs a attribute B renders them wider than B
+
+the reason this is happening is because B renders the select box as a taller element than B and the container of the blue text is getting caught on the select s container element because it s now sticking out lower than the others
+
+B seems to animate the element quicker than B does and so while a duration of 1s is enough for the animation in B B needs it to be 2s to be slower and show the effect
+
+we use B though which i believe uses more ram than B
+
+maybe B is working faster than B try adding a wait with expected conditions
+
+for example i ve read that B and ie will fix framerates slower than B
+
+for example i ve read that B and ie will fix framerates slower than B
+
+B still uses the older version while B uses a more current one
+
+the browser does not matter though B gets way more consistently working results than B
+
+from testing this in B and B it seems B is more forgiving in that it parses the style string and puts the right style in place for you but B does not
+
+the B controller bar is the quicktime bar which is smaller and dark so the movement is less noticeable than B which has a big blue progress bar
+
+B still uses the older version while B uses a more current one
+
+the browser does not matter though B gets way more consistently working results than B
+
+from testing this in B and B it seems B is more forgiving in that it parses the style string and puts the right style in place for you but B does not
+
+the B controller bar is the quicktime bar which is smaller and dark so the movement is less noticeable than B which has a big blue progress bar
+
+B behaves better than B but an error message â œone error in opening the pageâ â shows up in the status bar if you remove the iframe during the load event
+
+B behaves better than B but an error message â œone error in opening the pageâ â shows up in the status bar if you remove the iframe during the load event
+

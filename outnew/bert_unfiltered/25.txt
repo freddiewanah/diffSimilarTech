@@ -1,0 +1,281 @@
+note feel B little faster B ng-if file-based templates
+know image B folder 1.5 larger B
+know B operation trivial B operation
+also remember B expensive B
+B technique described reasonably easy thing implement better serial B
+division B higher precedence B subtraction parentheses required B subtraction B division
+expression like 3+2 5 would yield 25 instead 13 B higher precedence B
+trig functions precedence lower B higher B
+B relatively complex operation likely slower say B comparison
+line works operator precedence B higher precedence B + done first
+since B higher precedence B convention used
+B operator higher precedence B + operator
+instead computing slower instead computed x + x B faster B
+B truly faster B expect somebody well-versed byte could explain load_fast num faster five operations line 12
+B higher precedence B subtraction
+time faster B faster B longer
+clearly considers B operator higher precedence B + operator
+generally speaking B slower B B atomic B
+may exotic corner B performs marginally better certain workloads table-scans high-volume insert-only work default B unless prove B better
+also see table engine B better full text searching rather B
+difference different storage engines though B faster select B faster insert update uses row locking instead table locking handles indexes
+B space friendly B start one
+literature says B better faster whatever B old literature
+B strict data integrity B loose
+B faster query simple slower high concurrent environment table level lock comparing B row level lock
+database performance B necessary faster B engine
+general B faster B
+situations B infinitely efficient B manipulating large data dumps offline table lock
+said reads B faster recent improvements B either alleviated eradicated difference
+B safer acid compliant engine integrity features B lacks
+even blog 2007 shows benchmark results B par faster B workloads
+consider B nothing alias B casting B B no-op
+also advise take look B since appropriate B want
+seems B bigger priority B could delayed
+B better B task
+also experience least B offers aesthetic experience B requestanimationframe
+B better B B start every 5 secs B start time job done wait 5 seconds make script adaptive server response timings
+found B even easier B set
+B B former default llvm-g++ gcc llvm latter clang apple llvm means errors seem go away switch gcc llvm stick apple llvm switch still wrong
+B popular europe B dominating us
+B faster B divisor fixed faster route
+according stephen canon modern implementations favor taylor expansion rational function approximation B slower B
+also addition faster B B faster B
+rule thumb B faster B cpus
+therefore conclude B faster B
+since B higher precedence B
+optimizing compilers optimize B operation faster B done divisor constant though
+B often slower B performance critical might keep table powers ten reciprocals
+even simpler probably even faster B faster B dav answer natural algorithm.
+B_64 B platform twice width B 32-bit
+B safer method use B
+mcu transmitting data B transmission interrupt higher priority B reading interrupt B sampling data hence data loss rate around 500 samples sec
+edit - think image would appear smaller unless B greater dpi B
+values would pixels 50px mdpi B look larger B B
+suggest look B closer http semantics asp.net B
+use bezier path either custom B w drawrect easier B whose curvature controlled via control points
+B incoming connected overwrite dataa maybe datab first token pointed header shorter B connected
+linux eg ubuntu may try B ease use plug-ins handle large files better B
+smaller B symbol better results get existing api seem B symbol final vertex polyline segment seem account section symbol went past polyline vertex
+oh see need constructor access B B
+B newer api polish developers experience using common tasks - simply api better designed still get B B use older api want use complex features
+mac os x dwarfdump shows relationship indentation - B dies indented little B dies
+run ls B | head B files execution time 50 faster ls B | tail
+B far better obsolete B
+B also probably bigger B
+B length B checking B first
+adding lightweight generics B api makes easier interface B api gets translated precisely
+B readable B
+intend manual B probably better choose else example B
+familiar infeasability B blog post seems indicate B preferable B B allows access underlying expression
+previously used B 3 couple days may come conclusion better B actual html css coding
+depending actual needs explain multi-column B vsreport mode may better B
+ps noticed B situation better B new line still starts beneath tag
+B noticeable B noticeable
+B appearing higher original B
+ie8 B runs even faster B general slow never happens
+B occupy memory B heap got corrupted
+benchmark shows B 2 3 faster B normal page
+B high performance 2 3 faster B pure template use razor like syntax
+saw B generally faster B
+B succeeds better B general questionable main weakness affecting wider adoption compatibility B
+talk B using memory B major part talking
+long-term evidence showing B runs certain codes slower B drawback seems rooted deeply B
+see referred post example reads single file parallel B significantly faster using B according benchmarks
+specific B runs faster B first test loses badly following 9 tests
+interestingly B performs comparisons average B - 1.44 expected B versus B
+information - use B faster B know
+B efficient B since rep movs highly optimized intel cpus esp
+reference points B faster B sha functions although direct comparison object.gethashcode method mentioned
+B uses direct easier approach dependencies management B supporting binary packages building source
+B validation responsive user always back proper B checks
+really console skulpt.org runs B plugins makes faster B prompt
+single thread world different use sorted set binary B custom data structure would perform better concurrent B
+B even fewer far know B none
+similarly skip five first loop takes n-5 time adding B constant even weaker B constant
+programmers like use property speed programs easy chop number bits performing B harder hard B
+compute B power two using bitwise simpler generally faster performing B
+converting B requires work -- afaik official tool wizard allows generate full B configuration existing eclipse project
+read blog B performs least good better B also offering complex types like mongodb would
+admit gin index B expensive equivalent B even faster seq scan B use index B
+stunned right seeing B performing 100-150 faster B even simple native functions array.every chrome
+easiest solution replace B B even features latest B
+remember correctly B argued faster B use non-native functions operations
+similar functionality speaks B flexible features could use facetgrid object B
+big caveat B generally memory available storage though. default 32mb B big adavantage still fast distributed multiple servers running could share data
+better use B apache server faster B need make tcp ip call connect B
+valid choices Bing include sha1 B although sha1 preferable produces larger B considered cryptographically stronger B
+B function like B sha1 sha256 obviously cannot 100 unique - fixed length due must necessarily non-unique results input content larger B
+besides B better B B handle failures better
+difference notice small think multi-thread B spending time concurrency B resources threads
+operating system single thread assume mean process essentially cannot use B one B may may mean physical core-- see simultaneously
+whether method 5 6 faster depends B surmise branch prediction command B B smarter new B really
+multicore refers computer B one logical B core execute multiple instructions time.
+jacoco 0.7.9 jacoco B tasks 0.8.0 jacoco command line interface - provide freedom jacoco B plugin specification included report particular used arbitrary third-party jar files
+personally think B better tool B long run experience make B3 better tool B2
+various object systems load libraries want oop integration existing heavily depends B dialect surrounding culture chicken B seems object-oriented B instance
+would suggest start B specifically B formerly plt B
+pros objects faster B read slower B lesser dependencies system state
+lose two benefits data base consistency data persists crash need B expensive scarce B flash
+since B even ssd several orders magnitude slower B systems gets unresponsive
+B seek takes 10 000 000 nanoseconds course B faster best still thousands slower B
+worst impossible B size usually B size
+use B closer B gets away dependency injection model advocated apple mvc
+since flow logic still basically loop api boundaries B cleaner boundary view B helps decouple v B possible mvc
+note feel B little faster B ng-if file-based templates
+small differences B generally stricter syntax semantics adobe B often decisions driven performance concerns compatibility adobe B would make B slower
+comparison B haskell B es6 farmiliar B B want represent languages fairly good B
+B modern also harder use non trivial tasks - without modern experience deep B knowledge difficult use correctly
+since B value slightly B rounded thanks .nextdown B part going one B
+large period B takes memory maintaining internal state also takes time generating B number due complex transitions post processing
+honestly though B scales better B
+B fewer experienced administrators big databases B believe contributes reputation
+B similar oracle B
+B somehow resistant B sql injection attack dbi might
+B established support B played catch last year working method latest versions
+ultra simple queries B slower B - B richer planner works better complex queries trivial queries slower
+words B better worse B handle unicode
+wiki B better B
+aware B interpretation sql standard stricter B consequently type query work...and read number posts stackoverflow elsewhere subject - none seem definitive answer subject
+B auto seems consistent grid based B vertical scrollbar
+select area B B varies B B cropped image getting cropped image B B 160px like shown
+okay images different sizes really matter B always greater B images resized 100px B B still different image
+second example image whose B greater B
+image displayed uiimageview B greater B makes image looks wrong
+developing found B based browsers general handle operations quicker B
+B cross-compatible B nvl works mssql oracle mysql derby et al.
+B difficult run subprocess B B need separate running idris repl
+B powerful B scripting engine far flexible far scripts modes likes built around B
+said modifier keys important B even B
+issue automatic B sql linq often perform B B - generating examples write linq queries
+B packages simpler B equivalents subfolders module dependencies
+using B package little bit harder using B package
+personally say B might edge encourages convention B would
+found one benchmark B faster B another benchmark B faster B
+assuming building webapp B suitable managing frontend dependencies B
+said B fewer batteries included compared common B
+however gambit B smoother access libraries far outnumber common B libraries
+B intentionally compact common B find learn quickly
+B simpler use B
+applications B faster better throughput B
+use B well dealing firewalls probably going simpler B
+B faster B
+moreover B processing overhead B
+B faster B B flow control guaranteed delivery
+B resolution i.e higher B i.e col-md col-lg bootstrap cover 11 grid offset 1
+B considered faster linear B often used large scale data set
+unfortunately possible using openldap B returning 1 object multiple B unique dn
+B oprator higher precedence B
+note type cast higher precedence B turn higher B 3 vs
+response got boss need prove B run faster B
+oltp type system B usually sensible B check contention trying different engine
+although 4m rows contention depending structure database engine may take think B alters take longer B B requires whole table locks handles concurrency well
+possible config B engine efficient searches B set
+B stricter B
+thread came know B faster reads B faster writes
+even blog 2007 shows benchmark results B par faster B workloads
+instead working around 1 label image get B cleaner start scratch B create tiles
+benefit B powerful extensible useless need power anyway... B faster static content
+B higher precedence B sql server cast - B implicitly
+loss precision means B larger value B smaller fit large space
+string 12 B give 10s length sting greater B white space
+memset accepts B larger B
+chat B works every B represented unicode think backend B smaller version B
+B higher datatype B lower datatype.
+using B buffer initialize cv mat unsigned B explains values written fourth element B seems 4 larger unsigned B machine
+worked first part B tried look first part works fine noticed B easier convert B basically need convert string work tried google find proper solution
+believe one early pdp machines B larger B
+B stringent constraint property content blank false B content nullable using tableperhierarchy false
+creating object B invoking method B B extends one class B method called
+B interface defines two instances implementing class seen greater B one another
+B general version B
+understand B better split-brain network failures traditional bully algorithm easily find quorum nodes leave cluster without using B
+B also better concurrency threadsafe confgi make B multi-thread
+various alternatives B B work roughly B easier use dealing arrays zero-fills data B useful need resize memory
+B popular B allow avoid loops using preficates filter methods
+performance programs B significantly better B
+B typically run one two orders magnitude slower B
+B tend always significantly slower B
+B allows cleaner access mutate property internally without resorting fragile B synthesis becoming antiquity compiler
+pointed B learning curve lower B
+previous example B better B
+even hypothesis B faster B B change optimize outer ones inner ones executed
+using kotlin B closer foreach B indexes
+B better fit B
+B do...while B appropriate B know user wants execute B
+according answer B executed faster equivalent B
+mind B simpler understand traversing backwards B
+B recur faster - one efficient constructs clojure done correctly match speed equivalent B
+program first gets B 9 0 value false skips B
+browser B slower B
+think would precedence left-to-right think B would calculated first B prior B instruction one level
+want allow B B tab add additional separators using split
+think B appropriate B documentation says object method called invalid state right
+using B effects better thunks testability saga pattern implemented top B B
+ps set B split size lesser B initially set mistake realized
+anyone human looks look B using B editor easier reading B
+B encoding far readable B sublime uses
+conversion B B even simpler since simply expand B digit corresponding B example 0xa4 - 1010 0100
+B readable useful B - often used shown
+worried memory look B since equivalent models use significantly memory B
+B performs better nashorn performs better B
+iâ seeing compromise B quality converted B lower file size compared B audio quality little poor B wonder increase quality B file
+recently someone suggested B always expensive B
+cpu operation float B complicated B
+easiest simply recognize B nothing B dividend inverse divisor x
+fast awfully slow even B done entirely hardware done using div instruction instruction 3 4 slower B modern cpus
+B also consistently decompresses 20 + faster B pretty big win want files reading hadoop
+formats allow various data compression codecs note B popular B also provide benefits fast serializable deserialization column pruning bundled metadata
+example noticed B glsl compiler little picky B rejects shader otherwise works fine
+might find B runs faster B
+keep mind B return B - duplicates removed perform slower using B remove duplicates
+though similar ui ux B performs significantly better B especially heavy lifting like working large files complex snr plugins heavy processing files buffers
+clients high traffic sites running B slower B varnish front get traffic saying little performance problems
+assume control B would datagridview fairly probably make look better B want really good looking ones might want look thirdparty grid controls
+using B method necessarily secure B
+suggested comments since saving data B appropriate B
+using B easier using B developers
+would make things considerably easier android native support json serialization making http B requests restful urls simpler http B requests huge deal stuff worry
+would suggest scheduling B using sophisticated B
+interestingly 1 million rows per file optimised version read.csv B take 422 430 time B whilst without optimisation leaps around 1500 1005 longer
+conceivable B slower B
+example B offers assert methods B
+reality B keyword B allowing legal violation one definition rule
+templates B standard meaning B related one definition rule actual B
+B B produces fatter faster B functions appear call stack
+callee large message printed size bytecodes method B larger maxBsize 35 multiplied nestedBsizeratio 90 next level B
+B supposed faster efficient B
+anyway http 405 telling backend support B method probably expecting B method x-http-method-override B http header since B standard method rest B
+alter command path B version command higher priority B one
+options B gives better performance B
+cannot sleep run atomically soft B context guaranteed never run one B given processors given tasklet
+B function used portable B ifnull
+bitshifts go easier hexaB B often convenient read B
+B rarely used modern coding likely perform better B loop compiler optimizations applied limitations used
+want use B looks powerful B
+definitely try introducing new general-purpose type use based std B worse algorithmic complexity time important operations andâ least implementationsâ leaves optimisations user B already
+know bit older es2015 new data structure called B similar B would use c#
+std B though actually implemented operations slower B size gets large
+B slightly better shared B around 480 entries instead around 450 still inconsistent 500 expected
+words B generic framework every process needs triggered file change B restricted running tests
+B similar solutions work bit better B depending data sets use
+purpose want transform B model version launch B script process would faster opening B environment
+fairer comparison would comparing stringstream B sscanf line functions would slower B still faster stringstream
+may find B helps using large amounts memory B regularly blocked fetching memory
+knowledge research far - native B quicker B map iterating B
+B faster foreach-loop B must
+means declared B pair B methods getter setter
+structure similar twice space-efficient B efficient B compresses prefixes
+interested factor oracle easy construct 30 lines B needs 60 B needs 150 runs faster B B
+common B image base although usually lesser extent B
+use B since provide concurrent writes different mapentries provide concurrency B
+B syntax looks related shell syntax like bash tcsh B actually closely related B
+B better worse B scripting regard -- basic file operations equal aplomb
+B general subclasses support writing different places B specific one writing string
+use B tables 18 billion rows nothing else comes close least 100 faster B random inserts big tables
+all-in B able things B B hence direction inheritance
+occasionally B needs write method B another common one stringio handle
+manytoone plan tree B one B
+simple function B parallelize jobs 4 B using lock files tmp
+javadoc B better B
+using sparse format suggestions welcome formats able use data B dense format using function names variables works muuch slower B

@@ -1,0 +1,414 @@
+22074
+nullpointerexceptionillegalargumentexception
+Pattern(s): 10
+In my mind illegalargumentexception seems more specific than using a nullpointerexception since nullpointerexception s telling me that the problem was with an argument i passed to the method and not with a value that may have been generated while performing the method
+
+
+109038
+cairngorm   puremvc
+Pattern(s): 8
+Puremvc is more invasive than cairngorm meaning that your code is heavily dependent on the framework you have to subclass implement the framework classes interfaces but that doesn t mean that cairngorm isn t puremvc
+
+
+115838
+gif png
+Pattern(s): 10
+There might be some edge cases where gif is slightly better because the png format may have a slightly larger overhead from metadata but png s really not worth the worry
+
+
+218544
+centos  solaris centos  linux
+Pattern(s): 7
+And i do as much work as possible on our linux centos 5 system simply because the tools on centos are still newer than anything i can find readily packaged for aix solaris is somewhat better
+
+
+259080
+bluej   greenfoot
+Pattern(s): 10
+greenfoot is developed by the same people that made bluej but greenfoot is way more graphical still allowing full java programming of the applications
+
+
+283405
+jboss   glassfish
+Pattern(s): 7
+Jboss is a big and quite complex application and glassfish is smaller and i find jboss easier to understand
+
+
+410176
+photoshop   fireworks
+Pattern(s): 7
+I find fireworks has an easier time dealing with vectors because fireworks re first class objects while in photoshop fireworks re actually a combination of a vector mask and a colour fill
+
+
+412091
+postgresql  mysql
+Pattern(s): 0
+postgresql s a lot more enterprise-ready than mysql not to mention that postgresql follows the sql standard a lot better
+
+
+451931
+hex binary
+Pattern(s): 10
+When looking at low level commands binary often makes more sense to match the cpu and think in hex
+
+
+562587
+vsto	add-in
+Pattern(s): 10	
+vsto means that your add-in is no longer com-visible
+
+
+610494
+strcpy	strncpy
+Pattern(s): 7	
+Of course you might still ask whether to use strncpy or strcpy in implementing that abstraction strncpy is safer there provided you fully grok what strncpy does
+
+
+763284
+swt	swing
+Pattern(s): 2	
+I would recommend swt over swing any day as swt is very easy for an average programmer to create a responsive and native-feeling swt app while swt takes a swing expert to create a decent swing app -- with a client app the ability to auto-update is very useful
+
+
+803700
+nginx	lighttpd
+Pattern(s): 10	
+nginx s simple and nginx is even more ridiculously fast and lightweight than lighttpd
+
+
+1050778
+imagemagick	graphicsmagick
+Pattern(s): 7	
+The graphicsmagick group overhauled the tiff format support with graphicsmagick version 1.2 and graphicsmagick is much faster at processing these types of images than the original imagemagick was
+
+
+1201337
+memcpy	memmove
+Pattern(s): 0	
+This means that memmove might be very slightly slower than memcpy as memmove can not make the same assumptions
+
+
+1243627
+code128	code39
+Pattern(s): 7	0	
+Edit data density in code128 is better than code39 - since code128 gets mentioned that often in other replies
+
+
+1270393
+postgresql	mysql
+Pattern(s): 7	
+Traditionally postgresql has had fewer security issues than mysql but they are both doing very well on mysql
+
+
+1284374
+boost	allocator
+Pattern(s): 7	
+Yeah boost works but boost is 20 slower than my implementation with dynamic allocator and code is 80 bigger
+
+
+1316464
+postgresql	mysql
+Pattern(s): 3	10	
+Otherwise i recommend using postgresql over mysql since postgresql is more standards compliant and has a nicer license
+
+
+1372564
+bazaar	git
+Pattern(s): 0	
+A lot of articles about bazaar will tell you bazaar is a lot slower than git or mercurial
+
+
+1514244
+udp	tcp
+Pattern(s): 0	
+Theoretically udp should be be 30-50 faster than tcp because udp s missing the extra trip for the ack and has a smaller header overhead however in reality there are many cases where tcp would outperform udp just because of congestion control
+
+
+1551254
+equals	compareto
+Pattern(s): 7	
+If all you care about is equality then the equals method is the best choice simply because compareto makes more sense to the next programmer that takes a look at your code
+
+
+1577097
+boost	stl
+Pattern(s): 10	
+While boost is more modern c++ boost also harder to use for non trivial tasks - and without a modern c++ experience and deep stl knowledge boost is difficult to use correctly
+
+
+1647114
+innodb	myisam
+Pattern(s): 10	
+Ok there are some cases where myisam is faster than innodb but rarely enough that myisam s worth putting up with the lack of acid-compliance
+
+
+1722180
+innodb	myisam
+Pattern(s): 3	
+You should use innodb in such scenarios and most mysql gurus recommend using innodb by default anyway because innodb s considered more generally reliable than myisam despite being slower under some use cases
+
+
+1730317
+innodb	myisam
+Pattern(s): 7	
+If you find that innodb is much slower for inserts updates bear in mind that innodb offers a much better level of durability - if you tune innodb for approximately the same durability as myisam then you ll see good performance hopefully
+
+
+1823057
+junit	testng
+Pattern(s): 10	
+If you have to do a lot of this honestly testng is more flexible but you can absolutely get testng done in junit
+
+
+1947258
+udp	tcp
+Pattern(s): 10	
+One main advantage to tcp though is that tcp traverses firewalls more easily than udp
+
+
+1050778
+imagemagick	graphicsmagick
+Pattern(s): 7	
+The graphicsmagick group overhauled the tiff format support with graphicsmagick version 1.2 and graphicsmagick is much faster at processing these types of images than the original imagemagick was
+
+
+1201337
+memcpy	memmove
+Pattern(s): 0	
+This means that memmove might be very slightly slower than memcpy as memmove can not make the same assumptions
+
+
+1243627
+code128	code39
+Pattern(s): 7	0	
+Edit data density in code128 is better than code39 - since code128 gets mentioned that often in other replies
+
+
+1270393
+postgresql	mysql
+Pattern(s): 7	
+Traditionally postgresql has had fewer security issues than mysql but they are both doing very well on mysql
+
+
+1284374
+boost	allocator
+Pattern(s): 7	
+Yeah boost works but boost is 20 slower than my implementation with dynamic allocator and code is 80 bigger
+
+
+1316464
+postgresql	mysql
+Pattern(s): 3	10	
+Otherwise i recommend using postgresql over mysql since postgresql is more standards compliant and has a nicer license
+
+
+1372564
+bazaar	git
+Pattern(s): 0	
+A lot of articles about bazaar will tell you bazaar is a lot slower than git or mercurial
+
+
+1514244
+udp	tcp
+Pattern(s): 0	
+Theoretically udp should be be 30-50 faster than tcp because udp s missing the extra trip for the ack and has a smaller header overhead however in reality there are many cases where tcp would outperform udp just because of congestion control
+
+
+1551254
+equals	compareto
+Pattern(s): 7	
+If all you care about is equality then the equals method is the best choice simply because compareto makes more sense to the next programmer that takes a look at your code
+
+
+1577097
+boost	stl
+Pattern(s): 10	
+While boost is more modern c++ boost also harder to use for non trivial tasks - and without a modern c++ experience and deep stl knowledge boost is difficult to use correctly
+
+
+1647114
+innodb	myisam
+Pattern(s): 10	
+Ok there are some cases where myisam is faster than innodb but rarely enough that myisam s worth putting up with the lack of acid-compliance
+
+
+1722180
+innodb	myisam
+Pattern(s): 3	
+You should use innodb in such scenarios and most mysql gurus recommend using innodb by default anyway because innodb s considered more generally reliable than myisam despite being slower under some use cases
+
+
+1730317
+innodb	myisam
+Pattern(s): 7	
+If you find that innodb is much slower for inserts updates bear in mind that innodb offers a much better level of durability - if you tune innodb for approximately the same durability as myisam then you ll see good performance hopefully
+
+
+1823057
+junit	testng
+Pattern(s): 10	
+If you have to do a lot of this honestly testng is more flexible but you can absolutely get testng done in junit
+
+
+1947258
+udp	tcp
+Pattern(s): 10	
+One main advantage to tcp though is that tcp traverses firewalls more easily than udp
+
+
+2269313
+haskell	ocaml
+Pattern(s): 10	10	0	
+Secondly the haskell ffi is more powerful that is haskell does more with less code than ocaml s and more libraries are avaliable via hackage so i don t think foreign interfaces will be a deciding factor
+
+
+2360151
+postgresql	mysql
+Pattern(s): 8	
+I like postgresql because i come from an oracle background so postgresql feels more comfortable than mysql
+
+
+2415287
+codeigniter	cakephp	codeigniter	yii	cakephp	yii
+Pattern(s): 10	
+You should be able to solve this using cakephp symfony codeigniter yii zend or any other framework so codeigniter is better to do some real testing
+
+
+2605897
+postgresql	mysql
+Pattern(s): 2	
+I personally prefer postgresql over mysql and find postgresql very scalable even with millions or even billions of rows when setup correctly
+
+
+2666124
+bazaar	svn
+Pattern(s): 10	
+You could try bazaar bazaar as bazaar supports workflows but i don t know if bazaar is really faster or wait for svn 1.7 with wc-ng and centralized meta-data
+
+
+2699569
+dictionary	map
+Pattern(s): 0	
+For suitably large examples of each dictionary overcomes the constant factor by which dictionary s slower than std map and will actually do operations like lookup insertion etc
+
+
+2790446
+mef	prism
+Pattern(s): 10	8	
+Here are a few good ones mvvm light mef simple mvvm i d recommend not using prism as mef is more complicated than mef needs to be
+
+
+2795286
+strtol	atoi
+Pattern(s): 10	
+Well i suppose you can use atoi instead of strtol which simplifies the error handling because atoi is less precise it doesn t get much simpler than this
+
+
+2912577
+apache	nginx
+Pattern(s): 8	
+Also nginx s configuration is much more flexible than apache and by having nginx on the front end nginx gives you a lot of flexibility
+
+
+2927816
+exponent	modulo
+Pattern(s): 7	0	
+The private exponent is always smaller than the modulo so you should be able to encrypt exponent using the raw rsa operation if you make sure to remove the prepended zero
+
+
+3033387
+cpython	ironpython
+Pattern(s): 0	
+It s possible that jython and ironpython are much faster than cpython as well as ironpython are backed by heavily optimized virtual machines jvm and . net clr
+
+
+3218551
+quicksort	heapsort
+Pattern(s): 7	
+Unless you re going to write a very good sort probably quicksort merge sort or heapsort depending on your specific needs quicksort will be better and quicksort takes fewer lines of code
+
+
+3333067
+google-chrome	firefox
+Pattern(s): 0	
+Although google-chrome does take a little longer than in firefox but that may just be my computer
+
+
+3417026
+verilog	vhdl
+Pattern(s): 10	
+Both vhdl and verilog are high level langauges and while different from c and c++ vhdl aren t significantly harder just different and require a different thought process
+
+
+3770950
+haskell	agda
+Pattern(s): 0	
+Another popular language that offers more power than haskell is agda - i don t know agda beyond knowing haskell is dependently typed on hackage and well respected by people i respect but those are good enough reasons to me
+
+
+3771477
+haskell	agda
+Pattern(s): 10	
+Coq is probably the most prominent language of the style but agda has a more haskell-y feel as well as being written in haskell haskell
+
+
+3842231
+ubuntu	centos
+Pattern(s): 3	
+If you don t have a favorite distro i would recommend trying ubuntu centos as ubuntu tend to be quite friendly to the beginner and have extremely robust community support
+
+
+3844399
+nunit	mstest
+Pattern(s): 10	
+Thus i suspect when people say that nunit is much faster than mstest nunit is because of the loading and updating delays but the actual test execution time appears to be very similar
+
+
+5070199
+quicksort	mergesort
+Pattern(s): 0	
+Quicksort generally runs faster than mergesort but under some circumstances quicksort can degrade to quadratic running time
+
+
+5123066
+strncmp	strcmp
+Pattern(s): 7	0	
+strncmp is much safer than strcmp
+
+
+5332864
+cpython	pypy
+Pattern(s): 0	
+From a pypy blog post in february ... highlights and the status of pypy most python benchmarks run much faster than with cpython or psyco the real-world pypy compiler toolchain pypy 200 klocs runs twice as fast supports x86 32 and 64bit and is in the process of supporting arm .
+
+
+5372482
+scheme	racket
+Pattern(s): 0	
+There are various object systems you can load as libraries when you want to do oop but integration with existing code heavily depends on the scheme dialect and scheme surrounding culture chicken scheme seems to be more object-oriented than racket for instance
+
+
+5423061
+udp	tcp
+Pattern(s): 0	
+Tcp is subject to higher latencies than udp as tcp requires the client to send back packet confirmations
+
+
+5475705
+apache	nginx
+Pattern(s): 0	
+nginx s much lighter than apache
+
+
+5545821
+profiling	debugging
+Pattern(s): 0	
+debugging will help you alot more than sql profiling will
+
+
+5756128
+bmp	png
+Pattern(s): 0	
+Not only do png files have natural support for transparency png are also smaller than bmp files
+
+

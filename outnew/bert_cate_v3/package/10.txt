@@ -1,0 +1,6 @@
+* uses the css selector syntax familiar from jquery which i find more intuitive than * s
+
+pyquery is based on * so it s also much faster than *
+
+in the first example * is 3x slower than data.table and in the second its 200x faster than * and 100 times faster than data.table
+

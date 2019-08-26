@@ -1,0 +1,120 @@
+in B typeof is slower than the other two but in B it is the fastest
+
+B encodes more characters than B
+
+here is a simple performance test showing that in B filling is faster than clearing i am not sure what goes on with B and canvas nowadays but in B clearing is many times faster than filling both significantly faster than B
+
+B is even slower that B
+
+B handles these better than compared to B
+
+phantomjs achieves a better accuracy than B slightly lower than B but in around half the time of B
+
+apparently B is pickier than B
+
+the performance in B is best less so in B and ie
+
+B gsap performance is still much worse than in B but B gsap does still lag every few repeats or so while in B the css animations do not
+
+of late B has had much better performance than B
+
+ie B higher than baseline B on baseline
+
+B takes almost 3 times longer than B
+
+in B it seems .prototype is faster B shows no difference between the two although generally performs slower than B
+
+in B it takes some more time compared to B safari
+
+but B keeps being less responsive than B or ie
+
+in ie8 and B it runs even faster than B in general and this slow down never happens
+
+B is just faster than B which just faster than ie at bit-wise operations
+
+B produces more space compared to B
+
+B - good a bit slower than B
+
+the funny thing is that for abc_def property B is actually much faster than B and ie as i expected
+
+rendering without buffering on B is faster than B so i m actually not sure why B is having such a problem with drawimage
+
+also ie and B seems to work better than B
+
+as B s v8 is dramatically faster than B s spidermonkey at the moment these things are constantly in flux pick the forward loop as it s faster on the slower engine
+
+the most interesting thing i noted is that certain test combos in B are much quicker than even B
+
+the trouble is choosing a good value for x since for this particular page B is so very much faster than B which is faster than ie
+
+in B typeof is slower than the other two but in B it is the fastest
+
+B encodes more characters than B
+
+here is a simple performance test showing that in B filling is faster than clearing i am not sure what goes on with B and canvas nowadays but in B clearing is many times faster than filling both significantly faster than B
+
+B is even slower that B
+
+B handles these better than compared to B
+
+phantomjs achieves a better accuracy than B slightly lower than B but in around half the time of B
+
+apparently B is pickier than B
+
+the performance in B is best less so in B and ie
+
+B gsap performance is still much worse than in B but B gsap does still lag every few repeats or so while in B the css animations do not
+
+of late B has had much better performance than B
+
+ie B higher than baseline B on baseline
+
+B takes almost 3 times longer than B
+
+in B it seems .prototype is faster B shows no difference between the two although generally performs slower than B
+
+in B it takes some more time compared to B safari
+
+but B keeps being less responsive than B or ie
+
+in ie8 and B it runs even faster than B in general and this slow down never happens
+
+B is just faster than B which just faster than ie at bit-wise operations
+
+B produces more space compared to B
+
+B - good a bit slower than B
+
+the funny thing is that for abc_def property B is actually much faster than B and ie as i expected
+
+rendering without buffering on B is faster than B so i m actually not sure why B is having such a problem with drawimage
+
+also ie and B seems to work better than B
+
+as B s v8 is dramatically faster than B s spidermonkey at the moment these things are constantly in flux pick the forward loop as it s faster on the slower engine
+
+the most interesting thing i noted is that certain test combos in B are much quicker than even B
+
+the trouble is choosing a good value for x since for this particular page B is so very much faster than B which is faster than ie
+
+B comes in at just under 41ms performing better than B but still not great
+
+B is more secure than ie or B
+
+B is worse than B
+
+B comes in at just under 41ms performing better than B but still not great
+
+B is more secure than ie or B
+
+B is worse than B
+
+on B everything is slower than on B still the object property access is more than two times faster
+
+so to specify B greater than 20 B greater than 9.1 and ie greater than 9
+
+on B everything is slower than on B still the object property access is more than two times faster
+
+so to specify B greater than 20 B greater than 9.1 and ie greater than 9
+

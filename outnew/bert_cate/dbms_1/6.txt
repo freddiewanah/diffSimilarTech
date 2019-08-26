@@ -1,0 +1,64 @@
+i wonder why B s single insert statement is completely faster than B s when autocommit is turned on
+
+i d also recommend B over B if you are going to have nested comments as B does hierarchical querying better than B
+
+i d have said that B is more security aware than B supporting roles more authentication methods ... but that the database itself has generally a very limited impact on the security of an application
+
+this is a weak point that iirc B can handle better but with B you have to work around that by reverting the changes yourself in case of rollbacks
+
+B is a little more strict than B about type conversion and does not let you implicitly cast convert between numbers and strings
+
+in your case B may be a better option than B because your query is going to likely be against secondary indexes
+
+not only does B have a far more flexible indexing than B but the table approaches are very different also meaning the appropriate indexing strategies are as different as the tactics are
+
+B specifically has gotten easier to manage while B has lost some of the simplicity that gave it an advantage without picking up enough features that really matter
+
+it seems B is more forgiving with this than B but in every case you use a reserved word you should escape it
+
+there is also B its a bit more robust than B and is free just the same
+
+B is stricter about conversions than B is and generally will throw an error rather than try to convert a string to an integer if it doesn t look like one
+
+since B is a lot more sane than B there are not that many tricks to report on
+
+i also personally believe that B has better handling of complex queries that include sub-selects and the like which most B users used to avoid
+
+poor performance from B has more to do with it not being smart and automatically creating an optimized plan like sql server B or oracle would
+
+B is more permissive and allows the non-standard use of distinct but B throws an error
+
+however B s sql features are far more advanced than B s and B has a tendency to silently ignore things you tell it to do - especially in a default installation and if you rely on a foreign key to be created that might be a very unpleasant surprise
+
+i wonder why B s single insert statement is completely faster than B s when autocommit is turned on
+
+i d also recommend B over B if you are going to have nested comments as B does hierarchical querying better than B
+
+i d have said that B is more security aware than B supporting roles more authentication methods ... but that the database itself has generally a very limited impact on the security of an application
+
+this is a weak point that iirc B can handle better but with B you have to work around that by reverting the changes yourself in case of rollbacks
+
+B is a little more strict than B about type conversion and does not let you implicitly cast convert between numbers and strings
+
+in your case B may be a better option than B because your query is going to likely be against secondary indexes
+
+not only does B have a far more flexible indexing than B but the table approaches are very different also meaning the appropriate indexing strategies are as different as the tactics are
+
+B specifically has gotten easier to manage while B has lost some of the simplicity that gave it an advantage without picking up enough features that really matter
+
+it seems B is more forgiving with this than B but in every case you use a reserved word you should escape it
+
+there is also B its a bit more robust than B and is free just the same
+
+B is stricter about conversions than B is and generally will throw an error rather than try to convert a string to an integer if it doesn t look like one
+
+since B is a lot more sane than B there are not that many tricks to report on
+
+i also personally believe that B has better handling of complex queries that include sub-selects and the like which most B users used to avoid
+
+poor performance from B has more to do with it not being smart and automatically creating an optimized plan like sql server B or oracle would
+
+B is more permissive and allows the non-standard use of distinct but B throws an error
+
+however B s sql features are far more advanced than B s and B has a tendency to silently ignore things you tell it to do - especially in a default installation and if you rely on a foreign key to be created that might be a very unpleasant surprise
+

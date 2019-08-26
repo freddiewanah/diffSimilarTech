@@ -1,0 +1,16 @@
+yet from my point of view * is more efficient that * and easier to customize than xtable
+
+could i use * to do this more succinctly than running * and dcast separately for each of employed girls guys
+
+regarding * * is more efficient and in my experience can handle broken html better than *
+
+i do understand that traditionally they are saying that * are stricter than * however what i do not get is the following
+
+* will let you use xpath here which i think will be less painful than * s interface
+
+pyquery is based on * so it s also much faster than *
+
+i ve found that even if * is faster than * for documents that size it s usually best to try to reduce the size to a few kb via regex or direct stripping and load that into bs as you are doing now
+
+* is at least in my experience more general than * from hmisc
+

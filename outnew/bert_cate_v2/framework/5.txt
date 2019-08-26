@@ -1,0 +1,20 @@
+or would a tool like B be better suited than B in this case
+
+with this in mind customizing the css of a B app is significantly easier than B for the simple reason that you control the markup
+
+B is not better than B express the big thing that differs is the structure of it
+
+here is what it would look like with B it s a little more contrived with B since you can t pass parameters directly to test functions
+
+B is much more mature than B web api
+
+B s a much older library than B so you could expect that it would have many more features
+
+B is rather faster than B
+
+thus i suspect when people say that B is much faster than B it is because of the loading and updating delays but the actual test execution time appears to be very similar
+
+nonetheless i tried to compare the sum of all test speeds and in some cases B is faster and in other cases B is faster
+
+B is larger than B but thanks to expires cache-control this only matters on the the first load
+

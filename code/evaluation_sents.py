@@ -1,4 +1,4 @@
-import os, pickle, random
+import os, pickle, random_samples
 import pandas as pd
 from pandas import ExcelWriter
 from pandas import ExcelFile
@@ -58,7 +58,7 @@ def random_samples(p):
             continue
         else:
             sents.append(sentence)
-    r = random.sample(range(len(sents)), 70)
+    r = random_samples.sample(range(len(sents)), 70)
     print(len(set(r)))
 
     t = []

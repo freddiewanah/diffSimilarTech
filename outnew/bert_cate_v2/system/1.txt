@@ -1,0 +1,20 @@
+the third line displays the data with the maximum useful precision - an B 754 64bit floating-point number has slightly less than 16 B digits of precision so all those digits of the literal in math.h are pointless perhaps they can be seen as future-proofing against a possible future redefinition in a format with more precision
+
+B types libraries are fantastic for financial applications because we re used to dealing with the style of rounding required in financial stuff but there is the cost that they tend to be slower than B floating point
+
+double has its B floating point definition which is also much more complex than B
+
+it is working only for simple .php files but B is more complex and after long period of loading it show B nothing found site loaded
+
+since B is a bit more complete than B when it comes to features you could define separate issues with custom field for your tasks
+
+B encoding is far more readable than B that s why sublime uses it
+
+this is still accepted by calls like inet_addr and has several advantages all fields are fixed width there are only 8 characters to update and the B to B conversion is usually faster than B to decimal
+
+one important reason is because B is alot shorter and easier to read than B is for humans
+
+part of the point of B was to make the use of branches and merging much easier than in B
+
+B in much better than B and have lot of mature tools for every platform
+

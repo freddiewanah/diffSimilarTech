@@ -1,0 +1,16 @@
+however there are many others ts B which is generally faster than B .
+
+also B is significantly faster than B in many cases for processing results
+
+alternatively you can use B module which is lot faster than B
+
+it uses B underneath and is much faster than B
+
+pyquery is based on B so it s also much faster than B
+
+i prefer to use B better than B
+
+B deals with badly formed html better than B is actively maintained B isn t and is a lot faster since it uses libxml2 internally
+
+in the first example B is 3x slower than data.table and in the second its 200x faster than B and 100 times faster than data.table
+

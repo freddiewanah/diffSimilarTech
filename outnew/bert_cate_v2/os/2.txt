@@ -1,0 +1,26 @@
+B is more consistent and reliable because it is enterprise while B is geared towards desktops and personal computers
+
+i believe that B is better than B when it comes to mono as it is much easier to setup and seems to be better supported
+
+i strongly suggest either of the first two options over the latter option as the latter option does not always play nicely with the way B and B handle transactions when more than one B are involved
+
+B is getting closer but there are still numerous things with B that will keep the grandmothers of the world from using it
+
+one one B distro fuser -n tcp 3000 will report a process if i own the process yet on another B distro i think centos it won t report the process even if i own it
+
+also i would recommend doing a dual boot to B it s much easier to work with opencl in a B cli fashion
+
+B is more similar to B than it is to watchos although they all have some similarities
+
+this is because B 15.10 uses a newer version of libc and libstdc++ which is not available on B 8
+
+recompiling B kernels is harder -- it will require working with B build tools
+
+the main advantage of the B image is the smaller size â it clocks in at around 85.1 mb compared to around 200 mb for B
+
+he says he uses B and is less familiar with B and so i am posting here
+
+be aware that the bourne shell in B is more capable than on B
+
+just a tip but from personal experience i ve found that B works much better on low-end hardware than a modern B distro does
+

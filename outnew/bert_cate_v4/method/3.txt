@@ -1,0 +1,118 @@
+the * api works better than * normally but has usage limits and the implementation is bigger
+
+2 location + reverse * - seems more reliable but requests location services on the device does it work on wifi only tablets and for it to be enabled and requires time to a fetch location b server call to reverse *
+
+i had a similar problem using ggmap * for a batch of locations where roughly 20 of locations gave the over query limit error even though *querycheck would show more than enough * queries remaining and the errors were sporadically spread throughout the locations not just the last 20
+
+in the * method you can decide which fields are used for the comparison greater less than or *
+
+using * canvas is much faster than using *
+
+* less will be * and load more button will be * .thanks
+
+for formatting a single numeric value * is marginally more efficient than * because * has a bunch of overhead to parse the format string out of the curly braces and then pass it to *
+
+* has worse performance than *
+
+on an unencrypted connection * is no more secure than *
+
+* is more secure then * and data transfer size limits are also there
+
+using * is more secure than * in the sense that data shown into the url in * request but not in *
+
+another * outlines some more details on this how to * master-master replication with subversion
+
+what i m trying to * is a page that displays 20 users per page will have pagination with the fallowing info it should show only users that have more than 2 * published
+
+* is also more secure than * because you aren t sticking information into a url
+
+is this why * method is more preferred than * or does it really matter in any case if it internally uses * or *
+
+* is not more secure than * as itâ s also send unencrypted
+
+but i believe sending data using curl with * method is better than * method
+
+from a hacker s point of view a * forgery is much easier than * forgery at the first you only * a link at the second you need to point to a malware website with hidden iframe and autosubmit forms but both of them fail if tokens are checked
+
+data should be in * or *.if you dont put your data in your form then you will have to use * which is less secure than *
+
+also it seems that my view *s called more than once according to the log outputs and that is normal except it should be a * then redirect to a * but it seems to have more than one * request
+
+also a * request would be better than a * if you re sending json
+
+both * * user can put any thing in it and you must filter any input that user make it in your form example the value in textfiled sent to server by * method and that don t make it safer than * method the difference between them that the textfiled value doesn t visible in url
+
+this means the amount of data you could pass by using * verb is much more than by using a query string and a * method
+
+i m trying to * cloudinary direct uploads working on a rails app using carrierwave and accepts_nested_attributes_for to submit one or more images with a *
+
+i know there can be problems with *s_per_page but nothing is working i ve searched a lot to * the query to display more than one *
+
+* method are generally consume more secure than * because when we use * method than it can display the data in url bar.if the data is more sensitive data like password then it can be inggeris
+
+* is more secure than * this is just a quick example
+
+if a * has a more recent reply i want to * the replies created_on value but also * the * *_id and subject
+
+i think whoever said * is better than * when using passwords meant that the passwords would be part of the url in the * request which would obviously be bad
+
+* and head being much more frequent than *
+
+* is a better method in this case than *
+
+here i don t like that the body of the * request contains more different fields then the body returned from the * request - but maybe this is not a problem
+
+first of all if your instagram client is in sandbox mode then you can t * more than 20 * more clearly last 20 *
+
+a * has broader application and is generally used to send persistent data to a server in fact prescriptively * should not be used for this purpose
+
+stick with * on any action that does more than * data avoid xss-issues
+
+* would obviously allow for a user to change the value a lot easier than * so suitable checks for existance and ownership of the record would be important
+
+i used * because is faster than * if you need it just to * a list of element for suggestions
+
+i wouldn t call * more or less secure than *
+
+param should be params and therefore your data is not being serialized which would explain why the server is rejecting your * since * requires more privileges than * presumably
+
+speaking of * request types you should also know that * requests tend to perform better than *
+
+and i think * is better than *
+
+if you are curious though rather than just trusting a book or a blog * it is better to make a simple example and take it apart - you * it straight from the horse s mouth and you learn a whole lot more
+
+sorry that this * is more of the and for further information... type than a direct answer which i think has now been given-- i just thought it was helpful not to * things lost inside comments
+
+these steps were taken from this blog * which contains more details about how to investigate and what output you ll *
+
+i d question whether * is the right verb here considering you need to pass a complex type it sounds like it would be better served as a *
+
+the usual wait time of the * is not too long not too larger than * so i don t think that should be an issue and * always *s back with a 200
+
+you should check this thread why * method is faster than *
+
+also * is generally considered better than * for ajax calls as it doesn t have the same string length limit slightly more secure too
+
+to answer part of your second question with .net if the * is larger than maxrequestlength part of the .net configuration but smaller than maxallowedcontentlength part of the iis configuration you can create a custom http module to * at the portion of the * that came through
+
+anyway http 405 is telling you that your backend does not support the * method and probably it s expecting a * method with the x-http-method-override * http header since * is more standard method in rest than *
+
+more importantly in this case i think * is more appropriate than *
+
+to receive a file in your api i would use a * request simpler than * multipart and fetch the data from the stream php in*
+
+typically you would not allow a http client to determine the uri of a new resource so a * to blog would be safer than a * to blog article-uri although http does cater for appropriate responses should the server be unable to honour the intended uri
+
+* is designed for file uploads moreso than * which requires doing a multipart upload but then it comes down to what your server can do as to which is more convenient for you to implement
+
+at very high speeds amazon s3 does have some recommended request rate and performance considerations but this is only when making more than 300 * list delete requests per second or more than 800 * requests per second for a particular bucket
+
+you got at least * and delete although they are used much less frequent than * and post as in hardly ever
+
+i think * and * on ignite cache would likely to be slower than native * and * on my inbuilt key value store
+
+when i * my loop counter variable pagessent in the watch window it *s optmized when i declare as volatile it still *s optimized but when the max value is set to 4 the loop exits properly but if max value is higher than 4 * stuck..
+
+4 some * providers might mark that * as spam however most spam checks are based on spf and * checks more than * existence checks
+

@@ -1,0 +1,60 @@
+construct * is comparative slower than *
+
+* has a higher level it also inherited form * const on it should have no effect in fact not the same meaning about the no effect on immutable object
+
+* consumes lesser battery power than * or thread
+
+the * is more of a behind-the-scenes organizer for holding and displaying other * s
+
+so if using * * is more limiting than * basic_*
+
+* has smaller default internal margins than *
+
+update i ve created a webhelper class that takes the place of * but provides more access to the necessary features of the underlying *
+
+if i set a pixmap to a * that is larger that the window it will add scrollbars so is it possible to get what is displayed in the *
+
+i want to add a * inside an * and this * will be smaller than the *
+
+this is better than using a second view a bit larger as a * is lighter than a * and you don t have do modify the frame of myview which is good for instance if myview is a uiimageview
+
+in other words if a * is more accessible than its * then the access modifier of the * loses effect
+
+take note of this there is no way to * more than one * at a time
+
+so what this says is that provided your * doesn t have any more values than the * used to determine ordering implementing is reasonable
+
+for example you want to use abstract-class in such a case that each of the * is a more specific type of its abstract * fruit apple orange banana grape strawberries etc. and you want to use non-abstract * in a relationship such as dad and son
+
+in enhanced er modelling * inheriting from more than 1 * is called multiple inherited
+
+the general problem is that the * is more specific than the *
+
+however if the * returns a narrower subtype of the * method return this is called a covariant return type and is allowed in java since jdk 1.5
+
+watch out you can t query a * if you have more than 1 * then something like in jql
+
+httpwebresponse and * are a little bit lower level than *
+
+so simply * is better option then *
+
+for a few bytes passed in just one call probably the * is even worse because it problably later calls *
+
+similarly as the * gains more methods it * the list of superclass in the order in which they were named that precede it
+
+with * is trickier because any private members of a class are not * by the * but protected and public are
+
+since the paddle object has * that are shared by both player and enemy composition is a better choice than *
+
+* is better than * in this case because it s easy to resize it
+
+size * performs better than * because it doesn t store the
+
+if the size of the * s element type is greater than the pointer s size * performs better than * because it doesn t store the objects sequentially but stores sequentially pointers to heap copies
+
+the ardalahmet solution is not the right one if you need different backgrounds for each * when you have more than one * such as in a uitabbar because it using * categories
+
+when it comes to deletion it even gets worse when saving at the end of all entity removals * is around 18 times slower than *
+
+all-in all the reason is that * is able to do more things than * and can do anything * can hence the direction of inheritance
+

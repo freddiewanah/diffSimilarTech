@@ -1,0 +1,100 @@
+that said the date class is much better in php5.3 -- it even has B subtract functions which would also solve your problem much better than B .
+
+that said the date class is much better in php5.3 -- it even has B subtract functions which would also solve your problem much better than B .
+
+B is simpler than B and can be implemented even more efficiently in places where the strings are known to be properly aligned
+
+on almost any platform B is going to be faster than B when copying the same number of bytes
+
+for example for small amounts of data an B optimised for large amounts of data may be significantly slower than a B that wasn t optimised for large amounts of data
+
+but sometimes B performs faster than B because it moves blocks of memory at a time which allows it to perform some optimization i will not go into details here
+
+on almost any platform B is going to be faster than B when copying the same number of bytes
+
+for example for small amounts of data an B optimised for large amounts of data may be significantly slower than a B that wasn t optimised for large amounts of data
+
+but sometimes B performs faster than B because it moves blocks of memory at a time which allows it to perform some optimization i will not go into details here
+
+the wrapper uses these in such a way that even the B implementation is significantly more secure than a simple B
+
+the wrapper uses these in such a way that even the B implementation is significantly more secure than a simple B
+
+most likely B allocates more memory and puts so-called guard values that happen to contain null bytes or it puts some metadata to be used by B later and this metadata happens to contain a null byte right at that position
+
+if your .so are statically linked to c++ runtimes - you should B objects in the same module where they were allocated since new delete is something more than B B and need some extra info to work properly
+
+B is much easier to implement if there is no B
+
+most likely B allocates more memory and puts so-called guard values that happen to contain null bytes or it puts some metadata to be used by B later and this metadata happens to contain a null byte right at that position
+
+if your .so are statically linked to c++ runtimes - you should B objects in the same module where they were allocated since new delete is something more than B B and need some extra info to work properly
+
+B is much easier to implement if there is no B
+
+at best it is a computationally expensive hash function like B that for example is five times slower than B and thus allows only a fifth of the number of hash operations in opposite to B
+
+you can also use B which is the more general form of B and is actually part of the sql standard
+
+B is more cross-compatible than B or nvl it works on mssql oracle mysql derby et al.
+
+on the subject of performance on sql server B often performs better than B but the latter is ansi compliant if that is important to you
+
+you can also use B which is the more general form of B and is actually part of the sql standard
+
+B is more cross-compatible than B or nvl it works on mssql oracle mysql derby et al.
+
+on the subject of performance on sql server B often performs better than B but the latter is ansi compliant if that is important to you
+
+it s conceivable that B could return address of memory location that is already pre-initialized with zeros thus it may be faster than B + memset combo
+
+B is faster since B initializes the allocated memory to contain all zeros
+
+it s conceivable that B could return address of memory location that is already pre-initialized with zeros thus it may be faster than B + memset combo
+
+B is faster since B initializes the allocated memory to contain all zeros
+
+in some cases on embedded platforms where a fast B function may not be available these may be more efficient than B
+
+the structure of the B algorithm makes it less susceptible to attacks on properties of the underlying B algorithm
+
+in some cases on embedded platforms where a fast B function may not be available these may be more efficient than B
+
+the structure of the B algorithm makes it less susceptible to attacks on properties of the underlying B algorithm
+
+bad news is that the asmlib version of B is slower than the glibc version it is now running at the 300ms mark on par with the glibc version of B
+
+edit B is 2x faster than B on the server
+
+it is entirely possible that in most implementations the cost of a B function call will not be significantly greater than B in any scenario in which the behavior of both is defined
+
+B on the laptop runs slower than B but oddly enough runs at the same speed as the B on the server
+
+technically accessing the B directly is faster than using B but there are very few situations in which it will make a significant performance difference and would probably be a case of premature optimization
+
+but if it works with large datasets the users will notice that using the B -only program slows down other programs much more than the B -using program with the same data
+
+but if it works with large datasets the users will notice that using the B -only program slows down other programs much more than the B -using program with the same data
+
+you should know that B allocates more memory and returns its pointer which you then overwrite the original pointer returned by B so it will be impossible to free that memory since you no longer have the pointers
+
+you can use either to create a new memory block which is separate from the original but naturally B is simpler since it doesn t require a separate B strlen call
+
+if your compiler can do this then writing functions in a way that the compiler is able to B is better than manually B the calls yourself
+
+the keyword B is more about telling the compiler that the symbol will be present in more than one object file without violating the one definition rule than about actual B which the compiler can decide to do or not to do
+
+dynamic memory management on an small embedded system is tricky to begin with but B is no more complicated than a B and malloc of course that s not what it does
+
+dynamic memory management on an small embedded system is tricky to begin with but B is no more complicated than a B and malloc of course that s not what it does
+
+the compiler is B to choose a method that is more efficient than B
+
+if not multiple B calls will still be faster than multiple B calls because the overhead of the latter will be greater
+
+it requests memory from the os kernel but the request is not satisfied until the memory is written to with B . this allows for greater efficiency in the system s memory management but it can result in misleading B behaviour
+
+it requests memory from the os kernel but the request is not satisfied until the memory is written to with B . this allows for greater efficiency in the system s memory management but it can result in misleading B behaviour
+
+which is more efficient is up for debate but based on cpu bulk instructions which can copy an entire block of memory in one instruction B is probably faster as B would check each copied byte for a nul character
+

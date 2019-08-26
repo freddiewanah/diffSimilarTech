@@ -1,0 +1,25 @@
+in my general programming experience compiled c c++ programs generally run faster than most other T like java or even compiled python and almost always run faster than T like uncompiled python or javascript
+naturally T will run slower than T as compiled code can be ran blindly by the cpu where as compiled code needs to be checked ran line by line
+python is an T so by definition is slower than other T but the drawback in the execution speed is not even noticeable in most of applications
+this makes T generally slower than T due to the overhead of running the vm or interpreter
+while ruby and python are both T and operation-for-operation slower than T the reality is in executing an application only a small portion of cpu time is spent in your code and the majority is spent into the built-in libraries you call into which are often native implementations and thus are as fast as compiled code
+writing in a T java or c++ in your examples would almost certainly give better performance than an T like php
+T are inherently less performant than T - c will generally outperform python - some operations more than others
+and perl like any  is much slower han a 
+are  beer han  or vice-versa
+his is usually seen in dynamic  bu is less common in 
+from what i know a B such as c++ is much faster than an C such as javascript
+that being said a B like c will almost always be faster than an C like javascript
+while java could be described as a compiled and C it s probably easier to think of java itself as a B and java bytecode as an C
+an C will typically run one to two orders of magnitude slower than a B
+are B better than C or vice-versa
+C tend to be but not always are significantly slower than B
+this is a good question but should be formulated a little different in my opinion for example why are C slower than B
+fact is that C like php are always slower than a B
+C execution speed are slower than B true but once there is need for more speed you can call in compiled stuff through gems or micro services
+it should be noted that C are inherently many time slower than natively B
+then c which is one those languages closer to the processor level is very performant and generally speaking B because they turn your code into assembly language are more performant than C
+are B better than C or vice-versa
+are B better than C or vice-versa
+are B better than C or vice-versa
+from what i know a B such as c++ is much faster than an C such as javascript

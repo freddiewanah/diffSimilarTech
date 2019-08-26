@@ -1,0 +1,66 @@
+B is soooo much faster than B because all the check-outs are stored on the server so it doesn t have to check every file on an update
+
+B works much better when disconnected from the network - with B you have to tell the server when you ve done a checkout
+
+B is soooo much faster than B because all the check-outs are stored on the server so it doesn t have to check every file on an update
+
+B works much better when disconnected from the network - with B you have to tell the server when you ve done a checkout
+
+most modern B are also considerably more complex than B which would add further difficulty to the implementation
+
+most modern B are also considerably more complex than B which would add further difficulty to the implementation
+
+B is another one that s easy to use i would say easier than B to learn but it uses an sqlite file to store your code and i m not sure if it scales to really big projects
+
+from the article it sounds like B isn t a database any more than B is a database
+
+B is much more complex and time consuming due to the more complex nature of this B
+
+B is much more complex and time consuming due to the more complex nature of this B
+
+it seems the from a readability and usability standpoint the B representation is a better way of defining B numbers
+
+as others have pointed out B is much more convenient than B anyway - you just need to remember how each of the B digit 0-f looks in B and replace groups of 4 bits with a single B digit
+
+but when anyone human looks at it they look at it in B using a B editor which is much easier than reading B
+
+and because B is much more readable and useful than B - it s often used and shown
+
+the conversion from B to B is even simpler since you can simply expand each B digit into the corresponding B for example 0xa4 - 1010 0100
+
+B encoding is far more readable than B that s why sublime uses it
+
+B is somewhat more readable than B if i happen to be loading a data dump in a text editor etc
+
+one important reason is because B is alot shorter and easier to read than B is for humans
+
+a B string is significantly longer than the corresponding B string
+
+unfortunately using B consumes way more space and takes significantly longer i m dealing with 500gb of data and around 1 2 million records so i would really like to get the straight B method to work
+
+B is easier for most people to convert to and from B in their heads since B numbers are usually expressed in blocks of eight because that s the size of a byte and eight is exactly two B digits but B notation would have been clunky and misleading in dennis time implying the ability to address 16 bits
+
+if the right side the B side is greater than or equal to the B side then you print true if not then you print false
+
+those B values seem a bit odd they re powers of two in decimal but in any case 0x128 the 0x is a standard prefix for B numbers is the larger of the numbers in magnitude and its B representation is 100101000
+
+if you use B then it still okay because B handles binary files much better than B
+
+B is better than B because it was designed to be - it s roughly the same thing with some simplications and new features
+
+in fact B does stores binaries a lot more efficient than B for more info see the B-faq
+
+part of the point of B was to make the use of branches and merging much easier than in B
+
+if you use B then it still okay because B handles binary files much better than B
+
+B is better than B because it was designed to be - it s roughly the same thing with some simplications and new features
+
+in fact B does stores binaries a lot more efficient than B for more info see the B-faq
+
+part of the point of B was to make the use of branches and merging much easier than in B
+
+just a wild guess here but if you re using B on the server this observation might be based on the fact that B simply is much better at merging than B because it has the notion of mergepoints
+
+you ll need to convert B to another base here i use decimal when writing this code because c doesn t have B constants which would be ten times more useful than B constants
+

@@ -1,0 +1,6 @@
+for starters * is no longer actively maintained and the author even recommends alternatives such as *
+
+* is much faster than * and probably the fastest parser available for python
+
+it uses * underneath and is much faster than *
+

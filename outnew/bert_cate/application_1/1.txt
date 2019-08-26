@@ -1,0 +1,12 @@
+if you would like a unified front-end for B and opentsdb you could consider grafana which has support for both B and opentsdb but less functionality than B in regard to B
+
+for load testing B is better option but you have quite enough funding then go for loadrunner B rational performance tester and for cloud try blazemeter
+
+imo B is better than admob especially when using their B ads
+
+i understand B is more of a B clone but retrospectiva seem to support agile methodologies via a nice plugin
+
+B handles multiple projects and sub projects far nicer than B
+
+the compare dialog of B is more about file and with git you have to compare two master branches not just two commits of the same branches both pointing to the same B central repo
+

@@ -1,0 +1,78 @@
+* is not really any slower than *
+
+it is understandable that * is faster than *
+
+i prefer using these short forms because to me year * is shorter to type and better to read than * yyyy *
+
+also * is a better alternative to *
+
+* is more pythonic but * is fine here too
+
+the * loop variant was consistently 45x slower than the * loop
+
+* is better then * because of how datatypes are handled
+
+i tend to use * only when i need to get the first non-null value from a set of 3 or more values as * only supports two parameters
+
+on the subject of performance on sql server * often performs better than * but the latter is ansi compliant if that is important to you
+
+is the performance of * field constant better than *
+
+- * should be more portable than *
+
+* is more cross-compatible than * or nvl it works on mssql oracle mysql derby et al.
+
+* is the more standard alternative of *
+
+3.14 is pretty close but a little smaller than pi and * 3.14 is thus pretty close but a little bigger than 0 * 3.14 is thus pretty close but a little smaller in absolute terms than -1 so tan 3.14 is a little less than 0
+
+* itself seems to be consistently a tick 0 01 better than * but the case distinction to reconstruct the sign has an extra test
+
+after reading a question related with the performance of * * why is std * and std * slower than * and *
+
+first of all * x should be faster and more accurate than * x 0.5 why do you think it s in the library
+
+you may be interested in looking at the * keyword which i think is better than the * keyword when you can make use of it
+
+with typical libraries on common modern hardware * is faster than *
+
+also have a look at * which is safer version of *
+
+* is more secure than *
+
+on the other hand if what you want to do is not rounding but elimination of fractions into one direction then you have std * that goes always higher and std * that always goes lower
+
+so * idx is the lower element and * idx is the higher
+
+works because * a b is always one greater than * a b except when a b is a whole number
+
+the * times the * are greater than the * xy...that s very much possible
+
+edit * is 2x faster than * on the server
+
+as an added answer there is also the * which is more general than *
+
+at first glance it must be significantly faster because * must be significantly faster than *
+
+i should also mention that * has this built-in and may be a better solution than *
+
+in other words * is no more type-wise than *
+
+the more randomness and more characters your * has the better for the * but anything that s several characters long and random works
+
+the features stemming from those discussions permit less extreme * than processes which is symmetrically like the provision of more extensive independence between *
+
+it s like asking whether * is faster than *
+
+so i guess * should be much faster than *
+
+* is not safer than * it just trades one type of bugs with another
+
+for instance * is mostly useless it gives you nothing more than *
+
+in general * is a safer alternative to *
+
+* is more recommended that * because protect your code against buffer overflow
+
+the * version is not more complex or more dangerous than the * version
+

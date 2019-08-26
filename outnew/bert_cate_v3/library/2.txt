@@ -1,0 +1,180 @@
+i found * easier to use with more options and better documentation than * or graphael
+
+i ve used both * is more robust but * is easier on the eyes
+
+you should be able to do this in * which has a better license than * by just throwing what they showed in this blog post on its side
+
+* has more options for moving the camera than * but it doesn t seem to have a way to rotate around the y axis so i m guessing i ll need to perform some complex calculations on the azimuth and elevation to achieve the same result - but i m at a loss as to where to start i m new to working in 3d space and my brain doesn t think that way yet
+
+personally i ve used * in the past and found the performance much better than * for 3d scatter plotting though the python bindings are somewhat in question moving forward i think
+
+i haven t played around with it recently but i think * is more flexible here in terms of mixing dtypes but doesn t give you all the * dataframe conveniences obviously
+
+the * docs explain how to use drawees and you can see right from their xml definition that they are much more customizable than *
+
+for more complex xml reading writing you better check * which is heavier than *
+
+the * results seems much more stable but * results have some drastic fluctuation
+
+but this popular wsgi benchmark says * is way slower than *
+
+i believe * is a better choice over * more details in this blog post
+
+edit as pointed out in the comment * is likely to be a better solution than *
+
+i have tried * too but * is smarter than * on this aspect
+
+i ve found * which is more like the * but it lacks a lot of * libraries
+
+if you definitely need svg and want to only use existing elements you may want to look at * which is raphaels younger sister and shares a lot of the same codebase or another like *
+
+i have noticed that content extraction is faster in * but searching words using regex in the content extracted by * takes longer time than *
+
+start with * as it s text extraction abilities are better than * s
+
+i don t want to use * because that s a library i haven t used extensively yet and i m doing this partly as an exercise to gain greater mastery over the *
+
+c++ s * is getting better and better yet it s not nearly as huge as * and is not intended to
+
+* has far more capabilities than *
+
+i wish program with * and * is faster than with only *
+
+* seems to be gaining more popularity than * but most people seem to be on *
+
+the downside is that you are losing the big part of the * s appeal in its simplicity and technically could be better off by using * s dsl
+
+i think * looks so much better than * but for quick zooming panning functionality my first question is is this better off in * or can * handle slick zoom pan even though it s not tile-based
+
+* parser is generally faster * is the most lenient one - this kind of difference would be relevant if you have a broken or non-well-formed html to parse
+
+and i ve read that using * is far faster more memory efficient for such tasks as such i ve ported my * classifier to accord net like so
+
+when i evaluated * it was less mature than *
+
+i hear * is nicer the *
+
+at least for .executemany * seems to be more proficient than * as the sql statement is only prepared once for all submitted values
+
+if you are dealing with docx document * is more convenient than *
+
+more than this methodology i would suggest to you to do the training directly in * as it claimed that * optimizers are 5-10 times faster than * s optimizers
+
+i found another approach using the * context passed to the handler of draw events but it resulted in capturing a region of the parent window that was larger than the *
+
+regarding skinning i feel * default skinning to be more basic than * one but i think both have ways to make them as beautiful as your css skills allow you
+
+in my opinion * is easier to learn and to use but the results of * are often nicer - you can often feel that a * application behaves not completely right
+
+also * is actually newer and more actively maintained than *
+
+it can be hard to get the layuots exact the way you want in * it s usually easier in *
+
+* has no any other unnecessary things so it is better than * or qprogressbar
+
+i d say that * is actually more evolved than *
+
+there exists a simd fork of * which claims to have much better performance than * or plain * but there are no comparisons to opencv
+
+mmmm * is somewhat less developed than * in many respects
+
+i do know * better than *
+
+i thought * was supposed to be leaner meaner than *
+
+* is not that much faster -- and the outputted file sizes are significantly higher than *
+
+while * aims to be more lightweight than * * is by far the more mature proj
+
+instead doing it with * which i found to be the fastest somehow even faster than *
+
+if you are worried about memory then do look into * since equivalent models can use significantly less memory than *
+
+or * directly .for more details * 3.0 documentation
+
+if * doesn t satisfy you for any reason you can also try * which does much more than * it s not only for images but the same rules apply
+
+several things i found in the cocos2d forums lead me to believe it s an issue with the * implementation on ios but i ve tried using both stb_image and lodepng to avoid * and those libraries actually performed even worse than *
+
+looking briefly at the list-like combinators for * i m more familiar with * i think you can solve this by folding over the result of the psome combinator
+
+it seems that the idea of * it to be more declarative than * so you just have pure
+
+but if convenience is more important than efficiency yes you probably should consider a tree model not dom necessarily * is better for example or data binding jaxb or *
+
+* is faster than the * 2.3 malloc available as a separate library called ptmalloc2 and other malloc s that i have tested
+
+the cons of * is that you get more than just * - you also get gulp-utils and other things - which is a problem if you are not using gulp in the first place
+
+the team behind * has since created * so this is likely a better option than *
+
+for semantic zooming you ll notice that * is significantly faster than *
+
+* also has more features and offers * too
+
+* is significantly more powerful and robust than * in my experienced opinion
+
+note that using the * parser is a lot slower than * s default parser
+
+speed isn t important here but in other applications it is good to know that regexes are very fast 100 times faster than * and 1000 faster than *
+
+i would recommend * for html parsing it s simple and considerably faster than * can be as much as two orders of magnitude
+
+yes * is slower than *
+
+* is said to be slower than * but i suggest you use a profiling tool here to find the best set of options here
+
+in my experience * via mit-shm extension was significantly faster than * surfaces not sure i used * in the most optimal way though
+
+* is much more aimed towards gaming with opengl where as * is more worried about complete and perfect bindings to opengl opencl
+
+for my project * is better then * because * is filling up all gaps * is just looking for the first possible gap and doesn t fill empty gaps
+
+keep in mind though that * is a larger library than * so depending on your case you might prefer * to avoid 65k methods limitation
+
+personally i prefer * as according to test benchmarks it s faster than *
+
+i ve seen questions like this come up before and the general consensus is that * is much faster than *
+
+try this lib that s a good one with the * we use only in the server side because * is more slow in the android than * at least in our test
+
+also it seems * lib has better performance than other packages such as * which i haven t tried personally
+
+in my case i found * little faster than * i used default serialization because so far i don t have a need to customize serialization
+
+* is more suitable if you have a complex deep json tree because * creates a lot of temporary objects which leads to stop the world gcs
+
+it seems * is more faster than * the average time of * is about 2ms while * is about 16ms does i make mistake when using *
+
+take a look at the * json parser it s faster than the one in android and faster than * and supports streaming
+
+under some conditions * has proven to be a lot faster than * there also exists jsonp and json.simple
+
+i d strongly recommend to go with * 5.1.x it s a little bit more difficult than sfml but very functional and easier than * it s got nice support and it s compatible with plenty of os
+
+finally if * just isn t working for you try * it s better documented than *
+
+* looks more good option to work than * bcoz it has inbuilt support its easy to learn its long time support guarantee for seam+* combination
+
+* has better ajax support than *
+
+this may help those confused by * and hdf5 but more familiar with * like myself
+
+i looking to use a suite of nlp tools for a personal project and i was wondering whether stanford s * is easier to use or *
+
+so * is just a library for creating windows in a better way than * did before
+
+between these * is much closer to * in character -- a small toolkit for abstracting away most of the os-dependent parts so you can produce opengl programs with relatively little hassle
+
+somehow the layout algorithms in * seem to display a better layout than in * rendering is also better i think though most of the layout algorithms in * are based on * implementation
+
+the javadoc of * is way better than that of *
+
+* is much more easier while many of people use * or sfml they re more flexible and feature-full than *
+
+if you re building a simple demo of a rendering mechanism * is way better than * it takes care of a lot of the details that * would otherwise require
+
+since you tagged this with python you might find * more useful than * but the real question here should be about how to do the conversion not the library request since library requests are off topic for stack overflow
+
+note please do tell me if * is more easy or this *
+

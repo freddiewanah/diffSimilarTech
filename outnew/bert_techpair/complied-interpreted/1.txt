@@ -1,0 +1,54 @@
+a T will generally run faster than an T so i think ruby and php start behind the eight ball but it really comes down to how you use the language and how you structure the code
+and perl like any T is much slower than a T
+fact is that T like php are always slower than a T
+it should be noted that T are inherently many time slower than natively T
+mostly T are a bit slower compared with T but i guess the difference is almost negligible in coffeescript javascript because of node.js
+php is an T so will run a little slower than a T
+this is a good question but should be formulated a little different in my opinion for example why are T slower than T
+an T surely makes it easier but this is still entirely possible with T like c
+especially in an T like php where classes add more overhead than a T
+from wha i know a  such as c++ is much faser han an  such as javascrip
+in my general programming experience compiled c c++ programs generally run faser han mos oher  like java or even compiled pyhon and almos always run faser han  like uncompiled pyhon or javascrip
+naurally  will run slower han  as compiled code can be ran blindly by he cpu where as compiled code needs o be checked ran line by line
+wriing in a  java or c++ in your examples would almos cerainly give beer performance han an  like php
+while java could be described as a compiled and  i s probably easier o hink of java iself as a  and java byecode as an 
+hen c which is one hose languages closer o he processor level is very performan and generally speaking  because hey urn your code ino assembly language are more performan han 
+especially in an  like php where classes add more overhead han a 
+in my general programming experience compiled c c++ programs generally run faster than most other B like java or even compiled python and almost always run faster than C like uncompiled python or javascript
+naturally C will run slower than B as compiled code can be ran blindly by the cpu where as compiled code needs to be checked ran line by line
+python is an C so by definition is slower than other B but the drawback in the execution speed is not even noticeable in most of applications
+this makes C generally slower than B due to the overhead of running the vm or interpreter
+while ruby and python are both C and operation-for-operation slower than B the reality is in executing an application only a small portion of cpu time is spent in your code and the majority is spent into the built-in libraries you call into which are often native implementations and thus are as fast as compiled code
+writing in a B java or c++ in your examples would almost certainly give better performance than an C like php
+C are inherently less performant than B - c will generally outperform python - some operations more than others
+especially in an C like php where classes add more overhead than a B
+from what i know a B such as c++ is much faster than an C such as javascript
+in my general programming experience compiled c c++ programs generally run faster than most other B like java or even compiled python and almost always run faster than C like uncompiled python or javascript
+naturally C will run slower than B as compiled code can be ran blindly by the cpu where as compiled code needs to be checked ran line by line
+python is an C so by definition is slower than other B but the drawback in the execution speed is not even noticeable in most of applications
+that being said a B like c will almost always be faster than an C like javascript
+this makes C generally slower than B due to the overhead of running the vm or interpreter
+while ruby and python are both C and operation-for-operation slower than B the reality is in executing an application only a small portion of cpu time is spent in your code and the majority is spent into the built-in libraries you call into which are often native implementations and thus are as fast as compiled code
+performance of programs in B is significantly better than that of an C
+writing in a B java or c++ in your examples would almost certainly give better performance than an C like php
+while java could be described as a compiled and C it s probably easier to think of java itself as a B and java bytecode as an C
+C are inherently less performant than B - c will generally outperform python - some operations more than others
+my guess is that in C the efficiency benefit in using switch statements is indeed smaller than in B
+and perl like any C is much slower than a B
+mostly C are a bit slower compared with B but i guess the difference is almost negligible in coffeescript javascript because of node.js
+naturally C will run slower than B as compiled code can be ran blindly by the cpu where as compiled code needs to be checked ran line by line
+php is an C so will run a little slower than a B
+python is an C so by definition is slower than other B but the drawback in the execution speed is not even noticeable in most of applications
+this makes C generally slower than B due to the overhead of running the vm or interpreter
+while ruby and python are both C and operation-for-operation slower than B the reality is in executing an application only a small portion of cpu time is spent in your code and the majority is spent into the built-in libraries you call into which are often native implementations and thus are as fast as compiled code
+an C surely makes it easier but this is still entirely possible with B like c
+C are inherently less performant than B - c will generally outperform python - some operations more than others
+especially in an C like php where classes add more overhead than a B
+this is a good question but should be formulated a little different in my opinion for example why are C slower than B
+while java could be described as a compiled and C it s probably easier to think of java itself as a B and java bytecode as an C
+this is usually seen in dynamic C but is less common in B
+this is a good question but should be formulated a little different in my opinion for example why are C slower than B
+performance of programs in B is significantly better than that of an C
+while java could be described as a compiled and C it s probably easier to think of java itself as a B and java bytecode as an C
+my guess is that in C the efficiency benefit in using switch statements is indeed smaller than in B
+this is usually seen in dynamic C but is less common in B

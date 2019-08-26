@@ -1,0 +1,4 @@
+the * one has less queries used only 14 on average but it runs slower than * with more queries used average on 20
+
+the * which has less queries runs slower than * with more queries
+

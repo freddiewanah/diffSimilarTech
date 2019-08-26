@@ -1,0 +1,188 @@
+* is simpler than * and can be implemented even more efficiently in places where the strings are known to be properly aligned
+
+if size is known normally a non-naive implementation of * is faster than * since it takes profit of the cpu s data bus size
+
+so i feel that on x86 * is faster than *
+
+your macro with memset and * was not any safer than *
+
+is * usually faster than * on most real platforms
+
+the problem is that * is only slighly slower than * when i expect it to be about two times slower since it operations on twice the memory
+
+but as that reference points out * is way faster than * and sha functions although it doesn t do a direct comparison to the object.gethashcode method i mentioned above
+
+* of course does not process escape sequences any more than * would
+
+so we can use * with sha512 to gain a very significant advantage over the phpass algorithm mainly because sha512 is a harder algorithm with more computation than *
+
+using a non-reversible * such as * is much more secure and you can store the * value as clear text
+
+or you could employ a request signing scheme in which certain request fields are * together with the password of the user basically sending the password without sending the password similar to digest authentication but you can use something better than *
+
+the difference between crc32 and * is that * generates a larger * that s harder to predict
+
+if the * function is more complex and cryptographically strong * or sha1 then it is theoretically not possible
+
+all * functions have that problem but some are more robust than *
+
+sha-256 uses 64 characters in the database but with an index on the column that isn t a problem and it is a proven * and more reliable than * and sha-1
+
+however if you want to use the sha256 * alogorithm which is better than the * then here s a code sample
+
+as an example of the second option i ll use * here because it makes more sense than * for random data but * would have identical usage other than the interpolation option.
+
+marcus yes * is faster than * and faster than python but why
+
+remember * is quite expensive action and * costs even much more than *
+
+besides * is a better option than * as * can handle failures better
+
+i understand that * and strtof are preferred to * atof since the former detect errors and also * is much more flexible than * when it comes to non-base-10
+
+for instance * is better than * and you should be checking each time whether strtok returns null
+
+use * it does better error reporting than *
+
+you need to error check * and ensure there are as many passed before using them -- * is better than * as helps detect errors
+
+i start off calling gets to fill the buffer then using * to convert the human-readable text in buffer to an actual computer int value - note that * is more powerful than * and uses long int instead of int as its declared type
+
+all have more or less cumbersome and non-obvious error checking involving errno * is way much better than * in any case so avoid using *
+
+doing things like 1000 successive * is much slower than doing one single * of 1000 bytes
+
+you can also use * which is the more general form of * and is actually part of the sql standard
+
+in some circumstances * is faster than case or *
+
+* will go through the listed values and choose the first one that isn t null it s more portable code than * or ivnl etc
+
+* is marginally faster than *
+
+* will be faster i think because it has lesser function code implementation for itself making it faster than *
+
+* can only have one input however it s been shown to be slightly faster than *
+
+you can use * also in place of * as * is comparatively faster than *
+
+i ve been told that * is less costly than * but research doesn t indicate that
+
+sql server is probably smart enough to translate * into the equivalent sarg expression but if you are bent on using a function then * is a better choice because it is part of the sql standard allows for multiple values instead of just two with * and avoids using quite possibly the most confusing function name microsoft ever devised in *
+
+in this case i would use * which provides more levels than * rather than the case stement
+
+if i want to calculate a * and a * is it cheaper to calculate a * and a * or calculate a * then a sqrt 1-* 2 to get the *
+
+so if we have a vector and want to calculate a component-wise function over it say * and * it is faster to use vv** from accelerate because it will pipeline the calculations of * and * for all the entries in the vector which is faster than u*g a for-loop over the vector
+
+my question is is fast implementation of * x 0.5f faster than fast * x
+
+and as tom karzes mentioned * is also better than using * for calculating square roots
+
+actually calling memset after * is closer to calling * than the option you suggest
+
+for this reason since * uses two arguments of type size_t it can allocate bigger blocks than * will ever be able to since * takes only one argument of type size_t
+
+edit i m not a java expert but i think that in java members of new array are initialized to 0 or null so * is more correct than * in my code
+
+bcrypt is weaker than * although still three orders of magnitude stronger than * because it only requires 4 kb of memory
+
+as we can see copying manually with * is always slower than * because in this scenario malloc is guaranteed to allocate new memory and you re forced to copy the data in every allocation which shows us that * is indeed reusing the same address and enlarging the block size in some cases
+
+the roundabout method i ve employed is to create additional columns with a regular * and counta formulae - in other words i count the number of countries a * has visited more than x times * and then use the counta to sum the number of * in that column who have visited x times
+
+finally i also made a benchmark test which shows that * operation is slightly better than sapply * and significantly better than vectorised * alone
+
+the structure of the * algorithm makes it less susceptible to attacks on properties of the underlying * algorithm
+
+in few words * is safer then * but it is slower too
+
+* is a little bit safer than * because you specify how many comparisons will be made at most
+
+now if * is higher than 0 or * is lower than 0 on any axis it means that there just as many tiles outside of the camera scoop
+
+* is more efficient than *. in general use * only if you have to
+
+this means that * might be very slightly slower than * as it cannot make the same assumptions
+
+while * will be only slightly slower than * due to the assumptions it needs to make about the source and destination in * they cannot overlap it should still be far superior to any standard loop
+
+bad news is that the asmlib version of * is slower than the glibc version it is now running at the 300ms mark on par with the glibc version of *
+
+if you know buffers cannot overlap * is fine and may in any given library use optimizations that allow it to be faster than *
+
+why does * perform slower than * on my system
+
+i changed out total for * which is more consistent with other databases sqlite *
+
+with a lower order * that works better but then you lose the advantage of cubic *
+
+note the use of std * is safer and more convenient than std * *
+
+the various alternatives * * work roughly the same way * is easier to use when dealing with arrays and zero-fills the data while * is useful when you need to resize a block of memory
+
+from what i can gather * generates much better random numbers than rand does however i haven t seen a way to seed it and i would like to just like using *
+
+* is far more flexible handling the allocation of space for you with * it is up to you
+
+one more edit if you want to use * instead which you asked about in the comments - and it s even safer than * since it will increase the buffer size as needed you would change to change the code a little bit
+
+i m also looking for more examples and explanations of complex * more complex than * in common programming languages
+
+in the case of overflow a free * pair costs less than * because of its internal hidden memcpy
+
+if for some strange reason you can do the obvious * would be more efficient than *
+
+see also why malloc + * is slower than *
+
+malloc + * is slower than * under certain conditions
+
+my question is why is malloc + * so much slower than *
+
+* sha-512 offers a higher level of security and implementing a scheme where you stretch the * is even better do some high number of iterations of sha-512 - starting with the password+* of course
+
+you can safely store the * in the db because working out a string from its * is just as hard when you know some of the string as it is when you know none of it provided the password itself is longer than the * and long enough and strong enough to take a long time to crack by brute force at least 6 chars with at least one case change and a number or non-alphanumeric i d say
+
+this * is nothing more than a random arbitrary string that you concatenate to the passwords and it will make your * password unique
+
+however if * source is greater than n then * will simply copy the first n bytes and will not terminate the string dest with a null byte because there is no space for it
+
+the other suggestion keep repeating until x stops changing does not work either because for non-perfect squares x will alternate between the * and the ceiling of the root â because of integer mathematics the term n x will alternate when x is slightly smaller or slightly larger than * n
+
+you might want to give the data.table package a try check out the * function which is much faster than *
+
+if your compiler can do this then writing functions in a way that the compiler is able to * is better than manually * the calls yourself
+
+callee is too large message is printed by c1 when the size in bytecodes of the method being * is larger than max*size 35 multiplied by nested*sizeratio 90 on each next level of *
+
+the keyword * is more about telling the compiler that the symbol will be present in more than one object file without violating the one definition rule than about actual * which the compiler can decide to do or not to do
+
+in reality the * keyword has less to do with * code and more to do with allowing legal violation of the one definition rule
+
+this allows you to use the assignment operator instead of * and requires 1 less call to * - the one you make
+
+in term of speed square rooting is easy a few arithmetical operations for some newton-like method but it is not clear what asin does probably quite *tly * is likely to be one order of magnitude slower than * and thus one square root is likely to be quickier than those two transcendental function calls
+
+there is a nice comparison of threads and processes here when is clone and * better than *
+
+just wanted to add that using strrpos + * is slightly faster than * + end
+
+the ansi standard function * is simpler than using * and decode which should be obsoleted anyway
+
+the * function is used here because it is more portable than * or ifnull
+
+* is probably better than * in most cases
+
+dynamic memory management on an small embedded system is tricky to begin with but * is no more complicated than a * and malloc of course that s not what it does
+
+it means a declared * is more than a pair of * methods getter setter
+
+i.e * is actually better than the simpler * if you are willing to improve the code
+
+the math.floor * method being marginally faster than * and mod
+
+it should be in my opinion more strongly noted that password hashing with * is no longer secure and should not be used as others noted use * or bcrypt
+
+if you compute the length of the string for unrelated reasons or have the length of the string from other resources it s unclear to me whether * is better or worse than *
+

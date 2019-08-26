@@ -1,0 +1,28 @@
+i used instead of to convert the string to a number since * is usually a little faster than * and it s the more common way of performing that action see to force a string to be converted to a number add zero to that string
+
+well we know it is the first one because of precedence - the binary * operator has higher precedence than the binary + * operator and is resolved first
+
+because * has a higher precedence than *
+
+clearly ruby considers the * operator to be of a higher precedence than the * + operator
+
+i know the basics division and * higher than * and subtraction but i would have to look up something more esoteric
+
+the * has a higher precedence than *
+
+integer multiplication division and * are much slower than integer * and subtraction
+
+however * is faster than *ing even though less clock cycles are used to * verses * according to what my particular cpu s datasheet says about the instructions being used
+
+multiplication and * are higher precedence than * so they get done first - before the implicit conversion to string for concatenation
+
+for example on most 32 bit systems 64-bit * is faster than 32-bit * modulo
+
+* is performed by repeated subtraction therefore needs more level of subtract logic making * slower than *
+
+so if your code has tough data dependency problems * is about 12 times faster than *
+
+performing * on this slightly larger type will pretty much always be faster than doing * or modulo on the type itself
+
+to start with i need multiplication and * to take higher precedence than * and subtraction
+

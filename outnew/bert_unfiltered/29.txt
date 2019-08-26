@@ -1,0 +1,340 @@
+need help vba macro delete files B contains 2 _ older 3 months old however B sub B B must touched modified
+rm -rf B also works faster billion files one B
+would recommend placing common files B solution file 1 B deep
+replace lyebox B faster seemingly problems conflicting scripts lightbox B work
+B deprecated B extend jframe instead frame
+B api works better B normally usage limits implementation bigger
+ended using B bit slower B rich features loadpath
+contrast accessing bits B B usually in-practice safe even though formally ub 1 B typically smaller equal size B 2 B usually invalid bit patterns
+B also probably bigger B
+B lighter B
+hand B easier learn especially B background adopted time slowly paralelly using B
+point view B model easier grasp since B defacto standard feels weird change little
+read B B read B better linq use clauses creates exact query needs B retrieves rows database filters memory
+odd B tolerant B
+happen B frequent B ie
+noticeably look B B internet explorer 9 notice conditions slightly higher B B thus slightly touching main content area
+B advanced plugin B extension work
+remove width green image B becomes smaller still bigger necessary 100px B images keeps unchanged
+B allocates memory preloading 20-30 B even twice ie
+text B bigger maybe bolder B .
+see look bottom right hand edges B lines perfectly B seems directions cannot work either firebug B dev tools
+taking quite educated B forgiving irregular syntax B
+transparency also issue however B seems handle three better B
+B may slower B sometimes needs warm-up phase actually optimize repeated operations
+instead mucking B might get better results B
+larger B means greater B value smaller min value decimal
+date B larger two years displayed drag formulas expand B B
+B validation secure B user cannot see even view-source
+B reliable browser-independent B approach decrease amount incoming traffic server
+generating html B instead writing hand make life dash easier B transformation like
+said B common using B would probably know answer
+B checks better B
+since want repeat tempting put validation one side tradeoffs either B validation going slower B
+load node.js another proxy used monitor changes array B work far greater B receiving yuge requests
+single thread world different use sorted set binary B custom data structure would perform better concurrent B
+looking B equivalent webstorm B actually powerful B
+Bition B worse done sequence two operations second operation requires first completed - compiler producing two B operations independent data
+popular wsgi benchmark says B slower B
+B harder B
+need implement B handle B externalizable need control B process
+taskproperty class decorated datacontract attribute datamember attribute property B faster decorated B attribute
+firebug donâ enabled launch B time equal 2ms faster B difference empty filled array disappears
+compute B power two using bitwise simpler generally faster performing B
+observation get webpage title using B lesser time using B
+textmate known perform well large files B supposedly performs better B large files yet supports legacy textmate syntax parsers
+useful pieces would B database access simpler B full orms async-httpclient calls web services
+construct B comparative slower B
+B around 4-5 slower B run single process touched everywhere environment
+B access bit faster like 5 faster B remember correctly local -- network involved
+B slower B
+need perfect B even B wider longest word B center enhance visibility
+course B algorithm going chance collision better options B would still satisfy 1024-byte limit
+B cake generates complex B
+B functions somewhat faster B one fast functions md4 faster simple enough included application without hassle
+using non-reversible B B secure store B value clear text
+also B algorithm slower sha1 B sha1 B made speed - useful property storing passwords
+difference crc32 B B generates larger B harder predict
+maybe like xcode bot attempting archive development B development B easier B 4f96f173-7ebe-4892-b283-52489de2f409
+performance difference issue B better B also troubled hours even tried move web api console application test console application similar performance good B web api
+using B efficient using B like aju john suggested comment unless dealing really performance-critical huge table - find easier deal
+B files natural support transparency also smaller B files
+B involved setup B allow customization displays
+B reliable since get feedback immediately unlike B provide reliable exceptions failure triggering event
+fortunately vbide B methods working vb projects B version vbide
+B better B better error handling
+kind processing easily done B expressive B
+B one B interrupts run different B cores time
+B pre-dates modern tools like B gradle feature baked
+alternate build tools B configuration gradle conventions verbose B
+using options -os compiler tell make small words B unless shorter B calling function unroll loops - B called make shorter
+another spend bit cash 15000 rpm B ssd solid state B although slower B B
+stand file operations writing memory B always faster writing file B directly
+memory consumed might swap B slower B
+also B pattern becomes testable mock view fake object test B unit tests
+probably compiled jit away avoid B performance critical far slower B
+want use B used extensively yet partly exercise gain greater mastery B
+pov object B paradigm used fpc object B dialect coexist default object B advanced lightweight integrated interface-based plumbing B xe2 compiler on-the-fly marshalling using rtti
+trying B see like better B
+probably overkill need B mvc framework look heavyweight B trimpath junction
+uses B arithmetic usually faster B equivalent likely significantly faster B type equivalent t-sql decimal type
+done research seems B faster B last one ensures control error detection first one
+considering lack windows 8 love B getting support dropped apps sellable store -- go B -- better B anyway -- side make xbox apps
+want set B B line linearlayout B always higher B
+hearing group leader B better B working coordinates
+considering B research suggested B better support changing schemas along B
+said B acid compliant B handles fks needing would generally recommend based expressed post
+feel B mature robust B
+B capable B etc. django
+however often argue B cleaner easier use B
+need spatial data capabilities postgis B better B
+i.e max-B kicks image B greater B B calculated proportionally
+B B discarding allowing
+main use non-square matrix p B B determinant pp always zero value calc error
+image B larger B mark solution leave space top bottom screen
+pageshow pagebeforeshow add class screen B greater B portrait
+B B rotate 90 degrees
+view B greater B able make colorimageview B equal view B since priority 750
+text B smaller B
+B standard alternative B
+might want try B - inbuilt tutorial like find easier B flames pls
+today machines non-issue ever find dealing older gear experience B far likely work wonky terminal B
+t-sql unary minus made priority B lower B
+B faster B
+guarentee signed B always bigger equal B B bytes data lost due lack space
+B better fit B asp .net 5 projects separation source build files recommended purely B
+codebase front-end little reading thought B would make sense B
+B easier extend api B easier extend unix pipes
+also found B ides user-friendly B plt B good one
+noticed common B approach conservative approach B
+B significantly easier really need B
++ consider implementation B stack complicated B instructions executed
+heartbeat nature connectionless contrivance goes B connectionless relevant B connection-oriented
+B also work B need reliability built B
+tldr B ip reliable B 100 iron-clad guarantee nothing ever go wrong
+traversing nat B easier B
+please note however architecture implements B slower B work type fast-paced data intensive games accomplish goals given description
+instead implementing B better switch B
+though B faster B think B faster due congestion
+aware differences general facts like B accurate B fast
+theoretically B 30-50 faster B missing extra trip ack smaller header overhead however reality B would outperform B congestion control
+concur B far appropriate B
+example read experiment stream 300 byte packets sent ethernet 1500 byte mtu B 50 faster B
+network two point high quality B absolutely faster B gprs network B may faster reliability B
+B network overhead B generally relies developer come mechanisms flow control fragmentation handling lost packets etc.
+B slower assures data arrival B faster data corruption may possible
+know practice would happen great amount connection given processing time B connection faster B could potentially happen
+normally server need know client address beforehand B knottier B usual stream-oriented approach socket communication ways
+hello developing application needs send image via B socket.i know B better protocol playing kryonet learnt B better type application.i small class made
+currently baffling results B finishes almost 2x faster B
+B ip supposed reliable B ip see comparison
+B protocol particular easier B
+comparison B see section 3.2 ciphers faster B algorithm
+B resolution i.e higher B i.e col-md col-lg bootstrap cover 11 grid offset 1
+aim use bootstrap 3 dropdown display links mobile B size use display links B bigger desktop B size
+B bigger 1024px green B B background stays yellow
+know obviously B higher B resolution phone pixels dots B ive reading B also higher dpi dots per inch phones well
+B faster parser handle broken html quite well B comes closest browser would parse broken html slower
+even B easier get precompiled version sudo apt install r-cran-rgl B appropriate cran repositories set
+experience collapse B faster B
+used instead convert string number since B usually little faster B common performing action see force string converted number add zero string
+example expression 1 + 5 3 answer 16 18 B operator higher precedence B + operator
+modern processors floating point B generally slightly expensive B one compilers typically replace x+x
+yes old wives tale B faster B
+B actually better B spatial data also supports r-tree spatial indexes powerful queries postgis. need points though B B b-trees adequate
+generally B better preserving data integrity stick go back B also matter engine best fore unless give us details point dwelling
+B generally performs faster lacks certain functions B rollback... table locking
+generally good performance reading B B tables - use count without clause always suitable index clauses B table scan slower B
+B tables even slower B tables inserts delayed write available
+B also tends store data space B
+B wrapper underlying B
+using B suggested documentation B lighter B hundreds
+means first B 0 B 10 second B digit
+realloc allocates B array B almost certainly larger B
+want convert B B need instruct computer Berpret bytes B ascii values - since done believe compiler complain since B holds fewer bytes B
+running test linux gcc similarly pegs B long similar faster B although difference pronounced
+exceptions small B -5 256 small strings Berned strings special length usually 20 B singletons id actually one object multiple poBer
+actually intel sandybridge-family least mul imul B B B faster imul mul 32bit 32bit B
+may also use B simpler encoder B
+even original post B actually restrictive B like
+platform B significantly faster B none providing two similiar functions instead B lead bug
+arm platform working B 3 faster B short unalligned load
+B foo easier parse B foo name-lookup simpler
+necessarily matlab B arithmetic provides precision used provide precision ieee B types
+B comparison optimized B tiny degree performance matters
+first glance must significantly faster B must significantly faster B
+also B better B html element
+actual mounting B trickier business really depends mounting - B fat ext3 xfs nfs cifs webdav
+B works better show simply removing hidden class via B take approach
+B really weaker B
+particular set hyperparameters B closer B response maximum
+nobody ever accused git easy-to-use B example although hear coming might better B beanstalk
+possible find cut B-flow min-cut would B flow network would greater B capacity s-t cut
+115 seconds reduced 3-4 secs plus time used B faster B
+writing B examples would almost certainly give better performance B like
+yes know B better B right stuck B
+conjunction negative B equal greater B top bottom borders remove element
+listview item B looking bigger applying 17dp padding 4dp B top 7dp padding 4dp B bottom textview ...so taking total 32dp extra space excluding textview
+check B slickest method found far definitely flexible B
+B algorithm works first arrange random order heap order obtain sorted order somewhat efficient B average
+heard B better average performance tests performs 4 worse B array random integers
+however B slower B average sense B performs whereas B performance significantly smaller numbers constants
+event B starts degenerate uses B worst-case slightly slower B average guarantee worst-case runtimes
+also mention B built-in may better solution B
+also native B faster B method
+note use foreach B neater B kind thing
+foreach B slower B
+usually going consume iterator single B better use B approach better using enhanced B already uses iterator behind scenes
+foreach B takes time B
+range-based B syntax cleaner universal execute B specified range different begin end
+need set number B generally concise B
+also B readable B puts B variable manipulation one place
+one edit want use B instead asked comments - even safer B since increase buffer size needed would change change little bit
+hunch maybe matter size B big one B item
+think gbn answer probably sufficient wondering whether use clause establish B date per id attribute reduce select clause faster B
+using B effects better thunks testability saga pattern implemented top B B
+function check series integers four different B 3 B - thus four row
+age range 0..100 want also validate crossing values mean B greather equal B
+seems good use geom_pointrange make sense example avg higher B 6 7 B higher B
+going revert original implementation resetting B Bimum user selects B higher B versa
+B occur significantly faster B memcpy free
+B better ui B
+linked comment elsewhere B tends better enviroment B vss unless weird requirements - successfully import history save company money see bosses go
+B prettier compact form see soto answer even compact one B
+B faster B values sorted iterate
+need convert B another base use decimal writing B constants would ten useful B constants
+seems idea B declarative B pure
+B operator higher precedence B
+obvious B would efficient B
+suffix B advanced B also search substrings B
+suffix B lighter faster B used index dna optimize large web search engines
+however tests shown B system anycpu prefer 32-bit application confirm runs 32-bit allocate memory B one
+derivation bcrypt B aka rfc2898derivebytes slower standard B
+upcoming B 1.2 release couple weeks include complete integration B visual studio automate remove need B default environment
+B bells whistles B
+B specific B B implements B unless want specific B .count suggest perhaps add delete use B
+read somewhere B macro service powerful B
+B takes one argument called B anymore
+put filter calls either B B B efficient called filters change modify original filtered filter return back B
+disclaimer would needed throw B idiomatic B
+B implementation smaller whole B using
+B bit bloat maybe try B bit bloated B started fork
+indeed system B willing write implementation B cleaner B + strcpy
+B design thread per client B uses reactor pattern meaning - B handle traffic B web server 50 number requests
+heard suggested use B reverse proxy front B node.js better solution B
+however experience configuring B significantly complex configuring B even worker still quite efficient B
+B actually quite easier B opinion
+want move B since better B
+B resource hungry B tried use B working properly
+especially B becoming distant memory B takes life conjunction core .net framework advancing
+B packet header 20 bytes probably going slightly slower B
+think B make easier raw B would look like
+B Bs expressive B means capture complex relations instance also represent link sets things Bs subclassof use transitive properties hasancestor
+using B secure B sense data shown url B request B
+B B may fix - B lax security B
+B one letter B compact
+try B 100 B returns
+solution B variables well probably trickier users B solution
+B patent B claim prior art -
+B basically Bting retrieving data B body aside cookies place pass info url urls limited length B secure compared B data sent part url
+use B B semantically correct communicative intent request since B usually means sending payload
+usual wait time B long larger B think issue B always Bs back 200
+however comparative table linked B listed secure B
+think using B elegant options development passing via B
+B method faster B
+B request safer B mean invulnerable
+B safer B
+also found B suggests brute force method B urlroutingmodule catch combres.axd route
+firstly B seem secure B
+know problems Bs_per_page nothing working searched B query display one B
+instead using B exactly bullet proof still better B
+1 reading rest method proposes think use B better B
+recommend sending parameters via url B better safer use B form method
+B better B
+tried ides ubuntu seem right - B lightweight actually enjoy using B os x
+might want give data.table package try check B function faster B
+B better B appadmin administrators
+conceivable B slower B
+regarding B B efficient experience handle broken html better B
+according posts experience B definitely faster B
+stores pointers heap B worse B
+8-bit B shim smaller dimension 1 pixel B still work planned
+seems like opposite - B 2.3 gets 2-5x slower B 9.1
+noticed however B sensitive memory leaks B
+alter command path B version command higher priority B one
+sounds B scales well faster B 7
+also forget - B customizable B
+personally prefer B according test benchmarks faster B
+looks correct even worst B slower B
+looked B metrics seems slower B
+B switcht B faster B works even scanning hundreds sites
+B makes easier create B window customized contents
+restart site runs first time see dll B higher one config files kick B procedure
+- went back B bigger jumps B actually ran site B went perfectly
+B setup launches older B setup bootstrapper ui
+upgrading service often disastrous unexpected consequences thus sandboxing alternate B seems better approach plus makes projects immune os B
+B faster B private operations definitely preferred B high efficiency required unless B still fast enough may well
+wrap original stream B efficient wrapped B offers additional nice features like writeint writelong
+running application B 7 B 12 make soap call B restrictive B
+B creating windows better B
+quad core intel cpu B enabled 4 physical cores yet 8 logical B B creates 4 logical B
+usually B preferable B combo
+think use B better B ubuntu
+edit 31 march 2014 worth found B better text extraction itextsharp notwithstanding bespoke strategy implementation B tet slightly better B quite expensive
+really focused opengl may suggest using B better B draw menus using opengl
+1 comparison via B check hashcode objects faster B
+B suitable iterate B
+element B shorter 11 symbols become big B stop executing
+think go approach would end B loads add calls surely even worse B copy
+tried big B around 10 20 faster B solution around 200 fast old
+ie B slower browser B
+B light B B creates view creating table whereas B
+would appear period B message shorter B refresh time
+however really small parameter 2 B faster B
+see B events numpad5 numpad6 occured earlier B event
+words instead mis-using B like - look ways gain control B
+also try B better perfomance B
+hand wikipedia article B seems specifically targeted towards mapping k-d tree B
+calculate B width B container width using B wider B container make transform across x axis shift thumbnails left
+relatively simple solutions B always index greater B
+B views may different width bigger B view
+tip place B blue higher vertically B orange notice bird body raised wings pattern B either side recognize many-to-many relationship exists B
+draft made stuck - distinct heap property know B always greater B
+long B smaller B - work
+handle B two B complex input data set could leverage graph approach even cool stuff
+left B B node
+heap B always B greater
+number methods described fix B collapses smaller floating B
+nodes order like example B larger id B
+compilation mostly reading small files wonder buying fast usb work speed compilation time compared standard B drive lower price B drive 16gb keys 30
+4 B providers might mark B spam however spam checks based spf B checks B existence checks
+use B powerful B
+note please tell B easy B
+B -- 100x better B
+almost new B one core one might support B thus pretending one
+B far rudimentary compared avaudiorecorder - provide recording facilities example wanted also record audio would need use B save samples
+depending use B might fit better B
+B somewhat work B provides tasks
+issue B c# .net B one stream multiple references object references longer equal B
+requesting preview sizes camera always get pairs B larger B landscape usual orientation taking picture
+B B portrait
+bottle thumb B bigger B partly visible
+changing stuff game crashes computer plays move B greater B
+image whose B greater B rotating image using method painting result image painted vertically point 0 0 horizontally right point 0 0
+dont want crop image use think force text element proportions image B approximately 50 larger B adjust font-size text fit container
+B greater B turn display none
+appears format B larger B
+simplest solution swap B B B lesser B always get resolution landscape mode
+first one keeps checking image B div applies .fillB class next checks B applies .fillB class
+heartbeat nature connectionless contrivance goes B connectionless relevant B connection-oriented
+lower precedence B mathematics lower precedence B
+know basics division B higher B subtraction would look esoteric
+allows string B values correct want require text greater 4 B long
+scope variable test B wider scope variables declared header B
+engine find rows B x search within result find rows B greater
+change first condition execute either getnumber B B greater 0 B B
+B advanced little complex compared apache B
+B method safer B data never trust datas coming client side
+heard B better hibernate performance find web hibernate access B private B accessor methods well B private B fields directly
+B line-height smaller B looks like B line-height ignored B line-height hold line box B line-height smaller
+generally speaking possible add B one B

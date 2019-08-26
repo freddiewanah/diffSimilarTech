@@ -1,0 +1,32 @@
+* is more consistent and reliable because it is enterprise while * is geared towards desktops and personal computers
+
+i believe that * is better than * when it comes to mono as it is much easier to setup and seems to be better supported
+
+if your system * is older like * wheezy for example your glibc version will be older than the required one
+
+also i would recommend doing a dual boot to * it s much easier to work with opencl in a * cli fashion
+
+even if you re on * it s much easier to get a precompiled version sudo apt install r-cran-rgl on * if you have the appropriate cran repositories set up
+
+also very particular that this should be done on centos or amazon * which makes things worse for me as i have been on * for long
+
+one one * distro fuser -n tcp 3000 will report a process if i own the process yet on another * distro i think centos it won t report the process even if i own it
+
+see but if you are using a * distro there may be shortcut instructions that make it simpler under * for example there are shortcuts in
+
+i would give you more info except a ip aliasing on * 7 is more involved than i like much easier on * and b i m not familiar at all with configuring nginx very easy on apache
+
+* is more similar to * than it is to watchos although they all have some similarities
+
+since * 10.10 is newer than * squeeze if you can do it on squeeze you can certainly do it on *
+
+recompiling * kernels is harder -- it will require working with * build tools
+
+* has nicer frontend and could be more suitable for windows emigrants while * is more for backend guys
+
+as for * being more stable than * for using as server it can be true in very rare occasions where the package is very obscure
+
+we recently have migrated redmine from a server which was running under * 5.5 with the same ror environment the same load the performance was a way better than on * 7
+
+just a tip but from personal experience i ve found that * works much better on low-end hardware than a modern * distro does
+

@@ -1,0 +1,30 @@
+B is more forgiving in terms of well-formed xml structure see i had to edit the xml a bit to make things work for B and it s actually much easier to work with
+
+B uses the css selector syntax familiar from jquery which i find more intuitive than B s
+
+one of the things that makes B better than B is support for proper css-like class selection or even supports full css selectors if you want to use them
+
+note that using the B parser is a lot slower than B s default parser
+
+the reason for using B for such a task is that it cleans html files better than B do
+
+for starters B is no longer actively maintained and the author even recommends alternatives such as B
+
+edit don t use this for html work use the B library it s python based and much faster than B
+
+B is much faster than B and probably the fastest parser available for python
+
+B enables you to search for elements using xpath which i think is easier than using B s api
+
+B is more suitable for html parsing than B
+
+even when B editors support B their support makes working with .rnw files much clunkier than pure B .tex files
+
+even when B editors support B their support makes working with .rnw files much clunkier than pure B .tex files
+
+the B package is a bit nicer than B for making http requests in my opinion and it sets a user-agent string by default
+
+the B package is a bit nicer than B for making http requests in my opinion and it sets a user-agent string by default
+
+B provides more human-readable wrappers around the base r functions though as of dec 2014 the development version has a branch built on top of B mentioned below
+

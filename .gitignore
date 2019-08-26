@@ -1,4 +1,7 @@
 data/sentences.pkl
 data/embeddings.pkl
 *.xml
-
+hanCode/bin
+hanCode/include
+hanCode/lib
+hanCode/share

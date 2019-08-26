@@ -1,0 +1,126 @@
+that said the date class is much better in php5.3 -- it even has * subtract functions which would also solve your problem much better than * .
+
+rest assured though that * is better equipped in the general case for string comparisons than * is
+
+if you always keep track of the lengths of your strings you can compare lengths and use * which is faster than *
+
+* can be more efficient than * since rep movs is highly optimized on intel cpus esp
+
+but sometimes * performs faster than * because it moves blocks of memory at a time which allows it to perform some optimization i will not go into details here
+
+performance difference * is usually more efficient than * which must scan the data it copies
+
+the wrapper uses these in such a way that even the * implementation is significantly more secure than a simple *
+
+double * *ing is actually less secure than a single * with some attack vectors
+
+it s like complaining that a sha256 * is bigger than an * * - yep it is but only one of them might slow the attacker down for a while
+
+mac os x llvm gcc based crypt fuction is borked junk hardwired to only use des a proven breakable * worse than *
+
+i would like to apply a * code solution on my webpage which is more compact than * and sha-1 because i want to use them as keys in a json * table
+
+of course any * algorithm is going to have some chance of collision but you have better options than * that would still satisfy the 1024-byte limit
+
+finally sha1 * are safer than * i tell you that because you used the * tag in your post
+
+you can for example store a * stored with something stronger than *
+
+this generally uses a * algorithm that is much faster than *
+
+presumably the mac * aligns to bigger boundaries and so it s spotting the pointer you re passing to * can t be correct since it has the wrong alignment
+
+most likely * allocates more memory and puts so-called guard values that happen to contain null bytes or it puts some metadata to be used by * later and this metadata happens to contain a null byte right at that position
+
+one interesting experiment you can try is to try and * more memory after you * d that pointer
+
+suppose char p * n assigns more than n say n bytes of memory are allocated and * p is used to * the memory allocated to p
+
+you can also use * which is obviously better than *
+
+you might have even noticed the * version is simpler than the * version
+
+at best it is a computationally expensive hash function like * that for example is five times slower than * and thus allows only a fifth of the number of hash operations in opposite to *
+
+in most cases it has reviled indexes that needed to be add and in most cases the indexes improved the queries the most but after thet have been added the * and dynamic still perform better than the *
+
+i understand the difference between these functions but my question is when checking for a single null value would * be any quicker than using *
+
+this is pretty much the ifloop answer but * is slightly faster than *
+
+this means * can potentially be faster than calling * followed by memset since it can skip the memset if it knows it will already by zeroed
+
+* is faster since * initializes the allocated memory to contain all zeros
+
+* itself is slower than * because you have to spend some time to clear the contents of allocated memory
+
+also * is slower than * from operating system memory allocation perspective
+
+so here * is reading more than one integer at a time from file so * is not getting the integers in file too
+
+* is arguably a better option than bcrypt * having been much more thoroughly studied and tested
+
+* is better than a plain * because it is not vulnerable to * length extension attacks
+
+in some cases on embedded platforms where a fast * function may not be available these may be more efficient than *
+
+using sha256 with a * will be much more secure than *
+
+decode the passwords yourself and re-encode them with a * i recommend something a little more fancy than *
+
+encrypt the passwords with one-way encryption algorithm with a random * like the common opinionï¼š sha-256 is stronger than *
+
+bcrypt is considered the most secure way to implement password hashing with * because it is slow - much slower than an *
+
+as already pointed out in other answers * is more sophisticated than * such that it accounts for memory overlaps
+
+so in what platform and how * can be significantly faster than * if there is none why providing two similiar functions instead of just * and lead to a lots of bug
+
+from reading other so questions such as this or this gives the impression that * should work faster than * and intuitively this should be so
+
+it is entirely possible that in most implementations the cost of a * function call will not be significantly greater than * in any scenario in which the behavior of both is defined
+
+on some arm platform im working on * was 3 times faster than * for short unalligned load
+
+technically accessing the * directly is faster than using * but there are very few situations in which it will make a significant performance difference and would probably be a case of premature optimization
+
+i mean i think * is way smarter so why do we even need *
+
+you ll probably need to get data anyway so the unique * is probably faster too because you won t need to calculate the * over username
+
+prepending a * is also more powerful than directly setting the seed values because in addition to changing the internal state of the * if the * is not a multiple of the digest block size then it can also perturb the alignment with which the input is fed into the * function
+
+restructuring of the database to just add an * field is better option or the only one really if your going to do it properly but you could use your currant * field to store the * as other person posted
+
+or indeed if your system has * or you re willing to write an implementation then * is much cleaner than * + strcpy
+
+you should know that * allocates more memory and returns its pointer which you then overwrite the original pointer returned by * so it will be impossible to free that memory since you no longer have the pointers
+
+* performs faster and more efficiently than * but * produces less no errors on the same data set
+
+i m well aware that * is more of compiler decision than of user going so far as even to * non-specified *-functions so the user control is almost negligible
+
+templates will be * in the standard meaning of * which is more related to the one definition rule than to actual code *
+
+* * produces fatter code which is faster the * functions will not appear in the call stack
+
+if you don t mind the libc allocation functions * is even more efficient it wont copy the data on a shrink just mark the extra memory as * and if you grow the memory and there is memory * after it will mark the needed memory as used and not copy either
+
+a fairer comparison would be comparing stringstream to the * sscanf line of functions which would be slower than * but still faster than stringstream
+
+in general it is nicer in c to have the caller allocate memory not the callee - hence why * is a nicer function in my opinion than *
+
+the compiler is * to choose a method that is more efficient than *
+
+doing a single * and * is faster and simpler than doing 2-3 * calls
+
+* is a function to read a single char simpler than using *
+
+it requests memory from the os kernel but the request is not satisfied until the memory is written to with * . this allows for greater efficiency in the system s memory management but it can result in misleading * behaviour
+
+the fact that using * with iostreams is faster than * at least in release mode runs counter to the reasoning that copying all that data must be slower than not copying it so i m not sure what all optimization is able to avoid and i didn t really look to find any explanation but it d be interesting to understand what s being optimized away
+
+but for the example you give it doesn t matter - if it s going to fail it will be in the initial strlen so * doesn t buy you anything in terms of safety and presumbly * is slower as it has to both check bounds and for nul and any difference between * and strcpy isn t worth changing code for speculatively
+
+* is newer and seems to support more *ing alogrithms than *
+

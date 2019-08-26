@@ -1,0 +1,56 @@
+i do know though that * has more compares but less swaps than * which i learned from another stackoverflow discussion * vs merge sort
+
+* consistently has less recursive calls than *
+
+* usually is better than * for two reasons
+
+however on smaller int sizes * gets slower and * gets faster
+
+i have read that * is much faster than * in practise and the reason for this is the hidden constant
+
+parallelizing * is simpler than * in-place
+
+i personally would use * for my encryption as it is lighter and more secure than * in fact i think it is the de facto algorithm at the moment
+
+after a lot of googling i ve found that most sources say that the * algorithm is more efficient than the * algorithm
+
+but under what circumstances is the * algorithm better than the * algorithm
+
+in fact i think it is fair to say that * is more similar to * because of its use of iterative relaxation
+
+however if g is guaranteed to have only non-negative weights g is non-positive weights then * s algorithm could be better choice over *
+
+use * it tends to be more compact than *
+
+this is why * is much slower than *
+
+* tends to be slower than * for the same reason.
+
+if you used * then you might see a better speedup over the * 3* observations
+
+asymmetric encryption ex * is no more secure than symmetric encryption ex *
+
+that is actually not the case with * which is --- more so than * --- just a math equation
+
+execution of * is more faster than * for same key sizes
+
+in your particular case an * key of 2048 bits has a lot less strenght than an * key of 256 bits
+
+but if you use public key encryption to encrypt messages you are a limited to small messages -- a 1024 bit * key encrypts less than 128 bytes and b going to pay in performance because public key encryption is much more costly than symmetric key encryption such as * encryption
+
+as far as efficiency * is going to be orders of magnitudes slower than * so the trade-off you make is that you give up simplicity you give up the simplicity of using * in favor of some * chunking in return for poor performance you get the slower performance of *.
+
+because * is actually slower than * for each n
+
+* also has a better cache access behavior than *
+
+average asymptotic order of * is o nlogn and it s usually more efficient than * due to smaller constants tighter loops
+
+the reason * is slower in practice than * is due to the better locality of reference in * where data elements are within relatively close storage locations
+
+in their respective worst cases * is faster than *
+
+i ve read that * is better than * both in the best and the worst case although it uses a bit more memory
+
+if that is so you might find that * runs faster than *
+

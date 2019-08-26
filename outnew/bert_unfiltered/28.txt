@@ -1,0 +1,465 @@
+B clearly cheaper tco technologically superior platform B bit polished hortonworks pure open source read free cheap companies end spending money hw get value
+note first combobox item B jcombobox B better use B
+alternate use B - older worse technology B use flowlayout - puts components one row
+indeed limited range type unsigned B precision type long B
+understand compiler happy B might larger B hold particular control guaranteed value 1 10 know okay
+testing far google B addon far better B
+long B means wider taller B viceversa means read image memory check width height
+started learning B looks better B
+multiple B slower B
+worth mentioning commercial product named B powerful B
+intuition B properties would incurr overhead B properties need B read database converting B properties likely make things slightly worse
+memcache data lives memory B B data
+similar incron however B uses simpler read B file instead plain text file
+second order add update value listview general B arrayadapter easier B baseadapter arrayadapter support add remove insert method
+B even better supported since compatible commonjs B would safer bet
+B system newer system libraries B one
+general testing B well-established product B focussed tests written using bdd methodology behaviour driven design
+B renders longer input fields B ie
+position B always higher B matter padding margin
+also ie B seems work better B
+bad buffering also result slow computer statistics show B better normal-fast computer B works best slow computers
+would like function work B ie B moment works B older B version 49
+rendering without buffering B faster B actually B drawimage
+B slower B boats one highest engines modified version webkit
+B easy grabbed apk ftp server run adb install command one would think even easier B really
+B encodes characters B
+B v8 dramatically faster B spidermonkey moment things constantly flux pick forward loop faster slower engine
+B forgiving could call compliant B
+although B better browser developers B cause gives tools work
+issue encountered B giving height 300px B ie
+clearly visible B far subtle yet also distinguishable B
+B seems animate element quicker B duration 1s enough animation B B needs 2s slower show effect
+B pay up-front startup cost accommodate complicated systems B rpc easily supports
+link mentioned microsoft says c# type keywords aliases Berchangeable need aliases poB view B meaningful bool B32 meaningful B aliases
+however consider B might linear search 100 faster B might dozens
+implementations like B rpython run static-typing phase favor better B
+know B data structures actually smaller B nothing jit
+opinion probably easier integrate B although someone experienced B might prove wrong
+technically B better time-behavior worst average B 2 worst average
+B fewer templates B
+B might better decision B friendlier using custom layouts
+B guessing B replaced efficiently B constant strings string constant B bit complicated B anyway beneficial make inline optimisations
+B ... performant B ...
+really console skulpt.org runs B plugins makes faster B prompt
+issue B c# .net B one stream multiple references object references longer equal B
+google B api parse B
+radical concept know B slower B shortcuts
+found B slow least slower B even relatively small 150k datasets searching records text pattern despite presence indices
+json B fields support json-encodable data type value pairs also tend faster B compact B
+system B older like B wheezy example glibc version older required one
+B gives automatic de-Btion function exit stack usually smaller resource B heap exhaust heap gives back null
+example store B stored stronger B
+double B Bing actually secure single B attack vectors
+merged B opinion better B
+determine B likely better B determined error free use compiled perspective things see availability offset-management lookup compiled behavior given core mess symbol table
+B looser constraints B theory could marginally faster B unless dealing data unlikely see speed difference
+single int column needs sorted B performs better B two text columns
+friend used B however comfortable B
+wB stick lower level basic file operations B better bet B
+turns B really better job managing dependencies B build.xml files ivy
+take look gradle could provide freedom B easier use B
+first B younger tool B make expect going take time get maturity level applications
+would suggest start B specifically B formerly plt B
+working simple B project get acquainted B hit small road
+B orders magnitude slower B cause significant difference query execution
+since using B faster using B zB allows linux make use B swapping paging required especially older computers B installed
+libraries allow on-B data structures comes mind another one whose name recall moment B accesses orders magnitude slower B
+B quaternion quaternion b nothing B multiplicative inverse b
+comparison B haskell B es6 farmiliar B B want represent languages fairly good B
+measure properly see essentially difference B microscopically faster B example well within noise
+make using source control system supports branching merging experience B B B better B free
+B relatively complicated compare B harder find ready free solution
+communication via B complex uart B solution
+B popular first therefore articles web better tooling programmers care need advanced features B offers
+add layout_weight properties sub views well.assign 3 imaveview 1 B B always bigger B 3times B invade imagevies space
+told B better B displaying hierarchical data installed B ready go
+B little strict B type conversion let implicitly cast convert numbers strings
+B told optimized faster reads B pretty ridiculously fast # transactions sec support sound like
+say B better bigger projects think go B
+also B bit robust B free
+B far powerful scalable B silly limitations gotchas
+B somehow resistant B sql injection attack dbi might
+triggers B syntax bit complex B execute procedures action
+B œlandscapeâ means B greater B
+paint text red window B B
+rather using fixed B B better create layout allows textblock adjust B
+font.getsize text return B B pixels text method splits string words verify word greater B image concatenate word variable
+assuming units probably want set radius based y-data dimension figure B greater figure B
+issue user may link image extremely large B B B B div causing overflow layout issues
+B greater 320 B greater 480 scale becomes close 320x480 possible keeping proper proportion B B
+B bigger B result unallocated arrays stands
+since want portrait preview need rotate image consequence get images B larger B transpose original image
+ironically enough object model B details B - good learning bad abstraction
+forget use default B restrictive restrictive need re-run non- B
+B far common B
+since B uses two arguments type size_t allocate bigger blocks B ever able since B takes one argument type size_t
+removal B better tool called tr B delete characters
+B focused browser libraries css B server-sided stuff using node.js
+post subject birt world blog specifically relating xls emitters although tribix emitters mentioned also enable output B microsoft format readable word concise B
+hear stuff B slower B
+however wish use custom B uses internal cggradient drawing instead produce smoother results B see
+alignment may fail B B narrower B int
+B newer name B B B refactoring productivity tool devexpress extends functionality microsoft visual studio 2002 2003 2005 2008 2010
+B comes 41ms performing better B still great
+firstly properly use multi-thread B last time tried success anyway better results B
+B better B
+4 B slower B
+think B perform better B gcdasyncsocket transfer
+B sockets- guaranteed delivery bigger payload B cumbersome setup web based solutions
+considered B suitable sending series discrete data sets need reliability B
+client connections permanent clients connected time B slightly worse B
+issue phone B height landscape mode likely B pc
+B phone may 750px B width go viewport
+must also add designing rsa private B substantially shorter B speed operations security risk B smaller 29 B length cracked
+want B higher precedence B
+strong like math B stronger B 3 5+3 15+3 18
+well-known processor instruction B takes several time B division even worse upd see
+B overhead uses row-level locking reads writes happen concurrently without problems B table locking incurs
+B support transactions referential integrity trade-off bit slower B
+B faster data warehousing situations full table scan reporting etc.. B actually faster normal oltp queries
+script tested using B indexes products relatively fast faster B
+noticed B worse performance B
+B 4 bytes represents 2 bytes B consumes memory B -array initialising full B -memory 0 setting B -variables
+use B x x 4 B greater B one
+types example B unsigned B rank B Begral promotion performed
+B values smaller B strings fit per page nvarchar mathematics easily done B
+well need B better integrated B B handle file uploads actually everyone use put also icefaces actually better managed maven currenty using... neverending story
+cannot B methods B
+B laptop runs slower B oddly enough runs speed B server
+note B overhead B determine direction copying safe
+B efficient B. general use B
+understand B B clone retrospectiva seem support agile methodologies via nice plugin
+try B think better B
+B takes longer B
+unfortunately B worse poorer integration rest qt facilities B
+B implemented plugin bit different better B sort-of-self-contained widget model
+B simpler B need clearinterval end array
+going stick maven want plugin maven code-coverage job think B better B stable last build 2005
+aside mean B homoiconic B
+bad use B little tamed B like B end loop
+would happen B package larger B
+several tests found B quicker B think around selection sort also faster insertion sort
+citations real world tests show B significantly slower B average
+variant B particularly suitable sorting large amounts data relatively high cost per compare operation needed average better B
+view 1 clumsy involves unnecessary creation arrays even though for-each B efficient traditional B 2
+use foreach B slightly slower B works almost equivalently practical
+try 1 B text get bigger available B auto split second column - columns 1 150px
+B provides extensive api documentation B
+make B accept one B div
+size B div smaller B div fit B container
+able remove unwanted behavior described turning B parent element added margin padding slightly larger B snaptolerance
+B aims lightweight B B far mature proj
+heard B keyword like never B exception rather
+layout problems conquered using easy understand opposed B groupedlayout far robust B
+fail B age row 2 B age row 1...
+value B + B-B 2 B B B step 1
+4- need loop B check rating higher B
+since B larger B one two always happen
+may apply empty array works well B B
+although could tell dancer2 plugin passphrase use 4-byte B easier use B Bedhash everywhere
+B powerful B
+part point B make use branches merging easier B
+finally consider one B well one B running B
+B operator higher precedence B operator -
+platform probably representative microcontroller test shows platform B considerably slower B
+called strength reduction operation B weaker cheaper operation B
+see also malloc + B slower B
+machines B slower B machines j multiplies j divides run faster 2 n-2 B one B
+recently someone suggested B always expensive B
+always need know magic number 0xaaaaaaab correct operations B shifts additions different depending number want divide take cpu time calculate fly would slower hardware B
+B animation 200ms longer B B B 200ms total animations run parallel B one finishes last leaving color red
+attacks involve generating B common passwords reasonably complicated passwords becomes harder especially B use usernames B use randomly generated numbers
+B however performs better B slick gui-based admin console whereas B administrated command line
+B quicker though honestly struggle see difference except high volume sites quickly become web server specific need B
+example B considered faster B nodejs application considered faster application
+note diffseconds cause overflow B becomes larger int32.maxvalue error B function resulted overflow
+Bs size restrictions B least configurable setting server larger higher end B request would
+also remember B request looks appropriate balusc says good practice use B bookmarkable page-to-page navigation
+B shipping takes longer call B alert shows session variable updated
+B data inherently secure B data
+B better formatting specific B
+blog B provides info B started
+B little complex B though
+please always try use B method submitting data secure B method
+also note using B absolutely secure B request parameters immediately visible url
+B B advises ideas rather solving
+B compact B since B requests url-encoded
+would suggest scheduling B using sophisticated B
+recently migrated redmine server running B 5.5 ror environment load performance better B 7
+either B easier maintain up-to-date B see programs like B work
+B focus simple better complex B focus explicit better implicit
+think find B even easier learn use B
+B going require little work B
+one use B sooooo better B
+found production B better easier B windows B encoders tried really good stable whereas pretty every tool natively output B
+prefer use B better B
+thing like B smaller B get correct aligment
+sorry long thought instead dividing several B convenient B one place
+B better want truly restful ensure uri uniquely identifies resource use B
+used B file size 2.1kb considerably B jpeg
+sometimes B faster right parameters warmup B 3 3.5 fast system particular
+one install B makes easier run unit tests major unit testing .net frameworks nunit B vs tools
+B plugin nicer mature B
+also found B faster B
+searched google found B better performance B plan replace B B project got diffrent result run test
+B simpler B faster
+B faster smaller documents B faster large documents
+also looking B B sfml didnt see tutorials help heard better B
+instead B better use upload goal B
+change B else must greater B B first condition false system check connect without using tls
+B older work need B
+xcode B lower ios device image either copy disk image already updated xcode maybe internet B xcode
+B provides good looking components B
+B known slower B consume memory using plain table model anyways try B
+application self-sufficient would recommend going tomcat B resource intensive well B moreover B costs money
+thus B faster foreach-loop B must
+instead generating two large matrices row column indices use B rows B slower slow double B
+looping B better use regular B
+may also find B work better B 32 64 bit support well supporting .net2 .net4 - copes better target processes spin processes actual testing
+otherwise still possibility change B access B package private access restrictive B
+right using B probably better use like even existing protocol like B
+value disjointed B value d1 1e+99 added B
+B sorted manner could look extreme ends end B greater targetmax say look B 1 4 backwards end etc.
+chapter starts short course xml general talk atom syndication feed example continues standard xml.etree.elementtree continues third party B implements interface full xpath 1.0 based B
+since B higher z-index B need change default browser stacking behavior
+selects direct B B exactly one level deeper B
+B views height set wrap_content know behavior wrap_content fit content size unless bigger B
+B greater equal w level tree one B greatest element w
+heavy application logic opposed work networking files database B faster B things slower probably need profile perf-test go far either path
+since tagged might find B useful B real conversion request since requests topic stack overflow
+use B mobile oriented B use c# write tests
+regex B slower B hand-written parser
+B portable B
+B javafx would better B
+know thinking use B instead B moment comfortable B
+one good programmer productive two average programmers vaguely remember old ibm study concluding someone top B 27x productive B useful see programmers ways
+detecting thinking may mistake part - B specific B
+1 B range smaller B pow 2 100 fails
+could add dropzone B area hidden template looking elsewhere heard B uses processor B would prefer keep together
+B worse design move things B class downcast specific class
+one want move B secure B
+B dynamically typed B support reflection
+also use B B B would come
+find B nicer working core audio B
+think move B prudent think overstates argue B significantly secure B
+early month started learning B found fun easier B
+edit found B proposing query throttling everywhere say B better B
+say B suitable interaction database B
+view expect B need change view declaration also really need perform find use B first return result B since payload B smaller B
+read B B read B better linq use clauses creates exact query needs B retrieves rows database filters memory
+know using B better B another query going performed
+certain kinds transactions B session may perform slightly faster B session
+happen B frequent B ie
+B v8 dramatically faster B spidermonkey moment things constantly flux pick forward loop faster slower engine
+linux B displays text one pixel higher B
+try make shooter game c# B imagine make ability shoot 1 B one null-object B-class player presses space object gets link new B
+B B better B worked
+always use B module time trials far accurate B
+finally ran B delighted discover lists got really deep B running significantly faster B
+B better well suited different kind application B
+B sensitive input sortedness positive B
+complex xml reading writing better check B heavier B
+B would probably better B
+B binding grids better B ones
+looking B equivalent webstorm B actually powerful B
+look quick start guide B site difficult B powerful
+B seems mature B judging amount applications games
+specification atom B offers value B one internationalization content types things every modern B reader supports
+B higher priority B
+personally using B right find easier B searching navigating everyone taste
+using B supposed ti faster B depth seeing slow performance
+practical matter B simpler get value straight B rather conceptually complex cadr car B
+B gives functionality B
+need perfect B even B wider longest word B center enhance visibility
+browser B 768px set 110px B
+take consideration borders take B B 1 either side large container means 100 B
+finally sha1 B safer B tell used B tag post
+corecompile input file buildagent temp buildtmp.netframework version v4.0 B client.assemblyattributes.cs newer output file bin B dllname.xml
+single int column needs sorted B performs better B two text columns
+use B better error reporting B
+definitely need svg want use existing may want look B raphaels younger sister shares codebase another like B
+saxon-ee supports streaming large xml documents using B B streaming better supported B B
+one addition embedded B architecture usually cheaper mainstream B raise product life considerably
+first B younger tool B make expect going take time get maturity level applications
+B B different real point comparing B still B + dependency management
+B better managing dependencies B use B+ivy build artefacts
+B even ssd orders magnitude slower B
+B lead better results B source
+cannot propose knowing specific needs want use free excludes oracle already experienced B try B powerful B
+saying B better security whereas B becoming feature rich.
+since B sane B tricks report
+B compliant comfortable B using probably use
+B optional hstore module might better B this.
+anyways B bad longterm especially enough good suggest use better B really satisfied think
+B better B ways
+B better suited data warehousing compared B
+however often argue B cleaner easier use B
+possible B make shorter B calculations hard everybody implements
+B community stronger moment might want check B forum answers basic problems post B forum
+looks like page landscape dimensions page created B greater B
+3rd circle B B .bublina B smaller B thats border-radius 100 making circle
+essentially detect view B larger B rotate view contains boxes
+set size img max-B set 200px B smaller B image B auto preserve aspect ratio set max-B 200px B bigger B
+basically small medium sizes vertical layout B bigger B
+assume live poor coverage area phone tower constantly dropping signal re-establishing B connection worse re-establishing tcp connection modulo B handshake
+developers community might seem B larger community developers career B found bottleneck without answer
+according experience B easy use pros cons every framework used B projects think B better B
+also mentioned elsewhere B better css visibility B sets display none visibility
+things like cmd B know - yes cmd B kind shared network B thousands files ls significantly slower B
+according benchmark B little bit better B serving bigger static contents B would good static flv contents
+definitely using external editors however B ten million better B
+actually switch B always better idea B ask give character position caused stop parsing
+find B fine hand certainly harder B though certainly see would favorite tools use
+B harder learn B also learn svg able create better animations
+even handle B better use B since optimized purpose deep dependencies among things
+B display fonts without specified size significantly smaller B
+browser matter though B gets consistently working results B
+try google search website loading slower B B get results B slower B
+B works better B
+generally ienumerable B even better B generic unless want limit good course
+first fiber compile apple B use thread_local apple support according found online think implement better standard B want introduce break abi later
+reading documentation think need download B seems better supported B
+noted languages like variable identifiers alphanumberics underscores common B allows characters used like least B
+also checked B seems pretty cool easy relations data easier B like hear think
+B capabilities helpful integration tests B focused unit tests
+non-unit testing B might better B
+B extremely faster B suitable stream user voice input
+alternatively used B hungry B
+B faster B form flow control error correction
+B faster B acknowledge congestion detection
+confused B throughput bigger B
+assumend transmission using B faster using B tests proved B transmission 7 8 slower using B
+going internet understood web sockets encapsulations B slower B ofcourse cost reliability couldnt find info websockets B would ideal implement server
+using B obviously slower B
+since fp B shifts smaller operand mantissa operands B add certain magic number force
+another side note B inside xpath string looks bit tidier escaped B imo
+B however forgiving filesystem sensitive least dev B version default B
+though unrelated actual B generally slower B least unless really need keep small B almost certainly better
+done extremely large image feel B might better job B
+B often faster B safe use production environment critical data
+plus make tables B generally suitable B
+B concurrent B since provides row-level locking
+therefore accessing B consumes resources B
+B reliable B
+right B better frequent concurrent updates inserts B
+could also get Beresting results getbit type B type bigger B values array bits set outside last least significant 8 bits number
+example B might occupy space B might B lives address B ever live.
+size B certainly larger size B
+happens value expression promoted B result larger B
+years might architecture B math faster B think exists today
+B powerful B necessarily richfaces icefaces mostly extend component set anyway fall standard html components rendered B
+good example time know basics - think understanding ins outs B helpful B since
+regarding skinning feel B default skinning basic B one think ways make beautiful css skills allow
+work directly B easier playing B unless specific requirement typically need manipulate actual frames
+B claimed faster B although modern versions B also fast enough
+view using B simply easier unless experience B
+pop lines array using B better B animations
+understand searching B better approach B using initially figured specify function needs repeat
+routine initiate per second - B usually useful B
+numbers always equal greater B value equal B value
+note json rest B going better pure B
+point using B instead defaulthttpclient apache B threadsafe android better supported B
+execution B faster B sizes
+like B slower B
+httpwebresponse B little bit lower level B
+B zipwith friendlier B list.map2 requires lists length
+impression implementantion B kind adaptive delay gets bigger B count increases
+think using B easier using foreach B
+secondly find B easier B implementing logic need keep track B counter manually
+difference two B one statement second double B B slightly longer game second B rendering 3 things 3 platforms rendered point int time
+use foreach B slightly slower B works almost equivalently practical
+B runs 3000 faster B
+split string regular expression saying B one B one B
+basically thing B depend sub-B least lighter B views services need load sub-B needed
+B better accept kind view B supplier general already hold existing view especially gwt let B decide instantiate accept view
+B far easier B learn specify constraints
+subjective B provides nicer coverage reports B
+opinion elegant solution jsf think B ioc container makes powerful B
+hunch maybe matter size B big one B item
+alternatively could set width B twice width B area combine set width one options better user experience
+B set higher z-index B B always visible B
+B provide kind thing box - designed little low level B
+B better serializer B socket objects os thus sending socket object multiprocess works either
+cloudB might good idea well better support pickling objects B per see better B B easily well
+B powerful verstile get started feel better developer get started like B
+however current opposite continuing run productindex B greater B
+dont want allow user enter B value B value
+B values seem bit odd powers two decimal 0x128 0x standard prefix B numbers larger numbers magnitude B representation 100101000
+unfortunately using B consumes space takes significantly longer dealing 500gb data around 1 2 million records would really like get straight B method work
+B smaller B
+also know deal B better B ogg
+read painting B sometimes faster B would extra work mouse handling think
+building previous good answers B actually versatile B providing overloads
+wondering mainly B uses disk space B
+linked comment elsewhere B tends better enviroment B vss unless weird requirements - successfully import history save company money see bosses go
+B supposed better B areas work well
+methods give us access private members known getter B better knows accessor B
+bit suspicious performance modulo tends use B slower B operations
+today desktop systems int usually 32 B wide correspondingly larger range B 32767 32768 talking
+B B architectures differ enough certain tasks bitcoin mining B vastly better B
+read B better B best worst although uses bit memory
+probably need get data anyway unique B probably faster need calculate B username
+prepending B also powerful directly setting seed values addition changing internal state B B multiple digest size also perturb alignment input fed B function
+B specific B
+cons B get B - also get gulp-utils things - using gulp first place
+disclaimer would needed throw B idiomatic B
+well B right B weblogic business-bean-classes ejb-local-interface
+B without optimizations done faster B
+seems B busy B
+B might better B one long polling long polling better periodically polling server
+also B uses memory B
+apart might want give B try - works lower level B give control happening unlike jmf good actively maintained project.
+fortunately B finally ended completely pixel based still alter viewport scaling .net seems handle better B
+avoiding modifying B easier fixing issues B
+created application instead B thought B easier learn B newbies even provide features
+taking input use either B B.the input shown url using B B used.is situation B useful B
+speaking B request types also know B requests tend perform better B
+B better B
+hit problems larger submissions file-uploads size limit B smaller B
+far security goes B better B data sent behind-the-scenes rather embedded url making typical protocol login info
+standard B request secure B one
+trying B deeper B pre incrementors bit stuck following expression
+ajax calls using B performant B according yahoo
+B secure B
+run ab test several results B faster B lighter
+B B advises ideas rather solving
+B better customizations far clientside bells whistles B little harder make look pretty pretty good serverside interaction understand
+reading large csv files either use readr read_csv data.table B faster base B
+B admin better customizable B appadmin
+B cms great framework better B popular moment documenation lacking
+prefer use B better B
+prefere B harder understand faster B
+B let use xpath think painful B interface
+words like arbitrary processing neither safe make B sounds secure B
+docs link say B request simpler B request uploading file along advantage disadvanatges B got compared B
+B mean update B means insert
+point article trying make B easier implement already B place
+B particularly fast B almost compete binary serializers B 2-4x faster B situations 10-20x faster utf-8 special utf-8
+looks correct even worst B slower B
+B switcht B faster B works even scanning hundreds sites
+tortoise B new branch may safer force B B
+locations convert go windows 7 perhaps application use internally B needs newer browser B
+kernel B 2.6 recommend B
+B better ajax support B
+used convenience B reliable converting htmlcollection B
+hits B longer numtotalhits B limit numtotalhits instead hits.length
+using B found B better B features
+thinking using accounts B seems better created project zero B tried integrate B
+use B B safer B copy string stored array arrays
+means private better B B better B ..
+ease debugging pass value reactive values print first date B value console rendered check whether smaller bigger B max corresponding date column lapply function
+know B performs better regex B performance really bad comparison
+cs B commonly used better B merge-sort come mind
+decide want use B significaly faster B
+copying text result B always easier retyping B note B focusable
+B element B belonging stacking context #root demo negative z-index order let B stay lower B z axis
+B height greater B need set height B B
+one B fewer two B tree binary
+assume data structure represents tree nodes numbered B always lower index B
+keep B better B
+ultimately want filter B objects 2 B
+makes example B proxetta significantly slower B simply reads methods via reflection api overrides
+seems B slower B reading text files
+last resort resolution suggest security issues using B always safer switch registry use http instead B
+B probably easier B tkinter want start framework war

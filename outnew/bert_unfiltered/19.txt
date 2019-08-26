@@ -1,0 +1,314 @@
+last floating poB arithmetic particularly B precision complex B arithmetic reasonably modern pipelined processor instruction take longer execute
+upccode B larger long data type tried B float works
+work platforms B 64 bits would work platforms without 64-bit B
+another thing use B user friendly also memory consuming B
+note B arrays sensible B
+entity framework B implementation picky creating new objects objects regular linq objects B
+situation B appropriate B
+even though B faster still use B good enough free cheap
+may also consider using B easier customize B
+B console gives information B console
+able enforce browser usage find B android preserves line breaks copying pasting better B
+however smaller int sizes B gets slower B gets faster
+also B input essential important B interaction
+example use B B
+B gives remainder better straight B situations number change
+want give padding B set line-height property headings B
+rebuild new B format in-memory data smaller current B data send new B format data socket remote server
+seems using B better approach read seemingly off-hand comments B poor approach
+B efficient protocol B
+B values heap allocate B may given back dirtied memory scribbed earlier
+B meta-program use B scripts run junit tests
+also find B ivy better documented B although difficult
+lob-storage B time query execution need read B course slower B
+B works better disconnected network - B tell server done checkout
+B soooo faster B check-outs stored server check every file update
+unfortunately B select count often slower B often get compared
+B optional hstore module might better B this.
+screen always gets rotated landscape instead set portrait B smaller B
+working fine square images B greater B
+checking whether B starts 350px greater B 325 whether B 325 greater B 350
+example absolute difference B larger percentage difference B higher
+also see screen B larger screen B since sometimes especially first launch uideviceorientationunknown
+B higher B
+majority desktop laptop screens nowadays B greater B
+picturebox saw image left rotated.but image B bigger B
+personally would extract separate class could isolation verify given B larger B returned scalr.mode.fit_to_B
+photoshop opens shows vertical mac preview getimagesize keeps telling B bigger B
+developers community might seem B larger community developers career B found bottleneck without answer
+B correct course could embed B over... put performance microscope B may win
+B B status bar android 4.1 api level 16 higher using B B functionality
+hence B runs better B thingy
+addition B rectangular bound calculation cheaper B
+B supports connection protocols infiniband-enabled version B called mvapich
+thanks mikushi comment another possibility used B extension also helps profiling generate callgraphs -- lighter B mean able install production server
+personally say B might edge encourages convention B would
+B market B invitation flame wars personal opinion without weight -
+first B datagram simpler B one
+perception B faster B think depends situation - take look discussion discussion speed reliability B B go high scored answers
+B certainly going reliable B since B guarantee packet delivery probably application hanging receive
+attempting beat performance B shifting B keep mind part get lower performance B B tracks redelivers lost packets
+2 used link1 link2 B duplicate users existing one B
+B higher precedence B + 2+3 4 interpreted 2+ 3 4 normal math
+well know first one precedence - binary B operator higher precedence binary + B operator resolved first
+look speed operations B drastically slower B
+B cheaper B
+B computationally expensive B
+B often faster B raw performance mostly acid
+table sounds fairly large doubt held entirely memory sounds like B handles indexes better B anyway plus since specific may caching result query
+furthermore control engine B B B performs better due row based locking instead table B
+B inserts going faster B logging data retrieving later win
+B often faster B safe use production environment critical data
+since sql server support named constants B far descriptive B used stored procedure views constants
+B larger capacity B conversion guaranteed work
+depending B B system assume B bits B Bermediate sums may overflowing
+example declare use could declared since B uses memory B gcc optimize even matter since converted assembly
+string.substring B startindex B length might help need split Bo chunks one B
+hence B accepting B contract promises
+B interfaced able take B interfacec use method
+B higher 0 B lower 0 axis means tiles outside camera scoop
+know buffers cannot overlap B fine may given use optimizations allow faster B
+B complex instructions B
+common architectures like arm B sparc easier B instruction set
+device B destiny B - use default values folder
+B would better B
+good formulated little different opinion example B slower B
+B definition slower B drawback execution speed even noticeable applications
+could described compiled B probably easier think B bytecode B
+using B potentially slightly order milliseconds slower using B directly
+worrying B flexible B object changes
+B older B could expect would features
+comparison B vs B - B voted better B
+use B 100vh .container pulled .footer minus B
+may ommited B lower available - thus negative B may work
+first row B larger B bottom .content div B-bottom contained effect outside container
+however integrating B winforms may difficult B
+note using apply functions instead B better depends actual purpose B
+B easier read initialization B condition expression executed iteration one line
+know giving B B work split wrong information road name B info split wrong column
+B parent element ice cream wrapper bigger B one teeth
+B set higher z-index B B always visible B
+warning mt_rand B -1 smaller B 1
+B age bigger B age
+2 check see B greater next entry B
+throws data B greater B
+p.s. recommendation would remove jsonobject conversion instead return object actual class internally spring uses B powerful json framework B
+additional bonus find B works better package manager B
+pretty possible compute polynomial B efficient B see following table algorithm 3 slower single B
+B takes time B try
+would also suggest replace like l1 0.3e1 B faster B
+always taught B slower B real proof thisâ anyone got opinion start benchmarking running test
+important long alpha small otherwise run rather weird nyquist issues aliasing etc. working processor B cheaper B fixed-point issues important precalculate omega
+one idea uses one B one shift faster B systems
+arm rather 32-bit os B uefi technically possible would still require operating system loader B even fiddlier B
+B specific B
+B flexible B great base build web application api
+B performs better B
+B especially ttl excceeding message even limitations B nats error message sent every corner internet routers nat cannot aware ones
+using B method necessarily secure B
+another B outlines details B master-master replication subversion
+B broader application generally used send persistent data server prescriptively B used purpose
+sometimes B better read-only makes url scheme richer avoids sort B warnings
+maybe would mostly always choose B B tidy refreshing going back issues B method thing past major browser ask want resend data
+yes generally B better submitting data B
+B system want box B larger B come
+B secure B http protocol
+B recent reply want B replies created_on value also B B B_id subject
+usual tagging B objects tag tags used applications may give B
+considerably facebook states documentation least looking date however count seems B 50 B
+provide number support resources may B faster response B third party sites including virtuoso users mailing public support forums confidential support
+creating friendship B method suits better B
+expected performance got better B 2 faster B 4.2 profiled papi found total number miBs mainly l1 l2 increased
+turns B better suited customisation adopted instead using B
+B used sort methods rather supernaturally fast complex algorithm B matters working like - need works pretty well simple go B
+sriwantha B simpler framework B
+well aware B compiler decision user going far even B non-specified B-functions user control almost negligible
+similar argument made B functions B generally faster remain big-o complexity class although additional size tradeoff B makes compiled program larger used places
+note B probably better B kind task nowadays given B author
+using B values realistic - need B values rotate new coordinates nearly always non integral
+use imagecopy insert B image including background imageB generate B output better line art jpeg offers better compression B support 256 colors
+know works assume B slightly better behaved B
+suitably large examples B overcomes constant factor slower std B actually operations like lookup insertion
+painful going us perform B probably better commit time get latest B try find older B reduces effort
+simple B concerned memory usage B consumes memory foreach foreach uses internal copy B
+working higher-dimensional B ends faster B -based
+work applications yet afaik B ezpublish considered professional B
+even though everybody says slow B 2-6x faster B
+note B operator higher precedence B division like mathematics
+also notice changed B event B better opinion cause user holds finger button fired B event
+B better B 3d trying prove
+also take look B lower overhead B works B forms
+widths B often larger width B
+also seems duplicates heap seem completely capable staying order B smaller B
+could similar using score values sorted sets giving B score lower B
+B smaller height B floats bring top whereas inline-block screw sometimes
+consensus seems B easier use B come open source easy customize merge community
+indeed limited range type unsigned B precision type long B
+precision data type B smaller precision B function pow returns B therefore value binarychar implizit converted B on.
+resulting B higher B value simple B math sometimes stops working
+normal 3 treated B test function retrieving B bigger B platforms might end reading wrong locations Burn leads exc_bad_access run time signal generated
+matter second member would B short whatever - long smaller B sizeof struct 16
+B buttons addition B mode
+noticed site working looks different B browsers saf B saturated B even background-color rgb
+B forgiving could call compliant B
+trying add ribbon page using css3 linear-gradients rendering B looks pleasant B ie alternative
+example using renatoargh test B faster 2 B 1
+B faster B deal huge training data
+take large function compare B source B B display none otherwise display B
+date B larger two years displayed drag formulas expand B B
+general want B slightly larger x B - x min divide B desired number bins
+trying create figure colorbar extend beyond data B go higher B value data
+use B also performant slightly lower B
+want give padding B set line-height property headings B
+giving middle indicators div left right B slightly larger B left right button divs allow float two take space possible
+would also possible three textblock columns starsized means B clipping occur earlier B
+anyway set B value little bigger B image overlap eliminated specific want
+notice arrow rendered B 296 px inside carousal space left border carousal arrow even though add padding B
+instead reaching 100 B B causing B due 20px x 12
+place 2 div side side one div 75 B 25 B.one div B 0 auto
+negative B half viewport B iphone therefore dragging view
+next eachother means padding B 5 B total B reduce
+understand size point text B bigger B figure
+adding B adds B making total B two B greater 100 pushing onto separate lines
+using function window .resize detect total B open windows plus B greater window B hide first chat window show last one space windows
+B always expands fit size B event B smaller B provide scrolling ability
+B slower B + lst
+image square represents fixed size B rectangle B 1 line smaller height B multiline height larger B
+B higher B B aspect ratio intact max width possible B higher B width maximal parent height B
+form multiple B B default B disable checking least 2 2 B B become active
+unlike radio B user select one B select none
+would need B 2 bigger B
+B bigger B result unallocated arrays stands
+interested B B - size dynamic presume B larger B
+window B larger B grid inside window gets clipped
+vw landscape orientation since landscape viewport B higher B
+look responsive design developer mode circle takes always space wrapper containers B larger B -
+sometimes sum Bs B board cells B B board
+B must 1.24 larger B
+B window ls B 2 scrollbar window enabled
+course ratio 1 B smaller B let say 500px 700px see white spaces left right image
+specifically image B greater B generated B resulting .png B generated B slightly smaller
+assuming B greater B
+note holds long condition B always greater B maintained
+window resized background image shrinks B window adjusted smaller B actual photo
+look always use + - 1 B + j + - 1 lines B else going range
+never B 150px B auto B keep ascpet ratio also fit div
+portrait mode image B image B
+current solution works shapes equal sides divs like B bigger B
+set B attribute 40 might find images larger 120 B
+surely working detect landscape B higher B image need rotate
+example rotating portrait landscape collection view bounds value still B greater B
+B half B depth -- little rule thumb
+alternately could make use background-size contain would preserve aspect ratio leave white space left right B larger top bottom B larger
+B greater B calculations
+B arbitrary B made function fontsize doubling could write shade names rectangles
+program crashing B larger B computer plays
+browser B 1670px B div.banner 1253px let div.title div.social parent div.banner else let parent div.title div.social body browser window
+set image load square 100 B B smaller B 100 B B smaller B
+check B larger B versa
+best approach dealing images whos B larger B regards covering background
+shapes B couple pixels larger B using value computations works
+add new row B greater B
+suppose ckeditor B 200px B 300px end user able add content B B
+good desktop B may larger B probably quite rare though orientation never change
+B slightly larger B
+1 image B greater B B 300
+see squeezed B B
+upload 2 images want check images portrait B greater B landscape need show images accordingly
+successfully crop photo B larger B otherwise see whats wrong
+expect portrait orientation screen B B
+B larger B ratio x instad x minimum multiplied ratio x instead
+seems display B greater B
+allow solve concern aspect ratios tried using vmin help B window almost always smaller B
+rather using fixed B B better create layout allows textblock adjust B
+managed accomplish checking whether pan tilt amount added zoom B B greater image B B stop panning tilting
+updated handle image B greater B
+quite interesting since portrait view keyobard shown B available screen higher B change orientation landscape
+mediasize class inner sizes B greater B
+make image size apply filters means B B image photos taken front camera grater B length may cause applying filters
+B greater B x
+x + button.getB check screen B yes x well bound regerenate random x similary x bound check + button.getB screen B
+trying generate multiplication table t-sql microsoft sql server 2012 stuck B greater B
+add margin divs B becomes smaller B stays aspect ratio changes
+unless screen B 580px B 930px
+font.getsize text return B B pixels text method splits string words verify word greater B image concatenate word variable
+images B smaller B margins observed
+relates another asked back size qt containers B larger B
+B action bar invoke B method using getsupportactionbar getactionbar minsdkversion 11 higher B
+example using dp unit B device 1.5 240 160 larger B
+processors B B slower B int standard requires operations B types wrap
+point architecture news text want able B paging effect news text bigger B
+sounds like want nat traversal B harder B
+know obviously B higher B resolution phone pixels dots B ive reading B also higher dpi dots per inch phones well
+based understanding hope size B B smaller desktop makes strokes get hidden inside area visible B however area visible desktop
+also notice fonts scaling 7 B simply B space available vs 4 phone
+inside container panel text set left B gets smaller B like phone want text panel center
+could make css mobile-first meaning properties optimized mobile B gets wider apply B desktop optimized css
+actual visible size determined B lesser extend B
+B indeed yield considerably faster result B
+must also add designing rsa private B substantially shorter B speed operations security risk B smaller 29 B length cracked
+public B B better 19 using public B work least half eâ² 9 16 almost eâ² 1 16
+B also tends store data space B
+unsigned B smaller B means fscanf overrides destroys memory
+B 1 better B employee types
+narrowing conversion like B B B larger range B yields implementation-defined conversion
+sfinae protected function preferred valid B better match B 0
+formally promoted B usual machine B B arithmetic operation performed
+however explicit cast required second potential lose information since B smaller B
+B larger golden B never
+aware B suitable implements uitextinput protocol methods need due bug ios limited B
+want B jscrollpane stretch size B B smaller B
+consider model B nonlinear like bs ns poly model frame smaller compared model B
+also use B simpler B order set cookiecontainer need derive B override protected getwebrequest method
+use B 100vh .container pulled .footer minus B
+first row B larger B bottom .content div B-bottom contained effect outside container
+want use add bottom B content_main equal greater B ad layout
+B generally faster B unless call depth becomes deep
+B algorithm works first arrange random order heap order obtain sorted order somewhat efficient B average
+regular B better use rather foreach B
+outlined B allowing 1 B item placed inside
+apparently B li element bigger B div li size div 150px width
+means B full width container wider B thus possibly intersect 50
+size B div smaller B div fit B container
+B item larger B div always place appointment B div box directly one targetting
+overlap somewhat forced B bigger B
+first 0 B radius even smaller 5 B radius
+get work B actually lower B
+probably line drawer bresenham modified skip points drawn unless greater B B
+variable give number lower B higher B always equal number variable B B inclusively
+thats really simple try set B count condition must greater B
+B space vastly larger number targets sizable number B check target stored really B looking
+get B values like need values greater 95th B every 5 minutes
+following advise received B cheaper B revised one line interestingly enough 71.2 dropped 1.7 statement shot 64.8 get
+B 15.10 uses newer version libc libstdc++ available B 8
+find make B height smaller B larger
+B vulnerable B transmitted stored
+generally speaking B keyword used allow violate one definition rule define function header give compiler hint B
+B wider color pallete B B properitary B
+icon size indexed B often smaller B
+B files coming larger equivalent B files almost certainly source image 256 colors
+std B behaves like defaultdict B
+loops outer B order get work would better done B reference
+mentioned remove B gets smaller B probably best solution
+example B typically faster B
+said - mdpi also means B resolution B B resolution
+B greater B max throw error
+however naive B get slower slower B increases
+B always lower index B ordered
+since B #wr B #con_bottom fit
+actual size B B B expected number B originally read file push B back onto stack
+heap B always B greater
+myfile one B B one B
+tip place B blue higher vertically B orange notice bird body raised wings pattern B either side recognize many-to-many relationship exists B
+B table add one B email ids
+observe behaviour could wrong B process terminated earlier B terminal prompt printed B output
+would like able let B one B
+table contain two headers B header gets bigger colspan bottom header conforms giving equivalent amount columns i.e index 4 two B indexed 1 2
+specifically compare new root left right B keep swapping B larger least one B heap property satisfied
+looks like B become zombie B handled child runs longer B
+heap change heap insert delete update heap restructured common priniciple maintained B remains always smaller B
+since B higher z-index B need change default browser stacking behavior
+properties binary search tree already know B larger B 15 therefore using one instead 25 valid
+however keys comparable supposed tell whether B greater B
+B belong one B
+B disks 4 8 faster B hdd depending model

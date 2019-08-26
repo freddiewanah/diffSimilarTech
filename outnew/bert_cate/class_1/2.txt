@@ -1,0 +1,44 @@
+you can have only one B but can plug in more than one B to examine and handle the requests
+
+you can have only one B but can plug in more than one B to examine and handle the requests
+
+the app uses a B that never has more than 1 B on it s stack
+
+the B is more of a behind-the-scenes organizer for holding and displaying other B s
+
+the framespace for the B becomes smaller because B manipulates the view by adding a uinavigationbar which is 44.0f in size
+
+the app uses a B that never has more than 1 B on it s stack
+
+the B is more of a behind-the-scenes organizer for holding and displaying other B s
+
+the framespace for the B becomes smaller because B manipulates the view by adding a uinavigationbar which is 44.0f in size
+
+if i set a pixmap to a B that is larger that the window it will add scrollbars so is it possible to get what is displayed in the B
+
+by default when you scale a B larger than the B in which it is displayed it will show the necessary scroll bars
+
+if i set a pixmap to a B that is larger that the window it will add scrollbars so is it possible to get what is displayed in the B
+
+by default when you scale a B larger than the B in which it is displayed it will show the necessary scroll bars
+
+of course uiscrollview can have more than one content view just as any B can have more than one B and this case it will be more difficult to render its layer
+
+change the contentsize of your scrollview.your B size and uiscrollview size is same if the uiscrollview contentsize is more than its B size then scroll will happen change the line overviewscroll setcontentsize cgsizemake screenframe.size.width screenframe.size.height-25
+
+do i just create a new B that is 4px larger than the selected object and and make the selected view a B of it
+
+of course uiscrollview can have more than one content view just as any B can have more than one B and this case it will be more difficult to render its layer
+
+change the contentsize of your scrollview.your B size and uiscrollview size is same if the uiscrollview contentsize is more than its B size then scroll will happen change the line overviewscroll setcontentsize cgsizemake screenframe.size.width screenframe.size.height-25
+
+do i just create a new B that is 4px larger than the selected object and and make the selected view a B of it
+
+does that mean the the view controller has multiple B or that the B has more than one B
+
+does that mean the the view controller has multiple B or that the B has more than one B
+
+the B is nothing more than a uiview with one or more B and background and selector views
+
+the B is nothing more than a uiview with one or more B and background and selector views
+

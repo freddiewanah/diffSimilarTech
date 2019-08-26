@@ -1,0 +1,736 @@
+531825
+rational-numbers	fractions
+Changed: 
+To give you a practical example take the set of rational-numbers or fractions are fractions re commonly called
+Origin: 
+to give you a practical example take the set of rational numbers or fractions are they re commonly called
+
+
+535933
+apache	nginx
+Changed: 
+Not only is nginx supposedly faster than apache at delivering static content but config also offloads your rails application for every image stylesheet javascript or whatever other static content
+Origin: 
+Not only is nginx supposedly faster than apache at delivering static content but this also offloads your rails application for every image stylesheet javascript or whatever other static content
+
+
+538931
+vmware	virtualbox
+Changed: 
+Trying to figure out what vmware products i was allowed to use and how i was allowed to use vmware would have taken more time than getting everything set up in virtualbox did
+Origin: 
+Trying to figure out what vmware products i was allowed to use and how i was allowed to use them would have taken more time than getting everything set up in virtualbox did
+
+
+539584
+boost	stl
+Changed: 
+Not looking at using boost stl but actually using boost
+Origin: 
+Not looking at using boost stl but actually using it
+
+
+539722
+allocator	stl
+Changed: 
+This version works in vs2008 i found allocator by debugging through the stl headers
+Origin: 
+This version works in vs2008 i found this by debugging through the stl headers
+
+
+543581
+actionscript	mxml
+Changed: 
+mxml is just a layer on top of actionscript
+Origin: 
+It is just a layer on top of actionscript
+
+
+548859
+boost	stl
+Changed: 
+If you get stl boost is manageable
+Origin: 
+If you get them boost is manageable
+
+
+550855
+profiling	benchmarking
+Changed: 
+If you really believe that piece of code to be a performance bottleneck profiling or benchmarking profiling both ways
+Origin: 
+if you really believe that piece of code to be a performance bottleneck profile or benchmark it both ways
+
+
+558497
+super	extends
+Changed: 
+Because composite extends doesn t need to be initialized with a constructor no need to call super my constructors of widgets extends composite look something like as a best practice imo only the widget extends composite should call extends s own initwidget
+Origin: 
+because composite itself doesn t need to be initialized with a constructor no need to call super my constructors of widgets extending composite look something like as a best practice imo only the widget extending composite should call it s own initwidget
+
+
+562587
+vsto	add-in
+Changed: 
+vsto means that your add-in is no longer com-visible
+Origin: 
+This means that your add-in is no longer com-visible
+
+
+568356
+wxhaskell	gtk2hs
+Changed: 
+haskell looks as if the haskellized api for wxhaskell is still being worked on whereas the gtk2hs project doesn t mention this issue at all
+Origin: 
+It looks as if the haskellized api for wxhaskell is still being worked on whereas the gtk2hs project doesn t mention this issue at all
+
+
+571676
+debian	linux	ubuntu	linux	ubuntu	debian
+Changed: 
+Some linux distributions such as debian etch and lenny ubuntu and arch include the suhosin patch in ubuntu php package so on those systems you ll often find it s turned on by default
+Origin: 
+Some linux distributions such as debian etch and lenny ubuntu and arch include the suhosin patch in their php package so on those systems you ll often find it s turned on by default
+
+
+574741
+opera	google-chrome
+Changed: 
+tostring is tested with ff3 ie7 opera 9.6 and google-chrome 1
+Origin: 
+it is tested with ff3 ie7 opera 9.6 and chrome 1
+
+
+576763
+jsf	wicket
+Changed: 
+Another team which developed a project on jsf is now thinking to shift to wicket after our success with jsf
+Origin: 
+Another team which developed a project on jsf is now thinking to shift to wicket after our success with it
+
+
+591935
+codeigniter	cakephp
+Changed: 
+codeigniter is by far the most newbie friendly framework and with your cakephp experience codeigniter should be a breeze
+Origin: 
+It is by far the most newbie friendly framework and with your cakephp experience it should be a breeze
+
+
+602926
+cassini	iis
+Changed: 
+You can terminate all running cassini instances by typing exactly like this because iis case sensitive taskkill f im webdev.webserver.exe and hitting enter
+Origin: 
+You can terminate all running cassini instances by typing exactly like this because its case sensitive taskkill f im webdev.webserver.exe and hitting enter
+
+
+604338
+fink	macports
+Changed: 
+If you get python from macports or fink you will not be able to run wxpython unless you run wxpython through x11
+Origin: 
+If you get python from macports or fink you will not be able to run wxpython unless you run it through x11
+
+
+606476
+actionscript	mxml
+Changed: 
+actionscript being said there is a jsp library that you can use for dynamic mxml
+Origin: 
+That being said there is a jsp library that you can use for dynamic mxml
+
+
+608187
+viewdidappear	viewwillappear
+Changed: 
+You set up the now loading in viewwillappear but you never see viewwillappear since by the time viewdidappear completes viewwillappear s done with the heavy work
+Origin: 
+You set up the now loading in viewwillappear but you never see it since by the time viewdidappear completes it s done with the heavy work
+
+
+610494
+strcpy	strncpy
+Changed: 
+Of course you might still ask whether to use strncpy or strcpy in implementing that abstraction strncpy is safer there provided you fully grok what strncpy does
+Origin: 
+Of course you might still ask whether to use strncpy or strcpy in implementing that abstraction strncpy is safer there provided you fully grok what it does
+
+
+623060
+vim	emacs
+Changed: 
+I am currently using nano and i ve heard of vim and emacs but don t know what the benefits of vim are over eachother
+Origin: 
+I am currently using nano and i ve heard of vim and emacs but don t know what the benefits of them are over eachother
+
+
+623068
+vim	emacs
+Changed: 
+Vi and emacs are the two quintessential unix editors vim
+Origin: 
+Vi and emacs are the two quintessential unix editors
+
+
+626241
+realloc	malloc
+Changed: 
+Actually realloc does malloc and free depending on the arguments you pass if you pass realloc a null pointer realloc does what malloc does
+Origin: 
+Actually realloc does malloc and free depending on the arguments you pass if you pass it a null pointer realloc does what malloc does
+
+
+626443
+uilabel	uibutton
+Changed: 
+I keep thinking in interaction problems with the uilabel due to uilabel touch events not getting through the uibutton s view
+Origin: 
+I keep thinking in interaction problems with the uilabel due to its touch events not getting through the uibutton s view
+
+
+626952
+punctuation	words
+Changed: 
+If say you want this ... string changed to this ... string you want words capitalized even if there is punctuation before words try something more like this same thing but it split s on words w + so that the captured elements of the list are word-only
+Origin: 
+if say you want this ...string changed to this ...string you want words capitalized even if there is punctuation before them try something more like this same thing but it split s on words w+ so that the captured elements of the list are word-only
+
+
+630233
+vmware	virtualbox
+Changed: 
+Even though vmware has been faster for me i still use virtualbox because vmware s good enough and is free and im cheap
+Origin: 
+Even though vmware has been faster for me i still use virtualbox because it s good enough and is free and im cheap
+
+
+634196
+union	distinct
+Changed: 
+distinct is done before all the union statements are concatenated check out the execution plan
+Origin: 
+This is done before all the union statements are concatenated check out the execution plan
+
+
+649105
+vim	emacs
+Changed: 
+But vim s good to mention that you could also figure that out by yourself by reading these kinda posts a lot of users uses vim emacs .
+Origin: 
+But it s good to mention that you could also figure that out by yourself by reading these kinda posts a lot of users uses vim emacs .
+
+
+665252
+awt	swing
+Changed: 
+Thus swing is best described as a layer on top of awt rather than a replacement for awt
+Origin: 
+Thus swing is best described as a layer on top of awt rather than a replacement for it
+
+
+665252
+awt	swing
+Changed: 
+If you compare awt with the awt component hierarchy you will notice that for each awt component there is a swing equivalent with prefix j
+Origin: 
+If you compare it with the awt component hierarchy you will notice that for each awt component there is a swing equivalent with prefix j
+
+
+679505
+postgresql	mysql
+Changed: 
+mysql was a big database and we had to convert free-form text to html . so we switched to postgresql and performed the entire database update as a single transaction
+Origin: 
+It was a big database and we had to convert free-form text to html. so we switched to postgresql and performed the entire database update as a single transaction
+
+
+681936
+jsf	seam
+Changed: 
+Having an idea about jsf is a must to understand what s the deal with seam
+Origin: 
+Having an idea about those is a must to understand what s the deal with seam
+
+
+684331
+awt	swing
+Changed: 
+awt means awt is an applet that supports swing architecture
+Origin: 
+It means it is an applet that supports swing architecture
+
+
+690400
+profiling	instrumentation
+Changed: 
+Tracing profiling are slower but more accurate profiling also require that the program be changed the instrumentation process which could potentially introduce bugs not that i have heard of it happening .
+Origin: 
+tracing profilers are slower but more accurate they also require that the program be changed the instrumentation process which could potentially introduce bugs not that i have heard of it happening.
+
+
+697146
+hmac	md5
+Changed: 
+Per default hmac uses md5 your example would probably look something like
+Origin: 
+Per default it uses md5 your example would probably look something like
+
+
+704209
+spweb	spsite
+Changed: 
+However in practice spsite is a good idea to dispose an spweb as soon as you re done with spsite to reduce memory pressure especially when working with code like this that opens several spweb objects
+Origin: 
+However in practice it is a good idea to dispose an spweb as soon as you re done with it to reduce memory pressure especially when working with code like this that opens several spweb objects
+
+
+707543
+wxpython	pyqt
+Changed: 
+But both wxpython and pyqt are just python bindings to a c c++ respectively library pyqt s just as conceptually low level as the originals
+Origin: 
+But both wxpython and pyqt are just python bindings to a c c++ respectively library it s just as conceptually low level as the originals
+
+
+714383
+cpython	ironpython
+Changed: 
+cpython shouldn t do things that are impossible for ironpython and jython to copy . i ve seen reports that this is what kept the cool parts of stackless from being merged into cpython
+Origin: 
+It shouldn t do things that are impossible for ironpython and jython to copy. i ve seen reports that this is what kept the cool parts of stackless from being merged into cpython
+
+
+715809
+translation	localization
+Changed: 
+Doing localization this way is easier than having to modify your database to add columns every time you add a language . if you really only need one translation and highly doubt you ll ever need another then just adding the one column would be fine
+Origin: 
+Doing it this way is easier than having to modify your database to add columns every time you add a language. if you really only need one translation and highly doubt you ll ever need another then just adding the one column would be fine
+
+
+716226
+firefox	safari
+Changed: 
+Html javascript the above code seems to work correctly in safari 4 and firefox 3 i m not sure how firefox would work in ie
+Origin: 
+Html javascript the above code seems to work correctly in safari 4 and firefox 3 i m not sure how it would work in ie
+
+
+719403
+implements	extends
+Changed: 
+Here would be you could then let this class extends the class you want but i would consider it implements better to have a private member of mymap being of class treemap as you then only expose those methods you actually want and not all those that treemap has additionally
+Origin: 
+here it would be you could then let this class extend the class you want but i would consider it better to have a private member of mymap being of class treemap as you then only expose those methods you actually want and not all those that treemap has additionally
+
+
+722228
+lisp	smalltalk
+Changed: 
+That s where smalltalk got smalltalk from possibly - since lisp had images already long before smalltalk existed
+Origin: 
+That s where smalltalk got it from possibly - since lisp had images already long before smalltalk existed
+
+
+724938
+postgresql	mysql
+Changed: 
+I found postgresql very nice and very refreshing not that mysql was bad compared to mysql which i had used previously
+Origin: 
+I found it very nice and very refreshing not that mysql was bad compared to mysql which i had used previously
+
+
+730813
+division	modulo
+Changed: 
+Of course modulo calculation isn t done like that modulo s done with division and a remainder
+Origin: 
+of course modulus calculation isn t done like that it s done with division and a remainder
+
+
+732725
+mp3	ogg
+Changed: 
+Formats like mp3 and ogg are have to be decompressed before you can work with mp3
+Origin: 
+Formats like mp3 and ogg are have to be decompressed before you can work with them
+
+
+742760
+codeigniter	kohana
+Changed: 
+Since kohana does not use eval for templates kohana is possible that kohana is just left over from codeigniter days
+Origin: 
+Since kohana does not use eval for templates it is possible that it is just left over from codeigniter days
+
+
+745594
+allocator	stl
+Changed: 
+It s just that the allocator stl use by default puts the data on the heap
+Origin: 
+it s just that the allocator they use by default puts the data on the heap
+
+
+745795
+innodb	myisam
+Changed: 
+If you want to know the difference between innodb and myisam then wikipedia has a great list of myisam differences
+Origin: 
+If you want to know the difference between innodb and myisam then wikipedia has a great list of their differences
+
+
+747031
+arp	tcp
+Changed: 
+Edit based on your comment below if you want bypass disable the arp handling of the tcp ip stack then winpcap should let you do tcp
+Origin: 
+Edit based on your comment below if you want bypass disable the arp handling of the tcp ip stack then winpcap should let you do that
+
+
+748779
+webclient	httpwebrequest
+Changed: 
+I finished httpwebrequest anyway because i needed functionality that webclient does not provide control of cookies and user agent
+Origin: 
+I finished it anyway because i needed functionality that webclient does not provide control of cookies and user agent
+
+
+750350
+realloc	malloc
+Changed: 
+Also please remember malloc contrary to naive expectations realloc occasionally does copy realloc argument array
+Origin: 
+Also please remember that contrary to naive expectations realloc occasionally does copy its argument array
+
+
+756445
+ubuntu	linux
+Changed: 
+ubuntu runs linux alongside windows using colinux
+Origin: 
+It runs linux alongside windows using colinux
+
+
+756887
+junit	testng
+Changed: 
+After-the-fact tagging builds can be tagged long after builds are completed junit testng test reporting junit test reports can be tabulated summarized and displayed with history information such as when testng started breaking etc. history trend is plotted into a graph
+Origin: 
+After-the-fact tagging builds can be tagged long after builds are completed junit testng test reporting junit test reports can be tabulated summarized and displayed with history information such as when it started breaking etc. history trend is plotted into a graph
+
+
+757444
+stateless	stateful
+Changed: 
+A good write-up can be found here and a jsfl script that you can use to convert stateful skins to stateless skins hope stateful helps someone
+Origin: 
+A good write-up can be found here and a jsfl script that you can use to convert stateful skins to stateless skins hope this helps someone
+
+
+757798
+kde	gnome
+Changed: 
+In fact most of desktop applications web browsers word processors desktop environment kde like windows explorer kde or gnome are written in compiled languages with careful thinking about resources .
+Origin: 
+In fact most of desktop applications web browsers word processors desktop environment itself like windows explorer kde or gnome are written in compiled languages with careful thinking about resources.
+
+
+763284
+swt	swing
+Changed: 
+I would recommend swt over swing any day as swt is very easy for an average programmer to create a responsive and native-feeling swt app while swt takes a swing expert to create a decent swing app -- with a client app the ability to auto-update is very useful
+Origin: 
+I would recommend swt over swing any day as it is very easy for an average programmer to create a responsive and native-feeling swt app while it takes a swing expert to create a decent swing app -- with a client app the ability to auto-update is very useful
+
+
+767015
+zlib	libpng
+Changed: 
+libpng depends on zlib which you probably already have shared libraries for but if not you ll have to get that too
+Origin: 
+It depends on zlib which you probably already have shared libraries for but if not you ll have to get that too
+
+
+772674
+shadowing	named
+Changed: 
+named is referred to as variable hiding or shadowing
+Origin: 
+this is referred to as variable hiding or shadowing
+
+
+778287
+serializable	deserialization
+Changed: 
+In order to function deserialization must pick a return type for the method that is applicable to all types which can be serializable
+Origin: 
+in order to function it must pick a return type for the method that is applicable to all types which can be serialized
+
+
+785330
+profiling	debugging
+Changed: 
+Once up and running profiler can give you all sorts of debugging and profiling information and the output format of xdebug can be read by the amazing kcachegrind tool visualizing and reporting on the stack and graphing your application flow if you re a happy linux camper
+Origin: 
+Once up and running it can give you all sorts of debugging and profiling information and the output format of xdebug can be read by the amazing kcachegrind tool visualizing and reporting on the stack and graphing your application flow if you re a happy linux camper
+
+
+798865
+mvp	presenter
+Changed: 
+mvp stand for model view controller and model view presenter
+Origin: 
+These stand for model view controller and model view presenter
+
+
+803700
+nginx	lighttpd
+Changed: 
+nginx s simple and nginx is even more ridiculously fast and lightweight than lighttpd
+Origin: 
+It s simple and nginx is even more ridiculously fast and lightweight than lighttpd
+
+
+807216
+slug	permalinks
+Changed: 
+I would store the slug in the database for the simple reason that slug usually form part of a permalinks and once a permalinks is out in the wild slug should be considered immutable
+Origin: 
+i would store the slug in the database for the simple reason that slugs usually form part of a permalink and once a permalink is out in the wild it should be considered immutable
+
+
+813646
+haskell	sml
+Changed: 
+sml s going to be hard to teach a whole class in haskell without having to get into type classes
+Origin: 
+It s going to be hard to teach a whole class in haskell without having to get into type classes
+
+
+825157
+profiling	debugging
+Changed: 
+That is why inlining is a good idea to profiling in both debugging and release modes
+Origin: 
+that is why it is a good idea to profile in both debug and release modes
+
+
+829638
+postgresql	mysql
+Changed: 
+To select rows between 100 and 300 mysql postgresql oracle note that an attempt to simplify postgresql with rownum between 100 and 200 as opposed to rn between 100 and 200 in the outer query will return nothing in oracle
+Origin: 
+To select rows between 100 and 300 mysql postgresql oracle note that an attempt to simplify it with rownum between 100 and 200 as opposed to rn between 100 and 200 in the outer query will return nothing in oracle
+
+
+837564
+allocator	stl
+Changed: 
+allocator reduces overhead . assuming stl look at the overhead difference between std map and std unordered _ map the latter may or may not be available to you at the moment
+Origin: 
+it reduces overhead. assuming stl look at the overhead difference between std map and std unordered_map the latter may or may not be available to you at the moment
+
+
+842945
+ssl	https
+Changed: 
+You can have a basichttpbinding and still assign transport-level security https with ssl to ssl
+Origin: 
+You can have a basichttpbinding and still assign transport-level security https with ssl to it
+
+
+844627
+touchesbegan	touchesmoved
+Changed: 
+So you have to pass touchesbegan to uiscrollview immediately but you will hide any further touchesmoved events from touchesbegan until you decide to scroll horizontally
+Origin: 
+So you have to pass touchesbegan to uiscrollview immediately but you will hide any further touchesmoved events from it until you decide to scroll horizontally
+
+
+855856
+uiviewcontroller	uitabbarcontroller
+Changed: 
+Look at tutorials regarding uiviewcontroller or viewcontrollers in general uiviewcontroller will have discussion about uitabbarcontroller
+Origin: 
+Look at tutorials regarding uiviewcontroller or viewcontrollers in general they will have discussion about uitabbarcontroller
+
+
+857238
+wav	ogg
+Changed: 
+If ogg is a web app maybe you could recode the wav files using something like ffmpeg on the server but you probably need admin rights on the server and set up all the hooks and stuff
+Origin: 
+If this is a web app maybe you could recode the wav files using something like ffmpeg on the server but you probably need admin rights on the server and set up all the hooks and stuff
+
+
+870518
+codeigniter	cakephp
+Changed: 
+With php however whenever i have a function that will need to accept a multitude of options i simply accept one or two required important arguments and an array for the rest required is the way libraries like codeigniter and cakephp handle the same scenario
+Origin: 
+With php however whenever i have a function that will need to accept a multitude of options i simply accept one or two required important arguments and an array for the rest this is the way libraries like codeigniter and cakephp handle the same scenario
+
+
+872627
+vb.net	vb6
+Changed: 
+I started writing a vb.net class library that wraps the vb6 to make vb6 accessible to . net
+Origin: 
+I started writing a vb.net class library that wraps the vb6 to make it accessible to .net
+
+
+873541
+onchange	onblur
+Changed: 
+However if you press the enter key instead of tab in firefox onchange will fire onblur then onchange while ie will usually fire in the original order
+Origin: 
+However if you press the enter key instead of tab in firefox it will fire onblur then onchange while ie will usually fire in the original order
+
+
+891250
+gif	png
+Changed: 
+All png fix methods require that a transparent gif be available to replace the png image gif s part of how the substitution works
+Origin: 
+All png fix methods require that a transparent gif be available to replace the png image it s part of how the substitution works
+
+
+900529
+firefox	safari
+Changed: 
+If you re on a windows or os x machine you can use safari to see how firefox will look with a higher degree of accuracy
+Origin: 
+If you re on a windows or os x machine you can use safari to see how it will look with a higher degree of accuracy
+
+
+900626
+lisp	scheme
+Changed: 
+If you don t intend to be recursive but you accidentally used a name inside the function with the same name as the function scheme it scheme will most likely complain unless the name has been defined before the let construct is similar to the let construct in lisp and scheme
+Origin: 
+If you don t intend it to be recursive but you accidentally used a name inside the function with the same name as the function itself it will most likely complain unless the name has been defined before the let construct is similar to the let construct in lisp and scheme
+
+
+901557
+profiling	debugging	profiling	instrumentation
+Changed: 
+One of the great things about the xcode debugging tools is that debugging can be run against an application executing on the device so you can use instrumentation to do profiling of your application on the actual hardware
+Origin: 
+one of the great things about the xcode debugging tools is that they can be run against an application executing on the device so you can use instruments to do profiling of your application on the actual hardware
+
+
+901826
+ubuntu	linux
+Changed: 
+Without debating one linux distro s merits over another suffiuce linux to say ubuntu meets all my needs
+Origin: 
+Without debating one linux distro s merits over another suffiuce it to say ubuntu meets all my needs
+
+
+907207
+java.util.calendar	java.util.date
+Changed: 
+If you must use traditional java.util.date and java.util.calendar classes see java.util.calendar javadoc s for help java.util.calendar and java.util.date
+Origin: 
+If you must use traditional java.util.date and java.util.calendar classes see their javadoc s for help java.util.calendar and java.util.date
+
+
+911754
+wxpython	pyqt
+Changed: 
+One marked advantage of matplotlib is that you can integrate matplotlib with python guis wxpython and pyqt at least and create gui application with nice plots
+Origin: 
+One marked advantage of matplotlib is that you can integrate it with python guis wxpython and pyqt at least and create gui application with nice plots
+
+
+917748
+fileoutputstream	filewriter
+Changed: 
+Note that i wouldn t recommend using filewriter to write to a file - use a fileoutputstream and an outputstreamwriter chained onto fileoutputstream as this lets you set the character encoding instead of using the platform default one
+Origin: 
+Note that i wouldn t recommend using filewriter to write to a file - use a fileoutputstream and an outputstreamwriter chained onto it as this lets you set the character encoding instead of using the platform default one
+
+
+918147
+implements	extends
+Changed: 
+implements should be trivial to extends implements to include more operations as well as support more primitive types double decimal etc - or even custom types for that matter
+Origin: 
+it should be trivial to extend it to include more operations as well as support more primitive types double decimal etc -or even custom types for that matter
+
+
+923726
+daemons	systemd
+Changed: 
+Your systemd may have a start-stop-daemon script and for c code systemd may also have a daemons 3 call in the c library
+Origin: 
+your system may have a start-stop-daemon script and for c code it may also have a daemon 3 call in the c library
+
+
+966954
+fseek	fread
+Changed: 
+For example you can not call fread followed by fwrite or fwrite followed by fread unless you call fseek or frewind between fread
+Origin: 
+For example you cannot call fread followed by fwrite or fwrite followed by fread unless you call fseek or frewind between them
+
+
+979622
+wxpython	pyqt
+Changed: 
+The reasons were wxpython in action book by rappin dunn the voluminous examples that come as part of the wxpython download the number of projects that have used wxwidgets the fact that wxpython code runs equally well on linux mac os x and win32 i did consider pyqt and other researchers are successfully using linux
+Origin: 
+The reasons were wxpython in action book by rappin dunn the voluminous examples that come as part of the wxpython download the number of projects that have used wxwidgets the fact that wxpython code runs equally well on linux mac os x and win32 i did consider pyqt and other researchers are successfully using it
+
+
+988778
+backtracking	greedy
+Changed: 
+The matcher will then have to backtracking when greedy realizes the final d has nothing to match before greedy can match to the final digit
+Origin: 
+the matcher will then have to backtrack when it realizes the final d has nothing to match before it can match to the final digit
+
+
+992412
+serializable	deserialization
+Changed: 
+Theoretically and yes deserialization is a terrible idea you could catch serializable exceptions and parse the error for the older version details of course current deserialization will work without throwing .
+Origin: 
+theoretically and yes this is a terrible idea you could catch serialization exceptions and parse the error for the older version details of course current deserialization will work without throwing .
+
+
+1002497
+xmltype	clob
+Changed: 
+Of course if you d rather use xquery then just take the clob or bfile convert clob to an xmltype and go for clob
+Origin: 
+Of course if you d rather use xquery then just take the clob or bfile convert it to an xmltype and go for it
+
+
+1020806
+scheme	racket
+Changed: 
+The plt scheme now racket platform includes a fairly decent interpreter and compiler is good for scripting and also has some visual tools that make scheme excellent for learning
+Origin: 
+The plt scheme now racket platform includes a fairly decent interpreter and compiler is good for scripting and also has some visual tools that make it excellent for learning
+
+
+1028119
+actionscript	mxml
+Changed: 
+When flex creates the swf flex looks at the mxml and creates actionscript from mxml behind the scenes
+Origin: 
+When flex creates the swf it looks at the mxml and creates actionscript from it behind the scenes
+
+
+1030163
+uiview	subviews
+Changed: 
+I would make own button by subclassing uiview or alternatively subclass a uibutton and add subviews to uibutton
+Origin: 
+I would make own button by subclassing uiview or alternatively subclass a uibutton and add subviews to it
+
+

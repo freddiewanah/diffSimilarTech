@@ -1,0 +1,76 @@
+also for animations * chromium behaves much better that is why i use it for development but do my general browsing in *
+
+with * it was very easy i just grabbed the apk from their ftp server run the adb install command one would think it should be even easier with * but it s really not
+
+the performance in * is best less so in * and ie
+
+also * has a great tool that allows you to edit css on the fly which i find more useful and quicker than using * s extensions
+
+* renders passwords smaller than *
+
+* s parsing may be more strict than * is at having things like trailing commas as specified by the standard at as stated in danilo celic s answer
+
+also about * i know still less than * and i m not sure about how it innerly manage resources among threads and if it is even possible to achieve what i want but if possible i d need to do the same work with * threads
+
+* renders longer input fields than * and ie
+
+this is because in ie and * the footer link text is larger than in * and safari therefore the margins that i ve set up for the icons do not work
+
+in * it is appearing higher than the original in *
+
+that happens because pixels size in * is bigger than in *
+
+even if you give the inputs a attribute * renders them wider than *
+
+* is extremely slow for your code path but grep seems to be 50 faster than array.filter here making it 900 slower than the * run
+
+i built a site and the problem is * display font-size 1px bigger than *
+
+on stable versions of * the permissions show allow and it still won t connect even with * works older versions of * work
+
+* which is more standards-compliant than * doesn t allow this
+
+most likely your post value has one or more characters in it that are breaking the html of the page and ie * are being a bit more forgiving than * is
+
+in * it s much better than * but still not as black as ie
+
+* sends back and html collection that is longer really better imo than * ie or chromium
+
+* handles this better than * does but neither exactly the way i want
+
+though from a design perspective it may be easier to simply add the extra 5px to the width designing for the worst case browser to prevent wrapping in * which is worse than extra space in * ie
+
+why in * text smaller left than in * and opera right
+
+actually your code doesn t work on * because he is less forgiving than * about errors
+
+graph beeing cut in * is a known issue * does not respect some print css and works much better with * not all versions still
+
+* has even fewer as far as i know and * has none
+
+the problem with this code is that it doesn t quite work on * and works even worse on *
+
+it seems to be slower in google-chrome and * but is significantly faster in *
+
+update under linux gentoo amd64 it s the same - * reneders slightly larger fonts than * but nothing that looks odd
+
+i also have .js files being redirected to javascript engines as well for main.js in * it tries main.v8.js in * main.nitro.js in firefox main.gecko.js
+
+* is more secure than ie or *
+
+dus anyone knows if there is something wrong with my json or if * is harder to get than *
+
+total width of button in * web inspector 6px larger than in * web inspector
+
+incidentally the scrolling on the windows version of * is fine albeit a little slower than ie * and firefox
+
+it works great in google-chrome and * haven t tested ie but i m sure it s somehow worse than *
+
+but i haven t yet figured out whether it s me writing sloppy code with * perhaps being more forgiving than * or if it s * or if it s jquery
+
+in particular a font may be rendered quite differently between the various browsers and operating systems in current use - * and macos use more anti-alisaing than * or ie but ie9 has a new feature called cleartype which also affects font rendering
+
+i saw that the discrepancy was because in * the text element is taller than in * and includes a slight amount of whitespace on top that doesn t show up in * in * the top of the text element is exactly when the text starts
+
+it seems that google-chrome internet explorer or * are more strict than * on terms of security
+

@@ -1,0 +1,205 @@
+1517
+emacs aquamacs
+Pattern(s): 0	
+someone syncs carbon emacs with the upstream tree quarterly i think
+aquamacs has a more irregular schedule but it s seen some pretty major updates over the last year
+
+
+
+13942
+imperative declarative
+Pattern(s): 0	
+imperative
+declarative is usually better for anything where you really don t need the fine-grained control over how something is done
+
+
+
+19370
+cassini iis
+Pattern(s): 0	
+you are on vista iis got better 7 cassini stayed crappy
+
+
+
+27440
+postgresql mysql
+Pattern(s): 1	1	
+mysql is much more commonly provided by web hosts
+postgresql is a much more mature product
+
+
+
+31042
+perforce svn
+Pattern(s): 0	
+i use perforce right now and for some reason i like svn better
+perforce definitely gives me a better indication that there s going to be merge conflicts and even has built-in tools to help me resolve the merges
+
+
+
+47929
+udp tcp
+Pattern(s): 1	
+udp is faster than tcp and the simple reason is because its nonexistent acknowledge packet ack that permits a continuous packet stream instead of tcp that acknowledges a set of packets calculated by using the tcp window size and round-trip time rtt
+
+
+
+55578
+vmware virtualbox
+Pattern(s): 0	
+vmware has more features but costs 80 virtualbox on the other hand is more basic but is free for most users see virtualbox licensing faq for details
+
+
+
+57802
+jruby mri
+Pattern(s): 0	
+so if you want true parallel threads jruby is currently your only choice not that that s a bad one jruby is actually faster than mri and arguably more stable
+
+
+
+
+65079
+wideimage phpthumb
+Pattern(s): 1	0	
+wideimage is the more modern php5 approach while phpthumb has much more features
+
+
+
+68674
+ubuntu linux
+Pattern(s): 1	
+ubuntu is getting closer but there are still numerous things with linux that will keep the grandmothers of the world from using it
+
+
+
+70423
+quicksort heapsort
+Pattern(s): 0	
+but there are many citations of real world tests which show that heapsort is significantly slower than quicksort on average
+
+
+
+70430
+quicksort mergesort
+Pattern(s): 1	
+wikipedia s explanation is typically quicksort is significantly faster in practice than other θ nlogn algorithms because its inner loop can be efficiently implemented on most architectures and in most real-world data it is possible to make design choices which minimize the probability of requiring quadratic time
+quicksort mergesort i think there are also issues with the amount of storage needed for mergesort which is ω n that quicksort implementations don t have
+
+
+
+70440
+quicksort mergesort
+Pattern(s): 0	1	
+quicksort is usually faster than mergesort just because it s easier to code a tight implementation and the operations it does can go faster
+it s because that quicksort is generally faster that people use it instead of mergesort
+
+
+
+71552
+daemons systemd
+Pattern(s): 1	
+gdi + text rendering performance article on his blog which answers the raw speed question on his systemd gdi drawtext was about 6 times faster than gdi + drawstring
+if you need to be a real speed daemons textout is faster than drawtext but you ll have to take care of clipping and word-wrapping yourself
+
+
+
+77625
+innodb myisam
+Pattern(s): 0	
+i found that the table-level locking in myisam caused serious performance problems for our workload which sounds similar to yours
+unfortunately i also found that performance under innodb was also worse than i d hoped
+
+
+
+77794
+bazaar git
+Pattern(s): 1	
+git well is not for the uninitiated
+it is much faster than both mercurial and bazaar and was written to manage the linux kernel
+
+
+
+77945
+quicksort mergesort
+Pattern(s): 0	
+with o n 2 worst case that rarely happens quicksort is potentially far slower than the o nlogn of the merge sort
+quicksort has less overhead so with small n and slow computers it is better
+but computers are so fast today that the additional overhead of a mergesort is negligible and the risk of a very slow quicksort far outweighs the insignificant overhead of a mergesort in most cases
+
+
+
+79771
+subtraction multiplication
+Pattern(s): 1	
+addition and subtraction are then a very simple integer operation such as 0.72 + 1 becomes 72 + 100 becomes 172 becomes 1.72
+multiplication is slightly more complex as it needs an integer multiply followed by a scale back such as 0.72 2 becomes 72 200 becomes 14400 becomes 144 scaleback becomes 1.44
+
+
+
+79771
+addition multiplication
+Pattern(s): 1	
+addition and subtraction are then a very simple integer operation such as 0.72 + 1 becomes 72 + 100 becomes 172 becomes 1.72
+multiplication is slightly more complex as it needs an integer multiply followed by a scale back such as 0.72 2 becomes 72 200 becomes 14400 becomes 144 scaleback becomes 1.44
+
+
+
+85803
+postgresql mysql
+Pattern(s): 1	
+the mysql one was more stable than the postgresql one
+
+
+
+92324
+pascal delphi
+Pattern(s): 0	
+the language c++ pros c++ is more standard you will find more code libraries examples etc. and you may freely use the stl and boost while object pascal is more of an exotic language qt compiles on different platforms and compilers kylix is based on qt btw object pascal pros some dynamic properties are build right into the language no ugly workarounds like the moc are needed the compiler is highly optimized for the language and indeed very fast the language is less complex than c++ and therefore less error prone the ide qt pros strictly spoken there is no ide for qt besides the designer but it integrates nicely into your preferred ide at least visual studio and eclipse the designer does a better job with layouts than delphi forms note this is based on delphi 6 experience and may not be true with current versions delphi pros the ide is really polished and easy to use now and it beats visual studio clearly imo i have no experience with eclipse there is no point 2 .
+
+
+
+94070
+datamapper activerecord
+Pattern(s): 1	
+user objects from the database which would have usermapper find 1 usermapper.save user datamapper is potentially more complex then activerecord but it s a lot easier to develop your domain model and database asynchronous then with activerecord
+
+
+
+102924
+actionscript mxml
+Pattern(s): 1	
+... except that the code generated by the mxml to actionscript conversion is longer as it has to be more general
+
+
+
+107883
+quicksort heapsort
+Pattern(s): 0	0	
+for example quicksort average cost t n.log n and heapsort average cost t n.log n are both sorting algorithms with the same average cost - yet quicksort is typically much faster than heapsort
+this is because heapsort does a few more comparisons per element than quicksort
+
+
+
+109038
+cairngorm puremvc
+Pattern(s): 1	
+puremvc is more invasive than cairngorm meaning that your code is heavily dependent on the framework you have to subclass implement the framework classes interfaces but that doesn t mean that cairngorm isn t
+
+
+
+115838
+gif png
+Pattern(s): 0	0	
+as a general rule png is never worse and often better than gif because of superior compression
+there might be some edge cases where gif is slightly better because the png format may have a slightly larger overhead from metadata but it s really not worth the worry
+
+
+
+124248
+rsa aes
+Pattern(s): 1	
+that is actually not the case with rsa which is --- more so than aes --- just a math equation
+
+
+

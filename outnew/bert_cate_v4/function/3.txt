@@ -1,0 +1,206 @@
+i am getting a problem using * and * as in my code * is written earlier then fget but it does not run it runs after * runs
+
+* is rarely slower than * or strncpy and often significantly faster
+
+the reason for not having * i m guessing is that * can be replaced more efficiently with * for constant strings and if the string is not constant * is a bit more complicated than * anyway so not as beneficial to make inline optimisations for
+
+we keep track of what cmd s length ought to be in a variable and copy the string with * which is slightly faster than * and does neither check string length nor copy the extra zero at end of string
+
+on almost any platform * is going to be faster than * when copying the same number of bytes
+
+* has 64 and 128-bit versions so you can experiment between the two and it s faster than * largely owing to * being a cryptographic hash function whereas murmur doesn t have the added expense complexity of being cryptographically secure i m assuming that you re not concerned about anybody attempting to intentionally generate hash collisions or anything like that
+
+if you want longer * lets call more secure you should use something like sha512 * etc
+
+or is the * with by just typically much slower than *
+
+as i noted in comments however if you re willing to rely on posix s * then that s cleaner than * + malloc + and has the same semantics you take responsibility for freeing the memory allocated for the copy
+
+because sha256 * are much longer than * * you can detect the * algorithm by looking at the length of the *
+
+the * cake generates are more complex than *
+
+so i guess it s the * in the dump output cause the conflicts and the * value is longer than * outputs
+
+other * functions such as sha-1 also have * collisions although it is much less likely than *
+
+if you want to compare you re better off putting your result through getstring and compare the much less secure * even less secure than * already is
+
+*ing is one way you can prove this to yourself by taking an * or shasum of a large file since the file s size is larger than the * output by pigeonhole principle * can t be restored.
+
+also the * algorithm itself is much slower than sha1 * sha1 * are made for speed - not a useful property when storing passwords
+
+the fact that bcrypt produces * slower than * because of security reasons is also clear for me
+
+use * and choose *ing algorithm that suits you well if possible something stronger than * but don t go all the way to sha512 either
+
+any * function like * sha1 sha256 etc obviously cannot be 100 unique - because they have a fixed length and due to the there must necessarily be non-unique results for input content that is larger than the *
+
+malloc * is harder because thereâ s also * and realloc
+
+actionlink * is more often used to generate url properly based on the * route values etc and anchor tag based on htmlattributes etc
+
+if your .so are statically linked to c++ runtimes - you should * objects in the same module where they were allocated since new delete is something more than * * and need some extra info to work properly
+
+here is a solution which encapsulates the call to * allocates a bigger buffer for alignment purpose and stores the original allocated address just before the aligned buffer for a later call to *
+
+in this context * store is different and incompatible with heap because the new delete * store library is simpler and quicker than the * * realloc calloc heap library and thus provides huge memory usage gains to the c++ embedded programmer in a context where you have only 512 bytes of ram
+
+* is much easier to implement if there is no *
+
+now if you * some values on the heap and allocate more with * you may be given back some of that dirtied memory that you scribbed on earlier
+
+the c function * is much better make it a habit to prefer that one to *
+
+i would recommend * which provides better error handling than * or sscanf
+
+if you want to accept a number rather than a digit and only a number * works much better than * as it allows you to check for failures
+
+* is better than * with better error handling
+
+you can also look into * which is better than using * in terms of error checking
+
+if you measure properly you ll see there s essentially no difference * is microscopically faster than * in this example but well within noise
+
+why is * slower than * + lst i
+
+to prefer * over * when given the choice is that * tends to produce query plans that are more efficient than *
+
+using * is better option than * or case..when for this problem since the input values for the * expression can be evaluated multiple times
+
+edit based on the tests done by multiple people and by theory * seems to be a better option over *
+
+* is faster than *
+
+an example of why * is better than *
+
+or maybe flip them on my machine * seems faster than *
+
+* is faster than * + memset because * knows that the mmap d pages are pre-zeroed and memset forces the allocation of physical ram
+
+* does take longer than * because it has to zero out all the memory you asked for before giving it to you
+
+* is faster than * reason is that * processed single dimensional array to pointer format whereas * takes double dimensional array and before processed it converts to single dimensional array then to pointer format
+
+it would be better to use * over * unless we want the zero-initialization because * is faster than *
+
+if end up using the memory anyway * is still faster than * and memset but the difference is not quite so ridiculous
+
+it takes a page off of the free_page_list updates mem_map zeroes the page and returns the physical address of the page. here s another post that explains it well and also explains why using * is better than * + memset
+
+those answers was that * can allocate larger blocks than * can and etc
+
+* is far more common in c code than *
+
+it s conceivable that * could return address of memory location that is already pre-initialized with zeros thus it may be faster than * + memset combo
+
+in terms of speed * is likely to be faster than * + memset if memory needs to be zeroed out
+
+i remember somewhere i have read that * is slower than * because * performs initialization to zero after performing memory allocation
+
+and is as far as i know faster than the combination of * and memset on the other hand * alone is faster than *
+
+as written * would be better than * but the question used * and it would not be hard to make it sensible for use with this code too for example a conditional assignment in set_matrix such as
+
+this is an enormous amount of extra work and explains why * is faster than * and memset
+
+as you can see from the above tests * is consistently faster compared to memalloc * and free
+
+indeed * is better than * and 1 * is better than *
+
+after looking it s seems that * is much faster and better in term of security even if the underlying * function sha1 is broken which is not the case when using rsa-sha1
+
+the only case where * would be safer than * is when you re comparing two character arrays as strings you re certain that both arrays are at least n bytes long the 3rd argument passed to * and you re not certain that both arrays contain strings contain a 0 null character terminator
+
+needless to say * product has more than one * which is kept in the producthas table
+
+std * may be very slightly slower than std * emphasis added because it has to first check whether the source and target ranges overlap
+
+as an aside my c c++ is rusty but is not * more efficient than * if you know you don t have overlapping memory
+
+* on the laptop runs slower than * but oddly enough runs at the same speed as the * on the server
+
+note that * has more overhead than * because it has to determine which direction of copying is safe
+
+and it said * might be very slightly slower than *
+
+why is * so much slower than * or hand rolled copy on the server
+
+the question is about is there really any platform where * is faster than *
+
+* is more general version of *
+
+nonatomic properties don t use locks but direct * is faster because it skips the * call
+
+although you could tell dancer2 plugin passphrase to use a 4-byte * it s much easier to just use * *edhash everywhere
+
+* often gives you more memory that you ask and stores the actual value in a special location that * can access at a later time
+
+* is worse than * in that you will need to have the old and new pointers valid during the *
+
+but if it works with large datasets the users will notice that using the * -only program slows down other programs much more than the * -using program with the same data
+
+that s why * can temporarily require more memory than a * free pair
+
+a * can occur significantly faster than a * memcpy and free
+
+in c memory most other things are managed by the programmer so * is no worse than forgetting to * malloc ed memory failing to null terminate a string using incorrect format string in scanf and invoking undefined behaviour accessing dangling pointer etc
+
+then for reading i find * to be more powerful than * fscanf the differences between them all are summarized here
+
+key derivation algorithms such as bcrypt and * aka rfc2898derivebytes are much slower than standard * algorithms
+
+so when i see that the * is stored in the * password and that you use that * password as * i think crypt + * is not more secure against a brute force on output hackers who managed to steal * passwords
+
+likely not as cheap as xor against n values but seems like there s possibility for better quality results at a minimal extra cost especially if the data being * is much larger than the * value
+
+i get the impression that most people think that *ing * passwords is the more secure way of handling passwords but i can t figure out a way to comply with current company operations when using * passwords
+
+in this situation storing password * and the * is more secure than storing the credentials encrypted or not because an attacker would have no way of getting the password back even if he manages to get his hands on both the * and the *
+
+the lack of * is harder to expoit here than with password * since the * is not directly known
+
+most attacks involve generating * for common passwords so for reasonably complicated passwords it becomes harder especially with * some people use usernames as * others use randomly generated numbers
+
+example the * field might only allow a 64 characters while the generated * might be longer therefore when you save the * it gets trimmed which ultimately changes the * password
+
+could i use * to do this more succinctly than running * and dcast separately for each of employed girls guys
+
+you can use either to create a new memory block which is separate from the original but naturally * is simpler since it doesn t require a separate * strlen call
+
+for reading large csv files you should either use readr read_csv or data.table * as both are much faster than base *
+
+interestingly for 1 million rows per file the optimised version of read.csv and * take 422 and 430 more time than * whilst without optimisation this leaps to around 1500 and 1005 longer
+
+* ... is extremely fast 10 - 100 times faster than * ... or read.csv ... for large datasets
+
+i m pretty sure the linker will * equivalent strings so the total will be less than the * of the parts for these sections but i guess typically not by much
+
+if a function is static thus not exported anyway and only called once within your code and you never use a pointer to the function chances are good that gcc will decide to * it automatically as it will have no negative impact the binary won t get bigger by * it only once
+
+afaik * is not slower than *
+
+but when is * and clone better than *
+
+joe duffy s blog implies using * is more efficient than *
+
+edit as willeke has pointed out accessing a * directly is technically faster than doing so via an * via self
+
+i probably feel * might be bit faster than * as * changes the pointer position to the new address space that you have mentioned and there is no date read is happening
+
+* is not safer method to use as *
+
+myth 3 * is a safer version of *
+
+you should use * or * safer than * to copy the string stored in the array between arrays
+
+using * 3 is better than * 3 but things like strlcpy 3 are better still
+
+* incoming connected will overwrite dataa and maybe datab if your first token pointed to by header is shorter than * connected
+
+i confirmed that in debug mode the * version is slower about 130 âµs vs 60 âµs for the * version
+
+* will always be faster than * for any real world situation even in the corner case i spoke before look page_copy_fwd_maybe
+
+even if underlying implementation is not so different * is much faster because it does not have to check what it s copying * will stop when it ll copy the end of string character null
+

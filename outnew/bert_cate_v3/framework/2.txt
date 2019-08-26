@@ -1,0 +1,42 @@
+* is newer more feature rich and heavier than * * is designed to have a much smaller footprint so you will most likely find yourself creating functionality in * to match cake s
+
+i personally use * which probably falls in to the heavy framework category but is at least much lighter than * and lighter than zend too i think
+
+in my opinion it will probably be easier to integrate with * although someone more experienced with * might prove me wrong
+
+it fills the gap between * and * more powerful than * and easier to use than *
+
+i would say * would be easier over * as the default ui elements look really good
+
+i am currently looking at * and while its more complex than * the documentation is much more informative and therefore understandable than cakephp s
+
+* is not better than * express the big thing that differs is the structure of it
+
+i know this can be achieved with * but in my experience it is easier with *
+
+* is more direct and simpel to use if you start to learn java * has more features but maybe is more complex
+
+since * seems to be much lighter than * i would suggest that you take a look at *
+
+is * better than *
+
+* is very batteries included meaning that it comes with much more out-of-the-box than say * and to me a large part of that the user auth system
+
+but a friend told me to begin with * as it s simpler and will help me when i start learning * as * is more complicated than *
+
+i d totally go with * unless one dependency * is better than three * jinja2 and werkzeug
+
+* is more popular and up to date as * hasn t had a new release for some time though for testing webforms it s still very useful as * does not have good support for that
+
+i found * was even easier than * to set up
+
+the best testdriven.net disables all instrumentation that * does so it makes * blazing fast - much faster than * for example
+
+sriwantha * is a simpler framework than *
+
+personally i really like * which is fairly unusual but does make getting things right an awful lot easier than *
+
+the consensus seems to be that * is easier to use but that * has the advantages that come from being open source easy to customize merge with other code community etc
+
+i already know that * is a more heavy weight approach in contrast to *
+

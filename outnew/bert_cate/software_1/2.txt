@@ -1,0 +1,10 @@
+im trying very hard to like B but so far i find it so much worse than B in so many ways
+
+i am not sure if B server will be much better than B
+
+im trying very hard to like B but so far i find it so much worse than B in so many ways
+
+i am not sure if B server will be much better than B
+
+however i wonder if this is the best way of doing this if you want to observe specific behaviour you might be better off isolating a specific input file and debugging against a local pseudo-cluster and if you want system B you could do worse than give B a lookm as it is pretty mauch already built into hadoop
+

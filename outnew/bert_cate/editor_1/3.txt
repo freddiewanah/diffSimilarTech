@@ -1,0 +1,8 @@
+in B it s much more difficult to run a subprocess than it is in B so in B you need to have a separate running idris repl
+
+for example B s macro shortcut f3 and f4 is easier than B s qq and q
+
+in B it s much more difficult to run a subprocess than it is in B so in B you need to have a separate running idris repl
+
+for example B s macro shortcut f3 and f4 is easier than B s qq and q
+

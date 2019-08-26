@@ -1,0 +1,50 @@
+but i ve had difficulty implementing this it seems as though B is meant more for long operations that execute all their code on one background thread but have separate sections that make it easy to determine when progress has been made if this is the case then the use of the term suboperation is a bit misleading as it brings to mind the use of nested B
+
+my only problem is that is seems that using B is a better approach and i have read some seemingly off-hand comments about B being a poor approach
+
+if your exchange data between 2 widget i suggest to use B more than B because data in B can edit dynamic data row and value
+
+do need implementation of B that can be more useful than B
+
+unfortunately the sample apps are not based on B or B but if you look at the way they handle backup files you could probably use that approach to create a document based app with less hassle than using B
+
+a solution i ve used is a simple subclass of B which allows more customization than subclassing B and less hassle than nsattributedstring et al
+
+a B is no more than a wrapper for an underlying B
+
+B defines more general features of the objects of its B
+
+in other words if a B is more accessible than its B then the access modifier of the B loses effect
+
+these relations naturally arise when you impose restrictions on what you can handle--then if a B means that the method can handle less acts as a B of since can handle everything that the B can handle and more
+
+yes but if you think of your diagram as a topographic map the B have higher altitudes than the B
+
+watch out you can t query a B if you have more than 1 B then something like in jql
+
+i m aware that B is much more suitable for this as it implements uitextinput protocol which has all the methods i need but due to a bug in ios i m limited to B
+
+when you re not worrying about B this is more flexible if the B of the object changes
+
+it s not my experience that B is any slower than B is
+
+i ve read that painting to a B is sometimes faster than B but it would by a lot of extra work for the mouse handling i think
+
+similarly as the B gains more methods it B the list of superclass in the order in which they were named that precede it
+
+with B is trickier because any private members of a class are not B by the B but protected and public are
+
+i added the check for B in case your class handles more than 1 B s and you only want to remove that
+
+if you need a globally accessible variable or B that s more suited to a base class that your classes B from
+
+multiple B makes it easier to compose classes from small mixin base classes that implement functionality and have B to remember state
+
+B is more of an is-a relationship for example a usermodel is-a model thus all B and methods of a model will be part of a usermodel
+
+B code is generally less optimized than B one
+
+i suggest you to give a look to B which is far better than B also because it is actively developed
+
+but in your case alertview is displayed above alertcontroller ie why it feels like B is whitier than B
+

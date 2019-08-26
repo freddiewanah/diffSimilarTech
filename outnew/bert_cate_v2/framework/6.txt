@@ -1,0 +1,68 @@
+for general testing B is a more well-established product while B is focussed on tests written using bdd methodology behaviour driven design
+
+why do people say B is somewhat harder than B for people new to mvc
+
+B makes use of bindings better than B currently does
+
+B has a better data store api than the one B has
+
+like bruz says B is probably more freeform at the data layer than B
+
+B has a higher learning curve than say B and cakephp
+
+so what makes B significantly better than B
+
+if you have to do a lot of this honestly B is more flexible but you can absolutely get it done in B
+
+to be perfectly honest i B is way more popular than B at least here where i work and live
+
+B is more direct and simpel to use if you start to learn java B has more features but maybe is more complex
+
+B has a templating language of it s own it looks easier than B s
+
+B is more low-level comparing with B
+
+B has been around a lot longer than B and is much more actively maintained because of it s much larger contributor base
+
+both frameworks are fairly easy to implement B is much easier than B imo although B has a built in authentication layer that you can use albeit more difficult to implement in a client server scenario like you need
+
+if you are looking for the latter then B is a micro framework that is considerably smaller than B
+
+our team use B as our frame before but now we use B as our frame because it is more light than B but we still use B template.
+
+B is clearly more bdd focused than B although i could see doing bdd with B by describing the tests in a behavior-oriented way
+
+B middleware is much simpler and less hacky than B middleware due to the way middleware flows in a stack-like manner
+
+i like B but the amount of gpu memory B use is larger than B i test in resnet-50 with B-memonger
+
+B arguably has more better documentation than B see plone.org products B as well as my book professional plone 4 development
+
+i use B and B together but the language syntax of B makes more sense is semantic as B when testing for request expectations
+
+i prefer B because there are more conveniences built into the environment than offered by B but B is much newer than B and hindsight always makes it easier make new implementations better
+
+i think you ll find that B is even easier to learn and use than rails and B
+
+B has more focus on simple is better than complex but B has more focus on explicit is better than implicit
+
+various people told me to go with B since it s better than B apparently i have no idea and it also has very good support in resharper which i m using
+
+the best testdriven.net disables all instrumentation that B does so it makes B blazing fast - much faster than B for example
+
+also B has little bit better benchmarks than B
+
+B seems to have an overall nicer syntax than B like the strongly-typed way the former deals with passing parameters to a constructor of a faked class
+
+i suggest that you to move B which has a better api or even to B whose protocol is even simpler
+
+i understand that B is what s hot right now but i ve never played with it and am not sure if learning B is more time-effective vs using B which i know pretty well but just doesn t excite me any more
+
+B is more popular and has more tutorials then B
+
+B + monogame --- monogame s performance seems only slightly lower than B can build to most platforms
+
+also take a look at B as this has lower overhead than B and works with B forms
+
+both give you the ability to implement things in a variety of ways which can be confusing but B provides more of the code that you would have to write yourself in B as standard which for me personally is more important for rapid prototyping than the wealth of B examples available
+

@@ -1,0 +1,184 @@
+* is more of a handshake done with the server while * is the actual stream coming in once the handshake is done and you start streaming
+
+* is a more efficient protocol than *
+
+in fact with optimizations like * you might find that a tls-secured connection actually performs better than plain *
+
+anything that you do with * is more or less equivalent with * and neither is really anything but an implementation detail of your soa work
+
+but since * is less secure than * why isn t it the other way around
+
+but as i understand it * disallows the more secure * domain credentials if they re available
+
+in fact in some ways * is better than *
+
+i m using keep-alive so i think the * handshake is more or less totally out but i hope to move to * soon so i don t really know how that helps after the initial handshake
+
+if we assume that you live in a poor coverage area and your phone and your tower are constantly dropping the signal then re-establishing a * connection is no worse off than re-establishing a tcp connection modulo * handshake
+
+we propose to use * over * since * is faster than *
+
+i think * will perform better than * gcdasyncsocket in your case video transfer
+
+in some applications * is faster better throughput than *
+
+for example i read an experiment in which a stream of 300 byte packets was being sent over ethernet 1500 byte mtu and * was 50 faster than *
+
+* is much better than * in terms of reliability
+
+use socket for * and datagram for * its a lot faster than * but less connection oriented
+
+one can say * has a lower overhead than * because its packets have a smaller header and therefore take less bandwidth to send the payload the data
+
+2 * needs more processing at network interface level where as in * itâ s not
+
+* is a bit slower than * but more failsafe
+
+* gives smaller latency with many many issues to discuss here of course * gives bigger latency
+
+like matzi suggested * gives you lower latency and lower packet overhead as the header is smaller than * but on the downside the delivery of the packet to the destination is never guaranteed ie
+
+you ve struck lucky with the requirements - because you re going from * - * it s actually a lot simpler than doing * - *
+
+is sending packets via an established * connection after all hand shaking has been done a method to be faster than *
+
+or is there any specific scenario where * is better than *
+
+if i d directly say that * is faster comparatively than * that it is used for such applications
+
+* is simpler protocol than * and you can still simulate features of * using *
+
+if you care a lot about efficiency or really need tens of thousands of connections then implementing your specific protocol in * will always be better than *
+
+but with the * protocol in particular this is easier than for *
+
+* is more popular in nat punching because provides much better results than *
+
+in a native application i would use * for the most data player position ... because it s way faster than * and it s uncritical when it is lost
+
+* has less overhead than * and is therefore faster
+
+in that sense reliable * cannot be faster than *
+
+this is the reason why * is much faster than *
+
+only when packets can be discarded unordered can * be faster than *
+
+note that there are exceptions to the above - for example * generally traverses firewalls better than * which may be blocked due to security to traffic policy reasons so voip speech may sometimes be sent over * for part of its journey at least
+
+btw i concur that * is far more appropriate than * in this case
+
+* will almost always provide better performance than * at the cost of reliability
+
+* is faster than * and the simple reason is because its nonexistent acknowledge packet ack that permits a continuous packet stream instead of * that acknowledges a set of packets calculated by using the * window size and round-trip time rtt
+
+if they are connected over the internet you could try to use the examples for * but * has more overhead than *
+
+i though that * was faster than * but do you think that * will be faster due to the congestion
+
+in general the * protocol manages the available network bandwidth better than the * protocol
+
+i know * is a safer choice but let s assume i can only use * and i need to ensure i can send packets over at a high rate with no missing packets what should i do
+
+* is much faster then * but * has flow control and guaranteed delivery
+
+the downsides are that it is unreliable messages can be dropped or corrupted therefore you may want to add some safety and that some isp may restrict * more than * test yourself to be sure but usually there is no problems
+
+* is also more work than * if you need reliability which is built in to *
+
+* has a much lower overhead than *
+
+alternatively it can be used over * which is less hungry than *
+
+* is far better at transferring large quantities of data but when the network fails it s more likely that * will get through
+
+if you re more interested in latency and small amounts of data then something * based could be better than * but you d need to build extra logic for ordering the messages and retrying the lost ones
+
+* is way lighter and faster but somewhat less reliable than *
+
+note that * is more difficult to work with than * because packets are not always guaranteed to be delivered
+
+the decision on yours the * protocol used for connection oriented network that is more secure than *
+
+i was expecting that * would be faster but * is on average two times faster than *
+
+there is a perception that * is faster than * but i think it depends on the situation - take a look at this discussion for some further discussion on speed reliability etc between * and * go down through all the high scored answers
+
+generally speaking * has less overhead than * allowing you to receive more data but this is not a strict rule and is almost negligible in this context
+
+when writing your server bear in mind that the sequence of events for a * socket is much harder than for a * socket since as well as the normal socket and bind calls you also have to listen and accept
+
+theoretically * should be be 30-50 faster than * because it s missing the extra trip for the ack and has a smaller header overhead however in reality there are many cases where * would outperform * just because of congestion control
+
+but it sounds like you want to do nat traversal over * which is a harder problem than *
+
+* is slower assures data arrival * is faster data corruption may be possible
+
+i used iperf on two linux machines to send data using both * and * i found that * performs better than * average 65 better
+
+i know that in practice this would only happen with a great amount of connection given that processing time of an * connection is faster than * but it could potentially happen
+
+the fact that * s header size is less than * s is because is a simpler protocol that needs less header space that s all there is to it
+
+i know * is better to send file but i have a homework about sending file via * protocol
+
+* is way better then * for that
+
+the key question was related to what kind of situations would * be the better choice over *
+
+i was going through internet and so and understood that web sockets are encapsulations to * which by itself is slower than * ofcourse at the cost of reliability but i couldnt find much info if websockets or * would be ideal to implement such a server
+
+in a congested network yes * will send its packets faster than * this is because * takes then congestion into account using a mechanism called congestion control
+
+4 * is a slower than *
+
+most importantly you can easily supplement * with some reliable delivery hand-shaking that s less overhead than *
+
+* is slower than * and you ll have to mitigate that in realtime multiplayer
+
+i m trying to avoid *client because * is faster but would this work in * since it s streamed
+
+so assess the situation the development cost of a * transport is higher to significantly higher than * and to some degree you are re-inventing *
+
+* protocol is unreliable but much much faster than * which is most commonly used for communication
+
+this was surprising for me as i expected * to perform better than *
+
+* is connection less but at the same level as *
+
+* is much slower than * but when the two machines are not on the same lan * is not reliable
+
+if you were attempting to beat the performance of * by shifting to * keep in mind that part of the reason you get lower performance with * is because * tracks and redelivers the lost packets for you
+
+as a general rule * is faster than * due to less protocol overhead
+
+if you can t afford lost packets then * is probably a better option than * since it provides that guarantee out of the box
+
+in my experience * based code is generally less complex than * based code
+
+c++ is not my first language and this is small part of code i can t figure out i ve chosen * because it is always much simpler than *
+
+because of * requires connection and provides security it is slower than * and therefore it should not be preffered during a video streaming
+
+the package is bigger than * s package but smaller than * s package
+
+if the data is critical you should go for * which is slower as compared to * which in fact doesn t guarantee the packets will arrive in order or even if they d arrive or not
+
+in doing so the tradefoff is that * becomes slower compared to *
+
+it is optimized for downloading larger files where the setup overhead is amortized over the size and number of downloads http is very light-weight you can communicate to an http server using * much easier than * especially before passive * and is designed around html -- the concept that in the course of your navigation you will be visiting many different servers and grabbing only a couple of files at a time from each
+
+i am working on * socket programming and i have to stop the transmission in application if requested data is more than * value
+
+what would happen if my * package is larger than *
+
+you are right that using * is probably better to use for something like this or even an existing protocol like *
+
+it would appear from your question that the period of the * message is shorter than the * refresh time
+
+almost all * * providers allow you to forward calls from an attached did telephone number to more than one * device so your request could be satisfied by a basic account on your friendly neighbourhood * provider
+
+it could be a sni problem if you use any kind of load balancer * proxy or more than 1 * certificate on the same ip
+
+since * proxy is in theory nothing more than a * tunnel i thought i could give that property another try
+

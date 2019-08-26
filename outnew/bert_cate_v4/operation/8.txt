@@ -1,0 +1,28 @@
+* is cheaper than *
+
+that is if you have then you are guaranteed that a happens before b and that b happens before c regardless of the fact that a is involved in an * which is lower precedence than a *
+
+but in many cases * is faster than *
+
+my question is why do both integer and floating-point * execute faster than their * counterparts
+
+the * has a higher operator precedence than the * operator therefore it will happen before the *
+
+note parentheses are redundant as division and multiplication have the same priority and * has higher precedence over *
+
+integer multiplication division and * are much slower than integer * and subtraction
+
+with extra braces because * has a higher precedence than * - assuming these are both percentage discounts
+
+however * is faster than *ing even though less clock cycles are used to * verses * according to what my particular cpu s datasheet says about the instructions being used
+
+* has a higher precedence than * ergo
+
+best example the * it an an * are both o 1 but usually the * takes far more cycles time to execute than the *
+
+it could be done via * which is much slower than * or it could be translated into a bitwise and operation as well and end up being just as fast as the version
+
+the * and subtraction is okay because the types of a and b force them to be performed using floating point arithmetic - but because * binds more tightly than * and subtraction it s like using the brackets above only the immediate operands are considered
+
+an * is faster than a * and a multiplication
+

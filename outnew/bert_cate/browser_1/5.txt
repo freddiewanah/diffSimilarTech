@@ -1,0 +1,100 @@
+while the rest of the browsers report the correct width of the document B reports a smaller one example at screen resolution of 1920x1080 ie B and safari reports 1920 while B reports 1903
+
+B has like 40px less width than B in columns which is causing problems
+
+why height in B is bigger than B of input
+
+i have too problem with text in the B is bigger maybe bolder as in B .
+
+why in B text smaller left than in B and opera right
+
+if we remove the font-size it appears properly in B but shows up smaller in B
+
+i built a site and the problem is B display font-size 1px bigger than B
+
+B s default textbox includes more padding than ie B
+
+my menu links seem in B correctly but in B my menu links are 1 px smaller than B
+
+this is because in ie and B the footer link text is larger than in B and safari therefore the margins that i ve set up for the icons do not work
+
+B thumbnail 4 times smaller than on B
+
+if i remove this code the width of green image in B becomes smaller but it s still bigger than necessary about 100px the B images keeps unchanged
+
+most likely your post value has one or more characters in it that are breaking the html of the page and ie B are being a bit more forgiving than B is
+
+arabic default font in B is larger than it is in B
+
+even then B s fonts look thinner than in B or ie
+
+on linux B displays text about one pixel higher than B and opera
+
+they use iframes in B which seems better but in B they do this by putting manually defined span and font tags
+
+currently with the 10px top padding the cells in B look taller than in B
+
+B text is 1px lower than in B and ie
+
+font-face bold in B is bolder than in B
+
+while the rest of the browsers report the correct width of the document B reports a smaller one example at screen resolution of 1920x1080 ie B and safari reports 1920 while B reports 1903
+
+B has like 40px less width than B in columns which is causing problems
+
+why height in B is bigger than B of input
+
+i have too problem with text in the B is bigger maybe bolder as in B .
+
+why in B text smaller left than in B and opera right
+
+if we remove the font-size it appears properly in B but shows up smaller in B
+
+i built a site and the problem is B display font-size 1px bigger than B
+
+B s default textbox includes more padding than ie B
+
+my menu links seem in B correctly but in B my menu links are 1 px smaller than B
+
+this is because in ie and B the footer link text is larger than in B and safari therefore the margins that i ve set up for the icons do not work
+
+B thumbnail 4 times smaller than on B
+
+if i remove this code the width of green image in B becomes smaller but it s still bigger than necessary about 100px the B images keeps unchanged
+
+most likely your post value has one or more characters in it that are breaking the html of the page and ie B are being a bit more forgiving than B is
+
+arabic default font in B is larger than it is in B
+
+even then B s fonts look thinner than in B or ie
+
+on linux B displays text about one pixel higher than B and opera
+
+they use iframes in B which seems better but in B they do this by putting manually defined span and font tags
+
+currently with the 10px top padding the cells in B look taller than in B
+
+B text is 1px lower than in B and ie
+
+font-face bold in B is bolder than in B
+
+on your screenshot div width in B is bigger than in B and google-chrome
+
+on your screenshot div width in B is bigger than in B and google-chrome
+
+B renders open sans bolder than in B so you would need to apply a lighter font weight for B open sans google web fonts rendering in B
+
+B makes child block s height larger than B
+
+total width of button in B web inspector 6px larger than in B web inspector
+
+B will display fonts without a specified size significantly smaller than in B
+
+B renders open sans bolder than in B so you would need to apply a lighter font weight for B open sans google web fonts rendering in B
+
+B makes child block s height larger than B
+
+total width of button in B web inspector 6px larger than in B web inspector
+
+B will display fonts without a specified size significantly smaller than in B
+

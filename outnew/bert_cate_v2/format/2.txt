@@ -1,0 +1,58 @@
+if your service already has an B B things are even easier with the B reader integrated in the buzzbox api
+
+the atom B option seems to load faster than the B one fwiw
+
+i have a sample wpf app here and wondering why B is loading faster than B
+
+is not simple scale or crop but to be able to rotate scale and crop every single sprite and draw it in the exactly order to compose the final hight resolution image in a backbuffer then save it in B and make some copies in lower resolution as B
+
+it s possible for B software to make this a lot shorter with B but these calculations are hard and not everybody implements it
+
+if the latter is what you want you could use B which is somewhat easier than the B format
+
+the resulting file from this B approach is smaller in size than a B file and i guess may rescale better
+
+the resulting B compression may produce a file size larger than your B compression
+
+i also know that it can deal with B better than B and ogg
+
+regearding your comment i also know that it can deal with B better than B and ogg that is not really the case
+
+it is even slower since i could only upload B which is way bigger in size compared with B and opus
+
+for using a fileformat i thought B uses much less memory than B because all the formats are based on B but just compressed
+
+question iâ m seeing some compromise in B quality my converted B is lower file size when compared to B but my audio quality is little poor than B wonder if i can increase the quality of the B file
+
+either way applying gain and or attenuation to time-domain sample data as in a B file is much easier than trying to apply these effects to frequency-domain data as in an B file
+
+by the way i would suggest creating B self-extracting archives instead of B self-extracting archives as with B compression the exe file with the right switches for best compression using additionally also solid archive options could be much smaller than with B compression
+
+i found the production of B much better and easier than B because all windows B encoders i tried are not really good and stable whereas pretty much every tool can natively output B
+
+but keep in mind that the B color palette is way smaller than B
+
+it might help to reduce your B file sizes smaller oh and i believe -depth 8 can only be used for B images
+
+indexed B less than 256 colors is actually always smaller than B so i use that most of the time
+
+but in that regard it is replaced by B which is generally smaller supports alpha transparency where B pixels are either fully transparent or fully opaque and most importantly B images are limited to 256 colors
+
+jpg and B work well for most applications but the files will be larger than B for very simple graphics
+
+if B isn t smaller than B then your software may be saving it poorly - look for B optimisation progams like Bout and Bnq
+
+paul points out that B compresses static line art better than B for nearly every situation
+
+while B is definitely better that B occasionally there is a use case for needing to stay in B format
+
+the B format is substantially less capable than B
+
+convert it to B 10-30 smaller than B on average
+
+animated B is better than B if we re focused on file size â achieving a smaller file size was one of the reasons the aB format was designed
+
+B images are always compressed lossless but their compression algorithm works better than competition B
+
+ie s B is slower than other browser s B
+

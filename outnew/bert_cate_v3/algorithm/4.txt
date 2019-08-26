@@ -1,0 +1,74 @@
+i have read that * is much faster than * in practise and the reason for this is the hidden constant
+
+technically * has a better time-behavior î nlogn worst and average cases than * î n 2 worst case î nlogn average case
+
+* is more sensitive to input sortedness in a positive way than *
+
+i ve looked at the question at why is * better than *
+
+parallelizing * is simpler than * in-place
+
+this is why * is much slower than *
+
+that continued usage of 1024-bit prime field elgamal or * keys is much riskier than it is for 1024-bit * all are still commonly used because once a successful attack has been conducted against a single well-chosen prime field all users of that prime field may be affected at little additional effort.
+
+* is also a better choice than * because it has much better breadth of support for signatures still considered secure by nist
+
+but a large period * takes up more memory for maintaining the internal state and also takes more time for generating a * number due to complex transitions and post processing
+
+the non-* * behaviour is more a reflection on the quality of the rand * â it is often not very good
+
+* code is 8 times larger than *
+
+turns out this was a hardware failure the * commands need more power than the * crypto1 ones 50 more which the antenna failed to deliver at the reading range i was testing with
+
+if you used * then you might see a better speedup over the * 3* observations
+
+this shows that the timings are sensitive to buffering and that * is faster than *
+
+algorithms like * are much less user-friendly than *
+
+but if you use public key encryption to encrypt messages you are a limited to small messages -- a 1024 bit * key encrypts less than 128 bytes and b going to pay in performance because public key encryption is much more costly than symmetric key encryption such as * encryption
+
+execution of * is more faster than * for same key sizes
+
+like you heard asymmetric cryptography like * is much slower than symmetric cryptography * but it does have it s advantages simpler key management a single private key to protect
+
+* is much slower than *
+
+how is * less secure than * in this scenario
+
+note however that doing so means that each encrypted chunk has its own padding and that * is much more computationally expensive than *
+
+block crypto algorithms like * do suffer from this problem too but without a pki * is no less safe than *
+
+asymmetric encryption ex * is no more secure than symmetric encryption ex *
+
+the whole purpose of using * to secure the communication or any symmetric key encryption is that it s a lot faster than * or any public key encryption
+
+that is actually not the case with * which is --- more so than * --- just a math equation
+
+the * key is encrypting much more data but is much faster than * encryption
+
+considering most * moduli are at least 1024 bit this will be much larger than an * key
+
+* is more difficult to implement * but the out-of-place version is very cache-friendly - i suspect real-world implementations accept the o n space overhead - ram is cheap but memory bandwidth is a major bottleneck so trading memory for cache-efficiency and speed is often a good deal
+
+another reason is that * needs more memory because it s hard to implement it as an * sort
+
+1 * merge sort is used when you want to sort a list in o nlogn time while using less space than standard *
+
+if i do * i can create the stack while i m sorting but would this be faster than a * and then build the stack afterwords
+
+asymptotic analysis reveals order of growth of * in the worst case is big-o n logn which is better than * s big-o n 2 as a worst case
+
+* is also significantly faster than * for decompression
+
+these formats allow various data compression codecs note that * is now much more popular than * and can also provide other benefits such as fast serializable deserialization column pruning and bundled metadata
+
+* is used by python and java for their sort methods and is rather supernaturally fast but it s a more complex algorithm than * which matters if you re working in something like c - so if you just need something that works pretty well and is simple go with *
+
+why * or introsort or any comparison-based sorting algorithm is more common than *
+
+* is probably better though * was developed by google with protobufs in mind so you might want to test both on your data set.
+

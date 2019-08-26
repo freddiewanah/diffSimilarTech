@@ -1,0 +1,158 @@
+rest assured though that B is better equipped in the general case for string comparisons than B is
+
+notice that B is faster than B unless the source string is much smaller than the buffer s size which is rarely the case with ip addesses.
+
+B is usually faster than B for longer strings
+
+notice that B is faster than B unless the source string is much smaller than the buffer s size which is rarely the case with ip addesses.
+
+B is usually faster than B for longer strings
+
+the problem is that B is only slighly slower than B when i expect it to be about two times slower since it operations on twice the memory
+
+the problem is that B is only slighly slower than B when i expect it to be about two times slower since it operations on twice the memory
+
+the difference between crc32 and B is that B generates a larger B that s harder to predict
+
+you can for example store a B stored with something stronger than B
+
+the fact that bcrypt produces B slower than B because of security reasons is also clear for me
+
+this generally uses a B algorithm that is much faster than B
+
+valid choices for Bing include sha1 or B although sha1 is preferable because it produces a larger B and is considered cryptographically stronger than B
+
+use B and choose Bing algorithm that suits you well if possible something stronger than B but don t go all the way to sha512 either
+
+the difference between crc32 and B is that B generates a larger B that s harder to predict
+
+you can for example store a B stored with something stronger than B
+
+the fact that bcrypt produces B slower than B because of security reasons is also clear for me
+
+this generally uses a B algorithm that is much faster than B
+
+valid choices for Bing include sha1 or B although sha1 is preferable because it produces a larger B and is considered cryptographically stronger than B
+
+use B and choose Bing algorithm that suits you well if possible something stronger than B but don t go all the way to sha512 either
+
+as an example of the second option i ll use B here because it makes more sense than B for random data but B would have identical usage other than the interpolation option.
+
+besides B is a better option than B as B can handle failures better
+
+you can also look into B which is better than using B in terms of error checking
+
+you can also use B which is obviously better than B
+
+B is better than B with better error handling
+
+you can use B also in place of B as B is comparatively faster than B
+
+B is better then B because of how datatypes are handled
+
+to prefer B over B when given the choice is that B tends to produce query plans that are more efficient than B
+
+B can only have one input however it s been shown to be slightly faster than B
+
+you can use B also in place of B as B is comparatively faster than B
+
+B is better then B because of how datatypes are handled
+
+to prefer B over B when given the choice is that B tends to produce query plans that are more efficient than B
+
+B can only have one input however it s been shown to be slightly faster than B
+
+3.14 is pretty close but a little smaller than pi and B 3.14 is thus pretty close but a little bigger than 0 B 3.14 is thus pretty close but a little smaller in absolute terms than -1 so tan 3.14 is a little less than 0
+
+if i want to calculate a B and a B is it cheaper to calculate a B and a B or calculate a B then a sqrt 1-B 2 to get the B
+
+after reading a question related with the performance of B B why is std B and std B slower than B and B
+
+so if we have a vector and want to calculate a component-wise function over it say B and B it is faster to use vvBB from accelerate because it will pipeline the calculations of B and B for all the entries in the vector which is faster than uBg a for-loop over the vector
+
+first of all B x should be faster and more accurate than B x 0.5 why do you think it s in the library
+
+first of all B x should be faster and more accurate than B x 0.5 why do you think it s in the library
+
+it would be better to use B over B unless we want the zero-initialization because B is faster than B
+
+for this reason since B uses two arguments of type size_t it can allocate bigger blocks than B will ever be able to since B takes only one argument of type size_t
+
+g_new and g_new0 both take the same arguments unlike B that takes less arguments than B
+
+B is far more common in c code than B
+
+as written B would be better than B but the question used B and it would not be hard to make it sensible for use with this code too for example a conditional assignment in set_matrix such as
+
+this is an enormous amount of extra work and explains why B is faster than B and memset
+
+it would be better to use B over B unless we want the zero-initialization because B is faster than B
+
+for this reason since B uses two arguments of type size_t it can allocate bigger blocks than B will ever be able to since B takes only one argument of type size_t
+
+g_new and g_new0 both take the same arguments unlike B that takes less arguments than B
+
+B is far more common in c code than B
+
+as written B would be better than B but the question used B and it would not be hard to make it sensible for use with this code too for example a conditional assignment in set_matrix such as
+
+this is an enormous amount of extra work and explains why B is faster than B and memset
+
+bcrypt is weaker than B although still three orders of magnitude stronger than B because it only requires 4 kb of memory
+
+B is arguably a better option than bcrypt B having been much more thoroughly studied and tested
+
+the only case where B would be safer than B is when you re comparing two character arrays as strings you re certain that both arrays are at least n bytes long the 3rd argument passed to B and you re not certain that both arrays contain strings contain a 0 null character terminator
+
+is B slower than B as one can give pre-calculated string length to it but B does not receive such information
+
+B is a little bit safer than B because you specify how many comparisons will be made at most
+
+the B times the B are greater than the B xy...that s very much possible
+
+so B idx is the lower element and B idx is the higher
+
+works because B a b is always one greater than B a b except when a b is a whole number
+
+now if B is higher than 0 or B is lower than 0 on any axis it means that there just as many tiles outside of the camera scoop
+
+while B will be only slightly slower than B due to the assumptions it needs to make about the source and destination in B they cannot overlap it should still be far superior to any standard loop
+
+as already pointed out in other answers B is more sophisticated than B such that it accounts for memory overlaps
+
+note that B has more overhead than B because it has to determine which direction of copying is safe
+
+B is more efficient than B. in general use B only if you have to
+
+this means that B might be very slightly slower than B as it cannot make the same assumptions
+
+note the use of std B is safer and more convenient than std B B
+
+at first glance it must be significantly faster because B must be significantly faster than B
+
+at first glance it must be significantly faster because B must be significantly faster than B
+
+i m also looking for more examples and explanations of complex B more complex than B in common programming languages
+
+if for some strange reason you can do the obvious B would be more efficient than B
+
+however if B source is greater than n then B will simply copy the first n bytes and will not terminate the string dest with a null byte because there is no space for it
+
+B performs faster and more efficiently than B but B produces less no errors on the same data set
+
+B performs faster and more efficiently than B but B produces less no errors on the same data set
+
+a similar argument can be made for B functions B is generally faster but will remain in the same big-o complexity class although there is an additional size tradeoff B makes your compiled program larger if the code was being used in many places
+
+there is a nice comparison of threads and processes here when is clone and B better than B
+
+B is more efficient than B as it only evaluates the second argument if the first is null whereas B evaluates both arguments every time
+
+2 however B requires all arguments to be of the same data type thus being stricter than B which will first attempt an implicit conversion
+
+in general it is nicer in c to have the caller allocate memory not the callee - hence why B is a nicer function in my opinion than B
+
+B could be better replaced by B which does some bound checking
+
+B is notoriously unsafe as are it s cousins B_s and B although they are mildly safer than B
+

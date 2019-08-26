@@ -1,0 +1,112 @@
+since you noted thoughts on other browsers would be helpful B s kiosk mode seems more powerful than B s
+
+since you noted thoughts on other browsers would be helpful B s kiosk mode seems more powerful than B s
+
+first just a heads up you may want to try firebug+firepath on B which is a more handy tool than B s developer tool
+
+i want to set my own time limit rather than use the browser s default i believe B s is much longer than B s
+
+with B it was very easy i just grabbed the apk from their ftp server run the adb install command one would think it should be even easier with B but it s really not
+
+i have just noticed a site i am working on looks different in B than other browsers saf B everything is more saturated in B even a background-color rgb
+
+i have encounter a problem with B that is similar to an older issue with B at this url scrolling blocks javascript execution in B
+
+i ve been trying to sum up values over a swipe and see how different browsers report values and they vary a lot with safari reporting order of magnitude bigger numbers on almost all platforms B reporting quite more like 3 times more than B B being balanced on the long run but quite different among platforms on small movements on ubuntu gnome nearly only +3 or -3 seems like it sums up smaller events and then send a big +3
+
+when i posted this on facebook someone said that since B is open source project developers optimized math.min but B didn t since B is just a modification of chromium but beside that above statement is not quite right that makes no sense because that doesn t explain the reason why B s and B s math.min a b performs in similar speed and B s math.min a b and B s performs in same speed because if B is faster than B then B s math.min a b should be much slower than B s
+
+i m sticking with B debugging of my angular 2 app outside of vs code as its user experience is better than B especially when working with typescript files so i ll stick with that for now unless i can figure this out
+
+i ve learned partly by trawling this site that the B security is fussier and the app loads correctly without errors in B and ie but i can t find any resources that are loaded from a non https source
+
+it works fine even for italics but i m aware that the user s browser is being asked to make a best-guess here and have noticed that B will make individual chars appear slightly fatter than B when i do things this way
+
+i use B for development as i find it runs faster than B and ie so it is a bore to guess where the icons are
+
+my question is similar the same page in my pc renders fine B B but the same one on a server rendered smaller by B B ok
+
+given these last two complications i am leaning towards a browser plugin as the solution probably B since low-level http stuff seems to be better supported than in B but i am wondering if anyone has an idea for a more cross-browser-y solution and or if there is something out there that might provide a good api for this kind of thing
+
+update3 now it works here which means that i couldn t fully reproduce my bug to show it to you but in general the problem is that the height of 5x5 table in B is less from B on 22px which is 22px gap between table container and a table itself
+
+it depends on the browser its definitely true for ie and B but seems slower on B
+
+i know different engines render fonts differently and but the issue i m having is that B renders the font higher than B - at the size i am displaying the font this is very noticeable 3 or 4 px - which on a button means they re totally misaligned
+
+ie8 is the same and B is much better but i ve migrated away to B now so would like to stick with the one browser if possible
+
+when i run my http web server on google B it gives more 324 error than in B
+
+use B network in development tools and check your requests sometimes it just sends options request in cross origin i insist on B because it s network tool is much more detailed than B and safari
+
+i m seeing a strange issue on windows in B the framerate is almost 2 times lower than in B on mac B and B have similar framerates
+
+this is trickier to work around and you should file a B bug describing the situation and where it s slower than B but you could potentially reduce the amount of buffer uploads by looking into instancing or using uniform arrays instead of updating vertexes for positions textures
+
+i have been trying to do this in B webextensions but if it s easier with B i will try it that way instead.
+
+first just a heads up you may want to try firebug+firepath on B which is a more handy tool than B s developer tool
+
+i want to set my own time limit rather than use the browser s default i believe B s is much longer than B s
+
+with B it was very easy i just grabbed the apk from their ftp server run the adb install command one would think it should be even easier with B but it s really not
+
+i have just noticed a site i am working on looks different in B than other browsers saf B everything is more saturated in B even a background-color rgb
+
+i have encounter a problem with B that is similar to an older issue with B at this url scrolling blocks javascript execution in B
+
+i ve been trying to sum up values over a swipe and see how different browsers report values and they vary a lot with safari reporting order of magnitude bigger numbers on almost all platforms B reporting quite more like 3 times more than B B being balanced on the long run but quite different among platforms on small movements on ubuntu gnome nearly only +3 or -3 seems like it sums up smaller events and then send a big +3
+
+when i posted this on facebook someone said that since B is open source project developers optimized math.min but B didn t since B is just a modification of chromium but beside that above statement is not quite right that makes no sense because that doesn t explain the reason why B s and B s math.min a b performs in similar speed and B s math.min a b and B s performs in same speed because if B is faster than B then B s math.min a b should be much slower than B s
+
+i m sticking with B debugging of my angular 2 app outside of vs code as its user experience is better than B especially when working with typescript files so i ll stick with that for now unless i can figure this out
+
+i ve learned partly by trawling this site that the B security is fussier and the app loads correctly without errors in B and ie but i can t find any resources that are loaded from a non https source
+
+it works fine even for italics but i m aware that the user s browser is being asked to make a best-guess here and have noticed that B will make individual chars appear slightly fatter than B when i do things this way
+
+i use B for development as i find it runs faster than B and ie so it is a bore to guess where the icons are
+
+my question is similar the same page in my pc renders fine B B but the same one on a server rendered smaller by B B ok
+
+given these last two complications i am leaning towards a browser plugin as the solution probably B since low-level http stuff seems to be better supported than in B but i am wondering if anyone has an idea for a more cross-browser-y solution and or if there is something out there that might provide a good api for this kind of thing
+
+update3 now it works here which means that i couldn t fully reproduce my bug to show it to you but in general the problem is that the height of 5x5 table in B is less from B on 22px which is 22px gap between table container and a table itself
+
+it depends on the browser its definitely true for ie and B but seems slower on B
+
+i know different engines render fonts differently and but the issue i m having is that B renders the font higher than B - at the size i am displaying the font this is very noticeable 3 or 4 px - which on a button means they re totally misaligned
+
+ie8 is the same and B is much better but i ve migrated away to B now so would like to stick with the one browser if possible
+
+when i run my http web server on google B it gives more 324 error than in B
+
+use B network in development tools and check your requests sometimes it just sends options request in cross origin i insist on B because it s network tool is much more detailed than B and safari
+
+i m seeing a strange issue on windows in B the framerate is almost 2 times lower than in B on mac B and B have similar framerates
+
+this is trickier to work around and you should file a B bug describing the situation and where it s slower than B but you could potentially reduce the amount of buffer uploads by looking into instancing or using uniform arrays instead of updating vertexes for positions textures
+
+i have been trying to do this in B webextensions but if it s easier with B i will try it that way instead.
+
+if i try to do a google search for website loading slower in B than in B i get a lot of results about how B is slower than B
+
+it s not even a webkit issue unless B s got a newer version than B
+
+if i try to do a google search for website loading slower in B than in B i get a lot of results about how B is slower than B
+
+it s not even a webkit issue unless B s got a newer version than B
+
+that i gave to every link in the set of links home about us products contact and it seems that B is making that 1px margin much bigger than B or google-chrome and distorting it
+
+it works great in google-chrome and B haven t tested ie but i m sure it s somehow worse than B
+
+i planned on using svgs for the entire site but with only 20-30 svg images of medium to high complexity used in the page and google-chrome already seems to be showing som jank and high paint times for scroll and B is even worse though B seems to do a lot better
+
+that i gave to every link in the set of links home about us products contact and it seems that B is making that 1px margin much bigger than B or google-chrome and distorting it
+
+it works great in google-chrome and B haven t tested ie but i m sure it s somehow worse than B
+
+i planned on using svgs for the entire site but with only 20-30 svg images of medium to high complexity used in the page and google-chrome already seems to be showing som jank and high paint times for scroll and B is even worse though B seems to do a lot better
+

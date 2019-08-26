@@ -1,0 +1,100 @@
+what we can see is that regardless of raw hardware power B seems to run up to three times faster than edge and also significantly faster than B all updated to the latest verion
+
+graph beeing cut in B is a known issue B does not respect some print css and works much better with B not all versions still
+
+i ve been trying to sum up values over a swipe and see how different browsers report values and they vary a lot with safari reporting order of magnitude bigger numbers on almost all platforms B reporting quite more like 3 times more than B B being balanced on the long run but quite different among platforms on small movements on ubuntu gnome nearly only +3 or -3 seems like it sums up smaller events and then send a big +3
+
+B renders passwords smaller than B
+
+the B console gives more information than the B console
+
+B and ie9 require a proper domain to run from presumably because they are more strict than B in the way they associate the localstorate object to a domain in B it doesn t need to be a domain as such
+
+this is because in ie and B the footer link text is larger than in B and safari therefore the margins that i ve set up for the icons do not work
+
+it depends on the browser its definitely true for ie and B but seems slower on B
+
+also why does B perform way better than B on this benchmark
+
+when i run my http web server on google B it gives more 324 error than in B
+
+because of how B s plugin system works development mode in B is much slower than in B or safari see here for more details
+
+most noticeably if you look or B B and then internet explorer 9 you ll notice that the terms and conditions are slightly higher than in B or B and thus slightly touching the main content area
+
+also ie and B seems to work better than B
+
+B shows it better than B firebug
+
+B dev tools are by far better than B ie whatever imho
+
+apparently B is pickier than B
+
+i usually use B s developer mode which imho already gives even more details than B
+
+pd note that B s developer tools are better and more complete than B developer tools but in essence are for the same purpose
+
+ie B higher than baseline B on baseline
+
+ellipsis still wraps in B but is more user friendly in B by adding the .
+
+use B rather than B - B with dev mode is much slower than B
+
+as B s v8 is dramatically faster than B s spidermonkey at the moment these things are constantly in flux pick the forward loop as it s faster on the slower engine
+
+spidermonkey B is slower 50 of B max speed but the speed is consistent
+
+my knowledge of B is better than B so my apologies if i missed something
+
+first just a heads up you may want to try firebug+firepath on B which is a more handy tool than B s developer tool
+
+phantomjs achieves a better accuracy than B slightly lower than B but in around half the time of B
+
+this does not seem to occur in safari or ie and a similar permission error occurs sometimes in B but is reproducible more often than not in B
+
+B is even slower that B
+
+obviously B is more persnickety whereas B defaults to moving and sizing the printout as necessary
+
+if i remove this code the width of green image in B becomes smaller but it s still bigger than necessary about 100px the B images keeps unchanged
+
+maybe B is working faster than B try adding a wait with expected conditions
+
+this is due to the simple fact that B has been in the extension business longer than B or ie
+
+also B 4 has hardware accelerated canvas that is marginally faster than ie9 and a lot faster than B
+
+currently with the 10px top padding the cells in B look taller than in B
+
+B is just more forgiving for some mistakes then B
+
+so i wonder the benchmark is also influenced by the installed extensions or B is really so much higher than B in performance
+
+in B the input button has more padding than in B
+
+it seems that in B ie the line-through style is a bit lower than B i am not sure if this is because of the implementation of different browsers or something
+
+my B adds more chopping to video playing itself B plays the video much better
+
+B is extremely slow for your code path but grep seems to be 50 faster than array.filter here making it 900 slower than the B run
+
+B is more forgiving or you could call it less compliant B less so
+
+for my website i noticed that tooltip delay in B was much higher than in B
+
+i d say that B is correct in being stricter than B here even though i m not entirely sure the base uri has changed and this new uri should be used for the relative uri #symboltype1 too
+
+in B the font appears to be 1px smaller than B and ie and i cannot see why
+
+it seems to be slower in google-chrome and B but is significantly faster in B
+
+it s not even a webkit issue unless B s got a newer version than B
+
+in B the background of my menu navigation drop-down menu s is much wider than in B firefox
+
+dus anyone knows if there is something wrong with my json or if B is harder to get than B
+
+in any case vorbis clearly has the most coverage B has more of the market than B now opera is about half of B and obviously firefox is huge and it doesn t really have the strong opposition that theora has
+
+it seems that google-chrome internet explorer or B are more strict than B on terms of security
+

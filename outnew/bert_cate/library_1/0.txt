@@ -1,0 +1,146 @@
+by looking at the google groups for qjplot and B the support for B is better lot s of unanswered questions at the B group
+
+usr local lib python2.7 dist-packages B sandbox cuda init .py 600 userwarning your B version is more recent than the one B officially supports
+
+if i remember correctly B argued they were faster than B because the use non-native functions for key operations
+
+B is another faster implementation of B that will provide a lot of utility methods for working wit arrays objects functions etc
+
+i am stunned right now seeing a B performing 100-150 faster than B in even simple native functions such as array.every in chrome
+
+basically collections are things that implement some kind of iterable interface and they internally use the same iteration method though B source is a bit more convoluted than B
+
+if i remember correctly B argued they were faster than B because the use non-native functions for key operations
+
+B is another faster implementation of B that will provide a lot of utility methods for working wit arrays objects functions etc
+
+i am stunned right now seeing a B performing 100-150 faster than B in even simple native functions such as array.every in chrome
+
+basically collections are things that implement some kind of iterable interface and they internally use the same iteration method though B source is a bit more convoluted than B
+
+other useful pieces would be B for database access much simpler than B or other full orms async-httpclient for doing calls to other web services
+
+i also think working with B is much easier using B dataframes and not numpy arrays
+
+i also think working with B is much easier using B dataframes and not numpy arrays
+
+B intrusive_ptr performs better than shared_ptr because it doesn t need a second B to hold the reference count
+
+to be able to use std allocate_shared with B fast_pool_B as the B method using g++ 4.8 or higher with B 1.56.0
+
+the latter doesn t do any dynamic memory B and is more than 10 times faster than std to_string on B karma benchmarks
+
+just to goof off a version using B string_ref is much faster still due the reduced B
+
+B intrusive_ptr performs better than shared_ptr because it doesn t need a second B to hold the reference count
+
+to be able to use std allocate_shared with B fast_pool_B as the B method using g++ 4.8 or higher with B 1.56.0
+
+the latter doesn t do any dynamic memory B and is more than 10 times faster than std to_string on B karma benchmarks
+
+just to goof off a version using B string_ref is much faster still due the reduced B
+
+i m using the module B in my python script and many more such as B and numpy etc B module only works on python2 not for python3
+
+to allow you to scale down the data away from endpoints 0 and 1 i had to do this when combining B in B single pcolormesh with more than one B using B so you can likely see how the code works but basically say you have values -5 1 10 in a sample but want to normalize based on a range of -7 to 7 so anything above 7 our 10 is treated as a 7 effectively with a midpoint of 2 but shrink it to fit a 256 rgb B
+
+to allow you to scale down the data away from 0 and 1 i had to do this when combining B in B single pcolormesh with more than one B using B so you can likely see how the code works but basically say you have values -5 1 10 in a sample but want to normalize based on a range of -7 to 7 so anything above 7 our 10 is treated as a 7 effectively with a midpoint of 2 but shrink it to fit a 256 rgb B
+
+to allow you to scale down the data away from endpoints 0 and 1 i had to do this when combining B in B single pcolormesh with more than one B using B so you can likely see how the code works but basically say you have values -5 1 10 in a sample but want to normalize based on a range of -7 to 7 so anything above 7 our 10 is treated as a 7 effectively with a midpoint of 2 but shrink it to fit a 256 rgb B
+
+to allow you to scale down the data away from 0 and 1 i had to do this when combining B in B single pcolormesh with more than one B using B so you can likely see how the code works but basically say you have values -5 1 10 in a sample but want to normalize based on a range of -7 to 7 so anything above 7 our 10 is treated as a 7 effectively with a midpoint of 2 but shrink it to fit a 256 rgb B
+
+unless you re doing very heavy processing working with a single frame is probably faster than transferring it to the server as far as i know B in c# isn t considerably slower than B in c c++
+
+customization and variety of animations B has more customizable animations when compared to B javascript charts
+
+customization and variety of animations B has more customizable animations when compared to B javascript charts
+
+if you re using retrofit and okhttp to perform the network calls i suggest you use B as it s also from square and claimed to work faster and better than B
+
+this should be possible maybe be aware snap.svg isn t so compatible with older browsers in which case you could look at B which is snaps older brother B is very well established as well
+
+the only place where B defeats B is fallback B supports older versions of ie where as B is based on current web standards ie 9
+
+this should be possible maybe be aware snap.svg isn t so compatible with older browsers in which case you could look at B which is snaps older brother B is very well established as well
+
+the only place where B defeats B is fallback B supports older versions of ie where as B is based on current web standards ie 9
+
+B is svg and as such it is much more dynamic than B you can restyle graphs with css attach events perform animations etc..
+
+B is svg and as such it is much more dynamic than B you can restyle graphs with css attach events perform animations etc..
+
+in the experiments and discussion below i find that B is slower than B for batched 2d ffts
+
+however for a variety of fft problem sizes i ve found that B is slower than B with openmp
+
+you can also try sklearn.linear_model.logisticregression and sklearn.svm.linearsvc both implemented using B that is more scalable than B albeit less memory efficients than other linear models in scikit-learn
+
+the situation is critical if on some platform B provides a narrower functionality and does not link to B which will not be available on that platform at all so the above command for linking will fail due to unsatisfied library dependency
+
+the situation is critical if on some platform B provides a narrower functionality and does not link to B which will not be available on that platform at all so the above command for linking will fail due to unsatisfied library dependency
+
+B seems more flexible but i am unclear about what the most direct way of using it to save a full B dataframe with multiindex and all
+
+B seems more flexible but i am unclear about what the most direct way of using it to save a full B dataframe with multiindex and all
+
+inspecting the assembly shows that in the sequential access case B is faster because the sum becomes vectorized while it does not when using raw B multi_array
+
+inspecting the assembly shows that in the sequential access case B is faster because the sum becomes vectorized while it does not when using raw B multi_array
+
+as a note B is way better than other libraries as B for real time applications
+
+the origin server would get the images from s3 process them using B since it s much faster than B then serve them
+
+android plot and other free chart solutions mentioned here doesn t support annotations the only one is afreechart which is a port of B for android i am currently using it and it is awesome and has much more features than B
+
+android plot and other free chart solutions mentioned here doesn t support annotations the only one is afreechart which is a port of B for android i am currently using it and it is awesome and has much more features than B
+
+or B directly .for more details B 3.0 documentation
+
+or B directly .for more details B 3.0 documentation
+
+i have an app that uses the public part of the twitter api the on who not requires to login but with the update the login is required so i need to implement oauth i ve seen there are libraries like B who makes this easier but my app has a lot of code and i don t wanna rewrite it not now so i ve think to use B or oauth-signpost but i dont realy know how to
+
+i have an app that uses the public part of the twitter api the on who not requires to login but with the update the login is required so i need to implement oauth i ve seen there are libraries like B who makes this easier but my app has a lot of code and i don t wanna rewrite it not now so i ve think to use B or oauth-signpost but i dont realy know how to
+
+have a look at sift and surf and at B which has a good sift implementation and also implements mser and hog and is much smaller than B
+
+in my experience B via mit-shm extension was significantly faster than B surfaces not sure i used B in the most optimal way though
+
+in my experience B via mit-shm extension was significantly faster than B surfaces not sure i used B in the most optimal way though
+
+B is more of creating charts using canvas element of html5 and B uses svg
+
+B is more of creating charts using canvas element of html5 and B uses svg
+
+try this lib that s a good one with the B we use only in the server side because B is more slow in the android than B at least in our test
+
+B is more suitable if you have a complex deep json tree because B creates a lot of temporary objects which leads to stop the world gcs
+
+according to the performance results at for serialization with databind with strings B.tojson myobject B is over 10x slower than B
+
+try this lib that s a good one with the B we use only in the server side because B is more slow in the android than B at least in our test
+
+B is more suitable if you have a complex deep json tree because B creates a lot of temporary objects which leads to stop the world gcs
+
+according to the performance results at for serialization with databind with strings B.tojson myobject B is over 10x slower than B
+
+there is B which provides more semantic support than B .also you can try nitobi suite which also provides similar kinda solution.if you are not satisfied with any of these i suggest try to write your own part extending the sun faces
+
+there is B which provides more semantic support than B .also you can try nitobi suite which also provides similar kinda solution.if you are not satisfied with any of these i suggest try to write your own part extending the sun faces
+
+B is far more flexible for working with data so i often bring parts of B dataframes into memory manipulate columns and create new ones
+
+B is far more flexible for working with data so i often bring parts of B dataframes into memory manipulate columns and create new ones
+
+the chapter starts with short course to xml general talk but with the atom syndication feed example then it continues with the standard xml.etree.elementtree and continues with third party B that implements more with the same interface full xpath 1.0 based on B
+
+the chapter starts with short course to xml general talk but with the atom syndication feed example then it continues with the standard xml.etree.elementtree and continues with third party B that implements more with the same interface full xpath 1.0 based on B
+
+i have found though that since i started using the asset_sync gem which uses B instead of aws-s3 gem i don t have any more trouble with B and s3
+
+i am using a sparse format but suggestions are welcome on other formats too i am able to use the data with B in a dense format using the function names as variables and it works just muuch slower than with B
+
+i am using a sparse format but suggestions are welcome on other formats too i am able to use the data with B in a dense format using the function names as variables and it works just muuch slower than with B
+

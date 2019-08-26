@@ -1,0 +1,124 @@
+odd that * is more tolerant than *
+
+* is a strong typed java template engine using razor like syntax with high performance 2 to 3 times faster than * and fm
+
+the benchmark shows * is 2 to 3 times faster than * on a normal page
+
+double has its * floating point definition which is also much more complex than *
+
+if you are targeting android you can use firefox for android by developing a webapp that has native * support and because of it will be much faster than * or other javascript solution
+
+it is working only for simple .php files but * is more complex and after long period of loading it show * nothing found site loaded
+
+i m working in a spring mvc project and i want to use a template engine i originally choose apache * because a slideshare presentation that says it was two times faster than * page 41 and since i m working with big tables i need to use a fast template engine does apache * supports html5 if not is there other template engine that supports html5 that is not *
+
+it s called web audio api and is currently a draft but is well supported by * you ll need to use prefixes and a little less by *
+
+select queries in * runs 2x faster then in * but the updates and insert queries are much slower in *
+
+* is more resistant to table corruption than *
+
+* is often faster than * but isn t safe to use in a production environment for critical data
+
+therefore * can handle higher levels of concurrency better than *
+
+* is faster for certain queries and supports fulltext and spatial indexes while * is transactional and more concurrent
+
+yes it is an old wives tale that * is faster than *
+
+i have been told * is faster on executing writes but slower than * doing reads i cannot back this up and could not find any article that analyses this i do however have the guy that told me this in high regard feel free to ignore this point or do your own research
+
+* provides more complex keys structure than * foreign keys and regenerating keys is really slow in *
+
+the lone exception is * which is an older mysql storage engine which does not support transactions is more prone to corruption and generally tends to perform worse than *
+
+* is faster but does not support the use of transactions like * does
+
+* uses row level locking while * can only use table level locking that is why * has crash revovery is better than *
+
+put another way let s say i start with a new * table and insert 20 gb of data assuming that 20 gb incorporates all the excess * stuff i realize data stored in * is larger than * then i delete all data then i insert 10 gb of data
+
+also mysql version starting from 5.5 - * performs faster than *
+
+since * is better on selecting while * is better on writing
+
+anyone who thinks * is faster is either not tuning * correctly or has such small data that who cares
+
+* consumes more disk space than * -- typically 2x-3x
+
+* is more scalable and * doesn t support any of the properties of acid
+
+your table sounds fairly large so i doubt it s being held entirely in memory but it sounds like * handles indexes better than * anyway plus since you re being so specific it may be caching the result of the query
+
+* uses less memory than * and the actual data files are often quite a bit larger for *
+
+* delivers better read performance compared to * at the cost of being less acid compliant
+
+after all * shouldn t be slower than * when using count + where but that s exactly what is happening here
+
+but when * is really better than *
+
+* has better performance than * though * needs more attention to tuning the configuration * supports atomic changes transactions foreign keys and * is much more resistant to corrupting data in a crash
+
+i am not sure if this is no longer true * is faster than * for reads
+
+not sure why people think * is more performant than * - it s a conundrum wrapped in an enigma
+
+if your database has a large * buffer pool and a small key buffer then * performance is going to be better than * performance especially for large tables
+
+* has proved to be faster than * for me
+
+3 mysqlhotcopy inly works on * tables and in most applications you are better off with *
+
+* would be a better choice than * for a high-write table
+
+during my tests of * v * i found that when i did resolve any contention issues the * model was 40 slower than *
+
+* doesnt read number of rows from stored cached value like * does if column is not null cause * is more optimized for writing than reading opposing to *
+
+* not only has the advantages you list but it is also faster than * in many benchmarks
+
+since you don t do updates i think * would be better than * in this scenario
+
+* tables are even slower than * tables for inserts and the delayed key write option is not available
+
+as you know * table sizes are about three or more times smaller than same * tables
+
+to our suprise * took hours more than *
+
+* has historically been viewed as faster than * but for recent versions of * that is true for a much much smaller set of use cases
+
+i know * is heavier than * but just how much more
+
+* handles inserts with composite primary keys quicker than *
+
+the script was tested using * and it indexes products relatively fast much much faster than *
+
+in this area i think * s change buffer does a better job than * s do it now
+
+so for such an application is it will * be a better choice over *
+
+* is affected by the primary key much more than * and it could make a noticeable difference
+
+* scales better than *
+
+you will need about six times less disk space to store and memory to process your dataset compared to * or about 2-3 times less than archived *
+
+3 a first of all if you haven t done yet change the storage engine to * which has row level locking and in newer versions of mysql has more optimization than * has
+
+database performance of the * is not necessary faster than the * engine
+
+* is also being developed more than *
+
+to answer the real question why is * slower than * i can t give an authoritative answer
+
+the trope about * being faster than * is a holdover from code that was current in the mid-2000 s
+
+in general is * faster than *
+
+if you use * which i like better than * - although i still prefer self-restraint+plain php most ide s that support django templating should work with it since the syntax is nearly the same
+
+so basically when * is more about how objects will behave themselves during application running the * is more about how you write your code before application running
+
+* is nicer templating tool and it was created by * and its designed to work cross language originally which can be forked from git - *
+

@@ -1,0 +1,30 @@
+* should perform better less overhead than * if the lists are long
+
+creating an instance of the * is easier than creating a *
+
+as the simple * is faster than a foreach *
+
+to explain why a * is faster than a for in * is basically understand the underlying data structures used to store the data in memory
+
+the other advice i have is that a for-each * is faster than a *
+
+and now we know that * is faster than *
+
+the reason for the second case much slower on sorted data is that a * is cheaper than the equivalent * when there are zero iterations
+
+i have also found that a * is faster than a *
+
+with one * one can do which is easier than a *
+
+running a quick benchmark it seems that the * is 4x faster even in the worst case where you have to replace every single time and you construct a new * to hold the replacements
+
+but modifying the * is more work than a simple * again
+
+in such a simple * you shouldn t be concerned about memory usage but the * consumes less memory than foreach because foreach uses an internal copy of the *
+
+the only way to copy * that is more efficient than * coding is system.arraycopy
+
+i use * more than * and find them super flexible
+
+on the other hand the wikipedia article on * seems more specifically targeted towards mapping than the k-d tree or *
+

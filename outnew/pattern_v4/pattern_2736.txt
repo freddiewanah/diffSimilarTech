@@ -1,0 +1,23 @@
+1517
+emacs aquamacs
+Pattern(s): 0	
+someone syncs carbon emacs with the upstream tree quarterly i think
+aquamacs has a more irregular schedule but it s seen some pretty major updates over the last year
+
+
+
+13942
+imperative declarative
+Pattern(s): 0	
+imperative
+declarative is usually better for anything where you really don t need the fine-grained control over how something is done
+
+
+
+19370
+cassini iis
+Pattern(s): 0	
+you are on vista iis got better 7 cassini stayed crappy
+
+
+

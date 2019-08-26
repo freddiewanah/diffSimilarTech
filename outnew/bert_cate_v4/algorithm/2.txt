@@ -1,0 +1,48 @@
+also note that * is generally more optimal than * see this as well which explains why it s taken advantage of when sorting primitives
+
+you can also see that for smaller collections * is faster but then * takes the lead but all of this is case specific so take your time to study all 4 algorithms
+
+an interesting answer about this can be found at why is * better than *
+
+since a proper implementation of * is faster than * use * unless there are negative weight edges in the graph
+
+* as suggested in your question tends to be slower than either * s or a - it is primarily used when there are negative edge-weights which there are not here
+
+surely there is some situation in which the * approach is better than the * approach
+
+* will indeed yield a considerably faster result than *
+
+because * runs in time o mn the overall asymptotic runtime is still o mn + n 2 log n so if m o n 2 note that this is little-o of n this approach is asymptotically faster than using *
+
+each iteration in * is a lot simpler than *
+
+after several tests i found out that my * is way quicker than * i think it should be the other way around my selection sort is also faster than insertion sort
+
+why it is said * has better constant factor than * and therefore * is better than * in average
+
+it is a variant of * which is particularly suitable for the sorting of very large amounts of data if a relatively high cost per compare operation is needed and on average better than *
+
+for example * average cost t n.log n and * average cost t n.log n are both sorting algorithms with the same average cost - yet * is typically much faster than *
+
+however * s worst-case performance is significantly worse than * s is
+
+however * is slower than * in the average case in the sense that * performs c n log n whereas * has d n log n performance with d being significantly smaller than c the numbers c and d are constants
+
+this is because * is generally faster than * unless the call depth becomes to deep
+
+you can indeed show that on average * will do more comparisons than * roughly 1.44 n log 2 n for * versus n log 2 n versus *
+
+for 5 000 000 ints still stored in memory * becomes suddenly worse then * and mergesort
+
+in theory * is worse than *
+
+in theory insertion sort and * are worse than *
+
+from what i heard * should have better average case performance but from my tests it performs 4 times worse than * for array of random integers
+
+when you say something like * should be faster than * what makes you say that
+
+short answer * is more efficient in this case than naive application of * s
+
+no practically * is faster than * s for all pair shortest path generally
+

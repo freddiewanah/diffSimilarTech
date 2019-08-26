@@ -1,0 +1,126 @@
+at the beginning the insert performance of innodb is almost 50 times slower than * and * is 40 times slower than *
+
+the benchmark shows * is 2 to 3 times faster than * on a normal page
+
+double has its * floating point definition which is also much more complex than *
+
+* seems to be more mature than * judging by the amount of applications and games that is
+
+it s called web audio api and is currently a draft but is well supported by * you ll need to use prefixes and a little less by *
+
+* is stricter than *
+
+so the easiest way is to use one either * or * * has probably better support for svg these days plus i can t find package of * right now
+
+* is often faster than * in terms of raw performance mostly because it is not acid
+
+* has better crash recovery while * is poor at recovering data integrity at system crashes
+
+* is better than * when you don t need those advanced features and storage speed is more important than other concerns
+
+* is slightly faster than * and implements the fulltext index which is quite useful for integrating search capabilities
+
+mostly * is better choice than a *
+
+* provides more complex keys structure than * foreign keys and regenerating keys is really slow in *
+
+* has a higher resource consumption rates then * so keep that in mind
+
+* doesnt read number of rows from stored cached value like * does if column is not null cause * is more optimized for writing than reading opposing to *
+
+for an oltp type system * is usually more sensible than * did you check the contention before trying a different engine
+
+* is more space friendly than * you can start with that one
+
+* has historically been viewed as faster than * but for recent versions of * that is true for a much much smaller set of use cases
+
+* is usually much better than * at tables being available while insert update and delete are happening because * uses row level locking for updates whereas * uses table level locking
+
+finally even if somehow you could manage * to perform better than * that doesn t mean * is inadecuate at all
+
+* is actually faster than * in quite a few cases so it depends on what your application s mix of selects updates concurrent queries indexes buffer configuration etc
+
+if you have so many records in the table then the first thing is to change the table engine to * if its not * because for large number of records * is much faster as it caches the table data while on the contrary * engine only caches the indexes so each time it has to do a full table scan from disk if the data required cannot be fetched from index
+
+most of the literature that says * is better faster whatever then * is old literature
+
+* has more overhead but uses row-level locking so that reads and writes can happen concurrently without the problems that * s table locking incurs
+
+* is not faster than * anymore for most types of queries
+
+* is newer while * is older
+
+2 - i have read about * vs * the conclusion for me was that * is faster when it comes to read-only whereas * is designed for tables that get updated or inserts more frequently
+
+* generally performs faster because it lacks certain functions * has such as rollback... but it has only table locking
+
+if you are not using transactions while storing or updating tables switch table type to * its quite faster than * with much less overhead
+
+* is relatively newer than * and is transaction safe
+
+* is more strict in data integrity while * is not as
+
+edited to add * is faster than * because it is simpler
+
+newer versions of mysql 5.5+ have extended * to support all the features that were previously only available on * such as fulltext and geospatial indexing and * performance is usually considerably better than * when configured properly
+
+* is a better choice as * is really old engine and would fade away in near future
+
+there is a difference between the different storage engines though * is faster for a lot of select * is faster for a lot of insert update because it uses row locking instead of table locking and the way it handles indexes
+
+* is often faster than * but isn t safe to use in a production environment for critical data
+
+* is transactional so inserts will generally be slower than *
+
+it is said that if you have a mostly read based application you should use * as it is better than *
+
+why is * so much slower than * in my case
+
+* is more concurrent than * since it provides row-level locking
+
+if your database has a large * buffer pool and a small key buffer then * performance is going to be better than * performance especially for large tables
+
+oracle has kept improving * by so much that they declare that it is better than * in virtually all situations
+
+put another way let s say i start with a new * table and insert 20 gb of data assuming that 20 gb incorporates all the excess * stuff i realize data stored in * is larger than * then i delete all data then i insert 10 gb of data
+
+if you find that * is much slower for inserts updates bear in mind that it offers a much better level of durability - if you tune it for approximately the same durability as * then you ll see good performance hopefully
+
+* consumes more disk space than * -- typically 2x-3x
+
+it is a massive over simplification in some cases and plain wrong in others to say we know that * is faster than *
+
+* is more scalable and * doesn t support any of the properties of acid
+
+with * there is less time lost from table locking while * is faster in table readings
+
+after all * shouldn t be slower than * when using count + where but that s exactly what is happening here
+
+so for such an application is it will * be a better choice over *
+
+* shouldn t be much slower than *
+
+even this blog from 2007 shows benchmark results that * is on par with or faster than * under most workloads
+
+* -- more effecient than * because of the way the primary key is clustered with the data in *
+
+the script was tested using * and it indexes products relatively fast much much faster than *
+
+the engine is * i ve heard people recommend switching to * but many others said * is faster with large amounts of data in terms of counting and * better for safe transactions
+
+3 a first of all if you haven t done yet change the storage engine to * which has row level locking and in newer versions of mysql has more optimization than * has
+
+so that means that in practice an * write will take 3 times longer than a * write
+
+* is almost 4 time faster than * which is not acceptable in the environment we are working as i mentioned earlier that every second is worth many dollers for us
+
+i ve also noticed that * is significantly faster and more stable that the old * based widgets
+
+unfortunately * has much worse and poorer integration with the rest of qt facilities than *
+
+either way i intend to use * partly because i have lots of experience with it and partly because its much more well documented and has much more functionality than blade and to me the syntax is slightly cleaner than * although the template engine is not the point of this question really
+
+template engines are rarely the cause of performance problems even if * is slightly faster than * i doubt the effort of learning a new template language etc
+
+i use * on tables of up to 18 billion rows and nothing else comes close it s at least 100 times faster than * for random inserts on big tables
+

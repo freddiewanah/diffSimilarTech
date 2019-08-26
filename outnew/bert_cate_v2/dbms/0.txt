@@ -1,0 +1,56 @@
+as you can see the B result is way longer then the one from B
+
+i suggest B it s more capable has more features and better support for complex queries and datatypes than B and has a lot of tuning options
+
+B is more compliant but if you re comfortable with B and you re using an orm you should probably use that
+
+i did a simple performance test and i noticed B is slower than B
+
+B seem to better than B in terms of speed
+
+i just recently switched databases to B which has given me a slew of problems although i must admit i like it a lot better than B
+
+i would need a scalable database so probably B would be better than B
+
+you might look at B as i find it a bit easier to manage and maintain as i feel some aspects are more logical than B
+
+B i am told can be optimized to do faster reads than B but both are pretty ridiculously fast in terms of # transactions sec they support and it doesn t sound like that s your problem
+
+B mariadb is slightly worse than B
+
+B license bsd is undoubtedly more simple than B s
+
+poor performance from B has more to do with it not being smart and automatically creating an optimized plan like sql server B or oracle would
+
+i totally understand the error and assume that the B implementation is less sql conform than the B implementation
+
+i know B could be considered more mature than B with regards to locking thanks to mvcc - can i use row-locking or some other feature in B instead of the token field
+
+with django it is easy to use B instead of B so i tried it with the same query and same data in db B is much faster that B x10 more faster while using inner join analyse shows it uses indexes unlike B
+
+however people often argue that B is cleaner and easier to use that B
+
+while B is less popular than B most of the serious web hosting supports it
+
+if you are looking for location based queries in relational databases B is more matured compared to B
+
+B is way better than B in nearly every respect
+
+however B s sql features are far more advanced than B s and B has a tendency to silently ignore things you tell it to do - especially in a default installation and if you rely on a foreign key to be created that might be a very unpleasant surprise
+
+some people were saying that B is better for security purposes whereas B is becoming more feature rich.
+
+i found that B 9.3 has better capabilities for json than the B versions i am using
+
+B is older than B so it might have influenced them
+
+an efficiently configured B is better than a badly configured B and vice-versa
+
+the question is is B somehow more resistant than B to sql injection attack under the perl dbi and why might this be the case
+
+do you find rails with B is slower than B knowing that it produce more query on the background
+
+also you might take the time to compare B and see if there is something about it that meets your needs as well or better than B
+
+according to the B which i gather B is based on documentation for sequence manipulation functions it should return the value most recently returned by nextval in the current session.
+

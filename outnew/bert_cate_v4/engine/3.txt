@@ -1,0 +1,74 @@
+if you are targeting android you can use firefox for android by developing a webapp that has native * support and because of it will be much faster than * or other javascript solution
+
+i m developing with canvas too and have found that * based browsers in general handle canvas operations quicker than * in most cases
+
+* does support transactions and referential integrity but the trade-off is that it is a bit slower than *
+
+in a thread i came to know that * is faster for reads * is faster for writes
+
+* is more prone to locking problems than * i believe
+
+* delivered 4.6x higher throughput than * while achieving
+
+and now i have learned that * uses more memory at-least while reading than * engine so i am trying to change the default engine of mysql to use *
+
+this is a huge performance boost look like * is much more quicker for fulltext in mysql than *
+
+therefore accessing * consumes less resources than *
+
+i am trying to compare the * and * write read performance but i am suprised that the * s read is much more slower than * while its write is much more faster this is totally opposite compared to what i have learned
+
+i am not sure if this is no longer true * is faster than * for reads
+
+in fact oracle is so sure that * is better that they removed * from 8.0
+
+1 in mysql engines * is better or *
+
+* scales better than *
+
+you can also try using * since it s said is better than * handling bulk inserts with data already on it
+
+oh and just incase you were thinking * is slower than * - the * implementation i tested was twice as slow in all counts
+
+in some benchmarks i see that * is faster than * but seems i have a little improvement
+
+also * is slower than * unless * is blocking for a huge select
+
+i ve figure out that even though * has locking contention it s still faster than * in most scenarios because of the rapid lock acquisition scheme it uses
+
+* is also being developed more than *
+
+ok there are some cases where * is faster than * but rarely enough that it s worth putting up with the lack of acid-compliance
+
+also i can t see your table engine but * is better for full text searching rather than *
+
+* uses less memory than * and the actual data files are often quite a bit larger for *
+
+in general it seems as though the concensus is to primarily use * but there are still some areas in which * is much faster than *
+
+in terms of pure speed it is not always the case that * is faster than * but in my experience it tends to be faster for pure read working environments by a factor of about 2.0-2.5 times
+
+their conclusion * has 30 higher performance than * on average
+
+* is slower than * for most uses but can perform faster in certain conditions due to a better locking mechanism
+
+* is the perfect choice since the database is almost only used for reading and * is significantly faster that *
+
+* tables have smaller footprints than * ones myth
+
+i heard * is faster but others say * can be fast also but it takes abit more to optimize it
+
+* tables are about 4x bigger than their * counterparts
+
+* tables are even slower than * tables for inserts and the delayed key write option is not available
+
+* handles inserts with composite primary keys quicker than *
+
+if you use * which i like better than * - although i still prefer self-restraint+plain php most ide s that support django templating should work with it since the syntax is nearly the same
+
+* provides much better native whitespace handling recent * releases provide more interesting content controls #define #evaluate # literal block #
+
+* is simpler than *
+
+* is no way better than * 3d or am not trying to prove that
+

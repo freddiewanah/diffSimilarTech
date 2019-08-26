@@ -1,0 +1,6 @@
+B has a stronger syntax than html and is easier to convert to B this way
+
+in addition the need for polyfills for B complicates matters further as they may handle the interaction differently as can be seen in the sample below when using the button to load B
+
+i d recommend B like the other posters as it is more complete than B
+

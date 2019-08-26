@@ -1,0 +1,80 @@
+while i think the move to * is prudent but i think it overstates the case to argue that * is significantly more secure that *
+
+* is more strictly typed than *
+
+after reading some related articles i don t think * is more effective than *
+
+as craig revealed within the announcement of * it is said to be faster than * by far
+
+on the other hand * is easier to learn especially if you have * background so it can be adopted during the time slowly and paralelly with using *
+
+* will incur this penalty in fewer situations than * will for instance method calls to *-only protocol methods do not hit objc_msgsend but if the protocol is declared in * or if the * protocol is decorated with * such that it can be adopted by * objects as well then method calls to methods in that protocol adopted by * objects appear to be dispatched via objc_msgsend
+
+as you can see the * example is more complex and error prone than your * code
+
+* in that case would not be safer but less safe than *
+
+as * is the older programming language for ios or macos applications * allows you to use those classes structs in your code
+
+the perf hit will be ridiculous i know apple say * execute faster than * but this is low level so it will be harmless
+
+* -documentary provides more content than the documentary for *
+
+it is possible for * to be faster than pure * in things that you would traditionally use c or c++ for anyway
+
+adding lightweight generics to your * api makes it easier to interface with * because your api gets translated more precisely
+
+im new to * but i like it more than * as it looks a bit like java does to me from syntax wise compared to *
+
+injecting code in a * application is harder than it was for an * application but it s still possible
+
+this is because the * dictionary is more strongly typed than the * nsdictionary
+
+* is stricter about runtime type correctness than * so duck typing alone is not enough
+
+download xcode free and learn * or * * is easier to learn than *
+
+* also prevents us i believe from overriding a parent class s property but also still lets us observe changes to that property--this is much better than * s approach
+
+this article seems to suggest that this is possible by swizzling a fake location into apple s cllocationmanager class to be used by other apps but i am unfamiliar with the * code more familiar with *
+
+* being a whole lot less than *
+
+this kind of processing is most easily done with * which is more expressive than *
+
+my usual rule-of-thumb is that * is better than * for simple tasks whereas * is better for complex tasks
+
+i m doing a comparison of * haskell * and es6 and i m less farmiliar with * and * but i want to represent all of these languages fairly so is this good * code
+
+what s the deal i thought * would be nicer than *
+
+so yes it can be used with flash or rather pure * but it is a little less convenient than with * where everything is set up by the framework because it takes more under the hood configuration to be able to run all the necessary parts for remoting
+
+* does not provide an alternative and any alternative that was provided would likely be less reliable as * does not have the resources that sun oracle ibm etc
+
+here is a solution in * because i know that better than common * and have an interpreter for checking my work
+
+for a counterexample i think * programs ran faster and used less memory than the * programs that preceded them mdash
+
+i am not sure it can satisfy you but * test is 4 times slower than *
+
+* has more momentum these days but there are plenty of good parsing libraries for * as well including the peg parser generator aurochs menhir and the glr parser generator dypgen
+
+on contrary * is more c-like do not require explicit enabling of script running accepts relative paths case sensitive and loosely typed both are imho advantages for scripting language compared to *
+
+especially as * is becoming more and more of a distant memory and the * language takes on a life of its own in conjunction with the core .net framework advancing
+
+also developing enterprise application is such new languages java c# * rubby is easier that * because they rely on frameworks every body can write c# java code that function but it requires tricks good practices and some of imagination to write * strong and rehusable code
+
+getting your project migrated to * is certainly easier when you keep the old * controls
+
+can i safely assume that * result is more precise than * and discard the * result completely
+
+biggest of all is that adding new features to your * application is more expensive than it would be if the application was in a better language like c# or *
+
+common * is an image base language although usually to a lesser extent than *
+
+i know that * performs better for some regex but will the * performance really be this bad in comparison
+
+in * it s better to say * a decimal number like 32.98 is written 32 98 slash is used instead of point
+

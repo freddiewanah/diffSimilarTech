@@ -1,0 +1,26 @@
+then * is much better than *
+
+i d have said that * is more security aware than * supporting roles more authentication methods ... but that the database itself has generally a very limited impact on the security of an application
+
+* is more than capable of serving your needs as well as alex s suggestion of *
+
+* is stricter to the sql standard than * is
+
+may be * takes less time than *
+
+* is more permissive and allows the non-standard use of distinct but * throws an error
+
+i would recommend * for a beginner as it has far fewer surprises than *
+
+however people often argue that * is cleaner and easier to use that *
+
+i also personally believe that * has better handling of complex queries that include sub-selects and the like which most * users used to avoid
+
+* has more established support for this but * has played catch up in the last year or so and has a working method of this in the latest versions
+
+* is far more powerful and scalable and doesn t have * s silly limitations and gotchas
+
+for these ultra simple queries * can be slower than * - * has richer planner that works better on more complex queries but on trivial queries is slower
+
+according to my own experience * run much faster than * especially handling big tables 1.4 gb lineitem table in my case
+

@@ -1,0 +1,92 @@
+arraylist - B is about more than 2 times faster speed than foreach B
+
+if the above is true doesn t this mean that the foreach B is much slower then the common B since it involves making copies of each element of the arrays
+
+the reverse while B is generally faster than a B as well
+
+this conclusion would follow from a logic if an unrolled B is faster than a B executing a lot of unrolled B should be faster than executing a lot of for B
+
+can you explain me why in this case the parfor B is slower than the B
+
+is the foreach B slower than the B
+
+the while B with decrements was approximately 1.5 times slower than the B
+
+a B is faster than a foreach B
+
+the while B runs 3000 times faster than the B
+
+the B is slightly slower than the foreach B
+
+B is faster then foreach and foreach is faster then for in B
+
+why simd B only 14 faster than foreach B
+
+but the the foreach B takes more time than a the B
+
+is B is faster than while B
+
+but according to this answer a B is executed faster than the equivalent while B
+
+as the simple B is faster than a foreach B
+
+a basic B is slower than a for - B with simplified test condition
+
+and normal B is faster than for-in B
+
+and the results is that foreach B is 5-6 times faster than the B
+
+however the while B remains a little slower than the B
+
+arraylist - B is about more than 2 times faster speed than foreach B
+
+if the above is true doesn t this mean that the foreach B is much slower then the common B since it involves making copies of each element of the arrays
+
+the reverse while B is generally faster than a B as well
+
+this conclusion would follow from a logic if an unrolled B is faster than a B executing a lot of unrolled B should be faster than executing a lot of for B
+
+can you explain me why in this case the parfor B is slower than the B
+
+is the foreach B slower than the B
+
+the while B with decrements was approximately 1.5 times slower than the B
+
+a B is faster than a foreach B
+
+the while B runs 3000 times faster than the B
+
+the B is slightly slower than the foreach B
+
+B is faster then foreach and foreach is faster then for in B
+
+why simd B only 14 faster than foreach B
+
+but the the foreach B takes more time than a the B
+
+is B is faster than while B
+
+but according to this answer a B is executed faster than the equivalent while B
+
+as the simple B is faster than a foreach B
+
+a basic B is slower than a for - B with simplified test condition
+
+and normal B is faster than for-in B
+
+and the results is that foreach B is 5-6 times faster than the B
+
+however the while B remains a little slower than the B
+
+thus the B is faster than the foreach-loop if the B must
+
+the B is faster than the foreach-loop if the B must only be
+
+the B is faster than the foreach-loop if the B must only be accessed once per iteration
+
+thus the B is faster than the foreach-loop if the B must
+
+the B is faster than the foreach-loop if the B must only be
+
+the B is faster than the foreach-loop if the B must only be accessed once per iteration
+

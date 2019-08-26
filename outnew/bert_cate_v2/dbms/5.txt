@@ -1,0 +1,38 @@
+B looks more fancy and advanced but not as popular as B and is not supported on heroku
+
+i read in some blog that B performs at least as good if not better than B while also offering more complex types like mongodb would
+
+B is stricter about conversions than B is and generally will throw an error rather than try to convert a string to an integer if it doesn t look like one
+
+as i said B is far superior and i hate mucking with B s bizarre bugs and i think that overall B performance is probably better than B for any even slightly complicated query
+
+and B has fewer experienced administrators than the big databases and B which i believe contributes to the reputation
+
+b use indexes - B has bigger repertoar of indexes then B so use it - there are gist gin indexes
+
+B s version is apparently marginally faster than B but lacks some of the more advanced spatial features therefore it s pretty much limited to finding records that match a certain range of coordinates
+
+B gets much better performance and this is coming from a former B partisan
+
+triggers in B have a syntax a bit more complex than B because they execute procedures as the action
+
+traditionally B has had fewer security issues than B but they are both doing very well on that
+
+B is picky pickier than B -- all fields in the select list when using distinct must be present in the order_by and group_by clauses
+
+while B has a larger user base B is gaining more an more popularity ever since implementing several crucial features that were missing in earlier versions
+
+B is more than capable of serving your needs as well as alex s suggestion of B
+
+i was told that B is a better choice than B for displaying hierarchical data so i installed B and i m ready to go
+
+while B is more famous for serious enterprise-quality database where preserving your data is critical i recommend B
+
+B is not less complicated that B -- they re the same thing
+
+i just checked the timings using B 5 and they are slightly worse than B
+
+some recent tests we did showed that B does perform faster than B and we believe the table partitioning feature in B will be very important with a table in our database we foresee to grow into 100 million rows and more in production
+
+as for reliability i think that B is more reliable especially when compared to B using myisam - innodb is a lot better here
+

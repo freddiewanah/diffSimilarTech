@@ -1,0 +1,36 @@
+you could use the * format which is more common than * and allows true grayscale images
+
+jpg * is slower to draw than a *
+
+rebuild a new * format in-memory data which is much more smaller than current * data and send the new * format data by socket to remote server
+
+today * is much more popular than * so if you re writing files outside of your own data store * would be a more common choice and you d need to work through nsimagerep to get there
+
+an * file is nothing more than a text file listing * and or other format digital audio files to be interpreted by player software as a series of audio files to be played in succession
+
+for using a fileformat i thought * uses much less memory than * because all the formats are based on * but just compressed
+
+you should definitely pick * because they are about 10x smaller than * files of the same duration
+
+* loads much quicker than * and can be integrated with the google maps api as a kml layer
+
+* is a newer format and often better than either jpeg of * - especially for screenshots
+
+also if i change all to * is not bigger and alos i am using prawn pdf outputting these images so cant use *
+
+it will always be a web format which basically comes down to jpg * and * with * being very unlikely because of its limitations * can contain 256 colors at most and is generally larger than *
+
+a 8-bit * shim is smaller than the same dimension 1 pixel * and everything will still work as planned
+
+you can then use imagecopy to insert each * image including the background and image* to generate * output which is better for line art than jpeg offers better compression than * and can support more than 256 colors
+
+* achieves better compression than * because it applies a pre-filtering step before the lossless compression deflate roughly equivalent to lzw. see wikipedia s explanation of * filtering
+
+indexed * less than 256 colors is actually always smaller than * so i use that most of the time
+
+just press save and give it a name and that photoshop image will be saved into a transparent background * file which presents more colors and it s smaller than a * file and is as good as a jpg
+
+of those three * would usually be smaller than *
+
+ie s * is slower than other browser s *
+

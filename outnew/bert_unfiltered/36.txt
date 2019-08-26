@@ -1,0 +1,140 @@
+consider using B better performance old heavyweight B
+find B easier use B although still use B listeners
+since B precise B thought needed cast parsing Bo method
+however switch B 4.0 methods declared B longer visible B
+B slower B since layered top
+B seems dynamic B stuffs
+service build drools knowledge get session prepared B engine lighter B one
+another prefer rhinomocks B B B uses older expectation style whereas rhinomocks B support arrange act assert approach specify expected interactions assertions end test like
+personally used B past found performance better B 3d scatter plotting though bindings somewhat moving forward think
+said B faster B webdriver trying interact dom yet visible exist
+suspect may ie B need know content div earlier B
+use iframes B seems better B putting manually defined span font tags
+played around recently think B flexible mixing dtypes give B dataframe conveniences obviously
+purely number comparisons performed B always efficient B
+since servers omit working copy generally expect B bare repositories smaller B non-bare repositories
+logic B 2 whole number 0.1 2 0.2 bigger 1 B continue
+recommends using ctr cmd + 1 use B better use B still looking right thing time automatic solution
+would recommend B provides better error handling B sscanf
+matrix B easier one several matrix implementations B method packages org.apache.spark.mllib.linalg org.apache.spark.mllib.linalg.distributed
+checked-out example apps spring source repo seems B preferred powerful B
+B better B different
+like bruz says B probably freeform data layer B
+given B reputation things better B least good daresay B would demonstrate similar performance properly used
+able upgrade server versioning B 5.5 would innodb safer bet B
+also recommend B B going nested comments B hierarchical querying better B
+managed accomplish checking whether pan tilt amount added zoom B B greater image B B stop panning tilting
+B image greater B image clicked means taken image portrait mode
+window B larger B grid inside window gets clipped
+tried following distorts image B B looks perfectly versa
+B img 500px img B B carousel img overflows carousel
+requested B B window larger B B screen desktop function shrinks values screen sizes
+B greater B reverse B B variables
+tried changing screen resolution virtual machine orientation change really screen resolution change results B larger B versa could trigger layout events
+want make 100x100 pixels thumbnail B B B 100 visible new image B keep aspect ratio image
+viewport B B square
+therefore console window B B larger buffer B B argumentoutofrangeexception thrown .net argumentoutofbounds exception type
+best computationally expensive hash function like B example five slower B thus allows fifth number hash operations opposite B
+B seems webserver getting majority buzz lately may able serve faster B maybe
+worth learning B better B editing certain languages certain tasks versa
+seems like B file oriented B object oriented
+B tends slower B reason.
+using B package little bit harder using B package
+tell expect B B example actually expect either int int wider B B B int int B size
+B takes 1 minute complete B takes longer one second
+know B better suited hardware development decided got B
+header size B B
+first small part figure chosen B always simpler B
+importantly easily supplement B reliable delivery hand-shaking overhead B
+however number using giant B smaller number small B laptops
+b B runs always slower B sequential around 10 slower
+technical x B operator higher precedence + B operator
+tests B v B found resolve contention issues B model 40 slower B
+B delivered 4.6x higher throughput B achieving
+application B better B
+although 4m rows contention depending structure database engine may take think B alters take longer B B requires whole table locks handles concurrency well
+B faster certain queries supports fulltext spatial indexes B transactional concurrent
+sounds like want use inherited B methods sendaction forevent offers even finer control B
+suggests storing B better suggests tinyB enum suggests store B 1 male f female
+even B smaller 4-byte B move one-by-one Bo register comparison
+set div border-radius circle B B color circle
+friend told begin B simpler help start learning B B complicated B
+note B better libraries B real time applications
+like use B B working B
+refer bootstrap official document find default navbar background described B priority B B distinct B powerful B
+labeled B like would better B purpose
+suspect curly braces correct place per scheff comment scope page variable contained within B attempting operations B
+basic B slower - B simplified test condition
+B nothing glorified B
+found B better B want achieve B assign value counter another variable
+seems like B element including margin bigger B element therefore dropped status set although element seems touch upper B yet
+would like calendar display B B date range date date thing greater B B greyed
+opposite causing loop nothing since z never smaller B larger B
+production side things upgrading database transaction msi-style B better attempting B startup since potentially end desynchronized database-application versioning
+justification B faster 2nd B manual copy free
+first tried reading original pdf B finding signature hex strings split smaller files B done jpgs
+try B write ups suggest worse B job
+characters B robust secure B
+also determine someone submitting form Bting form checking _server request_method B cleaner using B url parameter though nothing wrong approach...
+interestingly 1 million rows per file optimised version read.csv B take 422 430 time B whilst without optimisation leaps around 1500 1005 longer
+paul points B compresses static line art better B nearly every situation
+hosted languages generally going faster traditional B scala generally faster B comes raw cpu capabilities
+reject null hypothesis B faster B thus experiment got errors
+plan use B extensively application seems safer better B
+std B behaves like defaultdict B
+recently moved B B works better B available B
+windows installer rollback work request use 1 minor B 2 properly sequenced major B uninstalls older B successfully updating files
+B better windows B work unix commands
+first word B shorter second one need second B
+used convenience B reliable converting htmlcollection B
+okay telling user enter size B B assigned lets say 5 therefore first B program checking B size entered 5 size B
+means private better B B better B ..
+misunderstanding incrementing B faster B
+however naive B get slower slower B increases
+analogous compute B using successive squaring faster repeated B
+also note using B input makes far sense B otherwise previous value evaluated next event occurrence
+B seems clear B general seems guys neo4j going B
+even B editors support B support makes working .rnw files clunkier pure B .tex files
+used small 6 kb compiled extraction making far smaller B 150 kb permissive B
+B general leaves oppertunity create another subclass could add altering functionality without using B implementation ever would want
+let use B B like real life B 1 B
+opacity B container #contentborder div set 1 B inherit cannot higher B
+max heap B node always larger B
+know sinatra B footprint speed really better B
+apple applies almost cross domain restrictions files opened locally B strict permits B somewhere middle
+B pay up-front startup cost accommodate complicated systems B rpc easily supports
+B newer version 1.1.2 remove B 3.0.1-x86-mingw32 automaticaly
+android 5.0 api 21 allows surface input B often convenient B
+B usage lower compared B lower really known
+think except B deprecated legacy promise methods success error http version 1.4.4 use standard method instead B depends higher B version
+ubuntu 12.04 ships B fork B version 0.8 compatible B 1.0+ even later B versions iirc
+wonder B single insert statement completely faster B autocommit turned
+5 B file runnable executable though common B files
+ios 5.0 later use B core location framework ios lower 5.0 B map kit framework
+also use B general form B actually part sql standard
+ironically enough object model B details B - good learning bad abstraction
+would answer different B B frequent like overworld B battle B game like final fantasy pokemon
+certain B works better B
+B table bit slower B tables think major told using drupal system kind mult-sites like word-press system
+speed sql server interaction r affected B slower B bad
+truetype B font provides better compression B 1.0
+using yii 1.1.12 recently upgraded 5.3 5.5 found B longer used B made part php5.5
+currently B supports older B v.5.1 newer B 6.0 available nvidia site
+B longer maintained work B 1.0 newer
+B technote details signals part signal matter B application server
+upcoming B 1.2 release couple weeks include complete integration B visual studio automate remove need B default environment
+B wheezy recent B 10.04
+think B better j2ee server start B
+anyone give details oracle B connectors perform better B
+note B versions older B versions opensuse newer B versions
+B better support parameterized tests B
+mean old adagio B faster B gone
+searched google found B better performance B plan replace B B project got diffrent result run test
+looks like B 5.5 B B 5.5 work
+B require system downtime large cluster cannot run one B need take entire cluster
+change B else must greater B B first condition false system check connect without using tls
+also forget B gradle plugin 1.5.0 newer older B supported
+blackberry device B higher os 6 continue otherwise prompt user dialog showing B os first exit application
+works great B tested ie somehow worse B
+fortunately B 2.1 better alternative since supports built-in calendrical types B 1.3
+working B swarm project using B swarm version 2017.8.1 maven 3.5.0 openjdk 1.8.0_141 users often upload files bigger B default 10485760 bytes 10mb max-post-size setting

@@ -1,0 +1,22 @@
+construct B is comparative slower than B
+
+B consumes lesser battery power than B or thread
+
+so if using B B is more limiting than B basic_B
+
+B is more low level than B
+
+B is much more complex under the hood than B
+
+the B has a more stringent constraint on a property content blank false than the B content nullable true and i am using tableperhierarchy false
+
+so i inspected the compiled firebasemessagingservice which was the B of com.google.firebase.iid.zzb and had zzae intent method as private but its B firebasemessagingservice had protected access i know that B cannot have weaker reference than its B so i guess there is something wrong with firebasemessagingservice library
+
+so simply B is better option then B
+
+B also provides nicer interfaces for requesting data using blocks in that it allows you to combine them with delegate methods for doing custom authentication handling redirect handling etc. whereas with B if you suddenly realized you needed to do those things you had to refactor your code to not use block-based callbacks
+
+posting here an example showing how to implement same approach but now applied to B which a bit more involved than B
+
+B is a much more pleasant api than B
+

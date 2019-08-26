@@ -1,0 +1,66 @@
+this is another reason why i d prefer rhinomocks and B over B B uses the older expectation style whereas rhinomocks and B both support the arrange act assert approach where you specify you expected interactions as assertions at the end of the test like this
+
+compare the very active B tag on stack overflow with that of pylons or B though and i d argue getting started is simply easier with B irrespective of anything to do with code
+
+web2py may be young but the mailing list has 2000 messages month which is similar to B and far more than B
+
+i think your code has no problem except that B has deprecated legacy promise methods success and error of http after version 1.4.4 you should use standard then method instead if your B depends on higher B version
+
+considering the lack of windows 8 love that B is getting support being dropped apps won t be sellable on the app store -- i d go with B -- it s better than B anyway -- the only down side is that you can t make xbox apps with it
+
+B is more popular because it was there first therefore more articles about it on the web and better tooling and because most programmers don t care about or need the advanced features that B offers
+
+B is more widespread B has the most features but mstest has more manpower behind it
+
+the thing that makes B a better choice than B spies is that it is capable of programming spies expectations withargs ... .called.
+
+so latest B 2.0 is better than B according to this benchmarks
+
+in case if you have flexibility to choose another testing framework you can try with B which has bigger feature set than B
+
+firstly i am not sure how to properly use multi-thread with B last time i tried i had no success anyway i have had better results with B
+
+B is more powerful with B but not necessarily richfaces or icefaces for they mostly just extend the component set which is anyway fall down to standard html components when rendered by B
+
+well for that you ll need B that is better integrated with B and B does not handle file uploads that actually everyone use so you have to put also icefaces that actually are better managed by maven that you currenty are not using... neverending story
+
+B is more focused on simplicity instead of functionality while B has more functionality
+
+B is older and have more extensions dbunit B etc
+
+1 split those tests to unit and acceptance and use a tool like B to help you do acceptance which is way more elegant than B for this kind of test
+
+subjective B provides much nicer code coverage reports than B
+
+B is more popular and up to date as B hasn t had a new release for some time though for testing webforms it s still very useful as B does not have good support for that
+
+see this blog when you have 10000 request B performs better than B
+
+the good news is that B content types are more lightweight than B content types and doing raw listing by iterating over folder.contentitems in your template should not be that expensive
+
+variety of supporting widgets is probably the single area in which B is still stronger than B
+
+i have no concrete figures on that but from my own experience i d estimate that instrumented tests are around 100-400 slower B seeming to be faster than ms B
+
+performance i did some test with simple game similar to swing copters and found that game created with B consumes 15-20 more ram on ios device that the same game created with B but then i used apportable to run B game on my android device and found it almost not playable
+
+anyway the most important issue is that B is easier than B pylons php and rails
+
+the B cms is a great php framework better than B the most popular at the moment but its documenation lacking
+
+sriwantha B is a simpler framework than B
+
+for example B offers more assert methods than B
+
+i m in the hate it part so anything i said is biased plus in our test prototypes developing in B was faster than B
+
+unfortunately i m pretty sure you ll not find any packages or projects that migrates a joomla web site to B or maybe B which is much older than B
+
+but on the other hand although new the B package is actually more complete imo than B
+
+B would make things even simpler than B
+
+but i don t know anything about sinatra and B is the footprint and speed really that better than B
+
+as wuliwong said sinatra and B are way less complex than B
+

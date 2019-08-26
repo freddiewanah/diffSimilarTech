@@ -1,0 +1,78 @@
+from my personal use i experienced about 5 - 10 times less disk usage due to * s compression and it s much much faster than * or innodb
+
+the maximum representable value with * 754-2008 binary32 is so the base 2 log of a number stored in binary 32 is less than * 128
+
+* has a stronger syntax than html and is easier to convert to * this way
+
+in addition the need for polyfills for * complicates matters further as they may handle the interaction differently as can be seen in the sample below when using the button to load *
+
+somehow * seems to do better than * on the html5 single-page spec scripts and i can t figure out why at this point
+
+in many discussions and even in mysql documents it has been mentioned that in case of updates * performs much better than *
+
+speed does matter here * is still slightly faster than * especially for reads
+
+although 4m isn t that many rows with contention and depending on your structure and database engine it may take a while i think * alters take longer than * because * requires whole table locks and handles concurrency less well
+
+* table is much faster than * but no rollback is possible
+
+* is faster but does not support the use of transactions like * does
+
+you can also use compression on the tables to keep them smaller but * is vastly better than * at data integrity
+
+* is a safer acid compliant engine with some integrity features that * lacks
+
+use * usually much faster than * if your data base isnt transaction oriented
+
+* is more resistant to table corruption than *
+
+we know that * is faster than * when we don t have many concurrent updates inserts
+
+* supports better locking semantics so if there will be occasional or frequent writes or if you want better data integrity i d suggest starting there and then benchmarking * later if you can t hit your performance targets
+
+* table is a bit slower than * tables but i don t think it is a major problem as you told you are using drupal system is that a kind of mult-sites like a word-press system
+
+as you know * table sizes are about three or more times smaller than same * tables
+
+* has better crash recovery while * is poor at recovering
+
+however * tends to be slower as *
+
+* is faster when the query is simple but it s much slower in a high concurrent environment as its table level lock comparing to * s row level lock
+
+in general is * faster than *
+
+3 mysqlhotcopy inly works on * tables and in most applications you are better off with *
+
+i know * tends to be a bit slower than * on counting but this is far too long
+
+therefore * can handle higher levels of concurrency better than *
+
+if there are many modifications of the data it s said that * works faster because it uses row locking instead of table locking like *
+
+after testing it seems that * is faster than * when using when there is no where clause
+
+in this area i think * s change buffer does a better job than * s do it now
+
+* is faster than * for reads myth
+
+in my opinion * use to be faster than * now they are pretty much the same in speed
+
+* inserts are going to be faster than * so if you re logging data and retrieving it later that will be a win
+
+to answer the real question why is * slower than * i can t give an authoritative answer
+
+* is more susceptible to data corruption than * and usually * performs better because it caches both data and indexes
+
+this also affects how it is stored which leads to * being slower than * on insert due to * requiring a full index re-write on every insertion
+
+since you don t do updates i think * would be better than * in this scenario
+
+i have heard that * performs better than * on read-oriented tables
+
+* is worse than * and stringtemplate has got its own issues
+
+probably you can take a look at * template engine which is much faster than * and velocity also much easier to use
+
+* has a cleaner api lower system requirements and works better across platforms than * in my opinion
+

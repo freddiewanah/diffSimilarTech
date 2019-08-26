@@ -1,0 +1,104 @@
+is B usually faster than B on most real platforms
+
+if size is known normally a non-naive implementation of B is faster than B since it takes profit of the cpu s data bus size
+
+performance difference B is usually more efficient than B which must scan the data it copies
+
+B is not really any slower than B
+
+but as that reference points out B is way faster than B and sha functions although it doesn t do a direct comparison to the object.gethashcode method i mentioned above
+
+if you want longer B lets call more secure you should use something like sha512 B etc
+
+or is the B with by just typically much slower than B
+
+the wrapper uses these in such a way that even the B implementation is significantly more secure than a simple B
+
+it s like complaining that a sha256 B is bigger than an B B - yep it is but only one of them might slow the attacker down for a while
+
+but if you still wish to figure out the phpbb password encryption B it is no longer B in version 3.0 or higher and is a custom B
+
+with a salt B is much more secure than without but you re better off using one of the sha B such as sha256managed
+
+sha-256 uses 64 characters in the database but with an index on the column that isn t a problem and it is a proven B and more reliable than B and sha-1
+
+the B cake generates are more complex than B
+
+valid choices for Bing include sha1 or B although sha1 is preferable because it produces a larger B and is considered cryptographically stronger than B
+
+if you want to compare you re better off putting your result through getstring and compare the much less secure B even less secure than B already is
+
+malloc B is harder because thereâ s also B and realloc
+
+remember B is quite expensive action and B costs even much more than B
+
+in this context B store is different and incompatible with heap because the new delete B store library is simpler and quicker than the B B realloc calloc heap library and thus provides huge memory usage gains to the c++ embedded programmer in a context where you have only 512 bytes of ram
+
+i understand that B and strtof are preferred to B atof since the former detect errors and also B is much more flexible than B when it comes to non-base-10
+
+you can also use B which is obviously better than B
+
+B is better than B with better error handling
+
+in this case i would use B which provides more levels than B rather than the case stement
+
+but depending on the answers to those questions i m guessing that B might do the trick for you better than B
+
+if i want to calculate a B and a B is it cheaper to calculate a B and a B or calculate a B then a sqrt 1-B 2 to get the B
+
+after reading a question related with the performance of B B why is std B and std B slower than B and B
+
+B is far more common in c code than B
+
+also B is slower than B from operating system memory allocation perspective
+
+edit i m not a java expert but i think that in java members of new array are initialized to 0 or null so B is more correct than B in my code
+
+as you can see from the above tests B is consistently faster compared to memalloc B and free
+
+the roundabout method i ve employed is to create additional columns with a regular B and counta formulae - in other words i count the number of countries a B has visited more than x times B and then use the counta to sum the number of B in that column who have visited x times
+
+the structure of the B algorithm makes it less susceptible to attacks on properties of the underlying B algorithm
+
+you should use B to compare your strings it s safer than B
+
+on some arm platform im working on B was 3 times faster than B for short unalligned load
+
+so in what platform and how B can be significantly faster than B if there is none why providing two similiar functions instead of just B and lead to a lots of bug
+
+if you cannot tolerate that use B it s harder to use so use B if in doubt
+
+a B can occur significantly faster than a B memcpy and free
+
+B often gives you more memory that you ask and stores the actual value in a special location that B can access at a later time
+
+a key-stretching algorithm like B applies a quicker B like sha512 thousands of times typically causing the B generation to take 1 5 of a second or so
+
+so when i see that the B is stored in the B password and that you use that B password as B i think crypt + B is not more secure against a brute force on output hackers who managed to steal B passwords
+
+prepending a B is also more powerful than directly setting the seed values because in addition to changing the internal state of the B if the B is not a multiple of the digest block size then it can also perturb the alignment with which the input is fed into the B function
+
+this B is nothing more than a random arbitrary string that you concatenate to the passwords and it will make your B password unique
+
+however using a B offers more protection against rainbow tables precalculated B tables so they re still worth using
+
+generally speaking the B keyword is used more now to allow you to violate the one definition rule when you define a function in a header than to give the compiler a hint about B
+
+there is a nice comparison of threads and processes here when is clone and B better than B
+
+so i guess B should be much faster than B
+
+for instance B is mostly useless it gives you nothing more than B
+
+B is not safer than B it just trades one type of bugs with another
+
+B is more recommended that B because protect your code against buffer overflow
+
+you should use B or B safer than B to copy the string stored in the array between arrays
+
+the math.floor B method being marginally faster than B and mod
+
+if you compute the length of the string for unrelated reasons or have the length of the string from other resources it s unclear to me whether B is better or worse than B
+
+but for the example you give it doesn t matter - if it s going to fail it will be in the initial strlen so B doesn t buy you anything in terms of safety and presumbly B is slower as it has to both check bounds and for nul and any difference between B and strcpy isn t worth changing code for speculatively
+

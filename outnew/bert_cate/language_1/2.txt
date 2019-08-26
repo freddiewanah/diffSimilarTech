@@ -1,0 +1,190 @@
+adding lightweight generics to your B api makes it easier to interface with B because your api gets translated more precisely
+
+the B compiler is doing a lot more and is quite a bit newer than the B compiler so it unlikely it will be as stable fast for quite some time
+
+specifically it makes it possible to write B code that plays nicely with B which is more strongly typed than B
+
+executable size of B application is much bigger than size of B application
+
+but B is less dynamically typed than B and has less support for reflection
+
+it is possible for B to be faster than pure B in things that you would traditionally use c or c++ for anyway
+
+as B is the older programming language for ios or macos applications B allows you to use those classes structs in your code
+
+however when i switch to B 4.0 the methods declared in B is no longer visible in B
+
+this is because the B dictionary is more strongly typed than the B nsdictionary
+
+injecting code in a B application is harder than it was for an B application but it s still possible
+
+B s compiler is also doing a lot more than B s compiler considering B is more strongly typed and does not required specifying imports among other things
+
+most importantly for your image processing app the compiler will optimize B code to run faster than B
+
+B will incur this penalty in fewer situations than B will for instance method calls to B-only protocol methods do not hit objc_msgsend but if the protocol is declared in B or if the B protocol is decorated with B such that it can be adopted by B objects as well then method calls to methods in that protocol adopted by B objects appear to be dispatched via objc_msgsend
+
+B is stricter about runtime type correctness than B so duck typing alone is not enough
+
+adding lightweight generics to your B api makes it easier to interface with B because your api gets translated more precisely
+
+the B compiler is doing a lot more and is quite a bit newer than the B compiler so it unlikely it will be as stable fast for quite some time
+
+specifically it makes it possible to write B code that plays nicely with B which is more strongly typed than B
+
+executable size of B application is much bigger than size of B application
+
+but B is less dynamically typed than B and has less support for reflection
+
+it is possible for B to be faster than pure B in things that you would traditionally use c or c++ for anyway
+
+as B is the older programming language for ios or macos applications B allows you to use those classes structs in your code
+
+however when i switch to B 4.0 the methods declared in B is no longer visible in B
+
+this is because the B dictionary is more strongly typed than the B nsdictionary
+
+injecting code in a B application is harder than it was for an B application but it s still possible
+
+B s compiler is also doing a lot more than B s compiler considering B is more strongly typed and does not required specifying imports among other things
+
+most importantly for your image processing app the compiler will optimize B code to run faster than B
+
+B will incur this penalty in fewer situations than B will for instance method calls to B-only protocol methods do not hit objc_msgsend but if the protocol is declared in B or if the B protocol is decorated with B such that it can be adopted by B objects as well then method calls to methods in that protocol adopted by B objects appear to be dispatched via objc_msgsend
+
+B is stricter about runtime type correctness than B so duck typing alone is not enough
+
+fortunately the vbide for B has more classes and methods for working with vb projects than the B version of vbide
+
+fortunately the vbide for B has more classes and methods for working with vb projects than the B version of vbide
+
+unless you are using the static typing feature B is no more strongly typed than B
+
+saxon-ee supports streaming of large xml documents using B or B streaming is better supported in B than in B
+
+unless you are using the static typing feature B is no more strongly typed than B
+
+saxon-ee supports streaming of large xml documents using B or B streaming is better supported in B than in B
+
+on the side of using macros B has always been more advanced than other B and lisp implementations
+
+there are various object systems you can load as libraries when you want to do oop but integration with existing code heavily depends on the B dialect and its surrounding culture chicken B seems to be more object-oriented than B for instance
+
+on the side of using macros B has always been more advanced than other B and lisp implementations
+
+there are various object systems you can load as libraries when you want to do oop but integration with existing code heavily depends on the B dialect and its surrounding culture chicken B seems to be more object-oriented than B for instance
+
+right now B is much better as it supports a broader set of language and platform features than B .net ever did
+
+in free and turbo B file handling is much more easier than in B in B we have assign instead of assignfile and close instead of closefile
+
+in free and turbo B file handling is much more easier than in B in B we have assign instead of assignfile and close instead of closefile
+
+B is coco but much more compatible with B more functional and more feature rich
+
+while B is more expressive B pattern matching is simpler which means a simpler language definition compiler etc. and you still can do what you need at the cost of writing more code
+
+while B is more expressive B pattern matching is simpler which means a simpler language definition compiler etc. and you still can do what you need at the cost of writing more code
+
+opengl is better for playing around and experimenting because you can easily draw triangle without messing with hardware buffers available on larger selection of platforms plus B is better than B because it doesn t compile into assembly
+
+opengl is better for playing around and experimenting because you can easily draw triangle without messing with hardware buffers available on larger selection of platforms plus B is better than B because it doesn t compile into assembly
+
+however gambit B has smoother access to c c++ code libraries which far outnumber common B s libraries
+
+common B has a separate namespace for functions which makes operation like this more verbose than with B
+
+it s popular it s actively developed it has many libraries offering the features of a modern programming environment and B is somewhat simpler not to say better just simpler than common B
+
+i noted that while in languages like c variable identifiers can only be alphanumberics and underscores common B allows many more characters to be used like and at least B does
+
+however gambit B has smoother access to c c++ code libraries which far outnumber common B s libraries
+
+common B has a separate namespace for functions which makes operation like this more verbose than with B
+
+it s popular it s actively developed it has many libraries offering the features of a modern programming environment and B is somewhat simpler not to say better just simpler than common B
+
+i noted that while in languages like c variable identifiers can only be alphanumberics and underscores common B allows many more characters to be used like and at least B does
+
+i also checked B and it seems a pretty cool language easy to do relations between data and easier than B but i d like to hear what you think
+
+i also checked B and it seems a pretty cool language easy to do relations between data and easier than B but i d like to hear what you think
+
+please consider also to use B for code generation that s much nicer than B and integrates smoothly with xtext infrastructure
+
+please consider also to use B for code generation that s much nicer than B and integrates smoothly with xtext infrastructure
+
+B is a dependently-typed language that is designed for low-level programming though it s somewhat less elegant than B
+
+all in all t4 to me is more of a inside vs code-generation tool to quickly create c# or other files while B is more of a data-processing data-transformation tool to turn data from xml into another format typically html or pdf using B
+
+all in all t4 to me is more of a inside vs code-generation tool to quickly create c# or other files while B is more of a data-processing data-transformation tool to turn data from xml into another format typically html or pdf using B
+
+because B is eagerly evaluated the execution model is far easier to comprehend and debugging via printf works a lot better than in B
+
+because B is eagerly evaluated the execution model is far easier to comprehend and debugging via printf works a lot better than in B
+
+B has more momentum these days but there are plenty of good parsing libraries for B as well including the peg parser generator aurochs menhir and the glr parser generator dypgen
+
+B has fewer industrial users than B and although it does have multicore support it is still being developed in a very unproductive direction
+
+B is closer to c++ because of it s imperative and oo features but i recommend you learn B as it is more functional more mindbending and has more resources
+
+secondly the B ffi is more powerful that is it does more with less code than B s and more libraries are avaliable via hackage so i don t think foreign interfaces will be a deciding factor
+
+B has more momentum these days but there are plenty of good parsing libraries for B as well including the peg parser generator aurochs menhir and the glr parser generator dypgen
+
+B has fewer industrial users than B and although it does have multicore support it is still being developed in a very unproductive direction
+
+B is closer to c++ because of it s imperative and oo features but i recommend you learn B as it is more functional more mindbending and has more resources
+
+secondly the B ffi is more powerful that is it does more with less code than B s and more libraries are avaliable via hackage so i don t think foreign interfaces will be a deciding factor
+
+in dependently-typed languages like B it s probably more useful than in B
+
+in dependently-typed languages like B it s probably more useful than in B
+
+...i suggest doing all of the scripting from within the B file and avoiding the use of .cmd .bat files completely if you can as B is much more readable and powerful though i prefer using the B language instead but that s just me
+
+the inclusion of B code into a batch file is simpler than B and the translation of a small code segment from vbs to B is not problematic
+
+...i suggest doing all of the scripting from within the B file and avoiding the use of .cmd .bat files completely if you can as B is much more readable and powerful though i prefer using the B language instead but that s just me
+
+the inclusion of B code into a batch file is simpler than B and the translation of a small code segment from vbs to B is not problematic
+
+yes B was once much more feature-rich than B but later revisions of the language B 2001 B 2005 systemB etc.. have cherry-picked most of the interesting features and there is far more robust toolchain support for B and its variant these days in addition to it being the dominant language in use in the us in my experience B is only used here when dealing with extreme legacy blocks and in academic contexts partially due to the tools support mentioned previously
+
+yes B was once much more feature-rich than B but later revisions of the language B 2001 B 2005 systemB etc.. have cherry-picked most of the interesting features and there is far more robust toolchain support for B and its variant these days in addition to it being the dominant language in use in the us in my experience B is only used here when dealing with extreme legacy blocks and in academic contexts partially due to the tools support mentioned previously
+
+none of the .net libraries are there and there are some syntax differences as B is more strict than B is
+
+biggest of all is that adding new features to your B application is more expensive than it would be if the application was in a better language like c# or B
+
+none of the .net libraries are there and there are some syntax differences as B is more strict than B is
+
+biggest of all is that adding new features to your B application is more expensive than it would be if the application was in a better language like c# or B
+
+B is richer than languages such as B schema Bs
+
+B is richer than languages such as B schema Bs
+
+common B is an image base language although usually to a lesser extent than B
+
+common B is an image base language although usually to a lesser extent than B
+
+neo4j and B is still faster and obviously this has no effect on the B queries on neo4j but that might be just a issue with the B implementation for neo4j
+
+neo4j and B is still faster and obviously this has no effect on the B queries on neo4j but that might be just a issue with the B implementation for neo4j
+
+B is much more convenient than creating an activex on B or c# vb.net
+
+B is much more convenient than creating an activex on B or c# vb.net
+
+while B syntax looks more related to shell syntax like bash or tcsh B is actually more closely related to B or php or ruby
+
+B is no better nor worse than B ruby python or any other scripting language in this regard -- they all do basic file operations with equal aplomb
+
+while B syntax looks more related to shell syntax like bash or tcsh B is actually more closely related to B or php or ruby
+
+B is no better nor worse than B ruby python or any other scripting language in this regard -- they all do basic file operations with equal aplomb
+

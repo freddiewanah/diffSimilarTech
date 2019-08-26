@@ -1,0 +1,40 @@
+why * is more capable than others * etc. on django
+
+now i m not sure if i d say * is generally better than * -- there are certainly things that * does much better and so it certainly has its uses -- but these are a few things i absolutely love about it
+
+the only reason i was considering * was that some research suggested * has much better support for changing schemas along the way than *
+
+i cannot propose any db not knowing your specific needs but if you want to use a free software which excludes oracle and you re not already experienced with * you should try * which is more powerful than *
+
+* supports recursive queries in the form of recursive common table expressions which make querying heirarchical data easier than in * and also give better performance
+
+* is already slower than * up to a certain point it is actually faster when you have a ridiculously large database
+
+either * more proven than * for such huge data
+
+and * has fewer experienced administrators than the big databases and * which i believe contributes to the reputation
+
+* is older than * so it might have influenced them
+
+* is faster than * s innodb
+
+* requires more tuning than * to achieve optimal performance
+
+i totally understand the error and assume that the * implementation is less sql conform than the * implementation
+
+* has more established support for this but * has played catch up in the last year or so and has a working method of this in the latest versions
+
+in my personal openion * is slower than * and mongo db
+
+i also personally believe that * has better handling of complex queries that include sub-selects and the like which most * users used to avoid
+
+* has better support but the support by * depends on the used storage engine
+
+however * s sql features are far more advanced than * s and * has a tendency to silently ignore things you tell it to do - especially in a default installation and if you rely on a foreign key to be created that might be a very unpleasant surprise
+
+poor performance from * has more to do with it not being smart and automatically creating an optimized plan like sql server * or oracle would
+
+fyi * scales better than * on multi-processor overlapping requests from a review i was reading a few months back sorry no link
+
+* license bsd is undoubtedly more simple than * s
+

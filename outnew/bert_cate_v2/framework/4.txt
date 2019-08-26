@@ -1,0 +1,34 @@
+since apple has decided that B is no more and B appears to only support prores 4444 and 422 flavors how are developers supposed to write modern software that can handle 4444xq 422lt and 422 proxy
+
+i ve only done one experiment with B material myself and i wasn t experiencing any real performance issues at the time but i did read some people writing about it being slower than plain B
+
+B strives to be much more configurable than B but in the end they both work equally well
+
+B certainly is far better than using plain B refer the link posted by damo a couple of answers above
+
+though B looks more mature than B web api i m still a bit confused
+
+but if the use of mongodb is a must then i suggest that you reconsider using B in the first place because mongodb has a better integration with B through mongoengine
+
+performing this asynchronous testing is actually possible in B but is handled better in another javascript testing framework B js
+
+B is more of a modularity framework and B is more of a mvvm framework i know both have overlapping features but it would be great to take best features from two frameworks when they are combined
+
+it shows that B is faster then other framework but as this question is about B and restify B is faster than restify
+
+B makes ui testing really easy and useful with lots of great apis that are less complex than B
+
+B s ajax support is far less verbose than B s
+
+overall B is more flexible than B and a great base to build a web application and api on
+
+B s admin is better and more customizable than B s appadmin
+
+from my experience B is much slower than B
+
+B uses an older less capable version of the B platform for its videoplayer
+
+i d suggest having a look at B which is much closer to http semantics than asp.net B is
+
+the later version of B makes things easier by integrating with the B lifecycle as a runner
+

@@ -1,0 +1,1064 @@
+40093737
+richtextbox textblock
+Pattern(s): 5	
+update i think you originally were talking about a textblock not a richtextbox
+if the solution absolutely requires a richtextbox you ll need to look into finding a usable rtf parser somewhere
+
+
+
+40141741
+google-chrome firefox
+Pattern(s): 5	
+there are also some parts that firefox has implemented that google-chrome has not for instance
+ie and firefox implement the svg 1.1 definition of rect elements where x y width and height are attributes google-chrome implements the svg 2 definition of rect elements where x y width and height are mapped css properties when you create the x axes you specify the d as an attribute rather than a css property so that s why that works svg 2 is still in draft uas are experimenting with implementing different parts of it
+
+
+
+40365773
+udp tcp
+Pattern(s): 5	
+where tcp is a stream oriented protocol ensuring that all of the data is transmitted in the right order udp is a message oriented protocol
+udp does not require a long-lived connection so setting up a udp socket is a little simpler
+
+
+
+40573513
+addition multiplication
+Pattern(s): 5	
+if they weren t one would need to make them square by repeating them as needed if the above addition doesn t broadcast correctly
+if xfactors and self.matrix are both numpy.array and not numpy.matrix in other words if you are using element-wise multiplication and not matrix multiplication in calculating newx and newy then this should do the same thing a lot faster in the original code it was not clearly stated that xfactors and yfactors were square
+
+
+
+40690288
+innodb myisam
+Pattern(s): 5	
+the trope about myisam being faster than innodb is a holdover from code that was current in the mid-2000 s
+myisam is not faster than innodb anymore for most types of queries
+
+
+
+40690288
+innodb myisam
+Pattern(s): 3	
+myisam is not faster than innodb anymore for most types of queries
+look at the benchmarks in this blog from 2007 innodb has just gotten better faster and more reliable since then
+
+
+
+40690288
+innodb myisam
+Pattern(s): 3	
+look at the benchmarks in this blog from 2007 innodb has just gotten better faster and more reliable since then
+myisam is not being developed
+
+
+
+40726246
+google-chrome safari
+Pattern(s): 5	
+so far i can guess this is a problem that only happens with google-chrome and as a workaround i would change the configuration to append the header only if google-chrome haven t checked for safari is not the client until there is a better fix
+i had the same issue with google-chrome and after some hours of trial and error i figuered out that google-chrome seems to have a problem with the vary header i ve got this snippet in my apache .htaccess config and as soon as i comment the line header append vary accept-encoding google-chrome starts caching .js and .css files it still does not work while running the request via our nignx server because it is adding the vary accept-encoding header too when delivering gzip compressed
+
+
+
+40820337
+ciimage uiimage
+Pattern(s): 5	
+the heart of the matter is that passing through ciimage is not the way to crop a uiimage
+for one thing coming back from ciimage to uiimage is a complicated business
+
+
+
+40826134
+mvp presenter
+Pattern(s): 5	
+here is a mvp sample using dagger rxjava and retrofit which might help you to learn more about mvp in android
+context is a part of android view layer in mvp so presenter must not have any idea about it and you should not pass it to presenter
+
+
+
+40849433
+google-chrome safari
+Pattern(s): 1	
+google-chrome has many issues with screen readers that were not primarily written for it such as voiceover safari and nvda firefox
+i tested this example myself and the labels were read aloud using voiceover and safari but not with google-chrome - because of these issues
+
+
+
+40869328
+multiplication modulo
+Pattern(s): 5	
+before this let s examine the myth of sqrt being expensive but a large bunch of multiplication is not
+first of all let us note that sqrt is not that expensive anymore on older cpu-es x86 32b it used to be twice as expensive as a division and a modulo is division on newer architectures the cpu costs are equal
+
+
+
+40937708
+webchromeclient webviewclient
+Pattern(s): 5	
+instead of that you can use webchromeclient and set progressbar as below
+webviewclient doesn t have onprogresschanged method
+
+
+
+41004964
+dictionary map
+Pattern(s): 5	
+thanks to those two features a hashable object can be used as a key in a generic hash map in python mmutable built-in objects are hashable while mutable containers such as lists or dictionary are not
+user-defined objects are by default hashable hashtable in general hash table hash map is a data structure used to implement an associative array a structure that can map keys to values
+
+
+
+41166985
+lisp scheme
+Pattern(s): 1	
+other dialects of lisp such as common lisp and emacs lisp have multiple form evaluation in their cond clauses so not allowing it in scheme would only reduce compatibility adding to someone s workload when they convert code from another dialect to scheme
+scheme isn t a functional language let alone a non-strictly evaluated one
+
+
+
+41240837
+mvp presenter
+Pattern(s): 5	
+presenter - the middle man provides the logic to inputs button clicks retrieval of data validation of inputs then passes the result back to the view activity or fragment here s a great article on mvp here s a simplified diagram of mvp answer modified from this question also answered by me
+there is no exact correct definition of implementing mvp in android to answer your question in my view the presenter should not have any android logic
+
+
+
+41263547
+calloc malloc
+Pattern(s): 5	
+allocating via calloc guarantees that while allocating using malloc cannot guarantee that as we know from chapter 7.22.3.4 the malloc function allocates space for an object whose size is specified by size and whose value is indeterminate
+edit one possible scenario where malloc is advised over calloc is writing test stubs used for unit integration testing
+
+
+
+41360302
+automake autotools
+Pattern(s): 5	
+your second option adding a bootstrap script that calls autoconf and automake to generate the configure scripts is also a bad idea
+this defeats the entire purpose of autotools which is to make your source portable across systems including those for which autotools is not available
+
+
+
+41376294
+decoder encoder
+Pattern(s): 5	
+base64 encoding is not meant to work piece by piece it s meant to encode a complete block of data as one single unit so when the decoder sees the symbol which appears at the end of each line it thinks it s reached the end and there is nothing left
+the proper way to solve this is to go back to your original code and pass the entire string to a base64 encoder not just one line at a time
+
+
+
+41411677
+build.gradle gradlew
+Pattern(s): 5	
+i also tried putting an equivalent of this at the end of root build file the order of declaration in a build.gradle does not matter
+gradlew build lifecycle has two phases configuration and execution
+
+
+
+41444718
+postgresql mysql
+Pattern(s): 1	
+well the fact that postgresql jsonb has several functions that can return rows while mysql at best can only return arrays is reason enough to stick to postgresql rather than mysql
+if you think mysql can return rows from json please answer this question from october that s still unanswered convert json array in mysql to rows mysql isn t so good at subqueries as postgresql but the json functionality limit your ability to perform joins against other tables
+
+
+
+41530710
+g++ gcc
+Pattern(s): 3	
+btw you should use g++ not gcc when compiling c++ code
+there are significant differences even if gcc is sometimes able to compile c++ or fortran code you ll mostly use gcc to compile c code
+
+
+
+41579960
+swift objective-c
+Pattern(s): 5	
+#available and friends in swift are a simplification of and improvement on the more complex ways of dealing with new features and backward compatibility in objective-c
+if you re using objective-c there isn t a direct equivalent to #available so you have to fall back to those old ways
+
+
+
+41737096
+inline inlining
+Pattern(s): 5	
+inline expansion or inlining is an optimization where a function call is avoided by copying the called function into the frame of the caller
+a function call can be expanded inline whether the function has been declared inline or not
+
+
+
+41773260
+ssl https
+Pattern(s): 5	
+the src attribute should point to a valid audio file accessible via an ssl based uri
+thus using an https not an http based request
+
+
+
+41928094
+rtp rtsp
+Pattern(s): 1	
+uses rtp packetizer to create rtp packets from encoded audio frames uses a transport layer such as udp to send these packets protocols such as rtsp provides the necessary signaling information to provide better stream information
+usually rtp itself isn t enough as things such as congestion control feedback dynamic bit rate are handled with the help of rtcp
+
+
+
+41993559
+google-chrome firefox
+Pattern(s): 5	
+the mdn examples of collections of primitive types worked on firefox but not on google-chrome
+to have an output on google-chrome for your example what you could do is put the transportation variable inside its own array so that google-chrome will print the table
+
+
+
+41995534
+super self
+Pattern(s): 3	
+first the call to super should be super new self not super old self
+the first argument to super is generally the current class the class whose method is calling super
+
+
+
+42048340
+firefox safari
+Pattern(s): 1	
+reason invalid token multipart form-data in cors header access-control-allow-headers the above error means firefox does not treat multipart form-data as a valid entry in access-control-allow-headers http response header
+however chrome safari seem cool about it
+
+
+
+42055758
+apache nginx
+Pattern(s): 2	
+i have read that you need apache to run wordpress but this is false
+nginx does not use .htaccess
+
+
+
+42143110
+mktime strtotime
+Pattern(s): 5	
+0 and negative numbers have the similar affect in the different arguements. php mktime - manual as a few have said strtotime isn t the most solid way to go and little if none are as easily versatile
+i am late but there are a handful of easy ways to do this as mentioned using mktime is my go to for complete control over all aspects of time... i.e
+
+
+
+42230524
+dictionary map
+Pattern(s): 2	
+you could use a counter and use the element-wise minimum and | element-wise maximum on them by using functools.reduce in the repl note that the result is a dictionary and not a list containing a single dictionary but it is rather useless to put the result in a list
+this works because we first use map to convert the list of dictionaries to a list of counter s
+
+
+
+42426495
+google-chrome firefox
+Pattern(s): 5	
+this includes safari 10 google-chrome 55 including opera edge 13 on the desktop and ios 10 and google-chrome on mobile
+this also includes firefox although not mentioned
+
+
+
+42436563
+lisp scheme
+Pattern(s): 5	
+lisp then chooses to pun making the empty list and false be the same object scheme does not and treats them as distinct
+additionally lisp provides a name for the empty list object while scheme does not and scheme also does not treat the empty list object as self-evaluating while lisp does
+
+
+
+42436563
+lisp scheme
+Pattern(s): 5	
+additionally lisp provides a name for the empty list object while scheme does not and scheme also does not treat the empty list object as self-evaluating while lisp does
+both languages provide a canonical true object as well but again lisp provides a name for it while scheme doesn t
+
+
+
+42495149
+ecj javac
+Pattern(s): 5	
+interestingly the eclipse compiler for java ecj does not include this null check and running nullcheck as compiled by ecj will not throw a n npe.
+while i agree with the general consensus of preferring to avoid the getclass hack it is worth noting that as of openjdk version 1.8.0_121 javac will use the getclass hack to insert null checks prior to creating lambda expressions
+
+
+
+42593657
+clang llvm
+Pattern(s): 2	
+clang with microsoft codegen is using clang to parse the source into an ast
+but then msvc s code generator kicks in so anything related to llvm is not used
+
+
+
+42736898
+symfony silex
+Pattern(s): 1	
+symfony has built-in http_basic_ldap authentication provider which perfectly suits your requirements
+unfortunately silex doesn t have one so you need to do it on your own
+
+
+
+42926161
+profiling debugging
+Pattern(s): 5	
+credit due where credit deserved visual studio 2012 profiling remotely debugged process
+visual studio allows remote debugging but not remote profiling
+
+
+
+43082057
+ciimage uiimage
+Pattern(s): 5	
+there is no scale and no screen a ciimage is not something that is drawn so there are no pixels
+a uiimage backed by a cgimage is the basis for drawing and in addition to the cgimage it has a scale
+
+
+
+43278201
+google-chrome safari
+Pattern(s): 1	
+ios google-chrome is more ios safari than google-chrome itself
+it seems i found an answer on my question ios safari does not support fullscreen api
+
+
+
+43648099
+swift objective-c
+Pattern(s): 5	
+objective-c cannot see a swift enum at all
+in swift an enum is an object type
+
+
+
+43718459
+calloc malloc
+Pattern(s): 5	
+interesting enough calloc does not allocate the pages either and instead just points to a single zero page
+even more complicated is that gcc will convert malloc followed by memset 0 to calloc
+
+
+
+43770736
+keras tensorflow
+Pattern(s): 1	
+theoretically this make senses and should be possible and it is possible with tensorflow just not keras
+the problem keras requires an explicit batch size for stateful rnn
+
+
+
+44190727
+google-chrome safari
+Pattern(s): 2	
+i used the same approach as kiem nguyen above but google-chrome wouldn t work for me even after editing my .bash_profile as hanshenry90 suggested
+to use safari to view the notebook open your terminal and enter jupyter notebook --generate-config cd .jupyter nano jupyter_notebook_config.py ctrl + w notebookapp.browser + enter to skip to that part of the file
+
+
+
+44271825
+lxml elementtree
+Pattern(s): 5	
+the namespace map passed to element and subelement another lxml extension maps that uri to a prefix which is used for the output
+python s standard elementtree library doesn t support cdata sections so you ll need to make sure you re using lxml
+
+
+
+44352103
+google-chrome firefox
+Pattern(s): 5	
+i then tried google-chrome which doesn t come with a built in parser installed jsonview extension and everything there was fine
+did the the same with firefox installed jsonview and
+
+
+
+44448438
+comparator comparable
+Pattern(s): 5	
+2 a priorityqueue can sort its elements either by a comparable s object comparator method or using a comparator for objects that are not necessarily comparable
+the siftdowncomparable method is only invoked if a comparator was not provided when the priorityqueue was created
+
+
+
+44489744
+union distinct
+Pattern(s): 2	
+why the union doesn t contain all items the 1 and true are equivalent and considered to be duplicates
+likewise the 0 and false are equivalent as well which equivalent value is used when multiple equivalent values are encountered sets keep the first one seen ways to make the values be distinct to get them to be treated as distinct just store them in a value type pair another way to make the values distinct is to store them as strings hope this clears up the mystery and shows the way forward - rescued from the comments this is the standard technique for breaking cross-type equivalence and
+
+
+
+44521906
+google-chrome firefox
+Pattern(s): 1	
+so this scenario may be left open for interpretation and google-chrome may not be violating any guidelines
+however in another scenario where the height property was a factor firefox stuck with flex while google-chrome went with height why is firefox not honoring flexed div #39
+
+
+
+44573179
+wildfly glassfish
+Pattern(s): 5	
+jboss was renamed to wildfly from version 8 wildfly 8 is jboss 8 and red hat supported version of jboss was renamed to jboss eap
+so this applies to wildfly any version jboss eap from version 7 first thing to note is that alternate doc root feature in glassfish doesn t work like that
+
+
+
+44573179
+jboss glassfish
+Pattern(s): 1	
+jboss was renamed to wildfly from version 8 wildfly 8 is jboss 8 and red hat supported version of jboss was renamed to jboss eap
+so this applies to wildfly any version jboss eap from version 7 first thing to note is that alternate doc root feature in glassfish doesn t work like that
+
+
+
+44573179
+wildfly glassfish
+Pattern(s): 5	
+so this applies to wildfly any version jboss eap from version 7 first thing to note is that alternate doc root feature in glassfish doesn t work like that
+please take a look at this question for an explanation of the behavior of this feature alternate docroot not working on glassfish 4 now to answer this question jboss wildfly is build upon undertow that let you do exactly what you need
+
+
+
+44727081
+super self
+Pattern(s): 5	
+also super has __get__ method which makes it a descriptor i ll omit the details of descriptors here refer to the documentation to know more
+this answers your second question as well as to why self isn t passed explicitly
+
+
+
+44831306
+postgresql mysql
+Pattern(s): 3	
+other dbms for example postgresql wouldn t allow this query to execute at all
+saying that how it works internally within mysql is just that you get a unique record for each posts.id but random values from potentially different rows for all non-aggregated and non-grouped column
+
+
+
+45054575
+subtraction addition
+Pattern(s): 1	
+for example if reduce is executed in parallel on 6 threads and then the intermediate results are combined you can get a different result 0 - 1 0 - 2 0 - 3 0 - 4 0 - 5 0 - 6 -1 -2 -3 -4 -5 -6 -1 - -2 -3 - -4 -5 - -6 1 1 1 1 - 1 0 - 1 -1 or to make a long example short therefore subtraction is not associative
+on the other hand a+b doesn t cause the same problem since addition is an associative operator
+
+
+
+45081016
+google-chrome firefox
+Pattern(s): 3	
+google-chrome is somewhat at fault here as it should use the credentials mode of the request as part of the caching key so a non-credentialed request such as those sent by fetch shouldn t match items in the cache that were requested with credentials
+i think there are other browsers that behave like google-chrome here but firefox doesn t
+
+
+
+45115475
+google-chrome firefox
+Pattern(s): 1	
+this works in google-chrome but doesn t work in firefox
+it appears as if firefox is ignoring the initial transform on the object and transitioning from 0 0 instead
+
+
+
+45139905
+setinterval settimeout
+Pattern(s): 5	
+you need to make an initial settimeout with the difference between the current ms and the next ms ie 1000- new date .getmilliseconds then you can start the setinterval note that settimeout setinterval has a minimum value generally considered 10ms so if it s less than that value to the next second add 1000
+also note that settimeout setinterval are not 100 accurate but for the nearest second will likely suffice
+
+
+
+45140948
+google-chrome firefox
+Pattern(s): 1	
+- google-chrome re-offers with active because that s what the spec says or at least how we interpreted it for a long time - firefox offers with active but with the same dtls fingerprint
+google-chrome doesn t like this
+
+
+
+45147067
+google-chrome safari
+Pattern(s): 5	
+if i instead first make an ajax request to a url with basic auth headers added and then redirect document.location without the username pass in the url then it worked better for me example unfortunate caveat with safari only if you type your username and password incorrectly then it makes another standard http basic auth popup but this is better than a big red phishing warning that occurs when you make the document.location include username pass google-chrome doesn t have duplicate popup if login credentials are incorrect though
+the method of explicitly redirecting document.location with username password in url caused me some problems with safari giving a phishing warning
+
+
+
+45209091
+jmeter soapui
+Pattern(s): 2	
+soapui proxy configuration lives under file - preferences - proxy settings another option is using taurus tool to convert soapui xml project into jmeter .jmx test script see soapui support and how to convert soapui xml to jmeter jmx articles for more details
+itself jmeter cannot however you can record soapui execution through jmeter s http s test script recorder
+
+
+
+45245832
+hex binary
+Pattern(s): 5	
+the hex file has a checksum on each line
+the binary may not have any checks
+
+
+
+45255249
+decimal ieee
+Pattern(s): 5	
+many decimal numbers cannot be represented exactly in this representation
+so the compiler uses the nearest available binary ieee floating point number that is available
+
+
+
+45399326
+erlang elixir
+Pattern(s): 5	
+the other one in your erlang code translates to the following proplist in erlang what you probably mean to match in your erlang code is this although it is hard to guess what exactly you want there in general keyword in elixir can not be translated to erlang proplists since keys in erlang can be of any type but in elixir they have to be atoms
+if you have to have more general way of passing erlang proplists from elixir to erlang there is nothing stopping you from constructing them manually in elixir
+
+
+
+45466355
+keras tensorflow
+Pattern(s): 1	
+keras does not include by itself any means to export a tensorflow graph as a protocol buffers file but you can do it using regular tensorflow utilities
+here is a blog post explaining how to do it using the utility script freeze_graph.py included in tensorflow which is the typical way it is done
+
+
+
+45559140
+google-chrome safari
+Pattern(s): 3	
+works on phantomjs and google-chrome but not with angular due to the function works with angular on google-chrome but not phantomjs
+your safari error is very illuminating and i am kicking myself for not reading it more closely
+
+
+
+45587505
+build.gradle gradlew
+Pattern(s): 3	
+if the script is in the root yes including is going to extend you the script you have applied it to then if your test.gradle is in the root and you want to access the task defined in that script from your project or any subproject you will need to apply it in the build.gradle in this project because otherwise gradlew will not read it automatically and configure the task
+build.gradle is read automatically therefore extending it with your script is going to configure the task you want to use and have it visible for gradlew
+
+
+
+45604363
+hex binary
+Pattern(s): 5	
+decode 63697a61f161 hex produces the bytea value x63697a61f161 if bytea_encoding is hex or ciza 361a if bytea_encoding is escape
+either way it s a representation of a binary string not text
+
+
+
+45622729
+google-chrome safari
+Pattern(s): 5	
+in my case google-chrome tools displayed the file name not just author stylesheet
+i m not sure if this is 100 accurate but i believe that safari will not show the name of the css file if it is named default.css
+
+
+
+45929983
+ng-show ng-class
+Pattern(s): 2	
+basically what i did was remove things like ng-hide ng-show from the elements that were supposed to have animation and instead i ve put ng-class to manipulate the visibility while maintaning the animation
+the reason that ng-hide ng-show aren t the best ideas for animation is that they apply display block property to your element thus any transition applied to them will not work
+
+
+
+46041569
+swift objective-c
+Pattern(s): 1	
+swift 4 doesn t automatically expose everything to objective-c anymore so you won t get this error there and in swift 3 you can work around this by adding the nonobjc keyword
+but then once you do add the property in an extension it shadows the original objective-c property making it hard to get at the correct value to return in the property
+
+
+
+46047667
+ssl socks
+Pattern(s): 5	
+note that this is not the method proposed in draft-aft-socks-ssl-00 in 1997 which proposed layering tls over the top of socks framing imo an unnecessarily complicated way of doing it which only provides a single benefit - being able to negotiate ssl or not - with a lot of down-sides
+wingate socks server supports accepting a connection tcp and immediately performing a tls handshake on it prior to socks protocol
+
+
+
+46188889
+lxml html5lib
+Pattern(s): 1	
+if lxml does not exist you can install it using pip install lxml you could also use a different parser to the same effect
+html.parser and html5lib are both available by default
+
+
+
+46232813
+portrait landscape
+Pattern(s): 1	
+device orientation when using uiwebview on ios 11.0 rotating from portrait landscape portrait causes the safe-area-inset not to be re-applied causing the content to be obscured by the notch again as highlighted by jms in a comment below
+also happens if app is launched in landscape then rotated to portrait this doesn t happen when using wkwebview via cordova-plugin-wkwebview-engine
+
+
+
+46232871
+portrait landscape
+Pattern(s): 1	
+this way image view for portrait will be visible and text view pinned to image view and in landscape image view will be hidden and text field pinned to top of the view
+when using auto layout you can leverage size classes. see description below or example here set image view for compact width and height wc hc - iphone in landscape and for wr hc iphone plus in landscape to not installed constraint between text field and image view not enabled for wc hc and wr hc and finally for wc hc and wr hc you have to define text fields s top contraint - i did it to the top of the view
+
+
+
+46353161
+swift objective-c
+Pattern(s): 3	
+the cellclass parameter in objective-c is simply class with the swift equivalent being anyclass
+unlike in swift objective-c doesn t support declaring that the value of class anyclass be any specific type
+
+
+
+46559376
+ssl https
+Pattern(s): 5	
+short version to ssl or not ssl you may have a ssl certificate issue
+the connection point rule can be summarized as wss connects on https only ws connects on http and vice-versa https accepts wss only http accepts ws only errors following situations will lead you to an error tests done under firefox if you want to connect a wss connection to a http endpoint
+
+
+
+46571166
+hex binary
+Pattern(s): 5	
+do not open hex files in a hex editor because hex editors are designed for editing binary files not text files
+a hex file is a text file that you can open in notepad emacs or any standard plain text editor
+
+
+
+46593745
+testdriven.net xunit.net
+Pattern(s): 5	
+finally a cheat way is to use testdriven.net which doesnt care if there is an attribute along with lots of other facilities
+nice trick from jimmy bogard is to use the fact that skip is writable and react to something in the environment aside from that no xunit.net does not have an
+
+
+
+46621789
+ssl https
+Pattern(s): 5	
+however ssl will not work with the useurls method --- so that means if you try to add a url starting with https the program will throw the exception system.invalidoperationexception https endpoints can only be configured using kestrelserveroptions.listen . endpoint configuration
+using https and binding a ssl certificate https endpoints can only be configured using kestrelserveroptions
+
+
+
+46766548
+libstdc++ libc++
+Pattern(s): 1	
+gnu libstdc++ and llvm libc++ are two different implementations of the standard c++ library
+apparently your libstdc++ doesn t yet support the coroutines ts so you have to stick to libc++
+
+
+
+46798827
+seaborn matplotlib
+Pattern(s): 1	
+as you found out yourself you need to call seaborn.set to get the default style of seaborn or use any other of the seaborn styles
+you can also use seaborn styles with matplotlib and not using seaborn at all
+
+
+
+46820408
+decoder encoder
+Pattern(s): 5	
+how it works when encoder encodes number n+1 packet it add there some information about packet n that is useful for decoder if it supports recovery
+if decoder does not support recovery then this information is useless and wasting bandwidth
+
+
+
+46825073
+fgets realloc
+Pattern(s): 1	
+the call of realloc is not affecting fgets - at least not directly predictably or reliably
+the first call of fgets input int_max stdin in stringparser has undefined behaviour because the pointer input is uninitialised
+
+
+
+46870870
+pandas pytables
+Pattern(s): 5	
+the documentation is here the complication of course is that it looks like you are using pytables via pandas and not raw hdf5
+pytables is hdf5 but adds a layer of structure and semantics on top of hdf5 s groups and datasets
+
+
+
+46894847
+lxml elementtree
+Pattern(s): 1	
+i think the root cause of the confusion is that lxml has this .text .tail concept of representing a content of nodes which avoids having to have a special text node entity to quote documentation the two properties .text and .tail are enough to represent any text content in an xml document
+this way the elementtree does not require any special text nodes in addition to the element class that tend to get in the way fairly often as you might know from classic dom apis
+
+
+
+46949985
+build.gradle gradlew
+Pattern(s): 1	
+the solution is same as rotemitz said just add this line to your defaultconfig of build.gradle module app and to dependencies of the same build.gradle compile com.android.support appcompat-v7 23.1.0 note you may change the appcompat version refer to your compile sdk version
+the problem is because the new gradlew cannot refer to color library which you use to get the color green value
+
+
+
+47124033
+rsa 3des
+Pattern(s): 1	
+background asymmetric algorithms have three different purposes that i know of encryption rsa is the only standard algorithm that can do this directly
+signature rsa dsa ecdsa elgamal signature key agreement diffie-hellman dh ecdh elgamal encryption the asymmetric startup phase mqv ecmqv because rsa encryption is space limited and was hard for computers in the 90s rsa encryption s primary use was in key transfer which is to say that the encrypted message was just the symmetric encryption key for des 3des aes not yet having been invented -
+
+
+
+47124033
+rsa aes
+Pattern(s): 1	
+background asymmetric algorithms have three different purposes that i know of encryption rsa is the only standard algorithm that can do this directly
+signature rsa dsa ecdsa elgamal signature key agreement diffie-hellman dh ecdh elgamal encryption the asymmetric startup phase mqv ecmqv because rsa encryption is space limited and was hard for computers in the 90s rsa encryption s primary use was in key transfer which is to say that the encrypted message was just the symmetric encryption key for des 3des aes not yet having been invented -
+
+
+
+47168742
+uiview subviews
+Pattern(s): 5	
+note that safeareainsetsdidchange is a method of uiview not uiviewcontroller so you ll need to create and use a subclass of uiview to override the method
+it would probably be sufficient to override it like this and then you can set the subviews s frame in layoutsubviews
+
+
+
+47303184
+google-chrome firefox
+Pattern(s): 1	
+further google-chrome cannot even select which profile out of many is selected when google-chrome is started from the os call url to be opened function and not started by user-activated clicking on a google-chrome application shortcut with specific profile selection instructions
+naturally the latter works 100 wonderfully on firefox which has built-in profile selector after the browser has been started and regardless of which method was used to start firefox user click on firefox icon or os pipe of open url to firefox
+
+
+
+47426521
+pandas dask
+Pattern(s): 1	
+though dask is not a drop-in replacement of pandas and all of its functionality it stands out for several reasons dask is a flexible parallel computing library for analytic computing that is optimized for dynamic task scheduling for interactive computational workloads of big data collections like parallel arrays dataframes and lists that extend common interfaces like numpy pandas or python iterators to larger-than-memory or distributed environments and scales from laptops to clusters
+dask emphasizes the following virtues familiar provides parallelized numpy array and pandas dataframe objects flexible provides a task scheduling interface for more custom workloads and integration with other projects
+
+
+
+47640306
+keras tensorflow
+Pattern(s): 3	
+if both are installed than keras will use only cpu version
+i solved it with the answer given by keras with tensorflow backend not using gpu you need to uninstall both tensorflow and tensorflow-gpu
+
+
+
+47658741
+boost stl
+Pattern(s): 1	
+so either use boost as suggested by other in this thread or write your own function which you essentially already did -
+indeed the stl does not have a simple std contains function
+
+
+
+47696354
+runtimeexception unchecked-exception
+Pattern(s): 5	
+runtimeexception doesn t have to be declared or caught
+it s an unchecked-exception that s its purpose
+
+
+
+47726681
+entity-relationship diagram
+Pattern(s): 1	
+entity-relationship diagram aren t a good fit for document databases
+the entity-relationship model supports many-to-many binary as well as ternary and higher relationships composite keys and attributes on relationships all of which aren t directly supported in hierarchical network model dbmss
+
+
+
+47880284
+google-chrome firefox
+Pattern(s): 5	
+google-chrome seems to always use value while firefox uses textcontent
+since google-chrome doesn t look at the textcontent property range#selectnodecontents will select nothing on this browser.
+
+
+
+47921548
+uicollectionview uitableview
+Pattern(s): 1	
+uicollectionview is a more recent addition 4-5 years old and provides a much more flexibility
+yes uicollectionview duplicates much of the functionality of uitableview but not all
+
+
+
+48027407
+daemons systemd
+Pattern(s): 5	
+this error may also indicate that the docker daemons is not run ning. then i run my docker quickstart terminal in administration mode and stop one image that was in virtual box running and finally now it is ok
+i did this commands from prasad revanaki but is not ok yet when i send a docker ps a recieve error during connect get json open . pipe docker_engine the systemd cannot find the file specified
+
+
+
+48050657
+selecteditem selectedindex
+Pattern(s): 3	
+when the user selects something the selectedindex is set directly invalidating it and changing it which causes the selecteditem to become invalid
+however the selecteditem is not explicitly changed until it is recomputed
+
+
+
+48079699
+ienumerable ilist
+Pattern(s): 5	
+another difference in case of ef is that the ienumerable is not executing the query to the db untill you really enumerate the list
+while the ilist will execute the query and fetch the items in memory
+
+
+
+48087721
+spaces linefeed
+Pattern(s): 5	
+btw spaces is not matched by
+here you go negative class negative property negative class + negative property carriage return r linefeed n result all control codes excluding crlf
+
+
+
+48383795
+pascal delphi
+Pattern(s): 1	
+the turbo pascal string is mostly statically allocated and the string types that are new in delphi are dynamic
+delphi strings have a null at the end but are not null-terminated the strings can contain null characters and turbo pascal are not
+
+
+
+48459697
+setinterval settimeout
+Pattern(s): 2	
+using setinterval is not recommended since the body function theoretically may take longer than the interval causing a stackoverflow
+a better way is to use settimeout to call a function which at the end of executions schedules a new timeout for itself
+
+
+
+48477679
+keras tensorflow
+Pattern(s): 1	
+the mnist data coming from keras are not normalized
+following the keras mnist mlp example you should do it manually you should include the following in your load_data function not sure about pytorch but it would seem that the mnist data from their own utility functions come already normalized as is the case with tensorflow - see the third point in my answer here
+
+
+
+48482514
+factors matrix
+Pattern(s): 1	
+factors is a complex data type made up of chars and int types
+matrix cannot hold two types at a time
+
+
+
+48514696
+uicontrol uibutton
+Pattern(s): 5	
+you can create a custom uicontrol it has touchup event and put any kind of components on it
+if the uibutton doesn t meet your need then you can make a custom uicontrol
+
+
+
+48566863
+tensorflow cudnn
+Pattern(s): 5	
+according to the tensorflow install documentation for version 1.5 cudnn must be installed for gpu support even if you build it from source
+there are still a lot of fallbacks in the tensorflow code for the case of cudnn not being available -- as far as i can tell it used to be optional in prior versions
+
+
+
+48581227
+runtimeexception unchecked-exception
+Pattern(s): 5	
+runtimeexception and its subclasses are unchecked-exception . unchecked-exception do not need to be declared in a method or constructor s throws clause if they can be thrown by the execution of the method or constructor and propagate outside the method or constructor boundary
+ioexception is a so to say regular exception and it s not a subclass of runtimeexception which is a superclass of a special kind of exception
+
+
+
+48636678
+vsts tfs
+Pattern(s): 5	
+it seems you are using vsts not on-premises tfs
+usually login option can be used on on-premises tfs we use the login option to specify the team foundation server user account to run a command
+
+
+
+48655135
+strcpy strncpy
+Pattern(s): 1	
+if is a then you would need to allocate memory for that and then do strcpy or if your system has strdup but if is a the strcpy is not the right choice because you have no guarantee that the string in name is shorter than some_length - 1
+in this case you would have to use strncpy and make sure that you end up with a valid string and of course you don t have to forget to free the memory you ve allocated
+
+
+
+48797766
+haskell idris
+Pattern(s): 1	
+idris docs are possible with in haskell to yet we have to make a gadt for a function
+the is one many use if idris version is the haskell is not that much different when and p is encoded with a gadt
+
+
+
+48868778
+translation localization
+Pattern(s): 5	
+for content translation in wordpress you can chose between those two qtranslate free plugin wpml commercial plugin may be there is actually some new other plugins each one has its strengths and weaknesses see comparing translation plugins features regarding woocommerce
+you can t translate content of posts or pages with something based on .po .mo files because it is only for theme or plugin localization but not for multi language content
+
+
+
+48941706
+super self
+Pattern(s): 3	
+when using super self is passed automatically
+also in python3.3 and above super does not even need to receive arguments to know from which class it is being called
+
+
+
+48977619
+daemons systemd
+Pattern(s): 5	
+logging to stderr instead can solve this problem because systemd can connect stderr directly to the journal daemons which then already knows which unit is associated with this stream
+git 2.18 q2 2018 make things more robust since the recent introduction of --log-destination option to git daemons did not work well when the daemons was run under --inetd mode
+
+
+
+49011803
+swift objective-c
+Pattern(s): 5	
+that s what objective-c keyword is doing - it s marks function as dynamic and it will be invoked with message dispatch you can read more about method dispatches here upd agree with hamish comment objective-c will not make this function method dispatch for swift but for perform _ method
+try to change it to swift language uses table dispatch for all class methods
+
+
+
+49224950
+exponent modulo
+Pattern(s): 1	
+as i read on net first integer is modules and second integer is exponent yes although it is spelled modulo not modules
+it is the public exponent there is also a private exponent for the private key
+
+
+
+49268437
+swift objective-c
+Pattern(s): 3	
+first off sales pitch - swift would make this easily transparent with optionals
+since you are using objective-c here s how i would do it the objective-c language doesn t contain the types of constructs you need
+
+
+
+49393803
+serializable deserialization
+Pattern(s): 1	
+see the serializable check where the check is called and where deserialization happens in a non-local cluster
+i believe that local mode clusters only test serializable not deserialization
+
+
+
+49416206
+scipy sympy
+Pattern(s): 5	
+scipy does not know that
+sympy is a library for symbolic math operations such as derivatives
+
+
+
+49436505
+passenger puma
+Pattern(s): 1	
+the other issues memory limits and concurrency limits are relatively less important but they can t be mitigated without using language extensions the iodine server is written in c and passenger is written in c++
+since puma doesn t currently require any language extensions except for it s integrated http parsers in c and java these issue remain
+
+
+
+49438130
+phpstorm webstorm
+Pattern(s): 1	
+webstorm phpstorm project consists of a single module only web_module type
+webstorm cannot open more than one project in single frame
+
+
+
+49456404
+vb6 vba
+Pattern(s): 3	
+converting your vba code to vb6 means your application will be limited to 32bit excel vb6 doesn t have a 64-bit version and it can be decompiled by vb decompilers such as converting your vba code to vb.net isn t a perfect solution either as .net has a reflection mechanism which can convert the compiled code of .net assembly into the original source code
+you can convert your vba code to c c++ which would be a very effective form of protection but since c c++ and vba are very different programming languages the conversion of vba code to c c++ is difficult error prone and generally not worth the huge amount of time and effort that it takes
+
+
+
+49516734
+build.gradle gradlew
+Pattern(s): 5	
+your project should be similiar with this gradlew wrapper library --- src --- .gitignore --- build.gradle --- proguard-rules.pro sample build.gradle gradle.properties gradlew gradlew.bat settings.gradle where library is your library module name
+this error error gradlew wrapper not found
+
+
+
+49523171
+swift objective-c
+Pattern(s): 1	
+some relevant compiler bugs sr-1576 swift 3 can t subscript phfetchresult sr-2708 extending objective-c generics in swift 3 does not compile in short objective-c generics are type-erasing swift generics are type-preserving
+you need the latter for tasks like defining type-constrained extensions but you can t because swift doesn t know anything about the objecttype of any particular phfetchresult instance
+
+
+
+49523171
+swift objective-c
+Pattern(s): 5	
+you need the latter for tasks like defining type-constrained extensions but you can t because swift doesn t know anything about the objecttype of any particular phfetchresult instance
+the swift-evolution proposal that brought widespread objective-c generics import to swift 3 included a provision for letting objective-c classes provide information about their generic type parameters at runtime.
+
+
+
+49529831
+gson jackson
+Pattern(s): 5	
+this is an issue reported to gson team unfortunately seems they insist that javascript has no integer type as if they do not realize that gson is for java not javascript
+so they refused to fix it until today 2018 now despite other lib like jackson does not have such issue at all despite how easy to fix it
+
+
+
+49562838
+comparator comparable
+Pattern(s): 3	
+or without creating any class with a lambda example where comparator should be used instead of comparable suppose you have an account class that represents a bank account
+functionally you don t have a natural order to sort them but you have instead multiple orders according to the client needs. making the class to implement comparable would not make sense
+
+
+
+49582136
+octal decimal
+Pattern(s): 5	
+adding 1 to it and printing it again would yield 100 in octal not 78
+as c cannot detect minute overflows when counting with your made-up units the proper route to follow is to convert the input to regular decimal do any calculation you want then convert back to time decimal
+
+
+
+49795383
+gson moshi
+Pattern(s): 5	
+in fact gson does not provide runtimetypeadapterfactory per se in its standard bundle
+quick googling for a moshi implementation brings your question at the top of the search results at least for me
+
+
+
+49797782
+tensorflow tensorboard
+Pattern(s): 1	
+since tensorflow 1.3.0 tensorboard has had its own pypi package but there is a circular dependency between the packages so when users installs tensorflow they will always get tensorboard along that s why you have it installed
+however the fact is that tensorflow does really not depend on tensorboard to work and tensorboard does not even have a dependency to tensorflow so it should not be possible that the two packages affect each other in any way
+
+
+
+49865524
+fgets getline
+Pattern(s): 5	
+if your system has support for getline then you can use it to read the whole line and getline will take care of allocating the memory needed for it if getline is not available on your system then you could write a function that emulates getline one like this this function works like fgets but it guarantees that you read the whole line the function takes care of allocation enough memory for the destination
+if you enter a line that is longer than what the destination buffer can hold then fgets will read everything it can until the destination is full
+
+
+

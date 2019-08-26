@@ -1,0 +1,16 @@
+alternatively B looks simpler than B but without some of the flexibility
+
+im trying very hard to like B but so far i find it so much worse than B in so many ways
+
+in my experience i ve found that B seems to be faster than B although i don t have any hard data to back it up
+
+in xda-forums i read about memu - most powerful B for pc better than B
+
+i think the preview function in B is more well than B
+
+conceptually it seems like a type of central authentication system B but is more similar to B also a federated identity management system
+
+B which is no longer in active development and you should be using B but this answer applies to both of them stores each user s public keys in in your case B .ssh authorized_keys
+
+can a B section create more than 1 B
+

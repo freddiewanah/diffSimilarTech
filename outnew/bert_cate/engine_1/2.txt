@@ -1,0 +1,196 @@
+from my personal use i experienced about 5 - 10 times less disk usage due to B s compression and it s much much faster than B or innodb
+
+B seems to be more mature than B judging by the amount of applications and games that is
+
+my understanding is B is pretty good smaller than B
+
+B seems to like anti-aliasing more than B
+
+i m developing with canvas too and have found that B based browsers in general handle canvas operations quicker than B in most cases
+
+somehow B seems to do better than B on the html5 single-page spec scripts and i can t figure out why at this point
+
+my understanding is B is pretty good smaller than B
+
+B seems to like anti-aliasing more than B
+
+i m developing with canvas too and have found that B based browsers in general handle canvas operations quicker than B in most cases
+
+somehow B seems to do better than B on the html5 single-page spec scripts and i can t figure out why at this point
+
+i have been told B is faster on executing writes but slower than B doing reads i cannot back this up and could not find any article that analyses this i do however have the guy that told me this in high regard feel free to ignore this point or do your own research
+
+some people have said that for reads B is faster but recent improvements in B have either alleviated or eradicated this difference
+
+B seems slightly faster than B but this is really marginal
+
+B is more space friendly than B you can start with that one
+
+and now i have learned that B uses more memory at-least while reading than B engine so i am trying to change the default engine of mysql to use B
+
+B is more resistant to table corruption than B
+
+i heard B is faster but others say B can be fast also but it takes abit more to optimize it
+
+B is more prone to locking problems than B i believe
+
+in some benchmarks i see that B is faster than B but seems i have a little improvement
+
+during my tests of B v B i found that when i did resolve any contention issues the B model was 40 slower than B
+
+there are several q a for why is B much slower than B but i could not find any topic for the opposite
+
+B is affected by the primary key much more than B and it could make a noticeable difference
+
+as you are no doubt aware from your searches B is primarily better than B for high volume inserts not counting non-comparable features like foreign keys or full text searches which are exclusive to B and B respectively while B is primarily useful for tables which are read more often than they are written to
+
+therefore B can handle higher levels of concurrency better than B
+
+sometimes i got asked on some interviews what benefits does B have against B and when B is better than B
+
+in general it seems as though the concensus is to primarily use B but there are still some areas in which B is much faster than B
+
+plus you have to make your tables B which is generally less suitable than B
+
+mostly B is better choice than a B
+
+after all B shouldn t be slower than B when using count + where but that s exactly what is happening here
+
+the engine is B i ve heard people recommend switching to B but many others said B is faster with large amounts of data in terms of counting and B better for safe transactions
+
+if you find that B is much slower for inserts updates bear in mind that it offers a much better level of durability - if you tune it for approximately the same durability as B then you ll see good performance hopefully
+
+i am trying to compare the B and B write read performance but i am suprised that the B s read is much more slower than B while its write is much more faster this is totally opposite compared to what i have learned
+
+not sure why people think B is more performant than B - it s a conundrum wrapped in an enigma
+
+B is also being developed more than B
+
+in fact oracle is so sure that B is better that they removed B from 8.0
+
+the trope about B being faster than B is a holdover from code that was current in the mid-2000 s
+
+it is possible that the config of your B engine is more efficient for your searches than the way you have B set up
+
+ok there are some cases where B is faster than B but rarely enough that it s worth putting up with the lack of acid-compliance
+
+i have heard that B performs better than B on read-oriented tables
+
+anyone who thinks B is faster is either not tuning B correctly or has such small data that who cares
+
+B would be a better choice than B for a high-write table
+
+it is a massive over simplification in some cases and plain wrong in others to say we know that B is faster than B
+
+B is relatively newer than B and is transaction safe
+
+to answer the real question why is B slower than B i can t give an authoritative answer
+
+in this area i think B s change buffer does a better job than B s do it now
+
+i ve figure out that even though B has locking contention it s still faster than B in most scenarios because of the rapid lock acquisition scheme it uses
+
+finally even if somehow you could manage B to perform better than B that doesn t mean B is inadecuate at all
+
+i have been told B is faster on executing writes but slower than B doing reads i cannot back this up and could not find any article that analyses this i do however have the guy that told me this in high regard feel free to ignore this point or do your own research
+
+some people have said that for reads B is faster but recent improvements in B have either alleviated or eradicated this difference
+
+B seems slightly faster than B but this is really marginal
+
+B is more space friendly than B you can start with that one
+
+and now i have learned that B uses more memory at-least while reading than B engine so i am trying to change the default engine of mysql to use B
+
+B is more resistant to table corruption than B
+
+i heard B is faster but others say B can be fast also but it takes abit more to optimize it
+
+B is more prone to locking problems than B i believe
+
+in some benchmarks i see that B is faster than B but seems i have a little improvement
+
+during my tests of B v B i found that when i did resolve any contention issues the B model was 40 slower than B
+
+there are several q a for why is B much slower than B but i could not find any topic for the opposite
+
+B is affected by the primary key much more than B and it could make a noticeable difference
+
+as you are no doubt aware from your searches B is primarily better than B for high volume inserts not counting non-comparable features like foreign keys or full text searches which are exclusive to B and B respectively while B is primarily useful for tables which are read more often than they are written to
+
+therefore B can handle higher levels of concurrency better than B
+
+sometimes i got asked on some interviews what benefits does B have against B and when B is better than B
+
+in general it seems as though the concensus is to primarily use B but there are still some areas in which B is much faster than B
+
+plus you have to make your tables B which is generally less suitable than B
+
+mostly B is better choice than a B
+
+after all B shouldn t be slower than B when using count + where but that s exactly what is happening here
+
+the engine is B i ve heard people recommend switching to B but many others said B is faster with large amounts of data in terms of counting and B better for safe transactions
+
+if you find that B is much slower for inserts updates bear in mind that it offers a much better level of durability - if you tune it for approximately the same durability as B then you ll see good performance hopefully
+
+i am trying to compare the B and B write read performance but i am suprised that the B s read is much more slower than B while its write is much more faster this is totally opposite compared to what i have learned
+
+not sure why people think B is more performant than B - it s a conundrum wrapped in an enigma
+
+B is also being developed more than B
+
+in fact oracle is so sure that B is better that they removed B from 8.0
+
+the trope about B being faster than B is a holdover from code that was current in the mid-2000 s
+
+it is possible that the config of your B engine is more efficient for your searches than the way you have B set up
+
+ok there are some cases where B is faster than B but rarely enough that it s worth putting up with the lack of acid-compliance
+
+i have heard that B performs better than B on read-oriented tables
+
+anyone who thinks B is faster is either not tuning B correctly or has such small data that who cares
+
+B would be a better choice than B for a high-write table
+
+it is a massive over simplification in some cases and plain wrong in others to say we know that B is faster than B
+
+B is relatively newer than B and is transaction safe
+
+to answer the real question why is B slower than B i can t give an authoritative answer
+
+in this area i think B s change buffer does a better job than B s do it now
+
+i ve figure out that even though B has locking contention it s still faster than B in most scenarios because of the rapid lock acquisition scheme it uses
+
+finally even if somehow you could manage B to perform better than B that doesn t mean B is inadecuate at all
+
+unfortunately B has much worse and poorer integration with the rest of qt facilities than B
+
+i ve also noticed that B is significantly faster and more stable that the old B based widgets
+
+unfortunately B has much worse and poorer integration with the rest of qt facilities than B
+
+i ve also noticed that B is significantly faster and more stable that the old B based widgets
+
+if you use B which i like better than B - although i still prefer self-restraint+plain php most ide s that support django templating should work with it since the syntax is nearly the same
+
+if you use B which i like better than B - although i still prefer self-restraint+plain php most ide s that support django templating should work with it since the syntax is nearly the same
+
+i m trying to create a template in B since i have more knoledge than B
+
+B is worse than B and stringtemplate has got its own issues
+
+B is more advanced but a little complex as compared to apache B
+
+i m trying to create a template in B since i have more knoledge than B
+
+B is worse than B and stringtemplate has got its own issues
+
+B is more advanced but a little complex as compared to apache B
+
+B is no way better than B 3d or am not trying to prove that
+
+i use B on tables of up to 18 billion rows and nothing else comes close it s at least 100 times faster than B for random inserts on big tables
+

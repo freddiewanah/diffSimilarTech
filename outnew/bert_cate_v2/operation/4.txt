@@ -1,0 +1,78 @@
+however B is a more complex operation than B or shifting
+
+the boilerplate code would B rapidly when the express get more complex than B of two terms
+
+Bition B assignment has lower procedure than simply B operation
+
+since bit wise operations can be done very fast and B operations are relatively slow this type of B is much faster than doing a B
+
+it ends up in a state of confusion...you basically cannot release the B of the table it keeps getting bigger and smaller as you B your mouse - but you can never let go and release it to get the size you want
+
+i got a Bgable object done with jquery ui and when i B it it s way slower than i B my mouse
+
+this is easy to implement with buttons select items click up or down buttons to B - just loop through and apply the B to each selected item but much more difficult with B reordering
+
+B is the easier of the tasks just remember to B each block of one number with the other and carry the zeros
+
+while working with integer B it s better to B first and divide later to minimize the rounding error
+
+according to agner s instruction tables a single fp B is slower than a single reciprocal op and a single B op
+
+perhaps it s the case that B is much more accurate than reciprocal plus B
+
+note that i ve incorporated dshin s comment that B is faster than B however the performance improvement is about 90 removing the binary search 10 multiplication vs
+
+in general B is more costlier than B right
+
+as in title why is B much faster than B in this example
+
+since fp B shifts the smaller operand s mantissa until both operands have the same B you can add a certain magic number to force it
+
+in B for doing powers of two bitshifting is usually a little clearer than doing B though choose whatever works for you
+
+the private B is always smaller than the B so you should be able to encrypt it using the raw rsa operation if you make sure to remove the prepended zero
+
+i must also add that designing the rsa key so that the private B is substantially shorter than the B to speed up operations is a security risk if the B is smaller than 29 of the B length then the key can be cracked
+
+little wonder you get errors the B is normally shorter than the B which is always the same size as the key size
+
+1024 bit private B large number lower than the B
+
+the private B must not be longer than the B
+
+when i generate rsa key pairs by openssl it seems like private key private B is always less than public key B
+
+using the pow function and passing a B value is faster than computing the full B and then taking the B because the B can be applied to the partial products at each stage of the calculation which stops the value from getting too large 10 6 to the power of 10 6 has 6 million decimal digits with a B applied at each step the values never have to grow larger than the size of the B - about 13 digits in this example
+
+at the time this was faster because B was a lot faster than B but that s no longer the case
+
+just because B has a higher precedence than B doesn t mean we need to perform all B in the expression before doing any B
+
+as B of ints has more overhead than simple B
+
+with extra braces because B has a higher precedence than B - assuming these are both percentage discounts
+
+as of a few years ago B was 3x slower than B
+
+B is faster than mul but if you want to B two general values mul is far faster than any loop iterating B operations
+
+B and divide have higher precedence than B and subtract
+
+in this since B has greater precedence than B therefore x 10 will execute first and here we are dividing two int irrespective of the fact that the variable where final answer is stored is a double so answer will be an int i.e 5 10 0 and then B of an int and double will be done here int will be promoted to a double
+
+i picked c 1 1 8 for this example simply because it is exact in ieee-754 floating-point representation and typically B is much faster than B
+
+well if it is a single calculation you wil hardly notice any difference but if you talk about millions of transaction then definitely B is costlier than B
+
+it will be much slower i don t have benchmarks but i would guess at least an order of magnitude maybe more decimal will not benefit from any hardware acceleration and arithmetic on it will require relatively expensive B B by powers of 10 which is far more expensive than B and dividion by powers of 2 to match the exponent before addition subtraction and to bring the exponent back into range after B B
+
+B is inherently a much slower operation than B
+
+the reason to do this is because even though there is an integer B instruction div idiv in the instruction set it s typically very slow several times slower than B
+
+with careful optimization however you can make B 61 times faster than B
+
+it could be done via B which is much slower than B or it could be translated into a bitwise and operation as well and end up being just as fast as the version
+
+2.the B by 2 can be done by bit - shift operation is it really slower than B
+

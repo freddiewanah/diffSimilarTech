@@ -36,6 +36,7 @@ def read_relation(path):
 
 # Read comparative sentences
 stackoverflow = read_relation("stackoverflow_v1")
+print(stackoverflow.keys)
 
 sentences = []
 flag = True  # all sentences

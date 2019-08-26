@@ -1,0 +1,68 @@
+for general testing B is a more well-established product while B is focussed on tests written using bdd methodology behaviour driven design
+
+for general testing B is a more well-established product while B is focussed on tests written using bdd methodology behaviour driven design
+
+B is more popular because it was there first therefore more articles about it on the web and better tooling and because most programmers don t care about or need the advanced features that B offers
+
+B is more widespread B has the most features but mstest has more manpower behind it
+
+B is more popular because it was there first therefore more articles about it on the web and better tooling and because most programmers don t care about or need the advanced features that B offers
+
+B is more widespread B has the most features but mstest has more manpower behind it
+
+it should be mentioned that B provides many more features for smart stubs spies than B so both can be used together
+
+it should be mentioned that B provides many more features for smart stubs spies than B so both can be used together
+
+B has more capabilities and can be helpful with integration tests B is more focused on unit tests
+
+B is more flexible than B and have multiple advantages like support for parallel testing for example
+
+in case if you have flexibility to choose another testing framework you can try with B which has bigger feature set than B
+
+B has more capabilities and can be helpful with integration tests B is more focused on unit tests
+
+B is more flexible than B and have multiple advantages like support for parallel testing for example
+
+in case if you have flexibility to choose another testing framework you can try with B which has bigger feature set than B
+
+well for that you ll need B that is better integrated with B and B does not handle file uploads that actually everyone use so you have to put also icefaces that actually are better managed by maven that you currenty are not using... neverending story
+
+well for that you ll need B that is better integrated with B and B does not handle file uploads that actually everyone use so you have to put also icefaces that actually are better managed by maven that you currenty are not using... neverending story
+
+B looks more natural when developing applications in scala however from what i read it seems to support fewer test scenarios compared to B and it s also less mature
+
+B has been around a lot longer than B and is much more actively maintained because of it s much larger contributor base
+
+B is more focused on simplicity instead of functionality while B has more functionality
+
+B is more focused on simplicity instead of functionality while B has more functionality
+
+first its not a bad idea to use B to satisfy your requirement the uniqueness of node and added advantage compared to conventional technologies like apache-php is clearly explained in this following video why B is better .the notion of node being just used for advanced or complex applications is wrong you can use node for building applications which are very simple to anything of huge proportion.it would be a not so comfortable task for a node beginner to code without using any frameworks but by using this web application framework called B you need not code from scratch and its very easy to setup html pages using its simplified html templating language called jade and route requests also you can even use your html pages if you are not willing to use jade for rendering the views of your application .here are the series of tutorials which would help you tutorials on beginning with B basics of Bjs
+
+first its not a bad idea to use B to satisfy your requirement the uniqueness of node and added advantage compared to conventional technologies like apache-php is clearly explained in this following video why B is better .the notion of node being just used for advanced or complex applications is wrong you can use node for building applications which are very simple to anything of huge proportion.it would be a not so comfortable task for a node beginner to code without using any frameworks but by using this web application framework called B you need not code from scratch and its very easy to setup html pages using its simplified html templating language called jade and route requests also you can even use your html pages if you are not willing to use jade for rendering the views of your application .here are the series of tutorials which would help you tutorials on beginning with B basics of Bjs
+
+B is more popular and up to date as B hasn t had a new release for some time though for testing webforms it s still very useful as B does not have good support for that
+
+thus i think B is more suitable for intranet and takes less time to develop your app while B is better for more complex gui or unstable connections where additional roundtrips matter
+
+thus i think B is more suitable for intranet and takes less time to develop your app while B is better for more complex gui or unstable connections where additional roundtrips matter
+
+variety of supporting widgets is probably the single area in which B is still stronger than B
+
+variety of supporting widgets is probably the single area in which B is still stronger than B
+
+even though B has better capabilities i prefer B due to Bs complexity overhead and lack of ui for control api
+
+i suggest that you to move B which has a better api or even to B whose protocol is even simpler
+
+i suggest that you to move B which has a better api or even to B whose protocol is even simpler
+
+B is more popular and has more tutorials then B
+
+B is more popular and has more tutorials then B
+
+while B has much more sophisticated widgets than gwt you still can t use B in conjunction with it which is why i rejected using B
+
+while B has much more sophisticated widgets than gwt you still can t use B in conjunction with it which is why i rejected using B
+

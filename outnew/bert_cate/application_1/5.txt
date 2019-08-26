@@ -1,0 +1,6 @@
+B has a stronger syntax than html and is easier to convert to B this way
+
+if you are targeting android you can use firefox for android by developing a webapp that has native B support and because of it will be much faster than B or other javascript solution
+
+B is an open source ruby on rails application that supports multiple projects much better than B and seems to be much easier to administer
+

@@ -1,0 +1,78 @@
+i have been reading about * but it seems a bit more complicated than *
+
+in my view * seems much more lighter then * but i never used either one so i can t judge
+
+* has the lower learning curve overall so i would recommend it over *
+
+i personally use * which probably falls in to the heavy framework category but is at least much lighter than * and lighter than zend too i think
+
+or would a tool like * be better suited than * in this case
+
+it fills the gap between * and * more powerful than * and easier to use than *
+
+i ve only done one experiment with * material myself and i wasn t experiencing any real performance issues at the time but i did read some people writing about it being slower than plain *
+
+* has a better data store api than the one * has
+
+with this in mind customizing the css of a * app is significantly easier than * for the simple reason that you control the markup
+
+* probably has more resources than *
+
+i would say * would be easier over * as the default ui elements look really good
+
+i have found one benchmark in which * is faster than * and another benchmark in which * is faster than *
+
+* is not better than * express the big thing that differs is the structure of it
+
+* is more direct and simpel to use if you start to learn java * has more features but maybe is more complex
+
+to be perfectly honest i * is way more popular than * at least here where i work and live
+
+* offers you more options and possibilites how to run your tests and in which order especially something * can t
+
+edit it seems * has more printed books as references compared to * on amazon
+
+if there is a * extension or similar framework that provides a better solution than * then please let me know
+
+since * seems to be much lighter than * i would suggest that you take a look at *
+
+current task looks like * is ok for it since it is smaller and simplier than *
+
+i m building an application in both bottle and * to see which i am more comfortable with as * is too much batteries included
+
+both frameworks are fairly easy to implement * is much easier than * imo although * has a built in authentication layer that you can use albeit more difficult to implement in a client server scenario like you need
+
+subjective * provides much nicer code coverage reports than *
+
+i found * was even easier than * to set up
+
+in my opinion this is a more elegant solution than jsf and i think * s ioc container makes it more powerful than *
+
+i should also say that i have the token at ctx.request.get authorization * based i think it s something like req.header authorization with * in all routes
+
+i ve found * to be really effective and surprisingly lightweight....it aims to be more lightweight than *
+
+* is more often compared contrasted to * in that it offers a set of facilities outside of moq and or rhinomocks sweet spot
+
+overall * is more flexible than * and a great base to build a web application and api on
+
+but * offers far more than just doing away with the need for your own writables although that is in my view a considerable plus it offers fairly efficient serialization the choice between serializing against generated entity classes like * requires or using a so-called genericrecord structure instead and not having to have tagged data
+
+* s admin is better and more customizable than * s appadmin
+
+btw why do you want to use * it looks to me less powerful than *
+
+i would advise you to try * it is very easy to learn much easier than * and it let s you re-use many existing components as well
+
+unfortunately i m pretty sure you ll not find any packages or projects that migrates a joomla web site to * or maybe * which is much older than *
+
+the consensus seems to be that * is easier to use but that * has the advantages that come from being open source easy to customize merge with other code community etc
+
+i would recommend * as it is in my opinion equally or even better than * and it is free
+
+but on the other hand although new the * package is actually more complete imo than *
+
+* would make things even simpler than *
+
+i already know that * is a more heavy weight approach in contrast to *
+

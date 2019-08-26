@@ -1,0 +1,343 @@
+eliminating redundancy epsilon transitions simple B actually get smaller B represent simply guarantee
+B save time B components B purely written whereas B components written native thus compilation time B B
+2 location + reverse B - seems reliable requests location services device work wifi tablets enabled requires time fetch location b server call reverse B
+help performance either since pow B B significantly faster pow B B general
+B larger B accesses 4 bytes original B extra 4 bytes stack
+also apple might confidently announce B faster B
+also note use B B
+B neither easier read understand B
+objects come magically existence B B
+B tightly coupled B methods define B resource specify handle create read update delete
+B potentially complex B easier develop domain model database asynchronous B
+B probably complete manage B always exclude finger touch using pen
+depending actual needs explain multi-column B vsreport mode may better B
+anyway willing advanced 3d stuff B better B
+B makes easier visualize data B looks professional
+B takes time compared B
+B smarter careless B
+B significantly faster using 1 0 B slightly faster using bool
+B shows better B firebug
+however sdp object local description B contain datachannel moreover sdp shorter B information bundled
+since logic thought evaluating B objects takes time B equivalence 1 false 0 therefore came following benchmark turns correct
+normally B faster B faster heapsort
+B simpler B implemented even efficiently places strings known properly aligned
+button raises correct event events never reach B handled lower level B
+memset behaves like B difference B copied data byte B copies formatted string well takes time B execute
+take large function compare B source B B display none otherwise display B
+grid coordinate grid either closed open tying using open coordinate find open coordinates around first valid walk B equal lower B walk B
+built-in B make series values starting adding k time stopping last multiple k B x
+example screen 600 pixels wide B B string takes 600 pixels display able see end B B
+easy implement buttons select click buttons B - loop apply B selected item difficult B reordering
+B pythonic B shudder soap
+better use B apache server faster B need make tcp ip call connect B
+course B see generated sql easier B tool see long time query takes
+lately used B bit B
+personally felt B performs better B
+android 5.0 api 21 allows surface input B often convenient B
+generally know sounds banal B better transformation generating new document source document B better query extracting small amount information source document
+multicore refers computer B one logical B core execute multiple instructions time.
+size B jar bigger B jar know help please
+trust another job system architect decided B better B projects must converted B B
+change B io orders magnitude slower B
+memory bottleneck performance B runs slower cpu paging B really slow
+B support oses non-windows devs feel comfortable B
+individual B division instruction take longer B one
+coq probably prominent style B B-y feel well written B
+B compliant comfortable B using probably use
+drupal 7 B 5.0.15 higher pdo B 8.3 higher
+B widely supported little easier use B cool features functionality worth taking gander
+find B slower B knowing produce query background
+although layout_B layout_B set wrap_content imagebutton shown rectangle B greater B
+B image greater B want crop B
+works well B bigger B work B bigger B
+B B ratio since B text box relatively smaller B area text box
+1 image B greater B B 300
+onsurfacechanged check B greater B query orientation using technique shown
+want set custom page B B page B higher page B
+image originalsize B B greater svg image B B
+frame B values larger B 1 ratio leg begin stretch unproportionally
+still pdf output B greater B
+logic default orientation device B greater B likely tablet mobile phone device
+image B B shown
+scaling assumes B grid location always smaller B grid location
+B greater B calculations
+shown B B
+cut paste B takes steps B iirc
+starting understand even though B powerful B B least 10 easier use keystrokes requires modifications
+floating point operations addition B harder B division may slower depends transistor real estate dedicated fpu
+end using memory anyway B still faster B memset difference quite ridiculous
+see copying manually B always slower B malloc guaranteed allocate new memory forced copy data every allocation shows us B indeed reusing address enlarging size
+B needs memory B sometimes even faster
+secondly use B generic B even simple properties like count
+tried B 2 work good better B p
+articles B tell slower B mercurial
+even webkit issue unless B got newer version B
+B gets bigger couple B full split functions handle state using state table look function directly
+honestly B flexible absolutely get done B
+B easier B
+B shorter concise syntax behind scenes uses B performance faster equivalent
+B simpler use B
+B sometimes easier use B
+search B one B
+sounds like want nat traversal B harder B
+apart B packets slower B packets data transfer simple B connection faster simple B connection flow control reliable transfer already integrated reinvent often worse
+since fp B shifts smaller operand mantissa operands B add certain magic number force
+think back grade school recall B harder B division harder B
+value expression evaluated according precedence rules 62 B higher precedence B
+like would possible come arithmetic expressions could written parentheses B higher precedence B
+B prone locking problems B believe
+B table faster B rollback possible
+B reads may well faster B
+opinion B use faster B pretty speed
+prevent B 7 B modulo used like
+B larger B
+try converting ascii B keys one B always get incorrect result
+B higher rank unsigned B
+stack array must B pid larger B variable fit pid 25689
+per requirements B 6 B 999999 encoding max 7 B xor 24 bits
+however call function file call nonexistent file call one time original file B string buffer larger B length
+guessing happens size B larger B memory controller thing controls memory -i know technical term move larger distance
+3 possible values use array B copy 4 faster B
+compiler may generate warning conversion sizeof B greater sizeof B
+rank long long B greater rank long B greater rank B greater rank short B greater rank signed B
+means long verify every B string 128 B value going get one byte per B utf-8
+B provides simpler quicker build train models B performance cost since models still run B engine
+2 B seems little better B
+said B might slightly slower B
+understand B better split-brain network failures traditional bully algorithm easily find quorum nodes leave cluster without using B
+even though liked design aspects B simpler B imo B one learn imo far far better documentation examples
+B eagerly evaluated execution model far easier comprehend debugging via printf works better B
+ignoring cost providing sorted input oh B smaller oh B
+B encrypting data faster B
+recyclerview content B - last item gain B padding B fill remaining space
+would use B B syntax better B B pure cool features type
+working B socket programming stop transmission application requested data B value
+B slower practice B due better locality reference B data within relatively close storage locations
+anyone explain B performs better circumstances quichesort would better B B
+B makes sense use B
+rewriting B B nicer makes likely get infinite B
+incrementor B 1 endless B
+according benchmark sefan B answers take ammount time fruity B answers take bit shorter B answers second multiple B answers take far longer
+instead using B easier use B
+foreach B slower B yet rewrite use
+want allow B B tab add additional separators using split
+B better accept kind view B supplier general already hold existing view especially gwt let B decide instantiate accept view
+B performing far better B
+using yii 1.1.12 recently upgraded 5.3 5.5 found B longer used B made part php5.5
+B lower number gaps table query returns B number + 1
+know B cleaner sometimes B programming makes business safer
+may also want look B covers slightly B
+think B resharper combined expensive B
+currently B supports older B v.5.1 newer B 6.0 available nvidia site
+produces error attributeerror B must larger B range parameter
+B greater B B lower B input valid
+throw new wrongelementvalueexception B must greater B
+warning mt_rand function.mt-rand B 0 smaller B 1 users avsm www pa-include functions.php line 332
+set B width 1 pixel higher B width next query
+still setting B B B greater B
+next row data sequential order B year record 1 B year record 2
+version uses closure B B values raising exception B smaller B
+B B
+B example B oop perspective
+B directly .for details B 3.0 documentation
+worried memory look B since equivalent models use significantly memory B
+B useful new B wants change method works need change data class uses work probably approach like would trick
+think natural precedence unlike say multiplication B greater precedence B addition built B addition
+B-to-B assuming B faster B
+easiest simply recognize B nothing B dividend inverse divisor x
+processors integer B vastly faster integer B
+possible B six slower B
+B faster unint8 B
+example noticed B glsl compiler little picky B rejects shader otherwise works fine
+almost always driver issue general B better opengl bugs directx implementBon B amd versions better directx bugs opengl implementBon
+although thread year old still merits one mentioned recent innovations B lighty web servers scale better B higher concurrency consume lesser resources
+recommend use B reverse proxy since configuration easier performance better B
+clients high traffic sites running B slower B varnish front get traffic saying little performance problems
+also consider using B server flexible B
+also setting server would say start B uses resources B
+B hello greater 3 last B argument
+B newer version B set features resource intensive fast discussion wonderful tool web recently came across
+think B better B
+B better method B
+simplified B shorter basic B test workouthandler - cannot recognize methods wardenstrategies loginhelper unless also include files handler already included app.rb
+actually would like retrieve specific task details B request would suitable B
+one thing guys would misunderstand B safer B user see sent data
+feel like B secure B want false premise
+B help B information table structures content
+would make things considerably easier android native support json serialization making http B requests restful urls simpler http B requests huge deal stuff worry
+generally B slower would bigger size B request
+additional options show via timeout shown B takes short time use form fadein possible dialog B annoying flash quick
+B scalar 2.7x faster B vectorized speed 3x matrix size 128x128
+note B versions older B versions opensuse newer B versions
+B far advanced B quite easy install directly workstation based ssh communication git repository server
+a111 B equal better B
+pretty linker B equivalent strings total B parts sections typically
+B let use xpath think painful B interface
+like B ide even better B sold installing using mono compiler yet know even handle latest vb.net c# features
+size B performs better B store
+know 8-bit B usually better B size.
+simple get indices B 1 array arr greater value B
+keep mind though B larger B depending might prefer B avoid 65k methods limitation
+create new branch add new features made B request features implemented master branch also new branch second B request features want B original project
+documentation recommends approach querying presumably continually versus keeping tailable cursor open would thought B would cheaper B
+since B content authors complaining experience editor performance slower previous B
+generally B costly B think difference
+tough data dependency problems B 12 faster B
+service still beta trial B conversion working better B one
+works great B tested ie somehow worse B
+B div height larger B height
+right B greater B node
+promoting mating similar B B likely worse B B compatible
+also different types trees -- going assume using normal old tree number B one B one root node
+also removing B directory trickier might seem need make move bottom tree files first rename directories till done B
+B lower z-index .modal-backdrop behind modal irrespective z-index given B
+weight involved needed space width 2 B B offer otherwise things screen
+prevent B element overflowed B element B element position absolute hight B higher B
+B B let say input
+heap constraint B greater B completely specify heap usually one possible arrangement
+note B significantly slower example B reads class files directly instead using reflective access order avoid class loading
+javadoc B better B
+like add B faster scalable B 2.0 version introduces views high level distributed memcached membase server merged B course sophisticated mashing together
+since B proxy theory nothing B tunnel thought could give property another try
+regex replace single B contiguous B 2 followed B individual tabs
+B version little larger B version 100x larger
+B would make things even simpler B
+problably B event may fire earlier B
+file must higher B target B
+tried B B sometimes file size convert B smaller B also sometimes larger original file size
+ogv version seems run little better B seems run better B
+B subtractions 2.5 faster B subtractions machine
+edit actually solution work B big bigger B also small like fractions
+assign B returned Beger.parseB string B variables B higher precision B type conversion happens automatically without need explicit cast
+works seems u still comparing strings ordered u check return value B grater B 0
+one project team responsible B may well involve B - different countries different legal requirements currencies payment providers etc. one team improving base
+possible B faster pure B things would traditionally use anyway
+actually B slower simple B see destroy temporary register t0 touch s0 s1
+experience B sometimes lenient B would definitely test
+transparency also issue however B seems handle three better B
+rendering without buffering B faster B actually B drawimage
+first time plugin B works better one B
+stable versions B permissions show allow still connect even B works older versions B work
+B better B - suck regard
+use B though believe uses ram B
+also appear B consistently handles better ie B
+B standards-compliant B allow
+B better support B
+B extensions power B wider access browser internal api
+update tried B 30 experience slowdown worker thread slower B run main thread
+work B setting B ie display iframed page larger B causing part text cut
+B parsing may strict B things like trailing commas specified standard stated danilo celic answer
+B significantly faster using 1 0 B slightly faster using bool
+getting using B B B written earlier fget run runs B runs
+2 min B greater equal B B.
+try giving id one divs style B greater equal image B.assuming image B 50px shall work
+prefer using short forms year B shorter type better read B yyyy B
+matrix B easier one several matrix implementations B method packages org.apache.spark.mllib.linalg org.apache.spark.mllib.linalg.distributed
+look based logic x greater 100 B 5 greater 500 B 5 .
+motivation font size 12 B seems larger B
+nsdecimalnumber B types may able store bigger numbers B types though decreasing precision
+B may better fit B
+image ratio like 16 9 B larger B use method
+B gets dramatically larger B stays throw hide keyboard event
+fonts character B B assuming B B definitely work
+attempting use run check whether images B bigger B visa versa equal
+regardless setting B greater B needed get layout right browsers
+also css .character B 170 narrower B 245 would portrait view example shows landscape view
+logic default orientation device B greater B likely tablet mobile phone device
+found load image camera roll png pngs orientation data flag B greater B upon applying certain distortion filters said image rotate present self landscape image
+image B always bigger B condition always
+words image B B space bottom border uiimageview image
+tried 2 ways rotating image B B
+xml works well image 1x1 ratio B bigger B
+verify B 2x B B 2x B
+B greater B probably landscape mode
+please help...this one sony experia model.whose B B less.this particular layout working fine B B almost adjusted physical devices.like samsung htc
+B #div-B-border always greater B element
+image renders try pinch zoom B picture changes bigger smaller B stuck iphone screen B
+used situation view B B bigger parent B B
+device B smaller B device tablet mobile phone standard position rotation usually
+B B user browser minus possible without making larger 90 B viewport
+button B higher B go step 2
+however B larger B aspect fit increase B uiimageview
+resize image proportionally screen B smaller 1000px set max-B 100 B auto using css
+B B called 0.5s B B least 0.5s prevents fast flickering stuff might see naive implementations
+uses B never 1 B stack
+mathematical solution 906609 found longer possible find larger B larger factor B 906609 952.160.
+importantly decimals stored computer terminating computer decimal B B power 2
+system B int apparently larger uint16_t int greater ranked B type short standard 6.3.1.1 even size
+following types semantically equivalent minimum 64bit B without sign equal bigger size B long int
+rule performing arithmetic operations type B narrower int gets widened int values fit B int otherwise
+B also uses earlier version webkit current B pages checked browsers
+dus anyone knows wrong json B harder get B
+B supports 100 levels nesting B
+using fittext time B greater 100px set exact B per B
+simply comes space available B gives room developers thus allowing developers put one B
+rsa signing message means Biation private B result r smallest integer 0 smaller B
+B higher precedence therefore binds tightly B
+associativity precedence specify last two statements must performed order since B higher precedence B
+B higher precedence B mean need perform B expression B
+division B higher precedence B actually
+since B smaller B converted B
+least output preferred width B vector bigger B vector
+B lower rank B promoted B zero- sign-extended
+still iâ facing issue inputs given showing #### B exceeds 4 B
+description exclude possibility example B type wider B might single padding bit must always 1
+B values overhead B values
+assumes B never 10 B long
+realloc allocates B array B almost certainly larger B
+unique index B column perform faster B 5
+32-bit 64-bit microprocessors data alignment bulk data access B accesses frequently faster B accesses long long 64 bit may faster still systems
+says provided B values B used determine ordering implementing reasonable
+B text B displayed scroll
+used link generate nine-patch images however even add files drawable ldpi B ldpi xhdpi xxhdpi folders image still shorter B width
+since B size larger common B B sizes 320x480 text size looks smaller emulator
+145 output like ºâ ºâ reverse B higher 145 works fine gcc borland turboc B B must 65 otherwise program prints stB values instead reversing
+example would want flag following records data 2 lower B x 4 higher B
+also B looks like B tab separated instead comma separated
+achieve actual goal maybe able use plain B provides flexibility controlling B instead using
+happening trying separate search based B since B comes natural users comma separation pipes B
+pattern scanner supposed regular expression describes characters want included token repeated one last part words may B one B punctuation etc.
+using facebox B smaller B
+2 plotting new series values B greater B
+produces error attributeerror B must larger B range parameter
+B 90 Bute message med 60-90 B
+may assume caller method pass B B parameter B equal B
+syntax B B B positive integer number indicating Bimum number matches B integer equal greater B indicating Bimum number matches
+b opposite sign cannot overflow - one greater zero would need greater B one zero would need B
+get exception B value lower B value
+validate B field greater B field
+would add B id see faster B id
+B value lower B want update model value
+returns false obj B zero anobject B greater zero otherwise
+since B larger B one two always happen
+take value compare current B B values- higher B lower B replace add value running total average
+would still work p3 joined p extra condition prunes rows interested point looking B price rows price greater B
+make salary B never salary B user entered
+first bin values B last greater B implemented efficiently due multiple dispatch
+go change B 0.9 red border automatically disappear since technically B B
+make two properties B B assign value first item add array time add new item check datetime greater B B ones
+want remove lines level lower B higher B try
+select B value second dropdownlist B value first dropdownlist value first dropdownlist reset equal second
+join two tables leftlimit 2nd table greater B leftlimit 1st table rightlimit 2nd table B rightlimit 1st table
+pointed B convenient B anyway - need remember B digit 0-f looks B replace groups 4 bits single B digit
+B somewhat readable B happen loading data dump text editor
+obviously quite bit B mandated int equally obviously B mandated long long
+would also suggest replace like l1 0.3e1 B faster B
+rule thumb B faster B cpus
+B numbers rounded eight B digits
+B floats digits dot expressed decimal representation B numbers binary decimal
+since appears generate index-color B files smaller B files doxygen generates
+seems like opposite - B 2.3 gets 2-5x slower B 9.1
+B better use B forget
+B lower 5.3.0 B fixed
+default psycopg2 uses B libssl seemed keep dependency old B longer existed B
+line B point B --the compiler information length variable pointing whether B single chars int else-- plain pointer presumably pointer pointing default int
+working higher-dimensional B ends faster B -based
+values would pixels 50px mdpi B look larger B B
+variation pentadecagon free set arbitrary values diagonal B B..max containing x fill rest array lower B one side higher max
+single B B faster simpler 2-3 B calls
+B faster find example like B faster B
+note B nodes value larger B
+assuming binary tree follows left B smaller B right B larger B could use property tree reduce amount need search
+make B container width width least larger B
+B better say B decimal number like 32.98 written 32 98 slash used instead point

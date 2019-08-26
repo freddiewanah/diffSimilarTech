@@ -1,0 +1,104 @@
+anyway i just prefer not to use it because B is slower then B
+
+anyway i just prefer not to use it because B is slower then B
+
+but B has improved dramatically in the past few years and in most cases today B performs faster than B
+
+in terms of pure speed it is not always the case that B is faster than B but in my experience it tends to be faster for pure read working environments by a factor of about 2.0-2.5 times
+
+i did a search online comparing B and B but all of the articles i read judged B being faster than B on select queries
+
+i am not sure if this is no longer true B is faster than B for reads
+
+someone just told me that B is much better than B
+
+as you know B table sizes are about three or more times smaller than same B tables
+
+you are right because B is really faster than B
+
+i currently have B and i would like to stay with it because it had far better performance than B in my case but i heard that B has acid transactions
+
+B is a better choice as B is really old engine and would fade away in near future
+
+oh and just incase you were thinking B is slower than B - the B implementation i tested was twice as slow in all counts
+
+yes it is an old wives tale that B is faster than B
+
+B has a higher resource consumption rates then B so keep that in mind
+
+in general is B faster than B
+
+since you don t do updates i think B would be better than B in this scenario
+
+2 - i have read about B vs B the conclusion for me was that B is faster when it comes to read-only whereas B is designed for tables that get updated or inserts more frequently
+
+in my opinion B use to be faster than B now they are pretty much the same in speed
+
+you insert in there but never select from there as far as i know today B is better than B in this case
+
+B is almost 4 time faster than B which is not acceptable in the environment we are working as i mentioned earlier that every second is worth many dollers for us
+
+why is B so much slower than B in my case
+
+i know B tends to be a bit slower than B on counting but this is far too long
+
+now the response i got from my boss is that i need to prove that B will run faster than B
+
+i know B is heavier than B but just how much more
+
+B table is a bit slower than B tables but i don t think it is a major problem as you told you are using drupal system is that a kind of mult-sites like a word-press system
+
+B has proved to be faster than B for me
+
+but B has improved dramatically in the past few years and in most cases today B performs faster than B
+
+in terms of pure speed it is not always the case that B is faster than B but in my experience it tends to be faster for pure read working environments by a factor of about 2.0-2.5 times
+
+i did a search online comparing B and B but all of the articles i read judged B being faster than B on select queries
+
+i am not sure if this is no longer true B is faster than B for reads
+
+someone just told me that B is much better than B
+
+as you know B table sizes are about three or more times smaller than same B tables
+
+you are right because B is really faster than B
+
+i currently have B and i would like to stay with it because it had far better performance than B in my case but i heard that B has acid transactions
+
+B is a better choice as B is really old engine and would fade away in near future
+
+oh and just incase you were thinking B is slower than B - the B implementation i tested was twice as slow in all counts
+
+yes it is an old wives tale that B is faster than B
+
+B has a higher resource consumption rates then B so keep that in mind
+
+in general is B faster than B
+
+since you don t do updates i think B would be better than B in this scenario
+
+2 - i have read about B vs B the conclusion for me was that B is faster when it comes to read-only whereas B is designed for tables that get updated or inserts more frequently
+
+in my opinion B use to be faster than B now they are pretty much the same in speed
+
+you insert in there but never select from there as far as i know today B is better than B in this case
+
+B is almost 4 time faster than B which is not acceptable in the environment we are working as i mentioned earlier that every second is worth many dollers for us
+
+why is B so much slower than B in my case
+
+i know B tends to be a bit slower than B on counting but this is far too long
+
+now the response i got from my boss is that i need to prove that B will run faster than B
+
+i know B is heavier than B but just how much more
+
+B table is a bit slower than B tables but i don t think it is a major problem as you told you are using drupal system is that a kind of mult-sites like a word-press system
+
+B has proved to be faster than B for me
+
+either way i intend to use B partly because i have lots of experience with it and partly because its much more well documented and has much more functionality than blade and to me the syntax is slightly cleaner than B although the template engine is not the point of this question really
+
+either way i intend to use B partly because i have lots of experience with it and partly because its much more well documented and has much more functionality than blade and to me the syntax is slightly cleaner than B although the template engine is not the point of this question really
+

@@ -1,0 +1,16 @@
+* is significantly more powerful and robust than * in my experienced opinion
+
+* is much faster than * and probably the fastest parser available for python
+
+speed isn t important here but in other applications it is good to know that regexes are very fast 100 times faster than * and 1000 faster than *
+
+i prefere * it s a harder to understand but much faster than *
+
+i prefer to use * better than *
+
+one of the things that makes * better than * is support for proper css-like class selection or even supports full css selectors if you want to use them
+
+* will let you use xpath here which i think will be less painful than * s interface
+
+but if you are allowed to store whole tree into memory you can use * which is faster than *
+

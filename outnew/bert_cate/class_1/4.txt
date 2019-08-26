@@ -1,0 +1,94 @@
+i am writing an app based on B which has more than 10 viewcontrollers with corresponding B
+
+i am writing an app based on B which has more than 10 viewcontrollers with corresponding B
+
+if you want to display your file as plain text the widget B is better then B
+
+the B is slightly easier to implement than the B which also needs a qtablemodel as backend but it has less capabilities
+
+the B is slightly easier to implement than the B which also needs a qtablemodel as backend but it has less capabilities
+
+see the referred post for an example that reads a single file in parallel with B which should be significantly faster than using B according to these benchmarks
+
+see the referred post for an example that reads a single file in parallel with B which should be significantly faster than using B according to these benchmarks
+
+android 5.0 api 21 allows surface input to B which is often much more convenient than B
+
+android 5.0 api 21 allows surface input to B which is often much more convenient than B
+
+in ios 5.0 and later you can use B of core location framework as for ios lower than 5.0 B of map kit framework
+
+in my app i have a rootpageviewcontroller which contains the B and one or more detailpageviewcontroller with a B as a childview
+
+in my app i have a rootpageviewcontroller which contains the B and one or more detailpageviewcontroller with a B as a childview
+
+if you want to use a continuous gesture that tracks the user s finger you can use uipangesturerecognizer rather than B and i think animatewithduration is better than B in that case
+
+to get the html instead of hardcoding it as above use the B class since it has a simplier api than B
+
+update i ve created a webhelper class that takes the place of B but provides more access to the necessary features of the underlying B
+
+to get the html instead of hardcoding it as above use the B class since it has a simplier api than B
+
+update i ve created a webhelper class that takes the place of B but provides more access to the necessary features of the underlying B
+
+the first thought is that you could build a uiview showing image and text then attach a B to it which would be more flexible than B
+
+the first thought is that you could build a uiview showing image and text then attach a B to it which would be more flexible than B
+
+a solution i ve used is a simple subclass of B which allows more customization than subclassing B and less hassle than nsattributedstring et al
+
+a solution i ve used is a simple subclass of B which allows more customization than subclassing B and less hassle than nsattributedstring et al
+
+when using embed in - B the new view will be a bit bigger than the B
+
+when using embed in - B the new view will be a bit bigger than the B
+
+i m aware that B is much more suitable for this as it implements uitextinput protocol which has all the methods i need but due to a bug in ios i m limited to B
+
+i m aware that B is much more suitable for this as it implements uitextinput protocol which has all the methods i need but due to a bug in ios i m limited to B
+
+this class leverages B which is a lower level approach to using B
+
+this class leverages B which is a lower level approach to using B
+
+B is a richer api compared to B
+
+B is a richer api compared to B
+
+depending on how your application is structured this means you may want to have your own base class implementing iresource which creates your custom not found resource for all of its B or better make a wrapper since composition is better than B
+
+secondviewcontroller which is a subclass of firstviewcontroller also has a B but has one more B
+
+secondviewcontroller which is a subclass of firstviewcontroller also has a B but has one more B
+
+on ideone the B is about 3 times slower than B copy + back_inserter + B vector and about 15 times slower than memcpy into a raw buffer
+
+the internal view hierarchy of B is much more complicated than it appears and starting from ios 7 it is not even added to any B so it s no big surprise that it doesn t participate to the responder chain as you expect
+
+the internal view hierarchy of B is much more complicated than it appears and starting from ios 7 it is not even added to any B so it s no big surprise that it doesn t participate to the responder chain as you expect
+
+less is a css extension that enables reuse and encapsulation of values color values for instance improves B allows a better nesting of related B and operations also
+
+now in .net for desktop controls you can use B which is much more powerful than the old tag B anyway
+
+textureview will display B rendering but is much more flexible than B and will follow the normal layout hierarchy in android which allows views to be moved on the display
+
+B code is generally less optimized than B one
+
+the B class methods are convenience methods for common animations but are more limited than B
+
+edit as willeke has pointed out accessing a B directly is technically faster than doing so via an B via self
+
+B api is easier to work with than B but both approaches use the former
+
+besides the B api is easier to use than B
+
+posting Bs to B is faster than using signal-slot invocations because there are no copy constructors called and there s no marshalling done except directly by you upon construction of a B
+
+both a B and opengl are used for getting high performance graphics and animation s.but still opengl is the best option to get high performance graphics because it is well documented and you will have more control over the B .but in B some of the classes are depreciated in the current versions .its almost not possible to make a rssurfaceview to transparent
+
+on the server side you re using B which is nothing more than a socket or B factory
+
+on the server side you re using B which is nothing more than a socket or B factory
+

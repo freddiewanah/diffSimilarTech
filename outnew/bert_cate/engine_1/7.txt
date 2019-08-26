@@ -1,0 +1,48 @@
+B has a stronger syntax than html and is easier to convert to B this way
+
+if you are targeting android you can use firefox for android by developing a webapp that has native B support and because of it will be much faster than B or other javascript solution
+
+B is often considered to consume less memory than B but this depends a lot on how the browser is implemented
+
+B is often considered to consume less memory than B but this depends a lot on how the browser is implemented
+
+B not only has the advantages you list but it is also faster than B in many benchmarks
+
+B is harder to tune since it has more knobs but a properly tuned B system can often have higher throughput than B due to better locking and better i o patterns
+
+B is slower than B for most uses but can perform faster in certain conditions due to a better locking mechanism
+
+have you considered changing to B - it has much better concurrency support and in some contexts will run faster than B
+
+B has historically been viewed as faster than B but for recent versions of B that is true for a much much smaller set of use cases
+
+newer versions of mysql 5.5+ have extended B to support all the features that were previously only available on B such as fulltext and geospatial indexing and B performance is usually considerably better than B when configured properly
+
+there is a difference between the different storage engines though B is faster for a lot of select B is faster for a lot of insert update because it uses row locking instead of table locking and the way it handles indexes
+
+also note that some mysql engines are faster than others for example B may run faster than B at expense of the lack of real foreign keys
+
+also mysql version starting from 5.5 - B performs faster than B
+
+B not only has the advantages you list but it is also faster than B in many benchmarks
+
+B is harder to tune since it has more knobs but a properly tuned B system can often have higher throughput than B due to better locking and better i o patterns
+
+B is slower than B for most uses but can perform faster in certain conditions due to a better locking mechanism
+
+have you considered changing to B - it has much better concurrency support and in some contexts will run faster than B
+
+B has historically been viewed as faster than B but for recent versions of B that is true for a much much smaller set of use cases
+
+newer versions of mysql 5.5+ have extended B to support all the features that were previously only available on B such as fulltext and geospatial indexing and B performance is usually considerably better than B when configured properly
+
+there is a difference between the different storage engines though B is faster for a lot of select B is faster for a lot of insert update because it uses row locking instead of table locking and the way it handles indexes
+
+also note that some mysql engines are faster than others for example B may run faster than B at expense of the lack of real foreign keys
+
+also mysql version starting from 5.5 - B performs faster than B
+
+probably you can take a look at B template engine which is much faster than B and velocity also much easier to use
+
+B has a cleaner api lower system requirements and works better across platforms than B in my opinion
+

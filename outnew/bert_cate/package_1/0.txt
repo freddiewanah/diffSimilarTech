@@ -1,0 +1,30 @@
+possibly part of the reason of my problems is that the original code from ramnath uses rmaps while i m using B also developed by ramnath as it is more developed better integrated with B and of course includes leaflet
+
+possibly part of the reason of my problems is that the original code from ramnath uses rmaps while i m using B also developed by ramnath as it is more developed better integrated with B and of course includes leaflet
+
+if you are on linux and have chosen blas and B from a repo it is very likely that they are much slower than B
+
+b B runs always slower than B sequential around 10 times slower
+
+dist fonts B gruntfile.js js less license B readme.md
+
+with library B you can have a prettier more compact form see soto s answer for an even more compact one with B
+
+with library B you can have a prettier more compact form see soto s answer for an even more compact one with B
+
+could i use B to do this more succinctly than running B and dcast separately for each of employed girls guys
+
+B also has more features and offers B too
+
+how can i find all div and span tags with order preserved.with B it is very simple but i switched recently to B since it is much faster than B
+
+B will let you use xpath here which i think will be less painful than B s interface
+
+you might want to use r markdown and B which is easier than using B and r as also zhaoy suggested
+
+you might want to use r markdown and B which is easier than using B and r as also zhaoy suggested
+
+B deals with badly formed html better than B is actively maintained B isn t and is a lot faster since it uses libxml2 internally
+
+B is newer based on B internally and is often even faster
+

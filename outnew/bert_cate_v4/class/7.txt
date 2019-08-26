@@ -1,0 +1,32 @@
+the * is slightly easier to implement than the * which also needs a qtablemodel as backend but it has less capabilities
+
+i d like to use * to encode the data coming from the camera reason it s more low-level so hopefully faster than using *
+
+in ios 5.0 and later you can use * of core location framework as for ios lower than 5.0 * of map kit framework
+
+* just offers you more functonality than *
+
+* is a shorter and more concise syntax but behind the scenes it uses a * so in terms of performance it won t be faster it will be equivalent
+
+instead of working around the 1 label and image you get in a * it s cleaner to start from scratch with a * and create your tiles
+
+i m aware that * is much more suitable for this as it implements uitextinput protocol which has all the methods i need but due to a bug in ios i m limited to *
+
+* is a richer api compared to *
+
+the internal view hierarchy of * is much more complicated than it appears and starting from ios 7 it is not even added to any * so it s no big surprise that it doesn t participate to the responder chain as you expect
+
+this should handle all cases of setting the * makes them easier to implement in your * classes and cleans things up
+
+if you need a globally accessible variable or * that s more suited to a base class that your classes * from
+
+textureview will display * rendering but is much more flexible than * and will follow the normal layout hierarchy in android which allows views to be moved on the display
+
+and * is much simpler to use than * and will serve the most common development needs
+
+* is a much more pleasant api than *
+
+besides the * api is easier to use than *
+
+both a * and opengl are used for getting high performance graphics and animation s.but still opengl is the best option to get high performance graphics because it is well documented and you will have more control over the * .but in * some of the classes are depreciated in the current versions .its almost not possible to make a rssurfaceview to transparent
+

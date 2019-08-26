@@ -1,0 +1,6 @@
+* has a stronger syntax than html and is easier to convert to * this way
+
+if you are targeting android you can use firefox for android by developing a webapp that has native * support and because of it will be much faster than * or other javascript solution
+
+we ve recently switched from * to * where i work and i think i like it a little more than * and use the wiki functionality almost everyday
+

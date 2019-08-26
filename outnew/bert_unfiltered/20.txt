@@ -1,0 +1,422 @@
+really need enter sub-B however create recursive calls call check B deeper B using Binfo.getdirectories
+alternatively fieldsize equal sizeof B sizeof B greater sizeof B writing end d_buffer corrupting data
+work around issue advance big B floating poB numbers store bits B precision number
+tell top stack B B bigger B told take extra bytes stack terrible
+processors compilers implement long B types larger B type regardless name processors 32 byte poBers
+B bigger mantissa B bits real number
+B general B therefore B most-specific
+urgent one comes mind B wider B platform garbage memory read
+bear mind B returned larger smaller held B program behaviour undefined
+gcc 4.9 prBs error second overload discarded B better match B
+1 data B data form takes space B float
+compiler picks B constructor better fit B one
+obviously situations scanf preferable B wondering situations printf practical B
+importantly image processing compiler optimize B run faster B
+personally think B better suited mocking unmockable prefer combination B interfaces B framework externalities like file gui connections
+since json store arrays create quite complex B parses faster B files
+see image B running longer B
+certain kinds transactions B session may perform slightly faster B session
+late B better performance B
+performance browser device dependent example B handles objects better arrays B prefers arrays
+see ie 8 5 slower B 3.6 almost 20 slower B 9 least using sunspider tests
+ie8 B runs even faster B general slow never happens
+read expecting B faster B assume must B algorithm
+B faster B also enforces specify buffer size
+possible use B one B like
+develop better B works efficiently B B
+B faster B zend_cache backend still need B extension installed even development mode get great speedup
+B faster single server - B distributed
+underlying B technology bidirectional info B pub sub model unidirectional
+obviously B difficult reverse even B right value sense simplistic algorithm like take last two digits
+stead use B - filtering easier B
+given seeing extra tasks causing slowdown likely either resource contention via locking tasks B bound tasks B cores cause slowdowns
+need B process lasts B 3 seconds
+tried jsf 2 application would recommend using B one least documentation better B
+unix like environments B native use slime usually available os package separate download B
+B compared B B vs B B build script B
+pros objects faster B read slower B lesser dependencies system state
+understand B typically thousands faster B speed running
+B even ssd orders magnitude slower B
+alternatively use ssd file storage varnish reduce B io bottlenecks using object cache larger available B
+changing require reboot. slow things bit swap file B slower B
+think B slower B
+B 1000s slower B grind machine practical halt
+1 yes obvious benefit reading B faster reading B
+B seek takes 10 000 000 nanoseconds course B faster best still thousands slower B
+B means B access
+idea get application loaded B B faster loading B
+create B add one B give runtime error label already added
+B arithmetics far complicated B arithmetics
+post explaining B faster B
+B widespread B features mstest manpower behind
+would need scalable database probably B would better B
+might look B find bit easier manage maintain feel aspects logical B
+landscape mode container B somehow gets larger B shown
+g_new g_new0 take arguments unlike B takes arguments B
+mathematical solution 906609 found longer possible find larger B larger factor B 906609 952.160.
+need implementation B useful B
+assuming building webapp B suitable managing frontend dependencies B
+B compiles faster gcc may create runs faster B frontend provides accurate error gcc definitely switching
+B offers functonality B
+B lighter B
+B lower overhead B
+instead use B implement scheme verification data stringent B
+B simpler protocol B still simulate features B using B
+splitactionbar works phones B size smaller B takes space bottom extra space action
+simply comes space available B gives room developers thus allowing developers put one B
+B parser better job B html.parser handling debate element
+B higher precedence B mean need perform B expression B
+B oprator higher precedence B
+since division B higher precedence B parentheses involved
+know basics division B higher B subtraction would look esoteric
+B still widely used web applications traditionally perceived faster B situations access reads
+learned B uses memory at-least reading B engine trying change default engine mysql use B
+since B better selecting B better writing
+B faster support use transactions like B
+B slower B using count + exactly happening
+hear B nicer B
+unique index B column perform faster B 5
+example 32-bit B take 11 B represent decimal optional sign particular example need 44 B unless miscounted
+example value B 3 3 greater value 0 subtract two values get B 3
+i.e use B B union allocate space B bigger size B stored space overriding last one
+chat B works every B represented unicode think backend B smaller version B
+B B two distinct types works B precision B
+base meaning main changes - calls base f B better match B - B promotion rather standard conversion
+B 1 takes substantially space B
+sometimes B type usable B - fixed size B take storage room see enumerated values directly database fields
+B considered value 0 three prBf calls prB 0 B run first one returns value logically equivalent stop execution line go onto next
+implicitly least sort assume B smaller range B conversion B allows least one value represented come file
+think conversion builtin B types binary-and operation likely make faster working B B B written rather
+set strings 1 2 B therefore larger number B hashcode calculation methodology produce collisions strings 1 2 B long qualify short strings suppose
+B comparisons efficient simpler unicode B comparisons
+program designed take B name 15 B store arrays
+second thing since signed B capable holding full range unsigned B values implementation
+B type smaller B hence represent values B
+B use memory space give faster indexing B
+B faster slower B training
+B transactions tend faster B tend faster 32 bit
+nature output B makes suitable huffman compression B method entirely
+B powerful B necessarily richfaces icefaces mostly extend component set anyway fall standard html components rendered B
+breaks inherited B longer instance B
+B bigger B second statement correct
+thing streaming done via rtsp unicast B generates sender reports receiver reports streaming done via B multicast sender reports generated
+bad news asmlib version B slower glibc version running 300ms mark par glibc version B
+work directly B easier playing B unless specific requirement typically need manipulate actual frames
+B also better concurrency threadsafe confgi make B multi-thread
+B text B displayed scroll
+read tutorials android automatically scales images B resolution bigger B
+B value larger B
+also keep mind B performs worse B construction inserted already-sorted order although particular highly likely dates inserted chronological sorted order would perfect
+class leverages B lower level approach using B
+edit checked performance B slower using .all B
+whole purpose using B secure communication faster B public
+execution B faster B sizes
+B allows cleaner access mutate property internally without resorting fragile B synthesis becoming antiquity compiler
+B simpler interface B takes care reading writing streams
+gives make B transparent still plot smaller B width set saved file
+cant see 45 barcodes B bigger page B
+B better thought looping version statement akin B
+note B based string assignment a_string runs one time B based inline assignment a_inline -- notice last number -3.46945e-18
+B appears principal easier B poor text font handling latest version
+sometimes preferable B event takes longer fire B
+conceptually seems like type central authentication system B similar B also federated identity management system
+think B www.B.com better B additionally better licensing
+get B values like need values greater 95th B every 5 minutes
+malloc + B slower B certain conditions
+B appears several slower B
+B always bit worse B
+solution disadvantage factor constant compiler reasonably avoid B int_max done runtime B normally expensive B
+performance side float B faster B think gui create significant difference
+thus interpret like 12 2 i.e 6 since precedence B B
+B also significantly faster B decompression
+path without B also visually appealing indicates modern application - adapted B operation necessary
+B actually faster usually bit slower B
+read B better B best worst although uses bit memory
+B secure simple B even salt B
+B faster B 2.3 malloc available separate called ptmalloc2 malloc tested
+note without B works better tooltip stays next B
+B similar B watchos although similarities
+B easier use prefer B faster
+experience mtl4 faster B also faster B
+avoiding modifying B easier fixing issues B
+unless know exactly use B one B
+taking input use either B B.the input shown url using B B used.is situation B useful B
+find div span tags order preserved.with B simple switched recently B since faster B
+using B better works without altering initial B signature
+B function used portable B ifnull
+thus B nxm matrix B matrix singular
+B comes pre-generated maps B
+also B lighter B ended bitting bullet using B purpose recently heavy affect script performance
+three B would usually smaller B
+enable setup ran every time asking B either lower B higher B higher B lower B
+suppose first good small B B probably better practice amount would remain regardless B size
+also B considered better limit scope iterating variable use println need system.out system need string B override tostring output numbers user entered loops like
+i.e B actually better simpler B willing improve
+going use B use B bother - B better B B
+B restrictive B
+B height greater B need set height B B
+get B two B
+since B newer B one would naturally assume powerful
+headline B newer powerful B
+B clearly cheaper tco technologically superior platform B bit polished hortonworks pure open source read free cheap companies end spending money hw get value
+actually adding new resource B nothing adding resource B build.gradle
+need make top mail B sa44-3 larger 8gb script calculate size top level B 8gb create new one called eg
+first easy one B becomes tedious multiple B mention windows likely create object target B finished copying compressing files potentially 10 gb solution work
+go user B profiles youruser B called .m2 may hidden
+B implementation widely used require B fallback browsers
+B gem support one B step
+long B means wider taller B viceversa means read image memory check width height
+B designers went trouble make B without constraints almost wish said since often misquoted
+article seems suggest possible swizzling fake location apple cllocationmanager class used apps unfamiliar B familiar B
+personally think B better suited mocking unmockable prefer combination B interfaces B framework externalities like file gui connections
+B smarter B
+comparison 0.68 usage means outdated B release popular current previous versions B penultimate version ios ie 9 10
+also anyone know B slower B 3d rendering
+B gsap performance still worse B B gsap still lag every repeats B css animations
+works fine even italics aware user browser asked make best-guess noticed B make individual chars appear slightly fatter B things
+height B bigger B input
+B flexible sense B works
+need condition B version 46 B version 44
+B debugger behaves conveniently B
+tried B better B crash issue always happen solved issue
+tested B bit slower B usable
+found B greatly faster imacros B
+text B bigger maybe bolder B .
+found using B trigger antialiasing 49px higher however B set 257px higher
+B ie9 require proper domain run presumably strict B associate localstorate object domain B need domain
+also B great tool allows edit css fly find useful quicker using B extensions
+B docs say B longer actively developed maintained coreos link container B moving B kubernetes
+B robust adds features B used world largest flex applications
+B docs explain use drawees see right xml definition customizable B
+tried using B heard faster B still good
+B jit make execute faster B
+B project includes jit making possible run faster B
+mentioned ifloop would running B extension module B often works always slower B
+B older weaker B
+used tell polished platform servers 4ã faster run apps want B toolbelt powerful B client tools
+possibly part problems original ramnath uses rmaps using B also developed ramnath developed better integrated B course includes leaflet
+want longer B lets call secure use like sha512 B
+handle things B far critical B validation ignored malicious users
+load node.js another proxy used monitor changes array B work far greater B receiving yuge requests
+said B common using B would probably know answer
+right B robust B community mainly based criteria queries around quite time
+although B higher priority value androidmanifest.xml ignored B building application
+options check B flexible powerful xml schema B allows exactly sort validation needs go deeper structure simple type-checks
+seems slower B significantly faster B
+atom B seems load faster B one fwiw
+B slower done B
+B uses classifier construct artefacts build B differing content example one jdk1.6 jdk1.7
+B going deeper falls back normal B
+B webstorm far accessible B usually happens editor rather mine
+reimplemented mouse B press release events inner widget order able B inside bigger parent B drop
+one might want define B access one B server
+useful pieces would B database access simpler B full orms async-httpclient calls web services
+slower B faster B redis
+B caching database queries improving performance regard B improving performance
+quick googling says B 5 faster B
+B seems bigger community B maybe point view
+content leads B 100 table containing setting left right B auto center table within containing
+main content div needs left B larger B sidebar
+first-child column 10 pixels whatever B size greater content area B siblings
+performance depends application use basically B perform better B mapping reflection based frameworks use bytecode generation behind scenes
+B function complex cryptographically strong B sha1 theoretically possible
+example store B stored stronger B
+working simple .php files B complex long period loading show B nothing found site loaded
+load testing B better quite enough funding go loadrunner B rational performance tester cloud try blazemeter
+find B emma largely interchangeable coverage checking B better B plugin emma better eclipse plugin opinion
+spent time working B view style mode vsreport find even limited B example provides in-place edit support
+actionlink B often used generate url properly based B route values anchor tag based htmlattributes
+desired output reflect input want B common sublists use itertools.groupby considering want sorted output using dict B makes sense creating B sorted using groupby
+unix like environments B native use slime usually available os package separate download B
+trust another job system architect decided B better B projects must converted B B
+think updating dependencies B pretty easier dealing B course could select feel conifrtable
+B bigger B
+1 yes obvious benefit reading B faster reading B
+make using source control system supports branching merging experience B B B better B free
+find working B easier intuitive B
+B support oses non-windows devs feel comfortable B
+right B better supports broader set platform features B .net ever
+B better B
+considering lack windows 8 love B getting support dropped apps sellable store -- go B -- better B anyway -- side make xbox apps
+B better support support B depends used storage engine
+might look B find bit easier manage maintain feel aspects logical B
+B better B
+keeping business logic ejb B pay need one B ear different security realms etc.
+landscape mode container B somehow gets larger B shown
+load portrait.css file page load viewport B already B
+...then using animate click event could give B value animation time B delay equal bigger B animation time value...that trick stiff actually using ui
+assumption would take vertical image see B greater B translate B B config appropriately image remains vertical
+calculating B based div B B greater screen B
+element explicit B B B
+tell difference seeing screen B greater screen B
+resize image B 225 B automatically fix B
+needs downsize image B B larger B B target maintaining aspect ratio
+determine picture size horizontal picture B B B 300px B 200 insert database
+image B higher B listview looks like
+screen B greater md breakpoint bootstrap give panel-body class direct descendants column minimum B 420px happens magic number works existing content
+check image B greater B rotate image clockwise
+bitmap B greater maxB B greater maxB like proportionally resize image fits maxB x maxB
+words either maxB greater B maxB greater B return
+demo illustrate change landscape portrait using css orientation window B higher B
+add new column B greater B
+looks like want resize jpeg image folder B 1840 pixels keeping aspect ratio images landscape format B higher equal B
+B greater B set B auto stretch B
+anyway prefer use B slower B
+B class seems handle better rotations B
+simple B even ridiculously fast lightweight B
+set default server listening port 9990 trying compare B B eap standalone.xml exactly B evoluated compared B eap stable
+B slightly complicated everybody compiles would need B autoconf installed need change build system adding new files counts changing build system
+want use continuous gesture tracks user finger use uipangesturerecognizer rather B think animatewithduration better B
+ipad 1 B benchmarked 38 slower B pc
+opengl better playing around experimenting easily draw triangle without messing hardware buffers available larger selection platforms plus B better B compile assembly
+B compiles faster gcc may create runs faster B frontend provides accurate error gcc definitely switching
+jruby support - B better B support jruby
+started ehcache B server array cause well-known backed B bigger community support B
+B far better transferring large quantities data network fails likely B get
++ consider implementation B stack complicated B instructions executed
+experience B based generally complex B based
+B sockets lower overhead B packets acknowledged recipient
+B quicker B using quickfix using B
+practice means B better suited continuous transmission data whereas lightweight B used reliability important
+though B faster B think B faster due congestion
+also remember dns requests use B request response would need 1 B packet
+package bigger B package smaller B package
+attempting beat performance B shifting B keep mind part get lower performance B B tracks redelivers lost packets
+B subject higher latencies B requires client send back packet confirmations
+B slower B mitigate realtime multiplayer
+example big phone small Bh B B centimeter pone B
+B larger standard B size B detachable keyboards available days mobile versions site look over-optimised space browsers allow B users opt display sites desktop mode
+B offers B space phone
+also would recommend dual boot B easier work opencl B cli fashion
+may encounter noclassdeffounderror version B older required B
+instead B could use value store rest web service want later time opinion solution reliable B important full control itâ working mainly itâ
+would give info except ip aliasing B 7 involved like easier B b familiar configuring nginx easy apache
+set pixmap B larger window add scrollbars possible get displayed B
+unfortunately apps based B B look handle backup files could probably use approach create document based hassle using B
+B also developed B
+hear B nicer B
+found B server better B purpose know check default server website
+since switched B webserver going use fewer resources B would B rarely bottleneck unless run ram seriously misconfigured
+B seems flexible unclear direct using save full B dataframe multiindex
+come order declarations reversed seen B variable still memory address greater B array
+B web ui framework whereas B general web application framework integrates B conversational contexts workflow jbpm object persistance preferably ejb3
+using keras B simpler develop nns pure B side research project montreal support development pylearn
+beyond B B using memory leaks tells location creation leaky object root cause tools could run could give info B tracking root cause point
+means B might slightly slower B cannot make assumptions
+std B may slightly slower std B emphasis added first check whether source target ranges overlap
+resulting file B approach smaller size B file may rescale better
+think B mature ajax integration ajax components events easy use B ones
+personal experience B faster development environment B thin os x pretty big gems routes
+B handles multiple projects sub-projects right box seems nicer B
+B plugin would easy one used B replaced
+found B slightly faster B non B image still use B majority time like using host os things like mail chat browsing
+looking latter B micro framework considerably smaller B
+although prior experience implementing B simpler ones B xfs ext2 would tackle job
+also recommend B easier use B builtin sqlalchemy extensions
+market templating engine B new templating engine used symfony better B
+also forgot mention junit testing framework great eclipse plugin B coverage better B eB easier use course try maven post mentionned try ant build tool
+since using android B suggest using B wich better supported B android thread safe following
+going stick maven want plugin maven code-coverage job think B better B stable last build 2005
+B like always slower B
+B simpler interface B takes care reading writing streams
+rather use B requires B httpwebresponse
+activity_main.xml feedbackview B top -36dp greater B non-negated
+B fewer industrial users B although multicore support still developed unproductive direction
+B closer imperative oo features recommend learn B functional mindbending resources
+B example easily inserted application evaluate performance gains heavily threaded applications B tends perform better B malloc implementation
+think install B server allow access database work school cafe B advanced gives features deal changing structure editing rows columns relations look B features
+real life B packets size usually equal B size
+thought B supposed leaner meaner B
+willing limit vista later B would little simpler B
+B 2 steeper learning curve provides richer set functionality building projects eclipse integration B iam
+words B friendly B
+tab contains multiple Bs B heavier asp.net B
+performance B bigger overhead previous solutions jython B relies sockets performance critical application accessing objects programs might best idea
+android plot free chart solutions mentioned support annotations one afreechart port B android currently using awesome features B
+production side things upgrading database transaction msi-style B better attempting B startup since potentially end desynchronized database-application versioning
+although could tell dancer2 plugin passphrase use 4-byte B easier use B Bedhash everywhere
+B satisfy also try B B images rules apply
+several things found cocos2d forums lead believe issue B implementation ios tried using stb_image lodepng avoid B libraries actually performed even worse B
+thus think B suitable intranet takes time develop B better complex gui unstable connections additional roundtrips matter
+either applying gain attenuation time-domain data B file easier trying apply effects frequency-domain data B file
+definitely pick B 10x smaller B files duration
+variety supporting widgets probably single area B still stronger B
+another choose B hpc system builders building systems since B made huge push gpgpu computing backed amd B
+internal view hierarchy B complicated appears starting ios 7 even added B big surprise participate responder chain expect
+see form B posted either posted modified B higher B tree simpleformcontroller
+B nicer templating tool created B designed work cross originally forked git - B
+also setting server would say start B uses resources B
+B typically faster B low request server hardly matters
+B static file performance better B
+B mod_php stable cleaner B often deliver http bad gateway error coded 502
+B + gunicorn likely work better B + modwsgi point time
+B supposedly faster B delivering static content also offloads application every image stylesheet whatever static content
+switchover B really little rewrite rule getting away B 2.2 default upstream version centos however B rewrite rules straight forward B imo
+B packet header 20 bytes probably going slightly slower B
+usual tagging B objects tag tags used applications may give B
+unencrypted connection B secure B
+want B 54 B receive error
+B secure B itâ also send unencrypted
+B seems logical B anyway
+B requests larger B requests B requests limited maximum length url
+also note using B absolutely secure B request parameters immediately visible url
+initial B request page usually costs subsequent B anyway avoid
+B request slightly smaller B although using websockets would give accurate figure
+creating friendship B method suits better B
+pragmatist inclined use B implementing simpler B
+edit2 seems wrong B secure B
+B method faster B
+B requests insecure B requests
+hence B secure B
+B system want box B larger B come
+B head frequent B
+B method storing capacity response better B response
+know B better B
+regardless B protocol simplistic nature handle orders magnitude client connections B memory utilization uses bandwidth wire require authentication although add feature
+B simpler ass lacks features may need use force_style B filter
+ass supports formatting options B simpler format modified force_style B filter
+found production B better easier B windows B encoders tried really good stable whereas pretty every tool natively output B
+unless changed 2010 basic B install pro version vs - install team explorer top gain B specific client-side extensions
+sorry long thought instead dividing several B convenient B one place
+noop B may make sense B would imply creating second connection
+http B inherently secure http B allowing uploaded files exceuted server
+comaddin base class makes bit easier create office B reduce infrastructure familar B - thats whole idea
+fortunately B tight integration B popular bean container cfml B 3 makes easier ever use B beans controllers
+since data-storage mechanisms in-ram database etc. B slower B data ensure timing http access looking crawler throughB including storage
+long dataframe small assumption B process faster B seems fetch 5 within one loop q.empty
+far easy goes equivalent difficulty provide assembly except gnu toolchain B complex B requires use unix command line
+B though perhaps bit worse B
+apt-get B actually installs newer B
+wondering happens release B higher target sdk B previous B
+nevertheless would recommend sticking queryover B intuitive avoid magic strings especially B nh B
+six B 1.10 B
+warning using requests B older requests-oauthlib expects please B 2.0.0 later
+somebody running 6-month old B known bug B becomes acceptable answer 12 B behind
+since B content authors complaining experience editor performance slower previous B
+used B api sdk better B api till know embed songs use player anyways B good try goodluck
+look accuracy level B accurate detection B
+edit 31 march 2014 worth found B better text extraction itextsharp notwithstanding bespoke strategy implementation B tet slightly better B quite expensive
+need perform several device.touch events fast possible however B seems achieve significantly slower B
+personal benchmarks B undeniably faster B due lazy loading
+edit 31 march 2014 worth found B better text extraction B notwithstanding bespoke strategy implementation pdflib tet slightly better B quite expensive
+use B replay interface number attempted packets B different number packets showing B
+almost B B providers allow forward calls attached telephone number one B device request could satisfied basic account friendly neighbourhood B provider
+chapter starts short course xml general talk atom syndication feed example continues standard xml.etree.elementtree continues third party B implements interface full xpath 1.0 based B
+B simpler use B serve common development needs
+comes deletion even gets worse saving end entity removals B around 18 slower B
+requests memory os kernel request satisfied memory written B . allows greater efficiency system memory management result misleading B behaviour
+use eventqueue.B switch swing thread back greenfoot designed support work anyway -- B better bet B
+would recommend B opinion equally even better B free
+B presents direct view protocol B often look either protocol specs B source find underlying protocol request find equivalent
+phusion B de facto apache mod yes better B really good tiny sites testing
+running B batch also .net work well B batch cheaper custom activity B cluster
+also implementations like jython B could slower B
+B probably better ide support present B - may factor choosing one
+B package bit nicer B making http requests opinion sets user-agent string default
+B also uses binary replication mechanism efficient B long B protocol utilized bidirectional data exchange conflict resolution
+limitation creating virtual hosts name based virtual host using B 443 port want one B port enabled need ip based virtual hosting
+could always use B work http B websites loading B resource slower loading http resource B handshakes
+looking send receive data B nothing need control computer network need route data corporate firewall support multiple B servers cisco microsoft
+two words warning B possible install via popular fink package manager mac os x currently makes far portable B tkinter
+B newer seems support Bing alogrithms B
+B faster B never found application speed boost paid hassles distribution

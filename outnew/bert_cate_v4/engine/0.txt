@@ -1,0 +1,118 @@
+if you would like a unified front-end for * and opentsdb you could consider grafana which has support for both * and opentsdb but less functionality than * in regard to *
+
+* is a high performance 2 to 3 times faster than * pure java template which use razor like syntax
+
+* is a strong typed java template engine using razor like syntax with high performance 2 to 3 times faster than * and fm
+
+* types libraries are fantastic for financial applications because we re used to dealing with the style of rounding required in financial stuff but there is the cost that they tend to be slower than * floating point
+
+the third line displays the data with the maximum useful precision - an * 754 64bit floating-point number has slightly less than 16 * digits of precision so all those digits of the literal in math.h are pointless perhaps they can be seen as future-proofing against a possible future redefinition in a format with more precision
+
+it is working only for simple .php files but * is more complex and after long period of loading it show * nothing found site loaded
+
+i m working in a spring mvc project and i want to use a template engine i originally choose apache * because a slideshare presentation that says it was two times faster than * page 41 and since i m working with big tables i need to use a fast template engine does apache * supports html5 if not is there other template engine that supports html5 that is not *
+
+i m using the module * in my python script and many more such as * and numpy etc * module only works on python2 not for python3
+
+anyway i just prefer not to use it because * is slower then *
+
+* is more complex while * is simpler
+
+* is much faster for reads but since it locks the whole table for writes this is where overall throughput drops compared with *
+
+* has better performance than * though * needs more attention to tuning the configuration * supports atomic changes transactions foreign keys and * is much more resistant to corrupting data in a crash
+
+not sure why people think * is more performant than * - it s a conundrum wrapped in an enigma
+
+i did a search online comparing * and * but all of the articles i read judged * being faster than * on select queries
+
+* seems slightly faster than * but this is really marginal
+
+i have been told * is faster on executing writes but slower than * doing reads i cannot back this up and could not find any article that analyses this i do however have the guy that told me this in high regard feel free to ignore this point or do your own research
+
+but when * is really better than *
+
+* is much much stricter than *
+
+plus you have to make your tables * which is generally less suitable than *
+
+your table sounds fairly large so i doubt it s being held entirely in memory but it sounds like * handles indexes better than * anyway plus since you re being so specific it may be caching the result of the query
+
+* has proved to be faster than * for me
+
+anyone who thinks * is faster is either not tuning * correctly or has such small data that who cares
+
+* supports longer rows than * does
+
+generally * is much better for preserving your data integrity so stick with it and do not go back to * there is also a matter of what each engine is best fore but unless you give us more details there is no point in dwelling on that
+
+* is still widely used in web applications as it has traditionally been perceived as faster than * in situations where most db access is reads
+
+one thing is that if your inserts are not in the order of increasing primary keys * can take a bit longer than *
+
+* is faster for certain queries and supports fulltext and spatial indexes while * is transactional and more concurrent
+
+someone just told me that * is much better than *
+
+* delivers better read performance compared to * at the cost of being less acid compliant
+
+sometimes i got asked on some interviews what benefits does * have against * and when * is better than *
+
+* is more reliable than *
+
+since * is better on selecting while * is better on writing
+
+but * has improved dramatically in the past few years and in most cases today * performs faster than *
+
+furthermore i do not have control over the engine â * or * * performs better due to row based locking instead of table as in case of *
+
+this is one way in which * is sometimes better than *
+
+* is better for high read volumes * for high update volumes due to table vs row locking
+
+almost always * is a better choice than *
+
+there are several q a for why is * much slower than * but i could not find any topic for the opposite
+
+* is affected by the primary key much more than * and it could make a noticeable difference
+
+in * the count s when where group by or join is not used execute slower than in * because the row count is not stored internally
+
+i heard correct me if i am wrong that * is better for tables that will be updated a lot because of row locking opposed to * s table locking
+
+select queries in * runs 2x faster then in * but the updates and insert queries are much slower in *
+
+i am creating an commerce website and i am stuck in a database problem i am storing customer orders please tell me which is better * or * i have to use transaction like feature in customer order table and i personally prefer * because it is much faster than * and it also supports full-text searching is there any way to use transaction like rollback feature in * so that if anything goes wrong table will be rollback to its previous state how to do that without any external library or any other server side access and i have to use mysql
+
+* when tuned well performs better than *
+
+beststat is * so i have row-level locking and consindering i do a lot of inserts-updates it should be faster than *
+
+during my tests of * v * i found that when i did resolve any contention issues the * model was 40 slower than *
+
+you are right because * is really faster than *
+
+if you use a where clause though it changes the execution pattern to use indexes so in general * will be slower than * on full unrestricted counts where as the performance matches up on restricted counts
+
+i currently have * and i would like to stay with it because it had far better performance than * in my case but i heard that * has acid transactions
+
+at the beginning the insert performance of * is almost 50 times slower than * and tokudb is 40 times slower than *
+
+i know * is heavier than * but just how much more
+
+generally you can have as good performance for reading as in * in * tables - you just can use count without where clause and you always should have a suitable index for where clauses as in * table scan will be slower than in *
+
+the trope about * being faster than * is a holdover from code that was current in the mid-2000 s
+
+* is faster in data warehousing situations such as full table scan reporting etc.. but * can actually be faster in many cases with normal oltp queries
+
+there may be some exotic corner cases where * performs marginally better for certain workloads table-scans or high-volume insert-only work but the default choice should be * unless you can prove you have a case that * does better
+
+edit for the read-performance this link shows that * often is actually not slower than *
+
+so basically when * is more about how objects will behave themselves during application running the * is more about how you write your code before application running
+
+* is more advanced but a little complex as compared to apache *
+
+* is nicer templating tool and it was created by * and its designed to work cross language originally which can be forked from git - *
+

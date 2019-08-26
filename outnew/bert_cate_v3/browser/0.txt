@@ -1,0 +1,106 @@
+* renders longer input fields than * and ie
+
+try your current setup in * * typically has a narrower minimum viewport width and try something like min-width 600px in * and your styles should be applied as expected layout.css will be applied when the viewport is at least 600px wide
+
+* s parsing may be more strict than * is at having things like trailing commas as specified by the standard at as stated in danilo celic s answer
+
+on my computer * performs much better than * on these tests using jsperf
+
+also * 4 has hardware accelerated canvas that is marginally faster than ie9 and a lot faster than *
+
+* provides more detailed information about the ajax errors even when * doesn t say anything
+
+* is lightning fast when you use the dom api but vastly slower using the .innerhtml operator by a magnitude 1000-fold slower however * is worse than * in some areas for instance the append test is much slower than * but the innerhtml test runs much faster than *
+
+i d say that * is correct in being stricter than * here even though i m not entirely sure the base uri has changed and this new uri should be used for the relative uri #symboltype1 too
+
+* is clearly less secured it deliberately allows something that * locks down
+
+in * typeof is slower than the other two but in * it is the fastest
+
+in my experience * will be a lot faster than * to debug huge js files
+
+it works fine even for italics but i m aware that the user s browser is being asked to make a best-guess here and have noticed that * will make individual chars appear slightly fatter than * when i do things this way
+
+* extensions are considerably more limited than * extensions â â they can only hook the behavior of the browser in certain predefined ways
+
+after looking into the issue with the inspection tools of both browsers it seems that * is making the #main_nav_bar ul 10px wider than *
+
+even if you give the inputs a attribute * renders them wider than *
+
+now when clicking a time less than 1 millisecond will be displayed however it obviously takes nearly a second on my computer until the changed color actually is displayed where btw. * seems to be faster than *
+
+though from a design perspective it may be easier to simply add the extra 5px to the width designing for the worst case browser to prevent wrapping in * which is worse than extra space in * ie
+
+2 install the * extension there s also one for * but the * one is more reliable -- so if you re a * addict like i am then use both
+
+it works in * because * is more lax about this security restriction and * happens to be more strict on mixed-content errors
+
+tldr in * filter is slightly faster in * that s the opposite
+
+* on nexus 7 is a bit better at producing reasonable sample rate readings but the updating of the display is even more sluggish than *
+
+in ie8 and * it runs even faster than * in general and this slow down never happens
+
+in general i have found * to be more finnicky than *
+
+in my experience * is sometimes more lenient than * but i would definitely test in both
+
+it looks like it shows for * more-so than * but it might help
+
+* renders passwords smaller than *
+
+in * the button should be a tad smaller than in *
+
+on stable versions of * the permissions show allow and it still won t connect even with * works older versions of * work
+
+i m trying to add a ribbon to a page using css3 linear-gradients but the rendering in * looks a lot less pleasant than its * or ie alternative
+
+the reason this is happening is because * renders the select box as a taller element than * and the container of the blue text is getting caught on the select s container element because it s now sticking out lower than the others
+
+although * is a better browser for developers than * cause it gives you more tools to work with
+
+most likely your post value has one or more characters in it that are breaking the html of the page and ie * are being a bit more forgiving than * is
+
+why in * text smaller left than in * and opera right
+
+the position of the list in * is always higher than that of * no matter how i padding or margin the list
+
+* has a bigger time difference yet * is the one with the gap in the animation
+
+in * the green div is bigger than in * i really don t know what is the problem i think in * it displays as it should but in * and ie9 it displays different
+
+pd note that * s developer tools are better and more complete than * developer tools but in essence are for the same purpose
+
+if we remove the font-size it appears properly in * but shows up smaller in *
+
+on linux * displays text about one pixel higher than * and opera
+
+use * network in development tools and check your requests sometimes it just sends options request in cross origin i insist on * because it s network tool is much more detailed than * and safari
+
+no and there won t be any time soon because * s add-on api is more restrictive than *
+
+this is due to the simple fact that * has been in the extension business longer than * or ie
+
+so * is better than * - but both suck in that regard
+
+i am checking it in * and * and see that in * spacing between letter is larger than in *
+
+it seems to be slower in google-chrome and * but is significantly faster in *
+
+okay * ios is more strict than * android when it comes to this all fine but it still needs to enable me to allow the connection through
+
+this seems to me like a bandwidth error or something like that originally i ve got the error when i played with the html 5 audio api and if i loaded the audio file 10-15 times sequentially then i ve got the error but now i ve discovered that i get the error without the audio api too just by reloading the site a lots of times also * gives me the error much faster than * wtf
+
+* is more secure than ie or *
+
+* is worse than *
+
+a lot of people use iphones ipads and * is literally the only option even * is more like * in disguise... so it s quite a portion of users who are suffering from this issue
+
+it s not even a webkit issue unless * s got a newer version than *
+
+font looks sharp in google-chrome * ie8 not as good as other 2 but less fuzzy than *
+
+i planned on using svgs for the entire site but with only 20-30 svg images of medium to high complexity used in the page and google-chrome already seems to be showing som jank and high paint times for scroll and * is even worse though * seems to do a lot better
+

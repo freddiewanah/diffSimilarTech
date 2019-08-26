@@ -1,0 +1,16 @@
+257043
+des aes
+Pattern(s): 0	
+triple des is generally better but there are some known theoretical attacks
+if you have a choice of cipher you might want to look at aes instead
+
+
+
+260148
+lxml elementtree
+Pattern(s): 1	
+it provides a nice easy-to-use binding for libxml2 and libxslt and it also implements the elementtree
+libxml2 libxslt also come with their own much lower-level python bindings but lxml is much more straightforward and pythonic and it seems to have great performance as well
+
+
+

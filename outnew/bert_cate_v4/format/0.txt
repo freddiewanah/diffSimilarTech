@@ -1,0 +1,38 @@
+the atom * option seems to load faster than the * one fwiw
+
+google does this because their * api can parse more than *
+
+if your service already has an * * things are even easier with the * reader integrated in the buzzbox api
+
+you d gain compatibility and durability because * is more defined things will change less but if the * doesn t include what you need it won t help you
+
+is not simple scale or crop but to be able to rotate scale and crop every single sprite and draw it in the exactly order to compose the final hight resolution image in a backbuffer then save it in * and make some copies in lower resolution as *
+
+i have a sample wpf app here and wondering why * is loading faster than *
+
+the resulting * compression may produce a file size larger than your * compression
+
+jpg or * should get you smaller than *
+
+also your * looks more like a * tab separated instead of comma separated
+
+* is smaller than *
+
+i also know that it can deal with * better than * and ogg
+
+* compresses much better than * and allows more colors at the same time
+
+i m not sure if this matters but the * is significantly larger than the * files
+
+* gives you better alpha result than *
+
+* images are always compressed lossless but their compression algorithm works better than competition *
+
+as a general rule * is never worse and often better than * because of superior compression
+
+if * isn t smaller than * then your software may be saving it poorly - look for * optimisation progams like *out and *nq
+
+moreover * vorbis is better then * at all bitrates
+
+in general * achieves better compression than * which is a plus for things like download size bandwidth resource usage etc
+

@@ -1,0 +1,6 @@
+26880010
+profiling	debugging
+if your debugging use is relatively repetitive you could always write some nice utility classes that provide a more convenient interface
+you can still use all the legacy features with opengl 3.2 or later if you create a context with the compatibility profiling
+only the core profiling has the legacy features removed
+

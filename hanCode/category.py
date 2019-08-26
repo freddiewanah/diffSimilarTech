@@ -40,7 +40,7 @@ cate_count = {}
 
 cate_list = ["library", "class", "function", "framework", "language", "system", "os", "method", "operation",
              "protocol", "editor", "format", "algorithm", "structure", "database", "dbms", "app", "application",
-             "package", "ide", "browser", "engine"]
+             "package", "ide", "browser", "engine", "software"]
 
 not_word = ["is", "the", "than", "to", "s", "ve", "i", "a", "or", "and", "it", "of", "you", "be", "are", "more", "in",
             "with", "much", "but", "on", "has", "have", "for", "if", "n", "t", "so", "does", "that", "as", "which",

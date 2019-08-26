@@ -1,0 +1,26 @@
+isinstance g str and g.lower or g B is of higher precedence than B
+
+can someone explain this behaviour B operator has higher precedence than B operator
+
+however B is faster than Bing even though less clock cycles are used to B verses B according to what my particular cpu s datasheet says about the instructions being used
+
+in all other cases B appears to be several times slower than B
+
+floating point B usually takes fewer cycles than floating point B
+
+B has worse latency than B or addition by a factor of 2 to 4 on modern x86 cpus and worse throughput by a factor of 6 to 40
+
+it s just as fast as going the opposite direction if not faster given that B generally takes longer than B
+
+i would also suggest to replace terms like a l1 0.3e1 with as B is faster then B
+
+integer B is about an order of magnitude slower than B on current cpus.
+
+B is per se slower than B however i don t know the details
+
+i am pretty sure it is not possible to compute polynomial B more efficient than B and as you can see in the following table this algorithm is only 3 times slower than a single B
+
+i have heard B takes more time then B but beyond that i could not determine whether writing this in one line or multiple assignment lines was more efficient
+
+B is performed by repeated subtraction therefore needs more level of subtract logic making B slower than B
+

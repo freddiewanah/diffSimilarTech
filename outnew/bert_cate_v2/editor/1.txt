@@ -1,0 +1,34 @@
+i had previously used B 3 for a couple days and may have come to the conclusion that it is better than B at actual html css coding
+
+macvim B is much thicker whereas B is slicker and sophisticated
+
+if vim seems too much by the moment i think that B is better than B
+
+textmate isn t known to perform well on large files but B supposedly performs better than B on large files and yet supports legacy textmate syntax parsers
+
+lately i have used B a bit more than B
+
+i feel like B is so much better than B
+
+on today s machines that s a non-issue but if you ever find yourself dealing with older gear it s my experience that B is far more likely to work on a wonky terminal than B is
+
+i realized that B would load slower than B but this seems ridiculous for a fresh install
+
+i am starting to understand that even though B is more powerful than B B is at least 10 times easier to use less keystrokes and requires way less modifications
+
+cut and paste in B takes more steps than in B iirc
+
+it is worth learning both because B is better than B at editing certain languages and doing certain tasks and vice versa
+
+i have tried with B 2 and it work very very good better than B p
+
+B 3 needs much more time several seconds more then B before the opened file shows up and i suppose it is because B does some pre-evaluation of the file content like detecting areas suitable for folding there are fold triangles available depending on indentation of non-white characters in the file
+
+i prefer B because it s a little more customizable than B but they re both great options and lighter than dreamweaver
+
+i tried a few ides on ubuntu and it just didn t seem right - B is lightweight and i actually enjoy using it more than B on os x
+
+when i m in a hurry i use B purely because it is quicker than B edit
+
+by the way if you like minimalistic approach there is also B editor which is my personal preference for doing small bits of code it s even more lightweight than B
+

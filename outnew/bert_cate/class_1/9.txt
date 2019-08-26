@@ -1,0 +1,58 @@
+the B has a more stringent constraint on a property content blank false than the B content nullable true and i am using tableperhierarchy false
+
+a B is more flexible and is treated as an entire object which responds to all B methods plus it s own
+
+however they are not the same because the B has more specific functions and data members that accomplish a more specific task that the B
+
+if we are creating an object of a B and invoking the method of B and if B extends more than one class which B method should be called
+
+however if the B returns a narrower subtype of the B method return this is called a covariant return type and is allowed in java since jdk 1.5
+
+B defines more general features of the objects of its B
+
+for example you want to use abstract-class in such a case that each of the B is a more specific type of its abstract B fruit apple orange banana grape strawberries etc. and you want to use non-abstract B in a relationship such as dad and son
+
+these relations naturally arise when you impose restrictions on what you can handle--then if a B means that the method can handle less acts as a B of since can handle everything that the B can handle and more
+
+the B has a more stringent constraint on a property content blank false than the B content nullable true and i am using tableperhierarchy false
+
+a B is more flexible and is treated as an entire object which responds to all B methods plus it s own
+
+however they are not the same because the B has more specific functions and data members that accomplish a more specific task that the B
+
+if we are creating an object of a B and invoking the method of B and if B extends more than one class which B method should be called
+
+however if the B returns a narrower subtype of the B method return this is called a covariant return type and is allowed in java since jdk 1.5
+
+B defines more general features of the objects of its B
+
+for example you want to use abstract-class in such a case that each of the B is a more specific type of its abstract B fruit apple orange banana grape strawberries etc. and you want to use non-abstract B in a relationship such as dad and son
+
+these relations naturally arise when you impose restrictions on what you can handle--then if a B means that the method can handle less acts as a B of since can handle everything that the B can handle and more
+
+i believe the reasoning behind it is that it allows the parameters to be B nicer by preventing B of member variables
+
+since ireadwrite implements ireadonly ireadwrite is said to be a B of ireadonly although B is more accurately used to describe a class which B a base class rather then implements an interface--for the sake of simplicity they are very nearly the same concept
+
+with B this is less likely to happen due the contractual nature of B abstract classes
+
+using dedicated methods for getting and setting B is also more clear in B
+
+B is more of an is-a relationship for example a usermodel is-a model thus all B and methods of a model will be part of a usermodel
+
+if the size of the B s element type is greater than the pointer s size B performs better than B because it doesn t store the objects sequentially but stores sequentially pointers to heap copies
+
+it means a declared B is more than a pair of B methods getter setter
+
+that suggests another aspect where a declared B is more than a pair of B methods that is more static type checking although it is undesirable here
+
+in 6.7 a graph it shown that states that the performance of a B linq query is better than B linq query
+
+it is a feature it is about B api but the same is true or worse with B api
+
+B is more general subclasses support writing to different places B is a specific one writing to a string
+
+B is more general as it leaves you the oppertunity to create another subclass of it that could add the altering functionality without using the B s implementation why ever you would want that to do
+
+B is more general as it leaves you the oppertunity to create another subclass of it that could add the altering functionality without using the B s implementation why ever you would want that to do
+

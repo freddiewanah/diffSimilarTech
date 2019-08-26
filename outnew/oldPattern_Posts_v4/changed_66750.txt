@@ -1,0 +1,1240 @@
+3000392
+cruisecontrol	teamcity
+Changed: 
+For continuous integration software there is teamcity for one also cruisecontrol and cruisecontrol . net counterpart are notable
+Origin: 
+For continuous integration software there is teamcity for one also cruisecontrol and its .net counterpart are notable
+
+
+3015512
+gridview	objectdatasource
+Changed: 
+I am using a data layer with linq2sql and use objectdatasource skip and take methods to load only the amount of data needed to populate one page of the gridview
+Origin: 
+I am using a data layer with linq2sql and use its skip and take methods to load only the amount of data needed to populate one page of the gridview
+
+
+3020711
+mongoid	mongomapper
+Changed: 
+Some links to get you started datamapper a popular alternative orm sequel another alternative orm rails wiki article on using couchdb mongoid for mongodb mongomapper an alternative for mongodb i don t have enough experience with cassandra to mention anything for mongodb
+Origin: 
+Some links to get you started datamapper a popular alternative orm sequel another alternative orm rails wiki article on using couchdb mongoid for mongodb mongomapper an alternative for mongodb i don t have enough experience with cassandra to mention anything for it
+
+
+3027203
+google-chrome	safari
+Changed: 
+google-chrome supports only wav and ogg . google-chrome supports everything . opera supports only wav . safari supports everything but ogg
+Origin: 
+firefox supports only wav and ogg. chrome supports everything. opera supports only wav. safari supports everything but ogg
+
+
+3030189
+profiling	benchmarking
+Changed: 
+But if map matters that much to you then profiling or benchmarking map
+Origin: 
+but if it matters that much to you then profile or benchmark it
+
+
+3033387
+cpython	ironpython
+Changed: 
+It s possible that jython and ironpython are much faster than cpython as well as ironpython are backed by heavily optimized virtual machines jvm and . net clr
+Origin: 
+It s possible that jython and ironpython are much faster than cpython as well as they are backed by heavily optimized virtual machines jvm and .net clr
+
+
+3041506
+opera	firefox
+Changed: 
+I consider opera a bug that firefox doesn t actually refresh the fields when you click refresh
+Origin: 
+i consider it a bug that ff doesn t actually refresh the fields when you click refresh
+
+
+3052585
+mvp	presenter
+Changed: 
+mvp is based on defining 3 areas of responisbility mvp m model v view p presenter
+Origin: 
+It is based on defining 3 areas of responisbility mvp m model v view p presenter
+
+
+3053317
+super	self
+Changed: 
+super should be class class2 class1 def __ init __ self super class2 self . __ init __
+Origin: 
+It should be class class2 class1 def __init__ self super class2 self .__init__
+
+
+3053573
+fink	macports
+Changed: 
+Another important advantage of managing your own version of python with a package manager fink or macports is that macports help a lot with the compilation of module dependencies for instance when you use a module that depends on compiled c code
+Origin: 
+Another important advantage of managing your own version of python with a package manager fink or macports is that they help a lot with the compilation of module dependencies for instance when you use a module that depends on compiled c code
+
+
+3073344
+scheme	racket
+Changed: 
+Unfortunately scheme lost some of scheme appeal in recent years i find the latest r6rs to be totally disappointing and i find also implementations like racket to be moving in the wrong direction
+Origin: 
+Unfortunately scheme lost some of its appeal in recent years i find the latest r6rs to be totally disappointing and i find also implementations like racket to be moving in the wrong direction
+
+
+3075441
+innodb	myisam
+Changed: 
+But with good binary logs and a backup system you should be able to recover myisam but innodb will require some manual intervention .
+Origin: 
+But with good binary logs and a backup system you should be able to recover myisam but it will require some manual intervention.
+
+
+3087391
+uiviewcontroller	uinavigationcontroller
+Changed: 
+Putting these two things together it is safe to imply that uinavigationcontroller retains all of its uiviewcontroller when uiviewcontroller are pushed onto the stack
+Origin: 
+putting these two things together it is safe to imply that uinavigationcontroller retains all of its uiviewcontrollers when they are pushed onto the stack
+
+
+3095680
+daemons	systemd
+Changed: 
+The daemons function is for programs wishing to detach daemons from the controlling terminal and run in the background as systemd daemons
+Origin: 
+the daemon function is for programs wishing to detach themselves from the controlling terminal and run in the background as system daemons
+
+
+3099983
+equals	gethashcode
+Changed: 
+Since we re talking about reference-types here singleton being meaningless for value-types the best way to check if two references point to the same object is which isn t dependent on the gethashcode equals implementations gethashcode looks at the reference itself
+Origin: 
+Since we re talking about reference-types here singleton being meaningless for value-types the best way to check if two references point to the same object is which isn t dependent on the gethashcode equals implementations it looks at the reference itself
+
+
+3104178
+yslow	pagespeed
+Changed: 
+Your site loads very slowly try yslow or pagespeed to see how you can speed pagespeed up so some browsers will time out before pagespeed finishes and you ll see a blank screen
+Origin: 
+your site loads very slowly try yslow or page speed to see how you can speed it up so some browsers will time out before it finishes and you ll see a blank screen
+
+
+3111345
+xna	slimdx
+Changed: 
+But unless you re a xna game developer my advice is either use xna use whichever language c++ c# you know best perhaps with slimdx
+Origin: 
+But unless you re a professional game developer my advice is either use xna use whichever language c++ c# you know best perhaps with slimdx
+
+
+3125628
+listview	gridview
+Changed: 
+If you want to display tabular data in a listview you would create a listview and set listview view to a gridview which defines the column layout . the reality however is that as far as i know no other views were implemented
+Origin: 
+If you want to display tabular data in a listview you would create a listview and set its view to a gridview which defines the column layout. the reality however is that as far as i know no other views were implemented
+
+
+3135890
+r-tree	quadtree
+Changed: 
+If your map is feebly filled and there are a lot of empty tiles map make sense to use some spatial indexes like quadtree or r-tree or bsp-trees
+Origin: 
+if your map is feebly filled and there are a lot of empty tiles it make sense to use some spatial indexes like quad-tree or r-tree or bsp-trees
+
+
+3156742
+nginx	lighttpd
+Changed: 
+I have heard nothing but good things about lighttpd however lighttpd is limited in scope compared to nginx
+Origin: 
+I have heard nothing but good things about lighttpd however it is limited in scope compared to nginx
+
+
+3162650
+awt	swing
+Changed: 
+This because awt and swing on top has awt own thread that manages everything of a gui
+Origin: 
+This because awt and swing on top has its own thread that manages everything of a gui
+
+
+3175834
+jtextpane	jeditorpane
+Changed: 
+For text-editor-like capabilities like you d find in wordpad or html the component to use is the jeditorpane or jeditorpane descendant jtextpane
+Origin: 
+For text-editor-like capabilities like you d find in wordpad or html the component to use is the jeditorpane or its descendant jtextpane
+
+
+3181486
+union	distinct
+Changed: 
+Note that union already does a distinct so there s no need to do union again the count and force another sort
+Origin: 
+Note that union already does a distinct so there s no need to do it again the count and force another sort
+
+
+3182877
+gradle	ivy
+Changed: 
+Finally gradle uses ivy so gradle has excellent dependency management
+Origin: 
+Finally gradle uses ivy so it has excellent dependency management
+
+
+3191027
+haskell	ocaml	lisp	smalltalk	erlang	lisp	erlang	ocaml
+Changed: 
+All the languages i know that have at least one machine-code compiler and at least one repl ruby python almost all lisp lisp was the language that pioneered this technique afaik ocaml haskell forth if we re counting compilation to bytecode as well as machine code haskell s true of the vast majority of popular bytecode-compiled languages java scala groovy erlang c# f# smalltalk
+Origin: 
+all the languages i know that have at least one machine-code compiler and at least one repl ruby python almost all lisps lisp was the language that pioneered this technique afaik ocaml haskell forth if we re counting compilation to bytecode as well as machine code it s true of the vast majority of popular bytecode-compiled languages java scala groovy erlang c# f# smalltalk
+
+
+3194259
+backgrounding	multitasking
+Changed: 
+This backgrounding multitasking may stretch the 3g to multitasking limits in apple s eyes
+Origin: 
+this background multitasking may stretch the 3g to its limits in apple s eyes
+
+
+3205791
+ssl	https
+Changed: 
+http means your entire site will be over ssl and will be inaccessible via http other than to redirect to https i wrote a blog post on forcing a website to use www in the web address but it can also be ported to forcing https
+Origin: 
+This means your entire site will be over ssl and will be inaccessible via http other than to redirect to https i wrote a blog post on forcing a website to use www in the web address but it can also be ported to forcing https
+
+
+3206840
+cvs	svn
+Changed: 
+cvs is the usual problem if you can t checkout from svn
+Origin: 
+This is the usual problem if you can t checkout from svn
+
+
+3212944
+config	ini
+Changed: 
+For advanced users they can edit the config using a text editor if config s stored in a text file ini file config file etc. . or you can make an api
+Origin: 
+for advanced users they can edit the configurations using a text editor if it s stored in a text file ini file config file etc.. or you can make an api
+
+
+3216629
+subtraction	addition
+Changed: 
+decimal is nice because addition and subtraction are trivial
+Origin: 
+This is nice because addition and subtraction are trivial
+
+
+3217209
+db4o	eloquera
+Changed: 
+I have found bugs in eloquera and they fixed eloquera in a day or two db4o is not yet on . net 4 although they finally have an early beta
+Origin: 
+I have found bugs in eloquera and they fixed them in a day or two db4o is not yet on .net 4 although they finally have an early beta
+
+
+3218551
+quicksort	heapsort
+Changed: 
+Unless you re going to write a very good sort probably quicksort merge sort or heapsort depending on your specific needs quicksort will be better and quicksort takes fewer lines of code
+Origin: 
+unless you re going to write a very good sort probably quicksort merge sort or heap sort depending on your specific needs qsort will be better and it takes fewer lines of code
+
+
+3218572
+onresume	onpause
+Changed: 
+The onpause onresume oncreate and so on methods get called by android oncreate at the appropriate times
+Origin: 
+The onpause onresume oncreate and so on methods get called by android itself at the appropriate times
+
+
+3223494
+jquery	scriptaculous
+Changed: 
+I believe jquery ui already implements a delayed observer for jquery autocomplete things as does scriptaculous autocomplete widget
+Origin: 
+I believe jquery ui already implements a delayed observer for its autocomplete things as does scriptaculous autocomplete widget
+
+
+3236579
+inline	inlining
+Changed: 
+Edit i would expect inlining to inline in this case but inlining s hard to tell without loading the code into something like cordbg with jit optimizations turned on
+Origin: 
+Edit i would expect it to inline in this case but it s hard to tell without loading the code into something like cordbg with jit optimizations turned on
+
+
+3241092
+comparator	comparable
+Changed: 
+To use comparator comparator does a cast to comparable which is the source of the exceptions
+Origin: 
+to use compareto it does a cast to comparable which is the source of the exceptions
+
+
+3246594
+config	ini
+Changed: 
+If you don t mind the config not being an ini but php arrays you can also use this code to load and write back the config somewhat related question and my answer to config reading and writing config files
+Origin: 
+if you don t mind the config not being an ini but php arrays you can also use this code to load and write back the configs somewhat related question and my answer to it reading and writing configuration files
+
+
+3247446
+codeigniter	yii	codeigniter	cakephp	codeigniter	kohana	cakephp	yii	cakephp	kohana	kohana	yii
+Changed: 
+I suggest configuring a php web framework like symfony codeigniter or codeigniter s decendants yii and kohana or cakephp
+Origin: 
+I suggest configuring a php web framework like symfony codeigniter or it s decendants yii and kohana or cakephp
+
+
+3263704
+setinterval	settimeout
+Changed: 
+You could check this using settimeout or setinterval to make sure any requests triggered on page load have completed if that settimeout s what you re looking to do
+Origin: 
+You could check this using settimeout or setinterval to make sure that any requests triggered on page load have completed if that s what you re looking to do
+
+
+3264879
+google-chrome	firefox
+Changed: 
+You ll have to develop a bho for ie whereas both firefox and google-chrome use javascript as google-chrome addon platform
+Origin: 
+you ll have to develop a bho for ie whereas both firefox and chrome use javascript as their addon platform
+
+
+3267519
+config	ini
+Changed: 
+You can drop an ini or other config file in some folder outside of program files or you can store config in the registry which is probably the best option
+Origin: 
+You can drop an ini or other config file in some folder outside of program files or you can store it in the registry which is probably the best option
+
+
+3272537
+django	turbogears
+Changed: 
+The wxpython wiki has a few examples on how to use pubsub in your program and there s also this simple tutorial on the subject mvc in guis isn t quite the same as wxpython is in django or turbogears
+Origin: 
+The wxpython wiki has a few examples on how to use pubsub in your program and there s also this simple tutorial on the subject mvc in guis isn t quite the same as it is in django or turbogears
+
+
+3274526
+required	placeholder
+Changed: 
+In retrospect required occurs to me that you probably don t need an array as the payload placeholder
+Origin: 
+In retrospect it occurs to me that you probably don t need an array as the payload placeholder
+
+
+3277049
+ftp	telnet
+Changed: 
+However i have written my own ftp protocol for rebol3 see and telnet looks like telnet is only a few lines to add the site command
+Origin: 
+However i have written my own ftp protocol for rebol3 see and it looks like it is only a few lines to add the site command
+
+
+3284484
+jlist	jtable
+Changed: 
+See an example but if you already used jtable with jlist than you know how to use use jtable with jtable too
+Origin: 
+See an example but if you already used it with jlist than you know how to use use it with jtable too
+
+
+3287811
+stateless	stateful
+Changed: 
+With the singleton model stateful depends on how you write stateful but stateless is strongly advised
+Origin: 
+with the singleton model it depends on how you write it but stateless is strongly advised
+
+
+3293427
+spaces	delimiter
+Changed: 
+Another here doc syntax doesn t require you to use the dash but doc does require that the end of here doc delimiter is in column 1 or there are no spaces that precede it
+Origin: 
+Another here doc syntax doesn t require you to use the dash but it does require that the end of here doc delimiter is in column 1 or there are no spaces that precede it
+
+
+3298226
+google-chrome	safari	google-chrome	firefox
+Changed: 
+From the readme google-chrome should work on google-chrome 4 or later just uses native implementation firefox 3.x internet explorer 8 + flash player 9 or later google-chrome may or may not work on other browsers such as safari opera or ie 6
+Origin: 
+from the readme it should work on google chrome 4 or later just uses native implementation firefox 3.x internet explorer 8 + flash player 9 or later it may or may not work on other browsers such as safari opera or ie 6
+
+
+3301276
+google-chrome	firefox
+Changed: 
+I also tested in firefox and found that unlike google-chrome and not quite contrary to the spec google-chrome does in fact insert new tags instead of s with a attribute added on
+Origin: 
+i also tested in firefox and found that unlike chrome and not quite contrary to the spec it does in fact insert new tags instead of s with a attribute added on
+
+
+3309564
+inline	inlining
+Changed: 
+Whether a particular lambda expression is inline is entirely dependent upon the compiler and whether inline decides inline is worth inlining
+Origin: 
+whether a particular lambda expression is inlined is entirely dependent upon the compiler and whether it decides it is worth inlining
+
+
+3323208
+prepare	execute
+Changed: 
+Next we tell the prepared statement to run prepare using the execute method passing an array of variables
+Origin: 
+Next we tell the prepared statement to run itself using the execute method passing an array of variables
+
+
+3323594
+lisp	sml
+Changed: 
+As a result sml doesn t seem like you would have much trouble applying some kind of static typing to the core of lisp function application and primitive values
+Origin: 
+As a result it doesn t seem like you would have much trouble applying some kind of static typing to the core of lisp function application and primitive values
+
+
+3325580
+postgresql	mysql
+Changed: 
+Mysql supports both syntax forms and mysql docs claim that the second syntax with offset was meant to provide compatibility with postgresql
+Origin: 
+Mysql supports both syntax forms and its docs claim that the second syntax with offset was meant to provide compatibility with postgresql
+
+
+3333067
+google-chrome	firefox
+Changed: 
+Although google-chrome does take a little longer than in firefox but that may just be my computer
+Origin: 
+although it does take a little longer than in firefox but that may just be my computer
+
+
+3349728
+udp	tcp
+Changed: 
+A program that broadcasts a list of public files configured in a text file over udp and then accepts tcp connections to download tcp
+Origin: 
+A program that broadcasts a list of public files configured in a text file over udp and then accepts tcp connections to download them
+
+
+3366987
+inline	inlining
+Changed: 
+Modern compilers know when to inline and when not to and will generally make better decisions about inlining than even very experienced programmers
+Origin: 
+Modern compilers know when to inline and when not to and will generally make better decisions about it than even very experienced programmers
+
+
+3375470
+operands	scalar
+Changed: 
+To quote perlop on scalar or list context propagates down to the right operands if scalar is evaluated
+Origin: 
+to quote perlop on scalar or list context propagates down to the right operand if it is evaluated
+
+
+3376871
+jboss	glassfish
+Changed: 
+Nonetheless if you happen to use jboss glassfish won t be difficult to integrate glassfish on netbeans
+Origin: 
+Nonetheless if you happen to use jboss it won t be difficult to integrate it on netbeans
+
+
+3380656
+vim	textmate
+Changed: 
+vim s named command-t because vim is inspired by the go to file window bound to command-t in textmate
+Origin: 
+It s named command-t because it is inspired by the go to file window bound to command-t in textmate
+
+
+3384720
+queue	fifo
+Changed: 
+One approach to implementing a set of threads executing in a fcfs manner would be create a fifo queue protect set with a mutex and within this queue put tokens that allow threads to know when set is their turn to run
+Origin: 
+One approach to implementing a set of threads executing in a fcfs manner would be create a fifo queue protect it with a mutex and within this queue put tokens that allow threads to know when it is their turn to run
+
+
+3389751
+apache	nginx
+Changed: 
+Alternatively there might be a way of getting nginx to restart nginx on code change - nginx s certainly possible with apache and mod _ wsgi
+Origin: 
+Alternatively there might be a way of getting nginx to restart itself on code change - it s certainly possible with apache and mod_wsgi
+
+
+3393122
+vb.net	vb6
+Changed: 
+If vb.net is indeed vb6 then vb.net will be a completely different syntax
+Origin: 
+If it is indeed vb6 then it will be a completely different syntax
+
+
+3406062
+opera	firefox	opera	google-chrome	google-chrome	firefox
+Changed: 
+As for why none of firefox google-chrome nor opera will connect to the proxy once you configure opera to do so that s a little bit harder to explain
+Origin: 
+as for why none of firefox chrome nor opera will connect to the proxy once you configure them to do so that s a little bit harder to explain
+
+
+3417026
+verilog	vhdl
+Changed: 
+Both vhdl and verilog are high level langauges and while different from c and c++ vhdl aren t significantly harder just different and require a different thought process
+Origin: 
+Both vhdl and verilog are high level langauges and while different from c and c++ they aren t significantly harder just different and require a different thought process
+
+
+3424324
+udp	tcp
+Changed: 
+Udp is significantly faster than tcp and is why udp is or was used for video and various things back in the day
+Origin: 
+Udp is significantly faster than tcp and is why it is or was used for video and various things back in the day
+
+
+3424324
+udp	tcp
+Changed: 
+There are times when is useful embedded desktop or server though i still ask that question every time and have to justify the use of tcp over udp otherwise i wont use it tcp
+Origin: 
+There are times when it is useful embedded desktop or server though i still ask that question every time and have to justify the use of tcp over udp otherwise i wont use it
+
+
+3457767
+rsa	dsa
+Changed: 
+In your terminal rsa will generate a pair of files private key . ssh id _ dsa public key . ssh id _ dsa.pub then if you have access to remote host you can add your public key to . ssh authorized _ keys file
+Origin: 
+In your terminal it will generate a pair of files private key .ssh id_dsa public key .ssh id_dsa.pub then if you have access to remote host you can add your public key to .ssh authorized_keys file
+
+
+3458857
+implements	extends
+Changed: 
+Attribution that way if there isn t support for extends you can fall back and use jquery to implements a 2-way slider so that other browsers still have a similar visual experience
+Origin: 
+attribution that way if there isn t support for it you can fall back and use jquery to implement a 2-way slider so that other browsers still have a similar visual experience
+
+
+3465853
+awt	swing
+Changed: 
+If you have any experience with awt swing you ll recognize awt from the relation between container and component
+Origin: 
+If you have any experience with awt swing you ll recognize it from the relation between container and component
+
+
+3469092
+tabcontrol	tabitem
+Changed: 
+Now the button would create a new tabitem your custom-created one perhaps and add tabitem to the observablecollection of tabs you have as the itemssource for your tabcontrol
+Origin: 
+Now the button would create a new tabitem your custom-created one perhaps and add it to the observablecollection of tabs you have as the itemssource for your tabcontrol
+
+
+3473139
+nsmutablestring	nsstring
+Changed: 
+Combined with toll-free bridging cfstring meant that you could mutate immutable nsstring objects even though the nsmutablestring apis did perform a mutability check and caused some kind of problem when trying to mutate an immutable object
+Origin: 
+Combined with toll-free bridging this meant that you could mutate immutable nsstring objects even though the nsmutablestring apis did perform a mutability check and caused some kind of problem when trying to mutate an immutable object
+
+
+3482762
+cdr	cons
+Changed: 
+You can visualize such a cons cell as a bisected block car cdr + ----- + ----- + | a | b | + ----- + ----- + in lisp a value can also be a reference to something else for example another cons cell cons would be represented in dotted pair form as a
+Origin: 
+You can visualize such a cons cell as a bisected block car cdr +-----+-----+ | a | b | +-----+-----+ in lisp a value can also be a reference to something else for example another cons cell this would be represented in dotted pair form as a
+
+
+3485649
+profiling	debugging
+Changed: 
+In the top right corner of the debugging profiling you should be able to expand the tree of any given object that s in scope to examine debugging further
+Origin: 
+in the top right corner of the debug profiler you should be able to expand the tree of any given object that s in scope to examine it further
+
+
+3487274
+onclick	onchange
+Changed: 
+The onclick event can be used with tags - however you probably are looking for functionality where onclick would be best to use the onchange event not onclick
+Origin: 
+The onclick event can be used with tags - however you probably are looking for functionality where it would be best to use the onchange event not onclick
+
+
+3489586
+spaces	delimiter
+Changed: 
+spaces s a delimiter
+Origin: 
+it s a delimiter
+
+
+3490120
+touchesbegan	touchesmoved	touchesbegan	touchesended	touchesmoved	touchesended
+Changed: 
+The uislider control inherited from uiresponder so you can subclassing and add your own touchesbegan withevent touchesmoved withevent touchesended withevent touchesmoved will be of special interest since it touchesmoved will give you the y coordinate
+Origin: 
+the uislider control inherits from uiresponder so you can subclass it and add your own touchesbegan withevent touchesmoved withevent touchesended withevent touchesmoved will be of special interest since it will give you the y coordinate
+
+
+3490612
+postgresql	mysql
+Changed: 
+I suppose postgresql could have higher metadata overhead than mysql or has to extend postgresql data files in larger chunks but i can t find anything obvious that postgresql wastes space for which migrating to mysql is the cure
+Origin: 
+i suppose postgres could have higher metadata overhead than mysql or has to extend its data files in larger chunks but i can t find anything obvious that postgres wastes space for which migrating to mysql is the cure
+
+
+3492245
+equals	gethashcode
+Changed: 
+gethashcode means that for any tuple with the same type of left and right where the values are equals you ll get the same hash code of 0
+Origin: 
+it means that for any tuple with the same type of left and right where the values are equal you ll get the same hash code of 0
+
+
+3519186
+opera	safari	opera	firefox	opera	google-chrome	firefox	safari	google-chrome	safari	google-chrome	firefox
+Changed: 
+svg claim raphaël currently supports firefox 3.0 + safari 3.0 + google-chrome 5.0 + opera 9.5 + and internet explorer 6.0 +
+Origin: 
+they claim raphaël currently supports firefox 3.0+ safari 3.0+ chrome 5.0+ opera 9.5+ and internet explorer 6.0+
+
+
+3544063
+swt	swing
+Changed: 
+There are further libraries abstracting swt and swing to make swing more ruby friendly
+Origin: 
+There are further libraries abstracting swt and swing to make them more ruby friendly
+
+
+3556520
+macports	homebrew
+Changed: 
+When macports does macports install-the-world thing i usually end up killing it and installing the package with the mad dependencies by hand so i ve never quite been driven to the point of using homebrew but i ve been on the point of doing so ever since i first heard about it
+Origin: 
+When macports does its install-the-world thing i usually end up killing it and installing the package with the mad dependencies by hand so i ve never quite been driven to the point of using homebrew but i ve been on the point of doing so ever since i first heard about it
+
+
+3556724
+implements	extends
+Changed: 
+Interfaces allow multiple inheritance of types a class waterfowl extends bird implements swimmer can be used by other classes as if implements were a bird and as if implements were a swimmer
+Origin: 
+Interfaces allow multiple inheritance of types a class waterfowl extends bird implements swimmer can be used by other classes as if it were a bird and as if it were a swimmer
+
+
+3568824
+openssl	m2crypto
+Changed: 
+m2crypto has the advantage of being fast as fast as openssl but the disadvantage of the documentation being limited
+Origin: 
+It has the advantage of being fast as fast as openssl but the disadvantage of the documentation being limited
+
+
+3581823
+opera	google-chrome
+Changed: 
+Some alternatives i have not tried them yet have been try opera mini or other available browsers on the ipad i know google-chrome which uses webkit has a limit on google-chrome sql database size but you can patch google-chrome q database + size #ebf17070d32c1168 with some sql to increase google-chrome size
+Origin: 
+some alternatives i have not tried them yet have been try opera mini or other available browsers on the ipad i know google chrome which uses webkit has a limit on its sql database size but you can patch it q database+size#ebf17070d32c1168 with some sql to increase its size
+
+
+3590800
+google-chrome	firefox
+Changed: 
+Of course that would mean that jquery s not actually working in firefox or google-chrome or any other browser but jquery could be that they re just less strident about error reporting so you re not noticing
+Origin: 
+of course that would mean that it s not actually working in firefox or chrome or any other browser but it could be that they re just less strident about error reporting so you re not noticing
+
+
+3592057
+draggable	droppable
+Changed: 
+If is inside the draggable we destroy the clone and the tr so it droppable is removed from the list and can t be dragged again the only new to the html is the wrapping of the tr s inside tbody tags
+Origin: 
+If it is inside the draggable we destroy the clone and the tr so it is removed from the list and can t be dragged again the only new to the html is the wrapping of the tr s inside tbody tags
+
+
+3600455
+google-chrome	firefox
+Changed: 
+Safari and google-chrome have google-chrome in-built for firefox download firebug
+Origin: 
+safari and chrome have it in-built for firefox download firebug
+
+
+3623133
+ssl	https
+Changed: 
+You can check how to do ssl here allowing http and https connections to the same resource can be used to perform a cookie stealing attack if the application cookies are not using the secure attribute
+Origin: 
+You can check how to do it here allowing http and https connections to the same resource can be used to perform a cookie stealing attack if the application cookies are not using the secure attribute
+
+
+3624095
+google-chrome	safari
+Changed: 
+There s no native version of safari but you should be fine since opera uses the same rendering engine as google-chrome webkit
+Origin: 
+there s no native version of safari but you should be fine since it uses the same rendering engine as chrome webkit
+
+
+3651658
+pthreads	fork
+Changed: 
+udp can operate in multi-process mode by using fork or multi-thread mode by using pthreads
+Origin: 
+It can operate in multi-process mode by using fork or multi-thread mode by using pthreads
+
+
+3661558
+uiviewcontroller	uinavigationcontroller
+Changed: 
+So to show it only on my sub uiviewcontroller i had to set to all the uinavigationcontroller that i do not want the toolbar to be visible on
+Origin: 
+So to show it only on my sub uiviewcontroller i had to set to all the uiviewcontrollers that i do not want the toolbar to be visible on
+
+
+3663616
+scheme	racket
+Changed: 
+racket retains most of the syntactic simplicity of scheme but provides a static type system
+Origin: 
+It retains most of the syntactic simplicity of scheme but provides a static type system
+
+
+3664171
+sortedlist	sorteddictionary
+Changed: 
+Of course the name sorteddictionary was already taken but sortedlist wasn t sorteddictionary sorteddictionary
+Origin: 
+Of course the name sorteddictionary was already taken but sortedlist wasn t
+
+
+3668926
+jar	manifest.mf
+Changed: 
+Assuming that you d like to have the xml in the same folder as the jar file jar the following suffices class-path . don t forget to put a blank line at end of manifest.mf file then you can obtain it as a classpath resource using class #getresource or classloader #getresource
+Origin: 
+Assuming that you d like to have the xml in the same folder as the jar file itself the following suffices class-path . don t forget to put a blank line at end of manifest.mf file then you can obtain it as a classpath resource using class#getresource or classloader#getresource
+
+
+3670866
+allocator	stl
+Changed: 
+You could also experiment with writing a custom allocator for the stl containers although allocator seems that that sort of work is generally advised against
+Origin: 
+you could also experiment with writing a custom allocator for the stl containers although it seems that that sort of work is generally advised against
+
+
+3672066
+rsa	aes
+Changed: 
+You can encrypt an rsa public key using aes encryption if you wish but aes is unnecessary as aes is not something you need to keep secret
+Origin: 
+You can encrypt an rsa public key using aes encryption if you wish but it is unnecessary as it is not something you need to keep secret
+
+
+3672297
+gson	jackson
+Changed: 
+Choices like jackson and gson are big improvements so it is worth considering using gson
+Origin: 
+Choices like jackson and gson are big improvements so it is worth considering using them
+
+
+3674906
+opera	safari	opera	firefox	opera	google-chrome	firefox	safari	google-chrome	safari	google-chrome	firefox
+Changed: 
+Safari and google-chrome have hardly any differences as google-chrome use the same rendering engine and safari google-chrome opera and firefox have very few differences as google-chrome re all about the standards
+Origin: 
+safari and chrome have hardly any differences as they use the same rendering engine and safari chrome opera and firefox have very few differences as they re all about the standards
+
+
+3687757
+pascal	delphi
+Changed: 
+Recent delphi s and fpc support generics and you could probably go a long way duplicate boost with pascal
+Origin: 
+Recent delphi s and fpc support generics and you could probably go a long way duplicate boost with it
+
+
+3688128
+move	drag
+Changed: 
+This would allow you to easily move portions of a site or the entire site drag with a simple drag and drop operation
+Origin: 
+This would allow you to easily move portions of a site or the entire site itself with a simple drag and drop operation
+
+
+3690945
+vim	emacs
+Changed: 
+Text editors like vim or emacs vim can be configured quite flexibly to match an ide power though so vim doesn t really matter which way you go
+Origin: 
+Text editors like vim or emacs itself can be configured quite flexibly to match an ide power though so it doesn t really matter which way you go
+
+
+3692080
+bash	zsh
+Changed: 
+named works for bash ksh pd ksh and zsh with optimized scripts for each one of bash
+Origin: 
+It works for bash ksh pd ksh and zsh with optimized scripts for each one of them
+
+
+3698661
+struts	wicket	vaadin	wicket
+Changed: 
+gwt echo gwt vaadin differ from traditional frameworks like spring mvc struts wicket in the fact that you don t write html css and javascript
+Origin: 
+These echo gwt vaadin differ from traditional frameworks like spring mvc struts wicket in the fact that you don t write html css and javascript
+
+
+3703092
+memcpy	memmove
+Changed: 
+On the other extreme s possible that an implementor assumed memmove would rarely be used and implemented memmove with the simplest possible byte-at-a-time loops in c in which case it memmove could be ten times slower than an optimized memcpy
+Origin: 
+On the other extreme it s possible that an implementor assumed memmove would rarely be used and implemented it with the simplest possible byte-at-a-time loops in c in which case it could be ten times slower than an optimized memcpy
+
+
+3704402
+division	modulo
+Changed: 
+And removing the modulo 10000 operation will only skew results in favour of the division modulo knocks about 0.02 seconds off the time with division when replaced with the comparison
+Origin: 
+And removing the modulo 10000 operation will only skew results in favour of the division it knocks about 0.02 seconds off the time with division when replaced with the comparison
+
+
+3706448
+multiplying	multiplication
+Changed: 
+multiplication s from someone whose soul was forged in the hell-fires that were the mostek 6502 zilog z80 and rca1802 - you can even multiplying by non-powers by simply storing interim results multiplying by 9 push ebx
+Origin: 
+that s from someone whose soul was forged in the hell-fires that were the mostek 6502 zilog z80 and rca1802 - you can even multiply by non-powers by simply storing interim results multiply by 9 push ebx
+
+
+3734764
+xsl-fo	xslt
+Changed: 
+You can run xslt to produce xsl-fo output and render in any xsl-fo engine to include apache fop
+Origin: 
+you can run them to produce xsl-fo output and render in any xsl-fo engine to include apache fop
+
+
+3746878
+punctuation	words
+Changed: 
+There is a problem with your usage of words boundaries - if a words can consist of punctuation then words beginning or ending on punctuation won t have a words boundary so your regular expression will miss words
+Origin: 
+there is a problem with your usage of word boundaries - if a word can consist of punctuation then words beginning or ending on punctuation won t have a word boundary so your regular expression will miss them
+
+
+3749939
+opera	firefox
+Changed: 
+Not all browsers support paste detection notably firefox 2 and all versions of opera do not so opera s already getting tricky
+Origin: 
+Not all browsers support paste detection notably firefox 2 and all versions of opera do not so it s already getting tricky
+
+
+3754209
+ssl	https
+Changed: 
+From what pound is ... an ssl wrapper pound will decrypt https requests from client browsers and pass https as plain http to the back-end servers
+Origin: 
+From what pound is ... an ssl wrapper pound will decrypt https requests from client browsers and pass them as plain http to the back-end servers
+
+
+3762853
+backgrounding	multitasking
+Changed: 
+Item 2.16 on apple s published review guidelines states multitasking apps may only use backgrounding services for multitasking intended purposes voip audio playback location task completion local notifications etc
+Origin: 
+item 2.16 on apple s published review guidelines states multitasking apps may only use background services for their intended purposes voip audio playback location task completion local notifications etc
+
+
+3764313
+jar	war
+Changed: 
+Anyway if you succeed you could package those in a jar or war and deploy jar as a contained application
+Origin: 
+Anyway if you succeed you could package those in a jar or war and deploy that as a contained application
+
+
+3768721
+junit	testng
+Changed: 
+The biggest advantage testng had over junit 3 was that testng allowed you to use annotations to define your tests rather than forcing you to extend the junit base classes
+Origin: 
+The biggest advantage testng had over junit 3 was that it allowed you to use annotations to define your tests rather than forcing you to extend the junit base classes
+
+
+3770950
+haskell	agda
+Changed: 
+Another popular language that offers more power than haskell is agda - i don t know agda beyond knowing haskell is dependently typed on hackage and well respected by people i respect but those are good enough reasons to me
+Origin: 
+Another popular language that offers more power than haskell is agda - i don t know agda beyond knowing it is dependently typed on hackage and well respected by people i respect but those are good enough reasons to me
+
+
+3771477
+haskell	agda
+Changed: 
+Coq is probably the most prominent language of the style but agda has a more haskell-y feel as well as being written in haskell haskell
+Origin: 
+Coq is probably the most prominent language of the style but agda has a more haskell-y feel as well as being written in haskell itself
+
+
+3776884
+swt	swing
+Changed: 
+If you have any experience with swing or swt i suggest you stick to swt
+Origin: 
+If you have any experience with swing or swt i suggest you stick to it
+
+
+3780134
+client-side	server-side
+Changed: 
+If client-side does and each of client-side methods throw remoteexception then when client-side is passed to the server through the manager proxy everything is wired up automatically and method invocations on the server-side proxy to this listener are remote invocations of methods on the real client-side object
+Origin: 
+If it does and each of its methods throw remoteexception then when it is passed to the server through the manager proxy everything is wired up automatically and method invocations on the server-side proxy to this listener are remote invocations of methods on the real client-side object
+
+
+3786119
+client-side	server-side
+Changed: 
+You may either use server-side validation if server-side s an option or write your own client-side customvalidator
+Origin: 
+You may either use server-side validation if it s an option or write your own client-side customvalidator
+
+
+3793155
+udp	tcp
+Changed: 
+udp s a connectionless protocol which puts much less overhead on ip packets than tcp does
+Origin: 
+It s a connectionless protocol which puts much less overhead on ip packets than tcp does
+
+
+3793247
+firefox	safari	google-chrome	safari	google-chrome	firefox
+Changed: 
+svg is currently supported in firefox 3.6 + safari 4 and google-chrome - so if you re happy for svg to only work on these browsers then svg is a much simpler option with the added advantage that svg works for hover events too not just click events
+Origin: 
+this is currently supported in firefox 3.6+ safari 4 and google chrome - so if you re happy for it to only work on these browsers then this is a much simpler option with the added advantage that it works for hover events too not just click events
+
+
+3797612
+udp	tcp
+Changed: 
+I suggest using tcp for transferring files tcp solves all the trouble you will have to solve yourself when using udp
+Origin: 
+I suggest using tcp for transferring files it solves all the trouble you will have to solve yourself when using udp
+
+
+3803447
+equals	gethashcode
+Changed: 
+And as the notes mention dont forget if you implement iequatable you should also override the base class implementations of equals object and gethashcode so that gethashcode behavior is consistent with that of the iequatable.equals method
+Origin: 
+and as the notes mention dont forget if you implement iequatable you should also override the base class implementations of object.equals object and gethashcode so that their behavior is consistent with that of the iequatable.equals method
+
+
+3817087
+memcpy	memmove
+Changed: 
+However if memmove is additionally implemented as a macro via 7.1.4 1 memmove is written in terms of memcpy then you re going to be in trouble
+Origin: 
+However if memmove is additionally implemented as a macro via 7.1.4 1 that is written in terms of memcpy then you re going to be in trouble
+
+
+3826955
+union	distinct
+Changed: 
+The neat thing about union is that union implicitly reduces the result to distinct rows
+Origin: 
+The neat thing about union is that it implicitly reduces the result to distinct rows
+
+
+3835340
+inline	inlining
+Changed: 
+inline could be that inline was turned off or perhaps the compiler isn t as aggressive at inlining as you want
+Origin: 
+It could be that this was turned off or perhaps the compiler isn t as aggressive at inlining as you want
+
+
+3837124
+uiviewcontroller	uinavigationcontroller
+Changed: 
+uinavigationcontroller contains a stack of uiviewcontrollers that you can push or pop . the title displayed in the navigation bar is the title of the uiviewcontroller that is on the top of the stack the last pushed uiviewcontroller
+Origin: 
+It contains a stack of uiviewcontrollers that you can push or pop. the title displayed in the navigation bar is the title of the uiviewcontroller that is on the top of the stack the last pushed uiviewcontroller
+
+
+3840675
+ubuntu	linux
+Changed: 
+Imho ubuntu is best for starters or anyone as a matter of fact because ubuntu has a lot of support a good user base and is compatible with pretty much any linux software installer rpm deb etc. you can choose any other distribution ubuntu doesn t really matter but i recommend this one
+Origin: 
+Imho ubuntu is best for starters or anyone as a matter of fact because it has a lot of support a good user base and is compatible with pretty much any linux software installer rpm deb etc. you can choose any other distribution it doesn t really matter but i recommend this one
+
+
+3841804
+postgresql	mysql
+Changed: 
+There are exceptions though mysql and postgresql seem to have additional smartness that allows mysql
+Origin: 
+there are exceptions though mysql and postgres seem to have additional smartness that allows it
+
+
+3842231
+ubuntu	centos
+Changed: 
+If you don t have a favorite distro i would recommend trying ubuntu centos as ubuntu tend to be quite friendly to the beginner and have extremely robust community support
+Origin: 
+If you don t have a favorite distro i would recommend trying ubuntu centos as they tend to be quite friendly to the beginner and have extremely robust community support
+
+
+3844399
+nunit	mstest
+Changed: 
+Thus i suspect when people say that nunit is much faster than mstest nunit is because of the loading and updating delays but the actual test execution time appears to be very similar
+Origin: 
+Thus i suspect when people say that nunit is much faster than mstest it is because of the loading and updating delays but the actual test execution time appears to be very similar
+
+
+3846058
+setinterval	settimeout
+Changed: 
+Either user settimeout not in a loop and have settimeout call another settimeout if there is more to do or use setinterval and call clearinterval after a maintained count is reached
+Origin: 
+Either user settimeout not in a loop and have it call another settimeout if there is more to do or use setinterval and call clearinterval after a maintained count is reached
+
+
+3846475
+vb6	vba
+Changed: 
+Vb.net will not fade away and vb6 and vba have not yet exhausted vba potential
+Origin: 
+Vb.net will not fade away and vb6 and vba have not yet exhausted their potential
+
+
+3865387
+lisp	scheme
+Changed: 
+lisp s a fair point though javascript s semantics are directly inspired by scheme and lisp certainly reached a larger audience than any other language that can make similar claims
+Origin: 
+It s a fair point though javascript s semantics are directly inspired by scheme and it certainly reached a larger audience than any other language that can make similar claims
+
+
+3873037
+hex	binary
+Changed: 
+Did you feed the hex strings as strings or did you convert hex first as binary data
+Origin: 
+Did you feed the hex strings as strings or did you convert them first as binary data
+
+
+3874657
+floating-point	fractions
+Changed: 
+So long as your floating-point input has no fractions part then a suitably large biginteger format should be able to represent floating-point exactly
+Origin: 
+so long as your floating-point input has no fractional part then a suitably large biginteger format should be able to represent it exactly
+
+
+3878666
+uiview	calayer
+Changed: 
+Every uiview subclass has a calayer attached to subclass so you aren t restricted at all in terms of where you get your mask or maskee from
+Origin: 
+Every uiview subclass has a calayer attached to it so you aren t restricted at all in terms of where you get your mask or maskee from
+
+
+3883483
+uiviewcontroller	uinavigationcontroller
+Changed: 
+And by the way i don t think navigationcontrollers are supposed to be presented modally because the uinavigationcontroller class inherited from the uiviewcontroller class navigation controllers have uiviewcontroller own view that is accessible through the view properties
+Origin: 
+and by the way i don t think navigationcontrollers are supposed to be presented modally because the uinavigationcontroller class inherits from the uiviewcontroller class navigation controllers have their own view that is accessible through the view property
+
+
+3888800
+inline	inlining
+Changed: 
+Other benefits of inlining inlining can make code functions smaller inlining can reduce the number of exported symbols inline may also allow the compiler to make better optimizations because it is able to see more of the program during optimization
+Origin: 
+Other benefits of inlining inlining can make code functions smaller inlining can reduce the number of exported symbols it may also allow the compiler to make better optimizations because it is able to see more of the program during optimization
+
+
+3891599
+uinavigationcontroller	uitabbarcontroller
+Changed: 
+You want a uitabbarcontroller respectively uitabbarcontroller s view to be a subview of a uinavigationcontroller
+Origin: 
+You want a uitabbarcontroller respectively it s view to be a subview of a uinavigationcontroller
+
+
+3894961
+postgresql	mysql
+Changed: 
+About mysql i think postgresql s too much dooming speech about orcle owning postgresql
+Origin: 
+about mysql i think it s too much dooming speech about orcle owning it
+
+
+3898357
+client-side	server-side
+Changed: 
+Your mvc code is fine if the validation is in c# client-side s most certainly server-side and the results of your validation can be trusted
+Origin: 
+Your mvc code is fine if the validation is in c# it s most certainly server-side and the results of your validation can be trusted
+
+
+3899052
+jboss	weblogic
+Changed: 
+Each vendor websphere jboss weblogic etc may provide jboss own means of setting a default locale for the container so you ll have to consult the documentation of your web container
+Origin: 
+Each vendor websphere jboss weblogic etc may provide their own means of setting a default locale for the container so you ll have to consult the documentation of your web container
+
+
+3900409
+direct3d	gdi
+Changed: 
+direct3d was introduced exactly because the gdi is not good at such tasks
+Origin: 
+It was introduced exactly because the gdi is not good at such tasks
+
+
+3906448
+autoresetevent	manualresetevent
+Changed: 
+From what i see implements is used by autoresetevent manualresetevent and semaphore but not by mutex
+Origin: 
+From what i see it is used by autoresetevent manualresetevent and semaphore but not by mutex
+
+
+3908247
+actionscript	mxml
+Changed: 
+The actionscript class to which data is converted must be used or referenced in the mxml file for actionscript to be linked into the swf file and available at run time
+Origin: 
+The actionscript class to which data is converted must be used or referenced in the mxml file for it to be linked into the swf file and available at run time
+
+
+3929118
+portrait	landscape
+Changed: 
+Recently i ve just mocked up the portrait ui in the nib until portrait works well enough and then written equivalent code to do the same thing but also support landscape
+Origin: 
+Recently i ve just mocked up the portrait ui in the nib until it works well enough and then written equivalent code to do the same thing but also support landscape
+
+
+3940010
+fgets	strtol
+Changed: 
+You can use sscanf for this purpose but a robust function like strtol would be a lot better fgets fgets
+Origin: 
+You can use sscanf for this purpose but a robust function like strtol would be a lot better
+
+
+3950440
+cvs	svn
+Changed: 
+You can use git cvs svn but svn wont have anything to do with the actual deployment of the application
+Origin: 
+You can use git cvs svn but it wont have anything to do with the actual deployment of the application
+
+
+3955363
+comparator	comparable
+Changed: 
+Your comparator implementation will cast class to comparable and use comparator compare method
+Origin: 
+Your comparator implementation will cast class to comparable and use its compare method
+
+
+3955727
+equals	gethashcode
+Changed: 
+Furthermore doesn t require or even suggest using equals gethashcode or - you re free to define it gethashcode in any way you please
+Origin: 
+Furthermore it doesn t require or even suggest using equals gethashcode or - you re free to define it in any way you please
+
+
+3966257
+google-chrome	firefox
+Changed: 
+Works for ie 8 and firefox 3.6 but firefox doesn t work for google-chrome
+Origin: 
+works for ie 8 and ff 3.6 but it doesn t work for chrome
+
+
+3968177
+svg	vml
+Changed: 
+vml perform roughly the same task but vml is specific to internet explorer while most other browsers support svg
+Origin: 
+They perform roughly the same task but vml is specific to internet explorer while most other browsers support svg
+
+
+3974625
+vb.net	vb6
+Changed: 
+What it should have been was a way seamlessly convert your old vb6 code to vb.net the . net world - with dynamic invocation and high-quality com interop from the start
+Origin: 
+What it should have been was a way to seamlessly convert your old vb6 code to the .net world - with dynamic invocation and high-quality com interop from the start
+
+
+3981804
+lisp	scheme
+Changed: 
+lisp meant i was exposed to the differences between scheme and common lisp early on
+Origin: 
+This meant i was exposed to the differences between scheme and common lisp early on
+
+
+3997452
+mp3	ogg
+Changed: 
+At best the result will be an ogg file that sounds the same as your original mp3 but ogg is most likely that the resulting file will sound worse than your original mp3
+Origin: 
+At best the result will be an ogg file that sounds the same as your original mp3 but it is most likely that the resulting file will sound worse than your original mp3
+
+

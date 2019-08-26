@@ -1,0 +1,16 @@
+however i do not know if * has a comparable option like that as it has less functionality than * or even intellij
+
+if you re focussing on pure client code then i find * to be an excellent javascript html ide - even better than *
+
+i like the auto-complete feature of * but from my experience it is slower than *
+
+in studio 3 much of this sort of functionality is still coming as * is going more of a * bundle route for a great deal of their features which i think is really cool
+
+my c * is faster than my embedded * function block in * environment but when i use it in rt-lab the embedded is faster
+
+* is more of a replacement of an ide for mac and linux in windows the recommended thing is to use visual studio or *
+
+webstorm + pycharm + * + phpstorm though to be fair * has more features than * atm
+
+another alternative that people might mention is * which is from jetbrains but its closed-source not well supported and whilst it might look nicer than * it has more or less the same features but is much more resource-heavy and laggy so i d pass on that
+

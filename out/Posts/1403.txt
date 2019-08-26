@@ -1,0 +1,34 @@
+27894
+temp	tmp
+in sql server 2005 we can create temp tables one of two ways declare tmp table col1 int col2 int
+
+27905
+disk	ram
+wcm - actually to nit pick the table variable isn t ram only - it can be partially stored on disk
+
+27993
+centos	linux	redhat	fedora
+cpus were chilling at a loadavg below 0.10 and we were processing data 100x to 1000x faster
+just happened across this article which point out shortcomings in redhat centos fedora implementations of perl which affect uri profoundly
+if you are running one of these linux flavours you might want to recompile perl from original source not rpm source
+
+27993
+centos	linux	redhat	fedora
+if you are running one of these linux flavours you might want to recompile perl from original source not rpm source
+i realized that anyone running perl code with the distribution perl interpretter on redhat 5.2 centos 5.2 or fedora 9 is likely a victim
+yes even if your code doesn t use the fancy bless overload idiom many cpan modules do
+
+28013
+integer	unsigned
+you can approximate it maybe even exactly when not performed in my head with something like edit unsigned int and you handle 0 on your own
+you probably meant to have some rounding in there rather than truncating the result to an integer otherwise the purpose of the operation is really limited
+but since you asked the question with that specific formula it brought to mind that your result set is really coarse
+
+28059
+svnkit	subclipse
+i used the update url and i installed the javahl adapter the subclipse project itself and the svnkit adapter beta
+
+28115
+int	boolean
+if you re converting anything other than simple types like int or boolean you d need to write your own function method for the type that you re trying to convert otherwise php will just print the type such as array googlesniffer or bidet
+

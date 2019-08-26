@@ -1,0 +1,82 @@
+i am getting a problem using B and B as in my code B is written earlier then fget but it does not run it runs after B runs
+
+your macro with memset and B was not any safer than B
+
+the problem is that B is only slighly slower than B when i expect it to be about two times slower since it operations on twice the memory
+
+it is understandable that B is faster than B
+
+as an example of the second option i ll use B here because it makes more sense than B for random data but B would have identical usage other than the interpolation option.
+
+you need to error check B and ensure there are as many passed before using them -- B is better than B as helps detect errors
+
+i prefer using these short forms because to me year B is shorter to type and better to read than B yyyy B
+
+if you measure properly you ll see there s essentially no difference B is microscopically faster than B in this example but well within noise
+
+B is better then B because of how datatypes are handled
+
+an example of why B is better than B
+
+i tend to use B only when i need to get the first non-null value from a set of 3 or more values as B only supports two parameters
+
+B is the more standard alternative of B
+
+using B is better option than B or case..when for this problem since the input values for the B expression can be evaluated multiple times
+
+B is marginally faster than B
+
+edit based on the tests done by multiple people and by theory B seems to be a better option over B
+
+in some circumstances B is faster than case or B
+
+is the performance of B field constant better than B
+
+3.14 is pretty close but a little smaller than pi and B 3.14 is thus pretty close but a little bigger than 0 B 3.14 is thus pretty close but a little smaller in absolute terms than -1 so tan 3.14 is a little less than 0
+
+and as tom karzes mentioned B is also better than using B for calculating square roots
+
+and is as far as i know faster than the combination of B and memset on the other hand B alone is faster than B
+
+for this reason since B uses two arguments of type size_t it can allocate bigger blocks than B will ever be able to since B takes only one argument of type size_t
+
+you may be interested in looking at the B keyword which i think is better than the B keyword when you can make use of it
+
+with typical libraries on common modern hardware B is faster than B
+
+B is a little bit safer than B because you specify how many comparisons will be made at most
+
+the only case where B would be safer than B is when you re comparing two character arrays as strings you re certain that both arrays are at least n bytes long the 3rd argument passed to B and you re not certain that both arrays contain strings contain a 0 null character terminator
+
+note that B has more overhead than B because it has to determine which direction of copying is safe
+
+it is entirely possible that in most implementations the cost of a B function call will not be significantly greater than B in any scenario in which the behavior of both is defined
+
+as already pointed out in other answers B is more sophisticated than B such that it accounts for memory overlaps
+
+B on the laptop runs slower than B but oddly enough runs at the same speed as the B on the server
+
+at first glance it must be significantly faster because B must be significantly faster than B
+
+i should also mention that B has this built-in and may be a better solution than B
+
+i mean i think B is way smarter so why do we even need B
+
+if for some strange reason you can do the obvious B would be more efficient than B
+
+restructuring of the database to just add an B field is better option or the only one really if your going to do it properly but you could use your currant B field to store the B as other person posted
+
+it s like asking whether B is faster than B
+
+B is probably better than B in most cases
+
+i probably feel B might be bit faster than B as B changes the pointer position to the new address space that you have mentioned and there is no date read is happening
+
+B is not safer method to use as B
+
+i was exploring around with c regarding B since most people says that it is safer than B additional parameter length to avoid buffer overflows
+
+you d be better off using B for this as it s dumber than B
+
+B will always be faster than B for any real world situation even in the corner case i spoke before look page_copy_fwd_maybe
+

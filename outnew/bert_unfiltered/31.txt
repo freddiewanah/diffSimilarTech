@@ -1,0 +1,299 @@
+B containing 1000 B
+read web B old deprecated B old newer B preferred B whenever possible
+know thinking use B instead B moment comfortable B
+use prBf prB floats need say lf B format strings f enough lf needed scanf however function stores result float smaller B
+B faster significantly memory efficient B
+furthermore B stricter B comes initialisers
+learning B familiar B life figure trying achieve goal stated build encodings sorted including human readable names.
+B really simpler format xml fifty B options nested
+say B suitable interaction database B
+works fine B use assitional css settings ie B display ribbon div 25px higher B
+boilerplate would B rapidly express get complex B two
+ejb3 thing B better B session beans
+believe B better B comes mono easier setup seems better supported
+trying hard like B far find worse B ways
+B - good bit slower B
+also examples B would better B kinda flawed
+part compiler toolchain includes experimental jit generator fifth incarnation starting work really well - goal jited B run faster B
+B project includes jit making possible run faster B
+note plenty implementations B - loopy B tends faster B
+B uses 30 comparisons B
+B rarely slower B strncpy often significantly faster
+first vb.net used perform xslt transformation really simple said applying xslt stylesheet B considered better B even sending processing instruction browser
+personally using B right find easier B searching navigating everyone taste
+one might want define B access one B server
+since apple decided B B appears support prores 4444 422 flavors developers supposed write modern handle 4444xq 422lt 422 proxy
+valid choices Bing include sha1 B although sha1 preferable produces larger B considered cryptographically stronger B
+marcus yes B faster B faster
+cumbersome non-obvious error checking involving errno B better B avoid using B
+expensive developer costs designing B vastly difficult writing user-space assembly would increase transistor count B
+B indeed slower sparc 1.2ghz answered one sun engineers t2 usualy 3 slower single-threaded application modern intel B
+B like replacement B
+suggest build p2 repository done B seems simpler B tycho split projects several repositories
+definitely use B B - preference B flexible think would suit development style B well
+B faster B
+wanted weigh two cents serialworm thephpdeveloper said share memory B faster B io bound operation come
+run following sort data B slower pulling B sorting writing B
+lead performance issue progBs work slower read info B slower B
+remember tuples saved B vastly slower access things B
+B bigger B
+move database B access via sqlite3_open idea bullshit leaving database B faster moving B via mapping
+determining digit carry B concise larger factors also efficient B digit 100 result average 450 requiring 45 subtractions two Bs sufficient factors
+B divide faster B fewer bits divide assuming cpu B unit
+performing B division coarser B division
+know functions return largest smallest B greater lower like ceil floor.is function implement digit limitation B variable
+large period B takes memory maintaining internal state also takes time generating B number due complex transitions post processing
+B run 4x faster B
+anyways B bad longterm especially enough good suggest use better B really satisfied think
+also might take time compare B see meets needs well better B
+B faster B innodb
+group B B associated li tag contain query result also B want check one B click B want display text li tag selected checkobox
+asp page status approved selecting B pressing approve B however select one B throws error index range
+B bigger B landscape
+devices like droid bottom row squinched table B smaller B
+updated query select images whose B greater B select landscape image
+find B works better B
+ldpi assets look bad high density screens exponentially smaller B exponentially smaller B
+indeed B better B 1 B better B
+typically B slower B quicksort usually assumption comparisons fast
+B B int implementations smaller B int
+ios B ios B B
+B size smaller B flex-direction column works well except cannot figure make 2nd row trending start trending stops ever may
+B stores memory anyway works similar vein key-value based system however believe B flexible allows storing B objects within
+B supports 100 levels nesting B
+B offers options possibilites run tests order especially B
+package bigger B package smaller B package
+among things B considered reliable slower B
+B fire forget whereas B maintains connection state
+B always faster B
+downsides unreliable dropped corrupted therefore may want add safety isp may restrict B B test usually problems
+B socket even likely B socket work
+specific B better B
+B reliable wide area network closed environment talking host safely skip B reliability stuff
+B lends real-time latency B
+used iperf two linux machines send data using B B found B performs better B 10mb data
+especially iot domain B popular B bigger transport overheads
+native application would use B data player position ... faster B uncritical lost
+different ones based upon B size reasonable bigger margins B though mix would like res values dimens.xml res values-sw720dp values.xml
+also notice fonts scaling 7 B simply B space available vs 4 phone
+hopefully explains typical 320dp phone B always smaller 720dp B B although smaller B pixel larger
+B bigger B yet still showing 2 child views row
+practice never resource management issues B although agree possible area handled better B uses reference counting underlying
+actual visible size determined B lesser extend B
+yes pow slower B B slower B
+example since B higher precedence B read
+said mostly read based application use B better B
+B time lost table locking B faster table readings
+insert never select far know today B better B
+select queries B runs 2x faster B updates insert queries slower B
+1 mysql engines B better B
+B historically viewed faster B recent versions B smaller set use
+B harder tune since knobs properly tuned B system often higher throughput B due better locking better patterns
+beststat B row-level locking consindering inserts-updates faster B
+also mysql version starting 5.5 - B performs faster B
+know B faster B concurrent updates inserts
+B tables 4x bigger B counterparts
+solution used simple subclass B allows customization subclassing B hassle nsattributedstring et al
+could makes B slower B
+using B newer B know enough choose
+working B faster B
+since B 32 bits wide four bigger B poBer decremented prBing every fourth B reverse string
+basis B larger B chance loss information conversion
+one drawback believe compute B divider make line shorter 80 B longest line shorter 80 B exactly 80 B
+B bigger B typically 4-bytes vs
+remove operator warning always emitted probably good result expression B promotions larger unsigned B
+B arguments B could make optional B add placeholders B
+resulting file B approach smaller size B file may rescale better
+recently switched B B work think like little B use wiki functionality almost everyday
+B handles multiple projects sub-projects right box seems nicer B
+want B accessable via one B
+performing asynchronous testing actually possible B handled better another testing framework B
+B executed faster B method remove class animation complete
+B higher operator precedence B operator therefore happen B
+B suited countdown timers things need run continually since B runs need keep calling
+page B B need create another page
+B strict B learning
+difference large enough constant factor front term B lower constant factor front term B one B faster B
+average asymptotic order B usually efficient B due smaller constants tighter loops
+... B consider better practice B trough regular
+functionally identical however argued B error prone B functionality right together
+B sppropriate B
+additionally reset time go B B makes sense B especially using c99 declared within B
+looping lines files use B readable B
+started testing aim B performance better c# B goes exactly opposite understanding gone agreed...but increase upper range B performance goes well compared c#.
+really B would probably clearer B reflection
+think B appropriate B documentation says object method called invalid state right
+B far easier B learn specify constraints
+links B preferred standard mac os x clang complete B even considering newest gcc
+opinion elegant solution jsf think B ioc container makes powerful B
+outlined B allowing 1 B item placed inside
+android plot free chart solutions mentioned support annotations one afreechart port B android currently using awesome features B
+element update B B value element greater B B value respectively
+setting B higher B cause 380 error
+validate B field greater B field
+several things found cocos2d forums lead believe issue B implementation ios tried using stb_image lodepng avoid B libraries actually performed even worse B
+good news B content types lightweight B content types raw listing iterating folder.contentitems template expensive
+B better suited kind thing lets store symbols B quickly parse match values reject
+node B children used B substantially space efficient time efficient th ternary search B
+integer B faster B
+B usually faster B
+B usually significantly faster B
+since B pretty expensive think even worse 2 B
+depends requirements setting B connection sometimes easier managing B connection
+formats allow various data compression codecs note B popular B also provide benefits fast serializable deserialization column pruning bundled metadata
+B is-a relationship example usermodel is-a model thus B methods model part usermodel
+want smooth B B animations instead setting visibility B slower B animation used enteractions exitaction datatrigger
+found using simple for-loop iterating string comparing using B performs faster B regex
+plus copy rtf B recent updates sublimehightlight B
+also throwing B makes sense instead B string blank empty null values
+think B better j2ee server start B
+B might better B one long polling long polling better periodically polling server
+B configured respond requests matching predefined pattern far easier B
+apart might want give B try - works lower level B give control happening unlike jmf good actively maintained project.
+find make B height smaller B larger
+safely assume B result precise B discard B result completely
+assume control B would datagridview fairly probably make look better B want really good looking ones might want look thirdparty grid controls
+biggest adding new features B application expensive would application better like c# B
+B runs one minute B takes 4 hours
+B provides mechanisms asserting shapes B graphs new work B shapes
+blog B explains B access token android
+since B better suited transfer large amounts data difficult formatted data established standard submitting forms safer unsafer secure B requests
+trying B cloudinary direct uploads working using carrierwave accepts_nested_attributes_for submit one images B
+opinion B requests secure B requests data easily intercepted
+B requests safer restful requests safer B requests
+heard B decompression requires memory B decompression
+pyquery based B also faster B
+convert B 10-30 smaller B average
+basically - B lower level B high-level
+uppercase B add next 3 characters string starting 4th character force lower B
+B type safety better B
+B use memory B
+generally B better login B B would allow easily navigate main page
+also happens common msi B higher product b b B install
+wondering happens release B higher target sdk B previous B
+B though perhaps bit worse B
+default implementation B format better suited single B handle trusted entries entries container
+developers seem agree B effective replacement B
+careful optimization however make B 61 faster B
+B renders significantly brighter B
+found set B B run core 0 time performance get better setting B B 8.76s vs 14.66s
+general B safer alternative B
+B notoriously unsafe cousins B_s B although mildly safer B
+said - mdpi also means B resolution B B resolution
+B expensive B still expensive
+differences better stick one prefer example use B plays better use B
+general consensus including docs B accurate B dealing english
+understanding although B newer necessarily better B provides different api might considered simpler depend use
+thought using pseudos display top-to-bottom bottom shadows containing element pseudos display within B element positioning B z-index higher B effect
+B better B
+really considering B higher magnitude B
+value B higher range B produce undefined behavior
+simple B different handling new - mql4.56789 float B et al
+widths positive B wider B significand 53 bits
+smartadder Berface method signature add B B b override method add B B b adder Berface B wider B
+get difference B B B probably better optimisation
+notice B bundles always 4-5 mb larger B counterparts precisely
+even B fonts look thinner B ie
+B extremely slow path grep seems 50 faster array.filter making 900 slower B run
+wonder benchmark also influenced installed extensions B really higher B performance
+B takes almost 3 longer B
+zero-B B quite larger B normally ignore B
+taskproperty class decorated datacontract attribute datamember attribute property B faster decorated B attribute
+B ahead larger extensions B
+made testing came B slower B
+B center centred size B
+B tend optimize spawning threads performance range worse B pure cpu vastly better B sleeps
+also tried spacing B B B smaller B spacing wrong
+assuming B always bigger B drive parent height
+could make B priority B
+think custom B better really want use B would use hidden B field apply onclick functions B change value hidden B field
+B bigger B want B set auto
+solved resize B larger 800px B larger 600px
+resize browser window still viewport equal 1024px B greater B viewport longer considered landscape mode switch portrait mode
+form contentpane B B smaller images B B better would use
+similarly max-B effect B greater B
+example know object whose B B smaller 50 pixel put 50 increment nested loop either B B both.
+since svg B larger B every 1px change B svg causing B change 10px
+B always bigger B
+current B B greater inital B B ignore swipe
+B greater B scale image 200px B
+smaller B B 2000px become circles larger B B 2000px become circles rather stay original shapes largely rounded corners
+switch values B B B longer B
+screen layout changed landscape know B smaller B longer landscape mode
+sometimes B greater B sometimes B lesser B
+like ipad lest say 137p x 60p lets say iphone B 150 smaller B lets say 125 smaller
+arise image-B greater image-B image B greater B resize image swapping image B B applying cifilter..
+viewport B B square
+basically would start font B smaller B textview iterate binary search fonts varying sizes find one measures smaller B textview
+suggestions obtain current size pass method B would greater B since landscape mode
+image B B larger device screen B B want crop image matches device dimensions see picture
+B larger B itâ landscape mode
+devices like droid bottom row squinched table B smaller B
+happens images B smaller B images tall
+B greater B individual page add dictionary entry page explicitly set rotation
+want draw trapezoid adjustment must calculated like subtract top trapezoid base divide 2 result divide new result B trapezoid B B B
+B bigger B want 1 1
+B bigger B
+make B proportional B set B bigger B
+using orientation landscape consider whether keyboard popup change display B size larger B size css consider landscape
+B bitmap greater B returned image landscape rotate 90 degrees
+portrait mode sets smaller side B larger side B example 9 16 landscape sets larger side B smaller side B 16 9
+ultimate post specify form expression media query css simply compare device-B device-B display one style B greater B versa
+view need place uiimageview told place inside rectangle takes screen B B smaller B fixed size
+okay used one trick pony solution tried modify create square image rectangle B B stretch original image instead center
+determine scaling x dimensions calculated differently B greater B
+B œlandscapeâ means B greater B
+works desktop machine make B smaller B
+could try B method called earlier B
+depending answers guessing B might trick better B
+results end close B image comes little bit blurrier B image
+far compiler concerned conversion B 0 B int better conversion B 0 pointer
+B complex hood B
+first B datagram simpler B one
+gaming especially fpss B tends chosen protocol chatty B
+viewed B wider B responsive according smaller B size like
+B smaller going crop larger B
+B B higher data type precedence var B data types
+B 4 bytes B 1 byte seems reasonable believe accessing map item given B faster accessing normal array item given B index
+since B normally wider B truncates value B assigned
+value sizeof B sizeof B
+B precedence B converted B
+B B could size B unsigned positive range B
+decltype B + B B B conversion rank B promoted B call operator+
+probably always use id number change type name need update user table also allows keep datasize table full B smaller one full 45 B varB
+new member fields declared B yes B presumably uses memory since fields declared B plus fields declared B
+B flexible treated entire object responds B methods plus
+current task looks like B since smaller simplier B
+addressing issue #2 B phone smaller B 600dp use layout res layout folder
+rather little iterate keep B datas insert every new data binary tree little datas B datas
+B time happens first iteration loop 2-4x longer B time
+B definition slower B drawback execution speed even noticeable applications
+arraylist - B 2 faster speed foreach B
+give B divide higher precedence B subtract like example adapted john levine lex yacc 2 e 1992
+B covering one B element point multiple event.target.id covered
+incidentally scrolling windows version B fine albeit little slower ie B
+want find objects B value smaller equal passed B-value B value larger equal passed B-value
+interesting works since documentation states B must larger B looks like -1 treated like empty null value
+pointed comments runif B must B
+B prettier compact form see soto answer even compact one B
+little B aspect treated worse B
+secondviewcontroller subclass firstviewcontroller also B one B
+think natural precedence unlike say multiplication B greater precedence B addition built B addition
+might want look one options running since B slightly lighter weight B although lighter days
+basically seems like B larger slower B
+looks like B slower B
+found B better B performance project activity better docs ...
+seems ie B strict B
+specifically B height bigger B
+B 1 line height B left side
+weight involved needed space width 2 B B offer otherwise things screen
+new h guaranteed smallest old h B still larger old h B
+let use B B like real life B 1 B
+left B must strictly B duplicate keys form linked works like single node since left B
+B view larger B expansion suffix make difference well
+also inner B div wider B div scrollbars work
+expecting B widget little larger sizehint B layout
+disadvantages B row relates one B data duplicated one row per limitation solution
+B B B application crashes excess B selected
+B smaller B narrow screens
+tried bunch things well one hook insertafter stay B - worked perfectly position higher B inside B know causing unwanted behavior

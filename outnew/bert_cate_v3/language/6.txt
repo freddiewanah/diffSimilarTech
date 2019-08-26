@@ -1,0 +1,58 @@
+the perf hit will be ridiculous i know apple say * execute faster than * but this is low level so it will be harmless
+
+one of the reasons we want to move is because * is more secure than *
+
+usually i find * s method naming to be cleaner than * s but init methods can be an exception
+
+as you can see the * example is more complex and error prone than your * code
+
+* seems to be less dynamic than * in these stuffs
+
+* is lot smarter than * about singleton class
+
+my view is that if in some cases * is faster than * it doesn t mean that all over performance of * is slower
+
+bottom line i would personally hesitate to draw any simple conclusions of * is faster than * or vice versa
+
+or is it merely a hint to whatever tool converts between * and * to better deal with * optionals
+
+* is in fact a superset of * not a subset -- * has more functionality built in than * itself
+
+* being a whole lot less than *
+
+if your output is going to be similar to your input with small changes then the * solution is often a lot simpler than the * solution
+
+* is significantly more appropriate to use than * for such kind of tasks
+
+saxon-ee supports streaming of large xml documents using * or * streaming is better supported in * than in *
+
+i m doing a comparison of * haskell * and es6 and i m less farmiliar with * and * but i want to represent all of these languages fairly so is this good * code
+
+like the rest of rest * is lightweight easier to understand and easier to write than *
+
+* is perhaps more approachable than * however
+
+because * is more or less superset of * it of course works also in *
+
+for a counterexample i think * programs ran faster and used less memory than the * programs that preceded them mdash
+
+however gambit * has smoother access to c c++ code libraries which far outnumber common * s libraries
+
+* is older than common *
+
+also * has stricter precedence rules than *
+
+aside does this mean * is more homoiconic than *
+
+my experience is that designers can use whichever they prefer usually and most agree that * is easier to use and the code is shorter fact than equivalent *
+
+pacoblaze was written in * which like adam said less common than *
+
+* is a more advanced language than *
+
+* has more structure than *
+
+* is more verbose than * here
+
+i know that * performs better for some regex but will the * performance really be this bad in comparison
+

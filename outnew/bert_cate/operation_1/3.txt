@@ -1,0 +1,244 @@
+however B is a more complex operation than B or shifting
+
+however B is a more complex operation than B or shifting
+
+look at it this way based on your logic while x is greater than 100 B 5 while it s greater than 500 B 5 .
+
+look at it this way based on your logic while x is greater than 100 B 5 while it s greater than 500 B 5 .
+
+note that i ve incorporated dshin s comment that B is faster than B however the performance improvement is about 90 removing the binary search 10 multiplication vs
+
+perhaps it s the case that B is much more accurate than reciprocal plus B
+
+i presume that you know that using a B is a lot slower than B by decimal number 5 is always slower than 0.2
+
+note that i ve incorporated dshin s comment that B is faster than B however the performance improvement is about 90 removing the binary search 10 multiplication vs
+
+perhaps it s the case that B is much more accurate than reciprocal plus B
+
+i presume that you know that using a B is a lot slower than B by decimal number 5 is always slower than 0.2
+
+as in title why is B much faster than B in this example
+
+in general B is more costlier than B right
+
+as in title why is B much faster than B in this example
+
+in general B is more costlier than B right
+
+because B is faster than B and can be faster than shift
+
+so ideally i want to have approximate relative times of elementary operations execution like B typically takes 5 times more time than B exponent is about 100 B
+
+since B is more expensive than B you want to let the machine paralleliz it as much as possible so saving your stalls for the B means you spend less time waiting in the B loop than you would in the B loop
+
+also B is faster than B and B is faster than division
+
+instead of computing the slower it instead computed x + x because B is faster than B
+
+i know that B operation is more trivial than B operation
+
+B is a relatively complex operation and is likely to be slower than say B or comparison
+
+if we look at the speed of operations B is not drastically slower than B
+
+B is not more difficult than repeated B
+
+the reason for this is that and is strong than or it s like in math where B is stronger than B 3 5+3 15+3 18
+
+in any case if B is faster than B a better solution might be to use a table and index by it
+
+because B is faster than B and can be faster than shift
+
+so ideally i want to have approximate relative times of elementary operations execution like B typically takes 5 times more time than B exponent is about 100 B
+
+since B is more expensive than B you want to let the machine paralleliz it as much as possible so saving your stalls for the B means you spend less time waiting in the B loop than you would in the B loop
+
+also B is faster than B and B is faster than division
+
+instead of computing the slower it instead computed x + x because B is faster than B
+
+i know that B operation is more trivial than B operation
+
+B is a relatively complex operation and is likely to be slower than say B or comparison
+
+if we look at the speed of operations B is not drastically slower than B
+
+B is not more difficult than repeated B
+
+the reason for this is that and is strong than or it s like in math where B is stronger than B 3 5+3 15+3 18
+
+in any case if B is faster than B a better solution might be to use a table and index by it
+
+B can also cause a divide-by-zero and it has a higher precedence than B
+
+B can also cause a divide-by-zero and it has a higher precedence than B
+
+B is faster than mul but if you want to B two general values mul is far faster than any loop iterating B operations
+
+B sub are cheaper than B better throughput and lower latency
+
+B is faster than mul but if you want to B two general values mul is far faster than any loop iterating B operations
+
+B sub are cheaper than B better throughput and lower latency
+
+note that is equivalent to i 10 but much faster since B is around 10 times slower than B
+
+note that is equivalent to i 10 but much faster since B is around 10 times slower than B
+
+this is called a strength reduction optimization because B is stronger slower more expensive than B
+
+this is called a strength reduction operation because B is a weaker and cheaper operation than B
+
+this is called a strength reduction optimization because B is stronger slower more expensive than B
+
+this is called a strength reduction operation because B is a weaker and cheaper operation than B
+
+if the numbers are huge dividing x by b might be betterâ B is usually slower than B but getting out of the huge-number domain early might help more than avoiding B
+
+if the latter yes floating point B is generally faster than B
+
+as hroptatyr mentioned the B is quite fast and it s much faster than B
+
+B is faster for unint8 than B in your case
+
+the tostring should be slower than parse since B is generally slower than B
+
+floating point B usually takes fewer cycles than floating point B
+
+iirc floating-point B is much less expensive than B so this might be faster than both
+
+integer B is much faster than B
+
+B may be heavier than B but a commenter pointed out that reciprocals are just as fast as B on modern cpus in which case this isn t correct for your case so if you do have 1 x appearing somewhere inside a loop and more than once you can assist by caching the result inside the loop and then using y
+
+floating point B is faster than B so if speed is relevant
+
+i found out that integer B is much slower than B unfortunately
+
+as to why B is faster than B and when the divisor is fixed this is a faster route
+
+because B is often much slower than B if performance is critical you might keep a table with powers of ten and their reciprocals
+
+it is well known that integer B is slow operation typically several times slower than integer B
+
+this because 1 x is simpler than y x and B is faster than B
+
+similar to pmg s solution but still faster because B is faster than B -
+
+B is slower than B is generally - and definitely using regular expression matching is going to be slower than B is..
+
+the intuition is that B is a more costly affair than B
+
+is it possible that the B is six times slower than B and
+
+B is inherently a much slower operation than B
+
+formally it means B cannot have a complexity worse than B
+
+even simpler and probably even faster because B is faster than B is dav s answer which is the most natural algorithm.
+
+according to this author integer B can be 40 times faster than integer B
+
+which one is faster is indeed a cpu-specific issue or at least how much faster is cpu specific yes B is typically seen as slower than B
+
+also addition is faster than B and B is faster than B
+
+your friend has a point a B actual B not just writing in c is slower than a B
+
+if the numbers are huge dividing x by b might be betterâ B is usually slower than B but getting out of the huge-number domain early might help more than avoiding B
+
+if the latter yes floating point B is generally faster than B
+
+as hroptatyr mentioned the B is quite fast and it s much faster than B
+
+B is faster for unint8 than B in your case
+
+the tostring should be slower than parse since B is generally slower than B
+
+floating point B usually takes fewer cycles than floating point B
+
+iirc floating-point B is much less expensive than B so this might be faster than both
+
+integer B is much faster than B
+
+B may be heavier than B but a commenter pointed out that reciprocals are just as fast as B on modern cpus in which case this isn t correct for your case so if you do have 1 x appearing somewhere inside a loop and more than once you can assist by caching the result inside the loop and then using y
+
+floating point B is faster than B so if speed is relevant
+
+i found out that integer B is much slower than B unfortunately
+
+as to why B is faster than B and when the divisor is fixed this is a faster route
+
+because B is often much slower than B if performance is critical you might keep a table with powers of ten and their reciprocals
+
+it is well known that integer B is slow operation typically several times slower than integer B
+
+this because 1 x is simpler than y x and B is faster than B
+
+similar to pmg s solution but still faster because B is faster than B -
+
+B is slower than B is generally - and definitely using regular expression matching is going to be slower than B is..
+
+the intuition is that B is a more costly affair than B
+
+is it possible that the B is six times slower than B and
+
+B is inherently a much slower operation than B
+
+formally it means B cannot have a complexity worse than B
+
+even simpler and probably even faster because B is faster than B is dav s answer which is the most natural algorithm.
+
+according to this author integer B can be 40 times faster than integer B
+
+which one is faster is indeed a cpu-specific issue or at least how much faster is cpu specific yes B is typically seen as slower than B
+
+also addition is faster than B and B is faster than B
+
+your friend has a point a B actual B not just writing in c is slower than a B
+
+so if your code has tough data dependency problems B is about 12 times faster than B
+
+it is true that B and modulo a B operation is slower than B
+
+and B has larger complexity than B
+
+with careful optimization however you can make B 61 times faster than B
+
+if you are doing physical simulations things like B or square roots are going to be way more expensive than B
+
+an B is faster than a B and a multiplication
+
+generally the B is more costly than B i think but not much difference in this case
+
+i need to find out that how much B operation is faster than B operation in a gpu
+
+so if your code has tough data dependency problems B is about 12 times faster than B
+
+it is true that B and modulo a B operation is slower than B
+
+and B has larger complexity than B
+
+with careful optimization however you can make B 61 times faster than B
+
+if you are doing physical simulations things like B or square roots are going to be way more expensive than B
+
+an B is faster than a B and a multiplication
+
+generally the B is more costly than B i think but not much difference in this case
+
+i need to find out that how much B operation is faster than B operation in a gpu
+
+the misunderstanding is that incrementing the B is not faster than doing a B
+
+the misunderstanding is that incrementing the B is not faster than doing a B
+
+this tiny overhead on add is vastly outweighed by the savings on lookups since all programmers should know and understand that B compares are vastly slower than B especially with unicode - the cpu can t just do a block compare of data but must check each pair of characters specially even using a table look-up this is vastly slower
+
+btw a B search done with removing i is much faster than a B search
+
+this tiny overhead on add is vastly outweighed by the savings on lookups since all programmers should know and understand that B compares are vastly slower than B especially with unicode - the cpu can t just do a block compare of data but must check each pair of characters specially even using a table look-up this is vastly slower
+
+btw a B search done with removing i is much faster than a B search
+

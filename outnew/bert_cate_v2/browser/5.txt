@@ -1,0 +1,50 @@
+2 install the B extension there s also one for B but the B one is more reliable -- so if you re a B addict like i am then use both
+
+B is just faster than B which just faster than ie at bit-wise operations
+
+safari and opera work with the B setting but B and ie display the iframed page larger than B causing part of the text to be cut off
+
+try your current setup in B B typically has a narrower minimum viewport width and try something like min-width 600px in B and your styles should be applied as expected layout.css will be applied when the viewport is at least 600px wide
+
+update3 now it works here which means that i couldn t fully reproduce my bug to show it to you but in general the problem is that the height of 5x5 table in B is less from B on 22px which is 22px gap between table container and a table itself
+
+i ve ran into out of memory errors on B with canvas heights greater than 8000 B seems to handle much higher at least to 32000
+
+i think from my tests perhaps B has more strict standards than B about cookie manipulation
+
+the performance in B is best less so in B and ie
+
+B seems to animate the element quicker than B does and so while a duration of 1s is enough for the animation in B B needs it to be 2s to be slower and show the effect
+
+and additionally the algorithm that B uses is better than the one in B at least for handling the resizing of text
+
+in B it seems .prototype is faster B shows no difference between the two although generally performs slower than B
+
+i m sticking with B debugging of my angular 2 app outside of vs code as its user experience is better than B especially when working with typescript files so i ll stick with that for now unless i can figure this out
+
+if you are able to enforce browser usage i find that B on android preserves line breaks when copying and pasting much better than B
+
+performance is browser and device dependent for example B handles objects better than arrays while B prefers arrays
+
+however a sdp object local description by B does not contain datachannel at all and moreover the sdp is much shorter than B and less information bundled
+
+in B it is appearing higher than the original in B
+
+i am not concerned about the fact that B runs faster as browser js implementations will vary so much as the wide spread of results encountered in B that makes getting an accurate result impossible
+
+the funny thing is that for abc_def property B is actually much faster than B and ie as i expected
+
+transparency is also an issue however B seems to handle all three better than B
+
+that means B is more than 7x faster than B here
+
+on your screenshot div width in B is bigger than in B and google-chrome
+
+okay B ios is more strict than B android when it comes to this all fine but it still needs to enable me to allow the connection through
+
+the browser does not matter though B gets way more consistently working results than B
+
+a lot of people use iphones ipads and B is literally the only option even B is more like B in disguise... so it s quite a portion of users who are suffering from this issue
+
+B is worse than B
+

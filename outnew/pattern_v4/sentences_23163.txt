@@ -1,0 +1,9 @@
+1517
+emacs aquamacs
+Pattern(s): 
+i can t speak to the extensiveness of the included elisp packages either
+someone syncs carbon emacs with the upstream tree quarterly i think
+aquamacs has a more irregular schedule but it s seen some pretty major updates over the last year
+
+
+

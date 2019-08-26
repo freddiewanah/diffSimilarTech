@@ -1,0 +1,66 @@
+B is more of a handshake done with the server while B is the actual stream coming in once the handshake is done and you start streaming
+
+in short as an authentication protocol B is far more secure out of the box is de-centralized and will put less load on your directory authentication servers than B will
+
+B is more pythonic than B or shudder soap
+
+in fact in some ways B is better than B
+
+how B is better then B
+
+if they are connected over the internet you could try to use the examples for B but B has more overhead than B
+
+i was going through internet and so and understood that web sockets are encapsulations to B which by itself is slower than B ofcourse at the cost of reliability but i couldnt find much info if websockets or B would be ideal to implement such a server
+
+it was introduced since the nat traversal for B is much more complicated than B
+
+as far as B goes i think B is more generally used protocol for more data-centric requests like chat or things that require packet integrity B tolerates packet loss to lower latency
+
+i was expecting that B would be faster but B is on average two times faster than B
+
+B is much better than B in terms of reliability
+
+in some applications B is faster better throughput than B
+
+for instance zeromq can leverage B multicast to run faster than any B protocol but the application programmer doesn t need to learn a new api
+
+B is reliable but slower than B while B is not safe and i have to implement my own fault-handling codes
+
+B communication is connection less as compared to B which need a connection
+
+B communication requires much less overhead than B due to the number of messages exchanged
+
+also see this other so answer about the misconception that B is always faster than B
+
+in doing so the tradefoff is that B becomes slower compared to B
+
+a heartbeat is by nature a connectionless contrivance so it goes that B connectionless is more relevant here than B connection-oriented
+
+B port scanning is possible but it is harder than B scanning
+
+because there is no confirmation on B packets it s slightly faster than B
+
+B is faster than B and the simple reason is because its nonexistent acknowledge packet ack that permits a continuous packet stream instead of B that acknowledges a set of packets calculated by using the B window size and round-trip time rtt
+
+moreover B has more processing overhead than B
+
+this is the reason why B is much faster than B
+
+B gives smaller latency with many many issues to discuss here of course B gives bigger latency
+
+i know B is faster than B for various reason
+
+i know B is better to send file but i have a homework about sending file via B protocol
+
+this was surprising for me as it is well known fact that B performs better than B
+
+the decision on yours the B protocol used for connection oriented network that is more secure than B
+
+the strange thing is that when streaming is done via rtsp unicast B generates both sender reports and receiver reports but when streaming is done via B multicast only sender reports are generated
+
+an B packet has a header that is 20 bytes and is probably going to be slightly slower than B
+
+you could always use B that will work both on http and B websites but loading a B resource is slower than loading a http resource because of the encryption and B handshakes
+
+there is a limitation on creating virtual hosts for name based virtual host while using B 443 port so if you want to have more than one B port enabled you will need ip based virtual hosting
+

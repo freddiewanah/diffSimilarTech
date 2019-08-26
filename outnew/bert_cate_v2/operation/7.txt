@@ -1,0 +1,56 @@
+for example in the expression 1 + 5 3 the answer is 16 and not 18 because the B operator has a higher precedence than the B + operator
+
+in technical terms the x B operator has higher precedence than the + B operator
+
+and has higher precedence than or so the brackets are optional - in the same way as B has higher precedence than B so
+
+since B has a higher precedence than B the same convention is used
+
+if B is slower than B instead of doing
+
+i know that B operation is more trivial than B operation
+
+i don t understand why the division B in c++ is so much slower than B subtraction where the managed c# version is more reasonable to my expectations
+
+the same speed as B though still faster than B
+
+not sure about this but B should take more time than B so it s slowing it down ex
+
+in arithmetic B has higher precedence than B
+
+just like it would be possible to come up with arithmetic expressions that could be written with less parentheses if B had a higher precedence than B
+
+the B has higher precedence and therefore binds more tightly than B
+
+on simple low-cost processors typically bitwise operations are substantially faster than division several times faster than B and sometimes significantly faster than B
+
+note that the type cast has a higher precedence than B which is in turn higher than B 3 vs
+
+in any case if B is faster than B a better solution might be to use a table and index by it
+
+mathematics clearly defines the order of operations as giving B higher precedence than B
+
+so every multiplicative-expression is an additive-expression but not vice-versa and this is what makes B bind tighter than B
+
+for integers B is harder than B may be slower than B etc but may still be very fast as long as there is sufficient cpu-power dedicated to it
+
+this platform is probably not representative of your microcontroller but the test shows that on this platform the B is considerably slower than the B
+
+B has higher precedence than B so in the first two examples only the second number is being divided
+
+the B operation binds tighter than i.e is evaluated ahead of the B so you are taking a square root of a negative number
+
+this is because B operator has higher preference than the B operator - in the first example you use are not using brackets therefore B takes place first you can change your code to
+
+the first difference is that B is much more expensive than B
+
+to start with i need multiplication and B to take higher precedence than B and subtraction
+
+multiplication and B are higher precedence than B so they get done first - before the implicit conversion to string for concatenation
+
+since B has a higher precedence than B 5 2 gets evaluated as a integer B returning 2 as an integer
+
+the B has higher precedence than the B so what you re calculating is sumaverage1+ sumaverage2 5 which is integer B which is probably not what you want
+
+as int B gets larger taking powers might be faster than B
+

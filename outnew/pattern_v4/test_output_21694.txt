@@ -1,0 +1,480 @@
+6713
+junit testng
+Pattern(s): 3	
+we didn t want people to feel uncomfortable writing tests while getting to know testng because we wanted them to keep writing a lot of tests
+also junit is pretty much the de-facto standard in the java world
+
+
+
+29923
+bazaar git
+Pattern(s): 5	1	
+most of the people were reluctant to move over as they have to type in two commands to commit and push bazaar ci + bazaar push
+also it was difficult for them to understand the concept of branches and merging no one uses branches or merges them in svn
+
+
+
+37854
+postgresql mysql
+Pattern(s): 3	
+and postgresql was originally written by some of the same people in the 80s as a successor to ingres
+oracle goes way back and i m not sure where mysql came in
+
+
+
+60119
+cassini iis
+Pattern(s): 3	5	
+cassini does not support https
+however you can use iis to do this if your using iis 5.1 download the ms iis toolpack for iis 6.0 it comes with a tool to create self signed ssl certificates
+
+
+
+77945
+quicksort mergesort
+Pattern(s): 3	3	5	1	1	
+with o n 2 worst case that rarely happens quicksort is potentially far slower than the o nlogn of the merge sort
+quicksort has less overhead so with small n and slow computers it is better
+
+
+
+77945
+quicksort mergesort
+Pattern(s): 3	3	5	1	1	
+quicksort has less overhead so with small n and slow computers it is better
+but computers are so fast today that the additional overhead of a mergesort is negligible and the risk of a very slow quicksort far outweighs the insignificant overhead of a mergesort in most cases
+
+
+
+90062
+umbraco dotnetnuke
+Pattern(s): 5	
+umbraco gets my vote as a good cms that comes close to joomla in maturity and out of the box functionality
+i m not that fond of dotnetnuke but it s been at least a year since i ran it thru its paces
+
+
+
+109038
+cairngorm puremvc
+Pattern(s): 5	
+cairngorm just skips over things like event bubbling and instead opts for solutions involving global variable
+in short cairngorm is the visualbasic of flex it works but will teach you a lot of bad habits
+
+
+
+109038
+cairngorm puremvc
+Pattern(s): 5	
+in short cairngorm is the visualbasic of flex it works but will teach you a lot of bad habits
+puremvc isn t so bad it just isn t a very good fit for writing flex applications
+
+
+
+126003
+google-chrome firefox
+Pattern(s): 5	
+or you could fire up firefox in full screen mode in a dedicated vnc server instance and use a screenshot grabber to take the screenshot
+fullscreen minimal google-chrome vnc server instance no visible ui + you can choose your resolution
+
+
+
+133160
+firefox safari
+Pattern(s): 5	
+afaik there is no difference on the part of browsers as both firefox and ie will incorrectly cache the response from a url with a querystring in the same way they cache the response from a url without a querystring
+in the case of safari it respects the spec and doesn t cache urls with querystrings
+
+
+
+142778
+.htaccess httpd.conf
+Pattern(s): 1	1	5	
+check the error_log - it will tell you of any errors in .htaccess if it s being used. putting an intentional syntax error in .htaccess is a good check to make sure the file is being used -- you should get a 500 error on any page in the same directory
+lastly you can enable a rewrite log using commands like the following in your httpd.conf rewritelog logs rewritelog rewriteloglevel 7 the log file thus generated will give you the gory detail of which rewrite rules matched and how they were handled
+
+
+
+145200
+ironruby ironpython
+Pattern(s): 1	5	
+i suspect the team will go for language-completeness rather than performance first
+this will allow you to run ironruby run most ruby programs when 1.0 ships then they can improve perf as they go
+
+
+
+145200
+ironruby ironpython
+Pattern(s): 1	5	
+this will allow you to run ironruby run most ruby programs when 1.0 ships then they can improve perf as they go
+i suspect ironpython has a similar story
+
+
+
+153015
+udp tcp
+Pattern(s): 1	
+since ip has become the dominant protocol a port in networking terms has become synonomous with either a udp or tcp port number - which is a portion of the socket address
+udp is connection-less - meaning no virtual circuit between the 2 endpoints is ever created
+
+
+
+167434
+boost stl
+Pattern(s): 5	
+but even then it s most likely you would be using plain stl containers and not boost
+boost only provides the tr1 containers for those compilers that do not yet include tr1
+
+
+
+173406
+firefox safari
+Pattern(s): 1	5	
+currently i believe that safari is the only shipping browser to support any of these and i believe it only supports the client side databases and local storage parts
+edit olliej correction firefox 3 supports the application cache but alas not the client side db
+
+
+
+176144
+opera safari
+Pattern(s): 3	1	
+second safari has the greatest standards support combined with a marketshare which isn t negligible opera is just hard to justify for cost benefit reasons
+third in my experience going from safari to firefox is usually less problematic than the other way around
+
+
+
+176144
+opera firefox
+Pattern(s): 3	1	3	
+second safari has the greatest standards support combined with a marketshare which isn t negligible opera is just hard to justify for cost benefit reasons
+third in my experience going from safari to firefox is usually less problematic than the other way around
+
+
+
+194248
+lxml elementtree
+Pattern(s): 5	
+if you need a validating parser or complete xpath support lxml is the way to go
+for a long time it used to be quite unstable but i haven t had any problems with it since 2.1
+
+
+
+197420
+pthreads fork
+Pattern(s): 5	
+having said this i would not use this code - i would either be inclined to fork mklink or look at the native library from jruby jpython sorry i cant look it up atm as my network connection is flakey
+i seem to recall that jruby has written a library that wraps up various pthreads apis into java thinks like chown that are required for ruby compliance but are not cross platform
+
+
+
+200235
+ubuntu linux
+Pattern(s): 1	
+i tried the first alpha version current is 3 of the flex builder under ubuntu and it was just okay but not useable for productive just alpha flashdevelop works only under windows maybe with wine.
+and in my opinion it s not a good ide fdt is on eye level with the flex builder but also not free and i don t know if it runs innately on linux
+
+
+
+200341
+jar war
+Pattern(s): 3	1	
+heck you can store content directly in a war file which is basically a jar file with a few extra bits
+yes you may need to write a custom resolver to use classloader.getresourceasstream but basically as you re given the ability to generate the content however you like fetching it from a jar file seems perfectly reasonable
+
+
+
+216153
+haskell scheme
+Pattern(s): 3	1	
+after that - haskell is incredibly interesting
+it s a language which does lazy evaluation right and the consequences are incredible including such things as a one-line definition of the fibonnaci sequence
+
+
+
+223288
+client-side server-side
+Pattern(s): 5	3	1	
+if javascript validation didn t work for any reason regular server-side validation scenario page reload with error informations takes place using the same server-side script
+this solution isn t as responsive as pure client-side validation needs time to send receive data between client and server but is quite simple and you don t need to translate validation rules to javascript
+
+
+
+228349
+uinavigationcontroller uinavigationbar
+Pattern(s): 5	
+uibarstyleblacktranslucent is more often used for uitoolbar so apple probably didn t make it easy to use it nicely with uinavigationbar
+you ll probably need to abandon the uinavigationcontroller or start hacking the frames careful with rotations if you want to reliably render under the bar area
+
+
+
+228349
+uinavigationcontroller uinavigationbar
+Pattern(s): 5	
+you ll probably need to abandon the uinavigationcontroller or start hacking the frames careful with rotations if you want to reliably render under the bar area
+also if your intention is to hide the navigation bar after a few seconds you ll have a much easier time if you make it fade out like the photos app instead of trying to slide it up like mobile safari
+
+
+
+229451
+gif png
+Pattern(s): 3	
+note also that irfanview does an awful job of converting 32bit png image to 256 allowing only one transparent color which looks bad if full color was dithered
+i see that the gimp manual states his png8 format like gif uses only one bit for transparency
+
+
+
+242348
+innodb myisam
+Pattern(s): 3	
+the other major thing to watch out for is that innodb does not support fulltext indices nor insert delayed
+but then myisam doesn t support referential integrity
+
+
+
+248757
+sudo passwd
+Pattern(s): 1	5	
+it s been awhile since i ve done much unix development so i m not really sure whether it s possible to set up sudo to not prompt for a passwd or even if there is an api for it but as a fallback you could enable setuid to root only when needed
+edit looks like sudo has a nopasswd mode so i think it should work since you re running the programs as external commands
+
+
+
+256099
+client-side server-side
+Pattern(s): 3	1	5	3	
+but the server-side part is pretty simple
+the client-side part is trickier i think
+
+
+
+256099
+client-side server-side
+Pattern(s): 3	1	5	3	
+the client-side part is trickier i think
+i found this article helpful he s writing things in php but the client side work is pretty much the same
+
+
+
+256521
+skip-lists tree
+Pattern(s): 5	
+from the wikipedia article you quoted θ n operations which force us to visit every node in ascending order such as printing the entire list provide the opportunity to perform a behind-the-scenes derandomization of the level structure of the skip-lists in an optimal way bringing the skip-lists to o log n search time
+... a skip-lists upon which we have not recently performed any such θ n operations does not provide the same absolute worst-case performance guarantees as more traditional balanced tree data structures because it is always possible though with very low probability that the coin-flips used to build the skip-lists will produce a badly balanced structure edit so it s a trade-off skip lists use less memory at the risk that they might degenerate into an unbalanced tree
+
+
+
+257043
+des aes
+Pattern(s): 3	
+it s been widely in use for a long time but since it was originally specified with only a 56 bit key it s questionable whether it s secure enough for any important uses at this point
+triple des is generally better but there are some known theoretical attacks
+
+
+
+257043
+des aes
+Pattern(s): 3	
+triple des is generally better but there are some known theoretical attacks
+if you have a choice of cipher you might want to look at aes instead
+
+
+
+264473
+innodb myisam
+Pattern(s): 1	5	1	
+sqlite runs in-process with the client application no network capability very low query overhead because of this potentially rather fast for easy queries because there is less ipc system calls and data copying to do
+very limited concurrency i think it s either one writer or multiple readers per database file mysql far more features choice of engines innodb provides good features for many workloads much more control of storage backup restore etc network-capable - which allows its use in large scale applications better concurrency - the innodb engine has mvcc which means that readers do not block writers nor do writers block readers
+
+
+
+273855
+punctuation words
+Pattern(s): 5	
+for your particular case i think comparing the search to real words sounds like the way to go with a words list like that
+the alternative styles punctuation require a bit more work but i doubt users will use that often enough to be an issue
+
+
+
+290894
+rss feed
+Pattern(s): 3	
+there s no reason to have multiple formats for a site available and any modern feed client can now parse atom feed
+atom has quite a few technical advantages over rss and is being widely supported and utilized by major companies such as google and microsoft
+
+
+
+294744
+cassini iis
+Pattern(s): 5	
+here s a link to how this is accomplished debugging asp.net is a bit different though and i m not sure if this will work for you
+if you are debugging locally using the light weight web server cassini you can apply this trick to cassini itself
+
+
+
+294744
+cassini iis
+Pattern(s): 5	
+if you are debugging locally using the light weight web server cassini you can apply this trick to cassini itself
+if you are debuggin directly on a web server though inside of iis i don t know how to get this trick to work but hopefully it will lead you in the right direction
+
+
+
+305596
+vbscript vba
+Pattern(s): 5	
+the code is as follows and then the c# code changing the vba to read aclink rather than acimport should allow linking
+edit re comments i cannot help with c# but here is some vbscript that links a table from one mdb to another
+
+
+
+306053
+ostream ostringstream
+Pattern(s): 5	
+because it s a temporary we cannot trivially convert to an ostream object through casting
+both the constructor obviously and str are class ostringstream methods. yes we need to use .str
+
+
+
+335379
+filesystems ntfs
+Pattern(s): 1	
+storing the data on the filesystems brings two key benefits performance matches the streaming performance of the filesystems
+blob size is limited only by the filesystems volume size
+
+
+
+355552
+haskell scheme
+Pattern(s): 3	
+but haskell is a bit trickier in that you can attempt to redefine a variable within the same scope but instead you just introduce another recursion equation
+this is a pitfall for people who learned ml or scheme first this is perfectly good ml or scheme let but haskel has scheme letrec semantics without the restriction to lambda values
+
+
+
+361949
+udp tcp
+Pattern(s): 3	
+udp is often used for various types of realtime traffic that doesn t need strict ordering to be useful
+this is because tcp enforces an ordering before passing data to an application by default you can get around this by setting the urg pointer but no one seems to ever do this and that can be highly undesirable in an environment where you d rather get current realtime data than get old data reliably
+
+
+
+371946
+stringbuilder stringwriter
+Pattern(s): 3	1	
+i suspect it s because it s writing to a stringbuilder which is inherently utf-16
+an alternative to get round this is to create a class derived from stringwriter but which overrides the encoding property
+
+
+
+416917
+boost allocator
+Pattern(s): 3	1	
+replacing your containers with boost containers is not a good idea
+the work to make appropriate custom allocator wouldn t be that bad but you d be violating the spirit of your allocate at startup rule
+
+
+
+429192
+websphere ibm
+Pattern(s): 5	5	
+i assume by websphere you mean the regular j2ee application server and not something like community edition
+websphere is a brand name applied to a number of ibm products
+
+
+
+435831
+vb.net vb6
+Pattern(s): 3	
+it s not 100 accurate and you will have to write code for things vb.net does not support such as control arrays etc
+once the code is in vb.net you can use a tool like sharpdevelop to convert the vb.net to c#
+
+
+
+444002
+client-side server-side
+Pattern(s): 5	
+if the vbscript is client-side you have a problem
+if it runs server-side then it s easy as long as the web server has read rights
+
+
+
+457325
+innodb myisam
+Pattern(s): 5	
+important to note in mysql count is very fast on myisam tables for or not-null columns since the row count is cached
+innodb has no row count caching so there is no difference in performance for count or count column_name regardless if the column can be null or not
+
+
+
+464432
+bazaar cvs
+Pattern(s): 1	5	
+bazaar is a good option
+its simpler to install than subversion perforce or cvs and no server component is required
+
+
+
+464432
+bazaar perforce
+Pattern(s): 1	5	
+bazaar is a good option
+its simpler to install than subversion perforce or cvs and no server component is required
+
+
+
+465681
+cvs svn
+Pattern(s): 5	5	
+branches are painful with cvs anyway
+as for resources for cvs see cvs home if you want to talk about svn i d suggest the svn book itself and this question
+
+
+
+465871
+actionscript mxml
+Pattern(s): 1	
+there is a prototype of an actionscript 3 version but it is not even in beta yet and i admit that i haven t had the time to test it
+i haven t found anything similar for xml let alone mxml
+
+
+
+466397
+cvs svn
+Pattern(s): 1	
+you should leave cvs
+cvs is old and not very fast in terms of branching tagging branch tag creation depends linearly on number of files in a project you should think of your branching strategy first do you want to have a stable trunk feature branches developer branches unstable trunk release branches platform branches this heavily depends on your project and development philosophy if you want to use svn you really have to think of your repository layout because nearly all softwareprojects are module-based and you should find a structure in which you can easily tag all needed modules
+
+
+
+466571
+ubuntu debian
+Pattern(s): 5	
+there s a really good article at debian package a day about it
+it does require kernel patching although ubuntu already has the patch applied i m not sure about any other distributions.
+
+
+
+483441
+i2c spi
+Pattern(s): 5	5	
+since only one cs line is supposed to be low at a time i2c is a pain
+its main advantage is that you can do everything in 2 wires + power and ground shared among a bunch of peripherals
+
+
+
+493199
+bazaar svn
+Pattern(s): 5	5	
+a very important missing thing in bazaar is cp
+you cannot have multiple files sharing the same history as you have in svn see for example here and here
+
+
+
+493983
+profiling instrumentation
+Pattern(s): 3	1	
+i tried codeanalyst once but as far as i could see it was doing polling rather than instrumentation and hence gave fairly crude results
+haven t found any free profiling for windows that i liked better than that
+
+
+

@@ -1,0 +1,40 @@
+however when i switch to * 4.0 the methods declared in * is no longer visible in *
+
+the * runtime is smaller than the * runtime
+
+as craig revealed within the announcement of * it is said to be faster than * by far
+
+specifically it makes it possible to write * code that plays nicely with * which is more strongly typed than *
+
+as you can see defining a singleton class in * is much easier than in *
+
+so it should have always been gkagent under * in order to be strictly correct however * is less type-safe than * so you could get away with it with the possibility that you d get an unrecognized selector exception if a gkagent object was ever passed to the delegate method and you assumed it was a gkagent2d
+
+* in that case would not be safer but less safe than *
+
+i hate to answer a request for a solution in language a by suggesting a solution in language b but what you are doing here falls into the class of problems which * handles much better than *
+
+right now * is much better as it supports a broader set of language and platform features than * .net ever did
+
+* is intentionally more compact than common * and you ll find that you can learn the language very quickly
+
+i ve noticed that the common * approach is more conservative than the approach * has
+
+that said it is a * which has fewer batteries included as compared to common *
+
+* is a dependently-typed language that is designed for low-level programming though it s somewhat less elegant than *
+
+the inclusion of * code into a batch file is simpler than * and the translation of a small code segment from vbs to * is not problematic
+
+...i suggest doing all of the scripting from within the * file and avoiding the use of .cmd .bat files completely if you can as * is much more readable and powerful though i prefer using the * language instead but that s just me
+
+* is more popular in europe and * is dominating in the us
+
+quite apart from the fact that the language * is far more feature rich than * the fact that you have developed in * means that you have made extensive use of the .net class libraries including system.security.cryptography that you give as an example
+
+getting your project migrated to * is certainly easier when you keep the old * controls
+
+* is much more convenient than creating an activex on * or c# vb.net
+
+while * syntax looks more related to shell syntax like bash or tcsh * is actually more closely related to * or php or ruby
+

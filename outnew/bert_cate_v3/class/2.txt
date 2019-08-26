@@ -1,0 +1,50 @@
+finally you might want to look into * which provides a lot more visual flexibility than * and can be seen as a sort of generalization of the latter
+
+to sum up the * is easier to use but the * allows you more configuration
+
+* is sometimes easier to use than *
+
+update i ve created a webhelper class that takes the place of * but provides more access to the necessary features of the underlying *
+
+to get the html instead of hardcoding it as above use the * class since it has a simplier api than *
+
+* is a shorter and more concise syntax but behind the scenes it uses a * so in terms of performance it won t be faster it will be equivalent
+
+is * better than * in terms of performance
+
+the general problem is that the * is more specific than the *
+
+hence your * is accepting less classes than the * contract promises
+
+for example you want to use abstract-class in such a case that each of the * is a more specific type of its abstract * fruit apple orange banana grape strawberries etc. and you want to use non-abstract * in a relationship such as dad and son
+
+for my understanding the * is always smaller less complex then the *
+
+note the use of std * is safer and more convenient than std * *
+
+* animation is generally easier and more intuitive to use than *
+
+using * is potentially slightly on the order of a few milliseconds slower than using * directly
+
+* is a richer api compared to *
+
+* is more generic than * and should be preferred
+
+not using the same * is a more common practice to avoid confusion and *
+
+* is better than * in this case because it s easy to resize it
+
+a * is nothing more than syntactic shorthand for a get set *
+
+it seems like if the * is slightly larger the * is double the size whereas if the * is slightly smaller this isn t the case
+
+in 6.7 a graph it shown that states that the performance of a * linq query is better than * linq query
+
+my understanding is that although * is newer it s not necessarily better than * it just provides a different api that might be considered simpler but doesn t that depend on the use case
+
+* is a much more pleasant api than *
+
+if adding 2000 entities and saving the changes at the end * is 3 to 5 times slower than * btw. i know that adding a large amount of entities would be better using sqlbulkcopy but that s not the point
+
+note also that using * is more efficient than creating a new * each time a letter is added
+

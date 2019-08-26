@@ -1,0 +1,32 @@
+note i recommend using * - it is much faster than * as it doesn t have memory leaks and comes with a built-in ad blocker
+
+as you can see in the image * is running a lot longer than *
+
+given these last two complications i am leaning towards a browser plugin as the solution probably * since low-level http stuff seems to be better supported than in * but i am wondering if anyone has an idea for a more cross-browser-y solution and or if there is something out there that might provide a good api for this kind of thing
+
+most noticeably if you look or * * and then internet explorer 9 you ll notice that the terms and conditions are slightly higher than in * or * and thus slightly touching the main content area
+
+or does this mean * is less secured on that point than *
+
+in * the button is wider than in *
+
+apple s safari applies almost no cross domain restrictions to files opened locally but * is much more strict about what it permits with * somewhere in the middle
+
+as you said * is faster than * so the webdriver is trying to interact with the dom before when elements are not yet visible exist
+
+in * it seems that this is 1px lower than in * and safari
+
+also why does * perform way better than * on this benchmark
+
+but * keeps being less responsive than * or ie
+
+also * has a great tool that allows you to edit css on the fly which i find more useful and quicker than using * s extensions
+
+i am not concerned about the fact that * runs faster as browser js implementations will vary so much as the wide spread of results encountered in * that makes getting an accurate result impossible
+
+only * and * seem to have this issue * even worse than * but i don t care that much about *
+
+but i haven t yet figured out whether it s me writing sloppy code with * perhaps being more forgiving than * or if it s * or if it s jquery
+
+in * it renders significantly brighter than in * or google-chrome
+

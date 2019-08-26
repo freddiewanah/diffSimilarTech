@@ -1,0 +1,104 @@
+* probably is more complete to manage canvas than * but the problem is always to exclude the finger touch if i m using the pen
+
+especially in * there is much more green in the painting than in *
+
+i ve found that the font-size in * is a bit larger than in *
+
+the reason * is slower than * is that the devmode plugin runs in a sandbox so calls and data have to cross the sandbox boundaries
+
+it seems that in * ie the line-through style is a bit lower than * i am not sure if this is because of the implementation of different browsers or something
+
+it s clearly visible in * and is far more subtle yet also distinguishable in *
+
+in my experience * has better javascript performance than *
+
+often * is understanding more thing then it should and * is bringing you the reality back in your face eheh
+
+in * it is appearing higher than the original in *
+
+this is trickier to work around and you should file a * bug describing the situation and where it s slower than * but you could potentially reduce the amount of buffer uploads by looking into instancing or using uniform arrays instead of updating vertexes for positions textures
+
+ellipsis still wraps in * but is more user friendly in * by adding the .
+
+the logs only seem to work with a * browser which is a laugh as usually * is better at running google apps than *
+
+graph beeing cut in * is a known issue * does not respect some print css and works much better with * not all versions still
+
+i ve been trying to sum up values over a swipe and see how different browsers report values and they vary a lot with safari reporting order of magnitude bigger numbers on almost all platforms * reporting quite more like 3 times more than * * being balanced on the long run but quite different among platforms on small movements on ubuntu gnome nearly only +3 or -3 seems like it sums up smaller events and then send a big +3
+
+based on what you have provided i cannot tell if * actually does load faster than *
+
+this doesn t happen in * and is less frequent in * than in ie
+
+and also does anyone know why is * so much slower than * in 3d rendering
+
+any ideas why * is apply more spacing than * ie
+
+better use * even thought * is not slower than * for once probably the tracing for the image comparison pays off yay
+
+* produces more space compared to *
+
+the * apis are currently experimental hence these tools are likely to be better developed under *
+
+in * the render of new tiles and the panning is laggy this is not the case when using maps.google.com so it s not an issue of * being better than *
+
+with * it was very easy i just grabbed the apk from their ftp server run the adb install command one would think it should be even easier with * but it s really not
+
+* - good a bit slower than *
+
+so i wonder the benchmark is also influenced by the installed extensions or * is really so much higher than * in performance
+
+if you are able to enforce browser usage i find that * on android preserves line breaks when copying and pasting much better than *
+
+ie * higher than baseline * on baseline
+
+you can see if you look at the bottom and right hand edges of both * lines up perfectly but * seems further in both directions and i cannot work out why either in firebug or * dev tools
+
+* takes almost 3 times longer than *
+
+the most interesting thing i noted is that certain test combos in * are much quicker than even *
+
+phantomjs achieves a better accuracy than * slightly lower than * but in around half the time of *
+
+* handles these better than compared to *
+
+it is also proper browser behavior * is just stricter about it than * is
+
+i use * for development as i find it runs faster than * and ie so it is a bore to guess where the icons are
+
+* which is more standards-compliant than * doesn t allow this
+
+what s up with * that the debugger behaves less conveniently than *
+
+but i guess * i have version 10 should be much faster than * 3.6
+
+for example using renatoargh s test * is faster with option 2 * with option 1
+
+the trouble is choosing a good value for x since for this particular page * is so very much faster than * which is faster than ie
+
+for example in the classic browser share example if the * is at 45 i want to be rendered inside the pie distance -40 may be and where the slice is less such as * at 6 - i want it to be shown outside with a connector
+
+conclusion diff1 is faster in firefox opera and * diff2 is faster in ie and *
+
+it also gets broken even more in ios * which is an older version of *
+
+the browser does not matter though * gets way more consistently working results than *
+
+* has more of the market than * not and invitation for flame wars just a personal opinion without any weight -
+
+my ipad 1 * js benchmarked 38 times slower than * on my pc
+
+* 5.1 still renders smoother than * but it is now clear that google has done much improvement
+
+to me it looks like * gets it more right than * text is generally more around a middle line
+
+that i gave to every link in the set of links home about us products contact and it seems that * is making that 1px margin much bigger than * or google-chrome and distorting it
+
+please especially test on * because it has some more problems than * and google-chrome
+
+in * it is several pixels higher up than in * and google-chrome and significantly lower in opera
+
+it seems that google-chrome internet explorer or * are more strict than * on terms of security
+
+google-chrome or * on a mac could be much faster than * on a pc especially with newer apis
+

@@ -1,0 +1,16 @@
+* types libraries are fantastic for financial applications because we re used to dealing with the style of rounding required in financial stuff but there is the cost that they tend to be slower than * floating point
+
+the third line displays the data with the maximum useful precision - an * 754 64bit floating-point number has slightly less than 16 * digits of precision so all those digits of the literal in math.h are pointless perhaps they can be seen as future-proofing against a possible future redefinition in a format with more precision
+
+* is easier for most people to convert to and from * in their heads since * numbers are usually expressed in blocks of eight because that s the size of a byte and eight is exactly two * digits but * notation would have been clunky and misleading in dennis time implying the ability to address 16 bits
+
+those * values seem a bit odd they re powers of two in decimal but in any case 0x128 the 0x is a standard prefix for * numbers is the larger of the numbers in magnitude and its * representation is 100101000
+
+* is just less verbose and can express anything a * number can
+
+unfortunately using * consumes way more space and takes significantly longer i m dealing with 500gb of data and around 1 2 million records so i would really like to get the straight * method to work
+
+- i usually find debugging memory in * x command is easier than * so i will not use my solution
+
+you ll need to convert * to another base here i use decimal when writing this code because c doesn t have * constants which would be ten times more useful than * constants
+

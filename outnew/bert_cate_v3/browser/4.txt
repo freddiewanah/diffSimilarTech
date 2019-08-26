@@ -1,0 +1,46 @@
+this is sporadic and i see it happening most of the time with * 4.0.1 and 5.0 and to a lesser extent with *
+
+that happens because pixels size in * is bigger than in *
+
+notably this doesn t happen in all browsers * renders more smoothly than ie and * for instance but is there any way i can make those white lines stop appearing when the user zooms in
+
+this makes * 50x faster than * and 70x faster than safari is there any known reason for that
+
+* dev tools are by far better than * ie whatever imho
+
+in * there is more files download 47 than in * ie 42
+
+* shows it better than * firebug
+
+but in * the left-collumn gets a much bigger height than in *
+
+i suspect that this may be the case because ie and * need to know about the content of the div earlier than *
+
+the idea is that if they are using ie then they must install * frame and if they are using less than * 4 or opera 11.5 then they must upgrade their browser not not sure if the way i am doing that is correct
+
+* handles this better than * does but neither exactly the way i want
+
+also about * i know still less than * and i m not sure about how it innerly manage resources among threads and if it is even possible to achieve what i want but if possible i d need to do the same work with * threads
+
+on your screenshot div width in * is bigger than in * and google-chrome
+
+* still uses the older version while * uses a more current one
+
+* also is susceptible to this same issue although it does a significantly better job than * at getting the realtime api re-connected
+
+in any case vorbis clearly has the most coverage * has more of the market than * now opera is about half of * and obviously firefox is huge and it doesn t really have the strong opposition that theora has
+
+* comes in at just under 41ms performing better than * but still not great
+
+incidentally the scrolling on the windows version of * is fine albeit a little slower than ie * and firefox
+
+the service is still in beta trial and * conversion is working better than * one
+
+in * we found that the dom level 0 took twice the time off the dom level 2 but was still four times faster than either * case
+
+so to specify * greater than 20 * greater than 9.1 and ie greater than 9
+
+* behaves better than * but an error message â œone error in opening the pageâ â shows up in the status bar if you remove the iframe during the load event
+
+in particular a font may be rendered quite differently between the various browsers and operating systems in current use - * and macos use more anti-alisaing than * or ie but ie9 has a new feature called cleartype which also affects font rendering
+

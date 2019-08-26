@@ -1,0 +1,236 @@
+i found * easier to use with more options and better documentation than * or graphael
+
+edit more recent * does a better job of not always padding to powers of 2 length so is closer in output to the * case
+
+i ve used both * is more robust but * is easier on the eyes
+
+* is slightly more difficult to setup but is much faster than *
+
+* has more options for moving the camera than * but it doesn t seem to have a way to rotate around the y axis so i m guessing i ll need to perform some complex calculations on the azimuth and elevation to achieve the same result - but i m at a loss as to where to start i m new to working in 3d space and my brain doesn t think that way yet
+
+* makes it easier to visualize the data but * looks more professional
+
+i haven t played around with it recently but i think * is more flexible here in terms of mixing dtypes but doesn t give you all the * dataframe conveniences obviously
+
+the * docs explain how to use drawees and you can see right from their xml definition that they are much more customizable than *
+
+i also kind of get the impression that * drag and drop is better than * ui drag and drop based on the online demos
+
+i ended up using * for most of my animations simply because it provides smoother animations and more configurable than what * ui provides
+
+* is more forgiving in terms of well-formed xml structure see i had to edit the xml a bit to make things work for * and it s actually much easier to work with
+
+should i be surprised that the * * backend is about 18x - 19x slower than the * tensorflow backend
+
+the * results seems much more stable but * results have some drastic fluctuation
+
+if you re open to using * which is a better version of * imo this can be expressed fairly simply using flattendeep on each element of your multi-dimensional array
+
+* is another faster implementation of * that will provide a lot of utility methods for working wit arrays objects functions etc
+
+the easiest solution is to just replace * with * which has even more features than the latest *
+
+given that this is 4 years old and * has more or less taken the place of * i thought i would share this solution using *
+
+i also think working with * is much easier using * dataframes and not numpy arrays
+
+the * has a more involved setup than the * but it does allow for more customization of what and where it displays
+
+i haven t tried any of these in a jsf 2 application but i would recommend using the * one at least the documentation is better than *
+
+start with * as it s text extraction abilities are better than * s
+
+i have noticed that content extraction is faster in * but searching words using regex in the content extracted by * takes longer time than *
+
+* libraries are generally less mature and less standard than *
+
+as for not reinventing the wheel like many have said already make sure to first explore the possibilities in the standard template library * which is much richer than you might think and then look at * www.*.org which has libraries for a lot of diverse purposes and they are extremely high quality and some are just works of art like spirit proto lambda and mpl
+
+c++ s * is getting better and better yet it s not nearly as huge as * and is not intended to
+
+while * is more modern c++ it also harder to use for non trivial tasks - and without a modern c++ experience and deep * knowledge it is difficult to use correctly
+
+once you re past the basics with c++ learning how to use parts of * and then how it works will be better than tackling *
+
+i ve used both for the same project * is better integrated with the * and especially c++ exceptions
+
+you can have a look at this speed performance benchmark from * which suggests that * is about 3-4 times slower than * 3
+
+to allow you to scale down the data away from endpoints 0 and 1 i had to do this when combining * in * single pcolormesh with more than one * using * so you can likely see how the code works but basically say you have values -5 1 10 in a sample but want to normalize based on a range of -7 to 7 so anything above 7 our 10 is treated as a 7 effectively with a midpoint of 2 but shrink it to fit a 256 rgb *
+
+to allow you to scale down the data away from 0 and 1 i had to do this when combining * in * single pcolormesh with more than one * using * so you can likely see how the code works but basically say you have values -5 1 10 in a sample but want to normalize based on a range of -7 to 7 so anything above 7 our 10 is treated as a 7 effectively with a midpoint of 2 but shrink it to fit a 256 rgb *
+
+i have made an app similar to yours for android we use * whose surf is much faster than *
+
+unless you re doing very heavy processing working with a single frame is probably faster than transferring it to the server as far as i know * in c# isn t considerably slower than * in c c++
+
+the results end up very close but the * image comes out a little bit blurrier than the * image
+
+* is a newer gem than * and it looks a lot more flexible
+
+seems like * is more file oriented and * is more object oriented
+
+as it stands * is not just better than * and processing in many cases but is also a viable replacement for jquery underscore.js and other frameworks
+
+the only place where * defeats * is fallback * supports older versions of ie where as * is based on current web standards ie 9
+
+my speed test claims that svg is significantly faster than canvas at least * seems to be significantly faster than *
+
+or switch from * to something that performs better such as * or jackson
+
+i am working on a code which needs to be time efficient and thus using * for this purpose but when i try to compute fft of a very large data in parallel it is slower than cpu * and the reason i find after finding the time for every line of code using high precision timing code is that cudamalloc taking around 0.983 sec while the time for rest of the lines of code is around 0.00xx sec which is expected ..
+
+however for a variety of fft problem sizes i ve found that * is slower than * with openmp
+
+in the experiments and discussion below i find that * is slower than * for batched 2d ffts
+
+* is considered faster than linear * and often used for large scale data set
+
+this is done on an extremely large image and i feel * might do a better job than * on this
+
+* seems more flexible but i am unclear about what the most direct way of using it to save a full * dataframe with multiindex and all
+
+is * consumes more gpu memory than equivalent * model training
+
+inspecting the assembly shows that in the sequential access case * is faster because the sum becomes vectorized while it does not when using raw * multi_array
+
+* is still faster than * in many respects and supports a wider range of operations
+
+it * runs much faster than *
+
+* is better at marketing itself than long-time players of the open-source market like torch and *
+
+i know another plugin named * corner is available however it s file size being massively bigger than * i decided to with *
+
+i think * has a more mature ajax integration and their ajax components and events are more easy to use for me than * ones
+
+* is more simple to use than * especially if this is your first ui
+
+in java if you want a graphic user interface you can use * or * and * is better than *
+
+* became slower than * because it uses proxy to os widgets
+
+give * a go the api is a lot simpler than *
+
+also * is actually newer and more actively maintained than *
+
+i find * to be an uglier api than * in general though but not really a deal breaker
+
+the problem is that the canvas drawn by * is larger than the area of * s scrolled_window
+
+i d say that * is actually more evolved than *
+
+mmmm * is somewhat less developed than * in many respects
+
+i do know * better than *
+
+for me * is performing far better than *
+
+i successfully compiled * with q8 but after all it seems about 30 slower than * 0.3 secs
+
+if you are worried about memory then do look into * since equivalent models can use significantly less memory than *
+
+several things i found in the cocos2d forums lead me to believe it s an issue with the * implementation on ios but i ve tried using both stb_image and lodepng to avoid * and those libraries actually performed even worse than *
+
+in this case * performs better than nashorn which performs much better than *
+
+looking briefly at the list-like combinators for * i m more familiar with * i think you can solve this by folding over the result of the psome combinator
+
+* is faster than the * 2.3 malloc available as a separate library called ptmalloc2 and other malloc s that i have tested
+
+the cons of * is that you get more than just * - you also get gulp-utils and other things - which is a problem if you are not using gulp in the first place
+
+the team behind * has since created * so this is likely a better option than *
+
+from my own experience mtl4 is much faster than * and it is also faster than *
+
+* runs in less than one minute and * takes 4 hours
+
+you could use * it is way easier to use and works with *
+
+i think * will make this easier but with raw * this would look something like
+
+i ve created an application with this library instead of * because i thought that * is easier to learn than * for newbies even if it provide less features
+
+regarding * * is more efficient and in my experience can handle broken html better than *
+
+* is more suitable for html parsing than *
+
+the reason for using * for such a task is that it cleans html files better than * do
+
+* is supposed to be much faster and efficient and can do much more than *
+
+i found a solution to this problem using * at *-where-are-you-putting-my-html because i think it is easier than *
+
+i would recommend * for html parsing it s simple and considerably faster than * can be as much as two orders of magnitude
+
+how can i find all div and span tags with order preserved.with * it is very simple but i switched recently to * since it is much faster than *
+
+i prefer to use * better than *
+
+* is also much much faster than *
+
+* enables you to search for elements using xpath which i think is easier than using * s api
+
+since you re using * why not use it in a more direct manner * is believed to be faster than *
+
+since i am more familiar with * here are some aspects where i think * has more complete support than * apologies if i miss a * feature
+
+according to the performance results at for serialization with databind with strings *.tojson myobject * is over 10x slower than *
+
+under some conditions * has proven to be a lot faster than * there also exists jsonp and json.simple
+
+deserialization performance is similar with * over 9x slower than * and fastjson about 0.5 faster than *
+
+* is simpler * is faster
+
+going to go ahead and say that * is a lot more user friendly albeit less powerful than *
+
+note also that * comes with less features out of the box than genson or *
+
+* is not particularly fast but the * library can almost compete with most binary serializers * is 2-4x faster than * in most situations and 10-20x faster on utf-8 because it has special code for utf-8
+
+after searched in google found that * has better performance than * i plan to replace * with * in my project but i got a diffrent result when run test code
+
+* type safety is way better than *
+
+personally i prefer * as according to test benchmarks it s faster than *
+
+i was also looking at * * sfml i didnt see much tutorials help on this but heard its better than *
+
+i d strongly recommend to go with * 5.1.x it s a little bit more difficult than sfml but very functional and easier than * it s got nice support and it s compatible with plenty of os
+
+there is * which provides more semantic support than * .also you can try nitobi suite which also provides similar kinda solution.if you are not satisfied with any of these i suggest try to write your own part extending the sun faces
+
+that said i found * to be a useful product and much better than * especially in terms of the quality of the documentation
+
+* provides more good looking components than *
+
+this may help those confused by * and hdf5 but more familiar with * like myself
+
+1 i guess * will be slower than * for smaller datasets
+
+i find training in * much easier than in *
+
+if i resize the window and a widget with a * is bigger than the window i want to resize it to make it smaller and * should recalculate the positions of the others
+
+somehow the layout algorithms in * seem to display a better layout than in * rendering is also better i think though most of the layout algorithms in * are based on * implementation
+
+i used it because it is small 6 kb compiled with just the extraction making it far smaller than * which is more than 150 kb and is more permissive than *
+
+* is much easier to use than * example of zipping all files in folder
+
+* offers native support and has a quite friendly api and is my opinion more flexible than *
+
+* is simpler to use has a better response to a multithread environment but lacks documentation while * is a more dated complex tool better documented and fully implemented
+
+* has a steeper learning curve than * but once you get the hang of it you can do pretty much anything graph related with it.official site is here
+
+* is easy to use * has more option but is less easy to use than *
+
+i am using a sparse format but suggestions are welcome on other formats too i am able to use the data with * in a dense format using the function names as variables and it works just muuch slower than with *
+
+but in general you will find that * is faster more effective and has an api which adheres closely to a python standard the * which comes with the python standard library
+
+* -- 100x better than *
+

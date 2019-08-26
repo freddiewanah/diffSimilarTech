@@ -1,0 +1,130 @@
+* is more expensive than * for example
+
+* uses about 30 less comparisons than *
+
+when comparing my * implementation with std sort on my compiler and my implementation of * i noticed an odd pattern on large data sets when operating on 64 bit integers * is consistently faster than *
+
+normally * is faster than * which is faster than heapsort
+
+for example locality of references has influence on cache hits or misses which is the reason why * performs better than *
+
+when comparison function is a callback function like in * libc implementation * is slower than * by 15 on random input and 30 for already sorted array for 64 bit integers
+
+* is more natural to implement for linked lists but you can do * very nicely
+
+previously discussed on so why is * better than *
+
+* is usually faster than * just because it s easier to code a tight implementation and the operations it does can go faster
+
+* is implemented well it is typically 2-3 times faster than * or
+
+scenarios when * is worse than *
+
+* is slightly slower than * but it does not have * s susceptibility to pathological cases
+
+i have been testing the practicality of openmp gnu parallel sort algorithms in the c++ standard library and have found the parallel * algorithm to be significantly slower than the * algorithm
+
+it s because that * is generally faster that people use it instead of *
+
+in most cases * will run faster than * even though the worst-case execution time is longer
+
+but * is older and weaker than *
+
+that continued usage of 1024-bit prime field elgamal or * keys is much riskier than it is for 1024-bit * all are still commonly used because once a successful attack has been conducted against a single well-chosen prime field all users of that prime field may be affected at little additional effort.
+
+i guess * is older and * is newer
+
+however in this case * key size is less than * key size
+
+* signatures are signficantly shorter than * ones
+
+i have made some testing and it came out that * is lot slower than *
+
+but * is assumed to be on average somewhat slower than standard * quicksort
+
+but a large period * takes up more memory for maintaining the internal state and also takes more time for generating a * number due to complex transitions and post processing
+
+* code is 8 times larger than *
+
+by comparison * see section 3.2 and other block ciphers are much faster than the * algorithm
+
+i ve read that * encryption is more secure than the triple * encryption ms is using in their example above
+
+according to this analysis * rijndael-128 is more than twice as fast as * 3* with a bigger key size more secure
+
+which steps of * encryption makes it less vulnerable than *
+
+if * is negotiated it s faster than * and 3* used by default by older applications
+
+* is usually substantially slower than * on modern hardware and has keys that are far too short for modern use
+
+note that the effective key size of * is larger than triple *
+
+also see why * is more secure than *
+
+though it s unrelated to your actual question * is generally slower than * at least in software so unless you really need to keep the key small * is almost certainly a better choice
+
+since the next is not far the number of * steps is much fewer than with * matching
+
+asymmetric key encryption ex * is no more secure than symmetric key encryption ex *
+
+there are two reasons for that performance * is faster then * and resources * is less resource hungry than *
+
+the whole purpose of using * to secure the communication or any symmetric key encryption is that it s a lot faster than * or any public key encryption
+
+so the 115 seconds will be reduced to 3-4 secs plus the encryption decryption time used for * which is much faster than *
+
+one of the reasons to do so is that * is much slower than for example *
+
+* is much slower than *
+
+note however that doing so means that each encrypted chunk has its own padding and that * is much more computationally expensive than *
+
+considering most * moduli are at least 1024 bit this will be much larger than an * key
+
+and regarding your first question it is definitely possible to encrypt decrypt messages directly using * there are only technical and performance reasons * is much faster than * why * is used only to encrypt a session key and * is used to encrypt decrypt the messages themselves
+
+the * key is encrypting much more data but is much faster than * encryption
+
+like you heard asymmetric cryptography like * is much slower than symmetric cryptography * but it does have it s advantages simpler key management a single private key to protect
+
+block crypto algorithms like * do suffer from this problem too but without a pki * is no less safe than *
+
+while 256-bit * might sound less secure than 4096-bit * they might actually be quite similar from the offered protection
+
+it shows that * encrypt is faster then * encrypt
+
+how is * less secure than * in this scenario
+
+1 * merge sort is used when you want to sort a list in o nlogn time while using less space than standard *
+
+* is more difficult to implement * but the out-of-place version is very cache-friendly - i suspect real-world implementations accept the o n space overhead - ram is cheap but memory bandwidth is a major bottleneck so trading memory for cache-efficiency and speed is often a good deal
+
+another reason is that * needs more memory because it s hard to implement it as an * sort
+
+so for even small inputs * does less work than * and is physically faster for every n
+
+in other words the per-comparison-overhead of * is higher than the one of *
+
+in short - if all we care about are comparisons * is a better choice than *
+
+can anyone explain why * performs better and under what circumstances quichesort would be better than both * and *
+
+in the event that the * starts to degenerate it uses * which is o n log n worst-case but slightly slower than * on average to guarantee o n log n worst-case runtimes
+
+* is also significantly faster than * for decompression
+
+* also consistently decompresses 20 + faster than * which is a pretty big win if you want it for files you re reading a lot over hadoop
+
+java s array .sort is from about java 6 actually * the fastest general purpose #sort out there much better than * in many situations
+
+* is used by python and java for their sort methods and is rather supernaturally fast but it s a more complex algorithm than * which matters if you re working in something like c - so if you just need something that works pretty well and is simple go with *
+
+which of the two consumes more memory is not defined and depends on the input sequence to be sorted as well as on algorithm tuning parameters see the comments to one of the answers to why * is more popular than *
+
+why * or introsort or any comparison-based sorting algorithm is more common than *
+
+* is probably better though * was developed by google with protobufs in mind so you might want to test both on your data set.
+
+in cs * is less commonly used because we have much better algorithms * and merge-sort come to mind
+

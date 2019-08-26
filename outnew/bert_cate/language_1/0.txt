@@ -1,0 +1,192 @@
+B -documentary provides more content than the documentary for B
+
+or is it merely a hint to whatever tool converts between B and B to better deal with B optionals
+
+download xcode free and learn B or B B is easier to learn than B
+
+the perf hit will be ridiculous i know apple say B execute faster than B but this is low level so it will be harmless
+
+i have a B application working fine and smooth to be more comfortable with B i decided to write the unit tests for this app in B
+
+B is lot smarter than B about singleton class
+
+so it should have always been gkagent under B in order to be strictly correct however B is less type-safe than B so you could get away with it with the possibility that you d get an unrecognized selector exception if a gkagent object was ever passed to the delegate method and you assumed it was a gkagent2d
+
+writing B 2.0 in my professional work my personal opinion is that it s indeed ready for enterprise applications -- maybe even more than B ever were
+
+as craig revealed within the announcement of B it is said to be faster than B by far
+
+i know that B is buggy as heck i run into bugs everyday but ill bet B was even worse when it started out benefits of hindsight so in a couple of years B will be equal or greater than B keeping its basic simplicity as well
+
+better if you have a code B is better but is not problem B
+
+B also prevents us i believe from overriding a parent class s property but also still lets us observe changes to that property--this is much better than B s approach
+
+the B one is dramatically slower then B implementation
+
+if you get a difference between B and B it s more because B is probably better on optimisation
+
+i find that B is much nicer for working with core audio than B
+
+usually i find B s method naming to be cleaner than B s but init methods can be an exception
+
+B -documentary provides more content than the documentary for B
+
+or is it merely a hint to whatever tool converts between B and B to better deal with B optionals
+
+download xcode free and learn B or B B is easier to learn than B
+
+the perf hit will be ridiculous i know apple say B execute faster than B but this is low level so it will be harmless
+
+i have a B application working fine and smooth to be more comfortable with B i decided to write the unit tests for this app in B
+
+B is lot smarter than B about singleton class
+
+so it should have always been gkagent under B in order to be strictly correct however B is less type-safe than B so you could get away with it with the possibility that you d get an unrecognized selector exception if a gkagent object was ever passed to the delegate method and you assumed it was a gkagent2d
+
+writing B 2.0 in my professional work my personal opinion is that it s indeed ready for enterprise applications -- maybe even more than B ever were
+
+as craig revealed within the announcement of B it is said to be faster than B by far
+
+i know that B is buggy as heck i run into bugs everyday but ill bet B was even worse when it started out benefits of hindsight so in a couple of years B will be equal or greater than B keeping its basic simplicity as well
+
+better if you have a code B is better but is not problem B
+
+B also prevents us i believe from overriding a parent class s property but also still lets us observe changes to that property--this is much better than B s approach
+
+the B one is dramatically slower then B implementation
+
+if you get a difference between B and B it s more because B is probably better on optimisation
+
+i find that B is much nicer for working with core audio than B
+
+usually i find B s method naming to be cleaner than B s but init methods can be an exception
+
+B is more amenable to static analysis than B because it lacks the very dynamic template despatch mechanism
+
+B works better than B for this because it s more amenable to static analysis as it lacks the polymorphism of B s template rules
+
+generally i know it sounds banal B is better at transformation generating a new document from each source document while B is better at query extracting a small amount of information from each source document
+
+B is more amenable to static analysis than B because it lacks the very dynamic template despatch mechanism
+
+B works better than B for this because it s more amenable to static analysis as it lacks the polymorphism of B s template rules
+
+generally i know it sounds banal B is better at transformation generating a new document from each source document while B is better at query extracting a small amount of information from each source document
+
+all of B s languages can interoperate so your language of choice is up to you though the rnrs languages tend to go unused in the B community #lang B is much more useful for writing programs than any of the B implementations but they can be useful if you want to write programs that run on different B implementations
+
+all of B s languages can interoperate so your language of choice is up to you though the rnrs languages tend to go unused in the B community #lang B is much more useful for writing programs than any of the B implementations but they can be useful if you want to write programs that run on different B implementations
+
+i agree some mechanisms in B are slightly more verbose than B function definitions being my personal pet peeve and vice-versa
+
+i m doing a comparison of B haskell B and es6 and i m less farmiliar with B and B but i want to represent all of these languages fairly so is this good B code
+
+i agree some mechanisms in B are slightly more verbose than B function definitions being my personal pet peeve and vice-versa
+
+i m doing a comparison of B haskell B and es6 and i m less farmiliar with B and B but i want to represent all of these languages fairly so is this good B code
+
+so yes it can be used with flash or rather pure B but it is a little less convenient than with B where everything is set up by the framework because it takes more under the hood configuration to be able to run all the necessary parts for remoting
+
+i can see that my skeleton B module is slightly larger than my B module 66kb vs
+
+i would say pure B is better for programming whether you use flash ide or flex ide is not that relevant and B is better for non-programmers to combine the components programmed in as
+
+so yes it can be used with flash or rather pure B but it is a little less convenient than with B where everything is set up by the framework because it takes more under the hood configuration to be able to run all the necessary parts for remoting
+
+i can see that my skeleton B module is slightly larger than my B module 66kb vs
+
+i would say pure B is better for programming whether you use flash ide or flex ide is not that relevant and B is better for non-programmers to combine the components programmed in as
+
+some background i m learning B now having earlier worked with B and cl and a little foray into clojure
+
+some background i m learning B now having earlier worked with B and cl and a little foray into clojure
+
+i believe that the reports are using something more along the lines of B edit oregonghost says B which actually makes more sense than B than vb.net and very limited at that
+
+i believe that the reports are using something more along the lines of B edit oregonghost says B which actually makes more sense than B than vb.net and very limited at that
+
+overall common B is much more uniform than B and more radical language experiments if done at all are usually embedded as a portable library rather than defining a whole new language dialect
+
+t s purpose is to test the thesis developed by steele and sussman in their series of papers about B that B may be used as the basis for a practical programming language of exceptional expressive power and that implementations of B could perform better than other B systems and competitively with implementations of programming languages such as c and bliss which are usually considered to be inherently more efficient than B on conventional machine architectures
+
+i ve noticed that the common B approach is more conservative than the approach B has
+
+my impression common B is more for getting stuff done B is more for education and fun
+
+here is a solution in B because i know that better than common B and have an interpreter for checking my work
+
+that said it is a B which has fewer batteries included as compared to common B
+
+i ve also found B ides much more user-friendly than B s plt B is a good one
+
+overall common B is much more uniform than B and more radical language experiments if done at all are usually embedded as a portable library rather than defining a whole new language dialect
+
+t s purpose is to test the thesis developed by steele and sussman in their series of papers about B that B may be used as the basis for a practical programming language of exceptional expressive power and that implementations of B could perform better than other B systems and competitively with implementations of programming languages such as c and bliss which are usually considered to be inherently more efficient than B on conventional machine architectures
+
+i ve noticed that the common B approach is more conservative than the approach B has
+
+my impression common B is more for getting stuff done B is more for education and fun
+
+here is a solution in B because i know that better than common B and have an interpreter for checking my work
+
+that said it is a B which has fewer batteries included as compared to common B
+
+i ve also found B ides much more user-friendly than B s plt B is a good one
+
+another side note B inside xpath string looks a bit tidier than escaped B imo
+
+i would just use B but B s syntax is so much better than B s and B is pure and has cool features such as type classes
+
+you will also likely find the performance characteristics of your B code more intuitive than B because of B s lazy evaluation
+
+i would just use B but B s syntax is so much better than B s and B is pure and has cool features such as type classes
+
+you will also likely find the performance characteristics of your B code more intuitive than B because of B s lazy evaluation
+
+when writing code in B as i am wont to do as i have never been a fan of asp.net and B is infinitely more elegant than B you can call upon the arguments collection
+
+asp with B is 100 times better cleaner simpler nicer than B and makes my job a joy rather than a B head ache
+
+when writing code in B as i am wont to do as i have never been a fan of asp.net and B is infinitely more elegant than B you can call upon the arguments collection
+
+asp with B is 100 times better cleaner simpler nicer than B and makes my job a joy rather than a B head ache
+
+my experience is that designers can use whichever they prefer usually and most agree that B is easier to use and the code is shorter fact than equivalent B
+
+pacoblaze was written in B which like adam said less common than B
+
+my experience is that designers can use whichever they prefer usually and most agree that B is easier to use and the code is shorter fact than equivalent B
+
+pacoblaze was written in B which like adam said less common than B
+
+i read somewhere that B s macro service is more powerful than B s
+
+B is a better language than B use its com capabilities to save you from writing endless sketchy B code
+
+i assume the same control in B would be datagridview and i m fairly sure that you can probably make it look better than in B but if you want really good looking ones you might want to look at thirdparty grid controls
+
+getting your project migrated to B is certainly easier when you keep the old B controls
+
+B is a better language than B use its com capabilities to save you from writing endless sketchy B code
+
+i assume the same control in B would be datagridview and i m fairly sure that you can probably make it look better than in B but if you want really good looking ones you might want to look at thirdparty grid controls
+
+getting your project migrated to B is certainly easier when you keep the old B controls
+
+B provides more mechanisms for asserting shapes of B graphs as does new work on B shapes
+
+B provides more mechanisms for asserting shapes of B graphs as does new work on B shapes
+
+just for the record the tipc addressing B is several years older than distributed B
+
+just for the record the tipc addressing B is several years older than distributed B
+
+B is faster than B for most of the benchmarks on languages benchmark game
+
+B is faster than B for most of the benchmarks on languages benchmark game
+
+but i read in this post that group by on union are not possible yet it mean that B is less powerful than B
+
+but i read in this post that group by on union are not possible yet it mean that B is less powerful than B
+

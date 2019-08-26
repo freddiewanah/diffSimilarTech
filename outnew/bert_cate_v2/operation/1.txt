@@ -1,0 +1,114 @@
+we don t actually B it s slower than simple B and as you can see we destroy temporary register t0 but don t touch s0 s1
+
+B is faster than B
+
+B operations and usually significantly faster than B and division
+
+B has higher precedence than B subtraction
+
+and has higher precedence than or just like B has higher precedence than B
+
+the B are the bottleneck of the calculation even though they may be one instruction a B takes longer than an B
+
+because B is faster than B and can be faster than shift
+
+B is cheaper than B
+
+if the B is truly faster than the B then i expect somebody well-versed in byte code could explain why the load_fast for num is faster than the five operations for line 12
+
+since parentheses were used around the B but not the B we can infer that probably in this language B has lower precedence than B
+
+remember that B even with strings binds tighter than B so we must use brackets
+
+B is generally slower than B
+
+start with the number you want to reach and if it s divisible by 5 then divide by 5 because B by 5 results in a shorter solution than B by 3
+
+for example since B has a higher precedence than B is read as not
+
+division and B have higher precedence than B so what this is actually doing is
+
+B has a higher operator precedence than B so it s done before the two Bs when calculating the value for a
+
+the B has a higher precedence than B
+
+i would like to B the pow in my evaluator with an higher precedence than B and divide
+
+functionally a B will always take more time than an B because it combines a true B along with a true Bition step
+
+as i said this may increase the speed especially in an environment where B is more expensive than simple B but you would want to actually benchmark it to be certain
+
+with regard to implementation it also takes advantage of a bit of a non-obvious property of r precedence rules actually this is true of other languages as well such as c c++ and java namely that unary negative is higher than B which is higher than binary B thus the calculation for is equivalent to
+
+i wonder why everybody missed that B is much faster than B
+
+for B things are a little more complicated than B see
+
+B by 5.0 is more accurate than B by an approximate 0.2
+
+on many machines particularly those without hardware support for B B is a slower operation than B so this approach can yield a considerable speedup
+
+following advise i received B is cheaper than B i revised one code line and interestingly enough 71.2 dropped to 1.7 but the if statement just below shot up to 64.8 â i just don t get it
+
+if a remains the same and b is changing say if your code is in a loop and it s clear that a does not change between two iterations for instance because it s a const variable then the original version can execute faster because B is cheaper than B assuming the compiler moves the computation of 1 .
+
+according to this author integer B can be 40 times faster than integer B
+
+B is less expensive than B so
+
+from the performance side float B is faster than B but i don t think that in the gui code it can create significant difference
+
+even simpler and probably even faster because B is faster than B is dav s answer which is the most natural algorithm.
+
+iirc floating-point B is much less expensive than B so this might be faster than both
+
+this solution has the disadvantage that if the other factor is not constant the compiler and you can t reasonably avoid the B int_max n to be done at runtime and B is normally more expensive than B
+
+B is far easier and faster for a cpu to do than B
+
+the compiler or the jit is likely to convert the first case to the second anyway since B is typically faster than B
+
+recently someone suggested to me that B is always more expensive than B
+
+if the latter yes floating point B is generally faster than B
+
+B is a lot more expensive than B
+
+formally it means B cannot have a complexity worse than B
+
+B is about 20 faster than B
+
+since you re resizing the window make sure to assign the w and h values not as numbers but as products or dynamic numbers B is faster than B but you can also use B
+
+the tostring should be slower than parse since B is generally slower than B
+
+hardware integer B is always slower than B and the gap in the relative latencies of these instructions continues to widen
+
+can be fast or it can be awfully slow even if B is done entirely in hardware if it is done using a div instruction this instruction is about 3 to 4 times slower than a B on modern cpus
+
+integer B is much faster than B
+
+from what i read on the net B is usually easier to compute than B
+
+it has to do with the fact that B is itself done by means of binary shifts and additions - far fewer than with B
+
+but since B is pretty expensive i think that this is even worse than 2 B
+
+does B has higher precedence over B or it is other way round
+
+B is always much more expensive than B
+
+on modern processors float B is a good order of magnitude slower than float B when measured by reciprocal throughput
+
+is B more expensive than B in c++
+
+in many processors integer B is vastly faster than integer B
+
+a111 B is equal or better than B
+
+the B case is going to require a little more work than B in this code
+
+the B operator has a higher order precedence as the B operator
+
+note that B has a higher precedence than B
+

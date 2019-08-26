@@ -1,0 +1,1424 @@
+4000165
+daemons	systemd
+Changed: 
+There is a variety of different cron daemons but your gnu linux systemd should have linux already installed
+Origin: 
+there is a variety of different cron daemons but your gnu linux system should have it already installed
+
+
+4006604
+inline	inlining
+Changed: 
+inline is just a hint to the compiler modern compilers are fairly good at making this decision themselves and the the overhead of a function call has become rather small often the main benefit of inlining is not to reduce call overhead but opening up further optimizations
+Origin: 
+It is just a hint to the compiler modern compilers are fairly good at making this decision themselves and the the overhead of a function call has become rather small often the main benefit of inlining is not to reduce call overhead but opening up further optimizations
+
+
+4017112
+google-chrome	firefox
+Changed: 
+You d need a prerelease build of firefox minefield or google-chrome canary to run firefox in
+Origin: 
+you d need a prerelease build of firefox minefield or chrome canary to run it in
+
+
+4029368
+trie	tree
+Changed: 
+trie forms a tree out of the key strings themselves
+Origin: 
+it forms a tree structure out of the key strings themselves
+
+
+4029874
+lisp	scheme
+Changed: 
+That said emacs s all still lisp and getting comfortable using lisp emacs common or scheme is about the same in all
+Origin: 
+That said it s all still lisp and getting comfortable using lisp emacs common or scheme is about the same in all
+
+
+4049575
+firefox	safari
+Changed: 
+For ie7 for firefox 3.5 i have not tested firefox on safari reference - p.s firefox still not working in ie7
+Origin: 
+for ie7 for ff 3.5 i have not tested it on safari reference - p.s its still not working in ie7
+
+
+4063871
+realloc	malloc
+Changed: 
+To first initialize a c array malloc and to grow malloc realloc
+Origin: 
+To first initialize a c array malloc and to grow it realloc
+
+
+4064734
+opera	firefox	opera	google-chrome	google-chrome	firefox
+Changed: 
+I ve checked in google-chrome 6 firefox 2 and opera 10.5 and they re fine with opera
+Origin: 
+i ve checked in chrome 6 firefox 2 and opera 10.5 and they re fine with it
+
+
+4070427
+onchange	onblur
+Changed: 
+Before jumping to onblur i suspect this is what you are seeing and to validate that it s actually working you need to trigger onchange
+Origin: 
+Before jumping to that i suspect this is what you are seeing and to validate that it s actually working you need to trigger onchange
+
+
+4071695
+jar	war
+Changed: 
+Try and find out which war contains the jar and remove jar
+Origin: 
+Try and find out which war contains the jar and remove it
+
+
+4074875
+postgresql	mysql
+Changed: 
+Here are some of the things that people run into with mysql t 92525 meanwhile postgresql does exactly what you expect postgresql to do in most situations and usually has a very good reason when postgresql does something unexpected
+Origin: 
+Here are some of the things that people run into with mysql t 92525 meanwhile postgresql does exactly what you expect it to do in most situations and usually has a very good reason when it does something unexpected
+
+
+4089644
+aggregate-functions	sum	subtraction	addition
+Changed: 
+The only aggregate-functions allowed in an indexed view are count _ big and sum because aggregate-functions distribute over set addition and subtraction that is
+Origin: 
+the only aggregate functions allowed in an indexed view are count_big and sum because they distribute over set addition and subtraction that is
+
+
+4092918
+multiplication	modulo
+Changed: 
+modulo allows you to add the return values of several calls to solve before doing a multiplication and modulo
+Origin: 
+this allows you to add the return values of several calls to solve before doing a multiplication and modulo
+
+
+4093569
+bazaar	git
+Changed: 
+Okay this will get me into a lot of trouble so let me clarify i am absolutely convinced that open source projects should be run on a dvcs preferably git or mercurial as they are the most widespread - nothing against bazaar but i think bazaar s a bit too obscure
+Origin: 
+Okay this will get me into a lot of trouble so let me clarify i am absolutely convinced that open source projects should be run on a dvcs preferably git or mercurial as they are the most widespread - nothing against bazaar but i think it s a bit too obscure
+
+
+4117613
+quicksort	mergesort
+Changed: 
+You won t find a parallel sorting algorithm based on quicksort or mergesort without using quicksort
+Origin: 
+You won t find a parallel sorting algorithm based on quicksort or mergesort without using it
+
+
+4119773
+cfstring	nsstring
+Changed: 
+Usually when mixing core foundation methods and cocoa methods you keep the object in whatever your base is so if you re working in cocoa keep base as an nsstring and just cast base when you need to use one of the other framework s methods such as passing the string to a core foundation method simply cast base to cfstring then instead of keeping multiple references around
+Origin: 
+Usually when mixing core foundation methods and cocoa methods you keep the object in whatever your base is so if you re working in cocoa keep it as an nsstring and just cast it when you need to use one of the other framework s methods such as passing the string to a core foundation method simply cast it to cfstring then instead of keeping multiple references around
+
+
+4126858
+jar	manifest.mf
+Changed: 
+You jar really have to instruct maven somehow to generate the manifest.mf file like that
+Origin: 
+You ll really have to instruct maven somehow to generate the manifest.mf file like that
+
+
+4136127
+lisp	scheme
+Changed: 
+In this view neither scheme nor clojure are particular lispy since scheme are widely incompatible with the main branch and with the historic lisp
+Origin: 
+In this view neither scheme nor clojure are particular lispy since they are widely incompatible with the main branch and with the historic lisp
+
+
+4138075
+freemarker	velocity
+Changed: 
+Never having worked with velocity i can not meaningfully compare the two but i was so satisfied with freemarker that i saw no reason to look beyond freemarker
+Origin: 
+Never having worked with velocity i can not meaningfully compare the two but i was so satisfied with freemarker that i saw no reason to look beyond it
+
+
+4162038
+i2c	spi
+Changed: 
+i2c says i2c can go to 400 khz i2c or 200 khz spi which is still not quite enough by itself but you could split the data between the spi i2c and the serial link you already have
+Origin: 
+It says it can go to 400 khz i2c or 200 khz spi which is still not quite enough by itself but you could split the data between the spi i2c and the serial link you already have
+
+
+4191264
+innodb	myisam
+Changed: 
+No that should be fine but be aware that you can t use mysql s native full text search fts on tables using the innodb engine -- mysql have to be myisam before you can full text index columns in mysql
+Origin: 
+No that should be fine but be aware that you can t use mysql s native full text search fts on tables using the innodb engine -- they have to be myisam before you can full text index columns in them
+
+
+4202852
+viewmodel	caliburn
+Changed: 
+Using a framework like caliburn micro you don t have to write any binding expressions viewmodel uses a simple convention based approach
+Origin: 
+Using a framework like caliburn micro you don t have to write any binding expressions it uses a simple convention based approach
+
+
+4210631
+spaces	delimiter
+Changed: 
+If you override the default delimiter delimiter should read the entire line with spaces in between i set delimiter to and delimiter ignores spaces as delimiter and reads the entire line
+Origin: 
+if you override the default delimiter it should read the entire line with spaces in between i set it to and it ignores space as delimiter and reads the entire line
+
+
+4218765
+extjs	gxt
+Changed: 
+-- just in case you re wondering where the gxt grid s structure is defined you can find gxt in a template file in the gxt jar under com extjs gxt ui client widget grid gridtemplates #master . html have a look at com.extjs.gxt.ui.client.widget.grid.gridview #renderui to get an idea of how the grid is built
+Origin: 
+-- just in case you re wondering where the gxt grid s structure is defined you can find it in a template file in the gxt jar under com extjs gxt ui client widget grid gridtemplates#master.html have a look at com.extjs.gxt.ui.client.widget.grid.gridview#renderui to get an idea of how the grid is built
+
+
+4233836
+innodb	myisam
+Changed: 
+innodb supports transaction and foreign keys while myisam doesn t
+Origin: 
+It supports transaction and foreign keys while myisam doesn t
+
+
+4246325
+pyopengl	pyglet
+Changed: 
+For me pyglet gives me between 2 and 4 times faster framerates with pyopengl s convenience for 90 of my code
+Origin: 
+For me this gives me between 2 and 4 times faster framerates with pyopengl s convenience for 90 of my code
+
+
+4246414
+gridbaglayout	miglayout
+Changed: 
+When base comes time to do complex layouts please use miglayout instead of trying to learn the gridbaglayout - you will thank me
+Origin: 
+When it comes time to do complex layouts please use miglayout instead of trying to learn the gridbaglayout - you will thank me
+
+
+4246570
+ssms	sqlcmd
+Changed: 
+Some troubleshooting ideas try to determine the actual sql command being generated and submitted by the application to sql server sql profiler should help here and run profiler as close to the database as possible -- from within ssms using sqlcmd direct bcp call whatever is appropriate
+Origin: 
+Some troubleshooting ideas try to determine the actual sql command being generated and submitted by the application to sql server sql profiler should help here and run it as close to the database as possible--from within ssms using sqlcmd direct bcp call whatever is appropriate
+
+
+4246897
+innodb	myisam
+Changed: 
+Unlike innodb myisam has built-in full-text search myisam is still widely used in web applications as myisam has traditionally been perceived as faster than innodb in situations where most db access is reads
+Origin: 
+Unlike innodb myisam has built-in full-text search myisam is still widely used in web applications as it has traditionally been perceived as faster than innodb in situations where most db access is reads
+
+
+4249248
+equals	gethashcode
+Changed: 
+The only time you would call gethashcode inside of equals was if equals was much cheaper to compute a hash value for an object say because you cache equals than to check for equality
+Origin: 
+the only time you would call gethashcode inside of equals was if it was much cheaper to compute a hash value for an object say because you cache it than to check for equality
+
+
+4253209
+ssl	https
+Changed: 
+Ssl works on ssl own port and protocol https and multiple domains on a single ip won t work with ssl so a secure server usually has ssl own ip and a single domain
+Origin: 
+Ssl works on its own port and protocol https and multiple domains on a single ip won t work with ssl so a secure server usually has its own ip and a single domain
+
+
+4256197
+portrait	landscape
+Changed: 
+Things are generally laid out fine in portrait mode but when the user switches to landscape you re not resizing your map correctly and the bottom of map is getting cut off
+Origin: 
+Things are generally laid out fine in portrait mode but when the user switches to landscape you re not resizing your map correctly and the bottom of it is getting cut off
+
+
+4259803
+google-chrome	safari
+Changed: 
+I was using google-chrome and google-chrome won t work outside safari apparently
+Origin: 
+i was using chrome and it won t work outside safari apparently
+
+
+4262794
+innodb	myisam
+Changed: 
+To do this you need to use mysql not sqlite with the innodb engine not myisam and the field in question needs an index on innodb
+Origin: 
+To do this you need to use mysql not sqlite with the innodb engine not myisam and the field in question needs an index on it
+
+
+4263217
+google-chrome	safari
+Changed: 
+Since safari is built on top of webkit just like google-chrome i expected webkit to work just as well
+Origin: 
+since safari is built on top of webkit just like google chrome i expected it to work just as well
+
+
+4270362
+uiviewcontroller	uinavigationcontroller
+Changed: 
+When uinavigationcontroller pushes a new uiviewcontroller on to uinavigationcontroller stack uinavigationcontroller will ask that controller for whatever buttons should be displayed
+Origin: 
+When uinavigationcontroller pushes a new uiviewcontroller on to its stack it will ask that controller for whatever buttons should be displayed
+
+
+4281765
+helpers	actioncontroller
+Changed: 
+helpers re meant to be called from actioncontroller methods
+Origin: 
+they re meant to be called from action controller methods
+
+
+4283056
+uiview	subviews
+Changed: 
+For example let s say every uiview has an nsmutablearray to reference uiview subviews
+Origin: 
+For example let s say every uiview has an nsmutablearray to reference its subviews
+
+
+4288275
+sproutcore	cappuccino
+Changed: 
+While sproutcore set out with similar goals to cappuccino sproutcore takes a distincly different approach
+Origin: 
+While sproutcore set out with similar goals to cappuccino it takes a distincly different approach
+
+
+4289251
+entity-relationship	diagram
+Changed: 
+The entity relation diagram is a schematic of the entities and relations only that s why diagram is called an entity-relationship diagram and not a data model
+Origin: 
+the entity relation diagram is a schematic of the entities and relations only that s why it is called an er diagram and not a data model
+
+
+4295504
+google-chrome	safari
+Changed: 
+In general google-chrome might take a bit more logic since for example the string safari is found in the user-agents provided by other browsers than safari including google-chrome
+Origin: 
+in general it might take a bit more logic since for example the string safari is found in the user-agents provided by other browsers than safari including chrome
+
+
+4300231
+google-chrome	firefox
+Changed: 
+Learn to use the debuggers google-chrome ie and firefox have good ones but i tend to prefer to use firebug perhaps due to experience with google-chrome
+Origin: 
+learn to use the debuggers chrome ie and firefox have good ones but i tend to prefer to use firebug perhaps due to experience with it
+
+
+4307106
+uiview	subviews
+Changed: 
+I d normally subclass uiview and customise uiview the way i want then instantiate and add uiview as a subviews whenever you need to use uiview
+Origin: 
+i d normally subclass uiview and customise it the way i want then instantiate and add it as a subview whenever you need to use it
+
+
+4310076
+profiling	instrumentation
+Changed: 
+The profiling instrumentation tries hard to separate out profiling own impact on the time accounting and in this case profiling seems that the profiling profiling accounted for 2.34 - 1.18 1.16 s of the runtime as reported by time
+Origin: 
+The profiling instrumentation tries hard to separate out its own impact on the time accounting and in this case it seems that the profiling itself accounted for 2.34 - 1.18 1.16s of the runtime as reported by time
+
+
+4313573
+umbraco	dotnetnuke
+Changed: 
+Some of profiling are umbraco recommended dotnetnuke
+Origin: 
+Some of them are umbraco recommended dotnetnuke
+
+
+4316448
+udp	tcp
+Changed: 
+udp should be noted that this attack is impossible with tcp due to the three way handshake and sequence ids
+Origin: 
+It should be noted that this attack is impossible with tcp due to the three way handshake and sequence ids
+
+
+4322721
+kde	gnome
+Changed: 
+Platforms such as windows or x or gnome or kde will generally provide this sort of functionality as part of kde libraries since that s what kde re meant for
+Origin: 
+Platforms such as windows or x or gnome or kde will generally provide this sort of functionality as part of their libraries since that s what they re meant for
+
+
+4325157
+onclick	onsubmit
+Changed: 
+If you don t want that get rid of the button with the onclick event and replace onclick with a submit button and register your function as a onsubmit handöer
+Origin: 
+if you don t want that get rid of the button with the onclick event and replace it with a submit button and register your function as a onsubmit handöer
+
+
+4329527
+sqldf	plyr
+Changed: 
+In the first example sqldf is 3x slower than data.table and in the second plyr 200x faster than plyr and 100 times faster than data.table
+Origin: 
+In the first example sqldf is 3x slower than data.table and in the second its 200x faster than plyr and 100 times faster than data.table
+
+
+4342486
+kerberos	ntlm
+Changed: 
+If kerberos is not available kerberos will default to ntlm
+Origin: 
+If kerberos is not available it will default to ntlm
+
+
+4342486
+kerberos	ntlm
+Changed: 
+Only use ntlm if you specifically need to avoid kerberos i can not think of a scenario where you would want to do this but part of wcfs greatness is kerberos flexibility
+Origin: 
+Only use ntlm if you specifically need to avoid kerberos i cannot think of a scenario where you would want to do this but part of wcfs greatness is its flexibility
+
+
+4345316
+serializable	deserialization
+Changed: 
+While serializable would be simple deserialization will have deserialization tricks
+Origin: 
+while serialization would be simple deserialization will have its tricks
+
+
+4347858
+google-chrome	safari
+Changed: 
+Firefox google-chrome and safari do support it but you have to use google-chrome moz webkit stuff to do so
+Origin: 
+firefox chrome and safari do support it but you have to use their moz webkit stuff to do so
+
+
+4349146
+set	bag
+Changed: 
+A bag collection is kind of like a set except that bag can contain duplicates and bag keeps track of how many duplicates there are
+Origin: 
+A bag collection is kind of like a set except that it can contain duplicates and it keeps track of how many duplicates there are
+
+
+4360516
+google-chrome	firefox
+Changed: 
+map s realy strange behaviour of google-chrome and firefox but i m glad map works with this workaround
+Origin: 
+it s realy strange behaviour of chrome and ff but i m glad it works with this workaround
+
+
+4363803
+onresume	onpause
+Changed: 
+Whenever onpause is resumes onresume method is called
+Origin: 
+Whenever it is resumes onresume method is called
+
+
+4364461
+equals	gethashcode
+Changed: 
+That doesn t mean you should simply make a struct as to avoid boxing etc you would also need to override gethashcode and equals anyway plus tostring - and by the time you ve done that you could have done it gethashcode for the existing code
+Origin: 
+That doesn t mean you should simply make it a struct as to avoid boxing etc you would also need to override gethashcode and equals anyway plus tostring - and by the time you ve done that you could have done it for the existing code
+
+
+4368652
+cassini	iis
+Changed: 
+There are differences between iis and cassini which can bite you if you aren t aware of cassini and it just makes more sense
+Origin: 
+There are differences between iis and cassini which can bite you if you aren t aware of them and it just makes more sense
+
+
+4369995
+floating-point	fractions
+Changed: 
+Secondly the reason floating-point numbers are called floating-point is that instead of using a fixed precision for the integer part and a fixed precision for the fractions part fractions offer a continuous trade-off between magnitude and precision
+Origin: 
+secondly the reason floating-point numbers are called floating-point is that instead of using a fixed precision for the integer part and a fixed precision for the fractional part they offer a continuous trade-off between magnitude and precision
+
+
+4371734
+client-side	server-side
+Changed: 
+As has been said a million times client-side validations are good because you can use client-side to keep well-behaved users from hitting your server with bad requests but every validation client-side must be mirrored server-side as well
+Origin: 
+As has been said a million times client-side validations are good because you can use them to keep well-behaved users from hitting your server with bad requests but every validation client-side must be mirrored server-side as well
+
+
+4372786
+cpython	pypy
+Changed: 
+That is i can t see why pypy would support the cpython api nor did i see any mention cpython in any of the obvious places on their website ...
+Origin: 
+That is i can t see why pypy would support the cpython api nor did i see any mention it in any of the obvious places on their website...
+
+
+4388004
+scheme	racket
+Changed: 
+Alternatively you could target racket which supports parallel constructs and would make mono very easy to target from your scheme system
+Origin: 
+Alternatively you could target racket which supports parallel constructs and would make it very easy to target from your scheme system
+
+
+4393605
+mp3	wav
+Changed: 
+If this is a service you want to provide you can always allow anyone to upload a wav file and when you have time you could convert wav and send the user a link with the location of their mp3
+Origin: 
+If this is a service you want to provide you can always allow anyone to upload a wav file and when you have time you could convert it and send the user a link with the location of their mp3
+
+
+4410728
+freebsd	linux
+Changed: 
+Unfortunately openbsd freebsd and glibc linux did not quite work together smoothly to create one non-kernel-api libc standard for linux during an attempt in 2009
+Origin: 
+Unfortunately openbsd freebsd and glibc linux did not quite work together smoothly to create one non-kernel-api libc standard for this during an attempt in 2009
+
+
+4415544
+draggable	droppable
+Changed: 
+Sortable is what you re looking for but draggable and droppable are good to know about as well because jquery has a lot to do with the sortable functionality
+Origin: 
+Sortable is what you re looking for but draggable and droppable are good to know about as well because it has a lot to do with the sortable functionality
+
+
+4416773
+rtp	rtsp
+Changed: 
+About voip android only consumes rtsp rtp streams but does not create publish rtsp
+Origin: 
+About voip android only consumes rtsp rtp streams but does not create publish them
+
+
+4417957
+firefox	safari
+Changed: 
+Internet explorer firefox and safari have various additional edge-case bugs where firefox do not follow the split specification which is actually quite complex
+Origin: 
+Internet explorer firefox and safari have various additional edge-case bugs where they do not follow the split specification which is actually quite complex
+
+
+4420223
+uinavigationcontroller	uitabbarcontroller
+Changed: 
+I m unclear exactly where uinavigationcontroller lies in the view controller hierarchy based on your explanation but i suspect you might have your uitabbarcontroller nested within the navigation controller when it should be the other way around
+Origin: 
+I m unclear exactly where it lies in the view controller hierarchy based on your explanation but i suspect you might have your uitabbarcontroller nested within the navigation controller when it should be the other way around
+
+
+4427769
+postgresql	mysql
+Changed: 
+Mongodb is fun to toy with and i ve built a few apps using mongodb myself for that reason but mongodb s almost never a better choice than postgresql mysql sql server etc
+Origin: 
+mongodb is fun to toy with and i ve built a few apps using it myself for that reason but it s almost never a better choice than postgres mysql sql server etc
+
+
+4434385
+jar	manifest.mf
+Changed: 
+jar will create a manifest.mf with all the classpath entries of your java project
+Origin: 
+It will create a manifest.mf with all the classpath entries of your java project
+
+
+4441456
+codeigniter	cakephp
+Changed: 
+Below the numbers performance cakephp response time 0.19 secs transaction rate 25.88 trans sec codeigniter response time 0.03 secs transaction rate 305.90 trans sec as you can see codeigniter was slow as hell could have changed
+Origin: 
+Below the numbers performance cakephp response time 0.19 secs transaction rate 25.88 trans sec codeigniter response time 0.03 secs transaction rate 305.90 trans sec as you can see it was slow as hell could have changed
+
+
+4444645
+google-chrome	firefox
+Changed: 
+These events can queue up in the browser s input queue and be dispatched to your script later which is probably happening in firefox or mouse may be discarded if your script doesn t process mouse quickly enough which might be happening in google-chrome
+Origin: 
+these events can queue up in the browser s input queue and be dispatched to your script later which is probably happening in firefox or they may be discarded if your script doesn t process them quickly enough which might be happening in chrome
+
+
+4444907
+sudo	passwd
+Changed: 
+passwd assumes that your user account has permissions to sudo -- which it should unless it s setup as a restricted user account in os x
+Origin: 
+this assumes that your user account has permissions to sudo -- which it should unless it s setup as a restricted user account in os x
+
+
+4451725
+nfa	dfa
+Changed: 
+The start state of the dfa is the set containing only the start state of the nfa and the accept state for the dfa is all of dfa states which have the accept state of the nfa as elements
+Origin: 
+The start state of the dfa is the set containing only the start state of the nfa and the accept state for the dfa is all of its states which have the accept state of the nfa as elements
+
+
+4451750
+nfa	dfa
+Changed: 
+set may lead to another nfa state for that you find the states reachable through epsilon inputs again and you will get another set of nfa states that will be a new dfa state
+Origin: 
+Those may lead to another nfa state for that you find the states reachable through epsilon inputs again and you will get another set of nfa states that will be a new dfa state
+
+
+4460460
+git-merge	git-rebase
+Changed: 
+It can be ensured by using -- ff-only flag to the git-merge but i usually do not run git svn git-rebase in the branch only git-rebase master on git-rebase assuming git-rebase is only a local branch
+Origin: 
+it can be ensured by using --ff-only flag to the git-merge but i usually do not run git svn rebase in the branch only git rebase master on it assuming it is only a local branch
+
+
+4461024
+lisp	scheme
+Changed: 
+Common lisp borrowed a few important features from scheme but never intended to replace scheme
+Origin: 
+Common lisp borrowed a few important features from scheme but never intended to replace it
+
+
+4468287
+bazaar	svn	bazaar	git
+Changed: 
+To address your second question does svn support local repositories like bazaar subversion is based off of a server-client model whereas in distributed vcses like git bazaar and mercurial bazaar s all sort of rolled into one
+Origin: 
+to address your second question does svn support local repositories like bzr subversion is based off of a server-client model whereas in distributed vcses like git bzr and mercurial it s all sort of rolled into one
+
+
+4471576
+google-chrome	firefox
+Changed: 
+Not really your question but i mention silverlight anyway firefox can be made to work with this and here you find some information about debugging in google-chrome
+Origin: 
+not really your question but i mention it anyway firefox can be made to work with this and here you find some information about debugging in chrome
+
+
+4476266
+macports	homebrew	fink	macports	fink	homebrew
+Changed: 
+Other options are to install a python 2.6 using macports fink or homebrew or build homebrew yourself a little tricky to get all the batteries included
+Origin: 
+Other options are to install a python 2.6 using macports fink or homebrew or build it yourself a little tricky to get all the batteries included
+
+
+4479070
+bash	zsh
+Changed: 
+The following untested bash ksh zsh snippet sets vc to the version control system the current directory appears to be under or to the empty string if bash can t find one
+Origin: 
+The following untested bash ksh zsh snippet sets vc to the version control system the current directory appears to be under or to the empty string if it can t find one
+
+
+4484867
+listview	checkboxlist
+Changed: 
+listview was solved by adding this code in the checkboxlist
+Origin: 
+It was solved by adding this code in the checkboxlist
+
+
+4497133
+spaces	linefeed
+Changed: 
+Converting from hex to decimal is simple by converting a number to an ascii is more tricky it depends of the required ascii-range if you only need the range from 32 spaces to 126 you could use the variable if you need also some special characters like cr linefeed esc del it is possible to create linefeed with pure batch
+Origin: 
+converting from hex to decimal is simple by converting a number to an ascii is more tricky it depends of the required ascii-range if you only need the range from 32 space to 126 you could use the variable if you need also some special characters like cr lf esc del it is possible to create them with pure batch
+
+
+4521692
+apache	nginx
+Changed: 
+Whatever you do don t store them in the database as paperclip s horribly inefficient and doesn t let you take advantage of fast file servers like apache nginx or s3
+Origin: 
+Whatever you do don t store them in the database as it s horribly inefficient and doesn t let you take advantage of fast file servers like apache nginx or s3
+
+
+4530234
+google-chrome	firefox
+Changed: 
+The error message text for firefox and google-chrome is different google-chrome s the same here
+Origin: 
+the error message text for ff and chrome is different it s the same here
+
+
+4532352
+selecteditem	selectedindex
+Changed: 
+Protected override void onitemschanged notifycollectionchangedeventargs e in this method the following line will cause the exception if selecteditem is set and selectedindex is -1 which is unless selecteditem s set before it selecteditem s loaded
+Origin: 
+Protected override void onitemschanged notifycollectionchangedeventargs e in this method the following line will cause the exception if selecteditem is set and selectedindex is -1 which it is unless it s set before it s loaded
+
+
+4537279
+updatepanel	scriptmanager
+Changed: 
+If the updatemode of all the updatepanel on your page are set to conditional and your scriptmanager has partial updating enabled updatepanel really shouldn t undo everything the script did
+Origin: 
+if the updatemode of all the updatepanels on your page are set to conditional and your scriptmanager has partial updating enabled it really shouldn t undo everything the script did
+
+
+4546621
+express	node.js
+Changed: 
+You could install node.js using npm npm install express this snippet shows you how to set headers and read headers curl from command line the log outputting the header send via curl to node server
+Origin: 
+You could install it using npm npm install express this snippet shows you how to set headers and read headers curl from command line the log outputting the header send via curl to node server
+
+
+4548119
+setinterval	settimeout
+Changed: 
+The difference using settimeout to loop will wait 3 seconds in between loops whereas setinterval will make settimeout take 3 seconds total for the loop including however much time the animation takes as long as it s less than 3 seconds
+Origin: 
+The difference using settimeout to loop will wait 3 seconds in between loops whereas setinterval will make it take 3 seconds total for the loop including however much time the animation takes as long as it s less than 3 seconds
+
+
+4566111
+touchesbegan	touchesended
+Changed: 
+Cancel the timer if you get a touchesended before touchesbegan fires
+Origin: 
+Cancel the timer if you get a touchesended before it fires
+
+
+4568617
+ssl	https
+Changed: 
+The solution is to install the curl-ca-bundle port which contains the same root certificates used by firefox sudo port install curl-ca-bundle and tell your https object to use sudo note that if you want your code to run on ubuntu you need to set the ca _ path attribute instead with the default certificates location etc ssl certs
+Origin: 
+The solution is to install the curl-ca-bundle port which contains the same root certificates used by firefox sudo port install curl-ca-bundle and tell your https object to use it note that if you want your code to run on ubuntu you need to set the ca_path attribute instead with the default certificates location etc ssl certs
+
+
+4574238
+glut	sdl	glut	glfw
+Changed: 
+I mean glut works and is certainly possible to use it glut but both glfw and sdl want you to write the main loop of your program yourself sdl also has platform-independent yet explicit message handling which at least in my opinion results in much more clear and flexible code
+Origin: 
+I mean it works and it is certainly possible to use it but both glfw and sdl want you to write the main loop of your program yourself sdl also has platform-independent yet explicit message handling which at least in my opinion results in much more clear and flexible code
+
+
+4583992
+portrait	landscape
+Changed: 
+Tab s landscape resolution becomes 1024x900 reversed you will notice that in landscape mode landscape fits your screen as your 1600x900 is larger than 1024x600 your monitor is 16 9 so keeping the same ratio so if you could set something like 1820x1024 the emulator would fit in portrait mode
+Origin: 
+Tab s landscape resolution becomes 1024x900 reversed you will notice that in landscape mode it fits your screen as your 1600x900 is larger than 1024x600 your monitor is 16 9 so keeping the same ratio so if you could set something like 1820x1024 the emulator would fit in portrait mode
+
+
+4587286
+addition	modulo
+Changed: 
+The addition adjusts the negative modulo so that addition is positive but of course moves the positive values above 7
+Origin: 
+the addition adjusts the negative modulus so that it is positive but of course moves the positive values above 7
+
+
+4595209
+google-chrome	firefox
+Changed: 
+Both firefox and google-chrome reject it as an xml document but google-chrome source viewers strip out the leading bytes so it looks fine
+Origin: 
+both firefox and chrome reject it as an xml document but their source viewers strip out the leading bytes so it looks fine
+
+
+4604261
+rvm	bundler
+Changed: 
+If you are using rvm without rvm bundler will install gems in the system gem directories
+Origin: 
+If you are using it without rvm bundler will install gems in the system gem directories
+
+
+4611293
+tapestry	wicket	tapestry	struts	struts	wicket
+Changed: 
+You can write bare servlets if you want but frameworks like struts tapestry wicket etc will probably make wicket easier
+Origin: 
+You can write bare servlets if you want but frameworks like struts tapestry wicket etc will probably make it easier
+
+
+4612087
+lxml	elementtree
+Changed: 
+lxml is unique in that lxml combines the speed and feature completeness of these libraries with the simplicity of a native python api mostly compatible but superior to the well-known elementtree
+Origin: 
+it is unique in that it combines the speed and feature completeness of these libraries with the simplicity of a native python api mostly compatible but superior to the well-known elementtree api
+
+
+4614222
+prepare	execute
+Changed: 
+It takes two calls to use a prepare statement once to prepare prepare and once to execute prepare
+Origin: 
+it takes two calls to use a prepared statement once to prepare it and once to execute it
+
+
+4617203
+profiling	instrumentation
+Changed: 
+profiling is just two files so profiling is easy to integrate with your projects and requires adding exactly one line to instrumentation a piece of code
+Origin: 
+it is just two files so it is easy to integrate with your projects and requires adding exactly one line to instrument a piece of code
+
+
+4621504
+vb6	vba
+Changed: 
+This should give you the same vba error support you had in vb6 vba will display the error message of your choice to the user along with the hresult that you choose
+Origin: 
+This should give you the same vba error support you had in vb6 it will display the error message of your choice to the user along with the hresult that you choose
+
+
+4622001
+client-side	server-side
+Changed: 
+It also makes your server-side code more reusable as other client-side applications can then consume that data and render server-side in whatever format that client-side chooses be server-side html xml json or some other format
+Origin: 
+It also makes your server-side code more reusable as other client-side applications can then consume that data and render it in whatever format that client-side chooses be it html xml json or some other format
+
+
+4623389
+inline	inlining
+Changed: 
+If you think about - that s all it inline really is since the compiler is under no obligation to actually perform any inlining
+Origin: 
+If you think about it - that s all it really is since the compiler is under no obligation to actually perform any inlining
+
+
+4624717
+apache	nginx
+Changed: 
+You often set that website behind apache or nginx used as a proxy but apache doesn t call an external progam in any reasonable sense it forwards the http request to the proxied server
+Origin: 
+You often set that website behind apache or nginx used as a proxy but it doesn t call an external progam in any reasonable sense it forwards the http request to the proxied server
+
+
+4628267
+move	drag
+Changed: 
+Then move drag and drop will do drag all of your data flow tasks into the container
+Origin: 
+Then move drag and drop will do it all of your data flow tasks into the container
+
+
+4629256
+implements	extends
+Changed: 
+A nicely implements scripting system also makes implements easier for people to get involved or to mod extends the game without bothering a programmer
+Origin: 
+a nicely implemented scripting system also makes it easier for people to get involved or to mod extend the game without bothering a programmer
+
+
+4632896
+ubuntu	linux
+Changed: 
+Here is an example init.d script for nginx to run linux as a service in ubuntu
+Origin: 
+Here is an example init.d script for nginx to run it as a service in ubuntu
+
+
+4634687
+struts	wicket
+Changed: 
+wicket struts the first web mvc framework
+Origin: 
+5 struts the first web mvc framework
+
+
+4642551
+actionscript	mxml
+Changed: 
+Since actionscript is based on ecmascript the same standard as javascript actionscript s possible that mxml could be adapted to output javascript
+Origin: 
+Since actionscript is based on ecmascript the same standard as javascript it s possible that mxml could be adapted to output javascript
+
+
+4642551
+actionscript	mxml
+Changed: 
+But the reason mxml doesn t is because javascript doesn t yet have the same capabilities as actionscript
+Origin: 
+But the reason it doesn t is because javascript doesn t yet have the same capabilities as actionscript
+
+
+4646816
+super	self
+Changed: 
+The correct way of using self is as follows the difference between using super and calling the class directly is if you are using multiple inheritance somewhere in the hierarchy
+Origin: 
+The correct way of using it is as follows the difference between using super and calling the class directly is if you are using multiple inheritance somewhere in the hierarchy
+
+
+4647174
+opencart	magento
+Changed: 
+However from a feature perspective opencart is nowhere near either magento or prestashop and unlike prestashop opencart doesn t have a team of developers behind opencart
+Origin: 
+However from a feature perspective opencart is nowhere near either magento or prestashop and unlike prestashop it doesn t have a team of developers behind it
+
+
+4656708
+allocator	stl
+Changed: 
+stl is not easy to do because of various design limitations in the allocator requirements but there are several good links out there
+Origin: 
+This is not easy to do because of various design limitations in the allocator requirements but there are several good links out there
+
+
+4666011
+apache	nginx	apache	lighttpd	nginx	lighttpd
+Changed: 
+Another way would be to let apache lighttpd nginx serve the image log the access and the parse nginx offline
+Origin: 
+Another way would be to let apache lighttpd nginx serve the image log the access and the parse it offline
+
+
+4669885
+gridview	datalist
+Changed: 
+gridview works the same as datalist don t worry
+Origin: 
+It works the same as datalist don t worry
+
+
+4672294
+vb.net	vb6
+Changed: 
+Is the type suffix for long in vb6 and probably also in vb.net but i haven t looked vb.net up
+Origin: 
+Is the type suffix for long in vb6 and probably also in vb.net but i haven t looked it up
+
+
+4678894
+viewdidload	viewdidappear
+Changed: 
+I had to change some of my code from viewdidappear into viewdidload and now viewdidload works reconnecting the uitableview s source for instance
+Origin: 
+I had to change some of my code from viewdidappear into viewdidload and now it works reconnecting the uitableview s source for instance
+
+
+4685018
+octal	binary
+Changed: 
+006 octal is 110 in binary so octal basically takes the mode bit vector and leaves only bits in 2 3 positions
+Origin: 
+006 octal is 110 in binary so it basically takes the mode bit vector and leaves only bits in 2 3 positions
+
+
+4685585
+perforce	svn
+Changed: 
+Big repositories svn is fatal to use svn . perforce can do big repositories but you have to pay for it and for getting to know it
+Origin: 
+Big repositories it is fatal to use svn . perforce can do big repositories but you have to pay for it and for getting to know it
+
+
+4690462
+ubuntu	debian
+Changed: 
+I have some directions for using rvm with ubuntu sorry not debian but rvm s close
+Origin: 
+I have some directions for using rvm with ubuntu sorry not debian but it s close
+
+
+4695754
+postgresql	mysql
+Changed: 
+If you re set on mysql i d do postgresql as points so you can query against individual points
+Origin: 
+If you re set on mysql i d do it as points so you can query against individual points
+
+
+4701998
+realloc	malloc
+Changed: 
+malloc allow you to reserve with malloc and resize with realloc a certain amount of space on the heap
+Origin: 
+These allow you to reserve with malloc and resize with realloc a certain amount of space on the heap
+
+
+4704578
+xslt	schematron
+Changed: 
+If you can not get schematron to work resetting the transformer you might be able to use the xslt template facility to prevent having to interpret the xslt sheet on every transorm later re-use the template by getting the transformer from it
+Origin: 
+if you cannot get it to work resetting the transformer you might be able to use the xsl template facility to prevent having to interpret the xsl sheet on every transorm later re-use the template by getting the transformer from it
+
+
+4708370
+mdpi	hdpi
+Changed: 
+On an hdpi screens base will result in 15 pixels because hdpi is 1.5 mdpi
+Origin: 
+on an hdpi screen it will result in 15 pixels because hdpi is 1.5 mdpi
+
+
+4720600
+uilabel	nsstring
+Changed: 
+Don t store your data nsstring s in there but put uilabel in your model or controller if uilabel s transient data classes
+Origin: 
+Don t store your data nsstring s in there but put it in your model or controller if it s transient data classes
+
+
+4720600
+uilabel	nsstring
+Changed: 
+Then when you need to display the data create the views uilabel s in your case to show nsstring
+Origin: 
+Then when you need to display the data create the views uilabel s in your case to show it
+
+
+4720689
+profiling	debugging
+Changed: 
+If you want to run your application in debugging mode you have to sign debugging with development provisioning profiling and certificate both in build settings and in target
+Origin: 
+if you want to run your application in debug mode you have to sign it with development provisioning profile and certificate both in build settings and in target
+
+
+4727677
+swt	swing
+Changed: 
+You can use miglayout with swing swt and once you learn swing is a pretty powerful layout manager imho
+Origin: 
+You can use it with swing swt and once you learn it is a pretty powerful layout manager imho
+
+
+4730287
+dictionary	map
+Changed: 
+If you don t want to expose the dictionary as public you can map dictionary as a private property instead as explained here
+Origin: 
+If you don t want to expose the dictionary as public you can map it as a private property instead as explained here
+
+
+4731711
+draggable	droppable
+Changed: 
+Intersect means the draggable can be dropped when draggable 50 of draggable is over the droppable
+Origin: 
+Intersect means the draggable can be dropped when it 50 of it is over the droppable
+
+
+4737880
+jsf	seam
+Changed: 
+You can disable behavior by disabling seam s transactions management but this jsf would open the gate for all kind of lazy initialization exceptions .
+Origin: 
+You can disable this behavior by disabling seam s transactions management but this would open the gate for all kind of lazy initialization exceptions.
+
+
+4741352
+uinavigationcontroller	uinavigationbar
+Changed: 
+Some of the things i wish the docs and tutorials would have stressed to me when you create the uinavigationcontroller you get a uiview and uinavigationbar for free you don t need to separately add uinavigationbar and figure out how to hook uinavigationbar together
+Origin: 
+Some of the things i wish the docs and tutorials would have stressed to me when you create the uinavigationcontroller you get a uiview and uinavigationbar for free you don t need to separately add them and figure out how to hook them together
+
+
+4741352
+uiviewcontroller	uinavigationcontroller
+Changed: 
+If you set the title property of your uiviewcontroller before you put uiviewcontroller on the uinavigationcontroller s stack
+Origin: 
+If you set the title property of your uiviewcontroller before you put it on the uinavigationcontroller s stack
+
+
+4747966
+uiviewcontroller	uitabbarcontroller
+Changed: 
+The user would be presented with the uiviewcontroller and when uiviewcontroller clicked the button dismiss that modal view revealing the uitabbarcontroller
+Origin: 
+The user would be presented with the uiviewcontroller and when they clicked the button dismiss that modal view revealing the uitabbarcontroller
+
+
+4748850
+jar	manifest.mf
+Changed: 
+We were able to get axis 1.4 to work as a bundle by changing some of the axis 1.4 source code via this post we also took the manifest.mf from the springsource axis and just drop manifest.mf into the newly compiled axis jar
+Origin: 
+We were able to get axis 1.4 to work as a bundle by changing some of the axis 1.4 source code via this post we also took the manifest.mf from the springsource axis and just drop it into the newly compiled axis jar
+
+
+4751531
+uiview	calayer
+Changed: 
+In the case of a calayer associated with a uiview uiview implements the - actionforlayer forkey delegate method and when not in a uiview animation block uiview always returns to signify that the action lookup should stop here
+Origin: 
+In the case of a calayer associated with a uiview uiview implements the -actionforlayer forkey delegate method and when not in a uiview animation block it always returns to signify that the action lookup should stop here
+
+
+4771729
+rtp	rtcp
+Changed: 
+In many ways rtp ignoring rtcp is pretty much the bare minimum already and if you implemented a half-way decent alternative rtp would save you a few bytes at best and you wouldn t be able to use any of the many rtp test tools
+Origin: 
+In many ways rtp ignoring rtcp is pretty much the bare minimum already and if you implemented a half-way decent alternative it would save you a few bytes at best and you wouldn t be able to use any of the many rtp test tools
+
+
+4782320
+uiviewcontroller	uitabbarcontroller
+Changed: 
+Because the uitabbarcontroller class inherited from the uiviewcontroller class tab bar controllers have uiviewcontroller own view that is accessible through the view properties
+Origin: 
+because the uitabbarcontroller class inherits from the uiviewcontroller class tab bar controllers have their own view that is accessible through the view property
+
+
+4782650
+serializable	deserialization
+Changed: 
+The code for serializable could be you could then add deserialization like so postargs.add venues venues
+Origin: 
+the code for serialization could be you could then add it like so postargs.add venues venues
+
+
+4786278
+google-chrome	firefox
+Changed: 
+I don t think firefox s such a big deal if google-chrome really neds to make a second roundtrip
+Origin: 
+i don t think it s such a big deal if chrome really neds to make a second roundtrip
+
+
+4787806
+catransition	subviews
+Changed: 
+The catransition will look something like subviews
+Origin: 
+The catransition will look something like this
+
+
+4790575
+uiview	subviews
+Changed: 
+Some may suggest serializing the uiview and then deserializing a copy but uiview s unlikely that the subviews will implement nscoder the media player and uiimages certainly don t making this usually a non-starter
+Origin: 
+Some may suggest serializing the uiview and then deserializing a copy but it s unlikely that the subviews will implement nscoder the media player and uiimages certainly don t making this usually a non-starter
+
+
+4794869
+mvp	presenter
+Changed: 
+presenter said in my implementation of mvp with winforms the presenter always interacts with the view through an interface representing the ui abilities of the view
+Origin: 
+That said in my implementation of mvp with winforms the presenter always interacts with the view through an interface representing the ui abilities of the view
+
+
+4812587
+serializable	deserialization
+Changed: 
+Binaryformatter serializable just like marc gravell explained seems to indeed support version tolerant deserialization i also tested serializable to work with xmlserialization
+Origin: 
+binaryformatter serialization just like marc gravell explained seems to indeed support version tolerant deserialization i also tested it to work with xmlserialization
+
+
+4821695
+setinterval	settimeout
+Changed: 
+Remove your settimeout call in the rotator function and put this after the initial call to rotator or remove the initial call and just wait 12 seconds and settimeout will start as well edit explaination of setinterval
+Origin: 
+Remove your settimeout call in the rotator function and put this after the initial call to rotator or remove the initial call and just wait 12 seconds and it will start as well edit explaination of setinterval
+
+
+4833441
+awt	swing
+Changed: 
+With the current implementation awt terminates all awt helper threads allowing the application to exit cleanly when the following three conditions are true there are no displayable awt or swing components
+Origin: 
+With the current implementation awt terminates all its helper threads allowing the application to exit cleanly when the following three conditions are true there are no displayable awt or swing components
+
+
+4834963
+profiling	instrumentation
+Changed: 
+Instrumenting profiling put a lot of overhead into each function call and if all you want is an overall speed difference it won t be accurate because you re partly measuring the cost of the instrumentation instrumentation
+Origin: 
+instrumenting profilers put a lot of overhead into each function call and if all you want is an overall speed difference it won t be accurate because you re partly measuring the cost of the instrumentation itself
+
+
+4838895
+division	multiplication
+Changed: 
+Once upon a time floating point and multi-word integer multiplication and division were sadly not constant time division were implemented in software
+Origin: 
+Once upon a time floating point and multi-word integer multiplication and division were sadly not constant time they were implemented in software
+
+
+4842959
+realloc	malloc
+Changed: 
+You can try growing one with realloc 3 but realloc can fail and the original must be allocated with malloc 3 in the first place
+Origin: 
+You can try growing one with realloc 3 but it can fail and the original must be allocated with malloc 3 in the first place
+
+
+4844755
+client-side	server-side
+Changed: 
+If you re referencing an as an only the querying done after server-side s an will be done client-side
+Origin: 
+If you re referencing an as an only the querying done after it s an will be done client-side
+
+
+4847351
+google-chrome	firefox
+Changed: 
+I did test this in firefox and worked but i was having trouble with it firefox in google-chrome - my google-chrome installation is pretty messed up so that could be the problem but there are chromium bugs filed that relate to this issue bug # 7771 and bug # 8939
+Origin: 
+i did test this in firefox and it worked but i was having trouble with it in chrome - my chrome installation is pretty messed up so that could be the problem but there are chromium bugs filed that relate to this issue bug #7771 and bug #8939
+
+
+4857814
+opera	firefox
+Changed: 
+firefox implementation and opera s force you to use fully qualified uri s but apart from that the hta s work as expected
+Origin: 
+Their implementation and opera s force you to use fully qualified uri s but apart from that the hta s work as expected
+
+
+4862609
+ubuntu	debian
+Changed: 
+Either you build postgresql 9.0 from source and only install the client parts you want or you download the debian source package for postgresql-9.0 and build that debian on ubuntu and then only install the postgresql-client-9.0 package
+Origin: 
+Either you build postgresql 9.0 from source and only install the client parts that you want or you download the debian source package for postgresql-9.0 and build that on ubuntu and then only install the postgresql-client-9.0 package
+
+
+4862696
+opera	firefox	opera	google-chrome	google-chrome	firefox
+Changed: 
+google-chrome works in google-chrome firefox and opera on both linux and windows
+Origin: 
+it works in chrome firefox and opera on both linux and windows
+
+
+4865778
+ubuntu	linux
+Changed: 
+So to solve this problem of the emulator not being accessible to computers other than the host machine you intercept the incoming connections to your host and forward them to 127.0.0.1 here s how first install rinetd linux either download linux from the link above or in a terminal in ubuntu enter sudo apt-get install rinetd
+Origin: 
+So to solve this problem of the emulator not being accessible to computers other than the host machine you intercept the incoming connections to your host and forward them to 127.0.0.1 here s how first install rinetd linux either download it from the link above or in a terminal in ubuntu enter sudo apt-get install rinetd
+
+
+4867234
+jboss	glassfish
+Changed: 
+Or better just use a java ee 6 application server glassfish 3 jboss 6 etc since glassfish already ships with jsf 2.0
+Origin: 
+or better just use a java ee 6 application server glassfish 3 jboss as 6 etc since it already ships with jsf 2.0
+
+
+4869145
+jquery	curvycorners
+Changed: 
+The jquery plugin i would recommend is curvycorners jquery does not require you to change anything
+Origin: 
+the jquery plugin i would recommend is curvy corners it does not require you to change anything
+
+
+4882685
+vim	emacs
+Changed: 
+I ve never learned the extensions that vim has added to vi and it s likely that many of vim are features copied from emacs
+Origin: 
+I ve never learned the extensions that vim has added to vi and it s likely that many of them are features copied from emacs
+
+
+4889806
+allocator	stl
+Changed: 
+But i believe it rules out using stl containers as stl rely on runtime allocator of memory
+Origin: 
+but i believe it rules out using stl containers as they rely on runtime allocation of memory
+
+
+4893718
+prng	random
+Changed: 
+If time returns the same value each time your loop executes you seed the prng with the same value just before you use prng each time so when you query prng for random numbers prng returns the same values
+Origin: 
+If time returns the same value each time your loop executes you seed the prng with the same value just before you use it each time so when you query it for random numbers it returns the same values
+
+
+4894516
+jlabel	jlayeredpane
+Changed: 
+Then when clicking on the label move jlabel to the jlayeredpane s jlayeredpane.drag _ layer so jlabel moves on top of everything else then place the jlabel on whichever is the most appropriate level on mouse release
+Origin: 
+Then when clicking on the label move it to the jlayeredpane s jlayeredpane.drag_layer so it moves on top of everything else then place the jlabel on whichever is the most appropriate level on mouse release
+
+
+4899265
+sqoop	hadoop
+Changed: 
+Take a look at cloudera s sqoop utility to import records from the database and process cloudera in hadoop
+Origin: 
+Take a look at cloudera s sqoop utility to import records from the database and process them in hadoop
+
+
+4900371
+hex	binary
+Changed: 
+It seems from the documentation that key are equivalent and that if you need a binary key you hex encode binary and put x in front
+Origin: 
+It seems from the documentation that these are equivalent and that if you need a binary key you hex encode it and put x in front
+
+
+4902591
+memcpy	strcpy
+Changed: 
+Sample memcpy c implementation as you can see memcpy is quite similar to strcpy see memcpy man page
+Origin: 
+Sample memcpy c implementation as you can see it is quite similar to strcpy see memcpy man page
+
+
+4906851
+jar	war
+Changed: 
+A war file is simply a jar file that has the required web-inf directory inside of war
+Origin: 
+A war file is simply a jar file that has the required web-inf directory inside of it
+
+
+4910546
+n-gram	words
+Changed: 
+You can even simulate this in mysql using fulltext indexing but you have to collect words from all your documents convert words to n-gram create fulltext indexes on words and hack words all together for fast lookup
+Origin: 
+you can even simulate this in mysql using fulltext indexing but you have to collect words from all your documents convert them to ngrams create fulltext indexes on them and hack them all together for fast lookup
+
+
+4912549
+uiview	subviews
+Changed: 
+I fixed uiviewcontroller by making the main view subclass uiview rather than uiscrollview then adding a to the view and adding my subviews to content _ view rather than to self
+Origin: 
+I fixed it by making the main view subclass uiview rather than uiscrollview then adding a to the view and adding my subviews to content_view rather than to self
+
+
+4914528
+addition	modulo
+Changed: 
+This direction you rotate modulo addition in way that addition points to move that you have to make
+Origin: 
+This direction you rotate modulo addition in way that it points to move that you have to make
+
+
+4914874
+webclient	httpwebrequest
+Changed: 
+So you will have to derive from webclient to set the property on the underlying httpwebrequest
+Origin: 
+So you will have to derive from it to set the property on the underlying httpwebrequest
+
+
+4924571
+ubuntu	linux
+Changed: 
+However linux pretend i said ubuntu is even better environment for ruby on rails development and ubuntu installs great in vm
+Origin: 
+However linux pretend i said ubuntu is even better environment for ruby on rails development and it installs great in vm
+
+
+4934862
+firefox	safari	google-chrome	firefox	google-chrome	safari
+Changed: 
+The beta value in desktop google-chrome 9 is exactly 180 less than google-chrome is in mobile safari . the x y values in firefox and mobile safari should be approximately the same
+Origin: 
+the beta value in desktop chrome 9 is exactly 180 less than it is in mobile safari. the x y values in firefox and mobile safari should be approximately the same
+
+
+4953406
+prefuse	jung
+Changed: 
+1 in prefuse jung s very easy to add your own custom renderer for drawing parallel edges - you can subclass the default edgerenderer and override the render method
+Origin: 
+1 in prefuse it s very easy to add your own custom renderer for drawing parallel edges - you can subclass the default edgerenderer and override the render method
+
+
+4966940
+macports	homebrew
+Changed: 
+If you install mysql with homebrew mysql _ config will be located at usr local bin mysql _ config and if you install it with macports it will be at opt local homebrew mysql5 bin mysql _ config
+Origin: 
+If you install mysql with homebrew mysql_config will be located at usr local bin mysql_config and if you install it with macports it will be at opt local lib mysql5 bin mysql_config
+
+
+4979270
+google-chrome	firefox
+Changed: 
+This is my test code really fast on google-chrome may kill your firefox with too much very big images edit and here is fillde to test firefox
+Origin: 
+this is my test code really fast on chrome may kill your firefox with too much very big images edit and here is fillde to test it
+
+
+4981168
+uiviewcontroller	uitabbarcontroller
+Changed: 
+To add a table view you would create a uitableviewcontroller or a generic uiviewcontroller with a uitableview embedded in uiviewcontroller this depends on your needs and put uiviewcontroller in your uitabbarcontroller viewcontrollers property
+Origin: 
+To add a table view you would create a uitableviewcontroller or a generic uiviewcontroller with a uitableview embedded in it this depends on your needs and put it in your uitabbarcontroller viewcontrollers property
+
+
+4981355
+listview	gridview
+Changed: 
+For tables use the gridview control for list of options use dropdownlist and for other things use layout use the listview control you can use gridview for tables too
+Origin: 
+For tables use the gridview control for list of options use dropdownlist and for other things use layout use the listview control you can use it for tables too
+
+
+4985148
+listview	gridview
+Changed: 
+But if listview in a template such as a gridview s row then you can access listview like this
+Origin: 
+but if it in a template such as a gridview s row then you can access it like this
+
+
+4987152
+fossil	git
+Changed: 
+Subversion git fossil perforce mercurial and there are many online code hosting solutions for many of perforce
+Origin: 
+Subversion git fossil perforce mercurial and there are many online code hosting solutions for many of them
+
+

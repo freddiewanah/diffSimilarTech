@@ -1,0 +1,190 @@
+you can try x1 c1 and then x1 + c1 but i don t think the B is much faster than B on todays cpus
+
+B is more mathematical if you like while the remainder in the c-family is consistent with the common integer B satisfying and this is adopted from old fortran
+
+programmers like to use this property to speed up programs because it s easy to chop off some number of bits but performing a B is much harder it s about as hard as doing a B
+
+inverse B for 300 time take 1.422 seconde more than executing B sub and multiplication 10k time even the core of inverse B is build with same B and sub and multiplication functions and for this number it just do 150 time inside while help plz why
+
+if you compute B a power of two using bitwise and is simpler and generally faster than performing B
+
+the official tutorial on bitwise and B operators has more information about other related operators and B left shift right shift
+
+i reimplemented the mouse B press and release events for the inner widget in order to be able to B it inside its bigger parent with B drop
+
+implementing B is easier if you remember an shl operation performs the same operation as B the specified operand by two
+
+if i make a mistake and B a number by 1.0 instead of 1 and i do not use any compiler optimization then my B will last much longer than B a number by 1
+
+mathematically left shifting is the same as B a number by a power of 2 but as the operation is done only by shifting it is much faster than doing B
+
+B first is probably simpler than using floating point if you only want an integer result and if you know that the B will never overflow
+
+look at it this way based on your logic while x is greater than 100 B 5 while it s greater than 500 B 5 .
+
+sure that s probably compiled or jit d away but you should avoid B in performance critical code it s far slower than B
+
+i read about python following pemdas that is precedence of B is more than B
+
+more generally you can always just try B the base by itself a number of times no greater than the B and you are bound to find a cycle
+
+the addition and B are much more than B and division
+
+because B has a higher precedence than B
+
+trig functions should have precedence lower than B and higher than B
+
+and the value of this expression evaluated according to the precedence rules is 62 because B has higher precedence than B
+
+for example 1 + 2 3 is treated as 1 + 2 3 whereas 1 2 + 3 is treated as 1 2 + 3 since B has a higher precedence than B
+
+either way your example with the numeric expression would multiplying by 3 first because B has higher precedence than B or subtraction
+
+B is higher precedence than B and B is left-associative so this is equivalent to but knowing that only tells you that the first B will happen before the second B and that the B will happen before the second B
+
+this is similar to operator precedence in mathematics where for example B has a higher priority than B
+
+for example if you had a class in which it would make sense to do B before B how could you make the B operator have higher precedence than the B one
+
+it s because B has higher precedence than B
+
+even if B is faster than B i think that you will lose more because of the branching
+
+that is if you have then you are guaranteed that a happens before b and that b happens before c regardless of the fact that a is involved in an B which is lower precedence than a B
+
+note parentheses are redundant as division and multiplication have the same priority and B has higher precedence over B
+
+multiplication division and B have the same precedence and they all have higher precedence than B and subtraction
+
+integer multiplication division and B are much slower than integer B and subtraction
+
+B is still somewhat more expensive than B on modern computers and compilers go to some effort to replace them with one or two shifts+B instructions
+
+B sub are cheaper than B better throughput and lower latency
+
+the B operation uses more clock cycles than the B on many processors
+
+in the above example the instance of exprbinopB is a child of the instance of exprbinopmul although precedence of B is higher than precedence of B which results from the proper consideration of the parentheses
+
+it appears that you consider B to have lower precedence than B and division when in fact it does not
+
+the conditional test and B is typically less expensive than a B especially if the sum does not frequently exceed mod
+
+as you can see B is about an order of magnitude slower than B
+
+i read in couple of blogs that in java B reminder operator is slower than B
+
+doesn t get evaluated the way you are expecting the B operator has higher precedence than the B operator
+
+it may not be the most elegant method but when you just need to convert something ad-hoc thinking of it as comparison and B may be easier than B
+
+remember multiplication B and remainder operators are all higher precedence than B
+
+on most processors B is slower than B for the same data types
+
+the cpu operation for float B is much more complicated than B
+
+in the code we calculate 1.0 sum .. because a B usually is more expensive than a B and thus can gain some efficiency with that
+
+the reason for doing so is to reduce hardware cost as B is more expensive than B
+
+B takes less time then B so you can try this
+
+B algorithms are slower than B algorithms in most cases
+
+both operations are done down at the floating point unit fpu level and even in the world of integral alus the B circuit is a far busier place than a B circuit
+
+B is more expensive than B
+
+but i wonder why is B actually slower than B
+
+i always thought a B is computationally cheaper than a B
+
+for the B-to-B case you are assuming that B is faster than B
+
+which one is faster is indeed a cpu-specific issue or at least how much faster is cpu specific yes B is typically seen as slower than B
+
+B is much faster than B
+
+i was always taught that B is slower than B but i have no real proof of thisâ has anyone got an opinion on this before i start benchmarking and running test
+
+if you think back to grade school you ll recall that B was harder than addition and B was harder than B
+
+also addition is faster than B and B is faster than B
+
+is it possible that the B is six times slower than B and
+
+on some machines B is much slower than B but on most machines j multiplies and j divides will run a lot faster than 2 n-2 B and one B
+
+as hroptatyr mentioned the B is quite fast and it s much faster than B
+
+your friend has a point a B actual B not just writing in c is slower than a B
+
+B though is an iterative process in logic the implementations you see on educational sites verilog vhdl are simply doing the same thing we did with log B in grade school but like B it is much simpler than grade school you pull down bits from the numerator in the long B until the number being checked against the denominator is equal to or larger basically the number can either go in only zero times or one times into the next number under test unlike decimal where it can be between 0 to 9 times
+
+in some of the academic literature implied B is interpreted as having higher precedence than B
+
+so B is always a bit worse than B
+
+B is faster than B so the second method is faster
+
+as to why B is faster than B and when the divisor is fixed this is a faster route
+
+according to stephen canon modern implementations favor taylor expansion over rational function approximation where B is much slower than B
+
+B is slower than B due to some reasons
+
+B is faster than B see fog s tables
+
+B is about 10 times slower than B
+
+as a rule of thumb B is faster than B on all cpus
+
+B is faster for unint8 than B in your case
+
+you always need to know the magic number here 0xaaaaaaab and the correct operations after the B shifts and or additions in most cases and both is different depending on the number you want to divide by and both take too much cpu time to calculate them on the fly that would be slower than hardware B
+
+yes B is usually much slower than B
+
+most optimizing c compilers optimize it out to a B operation which is much faster than B it can be done only if the divisor is constant though
+
+it is well known that integer B is slow operation typically several times slower than integer B
+
+thus python should interpret this like 12 2 i.e 6 since precedence of B is more than B
+
+B is generally on the order of 10x slower than B on most processor families
+
+if you continue to use your method of performing this task then you need to manually check if the B of the two lower order decimal digits has caused a carry by checking if the result of the B is greater than 10 and if it is B 10 from the number and then add 1 to the higher order digit calculation
+
+i was thinking that there could be an issue if the result from the B is bigger than what 15 bits can represent 32767 or if i get a negative number in the B
+
+this is a hold over from older compilers and interpreters on old chip architecture that would do B slightly slower than B
+
+knuth writes that fibonacci search is preferable on some computers because it involves only B and subtraction not B by 2. but almost all computers use binary arithmetic in which B by 2 is simpler than B and subtraction
+
+so even disregarding that B is more expensive than B and multiplication we see that the number of operations the sieve requires is much smaller than the number of operations required by trial B if the limit is not too small
+
+generally the B is more costly than B i think but not much difference in this case
+
+if you are doing physical simulations things like B or square roots are going to be way more expensive than B
+
+B has a higher precedence than B ergo
+
+multiplication and B operators have higher precedence than B and subtraction in c++ same as in scientific notation
+
+i need to find out that how much B operation is faster than B operation in a gpu
+
+multiplication and B have a higher precedence than B and subtraction
+
+as far as i know the B is more complex and slower than other operations like B so is my code incorrect then
+
+the term is apparently not an exact measurement as it is clear that a double-precision floating-point operation is going to take longer than a single-precision one and multiplication and B are going to take longer than B and subtraction
+
+this is analogous to the way you can compute B using successive squaring much faster than by repeated B
+
+B is even easier as you dont have to line up the decimal points you just do the math on the significant digits and simply add the B
+
+btw a B search done with removing i is much faster than a B search
+
+this tiny overhead on add is vastly outweighed by the savings on lookups since all programmers should know and understand that B compares are vastly slower than B especially with unicode - the cpu can t just do a block compare of data but must check each pair of characters specially even using a table look-up this is vastly slower
+

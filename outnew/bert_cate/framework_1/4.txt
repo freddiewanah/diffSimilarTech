@@ -1,0 +1,54 @@
+compare the very active B tag on stack overflow with that of pylons or B though and i d argue getting started is simply easier with B irrespective of anything to do with code
+
+compare the very active B tag on stack overflow with that of pylons or B though and i d argue getting started is simply easier with B irrespective of anything to do with code
+
+i think your code has no problem except that B has deprecated legacy promise methods success and error of http after version 1.4.4 you should use standard then method instead if your B depends on higher B version
+
+i think your code has no problem except that B has deprecated legacy promise methods success and error of http after version 1.4.4 you should use standard then method instead if your B depends on higher B version
+
+considering the lack of windows 8 love that B is getting support being dropped apps won t be sellable on the app store -- i d go with B -- it s better than B anyway -- the only down side is that you can t make xbox apps with it
+
+considering the lack of windows 8 love that B is getting support being dropped apps won t be sellable on the app store -- i d go with B -- it s better than B anyway -- the only down side is that you can t make xbox apps with it
+
+the thing that makes B a better choice than B spies is that it is capable of programming spies expectations withargs ... .called.
+
+the thing that makes B a better choice than B spies is that it is capable of programming spies expectations withargs ... .called.
+
+B offers you more options and possibilites how to run your tests and in which order especially something B can t
+
+B offers you more options and possibilites how to run your tests and in which order especially something B can t
+
+B is more powerful with B but not necessarily richfaces or icefaces for they mostly just extend the component set which is anyway fall down to standard html components when rendered by B
+
+B is more powerful with B but not necessarily richfaces or icefaces for they mostly just extend the component set which is anyway fall down to standard html components when rendered by B
+
+1 split those tests to unit and acceptance and use a tool like B to help you do acceptance which is way more elegant than B for this kind of test
+
+1 split those tests to unit and acceptance and use a tool like B to help you do acceptance which is way more elegant than B for this kind of test
+
+subjective B provides much nicer code coverage reports than B
+
+the good news is that B content types are more lightweight than B content types and doing raw listing by iterating over folder.contentitems in your template should not be that expensive
+
+the good news is that B content types are more lightweight than B content types and doing raw listing by iterating over folder.contentitems in your template should not be that expensive
+
+performance i did some test with simple game similar to swing copters and found that game created with B consumes 15-20 more ram on ios device that the same game created with B but then i used apportable to run B game on my android device and found it almost not playable
+
+performance i did some test with simple game similar to swing copters and found that game created with B consumes 15-20 more ram on ios device that the same game created with B but then i used apportable to run B game on my android device and found it almost not playable
+
+the B cms is a great php framework better than B the most popular at the moment but its documenation lacking
+
+the B cms is a great php framework better than B the most popular at the moment but its documenation lacking
+
+the best testdriven.net disables all instrumentation that B does so it makes B blazing fast - much faster than B for example
+
+the best testdriven.net disables all instrumentation that B does so it makes B blazing fast - much faster than B for example
+
+i m in the hate it part so anything i said is biased plus in our test prototypes developing in B was faster than B
+
+i m in the hate it part so anything i said is biased plus in our test prototypes developing in B was faster than B
+
+B is larger than B but thanks to expires cache-control this only matters on the the first load
+
+B is larger than B but thanks to expires cache-control this only matters on the the first load
+

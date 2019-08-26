@@ -1,0 +1,38 @@
+macvim * is much thicker whereas * is slicker and sophisticated
+
+personally i m using * right now which i find easier than * for searching and navigating the code but everyone has their taste
+
+i feel like * is so much better than *
+
+on windows machine i would probably go with * personally i now use programmers * 2 however it does not support a spell checker and i don t really thinks it s better than * by any measure
+
+you might want to try * - it has an inbuilt tutorial and some people like me find it easier over * no flames pls
+
+in * it s much more difficult to run a subprocess than it is in * so in * you need to have a separate running idris repl
+
+for example * s macro shortcut f3 and f4 is easier than * s qq and q
+
+maybe not productive in the same way - i d say * is quicker for editing files * is better at doing everything else again i would personally say things like flymake-mode vcs bindings are such are quicker to use than the * equivalent
+
+i realized that * would load slower than * but this seems ridiculous for a fresh install
+
+i am starting to understand that even though * is more powerful than * * is at least 10 times easier to use less keystrokes and requires way less modifications
+
+on today s machines that s a non-issue but if you ever find yourself dealing with older gear it s my experience that * is far more likely to work on a wonky terminal than * is
+
+i have found that * has better plugins for providing some of the more ide-oriented capabilities but like boltclock said * is really just a powerful text editor and does not try to be a one-stop-shop ide
+
+i have tried with * 2 and it work very very good better than * p
+
+* 3 needs much more time several seconds more then * before the opened file shows up and i suppose it is because * does some pre-evaluation of the file content like detecting areas suitable for folding there are fold triangles available depending on indentation of non-white characters in the file
+
+i prefer * because it s a little more customizable than * but they re both great options and lighter than dreamweaver
+
+* which is often recommended are even more broken than * 2 which i find to be pretty good actually
+
+* is more powerful and * is worth the price tag
+
+i tried a few ides on ubuntu and it just didn t seem right - * is lightweight and i actually enjoy using it more than * on os x
+
+i know * does that but * is a more complete tool than * so i cant switch to that
+

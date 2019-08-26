@@ -1,0 +1,240 @@
+also linearsvc class from B performs even better than B whch is also surprising considering that it s a wrapper of B
+
+i ve used both B is more robust but B is easier on the eyes
+
+i ve used both B is more robust but B is easier on the eyes
+
+you should be able to do this in B which has a better license than B by just throwing what they showed in this blog post on its side
+
+anyway if you re willing to do advanced 3d stuff B is way better than B
+
+personally i ve used B in the past and found the performance much better than B for 3d scatter plotting though the python bindings are somewhat in question moving forward i think
+
+anyway if you re willing to do advanced 3d stuff B is way better than B
+
+personally i ve used B in the past and found the performance much better than B for 3d scatter plotting though the python bindings are somewhat in question moving forward i think
+
+the B docs explain how to use drawees and you can see right from their xml definition that they are much more customizable than B
+
+for more complex xml reading writing you better check B which is heavier than B
+
+B is more forgiving in terms of well-formed xml structure see i had to edit the xml a bit to make things work for B and it s actually much easier to work with
+
+should i be surprised that the B B backend is about 18x - 19x slower than the B tensorflow backend
+
+should i be surprised that the B B backend is about 18x - 19x slower than the B tensorflow backend
+
+the B results seems much more stable but B results have some drastic fluctuation
+
+the B results seems much more stable but B results have some drastic fluctuation
+
+the use of B is also a performant option but slightly lower than B
+
+B routine B_gemm has higher performance than B in some cases
+
+B is more modular than B B around 5kb B around 17kb but is generally lighter because you only include the specific modules you need
+
+B is more modular than B B around 5kb B around 17kb but is generally lighter because you only include the specific modules you need
+
+i ve found B which is more like the B but it lacks a lot of B libraries
+
+start with B as it s text extraction abilities are better than B s
+
+enthought-dev is B faster than B
+
+B libraries are generally less mature and less standard than B
+
+as for not reinventing the wheel like many have said already make sure to first explore the possibilities in the standard template library B which is much richer than you might think and then look at B www.B.org which has libraries for a lot of diverse purposes and they are extremely high quality and some are just works of art like spirit proto lambda and mpl
+
+B libraries are generally less mature and less standard than B
+
+as for not reinventing the wheel like many have said already make sure to first explore the possibilities in the standard template library B which is much richer than you might think and then look at B www.B.org which has libraries for a lot of diverse purposes and they are extremely high quality and some are just works of art like spirit proto lambda and mpl
+
+B has far more capabilities than B
+
+i wish program with B and B is faster than with only B
+
+B is a newer gem than B and it looks a lot more flexible
+
+new to B already loving it so much better than B
+
+the downside is that you are losing the big part of the B s appeal in its simplicity and technically could be better off by using B s dsl
+
+i think B looks so much better than B but for quick zooming panning functionality my first question is is this better off in B or can B handle slick zoom pan even though it s not tile-based
+
+i think B looks so much better than B but for quick zooming panning functionality my first question is is this better off in B or can B handle slick zoom pan even though it s not tile-based
+
+B parser is generally faster B is the most lenient one - this kind of difference would be relevant if you have a broken or non-well-formed html to parse
+
+and i ve read that using B is far faster more memory efficient for such tasks as such i ve ported my B classifier to accord net like so
+
+when i evaluated B it was less mature than B
+
+i hear B is nicer the B
+
+if you are dealing with docx document B is more convenient than B
+
+if you are dealing with docx document B is more convenient than B
+
+regarding skinning i feel B default skinning to be more basic than B one but i think both have ways to make them as beautiful as your css skills allow you
+
+regarding skinning i feel B default skinning to be more basic than B one but i think both have ways to make them as beautiful as your css skills allow you
+
+even though i liked many design aspects of B and it is simpler than B imo B is the one to learn because imo it has far far better documentation examples etc
+
+also B is actually newer and more actively maintained than B
+
+it can be hard to get the layuots exact the way you want in B it s usually easier in B
+
+B is claimed to be faster than B although in modern versions B is also fast enough
+
+i find B to be an uglier api than B in general though but not really a deal breaker
+
+B is more strict the B so i m now learning it
+
+i d say that B is actually more evolved than B
+
+there exists a simd fork of B which claims to have much better performance than B or plain B but there are no comparisons to opencv
+
+mmmm B is somewhat less developed than B in many respects
+
+i thought B was supposed to be leaner meaner than B
+
+for me B is performing far better than B
+
+B converted much faster than B although i did not test conversion with cuda processing
+
+while B aims to be more lightweight than B B is by far the more mature proj
+
+while B aims to be more lightweight than B B is by far the more mature proj
+
+instead doing it with B which i found to be the fastest somehow even faster than B
+
+if B doesn t satisfy you for any reason you can also try B which does much more than B it s not only for images but the same rules apply
+
+several things i found in the cocos2d forums lead me to believe it s an issue with the B implementation on ios but i ve tried using both stb_image and lodepng to avoid B and those libraries actually performed even worse than B
+
+several things i found in the cocos2d forums lead me to believe it s an issue with the B implementation on ios but i ve tried using both stb_image and lodepng to avoid B and those libraries actually performed even worse than B
+
+p.s. my recommendation would be to remove jsonobject conversion and instead return an object of actual class as internally spring uses B which is more powerful json framework then B
+
+looking briefly at the list-like combinators for B i m more familiar with B i think you can solve this by folding over the result of the psome combinator
+
+it seems that the idea of B it to be more declarative than B so you just have pure
+
+but if convenience is more important than efficiency yes you probably should consider a tree model not dom necessarily B is better for example or data binding jaxb or B
+
+then we found B also have same issue but increase rate is less than B
+
+B is faster than the B 2.3 malloc.
+
+the cons of B is that you get more than just B - you also get gulp-utils and other things - which is a problem if you are not using gulp in the first place
+
+if you don t plan to move to mobiles later tkinter or B may be a better choice than B
+
+2 readability library content is passable slower on average than B but faster than B
+
+B is significantly more powerful and robust than B in my experienced opinion
+
+regarding B B is more efficient and in my experience can handle broken html better than B
+
+i prefere B it s a harder to understand but much faster than B
+
+it uses B underneath and is much faster than B
+
+how can i find all div and span tags with order preserved.with B it is very simple but i switched recently to B since it is much faster than B
+
+pyquery is based on B so it s also much faster than B
+
+B will let you use xpath here which i think will be less painful than B s interface
+
+for those commenting that B is obsolete personally i like it more than B
+
+B is said to be slower than B but i suggest you use a profiling tool here to find the best set of options here
+
+if your company s concern is to avoid big unknown libraries which is prefectly understandable i d advise you to stick with B which is smaller that B
+
+for my project B is better then B because B is filling up all gaps B is just looking for the first possible gap and doesn t fill empty gaps
+
+also it seems B lib has better performance than other packages such as B which i haven t tried personally
+
+further more B really seems to be faster than B json
+
+i looked at B metrics and it seems slower than B
+
+code looks correct and even at its worst B should be no slower than B
+
+personally i prefer B as according to test benchmarks it s faster than B
+
+after searched in google found that B has better performance than B i plan to replace B with B in my project but i got a diffrent result when run test code
+
+also i want to know if google B is better than B for json parsing
+
+in my case i found B little faster than B i used default serialization because so far i don t have a need to customize serialization
+
+also it seems B lib has better performance than other packages such as B which i haven t tried personally
+
+further more B really seems to be faster than B json
+
+i looked at B metrics and it seems slower than B
+
+code looks correct and even at its worst B should be no slower than B
+
+personally i prefer B as according to test benchmarks it s faster than B
+
+after searched in google found that B has better performance than B i plan to replace B with B in my project but i got a diffrent result when run test code
+
+also i want to know if google B is better than B for json parsing
+
+in my case i found B little faster than B i used default serialization because so far i don t have a need to customize serialization
+
+i was also looking at B B sfml i didnt see much tutorials help on this but heard its better than B
+
+i was also looking at B B sfml i didnt see much tutorials help on this but heard its better than B
+
+finally if B just isn t working for you try B it s better documented than B
+
+this may help those confused by B and hdf5 but more familiar with B like myself
+
+this may help those confused by B and hdf5 but more familiar with B like myself
+
+but if you will look at the accuracy level B have more accurate detection than B
+
+but if you will look at the accuracy level B have more accurate detection than B
+
+between these B is much closer to B in character -- a small toolkit for abstracting away most of the os-dependent parts so you can produce opengl programs with relatively little hassle
+
+or if you re really focused on only doing opengl i may suggest using B which is the better B but you ll have to draw the menus yourself using opengl
+
+between these B is much closer to B in character -- a small toolkit for abstracting away most of the os-dependent parts so you can produce opengl programs with relatively little hassle
+
+or if you re really focused on only doing opengl i may suggest using B which is the better B but you ll have to draw the menus yourself using opengl
+
+B is more about json-based persistence in the vein of B which can do json too and sounds a bit too heavyweight for just an applet
+
+B is more about json-based persistence in the vein of B which can do json too and sounds a bit too heavyweight for just an applet
+
+i used it because it is small 6 kb compiled with just the extraction making it far smaller than B which is more than 150 kb and is more permissive than B
+
+i used it because it is small 6 kb compiled with just the extraction making it far smaller than B which is more than 150 kb and is more permissive than B
+
+here in so i found a lot of questions asking something similar and the answers normally said you can use B or asm or B is better than B or bcel is old and is dying or asm is the best because it gives x and y
+
+the javadoc of B is way better than that of B
+
+here in so i found a lot of questions asking something similar and the answers normally said you can use B or asm or B is better than B or bcel is old and is dying or asm is the best because it gives x and y
+
+the javadoc of B is way better than that of B
+
+however if you re developing a serious application B is more likely to be the tool you need to use as B abstracts more than a real application would normally want to
+
+if you re building a simple demo of a rendering mechanism B is way better than B it takes care of a lot of the details that B would otherwise require
+
+however if you re developing a serious application B is more likely to be the tool you need to use as B abstracts more than a real application would normally want to
+
+if you re building a simple demo of a rendering mechanism B is way better than B it takes care of a lot of the details that B would otherwise require
+
+note please do tell me if B is more easy or this B
+
+note please do tell me if B is more easy or this B
+

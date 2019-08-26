@@ -1,0 +1,46 @@
+the * one is dramatically slower then * implementation
+
+the * designers went through a lot of trouble to make sure that it s more than just * without the constraints of c in fact i almost wish they hadn t said that since it s so often misquoted
+
+also note that i use * more than *
+
+* works better than * for this because it s more amenable to static analysis as it lacks the polymorphism of * s template rules
+
+this kind of processing is most easily done with * which is more expressive than *
+
+as for whether to use * or * the proof is in the pudding * is better at transforms and * is better at queries
+
+there are various object systems you can load as libraries when you want to do oop but integration with existing code heavily depends on the * dialect and its surrounding culture chicken * seems to be more object-oriented than * for instance
+
+from my pov the object * paradigm used with fpc object * dialect which can coexist with the default object * code is more advanced lightweight and integrated than the interface-based plumbing of * xe2 compiler with on-the-fly marshalling using rtti
+
+coq is probably the most prominent language of the style but * has a more *-y feel as well as being written in * itself
+
+i would say pure * is better for programming whether you use flash ide or flex ide is not that relevant and * is better for non-programmers to combine the components programmed in as
+
+overall common * is much more uniform than * and more radical language experiments if done at all are usually embedded as a portable library rather than defining a whole new language dialect
+
+common * has a separate namespace for functions which makes operation like this more verbose than with *
+
+first you can use * or q it just takes more work than * or q
+
+secondly the * ffi is more powerful that is it does more with less code than * s and more libraries are avaliable via hackage so i don t think foreign interfaces will be a deciding factor
+
+in dependently-typed languages like * it s probably more useful than in *
+
+especially as * is becoming more and more of a distant memory and the * language takes on a life of its own in conjunction with the core .net framework advancing
+
+* provides more mechanisms for asserting shapes of * graphs as does new work on * shapes
+
+* is richer than languages such as * schema *s
+
+* methods tend to be more fine-grained than * functions so that may be a good place to begin
+
+* seems much more clear to me than * and in general it seems that the guys in neo4j are going with *
+
+neo4j and * is still faster and obviously this has no effect on the * queries on neo4j but that might be just a issue with the * implementation for neo4j
+
+* is no better nor worse than * ruby python or any other scripting language in this regard -- they all do basic file operations with equal aplomb
+
+in * it s better to say * a decimal number like 32.98 is written 32 98 slash is used instead of point
+

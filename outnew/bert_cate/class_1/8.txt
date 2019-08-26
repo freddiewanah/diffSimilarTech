@@ -1,0 +1,70 @@
+finally you might want to look into B which provides a lot more visual flexibility than B and can be seen as a sort of generalization of the latter
+
+finally you might want to look into B which provides a lot more visual flexibility than B and can be seen as a sort of generalization of the latter
+
+it is worth mentioning that there is a commercial product named B that is much more powerful than jvm B
+
+B is more effective than B and B is needed anyhow but this will work also if you want to do multiples people then just for-loop it and dont forget to close
+
+B is more effective than B and B is needed anyhow but this will work also if you want to do multiples people then just for-loop it and dont forget to close
+
+B has some slightly better functionality than B but is a bit harder to use
+
+this relates to another question i asked a while back at size of qt containers is B much larger than B
+
+the B version is definitely faster since having the controls loose on the B took more like 2 seconds to update
+
+the B version is definitely faster since having the controls loose on the B took more like 2 seconds to update
+
+note the use of std B is safer and more convenient than std B B
+
+B animation is generally easier and more intuitive to use than B
+
+B animation is generally easier and more intuitive to use than B
+
+also i think the B class is more idiomatic these days than hand rolling B
+
+using B is potentially slightly on the order of a few milliseconds slower than using B directly
+
+B is easier but B is more powerful and allows for more control
+
+B has a much simpler interface than B and takes care of reading and writing from the streams for you
+
+also i think the B class is more idiomatic these days than hand rolling B
+
+using B is potentially slightly on the order of a few milliseconds slower than using B directly
+
+B is easier but B is more powerful and allows for more control
+
+B has a much simpler interface than B and takes care of reading and writing from the streams for you
+
+B is more generic than B and should be preferred
+
+B is more generic than B and should be preferred
+
+not using the same B is a more common practice to avoid confusion and B
+
+B has more features than B so it might be better suited and more easily adapted for your purposes
+
+B has more features than B so it might be better suited and more easily adapted for your purposes
+
+B is better than B in this case because it s easy to resize it
+
+size B performs better than B because it doesn t store the
+
+well obviously you created an implementation B which has a little bit more specialized interface than B
+
+i suggest you to give a look to B which is far better than B also because it is actively developed
+
+i suggest you to give a look to B which is far better than B also because it is actively developed
+
+i was originally using B because it was easier than B to use but i ran into the same problem it doesn t parse the entire string just the first number in the string
+
+and B is much simpler to use than B and will serve the most common development needs
+
+B is much simpler to use than B and will serve the most common development needs
+
+there are many reasons why the B api is better than the older B api but in your case it may initially feel like a downgrade
+
+my understanding is that although B is newer it s not necessarily better than B it just provides a different api that might be considered simpler but doesn t that depend on the use case
+

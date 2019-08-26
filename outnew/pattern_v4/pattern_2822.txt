@@ -1,0 +1,172 @@
+1687594
+serializable deserialization
+Pattern(s): 0	0	
+serializable deserialization becomes a bigger bottleneck when you scale out to a session server or use sql server to manage session state
+
+
+
+1706281
+strcpy strncpy
+Pattern(s): 0	
+use strcpy and check the buffer size by hand
+strncpy is a little safer but dangerous in other way
+
+
+
+1712946
+hex binary
+Pattern(s): 1	
+hex is somewhat more readable than binary if i happen to be loading a data dump in a text editor etc
+
+
+
+1716751
+arp tcp
+Pattern(s): 0	
+arp would appear from your question that the period of the tcp message is shorter than the arp refresh time
+
+
+
+1730167
+lisp scheme
+Pattern(s): 0	
+clojure because it purportedly gives nice clean access to the huge universe of j2se j2ee libraries on the other hand encourages me to relearn this lisp dialect because it may finally be of practical use
+as for which one to start with i would say scheme is simpler and so might be more appropriate to start with
+
+
+
+1730263
+innodb myisam
+Pattern(s): 1	
+with only a few transactions per second tps you re not likely to tell the difference in the performance but innodb is more reliable and scales better
+2 with only 2-3 tps you will not see any significant difference between innodb and myisam
+
+
+
+1734747
+icomparable compareto
+Pattern(s): 0	
+the icomparable defines order less than greater than
+the method defined by icomparable is compareto with which you can determine the order between two elements
+
+
+
+1738309
+matlab simulink
+Pattern(s): 0	
+generally matlab has a better programming environment better documentation better debuggers better object browser and is easier to use you can use matlab without doing any programming if you want
+simulink allows you to visually program by connecting blocks in graphs
+
+
+
+1747128
+printwriter bufferedwriter
+Pattern(s): 1	
+printwriter just exposes the print methods on any writer in character mode
+bufferedwriter is more efficient than according to its buffered methods
+
+
+
+1754080
+sortedlist sorteddictionary
+Pattern(s): 0	
+as you can see on sorted data the sorted list is faster than the sorteddictionary
+on unsorted data the sortedlist is slightly quicker on retrieval but about 9 times slower on adding
+
+
+
+1760658
+quicksort mergesort
+Pattern(s): 0	
+mergesort is a stable sort and typically the efficient quicksort implementations are not
+while mergesort may do more swaps or moves mergesort does fewer comparisons and so tends to work better with text input
+
+
+
+1760658
+mergesort heapsort
+Pattern(s): 0	
+while mergesort may do more swaps or moves mergesort does fewer comparisons and so tends to work better with text input
+
+
+
+1786935
+vim emacs
+Pattern(s): 0	
+this will sound stupid but i use vim because the keyboard shortcuts are mostly one finger at a time if not you can shift with one hand and key with the other and i map esc to something easier
+emacs requires more contortions and hurts my hands
+
+
+
+1786996
+vim emacs
+Pattern(s): 1	
+that said over the years i ve tended toward vim because i find that it s harder for me to get lost in it s user interface when i can t remember what i m doing
+i have also noticed over time that emacs is a little more touchy when it comes to tty settings
+
+
+
+1792370
+postgresql greenplum
+Pattern(s): 0	
+i think you ll find that postgresql works a lot better for nearly any workload olap especially than mysql
+greenplum and other similar solutions should work a bit better than postgresql depending on your data sets and use cases
+
+
+
+1811677
+inline inlining
+Pattern(s): 0	
+be aware though that this should only be on a release build since inline code is difficult to debug
+also you said that you don t mind making your program larger as long as it gets faster but that often inlining makes it slower
+
+
+
+1853219
+quicksort heapsort
+Pattern(s): 0	
+one of the major factors is that quicksort has better locality of reference -- the next thing to be accessed is usually close in memory to the thing you just looked at
+by contrast heapsort jumps around significantly more
+
+
+
+1937370
+postgresql mysql
+Pattern(s): 0	
+in the event of having to kill the server forcefully either by kill -9 or due to power outage postgresql generally has better resilience to table corruption
+full support for acid compliance and other relational db features that support for again imho and experiance are weak or lacking in mysql
+
+
+
+1947902
+opera google-chrome
+Pattern(s): 0	
+i found that on google-chrome safari and opera many special keys don t get passed through to ajaxterm including backspace the arrow keys ctrl + c ctrl + h home end etc
+opera is even worse when you press shift the keypress gets translated into p so you can t type capitals
+
+
+
+1947902
+opera safari
+Pattern(s): 0	
+i found that on google-chrome safari and opera many special keys don t get passed through to ajaxterm including backspace the arrow keys ctrl + c ctrl + h home end etc
+opera is even worse when you press shift the keypress gets translated into p so you can t type capitals
+
+
+
+1991217
+subtraction multiplication
+Pattern(s): 0	
+addition and subtraction are simple
+multiplication requires a bit more work as the naive algorithm requires nested loops
+
+
+
+1991217
+addition multiplication
+Pattern(s): 0	
+addition and subtraction are simple
+multiplication requires a bit more work as the naive algorithm requires nested loops
+
+
+

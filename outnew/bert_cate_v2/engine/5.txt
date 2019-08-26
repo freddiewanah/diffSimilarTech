@@ -1,0 +1,34 @@
+odd that B is more tolerant than B
+
+it s called web audio api and is currently a draft but is well supported by B you ll need to use prefixes and a little less by B
+
+and now i have learned that B uses more memory at-least while reading than B engine so i am trying to change the default engine of mysql to use B
+
+for an oltp type system B is usually more sensible than B did you check the contention before trying a different engine
+
+B has better crash recovery while B is poor at recovering
+
+mostly B is better choice than a B
+
+B is still widely used in web applications as it has traditionally been perceived as faster than B in situations where most db access is reads
+
+newer versions of mysql 5.5+ have extended B to support all the features that were previously only available on B such as fulltext and geospatial indexing and B performance is usually considerably better than B when configured properly
+
+most of the literature that says B is better faster whatever then B is old literature
+
+you will need about six times less disk space to store and memory to process your dataset compared to B or about 2-3 times less than archived B
+
+sometimes i got asked on some interviews what benefits does B have against B and when B is better than B
+
+their conclusion B has 30 higher performance than B on average
+
+to answer the real question why is B slower than B i can t give an authoritative answer
+
+B is better than B when you don t need those advanced features and storage speed is more important than other concerns
+
+B delivered 4.6x higher throughput than B while achieving
+
+B is more powerful than B
+
+B is simpler than B
+

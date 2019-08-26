@@ -1,0 +1,46 @@
+yet from my point of view B is more efficient that B and easier to customize than xtable
+
+i have tried B too but B is smarter than B on this aspect
+
+in either case B is going to add a tiny amount of overhead so it s likely to be technically slower than B but not by any meaningful amount like it takes 5.1 seconds to insert 20k records vs 5.0 seconds
+
+note that while you could use B for the job it s not particularly better suited than regular B
+
+note that while you could use B for the job it s not particularly better suited than regular B
+
+B is significantly more powerful and robust than B in my experienced opinion
+
+regarding B B is more efficient and in my experience can handle broken html better than B
+
+i ve found that even if B is faster than B for documents that size it s usually best to try to reduce the size to a few kb via regex or direct stripping and load that into bs as you are doing now
+
+i would recommend B for html parsing it s simple and considerably faster than B can be as much as two orders of magnitude
+
+it s generally accepted that B is faster than B ref
+
+B is supposed to be much faster and efficient and can do much more than B
+
+i prefer to use B better than B
+
+i prefere B it s a harder to understand but much faster than B
+
+note that B is probably a better option than B for this kind of task nowadays for the reasons given by B s author
+
+i found a solution to this problem using B at B-where-are-you-putting-my-html because i think it is easier than B
+
+B is also much much faster than B
+
+B is faster than B i think and has much better functionality while remaining relatively easy to use
+
+according to the above posts and my own experience B is definitely faster than B
+
+i do understand that traditionally they are saying that B are stricter than B however what i do not get is the following
+
+since you re using B why not use it in a more direct manner B is believed to be faster than B
+
+you ll probably find that B runs faster than B but in my uses B was very easy to learn and use and handled typical crappy html as found in the wild well enough that i don t have need for anything else
+
+B is at least in my experience more general than B from hmisc
+
+B is at least in my experience more general than B from hmisc
+

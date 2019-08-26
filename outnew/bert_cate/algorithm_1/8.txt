@@ -1,0 +1,48 @@
+that s hard to say.the worst of B is n log2n -n+1 which is accurate if n equals 2 k i have already proved this .and for any n it s between n lg n - n + 1 and n lg n + n + o lg n .but for B its best is nlog2n also n equals 2 k .if you divide B by B it equals one when n is infinite.so it s as if the worst case of B is better than the best case of B why do we use B
+
+given that it is possible to vastly reduce the likelihood of the worst case of B s time complexity via random selection of the pivot for example i think one could argue that B is worse in all but the pathological case of B
+
+that s hard to say.the worst of B is n log2n -n+1 which is accurate if n equals 2 k i have already proved this .and for any n it s between n lg n - n + 1 and n lg n + n + o lg n .but for B its best is nlog2n also n equals 2 k .if you divide B by B it equals one when n is infinite.so it s as if the worst case of B is better than the best case of B why do we use B
+
+given that it is possible to vastly reduce the likelihood of the worst case of B s time complexity via random selection of the pivot for example i think one could argue that B is worse in all but the pathological case of B
+
+since a proper implementation of B is faster than B use B unless there are negative weight edges in the graph
+
+the only issue with applying that technique for the single source shortest path problem is that reweighting with B takes o mn time which is slower than B s o m log n
+
+however if g is guaranteed to have only non-negative weights g is non-positive weights then B s algorithm could be better choice over B
+
+because B runs in time o mn the overall asymptotic runtime is still o mn + n 2 log n so if m o n 2 note that this is little-o of n this approach is asymptotically faster than using B
+
+the difference is large enough that the constant factor in front of the n log n term in B is lower than the constant factor in front of the n log n term in B which is one reason why B is much faster than B
+
+asymptotic analysis reveals order of growth of B in the worst case is big-o n logn which is better than B s big-o n 2 as a worst case
+
+for example B average cost t n.log n and B average cost t n.log n are both sorting algorithms with the same average cost - yet B is typically much faster than B
+
+B has higher overhead than B but its worst case is o n log n vs
+
+average asymptotic order of B is o nlogn and it s usually more efficient than B due to smaller constants tighter loops
+
+in the event that the B starts to degenerate it uses B which is o n log n worst-case but slightly slower than B on average to guarantee o n log n worst-case runtimes
+
+B time complexity is typically o n log n but it s worst case is o n 2 which is avoided with the switch to B since B is always o n log n but slower than B so it s only used to avoid o n 2
+
+the difference is large enough that the constant factor in front of the n log n term in B is lower than the constant factor in front of the n log n term in B which is one reason why B is much faster than B
+
+asymptotic analysis reveals order of growth of B in the worst case is big-o n logn which is better than B s big-o n 2 as a worst case
+
+for example B average cost t n.log n and B average cost t n.log n are both sorting algorithms with the same average cost - yet B is typically much faster than B
+
+B has higher overhead than B but its worst case is o n log n vs
+
+average asymptotic order of B is o nlogn and it s usually more efficient than B due to smaller constants tighter loops
+
+in the event that the B starts to degenerate it uses B which is o n log n worst-case but slightly slower than B on average to guarantee o n log n worst-case runtimes
+
+B time complexity is typically o n log n but it s worst case is o n 2 which is avoided with the switch to B since B is always o n log n but slower than B so it s only used to avoid o n 2
+
+indeed B s algorithm is better than B s in this case the complexity for B is o m n 2 and in this problem m is much much higher than n so the o n 3 time complexity of B is better
+
+indeed B s algorithm is better than B s in this case the complexity for B is o m n 2 and in this problem m is much much higher than n so the o n 3 time complexity of B is better
+

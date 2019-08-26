@@ -1,0 +1,48 @@
+right now * is much slower than * as you can see here
+
+using the clipping version of * will be faster than *
+
+i think using * is safer than *
+
+but then your * is less restricted than your * which is odd.
+
+is type * faster than type * cause i am curious how both work
+
+a * request would not provide any more safety than a * request any half-decent web debugging tool can forge * requests
+
+actually if you would like to retrieve specific task with all its details * request would be more suitable than *
+
+supply more data upon * and receive less data upon *
+
+use * its safer than * if you use rest
+
+* method is not safer than * data never trust datas coming from the client side
+
+the * request is marginally less secure than the * request
+
+i can t help with the coding side of your question but if you re passing in a non-url input then the * method would be more appropriate than *
+
+but generally * is slower and would be bigger in size than a * request
+
+as a pragmatist i m inclined to use * because implementing it is way simpler than *
+
+the * at has more information on how to * that access token
+
+however it isn t clear how much the value can be for the standard tumblr api you can t * more than 50 * at a time
+
+* data isn t inherently more secure than * data
+
+i don t want to use the * request since it says in the guidelines of a restful api that it should use * for this purpose plus i might want to send more data than * can handle
+
+* * method doesn t have the same lenght limit you can use * to send more data than with *
+
+also you can determine if someone is submitting a form or *ting the form by checking if _server request_method * which is cleaner than using a * url parameter though i guess there s nothing wrong with the other approach...
+
+i run the ab test several times with same results * is faster but * is lighter
+
+this blog * provides more info to * started
+
+the problem is that the * shipping takes longer than the call * alert then shows me the session variable not updated
+
+http * isn t inherently any more secure than http * if you re allowing the uploaded files to be exceuted on your server
+

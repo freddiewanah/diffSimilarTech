@@ -1,0 +1,104 @@
+B is slightly more difficult to setup but is much faster than B
+
+if everything is correct why B perform so much better than B
+
+if everything is correct why B perform so much better than B
+
+but this popular wsgi benchmark says B is way slower than B
+
+B is definitely not slower than B
+
+B is definitely not slower than B
+
+you can have a look at this speed performance benchmark from B which suggests that B is about 3-4 times slower than B 3
+
+you can have a look at this speed performance benchmark from B which suggests that B is about 3-4 times slower than B 3
+
+my speed test claims that svg is significantly faster than canvas at least B seems to be significantly faster than B
+
+my speed test claims that svg is significantly faster than canvas at least B seems to be significantly faster than B
+
+quick takeaway of the benchmark jackson performs 5 to 6 times better than B and more than twice better than B
+
+and how do the differences make B faster than B
+
+is B faster slower than B during training
+
+is B faster slower than B during training
+
+in my testing the slow-down from using B ranges from about 1.5-3.0 times slower than using B but its performance will depend on your application
+
+B is still faster than B in many respects and supports a wider range of operations
+
+it B runs much faster than B
+
+in my testing the slow-down from using B ranges from about 1.5-3.0 times slower than using B but its performance will depend on your application
+
+B is still faster than B in many respects and supports a wider range of operations
+
+it B runs much faster than B
+
+is B faster than B
+
+B is not that much faster -- and the outputted file sizes are significantly higher than B
+
+B also seems to be faster than B using better multitasking
+
+i successfully compiled B with q8 but after all it seems about 30 slower than B 0.3 secs
+
+quick takeaway of the benchmark B performs 5 to 6 times better than B and more than twice better than gson
+
+from my own experience mtl4 is much faster than B and it is also faster than B
+
+B runs in less than one minute and B takes 4 hours
+
+according to some benchmark tests B is nearly 100 times faster than B
+
+B is supposed to be much faster and efficient and can do much more than B
+
+B is also much much faster than B
+
+B is faster than B i think and has much better functionality while remaining relatively easy to use
+
+according to the above posts and my own experience B is definitely faster than B
+
+yes B is slower than B
+
+B is faster with smaller documents and B is faster with large documents
+
+performance of B is better than B
+
+it seems B is more faster than B the average time of B is about 2ms while B is about 16ms does i make mistake when using B
+
+B is simpler B is faster
+
+under some conditions B has proven to be a lot faster than B there also exists jsonp and json.simple
+
+deserialization performance is similar with B over 9x slower than B and fastjson about 0.5 faster than B
+
+B is faster with smaller documents and B is faster with large documents
+
+performance of B is better than B
+
+it seems B is more faster than B the average time of B is about 2ms while B is about 16ms does i make mistake when using B
+
+B is simpler B is faster
+
+under some conditions B has proven to be a lot faster than B there also exists jsonp and json.simple
+
+deserialization performance is similar with B over 9x slower than B and fastjson about 0.5 faster than B
+
+basically B was only slightly slower than B
+
+also B is recognized to be slower than B
+
+also B is recognized to be slower than B
+
+B is easy to use B has more option but is less easy to use than B
+
+B is easy to use B has more option but is less easy to use than B
+
+B -- 100x better than B
+
+B -- 100x better than B
+

@@ -1,0 +1,60 @@
+des is the least secure B is better but i d go for the B
+
+des is the least secure B is better but i d go for the B
+
+B may use more space than B i m not entirely sure and merge may be better for linkedlists
+
+B is also more complicated than B especially if you want to write a really solid implementation and so if you re aiming for simplicity and maintainability merge sort becomes a promising alternative with very little performance loss
+
+the biggest difference that can be produced between the two of them will always be to B s detriment and it involves lists that are already largely sorted or contain a large number of ties when B does better than B the difference will not be nearly so great
+
+i know B is better since it is stable and doesn t have n 2 as worst case but i required to implement B
+
+also note that B is generally more optimal than B see this as well which explains why it s taken advantage of when sorting primitives
+
+i do know though that B has more compares but less swaps than B which i learned from another stackoverflow discussion B vs merge sort
+
+B may use more space than B i m not entirely sure and merge may be better for linkedlists
+
+B is also more complicated than B especially if you want to write a really solid implementation and so if you re aiming for simplicity and maintainability merge sort becomes a promising alternative with very little performance loss
+
+the biggest difference that can be produced between the two of them will always be to B s detriment and it involves lists that are already largely sorted or contain a large number of ties when B does better than B the difference will not be nearly so great
+
+i know B is better since it is stable and doesn t have n 2 as worst case but i required to implement B
+
+also note that B is generally more optimal than B see this as well which explains why it s taken advantage of when sorting primitives
+
+i do know though that B has more compares but less swaps than B which i learned from another stackoverflow discussion B vs merge sort
+
+though it s unrelated to your actual question B is generally slower than B at least in software so unless you really need to keep the key small B is almost certainly a better choice
+
+B turned out to be even slower than B but for my current requirements a much simpler algorythm rc4 is sufficient
+
+if you used B then you might see a better speedup over the B 3B observations
+
+though it s unrelated to your actual question B is generally slower than B at least in software so unless you really need to keep the key small B is almost certainly a better choice
+
+B turned out to be even slower than B but for my current requirements a much simpler algorythm rc4 is sufficient
+
+if you used B then you might see a better speedup over the B 3B observations
+
+if i do B i can create the stack while i m sorting but would this be faster than a B and then build the stack afterwords
+
+i was just going to say radix sort however that could be a bit above what you were looking to implement introsort is generally the accepted sorting solution for data it s a variation of B that switches to B when it reaches smaller sets as it s faster on smaller sets than B
+
+after several tests i found out that my B is way quicker than B i think it should be the other way around my selection sort is also faster than insertion sort
+
+from what i heard B should have better average case performance but from my tests it performs 4 times worse than B for array of random integers
+
+if i do B i can create the stack while i m sorting but would this be faster than a B and then build the stack afterwords
+
+i was just going to say radix sort however that could be a bit above what you were looking to implement introsort is generally the accepted sorting solution for data it s a variation of B that switches to B when it reaches smaller sets as it s faster on smaller sets than B
+
+after several tests i found out that my B is way quicker than B i think it should be the other way around my selection sort is also faster than insertion sort
+
+from what i heard B should have better average case performance but from my tests it performs 4 times worse than B for array of random integers
+
+if you re interesting in reducing the size of the resulting cookies you should consider using B rather than B to produce the signatures - B signatures are considerably smaller than B signatures of an equivalent security factor
+
+if you re interesting in reducing the size of the resulting cookies you should consider using B rather than B to produce the signatures - B signatures are considerably smaller than B signatures of an equivalent security factor
+

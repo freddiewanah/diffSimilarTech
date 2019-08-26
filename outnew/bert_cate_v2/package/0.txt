@@ -1,0 +1,24 @@
+possibly part of the reason of my problems is that the original code from ramnath uses rmaps while i m using B also developed by ramnath as it is more developed better integrated with B and of course includes leaflet
+
+if you are on linux and have chosen blas and B from a repo it is very likely that they are much slower than B
+
+b B runs always slower than B sequential around 10 times slower
+
+dist fonts B gruntfile.js js less license B readme.md
+
+note that while you could use B for the job it s not particularly better suited than regular B
+
+could i use B to do this more succinctly than running B and dcast separately for each of employed girls guys
+
+B is significantly more powerful and robust than B in my experienced opinion
+
+according to the above posts and my own experience B is definitely faster than B
+
+i would recommend B for html parsing it s simple and considerably faster than B can be as much as two orders of magnitude
+
+you might want to use r markdown and B which is easier than using B and r as also zhaoy suggested
+
+but if you are allowed to store whole tree into memory you can use B which is faster than B
+
+B is newer based on B internally and is often even faster
+

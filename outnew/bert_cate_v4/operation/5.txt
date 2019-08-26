@@ -1,0 +1,90 @@
+so we must show that a gradeschool * circuit is o log n times deeper than an * circuit
+
+we don t actually * it s slower than simple * and as you can see we destroy temporary register t0 but don t touch s0 s1
+
+is the same as because * has higher priority than *
+
+a side effect of many * routines is the * - so in few cases should * actually be faster than *
+
+it ends up in a state of confusion...you basically cannot release the * of the table it keeps getting bigger and smaller as you * your mouse - but you can never let go and release it to get the size you want
+
+i reimplemented the mouse * press and release events for the inner widget in order to be able to * it inside its bigger parent with * drop
+
+i got a *gable object done with jquery ui and when i * it it s way slower than i * my mouse
+
+implementing * is easier if you remember an shl operation performs the same operation as * the specified operand by two
+
+while working with integer * it s better to * first and divide later to minimize the rounding error
+
+the addition and * are much more than * and division
+
+the private * is always smaller than the * so you should be able to encrypt it using the raw rsa operation if you make sure to remove the prepended zero
+
+so no choice of the public * for this * is better than 19 using the public * to decrypt will work for at least half of the messages when eâ² 9 16 and in many cases for almost all the messages when eâ² 1 16
+
+the rsa private * may actually be shorter than the *
+
+in rsa signing a message m means *iation with the private * d the result r is the smallest integer 0 and smaller than the * n so that
+
+why with this grammar * have higher precedence than *
+
+* is generally slower than *
+
+for example since * has a higher precedence than * is read as not
+
+i used instead of to convert the string to a number since * is usually a little faster than * and it s the more common way of performing that action see to force a string to be converted to a number add zero to that string
+
+precedence rules specify priority of operators which operators will be evaluated first * has higher precedence than * pemdas
+
+i read in couple of blogs that in java * reminder operator is slower than *
+
+the double_unit stuff is how random actually does it internally because * is faster than * see floating point * vs floating point *
+
+t is not very important as long as alpha is small otherwise you will run into some rather weird nyquist issues aliasing etc. and if you are working on a processor where * is cheaper than * or fixed-point issues are important precalculate omega
+
+does * has higher precedence over * or it is other way round
+
+* though is an iterative process in logic the implementations you see on educational sites verilog vhdl are simply doing the same thing we did with log * in grade school but like * it is much simpler than grade school you pull down bits from the numerator in the long * until the number being checked against the denominator is equal to or larger basically the number can either go in only zero times or one times into the next number under test unlike decimal where it can be between 0 to 9 times
+
+* is per se slower than * however i don t know the details
+
+* is more expensive than *
+
+on many machines particularly those without hardware support for * * is a slower operation than * so this approach can yield a considerable speedup
+
+* is faster than * see fog s tables
+
+* is about 20 faster than *
+
+is it possible that the * is six times slower than * and
+
+also addition is faster than * and * is faster than *
+
+from what i read on the net * is usually easier to compute than *
+
+therefore i conclude that * is faster than *
+
+the reason to do this is because even though there is an integer * instruction div idiv in the instruction set it s typically very slow several times slower than *
+
+for the *-to-* case you are assuming that * is faster than *
+
+if you continue to use your method of performing this task then you need to manually check if the * of the two lower order decimal digits has caused a carry by checking if the result of the * is greater than 10 and if it is * 10 from the number and then add 1 to the higher order digit calculation
+
+this is a hold over from older compilers and interpreters on old chip architecture that would do * slightly slower than *
+
+i remember it says something like * takes much much more time than *
+
+generally the * is more costly than * i think but not much difference in this case
+
+so even disregarding that * is more expensive than * and multiplication we see that the number of operations the sieve requires is much smaller than the number of operations required by trial * if the limit is not too small
+
+as far as i know the * is more complex and slower than other operations like * so is my code incorrect then
+
+note that the * operator has a higher precedence than * and division just like in mathematics
+
+as int * gets larger taking powers might be faster than *
+
+btw a * search done with removing i is much faster than a * search
+
+this tiny overhead on add is vastly outweighed by the savings on lookups since all programmers should know and understand that * compares are vastly slower than * especially with unicode - the cpu can t just do a block compare of data but must check each pair of characters specially even using a table look-up this is vastly slower
+

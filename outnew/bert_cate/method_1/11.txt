@@ -1,0 +1,88 @@
+the B api works better than B normally but has usage limits and the implementation is bigger
+
+2 location + reverse B - seems more reliable but requests location services on the device does it work on wifi only tablets and for it to be enabled and requires time to a fetch location b server call to reverse B
+
+the B api works better than B normally but has usage limits and the implementation is bigger
+
+2 location + reverse B - seems more reliable but requests location services on the device does it work on wifi only tablets and for it to be enabled and requires time to a fetch location b server call to reverse B
+
+also as mentioned elsewhere B is a better option to css visibility as B sets display none and not visibility
+
+also as mentioned elsewhere B is a better option to css visibility as B sets display none and not visibility
+
+and im not shure about this statement javascript likes B more than B which gives a little performance boost
+
+and im not shure about this statement javascript likes B more than B which gives a little performance boost
+
+a B has broader application and is generally used to send persistent data to a server in fact prescriptively B should not be used for this purpose
+
+however it isn t clear how much the value can be for the standard tumblr api you can t B more than 50 B at a time
+
+we provide a number of support resources which may B faster response than B on third party sites including the virtuoso users mailing list public support forums and confidential support cases
+
+this would make things considerably easier as the android library has native support for json serialization and making http B requests to restful urls is much simpler than http B requests it s not a huge deal but just less stuff you have to worry about
+
+also B is generally considered better than B for ajax calls as it doesn t have the same string length limit slightly more secure too
+
+Bs have a size restrictions B do not or at least it s a configurable setting on the server and has a larger higher end than a B request would
+
+edit taking into account what was said in the comments though it looks more secure and is recommended by w3 see touheed khan s answer B isn t more secure than B and as riggsfolly said
+
+B is more often used on unsecure type of datatransactions like for example a searchform and B is used when you want to make more secure things like a login form
+
+other than that accepting a B request might be - depending on the server side rest framework - slightly more light weight than B requests
+
+while the B method can be submitted with forms or ajax calls and it is pretty safe at least more than the B
+
+a B request would not provide any more safety than a B request any half-decent web debugging tool can forge B requests
+
+B method are generally consume more secure than B because when we use B method than it can display the data in url bar.if the data is more sensitive data like password then it can be inggeris
+
+B method is not safer than B data never trust datas coming from the client side
+
+when you use B data is a alot more safer than B and you can send large no
+
+ajax calls using B are more performant than B according to yahoo
+
+a B has broader application and is generally used to send persistent data to a server in fact prescriptively B should not be used for this purpose
+
+however it isn t clear how much the value can be for the standard tumblr api you can t B more than 50 B at a time
+
+we provide a number of support resources which may B faster response than B on third party sites including the virtuoso users mailing list public support forums and confidential support cases
+
+this would make things considerably easier as the android library has native support for json serialization and making http B requests to restful urls is much simpler than http B requests it s not a huge deal but just less stuff you have to worry about
+
+also B is generally considered better than B for ajax calls as it doesn t have the same string length limit slightly more secure too
+
+Bs have a size restrictions B do not or at least it s a configurable setting on the server and has a larger higher end than a B request would
+
+edit taking into account what was said in the comments though it looks more secure and is recommended by w3 see touheed khan s answer B isn t more secure than B and as riggsfolly said
+
+B is more often used on unsecure type of datatransactions like for example a searchform and B is used when you want to make more secure things like a login form
+
+other than that accepting a B request might be - depending on the server side rest framework - slightly more light weight than B requests
+
+while the B method can be submitted with forms or ajax calls and it is pretty safe at least more than the B
+
+a B request would not provide any more safety than a B request any half-decent web debugging tool can forge B requests
+
+B method are generally consume more secure than B because when we use B method than it can display the data in url bar.if the data is more sensitive data like password then it can be inggeris
+
+B method is not safer than B data never trust datas coming from the client side
+
+when you use B data is a alot more safer than B and you can send large no
+
+ajax calls using B are more performant than B according to yahoo
+
+at very high speeds amazon s3 does have some recommended request rate and performance considerations but this is only when making more than 300 B list delete requests per second or more than 800 B requests per second for a particular bucket
+
+from an interface design standpoint you want user-agents to make post and B and delete more difficult than B or at least distinctly different so that users can rely on that difference to hint when their actions might cause a change in the resource state because they are responsible for those changes
+
+at very high speeds amazon s3 does have some recommended request rate and performance considerations but this is only when making more than 300 B list delete requests per second or more than 800 B requests per second for a particular bucket
+
+from an interface design standpoint you want user-agents to make post and B and delete more difficult than B or at least distinctly different so that users can rely on that difference to hint when their actions might cause a change in the resource state because they are responsible for those changes
+
+4 some B providers might mark that B as spam however most spam checks are based on spf and B checks more than B existence checks
+
+4 some B providers might mark that B as spam however most spam checks are based on spf and B checks more than B existence checks
+

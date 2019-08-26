@@ -1,0 +1,10 @@
+i am currently looking at * and while its more complex than * the documentation is much more informative and therefore understandable than cakephp s
+
+is * better than *
+
+i d totally go with * unless one dependency * is better than three * jinja2 and werkzeug
+
+for example * offers more assert methods than *
+
+from my experience * is much slower than *
+

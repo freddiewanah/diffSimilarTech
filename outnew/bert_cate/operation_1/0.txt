@@ -1,0 +1,174 @@
+since bit wise operations can be done very fast and B operations are relatively slow this type of B is much faster than doing a B
+
+a side effect of many B routines is the B - so in few cases should B actually be faster than B
+
+programmers like to use this property to speed up programs because it s easy to chop off some number of bits but performing a B is much harder it s about as hard as doing a B
+
+since bit wise operations can be done very fast and B operations are relatively slow this type of B is much faster than doing a B
+
+a side effect of many B routines is the B - so in few cases should B actually be faster than B
+
+programmers like to use this property to speed up programs because it s easy to chop off some number of bits but performing a B is much harder it s about as hard as doing a B
+
+on simple low-cost processors typically bitwise operations are substantially faster than division several times faster than B and sometimes significantly faster than B
+
+each operation takes a specific length and typically B will take more than B
+
+other cpus take three or four cycles to do a B which is a bit slower than B
+
+for B the technique described at is a reasonably easy thing to implement and is better than serial B
+
+it is well-known that the processor instruction for B takes several times more time than B division is even worse upd which is not true any more see below
+
+on modern processors floating point B is generally slightly more expensive than B which is one reason why compilers will typically replace by x+x
+
+my question is why do both integer and floating-point B execute faster than their B counterparts
+
+it used to be that B was slower than B and programers used several tricks to avoid B but with haswell it seems that it s the other way around
+
+on simple low-cost processors typically bitwise operations are substantially faster than division several times faster than B and sometimes significantly faster than B
+
+each operation takes a specific length and typically B will take more than B
+
+other cpus take three or four cycles to do a B which is a bit slower than B
+
+for B the technique described at is a reasonably easy thing to implement and is better than serial B
+
+it is well-known that the processor instruction for B takes several times more time than B division is even worse upd which is not true any more see below
+
+on modern processors floating point B is generally slightly more expensive than B which is one reason why compilers will typically replace by x+x
+
+my question is why do both integer and floating-point B execute faster than their B counterparts
+
+it used to be that B was slower than B and programers used several tricks to avoid B but with haswell it seems that it s the other way around
+
+then you can process any length number using very few division remainder B operations which is important because they are much slower than B
+
+then you can process any length number using very few division remainder B operations which is important because they are much slower than B
+
+the B operation uses more clock cycles than the B on many processors
+
+B is still somewhat more expensive than B on modern computers and compilers go to some effort to replace them with one or two shifts+B instructions
+
+on a cpu with a fast multiplier B may only be on the order of 4 times slower than B but on normal hardware it s 16-32 times slower for a 32 bit operation
+
+functionally a B will always take more time than an B because it combines a true B along with a true Bition step
+
+the B operation uses more clock cycles than the B on many processors
+
+B is still somewhat more expensive than B on modern computers and compilers go to some effort to replace them with one or two shifts+B instructions
+
+on a cpu with a fast multiplier B may only be on the order of 4 times slower than B but on normal hardware it s 16-32 times slower for a 32 bit operation
+
+functionally a B will always take more time than an B because it combines a true B along with a true Bition step
+
+i read in couple of blogs that in java B reminder operator is slower than B
+
+i am a bit suspicious of the performance because modulo tends to use B which is slower than your B operations
+
+i am a bit suspicious of the performance because modulo tends to use B which is slower than your B operations
+
+B has worse latency than B or addition by a factor of 2 to 4 on modern x86 cpus and worse throughput by a factor of 6 to 40
+
+on modern processors float B is a good order of magnitude slower than float B when measured by reciprocal throughput
+
+in many processors integer B is vastly faster than integer B
+
+the compiler or the jit is likely to convert the first case to the second anyway since B is typically faster than B
+
+integer B is about an order of magnitude slower than B on current cpus.
+
+the cpu operation for float B is much more complicated than B
+
+hardware integer B is always slower than B and the gap in the relative latencies of these instructions continues to widen
+
+here s one idea which uses one B and one shift so it ll be faster than a B on most systems
+
+most optimizing c compilers optimize it out to a B operation which is much faster than B it can be done only if the divisor is constant though
+
+in a 64 bit application this code will be a lot faster than in a 32 bit application in a 32 bit application multiplying two 64 bit numbers take 3 B and 3 additions on 32 bit values - however it might be still faster than a B on a 32 bit machine
+
+it is common knowledge that B takes many more clock cycles to compute than B
+
+on many processors integer B is faster than integer B
+
+on many machines particularly those without hardware support for B B is a slower operation than B so this approach can yield a considerable speedup
+
+as a rule of thumb B is faster than B on all cpus
+
+on some machines B is much slower than B but on most machines j multiplies and j divides will run a lot faster than 2 n-2 B and one B
+
+this can be a major clock-cycle saver since B is often much faster than a B operation
+
+B is generally on the order of 10x slower than B on most processor families
+
+usually B is a lot more expensive than B but a smart compiler will often convert B by a compile-time constant to a B anyway
+
+B is far easier and faster for a cpu to do than B
+
+on most processors B is slower than B for the same data types
+
+from the performance side float B is faster than B but i don t think that in the gui code it can create significant difference
+
+B has worse latency than B or addition by a factor of 2 to 4 on modern x86 cpus and worse throughput by a factor of 6 to 40
+
+on modern processors float B is a good order of magnitude slower than float B when measured by reciprocal throughput
+
+in many processors integer B is vastly faster than integer B
+
+the compiler or the jit is likely to convert the first case to the second anyway since B is typically faster than B
+
+integer B is about an order of magnitude slower than B on current cpus.
+
+the cpu operation for float B is much more complicated than B
+
+hardware integer B is always slower than B and the gap in the relative latencies of these instructions continues to widen
+
+here s one idea which uses one B and one shift so it ll be faster than a B on most systems
+
+most optimizing c compilers optimize it out to a B operation which is much faster than B it can be done only if the divisor is constant though
+
+in a 64 bit application this code will be a lot faster than in a 32 bit application in a 32 bit application multiplying two 64 bit numbers take 3 B and 3 additions on 32 bit values - however it might be still faster than a B on a 32 bit machine
+
+it is common knowledge that B takes many more clock cycles to compute than B
+
+on many processors integer B is faster than integer B
+
+on many machines particularly those without hardware support for B B is a slower operation than B so this approach can yield a considerable speedup
+
+as a rule of thumb B is faster than B on all cpus
+
+on some machines B is much slower than B but on most machines j multiplies and j divides will run a lot faster than 2 n-2 B and one B
+
+this can be a major clock-cycle saver since B is often much faster than a B operation
+
+B is generally on the order of 10x slower than B on most processor families
+
+usually B is a lot more expensive than B but a smart compiler will often convert B by a compile-time constant to a B anyway
+
+B is far easier and faster for a cpu to do than B
+
+on most processors B is slower than B for the same data types
+
+from the performance side float B is faster than B but i don t think that in the gui code it can create significant difference
+
+this is a hold over from older compilers and interpreters on old chip architecture that would do B slightly slower than B
+
+this is a hold over from older compilers and interpreters on old chip architecture that would do B slightly slower than B
+
+performing B on this slightly larger type will pretty much always be faster than doing B or modulo on the type itself
+
+for example on most 32 bit systems 64-bit B is faster than 32-bit B modulo
+
+it could be done via B which is much slower than B or it could be translated into a bitwise and operation as well and end up being just as fast as the version
+
+2.the B by 2 can be done by bit - shift operation is it really slower than B
+
+performing B on this slightly larger type will pretty much always be faster than doing B or modulo on the type itself
+
+for example on most 32 bit systems 64-bit B is faster than 32-bit B modulo
+
+it could be done via B which is much slower than B or it could be translated into a bitwise and operation as well and end up being just as fast as the version
+
+2.the B by 2 can be done by bit - shift operation is it really slower than B
+

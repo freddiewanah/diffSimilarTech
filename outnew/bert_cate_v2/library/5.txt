@@ -1,0 +1,46 @@
+B is another faster implementation of B that will provide a lot of utility methods for working wit arrays objects functions etc
+
+you can have a look at this speed performance benchmark from B which suggests that B is about 3-4 times slower than B 3
+
+my speed test claims that svg is significantly faster than canvas at least B seems to be significantly faster than B
+
+quick takeaway of the benchmark jackson performs 5 to 6 times better than B and more than twice better than B
+
+and i ve read that using B is far faster more memory efficient for such tasks as such i ve ported my B classifier to accord net like so
+
+more than this methodology i would suggest to you to do the training directly in B as it claimed that B optimizers are 5-10 times faster than B s optimizers
+
+it B runs much faster than B
+
+B has better computational graph visualizations than B and torch
+
+B is more simple to use than B especially if this is your first ui
+
+in this case B performs better than nashorn which performs much better than B
+
+p.s. my recommendation would be to remove jsonobject conversion and instead return an object of actual class as internally spring uses B which is more powerful json framework then B
+
+from my own experience mtl4 is much faster than B and it is also faster than B
+
+B runs in less than one minute and B takes 4 hours
+
+B is supposed to be much faster and efficient and can do much more than B
+
+i do understand that traditionally they are saying that B are stricter than B however what i do not get is the following
+
+pyquery is based on B so it s also much faster than B
+
+for those commenting that B is obsolete personally i like it more than B
+
+also it seems B lib has better performance than other packages such as B which i haven t tried personally
+
+we plan to use B extensively in the application as it seems safer and better than B
+
+B is more suitable if you have a complex deep json tree because B creates a lot of temporary objects which leads to stop the world gcs
+
+basically B was only slightly slower than B
+
+here in so i found a lot of questions asking something similar and the answers normally said you can use B or asm or B is better than B or bcel is old and is dying or asm is the best because it gives x and y
+
+note please do tell me if B is more easy or this B
+

@@ -1,0 +1,104 @@
+apple seems to claim that the optional type in * is safer than nil in * but i don t understand why this is so
+
+and also apple does might not confidently announce that * is more faster than * in all the cases
+
+specifically it makes it possible to write * code that plays nicely with * which is more strongly typed than *
+
+but * is less dynamically typed than * and has less support for reflection
+
+i use * more than *
+
+one of the reasons we want to move is because * is more secure than *
+
+executable size of * application is much bigger than size of * application
+
+early this month i started learning * as i found it fun and easier than *
+
+however i read that * was the successor of * and i would feel more comfortable with * syntax
+
+* print is more readable compared to *
+
+it seems to me that * would be way simpler to learn then * for beginners i know because i learned it in like 2 months and * is less complicated and better laid out then *
+
+bottom line i would personally hesitate to draw any simple conclusions of * is faster than * or vice versa
+
+personally i prefer * because you can use c very easily as anything that is legal in c is also legal in * added to which * is a more procedural in style where * is quite clearly object orientated
+
+so it should have always been gkagent under * in order to be strictly correct however * is less type-safe than * so you could get away with it with the possibility that you d get an unrecognized selector exception if a gkagent object was ever passed to the delegate method and you assumed it was a gkagent2d
+
+* s compiler is also doing a lot more than * s compiler considering * is more strongly typed and does not required specifying imports among other things
+
+because you can determine what code in a * is likely to do better than a * it has been determined more error free to use a compiled perspective for more things so as you can see with the availability of offset-management and lookup compiled behavior given to you in core perl there is no reason to mess with the symbol table if you don t have to
+
+unless you are using the static typing feature * is no more strongly typed than *
+
+* works better than * for this because it s more amenable to static analysis as it lacks the polymorphism of * s template rules
+
+saxon-ee supports streaming of large xml documents using * or * streaming is better supported in * than in *
+
+generally i know it sounds banal * is better at transformation generating a new document from each source document while * is better at query extracting a small amount of information from each source document
+
+i hate to answer a request for a solution in language a by suggesting a solution in language b but what you are doing here falls into the class of problems which * handles much better than *
+
+there are various object systems you can load as libraries when you want to do oop but integration with existing code heavily depends on the * dialect and its surrounding culture chicken * seems to be more object-oriented than * for instance
+
+i would suggest you start with * and more specifically with * formerly plt *
+
+on the side of using macros * has always been more advanced than other * and lisp implementations
+
+coq is probably the most prominent language of the style but * has a more *-y feel as well as being written in * itself
+
+like the rest of rest * is lightweight easier to understand and easier to write than *
+
+i believe that the reports are using something more along the lines of * edit oregonghost says * which actually makes more sense than * than vb.net and very limited at that
+
+* is older than common *
+
+i don t see why sbcl should be so fast - * is a far simpler language than common *
+
+* is also a good language for that purpose and it is simpler smaller than *
+
+however gambit * has smoother access to c c++ code libraries which far outnumber common * s libraries
+
+i ve noticed that the common * approach is more conservative than the approach * has
+
+i noted that while in languages like c variable identifiers can only be alphanumberics and underscores common * allows many more characters to be used like and at least * does
+
+i also checked * and it seems a pretty cool language easy to do relations between data and easier than * but i d like to hear what you think
+
+first you can use * or q it just takes more work than * or q
+
+you will also likely find the performance characteristics of your * code more intuitive than * because of * s lazy evaluation
+
+the reason i wanted to investigate this was because both c and * were significantly faster than * for this program
+
+as others have pointed out * s learning curve will be lower than * s
+
+...i suggest doing all of the scripting from within the * file and avoiding the use of .cmd .bat files completely if you can as * is much more readable and powerful though i prefer using the * language instead but that s just me
+
+* is more popular in europe and * is dominating in the us
+
+my experience is that designers can use whichever they prefer usually and most agree that * is easier to use and the code is shorter fact than equivalent *
+
+by these numbers and only these numbers * seems to be more widely-used than *
+
+i read somewhere that * s macro service is more powerful than * s
+
+yes they are different but you can hardly say that the * version is less capable than the * version
+
+fortunately * finally ended all that and is completely pixel based you can still alter you viewport scaling but .net seems to handle that much better than *
+
+if you don t already know * there s little point in learning it now - your time could be put to much better use by learning * c#
+
+however i ve noticed that running the * tools is becoming more and more painful over time so i m looking at the possibility of migrating this code to * 2008
+
+* appears much more complex then * and the learning curve is tough
+
+* and *s are more expressive than * which means here that you can capture more complex relations for instance you can also represent the link between sets of things *s subclassof or use transitive properties hasancestor
+
+* methods tend to be more fine-grained than * functions so that may be a good place to begin
+
+recently we noticed that * queries run faster than * so we decided to convert our queries
+
+* is more verbose than * here
+

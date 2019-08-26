@@ -1,0 +1,446 @@
+found B easier use options better documentation B graphael
+B really date experience B days even javafx
+since sizeof B probably smaller sizeof B going lead horror
+however large enough number limit checking work 64bit B precision bits usually 54 defined standard fractions part 64bit B
+well multithread performance B version 2.6 better B precision
+value B array B value position two dimensional array part boolean array value would
+use abs B narrower fabs B fabsf float labs x long
+conversion float long B better conversion float B since promotions
+worth pipes-csv variant compresses parsed row Bo unboxed vector B hand easier finding B csv really storing using readB bytestring package.
+general casting long B simpler B B
+B comparisons hashes expensive B number comparisons theta number hashes
+matter second member would B short whatever - long smaller B sizeof struct 16
+personal use experienced 5 - 10 disk usage due B compression faster B innodb
+second B date B closer ports system come
+tableview covering B view vertical room B view
+notice B bundles always 4-5 mb larger B counterparts precisely
+familiar infeasability B blog post seems indicate B preferable B B allows access underlying expression
+also know B runable better B thread
+experience found B seems faster B although hard data back
+B handles better B neither exactly want
+apple applies almost cross domain restrictions files opened locally B strict permits B somewhere middle
+B clearly secured deliberately allows B locks
+want set time limit rather use browser default believe B longer B
+B get away B aborting
+often B understanding thing B bringing reality back face eheh
+happens pixels size B bigger B
+getting using B B B written earlier fget run runs B runs
+B high performance 2 3 faster B pure template use razor like syntax
+macvim B thicker whereas B slicker sophisticated
+B runs architectures B successfully adapted run embedded architectures ways may impractical B
+know B better since stable 2 worst required implement B
+B always better B
+B slighly slower B expect two slower since operations twice memory
+create equal bins simply first define min B value slightly smaller B
+really think B help anyhow better B - rendering strategy
+beeing said B slower B least tested earlier year
+ps aware relying B script secure compared handling execution within B
+naively assumed B better ivy created B dependency management even greater mess ivy first look
+respects definition whereas programming B really like reaminder B operator
+B uses classifier construct artefacts build B differing content example one jdk1.6 jdk1.7
+however isolation part B sounds like B model particular sequential B model
+B sensitive get breakpoint increment correctly B wheel ends scrolling section quicker without correctly keeping proper frame rate never end reach final frame end section
+title goes h1 example text p div set two left B greater B image
+one checking left B inner div lesser B sidebar add class adjust
+salt B secure without better using one sha B sha256managed
+sha256 B longer B B detect B algorithm looking length B
+could employ request signing scheme certain request fields B together password user basically sending password without sending password similar digest authentication use better B
+B slightly complex needs integer B followed scale back 0.72 2 becomes 72 200 becomes 14400 becomes 144 scaleback becomes 1.44
+mathematically left shifting B number power 2 operation done shifting faster B
+implementing B easier remember shl operation performs operation B specified operand two
+multicore refers computer B one logical B core physically execute multiple instructions time
+operating system single thread assume mean process essentially cannot use B one B may may mean physical core-- see simultaneously
+task B bound calcuating making multi threaded improve performance one B run calculations
+find B one clearer B one
+since B scripting tool impose structure lifecycle like B gradle simply manually invoke B wB use
+also note B slower B multi-module projects sort importing B project ide generally result far faster builds B perform
+B update concept B
+understand B better performance B
+exist battery-backed packages B modules act ultra-fast hdd substitute attach via sata scsi typical B interface still slower system B
+also B bandwidth higher B ssd network bandwidth B latency lower
+use B closer B gets away dependency injection model advocated apple mvc
+read following pemdas precedence B B
+B better B macs though help solaris
+motivation font size 12 B seems larger B
+googling found using B sensor accurate B
+B better data store api one B
+cpu gpu combinations 32b B multiply faster 32b B multiply cpu gpu
+could make B priority B
+mean perhaps team favor B slightly B
+ps also migrate B smarter B choosing right indexes
+possible B make shorter B calculations hard everybody implements
+set maven multi module project one packaging B two packaging B
+keeping business logic ejb B pay need one B ear different security realms etc.
+image B bigger B want B croppingarea automatically scale B
+suspect ios sets landscape flag usable B larger usable B
+B usually B might want think inverting coordinates ie
+want show landscape mode B greater B phone otherwise show portrait mode
+image B larger B landscape scale B 1024 pixels scale B appropriate value maintain aspect ratio
+devices B greater B versa
+solution use variable increment generated let say 13 rows echoes cells must exact B may add new line text longer text cell table 1280px B
+image B greater B want switch B crop else keep B crop
+portrait mode image B image B
+B slightly tricky work need parent overlay div known B
+B greater B
+suppose happening becouse keyboard opened resizes browser window size devices recognized landscape becouse window B greater window B
+uploaded images taken cameras arrive server B greater B regardless shot
+div fixed position B B window B B full page appearing
+seem remember reading somewhere report B smaller B printout automatically rotated landscape
+5- delete contours B B delete small contours large ones rectangle contours
+make grid consist squares instead look like rectangles B greater B closer north south poles
+depends default stylesheet like want tell browser B smaller 700px apply styles soon B goes smaller 600px ride styles new values
+B greater equals 42.0 B greater equals 21.0
+currently looking desktop print paper B like small sm get B table sm
+B smaller B 100px - works fine
+B image larger B
+fit image B gridview maintaining aspect ratio crop remaining B unless image B smaller gridview B matched
+B B resize B
+try loading image whose B lower B
+recently found applies image whose B larger B
+B one input however shown slightly faster B
+want calculate B B cheaper calculate B B calculate B sqrt 1-B 2 get B
+maybe productive - say B quicker editing files B better else would personally say things like flymake-mode vcs bindings quicker use B equivalent
+like rest rest B lightweight easier understand easier write B
+project using B manage dependencies found available versions B
+B time focus performance improvements B made significant performance improvements late
+also .js files redirected engines well main.js B tries main.v8.js B main.nitro.js main.gecko.js
+also gets broken even ios B older version B
+basically B supports 100 levels nesting B documents
+jruby support - B better B support jruby
+maybe one guys already sees snippets suggestion hint B transmission slower B
+B communication connection compared B need connection
+getting information needed packet header connection like B header size B B
+B always perform better B
+note also B would appropriate B
+actual set display none B width larger B size time feel like need button
+added B width smaller 480px else B version would show mobile version
+rsa private B may actually shorter B
+B higher operator priority B
+difference second pattern concatenation x followed xy higher precedence either x x|y like B higher precedence B pattern equivalent
+state binary B operator higher priority binary B operator +
+understand division B slower B subtraction managed c# version reasonable expectations
+plus make tables B generally suitable B
+B better B need advanced features storage speed important concerns
+right B really faster B
+B slower B uses perform faster certain conditions due better locking mechanism
+anyone thinks B faster either tuning B correctly small data cares
+following stackoverflow answer reference describes B larger B backs assertion discussion
+indexing B datatype gives performance indexing B varchar datatypes
+think objective-c designers micro-optimising storage B use memory B
+never performs arithmetic computations withing domain B short type smaller B
+understand B smaller size B
+real sha1 algorithm uses blocks larger single B state larger B basically goes
+completeness see unsigned B rank rank B go section 4.13 B conversion rank says
+certain sense B abstract data type B short long long long cannot bitwidth
+B varchar 20 occupy space B
+thought mean id B -128 127 4 B
+note B typically narrower B rare systems B B may width
+B one B
+assuming utdc_samples also B type larger B assignment fine
+safe mean useful B bigger B usually inverse save memory
+B 1 B statement
+B runs faster B
+B density xhdpi load smaller sampled sizes 96x96 image - 36x36 ldpi 48x48 B 72x72 hdpi
+say unix B better might mean saying oh ext3 stores bits corruption happens B might also talking design choices made common layer
+4.if B value greater current value array add difference ans add difference current value update B left
+also B stricter precedence rules B
+B populated sorted data faster B
+say B method see answer dasblinkenlight + must work better B +
+issue uploading B files mdm solution one B present B file
+found setting B reliable setting B
+B secure B
+B efficiency benefit using switch statements indeed smaller B
+B operation-for-operation slower B reality executing application small portion cpu time spent majority spent built-in libraries call often native implementations thus fast compiled
+B powerful B worth price tag
+B generic B preferred
+disable antialiasing performance B par faster B
+good end decided bindable B useful simpler B
+makes B faster B practice constant ignored big analysis
+using B B slower normal B might wanna take look
+B header takes actually time B body thus profiling results could distorted.
+arraylist - B 2 faster speed foreach B
+normal B faster for-in B
+B someone building B exit criterion inside actual B
+style B better fit B used earlier
+B faster B
+B always runs fixed number stylistic point view would better B
+B imo complicated read B
+B looks better B iterating right direction
+might better B readability maintainability keep mind linq usually slower plain B tl
+use array.prototype.slice fan think B faster browsers - either nothing B slice often feels like hack
+practical programming languages distinction two bit blurred important know B closer theoretical B pascal behaves like theoretical B
+B works well better B like avg avast allow uninstall add remove
+B still somewhat expensive B modern computers compilers go effort replace one two shifts+B instructions
+cannot tolerate use B harder use use B doubt
+B powerful tool B
+B also platform let provide better integration additional B plugins android web development etc.
+overlap somewhat forced B bigger B
+made dimension B div smaller B div drop event triggered successfully
+dragging B smaller B
+perhaps find since target B size smaller B
+posting example showing implement approach applied B bit involved B
+B powerful verstile get started feel better developer get started like B
+B greater B alert message.
+keep Bd new B value larger either current slider value B value render remaining two updated accordingly
+represents number B value greater B value
+function fails B greater B
+select B value second dropdownlist B value first dropdownlist value first dropdownlist reset equal second
+format_int B loops 4 4 B dec
+- usually find debugging memory B x command easier B use solution
+pointed B convenient B anyway - need remember B digit 0-f looks B replace groups 4 bits single B digit
+read painting B sometimes faster B would extra work mouse handling think
+eclipse B perform slower B
+overflow free B pair costs B internal hidden memcpy
+like B position 10px away B position
+use B still okay B handles binary files better B
+thus think B suitable intranet takes time develop B better complex gui unstable connections additional roundtrips matter
+B provides faster lookups B
+B higher precedence B parenthesis around B
+machines end sizeof int sizeof long B longer convenient long long get B needed
+change half 0.5 golden math part also B faster use instead B possible
+calculate 1.0 sum .. B usually expensive B thus gain efficiency
+B unpredictableâ sometimes almost fast B sometimes slower cpython
+B nothing random arbitrary string concatenate passwords make B password unique
+since B 10.10 newer B squeeze squeeze certainly B
+mind B seems specific using B since telling argument passed method value may generated performing method
+location B popular B idea
+back based reading tests published would proper multi-thread B architecture scale better B multi-core cpus
+B uses event based non blocking single thread memory usage relatively lower B
+could use B easier use works B
+check thread B method faster B
+following comment original B information help B
+B method storing capacity response better B response
+hence B secure B
+B seems logical B anyway
+note assuming user B invited one B seems logical
+effect B secure B
+pragmatist inclined use B implementing simpler B
+using B https better using B http
+also B request would better B sending json
+record tipc addressing B several years older distributed B
+B 1 older fully functional mature project supporting B 0.20 1.x 0.23 2.0.x download bits
+regardless B protocol simplistic nature handle orders magnitude client connections B memory utilization uses bandwidth wire require authentication although add feature
+B lightweight B whatever pretty counts
+B admin better customizable B appadmin
+B better support parameterized tests B
+B faster B probably fastest parser available
+client B scores fetches highscore lists server seemed working perfectly testing month problems really simple B get
+B floats digits dot expressed decimal representation B numbers binary decimal
+mean old adagio B faster B gone
+means buffer enough printing number B since B representation uses digits B enough B representation
+B vorbis better quality per meg B plus licensing legal issues
+using ui B show one B one page B id triggered anchor attribute
+feed B intrusive sense facebook B window
+warning using requests B older requests-oauthlib expects please B 2.0.0 later
+interesting reducing size resulting cookies consider using B rather B produce signatures - B signatures considerably smaller B signatures equivalent security factor
+B method certain ensuing B implementation expensive B vast majority
+use B better recursively next insert called previous done check saved.length datalength return B better
+B crossing may work B know arrays
+finally know multiplication B higher precedence B subtraction remove extraneous parentheses turns
+tested geolocation B 3.6 iphone B os 3.1.3 result interesting B accurate B
+B B better B load average 1.0 processes B single core
+compiler B choose method efficient B
+variation pentadecagon free set arbitrary values diagonal B B..max containing x fill rest array lower B one side higher max
+use B since provide concurrent writes different mapentries provide concurrency B
+edit double B specifically designed better B work languages english
+B simpler use B serve common development needs
+min heap single insertion worst cost incurred heap property B value smaller B violated
+B probably better ide support present B - may factor choosing one
+one largest benefits B effectively gil - meaning writing multi-threaded - often get performance better B without spawn multiple process pickle objects across boundaries
+allowed store whole tree memory use B faster B
+B easy use B easy use B
+B seems work better B experience
+hand although new B package actually complete imo B
+B free opinion better chart B doesnâ events
+know another check B number bigger maximum B value curious happening
+B variable hold larger values B able store approximation value 4000000000
+false B range wider B uncommon dx rounded value whose next higher representable value 2 greater
+learning B familiar B life figure trying achieve goal stated build encodings sorted including human readable names.
+simple words operations B causes simple iteratation well lazy B really slower B
+note recommend using B - faster B memory leaks comes built-in ad blocker
+think makes sense B class take higher priority B interface
+another prefer rhinomocks B B B uses older expectation style whereas rhinomocks B support arrange act assert approach specify expected interactions assertions end test like
+obvious B would otherwise making sfphpview- render run slower B
+B slower B
+B handshake done server B actual stream coming handshake done start streaming
+B bit strict B
+B text 1px lower B ie
+B encodes characters B
+B probably easier B days
+B sends back html collection longer really better imo B ie chromium
+suffice say ie B start problems larger heights B
+use B rather B - B dev mode slower B
+clicking time 1 millisecond displayed however obviously takes nearly second computer changed color actually displayed btw. B seems faster B
+see look bottom right hand edges B lines perfectly B seems directions cannot work either firebug B dev tools
+B button tad smaller B
+pd note B developer tools better complete B developer tools essence purpose
+seeing issue windows B framerate almost 2 lower B mac B B similar framerates
+looking issue inspection tools browsers seems B making #main_nav_bar ul 10px wider B
+played around recently think B flexible mixing dtypes give B dataframe conveniences obviously
+however may B uses newer version B using enum
+secondly current version B consumes memory B rather large set
+seen post claiming B better B looking differences seen widget support B
+ended using B animations simply provides smoother animations configurable B ui provides
+leave rest ov checking error conditions 1 column passed B B unequal size B # returned larger B size
+since eventually button runs script smeow values send different request look tabletools plugin really play well B tabletools focused B source
+extfs4 B 25 40 faster B refs depending optimization
+another important difference B report information B specifically related using
+last fallback go snail - B click red close window button B movements slower B shortcut
+also B input essential important B interaction
+found B slow least slower B even relatively small 150k datasets searching records text pattern despite presence indices
+given 4 years old B taken place B thought would share solution using B
+even tried pin archetypes atcontentypes B uses older versions example used B 4.2 adding following pinnedversions.cfg file gets called else
+since apple decided B B appears support prores 4444 422 flavors developers supposed write modern handle 4444xq 422lt 422 proxy
+however B verification expect verification calls 100x issue 10x slower B verification
+difference crc32 B B generates larger B harder predict
+B functions somewhat faster B one fast functions md4 faster simple enough included application without hassle
+Bing one prove taking B shasum large file since file size larger B output pigeonhole principle B restored.
+maybe like xcode bot attempting archive development B development B easier B 4f96f173-7ebe-4892-b283-52489de2f409
+instead knowing want B columns make application simpler B fields
+B works better 32bit B framework
+general used single B single core machine sufficient assuming int size smaller B word like 32bit int 32bit B
+expensive developer costs designing B vastly difficult writing user-space assembly would increase transistor count B
+tried jsf 2 application would recommend using B one least documentation better B
+B components lack combobox available B
+B definitely better B well used big projects
+similar nature whether B better B c# better
+also B pattern becomes testable mock view fake object test B unit tests
+B record requires 10 B lookups process
+downside B mature B features documentation available
+B offers advanced branching merging capabilities B
+find B slower B knowing produce query background
+able upgrade server versioning B 5.5 would innodb safer bet B
+fyi B scales better B multi-processor overlapping requests review reading months back sorry link
+totally understand error assume B implementation sql conform B implementation
+obviously like show hide functionality B makes sense B
+portrait orientation one B smaller B
+B image larger B
+prevents stretching simply places black bar right hand side B greater B
+would write media query device B larger device B
+surprisingly set Bmeasurespec lesser value Bmeasurespec still item B gets larger B
+image B image B want add class particular image want add class b particular image
+facing images portrait B image B
+B greater B
+tried B resize item move increase B ul using method able hide last visible
+called web audio api currently draft well supported B need use prefixes little B
+worth learning B better B editing certain languages certain tasks versa
+answers B allocate larger blocks B
+since B commonly used compared B svn amongst bamboo users generally get feedback hear existing issues
+using retrofit okhttp perform network calls suggest use B also square claimed work faster better B
+furthermore signed B types tend useful B types
+believe reports using along lines B edit oregonghost says B actually makes sense B vb.net limited
+mentioned B provides features smart stubs spies B used together
+B better B
+post subject birt world blog specifically relating xls emitters although tribix emitters mentioned also enable output B microsoft format readable word concise B
+articles B tell slower B mercurial
+e.g. B labels even generic goto. continue seem special B mechanisms except present languages
+however wish use custom B uses internal cggradient drawing instead produce smoother results B see
+experiments discussion find B slower B batched 2d ffts
+B also susceptible issue although significantly better job B getting realtime api re-connected
+B makes child height larger B
+according benchmarks B seems provides better performance B performance change significantly able focus investigation nginx ec2 configurations
+edit seems B printed books references compared B amazon
+known bug install googleads using pip install newer version B break google analytics api scripts B uses older version B
+please note however architecture implements B slower B work type fast-paced data intensive games accomplish goals given description
+see using B distro may shortcut instructions make simpler B example shortcuts
+B getting closer still numerous things B keep grandmothers world using
+use alpine B docker image light better B centos image used docker
+database large B buffer pool small buffer B performance going better B performance especially large tables
+B often slower B transactional engine acid properties
+B space friendly B start one
+yes old wives tale B faster B
+solution used simple subclass B allows customization subclassing B hassle nsattributedstring et al
+nginx B fastcgi mode use ram B handle concurrent connections
+rank unsigned B woudl B therefore promotion would unsigned B
+indices B conversion harder need split index 4.5 get number B 3rd sentence add 5
+string.substring B startindex B length might help need split Bo chunks one B
+reading Bo B buffer makes easier access four bytes B
+three B types rank signed type rank always B
+example 32-bit B take 11 B represent decimal optional sign particular example need 44 B unless miscounted
+machines B faster short B think
+B sizeof B larger B
+words B accessible B access modifier B loses effect
+imo B better admob especially using B ads
+B handles multiple projects sub projects far nicer B
+vim includes B already filebrowser like B
+opinion B easier learn use results B often nicer - often feel B application behaves completely right
+B batteries included meaning comes out-of-the-box say B large part user auth system
+due improvements B B features vanilla B suggestion would use http communicate B
+B complex time consuming due complex nature B
+fb_graph B gem better B
+B easier B powerful allows control
+1 split tests unit acceptance use tool like B help acceptance elegant B kind test
+one thing could look using B - simpler B - drag drop plugin like sortable ui
+B ram-hungry B
+although madprogrammers comment use B easier solution knowing glue struts helpful customizing layout B
+B simpler B limited especially wish strong legal meaning behind certificates
+...i suggest scripting within B file avoiding use .cmd .bat files completely B readable powerful though prefer using B instead
+make chart value beyond greater B lower B limits setting
+- usually find debugging memory B x command easier B use solution
+checkbox B meaningful B
+display B function better get B Bibute
+using anaB B better alternative B manages B packages limited packages
+additional bonus find B works better package manager B
+B makes easier afford B application developer rational application developer eclipse flavour use eclipse
+read couple blogs B reminder operator slower B
+path without B also visually appealing indicates modern application - adapted B operation necessary
+however tests shown B system anycpu prefer 32-bit application confirm runs 32-bit allocate memory B one
+strengthening techniques bcrypt B generally considered better plain B since cracking requires resources
+B stronger makes guarantees B
+old thread experience writing server-side B somewhat easier trying use B - B really B application sitting lync s4b server rest wrapper
+read B faster static pages performance compared B performance
+expert deployment experience B faster friendly django compared B
+static file serving found B performance faster B
+uwsgi better using B find B far better B personally
+kind things B rather painfull easier B
+B flexable B comes high price performance
+googling info B appears faster B works well serving static pages
+think using B elegant options development passing via B
+param params therefore data serialized would explain server rejecting B since B requires privileges B presumably
+trying B cloudinary direct uploads working using carrierwave accepts_nested_attributes_for submit one images B
+B help B information table structures content
+note B values via B var instead B wich makes sense since sending via B form
+B safer B
+sometimes B better read-only makes url scheme richer avoids sort B warnings
+however B request efficient B request - bear mind use B really need
+curl commands seem work B commands older req.body B
+instead using B exactly bullet proof still better B
+however clear value standard tumblr api B 50 B time
+regarding safety -- answer B absolutely safer B
+B little safer B parameters stored browser history web server logs. also data displayed url
+best B better B
+said find B complete B like recent blog posts illustrate
+understand B supports gae better box B
+compiler writing functions compiler able B better manually B calls
+since using B use direct manner B believed faster B
+wewtaco noticed B file wider dimension B file could black bars showing
+press save give name photoshop image saved transparent background B file presents colors smaller B file good
+experience B via mit-shm extension significantly faster B surfaces used B optimal though
+small object google B performs faster B simple json
+also want know google B better B json parsing
+try lib good one B use server side B slow android B least test
+deserialization performance similar B 9x slower B fastjson 0.5 faster B
+use floating divs instead looks like modal B better B
+generally B better login B B would allow easily navigate main page
+B complete coverage stats lines - branches export B tools like climate
+using older B better B avail benefits c++11 features possible
+using installshield 2011 want B install files equal greater B already installed
+B actually installs newer B packages
+dbi B likely source trouble would still good B current B
+windows installer rollback work request use 1 minor B 2 properly sequenced major B uninstalls older B successfully updating files
+want make work users B 1 B update statement runs one B needed
+safely B trunk better last B anyway
+used older B vagrant 1.5 B made B vagrant greater 1.5 B
+B probably better though B developed google protobufs mind might want test data set.
+see paid version B higher tiers features B free tier allows huge number uses
+read blog article B based build tool two faster B simple build
+rather use B fstest write tests f# feels natural oo B style tests
+B seems clear B general seems guys neo4j going B
+tried B function worked far better B
+continue available since B better B aspects users encouraged switch
+still opting B confirm behaves regarding one score per user offers functionality seem respond quicker B
+say array must first built heap using typical buildheap function starts half length array calls minheapify function ensure B least B
+B flexible B application configure level security needs
+compute length string unrelated length string resources unclear whether B better worse B
+4 B providers might mark B spam however spam checks based spf B checks B existence checks
+B far rudimentary compared avaudiorecorder - provide recording facilities example wanted also record audio would need use B save samples

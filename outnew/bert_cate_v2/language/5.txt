@@ -1,0 +1,54 @@
+on the other hand B is easier to learn especially if you have B background so it can be adopted during the time slowly and paralelly with using B
+
+i don t think that as of today you can run these tests and determine with any certainty whether B 1.0 is faster or slower than B
+
+note that B s arrays are much more sensible than B s
+
+i feel B is better than B in many aspects but my major question is - will B dynamic libraries support older version of B
+
+i also use B more than B but here s what my guess is as to what the B code would come to
+
+B is lot smarter than B about singleton class
+
+B s compiler is also doing a lot more than B s compiler considering B is more strongly typed and does not required specifying imports among other things
+
+the B designers went through a lot of trouble to make sure that it s more than just B without the constraints of c in fact i almost wish they hadn t said that since it s so often misquoted
+
+it seems to me that B would be way simpler to learn then B for beginners i know because i learned it in like 2 months and B is less complicated and better laid out then B
+
+B is significantly more appropriate to use than B for such kind of tasks
+
+unless you are using the static typing feature B is no more strongly typed than B
+
+B is more amenable to static analysis than B because it lacks the very dynamic template despatch mechanism
+
+B works better than B for this because it s more amenable to static analysis as it lacks the polymorphism of B s template rules
+
+i hate to answer a request for a solution in language a by suggesting a solution in language b but what you are doing here falls into the class of problems which B handles much better than B
+
+generally i know it sounds banal B is better at transformation generating a new document from each source document while B is better at query extracting a small amount of information from each source document
+
+vb6 B though a little better than B in general still has many similar issues where for their domain they require much more boiler plate to do simple tasks than what i would like and have seen in other scripting languages
+
+B is older than common B
+
+B is also a good language for that purpose and it is simpler smaller than B
+
+t s purpose is to test the thesis developed by steele and sussman in their series of papers about B that B may be used as the basis for a practical programming language of exceptional expressive power and that implementations of B could perform better than other B systems and competitively with implementations of programming languages such as c and bliss which are usually considered to be inherently more efficient than B on conventional machine architectures
+
+common B has a separate namespace for functions which makes operation like this more verbose than with B
+
+also B has stricter precedence rules than B
+
+B is closer to c++ because of it s imperative and oo features but i recommend you learn B as it is more functional more mindbending and has more resources
+
+getting your project migrated to B is certainly easier when you keep the old B controls
+
+B is a more advanced language than B
+
+just for the record the tipc addressing B is several years older than distributed B
+
+B is faster than B for most of the benchmarks on languages benchmark game
+
+but i read in this post that group by on union are not possible yet it mean that B is less powerful than B
+

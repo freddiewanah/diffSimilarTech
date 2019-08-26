@@ -1,0 +1,78 @@
+as * is the older programming language for ios or macos applications * allows you to use those classes structs in your code
+
+injecting code in a * application is harder than it was for an * application but it s still possible
+
+the * compiler is doing a lot more and is quite a bit newer than the * compiler so it unlikely it will be as stable fast for quite some time
+
+* won t allow you to do absolutely everything that * does but it will allow you to do almost everything and the code will be probably more robust considering that * is more modern language with stronger typing than *
+
+i know that * is buggy as heck i run into bugs everyday but ill bet * was even worse when it started out benefits of hindsight so in a couple of years * will be equal or greater than * keeping its basic simplicity as well
+
+most importantly for your image processing app the compiler will optimize * code to run faster than *
+
+* -documentary provides more content than the documentary for *
+
+but * is less dynamically typed than * and has less support for reflection
+
+i use * more than *
+
+i find that * is much nicer for working with core audio than *
+
+i also use * more than * but here s what my guess is as to what the * code would come to
+
+after reading some related articles i don t think * is more effective than *
+
+executable size of * application is much bigger than size of * application
+
+it is possible for * to be faster than pure * in things that you would traditionally use c or c++ for anyway
+
+note that * s arrays are much more sensible than * s
+
+i don t think that as of today you can run these tests and determine with any certainty whether * 1.0 is faster or slower than *
+
+i m learning * and much less familiar with * but for the life of me i can t figure out how they are trying to achieve the goal stated as build list of encodings sorted and including only those with human readable names.
+
+i feel * is better than * in many aspects but my major question is - will * dynamic libraries support older version of *
+
+generally i know it sounds banal * is better at transformation generating a new document from each source document while * is better at query extracting a small amount of information from each source document
+
+* has a steeper learning curve compared to *
+
+so yes it can be used with flash or rather pure * but it is a little less convenient than with * where everything is set up by the framework because it takes more under the hood configuration to be able to run all the necessary parts for remoting
+
+some background i m learning * now having earlier worked with * and cl and a little foray into clojure
+
+vb6 * though a little better than * in general still has many similar issues where for their domain they require much more boiler plate to do simple tasks than what i would like and have seen in other scripting languages
+
+here is a solution in * because i know that better than common * and have an interpreter for checking my work
+
+i don t see why sbcl should be so fast - * is a far simpler language than common *
+
+t s purpose is to test the thesis developed by steele and sussman in their series of papers about * that * may be used as the basis for a practical programming language of exceptional expressive power and that implementations of * could perform better than other * systems and competitively with implementations of programming languages such as c and bliss which are usually considered to be inherently more efficient than * on conventional machine architectures
+
+as others have pointed out * s learning curve will be lower than * s
+
+* is closer to c++ because of it s imperative and oo features but i recommend you learn * as it is more functional more mindbending and has more resources
+
+you will also likely find the performance characteristics of your * code more intuitive than * because of * s lazy evaluation
+
+yes * was once much more feature-rich than * but later revisions of the language * 2001 * 2005 system* etc.. have cherry-picked most of the interesting features and there is far more robust toolchain support for * and its variant these days in addition to it being the dominant language in use in the us in my experience * is only used here when dealing with extreme legacy blocks and in academic contexts partially due to the tools support mentioned previously
+
+i read somewhere that * s macro service is more powerful than * s
+
+* appears much more complex then * and the learning curve is tough
+
+if you don t already know * there s little point in learning it now - your time could be put to much better use by learning * c#
+
+avoiding them by modifying * is lot easier than fixing the issues in *
+
+biggest of all is that adding new features to your * application is more expensive than it would be if the application was in a better language like c# or *
+
+* and *s are more expressive than * which means here that you can capture more complex relations for instance you can also represent the link between sets of things *s subclassof or use transitive properties hasancestor
+
+just for the record the tipc addressing * is several years older than distributed *
+
+but i read in this post that group by on union are not possible yet it mean that * is less powerful than *
+
+in this case a traversal-oriented approach is best maybe * is better since * doesn t allow you to specify traversal order
+

@@ -1,0 +1,60 @@
+B could be considered as a better option than B
+
+for a low traffic site the huge tokens that B send across the network actually makes it slower than B
+
+plus once B becomes more common B slow down won t really account for anything much
+
+if we assume that you live in a poor coverage area and your phone and your tower are constantly dropping the signal then re-establishing a B connection is no worse off than re-establishing a tcp connection modulo B handshake
+
+B is much faster then B but B has flow control and guaranteed delivery
+
+i don t think you should make the assumption that B is faster than B
+
+2 B needs more processing at network interface level where as in B itâ s not
+
+B is extremely faster than B which is suitable to stream a user s voice input
+
+B is actually expected to work better than B in lossy networks or congested networks
+
+i m aware of the differences in general the facts like B is more accurate while B is more fast
+
+i used iperf on two linux machines to send data using both B and B i found that B performs better than B average 65 better
+
+note that B is more difficult to work with than B because packets are not always guaranteed to be delivered
+
+some protocols are more complex because what s needed are some but not all of the features of B but more than what B provides
+
+if the network between the two point have a very high quality B is absolutely faster than B but in some other case such as the gprs network B may been faster and more reliability than B
+
+B streaming for audio can be less helpful than B rtp as you d have to turn off nagling
+
+B has to do a lot of error checking to ensure that your packets don t get dropped and so B is much slower than B
+
+B lends itself to real-time less latency than B
+
+i am confused why B throughput is bigger than B
+
+B is way better then B for that
+
+this was surprising for me as i expected B to perform better than B
+
+with B its slightly slower than B and has more features
+
+but with the B protocol in particular this is easier than for B
+
+also if you have very limited memory processing resources it is worth bearing in mind that B is a less costly protocol as it avoids a lot of the overheads B incurs due to its inbuilt connection management
+
+if you can do everything with B it is lighter than B
+
+because of B requires connection and provides security it is slower than B and therefore it should not be preffered during a video streaming
+
+why the header size of B is less than B
+
+B is not always faster than B
+
+and also don t forget - B much more customizable than B
+
+it would appear from your question that the period of the B message is shorter than the B refresh time
+
+since B proxy is in theory nothing more than a B tunnel i thought i could give that property another try
+

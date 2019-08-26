@@ -1,0 +1,62 @@
+now this works fine in * and safari and i have had to use assitional css settings for firefox but ie and * both display my ribbon div about 25px higher than in * or safari
+
+in * the font appears to be 1px smaller than * and ie and i cannot see why
+
+here the working header request with * bigger than * request
+
+i m taking a quite educated guess here that * is more forgiving with the irregular syntax than *
+
+i would like this function to work in * ie * etc but at the moment it only works in * and older than * version 49
+
+it seems * applies some formatting to render better than *
+
+i inspected the range object in both * and * and then noticed that * s range object is far richer than * s
+
+why is * so much slower than * on my laptop
+
+* is just more forgiving for some mistakes then *
+
+* works a bit better than * but the settimeout just seems to delay the final result being shown rather than delaying each step
+
+update3 now it works here which means that i couldn t fully reproduce my bug to show it to you but in general the problem is that the height of 5x5 table in * is less from * on 22px which is 22px gap between table container and a table itself
+
+by highlighting the shape of the two elements you can see that in * left the button is 2px taller than in * right
+
+in * it seems more or less ok but in * when i first tried it it should give me not logged in my console
+
+what we can see is that regardless of raw hardware power * seems to run up to three times faster than edge and also significantly faster than * all updated to the latest verion
+
+i ve found that * is greatly faster with imacros than *
+
+the * console gives more information than the * console
+
+they use iframes in * which seems better but in * they do this by putting manually defined span and font tags
+
+the same word in * look wider than in *
+
+* and ie9 require a proper domain to run from presumably because they are more strict than * in the way they associate the localstorate object to a domain in * it doesn t need to be a domain as such
+
+* sends back and html collection that is longer really better imo than * ie or chromium
+
+i ve ran into out of memory errors on * with canvas heights greater than 8000 * seems to handle much higher at least to 32000
+
+* is even slower that *
+
+the funny thing is that for abc_def property * is actually much faster than * and ie as i expected
+
+in * it goes little bit lower than in *
+
+the problem with this code is that it doesn t quite work on * and works even worse on *
+
+but if firebug donâ t enabled after launch * â time equal 2ms that faster than * and google-chrome and difference between empty filled array disappears
+
+for example i ve read that * and ie will fix framerates slower than *
+
+the * controller bar is the quicktime bar which is smaller and dark so the movement is less noticeable than * which has a big blue progress bar
+
+* also uses an earlier version of webkit than the current * so pages should be checked in both browsers
+
+works in google-chrome firefox a bit weirdish blur effect on hover * ends look smaller * ends look smaller
+
+it seems that ie and * are less strict than *
+

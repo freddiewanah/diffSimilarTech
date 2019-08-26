@@ -1,0 +1,132 @@
+most likely hashcode will be faster unless for whatever reason calling hashcode + B once is much slower than calling B log n times
+
+most likely hashcode will be faster unless for whatever reason calling hashcode + B once is much slower than calling B log n times
+
+for formatting a single numeric value B is marginally more efficient than B because B has a bunch of overhead to parse the format string out of the curly braces and then pass it to B
+
+for formatting a single numeric value B is marginally more efficient than B because B has a bunch of overhead to parse the format string out of the curly braces and then pass it to B
+
+i noticed once the length of a B parameter is longer than 400 bytes or 2000 bytes for a B parameter g-wan returns 400 error
+
+is B more compact than B since B requests have to be url-encoded
+
+sometimes B is a better option in those read-only scenarios because it makes your url scheme richer and avoids these sort of B warnings
+
+using B allows for more data to be transferred since B will append the values to the url itself
+
+since B is better suited to transfer large amounts of data or difficult formatted data it is the established standard for submitting forms but it is in no way safer unsafer or more less secure than B requests
+
+you ll hit problems with larger submissions and file-uploads as the size limit for a B is much smaller than a B
+
+the B is usually faster because it has no encapsulation sends data via url usually with a 255 character limit as B exists encapsulation by being sent by the body of the http request
+
+this means the amount of data you could pass by using B verb is much more than by using a query string and a B method
+
+B would obviously allow for a user to change the value a lot easier than B so suitable checks for existance and ownership of the record would be important
+
+B would obviously allow for a user to change the value a lot easier than B
+
+for example B request are considered more secure than B request as creating a B request is relatively harder than creating a B request
+
+this response thus assumes that a request using the B verb would not use the uri to transfer sensitive information or it would be no better than B
+
+B is also more secure than B because you aren t sticking information into a url
+
+param should be params and therefore your data is not being serialized which would explain why the server is rejecting your B since B requires more privileges than B presumably
+
+a B request will be slightly smaller than a B although using websockets would give a more accurate figure
+
+using B data is more secure than B because with B the details would be in the query string portion of the url
+
+B is a little safer than B because the parameters are not stored in browser history or in web server logs. also data is not displayed in the url
+
+when taking input we can use either B or B.the input is shown in the url when using B but not when B is used.is there a situation where B is more useful than B
+
+using B is more secure than B in the sense that data shown into the url in B request but not in B
+
+B requests can be much larger than B requests as B requests are limited by the maximum length of a url
+
+so if your B request is longer than 255 bytes it s advised to use B requests instead
+
+B request is a little safer than B because the parameters are not stored in browser history or in web server logs
+
+an initial B request to a page usually costs less than subsequent B anyway so there s not much reason to avoid it
+
+note that doing this will B the values via B var instead B wich makes more sense since you are sending via B your form
+
+generally when passing lots of data to the server to be processed or stored using B is a good idea since B has a lower limit than that of B
+
+B is slightly faster because the values are sent in the header unlike the B the values are sent in the request body in the format that the content type specifies
+
+also note that using B is absolutely not more secure than B because the request parameters aren t immediately visible in url
+
+i noticed once the length of a B parameter is longer than 400 bytes or 2000 bytes for a B parameter g-wan returns 400 error
+
+is B more compact than B since B requests have to be url-encoded
+
+sometimes B is a better option in those read-only scenarios because it makes your url scheme richer and avoids these sort of B warnings
+
+using B allows for more data to be transferred since B will append the values to the url itself
+
+since B is better suited to transfer large amounts of data or difficult formatted data it is the established standard for submitting forms but it is in no way safer unsafer or more less secure than B requests
+
+you ll hit problems with larger submissions and file-uploads as the size limit for a B is much smaller than a B
+
+the B is usually faster because it has no encapsulation sends data via url usually with a 255 character limit as B exists encapsulation by being sent by the body of the http request
+
+this means the amount of data you could pass by using B verb is much more than by using a query string and a B method
+
+B would obviously allow for a user to change the value a lot easier than B so suitable checks for existance and ownership of the record would be important
+
+B would obviously allow for a user to change the value a lot easier than B
+
+for example B request are considered more secure than B request as creating a B request is relatively harder than creating a B request
+
+this response thus assumes that a request using the B verb would not use the uri to transfer sensitive information or it would be no better than B
+
+B is also more secure than B because you aren t sticking information into a url
+
+param should be params and therefore your data is not being serialized which would explain why the server is rejecting your B since B requires more privileges than B presumably
+
+a B request will be slightly smaller than a B although using websockets would give a more accurate figure
+
+using B data is more secure than B because with B the details would be in the query string portion of the url
+
+B is a little safer than B because the parameters are not stored in browser history or in web server logs. also data is not displayed in the url
+
+when taking input we can use either B or B.the input is shown in the url when using B but not when B is used.is there a situation where B is more useful than B
+
+using B is more secure than B in the sense that data shown into the url in B request but not in B
+
+B requests can be much larger than B requests as B requests are limited by the maximum length of a url
+
+so if your B request is longer than 255 bytes it s advised to use B requests instead
+
+B request is a little safer than B because the parameters are not stored in browser history or in web server logs
+
+an initial B request to a page usually costs less than subsequent B anyway so there s not much reason to avoid it
+
+note that doing this will B the values via B var instead B wich makes more sense since you are sending via B your form
+
+generally when passing lots of data to the server to be processed or stored using B is a good idea since B has a lower limit than that of B
+
+B is slightly faster because the values are sent in the header unlike the B the values are sent in the request body in the format that the content type specifies
+
+also note that using B is absolutely not more secure than B because the request parameters aren t immediately visible in url
+
+http B isn t inherently any more secure than http B if you re allowing the uploaded files to be exceuted on your server
+
+B is designed for file uploads moreso than B which requires doing a multipart upload but then it comes down to what your server can do as to which is more convenient for you to implement
+
+B is also more commonly used for partial updates as B generally implies sending a full new representation of the resource
+
+http B isn t inherently any more secure than http B if you re allowing the uploaded files to be exceuted on your server
+
+B is designed for file uploads moreso than B which requires doing a multipart upload but then it comes down to what your server can do as to which is more convenient for you to implement
+
+B is also more commonly used for partial updates as B generally implies sending a full new representation of the resource
+
+since most data-storage mechanisms in-ram in a database etc. B a lot slower as you B more data in them you should ensure you re only timing your http access and not looking at overall crawler throughB including storage
+
+since most data-storage mechanisms in-ram in a database etc. B a lot slower as you B more data in them you should ensure you re only timing your http access and not looking at overall crawler throughB including storage
+

@@ -1,0 +1,1512 @@
+30205743
+serializable deserialization
+Pattern(s): 5	
+i think the default constructor is only necessary for deserialization never used a package for deserialization
+serializable shouldn t need it
+
+
+
+30283080
+elasticsearch kibana
+Pattern(s): 3	
+when starting kibana elasticsearch make sure your es cluster is ready before diving into kibana run curl -xget localhost 9200 _cluster health and in the response you should see something similar to this as for your script it is written correctly however the condition you mentioned is not correct since you wanted and not so it should be please give it a try
+what you are seeing is not a parsing error shardfailures just means that the underlying elasticsearch is not ready yet
+
+
+
+30351776
+viewdidappear viewwillappear
+Pattern(s): 1	
+you should either use viewdidappear or add a slight delay before displaying the alert controller
+viewwillappear is not a good location to present another view controller since the current one being presented is not yet in the window hierarchy and is also in a transition animation
+
+
+
+30406504
+strcpy strncpy
+Pattern(s): 3	
+use strncpy instead and be mindful of your allocation size and of the null termination actually the situation is a bit dire since neither strcpy nor strncpy are absolutely good functions
+by itself strcpy isn t safe since you can t control the output buffer size and strncpy is inefficient since it writes more zeros than what may be desired
+
+
+
+30651392
+addition multiplication
+Pattern(s): 5	
+in addition as mentioned by ratchet-freak in comments you should make sure your quaternions are always normalized otherwise transformations other than rotation may happen
+quaternion multiplication is not commutative if a and b are quaternions then
+
+
+
+30682089
+lxml beautifulsoup
+Pattern(s): 1	
+for xml documents it may be that the elementtree offered by lxml is more productive
+it supports xpath queries for example while beautifulsoup does not
+
+
+
+30682089
+elementtree beautifulsoup
+Pattern(s): 5	
+for xml documents it may be that the elementtree offered by lxml is more productive
+it supports xpath queries for example while beautifulsoup does not
+
+
+
+30824969
+postgresql mysql
+Pattern(s): 5	
+if you care about performance more than using eloquent then with raw queries in postgresql with returning clause or sql server with output clause you can return updated records in one go
+mysql unfortunately doesn t have such support on a statement level
+
+
+
+30873728
+namenode hdfs
+Pattern(s): 5	
+namenode keeps the information about files and their associated blocks
+hdfs will not move blocks from old datanodes to new datanodes to balance the cluster if a datanode added in hadoop cluster.to do this you need to run the balancer
+
+
+
+30896153
+mongodb bson
+Pattern(s): 5	
+the bnf grammar only said that an element name is a nul terminated modified utf-8 string but from the source code here or here for example it appears that mongodb bson s implementation use strcmp to perform binary comparison on element names confirming there is no way to achieve what you want
+this might be indeed an issue beyond case sensitivity as using combining characters the same character might have several binary representations -- but mongodb does not perform unicode normalization
+
+
+
+30911294
+google-chrome firefox
+Pattern(s): 3	
+google-chrome will show warnings long before that but still accept them
+firefox will not accept sha-1 after january 2017
+
+
+
+31037337
+nfa dfa
+Pattern(s): 1	
+if it finds a match then it goes back and matches the full regex using an nfa engine i think traditional non-posix but starting at the location where the simplified match occurred
+this is much faster for both non-matches and matches than a straight nfa engine but still lets you use all the things in an nfa that a dfa does not support
+
+
+
+31102214
+swift objective-c
+Pattern(s): 5	
+the specific swift file showing the code required to interact with an nscollectionview is imagelistcontroller.swift
+if you want to learn more about the new nscollectionview there s a whole wwdc session and the video is available from apple but the presenter uses objective-c not swift
+
+
+
+31168935
+postgresql mysql
+Pattern(s): 1	
+between the two i think postgresql is more suitable for a central data warehouse
+mysql doesn t allow certain sql methods such as common table expressions and window functions
+
+
+
+31219726
+bower npm
+Pattern(s): 1	
+the problem is that bower offers no specialized tooling for the purpose
+it offers no tooling that i know of that npm doesn t and especially none that is specifically useful for front-end developers
+
+
+
+31220629
+clang llvm
+Pattern(s): 5	
+note however that llvm website gives a disclaimer about it clang mostly works on windows but does not currently understand all of the microsoft extensions to c and c++
+because of this clang cannot parse the c++ standard library included with visual studio nor parts of the windows platform sdk
+
+
+
+31232226
+super self
+Pattern(s): 2	
+another example maybe what you want from your comments class grandparent object def my_method self print grandparent class parent grandparent def some_other_method self print parent class child parent def my_method self print hello grandparent super child self .my_method as you can see parent doesn t implements my_method but child can still use super to get at the method that parent sees grandparent s my_method
+well this is one way of doing it class grandparent object def my_method self print grandparent class parent grandparent def my_method self print parent class child parent def my_method self print hello grandparent grandparent.my_method self maybe not what you want but it s the best python has unless i m mistaken
+
+
+
+31682476
+mayavi matplotlib
+Pattern(s): 3	
+note that unlike matplotlib mayavi is not yet compatible with python3 and might not be in the foreseeable future so you ll need a python2 installation
+matplotlib is not quite mature for 3d graphics mplot3d was intended to allow users to create simple 3d graphs with the same look-and-feel as matplotlib s 2d plots
+
+
+
+31852458
+google-chrome firefox
+Pattern(s): 5	
+for backward compatibility ie still supports this model and google-chrome also has added support for this feature
+but firefox is not supporting it
+
+
+
+31985034
+division modulo
+Pattern(s): 3	
+so as long you have a perfectly representatble floating point number there is a good possibility that the division modulo will go through smoothly
+however when you try to divide or take modulo by 0.1 or 0.2 there is always a roundoff error in its floating point representation which means the division will not be complete and hence the result will not be true
+
+
+
+30205743
+serializable deserialization
+Pattern(s): 5	
+serializable shouldn t need it
+the default constructor is redundant because if the deserialization package needs a default constructor it obviously attempts to create an instance using the default constructor to afterwards set the field values which can t work with final fields
+
+
+
+30315914
+google-chrome firefox
+Pattern(s): 5	
+google-chrome does not implement this yet but firefox does
+the following is a complete webrtc call that works in firefox note uses arrow functions that s 20 lines of code quite a bit smaller than other versions you may have seen
+
+
+
+30610290
+firefox safari
+Pattern(s): 5	
+browsers tend to handle the popstate event differently on page load. google-chrome prior to v34 and safari always emit a popstate event on page load but firefox doesn t
+according to mozzila developer network safari always emit a popstate event on page load
+
+
+
+30675687
+seaborn matplotlib
+Pattern(s): 5	
+seaborn does not change the behavior of matplotlib functions in the way you describe
+matplotlib exposes a number of options for customization that take effect by changing the default values of various plot parameters
+
+
+
+30693775
+pdcurses ncurses
+Pattern(s): 1	
+noting comments pdcurses is not a port but a separate program
+ncurses has a workable port to windows for what it s worth
+
+
+
+30999205
+postgresql mysql
+Pattern(s): 1	
+if you want to use a external database i would recommend you to import the shape file in postgresql and not in mysql since it has a more powerful support for spatial data
+mysql supports several geometry functions for editing and querying spatial data
+
+
+
+31039303
+swift objective-c
+Pattern(s): 5	
+equatable is a swift protocol not available in objective-c which requires that there is a operator defined for the type
+in objective-c there is no operator overloading
+
+
+
+31227943
+multiplication exponent
+Pattern(s): 5	
+to overcome this remember that modular multiplication has such property that a b mod c a mod c b mod c mod c and then you can implement e to the power p modulo m function using fast exponentiation scheme. assuming no negative powers note that remainder is taken after every multiplication so no overflow can occur if single multiplication doesn t overflow and that s true for 1000000007 as m and long long
+as already mentioned your problem is that for large exponent you have integer overflow
+
+
+
+31287845
+boost allocator
+Pattern(s): 2	
+the problem is that clearly boost icl doesn t currently support stateful allocator
+this means that not all constructors take an allocator instance to pass in the required state
+
+
+
+31387201
+lisp racket
+Pattern(s): 5	
+unlike clojure or emacs lisp racket doesn t have doc strings in the function definition source
+racket docs don t have a convention like the one that the first line of a doc string should be a summary a short-version to use in situations like a list of commands or in a repl
+
+
+
+31538804
+cpython pypy
+Pattern(s): 3	
+the documentation at is misleading the beta versions of vmprof on os x or freebsd are only available for cpython not for pypy
+vmprof on pypy is only enabled on 64-bit linux right now
+
+
+
+31668202
+scheme racket
+Pattern(s): 5	
+edit under linux the installer for petite chez scheme does not include swl you have to download it directly
+racket is kind of an extended scheme but you can also choose to use standard scheme by specifying #lang r5rs
+
+
+
+31682396
+uiviewcontroller uinavigationcontroller
+Pattern(s): 1	
+thus we need to unwrap it to ensure these values are actually there 2 rootviewcontroller is defined as a uiviewcontroller - not the uinavigationcontroller subclass
+we need to cast it to a uinavigationcontroller to be able to operate on it as one
+
+
+
+31684469
+setinterval settimeout
+Pattern(s): 5	
+if you want to repeatedly call a function you need setinterval not settimeout
+settimeout invokes its callback once after a delay
+
+
+
+31711854
+momentjs datejs
+Pattern(s): 5	
+momentjs does not currently have the functionality to interpret a string like that
+datejs hasn t been updated in 8 years
+
+
+
+31792893
+build.gradle gradlew
+Pattern(s): 3	
+error cannot find symbol class means your build.gradle file doesn t contain a reference to the classes that your source code refers to
+adding a library to the project structure will only affect the ide you re using and not the actual build script gradlew uses to actually compile your work
+
+
+
+31801392
+strcpy strdup
+Pattern(s): 5	
+strcpy doesn t allocate space for your copy - it assumes you ve already done that
+strdup allocates memory for you
+
+
+
+31809377
+setinterval settimeout
+Pattern(s): 5	
+simple example of repeated calling of same function using setinterval js code live demo jsfiddle note keep in mind to clear the setinterval when not required as it may cause abnormal behaviour may slowdown the javascript engine
+call setinterval instead of settimeout for recurring callback function execution after definite time interval delay
+
+
+
+32000133
+bash tcsh
+Pattern(s): 3	
+on some operating systems bin sh might be the same command as bin bash . not all unix shells are based on the bourne shell
+in particular csh and its derivative tcsh are largely incompatible with the bourne-derived shells
+
+
+
+32046992
+udp tcp
+Pattern(s): 5	
+tcp not udp is also possible though doesn t guarantee application logic actually processes the notification
+however udp is the default for snmp for good reasons as described at this so answer
+
+
+
+32156106
+gson jackson
+Pattern(s): 5	
+gson doesn t care about jackson annotations
+if you want these annotations to be taken into account use jackson to deserialize your json
+
+
+
+32167239
+client-side server-side
+Pattern(s): 1	
+client-side javascript cannot do that but it s possible on server-side
+basic technically steps send those files to server server does whatever you want and sends result back if you are using node.js it s pretty easy send files to server using multer modify files server-side using node-stream and send back this article describes basic mp3 file concatenation on node.js but if you still want client-side
+
+
+
+32234418
+fold combinators
+Pattern(s): 5	
+but i can also just do note that even better using using fold actually keeps foldl strict because in the example above the lazy tuples add a layer of indirection and make the fold lazy again incidentally
+you can encode a normal foldl pretty straightforwardly as a fold i m actually a bit puzzled that this combinators isn t in the library.
+
+
+
+32334651
+quicksort mergesort
+Pattern(s): 1	
+therefore quicksort is not an option
+so a variant of mergesort is used the current java versions use timsort
+
+
+
+32385191
+swift objective-c
+Pattern(s): 5	
+so you can invoke your objective-c method in swift writing hope this helps
+you should note that a parameter declared like this in objective-c does not becomes this in swift something string but it actually is translated into this something string
+
+
+
+32393762
+dictionary map
+Pattern(s): 5	
+example but there would be no problem continuing adding objects of different types to the dictionary and changing the type of the existing objects
+yes but remember that python objects are not statically typed so a declaration like this map is not needed and would not work what you do in python is declare an empty dictionary and add ints to it
+
+
+
+32424120
+apache nginx
+Pattern(s): 5	
+on apache it runs as a plugin module just the way mod_php does
+for nginx i m not sure
+
+
+
+32431725
+single-quotes double-quotes
+Pattern(s): 3	
+just a quick follow-up on this -- on windows you need to use double-quotes and not single-quotes throughout the command line
+single-quotes are just considered part of the value so the above would send client_id instead of client_id
+
+
+
+32538122
+haskell idris
+Pattern(s): 5	
+unfortunately haskell doesn t yet have proper support for dependent typing and existing workaround solutions involve some boilerplate and complications
+idris is a language with haskell-like syntax and full dependent types so i can illustrate the idea in idris with greater clarity this is the complete idris solution
+
+
+
+32539274
+google-chrome firefox
+Pattern(s): 3	
+and phantomjs like ie does not support error.stack and blows up. the log location is clickable in google-chrome but not in firefox
+i have used floatinglomas solution with some tweaks as it does not quite work on firefox the stack is slightly different
+
+
+
+32540697
+swift objective-c
+Pattern(s): 5	
+this is what you need to do create a swift file in your objective-c based project
+no need to create bridging headers since they re used to see objective-c code from swift not swift code from objective-c
+
+
+
+32546879
+swift objective-c
+Pattern(s): 5	
+c c++ objective-c wrapper for c++ objective-c objective-c++ swift bridging-header.h cannot import cpp.hpp header file not because of it s naming convention but because it contains the class keyword
+#import c.h #import cpp-wrapper.h #import objective-c.h #import objective-cpp.h invocation from swift invoke c hello_c world .cstringusingencoding nsutf8stringencoding can t invoke c++ without a wrapper cpp .hello_cpp world .cstringusingencoding nsutf8stringencoding invoke c++ through objective-c cpp_wrapper .hello_cpp_wrapped world invoke objective-c objective_c .hello_objectivec world invoke objective-c++ objective_cpp .hello_objectivecpp world invoke swift swift .hello_swift world .h headers see item 3 in this stack overflow answer .h this is the tricky part since they are ambiguously used for all flavors of c ++ or not objective or not
+
+
+
+32585988
+google-chrome firefox
+Pattern(s): 5	
+for instance consider this page google-chrome shows i m here and if you click the close tab button it doesn t close for several seconds seems like the loop completes
+if it never finished odds are google-chrome would eventually tell you the script was misbehaving. firefox doesn t show i m here but the ui does the same thing doesn t close the tab for several seconds after you request the tab closure
+
+
+
+32604219
+google-chrome firefox
+Pattern(s): 5	
+however in a real life scenario the actual element that has to be clipped could be present anywhere within the body and hence i think it is a much better approach to use the objectboundingbox as the units like in the below snippet as mentioned in the question itself this behavior is visible only in google-chrome and not firefox for reasons unknown to me
+firefox produces an output similar to the expected one even when a extra padding + margin is added to the body and b when the image itself is wrapped inside another container which also has padding + margin
+
+
+
+32661217
+bufferedreader bufferedwriter
+Pattern(s): 1	
+well a bufferedwriter is not used to get input but rather to output information but assuming that you meant a bufferedreader then the answer is yes definitely
+understand that a gui and getting data with a bufferedreader are orthogonal concepts -- they both can work just fine independently of the other
+
+
+
+32676666
+email dkim
+Pattern(s): 1	
+this combined with other elements in the ui of your email client such as fraud detection in thunderbird is as a user what would call out to you that the email might not be trustworthy
+dkim dkim works via an asymmetric key
+
+
+
+32705026
+swift objective-c
+Pattern(s): 5	
+as mentioned by others the whole point is that objective-c provides base class for all classes while swift does not
+nsobject in objective-c provides alloc and init methods hence one can expect that a descendant from nsobject will either implement or inherit those methods hence you can have the shortcut-category you mentioned in your question
+
+
+
+32717264
+dictionary map
+Pattern(s): 5	
+so while a dictionary is a type of map maps are a much broader range of possible function
+in practice a its usually the mapping function that defines the name so a hashmap is a mapped data structure that uses a hashing algorithm to link the key to the value where as a dictionary doesn t specify how the keys are linked to a value so could be stored via a linked list tree or any other algorithm
+
+
+
+32788507
+innodb myisam
+Pattern(s): 5	
+as mhalt hints at there is a good reason not to use the query cache you should be using innodb rather than myisam as myisam is not robust enough for the cloud environment
+innodb has built in caching as part of it s buffer pool
+
+
+
+32828887
+strdup malloc
+Pattern(s): 5	
+the memory in strdup is created by using malloc not new
+strdup - duplicate a string the returned pointer can be passed to free
+
+
+
+32838740
+pickle dill
+Pattern(s): 3	
+dill is primarly based on pickle and so they are very similar some things you should take into account look into limitations of dill frame generator traceback standard types can not be packaged
+cloudpickle might be a good idea for your problem as well it has better support in pickling objects than pickle not per see better than dill and you can pickle code easily as well
+
+
+
+32855841
+bower npm
+Pattern(s): 3	
+if you get bower command not found responses it can be either because you haven t installed bower or because bower isn t in the path
+to install bower you need to have npm installed and then you do the following terminal command if your npm install is made as root you could need to be root to execute the precedent command that should install bower and put it in the path
+
+
+
+32862488
+wildfly jboss
+Pattern(s): 5	
+wildfly is using slf4j as defult logging
+you have to tell jboss not to use slf4j i am using log4j
+
+
+
+32906273
+scipy sympy
+Pattern(s): 2	
+mystic depends on numpy and will use scipy if it is installed however scipy is not required
+mystic utilizes sympy to handle symbolic constraints but it s also not required for optimization in general
+
+
+
+32919699
+google-chrome firefox
+Pattern(s): 5	
+google-chrome chromium allow folder upload when webkitdirectory attribute is set
+firefox does not allow folder upload currently though user can upload multiple files at single file dialog when multiple attribute set set allow_dirs attribute at firefox
+
+
+
+32988229
+sctp tcp
+Pattern(s): 1	
+sctp is not better than tcp in any way but it does something different
+tcp emulates a reliable ordered stream of octets over an unreliable unordered packet transport which is conceptually very similar to reading from a file without the ability to seek
+
+
+
+33028487
+swift objective-c
+Pattern(s): 5	
+at least as of the date i was trying this about 10 8 15 and xcode 7 you must do make your nsmutabledictionary subclass in objective-c not swift
+see cannot override initializer of nsdictionary in swift 4 nscoding doesn t work with nsmutabledictionary subclasses
+
+
+
+33125984
+glassfish weblogic
+Pattern(s): 2	
+it is still the reference implementation for java ee so you can expect glassfish to be around for as long as java ee is
+oracle s other application server weblogic still doesn t even fully support java ee 7 - both they and ibm seem to have similar strategies of maintaining stability in their full-fat releases while being more bleeding edge with glassfish for oracle and the liberty profile for ibm s websphere
+
+
+
+33125984
+glassfish weblogic
+Pattern(s): 3	
+oracle s other application server weblogic still doesn t even fully support java ee 7 - both they and ibm seem to have similar strategies of maintaining stability in their full-fat releases while being more bleeding edge with glassfish for oracle and the liberty profile for ibm s websphere
+it s also important to take note of the payara project which provides support for glassfish but also is actively looking for and fixing bugs in the upstream codebase
+
+
+
+33147994
+memcpy memmove
+Pattern(s): 1	
+or you can use memmove which permits overlapping memory space memcpy is not safe for overlapping copies
+memmove is more efficient than a loop though optimizing compilers may solve that
+
+
+
+33194125
+swift objective-c
+Pattern(s): 5	
+one other thing not mentioned here - perhaps this might be due to a wider issue of objective-c not being able to access the swift protocol extension implementations
+for example the following code will generate the following in the swift generated header for the extension however using protocol extensions as follows similar to your post generates the following in the swift header for the protocol the implementation is not visible at all and so it seems to imply protocol extension implementations are not supported from objective-c
+
+
+
+33244009
+google-chrome firefox
+Pattern(s): 1	
+use this for google-chrome firefox not yet supported
+open bug to implement cue pseudo-element - edit support for firefox is available it works similarly as it does in google-chrome and opera
+
+
+
+33319014
+octal decimal
+Pattern(s): 5	
+you are using the python notation for octal escapes not unicode codepoints
+if you wanted to include the u+0332 combining low line and u+0305 combining overline characters for example you need to use the uhhhh hex escape sequence in a unicode string here 818 decimal is 0332 hexadecimal and 773 is 0303 hexadecimal
+
+
+
+33324803
+firefox safari
+Pattern(s): 5	
+for example firefox doesn t include an origin header on same-origin requests
+but chrome and safari include an origin header on same-origin post put delete requests same-origin get requests will not have an origin header
+
+
+
+33374245
+google-chrome firefox
+Pattern(s): 5	
+it s failing in firefox because you ve tried to reference the ie-specific global event variable which google-chrome also provides as a bone thrown to ie-specific code as sdgluck pointed out
+firefox doesn t have that and so the code throws an error
+
+
+
+33400670
+firefox safari
+Pattern(s): 5	
+firefox will also have a value of 0 but it will also factor in the values
+unfortunately safari will not record consistent pagex pagey values for keyboard events and ie will record the exact location of the mouse when the keyboard click event was fired
+
+
+
+33553280
+google-chrome firefox
+Pattern(s): 3	
+ie and google-chrome have slightly different implementations because of that
+firefox does not have an implementation of innertext yet
+
+
+
+33728487
+csv tsv
+Pattern(s): 1	
+tsv is not just csv with tab delimiters it s all good if in your case it works
+just keep in mind trying to read a tsv using a csv parser is a bad idea as characters such as n or t may be escaped as actual sequences of and n
+
+
+
+33811151
+google-chrome firefox
+Pattern(s): 5	
+google-chrome is honoring the img s percent max-width when computing the minimum intrinsic size of the flex item
+firefox is not
+
+
+
+33852584
+daemons systemd
+Pattern(s): 5	
+your nsurlsession background tasks downloads and uploads run in an os daemons process not in the app process so they continue to run even if the app is killed by ios
+according to apple s documentation if an ios app is terminated by the systemd and relaunched the app can use the same identifier to create a new configuration object and session and retrieve the status of transfers that were in progress at the time of termination
+
+
+
+33876140
+fink homebrew
+Pattern(s): 5	
+macports and fink are package managers for os x like homebrew
+as the message says homebrew doesn t work well with these two so you should either stay with macports or fink or uninstall them and use homebrew
+
+
+
+33965054
+google-chrome firefox
+Pattern(s): 5	
+google-chrome does not implement this yet
+firefox has an implementation of the identity provider part of the spec which seems to be enabled by default
+
+
+
+33979203
+swift objective-c
+Pattern(s): 3	
+this pure swift code compiles just fine note that i ve eliminated nsmanagedobject from the story as it has nothing to do with the issue that s because swift knows what a protocol extension is
+but objective-c doesn t
+
+
+
+34004017
+skip-lists tree
+Pattern(s): 5	
+in 1989 or 1990 as a student i implemented both it was not a good implementation of the skip-lists i must admit i was a novice in that time
+however the avl tree was not anymore difficult to implement. in contrast i had difficulties with that variable length forward pointers of the skip in list implementing in modula 2 which i primitivley solved with always using a maximum of 16 next pointers
+
+
+
+34070537
+persistent transient
+Pattern(s): 5	
+javax.persistence.transient is only respected in the context of database persistent not beaninfo serialization
+you use the wrong transient should use java.beans.transient for the annotation
+
+
+
+34092217
+bower npm
+Pattern(s): 1	
+bower is good if you like asynchronous albeit somewhat more exposed dependencies less learning curve setup more get it done not having a bazillion options enjoy the amd dependency model npm is good if you like compiling your coffeescript typescript into heftier javascript files i haven t done this with bower so i don t know if it offers some of the transpiling options i assume it does want to leverage node s existing extensive library of packages via bower webpack want more customization over how you build your app enjoy the common js dependency model i m sure others can comment on the pros cons of each
+it sounds like you already have your environment for this project setup to utilize npm i d not let a few more dependencies cause you to have to question that setup
+
+
+
+34111505
+des aes
+Pattern(s): 3	
+and no des is not secure and in fact has been in brute-force range for at least a decade depending on attacker capabilities
+it has been deprecated since about 1999 in favor first of triple-des formally tdea and then aes and was officially withdrawn about 2005 as i recall
+
+
+
+34185527
+dictionary map
+Pattern(s): 5	
+suddenly a simple dictionary isn t enough you might need a tree of choices attached to each identifier found in the map or a more complex mapping of the identifier with signature data to a scope entry
+in many algol like languages look in another scope requires going up the lexical nesting of blocks so each map must have an association with a parent scope
+
+
+
+34194211
+google-chrome safari
+Pattern(s): 1	
+safari does not support execcommand and google-chrome osx has a known bug code see jsfiddle where you can enter html segment into the textarea and copy to the clipboard with ctrl+c
+i have done a few modifications on loilo s answer above setting and later restoring the focus to the hidden div prevents firefox going into endless recursion when copying from a textarea setting the range to the inner children of the div prevents google-chrome inserting an extra in the beginning removeallranges on getselection prevents appending to existing selection possibly not needed try catch around execcommand hiding the copy div better on osx this will not work
+
+
+
+34321149
+tcpdf fpdf
+Pattern(s): 3	
+you can use tcpdf which handles perfectly utf-8. the migration from fpdf to tcpdf is quite easy since it uses the same methods same methods names same arguments as fpdf
+fpdf does not natively handle utf-8 that may explains why you get weird characters
+
+
+
+34383821
+debian linux
+Pattern(s): 5	
+i installed a new virtual machine openvz containter ct with debian 8 and had the same problem at start i thought that the problem was with the upgrade but having the same problem with a new fresh debian 8 install i have search for new solutions
+the problem it s that i was running proxmox 3.2 which uses a linux kernel not compatible with debian 8. so be adviced if you are using proxmox 3.x don t upgrade your ct s to debian 8 jessie or your machines will never restart
+
+
+
+34496277
+super self
+Pattern(s): 1	
+super car self .__init__ self name color in your code
+super doesn t know what class it s being called in
+
+
+
+34637950
+ienumerable iqueryable
+Pattern(s): 5	
+5 the retrieved detached objects should be added to a returned list or you could yield return the results one by one with ienumerable is return type
+returning an iqueryable isn t possible in this case but an ienumerable will do as result
+
+
+
+34647551
+constexpr inline-functions
+Pattern(s): 5	
+an inline-functions cannot be used as a compile time constant whereas constexpr can allow you to formulate compile time functions and more so objects
+a basic example where constexpr makes a guarantee that inline cannot
+
+
+
+34668970
+stateless stateful
+Pattern(s): 2	
+a stateless deleter cannot remember to delete something else
+you can add a stateful deleter to unique_ptr that supports aliasing but then you ll have to alias manually
+
+
+
+34697180
+setinterval settimeout
+Pattern(s): 1	
+settimeout call doesn t block the browser s main thread instead what it does is schedule your function call whenever your browser is idle and then exits immediately which subsequently terminates the caller thus no recursion occurs i would prefer using setinterval in your case for the sake of readability and avoid any confusion of recursive calls edit based on comment made by paulpro thanks
+i assumed setinterval does the same with settimeout with delay and calling the same function but it doesn t settimeout runs in sequence and only schedule the next call when your function calls runupdater whereas setinterval just schedules ignoring the state of the function being called tl
+
+
+
+34712804
+google-chrome firefox
+Pattern(s): 5	
+google-chrome implements an offsetwidth in the svgtextelement prototype which allows jquery to return a width
+but it s not a standard property and firefox doesn t implement it
+
+
+
+34782711
+build.gradle gradlew
+Pattern(s): 3	
+in your build.gradle not the app gradlew it should look like this
+make sure your gradlew module is up to date
+
+
+
+34834509
+clutter cairo
+Pattern(s): 3	
+clutter is one specifically designed to be used with gtk but there are also others
+cairo doesn t animate things and it doesn t have the concept of objects
+
+
+
+34845320
+setinterval settimeout
+Pattern(s): 3	
+first you want setinterval not settimeout
+settimeout only executes once after the specified delay while setinterval executes once every interval
+
+
+
+34945129
+decoder encoder
+Pattern(s): 5	
+maybe the header of the file required to initialize the video decoder is not at the start of the file but at the end and the browser has to download the whole file until it reaches it
+this is uncommon nowadays but old video encoders used to place the mp4 header at the end of the file instead of at the beginning because it simplified the encoder s implementation
+
+
+
+35020493
+gridview sqldatasource
+Pattern(s): 5	
+you could continue the way you are and create a separate sqldatasource for each of the child gridview but i m guessing the amount of child gridview is not constant
+in that case you will need to get rid of the child sqldatasource and bind a data source such as a datatable to each child gridview
+
+
+
+35089143
+fgets fseek
+Pattern(s): 5	
+fgets would stop reading input if it sees a newline
+also fseek may not work on stdin and it s unnecessary for your purpose
+
+
+
+35118008
+google-chrome firefox
+Pattern(s): 1	
+it is working fine for me on internet explorer and google-chrome but not for mozilla firefox
+in case of firefox asking for username and password i am providing it but it is not working
+
+
+
+35212350
+super self
+Pattern(s): 5	
+the most important thing to remember about super is that inside foo.go you do not know what class super foo self will refer to because you do not know if self is an instance of foo or a descendent of foo
+despite its name super does not necessarily refer to a superclass
+
+
+
+35214904
+setinterval settimeout
+Pattern(s): 1	
+the reason i like to use settimeout and not setinterval in these situations is that settimeout is only called after the previous function has completed
+setinterval can get back-logged and freeze up your page
+
+
+
+35546457
+google-chrome firefox
+Pattern(s): 3	
+see webkit bug 107389 when looking at the headers for each you can see that googleadservices doesn t send any cors information which should cause google-chrome to not load the resource
+this is what firefox does however google-chrome seems to require the attribute to properly block
+
+
+
+35560073
+super self
+Pattern(s): 1	
+your super call is incorrect
+update so that self is not called as a method argument - as you have it written it will always fail
+
+
+
+35600339
+libstdc++ libc++
+Pattern(s): 1	
+so using some features of c++11 with libstdc++ is not possible
+the reason is this one mainline libstdc++ has switched to gpl3 a license which the developers of libc++ cannot use
+
+
+
+35805359
+google-chrome safari
+Pattern(s): 1	
+it s tough to gauge from the parameters you posted but just based on you saying that this works perfectly in safari but doesn t work in google-chrome or firefox it sounds like this could be a cors issue
+firefox and google-chrome have different requirements for cross-origin requests than safari
+
+
+
+35833458
+memcpy strncpy
+Pattern(s): 1	
+to extract a fragment from a string use memcpy and add a final 0 by hand
+incidentally strncpy will not null terminate the destination if the size argument is less than the length of the source string
+
+
+
+35856651
+nfa dfa
+Pattern(s): 5	
+if you have a regular expression without any optional such as ab the nfa graph doesn t have to contain any epsilon edges
+an important concept in nfa simulation and nfa to dfa translation is the epsilon closure a set of states reachable from a state by following epsilon transitions
+
+
+
+35886756
+jar war
+Pattern(s): 1	
+the option of assembling your project as a jar wont be available until sdk version 3.0 which is still under development
+however if you still want to have a taste of it you could use this method if what you seek is packaging your projects as war not a jar you should then run mvn package on your project then use some tool like alfresco-mmt alfresco module management tool to apply that amp to an ootb war you could check this page for the list of options available in the alfresco mmt
+
+
+
+36004048
+lxml libxml2
+Pattern(s): 5	
+you re not using lxml wrong and it s not that lxml doesn t support preserving whitespace in this scenario as so many other so entries might have you think
+it s just that you were unwittingly using a version of libxml2 that has a bug that s since been fixed
+
+
+
+36054455
+erlang elixir
+Pattern(s): 1	
+if i m not mistaken erlang doesn t know how to handle utf8 in char lists as well so it might be implemented this way for historical reasons
+however elixir is nice enough to convert utf8 characters in a char list literal to the appropriate code points so you can later convert it to a binary and get the proper utf8 characters iex internally uses the inspect protocol to print return values
+
+
+
+36061774
+serializable deserialization
+Pattern(s): 5	
+looks like yaml serializable doesn t like it
+i used deserialization with specified type as you mentioned and this is what i get swagger 2.0 info title uberapi description moveyourappforwardwiththeuberapi version 1.0.0 host api.uber.com schemes - https basepath v1 produces - application json this is my whole code update two issues here
+
+
+
+36106376
+oncreate setcontentview
+Pattern(s): 2	
+activities are run in order of the android lifecycle so oncreate is not called first
+it is just the first opportunity you have to call setcontentview to inflate your layout
+
+
+
+36183651
+dictionary map
+Pattern(s): 1	
+each call is o n so a single conversion to dictionary can be more efficient if you have wide rows and multiple calls
+in general you should avoid calls like this using udf is as inefficient but much cleaner in general using built-in sql expressions should be preferred over map you shouldn t map directly over dataframe
+
+
+
+36212467
+inline-functions inlining
+Pattern(s): 3	
+an inline-functions should be as fast as a macro if it is indeed inline by the compiler
+note that the inline keyword is not binding but just a hint to the compiler which may ignore it if inlining is not possible
+
+
+
+36224570
+azure hdinsight
+Pattern(s): 1	
+azure batch doesn t support joining virtual networks so your adf dotnet activity cannot have a fixed ip range. however azure batch supports certificate management for vm nodes so if the web endpoint you are calling can be protected by a client certificate while opening traffic to all public ip addresses then you can choose to use the certificate based authentication in adf dotnet activity
+on the other hand adf dotnet activity can also be run on hdinsight clusters and i believe hdinsight supports virtual network
+
+
+
+36266049
+glfw lwjgl
+Pattern(s): 5	
+ostensibly this is what java s awt api is supposed to be but again awt and swing have performance problems glfw does not
+lwjgl is a wrapper for glfw but also a wrapper for the broader opengl api including functions you d normally have to manually load in c c++ typically through what s called glew or the opengl extension wrangler
+
+
+
+36295821
+theano keras
+Pattern(s): 1	
+theano has low-level primitives to build machine learning models and on itself does not define any layers or optimizers and you would usually use it with some deep-learning library such as lasagne or keras while mxnet is higher level
+so fare comparison would be mxnet vs keras not mxnet vs theano
+
+
+
+36316442
+selecteditem selectedindex
+Pattern(s): 5	
+what you want to do is this note since this is in the selection changed event selecteditem shouldn t ever return null but it doesn t really hurt to make sure
+the problem is in this line here selectedindex will return a number not the item itself
+
+
+
+36323038
+ubuntu linux
+Pattern(s): 1	
+afaik currently apple provides this software only for 64-bit ubuntu 14.04 or ubuntu 15.10 make sure you download the correct version
+another thing to note is that swift on linux is not as usable as it is on mac os x
+
+
+
+36374630
+comparator comparable
+Pattern(s): 3	
+here is code snippet for treemap.put from java-8 so first it checks whether comparator is provided if yes treemap uses compare method to compare keys otherwise it uses comparator method of comparable for comparison
+treemap uses comparator method of comparable not equals method from object when it tries to put an element into map
+
+
+
+36456932
+bash subshell
+Pattern(s): 2	
+in particular in bash will not optimize away the command-substitution subshell because cmd1 | cmd2 is not a simple command
+so it will create a subshell to execute the pipeline
+
+
+
+36499752
+cdr cons
+Pattern(s): 2	
+thus a chain of pairs where the last cdr is not matches this
+append is a procedure that uses cons to make a list with all the elements of the argument lists left to right
+
+
+
+36697425
+swift objective-c
+Pattern(s): 3	
+first note when you mentioned -ofast that s for objective-c not swift
+the flag for swift is just -o
+
+
+
+36778795
+erlang elixir
+Pattern(s): 5	
+although erlang knowledge shouldn t be necessary to use elixir such omissions are a common mistake when people document software that is derived as elixir is from erlang
+from page 2 basic types of the getting started documentation note functions in elixir are identified by name and by number of arguments arity
+
+
+
+36779703
+innodb tokudb
+Pattern(s): 1	
+engine innodb will create you an xtradb table
+tokudb is not at all supported on homebrew mac os x in any way and likely will not even compile
+
+
+
+36823113
+google-chrome firefox
+Pattern(s): 5	
+properties that are unable to be animated are ignored in these rules with the exception of animation-timing-function the above extract would imply that the behavior in firefox is correct whereas the one in google-chrome isn t but as boltclock points out in this answer the spec s editor s draft has been updated and the updated text seems to imply that google-chrome s behavior is the correct one
+maybe firefox will change the behavior someday but since this spec has not reached maturity it may take time
+
+
+
+36870968
+tensorflow cudnn
+Pattern(s): 5	
+therefore tensorflow won t attempt to call cudnn when training this model
+i m not sure that tensorflow will automatically fallback to a slower convolution algorithm when cudnn isn t available
+
+
+
+36954493
+uicollectionview uipageviewcontroller
+Pattern(s): 3	
+a customized uicollectionview is probably the best starting point for what you want
+a uipageviewcontroller will not do what you want
+
+
+
+37040567
+opennlp stanford-nlp
+Pattern(s): 5	
+i found it easier to get off the ground with opennlp especially working from clojure as i do but ended up using freeling because it has more tools and of course access to many more languages
+i m assuming that by shallow parser you mean a phrasal chunker as described here stanford-nlp does not offer a shallow parser and a dependency parser is not a that
+
+
+
+37054078
+ubuntu linux
+Pattern(s): 5	
+i suspect this is because the binary was compiled on ubuntu not on amazon linux
+i also setup amazon linux that aws lambda based on red hat actually runs on
+
+
+
+37080344
+subtraction addition
+Pattern(s): 5	
+on that theme though note that the c bit for addition is the nb bit for subtraction logical not borrow therefore a subtraction which doesn t underflow will also set it and there s a real easy way to set the flags with a subtraction guaranteed not to underflow cmp r0 r0 but trickery aside if you want the flags in a specific state it s probably best to put the appropriate value there directly by the proper means msr cpsr_f #0x20000000
+c is set to 1 if the addition produced a carry.
+
+
+
+37084871
+hex binary
+Pattern(s): 3	
+the reason hex is seen quite a bit in code is simply that it allows the common 8-bit width of bytes to be represented with exactly and just 2 hex digits which is reasonably concise and not too hard for humans to get used to
+it s easy enough to mentally convert back to binary while not losing track of which digits you re looking at the way you can with a 32-bit or 64-bit value in binary
+
+
+
+37088930
+theano lasagne
+Pattern(s): 5	
+and using keras or lasagne is way simpler to develop nns then pure theano which was just side research project in montreal to support development of pylearn
+they are built on top this does not mean theano cannot be used for the same purpose
+
+
+
+37192041
+hive hdfs
+Pattern(s): 5	
+as an example if you create an external table called table_test in hive using hive-ql and link the table to file file then deleting table_test from hive will not delete file from hdfs
+external table files are accessible to anyone who has access to hdfs file structure and therefore security needs to be managed at the hdfs file folder level
+
+
+
+37199197
+udp tftp
+Pattern(s): 5	
+udp puts the source and destination ports in the udp header and ip puts the source and destination addresses in the ip header
+tftp doesn t specify what s in the ip header but that doesn t mean there s nothing in there
+
+
+
+37205099
+google-chrome safari
+Pattern(s): 2	
+see for example input type email value in google-chrome with accented characters wrong here s an example of it happening without angular - try this in google-chrome so the short answer is no there s no way of stopping this via angular - and currently there doesn t appear to be a way to tell google-chrome not to do it either
+it turns out it s not angular that s doing it it s google-chrome safari does not have the same behaviour haven t tested other browsers
+
+
+
+37221078
+ucma ucwa
+Pattern(s): 1	
+as such ucma is not available for skype for business online office 365
+ucwa is a restful web api that acts on behalf of a single skype for business user
+
+
+
+37221110
+ucma ucwa
+Pattern(s): 3	
+ucma is not available for skype for business online for the reasons explained in this question and answer
+ucwa is now available for skype for business online
+
+
+
+37258522
+jar war
+Pattern(s): 1	
+the reason that you can not run a guide with run on server is because of spring-boot adheres to the slogan of make jar not war
+the guide sample code are not things you deploy on a server i.e war but are standalone java apps jar which contain their own embedded servlet container if they need one
+
+
+
+37268489
+uiview subviews
+Pattern(s): 5	
+i had this happen when i had a uiview linked into a storyboard and connected iboutlet like but later on i made the uiview into a custom class but forgot to change the class name of this iboutlet defined above
+its a strange error because if the custom view has no subviews it doesnt complain but as soon as there are subviews it shows the error stated in the question but on one of the subviews and not the outer uiview where the problem actually exists
+
+
+
+37281795
+sudo passwd
+Pattern(s): 5	
+here is the error i am getting because sudo is not installed you can use winrm if you login with ssh via vagrant ssh
+passwd is passw0rd
+
+
+
+37301743
+filewriter bufferedwriter
+Pattern(s): 3	
+filewriter is not buffered so writing to it writes immeditately to disk
+bufferedwriter writes first to a buffer in memory
+
+
+
+37369719
+google-chrome safari
+Pattern(s): 3	
+from this page messages | works mail | works whatsapp | works slack | works if it s set to open safari not in-app browser uses sfsafariviewcontroller safari | works conditionally google-chrome | works conditionally google | works conditionally gmail | if google-chrome installed opens link in google-chrome not universal link
+else works conditionally inbox | if google-chrome installed opens link in google-chrome not universal link
+
+
+
+37517589
+firefox safari
+Pattern(s): 1	
+note i was able to achieve the above functionality in google-chrome only as at this stage mozilla firefox provided limited support
+whereas safari has not provided webrtc support so it was out of the picture from the beginning
+
+
+
+37521232
+pyenv virtualenv
+Pattern(s): 1	
+i have created a 2.7.11 virtualenv using pyenv and installed python2-pygame with pacman
+with my virtualenv activated i couldn t import pygame from python
+
+
+
+37529730
+google-chrome safari
+Pattern(s): 3	
+looks like google-chrome doesn t interpret your data-method post
+google-chrome started get safari started post try to do this with a button_to which enables you to bypass these limitations
+
+
+
+37639708
+firefox safari
+Pattern(s): 5	
+a ligature is a combination of two or more letters joined as a single glyph root cause this issue with missing characters is due to ligature support provided by these modern browsers - let me explain how 1.the tool while converting - it converts characters to glyphs using poppler for rendering - now these browser when they come across characters like tt tf ti firefox fi consider them to be ligature and searches for glyphs corresponding to tt and not t t 2.since they do not have their corresponding glyphs - they just skip the characters and renders the rest - so we fount the characters missing could be solved by disabling turning-off the ligature in these browsers - embedding the css in the generating content for more details please refer prevent ligatures in safari mavericks ios7 via css please correct me if i am wrong
+the above issue occurs only in - webkit web browsers like chrome and safari - which provides support for ligatures - whereas browser like firefox does not
+
+
+
+37648206
+virtualenv conda
+Pattern(s): 2	
+i finally resorted to using conda to set up an environment rather than virtualenv
+apparently virtualenv is not compatible with anaconda
+
+
+
+37749220
+firefox safari
+Pattern(s): 5	
+a ligature is a combination of two or more letters joined as a single glyph root cause this issue with missing characters is due to ligature support provided by these modern browsers - let me explain how 1.the tool while converting - it converts characters to glyphs using poppler for rendering - now these browser when they come across characters like tt tf ti firefox fi consider them to be ligature and searches for glyphs corresponding to tt and not t t 2.since they do not have their corresponding glyphs - they just skip the characters and renders the rest - so we fount the characters missing could be solved by disabling turning-off the ligature in these browsers - embedding the css in the generating content for more details please refer prevent ligatures in safari mavericks ios7 via css please correct me if i am wrong
+the above issue occurs only in - webkit web browsers like chrome and safari - which provides support for ligatures - whereas browser like firefox does not
+
+
+
+37763767
+swift objective-c
+Pattern(s): 1	
+unlike objective-c which is a proper superset of c swift has been built as an entirely new language
+swift cannot compile c code because the syntax is not compatible
+
+
+
+37853065
+bower npm
+Pattern(s): 1	
+i found a great tutorial about it but lost it due to private browsing i suggested to include the commands you need in the scripts section of your package.json like this before you scream nooo what the hell the full path is missing consider this. when you run a command from the scripts with npm run bower npm includes the .bin folder of your path so that the binaries can be found. magic at its finest i hope i could help some people who stumble across the same problem
+okay i found out that npm does not work that way
+
+
+
+37903333
+swift objective-c
+Pattern(s): 2	
+swift doesn t support objective-c s dynamicism
+for better or for worse this means that in order to swap out the usage of this selector with a block you d probably need to perform some black magic to make it work and you d have to use objective-c constructs to do that
+
+
+
+37928191
+swift objective-c
+Pattern(s): 1	
+i forgot that the native version of realm swift isn t available on ios 7 and you d need to use the swift-bridged objective-c version
+the equivalent code would be to clarify the filter method is only available in realm swift and its equivalent method in objective-c is objectswhere
+
+
+
+37954670
+jpql hql
+Pattern(s): 5	
+in this case your jpql isn t valid
+jpql requires select the reason it works is that hql hibernate query language supports leaving off the select so it doesn t complain when you leave it off your jpql
+
+
+
+37958963
+quicksort heapsort
+Pattern(s): 3	
+that s because all elements will match the pivot so after the pivoting step which separates the array into three parts the left and right parts will be empty and the quicksort will terminate immediately
+heapsort doesn t have this property it always runs in o n log n
+
+
+
+37965050
+erlang elixir
+Pattern(s): 5	
+erlang since elixir is built on top of erlang and compiles down to erlang and the beam vm you have access to every erlang module and package
+so if you are worried about using elixir and missing out on all of the features of erlang you shouldn t be
+
+
+
+38064859
+persistent transient
+Pattern(s): 5	
+the persistent column shows the number of objects that currently exist while the transient column shows the number of objects that have existed but have been deallocated
+so if you expect an object to be deallocated but the number in the transient column doesn t change then you know the object hasn t been deallocated and you have a problem
+
+
+
+38108115
+swift objective-c
+Pattern(s): 3	
+changing to swift has actually saved me from mistakes that i was making without even realizing it because of dynamic typing imposed on me by the apis the fact that objectatindex returned an id though to be sure this is less likely to trouble you today thanks to lightweight generics
+can someone explain what someone explain what objective-c can support that swift fundamentally cannot when developing apps what i used to take advantage of in objective-c was not so much dynamic typing as dynamic messaging
+
+
+
+38147440
+swift objective-c
+Pattern(s): 5	
+you can bridge variadic functions in c to swift but not the other direction
+see using swift with cocoa and objective-c interacting with c apis variadic functions for more on that
+
+
+
+38194589
+swift objective-c
+Pattern(s): 3	
+therefore the usage of nstimer is not more swifty but the need for late binding is more obfuscated to make swift developers feel better
+if i wanted to use objective-c i d not be writing swift.
+
+
+
+38274873
+swift objective-c
+Pattern(s): 3	
+swift doesn t allow protocols to have optional requirements-- if the protocol declares something it s required
+objective-c has long had the idea of optional requirements and swift recognizes this when you use objective-c when declaring the protocol
+
+
+
+38347170
+swift objective-c
+Pattern(s): 3	
+in swift it gets better with nicer block syntax better type inference and auto-closures
+objective-c is not known for it s pretty or terse syntax
+
+
+
+38482617
+google-chrome firefox
+Pattern(s): 5	
+reference example google-chrome doesn t require such initialization
+firefox requires something that we call init here to be set in dragstart event to initialize the rest of drag events to occur
+
+
+
+38656012
+postgresql mysql
+Pattern(s): 5	
+postgresql doesn t know float but float4 and float8 which are synonyms for real and double respectively
+mysql technically knows float but that doesn t mean the db-migrate abstraction will accept is as input when run .
+
+
+
+38675261
+ienumerable icollection
+Pattern(s): 1	
+ienumerable is a forward-only iterator
+icollection does not have indexed access
+
+
+
+38687686
+strncmp memcmp
+Pattern(s): 5	
+in contrast to that the function strncmp will stop at a byte with value 0 even though the passed number of bytes to compare is not yet reached
+in c and c++ the end of a string is indicated by a byte with value 0. the function memcmp does not care about the end of a strig but will in any case compare exactly the number of bytes specified
+
+
+
+38878354
+scheme racket
+Pattern(s): 5	
+latest version of scheme r7rs isn t available in racket yet
+racket has support for many surface languages
+
+
+
+38881503
+pandas pytables
+Pattern(s): 5	
+i don t have enough karma to reply to luke h s answer but reading it into pandas might not be a good idea
+pandas hdf5 uses pytables which is an opinionated way of using hdf5
+
+
+
+38884993
+google-chrome firefox
+Pattern(s): 3	
+also tried the same extension with google-chrome because i read here that firefox doesn t support background yet the problem of connection breaking persists
+the documentation you linked to is about a permission called background that google-chrome supports but firefox does not
+
+
+
+38928746
+calloc malloc
+Pattern(s): 5	
+in the function iterativefile you don t use calloc to allocate startpath and you don t set to null
+the memory returned by malloc is not necessarily zeroed
+
+
+
+39049175
+dictionary map
+Pattern(s): 3	
+wherever you generated your transitions dictionary you should have used a list comprehension instead of map to create lists instead of iterators for the values instead of map lambda x whatever thing
+iterating over a dictionary doesn t empty it
+
+
+
+39146651
+allocator stl
+Pattern(s): 5	
+those heap allocator would not be in the union
+most stl containers including the std map type cannot be in a union since it has non-trivial member functions
+
+
+
+39205901
+ubuntu linux
+Pattern(s): 1	
+in order to use mysqli you should then install the package for ubuntu apt-get install php-mysql check if it is already enabled with phpinfo for example if not enabled enable the module - check in etc php mods-available folder if there is a mysqli.ini containing then check for cli fpm apache other if there is the symbolic link pointing to this file for example for cli in etc php cli conf.d restart php apache nginx depending what you are using
+if you are on linux you shouldn t have dll files but so files
+
+
+
+39216914
+sudo passwd
+Pattern(s): 2	
+when you invoke a command with sudo you re asking sudo to elevate your privileges beyond what the account normally gets
+this is an entirely different system with rules defined in etc sudoers which you should edit using sudo visudo that control which users are allowed to use sudo what commands they should be able to run whether they need to re-enter their passwd or not when using the command and a variety of other configuration options
+
+
+
+39264818
+nsmutablestring nsstring
+Pattern(s): 1	
+instead you probably should use the nsmutablestring and append the second string to it
+you cannot truly append one nsstring to another because the class nsstring is not mutable
+
+
+
+39299284
+google-chrome firefox
+Pattern(s): 1	
+google-chrome considers the key to be the meta key while firefox considers it to be the os key
+thus firefox does not set the metakey property to true because from firefox s point of view the meta key is not being pressed
+
+
+
+39309015
+google-chrome safari
+Pattern(s): 5	
+source but if i check it says that google-chrome does support arrow functions
+so you might check whether the features you re looking for are supported or not for ios safari not for google-chrome
+
+
+
+39323901
+udp tcp
+Pattern(s): 1	
+udp doesn t have error recovery if there s an obstacle it will just collide with it then continue
+while tcp makes sure that all packets are sent received perfectly no errors so the car just passes obstacles without colliding
+
+
+
+39562813
+realloc malloc
+Pattern(s): 5	
+look at these results increasing lossful malloc took 777 ms decreasing lossful malloc took 729 ms decreasing realloc took 19 ms these results were too close so i run several tests and averaged them. definitely decreasing the memory size is more efficient when using realloc
+that s probably because realloc doesn t need to search for a new memory block it just uses the previous one and shrinks it
+
+
+
+39605815
+dictionary map
+Pattern(s): 3	
+slightly nicer for mass-conversions than repeated dictionary lookup is using operator.itemgetter from future_builtins import map # only on py2 to get lazy generator based map from operator import itemgetter for name phone_number in map itemgetter name phone_number j print name phone_number if you needed to look up individual things as needed so you didn t always need name or phone_number then regular dictionary lookups would make sense this just optimizes the case where you re always retrieving the same set of items by pushing work to builtin functions which on the cpython reference interpreter are implemented in c so they run a bit faster than hand-rolled code
+using a generator based map isn t strictly necessary but it avoids making potentially large temporary list s when you re just going to iterate the result anyway
+
+
+
+39641857
+uiview calayer
+Pattern(s): 5	
+a uiview is not a calayer you cannot add an avplayerlayer to the storyboard
+instead after your view has loaded programmatically add your avplayer s playerlayer to the uiview s layer
+
+
+
+39723250
+runtimeexception unchecked-exception
+Pattern(s): 1	
+runtimeexception and errors are unchecked-exception quote unchecked-exception do not need to be declared in a method or constructor s throws clause .
+they propagate outside the method or constructor boundary runtimeexception are caused by bad programming and should be fixed by adequate check for null or array size etc
+
+
+
+39756996
+spaces delimiter
+Pattern(s): 5	
+note the python white spaces delimiter are not going to spaces correctly in this stackoverflow comment editor the library file or façade file containing classes methods or functions you want to import
+to import code from another file in the same directory spaces you add a reference to it
+
+
+
+39809959
+super self
+Pattern(s): 3	
+unfortunately we can t do this for constants before super is called so those we would need to set up in each method
+the reason being is that self does not fully exist yet
+
+
+

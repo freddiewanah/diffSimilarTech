@@ -1,0 +1,60 @@
+i have tried connecting the qscrollbars but the maximum of the B is smaller than the B s
+
+the issue is that once the alpha of the B is less than 1.0 i can see all the B sides and the one that gets me the most is the outline of an uiimageview can be seen that would otherwise not as it is the same colour as the B
+
+because the B is smaller it is going to crop out the larger B
+
+the issue is that once the alpha of the B is less than 1.0 i can see all the B sides and the one that gets me the most is the outline of an uiimageview can be seen that would otherwise not as it is the same colour as the B
+
+because the B is smaller it is going to crop out the larger B
+
+a B is no more than a wrapper for an underlying B
+
+i want to add a B inside an B and this B will be smaller than the B
+
+a B is no more than a wrapper for an underlying B
+
+i want to add a B inside an B and this B will be smaller than the B
+
+so what this says is that provided your B doesn t have any more values than the B used to determine ordering implementing is reasonable
+
+the general problem is that the B is more specific than the B
+
+in this case B is bigger than B that s why the second statement is correct
+
+in other words if a B is more accessible than its B then the access modifier of the B loses effect
+
+this breaks the inherited and the B is no longer an instance of the B
+
+so what this says is that provided your B doesn t have any more values than the B used to determine ordering implementing is reasonable
+
+the general problem is that the B is more specific than the B
+
+in this case B is bigger than B that s why the second statement is correct
+
+in other words if a B is more accessible than its B then the access modifier of the B loses effect
+
+this breaks the inherited and the B is no longer an instance of the B
+
+i think the problem happened because the padding left right of B is bigger than B
+
+i think the problem happened because the padding left right of B is bigger than B
+
+but the problem i am facing if text is doted inside the label it calculates B size less than B size in the below code
+
+but the problem i am facing if text is doted inside the label it calculates B size less than B size in the below code
+
+if the B is larger it will then wrap around the B to the next line
+
+if the B is larger it will then wrap around the B to the next line
+
+i don t see any form B in the code you posted so either the posted code has been modified or the B is higher in the B tree simpleformcontroller
+
+it seems like if the B is slightly larger the B is double the size whereas if the B is slightly smaller this isn t the case
+
+it seems like if the B is slightly larger the B is double the size whereas if the B is slightly smaller this isn t the case
+
+all-in all the reason is that B is able to do more things than B and can do anything B can hence the direction of inheritance
+
+all-in all the reason is that B is able to do more things than B and can do anything B can hence the direction of inheritance
+

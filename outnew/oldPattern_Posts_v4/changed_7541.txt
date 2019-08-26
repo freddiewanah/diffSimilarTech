@@ -1,0 +1,536 @@
+1001196
+datamapper	activerecord
+Changed: 
+Both use the activerecord pattern so you ll actually get your database tables back in objects without fancy domain logic but datamapper is way easier to work with and is thread-safe
+Origin: 
+both use the active record pattern so you ll actually get your database tables back in objects without fancy domain logic but datamapper is way easier to work with and is thread-safe
+
+
+1001590
+xslt	xquery
+Changed: 
+That s harder to do if you use but if you use the above your xslt or xquery could actually generate another file with the comments in the target language
+Origin: 
+That s harder to do if you use but if you use the above your xslt or xquery could actually generate another file with the comments in the target language
+
+
+1002497
+xmltype	clob
+Changed: 
+Of course if you d rather use xquery then just take the clob or bfile convert clob to an xmltype and go for clob
+Origin: 
+Of course if you d rather use xquery then just take the clob or bfile convert it to an xmltype and go for it
+
+
+1020806
+scheme	racket
+Changed: 
+The plt scheme now racket platform includes a fairly decent interpreter and compiler is good for scripting and also has some visual tools that make scheme excellent for learning
+Origin: 
+The plt scheme now racket platform includes a fairly decent interpreter and compiler is good for scripting and also has some visual tools that make it excellent for learning
+
+
+1021848
+vbscript	jscript
+Changed: 
+Interestingly you can parse json using jscript and use the resulting objects directly in vbscript
+Origin: 
+Interestingly you can parse json using jscript and use the resulting objects directly in vbscript
+
+
+1028119
+actionscript	mxml
+Changed: 
+When flex creates the swf flex looks at the mxml and creates actionscript from mxml behind the scenes
+Origin: 
+When flex creates the swf it looks at the mxml and creates actionscript from it behind the scenes
+
+
+1030163
+uiview	subviews
+Changed: 
+I would make own button by subclassing uiview or alternatively subclass a uibutton and add subviews to uibutton
+Origin: 
+I would make own button by subclassing uiview or alternatively subclass a uibutton and add subviews to it
+
+
+1041524
+prng	random
+Changed: 
+In fact performing any additional actions from a number returned by a prng doesn t really increase prng randomness and in fact the number can become less random
+Origin: 
+In fact performing any additional actions from a number returned by a prng doesn t really increase its randomness and in fact the number can become less random
+
+
+1041677
+cdr	cons
+Changed: 
+When you write cons a-list x cdr creates a new cons cell with a reference to a-list in the car and x in the cdr which is most likely not what you want
+Origin: 
+When you write cons a-list x this creates a new cons cell with a reference to a-list in the car and x in the cdr which is most likely not what you want
+
+
+1044238
+client-side	server-side
+Changed: 
+Rather client-side simply notifies the user of any errors the server-side business layer validation will find
+Origin: 
+Rather it simply notifies the user of any errors the server-side business layer validation will find
+
+
+1045426
+persistent	transient
+Changed: 
+transient is really just a case of understanding how your application will be creating an object graph and what entities are transient and which might be persistent or detached
+Origin: 
+This is really just a case of understanding how your application will be creating an object graph and what entities are transient and which might be persistent or detached
+
+
+1046088
+metaphone	soundex
+Changed: 
+You ll find metaphone vastly superior to soundex and the like
+Origin: 
+You ll find it vastly superior to soundex and the like
+
+
+1046688
+udp	tcp
+Changed: 
+Thus you could use tcp or on top of bluetooth just as you use tcp and udp udp on top of ethernet
+Origin: 
+Thus you could use tcp or udp on top of bluetooth just as you use tcp and udp on top of ethernet
+
+
+1050660
+firefox	safari
+Changed: 
+My first css style sheet for included a line like this this made the page line up perfectly in firefox firefox and safari but in ie the nav column was pushed over to the right too far
+Origin: 
+My first css style sheet for firefox included a line like this this made the page line up perfectly in firefox and safari but in ie the nav column was pushed over to the right too far
+
+
+1050778
+imagemagick	graphicsmagick
+Changed: 
+The graphicsmagick group overhauled the tiff format support with graphicsmagick version 1.2 and graphicsmagick is much faster at processing these types of images than the original imagemagick was
+Origin: 
+The graphicsmagick group overhauled the tiff format support with their version 1.2 and it is much faster at processing these types of images than the original imagemagick was
+
+
+1051753
+runtimeexception	unchecked-exception
+Changed: 
+Errors and runtimeexception are called unchecked-exception because the compiler does not enforce this requirement on runtimeexception
+Origin: 
+errors and runtimeexceptions are called unchecked exceptions because the compiler does not enforce this requirement on them
+
+
+1059272
+centos	linux
+Changed: 
+There is a process size limit on linux seem to remember on centos was around 2.5 gb and is configured in the kernel a recomple to change
+Origin: 
+There is a process size limit on linux seem to remember on centos was around 2.5gb and is configured in the kernel a recomple to change
+
+
+1071040
+django	turbogears
+Changed: 
+Web2py cherrypy and the old turbogears based on django i do not feel django as big as you say
+Origin: 
+Web2py cherrypy and the old turbogears based on it i do not feel django as big as you say
+
+
+1074273
+fgets	fgetc
+Changed: 
+Perhaps instead of fgets one should use since fgets capture through to the newline while fgetc fgetc captures a single character
+Origin: 
+Perhaps instead of fgets one should use fgetc since fgets capture through to the newline while fgetc captures a single character
+
+
+1075271
+postgresql	mysql
+Changed: 
+-- bugzilla should list all column names in the create statement in mysql postgresql sql server try running select from information _ schema.tables
+Origin: 
+-- this should list all column names in the create statement in mysql postgresql sql server try running select from information_schema.tables
+
+
+1079384
+case-sensitive	case-insensitive
+Changed: 
+If case-sensitive fails a second case-insensitive search is made
+Origin: 
+If it fails a second case-insensitive search is made
+
+
+1082394
+udp	tcp
+Changed: 
+If you re considering tcp means you are thinking in terms of a stream exactly once in order messages and using udp will put the burden of fragmentation retry and acknowledgment duplicate detection and ordering in your app
+Origin: 
+If you re considering tcp means you are thinking in terms of a stream exactly once in order messages and using udp will put the burden of fragmentation retry and acknowledgment duplicate detection and ordering in your app
+
+
+1090158
+awt	swing
+Changed: 
+There are better 3rd party native looking skins than swing s implementations btw lots of people preferred using awt s filedialog over swing s filechooser because awt gave the platform file dialog most people were used to rather than the weird custom swing one
+Origin: 
+There are better 3rd party native looking skins than swing s implementations btw lots of people preferred using awt s filedialog over swing s filechooser because it gave the platform file dialog most people were used to rather than the weird custom swing one
+
+
+1096033
+inline	inlining
+Changed: 
+People who write scheme or any other language compilers are usually much better than you in deciding when inlining is best to inline a function
+Origin: 
+People who write scheme or any other language compilers are usually much better than you in deciding when it is best to inline a function
+
+
+1099807
+udp	tcp
+Changed: 
+tcp has tcp own re-try and ordering mechanism that is hidden from your application you can re-invent that with udp to tailor tcp to your needs
+Origin: 
+Tcp has its own re-try and ordering mechanism that is hidden from your application you can re-invent that with udp to tailor it to your needs
+
+
+1099870
+udp	tcp
+Changed: 
+There are other cases where udp is preferable to tcp
+Origin: 
+There are other cases where udp is preferable to tcp
+
+
+1099870
+udp	tcp
+Changed: 
+One unique case where you would want to use udp instead of tcp is where you are tunneling tcp over another protocol tunnels virtual networks etc .
+Origin: 
+One unique case where you would want to use udp instead of tcp is where you are tunneling tcp over another protocol tunnels virtual networks etc.
+
+
+1099998
+ssl	https
+Changed: 
+The php code is available here quickbooks php framework as a side note unless you re very familiar with generating ssl certificates and sending ssl via https posts you ll save yourself a whole lot of trouble by using the desktop model of communication and not the hosted model
+Origin: 
+The php code is available here quickbooks php framework as a side note unless you re very familiar with generating ssl certificates and sending them via https posts you ll save yourself a whole lot of trouble by using the desktop model of communication and not the hosted model
+
+
+1107066
+opera	firefox	opera	safari	opera	google-chrome	firefox	safari	google-chrome	firefox	google-chrome	safari
+Changed: 
+Html 5 which is still in development has a canvas element that can be used with javascript to create the kind of thing you are looking for but only the latest versions of firefox google-chrome opera and safari support opera
+Origin: 
+html 5 which is still in development has a canvas element that can be used with javascript to create the kind of thing you are looking for but only the latest versions of firefox chrome opera and safari support it
+
+
+1107666
+runtimeexception	unchecked-exception
+Changed: 
+All other exceptions and errors including yours since unchecked-exception only subclasses exception and not runtimeexception are checked exceptions
+Origin: 
+all other exceptions and errors including yours since it only subclasses exception and not runtimeexception are checked exceptions
+
+
+1112085
+ssl	https
+Changed: 
+If you get both sides talking with http and everything breaks on https http s time to look at either the ssl session establishment or anything in between the two points that may be interrupting the flow
+Origin: 
+If you get both sides talking with http and everything breaks on https it s time to look at either the ssl session establishment or anything in between the two points that may be interrupting the flow
+
+
+1117172
+passenger	thin
+Changed: 
+passenger will allow you to use sidestep the usage of mongrel thin etc and deploy apps much like php stick thin in a folder and go
+Origin: 
+This will allow you to use sidestep the usage of mongrel thin etc and deploy apps much like php stick it in a folder and go
+
+
+1125307
+ubuntu	linux
+Changed: 
+And if you wish to move ahead and are suffering from the dogma of a simplified to more complex or geeky linux distro then read this question linux made me stick to ubuntu
+Origin: 
+And if you wish to move ahead and are suffering from the dogma of a simplified to more complex or geeky linux distro then read this question it made me stick to ubuntu
+
+
+1125353
+google-chrome	firefox
+Changed: 
+This code will run on firefox 3.5 but not on google-chrome using v8 if you change language to javascript1 .7 and omit the type google-chrome won t run with js 1.7 features in firefox 3.5
+Origin: 
+this code will run on firefox 3.5 but not on chrome using v8 if you change language to javascript1.7 and omit the type it won t run with js 1.7 features in firefox 3.5
+
+
+1131027
+base	fractions
+Changed: 
+base also allows a fractions time length by using math.pow
+Origin: 
+it also allows a fractional time length by using math.pow
+
+
+1132092
+passenger	thin
+Changed: 
+I believe heroku uses thin so i might suggest looking at passenger as opposed to mongrel
+Origin: 
+I believe heroku uses thin so i might suggest looking at that as opposed to mongrel
+
+
+1135308
+bazaar	git
+Changed: 
+I choose bazaar over git mercurial coz bazaar is notifications are very well integrated in ubuntu
+Origin: 
+I choose bazaar over git mercurial coz bazaar is notifications are very well integrated in ubuntu
+
+
+1136095
+sudo	passwd
+Changed: 
+You ll need an apropriate sudoers entry to make sudo work without sudo prompting for a passwd and don t forget to chmod 755 bin sftp _ intercept
+Origin: 
+you ll need an apropriate sudoers entry to make sudo work without it prompting for a password and don t forget to chmod 755 bin sftp_intercept
+
+
+1141096
+uilabel	nsstring
+Changed: 
+The uilabel will store a retained copy of the string when nsstring text property is set
+Origin: 
+The uilabel will store a retained copy of the string when its text property is set
+
+
+1147610
+cpython	ironpython
+Changed: 
+In python versions 2.6 or above note 2.6 has not yet been released another option is import platform platform.python _ implementation which returns cpython for the c implementation of python ironpython for ironpython and will return jython for jython jython
+Origin: 
+In python versions 2.6 or above note jython 2.6 has not yet been released another option is import platform platform.python_implementation which returns cpython for the c implementation of python ironpython for ironpython and will return jython for jython
+
+
+1147960
+division	multiplication
+Changed: 
+So for floating point you can generally assume division will take longer because division s impractical to unroll the multiplication which is already a large circuit in and of division s self into pipeline of a multitude of multiplier circuits
+Origin: 
+so for floating point you can generally assume division will take longer because it s impractical to unroll the multiplications which is already a large circuit in and of it s self into pipeline of a multitude of multiplier circuits
+
+
+1148784
+haskell	ocaml
+Changed: 
+ocaml annoys me that there are differently named combinators for 2-3 types of monad in haskell
+Origin: 
+It annoys me that there are differently named combinators for 2-3 types of monad in haskell
+
+
+1149250
+pascal	delphi
+Changed: 
+pascal s a pretty formal definition though and you can generally use delphi and object pascal interchangeably
+Origin: 
+That s a pretty formal definition though and you can generally use delphi and object pascal interchangeably
+
+
+1155775
+cvs	svn
+Changed: 
+Here s a start cvs-crossover-guide and svn for cvs users
+Origin: 
+Here s a start cvs-crossover-guide and svn for cvs users
+
+
+1156524
+equals	gethashcode
+Changed: 
+It s perfectly valid for gethashcode to have collisions but equals must not return false positives
+Origin: 
+It s perfectly valid for gethashcode to have collisions but equals must not return false positives
+
+
+1158750
+apache	nginx
+Changed: 
+Edit mimetype is replaced by content _ type for django 1.7 edit for nginx check this django uses x-accel-redirect instead of apache x-sendfile header
+Origin: 
+Edit mimetype is replaced by content_type for django 1.7 edit for nginx check this it uses x-accel-redirect instead of apache x-sendfile header
+
+
+1163578
+division	multiplication
+Changed: 
+So becomes i would have expected the division of two long values to result in a long thus removing the decimal part but resolves it division as a double leaving the exact same value after the multiplication
+Origin: 
+So becomes i would have expected the division of two long values to result in a long thus removing the decimal part but it resolves it as a double leaving the exact same value after the multiplication
+
+
+1168988
+ssl	https
+Changed: 
+Transport security using https and a valid ssl certificate works in the same way a web site does ssl doesn t require additional credentials certs from the user
+Origin: 
+Transport security using https and a valid ssl certificate works in the same way a web site does it doesn t require additional credentials certs from the user
+
+
+1169169
+lisp	scheme
+Changed: 
+Also plain assignment in common lisp is usually setf and lisp can operate on combinations too eg setf car foo 1 while in scheme lisp is set
+Origin: 
+Also plain assignment in common lisp is usually setf and it can operate on combinations too eg setf car foo 1 while in scheme it is set
+
+
+1172183
+ocaml	sml
+Changed: 
+Aside from that there is an eclipse plug-in for sml nj called ml-dev and odt for ocaml
+Origin: 
+Aside from that there is an eclipse plug-in for sml nj called ml-dev and odt for ocaml
+
+
+1179313
+ironruby	ironpython
+Changed: 
+Please visit ironruby or ironpython s websites for using ironpython in silverlight
+Origin: 
+Please visit ironruby or ironpython s websites for using them in silverlight
+
+
+1182390
+google-chrome	firefox
+Changed: 
+I don t know for google-chrome but firefox might be the same problem
+Origin: 
+i don t know for chrome but it might be the same problem
+
+
+1182548
+gif	png
+Changed: 
+That png or gif that s only 10kb might actually be much much greater in size once the browser loads png in memory
+Origin: 
+That png or gif that s only 10kb might actually be much much greater in size once the browser loads it in memory
+
+
+1182888
+opera	google-chrome
+Changed: 
+Safari google-chrome and konqueror use webkit although on 04 03 2013 google announced that google-chrome will use google-chrome own fork from webkit named blink opera 9 + uses presto although fork has announced 4 2013 that is will move over to using blink
+Origin: 
+safari google chrome and konqueror use webkit although on 04 03 2013 google announced that chrome will use its own fork from webkit named blink opera 9+ uses presto although it has announced 4 2013 that is will move over to using blink
+
+
+1184528
+postgresql	mysql
+Changed: 
+The time to make the switch is highly dependent on you application environment however if you need clustering and replication to work properly 100 of the time then postgresql will not let you down as mysql has for me in the past
+Origin: 
+the time to make the switch is highly dependent on you application environment however if you need clustering and replication to work properly 100 of the time then postgres will not let you down as mysql has for me in the past
+
+
+1193456
+boost	stl
+Changed: 
+You could implement the same without stl or boost if stl is required
+Origin: 
+You could implement the same without stl or boost if it is required
+
+
+1193670
+opera	firefox
+Changed: 
+I have to refresh while firefox works perfectly or at least reload the page the way i d expect opera to while i m debugging
+Origin: 
+I have to refresh while firefox works perfectly or at least reload the page the way i d expect it to while i m debugging
+
+
+1201337
+memcpy	memmove
+Changed: 
+This means that memmove might be very slightly slower than memcpy as memmove can not make the same assumptions
+Origin: 
+This means that memmove might be very slightly slower than memcpy as it cannot make the same assumptions
+
+
+1202486
+profiling	debugging
+Changed: 
+The use of java 1.4 is a minor issue here since 1.4 s debugging interface is not great but some profiling still support profiling
+Origin: 
+the use of java 1.4 is a minor issue here since 1.4 s debug interface is not great but some profilers still support it
+
+
+1209010
+spaces	delimiter
+Changed: 
+You can also have getline read input until getline gets a specific character eg spaces or comma with getline stream string delimiter
+Origin: 
+you can also have it read input until it gets a specific character eg space or comma with getline stream string delimiter
+
+
+1214267
+jsf	seam
+Changed: 
+If for some reason you can not use maybe you can borrow some ideas from how seam seam handles authorization and authentication in jsf
+Origin: 
+If for some reason you cannot use seam maybe you can borrow some ideas from how seam handles authorization and authentication in jsf
+
+
+1216439
+gif	png
+Changed: 
+In order to combine another image your watermark with the gif image whatever image library you re using i m guessing gd is probably converting the png to an indexed-color format which is stripping out the alpha channel when png does so
+Origin: 
+In order to combine another image your watermark with the gif image whatever image library you re using i m guessing gd is probably converting the png to an indexed-color format which is stripping out the alpha channel when it does so
+
+
+1216439
+gif	png
+Changed: 
+You probably need to find a way to convince png to convert the gif image to a non-indexed color format first then combine png with the watermark and then write png back to an indexed-color gif again
+Origin: 
+You probably need to find a way to convince it to convert the gif image to a non-indexed color format first then combine it with the watermark and then write it back to an indexed-color gif again
+
+
+1220367
+moq	typemock
+Changed: 
+Unfortunately i did not record actual numbers in my tests regarding vs typemock but the performance benefit of moq moq is signficant in my experience
+Origin: 
+Unfortunately i did not record actual numbers in my tests regarding moq vs typemock but the performance benefit of moq is signficant in my experience
+
+
+1223014
+lxml	beautifulsoup
+Changed: 
+It has a compatibility api for beautifulsoup too if you don t want to learn the lxml api
+Origin: 
+It has a compatibility api for beautifulsoup too if you don t want to learn the lxml api
+
+
+1223031
+lxml	beautifulsoup
+Changed: 
+It has a compatibility api for beautifulsoup too if you don t want to learn the lxml api
+Origin: 
+It has a compatibility api for beautifulsoup too if you don t want to learn the lxml api
+
+
+1235574
+vim	emacs
+Changed: 
+People like emacs vim cause emacs are both made for editing text
+Origin: 
+People like emacs vim cause they are both made for editing text
+
+

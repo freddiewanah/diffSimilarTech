@@ -1,0 +1,112 @@
+what happen when * is disabled in an router and when packet size greater than * how the router fragments that packet
+
+any device in the path of communication between the sender and receiver whose * is smaller than the packet will drop such packets and reply the sender with * destination unreachable datagram too big message containing the device s *
+
+one might want to define * access to more than one * server
+
+in fact with optimizations like * you might find that a tls-secured connection actually performs better than plain *
+
+as i understand websockets are on top of * and have higher latency than * that underlies webrtc when for example sending binary data between server and browser that also could be 2 peers in webrtc
+
+push log files to a central location * is faster than * the windows * command can be automated with -s scriptfile
+
+it may be that the kernel heuristics for servering * connections is more aggressive than for * sockets since * connections require more state and more continuous processing than do * sockets
+
+in some applications * is faster better throughput than *
+
+* is more popular in nat punching because provides much better results than *
+
+for example * has much more flags window-length syn ack etc - and also starts and ends a connection in a very stable way - the three way handshake - while all * has is source ip dest ip length source port dest port and checksum
+
+* is much faster then * but * has flow control and guaranteed delivery
+
+don t think of it as * is faster and * is slower because that s just wrong
+
+the problem is that * creates bigger packages of data while * uses 8 kb of data blocks
+
+tldr * ip is more reliable than * but not a 100 iron-clad guarantee that nothing will ever go wrong
+
+or is there any specific scenario where * is better than *
+
+but there are some cases especially in iot domain * is more popular than * for its bigger transport overheads
+
+moreover * has more processing overhead than *
+
+if the data is critical you should go for * which is slower as compared to * which in fact doesn t guarantee the packets will arrive in order or even if they d arrive or not
+
+does * always perform better than *
+
+* is much slower than * but when the two machines are not on the same lan * is not reliable
+
+* - more reliable than * but this comes with some overhead there is a distinct connection a better match for games which require less frequent data transmission such as turn based games as is your game
+
+* is slower assures data arrival * is faster data corruption may be possible
+
+i used iperf on two linux machines to send data using both * and * i found that * performs better than * average 65 better
+
+one can say * has a lower overhead than * because its packets have a smaller header and therefore take less bandwidth to send the payload the data
+
+* windowing is more expensive than raw * but if you use * to go faster and add a custom loss-recovery or seqno ack resend manager then that may slow you down again
+
+while * has less network overhead than * it generally relies on you the developer to come up with your own mechanisms for flow control fragmentation handling lost packets etc.
+
+we know * is better suited for this but the hardware development decided it s got to be *
+
+if i d directly say that * is faster comparatively than * that it is used for such applications
+
+but with the * protocol in particular this is easier than for *
+
+since loosing some packets doesn t matter but speed latency is crucial * is much better than *
+
+and there are no handshakings required * are pretty much faster but less reliable than *
+
+* as you know * is faster than * even if * may miss some
+
+if you can t afford lost packets then * is probably a better option than * since it provides that guarantee out of the box
+
+as such traversing a nat through * is much easier than *
+
+in general the * protocol manages the available network bandwidth better than the * protocol
+
+most importantly you can easily supplement * with some reliable delivery hand-shaking that s less overhead than *
+
+* packets are easier structured than * packets but sacrifice security for their size
+
+if you care a lot about efficiency or really need tens of thousands of connections then implementing your specific protocol in * will always be better than *
+
+try to increase timeout value * is slower than *
+
+apart from that * packets by themselves are not slower than * packets and data transfer with a simple * connection can be faster than with a simple * connection because flow control and reliable transfer is already integrated and you don t have to reinvent everything again and often worse
+
+in gaming especially fpss * tends to be the chosen protocol because it s much less chatty than *
+
+the strange thing is that when streaming is done via rtsp unicast * generates both sender reports and receiver reports but when streaming is done via * multicast only sender reports are generated
+
+it is optimized for downloading larger files where the setup overhead is amortized over the size and number of downloads http is very light-weight you can communicate to an http server using * much easier than * especially before passive * and is designed around html -- the concept that in the course of your navigation you will be visiting many different servers and grabbing only a couple of files at a time from each
+
+yes i know * is better than * but right now i m stuck with *
+
+i am working on * socket programming and i have to stop the transmission in application if requested data is more than * value
+
+when send a * datagram larger than the * size only the last fragment of the * datagram is putted out to the destination
+
+basically while sending * packets larger than * ip fragmentation can occur if it s supported on your platform but not all platforms support it
+
+note that * packets bigger than the * s at every hope between your hosts will be split by ip
+
+if you send a * datagram larger than the * it will be fragmented
+
+now if you re intending to use a remote filesystem with ofs which is the primary use-case you have to first install the relevant remote filesystem packages on the os you re using then use for example if we ve got * which is the newer name for * samba
+
+an * packet has a header that is 20 bytes and is probably going to be slightly slower than *
+
+in fact * especially the ttl excceeding message has even less limitations than * on nats for the error message can be sent from every corner of the internet and routers with nat cannot be aware that these messages are not the true ones
+
+if you are using linux check out netdiscover this uses * i think * is lower level than * udp and with java you can only create apps from * udp and above
+
+almost all * * providers allow you to forward calls from an attached did telephone number to more than one * device so your request could be satisfied by a basic account on your friendly neighbourhood * provider
+
+as last resort resolution i don t suggest this for security issues using * is always safer switch your registry to use http instead of *
+
+it could be a sni problem if you use any kind of load balancer * proxy or more than 1 * certificate on the same ip
+

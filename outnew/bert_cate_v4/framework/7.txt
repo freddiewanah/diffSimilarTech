@@ -1,0 +1,32 @@
+* makes use of bindings better than * currently does
+
+* has a higher learning curve than say * and cakephp
+
+so what makes * significantly better than *
+
+i m new to sever-side programming.some people told me that * is more suitable for beginners like me than *
+
+though * looks more mature than * web api i m still a bit confused
+
+our team use * as our frame before but now we use * as our frame because it is more light than * but we still use * template.
+
+if you are looking for the latter then * is a micro framework that is considerably smaller than *
+
+comparison between * vs * - why is * voted better than *
+
+* doesn t provide this kind of thing out of the box - it s designed to be a little more low level than *
+
+* s is better * s appadmin is for administrators only
+
+thus i suspect when people say that * is much faster than * it is because of the loading and updating delays but the actual test execution time appears to be very similar
+
+* has better support for parameterized tests than *
+
+sriwantha * is a simpler framework than *
+
+if you have a full version of visual studio 2008 rather than the express edition it integrates the inbuilt * much better than * does and cruise control also supports *
+
+as wuliwong said sinatra and * are way less complex than *
+
+sinatra and * are not automatically faster than *
+

@@ -1,0 +1,36 @@
+icomparable declares the * method which returns an integer that specifies a less than * to or greater than relationship between two objects of the same type
+
+* return a negative integer zero or a positive integer as this object is less than * to or greater than the specified object
+
+in the * method you can then write the code which will call the getters for the year month and so on until it figures out whether the current object is less than * to or greater than the object o being passed into the * method
+
+most likely hashcode will be faster unless for whatever reason calling hashcode + * once is much slower than calling * log n times
+
+when one of the strings is a prefix of another the performance of * is worse as it still needs to determine the lexicographical ordering while * won t worry any more and return false immediately
+
+and my guess as to why an element is being dropped is your * method never returns a 1 in any case so elements are always considered to be less than or * to other elements which is probably screwing with the treeset
+
+all i changed was the first * comparison to be less than instead of less than or * to
+
+with this rather than needing to implement a comparator all you need to implement is the int * class o method in the class which returns a negative integer zero or a positive integer as this object is less than * to or greater than the specified object.
+
+if this works it seems that u are still comparing the strings in your ordered list and u should now check if the return value of * is less grater * to 0
+
+is a generic type at compile time java will require that an instance provide an implementation of int * t o which from the javadoc returns a negative integer zero or a positive integer as this object is less than * to or greater than the specified object
+
+or is it * returns negative numbers 0 and positive numbers respectively indicating whether the calling object is less than * to or greater than the specified object
+
+i know that in java there is a * method that you can write in a class that will compare two variables and return a value -1 1 or 0 signifing greater than less than and * to operations
+
+the interface defines one method * that must return a negative integer zero or a positive integer if this object is less than * to or greater than the other object respectively
+
+the only significance of a * return value is if it is greater less than or * to zero
+
+* compares values and returns an int which tells if the values compare less than * or greater than
+
+according to javadoc * needs to return a negative integer zero or a positive integer as this object is less than * to or greater than the specified object
+
+* is an interface that defines that two instances of the implementing class can be seen as greater than less than or * to one another
+
+in both cases you may also have to shift one or two elements off the start end of some blocks to the end start of the previous * block again at most o n 1 2 times to maintain an invariant that no two blocks differ in size by more than 1 * for the last which is used to take up slack
+

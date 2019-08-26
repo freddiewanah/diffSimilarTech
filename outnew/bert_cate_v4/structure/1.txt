@@ -1,0 +1,44 @@
+* needs less memory than * and sometimes is even faster
+
+additionally you should reset i each time you go through * and a * makes more sense than a while * especially if you re using c99 as i can be declared within *
+
+a * is faster than a foreach *
+
+a while * is better thought of as a looping version of an if statement than akin to a *
+
+but certainly wrong syntax in the * is there better way to code it so that after * i can get
+
+as for your question a * is usually better when you want a piece of code to run a certain number of times and a while * is better when the condition for the code to keep running is more general such as having a boolean flag that is only set to true when a certain condition is met in the code block
+
+i suspect your curly braces aren t in the correct place as per scheff s comment the scope of the page variable is contained within the * and you are attempting to do more operations after * is over
+
+a while * makes more sense to me than your use of a *
+
+they are functionally identical however it can be argued that the * is less error prone because all of * functionality is right there together
+
+i did test it a while ago with the result that a * is much faster than a foreach *
+
+a * is more natural than a while * but you requested no for
+
+i m working on an app to load an amount of images from sd card using asynctask + * i ve test the app on my galaxy nexus the app working perfectly but it will crash if i use more than 33 *
+
+rewriting the while * as a * is nicer and makes it less likely to get an infinite *
+
+the class of problems you can solve with while * is strictly more powerful than those you could have solved with the strict * found in pascal
+
+the while * with decrements was approximately 1.5 times slower than the *
+
+a becomes 10 while it is still inside of the * and gets larger than 10 when the while * goes for a second run
+
+-in the same laptop but using the hpc cluster of my department with 30 workers the parfor * is much much slower than the * and than the parfor * using the local cluster with 12 workers
+
+the only browser where the while * was slower than the * was in opera
+
+i came across a situation where i need to implement a * with more than one * control variable
+
+foreach or * is somewhat slower than an equivalent while * or tail recursion the benchmark i linked to above shows a 15x performance difference with 1000+ iterations though it will likely depend on the version of scala and the version of the jre...
+
+it turns out i had a hard coded maximum index in my * which was bigger than the * i was trying to assign to
+
+when summing an * over a specific axis the dedicated * method array.sum ax may actually be slower than a *
+

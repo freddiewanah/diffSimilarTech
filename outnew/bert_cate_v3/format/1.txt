@@ -1,0 +1,46 @@
+for example if your screen is 600 pixels wide and if the * * string takes more than 600 pixels to display you will not be able to see the end of your * *
+
+you d gain compatibility and durability because * is more defined things will change less but if the * doesn t include what you need it won t help you
+
+you could use the * format which is more common than * and allows true grayscale images
+
+not only do * files have natural support for transparency they are also smaller than * files
+
+is not simple scale or crop but to be able to rotate scale and crop every single sprite and draw it in the exactly order to compose the final hight resolution image in a backbuffer then save it in * and make some copies in lower resolution as *
+
+rebuild a new * format in-memory data which is much more smaller than current * data and send the new * format data by socket to remote server
+
+however * files if stored properly are not significantly larger than * files because since windows vista * files can store *
+
+* â any bit depth any compression lossy or lossless everything including the kitchen sink â and no better than *
+
+an * file is nothing more than a text file listing * and or other format digital audio files to be interpreted by player software as a series of audio files to be played in succession
+
+if you ask if a uncompressed * which contains pcm data is better than * then yes but the question sometimes is how much this better really matters to the human ear and how much postprocessing you have to perform on that data
+
+* loads much quicker than * and can be integrated with the google maps api as a kml layer
+
+* is smaller because it s based on an colour palette of 256 colours rather than the separate rgb values for each pixel or group of pixels in jpg and *
+
+* gives you better alpha result than *
+
+it might help to reduce your * file sizes smaller oh and i believe -depth 8 can only be used for * images
+
+* is a newer format and often better than either jpeg of * - especially for screenshots
+
+for example * has better support for transparency than * or jpeg
+
+convert it to * 10-30 smaller than * on average
+
+a 8-bit * shim is smaller than the same dimension 1 pixel * and everything will still work as planned
+
+as a general rule * is never worse and often better than * because of superior compression
+
+indexed * less than 256 colors is actually always smaller than * so i use that most of the time
+
+i m not sure if this matters but the * is significantly larger than the * files
+
+icon size indexed * is often smaller than the same *
+
+in general * achieves better compression than * which is a plus for things like download size bandwidth resource usage etc
+

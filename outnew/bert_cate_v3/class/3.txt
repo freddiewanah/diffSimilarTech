@@ -1,0 +1,30 @@
+i m not sure * is still better then *
+
+* is more effective than * and * is needed anyhow but this will work also if you want to do multiples people then just for-loop it and dont forget to close
+
+* consumes lesser battery power than * or thread
+
+* is more low level than *
+
+* has smaller default internal margins than *
+
+in fact each * has even more than 1 corresponding *
+
+my problem is * is more complicated than *
+
+* is much more customizable than *
+
+* has a much simpler interface than * and takes care of reading and writing from the streams for you
+
+it s not my experience that * is any slower than * is
+
+* is newer than * if you are using swift language then you can use your own custom methods by using * or you can use alamofire
+
+i don t see any reason why * could be any faster than * in this case
+
+* is faster than *
+
+if anyone has some information on this problem i d really appreciate it - either things you did to make * faster or just confirmation that it runs slower than * so i can forget about it and just stick with *
+
+when it comes to deletion it even gets worse when saving at the end of all entity removals * is around 18 times slower than *
+

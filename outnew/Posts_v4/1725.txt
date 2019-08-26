@@ -1,0 +1,435 @@
+816676
+opera	google-chrome	opera	safari	opera	firefox	firefox	safari	google-chrome	safari
+browsers firefox 2 mac firefox 3 mac firefox 3 windows firefox 2 windows webkit nightly mac safari 3 windows safari 4 mac google-chrome latest version windows opera latest version windows opera latest version mac internet explorer 6 on the xp part of the windows machine internet explorer 8 w ie7 compatibility mode on the vista part of the windows machine e-mail clients covered apple mail thunderbird firefox rendering engine on the xp machine outlook express ie6 rendering engine outlook 2003 on the xp machine outlook 2007 on the vista machine all the popular web clients on all the browsers mentioned above live mail gmail yahoo
+mail things this setup doesn t cover i don t have mac os 10.4 i only test the latest version of opera not any earlier versions due to it s small userbase i test safari 3 and safari 4 both one on windows and one on the mac not both versions on both platforms
+
+816676
+opera	safari
+mail things this setup doesn t cover i don t have mac os 10.4 i only test the latest version of opera not any earlier versions due to it s small userbase i test safari 3 and safari 4 both one on windows and one on the mac not both versions on both platforms
+now safari 4 is still in beta anyway
+
+818854
+jruby	mri
+some gems target specific platforms mongrel there s a mri one and a jruby one
+also jruby cannot use gems that have native extensions c code unless they use the ffi which most do not - yet
+
+820351
+typemock	nmock
+typemock can do this because it utilizes the clr profiler to intercept and redirect calls
+rhinomocks nmock and moq cannot do this because these libraries are simpler
+
+820823
+punctuation	words
+if there are other characters besides spaces that you don t want to match some kinds of punctuation stick them in the construct as well of course
+aniz in organization is not a complete words -- it s a part of a words
+
+821614
+realloc	strcpy
+also dont forget you should check that realloc doesn t return null
+i take this is a code snipet consequently i guess that you are alredy including string.h strcpy is defined as in lines num_righe-1 is a char not a char so it should be strcpy lines + num_righe-1 line
+
+823338
+haskell	ocaml
+haskell s type system is ambitious and powerful but it is continually being improved which means there is some inconsistency as a result of history
+f# essentially uses the .net type system plus ml-like hindley-milner polymorphism see question what is hindley-milner . ocaml is not quite consistent on whether it thinks variants should be statically typed or dynamically typed so it provides both algebraic data types and polymorphic variants
+
+823380
+config	ini
+the zend framework contains a config parses that parses files that are written in the ini format zend_config_ini it sounds like this is what you are using
+the config file should not be located in your document root and if it is not in your document root then no re-write rules are required since no-one can access it anyway
+
+823380
+config	ini
+the config file should not be located in your document root and if it is not in your document root then no re-write rules are required since no-one can access it anyway
+the ini format is specialized to provide both the ability to have a hierarchy of configuration data keys and inheritance between configuration data sections
+
+824472
+daemons	systemd
+bugs with thread.sleep under windows if timing is crucial to your application then an inelegant but practical way to get round these bugs is to leave a daemons thread running throughout the duration of your application that simply sleeps for a large prime number of milliseconds long.max_value will do
+this way the interrupt period will be set once per invocation of your application minimising the effect on the systemd clock and setting the sleep granularity to 1ms even where the default interrupt period isn t 15ms
+
+824586
+mvp	presenter
+based on what you ve told me i would recommend that you use the passive mvp model mentioned in the article above
+my main assumptions are your dealing with an existing codebase of webforms apps you need to use thirdparty .net controls for existing functionality your working on existing apps and don t have time to re architect them any asp.net web apps you work on in the future you can incrementally apply the passive mvp and get the benefits of tdd straight away your view codebehind + aspx essentially become dumb and just perform simple tasks take information given by the presenter responds to events and provides information back to the presenter i ve used this model extensively for web forms development and i couldn t imagine not being able to unit test my model and presenter code
+
+824603
+set	bag
+this is done like this create your class like this in your mapping you specify this since you use inheritance you should definitly have a look at the different posibilities regarding inheritance-mapping in nhibernate and choose the strategy that is best suited for your situation inheritance mapping regarding set bag semantics - when you map a collection as a set you can be sure that all the entities in the mapped collection are unique
+that is nhibernate will make sure that while reconstituting an instance the collection will not contain duplicates. - when you map the collection as a bag it is possible that your collection will contain the same entity more then once when loading the object from the db
+
+825218
+opera	google-chrome	opera	firefox
+if the user has ie without javascript or is using opera then tough luck they won t get rounded corners but in the spirit of progressive enhancement this shouldn t ever be a problem
+this is what i m doing on several projects for firefox and webkit based browsers although beware google-chrome has bugs in this area use their css border-radius based styles for native rounded corners -webkit-border-radius 20px
+
+826813
+webkit	gecko
+webkit and blink-based browsers support the -webkit-user-select property
+this of course is not supported in browsers that do not use the gecko rendering engine
+
+827859
+haskell	ocaml	haskell	sml	ocaml	sml
+sml ocaml f# and haskell allow closed sealed algebraic types to be defined to strengthen static typing by conveying more specific constraints implicitly
+ocaml and f# also allow open sum types whereas sml does not and haskell requires an elaborate workaround described by oleg kiselyov
+
+829258
+vim	kate
+for editing in a shell when i cannot use vim i look immediately for pico or nano but i would not recommend them for continuous development for rapid editing they are perfect
+i love kate because it has several interesting features already cited usually found in heavier ides
+
+830428
+innodb	myisam
+unfortunately you cannot disable at least i don t know how the key-updates with an innodb table
+with a myisam table you could do something like i actually did not test if these settings would affect the query duration
+
+831653
+spaces	linefeed
+spaces characters for unused positions in the field aren t stored
+as hypoxide suggested they may not in fact be spaces edit i suspect that the last character in the field is a carriage return or linefeed character
+
+833871
+direct3d	directx
+with direct3d 10 they ve split many of the functions that were in idirect3d9 relating to for example adapters into the directx graphics infrastructure dxgi
+in other words direct3d 10 still uses com but no there isn t a counterpart of idirect3d9
+
+835052
+config	ini
+i tend to use define for environmental config since referencing a constant should be faster than calling a new function
+it s also conceptually in line with what i m doing another option is to use ini files make sure they are not in the web root and the parse_ini_file function although you should only run this once and use a singleton to access the variables after that
+
+836670
+gif	png
+lawyers are the most important people to talk to in this case. but i d still say don t store it. if necessary i d suggest storing the contract in a format from which you cannot extract the original gif
+such as taking a png file for the whole document or some other solution
+
+837564
+allocator	stl
+generally try to reduce the number of allocator that stick around
+it reduces overhead. assuming stl look at the overhead difference between std map and std unordered_map the latter may or may not be available to you at the moment
+
+838071
+g++	gcc
+you can have multiple versions of gcc on your box to select the one you want to use call it with full path instead of g++ use full path usr bin g++ on command line depends where your gcc lives
+for compiling projects it depends what system do you use i m not sure about xcode i m happy with default atm but when you use makefiles you can set gxx usr bin g++ and so on
+
+839544
+addition	modulo
+this is true but doesn t explain why a plus-like symbol is used for something that isn t addition
+the answer is that for modulo addition of 1-bit values 0+0 1+1 0 and 0+1 1+0 1
+
+842610
+interpolation	splines
+finding a local maximum of an interpolation splines is an easy enough thing
+note that you should generally use a true splines here not a pchip interpolant
+
+842984
+set	bag
+if you remove the id column but don t wipe out duplicates you end up with a bag of rows not a set
+if the application somehow doesn t prevent duplicates from getting into that bag then the bag is not in 1nf
+
+843116
+punctuation	words
+then you process one sentence at a time after removing all punctuation commas semi-colons colons and so on
+then when you re left with an array of words it becomes simpler that s it pretty simple after initial massaging of the text block which may not be as simple as you think
+
+844627
+touchesbegan	touchesmoved
+however you have to pass touchesbegan to uiscrollview because you want it to remember a base coordinate for future horizontal scrolling if you later decide it is a horizontal scrolling
+you won t be able to send touchesbegan to uiscrollview later because you cannot store the touches argument it contains objects that will be mutated before the next touchesmoved event and you cannot reproduce the old state
+
+844627
+touchesbegan	touchesmoved
+you won t be able to send touchesbegan to uiscrollview later because you cannot store the touches argument it contains objects that will be mutated before the next touchesmoved event and you cannot reproduce the old state
+so you have to pass touchesbegan to uiscrollview immediately but you will hide any further touchesmoved events from it until you decide to scroll horizontally
+
+845427
+postgresql	mysql
+the generated identification numbers will be unique. regardless of whether you use sequences like in postgresql and oracle or if you use another mechanism like auto-increment of mysql
+however sequences are most often acquired in bulks of for example 20 numbers. so with postgresql you can not determine which field was inserted first
+
+846356
+postgresql	mysql
+setting a delimiter is easier than using postgresql s dollar sign quoting when writing a stored proc
+in mysql you connect to all databases not just one at a time
+
+848997
+collabnet	svn
+if they are not important to you and you re comfortable using standard svn command line commands collabnet is a nice option
+collabnet works great but it doesn t have the visual interfaces for management that are included in visualsvn
+
+853492
+serializable	deserialization
+not too much code and you get to use the serializable techniques already tested and coded in the .net framework
+you could use the .toarray property on the list and then serialize the array - that could then be dumped to disk or network and reconstituted with a deserialization on the other end
+
+854180
+comparator	comparable
+the treeset uses the comparator try this make the comparator always return 0 and everything will be removed
+same happens if not using a comparator but implementing comparable
+
+854511
+ocaml	sml
+i am amazed you are not considering ocaml and f# given that they address so many of your concerns
+sml is way behind and f# is way ahead of all other fpls in that respect
+
+855510
+actionscript	mxml
+each mxml file is a full fledged actionscript class
+you re not including those mxml files you re actually creating properties in your main mxml class and those properties types are of the child mxml objects
+
+855685
+komodo	aptana
+komodo edit is one of the best ides i ve ever used and it has rails support although maybe not as good as aptana radrails
+if you have money to spare i d highly recommend komodo ide as it has some great extra features but if not komodo edit has everything you need
+
+855856
+uiviewcontroller	uitabbarcontroller
+look at tutorials regarding uiviewcontroller or viewcontrollers in general they will have discussion about uitabbarcontroller
+1 i m not sure if you can modify the size of the tab bar of uitabbarcontroller - i don t think that displaying just text will shrink the tab bar size for that you probably need to look at other solutions
+
+855885
+vb.net	vb6
+notice vb.net collection is not included thread 179998
+if you are using vb.net you are not using vb6 collections
+
+855885
+vb.net	vb6
+if you are using vb.net you are not using vb6 collections
+the vb.net collection is functionally equivalent to the vb6 collection but they are not the same
+
+855885
+vb.net	vb6
+the vb.net collection is functionally equivalent to the vb6 collection but they are not the same
+has a comparison of the various .net collection types with the vb6 collection including the vb.net collection
+
+856170
+mvp	presenter
+the idea behind mvp is decoupling presenter from views so that you can switch the view more easily if you need to for example supporting both web application and a desktop application but that doesn t mean you have to make it dynamic
+one suggestion i usually supply the iview as a constructor parameter to the presenter
+
+856834
+asihttprequest	cfnetwork
+asihttprequest was originally designed just for this purpose tracking post progress since in the 2.x api this isn t possible with nsurlconnection
+it will definitely be easier to integrate than rolling your own with cfnetwork and you get lots of other stuff for free progress tracking across multiple requests resuming downloads etc
+
+858183
+csc	vbc
+go to the project directory i assume .net framework is in your path if you want to compile a bunch of c# source files not in a project you d use the csc command
+vbc is vb.net compiler
+
+858549
+client-side	server-side
+if so passing id is not enough as .net does not assign the same server id as client-side id
+you need to access the clientid property of the .net control server-side to get it s real client-side id the above code shows how you would attach some javascript please don t call it java
+
+860202
+vsto	add-in
+the bottom line is that you need to use visual studio 2005 or visual studio 2008 plus visual studio tools for office vsto plus outlook 2003 of course to build an adddin for outlook
+add-in are quite complicated to write mostly because outlook has eccentricities that are not well documented
+
+860296
+client-side	server-side
+if it is i would attach the javascript handler for the client-side stuff to the button and have the handler return false to prevent postback
+when javascript is not enabled the button will perform the standard html form function of triggering a postback and that will then let you do things server-side instead
+
+860406
+apache	nginx
+if you re concerned about memory usage you should see a smaller footprint from nginx than apache and the lastest version of passenger will download compile and install nginx for you with minimal headaches
+if you are not tied to apache for something else i would also try nginx with phusion passenger
+
+863294
+debian	linux	ubuntu	linux
+it works on ubuntu debian 5 and mac os x
+on linux it will report that it cannot delete non-empty directories which is exactly the desired result
+
+864692
+prepare	execute
+using prepare statements with bind variables is much faster because it means that oracle doesn t have to parse compile sql statements again and again
+oracle stores all the execute statements together with the execution plans in a shared hash table for reuse
+
+865005
+freebsd	linux
+you can with pain handle this by running the svn connection through a bandwidth-throttled virtual router such as dummynet on freebsd
+you can also route the traffic through an http proxy such as squid that can limit bandwidth or use built-in linux iptables functions using tc for traffic control to limit bandwidth but this is often not easy to configure use
+
+869153
+multiplying	multiplication
+it doesn t need to multiplying them now because it already has the results
+it s an optimization and presumably an important one on the iphone all those multiplication operations add up when you do a million or two of them
+
+871372
+union	distinct
+if you put an order by limit after a union it gets applied to the whole union and indexes cannot be used in this case
+if id is a primary key this query will be instant but this one will not also a union all takes longer than a union distinct
+
+871443
+stateless	stateful
+you could view static methods as a bunch of simple stateless services that execute locally
+a service has a much broader meaning that includes but is not limited to being stateful
+
+871802
+boost	stl
+i m not particularly familiar with the boost libraries so there may be a more standard way to do this but i think you can do what you want with iterators and the stl transform function template
+the introduction to the ublas library documentation says its classes are designed to be compatible with the same iterator behavior that is used in the stl
+
+873374
+g++	gcc
+the easiest way to avoid undefined symbols while linking is to link with g++ not gcc
+you can still compile your .c file with gcc though
+
+873439
+.htaccess	httpd.conf
+if not make sure you specify rewriteengine on somewhere in your .htaccess
+edit just noticed you said mod_rewrite.s instead of mod_rewrite.so - hope that s a typo in your question and not in the httpd.conf file
+
+873692
+equals	gethashcode
+the equals method is intended for value equality so it s not wrong to implement it that way
+if you have a mutable object there isn t much point in overriding the gethashcode method as you can t really use it
+
+877560
+lxml	libxml2
+i just tried my app uses py2app and lxml with a similar setup on another mac without development libraries installed and it works so there must be something wrong in your system
+my guess is that py2app picks the wrong version of libxml2 i see it comes bundled with the iphone sdk for example which is probably not the version you want
+
+880612
+gtk	cairo
+gtk is huge and very useful but not at all shoes-ish
+_why has written shoes mostly on top of cairo which is what recent versions of gtk use for widget drawing also so it appears he purposely stepped back to the core of ui design and created a different framework from the ground up for a solidly different reason than one would use gtk for
+
+881185
+cvs	svn
+it seems that the tools to do those respective transitions have been more thoroughly shaken out than a direct cvs to git transition
+i ve not tried this myself but friends have reported good success converting first from cvs to svn and then from svn to git
+
+881433
+viewdidappear	viewwillappear
+the view will not appear until just before viewdidappear bool animated is called
+if you have dynamic content configure it in viewwillappear bool animated
+
+883376
+cruisecontrol	teamcity
+oh and if cruisecontrol does not support a command line runner or project types other than java you should have a look at teamcity as a replacement
+i don t know cruisecontrol since we re using teamcity but cruisecontrol should be able to perform a command line build just call make
+
+884249
+uiview	calayer
+in the case of uiview the view itself is the delegate and like you found should not be changed
+if you create your own calayer then you can use the delegate to provide contents or manually draw to the layer
+
+885424
+freebsd	linux
+on the freebsd box could give you the login name from the failed login
+on my linux machine i get the lines like the following from the frequent ssh attacks this is from sshd but i would be surprised if not rshd is not able to log something similar although it might be off by default and needs to be enabled
+
+885785
+vim	emacs
+as far as i know vim vi has always had the set nu feature to show line numbers along-side the lines themselves
+by default emacs only had line-number-mode which showed the line-number of the current line in the mode-line not the same thing
+
+887477
+implements	extends
+in the example above fooobject is an abstract class which doesn t implements the bar method
+instead of creating a private class that extends fooobject we create an instance of the abstract class and provide the implementation of the abstract method in line with the rest of the code
+
+892017
+gridview	objectdatasource
+i m not sure exactly what your question is you need to be more specific but the general flow is as follows your gridview is linked to an objectdatasource
+your objectdatasource is linked to a biz logic layer via the typename property - this is the class that will be instantiated for performing data operations
+
+893266
+textmate	jedit
+textmate - costs money people love this program but i haven t used it enough to see what all the fuss is about
+jedit - java based text editor has some nice features but the startup time isn t great due to java
+
+894539
+opera	safari	google-chrome	safari
+google-chrome and opera have this feature
+ie doesn t apple safari doesn t either
+
+900178
+listview	gridview
+in a project i was developing i was using a gridview but replaced with the listview as i wanted very specific paging requirements that couldn t be provided by the gridview
+i could have used a 3rd party gridview to provide the paging requirements but i wanted to minimise the reliance of 3rd party code
+
+900203
+passenger	thin
+sinatra doesn t have to be deployed with passenger but can easily be custom tailored to be fast
+if you use things like enterprise ruby and thin you could proxy to either nginix or lighthttpd
+
+900203
+passenger	thin
+it ll give you more control than i think passenger would
+not to mention better performance. i find passenger on dreamhost to give relatively poor performance when compared against running threads by either rack mongrel or thin
+
+900236
+hex	binary
+some will show it up as a stream of hex which probably isn t very meaningful
+you could use pl sql and perhaps utl_file to write the binary data out to a file on the server
+
+900970
+uilabel	nsstring
+when the data comes back it calls a custom delegate method on itself to update its internal uilabel objects and then calls setneedslayout
+in the case where the data needs to change inside of the cells i do not use the dequeuereusablecellwithidentifier nsstring identifier method
+
+904759
+uiview	subviews
+i made the uiview 0.01 x 0.01 big while it does not clipstobounds
+as i clicked on subviews that were drawing outside the bounds of their superview the uiview no touch events where received on these subviews
+
+906474
+.htaccess	httpd.conf
+g day as mentioned above the context for the virtualhost directive explicitly excludes its use in .htaccess files from the apache 2.2 manual server config .
+means that the directive may be used in the server configuration files httpd.conf but not within any or containers
+
+907220
+java.util.calendar	java.util.date
+also java.util.calendar is pretty slow so getmonth and getyear on date might be be usefully quicker
+while i wouldn t recommend doing so i think it s worth pointing out that although many methods on java.util.date have been deprecated they do still work
+
+908571
+firefox	safari	google-chrome	safari
+oh for animations you should look at css animations and they perform much better than any js implementations but they re only present in safari and by proxy google-chrome and firefox 3.5 -- definitely not in ie - in terms of javascript performance avoid with and getter setter like the plague and you should be fine in most modern js implementations
+this sounds more like you want to improve the dom interaction performance rather than javascript so in that vein yes document.write is bad it blocks additional loading any js executing before your pages has finished loading basically requires all other processing to stop -- modern browsers like safari and by proxy google-chrome and firefox do a degree of content preloading in order to prevents loads from blocking but subsequent style resolution etc is largely blocked
+
+908571
+firefox	safari
+this sounds more like you want to improve the dom interaction performance rather than javascript so in that vein yes document.write is bad it blocks additional loading any js executing before your pages has finished loading basically requires all other processing to stop -- modern browsers like safari and by proxy google-chrome and firefox do a degree of content preloading in order to prevents loads from blocking but subsequent style resolution etc is largely blocked
+document.createelement is in general the best solution although their are certain cases where just manipulating innerhtml on an element may be faster -- but that is not yet cross browser compatible i think innerhtml doesn t exist till firefox 3.5 and the perform characteristics are tricky
+
+908784
+strdup	malloc
+so using strdup doesn t help
+worse you don t know in advance how many words there are going to be so it is not trivial to malloc the space you need
+
+909269
+erlang	lisp
+and there are even more fields specially supported by languages that are important to understand parallelism in erlang or scala declarative templates in c++ or prolog dynamic languages javascript at at last you should always know what goes on under the hoods so you better have a look at assembler
+it is not the languages rather the paradigms you should know procedural like c pascal object-oriented like java c++ smalltalk functional like lisp ml scala if you understood one of these paradigms in one language it is easy to learn another language in the same paradigm
+
+910522
+serializable	deserialization
+this means that less storage would be needed to save the serializable object
+of course this may or may not be desirable depending on the requirements of the system -- this is just an example. at the time of deserialization the readobject method is called to perform any operations necessary to restore the state of the object back to the state at which the serialization occurred
+
+910788
+daemons	systemd
+as jimb mentions you have the daemons write a pid file
+you can tell if it s running or not by sending it a signal 0 via either the kill 2 systemd call or the kill 1 program
+
+912286
+required	placeholder
+pro dead easy works with existing show actions etc might even be faster depending on savings w parallel vs sequential requests and memory load etc cons you can t always easily save the page together with whatever-it-is iframes will break out of the host page s javascript namespace so if they required that you may need to give them their own minimalist layout
+they also won t be able to affect the surrounding page outside their iframe might be slower depending on ping time etc potential n+1 efficiency bug if you have many such modules on a page version 2 do the same thing using js calls to replace a div with a partial à la same as above except pro doesn t lock it into an iframe thus shares js context etc allows better handling of failure cases con requires js and placeholder divs
+
+912729
+inline	inlining
+next if you want to mark a function as inline there s no reason not to do it in debug builds as well
+the inline keyword has almost nothing to do with the compiler actually inlining functions
+
+912729
+inline	inlining
+and that makes it easire for the compiler to inline calls to the function
+finally inlining is not always a performance improvement
+

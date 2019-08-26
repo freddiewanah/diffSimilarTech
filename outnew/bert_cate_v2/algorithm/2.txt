@@ -1,0 +1,68 @@
+furthermore B is much slower than B
+
+is B always better than B
+
+i would say that the B is simpler for parallelizing than the B
+
+B is not better than B
+
+technically B has a better time-behavior î nlogn worst and average cases than B î n 2 worst case î nlogn average case
+
+B may use more space than B i m not entirely sure and merge may be better for linkedlists
+
+i have been testing the practicality of openmp gnu parallel sort algorithms in the c++ standard library and have found the parallel B algorithm to be significantly slower than the B algorithm
+
+this means that while the two underlying sorts it uses B and insertion sort are both worse than B for many kinds of data timsort only uses them when it is advantageous to do so
+
+an interesting answer about this can be found at why is B better than B
+
+from what i ve read i was expecting B to be faster than B but on my code it is not so i assume there must be a problem with my B algorithm
+
+use B it tends to be more compact than B
+
+a B signature generation could be somewhat faster than a B signature generation maybe up to twice faster
+
+i have made some testing and it came out that B is lot slower than B
+
+but B is assumed to be on average somewhat slower than standard B quicksort
+
+but a large period B takes up more memory for maintaining the internal state and also takes more time for generating a B number due to complex transitions and post processing
+
+B tends to be slower than B for the same reason.
+
+typically B is slower than B and quicksort but that s usually under the assumption that comparisons are fast
+
+note that the effective key size of B is larger than triple B
+
+B will indeed yield a considerably faster result than B
+
+though it s unrelated to your actual question B is generally slower than B at least in software so unless you really need to keep the key small B is almost certainly a better choice
+
+B can be even much faster than B or 3B when the cpu supports B-ni
+
+the capturing group 1 in the first pattern is B it first matches everything and takes as less as it B
+
+in short - if all we care about are comparisons B is a better choice than B
+
+average asymptotic order of B is o nlogn and it s usually more efficient than B due to smaller constants tighter loops
+
+in other words the per-comparison-overhead of B is higher than the one of B
+
+B has higher overhead than B but its worst case is o n log n vs
+
+i was just going to say radix sort however that could be a bit above what you were looking to implement introsort is generally the accepted sorting solution for data it s a variation of B that switches to B when it reaches smaller sets as it s faster on smaller sets than B
+
+in fact the B algorithm works this way first arrange a random order into heap order and then obtain a sorted order somewhat less efficient than B on average
+
+what makes B faster than B in practice is its constant that was ignored by big o analysis
+
+you can take a look at B which for non completely random data performs better than B they have the same asymptotic complexity but B has lower constants
+
+java s array .sort is from about java 6 actually B the fastest general purpose #sort out there much better than B in many situations
+
+if you re interesting in reducing the size of the resulting cookies you should consider using B rather than B to produce the signatures - B signatures are considerably smaller than B signatures of an equivalent security factor
+
+B is probably better though B was developed by google with protobufs in mind so you might want to test both on your data set.
+
+short answer B is more efficient in this case than naive application of B s
+

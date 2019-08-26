@@ -1,0 +1,14 @@
+some people were saying that * is better for security purposes whereas * is becoming more feature rich.
+
+i was told that * is a better choice than * for displaying hierarchical data so i installed * and i m ready to go
+
+the query optimizer in * is more advanced than in * and copes with complicated statements much better especially when it comes to sub-selects
+
+i would recommend * for a beginner as it has far fewer surprises than *
+
+i feel * is much more mature and robust than *
+
+* is more sql compliant than *
+
+according to the * which i gather * is based on documentation for sequence manipulation functions it should return the value most recently returned by nextval in the current session.
+

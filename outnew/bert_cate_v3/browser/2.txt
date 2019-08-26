@@ -1,0 +1,132 @@
+for comparison 0.68 usage means this outdated * release is more popular than the current and previous versions of * the penultimate version of safari on ios and ie 9 or 10
+
+also nice to know is the fact that the latest version of * and also * don t know since when but longer than * supports userscripts out of the box no need to install any add-ons
+
+i want to set my own time limit rather than use the browser s default i believe * s is much longer than * s
+
+why height in * is bigger than * of input
+
+i have been trying to do this in * webextensions but if it s easier with * i will try it that way instead.
+
+* is more forgiving or you could call it less compliant * less so
+
+in my testing * is nicer it pops-up the unresponsive alert whereas * apparently doesn t care
+
+* is stricter than * when it comes to loading data from your local filesystem
+
+* has like 40px less width than * in columns which is causing problems
+
+open up the fiddle in both * * to see what i m talking about - in * the positioning of the background image is much lower than in * safari
+
+i guess * is a bit more forgiving than *
+
+because of how * s plugin system works development mode in * is much slower than in * or safari see here for more details
+
+when i posted this on facebook someone said that since * is open source project developers optimized math.min but * didn t since * is just a modification of chromium but beside that above statement is not quite right that makes no sense because that doesn t explain the reason why * s and * s math.min a b performs in similar speed and * s math.min a b and * s performs in same speed because if * is faster than * then * s math.min a b should be much slower than * s
+
+* is more flexible in this sense than * which is why it works there
+
+* has a more advanced plugin than the * extension but both work
+
+ps i ve noticed that in * situation is better than in * but new line still starts beneath tag
+
+in * it s much better than * but still not as black as ie
+
+the performance in * is best less so in * and ie
+
+thus i think * is perhaps more right but other developers at * think otherwise
+
+this does not seem to occur in safari or ie and a similar permission error occurs sometimes in * but is reproducible more often than not in *
+
+the issue that i encountered was that * was giving me height about 300px more than the * ie
+
+btw * is less close to w3c specs than * de 42+ i d opt to start using * for your initial testing and then test it in ch to detect quirks
+
+as * s v8 is dramatically faster than * s spidermonkey at the moment these things are constantly in flux pick the forward loop as it s faster on the slower engine
+
+i think from my tests perhaps * has more strict standards than * about cookie manipulation
+
+another alternative for javascript ajax is writing a * add-on easier than * or embeding a web browser within your application
+
+that means * is more than 7x faster than * here
+
+in * the input button has more padding than in *
+
+i just found out that if you re using * you trigger antialiasing at 49px or higher however with * it s set at 257px or higher
+
+i believe the error might be how * and * handles these multiple times included jquerys and it might be that * uses the older and * newer version
+
+safari and opera work with the * setting but * and ie display the iframed page larger than * causing part of the text to be cut off
+
+even then * s fonts look thinner than in * or ie
+
+currently with the 10px top padding the cells in * look taller than in *
+
+actually your code doesn t work on * because he is less forgiving than * about errors
+
+however if thats the case does this mean * is faster in execution than *
+
+is this due to * being more strict than *
+
+when i ran the test individually with a timer * actually performed better than * hope this helps
+
+it s not the first time that the plugin for * works better for me than the one for *
+
+is it because * has much better javascript support than *
+
+of late * has had much better performance than *
+
+and of course the results - if they are reproducible - might suggest that * is faster than * or that * just prioritises timeouts over dom events
+
+for example if you have a text size of 15px well * makes a larger 15px than * does
+
+i had a hiccup in * but found a fix after figuring out * is a bit more picky than * when defining svg attributes
+
+also it does appear that * consistently handles this better than ie or *
+
+on * it s significantly faster to do this using 1 0 but on * it s slightly faster to do this using bool
+
+do you have any idea why * loads javascript function much slower than *
+
+font-face bold in * is bolder than in *
+
+* is extremely slow for your code path but grep seems to be 50 faster than array.filter here making it 900 slower than the * run
+
+my menu links seem in * correctly but in * my menu links are 1 px smaller than *
+
+my guess is * is caching more agressively and thats why you are seeing worse load time on *
+
+so why is * less efficient than * and ie
+
+i m seeing a strange issue on windows in * the framerate is almost 2 times lower than in * on mac * and * have similar framerates
+
+evidently * debugger firebug is better than * debugger
+
+svg performance in * is slower than in webkit * and ie10
+
+for my website i noticed that tooltip delay in * was much higher than in *
+
+i have tried * and it better than * crash issue is not always happen but not solved this issue
+
+it depends on the browser its definitely true for ie and * but seems slower on *
+
+i guess firefox and * handle huge numbers of elements better than *
+
+i also have .js files being redirected to javascript engines as well for main.js in * it tries main.v8.js in * main.nitro.js in firefox main.gecko.js
+
+in * the background of my menu navigation drop-down menu s is much wider than in * firefox
+
+so if something works on * it s more likely to work straightaway on * more than it is on firefox - but that s just a family resemblance at the end of the day you ll still have to test each as every webkit browser product and version still uses a different version of webkit
+
+* will display fonts without a specified size significantly smaller than in *
+
+on * everything is slower than on * still the object property access is more than two times faster
+
+i saw that the discrepancy was because in * the text element is taller than in * and includes a slight amount of whitespace on top that doesn t show up in * in * the top of the text element is exactly when the text starts
+
+small in * is smaller then small in * so never ever use them
+
+it works great in google-chrome and * haven t tested ie but i m sure it s somehow worse than *
+
+in ie and * fullscreen_block appears closer to the bottom than in * and google-chrome
+

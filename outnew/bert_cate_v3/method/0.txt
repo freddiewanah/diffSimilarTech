@@ -1,0 +1,202 @@
+i can make this happen with the minimal project where * does nothing more than call super and *
+
+using * canvas is much faster than using *
+
+right now * is much slower than * as you can see here
+
+i have seen that the * function is really faster than the *
+
+the only problem that as far as i know using * is slower than using * and it was required in old browser versions like firefox 2 or such
+
+* seems to be much faster than *
+
+that beeing said * is much slower than * at least when i tested them earlier this year
+
+using the clipping version of * will be faster than *
+
+is * ... more performant than * ...
+
+it seems that * has bigger priority than * which could be delayed
+
+* would be the better way than *
+
+using * for such purposes is better idea than * as you don t have to clear them and they won t get crowded - if your fight takes longer than period then this won t run into next fight
+
+also in my experience at least * offers a much more aesthetic experience than * or requestanimationframe
+
+i think using * is safer than *
+
+but * would be better than * because with * if your previous ajax request is not complete and you start another request there will have multiple requests which would sooner be problematic
+
+using * is considered better than * because of the screwy ways that js s event loop works
+
+as for me * is simpler than * in this case as you won t need to clearinterval in the end of the array
+
+* is less commonly used than *
+
+more detail set the amount of time the animation will take for * and use a delay for the * animation that is longer than the * animation time
+
+if we put our filter in between these calls either in * or * * is more efficient as it is called only when filters change we modify original filtered list with our filter and return it back through the *
+
+* is also more secure than * because you aren t sticking
+
+ajax calls using * are more performant than * according to yahoo
+
+but using * instead of * presumably adds one more level of protection for xsrf types of attack it does not you need some form of explicit xsrf protection token with * or with *
+
+* is more appropiate for idempotent queries while * is more appropiate for action queries but you can shoot yourself in the foot just as easily with any of them if you don t understand the security architecture for the application you re maintaining
+
+*s have a size restrictions * do not or at least it s a configurable setting on the server and has a larger higher end than a * request would
+
+you can t * a patent any more because with this * i will claim prior art -
+
+you ll hit problems with larger submissions and file-uploads as the size limit for a * is much smaller than a *
+
+* is more performant as it is idempotent and does not contain a message body where as * does
+
+i try it and i * all the categories and not just the ones with more than 1 * in them
+
+for example on the blog page of my current project i have two wid*s in the sidebar one for latest tweets and one for latest music news however as you can see on this page the content of the blog * all test *s... are much longer than the height of the two wid*s and would of course * larger as more * are added
+
+instead i m using * which isn t exactly bullet proof but still a better choice than * in this case
+
+last to address other answers while you should use * data when modifying something it is in no way more secure than *
+
+regarding your question about safety -- the answer is * is absolutely no safer than *
+
+another reason but rather a minor one is that * is easier to exploit that * as there are more ways to trigger * request than to trigger * request
+
+a * has broader application and is generally used to send persistent data to a server in fact prescriptively * should not be used for this purpose
+
+please always try to use * method for submitting data as it is more secure than * method
+
+generally when passing lots of data to the server to be processed or stored using * is a good idea since * has a lower limit than that of *
+
+other than that accepting a * request might be - depending on the server side rest framework - slightly more light weight than * requests
+
+using * over https is better than using * and http
+
+first of all if your instagram client is in sandbox mode then you can t * more than 20 * more clearly last 20 *
+
+why everybody here is saying * is more secure than * when used over https
+
+* method is not safer than * data never trust datas coming from the client side
+
+first off * is no less secure than *
+
+have a look at this * it is probably easier to * the selected radio button by changing your itemscontrol to use a listbox with the existing datatemplate
+
+using * data is more secure than * because with * the details would be in the query string portion of the url
+
+as suggested in the comments since you are saving data * is more appropriate than *
+
+in my opinion the second way to achieve this is better because using * is not thats ecure in my opinion.it s easier than using *
+
+additional options are to show this via a timeout so it s only shown when the * takes more than a short time and to use some form of fadein not sure if possible with a dialog then you don t * the annoying flash on the times it s very quick
+
+* and head being much more frequent than *
+
+however it isn t clear how much the value can be for the standard tumblr api you can t * more than 50 * at a time
+
+i * far more than 50 *
+
+i normally use something like this tag.object.annotate num_* count * .filter num_*__gt 2 to * tags with more than 2 *
+
+* is a little more complex than * though
+
+as powelljf3 said * is more secure then * though it can still be gotten to
+
+firstly * can seem more secure than *
+
+i d question whether * is the right verb here considering you need to pass a complex type it sounds like it would be better served as a *
+
+* would obviously allow for a user to change the value a lot easier than *
+
+curl commands seem to work as do some other * commands from older code but when i log out req.body all i * is
+
+* data isn t inherently more secure than * data
+
+for example * request are considered more secure than * request as creating a * request is relatively harder than creating a * request
+
+when i want to * more than 54 * i receive this error
+
+so if your * request is longer than 255 bytes it s advised to use * requests instead
+
+using * allows for more data to be transferred since * will append the values to the url itself
+
+* request are safer than * but that does not mean are invulnerable
+
+param should be params and therefore your data is not being serialized which would explain why the server is rejecting your * since * requires more privileges than * presumably
+
+it is just an example that shows a scenario in which * is more secure than * but i don t think it would be a good idea to choose * over * from this attack reason
+
+also you can determine if someone is submitting a form or *ting the form by checking if _server request_method * which is cleaner than using a * url parameter though i guess there s nothing wrong with the other approach...
+
+* gives you more options and dosn t have a limit on parameter query string length like * the only negative is * is slower by a couple of milliseconds to create the request
+
+* method are generally consume more secure than * because when we use * method than it can display the data in url bar.if the data is more sensitive data like password then it can be inggeris
+
+in effect * is no more secure than *
+
+sorry that this * is more of the and for further information... type than a direct answer which i think has now been given-- i just thought it was helpful not to * things lost inside comments
+
+this response thus assumes that a request using the * verb would not use the uri to transfer sensitive information or it would be no better than *
+
+* has a lot more advantages than *
+
+the plugin defaults to requiring a * request to logout but using the config setting you reference you can make your application more convenient to use but less secure by allowing * or * requests
+
+using * prevents this particular attack but is this actually any more secure than using *
+
+here s the solution for * variables as well which is probably trickier for more users than the * solution
+
+* request is a little safer than * because the parameters are not stored in browser history or in web server logs
+
+supply more data upon * and receive less data upon *
+
+i have been trying * data out of new reddit * but theres limitation where you cant * data from more than 100 *
+
+* has more capacity it can transfer more data than *
+
+not able to * more than 100 * in single rest api call for the linkedin company updates
+
+* is slightly faster because the values are sent in the header unlike the * the values are sent in the request body in the format that the content type specifies
+
+* is always faster than *
+
+and apart from common misleading information where * is safer than * it is not
+
+if the * has more than 9 pictures related to it i only * data from the first 9
+
+some people say * can be less safe than * -- but to the seasoned user this doesn t make any significant difference because they can intercept and modify headers of the request
+
+this means the amount of data you could pass by using * verb is much more than by using a query string and a * method
+
+while users can manipulate * it s far easier to manipulate *
+
+* is faster than *
+
+* requests can be much larger than * requests as * requests are limited by the maximum length of a url
+
+the problem i have noticed is that sometimes the jquery * result is retrieved earlier than the load of the .js file has been completed so i * an error and of course the jquery plugin doesn t work
+
+also a * request would be better than a * if you re sending json
+
+on the php docs link above they say a * request is much simpler than a * request when uploading file along with this advantage what other advantages disadvanatges do the * has got compared to the *
+
+i m very sorry for the long question but i thought instead of dividing the question into several * it is more convenient if they are * into one place
+
+if noop a * may make more sense than a * which would imply creating a second connection
+
+typically you would not allow a http client to determine the uri of a new resource so a * to blog would be safer than a * to blog article-uri although http does cater for appropriate responses should the server be unable to honour the intended uri
+
+however i ve seen that object s * is much faster than *
+
+from an interface design standpoint you want user-agents to make post and * and delete more difficult than * or at least distinctly different so that users can rely on that difference to hint when their actions might cause a change in the resource state because they are responsible for those changes
+
+this should be producing a topological sort but so far i consistently * one value less than i * in as far as number of vertices and none of the number match those i ve in*ted
+
+now don t * me wrong regenerating the session id on login or more accurately as oswap * it on privilege level change is indeed a very good defense against session fixation
+
+not sure about the overhead of calling * a few million times but comparing two ints is probably going to be a lot quicker than the * object method
+

@@ -1,0 +1,38 @@
+web2py may be young but the mailing list has 2000 messages month which is similar to * and far more than *
+
+compare the very active * tag on stack overflow with that of pylons or * though and i d argue getting started is simply easier with * irrespective of anything to do with code
+
+i think your code has no problem except that * has deprecated legacy promise methods success and error of http after version 1.4.4 you should use standard then method instead if your * depends on higher * version
+
+considering the lack of windows 8 love that * is getting support being dropped apps won t be sellable on the app store -- i d go with * -- it s better than * anyway -- the only down side is that you can t make xbox apps with it
+
+in case if you have flexibility to choose another testing framework you can try with * which has bigger feature set than *
+
+if there is a * extension or similar framework that provides a better solution than * then please let me know
+
+* certainly is far better than using plain * refer the link posted by damo a couple of answers above
+
+but if the use of mongodb is a must then i suggest that you reconsider using * in the first place because mongodb has a better integration with * through mongoengine
+
+1 split those tests to unit and acceptance and use a tool like * to help you do acceptance which is way more elegant than * for this kind of test
+
+subjective * provides much nicer code coverage reports than *
+
+* middleware is much simpler and less hacky than * middleware due to the way middleware flows in a stack-like manner
+
+variety of supporting widgets is probably the single area in which * is still stronger than *
+
+the good news is that * content types are more lightweight than * content types and doing raw listing by iterating over folder.contentitems in your template should not be that expensive
+
+even though * has better capabilities i prefer * due to *s complexity overhead and lack of ui for control api
+
+performance i did some test with simple game similar to swing copters and found that game created with * consumes 15-20 more ram on ios device that the same game created with * but then i used apportable to run * game on my android device and found it almost not playable
+
+the * cms is a great php framework better than * the most popular at the moment but its documenation lacking
+
+various people told me to go with * since it s better than * apparently i have no idea and it also has very good support in resharper which i m using
+
+i m in the hate it part so anything i said is biased plus in our test prototypes developing in * was faster than *
+
+but on the other hand although new the * package is actually more complete imo than *
+

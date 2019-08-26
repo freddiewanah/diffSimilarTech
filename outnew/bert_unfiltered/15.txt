@@ -1,0 +1,305 @@
+use B gui B gui since B powerful flexible B
+1 B range smaller B pow 2 100 fails
+B seen general type B
+B range greater B type
+B part 2 B part 3
+B input button padding B
+B even slower B
+always assumed B efficient B storing value - considering existence
+device path communication sender receiver whose B smaller packet drop packets reply sender B destination unreachable datagram big message containing device B
+using apaches B faster since accessing B adds small overheadâ apache checks every directoryâ parent directoryâ file loaded every request
+use B quite better B
+B consistently recursive calls B
+looked B better B
+B usually faster B easier tight implementation operations go faster
+keep track cmd length ought variable copy string B slightly faster B neither check string length copy extra zero end string
+performance difference B usually efficient B must scan data copies
+curious know detecting visitor browser B script reliable B script
+value B 3 seconds beyond current time time B still B time show hint
+seems slower B significantly faster B
+use B sha512 gain significant advantage phpass algorithm mainly sha512 harder algorithm computation B
+would tool like B better suited B
+B overhead since use tcp connection access versus function call B xcache shared objects
+B feature B easly use optimize depends needs
+prefer B find easier B
+consider using B ga added-value iframe security easier integration B apis raw iframes - see
+B makes easier maintain groups machines without manually update one using B
+function B better make habit prefer one B
+also look B better using B error checking
+also use B obviously better B
+data structures start 4 byte word alignment Bs 4 byte buses B far efficient moving data around memory ram B
+B loaded enough thread works fine B free rich quickly B limitation 50 finally pool terminates needs recycled
+point cache store data B using quite regularly speed transfer time since B cache physically closer B ram
+general used single B single core machine sufficient assuming int size smaller B word like 32bit int 32bit B
+B developed tested generally since B came later rf
+know B powerful B
+data memory - faster since B io extremely slower B sorting reading multiple expected slower manipulating data memory
+basically B expensive B storage
+however aware cache pixels B several orders magnitude slower using B
+one B read - since B slower B -
+buy memory afford B alway faster io B
+B files course order magnitude slower B thrashing virtual memory system could actually worse depending access patterns
+anyway huge performance loss due B slower B
+particular jboss runs 4gb B 2 cpu enough B space never 5gb free time
+B io slower B
+B faster B io
+accessing main memory B faster reading values hard B
+first load involves reading alot hard B slow even ssd slower B subsequent loads faster though 3 seconds ssd seem odd
+writes sequential B datasets larger B random reads quickly become bottle neck
+future lists may read B larger available B
+B 1000s slower B memory usage increases machine grinds closer halt
+becuase reading B usually faster kind memory storage divice os copy progB B B start executing progB
+latter likely cause trouble insertion name hits random node tree i.e name insertion follow pattern B smaller index chances high destination must fetched B
+reloading pages data progB B slower usually happen often long progB actually running long machine desperately low B
+since B bit complete B comes features could define separate issues custom field tasks
+normal takes 2 comparison half height tree B merge two total running time better B 2 part
+noticed content extraction faster B searching words using regex content extracted B takes longer time B
+depending context B may fast faster B may four slower
+first set B greater B
+note holds long condition B always greater B maintained
+unless screen B 580px B 930px
+uses B never 1 B stack
+push files central location B faster B windows B command automated -s scriptfile
+B expressive B pattern matching simpler means simpler definition compiler etc. still need cost writing
+however B gauge1 always bigger one.i want use B application work different sizes screen
+may interested looking B keyword think better B keyword make use
+edit basile starynkevitch mentions B better B job gives ending character
+B seems gaining popularity B seem B
+B slightly complicated everybody compiles would need B autoconf installed need change build system adding new files counts changing build system
+processors B B slower B int standard requires operations B types wrap
+B older common B
+like matzi suggested B gives lower latency lower packet overhead header smaller B downside delivery packet destination never guaranteed ie
+notice B header fields B header fields populated information handshake
+also sending receiving data B simpler B require connections
+research found B may suitable B hole punching works better B hole punching
+B often lower density B pixels
+also B faster B B faster division
+answer real B slower B give authoritative answer
+first normal B slower 7x slower B usage
+B newer B older
+note however high traffic websites modify joomla core also switch tables B B regardless might think B faster B
+B almost 4 time faster B acceptable environment working mentioned earlier every second worth dollers us
+possible config B engine efficient searches B set
+find B slower inserts updates bear mind offers better level durability - tune approximately durability B see good performance hopefully
+using throw new B e simpler comprehend throwables.propagate want throw B wrapping checked exception
+B often recommended even broken B 2 find pretty good actually
+- move towards static content go fastcgi B faster B
+first relative complexity expressions B would definitely better B
+course uiscrollview one content view B one B difficult render layer
+using embed - B new view bit bigger B
+mean view controller multiple B B one B
+original response first program trying prB float pass B B smaller B
+B 1 B use else see simplification
+value sizeof B sizeof B
+raw storage array assuming 4 byte B 60mb since B B ascii 1 byte B 4 B going larger binary storage hence 130mb file
+5 B represents bigger domain B
+unsigned B smaller B means fscanf overrides destroys memory
+B 3 field also uses storage B
+B usually bigger B suitable calculations suitable byte-level manipulation
+32-bit 64-bit microprocessors data alignment bulk data access B accesses frequently faster B accesses long long 64 bit may faster still systems
+smaller types involved expression larger types example B smaller short mostly smaller B may smaller long involved types promoted larger tyoes
+found B reliable B loadui
+enhanced er modelling B inheriting 1 B called multiple inherited
+addressing issue #2 B phone smaller B 600dp use layout res layout folder
+routine initiate per second - B usually useful B
+keep mind using B efficient using B require comparing schedules alarm occur particular time B use processor cycles schedule check compare
+B better B
+mostly B bit slower compared B difference almost negligible coffeescript node.js
+also think B class idiomatic days hand rolling B
+assume Btop solved since setting B top -820 order get point top 275 therefore screens smaller 1200px B div go higher...
+say B actually evolved B
+class problems solve B strictly powerful could solved strict B found pascal
+max_size must big enough B slower lapply want little B possible big extension overhead make program slower
+know B better B
+B trickier stack store nodes visit nodes process always simply related like B
+note equivalent 10 faster since B around 10 slower B
+big surprise B better B
+also say token ctx.request.get authorization B based think like req.header authorization B routes
+B value lower B want update model value
+first one solved using B +ssh comparable format B uses protocol well
+would explain B click slower B touch device happens soon touch element monitored
+B technote details signals part signal matter B application server
+B makes easier afford B application developer rational application developer eclipse flavour use eclipse
+new audio unity despite reading unity posts regarding audio adding 2 short .B clips heard B smaller B added 200mb
+operations done floating point unit fpu level even world integral alus B circuit far busier place B circuit
+used B operations B typically faster B
+B slower B due
+B expensive B
+according author integer B 40 faster integer B
+previously sent commands via B connection fails often useful slower B
+addition B furhter complicated generally separate documentation manuals 32 bit B processors familiar enough arm comment
+B generally faster using B grouping
+however ulkit making B larger B
+B faster B 2.3 malloc.
+B higher level qhttp B abstracted away sockets connection state
+however using B offers protection rainbow tables precalculated B tables still worth using
+prepending B also powerful directly setting seed values addition changing internal state B B multiple digest size also perturb alignment input fed B function
+situation storing password B B secure storing credentials encrypted attacker would getting password back even manages get hands B B
+B specific B B functions B
+yes understand B lighter rather B anyway situations need B instead B approach need cast B B
+pattern also use make B slightly shorter B buttons bottom add delete
+B v3 vs B 7.0 using production environment know use B application server B features stability B
+B also happens better B writing logfiles interestingly
+B use select instead epoll compile --with-select_module bet still efficient B
+think whoever said B better B using passwords meant passwords would part url B request would obviously bad
+full version visual studio 2008 rather express edition integrates inbuilt B better B cruise control also supports B
+B significantly powerful robust B experienced opinion
+one things makes B better B support proper css-like class selection even supports full css selectors want use
+B uses older capable version B platform videoplayer
+classifying multi-paragraph text one functional B bag B pruning hapaxes quickly approximate might well serve perfectly could work better B
+one would fill B lesser global B use argsort -
+B models higher throughput B models
+looking various blogs understand glassfish B 4.1 older jackson 2.4 method need B jakcson B 2.8
+may help confused B hdf5 familiar B like
+outer B still runs 9 pushing temp already set number onto numbers B
+note one matrix division large B takes longer B
+longer B gets iterations B need
+use for-each loops go range fast using variant B keeps things simple offers better speed B
+structure similar twice space-efficient B efficient B compresses prefixes
+B function read single char simpler using B
+traditional crossover work well instance tried ordered crossover B created generally worse B
+one B fewer two B tree binary
+second Bing function B supports variants B support B
+B spacing decent B mode feel like graphs bigger take space B mode simply possible tab bar navigation bar
+outlet viewgraph subclass uiview drew graphics.in B mode size viewgraph larger B mode
+see bottom two photos B rotated narrower B ones top
+trying make row 4 images height size already tried play around width height using css nothing seems work B images always end taller B ones
+amount spacing right uiview B mode greater want B mode distance bottom want B mode
+currently using B orientation devices B orientation looks better phones meanwhile B orientation looks better tablets
+B height smaller B need value smaller 1.0
+thing get activity still B rectangle smaller B dimensions camera becomes weird image rotated 90 degrees moves move phone left moving phone right
+plenty use delimiter require start new segment B x B away last point. furthermore things often wind multi-gb ascii files reading entire thing memory impractical
+update linux gentoo amd64 - B reneders slightly larger fonts B nothing looks odd
+know want total B object B + padding + B + border columns B container
+first one B auto better know B container want centre content container
+means float next one another unless set B combined B + B + border + padding blocks equal B container
+try align B B B higher B
+api 18 earlier margin applied alignment margin B greater 0 get B moved
+tried constraints spacing B xdp B higher B B higher B overlap
+imade doesnt display image B 981pz B 477pz
+480px seemed good devices 480px B 480px B
+see fiddle - added B greater B completeness
+ensured B value B always
+turns œportraitâ really means B greater B œlandscapeâ means B greater B
+need simply append w end div id screen B greater B h B greater
+check see window B greater B order determine user holding device landscape portrait mode translate data accelerometer provides based
+first check maxsizex greater B maxsizey greater B
+B B scale B ratio B B leave B 4 units -2 +2
+test window.orientation property supported checks window B greater window B
+shrink B image B gets wider shrink B image gets shorter
+image B higher B need set new B let browser trick new B
+change B smaller B make horizontal rectangles
+understand need footer left side sidebar content B smaller full B bellow sidebar content higher
+B greater B image safely assume taken landscape mode
+image B greater B want switch B crop else keep B crop
+every image load call function image resize B B bigger max B max B
+trying set B image 150px image B larger B image B larger B B image changes 150px
+image placed correct B B could bigger smaller B constraints
+separate x axis distance comparison distance smaller B x distance smaller B collision
+like media queries someone mac big monitor browser window sized tall B greater B would see header footer
+enter multiwindow mode window longer fits screen - B greater B considered landscape
+one B bigger B one B bigger B
+versa B greater B
+works fine image square B B
+taking second example B greater B shrunk window horizontally 25px 350 - 325 beyond point image starts shrink
+5- delete contours B B delete small contours large ones rectangle contours
+image inside B smaller B add class portrait
+B greater 200 need calculate new B
+make narrow B bigger desired one keep increasing B
+B B 16 9 aspect ratio still scaled appropriately missing top bottom part see-able view
+essentially trying state class cboxphoto run function detecting B B add class relative image B greater B
+B greater equals 42.0 B greater equals 21.0
+B greater B orientation landscape
+breaks views B comparatively larger B
+B slightly tricky work need parent overlay div known B
+videos recorded vertically B B transcoded generated shrink vertically
+B second image greater B
+B gets smaller B get larger accordingly display whole content
+tell opengl draw square appear rectangle screen instead x axis edges larger axis edges screen B wider screen B suggested image
+pages landscape B bigger B
+ring shape cropped B imageview becomes bigger B
+content B B screen B B scroll appear content got container B B scroll come
+therefore get browser bigger B gets bigger well B
+working image sizes need regular expression returns sizes images B greater B
+since B image larger B need basically reverse three lines
+likewise change img #clock defined B instead defined B clock scale properly viewport B greater B
+static means always aswell respectively 5.1785714285714 2.55625 B ratio always higher B ratio
+media screen B greater B
+screen B bigger B makes image looks expanded B like
+fully work desktops pretty resize browser orientation change provided B bigger B resizing round
+dragging jerky like B B stage must 256 B 1050 B 293
+wondering get B B image rendering react style process flip portrait mode B larger B
+B smaller B physically
+B longer B screen portrait mode otherwise landscape
+otherwise B image id greater B
+trying rotate images whose B B left-top corner 90 degrees
+requested B B window larger B B screen desktop function shrinks values screen sizes
+B higher value B browser orientation portrait
+first notification image displayed firebase database B larger B also B exceeds maximum image B notification iâ specifically image compressed vertically aspect ratio incorrect
+image B larger B scaletypes fitstart fitend fitcenter work
+need apply condition image B bigger equal smaller B trouble try compare variables
+landscape even though B given longer B
+managing content via B better approach really need know B
+chrome however stops displaying B becomes larger 8130 pixels B constant - 834 px
+B B resize B
+B bigger B switch style max-B 100 B auto
+else B longer B set B 500px B auto
+since B B calculated visible viewport soft keyboard apparently causes orientation flip viewport B B
+would like resize image image B greater image B versa
+since B smaller B trick
+draw test rectangles B B otherwise window remain clear
+labels aspect ratio B 3.5 larger B trying find contours minarearect aspect ratio
+find B B
+get confused use B B B larger B going blow
+set page format B smaller B treating a4 paper feed bottom paper
+already see dimensions captured image B smaller B whereas uiimageview B larger B - proportions different
+experiencing use grab portrait photo properties loading B significantly lower B bigger
+flex auto attribute value calculates minimum B B item B B content guaranteeing item rendered large enough hold content
+version gives fixed 500px B image looses aspect ratio viewport smaller image B
+seen similar asked answers seemed assume container B would greater B - guaranteed
+therefore console window B B larger buffer B B argumentoutofrangeexception thrown .net argumentoutofbounds exception type
+image B bigger B want B croppingarea automatically scale B
+would like avoid top bottom padding uiimageview images B greater B
+also B smaller start flashing higher B
+landscape B screen greater B
+image B bigger B
+updated query select images whose B greater B select landscape image
+B larger B math
+check B greater B rotate screen
+additionaly would like detect printed B greater printed B change landscape printing
+gallery different image sizes custom layout gallery working correctly image B les B image B B working correctly
+vh portrait orientation since portrait viewport B higher B
+printer sees feeds portrait rotation report viewer prints landscape B greater B
+example image B larger image B smartphone image use 100 B screen proportion B image
+update 1 upon testing occurs desktop resolution B 942 pixels B irrelevant
+means viewport B 970 viewport B 0 serve banner size 300x250
+images different folders different physical pixel sizes B smaller images B images pixel densities used
+use iphones ipads B literally even B like B disguise... quite portion users suffering issue
+far better use surrogate yes join B often faster join delete staments databases use slower subquery especially since names tend longer B
+set div border-radius circle B B color circle
+B idx lower element B idx higher
+friend told begin B simpler help start learning B B complicated B
+nobody ever accused git easy-to-use B example although hear coming might better B beanstalk
+B greater B iframe
+perhaps find since target B size smaller B
+confirm events landing table2 B created_at table1 B created_at table2 delete firehose1
+B shorter B characters text file
+make query tuples v1 v2 selected B review v2 strictly B review v1
+need B B B greater B serves purpose condition work fine
+5 dates B position 4 B position
+right side B side greater equal B side print print false
+facing text doted inside label calculates B size B size
+convert B 10-30 smaller B average
+B model works better B model follow
+B makes easier create B window customized contents
+small B smaller small B never ever use
+resize window widget B bigger window want resize make smaller B recalculate positions
+also different types trees -- going assume using normal old tree number B one B one root node
+suppose start adding h2 B h2 start checking whether child B swap
+min heap insert element nodes tree data structure follow heap condition min heap value B B shift
+B becomes smaller total width B numbers 1 2 3 4 dictate B shrink stay within new B width
+left B B node
+opacity B container #contentborder div set 1 B inherit cannot higher B
+index B always greater B shown vector
+B div height larger B height
+B one B

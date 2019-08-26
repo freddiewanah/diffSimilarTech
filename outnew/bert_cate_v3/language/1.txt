@@ -1,0 +1,58 @@
+im new to * but i like it more than * as it looks a bit like java does to me from syntax wise compared to *
+
+* print is more readable compared to *
+
+we ve seen that * uses a more static method dispatch than * which unless a class dervices from foundation nsobject prevents the style of swizzling based on remapping method implementations at runtime
+
+* is much more free and easy with types and compilation checks where * isn t
+
+so i ve started learning * because it looks way better than *
+
+if you get a difference between * and * it s more because * is probably better on optimisation
+
+better if you have a code * is better but is not problem *
+
+adding lightweight generics to your * api makes it easier to interface with * because your api gets translated more precisely
+
+writing * 2.0 in my professional work my personal opinion is that it s indeed ready for enterprise applications -- maybe even more than * ever were
+
+on the other hand * is easier to learn especially if you have * background so it can be adopted during the time slowly and paralelly with using *
+
+while i think the move to * is prudent but i think it overstates the case to argue that * is significantly more secure that *
+
+those attributes let you create * code which is more understandable by * and complier warn you when you break the rule for example
+
+* is stricter about runtime type correctness than * so duck typing alone is not enough
+
+apple seems to claim that the optional type in * is safer than nil in * but i don t understand why this is so
+
+as dimitre says * is much better at this class of problem than *
+
+all of * s languages can interoperate so your language of choice is up to you though the rnrs languages tend to go unused in the * community #lang * is much more useful for writing programs than any of the * implementations but they can be useful if you want to write programs that run on different * implementations
+
+i can see that my skeleton * module is slightly larger than my * module 66kb vs
+
+what s the deal i thought * would be nicer than *
+
+* does not provide an alternative and any alternative that was provided would likely be less reliable as * does not have the resources that sun oracle ibm etc
+
+* is also a good language for that purpose and it is simpler smaller than *
+
+my impression common * is more for getting stuff done * is more for education and fun
+
+i am not sure it can satisfy you but * test is 4 times slower than *
+
+when writing code in * as i am wont to do as i have never been a fan of asp.net and * is infinitely more elegant than * you can call upon the arguments collection
+
+can i safely assume that * result is more precise than * and discard the * result completely
+
+* is a better language than * use its com capabilities to save you from writing endless sketchy * code
+
+fortunately * finally ended all that and is completely pixel based you can still alter you viewport scaling but .net seems to handle that much better than *
+
+i assume the same control in * would be datagridview and i m fairly sure that you can probably make it look better than in * but if you want really good looking ones you might want to look at thirdparty grid controls
+
+common * is an image base language although usually to a lesser extent than *
+
+it is written in * which is a language somewhat simpler than * but broadly in the same family and not difficult to learn
+

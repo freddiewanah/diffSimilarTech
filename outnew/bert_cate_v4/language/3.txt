@@ -1,0 +1,34 @@
+* is lot smarter than * about singleton class
+
+so i ve started learning * because it looks way better than *
+
+i also use * more than * but here s what my guess is as to what the * code would come to
+
+i have a * application working fine and smooth to be more comfortable with * i decided to write the unit tests for this app in *
+
+* won t allow you to do absolutely everything that * does but it will allow you to do almost everything and the code will be probably more robust considering that * is more modern language with stronger typing than *
+
+no objects come magically into existence in * any more than in *
+
+you will notice that * bundles are always about 4-5 mb larger than their * counterparts and this is precisely why
+
+i know that * is buggy as heck i run into bugs everyday but ill bet * was even worse when it started out benefits of hindsight so in a couple of years * will be equal or greater than * keeping its basic simplicity as well
+
+i feel * is better than * in many aspects but my major question is - will * dynamic libraries support older version of *
+
+if your output is going to be similar to your input with small changes then the * solution is often a lot simpler than the * solution
+
+that said it is a * which has fewer batteries included as compared to common *
+
+another side note * inside xpath string looks a bit tidier than escaped * imo
+
+aside does this mean * is more homoiconic than *
+
+yes * was once much more feature-rich than * but later revisions of the language * 2001 * 2005 system* etc.. have cherry-picked most of the interesting features and there is far more robust toolchain support for * and its variant these days in addition to it being the dominant language in use in the us in my experience * is only used here when dealing with extreme legacy blocks and in academic contexts partially due to the tools support mentioned previously
+
+just for the record the tipc addressing * is several years older than distributed *
+
+* is faster than * for most of the benchmarks on languages benchmark game
+
+* seems much more clear to me than * and in general it seems that the guys in neo4j are going with *
+

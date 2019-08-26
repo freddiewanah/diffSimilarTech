@@ -1,0 +1,106 @@
+at the beginning the insert performance of innodb is almost 50 times slower than * and * is 40 times slower than *
+
+from my personal use i experienced about 5 - 10 times less disk usage due to * s compression and it s much much faster than * or innodb
+
+the maximum representable value with * 754-2008 binary32 is so the base 2 log of a number stored in binary 32 is less than * 128
+
+the third line displays the data with the maximum useful precision - an * 754 64bit floating-point number has slightly less than 16 * digits of precision so all those digits of the literal in math.h are pointless perhaps they can be seen as future-proofing against a possible future redefinition in a format with more precision
+
+* types libraries are fantastic for financial applications because we re used to dealing with the style of rounding required in financial stuff but there is the cost that they tend to be slower than * floating point
+
+* has more overhead but uses row-level locking so that reads and writes can happen concurrently without the problems that * s table locking incurs
+
+tuning * which is the better engine requires adjusting different values than * which is often the fast-but-unsafe default
+
+edit for the read-performance this link shows that * often is actually not slower than *
+
+you can also try using * since it s said is better than * handling bulk inserts with data already on it
+
+* is still widely used in web applications as it has traditionally been perceived as faster than * in situations where most db access is reads
+
+in many discussions and even in mysql documents it has been mentioned that in case of updates * performs much better than *
+
+most of the literature that says * is better faster whatever then * is old literature
+
+* is more strict in data integrity while * is loose
+
+if you are not using transactions while storing or updating tables switch table type to * its quite faster than * with much less overhead
+
+but * has improved dramatically in the past few years and in most cases today * performs faster than *
+
+i heard correct me if i am wrong that * is better for tables that will be updated a lot because of row locking opposed to * s table locking
+
+we know that * is faster than * when we don t have many concurrent updates inserts
+
+at the beginning the insert performance of * is almost 50 times slower than * and tokudb is 40 times slower than *
+
+* when tuned well performs better than *
+
+* is the perfect choice since the database is almost only used for reading and * is significantly faster that *
+
+* is more susceptible to data corruption than * and usually * performs better because it caches both data and indexes
+
+in general it seems as though the concensus is to primarily use * but there are still some areas in which * is much faster than *
+
+am i right that * is better for frequent concurrent updates and inserts than *
+
+oh and just incase you were thinking * is slower than * - the * implementation i tested was twice as slow in all counts
+
+generally speaking * is slower than * as * is atomic while * is not
+
+* tables have smaller footprints than * ones myth
+
+their conclusion * has 30 higher performance than * on average
+
+* is slower for read only databases because it has features acid compliant row level locking that * leaves out
+
+* does support transactions and referential integrity but the trade-off is that it is a bit slower than *
+
+plus you have to make your tables * which is generally less suitable than *
+
+* is slower than * for most uses but can perform faster in certain conditions due to a better locking mechanism
+
+i ve figure out that even though * has locking contention it s still faster than * in most scenarios because of the rapid lock acquisition scheme it uses
+
+out of experience i m involved to a project that uses huge amount of data using mysql and we mostly prefer * for data that can be generated it allows to achieve much higher performance losing transactions but generally speaking * is faster but * is more reliable
+
+beststat is * so i have row-level locking and consindering i do a lot of inserts-updates it should be faster than *
+
+i know * tends to be a bit slower than * on counting but this is far too long
+
+i am creating an commerce website and i am stuck in a database problem i am storing customer orders please tell me which is better * or * i have to use transaction like feature in customer order table and i personally prefer * because it is much faster than * and it also supports full-text searching is there any way to use transaction like rollback feature in * so that if anything goes wrong table will be rollback to its previous state how to do that without any external library or any other server side access and i have to use mysql
+
+why is * so much slower than * in my case
+
+if you find that * is much slower for inserts updates bear in mind that it offers a much better level of durability - if you tune it for approximately the same durability as * then you ll see good performance hopefully
+
+i have heard that * performs better than * on read-oriented tables
+
+* tables are about 4x bigger than their * counterparts
+
+* is transactional so inserts will generally be slower than *
+
+if you use a where clause though it changes the execution pattern to use indexes so in general * will be slower than * on full unrestricted counts where as the performance matches up on restricted counts
+
+i am trying to compare the * and * write read performance but i am suprised that the * s read is much more slower than * while its write is much more faster this is totally opposite compared to what i have learned
+
+in terms of pure speed it is not always the case that * is faster than * but in my experience it tends to be faster for pure read working environments by a factor of about 2.0-2.5 times
+
+also * is slower than * unless * is blocking for a huge select
+
+also i can t see your table engine but * is better for full text searching rather than *
+
+also note that some mysql engines are faster than others for example * may run faster than * at expense of the lack of real foreign keys
+
+* shouldn t be much slower than *
+
+even this blog from 2007 shows benchmark results that * is on par with or faster than * under most workloads
+
+i ve also noticed that * is significantly faster and more stable that the old * based widgets
+
+* is simpler than *
+
+* is no way better than * 3d or am not trying to prove that
+
+i use * on tables of up to 18 billion rows and nothing else comes close it s at least 100 times faster than * for random inserts on big tables
+

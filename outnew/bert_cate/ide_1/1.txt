@@ -1,0 +1,8 @@
+if you re focussing on pure client code then i find B to be an excellent javascript html ide - even better than B
+
+if you re focussing on pure client code then i find B to be an excellent javascript html ide - even better than B
+
+webstorm + pycharm + B + phpstorm though to be fair B has more features than B atm
+
+for that purpose i want to transform the B model into a c version and launch it from a B script so that the process would be much faster than opening B environment
+

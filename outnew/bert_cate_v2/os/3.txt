@@ -1,0 +1,16 @@
+in this respect B is less desirable on a server than rhel or B which stick to more mature versions
+
+it s true that the B compatibility exists but i ve found that earlier mac machines does not have the propper hardware and you experience some lacks in memory and graphics when upgrading more than one B
+
+both commands works in the same way only difference is B list installed output maybe bigger than B -qa because B will show package dependencies also in its output
+
+even if you re on B it s much easier to get a precompiled version sudo apt install r-cran-rgl on B if you have the appropriate cran repositories set up
+
+see but if you are using a B distro there may be shortcut instructions that make it simpler under B for example there are shortcuts in
+
+although if you aren t interested in using adobe cs you can use B distro which is easier than other B distro and quiet popular so you won t have any problem finding solution
+
+B has nicer frontend and could be more suitable for windows emigrants while B is more for backend guys
+
+as for B being more stable than B for using as server it can be true in very rare occasions where the package is very obscure
+

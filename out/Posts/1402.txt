@@ -1,0 +1,76 @@
+27418
+avr	microcontroller
+on my platform avr 8-bit microcontroller running gcc takes about 26 instructions
+
+27429
+put	get
+a static array of task subclasses would then suffice to mention them. or use reflection to mention the classes
+create a prototype instanace of each class and put them in a hashtable inside the factory with the string you expect in the xml as the key
+so createtask just finds the right prototype object by get ing from the hashtable
+
+27435
+postgresql	mysql
+i am working on a web application using python django and would like to know whether mysql or postgresql would be more suitable when deploying for production
+
+27440
+postgresql	mysql	postgresql	mysql
+mysql is much more commonly provided by web hosts
+postgresql is a much more mature product
+there s this discussion addressing your better question apparently according to this web page mysql is fast when concurrent access levels are low and when there are many more reads than writes
+
+27445
+postgresql	mysql
+i haven t used django but i have used both mysql and postgresql
+
+27445
+postgresql	mysql
+postgresql is a little more scalable it doesn t hit the brick wall as fast as mysql as data size client count increases
+
+27450
+client-side	server-side	client-side	server-side
+in addition you can serve out additional server-side objects from the myserverobject instance if you include public accessors for them in iremoteserver interface so accessing those objects become the simple matter of method calls or property accesses on your main server object so you don t have to use activator for every single thing
+in that case yes the third line is the simplest you can get at client-side
+in addition you can serve out additional server-side objects from the myserverobject instance if you include public accessors for them in iremoteserver interface so accessing those objects become the simple matter of method calls or property accesses on your main server object so you don t have to use activator for every single thing
+
+27463
+ssl	https
+443 when used for https relies on ssl not ssh for its encryption
+
+27503
+put	get
+i don t have a rake task for backing up my mysql db but i did write a script in ruby to do just that for my wordpress db you should be able to take this and do some mild pruning of it to put in your username password dbname to get it up and working for you
+
+27508
+folder	directory
+red gate s sql compare product not only allows you to do object-level comparisons and generate change scripts from that but it also allows you to export your database objects into a folder hierarchy organized by object type with one objectname .sql creation script per object in these directory
+
+27587
+x86	64bit
+currently supported on both 32 and 64bit x86 and 64bit ppc systems
+
+27598
+websphere	ibm
+i have the classpath and the java_home correctly setted so the issue it s not there
+i ve deployed some managed beans on websphere 6.1 and i ve managed to invoke them through a standalone client but when i try to use the application jconsole distributed with the standard jdk can can t make it works
+ibm websphere 6.1 it s supossed to support jsr 160 javatm management extensions jmx remote api
+
+27674
+firefox	safari
+in our project sharpwired we re trying to create a download component similar to the download windows in firefox or safari
+
+27687
+disk	ram
+it is limited to 4gb of disk space 1gb of ram and will only use 1 processor
+
+27711
+gridview	linqdatasource
+i m having a problem obtaining the total row count for items displayed in a gridview using paging and with a linqdatasource as the source of data
+
+27786
+easymock	jmock
+i started using mocks through jmock but eventually transitioned to use easymock
+
+27831
+nginx	lighttpd
+the following are well known lighttpd thttpd nginx many more are listed on wikipedia
+

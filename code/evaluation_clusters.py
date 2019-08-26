@@ -5,8 +5,8 @@ from pandas import ExcelWriter
 from pandas import ExcelFile
 
 
-in_path = os.path.join(os.pardir, "evaluation", "clusters.xlsx")
-df = pd.read_excel(in_path, sheetname='rsa&aes')
+in_path = os.path.join(os.pardir, "experiment", "clusters.xlsx")
+df = pd.read_excel(in_path, sheet_name='memmove&memcpy')
 
 # a = df['our model']
 # b = df['ground truth']
@@ -14,19 +14,32 @@ df = pd.read_excel(in_path, sheetname='rsa&aes')
 # print(type(a))
 # print(a)
 
-labels_true = df['our model']
-labels_pred = df['ground truth']
-labels_idf = []
-labels_doc2vec = []
-
-preds = (("model", labels_pred), ("idf", labels_idf), ("doc2vec", labels_doc2vec))
+labels_true = df['truth']
+labels_pred = df['model']
+labels_bert = df['bert-12']
 
 
-print("MI\tNMI\tAMI\tHOM\tCOM\tV-m\tFM-s")
-for m, pred in preds:
-    print(metrics.mutual_info_score(labels_true, pred),
-          metrics.normalized_mutual_info_score(labels_true, pred),
-          metrics.adjusted_mutual_info_score(labels_true, pred),
-          metrics.homogeneity_completeness_v_measure(labels_true, pred),
-          metrics.fowlkes_mallows_score(labels_true, pred)
-          )
+preds = (("model", labels_pred))
+
+
+
+
+print("ARI	COM	FMI	HOM	NMI	V-M")
+
+print(
+      metrics.adjusted_rand_score(labels_true, labels_pred),
+      metrics.completeness_score(labels_true, labels_pred),
+      metrics.fowlkes_mallows_score(labels_true, labels_pred),
+      metrics.homogeneity_score(labels_true, labels_pred),
+      metrics.normalized_mutual_info_score(labels_true, labels_pred),
+      metrics.v_measure_score(labels_true, labels_pred)
+)
+
+print(
+      metrics.adjusted_rand_score(labels_true, labels_bert),
+      metrics.completeness_score(labels_true, labels_bert),
+      metrics.fowlkes_mallows_score(labels_true, labels_bert),
+      metrics.homogeneity_score(labels_true, labels_bert),
+      metrics.normalized_mutual_info_score(labels_true, labels_bert),
+      metrics.v_measure_score(labels_true, labels_bert)
+)

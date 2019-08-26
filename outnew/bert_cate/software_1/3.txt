@@ -1,0 +1,22 @@
+alternatively B looks simpler than B but without some of the flexibility
+
+from my experience B 5 is faster than B 4.2 rc3 and has better smp performance
+
+from my experience B 5 is faster than B 4.2 rc3 and has better smp performance
+
+i think the preview function in B is more well than B
+
+B is definitely more advanced in this because with its web interface you can customise almost everything but B has other advantages
+
+conceptually it seems like a type of central authentication system B but is more similar to B also a federated identity management system
+
+the B which has less queries runs slower than B with more queries
+
+the B one has less queries used only 14 on average but it runs slower than B with more queries used average on 20
+
+B which is no longer in active development and you should be using B but this answer applies to both of them stores each user s public keys in in your case B .ssh authorized_keys
+
+B which is no longer in active development and you should be using B but this answer applies to both of them stores each user s public keys in in your case B .ssh authorized_keys
+
+can a B section create more than 1 B
+

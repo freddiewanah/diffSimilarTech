@@ -1,0 +1,74 @@
+the boilerplate code would * rapidly when the express get more complex than * of two terms
+
+*ition * assignment has lower procedure than simply * operation
+
+so in simple terms this should give you a feel for why * and hence * is slower computers still have to do long * in the same stepwise fashion tha you did in grade school
+
+using an extra variable to avoid the costly * and the resulting time was 18.9s so significantly better than the * with a statically known constant
+
+python respects this definition whereas in most other programming language the * is really more like a reaminder after * operator
+
+if you compute * a power of two using bitwise and is simpler and generally faster than performing *
+
+* is slightly harder just * two scaled numbers and then divide by your scale factor
+
+perhaps it s the case that * is much more accurate than reciprocal plus *
+
+since fp * shifts the smaller operand s mantissa until both operands have the same * you can add a certain magic number to force it
+
+it used to be that * was slower than * and programers used several tricks to avoid * but with haswell it seems that it s the other way around
+
+and has higher precedence than or so the brackets are optional - in the same way as * has higher precedence than * so
+
+either way your example with the numeric expression would multiplying by 3 first because * has higher precedence than * or subtraction
+
+as * of ints has more overhead than simple *
+
+for example 1 + 2 3 is treated as 1 + 2 3 whereas 1 2 + 3 is treated as 1 2 + 3 since * has a higher precedence than *
+
+the reason for this is that and is strong than or it s like in math where * is stronger than * 3 5+3 15+3 18
+
+since * is more expensive than * you want to let the machine paralleliz it as much as possible so saving your stalls for the * means you spend less time waiting in the * loop than you would in the * loop
+
+even if * is faster than * i think that you will lose more because of the branching
+
+* has higher precedence than * + which is why 2+3 4 is interpreted as 2+ 3 4 both in c and normal math
+
+mathematics clearly defines the order of operations as giving * higher precedence than *
+
+which doesn t do what you want because * has higher precedence than *
+
+but i guess * is more computationally expensive than *
+
+in the remote case those operations are not simplified assuming that there is a jit that maps the * and add opcodes in a 1 1 relationship to their cpu instruction counterparts in most modern architectures all integer arithmetic operations usually take the same number of cycles so it will be faster multiplying once than add four times just checked it * is still slightly faster than * 1 clock vs 3 clocks so it still pays using a * here
+
+then you can process any length number using very few division remainder * operations which is important because they are much slower than *
+
+and keep in mind that the * has a higher precedence than * and subtraction
+
+the * is much cheaper than other operations like * and division and array access
+
+i would like to * the pow in my evaluator with an higher precedence than * and divide
+
+the * operation uses more clock cycles than the * on many processors
+
+the reason is that the * is slower than *
+
+this is because * operator has higher preference than the * operator - in the first example you use are not using brackets therefore * takes place first you can change your code to
+
+it may not be the most elegant method but when you just need to convert something ad-hoc thinking of it as comparison and * may be easier than *
+
+i am a bit suspicious of the performance because modulo tends to use * which is slower than your * operations
+
+this platform is probably not representative of your microcontroller but the test shows that on this platform the * is considerably slower than the *
+
+remember multiplication * and remainder operators are all higher precedence than *
+
+or is there something about * that is more convenient than * in programming
+
+* is always much more expensive than *
+
+if the latter yes floating point * is generally faster than *
+
+performing * on this slightly larger type will pretty much always be faster than doing * or modulo on the type itself
+

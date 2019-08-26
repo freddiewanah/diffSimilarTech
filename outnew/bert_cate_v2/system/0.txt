@@ -1,0 +1,40 @@
+B is way ahead and has larger extensions than B
+
+imho creating templates for B is the easier than most other cms i know typo B modx as you simply have to replace parts of the static version with B tags menu content etc. it still needs some time to get used to the system but its not that hard
+
+if that will solved later than B menu is better than B
+
+i would not mind changing to for example B or B if needed i am a bit afraid of B to be honest everything i read about B seems 10x more technical than anything i read about mercurial or B and installing it on windows seems to imply installing all sorts of secondary software it seems but that is another matter
+
+mercurial is significantly faster than B it s slower than B though by a much smaller difference
+
+most modern B are also considerably more complex than B which would add further difficulty to the implementation
+
+if you need to load from a well-defined B fat or B this is more tricky you have only 450 bytes of space because 60 of the 512 bytes are used by the B internally for code that interprets the data of the B finds the file containing the code and loads it into memory
+
+apparently B format was more popular than B format
+
+the conversion from B to B is even simpler since you can simply expand each B digit into the corresponding B for example 0xa4 - 1010 0100
+
+unfortunately using B consumes way more space and takes significantly longer i m dealing with 500gb of data and around 1 2 million records so i would really like to get the straight B method to work
+
+B is somewhat more readable than B if i happen to be loading a data dump in a text editor etc
+
+i ve been using images to store data since editing B data through paint.net is much friendlier than most B editors
+
+it seems the from a readability and usability standpoint the B representation is a better way of defining B numbers
+
+- i usually find debugging memory in B x command is easier than B so i will not use my solution
+
+format_int in B case it loops 4 times then 4 times more than B and dec cases
+
+B is easier for most people to convert to and from B in their heads since B numbers are usually expressed in blocks of eight because that s the size of a byte and eight is exactly two B digits but B notation would have been clunky and misleading in dennis time implying the ability to address 16 bits
+
+B is much better then B and git or mercurial are even better again
+
+i can only guess at the reasons and i don t worry much about the occasional downvote but perhaps some readers think i m advocating B as a better system than B or git
+
+bitshifts just go easier with hexaB than B and is often more convenient to read than B
+
+this means the buffer is enough for printing the number in B and since B representation uses no more digits than B it will be enough for B representation too
+

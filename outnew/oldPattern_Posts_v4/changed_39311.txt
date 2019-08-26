@@ -1,0 +1,1616 @@
+1002497
+xmltype	clob
+Changed: 
+Of course if you d rather use xquery then just take the clob or bfile convert clob to an xmltype and go for clob
+Origin: 
+Of course if you d rather use xquery then just take the clob or bfile convert it to an xmltype and go for it
+
+
+1020806
+scheme	racket
+Changed: 
+The plt scheme now racket platform includes a fairly decent interpreter and compiler is good for scripting and also has some visual tools that make scheme excellent for learning
+Origin: 
+The plt scheme now racket platform includes a fairly decent interpreter and compiler is good for scripting and also has some visual tools that make it excellent for learning
+
+
+1028119
+actionscript	mxml
+Changed: 
+When flex creates the swf flex looks at the mxml and creates actionscript from mxml behind the scenes
+Origin: 
+When flex creates the swf it looks at the mxml and creates actionscript from it behind the scenes
+
+
+1030163
+uiview	subviews
+Changed: 
+I would make own button by subclassing uiview or alternatively subclass a uibutton and add subviews to uibutton
+Origin: 
+I would make own button by subclassing uiview or alternatively subclass a uibutton and add subviews to it
+
+
+1041524
+prng	random
+Changed: 
+In fact performing any additional actions from a number returned by a prng doesn t really increase prng randomness and in fact the number can become less random
+Origin: 
+In fact performing any additional actions from a number returned by a prng doesn t really increase its randomness and in fact the number can become less random
+
+
+1041677
+cdr	cons
+Changed: 
+When you write cons a-list x cdr creates a new cons cell with a reference to a-list in the car and x in the cdr which is most likely not what you want
+Origin: 
+When you write cons a-list x this creates a new cons cell with a reference to a-list in the car and x in the cdr which is most likely not what you want
+
+
+1044238
+client-side	server-side
+Changed: 
+Rather client-side simply notifies the user of any errors the server-side business layer validation will find
+Origin: 
+Rather it simply notifies the user of any errors the server-side business layer validation will find
+
+
+1045426
+persistent	transient
+Changed: 
+transient is really just a case of understanding how your application will be creating an object graph and what entities are transient and which might be persistent or detached
+Origin: 
+This is really just a case of understanding how your application will be creating an object graph and what entities are transient and which might be persistent or detached
+
+
+1046088
+metaphone	soundex
+Changed: 
+You ll find metaphone vastly superior to soundex and the like
+Origin: 
+You ll find it vastly superior to soundex and the like
+
+
+1050778
+imagemagick	graphicsmagick
+Changed: 
+The graphicsmagick group overhauled the tiff format support with graphicsmagick version 1.2 and graphicsmagick is much faster at processing these types of images than the original imagemagick was
+Origin: 
+The graphicsmagick group overhauled the tiff format support with their version 1.2 and it is much faster at processing these types of images than the original imagemagick was
+
+
+1051753
+runtimeexception	unchecked-exception
+Changed: 
+Errors and runtimeexception are called unchecked-exception because the compiler does not enforce this requirement on runtimeexception
+Origin: 
+errors and runtimeexceptions are called unchecked exceptions because the compiler does not enforce this requirement on them
+
+
+1071040
+django	turbogears
+Changed: 
+Web2py cherrypy and the old turbogears based on django i do not feel django as big as you say
+Origin: 
+Web2py cherrypy and the old turbogears based on it i do not feel django as big as you say
+
+
+1075271
+postgresql	mysql
+Changed: 
+-- bugzilla should list all column names in the create statement in mysql postgresql sql server try running select from information _ schema.tables
+Origin: 
+-- this should list all column names in the create statement in mysql postgresql sql server try running select from information_schema.tables
+
+
+1079384
+case-sensitive	case-insensitive
+Changed: 
+If case-sensitive fails a second case-insensitive search is made
+Origin: 
+If it fails a second case-insensitive search is made
+
+
+1090158
+awt	swing
+Changed: 
+There are better 3rd party native looking skins than swing s implementations btw lots of people preferred using awt s filedialog over swing s filechooser because awt gave the platform file dialog most people were used to rather than the weird custom swing one
+Origin: 
+There are better 3rd party native looking skins than swing s implementations btw lots of people preferred using awt s filedialog over swing s filechooser because it gave the platform file dialog most people were used to rather than the weird custom swing one
+
+
+1096033
+inline	inlining
+Changed: 
+People who write scheme or any other language compilers are usually much better than you in deciding when inlining is best to inline a function
+Origin: 
+People who write scheme or any other language compilers are usually much better than you in deciding when it is best to inline a function
+
+
+1099807
+udp	tcp
+Changed: 
+Tcp has tcp own re-try and ordering mechanism that is hidden from your application you can re-invent that with udp to tailor tcp to your needs
+Origin: 
+Tcp has its own re-try and ordering mechanism that is hidden from your application you can re-invent that with udp to tailor it to your needs
+
+
+1099998
+ssl	https
+Changed: 
+The php code is available here quickbooks php framework as a side note unless you re very familiar with generating ssl certificates and sending ssl via https posts you ll save yourself a whole lot of trouble by using the desktop model of communication and not the hosted model
+Origin: 
+The php code is available here quickbooks php framework as a side note unless you re very familiar with generating ssl certificates and sending them via https posts you ll save yourself a whole lot of trouble by using the desktop model of communication and not the hosted model
+
+
+1107066
+opera	safari	opera	google-chrome	opera	firefox	firefox	safari	google-chrome	safari	google-chrome	firefox
+Changed: 
+Html 5 which is still in development has a canvas element that can be used with javascript to create the kind of thing you are looking for but only the latest versions of firefox google-chrome opera and safari support opera
+Origin: 
+html 5 which is still in development has a canvas element that can be used with javascript to create the kind of thing you are looking for but only the latest versions of firefox chrome opera and safari support it
+
+
+1107666
+runtimeexception	unchecked-exception
+Changed: 
+All other exceptions and errors including yours since unchecked-exception only subclasses exception and not runtimeexception are checked exceptions
+Origin: 
+all other exceptions and errors including yours since it only subclasses exception and not runtimeexception are checked exceptions
+
+
+1112085
+ssl	https
+Changed: 
+If you get both sides talking with http and everything breaks on https http s time to look at either the ssl session establishment or anything in between the two points that may be interrupting the flow
+Origin: 
+If you get both sides talking with http and everything breaks on https it s time to look at either the ssl session establishment or anything in between the two points that may be interrupting the flow
+
+
+1117172
+passenger	thin
+Changed: 
+passenger will allow you to use sidestep the usage of mongrel thin etc and deploy apps much like php stick thin in a folder and go
+Origin: 
+This will allow you to use sidestep the usage of mongrel thin etc and deploy apps much like php stick it in a folder and go
+
+
+1125307
+ubuntu	linux
+Changed: 
+And if you wish to move ahead and are suffering from the dogma of a simplified to more complex or geeky linux distro then read this question linux made me stick to ubuntu
+Origin: 
+And if you wish to move ahead and are suffering from the dogma of a simplified to more complex or geeky linux distro then read this question it made me stick to ubuntu
+
+
+1125353
+google-chrome	firefox
+Changed: 
+This code will run on firefox 3.5 but not on google-chrome using v8 if you change language to javascript1 .7 and omit the type google-chrome won t run with js 1.7 features in firefox 3.5
+Origin: 
+this code will run on firefox 3.5 but not on chrome using v8 if you change language to javascript1.7 and omit the type it won t run with js 1.7 features in firefox 3.5
+
+
+1131027
+base	fractions
+Changed: 
+base also allows a fractions time length by using math.pow
+Origin: 
+it also allows a fractional time length by using math.pow
+
+
+1132092
+passenger	thin
+Changed: 
+I believe heroku uses thin so i might suggest looking at passenger as opposed to mongrel
+Origin: 
+I believe heroku uses thin so i might suggest looking at that as opposed to mongrel
+
+
+1136095
+sudo	passwd
+Changed: 
+You ll need an apropriate sudoers entry to make sudo work without sudo prompting for a passwd and don t forget to chmod 755 bin sftp _ intercept
+Origin: 
+you ll need an apropriate sudoers entry to make sudo work without it prompting for a password and don t forget to chmod 755 bin sftp_intercept
+
+
+1141096
+uilabel	nsstring
+Changed: 
+The uilabel will store a retained copy of the string when nsstring text property is set
+Origin: 
+The uilabel will store a retained copy of the string when its text property is set
+
+
+1147960
+division	multiplication
+Changed: 
+So for floating point you can generally assume division will take longer because division s impractical to unroll the multiplication which is already a large circuit in and of division s self into pipeline of a multitude of multiplier circuits
+Origin: 
+so for floating point you can generally assume division will take longer because it s impractical to unroll the multiplications which is already a large circuit in and of it s self into pipeline of a multitude of multiplier circuits
+
+
+1148784
+haskell	ocaml
+Changed: 
+ocaml annoys me that there are differently named combinators for 2-3 types of monad in haskell
+Origin: 
+It annoys me that there are differently named combinators for 2-3 types of monad in haskell
+
+
+1149250
+pascal	delphi
+Changed: 
+pascal s a pretty formal definition though and you can generally use delphi and object pascal interchangeably
+Origin: 
+That s a pretty formal definition though and you can generally use delphi and object pascal interchangeably
+
+
+1158750
+apache	nginx
+Changed: 
+Edit mimetype is replaced by content _ type for django 1.7 edit for nginx check this django uses x-accel-redirect instead of apache x-sendfile header
+Origin: 
+Edit mimetype is replaced by content_type for django 1.7 edit for nginx check this it uses x-accel-redirect instead of apache x-sendfile header
+
+
+1163578
+division	multiplication
+Changed: 
+So becomes i would have expected the division of two long values to result in a long thus removing the decimal part but resolves it division as a double leaving the exact same value after the multiplication
+Origin: 
+So becomes i would have expected the division of two long values to result in a long thus removing the decimal part but it resolves it as a double leaving the exact same value after the multiplication
+
+
+1168988
+ssl	https
+Changed: 
+Transport security using https and a valid ssl certificate works in the same way a web site does ssl doesn t require additional credentials certs from the user
+Origin: 
+Transport security using https and a valid ssl certificate works in the same way a web site does it doesn t require additional credentials certs from the user
+
+
+1169169
+lisp	scheme
+Changed: 
+Also plain assignment in common lisp is usually setf and lisp can operate on combinations too eg setf car foo 1 while in scheme lisp is set
+Origin: 
+Also plain assignment in common lisp is usually setf and it can operate on combinations too eg setf car foo 1 while in scheme it is set
+
+
+1179313
+ironruby	ironpython
+Changed: 
+Please visit ironruby or ironpython s websites for using ironpython in silverlight
+Origin: 
+Please visit ironruby or ironpython s websites for using them in silverlight
+
+
+1182390
+google-chrome	firefox
+Changed: 
+I don t know for google-chrome but firefox might be the same problem
+Origin: 
+i don t know for chrome but it might be the same problem
+
+
+1182548
+gif	png
+Changed: 
+That png or gif that s only 10kb might actually be much much greater in size once the browser loads png in memory
+Origin: 
+That png or gif that s only 10kb might actually be much much greater in size once the browser loads it in memory
+
+
+1182888
+opera	google-chrome
+Changed: 
+Safari google-chrome and konqueror use webkit although on 04 03 2013 google announced that google-chrome will use google-chrome own fork from webkit named blink opera 9 + uses presto although fork has announced 4 2013 that is will move over to using blink
+Origin: 
+safari google chrome and konqueror use webkit although on 04 03 2013 google announced that chrome will use its own fork from webkit named blink opera 9+ uses presto although it has announced 4 2013 that is will move over to using blink
+
+
+1193456
+boost	stl
+Changed: 
+You could implement the same without stl or boost if stl is required
+Origin: 
+You could implement the same without stl or boost if it is required
+
+
+1193670
+opera	firefox
+Changed: 
+I have to refresh while firefox works perfectly or at least reload the page the way i d expect opera to while i m debugging
+Origin: 
+I have to refresh while firefox works perfectly or at least reload the page the way i d expect it to while i m debugging
+
+
+1201337
+memcpy	memmove
+Changed: 
+This means that memmove might be very slightly slower than memcpy as memmove can not make the same assumptions
+Origin: 
+This means that memmove might be very slightly slower than memcpy as it cannot make the same assumptions
+
+
+1202486
+profiling	debugging
+Changed: 
+The use of java 1.4 is a minor issue here since 1.4 s debugging interface is not great but some profiling still support profiling
+Origin: 
+the use of java 1.4 is a minor issue here since 1.4 s debug interface is not great but some profilers still support it
+
+
+1209010
+spaces	delimiter
+Changed: 
+You can also have getline read input until getline gets a specific character eg spaces or comma with getline stream string delimiter
+Origin: 
+you can also have it read input until it gets a specific character eg space or comma with getline stream string delimiter
+
+
+1216439
+gif	png
+Changed: 
+In order to combine another image your watermark with the gif image whatever image library you re using i m guessing gd is probably converting the png to an indexed-color format which is stripping out the alpha channel when png does so
+Origin: 
+In order to combine another image your watermark with the gif image whatever image library you re using i m guessing gd is probably converting the png to an indexed-color format which is stripping out the alpha channel when it does so
+
+
+1216439
+gif	png
+Changed: 
+You probably need to find a way to convince png to convert the gif image to a non-indexed color format first then combine png with the watermark and then write png back to an indexed-color gif again
+Origin: 
+You probably need to find a way to convince it to convert the gif image to a non-indexed color format first then combine it with the watermark and then write it back to an indexed-color gif again
+
+
+1235574
+vim	emacs
+Changed: 
+People like emacs vim cause emacs are both made for editing text
+Origin: 
+People like emacs vim cause they are both made for editing text
+
+
+1241996
+awt	swing
+Changed: 
+Err to answer your question no you don t appear to be able to do that with awt swing has the advantage that awt is truly write-once-run-anywhere and awt can look exactly the same everywhere
+Origin: 
+Err to answer your question no you don t appear to be able to do that with awt swing has the advantage that it is truly write-once-run-anywhere and it can look exactly the same everywhere
+
+
+1243627
+code128	code39
+Changed: 
+Edit data density in code128 is better than code39 - since code128 gets mentioned that often in other replies
+Origin: 
+Edit data density in code128 is better than code39 - since it gets mentioned that often in other replies
+
+
+1252126
+jsf	seam
+Changed: 
+Also icefaces is great with jsf and facelets jsf works perfectly well with or without an application framework like seam or spring
+Origin: 
+Also icefaces is great with jsf and facelets it works perfectly well with or without an application framework like seam or spring
+
+
+1255091
+dictionary	map
+Changed: 
+The version with the synchronisation dictionary doesn t work properly as you are not protecting the map dictionary inside a lock before using dictionary
+Origin: 
+The version with the synchronisation dictionary doesn t work properly as you are not protecting the map dictionary inside a lock before using it
+
+
+1258357
+swt	swing
+Changed: 
+That code looks a bit like swing or swt code so gwt is most comfortable to pure java developers
+Origin: 
+That code looks a bit like swing or swt code so it is most comfortable to pure java developers
+
+
+1262208
+union	distinct
+Changed: 
+Say pass in an integer with the expected possible values of 1 2 3 and then have something along this in your actual stored procedure code a fourth possibility would be to have two distinct procedures one which runs a union and one which doesn t and then make union your code s responsibility to determine which one to call based on that parameter something like
+Origin: 
+Say pass in an integer with the expected possible values of 1 2 3 and then have something along this in your actual stored procedure code a fourth possibility would be to have two distinct procedures one which runs a union and one which doesn t and then make it your code s responsibility to determine which one to call based on that parameter something like
+
+
+1265892
+strcpy	strncpy
+Changed: 
+I am not a proponent of thinking of strncpy as a safer replacement for strcpy because strncpy really isn t
+Origin: 
+I am not a proponent of thinking of strncpy as a safer replacement for strcpy because it really isn t
+
+
+1267163
+opera	safari	opera	firefox	firefox	safari
+Changed: 
+Update 2 updated the code to work with firefox 3.5 opera 9 safari 4 ie6-8 and probably more and earlier versions but opera is not tested
+Origin: 
+update 2 updated the code to work with ff 3.5 opera 9 safari 4 ie6-8 and probably more and earlier versions but that is not tested
+
+
+1270393
+postgresql	mysql
+Changed: 
+Traditionally postgresql has had fewer security issues than mysql but they are both doing very well on mysql
+Origin: 
+Traditionally postgresql has had fewer security issues than mysql but they are both doing very well on that
+
+
+1273705
+tapestry	wicket
+Changed: 
+So with tapestry your code base is likely smaller which is good for maintenance and with wicket you much is statically typed which makes base easier to navigate with an ide and check with a compiler which also is good for maintenance
+Origin: 
+So with tapestry your code base is likely smaller which is good for maintenance and with wicket you much is statically typed which makes it easier to navigate with an ide and check with a compiler which also is good for maintenance
+
+
+1274497
+fink	macports
+Changed: 
+monodevelop is likely because you have macports or maybe fink installed which overrides the default pkg-config with its own
+Origin: 
+This is likely because you have macports or maybe fink installed which overrides the default pkg-config with its own
+
+
+1281399
+nfa	dfa
+Changed: 
+One of the other major differences between dfa s and nfa s is that badly-written nfa s are prone to serious even catastrophic performance problems and sloppy alternations are one of the easiest ways to trigger nfa
+Origin: 
+One of the other major differences between dfa s and nfa s is that badly-written nfa s are prone to serious even catastrophic performance problems and sloppy alternations are one of the easiest ways to trigger them
+
+
+1284374
+boost	allocator
+Changed: 
+Yeah boost works but boost is 20 slower than my implementation with dynamic allocator and code is 80 bigger
+Origin: 
+yeah it works but it is 20 slower than my implementation with dynamic allocation and code is 80 bigger
+
+
+1284426
+concave	convex
+Changed: 
+- sigh alas when the convex and the concave meet convex always gets me into trouble
+Origin: 
+- sigh alas when the convex and the concave meet it always gets me into trouble
+
+
+1287380
+cprofile	timeit
+Changed: 
+Python s timeit library is the easy one to use but there s also cprofile or hotshot although hotshot is at risk of being removed from the standard library as i understand timeit
+Origin: 
+Python s timeit library is the easy one to use but there s also cprofile or hotshot although hotshot is at risk of being removed from the standard library as i understand it
+
+
+1293055
+emacs	aquamacs
+Changed: 
+You can get a nice baked-in latex experience in emacs by using the aquamacs distribution i can t use latex because i have a non-english keyboard with no aquamacs-specific mapping
+Origin: 
+You can get a nice baked-in latex experience in emacs by using the aquamacs distribution i can t use it because i have a non-english keyboard with no aquamacs-specific mapping
+
+
+1293893
+pascal	delphi
+Changed: 
+But delphi was pascal and he knew nothing about pascal and couldn t be bothered to learn more about pascal so he chose to develop in powerbuilder for new projects
+Origin: 
+But delphi was pascal and he knew nothing about pascal and couldn t be bothered to learn more about it so he chose to develop in powerbuilder for new projects
+
+
+1296747
+move	drag
+Changed: 
+For vanilla drag drops drag applies rules based on original and destination drive volumes - dragging dropping files around on a volume is a move operation by default
+Origin: 
+For vanilla drag drops it applies rules based on original and destination drive volumes - dragging dropping files around on a volume is a move operation by default
+
+
+1300129
+apache	nginx
+Changed: 
+apache s been a while since i ve used apache but apache s similar under nginx
+Origin: 
+It s been a while since i ve used apache but it s similar under nginx
+
+
+1308960
+datamapper	activerecord
+Changed: 
+datamapper s obviously a data mapper instead of an activerecord
+Origin: 
+It s obviously a data mapper instead of an activerecord
+
+
+1311622
+postgresql	mysql
+Changed: 
+Out of the box nhibernate supports sql server oracle mysql firebird postgresql and a few other databases
+Origin: 
+out of the box it supports sql server oracle mysql firebird postgres and a few other databases
+
+
+1316464
+postgresql	mysql
+Changed: 
+Otherwise i recommend using postgresql over mysql since postgresql is more standards compliant and has a nicer license
+Origin: 
+Otherwise i recommend using postgresql over mysql since it is more standards compliant and has a nicer license
+
+
+1345236
+gif	png
+Changed: 
+First set the gif image as a background to the cell and place the png button in the cell and position gif inside the cell
+Origin: 
+First set the gif image as a background to the cell and place the png button in the cell and position it inside the cell
+
+
+1352218
+mp3	wav
+Changed: 
+The wav container format is most often used for uncompressed pcm audio although wav is also possible to use wav with mp3 and a few other compressed audio formats
+Origin: 
+The wav container format is most often used for uncompressed pcm audio although it is also possible to use it with mp3 and a few other compressed audio formats
+
+
+1354560
+nsmutablestring	nsstring
+Changed: 
+If you had a nsmutablestring pointer pointing to an nsstring and called say appendstring on nsmutablestring the object wouldn t know how to process the call
+Origin: 
+If you had a nsmutablestring pointer pointing to an nsstring and called say appendstring on it the object wouldn t know how to process the call
+
+
+1356751
+gmail	hotmail
+Changed: 
+Yahoo gmail hotmail aol lycos classes have been incorporated as hotmail are available under gpl . rediff orkut myspace classes have been developed at magnet
+Origin: 
+Yahoo gmail hotmail aol lycos classes have been incorporated as they are available under gpl. rediff orkut myspace classes have been developed at magnet
+
+
+1357109
+super	implements
+Changed: 
+If a subclass has implements a method with the same signature as subclass parent or grandparent etc when one of subclass ancestors calls that method without specifying super
+Origin: 
+if a subclass has implemented a method with the same signature as its parent or grandparent etc when one of its ancestors calls that method without specifying super
+
+
+1363067
+prepare	execute
+Changed: 
+Any execute statement becomes prepare sooner or later execute need to be parsed optimized compiled and then execute
+Origin: 
+any executed statement becomes prepared sooner or later it need to be parsed optimized compiled and then executed
+
+
+1365369
+subtraction	addition	subtraction	multiplication	division	addition	division	subtraction	division	multiplication	addition	multiplication
+Changed: 
+Bigdecimals are preferred for being completely accurate for multiplication addition and subtraction division isn t normally an issue when addition comes to currency amounts
+Origin: 
+Bigdecimals are preferred for being completely accurate for multiplication addition and subtraction division isn t normally an issue when it comes to currency amounts
+
+
+1372564
+bazaar	git
+Changed: 
+A lot of articles about bazaar will tell you bazaar is a lot slower than git or mercurial
+Origin: 
+A lot of articles about bazaar will tell you it is a lot slower than git or mercurial
+
+
+1380391
+union	distinct
+Changed: 
+Solution use union all instead unless you really need the implicit distinct that union forces
+Origin: 
+Solution use union all instead unless you really need the implicit distinct that it forces
+
+
+1381683
+jar	war
+Changed: 
+Then i set this propety to the datasource and i added the jar to the web-inf lib and make the war all this with maven and deploy in tomcat and works also i deploy it jar in websphere 7 and also works
+Origin: 
+Then i set this propety to the datasource and i added the jar to the web-inf lib and make the war all this with maven and deploy in tomcat and it works also i deploy it in websphere 7 and also works
+
+
+1397906
+filewriter	bufferedwriter
+Changed: 
+So using filewriter wrapped in a bufferedwriter to make bufferedwriter easier to write a new line there are various other aspects of the code which aren t ideal but this should at least help with the file format .
+Origin: 
+So using filewriter wrapped in a bufferedwriter to make it easier to write a new line there are various other aspects of the code which aren t ideal but this should at least help with the file format.
+
+
+1410736
+tabcontrol	tabitem
+Changed: 
+If you just put tabitem into the tabcontrol with controls inside of them tabcontrol will not behave this way however
+Origin: 
+if you just put tabitems into the tabcontrol with controls inside of them it will not behave this way however
+
+
+1416725
+hex	binary
+Changed: 
+For example hex are the recommendations for editing binary files in vim ... using xxd a real binary editor shows the text in two ways as it is and in hex format . you can do this in vim by first converting the file with the xxd program
+Origin: 
+For example these are the recommendations for editing binary files in vim... using xxd a real binary editor shows the text in two ways as it is and in hex format. you can do this in vim by first converting the file with the xxd program
+
+
+1416827
+lisp	smalltalk
+Changed: 
+As lisp happens ruby timeframe 15 years has quite a bit of the lisp and smalltalk magic
+Origin: 
+As it happens ruby timeframe 15 years has quite a bit of the lisp and smalltalk magic
+
+
+1419304
+gitolite	gitosis
+Changed: 
+gitolite s a rewrite of gitosis in perl
+Origin: 
+It s a rewrite of gitosis in perl
+
+
+1424272
+uiview	subviews
+Changed: 
+Set this uiview to host your content subviews and make subclass the subviews of the uiscrollview
+Origin: 
+set this uiview to host your content subviews and make it the subview of the uiscrollview
+
+
+1427865
+jar	war
+Changed: 
+Once the jar is on the war s classpath you can reference any spring configuration files jar declares by importing them into your war s application context
+Origin: 
+Once the jar is on the war s classpath you can reference any spring configuration files it declares by importing them into your war s application context
+
+
+1428626
+haskell	scheme	haskell	ocaml	ocaml	scheme
+Changed: 
+I would highly recommend picking a functional programming language you are comfortable with f# ocaml haskell or scheme and taking a long look at how haskell standard library is structured
+Origin: 
+I would highly recommend picking a functional programming language you are comfortable with f# ocaml haskell or scheme and taking a long look at how its standard library is structured
+
+
+1430200
+vim	emacs
+Changed: 
+More powerful language for extending vim elisp is a full blown language and in emacs you can practically redefine everything
+Origin: 
+More powerful language for extending it elisp is a full blown language and in emacs you can practically redefine everything
+
+
+1441105
+calloc	malloc
+Changed: 
+calloc include buffer overflow writing beyond the end of the allocated space trampling control information that malloc was keeping there
+Origin: 
+These include buffer overflow writing beyond the end of the allocated space trampling control information that malloc was keeping there
+
+
+1441200
+nexus	artifactory
+Changed: 
+It s worth noting you can do largely the same things more or less with artifactory or archiva as nexus i ve included nexus references because i prefer nexus and the documentation is really good
+Origin: 
+It s worth noting you can do largely the same things more or less with artifactory or archiva as nexus i ve included nexus references because i prefer it and the documentation is really good
+
+
+1441260
+wordpress	joomla
+Changed: 
+I think drupal wins hands down here with views cck afaik joomla and wordpress only support joomla on a low database-access level worpress has an excellent admin interface i agree
+Origin: 
+I think drupal wins hands down here with views cck afaik joomla and wordpress only support it on a low database-access level worpress has an excellent admin interface i agree
+
+
+1444916
+profiling	instrumentation
+Changed: 
+I ve found that instrumentation works well for profiling but instrumentation can drop samples if the system is under heavy load
+Origin: 
+i ve found that instruments works well for profiling but it can drop samples if the system is under heavy load
+
+
+1446524
+opera	google-chrome
+Changed: 
+opera seemed to be okay in all of google-chrome
+Origin: 
+it seemed to be okay in all of them
+
+
+1450579
+onresume	onpause
+Changed: 
+You could save all the values you need into the preferences inside the onpause of each of the activities then restore onpause in the onresume
+Origin: 
+You could save all the values you need into the preferences inside the onpause of each of the activities then restore it in the onresume
+
+
+1450976
+allocator	stl
+Changed: 
+For stl containers you can customize the allocator but allocator still needs to return fixed raw memory pointers
+Origin: 
+For stl containers you can customize the allocator but it still needs to return fixed raw memory pointers
+
+
+1464112
+setinterval	settimeout
+Changed: 
+I ve adapted peirix s solution with a setinterval alternative and came up with settimeout
+Origin: 
+I ve adapted peirix s solution with a setinterval alternative and came up with this
+
+
+1468102
+boost	stl
+Changed: 
+boost provides stl-compliant interface around fixed-size arrays so boost can be used inside stl containers
+Origin: 
+It provides stl-compliant interface around fixed-size arrays so it can be used inside stl containers
+
+
+1470788
+equals	compareto
+Changed: 
+From the javadocs a treeset instance performs all element comparisons using treeset compareto or compare method so two elements that are deemed equals by this method are from the standpoint of the set equals
+Origin: 
+from the javadocs a treeset instance performs all element comparisons using its compareto or compare method so two elements that are deemed equal by this method are from the standpoint of the set equal
+
+
+1505613
+uiview	uiwindow
+Changed: 
+named just so happens that uiwindow is a subclass of uiview we we can easily disable user interactions for out whole app
+Origin: 
+It just so happens that uiwindow is a subclass of uiview we we can easily disable user interactions for out whole app
+
+
+1514244
+udp	tcp
+Changed: 
+Theoretically udp should be be 30-50 faster than tcp because udp s missing the extra trip for the ack and has a smaller header overhead however in reality there are many cases where tcp would outperform udp just because of congestion control
+Origin: 
+Theoretically udp should be be 30-50 faster than tcp because it s missing the extra trip for the ack and has a smaller header overhead however in reality there are many cases where tcp would outperform udp just because of congestion control
+
+
+1522947
+nfa	dfa
+Changed: 
+He finds the nfa approach to go faster but he didn t compare nfa to the dfa . these all work on regular expressions without back-references -- that is real regular expressions rather than perl regular expressions
+Origin: 
+He finds the nfa approach to go faster but he didn t compare it to the dfa. these all work on regular expressions without back-references -- that is real regular expressions rather than perl regular expressions
+
+
+1539517
+dictionary	map
+Changed: 
+The reverse dictionary will map each function reference to the exact name you gave dictionary in fun _ dict which may or may not be the name you used when you defined the function
+Origin: 
+the reverse dict will map each function reference to the exact name you gave it in fun_dict which may or may not be the name you used when you defined the function
+
+
+1539805
+cvs	svn
+Changed: 
+Of course when svn got popular svn architecture was miles ahead of cvs
+Origin: 
+Of course when svn got popular its architecture was miles ahead of cvs
+
+
+1542636
+spweb	spsite
+Changed: 
+If you have an spsite object use spweb webapplication property
+Origin: 
+If you have an spsite object use its webapplication property
+
+
+1551254
+equals	compareto
+Changed: 
+If all you care about is equality then the equals method is the best choice simply because compareto makes more sense to the next programmer that takes a look at your code
+Origin: 
+If all you care about is equality then the equals method is the best choice simply because it makes more sense to the next programmer that takes a look at your code
+
+
+1551917
+gif	png
+Changed: 
+base s a judgment call . png gif
+Origin: 
+It s a judgment call. png gif
+
+
+1552416
+equals	compareto
+Changed: 
+As for the two-keys thing you will have to make a class that contains the two keys and implement a suitable implementation of equals hashcode and if applicable compareto that does the key comparison the way you want key
+Origin: 
+As for the two-keys thing you will have to make a class that contains the two keys and implement a suitable implementation of equals hashcode and if applicable compareto that does the key comparison the way you want it
+
+
+1562802
+profiling	instrumentation
+Changed: 
+Most profiling not all whether they use sampling or instrumentation do not do instrumentation
+Origin: 
+most profilers not all whether they use sampling or instrumentation do not do that
+
+
+1564929
+client-side	server-side
+Changed: 
+If you re running server-side client-side i wouldn t bother about optimization server-side shouldn t give you a big win anyway
+Origin: 
+If you re running it client-side i wouldn t bother about optimization it shouldn t give you a big win anyway
+
+
+1570490
+dictionary	map
+Changed: 
+dictionary should be a hash map so you can get o 1 word lookup
+Origin: 
+It should be a hash map so you can get o 1 word lookup
+
+
+1573594
+implements	extends
+Changed: 
+If you just have any random class implements icloneable with no guarantees on implementation aside from following the documented semantics of icloneable there s no way to extends random
+Origin: 
+if you just have any random class implementing icloneable with no guarantees on implementation aside from following the documented semantics of icloneable there s no way to extend it
+
+
+1577097
+boost	stl
+Changed: 
+While boost is more modern c++ boost also harder to use for non trivial tasks - and without a modern c++ experience and deep stl knowledge boost is difficult to use correctly
+Origin: 
+While boost is more modern c++ it also harder to use for non trivial tasks - and without a modern c++ experience and deep stl knowledge it is difficult to use correctly
+
+
+1580510
+ubuntu	debian
+Changed: 
+I ve also built ubuntu on debian etch but that was a while ago and i can t guarantee that i haven t changed something
+Origin: 
+I ve also built it on debian etch but that was a while ago and i can t guarantee that i haven t changed something
+
+
+1586199
+mp3	ogg
+Changed: 
+It plays a diverse variety of formats including ogg and mp3 and has an extensive api for controlling how to play mp3
+Origin: 
+It plays a diverse variety of formats including ogg and mp3 and has an extensive api for controlling how to play them
+
+
+1587229
+spaces	delimiter
+Changed: 
+If you have spaces tabs commas or other delimiter spaces can be used to further restrict the match
+Origin: 
+if you have spaces tabs commas or other delimiters they can be used to further restrict the match
+
+
+1594570
+spweb	spsite
+Changed: 
+Do spweb within a rwep and make sure you dispose of your spsite spweb objects correctly
+Origin: 
+Do it within a rwep and make sure you dispose of your spsite spweb objects correctly
+
+
+1595628
+equals	gethashcode
+Changed: 
+You wrote i also see equals gethashcode gettype and tostring which are fairly undesirable to expose to the excel user yes agreed this definitely undesirable but gethashcode can be prevented
+Origin: 
+You wrote i also see equals gethashcode gettype and tostring which are fairly undesirable to expose to the excel user yes agreed this definitely undesirable but it can be prevented
+
+
+1595894
+appfuse	spring
+Changed: 
+Although appfuse are a few years old i d also recommend any of the books by rod johnson where he lays out the the spring design and philosophy expert one-on-one j2ee design and development expert one-on-one j2ee development without ejb and professional java development with the spring
+Origin: 
+although they are a few years old i d also recommend any of the books by rod johnson where he lays out the the spring design and philosophy expert one-on-one j2ee design and development expert one-on-one j2ee development without ejb and professional java development with the spring framework
+
+
+1600442
+postgresql	mysql
+Changed: 
+Databases mysql is probably the rdbms most used with rails and hence the most supported but i use postgresql which is also very well supported and have had no issues with using mysql
+Origin: 
+databases mysql is probably the rdbms most used with rails and hence the most supported but i use postgres which is also very well supported and have had no issues with using it
+
+
+1600586
+division	multiplication
+Changed: 
+If your division instruction is not fast enough but the multiplication instruction is you can use the following technique and division sounds as if this is the technique you re after
+Origin: 
+If your division instruction is not fast enough but the multiplication instruction is you can use the following technique and it sounds as if this is the technique you re after
+
+
+1604301
+allocator	stl
+Changed: 
+For example see this paragraph from an article by anthony aue improving performance with custom pool allocator for stl a potentially more serious caveat is that since the allocator uses nonstatic data allocator s not technically standard compliant because the standard requires that allocator of the same type be equivalent
+Origin: 
+for example see this paragraph from an article by anthony aue improving performance with custom pool allocators for stl a potentially more serious caveat is that since the allocator uses nonstatic data it s not technically standard compliant because the standard requires that allocators of the same type be equivalent
+
+
+1610844
+cpython	pypy
+Changed: 
+If you are thinking into proposing a functional pep going the pypy route could be useful cpython
+Origin: 
+If you are thinking into proposing a functional pep going the pypy route could be useful
+
+
+1611370
+cfstring	nsstring
+Changed: 
+But just because a cfstring says cfstring s macroman cfstring encoding value of kcfstringencodingmacroman nsstring encoding value of nsmacosromanstringencoding doesn t mean that cfstring has characters 128 in cfstring
+Origin: 
+But just because a cfstring says it s macroman cfstring encoding value of kcfstringencodingmacroman nsstring encoding value of nsmacosromanstringencoding doesn t mean that it has characters 128 in it
+
+
+1611630
+inline	inlining
+Changed: 
+Most modern compilers can easily inline this function if they deem inlining reasonable or if you force them to do inlining
+Origin: 
+Most modern compilers can easily inline this function if they deem it reasonable or if you force them to do it
+
+
+1614751
+perforce	svn
+Changed: 
+perforce d probably be reasonably straightforward to port flashbake to svn
+Origin: 
+It d probably be reasonably straightforward to port flashbake to svn
+
+
+1627971
+lisp	scheme
+Changed: 
+I think these may be interesting clojure documentation scheme video macros in clojure in 20 minutes standard issue wikipedia - clojure note that macros in clojure work very similar to common lisp macros a type-2 lisp and not quite-so-much-like scheme macros
+Origin: 
+I think these may be interesting clojure documentation itself video macros in clojure in 20 minutes standard issue wikipedia - clojure note that macros in clojure work very similar to common lisp macros a type-2 lisp and not quite-so-much-like scheme macros
+
+
+1630095
+allocator	stl
+Changed: 
+The stl allocator design makes allocator difficult to do this
+Origin: 
+The stl allocator design makes it difficult to do this
+
+
+1631182
+opera	safari	opera	firefox	firefox	safari
+Changed: 
+Fwiw i ve got large amounts of svg both static and dynamically created working happily on firefox safari and opera and none of firefox has ever needed this kind of silliness
+Origin: 
+Fwiw i ve got large amounts of svg both static and dynamically created working happily on firefox safari and opera and none of it has ever needed this kind of silliness
+
+
+1632574
+equals	gethashcode
+Changed: 
+In this case you may find gethashcode easy to implement equals and gethashcode by just passing your implementation onto string s
+Origin: 
+in this case you may find it easy to implement equals and gethashcode by just passing your implementation onto string s
+
+
+1637501
+google-chrome	safari
+Changed: 
+Otherwise safari google-chrome konqueror replicates mozilla s property under google-chrome own name - webkit-user-select none
+Origin: 
+otherwise safari chrome konqueror replicates mozilla s property under its own name -webkit-user-select none
+
+
+1640315
+postgresql	mysql
+Changed: 
+In practice postgresql s going to depend on the database types that you are using since not all postgresql and mysql data types map directly to each other
+Origin: 
+In practice it s going to depend on the database types that you are using since not all postgresql and mysql data types map directly to each other
+
+
+1641050
+equals	gethashcode
+Changed: 
+It would be possible to do with reflection the mbunit test framework does something along these lines but with a heavy performance penalty and a good chance that mbunit wouldn t do quite what you expected anyway and you should implement or equals and gethashcode by hand
+Origin: 
+It would be possible to do with reflection the mbunit test framework does something along these lines but with a heavy performance penalty and a good chance that it wouldn t do quite what you expected anyway and you should implement or equals and gethashcode by hand
+
+
+1641794
+jar	war
+Changed: 
+Edit depending on how the war file is structured war may also be necessary to use jar -0 .
+Origin: 
+Edit depending on how the war file is structured it may also be necessary to use jar -0 .
+
+
+1647114
+innodb	myisam
+Changed: 
+Ok there are some cases where myisam is faster than innodb but rarely enough that myisam s worth putting up with the lack of acid-compliance
+Origin: 
+Ok there are some cases where myisam is faster than innodb but rarely enough that it s worth putting up with the lack of acid-compliance
+
+
+1650150
+apache	nginx
+Changed: 
+So if nginx discovers a cache entry with that key nginx will serve nginx directly from memory and you never have to touch php or apache
+Origin: 
+So if nginx discovers a cache entry with that key it will serve it directly from memory and you never have to touch php or apache
+
+
+1652842
+xslt	schematron
+Changed: 
+schematron s based on xslt and this type of constraint is easier to express
+Origin: 
+It s based on xslt and this type of constraint is easier to express
+
+
+1655023
+ironruby	ironpython
+Changed: 
+As my experience ironpython on ironpython predominantly i would look at the information on hosting ironruby in a . net application
+Origin: 
+As my experience centers on ruby predominantly i would look at the information on hosting ironruby in a .net application
+
+
+1662079
+datalist	repeater
+Changed: 
+The datalist is datalist a kind of repeater - the controls inside of datalist don t exist until the datalist is bound to a datasource and the controls in the template are created once per item in the source
+Origin: 
+The datalist is itself a kind of repeater - the controls inside of it don t exist until the datalist is bound to a datasource and the controls in the template are created once per item in the source
+
+
+1663121
+ironruby	ironpython
+Changed: 
+The dlr allows you to dynamically load ironpython ironruby code and assosciate ironpython with codebehind
+Origin: 
+The dlr allows you to dynamically load ironpython ironruby code and assosciate it with codebehind
+
+
+1663180
+kerberos	ldap
+Changed: 
+Organizations that deploy ldap don t t deploy ldap for auth per se they use kerberos for that
+Origin: 
+Organizations that deploy ldap don t t deploy it for auth per se they use kerberos for that
+
+
+1674495
+xsl-fo	xslt
+Changed: 
+The problem with pdf - if going down the xslt route is that you need something to convert xsl-fo into a pdf document not only that xsl-fo will introduce more complexity and - in terms of a quick win - quite a bit more to learn
+Origin: 
+The problem with pdf - if going down the xslt route is that you need something to convert xsl-fo into a pdf document not only that it will introduce more complexity and - in terms of a quick win - quite a bit more to learn
+
+
+1677386
+haskell	scheme
+Changed: 
+In general in scheme if you wanted to break out of haskell looping at some point you could also use a continuation like throwing an exception but it is accepted practise in scheme for control flow
+Origin: 
+In general in scheme if you wanted to break out of the looping at some point you could also use a continuation like throwing an exception but it is accepted practise in scheme for control flow
+
+
+1680867
+helpers	actioncontroller
+Changed: 
+Inside an actioncontroller you can access actioncontroller using or alternatively you can also use the view helpers
+Origin: 
+inside an action controller you can access it using or alternatively you can also use the view helper
+
+
+1685917
+google-chrome	firefox
+Changed: 
+Going forward a proposed bigint note not leemon s should be supported natively google-chrome has support and google-chrome s being worked on for firefox
+Origin: 
+going forward a proposed bigint note not leemon s should be supported natively chrome has support and it s being worked on for firefox
+
+
+1711811
+uiview	calayer
+Changed: 
+However if you create your own calayer and assign the delegate to be the uiview the uiview will end up calling uiview as part of the recursion
+Origin: 
+However if you create your own calayer and assign the delegate to be the uiview the uiview will end up calling itself as part of the recursion
+
+
+1715611
+firefox	safari	google-chrome	safari	google-chrome	firefox	webkit	gecko
+Changed: 
+In gecko browsers mozilla firefox and alike you can do firefox using something like firefox is a known issue that document.implementation.createdocument isn t implemented on safari google-chrome webkit so you ll likely have to resort to loading the content in an iframe and accessing the contentdocument object of the iframe
+Origin: 
+in gecko browsers mozilla firefox and alike you can do it using something like it is a known issue that document.implementation.createdocument isn t implemented on safari chrome webkit so you ll likely have to resort to loading the content in an iframe and accessing the contentdocument object of the iframe
+
+
+1716097
+fgets	strtol
+Changed: 
+It s a better idea to just read whole lines in with fgets and then working on fgets with functions like strtok and strtol which btw will correctly parse int and tell you exactly where the invalid chars begin
+Origin: 
+it s a better idea to just read whole lines in with fgets and then working on them with functions like strtok and strtol which btw will correctly parse integers and tell you exactly where the invalid characters begin
+
+
+1716751
+arp	tcp
+Changed: 
+tcp implies that reuse of the arp is not causing arp to stay refreshed which is possible behaviour that would be helpful in your situation
+Origin: 
+This implies that reuse of the arp is not causing it to stay refreshed which is possible behaviour that would be helpful in your situation
+
+
+1720766
+interpolation	splines
+Changed: 
+The splines interpolation and smoothing from scipy.interpolate are quite nice and might be quite helpful in fitting peaks and then finding the location of splines maximum
+Origin: 
+the spline interpolation and smoothing from scipy.interpolate are quite nice and might be quite helpful in fitting peaks and then finding the location of their maximum
+
+
+1722180
+innodb	myisam
+Changed: 
+You should use innodb in such scenarios and most mysql gurus recommend using innodb by default anyway because innodb s considered more generally reliable than myisam despite being slower under some use cases
+Origin: 
+You should use innodb in such scenarios and most mysql gurus recommend using innodb by default anyway because it s considered more generally reliable than myisam despite being slower under some use cases
+
+
+1722882
+updatepanel	scriptmanager
+Changed: 
+A simple not the most efficient way to do this will be to add a scriptmanager control to your page to enable ajax controls in scriptmanager then add an updatepanel control and move your gridview inside this updatepanel
+Origin: 
+A simple not the most efficient way to do this will be to add a scriptmanager control to your page to enable ajax controls in it then add an updatepanel control and move your gridview inside this updatepanel
+
+
+1722958
+division	modulo
+Changed: 
+Edit ok now i see what could go wrong with trying to do a division by 2 in a non-prime modulo as division is similar to a division by 0
+Origin: 
+edit ok now i see what could go wrong with trying to do a division by 2 in a non-prime modulus as it is similar to a division by 0
+
+
+1726728
+rsa	dsa
+Changed: 
+You can check this by extracting the certificate s and then examine them openssl pkcs12 - in mycert.p12 - clcerts - nokeys - out mycert.crt openssl x509 - in mycert.crt - text the text output of the openssl x509 command should include a subject public key section which will include fields that let you see if key s an rsa or dsa key along with the key size
+Origin: 
+You can check this by extracting the certificate s and then examine them openssl pkcs12 -in mycert.p12 -clcerts -nokeys -out mycert.crt openssl x509 -in mycert.crt -text the text output of the openssl x509 command should include a subject public key section which will include fields that let you see if it s an rsa or dsa key along with the key size
+
+
+1730317
+innodb	myisam
+Changed: 
+If you find that innodb is much slower for inserts updates bear in mind that innodb offers a much better level of durability - if you tune innodb for approximately the same durability as myisam then you ll see good performance hopefully
+Origin: 
+If you find that innodb is much slower for inserts updates bear in mind that it offers a much better level of durability - if you tune it for approximately the same durability as myisam then you ll see good performance hopefully
+
+
+1734726
+onresume	onpause
+Changed: 
+The service would monitor these and if onresume got an onpause without a subsequent onresume in some period of time onresume was assumed the user was gone home incoming phone call incoming text message responding to some app via a notification etc .
+Origin: 
+The service would monitor these and if it got an onpause without a subsequent onresume in some period of time it was assumed the user was gone home incoming phone call incoming text message responding to some app via a notification etc.
+
+
+1734747
+icomparable	compareto
+Changed: 
+The method defined by icomparable is compareto with which you can determine the order between two elements
+Origin: 
+The method defined by it is compareto with which you can determine the order between two elements
+
+
+1738995
+eigen	ublas
+Changed: 
+Like boost eigen s a pure template library so there are no libs to build include but i find eigen to be more complete and significantly more performant than boost s ublas
+Origin: 
+Like boost it s a pure template library so there are no libs to build include but i find it to be more complete and significantly more performant than boost s ublas
+
+
+1739937
+implements	extends
+Changed: 
+You can implements and extends but you need to declare extends first for implements to work
+Origin: 
+you can implement and extend but you need to declare extends first for it to work
+
+
+1745239
+coalesce	isnull
+Changed: 
+The following would be much preferred over a isnull or coalesce approach or a union approach as outlined below could work better as well try coalesce out in your environment to determine which option is best
+Origin: 
+The following would be much preferred over a isnull or coalesce approach or a union approach as outlined below could work better as well try it out in your environment to determine which option is best
+
+
+1746480
+freebsd	linux
+Changed: 
+Freebsd is legendary for freebsd stability has lots of documentation huge ports collection and freebsd even allows running linux binaries
+Origin: 
+Freebsd is legendary for its stability has lots of documentation huge ports collection and it even allows running linux binaries
+
+
+1750154
+hex	binary
+Changed: 
+- source dev.mysql.com - prepared statements instead convert your hex string by packing hex into a binary string using and then pass to the mysqli prepared statement instead of id
+Origin: 
+- source dev.mysql.com - prepared statements instead convert your hex string by packing it into a binary string using and then pass to the mysqli prepared statement instead of id
+
+
+1753464
+phpunit	simpletest
+Changed: 
+As far as i can remember the instructions for phpunit said something along the lines of install phpunit via pear and we won t give any instructions on how to do phpunit any other way see for simpletest just download phpunit and point to phpunit from your code
+Origin: 
+As far as i can remember the instructions for phpunit said something along the lines of install it via pear and we won t give any instructions on how to do it any other way see for simpletest just download it and point to it from your code
+
+
+1762445
+innodb	myisam
+Changed: 
+Since innodb wasn t working innodb fell back to the myisam storage engine which doesn t support integrity constraints like foreign keys
+Origin: 
+Since innodb wasn t working it fell back to the myisam storage engine which doesn t support integrity constraints like foreign keys
+
+
+1768871
+bufferedreader	fileoutputstream	bufferedreader	fileinputstream
+Changed: 
+bufferedreader s worth understanding why fileinputstream and fileoutputstream don t have any methods relating to lines though the classes are about streams of binary data
+Origin: 
+It s worth understanding why fileinputstream and fileoutputstream don t have any methods relating to lines though the classes are about streams of binary data
+
+
+1787128
+vim	emacs
+Changed: 
+Or perhaps if you re a piano keyboard zylophone player choose emacs as keyboard more chordey . choose vim if you play guitar as its more arpeggioey
+Origin: 
+Or perhaps if you re a piano keyboard zylophone player choose emacs as its more chordey. choose vim if you play guitar as its more arpeggioey
+
+
+1804012
+lisp	scheme
+Changed: 
+Generally common lisp is available in different flavors - abcl is one of scheme
+Origin: 
+Generally common lisp is available in different flavors - abcl is one of them
+
+
+1811450
+config	ini
+Changed: 
+The ini file starts with a to ensure that if the config file is loaded config won t execute any code
+Origin: 
+the ini file starts with a to ensure that if the configuration file is loaded it won t execute any code
+
+
+1817701
+nsmutablestring	nsstring
+Changed: 
+This is because an nsmutablestring is a subclass of nsstring so nsmutablestring is a nsstring . you can however create a mutable string from an nsstring with
+Origin: 
+This is because an nsmutablestring is a subclass of nsstring so it is a nsstring. you can however create a mutable string from an nsstring with
+
+
+1823057
+junit	testng
+Changed: 
+If you have to do a lot of this honestly testng is more flexible but you can absolutely get testng done in junit
+Origin: 
+If you have to do a lot of this honestly testng is more flexible but you can absolutely get it done in junit
+
+
+1825808
+profiling	benchmarking
+Changed: 
+If you really believe that piece of code to be a performance bottleneck profiling or benchmarking profiling both ways
+Origin: 
+if you really believe that piece of code to be a performance bottleneck profile or benchmark it both ways
+
+
+1827827
+postgresql	mysql
+Changed: 
+Thus if sqltypes were to return postgresql dialect would map postgresql to int2 and h2 mysql to tinyint
+Origin: 
+Thus if sqltypes were to return postgresql dialect would map it to int2 and h2 mysql to tinyint
+
+
+1834518
+client-side	server-side
+Changed: 
+It is there to distinguish client-side from onclick attribute which generates the server-side click event
+Origin: 
+It is there to distinguish it from onclick attribute which generates the server-side click event
+
+
+1834791
+cpython	ironpython
+Changed: 
+For python as an abstract language including jython ironpython etc no cpython is not guaranteed to be closed
+Origin: 
+For python as an abstract language including jython ironpython etc no it is not guaranteed to be closed
+
+
+1837084
+super	implements	super	extends
+Changed: 
+Basically you can just extends super and implements your logic in onrun method
+Origin: 
+basically you can just extend it and implement your logic in onrun method
+
+
+1838722
+email	dkim
+Changed: 
+Since these milters can be configured to add email headers in the received mails about dkim results so i wrote a custom mail-filter using jilter api java mail filter api parsed the mail headers and hence i was able to determine and act about the authentication results of spf and senderid according to my custom logic
+Origin: 
+since these milters can be configured to add e-mail headers in the received mails about their results so i wrote a custom mail-filter using jilter api java mail filter api parsed the mail headers and hence i was able to determine and act about the authentication results of spf and senderid according to my custom logic
+
+
+1840813
+jsf	tapestry
+Changed: 
+Take the presentation layer of your code written with jsf and then rewrite jsf using tapestry
+Origin: 
+Take the presentation layer of your code written with jsf and then rewrite it using tapestry
+
+
+1844917
+division	multiplication	division	modulo	multiplication	modulo
+Changed: 
+If you need both division and modulo do one of division and get the other one by multiplication difference
+Origin: 
+If you need both division and modulo do one of them and get the other one by multiplication difference
+
+
+1852505
+dreamweaver	aptana
+Changed: 
+Another free tool remember dreamweaver will cost you at least a few hundred unless you steal dreamweaver is aptana ide
+Origin: 
+Another free tool remember dreamweaver will cost you at least a few hundred unless you steal it is aptana ide
+
+
+1859178
+dictionary	map
+Changed: 
+However dictionary is a hash map and needs a mapping from every key to the same integer hash which makes dictionary less useful in your case
+Origin: 
+However dictionary is a hash map and needs a mapping from every key to the same integer hash which makes it less useful in your case
+
+
+1860033
+cdr	cons
+Changed: 
+Bar then lisp will read lisp as a cons cell with foo as the car and bar as the cdr
+Origin: 
+Bar then lisp will read it as a cons cell with foo as the car and bar as the cdr
+
+
+1868977
+daemons	systemd
+Changed: 
+If the securityserver systemd daemons fails for any reason output quality will suffer over time without any explicit indication from the random device random . paranoid programmers can counteract this risk somewhat by collecting entropy of their choice from keystroke or mouse timings and seed - ing it into random directly before obtaining important random numbers .
+Origin: 
+if the securityserver system daemon fails for any reason output quality will suffer over time without any explicit indication from the random device itself. paranoid programmers can counteract this risk somewhat by collecting entropy of their choice from keystroke or mouse timings and seed- ing it into random directly before obtaining important random numbers.
+
+
+1872291
+division	modulo
+Changed: 
+modulo performs division and returns the remainder rather than the result of the division
+Origin: 
+it performs division and returns the remainder rather than the result of the division
+
+
+1875836
+openmpi	mpich
+Changed: 
+We used mpich because at the time mpich worked best on windows and we needed that flexibility i haven t used mpich2 or openmpi
+Origin: 
+We used mpich because at the time it worked best on windows and we needed that flexibility i haven t used mpich2 or openmpi
+
+
+1878737
+innodb	myisam
+Changed: 
+You need to enable mysql in order to be able to convert your tables from myisam to innodb
+Origin: 
+You need to enable it in order to be able to convert your tables from myisam to innodb
+
+
+1880434
+cvs	svn
+Changed: 
+Svn could have been called cvs 2 - svn s basically cvs but with a whole lot of pain points removed
+Origin: 
+Svn could have been called cvs 2 - it s basically cvs but with a whole lot of pain points removed
+
+
+1882828
+treemap	linkedhashmap
+Changed: 
+But if you control map implementation returned by the getmap then you can use linkedhashmap or treemap and get the same order of keys values all the time you iterate through treemap
+Origin: 
+But if you control map implementation returned by the getmap then you can use linkedhashmap or treemap and get the same order of keys values all the time you iterate through them
+
+
+1904932
+portrait	landscape
+Changed: 
+The user might not get the landscape view if they do landscape quickly but means they wont get glitches or be stuck on landscape or portrait view
+Origin: 
+The user might not get the landscape view if they do it quickly but means they wont get glitches or be stuck on landscape or portrait view
+
+
+1908125
+redmine	trac
+Changed: 
+Here is the trac ticket related to the issue if you need to know more ticket 493 trac s been open for some time now and is the main reason why i m going to move to redmine
+Origin: 
+Here is the trac ticket related to the issue if you need to know more ticket 493 it s been open for some time now and is the main reason why i m going to move to redmine
+
+
+1908631
+google-chrome	firefox
+Changed: 
+Here s the code that i used to make google-chrome work in ie firefox and google-chrome asp side
+Origin: 
+here s the code that i used to make it work in ie ff and chrome asp side
+
+
+1908876
+xslt	xquery
+Changed: 
+Xslt is a lot more verbose but xslt templating features add a lot of functionality that can be fairly cumbersome to replicate in xquery particularly making small changes to node trees
+Origin: 
+Xslt is a lot more verbose but its templating features add a lot of functionality that can be fairly cumbersome to replicate in xquery particularly making small changes to node trees
+
+
+1910646
+uiview	subviews
+Changed: 
+Customize the uiview in ib to your hearts content and then you load uiview as a subviews in your view controller with something like uiview let me know if you need any clarification
+Origin: 
+customize the uiview in ib to your hearts content and then you load it as a subview in your view controller with something like this let me know if you need any clarification
+
+
+1921585
+ubuntu	linux
+Changed: 
+Study apt-get i personally think sudo s ok to use ubuntu desktop for internal server if the app is not that critical till you get your bearings in the linux world
+Origin: 
+Study apt-get i personally think it s ok to use ubuntu desktop for internal server if the app is not that critical till you get your bearings in the linux world
+
+
+1932303
+gif	bmp
+Changed: 
+Since gif is a batch job anyway if i were you i would write out a bmp file a really easy file format and then use a command-line program like imagemagick s convert to turn that into a gif
+Origin: 
+Since this is a batch job anyway if i were you i would write out a bmp file a really easy file format and then use a command-line program like imagemagick s convert to turn that into a gif
+
+
+1932926
+haskell	scheme
+Changed: 
+The creators of plt scheme have built as one of scheme languages a lazy scheme after the lazy evaluation feature of haskell
+Origin: 
+The creators of plt scheme have built as one of their languages a lazy scheme after the lazy evaluation feature of haskell
+
+
+1934496
+gtk	gdk
+Changed: 
+You can tell eclipse to use the native gdk and gtk should correct these problems gdk _ native _ windows 1 . eclipse
+Origin: 
+You can tell eclipse to use the native gdk and it should correct these problems gdk_native_windows 1 . eclipse
+
+
+1947258
+udp	tcp
+Changed: 
+One main advantage to tcp though is that tcp traverses firewalls more easily than udp
+Origin: 
+One main advantage to tcp though is that it traverses firewalls more easily than udp
+
+
+1950367
+pthreads	fork
+Changed: 
+Doing fork and calling system instead of exec is undefined behavior on pthreads so i don t recommend kde
+Origin: 
+doing fork and calling system instead of exec is undefined behavior on posix so i don t recommend that
+
+
+1959078
+onclick	onfocus	onclick	onchange	onchange	onfocus
+Changed: 
+Don t use js to change the content onload rather do onload only during user-controlled events onclick onchange onfocus etc
+Origin: 
+Don t use js to change the content onload rather do it only during user-controlled events onclick onchange onfocus etc
+
+
+1959615
+clang	llvm
+Changed: 
+__ has _ feature and __ has _ builtin are the recommended way of checking for optional compiler features when using clang llvm are documented here
+Origin: 
+__has_feature and __has_builtin are the recommended way of checking for optional compiler features when using clang they are documented here
+
+
+1965460
+config	ini
+Changed: 
+config may be an ini file
+Origin: 
+it may be an ini file
+
+
+1992267
+actionscript	mxml
+Changed: 
+At compile build time this mxml file is converted to actionscript lots of mxml
+Origin: 
+At compile build time this mxml file is converted to actionscript lots of it
+
+
+1999428
+des	aes
+Changed: 
+Des des is the predecessor of aes and is considered broken because of des short key length
+Origin: 
+Des des is the predecessor of aes and is considered broken because of its short key length
+
+

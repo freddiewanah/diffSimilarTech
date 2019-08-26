@@ -1,0 +1,10 @@
+b * runs always slower than * sequential around 10 times slower
+
+however there are many others ts * which is generally faster than * .
+
+also * is significantly faster than * in many cases for processing results
+
+edit don t use this for html work use the * library it s python based and much faster than *
+
+* provides more human-readable wrappers around the base r functions though as of dec 2014 the development version has a branch built on top of * mentioned below
+

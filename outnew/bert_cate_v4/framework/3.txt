@@ -1,0 +1,52 @@
+since apple has decided that * is no more and * appears to only support prores 4444 and 422 flavors how are developers supposed to write modern software that can handle 4444xq 422lt and 422 proxy
+
+compare the very active * tag on stack overflow with that of pylons or * though and i d argue getting started is simply easier with * irrespective of anything to do with code
+
+the docs for * 2 are clear user-friendly and much less intimidating than * 2 docs
+
+considering the lack of windows 8 love that * is getting support being dropped apps won t be sellable on the app store -- i d go with * -- it s better than * anyway -- the only down side is that you can t make xbox apps with it
+
+it should be mentioned that * provides many more features for smart stubs spies than * so both can be used together
+
+the thing that makes * a better choice than * spies is that it is capable of programming spies expectations withargs ... .called.
+
+personally i d say * might have the edge as it encourages convention more than * would
+
+isn t * supposed to a better than *
+
+well for that you ll need * that is better integrated with * and * does not handle file uploads that actually everyone use so you have to put also icefaces that actually are better managed by maven that you currenty are not using... neverending story
+
+i read that * for beginner is better than * because educational reasons at the same time * have * oscar
+
+* is older and have more extensions dbunit * etc
+
+* is slightly easier to grasp but * is the best in my opinion at least so if you want to start learning and using a framework start with the one you re going to use when you ll be a master in tdd
+
+* is more popular and up to date as * hasn t had a new release for some time though for testing webforms it s still very useful as * does not have good support for that
+
+* middleware is much simpler and less hacky than * middleware due to the way middleware flows in a stack-like manner
+
+i like * but the amount of gpu memory * use is larger than * i test in resnet-50 with *-memonger
+
+* arguably has more better documentation than * see plone.org products * as well as my book professional plone 4 development
+
+variety of supporting widgets is probably the single area in which * is still stronger than *
+
+even though * has better capabilities i prefer * due to *s complexity overhead and lack of ui for control api
+
+performance i did some test with simple game similar to swing copters and found that game created with * consumes 15-20 more ram on ios device that the same game created with * but then i used apportable to run * game on my android device and found it almost not playable
+
+having said that * has a lower initial learning curve than * as it was specifically designed as a learning tool
+
+as i understand it * supports gae better out of the box than *
+
+the * cms is a great php framework better than * the most popular at the moment but its documenation lacking
+
+various people told me to go with * since it s better than * apparently i have no idea and it also has very good support in resharper which i m using
+
+also * has little bit better benchmarks than *
+
+* is more popular and has more tutorials then *
+
+both give you the ability to implement things in a variety of ways which can be confusing but * provides more of the code that you would have to write yourself in * as standard which for me personally is more important for rapid prototyping than the wealth of * examples available
+

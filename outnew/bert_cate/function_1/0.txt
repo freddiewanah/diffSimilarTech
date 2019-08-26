@@ -1,0 +1,138 @@
+if you always keep track of the lengths of your strings you can compare lengths and use B which is faster than B
+
+we keep track of what cmd s length ought to be in a variable and copy the string with B which is slightly faster than B and does neither check string length nor copy the extra zero at end of string
+
+we keep track of what cmd s length ought to be in a variable and copy the string with B which is slightly faster than B and does neither check string length nor copy the extra zero at end of string
+
+additionally if you have B then it is much more convenient than B + malloc + strcpy with identical result including the same obligation to free the allocated storage when you no longer need it
+
+but if you still wish to figure out the phpbb password encryption B it is no longer B in version 3.0 or higher and is a custom B
+
+i would like to apply a B code solution on my webpage which is more compact than B and sha-1 because i want to use them as keys in a json B table
+
+B is no longer secure and it can be broken with a good gpu no typo you can use your graphics card to break a B
+
+but if you still wish to figure out the phpbb password encryption B it is no longer B in version 3.0 or higher and is a custom B
+
+i would like to apply a B code solution on my webpage which is more compact than B and sha-1 because i want to use them as keys in a json B table
+
+B is no longer secure and it can be broken with a good gpu no typo you can use your graphics card to break a B
+
+in this context B store is different and incompatible with heap because the new delete B store library is simpler and quicker than the B B realloc calloc heap library and thus provides huge memory usage gains to the c++ embedded programmer in a context where you have only 512 bytes of ram
+
+in this context B store is different and incompatible with heap because the new delete B store library is simpler and quicker than the B B realloc calloc heap library and thus provides huge memory usage gains to the c++ embedded programmer in a context where you have only 512 bytes of ram
+
+the c function B is much better make it a habit to prefer that one to B
+
+i start off calling gets to fill the buffer then using B to convert the human-readable text in buffer to an actual computer int value - note that B is more powerful than B and uses long int instead of int as its declared type
+
+sql server is probably smart enough to translate B into the equivalent sarg expression but if you are bent on using a function then B is a better choice because it is part of the sql standard allows for multiple values instead of just two with B and avoids using quite possibly the most confusing function name microsoft ever devised in B
+
+i understand the difference between these functions but my question is when checking for a single null value would B be any quicker than using B
+
+B will go through the listed values and choose the first one that isn t null it s more portable code than B or ivnl etc
+
+i tend to use B only when i need to get the first non-null value from a set of 3 or more values as B only supports two parameters
+
+sql server is probably smart enough to translate B into the equivalent sarg expression but if you are bent on using a function then B is a better choice because it is part of the sql standard allows for multiple values instead of just two with B and avoids using quite possibly the most confusing function name microsoft ever devised in B
+
+i understand the difference between these functions but my question is when checking for a single null value would B be any quicker than using B
+
+B will go through the listed values and choose the first one that isn t null it s more portable code than B or ivnl etc
+
+i tend to use B only when i need to get the first non-null value from a set of 3 or more values as B only supports two parameters
+
+edit i m not a java expert but i think that in java members of new array are initialized to 0 or null so B is more correct than B in my code
+
+this means B can potentially be faster than calling B followed by memset since it can skip the memset if it knows it will already by zeroed
+
+actually calling memset after B is closer to calling B than the option you suggest
+
+edit i m not a java expert but i think that in java members of new array are initialized to 0 or null so B is more correct than B in my code
+
+this means B can potentially be faster than calling B followed by memset since it can skip the memset if it knows it will already by zeroed
+
+actually calling memset after B is closer to calling B than the option you suggest
+
+so here B is reading more than one integer at a time from file so B is not getting the integers in file too
+
+so here B is reading more than one integer at a time from file so B is not getting the integers in file too
+
+on the other hand if what you want to do is not rounding but elimination of fractions into one direction then you have std B that goes always higher and std B that always goes lower
+
+as an added answer there is also the B which is more general than B
+
+as an added answer there is also the B which is more general than B
+
+since i provided a B example above your read loop can be much better written with B as follows
+
+one more edit if you want to use B instead which you asked about in the comments - and it s even safer than B since it will increase the buffer size as needed you would change to change the code a little bit
+
+since i provided a B example above your read loop can be much better written with B as follows
+
+one more edit if you want to use B instead which you asked about in the comments - and it s even safer than B since it will increase the buffer size as needed you would change to change the code a little bit
+
+although you could tell dancer2 plugin passphrase to use a 4-byte B it s much easier to just use B Bedhash everywhere
+
+although you could tell dancer2 plugin passphrase to use a 4-byte B it s much easier to just use B Bedhash everywhere
+
+so when i see that the B is stored in the B password and that you use that B password as B i think crypt + B is not more secure against a brute force on output hackers who managed to steal B passwords
+
+the lack of B is harder to expoit here than with password B since the B is not directly known
+
+you can safely store the B in the db because working out a string from its B is just as hard when you know some of the string as it is when you know none of it provided the password itself is longer than the B and long enough and strong enough to take a long time to crack by brute force at least 6 chars with at least one case change and a number or non-alphanumeric i d say
+
+this B is nothing more than a random arbitrary string that you concatenate to the passwords and it will make your B password unique
+
+so when i see that the B is stored in the B password and that you use that B password as B i think crypt + B is not more secure against a brute force on output hackers who managed to steal B passwords
+
+the lack of B is harder to expoit here than with password B since the B is not directly known
+
+you can safely store the B in the db because working out a string from its B is just as hard when you know some of the string as it is when you know none of it provided the password itself is longer than the B and long enough and strong enough to take a long time to crack by brute force at least 6 chars with at least one case change and a number or non-alphanumeric i d say
+
+this B is nothing more than a random arbitrary string that you concatenate to the passwords and it will make your B password unique
+
+could i use B to do this more succinctly than running B and dcast separately for each of employed girls guys
+
+you might want to give the data.table package a try check out the B function which is much faster than B
+
+you might want to give the data.table package a try check out the B function which is much faster than B
+
+generally speaking the B keyword is used more now to allow you to violate the one definition rule when you define a function in a header than to give the compiler a hint about B
+
+templates will be B in the standard meaning of B which is more related to the one definition rule than to actual code B
+
+in reality the B keyword has less to do with B code and more to do with allowing legal violation of the one definition rule
+
+this allows you to use the assignment operator instead of B and requires 1 less call to B - the one you make
+
+this allows you to use the assignment operator instead of B and requires 1 less call to B - the one you make
+
+just wanted to add that using strrpos + B is slightly faster than B + end
+
+just wanted to add that using strrpos + B is slightly faster than B + end
+
+the B function is used here because it is more portable than B or ifnull
+
+the ansi standard function B is simpler than using B and decode which should be obsoleted anyway
+
+if you don t mind the libc allocation functions B is even more efficient it wont copy the data on a shrink just mark the extra memory as B and if you grow the memory and there is memory B after it will mark the needed memory as used and not copy either
+
+if you don t mind the libc allocation functions B is even more efficient it wont copy the data on a shrink just mark the extra memory as B and if you grow the memory and there is memory B after it will mark the needed memory as used and not copy either
+
+a fairer comparison would be comparing stringstream to the B sscanf line of functions which would be slower than B but still faster than stringstream
+
+edit as willeke has pointed out accessing a B directly is technically faster than doing so via an B via self
+
+a B is nothing more than syntactic shorthand for a get set B
+
+the best solution is to write a custom version of B that is less weird or if you know the length of the input just use B
+
+you should use B or B safer than B to copy the string stored in the array between arrays
+
+B is a function to read a single char simpler than using B
+
+the fact that using B with iostreams is faster than B at least in release mode runs counter to the reasoning that copying all that data must be slower than not copying it so i m not sure what all optimization is able to avoid and i didn t really look to find any explanation but it d be interesting to understand what s being optimized away
+
+if you compute the length of the string for unrelated reasons or have the length of the string from other resources it s unclear to me whether B is better or worse than B
+

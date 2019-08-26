@@ -1,0 +1,60 @@
+based on what you have provided i cannot tell if B actually does load faster than B
+
+it is also proper browser behavior B is just stricter about it than B is
+
+that happens because pixels size in B is bigger than in B
+
+given these last two complications i am leaning towards a browser plugin as the solution probably B since low-level http stuff seems to be better supported than in B but i am wondering if anyone has an idea for a more cross-browser-y solution and or if there is something out there that might provide a good api for this kind of thing
+
+ie8 is the same and B is much better but i ve migrated away to B now so would like to stick with the one browser if possible
+
+why in B text smaller left than in B and opera right
+
+it works in B because B is more lax about this security restriction and B happens to be more strict on mixed-content errors
+
+i need to do the same condition but for less than B version 46 and for less than B version 44
+
+i would like this function to work in B ie B etc but at the moment it only works in B and older than B version 49
+
+in B the green div is bigger than in B i really don t know what is the problem i think in B it displays as it should but in B and ie9 it displays different
+
+the same word in B look wider than in B
+
+when i ran the test individually with a timer B actually performed better than B hope this helps
+
+B encodes more characters than B
+
+my menu links seem in B correctly but in B my menu links are 1 px smaller than B
+
+but in B the left-collumn gets a much bigger height than in B
+
+they use iframes in B which seems better but in B they do this by putting manually defined span and font tags
+
+i know different engines render fonts differently and but the issue i m having is that B renders the font higher than B - at the size i am displaying the font this is very noticeable 3 or 4 px - which on a button means they re totally misaligned
+
+the position of the list in B is always higher than that of B no matter how i padding or margin the list
+
+for example using renatoargh s test B is faster with option 2 B with option 1
+
+i just found out that if you re using B you trigger antialiasing at 49px or higher however with B it s set at 257px or higher
+
+using the same data B does in less than 5 seconds what took ie and B 10 to 15 seconds to accomplish
+
+we use B though which i believe uses more ram than B
+
+B extensions have much more power than B and have wider access to browser s internal api
+
+tldr in B filter is slightly faster in B that s the opposite
+
+this is trickier to work around and you should file a B bug describing the situation and where it s slower than B but you could potentially reduce the amount of buffer uploads by looking into instancing or using uniform arrays instead of updating vertexes for positions textures
+
+from testing this in B and B it seems B is more forgiving in that it parses the style string and puts the right style in place for you but B does not
+
+B still uses the older version while B uses a more current one
+
+the B controller bar is the quicktime bar which is smaller and dark so the movement is less noticeable than B which has a big blue progress bar
+
+but i haven t yet figured out whether it s me writing sloppy code with B perhaps being more forgiving than B or if it s B or if it s jquery
+
+in B it is several pixels higher up than in B and google-chrome and significantly lower in opera
+

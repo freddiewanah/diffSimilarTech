@@ -1,0 +1,152 @@
+the boilerplate code would * rapidly when the express get more complex than * of two terms
+
+you can try x1 c1 and then x1 + c1 but i don t think the * is much faster than * on todays cpus
+
+* is faster than *
+
+so in simple terms this should give you a feel for why * and hence * is slower computers still have to do long * in the same stepwise fashion tha you did in grade school
+
+* is more mathematical if you like while the remainder in the c-family is consistent with the common integer * satisfying and this is adopted from old fortran
+
+* first is probably simpler than using floating point if you only want an integer result and if you know that the * will never overflow
+
+* is slightly harder just * two scaled numbers and then divide by your scale factor
+
+mathematically left shifting is the same as * a number by a power of 2 but as the operation is done only by shifting it is much faster than doing *
+
+i read about python following pemdas that is precedence of * is more than *
+
+while working with integer * it s better to * first and divide later to minimize the rounding error
+
+according to agner s instruction tables a single fp * is slower than a single reciprocal op and a single * op
+
+in general * is more costlier than * right
+
+* operations and usually significantly faster than * and division
+
+when i generate rsa key pairs by openssl it seems like private key private * is always less than public key *
+
+since parentheses were used around the * but not the * we can infer that probably in this language * has lower precedence than *
+
+that s because the * oprator has higher precedence than *
+
+in any case if * is faster than * a better solution might be to use a table and index by it
+
+it is because * operator has higher precedence over the * + operator
+
+and has higher precedence than or just like * has higher precedence than *
+
+they state that the binary * operator has higher priority than the binary * operator +
+
+you expression is then 7 + 5 7 + 5 which is 7 + 35 + 5 as * has a higher precedence than *
+
+on modern processors floating point * is generally slightly more expensive than * which is one reason why compilers will typically replace by x+x
+
+if * is slower than * instead of doing
+
+as * of ints has more overhead than simple *
+
+my question is why do both integer and floating-point * execute faster than their * counterparts
+
+it used to be that * was slower than * and programers used several tricks to avoid * but with haswell it seems that it s the other way around
+
+the * has a higher operator precedence than the * operator therefore it will happen before the *
+
+* can also cause a divide-by-zero and it has a higher precedence than *
+
+because the string formatting operator shares precedence with the remainder or * which binds more tightly than the + * operator
+
+the * operation uses more clock cycles than the * on many processors
+
+then i think it would be the problem of precedence in most case they are left-to-right and i think * would be calculated first because in c * is more prior than * instruction by one level
+
+* and divide have higher precedence than * and subtract
+
+in the above example the instance of exprbinop* is a child of the instance of exprbinopmul although precedence of * is higher than precedence of * which results from the proper consideration of the parentheses
+
+* is faster than mul but if you want to * two general values mul is far faster than any loop iterating * operations
+
+it appears that you consider * to have lower precedence than * and division when in fact it does not
+
+doesn t get evaluated the way you are expecting the * operator has higher precedence than the * operator
+
+* has higher precedence than *
+
+remember multiplication * and remainder operators are all higher precedence than *
+
+* is faster * is more accurate
+
+the reason for doing so is to reduce hardware cost as * is more expensive than *
+
+i found out that integer * is much slower than * unfortunately
+
+on some machines * is much slower than * but on most machines j multiplies and j divides will run a lot faster than 2 n-2 * and one *
+
+* is always much more expensive than *
+
+on most processors * is slower than * for the same data types
+
+since * is of higher precedence than *
+
+* is far easier and faster for a cpu to do than *
+
+* is about 20 faster than *
+
+* has worse latency than * or addition by a factor of 2 to 4 on modern x86 cpus and worse throughput by a factor of 6 to 40
+
+the * should perform somewhat better than *
+
+it is common knowledge that * takes many more clock cycles to compute than *
+
+the intuition is that * is a more costly affair than *
+
+knowing that a * is much more costly than a *
+
+floating point * usually takes fewer cycles than floating point *
+
+* by 5.0 is more accurate than * by an approximate 0.2
+
+as hroptatyr mentioned the * is quite fast and it s much faster than *
+
+i do not want to know when or if to use shift operators in my code i am interested in why * is faster than shifting bits to the left whereas * is not
+
+* is one of a number of operations which as far as computational complexity theory is concerned are no more expensive than *
+
+* may be heavier than * but a commenter pointed out that reciprocals are just as fast as * on modern cpus in which case this isn t correct for your case so if you do have 1 x appearing somewhere inside a loop and more than once you can assist by caching the result inside the loop and then using y
+
+* though is an iterative process in logic the implementations you see on educational sites verilog vhdl are simply doing the same thing we did with log * in grade school but like * it is much simpler than grade school you pull down bits from the numerator in the long * until the number being checked against the denominator is equal to or larger basically the number can either go in only zero times or one times into the next number under test unlike decimal where it can be between 0 to 9 times
+
+recently someone suggested to me that * is always more expensive than *
+
+i always thought a * is computationally cheaper than a *
+
+yes * is usually much slower than *
+
+i would also suggest to replace terms like a l1 0.3e1 with as * is faster then *
+
+i haven t benchmarked any of this code but just by examining the code you can see that using integers * by 2 is shorter than * by 2
+
+i picked c 1 1 8 for this example simply because it is exact in ieee-754 floating-point representation and typically * is much faster than *
+
+it will be much slower i don t have benchmarks but i would guess at least an order of magnitude maybe more decimal will not benefit from any hardware acceleration and arithmetic on it will require relatively expensive * * by powers of 10 which is far more expensive than * and dividion by powers of 2 to match the exponent before addition subtraction and to bring the exponent back into range after * *
+
+* is per se slower than * however i don t know the details
+
+a111 * is equal or better than *
+
+so even disregarding that * is more expensive than * and multiplication we see that the number of operations the sieve requires is much smaller than the number of operations required by trial * if the limit is not too small
+
+note that * has a higher precedence than *
+
+* has a higher precedence than * or subtraction so it s really this
+
+since * has a higher precedence than * 5 2 gets evaluated as a integer * returning 2 as an integer
+
+generally the * is more costly than * i think but not much difference in this case
+
+multiplication and * have higher priority than * and subtraction
+
+the misunderstanding is that incrementing the * is not faster than doing a *
+
+as int * gets larger taking powers might be faster than *
+

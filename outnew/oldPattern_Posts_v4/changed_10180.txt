@@ -1,0 +1,1120 @@
+5004019
+nsmutablestring	nsstring
+Changed: 
+As mentioned earlier nsmutablestring is not thread-safe nsmutablestring s easier and more efficient in many cases to use a copied nsstring ivar when your string is small or does not change frequently
+Origin: 
+As mentioned earlier nsmutablestring is not thread-safe it s easier and more efficient in many cases to use a copied nsstring ivar when your string is small or does not change frequently
+
+
+5005933
+textview	imageview
+Changed: 
+The textview at the top should have and the imageview underneath textview should have
+Origin: 
+The textview at the top should have and the imageview underneath it should have
+
+
+5012755
+jar	war
+Changed: 
+Also catalina-ant.jar and servlet-api.jar are provided by tomcat there is no need to add jar in your war files especially when jar are older version
+Origin: 
+Also catalina-ant.jar and servlet-api.jar are provided by tomcat there is no need to add them in your war files especially when they are older version
+
+
+5026339
+mongodb	bson
+Changed: 
+Quote from the mongodb documentation which i think sums binary up well the database supports native storage of binary data within bson objects
+Origin: 
+Quote from the mongodb documentation which i think sums it up well the database supports native storage of binary data within bson objects
+
+
+5042532
+google-chrome	firefox
+Changed: 
+I tested map in google-chrome and firefox and map worked well but i m not really sure if map works properly if the map s functionality isn t broken in all main browsers
+Origin: 
+i tested it in chrome and firefox and it worked well but i m not really sure if it works properly if the map s functionality isn t broken in all main browsers
+
+
+5047804
+firefox	safari
+Changed: 
+I believe there are issues with safari in firefox though
+Origin: 
+I believe there are issues with it in firefox though
+
+
+5047833
+hex	binary
+Changed: 
+You should use a binary string or better yet and it seems you are trying to see if the hex representation of the hash hashes to hex
+Origin: 
+You should use a binary string or better yet and it seems you are trying to see if the hex representation of the hash hashes to itself
+
+
+5048005
+dotnetzip	sharpziplib
+Changed: 
+Best way is likely to use a dedicated library for reading zip files streams like dotnetzip or sharpziplib somewhat unmaintained zip
+Origin: 
+Best way is likely to use a dedicated library for reading zip files streams like dotnetzip or sharpziplib somewhat unmaintained
+
+
+5051324
+super	self
+Changed: 
+Then in the implementation of the methods of the class c self stands for the instance of c super and super stands for the instance of c as an instance of super superclass a
+Origin: 
+Then in the implementation of the methods of the class c self stands for the instance of c itself and super stands for the instance of c as an instance of its superclass a
+
+
+5056869
+allocator	stl
+Changed: 
+In c you ll effectively end up using structures like and a set of manipulation functions like this this method will make the compiler align the t _ int _ array struct in a way that stl s optimal for the targeted architecture also with malloc allocator and just allocator more space in quantities of element sizes of the data array element will keep it that way
+Origin: 
+in c you ll effectively end up using structures like and a set of manipulation functions like this this method will make the compiler align the t_int_array struct in a way that it s optimal for the targeted architecture also with malloc allocation and just allocating more space in quantities of element sizes of the data array element will keep it that way
+
+
+5060231
+profiling	debugging
+Changed: 
+You could add the following arguments to your project launch settings to enable profiler for remote debugging where 4321 is the port that you need to specify your remote profiling debugging application to attach profiling to
+Origin: 
+You could add the following arguments to your project launch settings to enable it for remote debugging where 4321 is the port that you need to specify your remote profiling debugging application to attach itself to
+
+
+5065005
+implements	extends
+Changed: 
+Alternatively you could even create an interface with the dosomething method and have which could even be a better decision and have the base class implements base given that only the extends classes would actually implements the method
+Origin: 
+alternatively you could even create an interface with the dosomething method and have which could even be a better decision and have the base class implement it given that only the extending classes would actually implement the method
+
+
+5070003
+google-chrome	firefox
+Changed: 
+It looks like firefox is finding the character in a different font and using or perhaps you have stix fonts on the machine running firefox but not the one running google-chrome and mathjax is using that google-chrome
+Origin: 
+it looks like firefox is finding the character in a different font and using that or perhaps you have stix fonts on the machine running firefox but not the one running chrome and mathjax is using that
+
+
+5070199
+quicksort	mergesort
+Changed: 
+Quicksort generally runs faster than mergesort but under some circumstances quicksort can degrade to quadratic running time
+Origin: 
+quicksort generally runs faster than mergesort but under some circumstances it can degrade to quadratic running time
+
+
+5075860
+fileinputstream	fileoutputstream
+Changed: 
+If you manipulate fileinputstream and later want to write the resulting data back to the hard disk you d use a fileoutputstream to do the actual writing
+Origin: 
+If you manipulate it and later want to write the resulting data back to the hard disk you d use a fileoutputstream to do the actual writing
+
+
+5089325
+equals	gethashcode
+Changed: 
+Most notably gethashcode must return the same value each time gethashcode is called on the same instance and must return the same value for two objects which are considered equals
+Origin: 
+most notably gethashcode must return the same value each time it is called on the same instance and must return the same value for two objects which are considered equal
+
+
+5089325
+equals	gethashcode
+Changed: 
+In fact gethashcode is so difficult to implement correctly there s a whole tag for gethashcode on stackoverflow the static implementation for equals usually looks like this you would call this implementation from all your instance methods
+Origin: 
+In fact gethashcode is so difficult to implement correctly there s a whole tag for it on stackoverflow the static implementation for equals usually looks like this you would call this implementation from all your instance methods
+
+
+5110673
+gif	png
+Changed: 
+If the content type is image jpeg or png or gif or whatever things are good and http will happily render the image
+Origin: 
+If the content type is image jpeg or png or gif or whatever things are good and it will happily render the image
+
+
+5114118
+rsa	dsa
+Changed: 
+rsa can be used for password-less ssh connections assuming you generate an rsa or dsa public private key pair and add the public key to the authorized _ keys or authorized _ keys2 file of the remote host
+Origin: 
+This can be used for password-less ssh connections assuming you generate an rsa or dsa public private key pair and add the public key to the authorized_keys or authorized_keys2 file of the remote host
+
+
+5115718
+uiview	uiwindow	uiview	subviews
+Changed: 
+A quick look at the uiwindow docs would have revealed uiwindow inherited from uiview to which you can add an arbitrary number of subviews
+Origin: 
+A quick look at the uiwindow docs would have revealed it inherited from uiview to which you can add an arbitrary number of subviews
+
+
+5117461
+realloc	malloc
+Changed: 
+You might be surprised to know that malloc realloc are not replaced by new but are used for a different purpose and in this case malloc is a useful thing to use
+Origin: 
+You might be surprised to know that malloc realloc are not replaced by new but are used for a different purpose and in this case it is a useful thing to use
+
+
+5120882
+exponent	modulo
+Changed: 
+The public key is well public which means that you can export key actually in your code you already have the modulo and exponent as array of bytes and there are no gotchas about secret data leakage through a careless implementation since there is no secret key here
+Origin: 
+the public key is well public which means that you can export it actually in your code you already have the modulus and exponent as array of bytes and there are no gotchas about secret data leakage through a careless implementation since there is no secret key here
+
+
+5121317
+firefox	safari	google-chrome	firefox	google-chrome	safari
+Changed: 
+Google-chrome displays the file name in the console though as far as i know google-chrome s inaccessible to js but neither safari nor firefox even go that far
+Origin: 
+chrome displays the file name in the console though as far as i know it s inaccessible to js but neither safari nor ff even go that far
+
+
+5123066
+strncmp	strcmp
+Changed: 
+strncmp is much safer than strcmp
+Origin: 
+It is much safer than strcmp
+
+
+5126007
+ubuntu	debian
+Changed: 
+So for instance on ubuntu debian you should be able to enter sudo apt-get install graphviz from the shell and have sudo be installed
+Origin: 
+So for instance on ubuntu debian you should be able to enter sudo apt-get install graphviz from the shell and have it be installed
+
+
+5136534
+equals	gethashcode
+Changed: 
+Only things to do is to override equals and gethashcode methods in your key class so dictionary can use dictionary as a key correctly
+Origin: 
+Only things to do is to override equals and gethashcode methods in your key class so dictionary can use it as a key correctly
+
+
+5140914
+calloc	malloc
+Changed: 
+If you use calloc instead of malloc calloc will clear the memory for you
+Origin: 
+If you use calloc instead of malloc it will clear the memory for you
+
+
+5150884
+setinterval	settimeout
+Changed: 
+If setinterval were settimeout setinterval would only run setinterval once after 1 second
+Origin: 
+If it were settimeout it would only run it once after 1 second
+
+
+5159188
+factors	matrix
+Changed: 
+In converting a data frame to a matrix note that there is a data.matrix function which handles factors appropriately by converting factors to numeric values based on the internal levels
+Origin: 
+In converting a data frame to a matrix note that there is a data.matrix function which handles factors appropriately by converting them to numeric values based on the internal levels
+
+
+5165338
+xslt	xquery
+Changed: 
+But xslt can certainly be done with xquery as scott shows
+Origin: 
+But it can certainly be done with xquery as scott shows
+
+
+5170880
+operands	scalar
+Changed: 
+operands means that the value of yabba dabba doo in scalar context is doo and that s what s assigned to
+Origin: 
+This means that the value of yabba dabba doo in scalar context is doo and that s what s assigned to
+
+
+5178698
+ubuntu	debian
+Changed: 
+Update for recent versions of debian ubuntu as of 2018 ubuntu is sudo apt install default-libmysqlclient-dev
+Origin: 
+Update for recent versions of debian ubuntu as of 2018 it is sudo apt install default-libmysqlclient-dev
+
+
+5186534
+fgets	fgetc
+Changed: 
+Underneath the covers fgetc uses the same mechanisms as fgets
+Origin: 
+Underneath the covers it uses the same mechanisms as fgets
+
+
+5192340
+serializable	deserialization
+Changed: 
+A dataset already does xml serializable deserialization internally and when you send serializable to a web service this serializable deserialization will occur twice
+Origin: 
+a dataset already does xml serialization deserialization internally and when you send it to a web service this serialization deserialization will occur twice
+
+
+5198040
+swift	objective-c
+Changed: 
+However if the type integrity of a collection is important in your scenario then you could combine the lightweight generics with your own code on the objective-c side which enforces the type integrity that swift will on swift side
+Origin: 
+However if the type integrity of a collection is important in your scenario then you could combine the lightweight generics with your own code on the objective-c side which enforces the type integrity that swift will on its side
+
+
+5204231
+entity-relationship	diagram
+Changed: 
+If you ll learn entity-relationship modeling as a distinct activity from relational modeling resulting in a different model you ll find diagram fairly easy to transform class diagram into entity-relationship diagram
+Origin: 
+if you ll learn er modeling as a distinct activity from relational modeling resulting in a different model you ll find it fairly easy to transform class diagrams into er diagrams
+
+
+5212216
+qthread	qobject
+Changed: 
+qthread might be easier too i m not sure . . iiuc this is what you have to do use qobject movetothread to assign the object containing the foo-function to testthread that means that qt autoconenction the default signal slots calls will run correctly across thread being dispatched from each thread s own event loop
+Origin: 
+It might be easier too i m not sure.. iiuc this is what you have to do use qobject movetothread to assign the object containing the foo-function to testthread that means that qt autoconenction the default signal slots calls will run correctly across thread being dispatched from each thread s own event loop
+
+
+5213038
+yslow	pagespeed
+Changed: 
+5 use yslow pagespeed ajax dynatrace to check performance get ideas to improve etc pagespeed
+Origin: 
+5 use yslow pagespeed ajax dynatrace to check performance get ideas to improve etc
+
+
+5229505
+jquery	scriptaculous
+Changed: 
+Pretty much any functionality that jquery provides is also available in prototype scriptaculous jquery s just not as popular and or well marketed as jquery
+Origin: 
+Pretty much any functionality that jquery provides is also available in prototype scriptaculous it s just not as popular and or well marketed as jquery
+
+
+5230881
+punctuation	words
+Changed: 
+For example if the words might have spaces or other punctuation in words you probably want to quote words .
+Origin: 
+For example if the words might have spaces or other punctuation in them you probably want to quote them.
+
+
+5233998
+png	ico
+Changed: 
+What you can do is transform svg to png using apache batik rasterizer transform png to ico using imagemagick and jmagick wrapper create ant script that will call 1 and 2 and add imagemagick to one of the maven lifesycle phases using antrun plugin
+Origin: 
+what you can do is transform svg to png using apache batik rasterizer transform png to ico using imagemagick and jmagick wrapper create apache ant script that will call 1 and 2 and add it to one of the maven lifesycle phases using antrun plugin
+
+
+5238549
+google-chrome	firefox
+Changed: 
+This is especially true since microsoft has a number of patents in the field of font rendering meaning that there are certain techniques that firefox and google-chrome would be unable to use in google-chrome rendering without paying a royalty
+Origin: 
+this is especially true since microsoft has a number of patents in the field of font rendering meaning that there are certain techniques that firefox and chrome would be unable to use in their rendering without paying a royalty
+
+
+5248213
+super	self
+Changed: 
+super should be super b self . method or in python 3.x also just super . method furthermore don t use dict as a variable name -- this will shadow the built-in class
+Origin: 
+It should be super b self .method or in python 3.x also just super .method furthermore don t use dict as a variable name -- this will shadow the built-in class
+
+
+5249319
+jar	war
+Changed: 
+So long as those jar files are present in the war web-inf lib then jar will deploy correctly
+Origin: 
+So long as those jar files are present in the war web-inf lib then it will deploy correctly
+
+
+5270729
+jar	war
+Changed: 
+And because jar s not a file you will need to get jar as an inputstream if the jar war is on the classpath you can do someclass.class.getresourceasstream path from the jar to maven.properties where someclass is any class inside that jar war jar are equivalent someclass.class.getresourceasstream abc def
+Origin: 
+And because it s not a file you will need to get it as an inputstream if the jar war is on the classpath you can do someclass.class.getresourceasstream path from the jar to maven.properties where someclass is any class inside that jar war these are equivalent someclass.class.getresourceasstream abc def
+
+
+5271450
+hazelcast	terracotta
+Changed: 
+When we get terracotta on production environment distributed beyond one node cluster things changed our backend architecture became really expensive so we decided to give hazelcast a chance
+Origin: 
+When we get it on production environment distributed beyond one node cluster things changed our backend architecture became really expensive so we decided to give hazelcast a chance
+
+
+5283050
+mp3	wav
+Changed: 
+mp3 must be a wav file of a certain subtype
+Origin: 
+It must be a wav file of a certain subtype
+
+
+5291672
+verilog	vhdl
+Changed: 
+As i understand vhdl most non-military non-gov t contracting companies use system verilog while military gov t contracting entities use vhdl these days
+Origin: 
+As i understand it most non-military non-gov t contracting companies use system verilog while military gov t contracting entities use vhdl these days
+
+
+5297409
+ienumerable	icollection
+Changed: 
+If performance becomes a problem you can do a quick check in the loop if the type is also a generic or non-generic icollection and read ienumerable count property directly
+Origin: 
+If performance becomes a problem you can do a quick check in the loop if the type is also a generic or non-generic icollection and read its count property directly
+
+
+5303414
+onresume	onpause
+Changed: 
+I skipped the onpause onresume but i implemented webview.pausetimers and webview.resumetimers and onresume at least stops the cpu bleed
+Origin: 
+I skipped the onpause onresume but i implemented webview.pausetimers and webview.resumetimers and it at least stops the cpu bleed
+
+
+5305418
+monkeyrunner	adb
+Changed: 
+You write monkeyrunner script on your pc and monkeyrunner uses adb to communicate with a device emulator
+Origin: 
+You write monkeyrunner script on your pc and it uses adb to communicate with a device emulator
+
+
+5306026
+profiling	debugging
+Changed: 
+You can also edit the profiling scheme to make profiling use debugging builds when profiling
+Origin: 
+you can also edit the profile scheme to make it use debug builds when profiling
+
+
+5327111
+ssl	https
+Changed: 
+Just use https and ssl will do just that encrypt these variables client-side and then decrypt https on the server-side
+Origin: 
+Just use https and it will do just that encrypt these variables client-side and then decrypt them on the server-side
+
+
+5331313
+firefox	safari	google-chrome	firefox	google-chrome	safari
+Changed: 
+pypy s similar to the reasons why google-chrome firefox safari and ie all use their own javascript engines
+Origin: 
+it s similar to the reasons why chrome firefox safari and ie all use their own javascript engines
+
+
+5332864
+cpython	pypy
+Changed: 
+From a pypy blog post in february ... highlights and the status of pypy most python benchmarks run much faster than with cpython or psyco the real-world pypy compiler toolchain pypy 200 klocs runs twice as fast supports x86 32 and 64bit and is in the process of supporting arm .
+Origin: 
+From a pypy blog post in february ...highlights and the status of pypy most python benchmarks run much faster than with cpython or psyco the real-world pypy compiler toolchain itself 200 klocs runs twice as fast supports x86 32 and 64bit and is in the process of supporting arm .
+
+
+5335891
+actionscript	mxml
+Changed: 
+If this isn t your case just create new air mxml application add new actionscript class and set actionscript as default application
+Origin: 
+If this isn t your case just create new air mxml application add new actionscript class and set it as default application
+
+
+5343850
+fseek	fread
+Changed: 
+For example let s first save a smaller sample matrix to a binary file using the function fwrite now we can read just the third column using the functions fread and fseek matrix is just a simple example
+Origin: 
+For example let s first save a smaller sample matrix to a binary file using the function fwrite now we can read just the third column using the functions fread and fseek this is just a simple example
+
+
+5347071
+portrait	landscape
+Changed: 
+Objective a uinavigationcontroller and most of viewcontrollers in uinavigationcontroller stack fixed at portrait except for one viewcontroller in the stack being allowed to rotate to both portrait and landscape
+Origin: 
+Objective a uinavigationcontroller and most of viewcontrollers in its stack fixed at portrait except for one viewcontroller in the stack being allowed to rotate to both portrait and landscape
+
+
+5356317
+floating-point	fixed-point
+Changed: 
+Suitable data types it s a very good idea to use fixed-point or decimal data types because floating-point usually don t have the negative properties as floating-point and integer data types representable value range is broad enough
+Origin: 
+Suitable data types it s a very good idea to use fixed-point or decimal data types because they usually don t have the negative properties as floating-point and integer data types representable value range is broad enough
+
+
+5372482
+scheme	racket
+Changed: 
+There are various object systems you can load as libraries when you want to do oop but integration with existing code heavily depends on the scheme dialect and scheme surrounding culture chicken scheme seems to be more object-oriented than racket for instance
+Origin: 
+There are various object systems you can load as libraries when you want to do oop but integration with existing code heavily depends on the scheme dialect and its surrounding culture chicken scheme seems to be more object-oriented than racket for instance
+
+
+5372503
+prepare	execute
+Changed: 
+You probably should not try to open a transaction after a prepare statement has been started but before prepare s been execute
+Origin: 
+you probably should not try to open a transaction after a prepared statement has been started but before it s been executed
+
+
+5372657
+addition	multiplication
+Changed: 
+You can then apply the algorithms for addition and multiplication your learned in elementary school except that digits will overflow when binary exceed 1 rather than 9
+Origin: 
+You can then apply the algorithms for addition and multiplication your learned in elementary school except that digits will overflow when they exceed 1 rather than 9
+
+
+5377967
+multiplication	exponent
+Changed: 
+exponent ensures that there will be no more than t 2 extra multiplication
+Origin: 
+this ensures that there will be no more than t 2 extra multiplications
+
+
+5386598
+division	subtract
+Changed: 
+Take the -1 power of the denominator and multiply onto the numerator take the logs of the numerator and denominator subtract and then raise the base of the log to that same power i don t particularly like questions like division because we re basically looking for silly tricks but there we are
+Origin: 
+Take the -1 power of the denominator and multiply onto the numerator take the logs of the numerator and denominator subtract and then raise the base of the log to that same power i don t particularly like questions like this because we re basically looking for silly tricks but there we are
+
+
+5393692
+gridbaglayout	miglayout
+Changed: 
+Gridbaglayout will be powerful enough to do everything you need but gridbaglayout is not as easy to use as something like miglayout
+Origin: 
+gridbaglayout will be powerful enough to do everything you need but it is not as easy to use as something like mig layout
+
+
+5394197
+uiview	subviews
+Changed: 
+You could create your own eaglview which is a subclass of uiview add subclass as a subviews to your tab view and make cocos2d render your scene into this view
+Origin: 
+you could create your own eaglview which is a subclass of uiview add it as a subview to your tab view and make cocos2d render your scene into this view
+
+
+5399186
+actionscript	mxml
+Changed: 
+Adobe flash cs does not include this compiler nor does actionscript contain many of the actionscript classes that mxml gets converted to
+Origin: 
+Adobe flash cs does not include this compiler nor does it contain many of the actionscript classes that mxml gets converted to
+
+
+5400799
+uiview	subviews
+Changed: 
+Add subclassed uiview as subviews in your custom cell and set frame for it in - void layoutsubviews method uiview
+Origin: 
+add subclassed uiview as subview in your custom cell and set frame for it in - void layoutsubviews method
+
+
+5404656
+pascal	delphi
+Changed: 
+delphi now uses free pascal for portability but afaik used delphi originally and maybe still for win32 target
+Origin: 
+It now uses free pascal for portability but afaik used delphi originally and maybe still for win32 target
+
+
+5404921
+uiview	subviews
+Changed: 
+When you expand your main subviews to fill the screen you can add this blocking uiview behind uiview using insertsubview belowsubview
+Origin: 
+when you expand your main subview to fill the screen you can add this blocking uiview behind it using insertsubview belowsubview
+
+
+5404947
+exponent	modulo
+Changed: 
+A bare-bone rsa private key consists in two integers the modulo a big composite integer modulo length in bits is the rsa key length and the private exponent another big integer which normally has the same size than the modulo
+Origin: 
+a bare-bone rsa private key consists in two integers the modulus a big composite integer its length in bits is the rsa key length and the private exponent another big integer which normally has the same size than the modulus
+
+
+5407131
+uinavigationcontroller	uitabbarcontroller
+Changed: 
+You just use a uinavigationcontroller or uitabbarcontroller as your rootviewcontroller and allow uitabbarcontroller to manage getting the events to new pushed view controllers or you popup view controllers with presentmodalviewcontroller
+Origin: 
+You just use a uinavigationcontroller or uitabbarcontroller as your rootviewcontroller and allow them to manage getting the events to new pushed view controllers or you popup view controllers with presentmodalviewcontroller
+
+
+5411382
+postgresql	mysql
+Changed: 
+linux s been used by others to replicate mysql and postgresql before though i don t have any personal experience with it
+Origin: 
+It s been used by others to replicate mysql and postgresql before though i don t have any personal experience with it
+
+
+5414622
+innodb	myisam
+Changed: 
+These two differ on myisam locking implementation innodb locks the particular row in the table and myisam locks the entire mysql table
+Origin: 
+These two differ on their locking implementation innodb locks the particular row in the table and myisam locks the entire mysql table
+
+
+5418499
+draggable	droppable
+Changed: 
+Something like this when dragging a file a hover class is always nice on the droppable and your css you can check draggable out in action here
+Origin: 
+Something like this when dragging a file a hover class is always nice on the droppable and your css you can check it out in action here
+
+
+5421244
+trie	tree
+Changed: 
+tree causes the trie to have a high space-complexity
+Origin: 
+This causes the trie to have a high space-complexity
+
+
+5423061
+udp	tcp
+Changed: 
+Tcp is subject to higher latencies than udp as tcp requires the client to send back packet confirmations
+Origin: 
+Tcp is subject to higher latencies than udp as it requires the client to send back packet confirmations
+
+
+5423794
+qthread	qobject
+Changed: 
+One thing to note is if you override qthread run and put your task there you can t emit signal from there since the qthread object is not created within the thread qthread runs in and you can t pull the qobject from the running thread
+Origin: 
+One thing to note is if you override qthread run and put your task there you can t emit signal from there since the qthread object is not created within the thread it runs in and you can t pull the qobject from the running thread
+
+
+5427932
+vim	textmate
+Changed: 
+vim has things like the command t find file and the project drawer bound to the commands you are already familiar with from textmate
+Origin: 
+It has things like the command t find file and the project drawer bound to the commands you are already familiar with from textmate
+
+
+5443920
+firefox	safari	google-chrome	firefox	google-chrome	safari
+Changed: 
+drag s implemented with html js canvas and tested only on google-chrome firefox safari
+Origin: 
+it s implemented with html js canvas and tested only on chrome firefox safari
+
+
+5449613
+boost	eigen
+Changed: 
+The reason is that if boost filesystem is added to the global namespace boost pollutes boost and causes some code here eigen that depends on unpolluted namespace to cause errors during compilation
+Origin: 
+The reason is that if boost filesystem is added to the global namespace it pollutes it and causes some code here eigen that depends on unpolluted namespace to cause errors during compilation
+
+
+5475705
+apache	nginx
+Changed: 
+nginx s much lighter than apache
+Origin: 
+It s much lighter than apache
+
+
+5490459
+fseek	fread
+Changed: 
+Move file pointer to the start of data fseek exefile ofset seek _ set then use fread to read set as whole and then use fwrite to write set into outfile
+Origin: 
+Move file pointer to the start of data fseek exefile ofset seek_set then use fread to read it as whole and then use fwrite to write it into outfile
+
+
+5500371
+queue	fifo
+Changed: 
+It is started as soon as a swing top-level component is displayed and swing s bascially a worker thread that has a fifo queue of event objects that swing executes one after another
+Origin: 
+It is started as soon as a swing top-level component is displayed and it s bascially a worker thread that has a fifo queue of event objects that it executes one after another
+
+
+5501662
+comparator	comparable
+Changed: 
+The benefit of using a comparator over implementing comparable is that you can make the comparator specific to the situation that you want with the map and comparator doesn t effect your object in general
+Origin: 
+The benefit of using a comparator over implementing comparable is that you can make the comparator specific to the situation that you want with the map and it doesn t effect your object in general
+
+
+5501827
+firefox	safari	google-chrome	firefox	google-chrome	safari
+Changed: 
+jquery works in google-chrome firefox and safari
+Origin: 
+it works in chrome ff and safari
+
+
+5506059
+equals	compareto
+Changed: 
+If compareto returns 0 they strings are equals if return 0 the first string is lower than the second if return 0 the firs string is higher than the second
+Origin: 
+if it returns 0 they strings are equal if return 0 the first string is lower than the second if return 0 the firs string is higher than the second
+
+
+5506451
+listview	gridview
+Changed: 
+listview used a gridview no separator background is a bitmap drawable bitmap xmlns android android src drawable shelf _ panel android tilemode repeat background image is like this the code is worth a look because it contains other interesting solutions too
+Origin: 
+He used a gridview no separator background is a bitmap drawable bitmap xmlns android android src drawable shelf_panel android tilemode repeat background image is like this the code is worth a look because it contains other interesting solutions too
+
+
+5509956
+udp	tcp
+Changed: 
+The distinction however is that the udp socket will wait until your entire buffer can be stored in the kernel buffer whereas the tcp socket may decide to only copy a single byte into the kernel buffer typically udp s more than one byte though
+Origin: 
+The distinction however is that the udp socket will wait until your entire buffer can be stored in the kernel buffer whereas the tcp socket may decide to only copy a single byte into the kernel buffer typically it s more than one byte though
+
+
+5523430
+implements	extends
+Changed: 
+Imo extends would be better to implements what you are looking for as some sort of factory method
+Origin: 
+imo it would be better to implement what you are looking for as some sort of factory method
+
+
+5535068
+junit	testng
+Changed: 
+After disabling testng surefire uses the junit plugin and the tests are detected
+Origin: 
+After disabling it surefire uses the junit plugin and the tests are detected
+
+
+5536519
+profiling	instrumentation
+Changed: 
+Sophisticated debuggers and profiling like valgrind or pin use valgrind to instrumentation your code while valgrind is being executed
+Origin: 
+sophisticated debuggers and profilers like valgrind or pin use it to instrument your code while it is being executed
+
+
+5545821
+profiling	debugging
+Changed: 
+debugging will help you alot more than sql profiling will
+Origin: 
+this will help you alot more than sql profiler will
+
+
+5545917
+swt	swing
+Changed: 
+While swt is nice gui swt load time takes considerably a long period of time compared to netbeans swing
+Origin: 
+While swt is nice gui its load time takes considerably a long period of time compared to netbeans swing
+
+
+5548532
+decoder	encoder
+Changed: 
+However using an mp3 encoder decoder or some other encoder could help with mp3
+Origin: 
+However using an mp3 encoder decoder or some other encoder could help with that
+
+
+5553094
+google-chrome	firefox
+Changed: 
+Selenium was using the keyword google-chrome before google-chrome and google-chrome was using google-chrome for firefox
+Origin: 
+selenium was using the keyword chrome before google chrome and it was using it for firefox
+
+
+5554833
+equals	gethashcode
+Changed: 
+Thus we have shown that the only possible implementation of gethashcode is all of this put together makes gethashcode clear that you need to rethink the concept you are trying model and come up with a different definition of equals
+Origin: 
+Thus we have shown that the only possible implementation of gethashcode is all of this put together makes it clear that you need to rethink the concept you are trying model and come up with a different definition of equals
+
+
+5558141
+spaces	linefeed
+Changed: 
+Once the loop hits the first character that doesn t match the criteria spaces stops and you have the desired result of trimming all extra cr linefeed and spaces characters only from the beginning of the string
+Origin: 
+once the loop hits the first character that doesn t match the criteria it stops and you have the desired result of trimming all extra cr lf and space characters only from the beginning of the string
+
+
+5560681
+portrait	landscape
+Changed: 
+If the changes to the ui between portrait and landscape orientations are so drastically different that landscape wouldn t be feasible to adjust in code you may want to create separate xibs for each orientation and load the right one when the device changes orientation
+Origin: 
+If the changes to the ui between portrait and landscape orientations are so drastically different that it wouldn t be feasible to adjust in code you may want to create separate xibs for each orientation and load the right one when the device changes orientation
+
+
+5568590
+postgresql	mysql
+Changed: 
+For one example postgresql and mysql both support auto-incrementing id numbers but mysql use different reserved words and technologies to implement those id numbers
+Origin: 
+For one example postgresql and mysql both support auto-incrementing id numbers but they use different reserved words and technologies to implement those id numbers
+
+
+5579015
+clang	llvm
+Changed: 
+Among llvm are clang and llvm-gcc
+Origin: 
+Among them are clang and llvm-gcc
+
+
+5584420
+freebsd	linux
+Changed: 
+I m done with a demo version but linux chroot is not that stable nor secure so i m now switching to freebsd jail on amazon ec2 and hopefully freebsd ll be done soon . there are also other java hosting environment including vmforce mentioned above
+Origin: 
+I m done with a demo version but linux chroot is not that stable nor secure so i m now switching to freebsd jail on amazon ec2 and hopefully it ll be done soon. there are also other java hosting environment including vmforce mentioned above
+
+
+5590968
+couchbase	couchdb
+Changed: 
+In a nutshell couchbase server takes all the chewy nosql goodness of couchdb and gives couchdb the crisp hard edge of a memcache frosting
+Origin: 
+In a nutshell couchbase server takes all the chewy nosql goodness of couchdb and gives it the crisp hard edge of a memcache frosting
+
+
+5596887
+hex	binary
+Changed: 
+When i ve read hex value permissions from database for appropriate client i convert hex to binary string where every digit 0 or 1 represents state of some permission flag
+Origin: 
+When i ve read hex value permissions from database for appropriate client i convert it to binary string where every digit 0 or 1 represents state of some permission flag
+
+
+5597565
+setinterval	settimeout
+Changed: 
+If however you want to do setinterval once use settimeout - you could do setinterval periodically with settimeout too except that you d need to make a call to set up the timer each time
+Origin: 
+If however you want to do it once use settimeout - you could do it periodically with settimeout too except that you d need to make a call to set up the timer each time
+
+
+5602805
+mvp	presenter
+Changed: 
+Bindingexpressions most importantly in mvp you would define an interface that represents how the presenter can interact with the view ixxxxview is a conventional naming pattern and when you create your presenter you pass in the view interface to presenter which is attached to the view instance
+Origin: 
+Bindingexpressions most importantly in mvp you would define an interface that represents how the presenter can interact with the view ixxxxview is a conventional naming pattern and when you create your presenter you pass in the view interface to it which is attached to the view instance
+
+
+5607207
+calloc	malloc
+Changed: 
+I chose calloc because calloc zeros the memory which makes all those pointers null but you could use malloc and null them yourself
+Origin: 
+I chose calloc because it zeros the memory which makes all those pointers null but you could use malloc and null them yourself
+
+
+5618335
+datalist	repeater
+Changed: 
+Use repeater instead of datagrid datalist because datalist is efficient customizable and programmable
+Origin: 
+use repeater control instead of datagrid datalist because it is efficient customizable and programmable
+
+
+5628139
+allocator	stl
+Changed: 
+By default if you omit the allocator stl will use std allocator which uses new and delete specifically operator new size _ t and
+Origin: 
+By default if you omit the allocator it will use std allocator which uses new and delete specifically operator new size_t and
+
+
+5637411
+ati	nvidia
+Changed: 
+Intel is definitely the limiting factor here even when ati or nvidia doesn t have hardware support nvidia release opengl 4.1 drivers which use software to emulate the missing features
+Origin: 
+Intel is definitely the limiting factor here even when ati or nvidia doesn t have hardware support they release opengl 4.1 drivers which use software to emulate the missing features
+
+
+5641361
+google-chrome	firefox
+Changed: 
+I don t use firefox but google-chrome wouldn t shock me at all if firefox was designed the same way
+Origin: 
+i don t use firefox but it wouldn t shock me at all if it was designed the same way
+
+
+5644966
+uilabel	nsstring
+Changed: 
+As far as your code line concerned you are getting a nsstring object from myarray at index indexpath.row and assigning nsstring to text property of uilabel textlabel
+Origin: 
+As far as your code line concerned you are getting a nsstring object from myarray at index indexpath.row and assigning it to text property of uilabel textlabel
+
+
+5647816
+implements	extends
+Changed: 
+extends implements empty methods for keylistener to avoid writing them out
+Origin: 
+it implements empty methods for keylistener to avoid writing them out
+
+
+5649131
+addition	multiplication
+Changed: 
+If you do division cleverly you only do addition not even multiplication
+Origin: 
+If you do it cleverly you only do addition not even multiplication
+
+
+5652423
+onresume	onpause
+Changed: 
+Try to store all the instance variables in onpause and try to restore onpause value in the onresume method
+Origin: 
+Try to store all the instance variables in onpause and try to restore their value in the onresume method
+
+
+5654505
+implements	extends
+Changed: 
+You have to implements the onclicklistener in your activity public class main extends activity implements onclicklistener then you can use onclicklistener like this numb2.setonclicklistener this
+Origin: 
+you have to implement the onclicklistener in your activity public class main extends activity implements onclicklistener then you can use it like this numb2.setonclicklistener this
+
+
+5667400
+dbcontext	objectcontext
+Changed: 
+Because dbcontext is only a wrapper api around objectcontext dbcontext s almost safe to assume that dbcontext also will work in ef 4.0 .
+Origin: 
+Because dbcontext is only a wrapper api around objectcontext it s almost safe to assume that it also will work in ef 4.0.
+
+
+5675205
+bufferedreader	ioexception
+Changed: 
+Scanner hides ioexception while bufferedreader throws ioexception immediately
+Origin: 
+Scanner hides ioexception while bufferedreader throws it immediately
+
+
+5680037
+multiplying	division
+Changed: 
+You could also keep a around and multiplying with division
+Origin: 
+you could also keep a around and multiply with that
+
+
+5687741
+comparator	comparable
+Changed: 
+Here is a comparator implementation which works on any comparable objects so you could use tree maybe internally as an adapter for the comparable variant
+Origin: 
+Here is a comparator implementation which works on any comparable objects so you could use it maybe internally as an adapter for the comparable variant
+
+
+5694645
+prng	random
+Changed: 
+The sequence is not truly random in that random is completely determined by a relatively small set of initial values called the prng s state
+Origin: 
+The sequence is not truly random in that it is completely determined by a relatively small set of initial values called the prng s state
+
+
+5696695
+vb6	vba
+Changed: 
+First see the creating your own collection classes section of the old visual basic 6.0 programmer s guide there is also an answer here on stackoverflow that describes the same thing vb6 equivalent to list someclass however vba are written for vb6 not vba
+Origin: 
+First see the creating your own collection classes section of the old visual basic 6.0 programmer s guide there is also an answer here on stackoverflow that describes the same thing vb6 equivalent to list someclass however those are written for vb6 not vba
+
+
+5696836
+profiler	gprof
+Changed: 
+The profiler seems based on gprof and here are some comments about profiler
+Origin: 
+The profiler seems based on gprof and here are some comments about that
+
+
+5698366
+memcpy	malloc	memcpy	strcpy	strcpy	malloc
+Changed: 
+If what you want is a copy - you need to allocate memory using malloc and then actually copy the values using strcpy if malloc s a null-terminated string memcpy or a loop otherwise
+Origin: 
+If what you want is a copy - you need to allocate memory using malloc and then actually copy the values using strcpy if it s a null-terminated string memcpy or a loop otherwise
+
+
+5699648
+uiviewcontroller	uinavigationcontroller
+Changed: 
+This nib has as uiviewcontroller s top level view a plain jane uiview and a uinavigationcontroller
+Origin: 
+This nib has as it s top level view a plain jane uiview and a uinavigationcontroller
+
+
+5723898
+dbcontext	objectcontext
+Changed: 
+If you cast dbcontext back to objectcontext then you should check dbcontext api because dbcontext offers equivalents of attach or changeobjectstate dbset.attach ande context.entry entity . state
+Origin: 
+If you cast dbcontext back to objectcontext then you should check dbcontext api because it offers equivalents of attach or changeobjectstate dbset.attach ande context.entry entity .state
+
+
+5724571
+uiview	subviews
+Changed: 
+From the uiview class reference normally a subviews s visible area is not clipped to the bounds of subviews superview but in ios you can use the clipstobounds property to alter that behavior
+Origin: 
+from the uiview class reference normally a subview s visible area is not clipped to the bounds of its superview but in ios you can use the clipstobounds property to alter that behavior
+
+
+5753163
+scheme	racket
+Changed: 
+Disadvantages are run-time type checking racket support compile-time weak standard r5rs as scheme does not include modules utf8 networking and so on and programmer usually have to stay with chosen scheme implementation forever
+Origin: 
+Disadvantages are run-time type checking racket support compile-time weak standard r5rs as it does not include modules utf8 networking and so on and programmer usually have to stay with chosen scheme implementation forever
+
+
+5755516
+invokelater	invokeandwait
+Changed: 
+Note that invokeandwait will throw an exception if invokeandwait is called directly from edt invokelater will not but invokeandwait is still not recomended to do so so the code that may be called from both edt and side thread should be written as follows for the purpose of simplicity and readability you may extract inner code to a method
+Origin: 
+Note that invokeandwait will throw an exception if it is called directly from edt invokelater will not but it is still not recomended to do so so the code that may be called from both edt and side thread should be written as follows for the purpose of simplicity and readability you may extract inner code to a method
+
+
+5756128
+bmp	png
+Changed: 
+Not only do png files have natural support for transparency png are also smaller than bmp files
+Origin: 
+Not only do png files have natural support for transparency they are also smaller than bmp files
+
+
+5756378
+noexcept	throw
+Changed: 
+If a library swap function move-constructor or move-assignment operator is conditionally-wide can be proven to not throw by applying the noexcept operator then throw should be marked as conditionally noexcept
+Origin: 
+if a library swap function move-constructor or move-assignment operator is conditionally-wide can be proven to not throw by applying the noexcept operator then it should be marked as conditionally noexcept
+
+
+5760019
+ioexception	printwriter
+Changed: 
+None of the printwriter methods throws ioexception instead printwriter set a boolean flag which can be obtained using checkerror
+Origin: 
+None of the printwriter methods throws ioexception instead they set a boolean flag which can be obtained using checkerror
+
+
+5769062
+haskell	scheme
+Changed: 
+Lots of different compilers for example haskell and various scheme have used c as scheme target language
+Origin: 
+Lots of different compilers for example haskell and various scheme have used c as their target language
+
+
+5774870
+oncreate	onstart
+Changed: 
+You might also want to make oncreate onstart final although oncreate s difficult to see what the benefit is of forcing myoncreate instead of oncreate
+Origin: 
+You might also want to make oncreate onstart final although it s difficult to see what the benefit is of forcing myoncreate instead of oncreate
+
+
+5786883
+gitolite	gitosis
+Changed: 
+gitolite s similar to the gitosis one
+Origin: 
+It s similar to the gitosis one
+
+
+5792777
+carrierwave	fog
+Changed: 
+S3 storage is supported natively trough fog wich needs no set-up or configuration other then a few lines in your uploader file in carrierwave carrierwave
+Origin: 
+S3 storage is supported natively trough fog wich needs no set-up or configuration other then a few lines in your uploader file in carrierwave itself
+
+
+5804310
+cakephp	kohana
+Changed: 
+I am not going to go into great detail here because i know kohana and cakephp are similar and cakephp mostly opinion
+Origin: 
+I am not going to go into great detail here because i know kohana and cakephp are similar and its mostly opinion
+
+
+5812916
+xlib	xcb
+Changed: 
+In fact xcb was created precisely because xlib was too high-level masking too much underneath so xlib was easy to make mistakes and making xlib difficult or impossible to have full control
+Origin: 
+In fact xcb was created precisely because xlib was too high-level masking too much underneath so it was easy to make mistakes and making it difficult or impossible to have full control
+
+
+5815482
+hmac	md5
+Changed: 
+Unlike say an md5 signature hmac s generated using a secret key known only to you and the receiving party so that hmac shouldn t be possible to forge by a third party
+Origin: 
+Unlike say an md5 signature it s generated using a secret key known only to you and the receiving party so that it shouldn t be possible to forge by a third party
+
+
+5824941
+imagemagick	libjpeg
+Changed: 
+You can test imagemagick from the command line using the convert command imagick needs to be installed this is the php library that binds to imagemagick imagemagick libjpeg depends on various other libraries such as libjpeg and libpng
+Origin: 
+You can test it from the command line using the convert command imagick needs to be installed this is the php library that binds to imagemagick imagemagick itself depends on various other libraries such as libjpeg and libpng
+
+

@@ -1,0 +1,12 @@
+it is widely used to have a separated tag with the postfix -alpine in it to indicate that alpine * is used which is a much smaller base-image than the * image
+
+* makes it easier to maintain groups of machines without having to manually update each one using *
+
+i strongly suggest either of the first two options over the latter option as the latter option does not always play nicely with the way * and * handle transactions when more than one * are involved
+
+sometimes a * distribution contains far more than an operating system but is informally referred to by a single name such as * and so the line between what the operating system is the * kernel and standard libraries perhaps and the applications that merely ship with that operating system the gnome and kde environments on * is pretty gray
+
+* is more similar to * than it is to watchos although they all have some similarities
+
+be aware that the bourne shell in * is more capable than on *
+

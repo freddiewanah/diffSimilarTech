@@ -1,0 +1,32 @@
+the maximum representable value with * 754-2008 binary32 is so the base 2 log of a number stored in binary 32 is less than * 128
+
+double has its * floating point definition which is also much more complex than *
+
+* types libraries are fantastic for financial applications because we re used to dealing with the style of rounding required in financial stuff but there is the cost that they tend to be slower than * floating point
+
+extfs4 or * are between 25 and 40 faster than * or refs depending on the optimization
+
+it is working only for simple .php files but * is more complex and after long period of loading it show * nothing found site loaded
+
+* is imho easier to learn than *
+
+* is easier for most people to convert to and from * in their heads since * numbers are usually expressed in blocks of eight because that s the size of a byte and eight is exactly two * digits but * notation would have been clunky and misleading in dennis time implying the ability to address 16 bits
+
+one important reason is because * is alot shorter and easier to read than * is for humans
+
+* encoding is far more readable than * that s why sublime uses it
+
+but when anyone human looks at it they look at it in * using a * editor which is much easier than reading *
+
+i ve been using images to store data since editing * data through paint.net is much friendlier than most * editors
+
+those * values seem a bit odd they re powers of two in decimal but in any case 0x128 the 0x is a standard prefix for * numbers is the larger of the numbers in magnitude and its * representation is 100101000
+
+if the right side the * side is greater than or equal to the * side then you print true if not then you print false
+
+format_int in * case it loops 4 times then 4 times more than * and dec cases
+
+in this case i converted the * to * and found the file size on the hard drive it was on my own laptop at the time but it was much smaller in * than in * but there could have been some compression applied i dont know but everything on the web said * would actually be bigger than *
+
+bitshifts just go easier with hexa* than * and is often more convenient to read than *
+

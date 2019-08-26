@@ -1,0 +1,48 @@
+B is much more similar to oracle than B is
+
+B is a bit more restrictive than B
+
+unfortunately in B select count is often slower than B to which it often get s compared to
+
+for example pyqt is already available for python 3 as well as 2 and you can use B a splendid open-source sql database engine much more standard than B via py-B
+
+B is more permissive and allows the non-standard use of distinct but B throws an error
+
+B supports recursive queries in the form of recursive common table expressions which make querying heirarchical data easier than in B and also give better performance
+
+since B is a lot more sane than B there are not that many tricks to report on
+
+in other words is B better or worse than B to handle unicode etc
+
+B has better support but the support by B depends on the used storage engine
+
+though B is more popular than B but instagram is using B maybe due to these reasons
+
+if you want open source B is much smarter than B as well
+
+i am using B btw which can do more than B incase that changes things
+
+i d have said that B is more security aware than B supporting roles more authentication methods ... but that the database itself has generally a very limited impact on the security of an application
+
+i really like B s indexes which are far better than B s
+
+this is ancedotal but the B servers i ve managed have always been much less troublesome than B which likes to randomly crash once in a while occasionally corrupting a table on the way down
+
+anyways B is bad and on longterm especially if you are enough good for java i suggest you to use some better db with B you were really satisfied i think
+
+B is much better suited for data warehousing compared to B
+
+and a wiki for why B is better than B
+
+B is worth learning and much more advanced than B
+
+the only reason i was considering B was that some research suggested B has much better support for changing schemas along the way than B
+
+the query optimizer in B is more advanced than in B and copes with complicated statements much better especially when it comes to sub-selects
+
+this is a weak point that iirc B can handle better but with B you have to work around that by reverting the changes yourself in case of rollbacks
+
+honestly though B scales much better than B
+
+B is a little more strict than B about type conversion and does not let you implicitly cast convert between numbers and strings
+

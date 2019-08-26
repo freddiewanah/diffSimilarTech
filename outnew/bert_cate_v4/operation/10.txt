@@ -1,0 +1,44 @@
+i presume that you know that using a * is a lot slower than * by decimal number 5 is always slower than 0.2
+
+in t-sql unary minus is made to be the same priority as * which is lower than *
+
+edit as gregs points out in the comments you cannot be sure that the private * of the key you want to encrypt is smaller than the * of the key you want to use to encrypt with
+
+the private * must not be longer than the *
+
+for integers * is harder than * may be slower than * etc but may still be very fast as long as there is sufficient cpu-power dedicated to it
+
+in arithmetic books and computer software and more-expensive calculators this means 12+ 34 56 not 12+34 56 because * has higher precedence than *
+
+associativity and precedence specify that the last two statements must be performed in that order since * has higher precedence than *
+
+so every multiplicative-expression is an additive-expression but not vice-versa and this is what makes * bind tighter than *
+
+because the string formatting operator shares precedence with the remainder or * which binds more tightly than the + * operator
+
+that is essentially the one case in which repeated * 0 or 1 times a special case of repeated * can be and commonly is but not necessarily faster than division-based *
+
+i am pretty sure it is not possible to compute polynomial * more efficient than * and as you can see in the following table this algorithm is only 3 times slower than a single *
+
+* is one of a number of operations which as far as computational complexity theory is concerned are no more expensive than *
+
+why does * take so much longer than *
+
+in many processors integer * is vastly faster than integer *
+
+* is much faster than *
+
+i found out that integer * is much slower than * unfortunately
+
+i do not want to know when or if to use shift operators in my code i am interested in why * is faster than shifting bits to the left whereas * is not
+
+first of all * is faster than *
+
+* is a lot more expensive than *
+
+* is faster than * so the second method is faster
+
+i was thinking that there could be an issue if the result from the * is bigger than what 15 bits can represent 32767 or if i get a negative number in the *
+
+the first difference is that * is much more expensive than *
+

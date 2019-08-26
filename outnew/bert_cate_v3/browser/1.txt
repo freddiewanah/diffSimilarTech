@@ -1,0 +1,62 @@
+in * this might be handled a little nicer than * but rather than completely redraw an element you should try to append only what you need
+
+* is reporting the missing key with a higher severity than * is so i want to eliminate that as a possible cause
+
+* seems to animate the element quicker than * does and so while a duration of 1s is enough for the animation in * * needs it to be 2s to be slower and show the effect
+
+also for animations * chromium behaves much better that is why i use it for development but do my general browsing in *
+
+obviously * is more persnickety whereas * defaults to moving and sizing the printout as necessary
+
+* can get away with more than * before aborting
+
+i have just noticed a site i am working on looks different in * than other browsers saf * everything is more saturated in * even a background-color rgb
+
+rendering without buffering on * is faster than * so i m actually not sure why * is having such a problem with drawimage
+
+maybe * is working faster than * try adding a wait with expected conditions
+
+my question is similar the same page in my pc renders fine * * but the same one on a server rendered smaller by * * ok
+
+performance is browser and device dependent for example * handles objects better than arrays while * prefers arrays
+
+this is because in ie and * the footer link text is larger than in * and safari therefore the margins that i ve set up for the icons do not work
+
+* encodes more characters than *
+
+using the same data * does in less than 5 seconds what took ie and * 10 to 15 seconds to accomplish
+
+also * s map function is up to 2x slower than * on my machine
+
+maybe * is more lenient when it comes to illegal characters in the url than * or something like that
+
+my * adds more chopping to video playing itself * plays the video much better
+
+use * rather than * - * with dev mode is much slower than *
+
+i ve tested the sample on * and it s a bit slower than * but usable
+
+i found programming * extensions easier than * but i couldn t come across something similar to xpcom in *
+
+my knowledge of * is better than * so my apologies if i missed something
+
+bad buffering can also be a result of a slow computer because statistics show that * is better for a normal-fast computer and * works best on slow computers
+
+* s default textbox includes more padding than ie *
+
+however a sdp object local description by * does not contain datachannel at all and moreover the sdp is much shorter than * and less information bundled
+
+spidermonkey * is slower 50 of * max speed but the speed is consistent
+
+arabic default font in * is larger than it is in *
+
+i have encounter a problem with * that is similar to an older issue with * at this url scrolling blocks javascript execution in *
+
+apparently * is pickier than *
+
+* has even fewer as far as i know and * has none
+
+from testing this in * and * it seems * is more forgiving in that it parses the style string and puts the right style in place for you but * does not
+
+total width of button in * web inspector 6px larger than in * web inspector
+

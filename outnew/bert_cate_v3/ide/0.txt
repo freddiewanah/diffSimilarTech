@@ -1,0 +1,14 @@
+however i do not know if * has a comparable option like that as it has less functionality than * or even intellij
+
+if you re focussing on pure client code then i find * to be an excellent javascript html ide - even better than *
+
+consider using * canvas now ga which is an added-value iframe with more security and easier integration with * apis than raw iframes - see
+
+* is more of a replacement of an ide for mac and linux in windows the recommended thing is to use visual studio or *
+
+webstorm + pycharm + * + phpstorm though to be fair * has more features than * atm
+
+another alternative that people might mention is * which is from jetbrains but its closed-source not well supported and whilst it might look nicer than * it has more or less the same features but is much more resource-heavy and laggy so i d pass on that
+
+for that purpose i want to transform the * model into a c version and launch it from a * script so that the process would be much faster than opening * environment
+

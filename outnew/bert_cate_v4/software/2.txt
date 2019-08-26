@@ -1,0 +1,8 @@
+from my experience * 5 is faster than * 4.2 rc3 and has better smp performance
+
+* is slower than *
+
+however i wonder if this is the best way of doing this if you want to observe specific behaviour you might be better off isolating a specific input file and debugging against a local pseudo-cluster and if you want system * you could do worse than give * a lookm as it is pretty mauch already built into hadoop
+
+* is maintained has a dozen features more than * and the author actually responds to emails
+

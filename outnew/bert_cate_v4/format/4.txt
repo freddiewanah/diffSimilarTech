@@ -1,0 +1,14 @@
+2 * seems a little better than * but not much
+
+regearding your comment i also know that it can deal with * better than * and ogg that is not really the case
+
+i ve heard that * decompression requires much more memory than * decompression
+
+convert it to * 10-30 smaller than * on average
+
+it might help to reduce your * file sizes smaller oh and i believe -depth 8 can only be used for * images
+
+for example * has better support for transparency than * or jpeg
+
+many people don t know about 8-bit * which is usually better than * in size.
+

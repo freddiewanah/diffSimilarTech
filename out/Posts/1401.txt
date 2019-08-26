@@ -1,0 +1,82 @@
+26920
+struts	wicket
+i had successfully developed an online banking application with struts when i discovered wicket and saw how easy web application development can be
+
+26942
+swt	swing
+combined with the free nsis installer you can build a nice package for your windows users
+edit did not see that you use swt
+don t know if it works with swt as well because i used only swing in my apps
+
+26965
+boost	stl
+if you look into stl boost mfc atl and many open source projects you can see there are so many assertion statements and that makes project going further more safely
+
+26969
+cvs	svn
+and cherry-picking merges while not trivial is not terribly difficult and far more advanced than anything svn or cvs can do
+
+26973
+client-side	server-side
+because merges are performed client-side they are much faster and less error-prone than initiating a server-side merge
+
+27000
+nullpointerexception	indexoutofboundsexception
+on the other hand nullpointerexception s and indexoutofboundsexception s might actually often be appropriate
+
+27032
+min	max
+rather than just dropping controls on the form you ll have to play a bit with panels padding min max sizing and docking
+
+27051
+ubuntu	debian
+however you must make locale files for en_nz
+for ubuntu edit var lib locales supported.d local and add en_nz iso-8859-1 to the file
+if your system is another distribution including debian the location will be different
+
+27148
+rss	feed
+i want to merge multiple rss feed into a single feed removing any duplicates
+
+27156
+feeds	rss
+i played with it during beta back in the day however i had a blast
+its really fun and easy to aggregate different feeds and you can add logic or filters to the pipes
+you can even do more then just rss like import images from flickr
+
+27160
+csv	tsv
+from my experience even just excel makes a pretty good tool for quickly whipping up graphs of perfmon if you relog the data to csv or tsv
+
+27162
+rss	feed
+here is an article on merge multiple rss feed into one with yahoo
+
+27244
+rss	feed
+simplepie is a php library that supports merging rss feed into one combined feed
+
+27256
+jquery	scriptaculous
+to put some names out there prototype scriptaculous jquery dojo yui ...those all seem to have active users and contributers so they are probably worth reading up on to see if they meet your needs
+jquery is good but with a little extra effort maybe you ll find that something else works better for you
+good luck
+
+27281
+post	get
+it would look like this then to get the selected key you could do or if you are using xhtml then you can create a custom namespace
+since you say the keys can repeat using the value attribute is probably not an option since then you wouldn t be able to tell which of the different options with the same value was selected on the form post
+
+
+27340
+post	get
+then in the httphandler perform the same hash and only run if they match
+should i added variables to the query string or post the data i need to send
+i d like to come up with a solution that would prevent a person with basic computer skills from accidentally or intentionally accessing the page directly considering the callback is buried in the client code it would take someone with equal determination to get either the querystring or the post request
+
+27345
+mamp	wamp
+i know that i can do it using macports but i d prefer not to make any changes to my default os x php installation
+i m running mamp 1.7.2 on a mac and i d like to install the extension php_gd2
+i know that on windows using wamp i d simply select the php_gd2 entry in the extensions menu to activate it
+

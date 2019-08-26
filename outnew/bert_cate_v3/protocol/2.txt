@@ -1,0 +1,100 @@
+what happen when * is disabled in an router and when packet size greater than * how the router fragments that packet
+
+any device in the path of communication between the sender and receiver whose * is smaller than the packet will drop such packets and reply the sender with * destination unreachable datagram too big message containing the device s *
+
+one might want to define * access to more than one * server
+
+* could be considered as a better option than *
+
+as i understand websockets are on top of * and have higher latency than * that underlies webrtc when for example sending binary data between server and browser that also could be 2 peers in webrtc
+
+push log files to a central location * is faster than * the windows * command can be automated with -s scriptfile
+
+i am confused why * throughput is bigger than *
+
+* socket is even more likely than * socket but both work
+
+* is really faster than * and the simple reason is because it s non-existent acknowledge packet ack that permits a continuous packet stream instead of * that acknowledges a set of packets calculatd by using the * window size and round-trip time rtt .
+
+because there is no confirmation on * packets it s slightly faster than *
+
+* scales better than * because of reduced states that need to be maintained in the operating system
+
+http is an application layer protocol which could be encapsulated with a protocol that uses * providing arguably faster reliable communication than *
+
+with * its slightly slower than * and has more features
+
+one often finds the argument that * is faster then *
+
+scenario where * is better than *
+
+if the network between the two point have a very high quality * is absolutely faster than * but in some other case such as the gprs network * may been faster and more reliability than *
+
+* mounts are more reliable and you know you have a network problem much faster than with *
+
+we know * is better suited for this but the hardware development decided it s got to be *
+
+if you can do everything with * it is lighter than *
+
+* just has a smaller overhead than * but that comes at the cost of reliability
+
+-- does * always perform better than *
+
+what is that key feature in * that makes it have much much higher throughput than *
+
+as an additional note my suspicion is that you d need to indulge yourself in some pretty sophisticated benchmarks before you could conclude that * is actually going to have higher performance than * for web services
+
+for example * has much more flags window-length syn ack etc - and also starts and ends a connection in a very stable way - the three way handshake - while all * has is source ip dest ip length source port dest port and checksum
+
+try to increase timeout value * is slower than *
+
+in gaming especially fpss * tends to be the chosen protocol because it s much less chatty than *
+
+it may be that the kernel heuristics for servering * connections is more aggressive than for * sockets since * connections require more state and more continuous processing than do * sockets
+
+some protocols are more complex because what s needed are some but not all of the features of * but more than what * provides
+
+you could get them to do a * multicast within a lan environment to identify the programs using protocol messages then have a stored cache of each other s identity and then use * to connect and do main exchanging of messages which is more reliable than *
+
+* as you know * is faster than * even if * may miss some
+
+first of * s datagram is simpler than * s one
+
+the strange thing is that when streaming is done via rtsp unicast * generates both sender reports and receiver reports but when streaming is done via * multicast only sender reports are generated
+
+ever since i did sockets programming on a pdp 11 it s been the case that ip fragmentation will take care of the case where an ip datagram such as a * datagram is larger than the * for the segment allows
+
+if * payload size is bigger than * size * will silently segment the packet
+
+they are easily generated for * simply by making the datagram bigger than the *
+
+my lwip can send * packets to pc but my pc would fail to reassemble when the * packets are larger than *
+
+if you send a * datagram larger than the * it will be fragmented
+
+to send large blocks of data via * you need to chop them up into pieces smaller than the * for the network segment across which you re transmitting them
+
+if there is network congestion rate limiting or traffic profiling or if the * message size is larger than the *
+
+in real life * packets size usually is equal or less than * size
+
+basically while sending * packets larger than * ip fragmentation can occur if it s supported on your platform but not all platforms support it
+
+note that * packets bigger than the * s at every hope between your hosts will be split by ip
+
+ideally your * frames are smaller than the * for your architecture say 1500 bytes so the messages won t get chopped up in transit
+
+when send a * datagram larger than the * size only the last fragment of the * datagram is putted out to the destination
+
+now if you re intending to use a remote filesystem with ofs which is the primary use-case you have to first install the relevant remote filesystem packages on the os you re using then use for example if we ve got * which is the newer name for * samba
+
+an * packet has a header that is 20 bytes and is probably going to be slightly slower than *
+
+regardless the * protocol is more simplistic in nature can handle orders of magnitude more client connections than * for the same memory utilization uses less bandwidth on the wire doesn t require authentication although you can add this feature etc
+
+if you are using linux check out netdiscover this uses * i think * is lower level than * udp and with java you can only create apps from * udp and above
+
+as last resort resolution i don t suggest this for security issues using * is always safer switch your registry to use http instead of *
+
+there is a limitation on creating virtual hosts for name based virtual host while using * 443 port so if you want to have more than one * port enabled you will need ip based virtual hosting
+

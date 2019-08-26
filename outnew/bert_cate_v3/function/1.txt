@@ -1,0 +1,94 @@
+if you want longer * lets call more secure you should use something like sha512 * etc
+
+while * gives you automatic de-*tion on function exit the stack is usually a smaller resource than the * heap and if you exhaust the heap it gives you back null
+
+it s like complaining that a sha256 * is bigger than an * * - yep it is but only one of them might slow the attacker down for a while
+
+it is likely that you could do an sha * of 100kb in well less than 10 second though and though sha-1 is still theoretically flawed it is of higher strength than *
+
+double * *ing is actually less secure than a single * with some attack vectors
+
+if you don t need the cryptographic properties then a non-cryptographic * or a * that is less cryptographically secure * being broken doesn t prevent it being a good * nor still strong enough for some uses is likely to be more performant
+
+use * and choose *ing algorithm that suits you well if possible something stronger than * but don t go all the way to sha512 either
+
+other * functions such as sha-1 also have * collisions although it is much less likely than *
+
+malloc * is harder because thereâ s also * and realloc
+
+actionlink * is more often used to generate url properly based on the * route values etc and anchor tag based on htmlattributes etc
+
+in addition to the previous answers the strncpy char pointer which seems unsafe for my opinion and the * which is safer but you need to remember to * it outside of the function and its inconsistent with the hierarchy of the program you can do the following
+
+presumably the mac * aligns to bigger boundaries and so it s spotting the pointer you re passing to * can t be correct since it has the wrong alignment
+
+how does * know how much memory to be * d which was earlier allocated by * or calloc
+
+* is better than * with better error handling
+
+* is the more standard alternative of *
+
+i tend to use * only when i need to get the first non-null value from a set of 3 or more values as * only supports two parameters
+
+in most cases it has reviled indexes that needed to be add and in most cases the indexes improved the queries the most but after thet have been added the * and dynamic still perform better than the *
+
+after reading a question related with the performance of * * why is std * and std * slower than * and *
+
+also * is slower than * from operating system memory allocation perspective
+
+* is faster than * reason is that * processed single dimensional array to pointer format whereas * takes double dimensional array and before processed it converts to single dimensional array then to pointer format
+
+* is faster than * + memset because * knows that the mmap d pages are pre-zeroed and memset forces the allocation of physical ram
+
+g_new and g_new0 both take the same arguments unlike * that takes less arguments than *
+
+actually calling memset after * is closer to calling * than the option you suggest
+
+the roundabout method i ve employed is to create additional columns with a regular * and counta formulae - in other words i count the number of countries a * has visited more than x times * and then use the counta to sum the number of * in that column who have visited x times
+
+from reading other so questions such as this or this gives the impression that * should work faster than * and intuitively this should be so
+
+while * will be only slightly slower than * due to the assumptions it needs to make about the source and destination in * they cannot overlap it should still be far superior to any standard loop
+
+* is still a little bit slower than *
+
+if you cannot tolerate that use * it s harder to use so use * if in doubt
+
+one more edit if you want to use * instead which you asked about in the comments - and it s even safer than * since it will increase the buffer size as needed you would change to change the code a little bit
+
+although you could tell dancer2 plugin passphrase to use a 4-byte * it s much easier to just use * *edhash everywhere
+
+in the case of overflow a free * pair costs less than * because of its internal hidden memcpy
+
+but if it works with large datasets the users will notice that using the * -only program slows down other programs much more than the * -using program with the same data
+
+prepending a * is also more powerful than directly setting the seed values because in addition to changing the internal state of the * if the * is not a multiple of the digest block size then it can also perturb the alignment with which the input is fed into the * function
+
+restructuring of the database to just add an * field is better option or the only one really if your going to do it properly but you could use your currant * field to store the * as other person posted
+
+the more randomness and more characters your * has the better for the * but anything that s several characters long and random works
+
+* ... is extremely fast 10 - 100 times faster than * ... or read.csv ... for large datasets
+
+* performs faster and more efficiently than * but * produces less no errors on the same data set
+
+for reading large csv files you should either use readr read_csv or data.table * as both are much faster than base *
+
+callee is too large message is printed by c1 when the size in bytecodes of the method being * is larger than max*size 35 multiplied by nested*sizeratio 90 on each next level of *
+
+afaik * is not slower than *
+
+the features stemming from those discussions permit less extreme * than processes which is symmetrically like the provision of more extensive independence between *
+
+dynamic memory management on an small embedded system is tricky to begin with but * is no more complicated than a * and malloc of course that s not what it does
+
+i probably feel * might be bit faster than * as * changes the pointer position to the new address space that you have mentioned and there is no date read is happening
+
+i.e * is actually better than the simpler * if you are willing to improve the code
+
+* is notoriously unsafe as are it s cousins *_s and * although they are mildly safer than *
+
+* incoming connected will overwrite dataa and maybe datab if your first token pointed to by header is shorter than * connected
+
+which is more efficient is up for debate but based on cpu bulk instructions which can copy an entire block of memory in one instruction * is probably faster as * would check each copied byte for a nul character
+

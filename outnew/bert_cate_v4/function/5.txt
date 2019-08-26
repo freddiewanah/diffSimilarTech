@@ -1,0 +1,60 @@
+because of the above replace strdup with strlen malloc * * is slightly faster than *
+
+memset behaves like * but the difference is that * copied the data as it is byte but * copies the formatted string as well so takes more time than * to execute
+
+additionally if you have * then it is much more convenient than * + malloc + strcpy with identical result including the same obligation to free the allocated storage when you no longer need it
+
+it is likely that you could do an sha * of 100kb in well less than 10 second though and though sha-1 is still theoretically flawed it is of higher strength than *
+
+if you don t need the cryptographic properties then a non-cryptographic * or a * that is less cryptographically secure * being broken doesn t prevent it being a good * nor still strong enough for some uses is likely to be more performant
+
+with a salt * is much more secure than without but you re better off using one of the sha * such as sha256managed
+
+* is no longer secure and it can be broken with a good gpu no typo you can use your graphics card to break a *
+
+in that case some * functions are somewhat faster than other * being one of the fast functions but md4 is faster and it is simple enough that its code can be included in any application without much hassle
+
+but if you still wish to figure out the phpbb password encryption * it is no longer * in version 3.0 or higher and is a custom *
+
+how does * know how much memory to be * d which was earlier allocated by * or calloc
+
+* is also more appropriate than *
+
+* is more correct of course you could just embed * over and over and over... but put that under a performance microscope and * may just win
+
+* performs better than the generic * and better than having another and
+
+note * is safer than *
+
+you should use * to compare your strings it s safer than *
+
+in addition as mats petersson said * is cache friendlier than *
+
+since i provided a * example above your read loop can be much better written with * as follows
+
+if you cannot tolerate that use * it s harder to use so use * if in doubt
+
+the justification of * is that it s faster than 2nd * manual copy free
+
+key strengthening techniques such as bcrypt or * are generally considered better than plain * since cracking them requires more resources
+
+i don t know how safe could it be and how difficult is for the hacker to determinate the technique i use the thing is that the result has the same length as the * and is harder to determinate a * so if for any reason in the history hacker uses a rainbow table and catches a probable result it will be the wrong
+
+a similar argument can be made for * functions * is generally faster but will remain in the same big-o complexity class although there is an additional size tradeoff * makes your compiled program larger if the code was being used in many places
+
+a malloc * pair can be better than a * if you don t need to keep around the original memory
+
+so that the * is more secure than *
+
+the best solution is to write a custom version of * that is less weird or if you know the length of the input just use *
+
+i was exploring around with c regarding * since most people says that it is safer than * additional parameter length to avoid buffer overflows
+
+* is safer than *
+
+* is notoriously unsafe as are it s cousins *_s and * although they are mildly safer than *
+
+you d be better off using * for this as it s dumber than *
+
+the second *ing function is * which supports many more algorithms and variants than * but does not support some algorithms that * does
+

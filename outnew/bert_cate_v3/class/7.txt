@@ -1,0 +1,44 @@
+* is more generic than * and you can custom almost thing on it
+
+instead of using a * in this instance perhaps you might consider using a * - they are built for something like you describe more than a *
+
+you can have only one * but can plug in more than one * to examine and handle the requests
+
+it is worth mentioning that there is a commercial product named * that is much more powerful than jvm *
+
+the * process is much simpler as you only need to attach the * object
+
+* has some slightly better functionality than * but is a bit harder to use
+
+i d like to use * to encode the data coming from the camera reason it s more low-level so hopefully faster than using *
+
+this relates to another question i asked a while back at size of qt containers is * much larger than *
+
+the app uses a * that never has more than 1 * on it s stack
+
+i want to add a * of smaller frame as * to parental view but i am not getting the needed
+
+though earlier * and uiscrollview have the same area after keyboard shown the blue * becomes smaller but its * button text fields is outside its area
+
+you are seeing a noticeable jump in interface response because * do in fact consume quite a bit of memory * are very expensive compared to their underlying calayers and as such calling -removesubview not only unloads stress from the gpu but also frees up more memory as the * is usually released afterwards
+
+* defines more general features of the objects of its *
+
+the * has a more stringent constraint on a property content blank false than the * content nullable true and i am using tableperhierarchy false
+
+so what this says is that provided your * doesn t have any more values than the * used to determine ordering implementing is reasonable
+
+i d rather use * because it requires less code than * httpwebresponse
+
+* has more features than * so it might be better suited and more easily adapted for your purposes
+
+depending on how your application is structured this means you may want to have your own base class implementing iresource which creates your custom not found resource for all of its * or better make a wrapper since composition is better than *
+
+finally consider that you can have more than one * as well as more than one * running on a *
+
+less is a css extension that enables reuse and encapsulation of values color values for instance improves * allows a better nesting of related * and operations also
+
+unless you know exactly what you are doing do not use the same * for more than one *
+
+well obviously you created an implementation * which has a little bit more specialized interface than *
+

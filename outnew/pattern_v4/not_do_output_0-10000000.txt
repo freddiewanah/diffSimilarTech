@@ -1,0 +1,2248 @@
+34338
+phpunit simpletest
+Pattern(s): 3	
+as far as i know phpunit does not include a html gui but there are gui s available to download such as cool
+i found simpletest was even easier than phpunit to set up
+
+
+
+49060
+pascal delphi
+Pattern(s): 5	
+similarly because pascal has no notion of const ness that c++ has there is nothing in the type system to stop you
+a lot of people took advantage of this since turbo pascal and delphi did not at that time have initialized global variables as a feature
+
+
+
+60119
+cassini iis
+Pattern(s): 2	
+cassini does not support https
+however you can use iis to do this if your using iis 5.1 download the ms iis toolpack for iis 6.0 it comes with a tool to create self signed ssl certificates
+
+
+
+70627
+quicksort mergesort
+Pattern(s): 1	
+quicksort is not better it is well suited for a different kind of application than mergesort
+mergesort is worth considering if speed is of the essence bad worst-case performance cannot be tolerated and extra space is available
+
+
+
+76040
+xna slimdx
+Pattern(s): 1	
+xna isn t the only alternative though
+there is also slimdx which is under constant development as a means of providing a lean wrapper of directx in a similar fashion as managed directx which was i believe discontinued by microsoft in favor of xna
+
+
+
+78569
+atof strtod
+Pattern(s): 5	
+atoi and atof will convert the number even if there are trailing non numerical characters
+however if you use strtol and strtod it will not only skip leading white space and an optional sign but leave you with a pointer to the first character not in the number
+
+
+
+78627
+strtol strtod
+Pattern(s): 1	
+note also that strod strtol skip initial whitespace so if you want to treat strings with initial whitespace as ill-formatted you also need to check the first character
+use strtol strtoll not atoi to check integers. use strtof strtod not atof to check doubles
+
+
+
+78627
+atof strtod
+Pattern(s): 1	
+use strtol strtoll not atoi to check integers. use strtof strtod not atof to check doubles
+atoi and atof convert the initial part of the string but don t tell you whether or not they used all of the string
+
+
+
+78627
+strtol atof
+Pattern(s): 1	
+use strtol strtoll not atoi to check integers. use strtof strtod not atof to check doubles
+atoi and atof convert the initial part of the string but don t tell you whether or not they used all of the string
+
+
+
+109038
+cairngorm puremvc
+Pattern(s): 1	
+puremvc is anti-flex cairngorm just doesn t use many of the good parts of flex
+by this i mean that puremvc reinvents many things that flex already have because it wants to be platform agnostic and because of its architecture specifically the mediators it makes it harder to use bindings to their full power
+
+
+
+109038
+cairngorm puremvc
+Pattern(s): 5	
+in short cairngorm is the visualbasic of flex it works but will teach you a lot of bad habits
+puremvc isn t so bad it just isn t a very good fit for writing flex applications
+
+
+
+154976
+g++ gcc
+Pattern(s): 1	
+also use the correct gcc frontend executable g++ will treat .c files like c++ files unless you explicitly tell it not too
+so if you are compiling real c then use gcc not g++
+
+
+
+167681
+trac bugzilla
+Pattern(s): 5	
+of course trac doesn t have support for blocking blockedby tickets out of the box so if you want to import this data too you ll have to use the masterticketsplugin and then modify the script yourself which is what we did when we migrated
+for bugzilla trac has a script bugzilla2trac.py that will automate the process of importing bugzilla bugs to trac tickets for you
+
+
+
+168539
+vb.net vb6
+Pattern(s): 1	
+you may also like to take a look at these links this has an example of how to do what you want zipping using windows built-in zip capabilities from vb.net it shouldn t be much different from vba or vb6 transparent zip with dll call this one has a sample application on vb6 using windows built-in capabilities to zip in zip rather than gzip format of course using windows xp compressed folder shell extension to work with .zip files found both thru googling you should be able to find more better examples
+vba which is really a dialect of vb6 is slow for these kind of applications
+
+
+
+226519
+division multiplication
+Pattern(s): 3	
+division isn t going to have a big performance impact in your application
+floating-point division is generally especially slow so while floating-point multiplication is also relatively slow it s probably faster than floating-point division
+
+
+
+256398
+textmate aptana
+Pattern(s): 3	
+if you want something more minimalistic there is e text editor which supports textmate bundles not free though
+i ve been using aptana it s quite good with lots of features even in the free version you probably don t need pro
+
+
+
+261277
+boost stl
+Pattern(s): 5	
+i recommend nicola bonelli s answer to be accepted. that s part of the stl and doesn t require using boost if your code doesn t use boost thanks to the commenters for pointing this out
+boost has a utility called next and its inverse prior for just that purpose
+
+
+
+277445
+innodb myisam
+Pattern(s): 1	
+the main difference is that innodb supports transactions while myisam does not
+there are numerous other differences however the common one s i am aware of are myisam has typically been considered faster at searching but recent innodb improvements are removing this difference and improving high concurrency workload performance innodb support transactions whilst myisam does not innodb supports referential integrity whilst myisam does not innodb handles indexes a bit differently storing the primary key as part of every index making indexes take up more room on the disk but also making a covering index more likely myisam does table level locking while innodb can do row level locking different memory buffer index settings are used in the mysql configuration files innodb is typically said to have better crash recovery as mentioned in another answer the data is store on disk differently
+
+
+
+277445
+innodb myisam
+Pattern(s): 1	
+there are numerous other differences however the common one s i am aware of are myisam has typically been considered faster at searching but recent innodb improvements are removing this difference and improving high concurrency workload performance innodb support transactions whilst myisam does not innodb supports referential integrity whilst myisam does not innodb handles indexes a bit differently storing the primary key as part of every index making indexes take up more room on the disk but also making a covering index more likely myisam does table level locking while innodb can do row level locking different memory buffer index settings are used in the mysql configuration files innodb is typically said to have better crash recovery as mentioned in another answer the data is store on disk differently
+i believe innodb is configurable in this area and can have one file per table etc
+
+
+
+322241
+udp tcp
+Pattern(s): 2	
+udp doesn t provide the safety that tcp does but doesn t require a response but such responses are part of their protocols not yours
+i would suggest using tcp to save you some headache
+
+
+
+338821
+wordpress joomla
+Pattern(s): 3	
+wordpress isn t as good as joomla when it comes to user management though
+for example joomla can specify exactly what content users and user groups have access to
+
+
+
+350167
+gridview repeater
+Pattern(s): 1	
+if you don t need any of the features of a gridview why not use a repeater
+a repeater keeps it simple for implementation but also allows you to have full control over the generated source
+
+
+
+355790
+setinterval settimeout
+Pattern(s): 5	
+well the first thing to say is that if you re calling settimeout but not changing the interval you should be using setinterval
+edit update from comment you can keep a reference from the closure if used as a class and setinterval clearinterval don t require re-referencing
+
+
+
+367303
+inline inlining
+Pattern(s): 1	
+but it is up to the compiler if the method is actually inline or not
+the compiler inlining is sophisticated enough to only in-line if this will help in the optimization stratergy being used
+
+
+
+388090
+memcpy memmove
+Pattern(s): 5	
+memcpy should have that behavior
+memmove doesn t by design if the blocks of memory overlap it copies the contents starting at the ends of the buffers to avoid that sort of behavior
+
+
+
+389824
+innodb myisam
+Pattern(s): 1	
+innodb enforces foreign key constraints
+myisam doesn t enforce or even store foreign key constraints
+
+
+
+416917
+boost allocator
+Pattern(s): 1	
+replacing your containers with boost containers is not a good idea
+the work to make appropriate custom allocator wouldn t be that bad but you d be violating the spirit of your allocate at startup rule
+
+
+
+435831
+vb.net vb6
+Pattern(s): 2	
+if costs are a constraint you could try this there is a wizard in visual studio that will attempt to upgrade vb6 to vb.net
+it s not 100 accurate and you will have to write code for things vb.net does not support such as control arrays etc
+
+
+
+442181
+postgresql mysql
+Pattern(s): 5	
+in-query variable modification doesn t work in postgresql for instance this will work in mysql but not in postgresql i haven t tested this recently maybe it does work now. set a 1 select id a a+1 from some_table
+i also personally believe that postgresql has better handling of complex queries that include sub-selects and the like which most mysql users used to avoid
+
+
+
+525745
+des aes
+Pattern(s): 3	
+des is extremely easy to crack nowadays
+please use aes or at least 3des if aes is not available
+
+
+
+531083
+swt swing
+Pattern(s): 3	
+however there are a few things that swt does that swing doesn t do as well or at all -- such as launch the system s native browser and execute javascript scripts in this browser
+if you consider swt consider it carefully
+
+
+
+551301
+vim emacs
+Pattern(s): 3	
+vim does only text editing and that very well without plugins
+its up to you if you like emacs or not
+
+
+
+557079
+soappy suds
+Pattern(s): 5	
+soappy has support for attachments on its todo list
+suds does not mention the word attachments anywhere
+
+
+
+568356
+wxhaskell gtk2hs
+Pattern(s): 3	
+when wxhaskell was first announced at the haskell workshop the development of the native haskell api looked extremely promising but was still incomplete
+it looks as if the haskellized api for wxhaskell is still being worked on whereas the gtk2hs project doesn t mention this issue at all
+
+
+
+570707
+boost stl
+Pattern(s): 5	
+clarification boost did not boost up my ood skills
+stl boost is a tool for the job
+
+
+
+603150
+g++ gcc
+Pattern(s): 1	
+if you only installed c compiler you would have command gcc but not command g++
+g++ is c++ compiler not c compiler
+
+
+
+610260
+memcpy strncpy
+Pattern(s): 3	
+but for the example you give it doesn t matter - if it s going to fail it will be in the initial strlen so strncpy doesn t buy you anything in terms of safety and presumbly strncpy is slower as it has to both check bounds and for nul and any difference between memcpy and strcpy isn t worth changing code for speculatively
+i d tend to use memcpy if i have already calculated the length although strcpy is usually optimised to work on machine words it feels that you should provide the library with as much information as you can so it can use the most optimal copying mechanism
+
+
+
+610260
+strcpy strncpy
+Pattern(s): 3	
+but for the example you give it doesn t matter - if it s going to fail it will be in the initial strlen so strncpy doesn t buy you anything in terms of safety and presumbly strncpy is slower as it has to both check bounds and for nul and any difference between memcpy and strcpy isn t worth changing code for speculatively
+i d tend to use memcpy if i have already calculated the length although strcpy is usually optimised to work on machine words it feels that you should provide the library with as much information as you can so it can use the most optimal copying mechanism
+
+
+
+610597
+gif png
+Pattern(s): 1	
+png is capable of every image mode of gif apart from animation and when using the same image mode png will have better compression due to its superior deflate algorithm compared to lzw
+png is also capable of additional modes that gif cannot do such as 24 bit color and alpha transparency but this is where you need to be careful if you forget to convert to palette mode your png image may be saved in 24 bit color which will take more space
+
+
+
+610769
+gif png
+Pattern(s): 1	
+png is capable of every image mode of gif apart from animation and when using the same image mode png will have better compression due to its superior deflate algorithm compared to lzw
+png is also capable of additional modes that gif cannot do such as 24 bit color and alpha transparency but this is where you may run into problems on the web
+
+
+
+639452
+ubuntu debian
+Pattern(s): 1	
+unfortunately this ends up causing you a problem because ubuntu adopted all these packages from debian but doesn t support them in the same way as debian does and debian packagers seem to feel put upon to be asked to support these ubuntu users
+so ubuntu user goes to main exim list and is told to ask their packager for help
+
+
+
+665042
+postgresql mysql
+Pattern(s): 1	
+postgresql has better foreign key support better referential integrity transactions views subselects etc
+but that doesn t mean mysql doesn t have its place
+
+
+
+689320
+xna slimdx
+Pattern(s): 1	
+unfortunately microsoft no longer supports managed directx and it s successor xna does not support 64bit either
+slimdx is an open source alternative to managed directx and it supports 64bit
+
+
+
+711712
+super self
+Pattern(s): 5	
+not sure why they have super and parent mean the same thing typical confusion super is the receiver not the parent of its class
+just like self is not the receiver s class
+
+
+
+716454
+webclient httpwebrequest
+Pattern(s): 1	
+if you are worried though you may want to use webclient which is idisposable
+httpwebrequest doesn t implement idisposable since it can create a stream which does implement idisposable
+
+
+
+745963
+innodb myisam
+Pattern(s): 1	
+innodb is not always so lucky
+the myisam can also be backed-up out from under the database
+
+
+
+778759
+client-side server-side
+Pattern(s): 3	
+server-side validation is required simply because client-side validation can be disabled
+client-side validation isn t required but it makes your application more responsive during error handling as you no longer need to do a form submit to the server and wait for the resulting page to come back
+
+
+
+783534
+vb.net vb6
+Pattern(s): 5	
+i m unusual in that i come from a c c++ background know c# but actually prefer vb.net i severely dislike vb6 vbscript
+i say all this because it s important to remember the vb6 is not vb.net
+
+
+
+787394
+vbscript jscript
+Pattern(s): 5	
+vbscript has that ability as a global function but other windows script host languages might not
+for instance jscript does not have a global createobject function i believe it does however have a syntax so you do not need to use wscript.createobject in jscript either
+
+
+
+787579
+udp tcp
+Pattern(s): 1	
+i haven t seen this one per se but i have seen similar problems with large udp datagrams causing ip fragmentation which lead to congestion and ultimately dropped ethernet frames
+since this is tcp ip i wouldn t expect ip fragmentation to be a large issue since it is a stream-based protocol
+
+
+
+816676
+opera firefox
+Pattern(s): 5	
+browsers firefox 2 mac firefox 3 mac firefox 3 windows firefox 2 windows webkit nightly mac safari 3 windows safari 4 mac google-chrome latest version windows opera latest version windows opera latest version mac internet explorer 6 on the xp part of the windows machine internet explorer 8 w ie7 compatibility mode on the vista part of the windows machine e-mail clients covered apple mail thunderbird firefox rendering engine on the xp machine outlook express ie6 rendering engine outlook 2003 on the xp machine outlook 2007 on the vista machine all the popular web clients on all the browsers mentioned above live mail gmail yahoo
+mail things this setup doesn t cover i don t have mac os 10.4 i only test the latest version of opera not any earlier versions due to it s small userbase i test safari 3 and safari 4 both one on windows and one on the mac not both versions on both platforms
+
+
+
+816676
+opera safari
+Pattern(s): 3	
+mail things this setup doesn t cover i don t have mac os 10.4 i only test the latest version of opera not any earlier versions due to it s small userbase i test safari 3 and safari 4 both one on windows and one on the mac not both versions on both platforms
+now safari 4 is still in beta anyway
+
+
+
+816676
+opera firefox
+Pattern(s): 5	
+browsers firefox 2 mac firefox 3 mac firefox 3 windows firefox 2 windows webkit nightly mac safari 3 windows safari 4 mac google-chrome latest version windows opera latest version windows opera latest version mac internet explorer 6 on the xp part of the windows machine internet explorer 8 w ie7 compatibility mode on the vista part of the windows machine e-mail clients covered apple mail thunderbird firefox rendering engine on the xp machine outlook express ie6 rendering engine outlook 2003 on the xp machine outlook 2007 on the vista machine all the popular web clients on all the browsers mentioned above live mail gmail yahoo
+mail things this setup doesn t cover i don t have mac os 10.4 i only test the latest version of opera not any earlier versions due to it s small userbase i test safari 3 and safari 4 both one on windows and one on the mac not both versions on both platforms
+
+
+
+816676
+opera safari
+Pattern(s): 3	
+mail things this setup doesn t cover i don t have mac os 10.4 i only test the latest version of opera not any earlier versions due to it s small userbase i test safari 3 and safari 4 both one on windows and one on the mac not both versions on both platforms
+now safari 4 is still in beta anyway
+
+
+
+827859
+haskell sml
+Pattern(s): 1	
+sml ocaml f# and haskell allow closed sealed algebraic types to be defined to strengthen static typing by conveying more specific constraints implicitly
+ocaml and f# also allow open sum types whereas sml does not and haskell requires an elaborate workaround described by oleg kiselyov
+
+
+
+842610
+interpolation splines
+Pattern(s): 1	
+finding a local maximum of an interpolation splines is an easy enough thing
+note that you should generally use a true splines here not a pchip interpolant
+
+
+
+894539
+opera safari
+Pattern(s): 5	
+google-chrome and opera have this feature
+ie doesn t apple safari doesn t either
+
+
+
+927797
+redmine trac
+Pattern(s): 1	
+i know redmine has an additional feature that checks for these bug numbers in the commit logs and attaches the revision to the bug so you can see from the bug all the revisions that were involved in fixing it
+i d be suprised if trac doesn t have something similar
+
+
+
+937696
+floating-point fractions
+Pattern(s): 3	
+short answer python uses binary arithmetic for floating-point numbers not decimal arithmetic
+decimal fractions are not exactly representable in binary
+
+
+
+939808
+calloc malloc
+Pattern(s): 1	
+calloc does set the entire buffer to 0 but i can t imagine it being noticeably faster than malloc+memset
+allocating memory via new or malloc does not clear it
+
+
+
+945533
+postgresql mysql
+Pattern(s): 1	
+you have to use an other database like postgresql to get real blob support sorry
+i do not know which client api you use but when trying to use blobs from own java and objective-c clients it seems mysql does not really support streaming of blobs
+
+
+
+945832
+perforce svn
+Pattern(s): 1	
+as i see it the main reasons for using perforce are mature merge tracking
+svn isn t quite there yet
+
+
+
+964014
+perforce svn
+Pattern(s): 3	
+it s been some years since i last time used perforce but i remember it certainly didn t like anyone else messing with its workspaces
+svn doesn t like it either
+
+
+
+975194
+vb6 vba
+Pattern(s): 3	
+this knowledgebase article explains how to do it from vba it s exactly the same in vb6
+the references command is on the project menu in vb6 not the tools menu i think that s the only difference
+
+
+
+999255
+postgresql mysql
+Pattern(s): 5	
+also look at the native postgresql types point lseg box path polygon and circle if you want to understand more about how postgis works and why its 2d feature implementers have a shorter row to hoe in general
+mysql does not implement a lot of spatial queries -- i don t know for sure about contains but there are ways of approximating it and other functions
+
+
+
+1039669
+nexus artifactory
+Pattern(s): 5	
+that said i have never used nexus and cannot really help you with a proper feature comparison
+here are some things off the top of my head that i really like about artifactory keep in mind nexus may have these features too nice web 2.0 interface
+
+
+
+1041539
+apache nginx
+Pattern(s): 1	
+thus using keep alive on the apache side is pointless when using nginx in front of it
+because though nginx doesn t implement keep alive it should drop the connections promptly as it will have no intention of reusing them so you shouldn t suffer if you do forget to turn of keep alive in apache when using nginx as front end
+
+
+
+1088743
+coalesce isnull
+Pattern(s): 1	
+the coalesce is ansi standard and isnull is not
+but more important is the fact that coalesce is more flexible. isnull will only work with two parameters
+
+
+
+1144289
+g++ gcc
+Pattern(s): 2	
+in general you should be using g++ to compile c++ programs
+either use g++ readclientfile.cpp or gcc readclientfile.cpp -lstdc++ i m guessing gcc isn t linking vs
+
+
+
+1250008
+lisp scheme
+Pattern(s): 3	
+while common lisp supports a functional programming style that is not its general focus scheme while not purely functional is much closer
+common lisp supports a completely imperative style of programming very well
+
+
+
+1252126
+jsf seam
+Pattern(s): 5	
+i like jsf and i evaluated seam not long ago
+jsf is a web ui framework whereas seam is a more general web application framework that integrates not just jsf but conversational contexts workflow jbpm and object persistance preferably ejb3
+
+
+
+1255091
+dictionary map
+Pattern(s): 5	
+the dictionary is not thread safe so if you let one thread read from it while another thread is changing it you will have problems
+remember that using lock on the map object doesn t protect the map object in itself it s only using the map reference as an identifier to keep more than one thread at a time to run the code inside the lock
+
+
+
+1281258
+actionscript mxml
+Pattern(s): 3	
+mxml is simply declarative actionscript so there is no difference between creating your instance in actionscript or using the mxml notation
+your function could be changed to or if your actionscript does not have a reference to the display list than you cannot add the custom component to the display list
+
+
+
+1281258
+actionscript mxml
+Pattern(s): 5	
+your function could be changed to or if your actionscript does not have a reference to the display list than you cannot add the custom component to the display list
+adding an mxml based custom component is no different than adding any other displayobject to the display list is the same as both the sprite and the startsplashpage are extensions of displayobject at their core
+
+
+
+1301375
+division multiplication
+Pattern(s): 5	
+in 64 bits it s okay obviously after the multiplication has overflowed the division isn t going to undo that overflow
+because the multiplication overflows 32 bit integers
+
+
+
+1302763
+directx gdi
+Pattern(s): 5	
+directx is not something you would use to draw simple shapes rather render complicated 3d stuff also using dx api under c# is a bit trickier although not that hard
+read about gdi gdi+ system.drawing namespace for example here
+
+
+
+1459435
+freemarker velocity
+Pattern(s): 3	
+freemarker is also a lot more flexible in my experience
+velocity isn t really under active development any more
+
+
+
+1557382
+decoder encoder
+Pattern(s): 1	
+an amf3 decoder should not use the traits from a partially-constructed object -- such input should be flagged as erroneous
+the strings-reference table is implemented at the encoder by tagging in-memory string objects as they are serialized
+
+
+
+1618621
+udp tcp
+Pattern(s): 5	
+udp does not guarantee that a given packet was actually received so encoding whatever you transmit as a difference from last time is problematic -- you can t know that your counterpart has the same idea as you about what the last time was
+essentially you d have to build some overhead on top of udp to check what packets have been received tagging each packet with a unique id -- everybody who s tried to go this route will agree that more often than not you find yourself more or less duplicating the tcp streaming infrastructure on top of udp.
+
+
+
+1630987
+postgresql mysql
+Pattern(s): 3	
+pl postgresql is actually a nice language + you can use many other languages
+mysql doesn t have sequences so if you need them you have to roll your own
+
+
+
+1648773
+vim textmate
+Pattern(s): 5	
+vim offers coloration for diff files
+if you d rather go graphical use macvim which is free or textmate not free
+
+
+
+1667192
+google-chrome firefox
+Pattern(s): 3	
+for example google-chrome doesn t highlight the options in the drop down
+firefox does but then it doesn t change them back if you move the mouse away and they are still pulled down
+
+
+
+1681855
+uiviewcontroller uinavigationcontroller
+Pattern(s): 5	
+therefore your approach is exactly right use uinavigationcontroller s subclass of uiviewcontroller in place of standard view controllers when you want to achieve navigation within a given tab
+the uitabbarcontroller represents its sub-tabs as an array of uiviewcontroller s not an array of uinavigationcontroller s
+
+
+
+1711204
+ienumerable iqueryable
+Pattern(s): 5	
+the where extension methods for ienumerable indeed take a system.func which is how you are trying to pass the predicate here
+but you re working with iqueryable not ienumerable
+
+
+
+1733555
+octal binary
+Pattern(s): 3	
+hex and octal are close enough to binary
+most data on a hdd is binary data not meant to represent printable characters so if you use cat a command meant to output text not binary you get meaningless mush
+
+
+
+1746956
+fgets getline
+Pattern(s): 5	
+if you can bound the maximum length of a line fgets may be a better way to read each line
+but since you mention c++ you might consider using instead getline caveat fgets also put the n in the buffer it fills getline doesn t
+
+
+
+1777759
+innodb myisam
+Pattern(s): 1	
+innodb maintains referential integriry
+myisam does not
+
+
+
+1795117
+postgresql mysql
+Pattern(s): 5	
+some things i ve personally used or seen used in postgresql that don t really exist in mysql afaict
+transactions and full-text search together i know it s popular to use an external fts since mysql doesn t have one
+
+
+
+1893638
+freebsd linux
+Pattern(s): 1	
+all servers are nix-like freebsd os x linux but not all run apache
+my freebsd mirror runs xshttpd somebody most knowledgable must be dedicated maintainer for a long time
+
+
+
+1952390
+gif png
+Pattern(s): 1	
+the gif format doesn t support this so unfortunately no there isn t a way to do it
+the edges in a png are smooth because of anti-aliasing and thus variable opacity
+
+
+
+1977069
+serializable deserialization
+Pattern(s): 5	
+datacontractserializer it s fast - around 10 faster than xmlserializer it s interoperable - works flawlessly with java ruby - you name it uses explicit opt-in model - you need to mark what gets serializable doesn t require any constructor can serializable non-public members and internal fields doesn t support attributes on xml nodes you tell the dcs explicitly what to serializable but you don t have much influence over how it s done
+xmlserializer serializes only public fields and properties serializes everything except those you exclude opt-out model support attributes and everything it s interoperable - works flawlessly with java ruby - you name it requires a parameterless constructor for deserialization you tell the xmlserializer pretty clearly how and what to serializable but you cannot serializable everything - only publicly visible properties
+
+
+
+2054971
+jlist jtable
+Pattern(s): 5	
+jlist is not yet editable and might never be
+jtable would handle the layout problems for you and you can easily access the values via the table
+
+
+
+2062470
+g++ gcc
+Pattern(s): 5	
+and in a round about way if you had used the c++ compiler driver or g++ in your original example you wouldn t have encountered this problem shell g++ -m64 hello.cc shell . a.out hello world the reason for this is gcc essentially says use c rules when driving the tool chain and g++ says use c++ rules when driving the tool chain
+g++ knows that to create a working executable it needs to pass -lstdc++ to the linker stage whereas gcc obviously doesn t think this is necessary even though it knew to use the c++ compiler at the compile the source code stage because of the .cc file ending
+
+
+
+2080152
+gmail hotmail
+Pattern(s): 1	
+pop3 available for all users of gmail but not recommended because of pop3 inherent limitations no folder no get new messages
+hotmail pop3 available for all users but again pop3 inherent limitations no folder no sent mail no get new messages in addition to hotmail limitation called 15-minutes-delay-necessary for pop3 access
+
+
+
+2081470
+profiling instrumentation
+Pattern(s): 5	
+a profiling will not be a solution to a coding style that is x slower than optimal however you still need to spend time fine-tuning those parts of your code that are used more often than others
+because of instrumentation profiled code on average will run slower than non-profiled code
+
+
+
+2088188
+daemons systemd
+Pattern(s): 1	
+alternatively you could further raise the technological stakes by having the daemons return not the password but rather the open socket ready to be wrapped in a db-api compliant wrapper
+some unix systemd allow open file descriptors to be sent between unrelated processes a prereq for this approach -- and of course you d have to substantially rework the mysql-based db api to allow opening a connection around an already-open socket rather than a freshly made one
+
+
+
+2188765
+g++ gcc
+Pattern(s): 5	
+you should also use not the old iostream.h use g++ to compile c++ programs it ll link in the standard c++ library
+gcc will not
+
+
+
+2215111
+g++ gcc
+Pattern(s): 5	
+also it was offered to me as an explanation that the x86 has very few registers and g++ was not good at allocating them
+update for a more thorough comparison of microsoft and gnu compilers go to this c compiler benchmark . according to how i read these figures the difference between microsoft and gcc for 32 bit are on par with each other although gcc is tested with profile guided optimization pgo and microsoft isn t there s no pgo in vs express
+
+
+
+2233311
+opera safari
+Pattern(s): 5	
+well firefox and opera do not support non-free codecs such as mp3 as with the opera 10.5 alpha firefox 3.5 and later supports only pcm wav and ogg vorbis for audio
+i believe google-chrome and safari do support mp3 however
+
+
+
+2269313
+haskell ocaml
+Pattern(s): 1	
+secondly the haskell ffi is more powerful that is it does more with less code than ocaml s and more libraries are avaliable via hackage so i don t think foreign interfaces will be a deciding factor
+the only problem i can see is that ocaml doesn t really support multicore parallelism while ghc has excellent support and performance
+
+
+
+2324542
+client-side server-side
+Pattern(s): 1	
+you cannot affect client-side print settings with a server-side language not even vb.net
+the web server and the browser run in different machines and neither html nor client-side javascript define such features
+
+
+
+2364018
+viewmodel caliburn
+Pattern(s): 5	
+the module is responsible for instantiating any views necessary at the start and contributing back to the shell during initialize and that s typically it so when you attack this problem you ll want to focus on your views viewmodel and not the module classes
+options off the top of my head adopt a complimentary framework like caliburn that has support for application events like this as well as some mdi events like viewclosing that kind of thing
+
+
+
+2393989
+nunit mstest
+Pattern(s): 1	
+nunit allows abstract classes to be test fixtures so you can inherit test fixtures
+mstest does not
+
+
+
+2415238
+bazaar git
+Pattern(s): 3	
+this type of flexibility is what draws me to bazaar despite the fact that git is wildly more popular and faster
+this is one of the way cool features of bazaar that doesn t get enough press the ability for people to work the way that makes them comfortable even on the same shared repository
+
+
+
+2535829
+ubuntu linux
+Pattern(s): 1	
+i used virtualbox + ubuntu + eclipse for several projects i worked on
+if you decide that linux is not for you and your project was in eclipse then you will have no problem switching back to windows since eclipse is available for both operating systems
+
+
+
+2556403
+rsa aes
+Pattern(s): 1	
+a rsa key as its name says is for rsa not for aes
+aes uses a symmetric key namely an array of arbitrary bytes of length 16 24 or 32 bytes
+
+
+
+2615034
+cvs svn
+Pattern(s): 1	
+so repo-wide merges don t cause the same disruptions as they would be in svn cvs where one repo often contains many unrelated modules which need to have separate merge histories. cvs svn allows different files in the working directory to come from different revisions while dvcs es usually have one revision for the entire wc always even if a file is be reverted to an earlier version it will show as modified in status as it is different from the file in the checked out revision
+svn cvs does not show this always. mixing these concepts as subversion does is i belive a big mistake
+
+
+
+2623806
+udp tcp
+Pattern(s): 5	
+since you mention wow they use udp not tcp
+tcp offers stream guarantee semantics with order guarantee and no duplicates
+
+
+
+2632426
+comparator comparable
+Pattern(s): 5	
+if the type would have to be comparable you couldn t create a treeset with a non-comparable type and a comparator which you can as it is now
+one way to fix this while still being type-safe would have been to have two classes one with a comparable type parameter and one with a non-comparable type parameter and no default constructor only the constructor that takes a comparator but i suppose the java devs didn t want to introduce two classes that basically did the same thing though one could easily be implemented as a wrapper around the other
+
+
+
+2682873
+firefox safari
+Pattern(s): 1	
+they are all modeled after firebug an extension for firefox and the existence of which is why firefox doesn t have one built in
+opera internet explorer chrome and safari all come with good debuggers built in links go to information about the debuggers
+
+
+
+2688976
+trie tree
+Pattern(s): 5	
+on the other hand trie are not meant for requests like all words between xx and zz
+note that the branching factor of the b+ tree affects its performance the number of intermediary nodes
+
+
+
+2700131
+runtimeexception unchecked-exception
+Pattern(s): 5	
+to summarize runtimeexception are a subset of unchecked-exception for exceptions from which recovery is possible but unchecked-exception is not a synonym of runtimeexception as many are answering here
+as stated by their name unchecked-exception are not checked at compile-time which means that the compiler doesn t require methods to catch or to specify with a throws them
+
+
+
+2748392
+xsl-fo xslt
+Pattern(s): 3	
+generating xsl-fo and xhtml from xslt is not necessarily an either-or choice
+xsl-fo is generally used to generate pdf
+
+
+
+2750492
+glassfish weblogic
+Pattern(s): 1	
+check the following links and see yourself embedding glassfish v3 in unit test - two jars three lines of code and five seconds start with deployment embedding ejb 3.1 container into your unit tests - boot time 5 seconds using the ejbcontainer api with or without maven but with glassfish v3 totd #128 ejbcontainer.createejbcontainer embedded ejb using glassfish v3
+weblogic doesn t provide an embedded api so even if it s a pure java server and if you can thus call weblogic.server from java code you will have to handle everything yourself starting the container waiting until it s started deploying things waiting until they are deployed etc
+
+
+
+2757869
+phpunit simpletest
+Pattern(s): 5	
+phpunit is more popular and up to date as simpletest hasn t had a new release for some time though for testing webforms it s still very useful as phpunit does not have good support for that
+it s also said that simpletest has better support for some of the more advanced techniques called mocking replacing part of a class to test with something under your own control
+
+
+
+2766529
+client-side server-side
+Pattern(s): 5	
+another difference is that hiding content client-side does not remove it from the dom - the content is there just hidden
+hiding controls server-side prevents their content from even being emitted to the html
+
+
+
+2770491
+gridview repeater
+Pattern(s): 5	
+if you want more flexibility in the output than gridview provides take a look at repeater
+since the repeater doesn t directly implement paging you ll have to supply your own next and previous buttons
+
+
+
+2830965
+pthreads fork
+Pattern(s): 5	
+on pthreads systems spork uses kernel.fork
+on windows fork is not an option so spork creates a pool of preloaded processes which avoids the huge rails start up time
+
+
+
+2872864
+xna slimdx
+Pattern(s): 5	
+slimdx supports directx10 and 11 while xna only supports directx 9
+xna is a cross platform between windows xbox 360 zune and windows phone 7 while slimdx is not
+
+
+
+2872864
+xna slimdx
+Pattern(s): 1	
+xna is a cross platform between windows xbox 360 zune and windows phone 7 while slimdx is not
+xna has a strong community creators.xna.com with tons of tutorials and help materials
+
+
+
+2914583
+client-side server-side
+Pattern(s): 5	
+if you want to perform a client-side disabling you ll need to use script for that or perhaps use a readonly attribute
+specifying is like a server-side disable not a client-side disable
+
+
+
+2941964
+postgresql mysql
+Pattern(s): 1	
+postgresql has full support for utf8
+mysql doesn t support the complete utf8-encoding currently mysql support for utf-8 does not include four-byte sequences
+
+
+
+2979455
+lisp scheme
+Pattern(s): 3	
+note that modern lisp are not dynamic-binding-only like emacs lisp
+common lisp supports both forms of binding though the lexical one is used much more the scheme specification doesn t even specify dynamic binding only lexical one though many implementations support both
+
+
+
+4006604
+inline inlining
+Pattern(s): 3	
+little benefit on a good compiler for a modern platform inline will affect only a very few functions
+it is just a hint to the compiler modern compilers are fairly good at making this decision themselves and the the overhead of a function call has become rather small often the main benefit of inlining is not to reduce call overhead but opening up further optimizations
+
+
+
+4069980
+firefox safari
+Pattern(s): 5	
+ext js comes included with a debugging console you need to add debug.js and call ext.log blah to bring it up this will provide functionality that is similar to firebug on firefox but not as extensive still its useful for supplementing the poor development tools that come pre-installed with ie 8
+firebug as ergo mentioned here is the most powerful of the browser-based development tools it allows step-by-step debugging however the latest versions of chrome and safari also come installed with develoment tools that are useful but not as much as firebug
+
+
+
+4070043
+strncmp strcmp
+Pattern(s): 3	
+make certain you use strncmp and not strcmp
+strcmp is profoundly unsafe
+
+
+
+4074938
+mef prism
+Pattern(s): 5	
+well keep in mind that mef won t be officially part of prism until version 4.0 is released it is in ctp right now but they can definitely be used together
+on the other hand mvvm is not strictly part of prism it is possible to use prism and mvvm but it is possible to use prism and not use mvvm and vice-versa
+
+
+
+4121333
+primefaces richfaces
+Pattern(s): 1	
+primefaces is tiny and can be implemented in the code easily - not too many dependencies
+richfaces does not support jsf 2.0 till now nov 2010 - primefaces has a stable release that supports jsf 2.0 richfaces component growth is pretty much absent.
+
+
+
+4125074
+division subtraction
+Pattern(s): 1	
+division requires iterative subtraction that cannot be performed simultaneously so it takes longer
+in fact some fp units speed up division by performing a reciprocal approximation and multiplying by that
+
+
+
+4150778
+apache nginx
+Pattern(s): 5	
+apache automatically sees the location header in the response and forces the response code to be 300-series if you haven t previously set a response code of your own
+nginx does not do this -- it expects you set the proper response code yourself
+
+
+
+4169523
+daemons systemd
+Pattern(s): 5	
+in my case i have the daemons doing more than 1 thing so it s very helpful to have systemd keep track of all the timers for me so that i can effectively poll stream_select for the xmpp connection
+i m actually work on something very close to what you described but in my case the daemons doesn t poll for event it get s them asynchronously via xmpp but that s besides the point
+
+
+
+4183683
+uilabel uitextview
+Pattern(s): 5	
+but my suggestion is that instead of using multiple uilabel just concentrate on nsattributedstring
+find uicontrollers that draw nsattributedstring because uilabel uitextview do not support nsattributedstring
+
+
+
+4199127
+ssl https
+Pattern(s): 3	
+some google engineers wrote an article explaining how some previous assumptions about ssl are no longer true
+i think the faster performance you re seeing over https isn t a fluke
+
+
+
+4233878
+innodb myisam
+Pattern(s): 1	
+myisam is slightly faster than innodb and implements the fulltext index which is quite useful for integrating search capabilities
+myisam is not transacted and doesn t implement foreign key constraints which is a major drawback
+
+
+
+4260831
+scheme racket
+Pattern(s): 5	
+if you install a scheme implementation i am using mit scheme edited to add that this also works with racket using mzscheme it may come with a symlink named scheme - this is what emacs looks for i think
+if it doesn t mit scheme doesn t seem to on os x you can edit your emacs configuration in emacs type m-x customize-group then type scheme
+
+
+
+4267506
+google-chrome firefox
+Pattern(s): 5	
+this would probably explain why google-chrome allows the xhr but not firefox
+google-chrome considers the subdomain part of the same origin but firefox does not
+
+
+
+4270094
+youtube vimeo
+Pattern(s): 5	
+so on the youtube side doesn t happen nothing
+also it only works with youtube it does not affect vimeo flash embeds for example
+
+
+
+4270094
+youtube vimeo
+Pattern(s): 5	
+also it only works with youtube it does not affect vimeo flash embeds for example
+ironically at the time of writing the new html5 iframe embedding from youtube doesn t work with the iphone nor with the ipad while the old flash embed still does
+
+
+
+4305402
+scheme racket
+Pattern(s): 5	
+both ocaml and racket plt scheme have opengl bindings
+it looks like racket doesn t have sdl bindings however which may or may not be important to you
+
+
+
+4307049
+phpunit simpletest
+Pattern(s): 5	
+to expand on the above answer with respect to simpletest mentioned above the st system has a built in browser object class for browser automation while phpunit has an extension for the selenium browser automation the advantage of selenium vs
+simpletest is that selinium will run any on-page javascript while simpletest will not
+
+
+
+4309222
+h.264 webm
+Pattern(s): 1	
+h.264 is a patent trap waiting to happen
+probably webm if not ogg
+
+
+
+4311582
+icmp tcp
+Pattern(s): 5	
+on 1gb hardware i see 80µs icmp latency i cannot help on 10gige or infiniband
+at faster fabrics though it really depends upon what protocols you are using tcp often has more acceleration options than other protocols and hence can reach higher performance figures
+
+
+
+4353033
+django web2py
+Pattern(s): 1	
+django follows explicit is better than implicit
+web2py does not and instead follows everything should have a default behavior
+
+
+
+4356675
+strcpy malloc
+Pattern(s): 1	
+instead of the two lines using strcpy is safe because you know all the sizes
+note that malloc does not return initialized data you cannot guarantee that the last allocated byte will be zero
+
+
+
+4356739
+calloc malloc
+Pattern(s): 5	
+i figured out the problem - i should have been using calloc not malloc
+while malloc simply allocates the memory calloc contiguously allocates enough space for count objects that are size bytes of memory each and returns a pointer to the allocated memory
+
+
+
+4359645
+udp tcp
+Pattern(s): 1	
+udp doesn t guarantee message delivery - if there s no place in the buffer the packet is dropped without hesitation
+if you need guaranteed delivery use tcp and build a message-based communication scheme on top of tcp
+
+
+
+4361629
+memcpy strcpy
+Pattern(s): 3	
+i though about memcpy is not really any slower than strcpy
+in fact if you perform a strlen to identify how much you are going to memcpy then strcpy is almost certainly faster
+
+
+
+4386251
+tabcontrol tabitem
+Pattern(s): 1	
+you can download snoop or other tool that shows you visual tree and see there that content of tabitem is not actually the visual child of this tabitem but the visual child of tabcontrol
+so tabitem is the logical child of tabitem s content and tabcontrol is the visual child of tabitem s content
+
+
+
+4420797
+hmac md5
+Pattern(s): 1	
+hmac is not encryption it s actually authentication integrity but its secure when used with a reasonable hash
+normally i d recommend sha-256 or better but for what you re doing md5 sounds secure enough
+
+
+
+4460056
+innodb myisam
+Pattern(s): 5	
+since then innodb was improved a lot
+myisam was not
+
+
+
+4515338
+ssl https
+Pattern(s): 1	
+another edit as pointed out in a comment below remember that ssl tls isn t the only solution to all your site s security needs there is still a lot of other considerations but it does solve a few security issues for the users and solves them well even though there are ways to do a man-in-the-middle even with ssl tls
+it is highly recommended these days to run the entire site on tls https that is if possible
+
+
+
+4524631
+direct3d gdi
+Pattern(s): 3	
+still i expect the vector based apis offered by opengl and direct3d should perform far more reliably - gdi line drawing is not something driver writers strive to optimize
+in answer to the update re windows ce being the target direct x has apparently been available on windows ce since at least ce 2.1 im still betting that gdi is not particularly hw accelerated on ce
+
+
+
+4529545
+spaces delimiter
+Pattern(s): 1	
+thus for instance running set applescript s text item delimiter to spaces return text items of thisspaceisspaceaspacestring returns secondly even if you had instead of spaces this would split your string on spaces and not newlines
+for instance running set applescript s text item delimiter to return text items of this is a string which is on two lines. returns as you can see string nwhich is a single list item
+
+
+
+4574238
+glut sdl
+Pattern(s): 3	
+glut is no longer under active development that s one reason not to use it
+another is that other wrappers glfw sdl are not only under active development but generally more powerful
+
+
+
+4576122
+nemerle boo
+Pattern(s): 1	
+boo primarily integrates with sharpdevelop while nemerle has visual studio 2008 integration
+adding caas to a language like c# or even macros to boo is not nearly enough to reach nemerle s level of metaprogramming for which the language has been designed from the start
+
+
+
+4592648
+uinavigationcontroller uitabbarcontroller
+Pattern(s): 5	
+uiviewcontroller or uinavigationcontroller which implement their user interface in their own viewdidload
+you should create your view controllers in viewdidload of the uitabbarcontroller not in the viewdidappear
+
+
+
+4722445
+vb.net vb6
+Pattern(s): 5	
+vb6 was interpreter based language while vb.net is a compiled language vb6 was not a type-safe language while vb.net is a type safe language
+there is no variant type in vb.net and no magical type conversions happen in vb.net some other differences inheritance vb.net supports inheritance by allowing you to define classes that serve as the basis for derived classes
+
+
+
+4804813
+google-chrome firefox
+Pattern(s): 5	
+google-chrome has a design policy that forbids you from using xmlhttprequest to load local files
+firefox does not have this policy
+
+
+
+4886354
+datamapper activerecord
+Pattern(s): 1	
+datamapper currently doesn t support this feature but it s on the roadmap and is referred to as embedded value
+activerecord supports defining embedded values already
+
+
+
+4915145
+rsa aes
+Pattern(s): 5	
+if you re looking for privacy rsa isn t the way to go use rsa to generate a private public pair and then use them to excahnge keys -- or exchange keys out of band
+use a streaming algorithm like aes to encrypt the message
+
+
+
+4929975
+bash tcsh
+Pattern(s): 2	
+here s one way you can get around that using bash to interpret the escape sequences although it s a little ugly
+the problem is that tcsh isn t interpreting the escape sequence in your variable name so the environment variable ends up with a literal e in it when you try to set it with tcsh
+
+
+
+4972043
+punctuation words
+Pattern(s): 3	
+personally given this setup i d work with the innertext property of htmlnode to find the words probably with regex so i can exclude for punctuation and not simply rely on spaces and then use the innerhtml property to make the changes using iterative calls to regex.replace because the regex.replace has a method that allows you to specify both start position and number of times to replace
+processing code identify words there s probably some slicker way to do this but here s an initial stab process the html i ll leave the details of alterword to you
+
+
+
+4977259
+rvm bundler
+Pattern(s): 5	
+- gem list will tell you the version of each gem. i hope you ve got rvm if not i strongly sugget you to install it this will allow you not only to use different versions of ruby but also to set different gemsets therefor one each project you ll find it useful
+once in rails 3 you can use bundler have a look at this episode of railscasts by the way this is a very good site but you may know it already
+
+
+
+5055680
+apache lighttpd
+Pattern(s): 5	
+the key lies in this line this is the correct line for apache but not the correct line for lighttpd
+for lighttpd you want something like this what this will do is run the fastcgi process instead on a host port of your choosing as a daemon which will fork to the background
+
+
+
+5070003
+google-chrome firefox
+Pattern(s): 1	
+the mathjax fonts don t include u+25fb and so google-chrome is showing the missing symbol
+it looks like firefox is finding the character in a different font and using that or perhaps you have stix fonts on the machine running firefox but not the one running google-chrome and mathjax is using that
+
+
+
+5073472
+lisp scheme
+Pattern(s): 3	
+if you are new to lisp and not an emacs user presently then i would strongly recommend the free editions of either allegro lisp or lispworks
+or if you are going the scheme route plt scheme which is now called racket
+
+
+
+5123755
+addition multiplication
+Pattern(s): 1	
+otherwise it would have to be represented by matrix addition which is more intuitive to humans but would make graphics cards even more complicated than they already are
+now matrix multiplication generally isn t commutative so when adding a transformation by multiplying your matrix you need to specify whether you re left-multiplying or right-multiplying
+
+
+
+5173263
+innodb myisam
+Pattern(s): 1	
+looks like myisam does not support transactions rollback so if a transaction manager is required better to go with innodb
+innodb enforces referential integrity
+
+
+
+5173263
+innodb myisam
+Pattern(s): 1	
+innodb enforces referential integrity
+myisam does not
+
+
+
+5177265
+strcpy malloc
+Pattern(s): 1	
+there are two possibilities you re getting lucky that strcpy isn t hitting anything of consequence so the program runs
+malloc often allocates a few more bytes than requested to better keep memory aligned
+
+
+
+5191896
+ftp telnet
+Pattern(s): 3	
+ftp is typically exposed since it s less risk - ssh can be much more dangerous and i would suspect blocked if you re seeing a connection timeout message
+putty is an ssh telnet client not an ftp client - different protocol different tcp port
+
+
+
+5253775
+notepad++ sublimetext
+Pattern(s): 1	
+on windows notepad++ does a pretty decent job another good option is aptana especially for javascript although it can be a bit heavy weight depending on the job
+i ve also used sublimetext but not in any great depth and then there s microsoft expression web which is very similar to dreamweaver i thought they had a free express edition but apparently not
+
+
+
+5311776
+uiview subviews
+Pattern(s): 1	
+now you can find the button directly through this can be done for any uiview subclass not just uibuttons
+looping through a uiview s subviews is an unreliable way to find a button
+
+
+
+5330319
+udp tcp
+Pattern(s): 5	
+udp doesn t
+tcp - used for traffic that you need all the data for
+
+
+
+5512621
+webclient webrequest
+Pattern(s): 2	
+or is it that you expect webclient to have a timeout property and to set this the request timeout automatically for you
+the webrequest will not know what timeout you want to use unless you set it
+
+
+
+5522964
+gitolite gitosis
+Pattern(s): 1	
+i m not sure if this will be of any help to you but it s worth noting that the successor to gitosis gitolite has built-in support for wildcard repositories documentation here
+according to this blog post gitosis does not support wildcard repositories
+
+
+
+5523339
+ubuntu linux
+Pattern(s): 3	
+you can download vmplayer and ubuntu and get started really quickly
+linux isn t as scary as it used to be and something like ubuntu is actually really easy to use
+
+
+
+5568590
+postgresql mysql
+Pattern(s): 1	
+postgresql uses the reserved word serial as a part of the ddl in that process
+mysql doesn t
+
+
+
+5570244
+tlistview tlistbox
+Pattern(s): 5	
+while the tlistview does not expose an itemheight property the tcustommultiselectlistcontrol is also the ancestor for the tlistbox which does expose this property
+the tlistbox s itemheight property is implemented in tcustomlistbox which descends from tcustommultiselectlistcontrol
+
+
+
+5629571
+google-chrome firefox
+Pattern(s): 5	
+firefox google-chrome when a button element is left to the native style remove the border line-height is ignored by both browsers weirdly google-chrome also ignores the height but firefox does not
+as soon as the button is custom-styled google-chrome picks up the line-height but firefox does not
+
+
+
+5671202
+actionscript mxml
+Pattern(s): 5	
+having actionscript defined in a script block in your mxml is not mixing logic with presentation
+likewise mxml does not define the presentation of your project
+
+
+
+5677762
+cvs svn
+Pattern(s): 5	
+subversion differently than cvs cannot change the content of the code coming from a commit
+the svn book includes a note about this question warning do not attempt to modify the transaction using hook scripts
+
+
+
+5759317
+udp tcp
+Pattern(s): 5	
+udp is not a good choice for persistant connections
+tcp is a much better choice
+
+
+
+5812916
+xlib xcb
+Pattern(s): 3	
+in fact xcb was created precisely because xlib was too high-level masking too much underneath so it was easy to make mistakes and making it difficult or impossible to have full control
+also xcb is not very old from an x perspective
+
+
+
+5832294
+google-chrome firefox
+Pattern(s): 3	
+google-chrome doesn t agree about this for reasons i don t understand
+i think firefox is actually doing the correct thing here
+
+
+
+5863681
+swt swing
+Pattern(s): 5	
+by contrast swt actually uses the operating system s windows so naturally it has less memory usage and less work to do on its own
+the windows in swing aren t really windows they re just made to look like windows
+
+
+
+5870416
+ienumerable icollection
+Pattern(s): 5	
+if calculating the number of elements is expensive they should implement only ienumerable - not icollection
+because icollection exposes count as a property it should be safe to assume that it is very cheap to get its value it should not iterate through the entire collection
+
+
+
+5978844
+apache lighttpd
+Pattern(s): 5	
+speaking only of unix-based environments i d say that fortunately you only have to think of this if you are going to use php with apache web server in which case you are advised to go with the prefork mpm of apache which doesn t use threads and therefore php thread-safety doesn t matter and all gnu linux distributions that i know of will take that decision for you when you are installing apache + php through their package system without even prompting you for a choice
+if you are going to use other webservers such as nginx or lighttpd you won t have the option to embed php into them anyway
+
+
+
+6027659
+haskell ocaml
+Pattern(s): 5	
+haskell implicitly creates selector functions for field names
+ocaml doesn t do this
+
+
+
+6047005
+innodb myisam
+Pattern(s): 1	
+one of the main performance advantages of innodb is row-level locking as opposed to table-level locking of myisam which means that multiple insert update queries against the same table won t block each other unless really necessary
+however innodb does not perform well at all out of the box you really need to fine-tune your mysql configuration for your specific site
+
+
+
+6060260
+google-chrome firefox
+Pattern(s): 3	
+firefox and ie indeed act like you mentioned but google-chrome do not and i d guess other webkit browsers would do the same. in google-chrome clicking the back button will land you where you want to go the previous url of the parent frame
+google-chrome to not add iframe url changes in the back button history
+
+
+
+6060260
+google-chrome firefox
+Pattern(s): 3	
+google-chrome to not add iframe url changes in the back button history
+sadly i ve found no way to force ie and firefox to replicate this so i used the ajax post approach suggested above by arun
+
+
+
+6064649
+super self
+Pattern(s): 5	
+this is essential because without it the super invocation wouldn t be possible the self value is used by the compiler to send the invocation becomes objc_msgsendsuper self selector init
+yes self already has a value when your initializer starts
+
+
+
+6119232
+rar zip
+Pattern(s): 1	
+rar not so much
+zip is easy
+
+
+
+6135485
+.htaccess httpd.conf
+Pattern(s): 1	
+.htaccess will not require a server restart but php.ini and the other apache conf files will
+there are 2 different places you can set it php.ini .htaccess httpd.conf virtualhost include php_value post_max_size 20m php_value upload_max_filesize 20m which one to use depends on what you have access to
+
+
+
+6139683
+dictionary map
+Pattern(s): 1	
+and std map shouldn t be compared to dictionary
+std map maintains keys in sorted order because it is a balanced tree dictionary solves a different problem
+
+
+
+6235395
+erd diagram
+Pattern(s): 5	
+the inclusion of field names muddies this a bit - an erd shouldn t really express this information afaik
+yes this is an entity relationship diagram using chen s notation
+
+
+
+6248325
+floating-point fixed-point
+Pattern(s): 3	
+this is because ieee floating-point is stored essentially as scientific notation so range is favored over uniform precision
+if it was uniform precision it would be fixed-point not floating-point. in other words numbers are stored in the form significand 2 exponent so if the exponent gets large a small change in the significand produces a large change in the number and vice-versa
+
+
+
+6393068
+uiview calayer
+Pattern(s): 5	
+set view.layer.masklayer on an appropriate view a uiview containing the scroll view should work to something suitable a calayer with contents contentsscale contentscenter set appropriately
+more of a pain since calayer does not autosize itself so your wrapper view will have to do the necessary things in -setframe -setbounds -layoutsubviews
+
+
+
+6403884
+lisp racket
+Pattern(s): 3	
+racket is actually unique among lisp and scheme in this kind of support but even with others the situation is still far more advanced than in non-lisp languages
+lisp not lisp has a number of advantages when you re facing problems that are not well-defined
+
+
+
+6416147
+dbcontext objectcontext
+Pattern(s): 5	
+because of that i think that whole idea of dbcontext api was management failure
+at the moment ado.net team must maintain two apis - dbcontext is not mature to replace objectcontext and it actually can t because it is just a wrapper and because of that objectcontext cannot die
+
+
+
+6421602
+selecteditem selectedindex
+Pattern(s): 3	
+things like selectedindex are specific to the way the data is shown in the ui if you change the sort order of a datagrid then the selectedindex can change even though the selecteditem is still the same
+in this particular case the selecteditem can be bound to the viewmodel but the selectedindex shouldn t
+
+
+
+6442481
+draggable droppable
+Pattern(s): 5	
+on the other hand the drag event of the draggable is raised every time the mouse move and seems appropriate for the task
+there are however two problems with this strategy drag is raised whether or not the draggable actually lies over a droppable even in that case the droppable is not passed to the event handler
+
+
+
+6564252
+ssl https
+Pattern(s): 1	
+there are lots of references to this kind of issue on the microsoft support site also internet explorer file downloads over ssl do not work with the cache control headers
+everyone who used file downloads on https is likely to have hit this problem with internet explorer
+
+
+
+6626326
+cassini iis
+Pattern(s): 5	
+however sadly cassini does not allow remote connections
+you might be able to use install iis express see this link without administrative privileges
+
+
+
+6650375
+actionscript mxml
+Pattern(s): 5	
+when optimizing flex projects for mobile devices be sure to build your custom skins in actionscript not in mxml
+since mxml is turned into as3 by the flex compiler it is not always the most performance intensive
+
+
+
+6674721
+mongodb bson
+Pattern(s): 1	
+mongodb s underlying storage format bson doesn t support high-percision decimals only 64-bit floating point numbers
+javascript in mongodb is single-threaded and can be a bit slow
+
+
+
+6675428
+cpython pypy
+Pattern(s): 1	
+running pypy on cpython wouldn t help besides slowing things down terribly because the api wouldn t interact with pypy s object model it would interact with that of the cpython host environment
+pypy has alpha-level support for the cpython extension api via an emulation layer called cpyext
+
+
+
+6677840
+cassini iis
+Pattern(s): 5	
+try iis express as an alternative for cassini that s why ms released it
+as far as i know this is not possible - cassini does not support comprssion
+
+
+
+6742554
+boost stl
+Pattern(s): 2	
+you can use boost to do it though requires a recent c++ compiler such as msvc 2010 or gcc 4.5
+sadly the stl doesn t allow you to split a string on a separator
+
+
+
+6830694
+wadl wsdl
+Pattern(s): 1	
+i think wsdl is not appropriate for rest and wadl is not necessary
+http exposes already what wadl could describe in a separate file
+
+
+
+6834762
+uicontrol uibutton
+Pattern(s): 5	
+uibutton uses the target-action design pattern through the methods inherited from uicontrol to send action messages to a target object
+uibutton does not make use of the delegation design pattern
+
+
+
+6857601
+addition multiplication
+Pattern(s): 3	
+for example addition can be achieved using this technique then it s a matter of doing multiplication using addition this multiplication doesn t yet work if b is negative but since this looks like a homework problem i ll leave that as an exercise for you
+edit while multiplication is intuitive once you have addition the addition function is not so easy to understand so i ll explain it here
+
+
+
+6897479
+allocator stl
+Pattern(s): 3	
+looks like the feature of stateful allocator in stl containers is widely supported already
+in most cases statefullness of the allocator does not cause trouble
+
+
+
+6902604
+uinavigationcontroller uitabbarcontroller
+Pattern(s): 5	
+embedding a uitabbarcontroller inside a uinavigationcontroller is not supported
+apple has a careful hierarchy of container view controllers and a uitabbarcontroller must be the root of its view controller hierarchy
+
+
+
+7008938
+redmine trac
+Pattern(s): 2	
+redmine cannot do this
+recently a new plugin came up supporting multiple user projects in one trac instance look at beside that there is a project using trac to build this feature bloodhound version control system i think installing a plugin is not that hard and for almost every vcs there is a plugin for trac git perforce mercurial darcs monotone subversion bazaar
+
+
+
+7015700
+google-chrome firefox
+Pattern(s): 3	
+google-chrome is apparently reads my mind.
+since my success callback was part of a json object firefox couldn t find whatever default it was looking for and therefore didn t fire anything
+
+
+
+7077403
+onchange onfocus
+Pattern(s): 5	
+update use the onfocus to get the value before it changes . in this handler you could register the following onchange and have that value stored in the closure onfocus s scope object
+update 2 i knew something was a bit suspicious but didn t have time to inspect if the user doesn t move to another element or click somewhere the element is still in focus and the onfocus will not be called while onchange will if the user changes the value with the wrong prev value
+
+
+
+7218155
+innodb myisam
+Pattern(s): 1	
+i think innodb implements a true acid and does a lot of fsync s to save the data
+and myisam is not a true acid and does less fsync s
+
+
+
+7333408
+spaces delimiter
+Pattern(s): 1	
+the default of one blank spaces is not relevant here
+the job opens the file for writing truncates existing file or creates a new file set the field and record delimiter then writes the same line twice using two different calls
+
+
+
+7431650
+helpers actioncontroller
+Pattern(s): 1	
+i think the issue might be that the url_for method that you re used to calling in your views and defined on actionview as a helpers is not the same url_for method that gets called when you re in a controller
+actioncontroller base has its own similar but not the same method called url_for method
+
+
+
+7544425
+mef prism
+Pattern(s): 1	
+so mef is not the same thing as prism
+prism is a ui composition framework which can be used with wpf silverlight wp7 surface and probably with c# based metro style apps for win8
+
+
+
+7605542
+emacs gedit
+Pattern(s): 2	
+you d be better off identifying what gedit does that makes you want to use it instead of emacs and extending emacs to make it do that too
+there can t be that much --- gedit doesn t do much. the extra features can just sit there and wait for you and you ll find it easier to locate and use them if you re comfortable in emacs-mode already
+
+
+
+7699482
+uiview subviews
+Pattern(s): 1	
+either a xib interface builder view or a class that inherits from uiview are equivalent to a user control
+they are ways to aggregate sub views think views and subviews - not controls
+
+
+
+7723868
+gif png
+Pattern(s): 5	
+however gif was not a supported image file in previous versions of ax maybe there is an error with transparency
+my first suggestion is to convert the gif to png update the image in the check layout and try again
+
+
+
+7776000
+innodb myisam
+Pattern(s): 1	
+innodb implements row-level lock for inserting and updating while myisam implements table-level lock
+innodb has transactions while myisam does not
+
+
+
+7776000
+innodb myisam
+Pattern(s): 1	
+innodb has transactions while myisam does not
+innodb has foreign keys and relationship contraints while myisam does not
+
+
+
+7776000
+innodb myisam
+Pattern(s): 5	
+innodb has foreign keys and relationship contraints while myisam does not
+innodb has better crash recovery while myisam is poor at recovering data integrity at system crashes
+
+
+
+7776000
+innodb myisam
+Pattern(s): 1	
+innodb has better crash recovery while myisam is poor at recovering data integrity at system crashes
+myisam has full-text search index while innodb has not
+
+
+
+7776021
+innodb myisam
+Pattern(s): 1	
+innodb implements row-level lock for inserting and updating while myisam implements table-level lock
+innodb has transactions while myisam does not
+
+
+
+7776021
+innodb myisam
+Pattern(s): 1	
+innodb has transactions while myisam does not
+innodb has foreign keys and relationship contraints while myisam does not
+
+
+
+7776021
+innodb myisam
+Pattern(s): 5	
+innodb has foreign keys and relationship contraints while myisam does not
+innodb has better crash recovery while myisam is poor at recovering data integrity at system crashes
+
+
+
+7776021
+innodb myisam
+Pattern(s): 1	
+innodb has better crash recovery while myisam is poor at recovering data integrity at system crashes
+myisam has full-text search index while innodb has not
+
+
+
+7896584
+innodb myisam
+Pattern(s): 1	
+innodb does not support hash keys only btree
+myisam is infamous for being unreliable
+
+
+
+7969807
+firefox safari
+Pattern(s): 5	
+firefox msie starting with version 9 opera konq and google-chrome support
+msie8 and safari not support
+
+
+
+7999821
+gif png
+Pattern(s): 3	
+about the questions images should not be used much and no transparent images should be used you can use transparent gif they are somewhat supported
+transparent png however not
+
+
+
+8188612
+lxml beautifulsoup
+Pattern(s): 5	
+this answer refers to an older version of the question where beautifulsoup has not been mentioned you can use lxml and iterate over all elements asking them for the value of their class attribute
+lxml is a library for parsing xml documents
+
+
+
+8297302
+dbcontext objectcontext
+Pattern(s): 1	
+a shared dbcontext is not a good idea
+since dbcontext objectcontext is not thread safe
+
+
+
+8311532
+ssl https
+Pattern(s): 5	
+abstract you can avoid ssl warnings for domains that support ssl by not being specific about the transport protocol
+instead of including http or https use security considerations please note that there are some security considerations to this approach
+
+
+
+8368998
+sudo passwd
+Pattern(s): 5	
+therefore multiple sudo calls are also not a problem
+the passwd is not read from the standard input but from the current terminal
+
+
+
+8392569
+ubuntu linux
+Pattern(s): 5	
+first the distrib is ubuntu not ubunto. secondly i recommand you to use a live cd or a usb stick if you want to try the system and if it works well and or you like it install the system using that same medium
+there are plenty of howto on the internet so i won t explain here but the principle is to reduce windows partition or allocating a full hard drive for linux and manage the partition scheme throw the installer
+
+
+
+8415624
+postgresql mysql
+Pattern(s): 1	
+i do not know enough to provide the code but essentially it could look like this a recursive approach lastly you can switch to postgresql which supports recursive queries
+unfortunately it cannot be done in mysql given such a table structure as mysql does not support recursive queries
+
+
+
+8449950
+google-chrome firefox
+Pattern(s): 1	
+only google-chrome currently supports sending binary object types
+firefox does not yet support sending binary types
+
+
+
+8505859
+cpython pypy
+Pattern(s): 3	
+django is a very complex project and would require strict python compliance to run - i doubt it would be possible without some months of work to make django work directly in cpython or pyrex - although one could use a profiler to turn specific bottlenecks into native code with much less effort by replacing individual django modules in the core with ones optimized with cpython moreover optimization with pyrex cpython is not that free - one can have around a 30 speedup by running simple numeric intensive code in cpython without any changes in the code - but for greater speed increase the code has to be manually tweaked so that some variables are made statically typed
+on the other hand you might try running django with pypy - there are some hints here pypy is an extremly conformant python interpretor and django core is known to work with it
+
+
+
+8512805
+viewdidload viewwillappear
+Pattern(s): 1	
+if you ve already loaded that viewcontroller or added it to a tab bar controller or whatever then viewdidload will not be called again - this is only called once when your view controller has finished loading its views from a nib or manually
+to update a view when it is presented by another controller viewwillappear is the standard method to use though this won t be called if you are swapping views the way you do in your question
+
+
+
+8569245
+bash zsh
+Pattern(s): 1	
+the main incompatible change between sh and zsh is that an unquoted parameter substitution undergoes field splitting and filename generation globbing in sh and ksh and bash but not in zsh
+in zsh always expands to a single word unless var is an array variable here ls -l whereas in sh would expand to the two words ls l-
+
+
+
+8595187
+ienumerable icollection
+Pattern(s): 1	
+icollection collectionbase and ienumerable aren t directly instantiable types
+collectionbase icollection is a base class interface that is inherited implemented by any class that considers itself a collection and holds multiple items
+
+
+
+8704227
+union distinct
+Pattern(s): 5	
+minor update because both queries cannot return the same records the default behaviour union distinct is not required and i hope that union all is just a little bit more performant
+you can combine two selects with union i don t know how this behaves from the performance point of view but as far as i know this is just like two simple queries with the small overhead from union
+
+
+
+8715966
+phpunit simpletest
+Pattern(s): 1	
+phpunit works fine with every continuous integration server since it outputs all standard log files for code coverage and test reports
+simpletest does not
+
+
+
+8736369
+postgresql mysql
+Pattern(s): 1	
+quoting is different mysql uses backticks for quoting identifiers whereas postgresql uses double quotes
+like is case insensitive in mysql but not in postgresql
+
+
+
+8801023
+codeigniter kohana
+Pattern(s): 1	
+codeigniter has different class naming
+all codeigniter classes begin with ci_ while kohana doesn t use any prefixes
+
+
+
+8826112
+floating-point fractions
+Pattern(s): 3	
+this is the feature of computer floating point arithmetics scs cclass progintro sx5.html it s important to remember that the precision of floating-point numbers is usually limited and this can lead to surprising results. the result of a division like 1 3 cannot be represented exactly it s an infinitely repeating fractions 0.333333... so the computation 1 3 x 3 tends to yield a result like 0.999999.
+instead of 1.0. furthermore in base 2 the fractions 1 10 or 0.1 in decimal is also an infinitely repeating fractions and cannot be represented exactly either so 1 10 x 10 may also yield 0.999999..
+
+
+
+8869795
+qunit sinon
+Pattern(s): 5	
+its cause qunit doesn t have spies or mocks
+but you can use the sinon mocking framework
+
+
+
+8886805
+daemons systemd
+Pattern(s): 5	
+i personally use a modified verison of the init script found here which is as follows but pay attention in case you use that init script to start up the fastcgi daemons do not use any init tools like service monoserve start rhel centos or rcmonoserve start
+for me this will not work i suspect the init systemd will spawn another process with different environment variables
+
+
+
+8910048
+knitr latex
+Pattern(s): 1	
+if you do have spaces knitr will be able to produce the output with the long lines wrapped with so will sweave i think if you set
+this is a difficult and extreme case because you do not have spaces among those a s so latex may not be able to wrap the words
+
+
+
+8984779
+junit jmock
+Pattern(s): 5	
+one more thing you don t need to set the fields in the test class to null junit flushes the instance for every test
+jmock isn t thread safe
+
+
+
+9036366
+cassini iis
+Pattern(s): 1	
+a little reading asp.net dev server cassini iis express and multiple threads
+the asp.net dev server cassini cannot handle multiple threads
+
+
+
+9087899
+g++ gcc
+Pattern(s): 1	
+use g++ not gcc
+gcc is a c compiler whereas g++ is a c++ compiler
+
+
+
+9150803
+calloc malloc
+Pattern(s): 5	
+use calloc to allocate memory with zeros
+malloc is not guaranteed to zero the memory
+
+
+
+9194355
+junit jmock
+Pattern(s): 5	
+jmock depends upon hamcrest and junit uses and includes some hamcrest classes in it s jar so this is probably where the problem comes from
+the easiest fix is to use the version of junit which doesn t have the hamcrest libraries included junit-dep
+
+
+
+9300162
+valgrind gprof
+Pattern(s): 5	
+here are the biggies i ran across last time i had to do this valgrind only supported on cortex arm processors
+gprof not so hot with threads
+
+
+
+9378840
+junit testng
+Pattern(s): 2	
+i did this using junit rules to have the logic in one place
+don t know the apropriate tool for testng i m not to fond of the loop construct you are hinting at because it might make it difficult to run a test suit against a single specific database
+
+
+
+9400244
+client-side server-side
+Pattern(s): 1	
+if you use a service reference to generate your client-side proxy be sure to check reuse types in referenced assemblies when generating the proxy
+the class and object you created server-side doesn t exist client-side
+
+
+
+9437893
+vim textmate
+Pattern(s): 1	
+fyi vim exhibits the same behaviour
+textmate doesn t do syntax-checking at all
+
+
+
+9462159
+innodb myisam
+Pattern(s): 1	
+innodb implements row-level lock for inserting and updating while myisam implements table-level lock
+innodb has transactions while myisam does not
+
+
+
+9462159
+innodb myisam
+Pattern(s): 1	
+innodb has transactions while myisam does not
+innodb has foreign keys and relationship contraints while myisam does not
+
+
+
+9462159
+innodb myisam
+Pattern(s): 5	
+innodb has foreign keys and relationship contraints while myisam does not
+innodb has better crash recovery while myisam is poor at recovering data integrity at system crashes
+
+
+
+9462159
+innodb myisam
+Pattern(s): 1	
+innodb has better crash recovery while myisam is poor at recovering data integrity at system crashes
+myisam has full-text search index while innodb has not
+
+
+
+9486406
+moq moles
+Pattern(s): 1	
+in other words moq is not going to be any help to you here
+for mocking statics i use a tool called moles which is free
+
+
+
+9543611
+octal decimal
+Pattern(s): 1	
+these escape sequences originated in c or maybe in c s predecessors b and bcpl in the days when computers like the pdp-7 ruled the earth and much programming was done in assembly or directly in machine code and octal was the preferred number base for writing instruction codes and there was no unicode just ascii so three octal digits were sufficient to represent the entire character set
+by the time unicode and java came along octal had pretty much given way to hexadecimal as the preferred number base when decimal just wouldn t do
+
+
+
+9559081
+super self
+Pattern(s): 3	
+the way to do this is to override the method and simply call the super class method method_decorator run_eight_times def undecorated_function self super myrepetitiveclass self .undecorated_function also two comments on your other code there s no point overriding the __init__ method if you re just calling the parent method but if you do need to that you should use super as i have done here rather than using the name of the superclass itself
+self doesn t exist in that scope - it only exists inside a method and only then because it s passed as the first parameter
+
+
+
+9617234
+lisp scheme
+Pattern(s): 5	
+emacs lisp and common lisp are that way
+the classical lisps use nil as the list terminator cons 1 nil producing the list 1 scheme is not a classical lisp in this sense
+
+
+
+9693000
+freebsd linux
+Pattern(s): 5	
+freebsd has an emulation afaik but i don t know if you can access it natively
+if you want to target other platforms than linux you cannot use futex
+
+
+
+9729770
+lisp scheme
+Pattern(s): 1	
+strictly speaking funcall would not be needed but there are some lisp list-2 implementations such as common lisp that separate the variable name space of the function name space
+list-1 implementations scheme do not make this distinction
+
+
+
+9741343
+google-chrome firefox
+Pattern(s): 1	
+that said support multiple webdriver instances differs between browsers google-chrome works great with multiple google-chrome instances running locally
+firefox has sometimes worked depending on the version of webdriver and firefox ie cannot driver multiple instances locally
+
+
+
+9791177
+google-chrome firefox
+Pattern(s): 1	
+the reason that google-chrome doesn t give an error-message is that it doesn t support that nonstandard feature so it s simply ignoring that argument entirely
+change this to any of these the reason for the error-message is that in firefox string.replace takes an optional third argument representing regex flags i or g
+
+
+
+9823788
+javassist cglib
+Pattern(s): 5	
+the class engineering api is ok but javassist is not perfect either
+in particular the proxyfactory which is the equivalent of the cglib s enhancer suffer from some drawbacks too just to list a few bridge method are not fully supported ie the one that are generated for covariant return types classloaderprovider is a static field instead then it applies to all instances within the same classloader custom naming could have been welcome with checks for signed jars there is no extension point and almost all methods of interest are private which is cumbersome if we want to change some behavior while javassist offer support for annotation attributes in classes they are not supported in proxyfactory
+
+
+
+9918572
+postgresql mysql
+Pattern(s): 3	
+whoever tells you postgresql is not fast enough for writing does not know it
+whoever tells you that mysql is not scalable enough does not know it facebook runs on mysql
+
+
+
+9929829
+sctp udp
+Pattern(s): 1	
+sctp is message-oriented like udp and ensures reliable in-sequence transport of messages with congestion control like tcp
+sctp is not yet widely used
+
+
+
+9951705
+apache nginx
+Pattern(s): 1	
+setting up https in apache isn t too hard and then just use modproxy to send requests internally to your play application
+any one of the reverse proxy systems can likely do this nginx is popular too and generally has easier configuration than apache but i ve never used it with https
+
+
+
+9990747
+swt swing
+Pattern(s): 5	
+if you re using swt have a look at this
+unless explicitly otherwise stated in the javadocs swing components assuming you re talking about swing are not thread-safe
+
+
+

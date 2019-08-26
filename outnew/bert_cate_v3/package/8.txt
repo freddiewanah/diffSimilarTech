@@ -1,0 +1,4 @@
+could i use * to do this more succinctly than running * and dcast separately for each of employed girls guys
+
+i would recommend * for html parsing it s simple and considerably faster than * can be as much as two orders of magnitude
+

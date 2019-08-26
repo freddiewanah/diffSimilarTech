@@ -1,0 +1,22 @@
+* is more forgiving in terms of well-formed xml structure see i had to edit the xml a bit to make things work for * and it s actually much easier to work with
+
+possibly part of the reason of my problems is that the original code from ramnath uses rmaps while i m using * also developed by ramnath as it is more developed better integrated with * and of course includes leaflet
+
+* uses the css selector syntax familiar from jquery which i find more intuitive than * s
+
+* also has more features and offers * too
+
+you ll probably find that * runs faster than * but in my uses * was very easy to learn and use and handled typical crappy html as found in the wild well enough that i don t have need for anything else
+
+since you re using * why not use it in a more direct manner * is believed to be faster than *
+
+alternatively you can use * module which is lot faster than *
+
+even when * editors support * their support makes working with .rnw files much clunkier than pure * .tex files
+
+the * package is a bit nicer than * for making http requests in my opinion and it sets a user-agent string by default
+
+but if you are allowed to store whole tree into memory you can use * which is faster than *
+
+* is newer based on * internally and is often even faster
+

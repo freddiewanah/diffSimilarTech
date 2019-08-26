@@ -1,0 +1,182 @@
+if * is slower than * then case 2 is slightly slower than case 1
+
+* first field from the other and if the value is not greater than 0 * by -1
+
+* gives you a remainder which is why it s better than straight * in situations where you re number of elements can change
+
+* of quaternion a by quaternion b is nothing more than * a by the multiplicative inverse of b
+
+in t-sql unary minus is made to be the same priority as * which is lower than *
+
+addition * for the rectangular bound calculation is cheaper than *
+
+just like it would be possible to come up with arithmetic expressions that could be written with less parentheses if * had a higher precedence than *
+
+* is more complex and you can reference the solution in the question efficient 128-bit * using carry flag
+
+if memory serves this is the same technique slide rules used although they also took advantage of with the idea being that * is easier than * but my exposure to slide rules is limited to an eccentric high school physics teacher and a cryptographic teacher using it to explain certain tricks with big number math
+
+yes pow is slower than * * is slower than *
+
+trig functions should have precedence lower than * and higher than *
+
+* is nearly always a lot slower than *
+
+for example 1 + 2 3 is treated as 1 + 2 3 whereas 1 2 + 3 is treated as 1 2 + 3 since * has a higher precedence than *
+
+* is more expensive than * subtraction and division is more expensive still
+
+* is much harder than *
+
+the reason for this is that and is strong than or it s like in math where * is stronger than * 3 5+3 15+3 18
+
+in the remote case those operations are not simplified assuming that there is a jit that maps the * and add opcodes in a 1 1 relationship to their cpu instruction counterparts in most modern architectures all integer arithmetic operations usually take the same number of cycles so it will be faster multiplying once than add four times just checked it * is still slightly faster than * 1 clock vs 3 clocks so it still pays using a * here
+
+i know that * operation is more trivial than * operation
+
+because * is faster than * and can be faster than shift
+
+though i was thinking the * is more simple than *
+
+other cpus take three or four cycles to do a * which is a bit slower than *
+
+i would also be moderately surprised if the * actually was faster than the *
+
+remember that * even with strings binds tighter than * so we must use brackets
+
+associativity and precedence specify that the last two statements must be performed in that order since * has higher precedence than *
+
+the same speed as * though still faster than *
+
+or has a lower precedence than just as * in mathematics has a lower precedence than *
+
+* is higher precedence than * and * is left-associative so this is equivalent to but knowing that only tells you that the first * will happen before the second * and that the * will happen before the second *
+
+if the * is truly faster than the * then i expect somebody well-versed in byte code could explain why the load_fast for num is faster than the five operations for line 12
+
+if you think back to grade school you ll recall that * was harder than * and division was harder than *
+
+division and * are indeed costly hardware operations whatever you do this is more related to hardware architecture than to languages or compilers perhaps ten times slower than *
+
+i would like to * the pow in my evaluator with an higher precedence than * and divide
+
+* is still somewhat more expensive than * on modern computers and compilers go to some effort to replace them with one or two shifts+* instructions
+
+as i said this may increase the speed especially in an environment where * is more expensive than simple * but you would want to actually benchmark it to be certain
+
+as you can see * is about an order of magnitude slower than *
+
+on modern processors float * is a good order of magnitude slower than float * when measured by reciprocal throughput
+
+* is usually faster than *
+
+* is generally on the order of 10x slower than * on most processor families
+
+i wonder why everybody missed that * is much faster than *
+
+hardware integer * is always slower than * and the gap in the relative latencies of these instructions continues to widen
+
+it is well known that integer * is slow operation typically several times slower than integer *
+
+since you re resizing the window make sure to assign the w and h values not as numbers but as products or dynamic numbers * is faster than * but you can also use *
+
+but the research i ve done so far all points to * being faster than *
+
+* algorithms are slower than * algorithms in most cases
+
+* is faster than * so the second method is faster
+
+is it possible that the * is six times slower than * and
+
+it s just as fast as going the opposite direction if not faster given that * generally takes longer than *
+
+the double_unit stuff is how random actually does it internally because * is faster than * see floating point * vs floating point *
+
+* is much faster than *
+
+or is there something about * that is more convenient than * in programming
+
+on many machines particularly those without hardware support for * * is a slower operation than * so this approach can yield a considerable speedup
+
+this can be a major clock-cycle saver since * is often much faster than a * operation
+
+can be fast or it can be awfully slow even if * is done entirely in hardware if it is done using a div instruction this instruction is about 3 to 4 times slower than a * on modern cpus
+
+integer * is much faster than *
+
+also addition is faster than * and * is faster than *
+
+but since * is pretty expensive i think that this is even worse than 2 *
+
+in all other cases * appears to be several times slower than *
+
+* is faster for unint8 than * in your case
+
+is * more expensive than * in c++
+
+even simpler and probably even faster because * is faster than * is dav s answer which is the most natural algorithm.
+
+in many processors integer * is vastly faster than integer *
+
+the cpu operation for float * is much more complicated than *
+
+similar to pmg s solution but still faster because * is faster than * -
+
+in fact if the intent is to divide by 22 10 or some other real value that isn t necessarily exactly representable in binary floating-point then half the times the * is more accurate than the * because it happens by coincidence that the relative error for 1 x is less than the relative error for x
+
+but i wonder why is * actually slower than *
+
+for the *-to-* case you are assuming that * is faster than *
+
+for * things are a little more complicated than * see
+
+your friend has a point a * actual * not just writing in c is slower than a *
+
+if the latter yes floating point * is generally faster than *
+
+usually * is a lot more expensive than * but a smart compiler will often convert * by a compile-time constant to a * anyway
+
+* is slower than * due to some reasons
+
+in the code we calculate 1.0 sum .. because a * usually is more expensive than a * and thus can gain some efficiency with that
+
+i used * for both operations because * is typically faster than *
+
+* takes less time then * so you can try this
+
+if * are o n 2 this is slower than long * for large numbers o n 2 vs o n 2 log n
+
+because * is often much slower than * if performance is critical you might keep a table with powers of ten and their reciprocals
+
+t is not very important as long as alpha is small otherwise you will run into some rather weird nyquist issues aliasing etc. and if you are working on a processor where * is cheaper than * or fixed-point issues are important precalculate omega
+
+why does * take so much longer than *
+
+both operations are done down at the floating point unit fpu level and even in the world of integral alus the * circuit is a far busier place than a * circuit
+
+from the performance side float * is faster than * but i don t think that in the gui code it can create significant difference
+
+here s one idea which uses one * and one shift so it ll be faster than a * on most systems
+
+i am pretty sure it is not possible to compute polynomial * more efficient than * and as you can see in the following table this algorithm is only 3 times slower than a single *
+
+first of all * is faster than *
+
+as a rule of thumb * is faster than * on all cpus
+
+from what i read on the net * is usually easier to compute than *
+
+the only way it would be broken up differently would be if * had a higher precedence than * like multiplication does
+
+this is a hold over from older compilers and interpreters on old chip architecture that would do * slightly slower than *
+
+the * case is going to require a little more work than * in this code
+
+but i d think bignum * is a little slower than bignum *
+
+it is true that * and modulo a * operation is slower than *
+
+* has a higher precedence than * ergo
+
+note that the * operator has a higher precedence than * and division just like in mathematics
+

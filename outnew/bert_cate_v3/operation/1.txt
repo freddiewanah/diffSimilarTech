@@ -1,0 +1,72 @@
+the logic is * by 2 whole number 0.1 2 0.2 and if it s bigger than 1 * and continue
+
+p is sometimes chosen to be 31 because not only is it prime but a compiler resolves it to a bitshift and a * which is much faster than a *
+
+* is the easier of the tasks just remember to * each block of one number with the other and carry the zeros
+
+implementing * is easier if you remember an shl operation performs the same operation as * the specified operand by two
+
+if i make a mistake and * a number by 1.0 instead of 1 and i do not use any compiler optimization then my * will last much longer than * a number by 1
+
+provided a string i want to convert the chars from the string to an int * a value from another method getkey to this number and if the result is greater than 26 * 26
+
+look at it this way based on your logic while x is greater than 100 * 5 while it s greater than 500 * 5 .
+
+just take the difference and if it s negative * 2pi and then if it s greater than 2pi * 2pi
+
+we observe that for 7 nodes 1 2 3 5 6 8 9 we are getting further by 1 * 7 9-2 to the score for other 2 4 7 we are getting closer by 1 * 2
+
+to find all the pairs of integers x and y that sum to n when cubed set x to the largest integer less than the cube root of n set y to 0 then repeatedly * 1 to y if the sum of the cubes is less than n * 1 from x if the sum of the cubes is greater than n and output the pair otherwise stopping when x and y cross
+
+but in normal case it takes n 2 comparison so you half the height of tree but you * each merge with two so total running time is not better than * to 2 part
+
+sure that s probably compiled or jit d away but you should avoid * in performance critical code it s far slower than *
+
+also integer * is less expensive so you may just do the divide first and calculate the * 10
+
+* is generally slower than *
+
+in arithmetic books and computer software and more-expensive calculators this means 12+ 34 56 not 12+34 56 because * has higher precedence than *
+
+the * has higher precedence and therefore binds more tightly than *
+
+also remember * is much more expensive than *
+
+but i guess * is more computationally expensive than *
+
+either way your example with the numeric expression would multiplying by 3 first because * has higher precedence than * or subtraction
+
+and as you hopefully knows * have higher precedence than * so the expression is equivalent to probably not what was intended by the macro writer
+
+for example if you had a class in which it would make sense to do * before * how could you make the * operator have higher precedence than the * one
+
+* is cheaper than *
+
+each operation takes a specific length and typically * will take more than *
+
+proposition when implemented in logic gates using the usual algorithms an integer * circuit is o log n times slower than an * circuit where n is the number of bits in a word
+
+* is not more difficult than repeated *
+
+it is well-known that the processor instruction for * takes several times more time than * division is even worse upd which is not true any more see below
+
+the result of the * was better than the * the by 0.0070000 milliseconds over the course of 2 million or 200 000 iterations
+
+for example fp * throughput is lower than fma or * on intel before skylake 1 vector per clock instead of 2
+
+you can * higher and lower resolutions by * or dividing them by 2
+
+if the numbers are huge dividing x by b might be betterâ * is usually slower than * but getting out of the huge-number domain early might help more than avoiding *
+
+both works but * is generally slower than *
+
+does * has higher precedence over * or it is other way round
+
+i read that * has has higher presedence than *
+
+this because 1 x is simpler than y x and * is faster than *
+
+so * is always a bit worse than *
+
+* is faster than * see fog s tables
+

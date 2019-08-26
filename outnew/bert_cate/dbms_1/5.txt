@@ -1,0 +1,36 @@
+B is picky pickier than B -- all fields in the select list when using distinct must be present in the order_by and group_by clauses
+
+b use indexes - B has bigger repertoar of indexes then B so use it - there are gist gin indexes
+
+ps you can also migrate to B it s smarter than B when choosing right indexes
+
+if you need spatial data capabilities postgis with B is better than B
+
+unfortunately in B select count is often slower than B to which it often get s compared to
+
+explain in B is way more useful than in B
+
+do you find rails with B is slower than B knowing that it produce more query on the background
+
+either B more proven than B for such huge data
+
+but in B it is ok and in B it is wrong and ask for the other fields besides site_id either in a group by clause or in a aggregation function i know that B is stricter on sql than B so i must select the site_id in the query object of msg_published but in pure sqlalchemy i can do like this
+
+B is picky pickier than B -- all fields in the select list when using distinct must be present in the order_by and group_by clauses
+
+b use indexes - B has bigger repertoar of indexes then B so use it - there are gist gin indexes
+
+ps you can also migrate to B it s smarter than B when choosing right indexes
+
+if you need spatial data capabilities postgis with B is better than B
+
+unfortunately in B select count is often slower than B to which it often get s compared to
+
+explain in B is way more useful than in B
+
+do you find rails with B is slower than B knowing that it produce more query on the background
+
+either B more proven than B for such huge data
+
+but in B it is ok and in B it is wrong and ask for the other fields besides site_id either in a group by clause or in a aggregation function i know that B is stricter on sql than B so i must select the site_id in the query object of msg_published but in pure sqlalchemy i can do like this
+

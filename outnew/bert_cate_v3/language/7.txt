@@ -1,0 +1,46 @@
+* is clearer on versions releases and i keep asking myself if i am missing something related to * since i can t find this information
+
+there are multiple reasons why the * code is slower than the * code
+
+this is because the * dictionary is more strongly typed than the * nsdictionary
+
+* is more strictly typed than *
+
+however i read that * was the successor of * and i would feel more comfortable with * syntax
+
+* is neither easier to read nor understand than *
+
+fortunately the vbide for * has more classes and methods for working with vb projects than the * version of vbide
+
+unless you are using the static typing feature * is no more strongly typed than *
+
+my usual rule-of-thumb is that * is better than * for simple tasks whereas * is better for complex tasks
+
+i would suggest you start with * and more specifically with * formerly plt *
+
+* is closer to * than to common lisp but you could dip your toes into the lisp family without the speed bump of the emacs style of development
+
+on the side of using macros * has always been more advanced than other * and lisp implementations
+
+while * is more expressive * pattern matching is simpler which means a simpler language definition compiler etc. and you still can do what you need at the cost of writing more code
+
+* is quicker than * but for what you re going to do you re trading speed for convenience - * comes with all the different ui classes list scrollbars etc already there
+
+opengl is better for playing around and experimenting because you can easily draw triangle without messing with hardware buffers available on larger selection of platforms plus * is better than * because it doesn t compile into assembly
+
+* has fewer libraries than common *
+
+i noted that while in languages like c variable identifiers can only be alphanumberics and underscores common * allows many more characters to be used like and at least * does
+
+please consider also to use * for code generation that s much nicer than * and integrates smoothly with xtext infrastructure
+
+all in all t4 to me is more of a inside vs code-generation tool to quickly create c# or other files while * is more of a data-processing data-transformation tool to turn data from xml into another format typically html or pdf using *
+
+because * is eagerly evaluated the execution model is far easier to comprehend and debugging via printf works a lot better than in *
+
+* has higher level bindings to llvm than * the * ones provide some interesting type safety guarantees and * has by far more libraries to use 1700 packages on making it easier to glue together components
+
+* has more momentum these days but there are plenty of good parsing libraries for * as well including the peg parser generator aurochs menhir and the glr parser generator dypgen
+
+the * zipwith is friendlier than the * list.map2 which requires the lists to be the same length
+

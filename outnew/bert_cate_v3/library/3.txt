@@ -1,0 +1,62 @@
+by looking at the google groups for qjplot and * the support for * is better lot s of unanswered questions at the * group
+
+also linearsvc class from * performs even better than * whch is also surprising considering that it s a wrapper of *
+
+edit more recent * does a better job of not always padding to powers of 2 length so is closer in output to the * case
+
+* routine *_gemm has higher performance than * in some cases
+
+* is definitely not slower than *
+
+other useful pieces would be * for database access much simpler than * or other full orms async-httpclient for doing calls to other web services
+
+they do this using a jquery plugin called * which is a more complete version of * you pay for
+
+* is more developed and tested generally since * came out later than rf
+
+i haven t tried any of these in a jsf 2 application but i would recommend using the * one at least the documentation is better than *
+
+is * consumes more gpu memory than equivalent * model training
+
+in my testing the slow-down from using * ranges from about 1.5-3.0 times slower than using * but its performance will depend on your application
+
+it is similar in spirit to keras which is built as a high-level api on top of * tensorflow cntk although the main difference is that * implements only one backend allowing it to integrate more deeply with * features
+
+in java if you want a graphic user interface you can use * or * and * is better than *
+
+android plot and other free chart solutions mentioned here doesn t support annotations the only one is afreechart which is a port of * for android i am currently using it and it is awesome and has much more features than *
+
+what you re looking for is linear regression and * is much better than * for this see
+
+* is better than * because while in offline mode no internet connectivity * tries to fetch record form server whereas * maintains its cache form where it fetched the images
+
+* is faster than the * 2.3 malloc.
+
+as noted in the comment by quandary the * library offers a more relaxed license mit compared to the commercial or agpl license offered by *
+
+2 readability library content is passable slower on average than * but faster than *
+
+i found a solution to this problem using * at *-where-are-you-putting-my-html because i think it is easier than *
+
+* is a higher level library above *
+
+if your company s concern is to avoid big unknown libraries which is prefectly understandable i d advise you to stick with * which is smaller that *
+
+also i want to know if google * is better than * for json parsing
+
+going to go ahead and say that * is a lot more user friendly albeit less powerful than *
+
+that said i found * to be a useful product and much better than * especially in terms of the quality of the documentation
+
+1 i guess * will be slower than * for smaller datasets
+
+* is a more full-featured touch library has many swipe commands than * most upvoted answer
+
+or if you re really focused on only doing opengl i may suggest using * which is the better * but you ll have to draw the menus yourself using opengl
+
+* offers native support and has a quite friendly api and is my opinion more flexible than *
+
+however if you re developing a serious application * is more likely to be the tool you need to use as * abstracts more than a real application would normally want to
+
+* xml module faster than *
+

@@ -1,0 +1,74 @@
+in a single thread world is different you can use a sorted set a binary * or your custom data structure that would perform better than concurrent *
+
+the nested * version is the slower of the two due to the extra the interpreter overhead of the *
+
+then you should achive them with a counter and maybe a * is better then while *
+
+the while * runs 3000 times faster than the *
+
+also if you can do the above you can probably just as easily turn your code into a * which seems more appropriate given your desire to a break out of * b use the operator to cause side effects
+
+instead of using a while * it is easier to use a *
+
+in your case * is better as changed in * value is numeric
+
+its really strange that the same doesn t work with a while * as is said that a while * is more fundamental that a *
+
+if the above is true doesn t this mean that the foreach * is much slower then the common * since it involves making copies of each element of the arrays
+
+* recur is faster - it s one of the most efficient constructs in clojure done correctly it should match the speed of an equivalent * in java code
+
+i came across a situation where i need to implement a * with more than one * control variable
+
+this conclusion would follow from a logic if an unrolled * is faster than a * executing a lot of unrolled * should be faster than executing a lot of for *
+
+i personally think the while * looks less clean than the nested *
+
+update i made some changes to my code but was already suspecting what others here have already pointed out sure the enhanced * is slower but outside of very trivial tight * the cost should be a miniscule fraction of the cost of the logic of *
+
+* is more suitable for any countable *
+
+that is because that style of * is a better fit for what you are doing than the * you used earlier
+
+a * should be used don t you think what * makes is more clearly stated in the *
+
+i would expect a while * to be slower than a * since it needs to test a condition before each iteration
+
+one place where the enhanced * is faster than a naively implemented traditional * is something like this
+
+in example sendp method included in * which is slower than making other * to send packets
+
+i find lapply * easier than a * in your case as initializing the list and using the counter can be avoided
+
+in theory the while * is quicker because the * looks up the length attribute of foo every time though * but in real-world use it s going to make an immeasurably small difference
+
+foreach can simplify the code in a * but it is a heavy object and is slower than a * written using for.
+
+the immutable * implementation is faster but no less pure in usage than the * implementation
+
+using this hint we can try to guess that a fix* must correspond to a * data type in c# since a * is more or less like a * of key-value pairs
+
+if what you are making is a * from one word to another you might be better off with a *
+
+i definitely wouldn t try introducing a new general-purpose type for use in python based on std * which has worse algorithmic complexity in time for many important operations andâ in at least some implementationsâ leaves some optimisations to the user that * already has
+
+* is slightly better because the shared * has around 480 entries instead of around 450 but it s still inconsistent and not all 500 as expected
+
+but for the * it is better to use * as shown by alnitak than for-in
+
+looping with a * is nothing more than a basic iteration of an * using a *
+
+note that this is one of those cases where matrix division of large * takes longer than a *
+
+with one * one can do which is easier than a *
+
+because if the first word in * is shorter than second one you need second *
+
+if the length of the * is less than 8 a regular * summation is performed
+
+the questions should i use * or is it better to do it recursively next insert will be called after previous is done should i check if saved.length datalength and then return the * or is there some better way how to do it
+
+i am interested in this because the factor oracle is easy to construct with 30 lines of c++ * needs about 60 and * needs 150 and it runs faster than * and *
+
+the other question why not use a * here since it will provide some concurrent writes to different mapentries and provide more concurrency than *
+

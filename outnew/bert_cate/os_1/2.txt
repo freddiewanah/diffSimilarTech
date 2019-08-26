@@ -1,0 +1,52 @@
+in this respect B is less desirable on a server than rhel or B which stick to more mature versions
+
+this is because your B system has newer system libraries than your B one
+
+in this respect B is less desirable on a server than rhel or B which stick to more mature versions
+
+this is because your B system has newer system libraries than your B one
+
+it is widely used to have a separated tag with the postfix -alpine in it to indicate that alpine B is used which is a much smaller base-image than the B image
+
+if your system B is older like B wheezy for example your glibc version will be older than the required one
+
+it is widely used to have a separated tag with the postfix -alpine in it to indicate that alpine B is used which is a much smaller base-image than the B image
+
+if your system B is older like B wheezy for example your glibc version will be older than the required one
+
+note that centos software versions are older than B s but versions of B software are newer than B s versions
+
+note that centos software versions are older than B s but versions of B software are newer than B s versions
+
+B however is less forgiving and has a filesystem that is case sensitive at least my dev B version does but i guess it is the default for B
+
+sometimes a B distribution contains far more than an operating system but is informally referred to by a single name such as B and so the line between what the operating system is the B kernel and standard libraries perhaps and the applications that merely ship with that operating system the gnome and kde environments on B is pretty gray
+
+B however is less forgiving and has a filesystem that is case sensitive at least my dev B version does but i guess it is the default for B
+
+sometimes a B distribution contains far more than an operating system but is informally referred to by a single name such as B and so the line between what the operating system is the B kernel and standard libraries perhaps and the applications that merely ship with that operating system the gnome and kde environments on B is pretty gray
+
+this is because B 15.10 uses a newer version of libc and libstdc++ which is not available on B 8
+
+B heavily relies on python scripting and generally consumes more resources than B
+
+recompiling B kernels is harder -- it will require working with B build tools
+
+as for B being more stable than B for using as server it can be true in very rare occasions where the package is very obscure
+
+this is because B 15.10 uses a newer version of libc and libstdc++ which is not available on B 8
+
+B heavily relies on python scripting and generally consumes more resources than B
+
+recompiling B kernels is harder -- it will require working with B build tools
+
+as for B being more stable than B for using as server it can be true in very rare occasions where the package is very obscure
+
+we recently have migrated redmine from a server which was running under B 5.5 with the same ror environment the same load the performance was a way better than on B 7
+
+note that B software versions are older than B s but versions of opensuse software are newer than B s versions
+
+we recently have migrated redmine from a server which was running under B 5.5 with the same ror environment the same load the performance was a way better than on B 7
+
+note that B software versions are older than B s but versions of opensuse software are newer than B s versions
+

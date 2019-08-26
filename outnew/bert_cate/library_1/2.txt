@@ -1,0 +1,226 @@
+i found B easier to use with more options and better documentation than B or graphael
+
+because B is updated more frequently than B a B B build is provided to ensure compatibility with the latest stable version of B
+
+if you re open to using B which is a better version of B imo this can be expressed fairly simply using flattendeep on each element of your multi-dimensional array
+
+because B is updated more frequently than B a B B build is provided to ensure compatibility with the latest stable version of B
+
+if you re open to using B which is a better version of B imo this can be expressed fairly simply using flattendeep on each element of your multi-dimensional array
+
+for similar functionality that speaks B but has more flexible features you could use the facetgrid object from B
+
+for similar functionality that speaks B but has more flexible features you could use the facetgrid object from B
+
+they do this using a jquery plugin called B which is a more complete version of B you pay for
+
+in its stead you can use B - which does filtering a lot easier than B
+
+they do this using a jquery plugin called B which is a more complete version of B you pay for
+
+in its stead you can use B - which does filtering a lot easier than B
+
+the B has a more involved setup than the B but it does allow for more customization of what and where it displays
+
+if you definitely need svg and want to only use existing elements you may want to look at B which is raphaels younger sister and shares a lot of the same codebase or another like B
+
+i haven t tried any of these in a jsf 2 application but i would recommend using the B one at least the documentation is better than B
+
+i haven t tried any of these in a jsf 2 application but i would recommend using the B one at least the documentation is better than B
+
+on the downside B is less mature than B so it has less features and documentation available
+
+i ve used both for the same project B is better integrated with the B and especially c++ exceptions
+
+while B is more modern c++ it also harder to use for non trivial tasks - and without a modern c++ experience and deep B knowledge it is difficult to use correctly
+
+once you re past the basics with c++ learning how to use parts of B and then how it works will be better than tackling B
+
+i ve used both for the same project B is better integrated with the B and especially c++ exceptions
+
+while B is more modern c++ it also harder to use for non trivial tasks - and without a modern c++ experience and deep B knowledge it is difficult to use correctly
+
+once you re past the basics with c++ learning how to use parts of B and then how it works will be better than tackling B
+
+not to be confused B is more recent and B was used in some distributions of linux
+
+ubuntu 12.04 ships with the B fork B in version 0.8 which is more compatible with B 1.0+ or even later B versions iirc
+
+not to be confused B is more recent and B was used in some distributions of linux
+
+ubuntu 12.04 ships with the B fork B in version 0.8 which is more compatible with B 1.0+ or even later B versions iirc
+
+also if this controller is an hid the B library might be a better fit than B
+
+i have made an app similar to yours for android we use B whose surf is much faster than B
+
+B supports older versions of ie whereas B is based on current web standards
+
+B supports older versions of ie whereas B is based on current web standards
+
+but adding a class to B package seems harder first because there is different jars depending on the operating system used org.eclipse.B.cocoa org.eclipse.B.gtk .... and also because copy pasting the code of B is not that easy since there is call to external methods waiting for a strict B
+
+there s a known bug that when you install the googleads library using pip it will install a newer version of the B library which will break my google analytics api scripts because the B uses an older version of B
+
+B uses an older version of B which i believe was the latest free B version
+
+B is the faster parser and can handle broken html quite well B comes closest to how your browser would parse broken html but is a lot slower
+
+B parser does a better job than B or html.parser handling the debate element in this case
+
+the standard html.parser option handles broken html less well than other options while the B option is closest to how a modern browser would handle broken html albeit at a slower rate than B would handle html parsing
+
+B is considered faster than linear B and often used for large scale data set
+
+at least for .executemany B seems to be more proficient than B as the sql statement is only prepared once for all submitted values
+
+B s api is also a bit richer than B s api
+
+you may also use B which is a simpler encoder than B
+
+B is better at marketing itself than long-time players of the open-source market like torch and B
+
+B is better at marketing itself than long-time players of the open-source market like torch and B
+
+it is similar in spirit to keras which is built as a high-level api on top of B tensorflow cntk although the main difference is that B implements only one backend allowing it to integrate more deeply with B features
+
+it is similar in spirit to keras which is built as a high-level api on top of B tensorflow cntk although the main difference is that B implements only one backend allowing it to integrate more deeply with B features
+
+i know another plugin named B corner is available however it s file size being massively bigger than B i decided to with B
+
+i think B has a more mature ajax integration and their ajax components and events are more easy to use for me than B ones
+
+i think B has a more mature ajax integration and their ajax components and events are more easy to use for me than B ones
+
+to draw you can use either plain B which is more basic or use B which is more flexible drawing library nb
+
+fixing bugs in B is much harder than in B most classes in B are final or contain hostile checks in the constructor to make sure no one extends them the package is signed so you can t simply replace classes and so far i tried several times to compile B from sources - and failed
+
+B has a more platform-specific look about it but java ships with B built-in there s no messing about with external libraries as with B although the use of eclipse may make that much easier i still develop quite a bit of my stuff from the command line unfortunately
+
+give B a go the api is a lot simpler than B
+
+B is more simple to use than B especially if this is your first ui
+
+in java if you want a graphic user interface you can use B or B and B is better than B
+
+the B library is much more popular than B and does allow you to avoid for while loops by using preficates and filter methods
+
+i also recommend B it s much easier to use than B and have builtin sqlalchemy extensions
+
+with B it s more common to use B already mentioned by jeff foster
+
+the B library for example can be easily inserted into an application to evaluate performance gains in heavily threaded applications where B tends to perform a lot better than B s malloc implementation
+
+as a side-effect of implementing proper parent traversal B is a bit slower than B for parsing
+
+currently B supports the older B v.5.1 while there is a newer B 6.0 available on nvidia site
+
+if you are worried about memory then do look into B since equivalent models can use significantly less memory than B
+
+what you re looking for is linear regression and B is much better than B for this see
+
+the B library includes a confusion matrix that is simple to use and produces a nicer output than B
+
+if you are worried about memory then do look into B since equivalent models can use significantly less memory than B
+
+what you re looking for is linear regression and B is much better than B for this see
+
+the B library includes a confusion matrix that is simple to use and produces a nicer output than B
+
+B is faster than the B 2.3 malloc available as a separate library called ptmalloc2 and other malloc s that i have tested
+
+for semantic zooming you ll notice that B is significantly faster than B
+
+you could use B it is way easier to use and works with B
+
+B is made to work with B 2 B 3 however is way newer than B and therefore B does not support using B 3
+
+i ve created an application with this library instead of B because i thought that B is easier to learn than B for newbies even if it provide less features
+
+one of the things that makes B better than B is support for proper css-like class selection or even supports full css selectors if you want to use them
+
+note that using the B parser is a lot slower than B s default parser
+
+the reason for using B for such a task is that it cleans html files better than B do
+
+i would recommend B for html parsing it s simple and considerably faster than B can be as much as two orders of magnitude
+
+for starters B is no longer actively maintained and the author even recommends alternatives such as B
+
+edit don t use this for html work use the B library it s python based and much faster than B
+
+B is much faster than B and probably the fastest parser available for python
+
+B enables you to search for elements using xpath which i think is easier than using B s api
+
+speed isn t important here but in other applications it is good to know that regexes are very fast 100 times faster than B and 1000 faster than B
+
+alternatively you can use B module which is lot faster than B
+
+B is more suitable for html parsing than B
+
+B is more java-like whereas B provides more gaming functionality on top of opengl access
+
+B is faster but the api is 37x more complex than the B api
+
+take a look at the B json parser it s faster than the one in android and faster than B and supports streaming
+
+note also that B comes with less features out of the box than genson or B
+
+B is not particularly fast but the B library can almost compete with most binary serializers B is 2-4x faster than B in most situations and 10-20x faster on utf-8 because it has special code for utf-8
+
+B 1.6 now includes a low-level streaming api and a new parser which is actually faster than B
+
+B is faster but the api is 37x more complex than the B api
+
+take a look at the B json parser it s faster than the one in android and faster than B and supports streaming
+
+note also that B comes with less features out of the box than genson or B
+
+B is not particularly fast but the B library can almost compete with most binary serializers B is 2-4x faster than B in most situations and 10-20x faster on utf-8 because it has special code for utf-8
+
+B 1.6 now includes a low-level streaming api and a new parser which is actually faster than B
+
+1 i guess B will be slower than B for smaller datasets
+
+1 i guess B will be slower than B for smaller datasets
+
+so B is just a library for creating windows in a better way than B did before
+
+so B is just a library for creating windows in a better way than B did before
+
+somehow the layout algorithms in B seem to display a better layout than in B rendering is also better i think though most of the layout algorithms in B are based on B implementation
+
+B offers native support and has a quite friendly api and is my opinion more flexible than B
+
+B is much easier to use than B example of zipping all files in folder
+
+B offers native support and has a quite friendly api and is my opinion more flexible than B
+
+B is much easier to use than B example of zipping all files in folder
+
+B is lower level than B and allows you to minimise the number of round-trips to the x server leading to lower latency
+
+B is simpler to use has a better response to a multithread environment but lacks documentation while B is a more dated complex tool better documented and fully implemented
+
+B presents a more direct view of the protocol than B does so you often have to look at either the protocol specs or B source code to find out what the underlying protocol request is to find an equivalent
+
+note that B is significantly slower then for example B because it reads in class files directly instead of using reflective access in order to avoid class loading
+
+this makes for example B or proxetta significantly slower than B which simply reads the methods via the reflection api and overrides them
+
+note that B is significantly slower then for example B because it reads in class files directly instead of using reflective access in order to avoid class loading
+
+this makes for example B or proxetta significantly slower than B which simply reads the methods via the reflection api and overrides them
+
+but in general you will find that B is faster more effective and has an api which adheres closely to a python standard the B which comes with the python standard library
+
+B is faster than B but i ve never found an application where the speed boost paid for the hassles of distribution
+
+but in general you will find that B is faster more effective and has an api which adheres closely to a python standard the B which comes with the python standard library
+
+B is faster than B but i ve never found an application where the speed boost paid for the hassles of distribution
+
+you should check out losswise it has a plugin for B that s easier to use than B and has some nice extra features
+

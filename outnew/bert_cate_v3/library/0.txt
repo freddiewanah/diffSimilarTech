@@ -1,0 +1,214 @@
+* is slightly more difficult to setup but is much faster than *
+
+* makes it easier to visualize the data but * looks more professional
+
+anyway if you re willing to do advanced 3d stuff * is way better than *
+
+as a result of this comparison i see that * is performing so much worse than * that i m starting to doubt about my code
+
+if everything is correct why * perform so much better than *
+
+i ended up using * for most of my animations simply because it provides smoother animations and more configurable than what * ui provides
+
+i also kind of get the impression that * drag and drop is better than * ui drag and drop based on the online demos
+
+the use of * is also a performant option but slightly lower than *
+
+given that this is 4 years old and * has more or less taken the place of * i thought i would share this solution using *
+
+the easiest solution is to just replace * with * which has even more features than the latest *
+
+if i remember correctly * argued they were faster than * because the use non-native functions for key operations
+
+i am stunned right now seeing a * performing 100-150 faster than * in even simple native functions such as array.every in chrome
+
+basically collections are things that implement some kind of iterable interface and they internally use the same iteration method though * source is a bit more convoluted than *
+
+for similar functionality that speaks * but has more flexible features you could use the facetgrid object from *
+
+according to this answer the * plugin might work better than * for media-queried resizes
+
+they merged with * which in my opinion is a better choice than *
+
+the * has a more involved setup than the * but it does allow for more customization of what and where it displays
+
+i ve used both for the same project * is better integrated with the * and especially c++ exceptions
+
+as for not reinventing the wheel like many have said already make sure to first explore the possibilities in the standard template library * which is much richer than you might think and then look at * www.*.org which has libraries for a lot of diverse purposes and they are extremely high quality and some are just works of art like spirit proto lambda and mpl
+
+* libraries are generally less mature and less standard than *
+
+not to be confused * is more recent and * was used in some distributions of linux
+
+also if this controller is an hid the * library might be a better fit than *
+
+to allow you to scale down the data away from 0 and 1 i had to do this when combining * in * single pcolormesh with more than one * using * so you can likely see how the code works but basically say you have values -5 1 10 in a sample but want to normalize based on a range of -7 to 7 so anything above 7 our 10 is treated as a 7 effectively with a midpoint of 2 but shrink it to fit a 256 rgb *
+
+to allow you to scale down the data away from endpoints 0 and 1 i had to do this when combining * in * single pcolormesh with more than one * using * so you can likely see how the code works but basically say you have values -5 1 10 in a sample but want to normalize based on a range of -7 to 7 so anything above 7 our 10 is treated as a 7 effectively with a midpoint of 2 but shrink it to fit a 256 rgb *
+
+unless you re doing very heavy processing working with a single frame is probably faster than transferring it to the server as far as i know * in c# isn t considerably slower than * in c c++
+
+the results end up very close but the * image comes out a little bit blurrier than the * image
+
+seems like * is more file oriented and * is more object oriented
+
+new to * already loving it so much better than *
+
+* is a newer gem than * and it looks a lot more flexible
+
+* is much harder to learn than * but in both cases you will also have to learn svg to be able to create better animations
+
+* supports older versions of ie whereas * is based on current web standards
+
+or switch from * to something that performs better such as * or jackson
+
+however for a variety of fft problem sizes i ve found that * is slower than * with openmp
+
+this is done on an extremely large image and i feel * might do a better job than * on this
+
+first of all if it was not for the relative complexity of the expressions here * would have been definitely the better option over *
+
+you may also use * which is a simpler encoder than *
+
+* is still faster than * in many respects and supports a wider range of operations
+
+to draw you can use either plain * which is more basic or use * which is more flexible drawing library nb
+
+you should try * i think its much better than *
+
+* is more simple to use than * especially if this is your first ui
+
+so in my view using * is simply easier unless you have more experience in *
+
+* community is smaller and it doesn t provide that many tools as * does
+
+* has a more platform-specific look about it but java ships with * built-in there s no messing about with external libraries as with * although the use of eclipse may make that much easier i still develop quite a bit of my stuff from the command line unfortunately
+
+even though i liked many design aspects of * and it is simpler than * imo * is the one to learn because imo it has far far better documentation examples etc
+
+* became slower than * because it uses proxy to os widgets
+
+is * faster than *
+
+* is the weaker of the gui technologies relating to accessibility in java compared to * at any rate
+
+i find * to be an uglier api than * in general though but not really a deal breaker
+
+i m not too eager for using * though since i m more familiar with *
+
+the problem is that the canvas drawn by * is larger than the area of * s scrolled_window
+
+* is more strict the * so i m now learning it
+
+* converted much faster than * although i did not test conversion with cuda processing
+
+* also seems to be faster than * using better multitasking
+
+* provides more extensive api documentation than *
+
+the origin server would get the images from s3 process them using * since it s much faster than * then serve them
+
+for me * is performing far better than *
+
+in this case * performs better than nashorn which performs much better than *
+
+i would also recommend you to check * as its way much better than *
+
+finally i haven t done much with animation but i think you re entirely correct - * provides more animation support than * especially in terms of animated transitions
+
+from my own experience mtl4 is much faster than * and it is also faster than *
+
+you could use * it is way easier to use and works with *
+
+i think * will make this easier but with raw * this would look something like
+
+if you don t plan to move to mobiles later tkinter or * may be a better choice than *
+
+note that * is probably a better option than * for this kind of task nowadays for the reasons given by * s author
+
+you ll probably find that * runs faster than * but in my uses * was very easy to learn and use and handled typical crappy html as found in the wild well enough that i don t have need for anything else
+
+i ve found that even if * is faster than * for documents that size it s usually best to try to reduce the size to a few kb via regex or direct stripping and load that into bs as you are doing now
+
+according to the above posts and my own experience * is definitely faster than *
+
+* enables you to search for elements using xpath which i think is easier than using * s api
+
+it s generally accepted that * is faster than * ref
+
+the reason for using * for such a task is that it cleans html files better than * do
+
+* is much faster than * and probably the fastest parser available for python
+
+it uses * underneath and is much faster than *
+
+i prefere * it s a harder to understand but much faster than *
+
+regarding * * is more efficient and in my experience can handle broken html better than *
+
+how can i find all div and span tags with order preserved.with * it is very simple but i switched recently to * since it is much faster than *
+
+i prefer to use * better than *
+
+according to some benchmark tests * is nearly 100 times faster than *
+
+alternatively you can use * module which is lot faster than *
+
+one of the things that makes * better than * is support for proper css-like class selection or even supports full css selectors if you want to use them
+
+* is more suitable for html parsing than *
+
+* will let you use xpath here which i think will be less painful than * s interface
+
+so i think * would a better choice than *
+
+after searched in google found that * has better performance than * i plan to replace * with * in my project but i got a diffrent result when run test code
+
+since i am more familiar with * here are some aspects where i think * has more complete support than * apologies if i miss a * feature
+
+* is simpler * is faster
+
+i looked at * metrics and it seems slower than *
+
+i found * better than * performance project activity better docs ...
+
+further more * really seems to be faster than * json
+
+* type safety is way better than *
+
+we plan to use * extensively in the application as it seems safer and better than *
+
+i was also looking at * * sfml i didnt see much tutorials help on this but heard its better than *
+
+* provides more good looking components than *
+
+when hdf5 storage can be accessed fast than .csv and when * creates dataframes faster than * why is * from hdf5 slower than * from csv
+
+* is far more flexible for working with data so i often bring parts of * dataframes into memory manipulate columns and create new ones
+
+but if you will look at the accuracy level * have more accurate detection than *
+
+i find training in * much easier than in *
+
+edit 31 march 2014 for what it s worth i have found that * is much better at text extraction than itextsharp notwithstanding a bespoke strategy implementation and * tet is slightly better than * but it s quite expensive
+
+edit 31 march 2014 for what it s worth i have found that * is much better at text extraction than * notwithstanding a bespoke strategy implementation and pdflib tet is slightly better than * but it s quite expensive
+
+* is more about json-based persistence in the vein of * which can do json too and sounds a bit too heavyweight for just an applet
+
+if i resize the window and a widget with a * is bigger than the window i want to resize it to make it smaller and * should recalculate the positions of the others
+
+* is lower level than * and allows you to minimise the number of round-trips to the x server leading to lower latency
+
+* is simpler to use has a better response to a multithread environment but lacks documentation while * is a more dated complex tool better documented and fully implemented
+
+note that * is significantly slower then for example * because it reads in class files directly instead of using reflective access in order to avoid class loading
+
+this makes for example * or proxetta significantly slower than * which simply reads the methods via the reflection api and overrides them
+
+* has a steeper learning curve than * but once you get the hang of it you can do pretty much anything graph related with it.official site is here
+
+* is easy to use * has more option but is less easy to use than *
+
+* -- 100x better than *
+

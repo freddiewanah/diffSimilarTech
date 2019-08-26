@@ -1,0 +1,10 @@
+it is widely used to have a separated tag with the postfix -alpine in it to indicate that alpine B is used which is a much smaller base-image than the B image
+
+i don t know why arch B is slower than B on your machine
+
+i m testing some simple benchmarking calculations on win7 and B B 16 to compare the timings and being wonder win appears to be much faster than B
+
+i would give you more info except a ip aliasing on B 7 is more involved than i like much easier on B and b i m not familiar at all with configuring nginx very easy on apache
+
+i m in B wheezy which is much more recent than B 10.04
+

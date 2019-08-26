@@ -1,0 +1,6 @@
+27440
+postgresql	mysql	postgresql	mysql
+mysql is much more commonly provided by web hosts
+postgresql is a much more mature product
+there s this discussion addressing your better question apparently according to this web page mysql is fast when concurrent access levels are low and when there are many more reads than writes
+

@@ -1,0 +1,100 @@
+as you can see in the image * is running a lot longer than *
+
+for comparison 0.68 usage means this outdated * release is more popular than the current and previous versions of * the penultimate version of safari on ios and ie 9 or 10
+
+in * there is more files download 47 than in * ie 42
+
+* extensions are considerably more limited than * extensions â â they can only hook the behavior of the browser in certain predefined ways
+
+first just a heads up you may want to try firebug+firepath on * which is a more handy tool than * s developer tool
+
+* has like 40px less width than * in columns which is causing problems
+
+* handles these better than compared to *
+
+* is more picky about characters that are set in uris than *
+
+ps i ve noticed that in * situation is better than in * but new line still starts beneath tag
+
+phantomjs achieves a better accuracy than * slightly lower than * but in around half the time of *
+
+* is just faster than * which just faster than ie at bit-wise operations
+
+it s clearly visible in * and is far more subtle yet also distinguishable in *
+
+also it does appear that * consistently handles this better than ie or *
+
+any ideas why * is apply more spacing than * ie
+
+try your current setup in * * typically has a narrower minimum viewport width and try something like min-width 600px in * and your styles should be applied as expected layout.css will be applied when the viewport is at least 600px wide
+
+this doesn t happen in * and is less frequent in * than in ie
+
+i m sticking with * debugging of my angular 2 app outside of vs code as its user experience is better than * especially when working with typescript files so i ll stick with that for now unless i can figure this out
+
+* produces more space compared to *
+
+no and there won t be any time soon because * s add-on api is more restrictive than *
+
+* is probably easier than * these days
+
+apple s safari applies almost no cross domain restrictions to files opened locally but * is much more strict about what it permits with * somewhere in the middle
+
+ie * higher than baseline * on baseline
+
+ie8 is the same and * is much better but i ve migrated away to * now so would like to stick with the one browser if possible
+
+the reason * is slower than * is that the devmode plugin runs in a sandbox so calls and data have to cross the sandbox boundaries
+
+i m taking a quite educated guess here that * is more forgiving with the irregular syntax than *
+
+* takes almost 3 times longer than *
+
+update just tried it on * 30 and it did not experience the same slowdown in a worker thread but it was slower than * when run in the main thread
+
+in * and other browsers the background is much whiter and brighter than in *
+
+we use * though which i believe uses more ram than *
+
+* allocates lots of memory during that preloading up to 20-30 times more than * or safari do and even twice as much as ie
+
+by highlighting the shape of the two elements you can see that in * left the button is 2px taller than in * right
+
+* shows it better than * firebug
+
+rendering without buffering on * is faster than * so i m actually not sure why * is having such a problem with drawimage
+
+for example using renatoargh s test * is faster with option 2 * with option 1
+
+* dev tools are by far better than * ie whatever imho
+
+it s not the first time that the plugin for * works better for me than the one for *
+
+i had a hiccup in * but found a fix after figuring out * is a bit more picky than * when defining svg attributes
+
+another alternative for javascript ajax is writing a * add-on easier than * or embeding a web browser within your application
+
+what we can see is that regardless of raw hardware power * seems to run up to three times faster than edge and also significantly faster than * all updated to the latest verion
+
+* can get away with more than * before aborting
+
+on your screenshot div width in * is bigger than in * and google-chrome
+
+this seems to me like a bandwidth error or something like that originally i ve got the error when i played with the html 5 audio api and if i loaded the audio file 10-15 times sequentially then i ve got the error but now i ve discovered that i get the error without the audio api too just by reloading the site a lots of times also * gives me the error much faster than * wtf
+
+* also uses an earlier version of webkit than the current * so pages should be checked in both browsers
+
+the browser does not matter though * gets way more consistently working results than *
+
+i guess firefox and * handle huge numbers of elements better than *
+
+* 5.1 still renders smoother than * but it is now clear that google has done much improvement
+
+* will display fonts without a specified size significantly smaller than in *
+
+i just tested geolocation on * 3.6 and iphone * os 3.1.3 the result is interesting * is more accurate than *
+
+in * it renders significantly brighter than in * or google-chrome
+
+in * we found that the dom level 0 took twice the time off the dom level 2 but was still four times faster than either * case
+

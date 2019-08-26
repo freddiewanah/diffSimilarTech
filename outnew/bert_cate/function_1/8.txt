@@ -1,0 +1,58 @@
+B of course does not process escape sequences any more than B would
+
+B of course does not process escape sequences any more than B would
+
+or you could employ a request signing scheme in which certain request fields are B together with the password of the user basically sending the password without sending the password similar to digest authentication but you can use something better than B
+
+or you could employ a request signing scheme in which certain request fields are B together with the password of the user basically sending the password without sending the password similar to digest authentication but you can use something better than B
+
+you might have even noticed the B version is simpler than the B version
+
+you will find that B works better than B here
+
+B is more correct of course you could just embed B over and over and over... but put that under a performance microscope and B may just win
+
+but depending on the answers to those questions i m guessing that B might do the trick for you better than B
+
+you will find that B works better than B here
+
+B is more correct of course you could just embed B over and over and over... but put that under a performance microscope and B may just win
+
+but depending on the answers to those questions i m guessing that B might do the trick for you better than B
+
+you may be interested in looking at the B keyword which i think is better than the B keyword when you can make use of it
+
+you may be interested in looking at the B keyword which i think is better than the B keyword when you can make use of it
+
+decode the passwords yourself and re-encode them with a B i recommend something a little more fancy than B
+
+decode the passwords yourself and re-encode them with a B i recommend something a little more fancy than B
+
+i should also mention that B has this built-in and may be a better solution than B
+
+i should also mention that B has this built-in and may be a better solution than B
+
+B is far more flexible handling the allocation of space for you with B it is up to you
+
+B is far more flexible handling the allocation of space for you with B it is up to you
+
+i mean i think B is way smarter so why do we even need B
+
+i mean i think B is way smarter so why do we even need B
+
+i get the impression that most people think that Bing B passwords is the more secure way of handling passwords but i can t figure out a way to comply with current company operations when using B passwords
+
+i get the impression that most people think that Bing B passwords is the more secure way of handling passwords but i can t figure out a way to comply with current company operations when using B passwords
+
+it should be in my opinion more strongly noted that password hashing with B is no longer secure and should not be used as others noted use B or bcrypt
+
+it should be in my opinion more strongly noted that password hashing with B is no longer secure and should not be used as others noted use B or bcrypt
+
+you d be better off using B for this as it s dumber than B
+
+you d be better off using B for this as it s dumber than B
+
+the B version is not more complex or more dangerous than the B version
+
+but for the example you give it doesn t matter - if it s going to fail it will be in the initial strlen so B doesn t buy you anything in terms of safety and presumbly B is slower as it has to both check bounds and for nul and any difference between B and strcpy isn t worth changing code for speculatively
+

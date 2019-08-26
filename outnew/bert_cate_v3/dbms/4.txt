@@ -1,0 +1,18 @@
+* will always be a little bit more mature than *
+
+all that said * is much more acid compliant than * it handles fks just as you re needing and i would generally recommend it based on what you ve expressed in your post
+
+traditionally * has had fewer security issues than * but they are both doing very well on that
+
+ps you can also migrate to * it s smarter than * when choosing right indexes
+
+i know * could be considered more mature than * with regards to locking thanks to mvcc - can i use row-locking or some other feature in * instead of the token field
+
+it seems * is more forgiving with this than * but in every case you use a reserved word you should escape it
+
+does this affect * harder than *
+
+i just checked the timings using * 5 and they are slightly worse than *
+
+in other words is * better or worse than * to handle unicode etc
+

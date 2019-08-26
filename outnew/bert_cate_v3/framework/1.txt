@@ -1,0 +1,142 @@
+in my view * seems much more lighter then * but i never used either one so i can t judge
+
+i have been reading about * but it seems a bit more complicated than *
+
+* is considered slower than * but you can tweak it to enhance speed
+
+or would a tool like * be better suited than * in this case
+
+it s very heavyweight and not fully featured for forms so prism or * works better as these are designed for forms from the ground up but if you do use * for forms its easy to go native if you need
+
+you cannot use mocks in conjunction with * it s better to let * provide the context you need here
+
+you can do it with * but works better in 32bit * framework
+
+* has a better data store api than the one * has
+
+with * it is even easier since you just need to bind a property on your * to selecteditem
+
+how can i connect a method and not a command with a binding from the * to an attached event to ask in a more general way with * micro
+
+* probably has more resources than *
+
+it should be mentioned that * provides many more features for smart stubs spies than * so both can be used together
+
+we started experimenting with * on smaller services and kind of like it more than *
+
+personally i d say * might have the edge as it encourages convention more than * would
+
+* has a higher learning curve than say * and cakephp
+
+i have found one benchmark in which * is faster than * and another benchmark in which * is faster than *
+
+so latest * 2.0 is better than * according to this benchmarks
+
+so what makes * significantly better than *
+
+firstly i am not sure how to properly use multi-thread with * last time i tried i had no success anyway i have had better results with *
+
+* has more capabilities and can be helpful with integration tests * is more focused on unit tests
+
+* is much friendlier to this paradigm than * though
+
+if you are familiar of using * it is easier to switch into *
+
+isn t * supposed to a better than *
+
+* is more low-level comparing with *
+
+* has a templating language of it s own it looks easier than * s
+
+well for that you ll need * that is better integrated with * and * does not handle file uploads that actually everyone use so you have to put also icefaces that actually are better managed by maven that you currenty are not using... neverending story
+
+* is a web ui framework whereas * is a more general web application framework that integrates not just * but conversational contexts workflow jbpm and object persistance preferably ejb3
+
+* seemed a bit easier than * and i started to do a hello world * app with this tutorial
+
+though * looks more mature than * web api i m still a bit confused
+
+building restful services with * is much simpler than with * in my experience
+
+if you actually need dao s this is something that comes out-of-the-box in * and put partly in * roo but there is also a great addon for * roo hades addon that does a great job at this maybe even better than *
+
+if you are looking for the latter then * is a micro framework that is considerably smaller than *
+
+both frameworks are fairly easy to implement * is much easier than * imo although * has a built in authentication layer that you can use albeit more difficult to implement in a client server scenario like you need
+
+i m building an application in both bottle and * to see which i am more comfortable with as * is too much batteries included
+
+either will do the trick but bottle or in my preference * will be faster as it is much more lightweight than *
+
+i read that * for beginner is better than * because educational reasons at the same time * have * oscar
+
+* has a really great albeit smaller than * community and there are a lot of extensions available for common web-app extensions in the extensions directory
+
+current task looks like * is ok for it since it is smaller and simplier than *
+
+* is clearly more bdd focused than * although i could see doing bdd with * by describing the tests in a behavior-oriented way
+
+* is older and have more extensions dbunit * etc
+
+first its not a bad idea to use * to satisfy your requirement the uniqueness of node and added advantage compared to conventional technologies like apache-php is clearly explained in this following video why * is better .the notion of node being just used for advanced or complex applications is wrong you can use node for building applications which are very simple to anything of huge proportion.it would be a not so comfortable task for a node beginner to code without using any frameworks but by using this web application framework called * you need not code from scratch and its very easy to setup html pages using its simplified html templating language called jade and route requests also you can even use your html pages if you are not willing to use jade for rendering the views of your application .here are the series of tutorials which would help you tutorials on beginning with * basics of *js
+
+comparison between * vs * - why is * voted better than *
+
+* is rather faster than *
+
+see this blog when you have 10000 request * performs better than *
+
+i should also say that i have the token at ctx.request.get authorization * based i think it s something like req.header authorization with * in all routes
+
+* is more powerful verstile but to get started with it i feel you have to be a better php developer than you do to get started with something like *
+
+i am using * 2 and i see more than one * method that takes an idictionary as a parameter for the html attributes
+
+* arguably has more better documentation than * see plone.org products * as well as my book professional plone 4 development
+
+* s ajax support is far less verbose than * s
+
+i ve found * to be really effective and surprisingly lightweight....it aims to be more lightweight than *
+
+* is more often compared contrasted to * in that it offers a set of facilities outside of moq and or rhinomocks sweet spot
+
+i ve came to * from * which was a little bit bigger documentation and easier to understood but as far as i found out many programmers say that * are alot better than *
+
+but * offers far more than just doing away with the need for your own writables although that is in my view a considerable plus it offers fairly efficient serialization the choice between serializing against generated entity classes like * requires or using a so-called genericrecord structure instead and not having to have tagged data
+
+i use * and * together but the language syntax of * makes more sense is semantic as * when testing for request expectations
+
+i prefer * because there are more conveniences built into the environment than offered by * but * is much newer than * and hindsight always makes it easier make new implementations better
+
+as i understand it * supports gae better out of the box than *
+
+* s is better * s appadmin is for administrators only
+
+having said that * has a lower initial learning curve than * as it was specifically designed as a learning tool
+
+i think you ll find that * is even easier to learn and use than rails and *
+
+from my experience * is much slower than *
+
+for example * offers more assert methods than *
+
+also * has little bit better benchmarks than *
+
+btw why do you want to use * it looks to me less powerful than *
+
+i suggest that you to move * which has a better api or even to * whose protocol is even simpler
+
+in * when is it appropriate to render your game content using more than one *
+
+if you ve been using * then you already know it is better than *
+
+also take a look at * as this has lower overhead than * and works with * forms
+
+while * has much more sophisticated widgets than gwt you still can t use * in conjunction with it which is why i rejected using *
+
+* is larger than * but thanks to expires cache-control this only matters on the the first load
+
+as wuliwong said sinatra and * are way less complex than *
+
+sinatra and * are not automatically faster than *
+

@@ -1,0 +1,84 @@
+here the * header takes actually more time than * body thus profiling results could be distorted.
+
+so i decide instead of writing out chucks of code for each of the 10 possible health point not to mention there are other player stats that will be done in the same format i decided upon scraping together a * with two if-else statements to attempt a * to fill each grid element as long as the health value is greater than the * s i
+
+the while * with decrements was approximately 1.5 times slower than the *
+
+the decremented while * is still faster than the * or the incremented while * with length upper limit comparison by a fair margin
+
+really a while * would probably have been clearer than a * on reflection
+
+secondly you will find a * is easier than a do * for implementing the logic as you don t need to keep track of * counter manually
+
+alternatively you could initialize i outside of the * but then it s scoped larger than * itself
+
+i ve done a small experiment as will be shown below and it looks like that a while * is faster than a * in perl
+
+the range-based * syntax is cleaner and more universal but you can t execute the code in * for a specified range different than from begin to end
+
+* is easier to read than a while *
+
+they are functionally identical however it can be argued that the * is less error prone because all of * functionality is right there together
+
+i think you can best use the * this gives you a little bit more control over *
+
+i think using * is much more easier than using foreach * to do this
+
+to explain why a * is faster than a for in * is basically understand the underlying data structures used to store the data in memory
+
+to my mind a * is simpler to understand than traversing the list backwards with a while *
+
+* in c++ are most basic than python the * is more simpler it is based on the three expression initializer expression * test expression and the counting expression
+
+but certainly wrong syntax in the * is there better way to code it so that after * i can get
+
+arraylist - * is about more than 2 times faster speed than foreach *
+
+a while * makes more sense to me than your use of a *
+
+a while * is better thought of as a looping version of an if statement than akin to a *
+
+rewriting the while * as a * is nicer and makes it less likely to get an infinite *
+
+this is why a regular * is better to use for this scenario rather than a foreach *
+
+a while * makes more sense in this situation or a * without initialization
+
+imho * looks better with a * iterating in the right direction
+
+can you explain me why in this case the parfor * is slower than the *
+
+the * is slightly slower than the foreach *
+
+using a while * we can control the flow of i better than a *
+
+i found a simple condition where using while * is better than *
+
+i think that instead of a * is better a while because when you find your item can break *
+
+this is happening because of speed of * which is faster than your time .as * iterates in time of less than miliseconds and generates values.you can only call it when you want to insert single value to database and don t iterate for values
+
+is the foreach * slower than the *
+
+in my tests i found that one of the * i tested titled * is astronomically slower than the other *
+
+using * is much simpler if you use condition as limit for breaking *
+
+data structure to implement reverse functionality of a * that is more than one key * to a common value using python
+
+the only way to copy * that is more efficient than * coding is system.arraycopy
+
+iterating pair-wise you d normally do something like but iterating over an * is faster than using a c-style *
+
+in your code on line in the * does no more point to an * --the compiler has no information about the length of the variable that it s pointing at whether it is an * a single chars or an int or something else-- but it is just a plain pointer presumably a pointer pointing to a default int
+
+thus the * is faster than the foreach-loop if the * must
+
+when i try to access it with a * where its index is less than the * length i get the following error message typeerror function object is unsubscriptable
+
+the * is faster than the foreach-loop if the * must only be accessed once per iteration
+
+the hits * is longer than numtotalhits so your * limit should be numtotalhits instead of hits.length
+
+next i can use 3rd 4th and 5th level of * means more than * statement will be assign
+

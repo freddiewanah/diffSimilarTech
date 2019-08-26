@@ -1,0 +1,46 @@
+a * is no more than a wrapper for an underlying *
+
+if the * is more specific then it might fill in all by 2 of the arguments to its * __init__ method
+
+yes but if you think of your diagram as a topographic map the * have higher altitudes than the *
+
+this breaks the inherited and the * is no longer an instance of the *
+
+the fact that the * is more selective only actually writes about what it writes is new functionality especially in light of the fact that the * promises nothing
+
+you cannot have a * with less methods than a *
+
+if new member fields are declared in the * then yes a * presumably uses more memory since it has all the fields declared in the * plus all the fields declared in the *
+
+if we are creating an object of a * and invoking the method of * and if * extends more than one class which * method should be called
+
+however they are not the same because the * has more specific functions and data members that accomplish a more specific task that the *
+
+so i inspected the compiled firebasemessagingservice which was the * of com.google.firebase.iid.zzb and had zzae intent method as private but its * firebasemessagingservice had protected access i know that * cannot have weaker reference than its * so i guess there is something wrong with firebasemessagingservice library
+
+these relations naturally arise when you impose restrictions on what you can handle--then if a * means that the method can handle less acts as a * of since can handle everything that the * can handle and more
+
+2 since * is smaller than * one should use memory object carefully
+
+i believe the reasoning behind it is that it allows the parameters to be * nicer by preventing * of member variables
+
+if a * needs more information than the standard parameters which came up for us you have the option of a second parameters class type that you use as a second parameter but then you have two types of constructors in the tree or using * in the parameters class hierarchy
+
+depending on how your application is structured this means you may want to have your own base class implementing iresource which creates your custom not found resource for all of its * or better make a wrapper since composition is better than *
+
+now in .net for desktop controls you can use * which is much more powerful than the old tag * anyway
+
+* will usually give better performance than * because * always stores its items sequentially in memory where * will allocate its items on the heap unless sizeof t sizeof void and t has been declared to be either a q_movable_type or a q_primitive_type using q_declare_typeinfo
+
+a * is nothing more than syntactic shorthand for a get set *
+
+that suggests another aspect where a declared * is more than a pair of * methods that is more static type checking although it is undesirable here
+
+* api is easier to work with than * but both approaches use the former
+
+you just need to connect using the entity framework driver and if you develop in any of technologies that uses * includes code first model first and data base first but is lighter than * you can use the list below
+
+* is more general subclasses support writing to different places * is a specific one writing to a string
+
+note also that using * is more efficient than creating a new * each time a letter is added
+

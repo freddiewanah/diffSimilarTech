@@ -1,0 +1,7 @@
+412091
+postgresql mysql
+Pattern(s): 2	2	
+postgresql s a lot more enterprise-ready than mysql not to mention that postgresql follows the sql standard a lot better
+
+
+

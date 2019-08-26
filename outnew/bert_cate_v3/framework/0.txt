@@ -1,0 +1,82 @@
+for general testing * is a more well-established product while * is focussed on tests written using bdd methodology behaviour driven design
+
+since apple has decided that * is no more and * appears to only support prores 4444 and 422 flavors how are developers supposed to write modern software that can handle 4444xq 422lt and 422 proxy
+
+i ve only done one experiment with * material myself and i wasn t experiencing any real performance issues at the time but i did read some people writing about it being slower than plain *
+
+like bruz says * is probably more freeform at the data layer than *
+
+* makes use of bindings better than * currently does
+
+* is more popular because it was there first therefore more articles about it on the web and better tooling and because most programmers don t care about or need the advanced features that * offers
+
+* is more widespread * has the most features but mstest has more manpower behind it
+
+this is only a guess and is not based on actual performance testing probably * will be doing better than *
+
+with this in mind customizing the css of a * app is significantly easier than * for the simple reason that you control the markup
+
+the thing that makes * a better choice than * spies is that it is capable of programming spies expectations withargs ... .called.
+
+* offers you more options and possibilites how to run your tests and in which order especially something * can t
+
+if you re doing non-unit testing * might be a better option than *
+
+* strives to be much more configurable than * but in the end they both work equally well
+
+i m new to sever-side programming.some people told me that * is more suitable for beginners like me than *
+
+* is more powerful with * but not necessarily richfaces or icefaces for they mostly just extend the component set which is anyway fall down to standard html components when rendered by *
+
+* is much more mature than * web api
+
+* looks more natural when developing applications in scala however from what i read it seems to support fewer test scenarios compared to * and it s also less mature
+
+* has been around a lot longer than * and is much more actively maintained because of it s much larger contributor base
+
+* is more focused on simplicity instead of functionality while * has more functionality
+
+our team use * as our frame before but now we use * as our frame because it is more light than * but we still use * template.
+
+performing this asynchronous testing is actually possible in * but is handled better in another javascript testing framework * js
+
+* is more of a modularity framework and * is more of a mvvm framework i know both have overlapping features but it would be great to take best features from two frameworks when they are combined
+
+* is slightly easier to grasp but * is the best in my opinion at least so if you want to start learning and using a framework start with the one you re going to use when you ll be a master in tdd
+
+it shows that * is faster then other framework but as this question is about * and restify * is faster than restify
+
+i like * but the amount of gpu memory * use is larger than * i test in resnet-50 with *-memonger
+
+thus i think * is more suitable for intranet and takes less time to develop your app while * is better for more complex gui or unstable connections where additional roundtrips matter
+
+* makes ui testing really easy and useful with lots of great apis that are less complex than *
+
+but if * has a bit too much bloat for you maybe you can try * which is a bit less bloated than * started as a fork
+
+* s admin is better and more customizable than * s appadmin
+
+to answer klochner both seems quite popular but ruby is not a language that i am familiar with and * seems more heavy and complex to me than *
+
+and * is more lightweight than * rails whatever on pretty much all counts
+
+if you have a full version of visual studio 2008 rather than the express edition it integrates the inbuilt * much better than * does and cruise control also supports *
+
+nonetheless i tried to compare the sum of all test speeds and in some cases * is faster and in other cases * is faster
+
+thus i suspect when people say that * is much faster than * it is because of the loading and updating delays but the actual test execution time appears to be very similar
+
+* uses an older less capable version of the * platform for its videoplayer
+
+for the record * as of today supports more complex scenarios than * that s why the initial learning curve is steeper
+
+in my personal benchmarks * is undeniably faster than * due to lazy loading
+
+i d suggest having a look at * which is much closer to http semantics than asp.net * is
+
+the later version of * makes things easier by integrating with the * lifecycle as a runner
+
+* + monogame --- monogame s performance seems only slightly lower than * can build to most platforms
+
+* is more popular and has more tutorials then *
+

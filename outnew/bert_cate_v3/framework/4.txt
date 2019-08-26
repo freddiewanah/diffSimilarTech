@@ -1,0 +1,86 @@
+personally i think * is much better suited for mocking the unmockable and i prefer a combination of * for my own interfaces and classes and * for framework and externalities like file i o gui db connections etc
+
+this is another reason why i d prefer rhinomocks and * over * * uses the older expectation style whereas rhinomocks and * both support the arrange act assert approach where you specify you expected interactions as assertions at the end of the test like this
+
+you can use * which is quite better than *
+
+* has the lower learning curve overall so i would recommend it over *
+
+why do people say * is somewhat harder than * for people new to mvc
+
+i suspect * doesn t have quite as flexible a structure it s smaller and lighter than * but a quick look at the * manual to see how behaviors components helpers and the vendors folder may be helpful
+
+i have seen a lot of post where they are claiming that * is much better than * but looking at the differences i have seen that the widget support is not there in *
+
+i think * produces a bit uglier code than * but i m afraid to choose * because it s changing constantly and i will be stuck with the current version if it breaks backward compatibility
+
+* seems to have a bigger community than * maybe it s just my point of view
+
+i did some reading on * and it seems to be able to do what i m thinking of although at a much lower level than *
+
+the docs for * 2 are clear user-friendly and much less intimidating than * 2 docs
+
+it s probably overkill for what you need but * is an mvc framework and it doesn t look any more heavyweight than * or trimpath s junction
+
+i have worked pretty heavily with both flavors of the gwt * libraries though i ve spent more time with * recently
+
+from what i have read on here i here that * is more popular over *
+
+developers community it might seem that * has a larger community of developers but during my career with * i ve found no bottleneck of having a question without an answer
+
+according to my experience * is easy to use but it has some pros and cons too every framework has but i used * on some projects and i think * is much more better than *
+
+2 * a bit more structured than * but you have a basic app up within 10 mins and if your familiar with mvc design its a great way to develop portals incredibly quickly
+
+* is more flexible than * and have multiple advantages like support for parallel testing for example
+
+if you have to do a lot of this honestly * is more flexible but you can absolutely get it done in *
+
+to be perfectly honest i * is way more popular than * at least here where i work and live
+
+here is what it would look like with * it s a little more contrived with * since you can t pass parameters directly to test functions
+
+edit it seems * has more printed books as references compared to * on amazon
+
+you could argue that the * style is simpler and you can do it in * too it just isn t optimal but keeping the state only in the server has many advantages
+
+* s a much older library than * so you could expect that it would have many more features
+
+in my opinion this is a more elegant solution than jsf and i think * s ioc container makes it more powerful than *
+
+* doesn t provide this kind of thing out of the box - it s designed to be a little more low level than *
+
+* the actionbean approach doesn t look much better than *
+
+i have no concrete figures on that but from my own experience i d estimate that instrumented tests are around 100-400 slower * seeming to be faster than ms *
+
+overall * is more flexible than * and a great base to build a web application and api on
+
+anyway the most important issue is that * is easier than * pylons php and rails
+
+* has more focus on simple is better than complex but * has more focus on explicit is better than implicit
+
+* has better support for parameterized tests than *
+
+* is faster as compared to *
+
+* seems to have an overall nicer syntax than * like the strongly-typed way the former deals with passing parameters to a constructor of a faked class
+
+i would advise you to try * it is very easy to learn much easier than * and it let s you re-use many existing components as well
+
+unfortunately i m pretty sure you ll not find any packages or projects that migrates a joomla web site to * or maybe * which is much older than *
+
+i am new to * it s good for coding but it is not much faster than *
+
+i understand that * is what s hot right now but i ve never played with it and am not sure if learning * is more time-effective vs using * which i know pretty well but just doesn t excite me any more
+
+before i am using * but i found out that * is much better than * and it has a lot of features
+
+i would recommend * as it is in my opinion equally or even better than * and it is free
+
+both give you the ability to implement things in a variety of ways which can be confusing but * provides more of the code that you would have to write yourself in * as standard which for me personally is more important for rapid prototyping than the wealth of * examples available
+
+* would make things even simpler than *
+
+but i don t know anything about sinatra and * is the footprint and speed really that better than *
+

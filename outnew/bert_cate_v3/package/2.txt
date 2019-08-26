@@ -1,0 +1,4 @@
+with library * you can have a prettier more compact form see soto s answer for an even more compact one with *
+
+i found a solution to this problem using * at *-where-are-you-putting-my-html because i think it is easier than *
+

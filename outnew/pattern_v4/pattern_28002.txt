@@ -1,0 +1,572 @@
+2171798
+gridview repeater
+Pattern(s): 1	
+the gridview is for tabular data only and does a lot of the work for you like binding data automatically to columns
+the repeater gives you more control over the result but you have to do more because nothing gets binded automatically
+
+
+
+2197183
+ubuntu linux
+Pattern(s): 0	
+for windows and mac osx not for linux
+you will need to install an svn client on ubuntu that supports the newer repo format
+
+
+
+2237837
+boost allocator
+Pattern(s): 1	
+using boost variant is faster than a union and leads imo to the most elegant code
+i d guess that the extremely poor performance of the class hierarchy approach is due to the need to use dynamic memory allocator and dynamic dispatch
+
+
+
+2267285
+onclick onchange
+Pattern(s): 0	
+when settting the checked state programatically the onchange handler never fires in those browsers
+i concur with pointy that onclick is a better way to handle checkboxes if you want to avoid surprises
+
+
+
+2271760
+nerdtree netrw
+Pattern(s): 0	
+the nerdtree plugin gives you a collapsible project tree
+personally i find that the netrw plugin is more than sufficient and this usually comes installed with vim
+
+
+
+2277052
+postgresql mysql
+Pattern(s): 0	
+postgresql is older than mysql so it might have influenced them
+
+
+
+2293090
+haskell ocaml
+Pattern(s): 0	
+imo it s is much more straightforward to achieve c++ - like performance in ocaml than in haskell
+through as already said haskell has much nicer community packages tools and support syntax features ffi probability monads via typeclasses and parallel programming support
+
+
+
+2336575
+gif png
+Pattern(s): 0	
+you should use png instead of gif because png offers better compression and features
+
+
+
+2393989
+nunit mstest
+Pattern(s): 1	
+there are several of these implemented by 3rd parties for mstest
+nunit is much faster
+
+
+
+2422410
+nunit mstest
+Pattern(s): 0	1	0	
+nunit is an older more established unit testing framework designed to do exactly one thing - unit testing
+mstest is newer so it does not have the same level of maturity in its api
+
+
+
+2436304
+haskell scheme
+Pattern(s): 1	
+if you re interested in functional programming haskell is the only purely functional language on that list
+common lisp is a weakly functional mixed-paradigm language and scheme is more strongly functional but still not pure
+
+
+
+2467567
+mp3 ogg
+Pattern(s): 0	
+ogg vorbis is better quality per meg than mp3 plus no licensing legal issues
+
+
+
+2496793
+fgets getline
+Pattern(s): 0	
+edit as wolfer alluded to a null in your input will cause the string to be terminated prematurely when using fgets
+getline is a better choice if available since it handles memory allocation and does not have issues with nul input
+
+
+
+2535830
+ubuntu linux
+Pattern(s): 0	
+if you just want the fun of linux command line programs without access to all of ubuntu cygwin is smaller and might be faster
+
+
+
+2625704
+swt swing
+Pattern(s): 1	
+we rely on swt for our java guis
+yes you have to include an external native library but the look and feel is native more responsive although swing has become much faster in the past few years and seamless with other apps on the target platform
+
+
+
+2665997
+multiplying subtract
+Pattern(s): 0	
+zero or multiplying by one
+this also reveals that subtract is a better search term than minus
+
+
+
+2688976
+trie tree
+Pattern(s): 1	
+finally b + tree is admittedly more difficult to implement than a trie it s more on a red-black tree level of complexity
+
+
+
+2699569
+dictionary map
+Pattern(s): 0	
+i definitely wouldn t try introducing a new general-purpose type for use in python based on std map which has worse algorithmic complexity in time for many important operations and in at least some implementations leaves some optimisations to the user that dictionary already has
+
+
+
+2750804
+wxpython pyqt
+Pattern(s): 1	1	
+and now we had to switch into pyqt since qt is integrated in maya 2011
+however wxpython is more straight forward and you can easily start working on wxpython and learn wxpython from zero fast . it provides and awesome resources and decumentation
+wxpython qt provides more powerful features that you cant find in wxpython for example the multi touch detection qt also provides good support for drawing devices like pc tablets and so on
+
+
+
+2844021
+django web2py
+Pattern(s): 0	
+if you are starting an app from scratch a full-stack framework like django and web2py is the best options
+django gives you a better looking database administrative interface
+
+
+
+2848888
+division multiplication
+Pattern(s): 0	
+multiplication and division is a lot slower over an order of magnitude
+
+
+
+2848888
+division subtraction
+Pattern(s): 0	
+addition and subtraction is roughly 3 times as slow as for normal int s
+multiplication and division is a lot slower over an order of magnitude
+
+
+
+2867802
+gridview repeater
+Pattern(s): 0	
+also you can use templatecolumn with gridview and add your labels into this template column
+but imo repeater is simpler to customize your view by templates
+
+
+
+2882325
+erlang ocaml
+Pattern(s): 1	
+erlang is more practical but not quite as amenable to metaprogramming
+ocaml is another possible choice but suffers a bit on the practicality front as well
+
+
+
+2889354
+gridbaglayout springlayout
+Pattern(s): 1	
+the springlayout has an example that does exaclty this
+the gridbaglayout is more difficult to use but also support row column type layout
+
+
+
+2892969
+comparator comparable
+Pattern(s): 1	1	
+if the ordering of an object is an implementation detail of the object the comparable is more appropriate
+if the ordering of the objects is controlled by the caller then comparator is more appropriate
+
+
+
+2912577
+apache nginx
+Pattern(s): 1	
+also nginx s configuration is much more flexible than apache and by having nginx on the front end nginx gives you a lot of flexibility
+
+
+
+2914733
+swt swing
+Pattern(s): 1	
+addendum gilbert le blanc raises an excellent point about the ease portability of swing
+in contrast swt requires slightly more effort to deploy but some users prefer the greater fidelity of org.eclipse.swt.widgets.filedialog as shown here
+
+
+
+2927816
+exponent modulo
+Pattern(s): 0	
+the private exponent is always smaller than the modulo so you should be able to encrypt exponent using the raw rsa operation if you make sure to remove the prepended zero
+
+
+
+2963234
+factors mean
+Pattern(s): 0	
+taking a guess at what you mean a subquery in the with clause is typically executed only once before the main query is executed
+for large datasets subquery factors is obviously better since you re executing the subquery only once in most if not all cases
+
+
+
+2985456
+ubuntu debian
+Pattern(s): 0	
+in ubuntu it is a bit easier to install packages for java development but it doesn t really matter that much
+remember that ubuntu is based on debian so ubuntu works the same
+
+
+
+2985456
+ubuntu debian
+Pattern(s): 0	
+remember that ubuntu is based on debian so ubuntu works the same
+ubuntu just adds more user-friendly gui s
+
+
+
+3025706
+jboss glassfish
+Pattern(s): 0	
+other than that - jboss especially 5.x is an excellent application server
+glassfish has better administration console and documentation support for java ee 6 in glassfish 3 and better documentation
+
+
+
+3034603
+mvp presenter
+Pattern(s): 1	
+for example in an mvp - based web application
+now another class such as a presenter is less likely to depend on the standardnavigator implementation and more likely to depend on the inavigator interface since the implementation would need to be cast to an interface to make use of the redirect method
+
+
+
+3072211
+swt swing
+Pattern(s): 1	
+but in practice it all depends on swt and swing implementations on each platform
+in my experience swt is faster in windows but it is not faster on mac os x
+
+
+
+3082138
+postgresql mysql
+Pattern(s): 1	
+sql support - postgresql is much better for complex sql-queries for example with lots of joins and aggregates
+mysql s stored procedures didn t feel very mature
+
+
+
+3084827
+bottle flask
+Pattern(s): 1	
+so i m biased because i m the author of flask but here something to help you make the pick
+itty - very minimal framework bottle is probably a more stable alternative if you want a single file installation
+
+
+
+3114467
+postgresql mysql
+Pattern(s): 1	
+using stored procedures helped out regarding structuring the project but performance actually got a little worse this was at the time stored procedures was a new feature in mysql
+postgresql performs better with complex queries in my experience but writing real graph queries for it isn t really possible read here and here for why this is so
+
+
+
+3168292
+prng random
+Pattern(s): 0	
+the f#.net journal articles numerical libraries special functions interpolation and random numbers 16th march 2008 and numerical libraries linear algebra and spectral methods 16th april 2008 tested quite a bit of functionality and nmath was actually the slowest of all the commercial libraries
+their prng was slower than all others and 50 slower than the free math.net library some basic functionality was missing the ability to calculate gamma -0.5 and other basic functionality the gamma-related functions they did provide was broken
+
+
+
+3182877
+gradle ivy
+Pattern(s): 0	
+we use gradle and chose it over maven and ant
+ant gave us total flexibility and ivy gives better dependency management than maven but there isn t great support for multi-project builds
+
+
+
+3184838
+innodb myisam
+Pattern(s): 0	
+the problem with myisam is that myisam locks the table when myisam s in use whereas innodb just locks the row
+innodb is a bit slower because of this but allows simultaneous access to the same table so innodb s more suitable for heavy traffic transactions
+
+
+
+3217975
+boost allocator
+Pattern(s): 0	
+better is to use shared_ptr or many of the other popular smart pointers available in boost and or tr1 and or c++0x
+performance-wise objects allocated on the stack can be done so very quickly the stack size is increased per-function-call so all the required memory has been allocated up-front by a simple move of a pointer. contrarily dynamic allocator generally requires much more time
+
+
+
+3218551
+quicksort heapsort
+Pattern(s): 0	
+unless you re going to write a very good sort probably quicksort merge sort or heapsort depending on your specific needs quicksort will be better and quicksort takes fewer lines of code
+
+
+
+3227242
+profiling instrumentation
+Pattern(s): 0	
+this is due to the fact that profiling need to instrumentation the code to keep track of invocations - this can interfere with the jit s ability to inline those methods and the instrumentation overhead becomes significantly larger than the time spent actually executing the methods body
+
+
+
+3324822
+client-side server-side
+Pattern(s): 0	
+if you control the server-side code then simplify the wsdl so that server-side validates the same soap message
+you ll notice that the client-side code becomes a lot simpler too and you will gain a better understanding of what your web service is offering
+
+
+
+3359437
+innodb myisam
+Pattern(s): 0	
+since you re looking at a pretty even mix of read write traffic innodb is the better choice
+myisam s full-table locks on every write would probably be murder
+
+
+
+3365484
+boost stl
+Pattern(s): 1	
+boost makes it much neater
+i never use the stl
+
+
+
+3366523
+udp tcp
+Pattern(s): 1	
+if you want a reliable as in other parts of the system will worry about errors and retries stream of bytes between the two pcs then tcp ip is not much more complicated to use than udp
+
+
+
+3422364
+postgresql mysql
+Pattern(s): 0	
+mysql is most supported by shared hosting hence the m in lamp linux apache mysql php
+but postgresql is getting more support too
+
+
+
+3436045
+ubuntu linux
+Pattern(s): 1	
+i started using ubuntu for rails development a few weeks ago and have noticed a big improvement over windows although i still dual boot due to the following
+terminal in linux is alot more robust than command prompt
+
+
+
+3497719
+mathml mathjax
+Pattern(s): 0	
+it follows pretty much the same principles as jsmath but adds support for mathml and takes better advantage of modern browsers webfonts and javascript technology
+while davide will answer questions about jsmath no future development will likely occur on it and its users are strongly encouraged to move to mathjax
+
+
+
+3533390
+innodb myisam
+Pattern(s): 0	
+additionally innodb has row level locking which is far more performant under concurrent load than myisam table level locking
+i could keep going but somone s already provided a really good summary of why innodb is a better choice for oltp
+
+
+
+3563703
+opera safari
+Pattern(s): 0	
+opera is lower at 30 cookies
+safari 3 has no apparent cookie limit
+
+
+
+3605068
+google-chrome firefox
+Pattern(s): 1	
+your html was invalid and google-chrome did not accept it
+firefox was more lenient in what it allowed
+
+
+
+3605831
+lxml celementtree
+Pattern(s): 0	
+as a side-effect of implementing proper parent traversal lxml is a bit slower than celementtree for parsing
+
+
+
+3607684
+arraylist treeset
+Pattern(s): 0	
+so if you re mainly retrieving and don t sort often arraylist is the better choice
+if you sort often but dont retrieve that much treeset would be a better choice
+
+
+
+3646066
+django web2py
+Pattern(s): 1	
+in contrast to turbogears django is more out-of-the-box
+i don t have any experience with web2py but from my impression it tries to do a little to much out-of-the-box
+
+
+
+3646066
+turbogears web2py
+Pattern(s): 1	
+in contrast to turbogears django is more out-of-the-box
+i don t have any experience with web2py but from my impression it tries to do a little to much out-of-the-box
+
+
+
+3659729
+querypath phpquery
+Pattern(s): 1	
+generally querypath is better suited for manipulation of documents
+while phpquery also implements some pseudo ajax methods just http requests to more closely resemble jquery
+
+
+
+3670082
+union distinct
+Pattern(s): 1	
+if you want to ensure two collections have the same distinct set of members where duplicates in either are ignored you can use
+using the set operations intersect union except is more efficient than using methods like contains
+
+
+
+3676955
+addition multiplication
+Pattern(s): 1	
+as you see integer multiplication floating-point multiplication and floating-point addition all took about the same time
+array indexing took a little longer and you re doing it three times and integer addition was a little faster
+
+
+
+3689215
+sortedlist sorteddictionary
+Pattern(s): 1	
+from sorted data sortedlist is faster
+than sorteddictionary
+
+
+
+3745138
+udp tcp
+Pattern(s): 0	
+udp is a lightweight protocol that by design doesn t handle things like packet sequencing
+tcp is a better choice if you want robust packet delivery and sequencing
+
+
+
+3791471
+realloc malloc
+Pattern(s): 1	
+the main thing to know about realloc is that it is often capable of determining the actual size of the block of memory that any of the heap allocation routines returned and see if the block is big enough already or in some cases if it would be best try to shrink the block or move it
+malloc is used more because it is simplest
+
+
+
+3819023
+lxml libxml2
+Pattern(s): 0	
+lxml is much easier to use than the xml libraries included in the standard python library
+it s a binding for the c libxml2 library so i m assuming it s also faster
+
+
+
+3828932
+datamapper activerecord
+Pattern(s): 1	
+the datamapper is not more modern or newer but just more suited for an orm
+the main reason people change is because activerecord does not make for a good orm
+
+
+
+3838911
+alarmmanager timertask
+Pattern(s): 0	
+timer and timertask are fine for things with short periods that are only relevant while an activity is on-screen
+alarmmanager is for longer periods such as time and date to be notified because it allows your service to get out of memory
+
+
+
+3860644
+implements extends
+Pattern(s): 1	
+there is also sortedset extends set and blockingqueue extends queue
+now concrete classes implements set is more understandable if set explicitly state which interface in the heirarchy it is implements even though it may look redundant at times
+
+
+
+3867552
+profiling instrumentation
+Pattern(s): 1	
+as you noted tier interaction profiling tip gives you more detailed information about calls to databases right down to the sql statements for more information refer to the profiling blog
+another recommended option when profiling asp.net is to profile using instrumentation mode
+
+
+
+3900409
+direct3d gdi
+Pattern(s): 1	
+imho the right way to go is direct3d or opengl but given delphi is windows only maybe direct3d is better
+direct3d was introduced exactly because the gdi is not good at such tasks
+
+
+
+3927111
+dictionary map
+Pattern(s): 0	
+a safer approach would be to create a private map between a label and myobject using a dictionary instance
+this approach has the extra overhead of a dictionary but produces more reliable code imho
+
+
+
+3968498
+prng random
+Pattern(s): 1	
+most random sources don t produce real random bits all that fast and it s hard to tell whether you ve made a bad blunder
+a good prng is better for virtually all intents and purposes
+
+
+
+3983743
+codeigniter yii
+Pattern(s): 1	
+you may find it getting in your way a bit more too as you try to do everything the yii way
+codeigniter is more flexible - gives you the foundation you need w o getting in your way
+
+
+

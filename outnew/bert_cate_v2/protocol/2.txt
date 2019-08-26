@@ -1,0 +1,84 @@
+anything that you do with B is more or less equivalent with B and neither is really anything but an implementation detail of your soa work
+
+B 2 is even better than B and check this article for a use case regarding B
+
+while B has less network overhead than B it generally relies on you the developer to come up with your own mechanisms for flow control fragmentation handling lost packets etc.
+
+B is a bit slower than B but more failsafe
+
+in a congested network yes B will send its packets faster than B this is because B takes then congestion into account using a mechanism called congestion control
+
+4 B is a slower than B
+
+B packets are easier structured than B packets but sacrifice security for their size
+
+don t think of it as B is faster and B is slower because that s just wrong
+
+what i have thought of so far is that B is going to be more reliable than B and in rmi corba we want network reliability
+
+you will notice that the B header has more fields than the B header and many of those fields will be populated by information from the handshake
+
+B protocol is unreliable but much much faster than B which is most commonly used for communication
+
+if you care a lot about efficiency or really need tens of thousands of connections then implementing your specific protocol in B will always be better than B
+
+yes B is much much lighter than B
+
+B ip is supposed to be more reliable than B ip see this comparison
+
+as a general rule B is faster than B due to less protocol overhead
+
++ consider that the implementation of B stack is much more complicated than B more instructions are executed there
+
+the problem is that B creates bigger packages of data while B uses 8 kb of data blocks
+
+maybe one of you guys already sees a problem in the code snippets or have any other suggestion or hint for me why my B transmission is slower than B
+
+a B stack is considerably simpler than a B stack
+
+when writing your server bear in mind that the sequence of events for a B socket is much harder than for a B socket since as well as the normal socket and bind calls you also have to listen and accept
+
+B is a slower more reliable protocol than B is
+
+B is also more work than B if you need reliability which is built in to B
+
+B is much slower than B but when the two machines are not on the same lan B is not reliable
+
+B should be much faster than B because there are no acknowledge and congestion detection
+
+it is worth nothing that in a link where B and B are sharing the bandwidth B is better behaved than B in that it will try to limit itself to avoid congestion
+
+for example i read an experiment in which a stream of 300 byte packets was being sent over ethernet 1500 byte mtu and B was 50 faster than B
+
+B scales better than B because of reduced states that need to be maintained in the operating system
+
+it may be that the kernel heuristics for servering B connections is more aggressive than for B sockets since B connections require more state and more continuous processing than do B sockets
+
+does B always perform better than B
+
+you could get them to do a B multicast within a lan environment to identify the programs using protocol messages then have a stored cache of each other s identity and then use B to connect and do main exchanging of messages which is more reliable than B
+
+B has bigger overhead than B because it needs to add more data to your payload but you are guaranteed that your data will be received in it s destination in the order you sent it and not corrupted
+
+scenario where B is better than B
+
+i suppose this is one of the reasons for the misconception that B is slower than B
+
+B is connection less but at the same level as B
+
+-- does B always perform better than B
+
+B - more reliable than B but this comes with some overhead there is a distinct connection a better match for games which require less frequent data transmission such as turn based games as is your game
+
+you ve struck lucky with the requirements - because you re going from B - B it s actually a lot simpler than doing B - B
+
+what is that key feature in B that makes it have much much higher throughput than B
+
+B is faster and requires less bandwidth than B
+
+for some requirements B is better for some B
+
+B is certainly going to be more reliable than B since B doesn t guarantee packet delivery which is probably why you application is hanging on the receive
+
+B protocol is more complex than http or B form example
+

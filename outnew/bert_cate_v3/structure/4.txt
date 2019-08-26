@@ -1,0 +1,54 @@
+2 you probably want a * - i m pretty sure they re lighter than * and you can access properties using dot notation for which i have an aesthetic preference anyway
+
+finally we concluded after we put print statement inside * that it will take much more time than * in the first case without print statement
+
+a * is more sppropriate than a while *
+
+0 a do while * that pre-decrements count --count and compares to zero is better than a * that compares two variables
+
+although both approaches are o n the * has a larger constant because of * overhead
+
+lastly whenever you want to iterate x amount of times a * is always more readable than a while * that uses a counter variable
+
+in ... * it s consider better practice to * trough it with a regular for
+
+on windows the while * above is 20 faster than the original * in google-chrome in ie and firefox both * perform the same
+
+says that enhanced for * is 3x faster than the regular * well that great and its easier to write anyways but what if i need the index
+
+as for your question a * is usually better when you want a piece of code to run a certain number of times and a while * is better when the condition for the code to keep running is more general such as having a boolean flag that is only set to true when a certain condition is met in the code block
+
+and the results is that foreach * is 5-6 times faster than the *
+
+recently i ve stumbled upon a parralel.for * that performs way better than a regular * for my purposes
+
+additionally you should reset i each time you go through * and a * makes more sense than a while * especially if you re using c99 as i can be declared within *
+
+this is a use case where a * is cleaner to use than a while *
+
+but according to this answer a * is executed faster than the equivalent while *
+
+also this * is better created as a *
+
+even if a foreach * were faster than a * there are still operations being carried out that wouldn t be in your manual example
+
+a * is nothing more than a glorified while *
+
+finally b+ * is admittedly more difficult to implement than a * it s more on a red-black * level of complexity
+
+for cases where each node in the * has most of its children used the * is substantially more space efficient and time efficient than th ternary search *
+
+use a radix * wiki or * wiki if you are concerned about performance.the radix * is more memory efficient compared to a *
+
+the article says that a * is better than binary * as for a string of length m for * it takes o m time and for binary * it takes o m logn time
+
+a * is more suitable to iterate through the *
+
+for example sometimes a * is faster than the built-in * methods in some browsers
+
+it returns a byte * of all the pixels which can be iterated much faster than a * with a call to getpixel inside nested inside another *
+
+a * is more adequate than a do while for simply iterating an * string
+
+i tried this code with my the big * it is around 10 to 20 times faster than a * solution and around 200 times fast than the old code
+

@@ -1,0 +1,42 @@
+but in my opinion for most sites * is a better choice than *
+
+since * is a bit more complete than * when it comes to features you could define separate issues with custom field for your tasks
+
+make sure you re using a source control system that supports branching and merging i ve had experience with * and * and while * is better * is free
+
+if you want to a little bit further you can imagine use more powerfull scm clearcase * ... but maven integration is fewer not well documented and community provide less examples than * or git
+
+i ve read that * contains less project management tools than *
+
+yes * takes more time in cooking the resulting html when compared to *
+
+an incredibly rough eye balling of the numbers they posted showed * to be 2-4x slower than either * or mercurial in the use cases tested
+
+a lot of articles about * will tell you it is a lot slower than * or mercurial
+
+for next projects i m going to try * seems more clean and hipe than *
+
+i understand * is more of a * clone but retrospectiva seem to support agile methodologies via a nice plugin
+
+* was written to be a better * than *
+
+* is an open source ruby on rails application that supports multiple projects much better than * and seems to be much easier to administer
+
+* handles multiple projects and sub-projects right out of the box and overall seems nicer than *
+
+this is still accepted by calls like inet_addr and has several advantages all fields are fixed width there are only 8 characters to update and the * to * conversion is usually faster than * to decimal
+
+in addition another coworker said * was a lot more popular than *
+
+the other distributed tools are a lot faster * is slow as hell even * can be faster sometimes have much more useful features than * are developing rapidly while seeing any new feature in * takes years
+
+* is better than * because it was designed to be - it s roughly the same thing with some simplications and new features
+
+* is better than *
+
+for all the reasons linked in the comment and elsewhere * tends to be a much better enviroment than * or vss unless you have some weird requirements - so if you can successfully import your history and save the company money i wouldn t see why the bosses wouldn t go for it
+
+that being said i think * is better in every other respect and you probably shouldn t start a new project with *
+
+* s issue *king is little better than * s...i know a lot of folks love * but i find it very inflexible
+

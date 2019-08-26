@@ -1,0 +1,46 @@
+is a generic type at compile time java will require that an instance provide an implementation of int * t o which from the javadoc returns a negative integer zero or a positive integer as this object is less than * to or greater than the specified object
+
+if this works it seems that u are still comparing the strings in your ordered list and u should now check if the return value of * is less grater * to 0
+
+* returns a number that is less than * to or greater than zero corresponding to the first string being before the same as or after the second string respectively
+
+note that in both cases you can take advantage of the fact that int also implements so you can use its * method to determine whether corresponding values in each instance of your class are less than * to or greater than each other
+
+in the * method you can then write the code which will call the getters for the year month and so on until it figures out whether the current object is less than * to or greater than the object o being passed into the * method
+
+all i changed was the first * comparison to be less than instead of less than or * to
+
+this interface defines the method * t which will return a negative number zero or a positive number if the first object is less than * to or greater than the other one respectively
+
+according to javadoc * needs to return a negative integer zero or a positive integer as this object is less than * to or greater than the specified object
+
+i know that in java there is a * method that you can write in a class that will compare two variables and return a value -1 1 or 0 signifing greater than less than and * to operations
+
+most likely hashcode will be faster unless for whatever reason calling hashcode + * once is much slower than calling * log n times
+
+the interface defines one method * that must return a negative integer zero or a positive integer if this object is less than * to or greater than the other object respectively
+
+with this rather than needing to implement a comparator all you need to implement is the int * class o method in the class which returns a negative integer zero or a positive integer as this object is less than * to or greater than the specified object.
+
+implement * in temporary temporary.* left such that it returns a negative integer zero or a positive integer as temporary is less than * to or greater than the left
+
+when one of the strings is a prefix of another the performance of * is worse as it still needs to determine the lexicographical ordering while * won t worry any more and return false immediately
+
+or is it * returns negative numbers 0 and positive numbers respectively indicating whether the calling object is less than * to or greater than the specified object
+
+* returns a negative integer zero or a positive integer as this object is less than * to or greater than the specified object
+
+* defines whether your base student is greater than less than or * to your studenttocompare and you can define these with any criteria you please
+
+if the value of * is greater than * then an active touch is going on
+
+if the value of * is more than 3 seconds beyond the current time and the time of * is still before * then it s time to show your hint
+
+no - * is for seeing if one object is greater than * to or less than another
+
+for me they serve pretty same purpose to hide complexity * accordion is imho better for continuous-reading it s easier to quickly go to * section while tabs seems to be more random-access
+
+now i would like to take the ceiling of this number * in cases where the amount it is greater than the * lower integer is smaller than some epsilon
+
+other than the fact that * has one character less than * i doubt there is any performance difference
+

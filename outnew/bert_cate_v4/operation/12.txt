@@ -1,0 +1,40 @@
+as in title why is * much faster than * in this example
+
+and the value of this expression evaluated according to the precedence rules is 62 because * has higher precedence than *
+
+you probably already remember that * is higher precedence than *
+
+since parentheses were used around the * but not the * we can infer that probably in this language * has lower precedence than *
+
+other cpus take three or four cycles to do a * which is a bit slower than *
+
+the same speed as * though still faster than *
+
+the precedence relationship is the same * is higher then *
+
+division * has higher precedence than * subtraction and parentheses is required to do * subtraction before * division
+
+they state that the binary * operator has higher priority than the binary * operator +
+
+i would also be moderately surprised if the * actually was faster than the *
+
+this is similar to operator precedence in mathematics where for example * has a higher priority than *
+
+if you think back to grade school you ll recall that * was harder than * and division was harder than *
+
+the difference is that in the second pattern the concatenation x followed by y in xy has higher precedence than the choice either x or y in x|y like * has higher precedence than * so the pattern is equivalent to
+
+i know the basics division and * higher than * and subtraction but i would have to look up something more esoteric
+
+* has higher precedence than * so in the first two examples only the second number is being divided
+
+* is similar using * of the base type and borrow instead of carry multiplication can be done with repeated additions very slow or cross-products faster and * is trickier but can be done by shifting and * of the numbers involved the long * you would have learned as a kid
+
+this is called a strength reduction operation because * is a weaker and cheaper operation than *
+
+knuth writes that fibonacci search is preferable on some computers because it involves only * and subtraction not * by 2. but almost all computers use binary arithmetic in which * by 2 is simpler than * and subtraction
+
+the term is apparently not an exact measurement as it is clear that a double-precision floating-point operation is going to take longer than a single-precision one and multiplication and * are going to take longer than * and subtraction
+
+* is even easier as you dont have to line up the decimal points you just do the math on the significant digits and simply add the *
+

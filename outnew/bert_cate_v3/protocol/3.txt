@@ -1,0 +1,66 @@
+in short as an authentication protocol * is far more secure out of the box is de-centralized and will put less load on your directory authentication servers than * will
+
+i understand that * has better performance than *
+
+for a low traffic site the huge tokens that * send across the network actually makes it slower than *
+
+* is complex to set up and even though it generally is considered faster than * this is only true when you reach a certain limit of simultanious users on your site
+
+how * is better then *
+
+but there are some cases especially in iot domain * is more popular than * for its bigger transport overheads
+
+a heartbeat is by nature a connectionless contrivance so it goes that * connectionless is more relevant here than * connection-oriented
+
+* is a slower more reliable protocol than * is
+
++ consider that the implementation of * stack is much more complicated than * more instructions are executed there
+
+certainly * has more overhead than *
+
+* is significantly faster than * and is why it is or was used for video and various things back in the day
+
+don t think of it as * is faster and * is slower because that s just wrong
+
+i am using * because it is much faster than * but sometimes i need the know for sure if the packet reached to the other side in my program i can not use * at all so i am sending ack packets
+
+* streaming for audio can be less helpful than * rtp as you d have to turn off nagling
+
+* is faster than * because packets are sent without guarantee of delivery nor order
+
+since loosing some packets doesn t matter but speed latency is crucial * is much better than *
+
+short answer if you can tolerance with any packet loss * is better otherwise *
+
+* is reliable but slower than * while * is not safe and i have to implement my own fault-handling codes
+
+keep in mind that implementing * traversal is easier than *
+
+also sending receiving data over * is much simpler than over * and it does not require any connections
+
+also remember that dns requests can use * if the request or response would need more than 1 * packet
+
+while * has less network overhead than * it generally relies on you the developer to come up with your own mechanisms for flow control fragmentation handling lost packets etc.
+
+does * always perform better than *
+
+also if you have very limited memory processing resources it is worth bearing in mind that * is a less costly protocol as it avoids a lot of the overheads * incurs due to its inbuilt connection management
+
+i assumend that the transmission using * have to be much faster than using * but in fact my tests proved that the * transmission is about 7 to 8 times slower than using *
+
+* is faster and requires less bandwidth than *
+
+i m aware of the differences in general the facts like * is more accurate while * is more fast
+
+* has to do a lot of error checking to ensure that your packets don t get dropped and so * is much slower than *
+
+* is actually expected to work better than * in lossy networks or congested networks
+
+* protocol is more complex than http or * form example
+
+* uses datagrams chunks of data which are received whole on the other side unless the size is bigger than the * but that s a different story
+
+in addition seeing * being slower than * doesn t necessarily mean * isn t deprioritized---it might mean bandwidth is insufficient to hit the limiting threshold
+
+and also don t forget - * much more customizable than *
+

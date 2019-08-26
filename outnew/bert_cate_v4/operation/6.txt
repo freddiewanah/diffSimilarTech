@@ -1,0 +1,78 @@
+however * is a more complex operation than * or shifting
+
+if * is slower than * then case 2 is slightly slower than case 1
+
+* is slower than *
+
+and has higher precedence than or just like * has higher precedence than *
+
+since * has more priority than * when you give a+1 to the macro it becomes 10 + 10 + 1 21
+
+i don t understand why the division * in c++ is so much slower than * subtraction where the managed c# version is more reasonable to my expectations
+
+that s akin to * has higher precedence than * so 3 sticks to 4 instead of 5 so the output is 17
+
+if * is slower than * instead of doing
+
+where * binds more tightly than *
+
+it appears that you consider * to have lower precedence than * and division when in fact it does not
+
+without parentheses math.exp c b is executed first as * has higher precedence than * -
+
+this is called a strength reduction optimization because * is stronger slower more expensive than *
+
+that s because the * operator has a higher precedence than the * operator -
+
+hardware integer * is always slower than * and the gap in the relative latencies of these instructions continues to widen
+
+integer * is much faster than *
+
+* is faster * is more accurate
+
+on most processors * is slower than * for the same data types
+
+since * is of higher precedence than *
+
+* is slower than * due to some reasons
+
+the reason for doing so is to reduce hardware cost as * is more expensive than *
+
+* is much more expensive than *
+
+* is about 10 times slower than *
+
+* takes less time then * so you can try this
+
+both works but * is generally slower than *
+
+i read that * has has higher presedence than *
+
+as a rule of thumb * is faster than * on all cpus
+
+* is usually significantly faster than *
+
+in usual programming practice one wouldn t bother and simply multiplying by the floating-point representation of 180 ï because * is so much faster than *
+
+i haven t benchmarked any of this code but just by examining the code you can see that using integers * by 2 is shorter than * by 2
+
+according to this author integer * can be 40 times faster than integer *
+
+in a 64 bit application this code will be a lot faster than in a 32 bit application in a 32 bit application multiplying two 64 bit numbers take 3 * and 3 additions on 32 bit values - however it might be still faster than a * on a 32 bit machine
+
+so * is always a bit worse than *
+
+integer * is about an order of magnitude slower than * on current cpus.
+
+since * has a higher precedence than * 5 2 gets evaluated as a integer * returning 2 as an integer
+
+with careful optimization however you can make * 61 times faster than *
+
+multiplication and * have higher priority than * and subtraction
+
+however with really very small parameter 2 in your case * is faster than *
+
+this is analogous to the way you can compute * using successive squaring much faster than by repeated *
+
+the misunderstanding is that incrementing the * is not faster than doing a *
+

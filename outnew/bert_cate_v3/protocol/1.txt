@@ -1,0 +1,94 @@
+you can also use * it is a lot simpler than *
+
+* 2 is even better than * and check this article for a use case regarding *
+
+plus once * becomes more common * slow down won t really account for anything much
+
+as such traversing a nat through * is much easier than *
+
+i read in a case where a stream of 300 byte packets was being sent over ethernet 1500 byte mtu and * was 50 faster than *
+
+and there are no handshakings required * are pretty much faster but less reliable than *
+
+* is quicker than * but if you re using quickfix you ll be using *
+
+i ve considered that * is more suitable for sending a series of discrete data sets but i need the reliability of *
+
+i know * is faster than * for various reason
+
+you can use * as well but if you are dealing with firewalls it is probably going to be simpler with *
+
+it was introduced since the nat traversal for * is much more complicated than *
+
+that among other things is why * is considered more reliable but slower than *
+
+actually we could say that * is a higher level protocol compared to * because * includes some advanced features which might be useful .
+
+yes * is much much lighter than *
+
+* has bigger overhead than * because it needs to add more data to your payload but you are guaranteed that your data will be received in it s destination in the order you sent it and not corrupted
+
+the problem is that * creates bigger packages of data while * uses 8 kb of data blocks
+
+moreover * has more processing overhead than *
+
+* port scanning is possible but it is harder than * scanning
+
+please note however that this architecture implements * which is much slower than * and will not work for any type of fast-paced data intensive games but should accomplish your goals given your description above
+
+* is significantly easier do you really need * btw
+
+getting much more information is needed in the packet header for connection less like * but why the header size of * is less than *
+
+you will notice that the * header has more fields than the * header and many of those fields will be populated by information from the handshake
+
+it is worth nothing that in a link where * and * are sharing the bandwidth * is better behaved than * in that it will try to limit itself to avoid congestion
+
+the reason * is faster than * is because there is no form of flow control or error correction
+
+from experience i can tell you * is about 10-15 faster than * on dedicated and *-tuned networks
+
+but when i used iperf on two linux machines to send data using both * and * i found that * performs better than * for 10mb of data
+
+instead of implementing all these over * it is much better just to switch to *
+
+if your client connections are more or less permanent and not too many clients are connected at the same time * is only slightly worse than *
+
+* packets are easier structured than * packets but sacrifice security for their size
+
+* - more reliable than * but this comes with some overhead there is a distinct connection a better match for games which require less frequent data transmission such as turn based games as is your game
+
+as far as * goes i think * is more generally used protocol for more data-centric requests like chat or things that require packet integrity * tolerates packet loss to lower latency
+
+the problem with using * is obviously that it is a lot slower than *
+
+i don t think you should make the assumption that * is faster than *
+
+normally a server wouldn t need to know the client s address beforehand but * s knottier than * the more usual stream-oriented approach to socket communication in many ways
+
+apart from that * packets by themselves are not slower than * packets and data transfer with a simple * connection can be faster than with a simple * connection because flow control and reliable transfer is already integrated and you don t have to reinvent everything again and often worse
+
+* ip is supposed to be more reliable than * ip see this comparison
+
+* is more of a fire and forget whereas * maintains a connection state
+
+this was surprising for me as it is well known fact that * performs better than *
+
+* is certainly going to be more reliable than * since * doesn t guarantee packet delivery which is probably why you application is hanging on the receive
+
+in practice this means that * is better suited for continuous transmission of data whereas the more lightweight * can be used when reliability isn t important
+
+i did some research and found that * may be more suitable in this case because * hole punching works much better than * hole punching
+
+what s currently baffling me is in my results * finishes almost 2x faster than *
+
+yes i know * is better than * but right now i m stuck with *
+
+* is more general than * and is generally used for command and control
+
+* packets greater than the * size of the network that carries them will be automatically split up into multiple packets and then reassembled by the recipient
+
+in fact * especially the ttl excceeding message has even less limitations than * on nats for the error message can be sent from every corner of the internet and routers with nat cannot be aware that these messages are not the true ones
+
+you could always use * that will work both on http and * websites but loading a * resource is slower than loading a http resource because of the encryption and * handshakes
+

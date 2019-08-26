@@ -1,0 +1,26 @@
+in technical terms the x * operator has higher precedence than the + * operator
+
+to give * and divide higher precedence than * and subtract you can do something like this example adapted from john levine lex yacc 2 e 1992
+
+functionally a * will always take more time than an * because it combines a true * along with a true *ition step
+
+the compiler or the jit is likely to convert the first case to the second anyway since * is typically faster than *
+
+if you are sure that a floating point * is better than a floating point * then
+
+* is more expensive than *
+
+therefore i conclude that * is faster than *
+
+* is slower than * is generally - and definitely using regular expression matching is going to be slower than * is..
+
+thus python should interpret this like 12 2 i.e 6 since precedence of * is more than *
+
+most optimizing c compilers optimize it out to a * operation which is much faster than * it can be done only if the divisor is constant though
+
+* is about 10 times slower than *
+
+it has to do with the fact that * is itself done by means of binary shifts and additions - far fewer than with *
+
+multiplication and * have a higher precedence than * and subtraction
+

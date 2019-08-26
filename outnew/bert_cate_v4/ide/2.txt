@@ -1,0 +1,6 @@
+consider using * canvas now ga which is an added-value iframe with more security and easier integration with * apis than raw iframes - see
+
+i like the * ide even better than * but i m not sold on installing and using mono s compiler just yet nor do i know if it can even handle the latest vb.net c# language features
+
+for that purpose i want to transform the * model into a c version and launch it from a * script so that the process would be much faster than opening * environment
+

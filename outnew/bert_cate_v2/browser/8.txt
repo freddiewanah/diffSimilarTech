@@ -1,0 +1,36 @@
+B probably is more complete to manage canvas than B but the problem is always to exclude the finger touch if i m using the pen
+
+after looking into the issue with the inspection tools of both browsers it seems that B is making the #main_nav_bar ul 10px wider than B
+
+it seems B applies some formatting to render better than B
+
+evidently B debugger firebug is better than B debugger
+
+with B it was very easy i just grabbed the apk from their ftp server run the adb install command one would think it should be even easier with B but it s really not
+
+my question is similar the same page in my pc renders fine B B but the same one on a server rendered smaller by B B ok
+
+it s clearly visible in B and is far more subtle yet also distinguishable in B
+
+B may be sniffing the document s encoding with more flexibility than B is
+
+in B and other browsers the background is much whiter and brighter than in B
+
+also B s map function is up to 2x slower than B on my machine
+
+my guess is B is caching more agressively and thats why you are seeing worse load time on B
+
+however if thats the case does this mean B is faster in execution than B
+
+in B the button is wider than in B
+
+B gsap performance is still much worse than in B but B gsap does still lag every few repeats or so while in B the css animations do not
+
+B is reporting the missing key with a higher severity than B is so i want to eliminate that as a possible cause
+
+for example i ve read that B and ie will fix framerates slower than B
+
+B behaves better than B but an error message â œone error in opening the pageâ â shows up in the status bar if you remove the iframe during the load event
+
+it seems that ie and B are less strict than B
+

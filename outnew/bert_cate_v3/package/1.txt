@@ -1,0 +1,14 @@
+in either case * is going to add a tiny amount of overhead so it s likely to be technically slower than * but not by any meaningful amount like it takes 5.1 seconds to insert 20k records vs 5.0 seconds
+
+note that while you could use * for the job it s not particularly better suited than regular *
+
+you ll probably find that * runs faster than * but in my uses * was very easy to learn and use and handled typical crappy html as found in the wild well enough that i don t have need for anything else
+
+it s generally accepted that * is faster than * ref
+
+regarding * * is more efficient and in my experience can handle broken html better than *
+
+how can i find all div and span tags with order preserved.with * it is very simple but i switched recently to * since it is much faster than *
+
+* is much easier to deal with and usually performance is good enough but for large brute force algorithms like this * will probably be at least an order of magnitude faster
+

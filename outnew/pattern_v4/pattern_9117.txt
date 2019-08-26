@@ -1,0 +1,60 @@
+1517
+emacs aquamacs
+Pattern(s): 0	
+someone syncs carbon emacs with the upstream tree quarterly i think
+aquamacs has a more irregular schedule but it s seen some pretty major updates over the last year
+
+
+
+13942
+imperative declarative
+Pattern(s): 0	
+imperative
+declarative is usually better for anything where you really don t need the fine-grained control over how something is done
+
+
+
+19370
+cassini iis
+Pattern(s): 0	
+you are on vista iis got better 7 cassini stayed crappy
+
+
+
+27440
+postgresql mysql
+Pattern(s): 1	1	
+mysql is much more commonly provided by web hosts
+postgresql is a much more mature product
+
+
+
+31042
+perforce svn
+Pattern(s): 0	
+i use perforce right now and for some reason i like svn better
+perforce definitely gives me a better indication that there s going to be merge conflicts and even has built-in tools to help me resolve the merges
+
+
+
+47929
+udp tcp
+Pattern(s): 1	
+udp is faster than tcp and the simple reason is because its nonexistent acknowledge packet ack that permits a continuous packet stream instead of tcp that acknowledges a set of packets calculated by using the tcp window size and round-trip time rtt
+
+
+
+55578
+vmware virtualbox
+Pattern(s): 0	
+vmware has more features but costs 80 virtualbox on the other hand is more basic but is free for most users see virtualbox licensing faq for details
+
+
+
+57802
+jruby mri
+Pattern(s): 0	
+so if you want true parallel threads jruby is currently your only choice not that that s a bad one jruby is actually faster than mri and arguably more stable
+
+
+

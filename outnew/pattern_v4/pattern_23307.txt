@@ -1,0 +1,270 @@
+1517
+emacs aquamacs
+Pattern(s): 0	
+someone syncs carbon emacs with the upstream tree quarterly i think
+aquamacs has a more irregular schedule but it s seen some pretty major updates over the last year
+
+
+
+13942
+imperative declarative
+Pattern(s): 0	
+imperative
+declarative is usually better for anything where you really don t need the fine-grained control over how something is done
+
+
+
+27440
+postgresql mysql
+Pattern(s): 1	1	
+mysql is much more commonly provided by web hosts
+postgresql is a much more mature product
+
+
+
+31042
+perforce svn
+Pattern(s): 0	
+i use perforce right now and for some reason i like svn better
+perforce definitely gives me a better indication that there s going to be merge conflicts and even has built-in tools to help me resolve the merges
+
+
+
+68674
+ubuntu linux
+Pattern(s): 1	
+ubuntu is getting closer but there are still numerous things with linux that will keep the grandmothers of the world from using it
+
+
+
+70430
+quicksort mergesort
+Pattern(s): 1	
+wikipedia s explanation is typically quicksort is significantly faster in practice than other θ nlogn algorithms because its inner loop can be efficiently implemented on most architectures and in most real-world data it is possible to make design choices which minimize the probability of requiring quadratic time
+quicksort mergesort i think there are also issues with the amount of storage needed for mergesort which is ω n that quicksort implementations don t have
+
+
+
+71552
+daemons systemd
+Pattern(s): 1	
+gdi+ text rendering performance article on his blog which answers the raw speed question on his systemd gdi drawtext was about 6 times faster than gdi+ drawstring
+if you need to be a real speed daemons textout is faster than drawtext but you ll have to take care of clipping and word-wrapping yourself
+
+
+
+77625
+innodb myisam
+Pattern(s): 0	
+i found that the table-level locking in myisam caused serious performance problems for our workload which sounds similar to yours
+unfortunately i also found that performance under innodb was also worse than i d hoped
+
+
+
+77794
+bazaar git
+Pattern(s): 1	
+git well is not for the uninitiated
+it is much faster than both mercurial and bazaar and was written to manage the linux kernel
+
+
+
+77945
+quicksort mergesort
+Pattern(s): 0	
+with o n 2 worst case that rarely happens quicksort is potentially far slower than the o nlogn of the merge sort
+quicksort has less overhead so with small n and slow computers it is better
+but computers are so fast today that the additional overhead of a mergesort is negligible and the risk of a very slow quicksort far outweighs the insignificant overhead of a mergesort in most cases
+
+
+
+79771
+subtraction multiplication
+Pattern(s): 1	
+addition and subtraction are then a very simple integer operation such as 0.72 + 1 becomes 72 + 100 becomes 172 becomes 1.72
+multiplication is slightly more complex as it needs an integer multiply followed by a scale back such as 0.72 2 becomes 72 200 becomes 14400 becomes 144 scaleback becomes 1.44
+
+
+
+79771
+addition multiplication
+Pattern(s): 1	
+addition and subtraction are then a very simple integer operation such as 0.72 + 1 becomes 72 + 100 becomes 172 becomes 1.72
+multiplication is slightly more complex as it needs an integer multiply followed by a scale back such as 0.72 2 becomes 72 200 becomes 14400 becomes 144 scaleback becomes 1.44
+
+
+
+157456
+perforce svn
+Pattern(s): 1	
+but the svn clients are better especially the eclipse plugin
+perforce is more expensive
+
+
+
+176144
+opera firefox
+Pattern(s): 0	
+second safari has the greatest standards support combined with a marketshare which isn t negligible opera is just hard to justify for cost benefit reasons
+third in my experience going from safari to firefox is usually less problematic than the other way around
+
+
+
+179813
+verilog vhdl
+Pattern(s): 0	
+for hdl choice verilog is to c as vhdl is to ada
+so verilog is easier to get started with but you can make mistakes more easily
+
+
+
+195398
+postgresql mysql
+Pattern(s): 0	
+of course the picture is not so simple innodb tables on mysql have a very different performance behaviour at the load levels where postgresql s better locks overtake mysql s other parts of your platform could be the bottlenecks
+postgresql does comply better with standards so it can be easier to replace later
+
+
+
+256099
+client-side server-side
+Pattern(s): 0	
+but the server-side part is pretty simple
+the client-side part is trickier i think
+
+
+
+257043
+des aes
+Pattern(s): 0	
+triple des is generally better but there are some known theoretical attacks
+if you have a choice of cipher you might want to look at aes instead
+
+
+
+260148
+lxml elementtree
+Pattern(s): 1	
+it provides a nice easy-to-use binding for libxml2 and libxslt and it also implements the elementtree
+libxml2 libxslt also come with their own much lower-level python bindings but lxml is much more straightforward and pythonic and it seems to have great performance as well
+
+
+
+260148
+lxml libxml2
+Pattern(s): 1	
+libxml2 libxslt also come with their own much lower-level python bindings but lxml is much more straightforward and pythonic and it seems to have great performance as well
+
+
+
+268287
+inherited subclassing
+Pattern(s): 0	
+there is a cost to designing for inherited it can pin down your implementation you have to declare which methods are going to call which other methods in case a user overrides one but not the other it reveals your implementation rather than just the effects it means you have to think of more possibilities when designing things like equals are hard to design in an inherited tree it requires more documentation an immutable type which is subclassing may become mutable ick item 17 of effective java goes into more details on this - regardless of the fact that it s written in the context of java the advice applies to .net as well
+
+
+
+268335
+ssd sata
+Pattern(s): 1	
+to improve the speed the first thing i d try is a faster hard drive or an ssd
+sata is pretty much the easiest fastest option
+
+
+
+293400
+emacs jedit
+Pattern(s): 1	
+emacs with paredit mode just owns for structured editing of s expressions
+add to that the highlight parens mode and it gets even better
+
+
+
+329243
+division multiplication
+Pattern(s): 0	
+since most processors can do an addition comparison or multiplication in a single cycle those are all counted as one flop
+but division always takes longer
+
+
+
+329243
+division addition
+Pattern(s): 0	
+since most processors can do an addition comparison or multiplication in a single cycle those are all counted as one flop
+but division always takes longer
+
+
+
+355552
+haskell scheme
+Pattern(s): 0	
+but haskell is a bit trickier in that you can attempt to redefine a variable within the same scope but instead you just introduce another recursion equation
+this is a pitfall for people who learned ml or scheme first this is perfectly good ml or scheme let but haskel has scheme letrec semantics without the restriction to lambda values
+
+
+
+384966
+dotnetzip sharpziplib
+Pattern(s): 1	
+i ve found the dotnetzip library to be this easiest way to work with zip files
+sharpziplib is a far more powerful and flexible solution
+
+
+
+396114
+case-sensitive case-insensitive
+Pattern(s): 1	1	
+if you want to do case-sensitive compare on strings then you could use a switch statement as it is faster than performing a string.compare in an if else
+for some actual performance tests however if you wanted to do a case-insensitive then it is better using a if else as the resulting code is not pretty
+
+
+
+413338
+mouse keyboard
+Pattern(s): 1	
+it is possible to re-arrange the file tabs by using the mouse to drag-sort them click and hold the mouse button on a tab and then drag it to the new location
+this should make it possible to arrange them so that keyboard switching is more natural
+
+
+
+422511
+kerberos ntlm
+Pattern(s): 0	
+from my experience kerberos is more of a prefered method but i have not worked with it much so unfortunately i don t have much advise as far as that goes
+on a side note i recall reading somewhere that the jre also has ways of tying into ntlm on your web server in order to obtain identity information for the authenticated user
+
+
+
+426058
+bazaar git
+Pattern(s): 1	
+take a look at bazaar
+it s rather less daunting than git and has a useful-looking interface to subversion repositories via bzr-svn
+
+
+
+488978
+mockito jmock
+Pattern(s): 0	
+the easymock support is complete but the mockito plugin needs some more work
+we are planning to add jmock support as well
+
+
+
+497332
+haskell sml
+Pattern(s): 1	
+haskell is extreme lazy pure has active users lots of documentation and makes runnable applications
+sml is less extreme strict impure has active users formal specification many implementations sml nj mlton moscow ml etc.
+
+
+
+497933
+quicksort mergesort
+Pattern(s): 1	
+as a result for relatively small datasets quicksort is more likely to get cache hits and therefore just tends to run faster on most hardware
+mergesort is still a pretty good solution for large data sets or other data structures like linked lists as your experiments confirm
+
+
+

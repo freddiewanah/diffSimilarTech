@@ -1,0 +1,50 @@
+you can use * which is quite better than *
+
+* is newer more feature rich and heavier than * * is designed to have a much smaller footprint so you will most likely find yourself creating functionality in * to match cake s
+
+in my opinion it will probably be easier to integrate with * although someone more experienced with * might prove me wrong
+
+i have seen a lot of post where they are claiming that * is much better than * but looking at the differences i have seen that the widget support is not there in *
+
+* seems to have a bigger community than * maybe it s just my point of view
+
+i think * produces a bit uglier code than * but i m afraid to choose * because it s changing constantly and i will be stuck with the current version if it breaks backward compatibility
+
+i did some reading on * and it seems to be able to do what i m thinking of although at a much lower level than *
+
+it s probably overkill for what you need but * is an mvc framework and it doesn t look any more heavyweight than * or trimpath s junction
+
+* is more popular because it was there first therefore more articles about it on the web and better tooling and because most programmers don t care about or need the advanced features that * offers
+
+in case if you have flexibility to choose another testing framework you can try with * which has bigger feature set than *
+
+if you re doing non-unit testing * might be a better option than *
+
+* is more flexible than * and have multiple advantages like support for parallel testing for example
+
+* is much friendlier to this paradigm than * though
+
+* is more low-level comparing with *
+
+building restful services with * is much simpler than with * in my experience
+
+* the actionbean approach doesn t look much better than *
+
+but if * has a bit too much bloat for you maybe you can try * which is a bit less bloated than * started as a fork
+
+to answer klochner both seems quite popular but ruby is not a language that i am familiar with and * seems more heavy and complex to me than *
+
+anyway the most important issue is that * is easier than * pylons php and rails
+
+the best testdriven.net disables all instrumentation that * does so it makes * blazing fast - much faster than * for example
+
+personally i really like * which is fairly unusual but does make getting things right an awful lot easier than *
+
+i understand that * is what s hot right now but i ve never played with it and am not sure if learning * is more time-effective vs using * which i know pretty well but just doesn t excite me any more
+
+if you ve been using * then you already know it is better than *
+
+i am new to * it s good for coding but it is not much faster than *
+
+but i don t know anything about sinatra and * is the footprint and speed really that better than *
+

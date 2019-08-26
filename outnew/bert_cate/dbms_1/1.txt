@@ -1,0 +1,108 @@
+some say B is much better for bigger projects while others think just go with B
+
+in most regards B is slower than B especially when it comes to fine tuning in the end
+
+B is much better suited for data warehousing compared to B
+
+i just checked the timings using B 5 and they are slightly worse than B
+
+and B has fewer experienced administrators than the big databases and B which i believe contributes to the reputation
+
+B i am told can be optimized to do faster reads than B but both are pretty ridiculously fast in terms of # transactions sec they support and it doesn t sound like that s your problem
+
+i would need a scalable database so probably B would be better than B
+
+i would recommend B for a beginner as it has far fewer surprises than B
+
+the other question is that what i am hearing from our group leader is that B is better than B when working with coordinates
+
+i just recently switched databases to B which has given me a slew of problems although i must admit i like it a lot better than B
+
+B has more established support for this but B has played catch up in the last year or so and has a working method of this in the latest versions
+
+looks like B is a little more compliant than B so try this instead
+
+B is more compliant but if you re comfortable with B and you re using an orm you should probably use that
+
+B with the optional hstore module might be better than B at this.
+
+also you might take the time to compare B and see if there is something about it that meets your needs as well or better than B
+
+traditionally B has had fewer security issues than B but they are both doing very well on that
+
+some people were saying that B is better for security purposes whereas B is becoming more feature rich.
+
+what i am hearing from our group leader is that B is better than B when working with coordinates
+
+i really like B s indexes which are far better than B s
+
+B is already slower than B up to a certain point it is actually faster when you have a ridiculously large database
+
+and a wiki for why B is better than B
+
+B gets much better performance and this is coming from a former B partisan
+
+i did a simple performance test and i noticed B is slower than B
+
+i was told that B is a better choice than B for displaying hierarchical data so i installed B and i m ready to go
+
+you might look at B as i find it a bit easier to manage and maintain as i feel some aspects are more logical than B
+
+however people often argue that B is cleaner and easier to use that B
+
+if you want open source B is much smarter than B as well
+
+some say B is much better for bigger projects while others think just go with B
+
+in most regards B is slower than B especially when it comes to fine tuning in the end
+
+B is much better suited for data warehousing compared to B
+
+i just checked the timings using B 5 and they are slightly worse than B
+
+and B has fewer experienced administrators than the big databases and B which i believe contributes to the reputation
+
+B i am told can be optimized to do faster reads than B but both are pretty ridiculously fast in terms of # transactions sec they support and it doesn t sound like that s your problem
+
+i would need a scalable database so probably B would be better than B
+
+i would recommend B for a beginner as it has far fewer surprises than B
+
+the other question is that what i am hearing from our group leader is that B is better than B when working with coordinates
+
+i just recently switched databases to B which has given me a slew of problems although i must admit i like it a lot better than B
+
+B has more established support for this but B has played catch up in the last year or so and has a working method of this in the latest versions
+
+looks like B is a little more compliant than B so try this instead
+
+B is more compliant but if you re comfortable with B and you re using an orm you should probably use that
+
+B with the optional hstore module might be better than B at this.
+
+also you might take the time to compare B and see if there is something about it that meets your needs as well or better than B
+
+traditionally B has had fewer security issues than B but they are both doing very well on that
+
+some people were saying that B is better for security purposes whereas B is becoming more feature rich.
+
+what i am hearing from our group leader is that B is better than B when working with coordinates
+
+i really like B s indexes which are far better than B s
+
+B is already slower than B up to a certain point it is actually faster when you have a ridiculously large database
+
+and a wiki for why B is better than B
+
+B gets much better performance and this is coming from a former B partisan
+
+i did a simple performance test and i noticed B is slower than B
+
+i was told that B is a better choice than B for displaying hierarchical data so i installed B and i m ready to go
+
+you might look at B as i find it a bit easier to manage and maintain as i feel some aspects are more logical than B
+
+however people often argue that B is cleaner and easier to use that B
+
+if you want open source B is much smarter than B as well
+

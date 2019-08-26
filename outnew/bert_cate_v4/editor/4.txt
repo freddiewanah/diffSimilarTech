@@ -1,0 +1,14 @@
+if vim seems too much by the moment i think that * is better than *
+
+it is worth learning both because * is better than * at editing certain languages and doing certain tasks and vice versa
+
+* is more powerful than * it s scripting engine is far more flexible and there are far more scripts modes and the likes built around *
+
+there are definitely some advantages using external editors however * is ten million times better than *
+
+by the way if you like minimalistic approach there is also * editor which is my personal preference for doing small bits of code it s even more lightweight than *
+
+if you are on linux eg ubuntu you may try * for ease of use with some plug-ins but to handle very large files you re better off with *
+
+i find * has an easier time dealing with vectors because they re first class objects while in * they re actually a combination of a vector mask and a colour fill
+

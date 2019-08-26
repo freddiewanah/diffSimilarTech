@@ -1,0 +1,338 @@
+starting base B know B goes 1 B deep past base B
+B slower B
+B needs memory comparing B numbers
+B range 64-bit B precision dues representation since B 64-bit well fit actual values
+causes referencing memory area completely initialized value passed parameter prBf B size memory buffer area greater B size
+smartadder Berface method signature add B B b override method add B B b adder Berface B wider B
+also use math.floor B get closest B B
+inexactness aware B inexact B
+linear programming B troublesome reals B
+get 24 pow 10 2 returns B little 100 99.9999999998765 cast B would truncated resulting 99 thus get
+really basic calls database B quicker need think using B place
+compiler make optimization tell wanted exact behavior B better implemented behavior scale sum affects result B
+B adds chopping playing B plays better
+ideas B apply spacing B ie
+try make shooter game c# B imagine make ability shoot 1 B one null-object B-class player presses space object gets link new B
+need change dropdown menu works well B would like make accessible B
+simple give feel B hence B slower computers still long B stepwise fashion tha grade school
+downsides- namely working ant B actual B difficult comprehend allow flexibility otherwise possible B
+general work specified B bigger real one exceed B auto center content found div
+screen B 200 left view edge B right view edge B.
+div B 660px left hidden B higher maximum B main container
+Bing one prove taking B shasum large file since file size larger B output pigeonhole principle B restored.
+B tend optimize spawning threads performance range worse B pure cpu vastly better B sleeps
+heavyweight fully featured forms prism B works better designed forms ground use B forms easy go native need
+B access orders magnitude slower B access
+downside B mature B features documentation available
+money ericgorr right B nicer work B
+try align B B B higher B
+simple performance test noticed B slower B
+presentation still refers older incomplete version B opengis support suggests proper indexing B geospatial actions may actually perform better B postgis though debate
+background image B bigger B B must 100
+also messed various cell sizes B 1 B B 1 B messed around section inset combinations managed find source issue causing animated view show
+media screen B greater B
+B B 16 9 aspect ratio still scaled appropriately missing top bottom part see-able view
+B larger B window portrait mode
+check B bigger B thus portait
+therefore get browser bigger B gets bigger well B
+function correctly B smaller B since l ranges 1
+portrait device B smaller B
+hey last media query asking screen orientation landscape means B screen wider B screen
+want boardpanel always square size equal minimum gamepanel B B gamepanel B greater B empty space left right smaller empty space top bottom
+labels aspect ratio B 3.5 larger B trying find contours minarearect aspect ratio
+found load image camera roll png pngs orientation data flag B greater B upon applying certain distortion filters said image rotate present self landscape image
+dismissing variations B lower depth w dismissing variation B highest lowest three dimensions two variations go one top one join
+essentially detect view B larger B rotate view contains boxes
+vw landscape orientation since landscape viewport B higher B
+playback first check orientation measuring B B B longer B rotate textureview 90 degrees
+B smaller B store B one variable called value else store B
+calculate B B area 4 points pick smaller one well sometime B greater B guess.
+perform apply aspect ratio image imageviews B greater B set B
+make image size apply filters means B B image photos taken front camera grater B length may cause applying filters
+uiimage B greater B
+however B greater B indicating still portrait mode .
+top image 100 B browser shorter 100 B browser content peeks little bit tops two images showing
+right image look like square B larger B
+B larger B ratio x instad x minimum multiplied ratio x instead
+B window ls B 2 scrollbar window enabled
+equal B bigger set 100 set B auto whereas B greater value set 100 B auto
+landscape orientation one B bigger B
+left larger body B top larger body B
+bitmap data always B B take look numbers B B rotate image per alistair3408 answer
+clock scale properly viewport B greater B around
+somehow B seems better B html5 single-page spec scripts figure point
+windows machine would probably go B personally use programmers B 2 however support spell checker really thinks better B measure
+treat B happens done pre-processing binding click events conditionally raising B better always B conditionally stopping B
+tend think moderate amount customisation either one B still start faster B
+B better work customize B
+surprising well known B performs better B
+B extremely faster B suitable stream user voice input
+related kind situations would B better B
+B however forgiving filesystem sensitive least dev B version default B
+see using B distro may shortcut instructions make simpler B example shortcuts
+proposition implemented logic gates using usual integer B circuit slower B circuit number bits word
+B bottleneck calculation even though may one instruction B takes longer B
+remember B even strings binds tighter B must use brackets
+want add B smaller frame B parental view getting needed
+allows string B values correct want require text greater 4 B long
+mainstream platforms B wider B size least 2
+rank unsigned B woudl B therefore promotion would unsigned B
+B closer B string
+naturally using B would result operations B
+B higher precedence B sql server cast - B implicitly
+link suggests B comparison faster B comparison yield faster fetch
+B always smaller B thus always fit inside B safely promoted
+B values overhead B values
+i.e string B allocate two B allocate use
+rest least large B hard imagine make system work correctly B larger B
+written B counter extension looks like 300x faster collections.counter 150x faster collections.default B
+B basically nothing B whose value encoding B
+quite bit depends eof value originate file basically translates requirement B range smaller B smaller equal standard directly requires
+time ago change B B works better B problems exception
+B idx lower element B idx higher
+B perform slower B system
+means B might slightly slower B cannot make assumptions
+B looks natural developing applications scala however read seems support fewer test compared B also mature
+B older extensions dbunit B
+however B looks modern active last update 2010 instead 2005 generates nicer reports would prefer B
+B richer api compared B
+give B divide higher precedence B subtract like example adapted john levine lex yacc 2 e 1992
+find interval find lowest number higher equal B using map.lower_bound find first number higher B using map.upper_bound
+let check first equal larger B smaller equal B
+another instead || comparisons want greater B also smaller B
+table outlined trying get B B values specific id B entry date greater B entry date
+B length one twice largest B found
+compare value lower B higher B
+also assume first value vector B vector B second value well on.
+regard implementation also takes advantage bit non-obvious property r precedence rules actually languages well namely unary negative higher B higher binary B thus calculation equivalent
+B makes ui testing really easy useful great apis complex B
+B may slower B may still fast
+major clock-cycle saver since B often faster B operation
+however specific use anycpu could still use B performances better B
+another choose B hpc system builders building systems since B made huge push gpgpu computing backed amd B
+B far conservative B get closer bleeding edge
+use either create new memory separate original naturally B simpler since require separate B strlen call
+data B B.if dont put data form use B secure B
+prefer B conveniences built environment offered B B newer B hindsight always makes easier make new implementations better
+B cms great framework better B popular moment documenation lacking
+hex maybe B depending machine emulated clearer using B since similar opcodes tend vary bits digits
+used older B vagrant 1.5 B made B vagrant greater 1.5 B
+implementation foreach executes closure every element B typically straightforward transparent alternative old-fashioned B
+fixed adding B return statement fixes B written continue B length B contains length one 0 also pop
+recently noticed B queries run faster B decided convert queries
+vertical position B needs one B view least 4 always reliable gps sees 3 satelites
+B 2 B
+would generally wrong inheritence structure saying think B restrictive B
+allow B either side node contain keys neither greater B
+issue could try sd stream diff require sorting like B process substitution like examples orders magnitude faster B -f supports infinite streams
+understanding written vanilla B comfortable B hard translate
+B deals badly formed html better B actively maintained B faster since uses libxml2 internally
+practically B faster B pair shortest path generally
+fortunately B 2.1 better alternative since supports built-in calendrical types B 1.3
+opinion strongly noted password hashing B longer secure used noted use B bcrypt
+unfortunately B packed structs significantly looser B caused significant problems sharing objects
+B expensive B example
+B usually robust B place
+important B needs precsion 52-bits precision low B
+B bigger B
+shouldnt surprising copying B 3 strings B takes time copying single B
+overloadedsingleparam B specific void overloadedsingleparam B B value passed argument
+exact rare platforms range B wider range B exactly representable whole numbers
+B slower B since layered top
+craig revealed within announcement B said faster B far
+think today run tests determine certainty whether B 1.0 faster slower B
+like B B todays interest json seems logical B designed json mind
+B better respects still requires B asroot
+error B applied one B
+note want bind B directly view property resourcedictionary datatemplates x shared attribute set false leads problems xaml designer view shared one B
+B thumbnail 4 smaller B
+means B 7x faster B
+spidermonkey B slower 50 B max speed speed consistent
+working header request B bigger B request
+due B strict B
+B faster B faster ie bit-wise operations
+B works bit better B settimeout seems delay final result shown rather delaying step
+ie B higher baseline B baseline
+remove width green image B becomes smaller still bigger necessary 100px B images keeps unchanged
+ran memory errors B heights greater 8000 B seems handle higher least 32000
+B adds chopping playing B plays better
+counting number trues B array difficult since accumulated type B differs source type bool
+however consider B might linear search 100 faster B might dozens
+B lower learning curve would recommend B
+vim seems moment think B better B
+B might better decision B friendlier using custom layouts
+understanding B suitable since faster B
+feel x86 B faster B
+develop better B works efficiently B B
+screenshot div width B bigger B
+keep mind B project B file also conforms B standard directory layout get started
+think B better B
+seems using B better approach read seemingly off-hand comments B poor approach
+one interesting experiment try try B memory B pointer
+cumbersome non-obvious error checking involving errno B better B avoid using B
+one thing think B better B
+need B process lasts B 3 seconds
+turns B really better job managing dependencies B build.xml files ivy
+consider B io slower B
+B 100 000 slower B
+coq probably prominent style B B-y feel well written B
+communication via B complex uart B solution
+hearing group leader B better B working coordinates
+personal openion B slower B mongo
+checked timings using B 5 slightly worse B
+correct locking safety heavy concurrent use B performed better B
+B better B B completely support unicode
+B image greater B image clicked means taken image portrait mode
+would check B bigger B picture taken landscape picture show alert users explain portrait pictures supported
+therefore assuming container B greater image B margin -50 0 enough
+prevent image getting torn apart rotating image 90 degrees B image greater B image
+works point user screen B B
+B greater B
+B greater B know orientation changed landscape
+B B attributes two pixels B B badge
+devices B smaller B card also rotate 90deg
+may even make B longer B let labels spread
+want fixed B keeping ratio set B large number resizer actually ignore since ratio real B desired B far smaller ratio real B desired B
+basically check weather container length B smaller compared image B B normalized adapt
+B go listed values choose first one null portable B ivnl
+thing B better B 1 enum
+sounds like need B iteration slower B really want
+think B equal better B
+deal thought B would nicer B
+like rest rest B lightweight easier understand easier write B
+mind customizing css B significantly easier B simple control markup
+tried B 2 work good better B p
+B easier learn B
+works B likely work straightaway B - family resemblance end day still test every webkit browser product version still uses different version webkit
+B handle huge numbers better B
+B better B express big thing differs structure
+flexibility choose another testing framework try B bigger feature set B
+used iperf two linux machines send data using B B found B performs better B average 65 better
+related kind situations would B better B
+B windowing expensive raw B use B go faster add custom loss-recovery seqno ack resend manager may slow
+also note easy implement stack top B performs worse B
+read using B far faster memory efficient tasks ported B classifier accord net like
+although interested using adobe cs use B distro easier B distro quiet popular finding solution
+B higher operator priority B
+B 32 structure efficient B
+edited add B faster B simpler
+situations B infinitely efficient B manipulating large data dumps offline table lock
+need six disk space store memory process dataset compared B 2-3 archived B
+B better B need advanced features storage speed important concerns
+oracle kept improving B declare better B virtually situations
+B transactional inserts generally slower B
+using transactions storing updating tables switch table type B quite faster B overhead
+finally even somehow could manage B perform better B mean B inadecuate
+currently B would like stay far better performance B heard B acid transactions
+B affected primary B could make noticeable difference
+B generally performs faster lacks certain functions B rollback... table locking
+since B seems lighter B would suggest take look B
+webapp integrated visual studio server B ist slower B
+assume comparison B easier B strings looking literature back assessment ideally database structure book
+running test linux gcc similarly pegs B long similar faster B although difference pronounced
+wrong B smaller B
+order work reliably type unsigned B strictly wider unsigned B
+B array lower memory address B variable
+prBing using default x format value prBed Berpreted B larger B
+benchmark test B intrinsic function performs faster B intrinsic
+B still little bit slower B
+B better behaviour prevents bubbling compared B
+recommend B like posters complete B
+wound going B better B
+B smaller golden B 1.6 previous allocations contiguous eventually add chunk satisfy later requirement
+B complex instructions B
+try B think better B
+actually need dao comes out-of-the-box B put partly B roo also great addon B roo hades addon great job maybe even better B
+keep mind using B efficient using B require comparing schedules alarm occur particular time B use processor cycles schedule check compare
+one languages closer processor level performant generally speaking B turn assembly performant B
+B general B generally used command control
+trying make div wrap tag however wrap B always higher div tag padding B tried things work adding style html also going add screenshots
+check B slickest method found far definitely flexible B
+B also better cache access behavior B
+variant B particularly suitable sorting large amounts data relatively high cost per compare operation needed average better B
+B someone building B exit criterion inside actual B
+started testing aim B performance better c# B goes exactly opposite understanding gone agreed...but increase upper range B performance goes well compared c#.
+noticed time ago B typically generates several machine instructions B
+also native B faster B method
+even use lowly B easier B construct variable names paste access objects get
+foreach B somewhat slower equivalent B tail recursion benchmark linked shows 15x performance difference 1000+ iterations though likely depend version scala version jre...
+view 1 clumsy involves unnecessary creation arrays even though for-each B efficient traditional B 2
+might better B readability maintainability keep mind linq usually slower plain B tl
+B natural B requested
+B fits better requirements B
+also B better created B
+2 second B easier B read
+B slightly easier grasp B best opinion least want start learning using framework start one going use master tdd
+B also seems like great company think hold hand little B
+sort settled later found B liked better B
+B writes data tries read pipe goes sleep B writes data
+heard B keyword like never B exception rather
+every time B finds larger number stored send new B root B
+instead B found fastest somehow even faster B
+throws data B greater B
+B arbitrary could used B well
+example validation looking B value larger B value needs error error corrected either textbox error textbox needs removed happens
+definitions agree B B 2
+works large datasets users notice using B -only program slows programs B -using program data
+want change B Bibute better use B
+use B still okay B handles binary files better B
+distributed tools faster B slow hell even B faster sometimes useful features B developing rapidly seeing new feature B takes years
+see B could faster B
+hroptatyr mentioned B quite fast faster B
+common knowledge B takes clock cycles compute B
+calculate 1.0 sum .. B usually expensive B thus gain efficiency
+need use tolist convert B B interface supports functionality B interface
+B abstract generally preferred B possible
+recompiling B kernels harder -- require working B build tools
+B bit bloat maybe try B bit bloated B started fork
+B easier use prefer B faster
+id love know solve since using B sometimes better B issue fuelphp framework able use two great tools together awful
+B still faster might choose B asleep
+B + php-fpm suppose server operations faster B + mod-php due efficient usage memory resources
+B one queries used 14 average runs slower B queries used average 20
+think B make easier raw B would look like
+blog B detailed unfortunately also mention B product
+blog B provides info B started
+B may better B anyways
+think whoever said B better B using passwords meant passwords would part url B request would obviously bad
+recommend sending parameters via url B better safer use B form method
+believe B better B
+agreed using B better deprecated B
+heard B decompression requires memory B decompression
+B also commonly used partial updates B generally implies sending full new representation resource
+paul points B compresses static line art better B nearly every situation
+like asking whether B faster B
+windows B passes rubyspec tests meaning B yarv
+recap want know B compilation utilizes cpu B
+think B would better B
+B wrong regenerating session id login accurately oswap B privilege level change indeed good defense session fixation
+use string.isnullorempty B method general accurate B
+note also B comes features box genson B
+also B lighter B ended bitting bullet using B purpose recently heavy affect script performance
+also looking B B sfml didnt see tutorials help heard better B
+finally B working try B better documented B
+B seems nicer syntax B like strongly-typed former deals passing parameters constructor faked class
+recently moved B B works better B available B
+B subscriptions perform better B subscriptions wan
+B older 0.10 please B
+painful going us perform B probably better commit time get latest B try find older B reduces effort
+still would love manage B tell B better B
+summing B specific axis dedicated B method array.sum ax may actually slower B
+physical simulations things like B square roots going expensive B
+careful optimization however make B 61 faster B
+understand B hot right never played learning B time-effective vs using B know pretty well excite
+gave every link set links home us products contact seems B making 1px margin bigger B distorting
+B behaves better B error message œone error opening pageâ shows status bar remove iframe load event
+instance B mostly useless gives nothing B
+i.e B actually better simpler B willing improve
+B sorted manner could look extreme ends end B greater targetmax say look B 1 4 backwards end etc.
+words instead mis-using B like - look ways gain control B
+B better B 3d trying prove
+still B get range though ought faster B least
+right B step taking longer B step would like combine
+B greater equal w level tree one B greatest element w
+notice B solution one B either array one element.
+B higher opacity B opacities multiply
+trying stop dragging B div position equal higher B position
+long B smaller B - work
+wuliwong said sinatra B complex B

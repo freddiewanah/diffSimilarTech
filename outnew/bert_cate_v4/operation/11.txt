@@ -1,0 +1,36 @@
+* first field from the other and if the value is not greater than 0 * by -1
+
+since * has a higher precedence than * you should subtract 0 to your digit character before multiplying it
+
+usually * has a higher precedence than * but the grammar you have posted has the reverse that might be part of your problem
+
+also * is faster than * and * is faster than division
+
+trig functions should have precedence lower than * and higher than *
+
+proposition when implemented in logic gates using the usual algorithms an integer * circuit is o log n times slower than an * circuit where n is the number of bits in a word
+
+as i said this may increase the speed especially in an environment where * is more expensive than simple * but you would want to actually benchmark it to be certain
+
+* takes a lot longer than * - just do it with pen and paper to see
+
+is * more expensive than * in c++
+
+removing * operations by passing through the inverse into the shader is another useful tip as * is typically slower than *
+
+this solution has the disadvantage that if the other factor is not constant the compiler and you can t reasonably avoid the * int_max n to be done at runtime and * is normally more expensive than *
+
+* is slower than * is generally - and definitely using regular expression matching is going to be slower than * is..
+
+for * things are a little more complicated than * see
+
+as to why * is faster than * and when the divisor is fixed this is a faster route
+
+* is less expensive than * so
+
+in some of the academic literature implied * is interpreted as having higher precedence than *
+
+your friend has a point a * actual * not just writing in c is slower than a *
+
+* is generally on the order of 10x slower than * on most processor families
+

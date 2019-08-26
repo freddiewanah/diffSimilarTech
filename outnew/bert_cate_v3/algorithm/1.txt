@@ -1,0 +1,102 @@
+furthermore * is much slower than *
+
+* is slightly slower than * but it does not have * s susceptibility to pathological cases
+
+* usually is better than * for two reasons
+
+* consistently has less recursive calls than *
+
+is * always better than *
+
+that s hard to say.the worst of * is n log2n -n+1 which is accurate if n equals 2 k i have already proved this .and for any n it s between n lg n - n + 1 and n lg n + n + o lg n .but for * its best is nlog2n also n equals 2 k .if you divide * by * it equals one when n is infinite.so it s as if the worst case of * is better than the best case of * why do we use *
+
+* is worse complexity than * in the worst case.
+
+however on smaller int sizes * gets slower and * gets faster
+
+* - in general * is consistently faster than * however * is done in place and doesn t require allocating memory unlike *
+
+for example locality of references has influence on cache hits or misses which is the reason why * performs better than *
+
+given that it is possible to vastly reduce the likelihood of the worst case of * s time complexity via random selection of the pivot for example i think one could argue that * is worse in all but the pathological case of *
+
+that way * can reach recursive base case more quicker than *
+
+* uses about 30 less comparisons than *
+
+* is approximately 40 faster than * on random data because of fewer data movements
+
+* is more natural to implement for linked lists but you can do * very nicely
+
+it might be helpful to see why * is usually faster than * since if you understand the reasons you can pretty quickly find some cases where * is a clear winner
+
+this means that while the two underlying sorts it uses * and insertion sort are both worse than * for many kinds of data timsort only uses them when it is advantageous to do so
+
+as many people have noted the average case performance for * is faster than *
+
+depending on where i look people say * is faster than * due to its locality of reference cache hits etc
+
+in most cases * will run faster than * even though the worst-case execution time is longer
+
+but * is older and weaker than *
+
+i personally would use * for my encryption as it is lighter and more secure than * in fact i think it is the de facto algorithm at the moment
+
+the only issue with applying that technique for the single source shortest path problem is that reweighting with * takes o mn time which is slower than * s o m log n
+
+however if g is guaranteed to have only non-negative weights g is non-positive weights then * s algorithm could be better choice over *
+
+but under what circumstances is the * algorithm better than the * algorithm
+
+since a proper implementation of * is faster than * use * unless there are negative weight edges in the graph
+
+a * signature generation could be somewhat faster than a * signature generation maybe up to twice faster
+
+use * it tends to be more compact than *
+
+however in this case * key size is less than * key size
+
+* has signature that is independent of key strength and is much smaller than * signature for equivalent security * 1024 1568 vs * 192
+
+* tends to be slower than * for the same reason.
+
+normally quicksort is faster than * which is faster than *
+
+i ve read that * encryption is more secure than the triple * encryption ms is using in their example above
+
+using * assuming it s a little faster than * and requires a smaller key and
+
+as far as efficiency * is going to be orders of magnitudes slower than * so the trade-off you make is that you give up simplicity you give up the simplicity of using * in favor of some * chunking in return for poor performance you get the slower performance of *.
+
+so the 115 seconds will be reduced to 3-4 secs plus the encryption decryption time used for * which is much faster than *
+
+there are two reasons for that performance * is faster then * and resources * is less resource hungry than *
+
+asymmetric key encryption ex * is no more secure than symmetric key encryption ex *
+
+in your particular case an * key of 2048 bits has a lot less strenght than an * key of 256 bits
+
+while 256-bit * might sound less secure than 4096-bit * they might actually be quite similar from the offered protection
+
+one of the reasons to do so is that * is much slower than for example *
+
+the difference is large enough that the constant factor in front of the n log n term in * is lower than the constant factor in front of the n log n term in * which is one reason why * is much faster than *
+
+for example * average cost t n.log n and * average cost t n.log n are both sorting algorithms with the same average cost - yet * is typically much faster than *
+
+you can indeed show that on average * will do more comparisons than * roughly 1.44 n log 2 n for * versus n log 2 n versus *
+
+why it is said * has better constant factor than * and therefore * is better than * in average
+
+this is because * is generally faster than * unless the call depth becomes to deep
+
+i was just going to say radix sort however that could be a bit above what you were looking to implement introsort is generally the accepted sorting solution for data it s a variation of * that switches to * when it reaches smaller sets as it s faster on smaller sets than *
+
+however * is somewhat slower in practice on most machines than a well-implemented *
+
+if that is so you might find that * runs faster than *
+
+you can take a look at * which for non completely random data performs better than * they have the same asymptotic complexity but * has lower constants
+
+if you re interesting in reducing the size of the resulting cookies you should consider using * rather than * to produce the signatures - * signatures are considerably smaller than * signatures of an equivalent security factor
+

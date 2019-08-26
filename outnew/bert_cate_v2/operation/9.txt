@@ -1,0 +1,82 @@
+so the compiler can t make the optimization because it can t tell if you wanted the exact behavior where B is better or the implemented behavior where the scale of sum affects the result of the B
+
+for instance in arithmetic B has higher precedence than B
+
+well we know it is the first one because of precedence - the binary B operator has higher precedence than the binary + B operator and is resolved first
+
+they state that the binary B operator has higher priority than the binary B operator +
+
+B is more expensive than B subtraction and division is more expensive still
+
+i would also be moderately surprised if the B actually was faster than the B
+
+this line works because of operator precedence B has a higher precedence than B + so it will be done first
+
+since B has more priority than B when you give a+1 to the macro it becomes 10 + 10 + 1 21
+
+for example 1 + 2 3 is treated as 1 + 2 3 whereas 1 2 + 3 is treated as 1 2 + 3 since B has a higher precedence than B +
+
+if we look at the speed of operations B is not drastically slower than B
+
+on modern processors floating point B is generally slightly more expensive than B which is one reason why compilers will typically replace by x+x
+
+for example B is of higher precedence than B so 2 + 3 x 4 is equivalent to 2 + 3 x 4 not 2 + 3 x 4
+
+in the remote case those operations are not simplified assuming that there is a jit that maps the B and add opcodes in a 1 1 relationship to their cpu instruction counterparts in most modern architectures all integer arithmetic operations usually take the same number of cycles so it will be faster multiplying once than add four times just checked it B is still slightly faster than B 1 clock vs 3 clocks so it still pays using a B here
+
+yes pow is slower than B B is slower than B
+
+proposition when implemented in logic gates using the usual algorithms an integer B circuit is o log n times slower than an B circuit where n is the number of bits in a word
+
+for example fp B throughput is lower than fma or B on intel before skylake 1 vector per clock instead of 2
+
+note that is equivalent to i 10 but much faster since B is around 10 times slower than B
+
+i am a bit suspicious of the performance because modulo tends to use B which is slower than your B operations
+
+B is usually significantly faster than B
+
+i used B for both operations because B is typically faster than B
+
+i read that B has has higher presedence than B
+
+i found out that integer B is much slower than B unfortunately
+
+change the half to 0.5 and you should be golden for the math part also B is faster so use it instead of B when possible
+
+this can be a major clock-cycle saver since B is often much faster than a B operation
+
+t is not very important as long as alpha is small otherwise you will run into some rather weird nyquist issues aliasing etc. and if you are working on a processor where B is cheaper than B or fixed-point issues are important precalculate omega
+
+the double_unit stuff is how random actually does it internally because B is faster than B see floating point B vs floating point B
+
+in fact if the intent is to divide by 22 10 or some other real value that isn t necessarily exactly representable in binary floating-point then half the times the B is more accurate than the B because it happens by coincidence that the relative error for 1 x is less than the relative error for x
+
+it is common knowledge that B takes many more clock cycles to compute than B
+
+both works but B is generally slower than B
+
+usually B is a lot more expensive than B but a smart compiler will often convert B by a compile-time constant to a B anyway
+
+B and square roots for huge number of bits are not much more complex than B
+
+and B may be slower than B or may still be fast
+
+on many processors integer B is faster than integer B
+
+B is one of a number of operations which as far as computational complexity theory is concerned are no more expensive than B
+
+in usual programming practice one wouldn t bother and simply multiplying by the floating-point representation of 180 ï because B is so much faster than B
+
+in a 64 bit application this code will be a lot faster than in a 32 bit application in a 32 bit application multiplying two 64 bit numbers take 3 B and 3 additions on 32 bit values - however it might be still faster than a B on a 32 bit machine
+
+this because 1 x is simpler than y x and B is faster than B
+
+but i d think bignum B is a little slower than bignum B
+
+it s possible though that software could mess things up by making B slower than B - but that s unlikely
+
+here it is conceivable that B is slower than B
+
+in B to that the crossing off may be less work than a B don t know about python it is for c arrays
+

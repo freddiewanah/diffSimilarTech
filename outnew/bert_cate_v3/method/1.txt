@@ -1,0 +1,68 @@
+2 location + reverse * - seems more reliable but requests location services on the device does it work on wifi only tablets and for it to be enabled and requires time to a fetch location b server call to reverse *
+
+also as mentioned elsewhere * is a better option to css visibility as * sets display none and not visibility
+
+these methods which give us access to private members are known as getter * or better knows as accessor *
+
+* requests are no less insecure than * requests
+
+is * more compact than * since * requests have to be url-encoded
+
+one more thing some guys would misunderstand that * is safer than * as user can not see the sent data
+
+using * is much easier than using * for most of developers
+
+characters * is more robust and secure than *
+
+hence * is more secure than *
+
+speaking of * request types you should also know that * requests tend to perform better than *
+
+* has a higher overhead marginally if we re honest but it all adds up but it doesn t become part of the url so can t be seen by say a casual observer over the user s shoulder - whereas * can
+
+* isn t more secure than *
+
+* makes it more indirect to intercept and read the payload than * but not safer
+
+* is not more secure than * as itâ s also send unencrypted
+
+use * its safer than * if you use rest
+
+so is it enough only to use limit to * more than 50 *
+
+i m trying to * cloudinary direct uploads working on a rails app using carrierwave and accepts_nested_attributes_for to submit one or more images with a *
+
+* is more secure than * because you aren t showing information anywhere
+
+here i don t like that the body of the * request contains more different fields then the body returned from the * request - but maybe this is not a problem
+
+as it s widely known that an asynchronous * request is better since the user won t * a perception that the app has crashed while it s loading the long process
+
+we provide a number of support resources which may * faster response than * on third party sites including the virtuoso users mailing list public support forums and confidential support cases
+
+actually if you would like to retrieve specific task with all its details * request would be more suitable than *
+
+while the * method can be submitted with forms or ajax calls and it is pretty safe at least more than the *
+
+i had the idea to switch automatically between * and * for example if cookie set because * is more fast and cache able and * is more save
+
+however if you want to * more than one * rather use functions mentioned above i think the most important thing is to grab them in one db query and not in ineffective way one-by-one
+
+i noticed once the length of a * parameter is longer than 400 bytes or 2000 bytes for a * parameter g-wan returns 400 error
+
+how to * more than 20 * from instagram using their api
+
+as a pragmatist i m inclined to use * because implementing it is way simpler than *
+
+anyway http 405 is telling you that your backend does not support the * method and probably it s expecting a * method with the x-http-method-override * http header since * is more standard method in rest than *
+
+* is designed for file uploads moreso than * which requires doing a multipart upload but then it comes down to what your server can do as to which is more convenient for you to implement
+
+* is also more commonly used for partial updates as * generally implies sending a full new representation of the resource
+
+side note it looks like you re using the * form of file upload which as the docs say is considerably more complex than *
+
+i m not sure if this is the answer but states that if you expect a rapid increase in the request rate for a bucket to more than 300 * list delete requests per second or more than 800 * requests per second we recommend that you open a support case to prepare for the workload and avoid any temporary limits on your request rate
+
+and then i saw that they * functions under transform that did much more than just * data
+

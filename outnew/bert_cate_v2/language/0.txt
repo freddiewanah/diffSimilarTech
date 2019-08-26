@@ -1,0 +1,108 @@
+also note that i use B more than B
+
+B won t allow you to do absolutely everything that B does but it will allow you to do almost everything and the code will be probably more robust considering that B is more modern language with stronger typing than B
+
+the B one is dramatically slower then B implementation
+
+this article seems to suggest that this is possible by swizzling a fake location into apple s cllocationmanager class to be used by other apps but i am unfamiliar with the B code more familiar with B
+
+better if you have a code B is better but is not problem B
+
+the perf hit will be ridiculous i know apple say B execute faster than B but this is low level so it will be harmless
+
+B seems to be less dynamic than B in these stuffs
+
+injecting code in a B application is harder than it was for an B application but it s still possible
+
+and also apple does might not confidently announce that B is more faster than B in all the cases
+
+or is it merely a hint to whatever tool converts between B and B to better deal with B optionals
+
+i know that B is buggy as heck i run into bugs everyday but ill bet B was even worse when it started out benefits of hindsight so in a couple of years B will be equal or greater than B keeping its basic simplicity as well
+
+i use B more than B
+
+i have a B application working fine and smooth to be more comfortable with B i decided to write the unit tests for this app in B
+
+B is in fact a superset of B not a subset -- B has more functionality built in than B itself
+
+saxon-ee supports streaming of large xml documents using B or B streaming is better supported in B than in B
+
+my usual rule-of-thumb is that B is better than B for simple tasks whereas B is better for complex tasks
+
+if your output is going to be similar to your input with small changes then the B solution is often a lot simpler than the B solution
+
+on the side of using macros B has always been more advanced than other B and lisp implementations
+
+B is closer to B than to common lisp but you could dip your toes into the lisp family without the speed bump of the emacs style of development
+
+i would suggest you start with B and more specifically with B formerly plt B
+
+right now B is much better as it supports a broader set of language and platform features than B .net ever did
+
+in free and turbo B file handling is much more easier than in B in B we have assign instead of assignfile and close instead of closefile
+
+from my pov the object B paradigm used with fpc object B dialect which can coexist with the default object B code is more advanced lightweight and integrated than the interface-based plumbing of B xe2 compiler with on-the-fly marshalling using rtti
+
+B is coco but much more compatible with B more functional and more feature rich
+
+while B is more expressive B pattern matching is simpler which means a simpler language definition compiler etc. and you still can do what you need at the cost of writing more code
+
+opengl is better for playing around and experimenting because you can easily draw triangle without messing with hardware buffers available on larger selection of platforms plus B is better than B because it doesn t compile into assembly
+
+it s popular it s actively developed it has many libraries offering the features of a modern programming environment and B is somewhat simpler not to say better just simpler than common B
+
+here is a solution in B because i know that better than common B and have an interpreter for checking my work
+
+for a counterexample i think B programs ran faster and used less memory than the B programs that preceded them mdash
+
+my impression common B is more for getting stuff done B is more for education and fun
+
+i also checked B and it seems a pretty cool language easy to do relations between data and easier than B but i d like to hear what you think
+
+please consider also to use B for code generation that s much nicer than B and integrates smoothly with xtext infrastructure
+
+B is a dependently-typed language that is designed for low-level programming though it s somewhat less elegant than B
+
+all in all t4 to me is more of a inside vs code-generation tool to quickly create c# or other files while B is more of a data-processing data-transformation tool to turn data from xml into another format typically html or pdf using B
+
+because B is eagerly evaluated the execution model is far easier to comprehend and debugging via printf works a lot better than in B
+
+B has higher level bindings to llvm than B the B ones provide some interesting type safety guarantees and B has by far more libraries to use 1700 packages on making it easier to glue together components
+
+secondly the B ffi is more powerful that is it does more with less code than B s and more libraries are avaliable via hackage so i don t think foreign interfaces will be a deciding factor
+
+the reason i wanted to investigate this was because both c and B were significantly faster than B for this program
+
+as others have pointed out B s learning curve will be lower than B s
+
+i would just use B but B s syntax is so much better than B s and B is pure and has cool features such as type classes
+
+in dependently-typed languages like B it s probably more useful than in B
+
+on contrary B is more c-like do not require explicit enabling of script running accepts relative paths case sensitive and loosely typed both are imho advantages for scripting language compared to B
+
+the inclusion of B code into a batch file is simpler than B and the translation of a small code segment from vbs to B is not problematic
+
+yes B was once much more feature-rich than B but later revisions of the language B 2001 B 2005 systemB etc.. have cherry-picked most of the interesting features and there is far more robust toolchain support for B and its variant these days in addition to it being the dominant language in use in the us in my experience B is only used here when dealing with extreme legacy blocks and in academic contexts partially due to the tools support mentioned previously
+
+yes they are different but you can hardly say that the B version is less capable than the B version
+
+can i safely assume that B result is more precise than B and discard the B result completely
+
+B is richer than languages such as B schema Bs
+
+B and Bs are more expressive than B which means here that you can capture more complex relations for instance you can also represent the link between sets of things Bs subclassof or use transitive properties hasancestor
+
+B methods tend to be more fine-grained than B functions so that may be a good place to begin
+
+in this case a traversal-oriented approach is best maybe B is better since B doesn t allow you to specify traversal order
+
+B is much more convenient than creating an activex on B or c# vb.net
+
+while B syntax looks more related to shell syntax like bash or tcsh B is actually more closely related to B or php or ruby
+
+it is written in B which is a language somewhat simpler than B but broadly in the same family and not difficult to learn
+
+fortunately B 2.1 has a better alternative since it s supports the built-in calendrical types from B 1.3
+

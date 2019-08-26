@@ -1,0 +1,52 @@
+the * process is much simpler as you only need to attach the * object
+
+* has some slightly better functionality than * but is a bit harder to use
+
+* should also be more efficient than *
+
+* is indeed better in reading floating point values than *
+
+* is sometimes easier to use than *
+
+a * is much easier than a *
+
+* is simpler to use than *
+
+i am using * s because as suggested in documentation * s are lighter than * and i have hundreds of them
+
+a * is no more than a fancy wrapper for a * â bringing uiresponder events animation conveniences among many other things
+
+* must allow more than the * not less and going from an argument being optional to not optional is allowing less
+
+in this case * is bigger than * that s why the second statement is correct
+
+note the use of std * is safer and more convenient than std * *
+
+* animation is generally easier and more intuitive to use than *
+
+the * is nothing more than a uiview with one or more * and background and selector views
+
+because * is higher class of * and its slower
+
+* has a much simpler interface than * and takes care of reading and writing from the streams for you
+
+* is more generic than * and should be preferred
+
+when you re not worrying about * this is more flexible if the * of the object changes
+
+* is faster than *
+
+unless you know exactly what you are doing do not use the same * for more than one *
+
+* code is generally less optimized than * one
+
+well obviously you created an implementation * which has a little bit more specialized interface than *
+
+it means a declared * is more than a pair of * methods getter setter
+
+* is much simpler to use than * and will serve the most common development needs
+
+i used to use * for all of my db models until i read ways to optimize entity framework after following the steps i found my self forced to switch to * instead so there were alot of code changes to be done but i am not sure that i doing the right thing specially after googling the deference i ve noticed that * is newer and better than * and also i noticed that i lost alot of things while switching to * like migrations and find method and much more.
+
+if adding 2000 entities and saving the changes at the end * is 3 to 5 times slower than * btw. i know that adding a large amount of entities would be better using sqlbulkcopy but that s not the point
+

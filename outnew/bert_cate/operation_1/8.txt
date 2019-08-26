@@ -1,0 +1,60 @@
+B has higher precedence than B subtraction
+
+B is more expensive than B subtraction and division is more expensive still
+
+division B has higher precedence than B subtraction and parentheses is required to do B subtraction before B division
+
+B has higher precedence than B subtraction
+
+B is more expensive than B subtraction and division is more expensive still
+
+division B has higher precedence than B subtraction and parentheses is required to do B subtraction before B division
+
+note parentheses are redundant as division and multiplication have the same priority and B has higher precedence over B
+
+and keep in mind that the B has a higher precedence than B and subtraction
+
+multiplication division and B have the same precedence and they all have higher precedence than B and subtraction
+
+integer multiplication division and B are much slower than integer B and subtraction
+
+note parentheses are redundant as division and multiplication have the same priority and B has higher precedence over B
+
+and keep in mind that the B has a higher precedence than B and subtraction
+
+multiplication division and B have the same precedence and they all have higher precedence than B and subtraction
+
+integer multiplication division and B are much slower than integer B and subtraction
+
+B and divide have higher precedence than B and subtract
+
+to give B and divide higher precedence than B and subtract you can do something like this example adapted from john levine lex yacc 2 e 1992
+
+B and divide have higher precedence than B and subtract
+
+to give B and divide higher precedence than B and subtract you can do something like this example adapted from john levine lex yacc 2 e 1992
+
+B has a higher precedence than B or subtraction so it s really this
+
+multiplication and B have higher priority than B and subtraction
+
+B is performed by repeated subtraction therefore needs more level of subtract logic making B slower than B
+
+to start with i need multiplication and B to take higher precedence than B and subtraction
+
+multiplication and B have a higher precedence than B and subtraction
+
+finally we all know that multiplication and B have higher precedence than B and subtraction so we can remove the extraneous parentheses so this turns into
+
+B has a higher precedence than B or subtraction so it s really this
+
+multiplication and B have higher priority than B and subtraction
+
+B is performed by repeated subtraction therefore needs more level of subtract logic making B slower than B
+
+to start with i need multiplication and B to take higher precedence than B and subtraction
+
+multiplication and B have a higher precedence than B and subtraction
+
+finally we all know that multiplication and B have higher precedence than B and subtraction so we can remove the extraneous parentheses so this turns into
+

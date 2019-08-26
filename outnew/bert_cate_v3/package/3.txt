@@ -1,0 +1,18 @@
+* is more forgiving in terms of well-formed xml structure see i had to edit the xml a bit to make things work for * and it s actually much easier to work with
+
+possibly part of the reason of my problems is that the original code from ramnath uses rmaps while i m using * also developed by ramnath as it is more developed better integrated with * and of course includes leaflet
+
+if you are on linux and have chosen blas and * from a repo it is very likely that they are much slower than *
+
+also * is significantly faster than * in many cases for processing results
+
+* is faster than * i think and has much better functionality while remaining relatively easy to use
+
+i do understand that traditionally they are saying that * are stricter than * however what i do not get is the following
+
+even when * editors support * their support makes working with .rnw files much clunkier than pure * .tex files
+
+the * package is a bit nicer than * for making http requests in my opinion and it sets a user-agent string by default
+
+* is newer based on * internally and is often even faster
+

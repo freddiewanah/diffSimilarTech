@@ -1,0 +1,730 @@
+alternatively B looks simpler B without flexibility
+looking google groups qjplot B support B better unanswered B group
+representation given B far easier equivalent B
+time compilation phase B typically complex B Bs capabilities Bs
+B better remember use B components
+performance B components generally slower buggier B due pure issues various platforms
+writing based B 10 viewcontrollers corresponding B
+yet point view B efficient B easier customize xtable
+operations float especially B cost B
+since B greater B long B long turned Bo B B long B B
+range B wider range B long
+conversion legal B wider B
+writing c# class perform 2d separable convolution using B obtain better performance B counterpart
+today noticed cast B greater maximum possible B B get -2147483648
+B infinite precision gain precision B converting B bigdecimal like gain precision B 0.0 widens B B
+B contain larger numbers B long
+math.ceil B returns closest B B
+could add dropzone B area hidden template looking elsewhere heard B uses processor B would prefer keep together
+using B method B greater
+B lower overhead B since duplicate keys stored per item convenience named access
+think today run tests determine certainty whether B 1.0 faster slower B
+one want move B secure B
+perf hit ridiculous know apple say B execute faster B low level harmless
+new B like B looks bit like syntax wise compared B
+download xcode free learn B B B easier learn B
+B stricter runtime type correctness B duck typing alone enough
+also B syntax friendy features like lazy loading chainable conditions like B 3 beginning
+say B runnable preferrable B thread
+B slightly difficult setup faster B
+really miss feature B find B bloated slows host system B
+B visualization B searching logs right
+note want bind B directly view property resourcedictionary datatemplates x shared attribute set false leads problems xaml designer view shared one B
+another article describes B control probably better fit B
+B extensions considerably limited B extensions hook behavior browser certain predefined ways
+update tried B 30 experience slowdown worker thread slower B run main thread
+concerned B runs faster browser implementations vary wide spread results encountered B makes getting accurate result impossible
+ie B footer link text larger B therefore margins set icons work
+B default textbox includes padding ie B
+word B look wider B
+additionally algorithm B uses better one B least handling resizing text
+built site B display font-size 1px bigger B
+B parsing may strict B things like trailing commas specified standard stated danilo celic answer
+B plugin system works development mode B slower B see details
+found using B trigger antialiasing 49px higher however B set 257px higher
+mac os x 10.8.2 running B 18.0.2 - actually runs game faster smoother B 25.0.1364.99
+results varied browser another B 4.0b12 faster using B webkit faster using
+B slightly easier implement B also needs qtablemodel backend capabilities
+B docs explain use drawees see right xml definition customizable B
+B compiled jit almost always faster B frequently large margin
+B faster B two tests slowspitfire waf
+happen B disabled router packet size greater B router fragments packet
+could also use apache B general tomcat B plugin
+B may use space B entirely merge may better linkedlists
+ended using B animations simply provides smoother animations configurable B ui provides
+B still faster B difference big right
+used tell polished platform servers 4ã faster run apps want B toolbelt powerful B client tools
+B B backend 18x - 19x slower B tensorflow backend
+B seems faster B
+want longer B lets call secure use like sha512 B
+theory encoding B dangerous encoding B
+service already B B things even easier B reader integrated buzzbox api
+noticed yoou cannot create B campaign Bed oone B
+B almost always faster B
+read blog B performs least good better B also offering complex types like mongodb would
+quick googling says B 5 faster B
+B gives functionality B
+B generally faster B performance
+take consideration borders take B B 1 either side large container means 100 B
+however want use sha256 B alogorithm better B
+want compare better putting result getstring compare secure B even secure B already
+got work using child process B flexible B
+B always expands fit size B event B smaller B provide scrolling ability
+commands works difference B installed output maybe bigger B -qa B show package dependencies also output
+solution encapsulates call B allocates bigger buffer alignment purpose stores original allocated address aligned buffer later call B
+definitely need svg want use existing may want look B raphaels younger sister shares codebase another like B
+B easier tasks remember B one number carry zeros
+run queries fetch data B slower B
+B 100 000 slower B
+holes like - work system supports paging B access expensive B access
+since B even ssd several orders magnitude slower B systems gets unresponsive
+compared B 2 x left-shift divinding 2 x right-shift noted binary shift faster B operation
+working integer B better B first divide later minimize rounding error
+B pythonic B fine
+B slower B + lst
+free turbo B file handling easier B B assign instead assignfile close instead closefile
+B consumes power B based analysis 4-6 higher
+B lead better results B source
+B better B
+B types larger range B types
+B bigger B want center B top B vertically horizontally
+B already slower B certain point actually faster ridiculously large database
+words B better worse B handle unicode
+affect B harder B
+generally speaking find B lends 24 7 operations better B
+however videos B greater B container stretches vertically goes screen looks choppy zoomed
+default B B box container cannot greater B B parent container box fit
+B slightly larger B
+called web audio api currently draft well supported B need use prefixes little B
+- B portable B
+displays things normally screen course go print preview ie7 thing B longer description. words B first column also B second column
+B action bar invoke B method using getsupportactionbar getactionbar minsdkversion 11 higher B
+wondering B paramaters via ajax show loader image B file complete return file download
+made similar android use B whose surf faster B
+want B know B better use use B
+ideally B version button 1.5 bigger B baseline version
+yesterday needed B production server debian 6 3-y B 3rd party configured billing system
+idea threefold readability using operator functions compatible left right arguments well return value use B multiplying operators faster B operators
+using B B limiting B basic_B
+using keyfn return B value matches requirements easier implementing B
+B easier learn B
+works B likely work straightaway B - family resemblance end day still test every webkit browser product version still uses different version webkit
+total width button B web inspector 6px larger B web inspector
+using B production heroku year seems handle better B
+reading documentation think need download B seems better supported B
+B always faster B
+use socket B datagram B faster B connection oriented
+alternatively used B hungry B
+expecting B would faster B average two faster B
+general B protocol manages available network bandwidth better B protocol
+assumend transmission using B faster using B tests proved B transmission 7 8 slower using B
+B overhead B therefore faster
+know B better send file homework sending file via B protocol
+experience tell B 10-15 faster B dedicated B-tuned networks
+B know B faster B even B may miss
+B requires connection provides security slower B therefore preffered streaming
+B faster B
+also remember dns requests use B request response would need 1 B packet
+since loosing packets matter speed latency crucial B better B
+used iperf two linux machines send data using B B found B performs better B average 65 better
+use B well dealing firewalls probably going simpler B
+experience B based generally complex B based
+may kernel heuristics servering B connections aggressive B sockets since B connections require state continuous processing B sockets
+example android B stock player feature allows full B
+based understanding hope size B B smaller desktop makes strokes get hidden inside area visible B however area visible desktop
+working page works fine desktop devices B phones width page B width need make width responsive page height-only scroll
+would like use css media queries title tabs B gets smaller B iphone
+contrast nexus 7 B higher actual B resolution ipad mini reports web page smaller B size
+use B size devices like galaxy note huge B phones higher resolution B dpi think
+B 5 B morenavigationcontroller available
+formatting single numeric value B marginally efficient B B bunch overhead parse format string curly braces pass B
+used B might see better speedup B 3B observations
+first thought could build uiview showing image text attach B would flexible B
+note time writing B lesser support compared B
+B hard precisely B means variant hard B decision np-hard
+know B table sizes three smaller B tables
+B -- effecient B primary clustered data B
+B faster reads since locks whole table writes throughput drops compared B
+B often slower B transactional engine acid properties
+B better performance B though B needs attention tuning configuration B supports atomic changes transactions foreign keys B resistant corrupting data crash
+suprise B took hours B
+longer B faster B reads
+B faster B anymore types queries
+B uses row level locking B use table level locking B crash revovery better B
+certain B works better B
+also try using B since said better B handling bulk inserts data already
+B would better B high-write table
+speed matter B still slightly faster B especially reads
+B slower B
+B api also bit richer B api
+B express web server albeit better B B express
+B give us better performance B would still like able hit f5 run application within visual studio
+situation critical platform B provides narrower functionality link B available platform command linking fail due unsatisfied dependency
+overriding B packages B puts stuff opt local stay programs
+B seems flexible unclear direct using save full B dataframe multiindex
+note B larger range values B check value stored myB fit Bo B
+convert Bo B string one B
+since B types lower precedence B types query basically
+narrowing conversion like B B B larger range B yields implementation-defined conversion
+calling method verify data come user store B data passed B string 255 B ...
+primary keys short typical size abbreviations rarely longer 4 B -- xxxl --- size smaller B database engines B typically 4 8 bytes
+system B bigger B B -128 128 assigning B B outside range gives compiler warning
+type B B usually wider keep possible values B keep
+sfinae protected function preferred valid B better match B 0
+know B higher address B standard says
+B B greater B xy...that possible
+addition mats petersson said B cache friendlier B
+think find team like either trac B B mantis
+B another one easy use would say easier B learn uses sqlite file store scales really big projects
+also consider using B instead B need edit information inside since B take longer allocate init generally slower B
+B became slower B uses proxy os widgets
+give B go api simpler B
+B customizable B
+B nothing uiview one B background selector views
+looking latter B micro framework considerably smaller B
+ldpi assets look bad high density B exponentially smaller B exponentially smaller hdpi
+keep mind B higher precedence B subtraction
+use B like better B - although still prefer self-restraint+plain ide support django templating work since syntax nearly
+using B considered better B screwy ways event loop works
+also B better approach B explicitly reset round trip
+relevant discussion well fb_graph B gem better B using facebook graph
+B execution speed slower B need speed call compiled stuff gems micro services
+B generally run faster B think start behind eight ball really comes use structure
+B general B generally used command control
+need set top B whatever item want greater B navbar order show correctly
+B example easily inserted application evaluate performance gains heavily threaded applications B tends perform better B malloc implementation
+B better big-o say B yet B performs better practice
+B also better cache access behavior B
+B decrements approximately 1.5 slower B
+also B better created B
+functionally B always take time B combines B along Bition step
+someone explain behaviour B operator higher precedence B operator
+cpu fast multiplier B may order 4 slower B normal hardware 16-32 slower 32 bit operation
+instead explode use preg_split use s+ B + 1 B
+works nicely rich ui perspective boring wondering since B image bigger B could assuming possible B container suck bigger image fills dimensions
+sort settled later found B liked better B
+post method B slower B post always slower B get method
+B better big open spaces B better in-door spaces levels
+basically B objects behave application running B write application running
+B greater B zoom happen
+convert string B greater B
+B birth ends greater B death overlap
+submit button handler check value B greater value B show user suitable message
+user enter B value greater B value B value B value
+want validation B price always B price B price greater B price
+B decremented larger B
+. script.m file.csv 7 20 test fails get output B 7 must B 20
+B 90 Bute message med 60-90 B
+want change B Bibute better use B
+B better B designed - roughly thing simplications new features
+worry occasional downvote perhaps readers think advocating B better system B git
+see B could faster B
+would also recommend check B better B
+fragments data handling taking place starting B happens earlier B
+numbers huge dividing x b might betterâ B usually slower B getting huge-number domain early might help avoiding B
+B higher precedence B round
+wonder everybody missed B faster B
+benchmarked examining see using integers B 2 shorter B 2
+found B really effective surprisingly lightweight....it aims lightweight B
+key-stretching algorithm like B applies quicker B like sha512 thousands typically causing B generation take 1 5 second
+among things apple template include creation B provides shader functionality seems required order able draw B 2.0
+thus B B able get away
+B similar pouchdb B
+override B level lower B level either private set internal set
+B restricted B odd.
+read B faster static pages performance compared B performance
+would really like run B B switch B yet found loaded proxies slower B
+B + gunicorn likely work better B + modwsgi point time
+B still faster might choose B asleep
+hi everyone need help already set B + works great faster B setup multiple projects one ip
+seems consensus B serves static content faster B
+recently read B faster B
+switchover B really little rewrite rule getting away B 2.2 default upstream version centos however B rewrite rules straight forward B imo
+think would like lemp e stands B small projects would better B
+update graphicsmagick faster B means B better B
+B better B use com capabilities save writing endless sketchy B
+B becomes difficult use dateparts B looks like minutes seconds
+B request marginally secure B request
+B usually faster encapsulation sends data via url usually 255 character limit B exists encapsulation sent body http request
+trying B page displays 20 users per page pagination fallowing info show users 2 B published
+B method better B method use form
+param params therefore data serialized would explain server rejecting B since B requires privileges B presumably
+example B request considered secure B request creating B request relatively harder creating B request
+B 20 B sandbox user
+B information B access token
+B method generally consume secure B use B method display data url bar.if data sensitive data like password inggeris
+speaking B request types also know B requests tend perform better B
+usually ajax B method faster involve proccessing B fields Bting information would stick
+like body B request contains different fields body returned B request - maybe
+B higher overhead marginally honest adds become part url seen say casual observer user shoulder - whereas B
+yes B better B B data usualy logged proxy server secure
+B head frequent B
+idea switch automatically B B example cookie set B fast cache able B save
+aware B better kind thing expected B request
+want B 54 B receive error
+B requests smaller limits B specs
+B often used unsecure type datatransactions like example searchform B used want make secure things like login form
+able B 100 B single rest api call linkedin company updates
+congratulations - pat back B routine indeed third faster B routine tested haswell i7
+B B neither
+plan move mobiles later tkinter B may better B
+anyone give details oracle B connectors perform better B
+hold older compilers interpreters old chip architecture would B slightly slower B
+think bignum B little slower bignum B
+edit use html work use B based faster B
+according benchmark tests B nearly 100 faster B
+B usually give better performance B B always stores sequentially memory B allocate heap unless sizeof sizeof void declared either q_movable_type q_primitive_type using q_declare_typeinfo
+real B columns B
+http B inherently secure http B allowing uploaded files exceuted server
+B gives better alpha result B
+example B better support transparency B jpeg
+matters B significantly larger B files
+B images always compressed lossless compression algorithm works better competition B
+B least experience general B hmisc
+B higher level B
+company concern avoid big unknown libraries prefectly understandable advise stick B smaller B
+concerned going B worse B tests specflow project
+suggest give look B far better B also actively developed
+originally using B easier B use ran parse entire string first number string
+take look B json parser faster one android faster B supports streaming
+conditions B proven faster B also exists jsonp json.simple
+B seems nicer syntax B like strongly-typed former deals passing parameters constructor faked class
+safely B trunk better last B anyway
+also use custom dimension piwik B older B
+B better ajax support B
+said found B useful product better B especially quality documentation
+B appropriate render game content using one B
+overhead calling B million comparing two ints probably going quicker B object method
+starting learn streams parallel wondering normal B takes time intstream paralleled adding B
+normal B far better B using for-in actually object
+iterating pair-wise normally like iterating B faster using c-style B
+B efficient 2 construct temporary B tuples like zip b returns false soon non-match found
+try catch inside B probably closer long mind unassigned values left B
+would B faster B
+last iteration outer B ndx one array.length call B ndx+1 equivalent B array.length bounds since B start indexing 0
+probably feel B might bit faster B B changes pointer position new address space mentioned date read happening
+multiplication B operators higher precedence B subtraction scientific notation
+B modulo B operation slower B
+multiplication B higher priority B subtraction
+example B typically faster B
+unfortunately pretty find packages projects migrates joomla web site B maybe B older B
+specify B greater 20 B greater 9.1 ie greater 9
+please especially test B problems B
+B safer B
+solution B part feels clunky complicated check max B value bigger B B value check 10 2
+single B B faster simpler 2-3 B calls
+use B tables 18 billion rows nothing else comes close least 100 faster B random inserts big tables
+B 1 line height B left side
+still opting B confirm behaves regarding one score per user offers functionality seem respond quicker B
+table contain two headers B header gets bigger colspan bottom header conforms giving equivalent amount columns i.e index 4 two B indexed 1 2
+keep B better B
+check divs B 3 B
+always swapping larger two heap property means B always larger B
+know react make B element reactid accept certain B
+update done directly child table B B .
+since B home start stacking context one level higher B home li never inside
+two rectangles B wider high B placed next
+simply put max heap heap value B greater value B
+B general faster B due full acceleration cards
+example give matter - going fail initial strlen B buy safety presumbly B slower check bounds nul difference B strcpy worth changing speculatively
+efficient debate based cpu bulk instructions copy entire memory one instruction B probably faster B would check copied byte nul character
+might want look B options B
+indeed would relatively easy preprocess B grammar file easier B compute grammar programmatically pass B json object
+find best create cache session B systems B safer put important things like logs cache system rather application B
+unfortunately B also git repository .git B bigger B
+array B greater 1 start B object retaining least temporarily
+generally speaking B faster B compact
+uses B slower yet powerful B engine sed
+edit recent B better job always padding powers 2 length closer output B
+alternatively fieldsize equal sizeof B sizeof B greater sizeof B writing end d_buffer corrupting data
+B general B therefore B most-specific
+since B mantissa bits B significant bits comparisions B B precise regard
+B different data type generally slower B
+B literal 99.9999999999999 represented B 100 cast B truncates decimal part 99 result
+using time check equality B results slower takes two comparisons instead one taking B amount time
+B looks better B task
+worth pipes-csv variant compresses parsed row Bo unboxed vector B hand easier finding B csv really storing using readB bytestring package.
+typically B use memory B one use largest possible datatype
+positive B slightly B casts next B rounds closest B
+imply result pow x converted B truncated B arithmetic exponentiation return B value slightly smaller B
+forget range B smaller range B
+byte takes memory B B provides better performance bigger datatypes especially better B
+could try add value B make bigger smaller B
+using screen size generate placeholder image width screen B bigger B
+B return negative integer zero positive integer object B greater specified object
+B method write call getters year month figures whether current object B greater object passed B method
+interface defines method B return negative number zero positive number first object B greater one respectively
+call B method decide whether bigger B int
+B method returns negative integer zero positive integer object B greater specified object
+best solution add new column called engmaterial add english B possible solve better B .net
+B radius circle know B intersects circle
+B creates tidier history B back forth may create complex commit graph end
+better B better B
+apple seems claim optional type B safer nil B understand
+entity framework B implementation picky creating new objects objects regular linq objects B
+B generic B though instances B implement B defines
+must show gradeschool B circuit deeper B circuit
+use B network development tools check requests sometimes sends options request cross origin insist B network tool detailed B
+trouble choosing good value x since particular page B faster B faster ie
+B stricter B comes loading data local filesystem
+always assumed B efficient B storing value - considering existence
+also examples B would better B kinda flawed
+B takes space B
+B faster B two tests slowspitfire waf
+said date class better php5.3 -- even B subtract functions would also solve better B .
+technically B better time-behavior worst average B 2 worst average
+B usually better B two
+given possible vastly reduce likelihood worst B time complexity via random selection pivot example think one could argue B worse pathological B
+B worse B
+rest assured though B better equipped general string comparisons B
+simple words say performance B far better B
+B faster B also enforces specify buffer size
+performance difference B usually efficient B must scan data copies
+sometimes B performs faster B moves blocks memory time allows perform optimization go details
+example small amounts data B optimised large amounts data may significantly slower B optimised large amounts data
+automatically adjusted B always next power 10 greater B value
+grid coordinate grid either closed open tying using open coordinate find open coordinates around first valid walk B equal lower B walk B
+googling found sources say B algorithm efficient B algorithm
+B suggested tends slower either B - primarily used negative edge-weights
+first vb.net used perform xslt transformation really simple said applying xslt stylesheet B considered better B even sending processing instruction browser
+Bition B assignment lower procedure simply B operation
+noted comments however willing rely posix B cleaner B + malloc + semantics take responsibility freeing memory allocated copy
+side effect B routines B - B actually faster B
+also note manually calculating euclidean B faster calling B
+B gives automatic de-Btion function exit stack usually smaller resource B heap exhaust heap gives back null
+salt B secure without better using one sha B sha256managed
+mac os x llvm gcc based crypt fuction borked junk hardwired use des proven breakable B worse B
+bcrypt produces B slower B security also clear
+likely could sha B 100kb well 10 second though though sha-1 still theoretically flawed higher strength B
+performance difference issue B better B also troubled hours even tried move web api console application test console application similar performance good B web api
+example second use B makes sense B random data B would identical usage interpolation option.
+B reliable since get feedback immediately unlike B provide reliable exceptions failure triggering event
+database sophisticated enough adding explicit order clause hint B optimal B operation well B re-used query execution pipeline
+remember B quite expensive action B costs even B
+.so statically linked runtimes - B objects module allocated since new delete B B need extra info work properly
+B know memory B earlier allocated B calloc
+want accept number rather digit number B works better B allows check failures
+mathematically left shifting B number power 2 operation done shifting faster B
+implementing B easier remember shl operation performs operation B specified operand two
+latter dynamic memory B 10 faster std to_string B karma benchmarks
+able use std allocate_shared B fast_pool_B B method using g++ 4.8 higher B 1.56.0
+B significantly appropriate use B kind tasks
+using options -os compiler tell make small words B unless shorter B calling function unroll loops - B called make shorter
+B always faster B
+accessing main memory B faster reading values hard B
+stand file operations writing memory B always faster writing file B directly
+basically B expensive B storage
+understand B typically thousands faster B speed running
+create B add one B give runtime error label already added
+normal takes 2 comparison half height tree B merge two total running time better B 2 part
+perhaps B accurate reciprocal plus B
+know lengths strings B sensible - nominally faster B check nulls goes
+historically B could slower B arithmetic
+B math often faster B function could major performance win
+non-B B behaviour reflection quality rand B often good
+said B security aware B supporting roles authentication methods ... database generally limited impact security application
+explain B useful B
+B famous serious enterprise-quality database preserving data critical recommend B
+recent tests showed B perform faster B believe table partitioning feature B important table database foresee grow 100 million rows production
+initially value B disable value B B disabled.after selecting B B able click
+like make B images slightly larger B text B B line
+find adaptivetriggers take static minwindowB minwindowB .but need matter big small screen B bigger B go first design B bigger go second design
+get B B uibuttons compare lastpressedbutton.frame.origin.x B -B away
+trying see image B greater B apply class apply another class
+obviously would like find B sequence value 60 stands B depth
+although layout_B layout_B set wrap_content imagebutton shown rectangle B greater B
+xml tag specifies B bigger B hence oval
+making webrtc call mobile laptop mobile portrait mode sends stream B greater B laptop send stream aspect ratio reversed
+view B greater B able make colorimageview B equal view B since priority 750
+tried add class added background image input.but B B aligned bigger text box.on trying change B input size reduced background img inside input
+image site B bigger B
+B B ratio 4 3 cropping B give B 300
+B seems like anti-aliasing B
+B used concise B need provide expression type inferred
+told B costly B research indicate
+B standard alternative B
+performance B field constant better B
+however B faster seen B performance containskey get put remove according javadocs B 1 each.
+B costs B adds nothing project need keep original insertion order
+g_new g_new0 take arguments unlike B takes arguments B
+B faster B + memset B knows mmap pages pre-zeroed memset forces allocation physical ram
+remember somewhere read B slower B B performs initialization zero performing memory allocation
+storing varchar type data really using one latter two types B storing various varchar data B specific type B anyway storing strictly xml data
+see copying manually B always slower B malloc guaranteed allocate new memory forced copy data every allocation shows us B indeed reusing address enlarging size
+B simpler B automatically done save automatically waits animation done hiding element current
+better instead taking B generic B since B implements B simply checking null else returning linq operators
+guarentee signed B always bigger equal B B bytes data lost due lack space
+idea threefold readability using operator functions compatible left right arguments well return value use B multiplying operators faster B operators
+going high gives error B constant larger largest B B type
+input B larger would fit B long long
+B class better since use B would mean using
+looking seems B faster better term security even underlying B function sha1 broken using rsa-sha1
+wrote check compared signed int x 0xdeadbeef B B 0xffff converting B B int 0x0000ffff comparison smaller B value x
+B 2.2 framework better compatability B resolutions densities
+using view flipper show bunch images like slider implemented functionality swipe left right B images images larger B size height getting hidden
+get html instead hardcoding use B class since simplier api B
+B faster B simple nonexistent acknowledge packet ack permits continuous packet stream instead B acknowledges set packets calculated using B window size round-trip time rtt
+example android B stock player feature allows full B
+standard html.parser handles broken html well options B closest modern browser would handle broken html albeit slower rate B would handle html parsing
+like auto-complete feature B experience slower B
+B powers two bitshifting usually little clearer B though choose whatever works
+new firm given project amazon B ami need transfer project another server familiar B amazon B ami wondering difference project work perfectly
+B acct count acct result greater 1 B using clause
+private B always smaller B able using raw rsa operation make remove prepended zero
+strong like math B stronger B 3 5+3 15+3 18
+B truly faster B expect somebody well-versed byte could explain load_fast num faster five operations line 12
+B cheaper B
+mathematics clearly defines order operations giving B higher precedence B
+every multiplicative-expression additive-expression makes B bind tighter B
+tests B v B found resolve contention issues B model 40 slower B
+B faster query simple slower high concurrent environment table level lock comparing B row level lock
+speed matter B still slightly faster B especially reads
+search online comparing B B articles read judged B faster B select queries
+select queries B runs 2x faster B updates insert queries slower B
+literature says B better faster whatever B old literature
+B slower read databases features acid compliant row level locking B leaves
+heard correct wrong B better tables updated row locking opposed B table locking
+beginning insert performance B almost 50 slower B tokudb 40 slower B
+B also uses complex construction particular B direct digest make recovering input password output value difficult
+B B two distinct types works B precision B
+B cannot prB B_max B
+want poB one B would need define B array four smaller B array - make sizes correct
+firs one common works systems size B greater size B
+allocating sizeof B bytes memory strings likely 4 input strings read scanf must longer 3 B
+talking compiler implementation yes think standard impose upper bound minimums like B 8 bits limits relative sizes like long shorter B
+B considered value 0 three prBf calls prB 0 B run first one returns value logically equivalent stop execution line go onto next
+i.e use B B union allocate space B bigger size B stored space overriding last one
+thus B restrictive type B
+type B B usually wider keep possible values B keep
+since B larger B allows eof somewhere inside space numbers expressible B outside set B
+B smaller B usually structure mystructv1 smaller mystructv2
+options like visser suggested could convert date time Bo long B allows faster computation keep strings even convert Bo B like done B array2
+warning comes B typically greater range B loss-of-information may occur
+would either cast B unsigned B unsigned B value greater sizeof B
+B 4 bytes represents 2 bytes B consumes memory B -array initialising full B -memory 0 setting B -variables
+real sha1 algorithm uses blocks larger single B state larger B basically goes
+B bigger B typically 4-bytes vs
+even B smaller 4-byte B move one-by-one Bo register comparison
+safe mean useful B bigger B usually inverse save memory
+computers work B faster unsigned significantly faster signed B
+B better B comparing one B time unless collate latin1_general_bin also transformation comparing B
+B use memory space give faster indexing B
+usually B type 8 bits B must least 16 bits every unsigned B representable B
+mentioned posts senderid sequencenumber type B likely larger B values truncated
+3 possible values use array B copy 4 faster B
+B usually bigger B suitable calculations suitable byte-level manipulation
+quite bit depends eof value originate file basically translates requirement B range smaller B smaller equal standard directly requires
+converting B assuming B narrower B keep lower-order bits lower-order bits lower-order bits matter stored memory
+wchar_t B type may larger B
+B longer B typically 4 vs
+B small might make sense store 5 values appropriate type B use space B
+B become arbitrarily large clojure resulting number becomes bigger every B thanks
+B 1 B statement
+inspecting assembly shows sequential access B faster sum becomes vectorized using raw B multi_array
+prevents class directly B one B class
+nature output B makes suitable huffman compression B method entirely
+enhanced er modelling B inheriting 1 B called multiple inherited
+B selective actually writes writes new functionality especially light B promises nothing
+understanding B always smaller complex B
+B perform slower B system
+B efficient B. general use B
+B orthogonal B could ever dream
+B works better show simply removing hidden class via B take approach
+result B better B 0.0070000 milliseconds course 2 million 200 000 iterations
+eta answer general let say number subjects levels set advance increasing number B complicated unless mistaken would longer two-dimensional B
+also B better approach B explicitly reset round trip
+B would better B
+uses B however B better solution B queue new one previous one complete
+also B often better replaced B
+group 1 B value actually 2 however need B indexed lower B value index position
+also need take account user inputs value higher B year data also B
+set B stack size lower B stack size may 4 kb goroutines
+edit checked performance B slower using .all B
+using B potentially slightly order milliseconds slower using B directly
+default browsers add B body causing body actually take 100 B 100 plus whatever B
+may ommited B lower available - thus negative B may work
+gives make B transparent still plot smaller B width set saved file
+another B needs memory hard implement B sort
+cleanup even normal would regard use B clearer 0 constructs among things target labels practically cry look far moreso B 0 constructs
+B uses datagrams chunks data received whole side unless size bigger B different story
+B time complexity typically worst 2 avoided switch B since B always slower B used avoid 2
+nonatomic properties use locks direct B faster skips B call
+see optimised B faster B 2 operations however uses stack space
+... B consider better practice B trough regular
+really B would probably clearer B reflection
+B header takes actually time B body thus profiling results could distorted.
+found simple condition using B better B
+B natural B
+based created B 22 slower B general
+expensive B taking time due dynamic casting overhead inside B
+B makes sense situation B without initialization
+rewriting B B nicer makes likely get infinite B
+think performance using single B faster right 3 linqs eventually converted 3 B
+multiprocessed B slower B
+max_size must big enough B slower lapply want little B possible big extension overhead make program slower
+using B simpler use condition limit breaking B
+fixed B generates columns specified B instead adding scroll
+example instance exprbinopB child instance exprbinopmul although precedence B higher precedence B results proper consideration parentheses
+however B faster Bing even though clock cycles used B verses B according particular cpu datasheet says instructions used
+-match operation removes lines start sha1 hash -replace operation collapses adjacent B single B convertfrom-csv create empty fields 1 B row
+using wrong B since text file may contain one B character tokens
+changing chmod maybe even working B better dealing root-access using B
+B trickier stack store nodes visit nodes process always simply related like B
+seems B configurable B also complicated
+posting example showing implement approach applied B bit involved B
+side-effect implementing proper parent traversal B bit slower B parsing
+e. input meaning end execution check whether value greater B B
+B greater B B lower B input valid
+also make B always equal B
+note sliders render B greater B
+B value larger B value B value gets reset value 100 larger B value
+get B time stamp status 1 get B timestamp status 0 B timestamp status 0 greater B timestamp status 1 include result set
+since equally distributing B number occurences B + 1
+return badrequest B value cannot greater B value
+B B simply get index first element greater B last element smaller B Bheap
+maybe make B lower B first
+urbg B returns smallest urbg result_type operator could return strictly B
+answer control still want iteration pass B B values ever seen subtree reset B B based current node value make right greater B left B
+element larger B update B lower B update B
+parameter B equal B
+believe works general provided B B
+mt_rand B 2 smaller B 11
+throw new wrongelementvalueexception B must greater B
+number greater B update B number number B update B
+going revert original implementation resetting B Bimum user selects B higher B versa
+finding B B traverse entire array checking greater lesser B B variables
+need consider trivial gridpoints outside polygon x-coordinates higher smaller B B x-coordinates polygon y-coordinates higher smaller B B y-coordiantes polygon
+conditional test B typically expensive B especially sum frequently exceed mod
+B occur significantly faster B memcpy free
+generally use interfaces enforce common behavior group share whereas B appropriately used achieve serious re-use B functions properties
+using fgets B faster multiple calls B putc need buffer little buffer store current line
+B module efficient formats facilitate creation smaller bundle size B technique importing bits need instead importing whole thing
+seems idea B declarative B pure
+B operator higher precedence B
+ps radix B usually faster compact B suffers side effects B comparing hash tables though significant course
+suffix B dummy nodes suffix B
+recursive usually used traversal binary search B B similar B 2 character alphabet
+suffix B advanced B also search substrings B
+B take longer B
+B 20 faster B
+B convenient B programming
+always taught B slower B real proof thisâ anyone got opinion start benchmarking running test
+performance side float B faster B think gui create significant difference
+similar pmg solution still faster B faster B -
+B considerably slower clocks plus clock per function argument B function arguments passed registers instead stack
+edit B slim version - basically wait B typically longer B appropriate use busy spinning
+want smooth B B animations instead setting visibility B slower B animation used enteractions exitaction datatrigger
+restructuring database add B field better one really going properly could use currant B field store B person posted
+attacks involve generating B common passwords reasonably complicated passwords becomes harder especially B use usernames B use randomly generated numbers
+however using B offers protection rainbow tables precalculated B tables still worth using
+found using simple for-loop iterating string comparing using B performs faster B regex
+B complexity higher B thus validate unit-test
+calculation expensive B executed often B changeable properties playername far optimization change property inside class read-write property set value every time changeable properties changed
+B better github support box B several git packages
+also throwing B makes sense instead B string blank empty null values
+use either create new memory separate original naturally B simpler since require separate B strlen call
+indeed system B willing write implementation B cleaner B + strcpy
+B use select instead epoll compile --with-select_module bet still efficient B
+B friendly configuration wise htaccess htpasswd rewrite rules B fast regard static assets
+B hello greater 3 last B argument
+note diffseconds cause overflow B becomes larger int32.maxvalue error B function resulted overflow
+B Bs expressive B means capture complex relations instance also represent link sets things Bs subclassof use transitive properties hasancestor
+B advanced B
+B also secure B sticking information url
+appears common mis-conception B secure B simply seems obvious B browser manipulate B variable
+another B outlines details B master-master replication subversion
+first instagram client sandbox mode B 20 B clearly last 20 B
+able query database B result want want iterate author objects ones one B
+plugin defaults requiring B request logout using config setting reference make application convenient use secure allowing B B requests
+B secure B http protocol
+using B data secure B B details would query string portion url
+B one character B doubt performance difference
+hacker point view B forgery easier B forgery first B link second need point malware website hidden iframe autosubmit forms fail tokens checked
+B better formatting specific B
+help coding side passing non-url input B method would appropriate B
+B request safer B mean invulnerable
+stick B action B data avoid xss-issues
+expected performance got better B 2 faster B 4.2 profiled papi found total number miBs mainly l1 l2 increased
+B used sort methods rather supernaturally fast complex algorithm B matters working like - need works pretty well simple go B
+keyword B telling compiler symbol present one object file without violating one definition rule actual B compiler decide
+allows use assignment operator instead B requires 1 call B - one make
+starters B longer actively maintained author even recommends alternatives B
+stores pointers heap B worse B
+size B element type greater pointer size B performs better B store objects sequentially stores sequentially pointers heap copies
+two consumes memory defined depends input sequence sorted well algorithm tuning parameters see comments one answers B popular B
+using B values realistic - need B values rotate new coordinates nearly always non integral
+wanted add using strrpos + B slightly faster B + end
+intutively appears explain variance go B two B distribution
+support tokenizing lemmatizing B ideas span one B
+line split array strings using .split method however splits white space B meaning cities names longer one B work
+high speeds amazon s3 recommended request rate performance considerations making 300 B delete requests per second 800 B requests per second particular bucket
+B rate slower B rate see backing
+side note using B efficient using B B would go
+reject null hypothesis B faster B thus experiment got errors
+originally using B easier B use ran parse entire string first number string
+know B faster B
+keep mind though B larger B depending might prefer B avoid 65k methods limitation
+large objects google B performs faster B simple json
+found B little faster B used default serialization far need customize serialization
+B parameters pass mybatis call point missing parameter B pl sql numeric value error error since following paramters type order passing
+B known slower B consume memory using plain table model anyways try B
+malloc B pair better B need keep around original memory
+B quicker B need unique
+1 comparison via B check hashcode objects faster B
+longer B gets iterations B need
+want use B json B 3 entries request data short time takes long time till B goes every entry
+next use 3rd 4th 5th level B means B statement assign
+traditional B handy iterating B
+fixed adding B return statement fixes B written continue B length B contains length one 0 also pop
+normal B far better B using for-in actually object
+opinion B usually better specific number iterating every item B foreach usually straightforward
+completely failed check assertion jumped analysis enhanced B faster B lists
+looping B better use regular B
+suggests another aspect declared B pair B methods static type checking although undesirable
+B faster B
+passing value may B actually passing -- value passed basically little nothing B object
+multiplication B operators higher precedence B subtraction scientific notation
+start need multiplication B take higher precedence B subtraction
+general nicer caller allocate memory callee - hence B nicer function opinion B
+B recommended B protect buffer overflow
+B safer B trades one type bugs another
+according mdn B logical-and higher precidence B suggesting condition evaluated single statement moves determine boolean condition false ||
+B restrictive B private restrictive B
+math.floor B method marginally faster B mod
+want check number B max B would likely want check higher B lower max
+take account lazy mappings disabled may useful evaluate need B fetchtype.eager fetchmode.subselect 1 B needed initialized
+analogous compute B using successive squaring faster repeated B
+also note using B input makes far sense B otherwise previous value evaluated next event occurrence
+right events B B since value yet field moment change
+found using inside B hassel worth always need output using B B.registerclientscriptblock
+B takes time process set asyncpostbacktimeout property B
+besides B api easier use B
+considering B complicated summation median B cost longer time
+hand may want stable B contexts well stable_sort function defined approach would still straightforward B numbers sign recombining
+also want boxes wrap page small fit one line need add white-space nowrap B make width B wider two B
+B smaller height B floats bring top whereas inline-block screw sometimes
+since B home start stacking context one level higher B home li never inside
+say B always bigger B write
+result getting also valid heap - B bigger B
+pushing popping item heap simply updates node B larger B max heap
+need change siftdown function B always smaller B
+B establishes stacking context B higher z-index B cover B fine
+zoom google chrome zoom levels cause B larger B element
+allow B either side node contain keys neither greater B
+heap property B node greater child nodes 2i + 1 2i + 2 using zero-based arrays holds nodes B
+B node smaller value B
+know react make B element reactid accept certain B
+issue player small B combine width greater B width
+node two B left child smaller value B right child bigger value
+would go creating formula traverse data tree stored one dimensional array root k B child one child B
+child one B B 2 B
+B one B order use recursive B nicely need group results id see distinct entries
+B one depth B B path starts B path
+B 100 B
+could similar using score values sorted sets giving B score lower B
+would think could simply increment element z-index two work due B cannot higher z-index B B z-index set
+1 node stop local min smaller B ii smaller B precondition deciding check node
+issue could try sd stream diff require sorting like B process substitution like examples orders magnitude faster B -f supports infinite streams
+therefore B number could greater B B 3 10 + 2 10 + 2 10 7 10
+B version complex dangerous B version
+B always faster B real world situation even corner spoke look page_copy_fwd_maybe

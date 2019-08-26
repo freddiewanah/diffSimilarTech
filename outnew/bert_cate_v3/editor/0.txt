@@ -1,0 +1,30 @@
+macvim * is much thicker whereas * is slicker and sophisticated
+
+textmate isn t known to perform well on large files but * supposedly performs better than * on large files and yet supports legacy textmate syntax parsers
+
+* is a better * for macs though that won t help you with solaris
+
+* is more powerful than * it s scripting engine is far more flexible and there are far more scripts modes and the likes built around *
+
+maybe not productive in the same way - i d say * is quicker for editing files * is better at doing everything else again i would personally say things like flymake-mode vcs bindings are such are quicker to use than the * equivalent
+
+i am starting to understand that even though * is more powerful than * * is at least 10 times easier to use less keystrokes and requires way less modifications
+
+and i tend to think that after a moderate amount of customisation of either one * will still start up faster than *
+
+you might want to try * - it has an inbuilt tutorial and some people like me find it easier over * no flames pls
+
+i have tried with * 2 and it work very very good better than * p
+
+* 3 needs much more time several seconds more then * before the opened file shows up and i suppose it is because * does some pre-evaluation of the file content like detecting areas suitable for folding there are fold triangles available depending on indentation of non-white characters in the file
+
+* which is often recommended are even more broken than * 2 which i find to be pretty good actually
+
+i tried a few ides on ubuntu and it just didn t seem right - * is lightweight and i actually enjoy using it more than * on os x
+
+when i m in a hurry i use * purely because it is quicker than * edit
+
+by the way if you like minimalistic approach there is also * editor which is my personal preference for doing small bits of code it s even more lightweight than *
+
+i know * does that but * is a more complete tool than * so i cant switch to that
+

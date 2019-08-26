@@ -1,0 +1,36 @@
+30243
+textmate	gedit
+for very simple linux support if you like textmate try just gedit loaded with the right plugins
+
+30243
+emacs	gedit	emacs	textmate
+easy to set up and really customizable i use it for just about everything
+there s also a lot of talk about emacs plugins if you re already using that normally
+gedit how to set up like textmate
+
+30273
+getdate	dateadd
+the most readable imo which gets now s datetime getdate #8 27 2008 10 23am# converts to a string with format 101 convert varchar #8 27 2008 10 23am# 101 8 27 2007 converts to a datetime convert datetime 8 27 2007 #8 27 2008 12 00am# subtracts 1 year dateadd yy -1 #8 27 2008 12 00am# #8 27 2007 12 00am# there s variants with datediff and dateadd to get you midnight of today but they tend to be rather obtuse though slightly better on performance - not that you d notice compared to the reads required to fetch the data
+
+30471
+getdate	strtotime
+you can avoid having to use strtotime or getdate in php by using mysql s unix_timestamp function
+
+30490
+post	get
+users can post questions comments and feedback about and application and get answers to their questions either from other members or from members of the development team themselves
+
+30598
+implements	extends
+the controller does not care what type of object it is by contrast i can also create an object that does not extends from account say a user abstract class and still implements listable and editable but not versionable which doesn t make sense here
+
+30598
+subclass	abstract-class	implements	extends
+in this way i am saying that foouser subclass is not an account but does act like an editable object
+likewise baraccount extends from account but is not a user subclass but implements editable listable and also versionable
+adding all of these apis for editable listable and versionable into the abstract-class itself would not only be cluttered and ugly but would either duplicate the common interfaces in account and user or force my user object to implement versionable probably just to throw an exception
+
+30620
+ubuntu	linux
+i use windows at work and windows linux ubuntu osx at home
+

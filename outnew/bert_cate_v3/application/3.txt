@@ -1,0 +1,8 @@
+if you would like a unified front-end for * and opentsdb you could consider grafana which has support for both * and opentsdb but less functionality than * in regard to *
+
+why * is better than *
+
+i understand * is more of a * clone but retrospectiva seem to support agile methodologies via a nice plugin
+
+* handles multiple projects and sub-projects right out of the box and overall seems nicer than *
+

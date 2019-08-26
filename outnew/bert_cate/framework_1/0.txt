@@ -1,0 +1,102 @@
+why do people say B is somewhat harder than B for people new to mvc
+
+why do people say B is somewhat harder than B for people new to mvc
+
+like bruz says B is probably more freeform at the data layer than B
+
+B makes use of bindings better than B currently does
+
+with B it is even easier since you just need to bind a property on your B to selecteditem
+
+how can i connect a method and not a command with a binding from the B to an attached event to ask in a more general way with B micro
+
+so latest B 2.0 is better than B according to this benchmarks
+
+so latest B 2.0 is better than B according to this benchmarks
+
+B is not better than B express the big thing that differs is the structure of it
+
+B is much friendlier to this paradigm than B though
+
+B is much friendlier to this paradigm than B though
+
+B is more low-level comparing with B
+
+B has a templating language of it s own it looks easier than B s
+
+B is more low-level comparing with B
+
+B has a templating language of it s own it looks easier than B s
+
+building restful services with B is much simpler than with B in my experience
+
+i read that B for beginner is better than B because educational reasons at the same time B have B oscar
+
+i read that B for beginner is better than B because educational reasons at the same time B have B oscar
+
+B is clearly more bdd focused than B although i could see doing bdd with B by describing the tests in a behavior-oriented way
+
+B is clearly more bdd focused than B although i could see doing bdd with B by describing the tests in a behavior-oriented way
+
+i should also say that i have the token at ctx.request.get authorization B based i think it s something like req.header authorization with B in all routes
+
+it shows that B is faster then other framework but as this question is about B and restify B is faster than restify
+
+i should also say that i have the token at ctx.request.get authorization B based i think it s something like req.header authorization with B in all routes
+
+it shows that B is faster then other framework but as this question is about B and restify B is faster than restify
+
+i am using B 2 and i see more than one B method that takes an idictionary as a parameter for the html attributes
+
+i am using B 2 and i see more than one B method that takes an idictionary as a parameter for the html attributes
+
+i like B but the amount of gpu memory B use is larger than B i test in resnet-50 with B-memonger
+
+i like B but the amount of gpu memory B use is larger than B i test in resnet-50 with B-memonger
+
+i use B and B together but the language syntax of B makes more sense is semantic as B when testing for request expectations
+
+i use B and B together but the language syntax of B makes more sense is semantic as B when testing for request expectations
+
+anyway the most important issue is that B is easier than B pylons php and rails
+
+B has more focus on simple is better than complex but B has more focus on explicit is better than implicit
+
+having said that B has a lower initial learning curve than B as it was specifically designed as a learning tool
+
+anyway the most important issue is that B is easier than B pylons php and rails
+
+B has more focus on simple is better than complex but B has more focus on explicit is better than implicit
+
+having said that B has a lower initial learning curve than B as it was specifically designed as a learning tool
+
+B has better support for parameterized tests than B
+
+for example B offers more assert methods than B
+
+B has better support for parameterized tests than B
+
+for example B offers more assert methods than B
+
+also B has little bit better benchmarks than B
+
+also B has little bit better benchmarks than B
+
+B seems to have an overall nicer syntax than B like the strongly-typed way the former deals with passing parameters to a constructor of a faked class
+
+B seems to have an overall nicer syntax than B like the strongly-typed way the former deals with passing parameters to a constructor of a faked class
+
+for the record B as of today supports more complex scenarios than B that s why the initial learning curve is steeper
+
+for the record B as of today supports more complex scenarios than B that s why the initial learning curve is steeper
+
+in B when is it appropriate to render your game content using more than one B
+
+B + monogame --- monogame s performance seems only slightly lower than B can build to most platforms
+
+B + monogame --- monogame s performance seems only slightly lower than B can build to most platforms
+
+also take a look at B as this has lower overhead than B and works with B forms
+
+also take a look at B as this has lower overhead than B and works with B forms
+

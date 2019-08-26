@@ -1,0 +1,62 @@
+29319
+put	get
+if you put .tostring to a var query variable you get the sql
+
+29326
+put	get
+with binaries most other image formats the best you can get is a version history
+we too just put the binaries in source control
+we use git but it would apply just as well to subversion
+
+29358
+ati	nvidia
+for something that s not crazy expensive go with either a nvidia geforce 8000 series card or an ati 3000 series card
+
+29521
+int	chars
+or you can convert the int to its chars value
+
+29524
+put	get
+on the other hand it s possible to log arbitrary exceptions and if they get put in the stream as well my point stands. it would be much easier to customise the log4j network adapter and replace the raw serialization with some more easily-deserialized form for example you could use xstream to turn the object into an xml representation
+
+29545
+put	get
+once you get the count to 0 via the attribute you then put in a rule that new checkins may not introduce fxcop violations
+
+29557
+mbunit	mstest	mbunit	nunit	nunit	mstest
+i ve read time and time again that tdd test first is more difficult with mstest than it is with other testing frameworks such as nunit mbunit etc.
+
+29568
+mbunit	mstest
+also lack of rowtest facilities in mstest
+i suggest just running mbunit as a dependency inside the build process its easy enough to just float it with your bin and reference no installation required
+
+
+29622
+put	get
+you also have to get your game rated by the esrb which will put you back another 2500
+
+29640
+swt	swing
+it allows you to design user interfaces for swing swt and even the google web toolkit gwt
+
+29680
+pop-up	dialog
+whenever the user provides invalid credentials the ntlm dialog box pop-up in internet explorer
+
+29694
+integer	unsigned
+trying to make a mysql-based application support ms sql i ran into the following issue i keep mysql s auto_increment as unsigned integer fields of various sizes in order to make use of the full range as i know there will never be negative values
+
+29748
+nginx	lighttpd
+this server can be for instance lighttpd lighty nginx enginex or some other light-weight server then for django you can go down different paths
+
+29748
+apache	lighttpd
+what you do is that you start your django fastcgi server in a separate process and then configures apache via rewrites to call this process when needed
+or you can serve django without using apache but with another server that supports fastcgi natively the documentation mentions that you can do this if you don t have any apache specific needs
+i guess the reason must be to save memory. lighttpd this is the server that runs youtube
+

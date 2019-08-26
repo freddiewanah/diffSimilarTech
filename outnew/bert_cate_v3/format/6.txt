@@ -1,0 +1,12 @@
+i have a sample wpf app here and wondering why * is loading faster than *
+
+there s a post on the subject on the birt world blog here specifically relating to xls emitters although the tribix emitters mentioned should also enable output to * a microsoft format readable by word that is much more concise than *
+
+question iâ m seeing some compromise in * quality my converted * is lower file size when compared to * but my audio quality is little poor than * wonder if i can increase the quality of the * file
+
+for using a fileformat i thought * uses much less memory than * because all the formats are based on * but just compressed
+
+if you are still having problems jdk 8 has the ability to play * files which are significantly smaller than * you may want to try this
+
+paul points out that * compresses static line art better than * for nearly every situation
+

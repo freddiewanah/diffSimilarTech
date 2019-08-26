@@ -1,0 +1,22 @@
+T execution speed are slower than T true but once there is need for more speed you can call in compiled stuff through gems or micro services
+then c which is one those languages closer to the processor level is very performant and generally speaking T because they turn your code into assembly language are more performant than T
+fac is ha  like php are always slower han a 
+ execuion speed are slower han  rue bu once here is need for more speed you can call in compiled suff hrough gems or micro services
+ end o be bu no always are significanly slower han 
+mosly  are a bi slower compared wih  bu i guess he difference is almos negligible in coffeescrip javascrip because of node.js
+pyhon is an  so by definiion is slower han oher  bu he drawback in he execuion speed is no even noiceable in mos of applicaions
+ha being said a  like c will almos always be faser han an  like javascrip
+his makes  generally slower han  due o he overhead of running he vm or inerpreer
+ are inherenly less performan han  - c will generally ouperform pyhon - some operaions more han ohers
+my guess is ha in  he efficiency benefi in using swich saemens is indeed smaller han in 
+C execution speed are slower than B true but once there is need for more speed you can call in compiled stuff through gems or micro services
+then c which is one those languages closer to the processor level is very performant and generally speaking B because they turn your code into assembly language are more performant than C
+this is usually seen in dynamic C but is less common in B
+a B will generally run faster than an C so i think ruby and php start behind the eight ball but it really comes down to how you use the language and how you structure the code
+an C will typically run one to two orders of magnitude slower than a B
+C tend to be but not always are significantly slower than B
+C execution speed are slower than B true but once there is need for more speed you can call in compiled stuff through gems or micro services
+this is a good question but should be formulated a little different in my opinion for example why are C slower than B
+an C will typically run one to two orders of magnitude slower than a B
+an C will typically run one to two orders of magnitude slower than a B
+C tend to be but not always are significantly slower than B

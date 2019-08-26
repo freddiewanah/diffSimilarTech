@@ -1,0 +1,78 @@
+technically B has a better time-behavior î nlogn worst and average cases than B î n 2 worst case î nlogn average case
+
+B is slightly slower than B but it does not have B s susceptibility to pathological cases
+
+B is approximately 40 faster than B on random data because of fewer data movements
+
+when comparison function is a callback function like in B libc implementation B is slower than B by 15 on random input and 30 for already sorted array for 64 bit integers
+
+depending on where i look people say B is faster than B due to its locality of reference cache hits etc
+
+normally B is faster than B which is faster than heapsort
+
+technically B has a better time-behavior î nlogn worst and average cases than B î n 2 worst case î nlogn average case
+
+B is slightly slower than B but it does not have B s susceptibility to pathological cases
+
+B is approximately 40 faster than B on random data because of fewer data movements
+
+when comparison function is a callback function like in B libc implementation B is slower than B by 15 on random input and 30 for already sorted array for 64 bit integers
+
+depending on where i look people say B is faster than B due to its locality of reference cache hits etc
+
+normally B is faster than B which is faster than heapsort
+
+a B signature generation could be somewhat faster than a B signature generation maybe up to twice faster
+
+B signatures are signficantly shorter than B ones
+
+however B verification expect verification calls to be 100x issue is about 10x slower than B verification
+
+but B is assumed to be on average somewhat slower than standard B quicksort
+
+but B is assumed to be on average somewhat slower than standard B quicksort
+
+the non-B B behaviour is more a reflection on the quality of the rand B â it is often not very good
+
+normally quicksort is faster than B which is faster than B
+
+typically B is slower than B and quicksort but that s usually under the assumption that comparisons are fast
+
+normally quicksort is faster than B which is faster than B
+
+typically B is slower than B and quicksort but that s usually under the assumption that comparisons are fast
+
+turns out this was a hardware failure the B commands need more power than the B crypto1 ones 50 more which the antenna failed to deliver at the reading range i was testing with
+
+turns out this was a hardware failure the B commands need more power than the B crypto1 ones 50 more which the antenna failed to deliver at the reading range i was testing with
+
+the capturing group 1 in the first pattern is B it first matches everything and takes as less as it B
+
+the capturing group 1 in the first pattern is B it first matches everything and takes as less as it B
+
+worst case for B is actually worse than B and mergesort but B is faster on average
+
+in theory insertion sort and B are worse than B
+
+for 5 000 000 ints still stored in memory B becomes suddenly worse then B and mergesort
+
+what makes B faster than B in practice is its constant that was ignored by big o analysis
+
+worst case for B is actually worse than B and mergesort but B is faster on average
+
+in theory insertion sort and B are worse than B
+
+for 5 000 000 ints still stored in memory B becomes suddenly worse then B and mergesort
+
+what makes B faster than B in practice is its constant that was ignored by big o analysis
+
+if it is true then B will always take less comparison than B because on real life data there is some pattern except data is truly random
+
+you can take a look at B which for non completely random data performs better than B they have the same asymptotic complexity but B has lower constants
+
+java s array .sort is from about java 6 actually B the fastest general purpose #sort out there much better than B in many situations
+
+no practically B is faster than B s for all pair shortest path generally
+
+no practically B is faster than B s for all pair shortest path generally
+

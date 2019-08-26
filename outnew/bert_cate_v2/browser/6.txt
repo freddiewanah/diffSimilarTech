@@ -1,0 +1,50 @@
+on my computer B performs much better than B on these tests using jsperf
+
+what s up with B that the debugger behaves less conveniently than B
+
+i suspect that this may be the case because ie and B need to know about the content of the div earlier than B
+
+B is clearly less secured it deliberately allows something that B locks down
+
+as you can see ie 8 is about 5 times slower than B 3.6 and almost 20 times slower than B 9 at least when using sunspider tests
+
+the logs only seem to work with a B browser which is a laugh as usually B is better at running google apps than B
+
+i have been trying to do this in B webextensions but if it s easier with B i will try it that way instead.
+
+i guess B is smarter about me being careless than B is
+
+found that the issue stemmed from using the B webdriver which apparently has much higher security than its B counterpart
+
+i found programming B extensions easier than B but i couldn t come across something similar to xpcom in B
+
+B can get away with more than B before aborting
+
+font-face bold in B is bolder than in B
+
+here is a simple performance test showing that in B filling is faster than clearing i am not sure what goes on with B and canvas nowadays but in B clearing is many times faster than filling both significantly faster than B
+
+why height in B is bigger than B of input
+
+i ve tested the sample on B and it s a bit slower than B but usable
+
+rendering without buffering on B is faster than B so i m actually not sure why B is having such a problem with drawimage
+
+the problem with this code is that it doesn t quite work on B and works even worse on B
+
+B just provides far more access to its own internals and system to the extensions so its technically possible to do more with them than with B widgets or google-chrome extensions
+
+but if firebug donâ t enabled after launch B â time equal 2ms that faster than B and google-chrome and difference between empty filled array disappears
+
+only B and B seem to have this issue B even worse than B but i don t care that much about B
+
+B also uses an earlier version of webkit than the current B so pages should be checked in both browsers
+
+B will display fonts without a specified size significantly smaller than in B
+
+the one used by B and is slower than mobile B s nitro javascript engine
+
+works in google-chrome firefox a bit weirdish blur effect on hover B ends look smaller B ends look smaller
+
+B is just better for web development and i prefer B overall
+

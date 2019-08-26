@@ -1,0 +1,180 @@
+B won t allow you to do absolutely everything that B does but it will allow you to do almost everything and the code will be probably more robust considering that B is more modern language with stronger typing than B
+
+also note that i use B more than B
+
+early this month i started learning B as i found it fun and easier than B
+
+bottom line i would personally hesitate to draw any simple conclusions of B is faster than B or vice versa
+
+B is clearer on versions releases and i keep asking myself if i am missing something related to B since i can t find this information
+
+the B designers went through a lot of trouble to make sure that it s more than just B without the constraints of c in fact i almost wish they hadn t said that since it s so often misquoted
+
+i m learning B and much less familiar with B but for the life of me i can t figure out how they are trying to achieve the goal stated as build list of encodings sorted and including only those with human readable names.
+
+personally i prefer B because you can use c very easily as anything that is legal in c is also legal in B added to which B is a more procedural in style where B is quite clearly object orientated
+
+B seems to be less dynamic than B in these stuffs
+
+B in that case would not be safer but less safe than B
+
+it seems to me that B would be way simpler to learn then B for beginners i know because i learned it in like 2 months and B is less complicated and better laid out then B
+
+i use B more than B
+
+while i think the move to B is prudent but i think it overstates the case to argue that B is significantly more secure that B
+
+no objects come magically into existence in B any more than in B
+
+after reading some related articles i don t think B is more effective than B
+
+however i read that B was the successor of B and i would feel more comfortable with B syntax
+
+im new to B but i like it more than B as it looks a bit like java does to me from syntax wise compared to B
+
+i feel B is better than B in many aspects but my major question is - will B dynamic libraries support older version of B
+
+i don t think that as of today you can run these tests and determine with any certainty whether B 1.0 is faster or slower than B
+
+one of the reasons we want to move is because B is more secure than B
+
+i also use B more than B but here s what my guess is as to what the B code would come to
+
+you will notice that B bundles are always about 4-5 mb larger than their B counterparts and this is precisely why
+
+so i ve started learning B because it looks way better than B
+
+apple seems to claim that the optional type in B is safer than nil in B but i don t understand why this is so
+
+on the other hand B is easier to learn especially if you have B background so it can be adopted during the time slowly and paralelly with using B
+
+B won t allow you to do absolutely everything that B does but it will allow you to do almost everything and the code will be probably more robust considering that B is more modern language with stronger typing than B
+
+also note that i use B more than B
+
+early this month i started learning B as i found it fun and easier than B
+
+bottom line i would personally hesitate to draw any simple conclusions of B is faster than B or vice versa
+
+B is clearer on versions releases and i keep asking myself if i am missing something related to B since i can t find this information
+
+the B designers went through a lot of trouble to make sure that it s more than just B without the constraints of c in fact i almost wish they hadn t said that since it s so often misquoted
+
+i m learning B and much less familiar with B but for the life of me i can t figure out how they are trying to achieve the goal stated as build list of encodings sorted and including only those with human readable names.
+
+personally i prefer B because you can use c very easily as anything that is legal in c is also legal in B added to which B is a more procedural in style where B is quite clearly object orientated
+
+B seems to be less dynamic than B in these stuffs
+
+B in that case would not be safer but less safe than B
+
+it seems to me that B would be way simpler to learn then B for beginners i know because i learned it in like 2 months and B is less complicated and better laid out then B
+
+i use B more than B
+
+while i think the move to B is prudent but i think it overstates the case to argue that B is significantly more secure that B
+
+no objects come magically into existence in B any more than in B
+
+after reading some related articles i don t think B is more effective than B
+
+however i read that B was the successor of B and i would feel more comfortable with B syntax
+
+im new to B but i like it more than B as it looks a bit like java does to me from syntax wise compared to B
+
+i feel B is better than B in many aspects but my major question is - will B dynamic libraries support older version of B
+
+i don t think that as of today you can run these tests and determine with any certainty whether B 1.0 is faster or slower than B
+
+one of the reasons we want to move is because B is more secure than B
+
+i also use B more than B but here s what my guess is as to what the B code would come to
+
+you will notice that B bundles are always about 4-5 mb larger than their B counterparts and this is precisely why
+
+so i ve started learning B because it looks way better than B
+
+apple seems to claim that the optional type in B is safer than nil in B but i don t understand why this is so
+
+on the other hand B is easier to learn especially if you have B background so it can be adopted during the time slowly and paralelly with using B
+
+B being a whole lot less than B
+
+B being a whole lot less than B
+
+my usual rule-of-thumb is that B is better than B for simple tasks whereas B is better for complex tasks
+
+i hate to answer a request for a solution in language a by suggesting a solution in language b but what you are doing here falls into the class of problems which B handles much better than B
+
+my usual rule-of-thumb is that B is better than B for simple tasks whereas B is better for complex tasks
+
+i hate to answer a request for a solution in language a by suggesting a solution in language b but what you are doing here falls into the class of problems which B handles much better than B
+
+i would suggest you start with B and more specifically with B formerly plt B
+
+i would suggest you start with B and more specifically with B formerly plt B
+
+what s the deal i thought B would be nicer than B
+
+B is quicker than B but for what you re going to do you re trading speed for convenience - B comes with all the different ui classes list scrollbars etc already there
+
+what s the deal i thought B would be nicer than B
+
+B is quicker than B but for what you re going to do you re trading speed for convenience - B comes with all the different ui classes list scrollbars etc already there
+
+B does not provide an alternative and any alternative that was provided would likely be less reliable as B does not have the resources that sun oracle ibm etc
+
+B does not provide an alternative and any alternative that was provided would likely be less reliable as B does not have the resources that sun oracle ibm etc
+
+i don t see why sbcl should be so fast - B is a far simpler language than common B
+
+for a counterexample i think B programs ran faster and used less memory than the B programs that preceded them mdash
+
+i don t see why sbcl should be so fast - B is a far simpler language than common B
+
+for a counterexample i think B programs ran faster and used less memory than the B programs that preceded them mdash
+
+i am not sure it can satisfy you but B test is 4 times slower than B
+
+i am not sure it can satisfy you but B test is 4 times slower than B
+
+the reason i wanted to investigate this was because both c and B were significantly faster than B for this program
+
+as others have pointed out B s learning curve will be lower than B s
+
+the reason i wanted to investigate this was because both c and B were significantly faster than B for this program
+
+as others have pointed out B s learning curve will be lower than B s
+
+however i ve noticed that running the B tools is becoming more and more painful over time so i m looking at the possibility of migrating this code to B 2008
+
+yes they are different but you can hardly say that the B version is less capable than the B version
+
+if you don t already know B there s little point in learning it now - your time could be put to much better use by learning B c#
+
+especially as B is becoming more and more of a distant memory and the B language takes on a life of its own in conjunction with the core .net framework advancing
+
+however i ve noticed that running the B tools is becoming more and more painful over time so i m looking at the possibility of migrating this code to B 2008
+
+yes they are different but you can hardly say that the B version is less capable than the B version
+
+if you don t already know B there s little point in learning it now - your time could be put to much better use by learning B c#
+
+especially as B is becoming more and more of a distant memory and the B language takes on a life of its own in conjunction with the core .net framework advancing
+
+B methods tend to be more fine-grained than B functions so that may be a good place to begin
+
+B methods tend to be more fine-grained than B functions so that may be a good place to begin
+
+recently we noticed that B queries run faster than B so we decided to convert our queries
+
+B seems much more clear to me than B and in general it seems that the guys in neo4j are going with B
+
+recently we noticed that B queries run faster than B so we decided to convert our queries
+
+B seems much more clear to me than B and in general it seems that the guys in neo4j are going with B
+
+i know that B performs better for some regex but will the B performance really be this bad in comparison
+
+i know that B performs better for some regex but will the B performance really be this bad in comparison
+

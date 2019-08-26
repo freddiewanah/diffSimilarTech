@@ -3,7 +3,7 @@ This stript is used to test POS Tagger and Dependency Parser of CoreNLP.
 """
 
 from nltk import pos_tag
-from nltk.tag.stanford import CoreNLPPOSTagger
+from nltk.parse import CoreNLPParser
 from nltk.parse.corenlp import CoreNLPDependencyParser
 import spacy
 from spacy.matcher import Matcher
@@ -90,14 +90,14 @@ nlp = spacy.load('en')
 matcher = Matcher(nlp.vocab)
 add_patterns(matcher)
 
-tech_pair = ["sortedlist", "sorteddictionary"]
+tech_pair = ["python", "java"]
 tags = []
 line = input(">>>")
 while(line != "/"):
     flag = False
     tag_list = []
     words = line.split()
-    tagged_words = CoreNLPPOSTagger(url='http://localhost:9000').tag(words)
+    tagged_words = CoreNLPParser(url='http://localhost:9000', tagtype='pos').tag(words)
     if len(words) != len(tagged_words):
         tagged_words = pos_tag(words)
     for (word, tag) in tagged_words:

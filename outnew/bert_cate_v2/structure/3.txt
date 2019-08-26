@@ -1,0 +1,46 @@
+the scope of the variable in the test of the while B is wider than the scope of variables declared in the header of the B
+
+but the the foreach B takes more time than a the B
+
+but certainly wrong syntax in the B is there better way to code it so that after B i can get
+
+that is because that style of B is a better fit for what you are doing than the B you used earlier
+
+a while B makes more sense in this situation or a B without initialization
+
+you should use a B which is more convenient to B in an arrays
+
+a B is faster than a foreach B
+
+as for your question a B is usually better when you want a piece of code to run a certain number of times and a while B is better when the condition for the code to keep running is more general such as having a boolean flag that is only set to true when a certain condition is met in the code block
+
+foreach or B is somewhat slower than an equivalent while B or tail recursion the benchmark i linked to above shows a 15x performance difference with 1000+ iterations though it will likely depend on the version of scala and the version of the jre...
+
+a while B is more readable than a B
+
+i came across a situation where i need to implement a B with more than one B control variable
+
+this is why a regular B is better to use for this scenario rather than a foreach B
+
+even if the hypothesis of the while B being faster than the B were true and it s not the B you d had to change optimize wouldn t be the outer ones but the inner ones because those are executed more times
+
+says that enhanced for B is 3x faster than the regular B well that great and its easier to write anyways but what if i need the index
+
+which B is a better fit do while or a B
+
+note using apply functions instead of a B is better but it depends on the actual purpose of your B
+
+the while B runs 3000 times faster than the B
+
+recently i ve stumbled upon a parralel.for B that performs way better than a regular B for my purposes
+
+the incrementor in the B is more of a while 1 endless B
+
+putting the whole thing in a B makes it neater and ensures that the iterating isread is called each B
+
+in its implementation foreach executes a closure over every element in the B this is typically more straightforward and transparent alternative to old-fashioned B
+
+looping with a B is nothing more than a basic iteration of an B using a B
+
+because if the first word in B is shorter than second one you need second B
+

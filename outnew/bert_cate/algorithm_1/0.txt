@@ -1,0 +1,96 @@
+B - in general B is consistently faster than B however B is done in place and doesn t require allocating memory unlike B
+
+for example locality of references has influence on cache hits or misses which is the reason why B performs better than B
+
+B is more sensitive to input sortedness in a positive way than B
+
+B is more natural to implement for linked lists but you can do B very nicely
+
+i have been testing the practicality of openmp gnu parallel sort algorithms in the c++ standard library and have found the parallel B algorithm to be significantly slower than the B algorithm
+
+B has better locality of reference than B which means that the accesses performed in B are usually faster than the corresponding accesses in B
+
+B is usually faster than B just because it s easier to code a tight implementation and the operations it does can go faster
+
+when comparing my B implementation with std sort on my compiler and my implementation of B i noticed an odd pattern on large data sets when operating on 64 bit integers B is consistently faster than B
+
+the B algorithm is faster than B which is what sorted will get you when called on a sequence of objects via java.util.arrays.sort
+
+B - in general B is consistently faster than B however B is done in place and doesn t require allocating memory unlike B
+
+for example locality of references has influence on cache hits or misses which is the reason why B performs better than B
+
+B is more sensitive to input sortedness in a positive way than B
+
+B is more natural to implement for linked lists but you can do B very nicely
+
+i have been testing the practicality of openmp gnu parallel sort algorithms in the c++ standard library and have found the parallel B algorithm to be significantly slower than the B algorithm
+
+B has better locality of reference than B which means that the accesses performed in B are usually faster than the corresponding accesses in B
+
+B is usually faster than B just because it s easier to code a tight implementation and the operations it does can go faster
+
+when comparing my B implementation with std sort on my compiler and my implementation of B i noticed an odd pattern on large data sets when operating on 64 bit integers B is consistently faster than B
+
+the B algorithm is faster than B which is what sorted will get you when called on a sequence of objects via java.util.arrays.sort
+
+but a large period B takes up more memory for maintaining the internal state and also takes more time for generating a B number due to complex transitions and post processing
+
+if you use B no extra memory is needed at all though B will be much slower than B
+
+B is usually substantially slower than B on modern hardware and has keys that are far too short for modern use
+
+B can be even much faster than B or 3B when the cpu supports B-ni
+
+this shows that the timings are sensitive to buffering and that B is faster than B
+
+if B is negotiated it s faster than B and 3B used by default by older applications
+
+B is usually substantially slower than B on modern hardware and has keys that are far too short for modern use
+
+B can be even much faster than B or 3B when the cpu supports B-ni
+
+this shows that the timings are sensitive to buffering and that B is faster than B
+
+if B is negotiated it s faster than B and 3B used by default by older applications
+
+B is more difficult to implement B but the out-of-place version is very cache-friendly - i suspect real-world implementations accept the o n space overhead - ram is cheap but memory bandwidth is a major bottleneck so trading memory for cache-efficiency and speed is often a good deal
+
+another reason is that B needs more memory because it s hard to implement it as an B sort
+
+B is more difficult to implement B but the out-of-place version is very cache-friendly - i suspect real-world implementations accept the o n space overhead - ram is cheap but memory bandwidth is a major bottleneck so trading memory for cache-efficiency and speed is often a good deal
+
+another reason is that B needs more memory because it s hard to implement it as an B sort
+
+the reason B is slower in practice than B is due to the better locality of reference in B where data elements are within relatively close storage locations
+
+however B is somewhat slower in practice on most machines than a well-implemented B
+
+B also has a better cache access behavior than B
+
+it is a variant of B which is particularly suitable for the sorting of very large amounts of data if a relatively high cost per compare operation is needed and on average better than B
+
+the reason B is slower in practice than B is due to the better locality of reference in B where data elements are within relatively close storage locations
+
+however B is somewhat slower in practice on most machines than a well-implemented B
+
+B also has a better cache access behavior than B
+
+it is a variant of B which is particularly suitable for the sorting of very large amounts of data if a relatively high cost per compare operation is needed and on average better than B
+
+these formats allow various data compression codecs note that B is now much more popular than B and can also provide other benefits such as fast serializable deserialization column pruning and bundled metadata
+
+B also consistently decompresses 20 + faster than B which is a pretty big win if you want it for files you re reading a lot over hadoop
+
+B is used by python and java for their sort methods and is rather supernaturally fast but it s a more complex algorithm than B which matters if you re working in something like c - so if you just need something that works pretty well and is simple go with B
+
+which of the two consumes more memory is not defined and depends on the input sequence to be sorted as well as on algorithm tuning parameters see the comments to one of the answers to why B is more popular than B
+
+which of the two consumes more memory is not defined and depends on the input sequence to be sorted as well as on algorithm tuning parameters see the comments to one of the answers to why B is more popular than B
+
+B is much faster than B for private key operations so it should definitely be preferred over B when high efficiency is required unless B is still fast enough something that may very well be the case
+
+B is much faster than B for private key operations so it should definitely be preferred over B when high efficiency is required unless B is still fast enough something that may very well be the case
+
+B is probably better though B was developed by google with protobufs in mind so you might want to test both on your data set.
+

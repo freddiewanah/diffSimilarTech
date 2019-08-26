@@ -1,0 +1,78 @@
+this is easy to implement with buttons select items click up or down buttons to * - just loop through and apply the * to each selected item but much more difficult with * reordering
+
+note that i ve incorporated dshin s comment that * is faster than * however the performance improvement is about 90 removing the binary search 10 multiplication vs
+
+but in normal case it takes n 2 comparison so you half the height of tree but you * each merge with two so total running time is not better than * to 2 part
+
+these can be compared to * by 2 x left-shift or divinding by 2 x right-shift but it should be noted that a binary shift is much faster than a * operation
+
+addition * for the rectangular bound calculation is cheaper than *
+
+in * for doing powers of two bitshifting is usually a little clearer than doing * though choose whatever works for you
+
+i must also add that designing the rsa key so that the private * is substantially shorter than the * to speed up operations is a security risk if the * is smaller than 29 of the * length then the key can be cracked
+
+1024 bit private * large number lower than the *
+
+if the * is truly faster than the * then i expect somebody well-versed in byte code could explain why the load_fast for num is faster than the five operations for line 12
+
+* is much harder than *
+
+for example 1 + 2 3 is treated as 1 + 2 3 whereas 1 2 + 3 is treated as 1 2 + 3 since * has a higher precedence than * +
+
+just like it would be possible to come up with arithmetic expressions that could be written with less parentheses if * had a higher precedence than *
+
+* is more expensive than * subtraction and division is more expensive still
+
+on simple low-cost processors typically bitwise operations are substantially faster than division several times faster than * and sometimes significantly faster than *
+
+this line works because of operator precedence * has a higher precedence than * + so it will be done first
+
+* has a higher operator precedence than * so it s done before the two *s when calculating the value for a
+
+also remember * is much more expensive than *
+
+the * are the bottleneck of the calculation even though they may be one instruction a * takes longer than an *
+
+and as you hopefully knows * have higher precedence than * so the expression is equivalent to probably not what was intended by the macro writer
+
+for * the technique described at is a reasonably easy thing to implement and is better than serial *
+
+at the time this was faster because * was a lot faster than * but that s no longer the case
+
+note that the type cast has a higher precedence than * which is in turn higher than * 3 vs
+
+on a cpu with a fast multiplier * may only be on the order of 4 times slower than * but on normal hardware it s 16-32 times slower for a 32 bit operation
+
+functionally a * will always take more time than an * because it combines a true * along with a true *ition step
+
+then i think it would be the problem of precedence in most case they are left-to-right and i think * would be calculated first because in c * is more prior than * instruction by one level
+
+its the * that historically was slower than the *
+
+as of a few years ago * was 3x slower than *
+
+to give * and divide higher precedence than * and subtract you can do something like this example adapted from john levine lex yacc 2 e 1992
+
+note that is equivalent to i 10 but much faster since * is around 10 times slower than *
+
+i don t think they have a natural precedence unlike say multiplication and * being of greater precedence than * and addition because they can be built from * and addition
+
+in this case * has higher precedence than * parenthesis around the * or not
+
+knowing that a * is much more costly than a *
+
+it s just as fast as going the opposite direction if not faster given that * generally takes longer than *
+
+on some machines * is much slower than * but on most machines j multiplies and j divides will run a lot faster than 2 n-2 * and one *
+
+formally it means * cannot have a complexity worse than *
+
+if you think back to grade school you ll recall that * was harder than addition and * was harder than *
+
+even simpler and probably even faster because * is faster than * is dav s answer which is the most natural algorithm.
+
+the only way it would be broken up differently would be if * had a higher precedence than * like multiplication does
+
+multiplication and * are higher precedence than * so they get done first - before the implicit conversion to string for concatenation
+

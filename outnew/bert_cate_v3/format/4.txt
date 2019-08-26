@@ -1,0 +1,38 @@
+google does this because their * api can parse more than *
+
+if a * file is newer than the corresponding * file or the corresponding * file doesn t exist then i want to run a bunch of commands to convert the * file to an * file and copy the tags across
+
+it s possible for * software to make this a lot shorter with * but these calculations are hard and not everybody implements it
+
+if the latter is what you want you could use * which is somewhat easier than the * format
+
+today * is much more popular than * so if you re writing files outside of your own data store * would be a more common choice and you d need to work through nsimagerep to get there
+
+i suspect the computational demands of * decoding are probably considerably less than * and if dsp gets you excited taking the time to figure all this stuff out is 100 worth it even if the flash route possibly leads to disappointment
+
+it is even slower since i could only upload * which is way bigger in size compared with * and opus
+
+now i assume you are worried your techno might not read a compressed * which should be smaller than a * from my memories
+
+* files are about 3 times larger than * files so it would need 1.8gb additional space to do the conversion
+
+i understand that * is much smaller but it has worst audio quality when is compared to * files
+
+ok i am new to audio with unity but despite reading all the unity posts regarding audio adding 2 short .* clips i heard * was smaller than * to my app has added over 200mb
+
+i ve heard that * decompression requires much more memory than * decompression
+
+by the way i would suggest creating * self-extracting archives instead of * self-extracting archives as with * compression the exe file with the right switches for best compression using additionally also solid archive options could be much smaller than with * compression
+
+i found the production of * much better and easier than * because all windows * encoders i tried are not really good and stable whereas pretty much every tool can natively output *
+
+but in that regard it is replaced by * which is generally smaller supports alpha transparency where * pixels are either fully transparent or fully opaque and most importantly * images are limited to 256 colors
+
+* achieves better compression than * because it applies a pre-filtering step before the lossless compression deflate roughly equivalent to lzw. see wikipedia s explanation of * filtering
+
+if your * files are coming out larger than equivalent * files it is almost certainly because your source image has more than 256 colors
+
+i used ppm * files as they are simpler to write and more portable than *
+
+the only thing i can suggest is that you use * format which is even easier than * for you to read from
+

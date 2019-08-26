@@ -1,0 +1,8 @@
+but i ve found that * 2 has some features i like more than * and also tm v2 which is in beta
+
+that said modifier keys are important in * even if less than in *
+
+in * it s much more difficult to run a subprocess than it is in * so in * you need to have a separate running idris repl
+
+i ve used * for 10+ years but never really into * scripting always subjectively beliving that this was one area where * was weaker than *
+

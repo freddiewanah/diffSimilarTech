@@ -1,0 +1,198 @@
+* is fast alloca is fast copying the string up to the first n is fast puts is faster than * but is is most likely far slower than all three operations mentioned before together
+
+rest assured though that * is better equipped in the general case for string comparisons than * is
+
+* can be more efficient than * since rep movs is highly optimized on intel cpus esp
+
+your macro with memset and * was not any safer than *
+
+the reason for not having * i m guessing is that * can be replaced more efficiently with * for constant strings and if the string is not constant * is a bit more complicated than * anyway so not as beneficial to make inline optimisations for
+
+for example for small amounts of data an * optimised for large amounts of data may be significantly slower than a * that wasn t optimised for large amounts of data
+
+memset behaves like * but the difference is that * copied the data as it is byte but * copies the formatted string as well so takes more time than * to execute
+
+on almost any platform * is going to be faster than * when copying the same number of bytes
+
+is * usually faster than * on most real platforms
+
+so we can use * with sha512 to gain a very significant advantage over the phpass algorithm mainly because sha512 is a harder algorithm with more computation than *
+
+this generally uses a * algorithm that is much faster than *
+
+using a non-reversible * such as * is much more secure and you can store the * value as clear text
+
+in that case some * functions are somewhat faster than other * being one of the fast functions but md4 is faster and it is simple enough that its code can be included in any application without much hassle
+
+the difference between crc32 and * is that * generates a larger * that s harder to predict
+
+however if you want to use the sha256 * alogorithm which is better than the * then here s a code sample
+
+so i guess it s the * in the dump output cause the conflicts and the * value is longer than * outputs
+
+if the * function is more complex and cryptographically strong * or sha1 then it is theoretically not possible
+
+if you want to compare you re better off putting your result through getstring and compare the much less secure * even less secure than * already is
+
+or you could employ a request signing scheme in which certain request fields are * together with the password of the user basically sending the password without sending the password similar to digest authentication but you can use something better than *
+
+sha-256 uses 64 characters in the database but with an index on the column that isn t a problem and it is a proven * and more reliable than * and sha-1
+
+also the * algorithm itself is much slower than sha1 * sha1 * are made for speed - not a useful property when storing passwords
+
+of course any * algorithm is going to have some chance of collision but you have better options than * that would still satisfy the 1024-byte limit
+
+obviously * is much more difficult to reverse even in this anything that will * to the right value sense then a simplistic algorithm like take the last two digits
+
+valid choices for *ing include sha1 or * although sha1 is preferable because it produces a larger * and is considered cryptographically stronger than *
+
+*ing is one way you can prove this to yourself by taking an * or shasum of a large file since the file s size is larger than the * output by pigeonhole principle * can t be restored.
+
+any * function like * sha1 sha256 etc obviously cannot be 100 unique - because they have a fixed length and due to the there must necessarily be non-unique results for input content that is larger than the *
+
+most likely * allocates more memory and puts so-called guard values that happen to contain null bytes or it puts some metadata to be used by * later and this metadata happens to contain a null byte right at that position
+
+now if you * some values on the heap and allocate more with * you may be given back some of that dirtied memory that you scribbed on earlier
+
+* is much easier to implement if there is no *
+
+* finds 10 more * bytes and marks them as used
+
+here is a solution which encapsulates the call to * allocates a bigger buffer for alignment purpose and stores the original allocated address just before the aligned buffer for a later call to *
+
+the c function * is much better make it a habit to prefer that one to *
+
+why is * slower than * + lst i
+
+doing things like 1000 successive * is much slower than doing one single * of 1000 bytes
+
+at best it is a computationally expensive hash function like * that for example is five times slower than * and thus allows only a fifth of the number of hash operations in opposite to *
+
+edit based on the tests done by multiple people and by theory * seems to be a better option over *
+
+* will be faster i think because it has lesser function code implementation for itself making it faster than *
+
+* is faster than *
+
+* is more correct of course you could just embed * over and over and over... but put that under a performance microscope and * may just win
+
+* is marginally faster than *
+
+so if we have a vector and want to calculate a component-wise function over it say * and * it is faster to use vv** from accelerate because it will pipeline the calculations of * and * for all the entries in the vector which is faster than u*g a for-loop over the vector
+
+* itself seems to be consistently a tick 0 01 better than * but the case distinction to reconstruct the sign has an extra test
+
+or maybe flip them on my machine * seems faster than *
+
+first of all * x should be faster and more accurate than * x 0.5 why do you think it s in the library
+
+and as tom karzes mentioned * is also better than using * for calculating square roots
+
+* is far more common in c code than *
+
+it would be better to use * over * unless we want the zero-initialization because * is faster than *
+
+i remember somewhere i have read that * is slower than * because * performs initialization to zero after performing memory allocation
+
+so here * is reading more than one integer at a time from file so * is not getting the integers in file too
+
+* is arguably a better option than bcrypt * having been much more thoroughly studied and tested
+
+the only case where * would be safer than * is when you re comparing two character arrays as strings you re certain that both arrays are at least n bytes long the 3rd argument passed to * and you re not certain that both arrays contain strings contain a 0 null character terminator
+
+* is more secure than *
+
+also have a look at * which is safer version of *
+
+encrypt the passwords with one-way encryption algorithm with a random * like the common opinionï¼š sha-256 is stronger than *
+
+bcrypt is considered the most secure way to implement password hashing with * because it is slow - much slower than an *
+
+decode the passwords yourself and re-encode them with a * i recommend something a little more fancy than *
+
+* also uses a more complex construction in particular * over direct digest to make recovering the input password from an output value more difficult
+
+the * times the * are greater than the * xy...that s very much possible
+
+so * idx is the lower element and * idx is the higher
+
+now if * is higher than 0 or * is lower than 0 on any axis it means that there just as many tiles outside of the camera scoop
+
+on the other hand if what you want to do is not rounding but elimination of fractions into one direction then you have std * that goes always higher and std * that always goes lower
+
+this means that * might be very slightly slower than * as it cannot make the same assumptions
+
+i changed out total for * which is more consistent with other databases sqlite *
+
+* is more secure than a simple * or even a salt *
+
+key derivation algorithms such as bcrypt and * aka rfc2898derivebytes are much slower than standard * algorithms
+
+a key-stretching algorithm like * applies a quicker * like sha512 thousands of times typically causing the * generation to take 1 5 of a second or so
+
+i get the impression that most people think that *ing * passwords is the more secure way of handling passwords but i can t figure out a way to comply with current company operations when using * passwords
+
+i don t know how safe could it be and how difficult is for the hacker to determinate the technique i use the thing is that the result has the same length as the * and is harder to determinate a * so if for any reason in the history hacker uses a rainbow table and catches a probable result it will be the wrong
+
+so when i see that the * is stored in the * password and that you use that * password as * i think crypt + * is not more secure against a brute force on output hackers who managed to steal * passwords
+
+you can safely store the * in the db because working out a string from its * is just as hard when you know some of the string as it is when you know none of it provided the password itself is longer than the * and long enough and strong enough to take a long time to crack by brute force at least 6 chars with at least one case change and a number or non-alphanumeric i d say
+
+* sha-512 offers a higher level of security and implementing a scheme where you stretch the * is even better do some high number of iterations of sha-512 - starting with the password+* of course
+
+the lack of * is harder to expoit here than with password * since the * is not directly known
+
+example the * field might only allow a 64 characters while the generated * might be longer therefore when you save the * it gets trimmed which ultimately changes the * password
+
+you should know that * allocates more memory and returns its pointer which you then overwrite the original pointer returned by * so it will be impossible to free that memory since you no longer have the pointers
+
+you can use either to create a new memory block which is separate from the original but naturally * is simpler since it doesn t require a separate * strlen call
+
+however if * source is greater than n then * will simply copy the first n bytes and will not terminate the string dest with a null byte because there is no space for it
+
+the other suggestion keep repeating until x stops changing does not work either because for non-perfect squares x will alternate between the * and the ceiling of the root â because of integer mathematics the term n x will alternate when x is slightly smaller or slightly larger than * n
+
+the keyword * is more about telling the compiler that the symbol will be present in more than one object file without violating the one definition rule than about actual * which the compiler can decide to do or not to do
+
+if a function is static thus not exported anyway and only called once within your code and you never use a pointer to the function chances are good that gcc will decide to * it automatically as it will have no negative impact the binary won t get bigger by * it only once
+
+if your compiler can do this then writing functions in a way that the compiler is able to * is better than manually * the calls yourself
+
+in term of speed square rooting is easy a few arithmetical operations for some newton-like method but it is not clear what asin does probably quite *tly * is likely to be one order of magnitude slower than * and thus one square root is likely to be quickier than those two transcendental function calls
+
+but when is * and clone better than *
+
+* is more efficient than * as it only evaluates the second argument if the first is null whereas * evaluates both arguments every time
+
+2 however * requires all arguments to be of the same data type thus being stricter than * which will first attempt an implicit conversion
+
+joe duffy s blog implies using * is more efficient than *
+
+a fairer comparison would be comparing stringstream to the * sscanf line of functions which would be slower than * but still faster than stringstream
+
+it means a declared * is more than a pair of * methods getter setter
+
+that suggests another aspect where a declared * is more than a pair of * methods that is more static type checking although it is undesirable here
+
+edit as willeke has pointed out accessing a * directly is technically faster than doing so via an * via self
+
+* is safer than *
+
+* is not safer method to use as *
+
+if * is anything like * it will write one byte more than * returns to zero terminate the string
+
+doing a single * and * is faster and simpler than doing 2-3 * calls
+
+* is a function to read a single char simpler than using *
+
+i confirmed that in debug mode the * version is slower about 130 âµs vs 60 âµs for the * version
+
+the fact that using * with iostreams is faster than * at least in release mode runs counter to the reasoning that copying all that data must be slower than not copying it so i m not sure what all optimization is able to avoid and i didn t really look to find any explanation but it d be interesting to understand what s being optimized away
+
+it should be in my opinion more strongly noted that password hashing with * is no longer secure and should not be used as others noted use * or bcrypt
+
+the * version is not more complex or more dangerous than the * version
+
+the second *ing function is * which supports many more algorithms and variants than * but does not support some algorithms that * does
+

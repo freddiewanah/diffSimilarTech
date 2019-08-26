@@ -1,0 +1,48 @@
+as you noticed yoou cannot create an * campaign *ed by more than oone *
+
+the specification of atom * offers more value than the * one with internationalization content types and other things and every modern * reader supports it
+
+not only do * files have natural support for transparency they are also smaller than * files
+
+note that the * format is much more complex than * since it allows compression etc
+
+if a * file is newer than the corresponding * file or the corresponding * file doesn t exist then i want to run a bunch of commands to convert the * file to an * file and copy the tags across
+
+however * files if stored properly are not significantly larger than * files because since windows vista * files can store *
+
+if the latter is what you want you could use * which is somewhat easier than the * format
+
+the resulting file from this * approach is smaller in size than a * file and i guess may rescale better
+
+i suspect the computational demands of * decoding are probably considerably less than * and if dsp gets you excited taking the time to figure all this stuff out is 100 worth it even if the flash route possibly leads to disappointment
+
+either way applying gain and or attenuation to time-domain sample data as in a * file is much easier than trying to apply these effects to frequency-domain data as in an * file
+
+question iâ m seeing some compromise in * quality my converted * is lower file size when compared to * but my audio quality is little poor than * wonder if i can increase the quality of the * file
+
+now i assume you are worried your techno might not read a compressed * which should be smaller than a * from my memories
+
+one reason to use * it is sooooo much better than *
+
+by the way i would suggest creating * self-extracting archives instead of * self-extracting archives as with * compression the exe file with the right switches for best compression using additionally also solid archive options could be much smaller than with * compression
+
+* has a wider color pallete than * and * is properitary while * is not
+
+one thing to note is that * supports a smaller palette than * - only up to 256 colors
+
+while * is definitely better that * occasionally there is a use case for needing to stay in * format
+
+* is smaller because it s based on an colour palette of 256 colours rather than the separate rgb values for each pixel or group of pixels in jpg and *
+
+since that appears to generate index-color * files which are smaller than the * files that doxygen generates
+
+animated * is better than * if we re focused on file size â achieving a smaller file size was one of the reasons the a* format was designed
+
+jpg and * work well for most applications but the files will be larger than * for very simple graphics
+
+i used * because its file size 2.1kb was considerably less than * or jpeg in this case
+
+i used ppm * files as they are simpler to write and more portable than *
+
+the only thing i can suggest is that you use * format which is even easier than * for you to read from
+

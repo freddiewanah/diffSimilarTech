@@ -1,0 +1,48 @@
+yet from my point of view B is more efficient that B and easier to customize than xtable
+
+i have tried B too but B is smarter than B on this aspect
+
+in either case B is going to add a tiny amount of overhead so it s likely to be technically slower than B but not by any meaningful amount like it takes 5.1 seconds to insert 20k records vs 5.0 seconds
+
+with library B you can have a prettier more compact form see soto s answer for an even more compact one with B
+
+B enables you to search for elements using xpath which i think is easier than using B s api
+
+B is supposed to be much faster and efficient and can do much more than B
+
+B also has more features and offers B too
+
+you ll probably find that B runs faster than B but in my uses B was very easy to learn and use and handled typical crappy html as found in the wild well enough that i don t have need for anything else
+
+i ve found that even if B is faster than B for documents that size it s usually best to try to reduce the size to a few kb via regex or direct stripping and load that into bs as you are doing now
+
+regarding B B is more efficient and in my experience can handle broken html better than B
+
+the reason for using B for such a task is that it cleans html files better than B do
+
+i do understand that traditionally they are saying that B are stricter than B however what i do not get is the following
+
+note that B is probably a better option than B for this kind of task nowadays for the reasons given by B s author
+
+speed isn t important here but in other applications it is good to know that regexes are very fast 100 times faster than B and 1000 faster than B
+
+B is faster than B i think and has much better functionality while remaining relatively easy to use
+
+B is much faster than B and probably the fastest parser available for python
+
+for starters B is no longer actively maintained and the author even recommends alternatives such as B
+
+B is more suitable for html parsing than B
+
+note that using the B parser is a lot slower than B s default parser
+
+B is also much much faster than B
+
+it s generally accepted that B is faster than B ref
+
+since you re using B why not use it in a more direct manner B is believed to be faster than B
+
+B is at least in my experience more general than B from hmisc
+
+B is much easier to deal with and usually performance is good enough but for large brute force algorithms like this B will probably be at least an order of magnitude faster
+

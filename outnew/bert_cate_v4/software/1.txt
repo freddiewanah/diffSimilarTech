@@ -1,0 +1,22 @@
+* has clearly cheaper tco and technologically superior platform * is a bit more polished hortonworks for pure open source don t read this as free or cheap as most companies end up spending more money on hw to get any value
+
+yes some functionality possible only on device but you can try also * app player which has more possibilities than *
+
+2 if your host machine laptop doesn t have more ram then you might want to find alternative * like genymotion * which takes less memory than *
+
+in xda-forums i read about memu - most powerful * for pc better than *
+
+we started with ehcache * server array cause it s well-known backed by * and has bigger community support than *
+
+i mostly work with esri software though i ve had a little bit of work with * mostly for clients whose engineering departments are using cad more than *
+
+* is definitely more advanced in this because with its web interface you can customise almost everything but * has other advantages
+
+many other * software that works just as well if not better than * like avg avast and others do allow you to uninstall from the add remove
+
+* which is no longer in active development and you should be using * but this answer applies to both of them stores each user s public keys in in your case * .ssh authorized_keys
+
+* is far more advanced than * and is quite easy to install directly from your workstation based on ssh communication with your git repository server
+
+microsoft has the microsoft speech api sapi however if you want simple * it is better not to reinvent the wheel and customize an * implementation which i guess falls under the great * library for c++ category it s c not c++ but if you know c++ you should be able to understand the c . using *now you may not even need to write any custom code it may do what you want already
+

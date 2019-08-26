@@ -1,0 +1,64 @@
+i also had good result with * cms it s a bit more lean than * but not as user friendly and definitely not as popular
+
+research showed me that * is simpler to use over * so i decided to use * but have no idea how to install it.can anyone please tell me what are the steps you need to take in order to install * bug tracking system in a small company to track website mobile portal bugs
+
+if anything i find working with * easier and more intuitive than *
+
+* offers more advanced branching and merging capabilities than *
+
+* does have support for many other oses but our non-windows devs feel more comfortable with * too
+
+if you have the money ericgorr is right * is much nicer to work with then *
+
+however if i d built a new site with a cms on java i d probably go with * cms because the documentation and community is more mature despite that it s newer than *
+
+if that will solved later than * menu is better than *
+
+since * is less commonly used compared to * svn amongst bamboo users we generally get less feedback about it and hear less about existing issues
+
+note most recently i have been using * and hg with fully powerful regexps so may be looking for stuff more powerful than * provides
+
+granted * is an easier problem but they claim to support many * and it would be my first choice
+
+* is another one that s easy to use i would say easier than * to learn but it uses an sqlite file to store your code and i m not sure if it scales to really big projects
+
+from the article it sounds like * isn t a database any more than * is a database
+
+we ve recently switched from * to * where i work and i think i like it a little more than * and use the wiki functionality almost everyday
+
+although i myself have prior experience in implementing * much simpler ones than * xfs or ext2 i would not tackle this job
+
+actual mounting of * is trickier business and really depends on what you are mounting - * fat ext3 xfs nfs cifs webdav etc etc
+
+generally the performance of hard * like * is better than that of traditional unix *
+
+apparently * format was more popular than * format
+
+the * encoding mechanism is less error-prone than * so i ll demonstrate using *
+
+from what i understand * was more popular than * among users of 18-bit architectures since a word would be exactly 6 * digits
+
+conceptually it seems like a type of central authentication system * but is more similar to * also a federated identity management system
+
+* is somewhat more readable than * if i happen to be loading a data dump in a text editor etc
+
+and because * is much more readable and useful than * - it s often used and shown
+
+it seems the from a readability and usability standpoint the * representation is a better way of defining * numbers
+
+- i usually find debugging memory in * x command is easier than * so i will not use my solution
+
+a * string is significantly longer than the corresponding * string
+
+the conversion from * to * is even simpler since you can simply expand each * digit into the corresponding * for example 0xa4 - 1010 0100
+
+base64 is usually used in instances to represent arbitrary * data in a text format it has a 33.3 overhead but that s better than say * notation which has a 50 overhead
+
+* is much better then * and git or mercurial are even better again
+
+wondering mainly if * uses less disk space or more than the same in *
+
+you ll need to convert * to another base here i use decimal when writing this code because c doesn t have * constants which would be ten times more useful than * constants
+
+however * protocol is much faster so i suggest using * * for performance reasons
+

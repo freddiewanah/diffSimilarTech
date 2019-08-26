@@ -1,0 +1,26 @@
+however there are many others ts B which is generally faster than B .
+
+however there are many others ts B which is generally faster than B .
+
+also B is significantly faster than B in many cases for processing results
+
+according to some benchmark tests B is nearly 100 times faster than B
+
+speed isn t important here but in other applications it is good to know that regexes are very fast 100 times faster than B and 1000 faster than B
+
+alternatively you can use B module which is lot faster than B
+
+it uses B underneath and is much faster than B
+
+pyquery is based on B so it s also much faster than B
+
+B is much easier to deal with and usually performance is good enough but for large brute force algorithms like this B will probably be at least an order of magnitude faster
+
+B is much easier to deal with and usually performance is good enough but for large brute force algorithms like this B will probably be at least an order of magnitude faster
+
+but if you are allowed to store whole tree into memory you can use B which is faster than B
+
+in the first example B is 3x slower than data.table and in the second its 200x faster than B and 100 times faster than data.table
+
+in the first example B is 3x slower than data.table and in the second its 200x faster than B and 100 times faster than data.table
+

@@ -1,0 +1,1001 @@
+ 3869
+cvs	svn
+Changed: 
+Dont consider cvs sccs rcs svn are antique
+Origin: 
+Dont consider cvs sccs rcs they are antique
+
+
+4755
+lisp	scheme
+Changed: 
+In summary learning lisp or scheme may not yield many practical applications beyond ai but scheme is an extremely valuable learning experience as many others have stated
+Origin: 
+In summary learning lisp or scheme may not yield many practical applications beyond ai but it is an extremely valuable learning experience as many others have stated
+
+
+6824
+profiler	perf
+Changed: 
+If you suspect a perf bottleneck then stick a profiler on your code and see where perf really is
+Origin: 
+If you suspect a perf bottleneck then stick a profiler on your code and see where it really is
+
+
+13817
+profiling	benchmarking
+Changed: 
+Also firefox provides a profiling that will benchmarking your code and provide pie-charts execution time etc
+Origin: 
+also it provides a profiler that will benchmark your code and provide pie-charts execution time etc
+
+
+20612
+ssl	https
+Changed: 
+To enable ssl you simple need to change the script reference from http to https and append s 1 to the url
+Origin: 
+To enable it you simple need to change the script reference from http to https and append s 1 to the url
+
+
+22074
+nullpointerexception	illegalargumentexception
+Changed: 
+In my mind illegalargumentexception seems more specific than using a nullpointerexception since nullpointerexception s telling me that the problem was with an argument i passed to the method and not with a value that may have been generated while performing the method
+Origin: 
+in my mind illegalargumentexception seems more specific than using a npe since it s telling me that the problem was with an argument i passed to the method and not with a value that may have been generated while performing the method
+
+
+22765
+onclick	onsubmit
+Changed: 
+I use the onsubmit event for validations because onclick s a safer event that is more likely to work on different browsers and situations
+Origin: 
+I use the onsubmit event for validations because it s a safer event that is more likely to work on different browsers and situations
+
+
+25855
+udp	mtu
+Changed: 
+For linux according to the udp man page the kernel will use mtu discovery will check what the maximum udp packet size is between here and the destination and pick that or if mtu discovery is off it mtu ll set the maximum size to the interface mtu and fragment anything larger
+Origin: 
+For linux according to the udp man page the kernel will use mtu discovery it will check what the maximum udp packet size is between here and the destination and pick that or if mtu discovery is off it ll set the maximum size to the interface mtu and fragment anything larger
+
+
+32775
+gmail	hotmail
+Changed: 
+If hotmail server goes down gmail server wiil try to resend the message hotmail will depend on server software configuration
+Origin: 
+If hotmail server goes down gmail server wiil try to resend the message it will depend on server software configuration
+
+
+35517
+xsl-fo	xslt
+Changed: 
+xsl-fo is a full-blown page description language and the deeply unfashionable other half of the better-known xslt
+Origin: 
+This is a full-blown page description language and the deeply unfashionable other half of the better-known xslt
+
+
+39105
+direct3d	directx
+Changed: 
+If direct3d were me i would be choosing directx over opengl
+Origin: 
+If it were me i would be choosing directx over opengl
+
+
+43213
+matlab	s-function
+Changed: 
+I think i am going to have to take the xpcserial c code that comes with matlab take the code that sets the rs-232 speed and wrap matlab in my own s-function
+Origin: 
+I think i am going to have to take the xpcserial c code that comes with matlab take the code that sets the rs-232 speed and wrap it in my own s-function
+
+
+45241
+google-chrome	safari
+Changed: 
+So if google-chrome works in safari google-chrome should work exactly the same in google-chrome
+Origin: 
+so if it works in safari it should work exactly the same in chrome
+
+
+48405
+nunit	mstest
+Changed: 
+I haven t tried nunit - but i would advise clients who have a large investment or who have a strong preference for it over the mstest tool in nunit who are interested in implementing tfs to continue with nunit as opposed to trying convert all their existing tests
+Origin: 
+I haven t tried it - but i would advise clients who have a large investment or who have a strong preference for it over the mstest tool in nunit who are interested in implementing tfs to continue with nunit as opposed to trying convert all their existing tests
+
+
+53246
+elementtree	beautifulsoup
+Changed: 
+Python developer fredrik lundh author of elementtree among other things has a function to unsecape html entities on elementtree website which works with decimal hex and named entities beautifulsoup will not work with the hex ones
+Origin: 
+Python developer fredrik lundh author of elementtree among other things has a function to unsecape html entities on his website which works with decimal hex and named entities beautifulsoup will not work with the hex ones
+
+
+54817
+invalidoperationexception	argumentexception
+Changed: 
+properties seems like an object state invalid scenario to me so i d pick invalidoperationexception over argumentexception the parameters are valid but not at this point in the objects life
+Origin: 
+this seems like an object state invalid scenario to me so i d pick invalidoperationexception over argumentexception the parameters are valid but not at this point in the objects life
+
+
+60628
+expression-blend	silverlight
+Changed: 
+expression-blend is a preview version of expression-blend for designing silverlight 2 experiences
+Origin: 
+this is a preview version of expression blend for designing silverlight 2 experiences
+
+
+69898
+google-chrome	safari
+Changed: 
+So i would guess google-chrome renders most closely to safari
+Origin: 
+so i would guess it renders most closely to safari
+
+
+71477
+google-chrome	firefox
+Changed: 
+Strangely firefox google-chrome does not prompt error but ie does which is bit different than what google-chrome used to be
+Origin: 
+strangely ff chrome does not prompt error but ie does which is bit different than what it used to be
+
+
+74833
+sudo	passwd
+Changed: 
+sudo will ask for your passwd your own not a separate root passwd
+Origin: 
+it will ask for your password your own not a separate root password
+
+
+78446
+matplotlib	chaco
+Changed: 
+The main advantages of chaco are chaco speed relative to matplotlib and chaco integration with enthought s traits api for interactive applications
+Origin: 
+The main advantages of chaco are its speed relative to matplotlib and its integration with enthought s traits api for interactive applications
+
+
+84447
+collabnet	svn
+Changed: 
+If you use the svn protocol and use svnserve can be setup as a windows service that auto starts on your server svn should take you 1.5-3 hours to setup depending on how much you want to read see collabnet for the windows package download
+Origin: 
+If you use the svn protocol and use svnserve can be setup as a windows service that auto starts on your server it should take you 1.5-3 hours to setup depending on how much you want to read see collabnet for the windows package download
+
+
+84547
+imperative	declarative
+Changed: 
+I believe that techniques to declarative express side effects in an object oriented framework will allow compilers to decompose imperative statements into express functional relationships
+Origin: 
+i believe that techniques to declaratively express side effects in an object oriented framework will allow compilers to decompose imperative statements into their functional relationships
+
+
+86003
+ssl	https
+Changed: 
+An ssl wrapper pound will decrypt https requests from client browsers and pass https as plain http to the back-end servers
+Origin: 
+An ssl wrapper pound will decrypt https requests from client browsers and pass them as plain http to the back-end servers
+
+
+102717
+extjs	gxt
+Changed: 
+However the future is with gxt as gxt s native gwt and actually developed by the company that made extjs
+Origin: 
+however the future is with gxt as it s native gwt and actually developed by the company that made extjs
+
+
+107490
+jboss	glassfish
+Changed: 
+If you are developing an application that would be deployed to application server tomcat jboss glassfish etc you don t have to handle concurrency control yourself as jboss already addressed by the application server
+Origin: 
+if you are developing an application that would be deployed to application server tomcat jboss as glassfish etc you don t have to handle concurrency control yourself as it already addressed by the application server
+
+
+107650
+bmp	png	png	ico
+Changed: 
+I ve used transparent a lot in my projects since a winform needs an ico file for it s icon while i usually have png or bmp files
+Origin: 
+I ve used it a lot in my projects since a winform needs an ico file for it s icon while i usually have png or bmp files
+
+
+109038
+cairngorm	puremvc
+Changed: 
+Puremvc is more invasive than cairngorm meaning that your code is heavily dependent on the framework you have to subclass implement the framework classes interfaces but that doesn t mean that cairngorm isn t puremvc
+Origin: 
+Puremvc is more invasive than cairngorm meaning that your code is heavily dependent on the framework you have to subclass implement the framework classes interfaces but that doesn t mean that cairngorm isn t
+
+
+115838
+gif	png
+Changed: 
+There might be some edge cases where gif is slightly better because the png format may have a slightly larger overhead from metadata but png s really not worth the worry
+Origin: 
+There might be some edge cases where gif is slightly better because the png format may have a slightly larger overhead from metadata but it s really not worth the worry
+
+
+115838
+gif	png
+Changed: 
+png may just be the tools i m using but gif files usually seem to be a bit smaller than a comparible png
+Origin: 
+It may just be the tools i m using but gif files usually seem to be a bit smaller than a comparible png
+
+
+117741
+boost	stl
+Changed: 
+Become familiar with the stl and boost and use boost facilities whenever possible rolling your own
+Origin: 
+Become familiar with the stl and boost and use their facilities whenever possible rolling your own
+
+
+126771
+lisp	scheme
+Changed: 
+And probably many of them get to hate the course because scheme teaches them beautiful but complex concepts about computability or recursion and they then assimilate their issues with the course with their issues with lisp
+Origin: 
+And probably many of them get to hate the course because it teaches them beautiful but complex concepts about computability or recursion and they then assimilate their issues with the course with their issues with lisp
+
+
+128581
+gif	png
+Changed: 
+The supplied utilities including a java applet allow you to tag gif s jpeg s and png s without changing gif visually
+Origin: 
+The supplied utilities including a java applet allow you to tag gif s jpeg s and png s without changing them visually
+
+
+137288
+prng	random
+Changed: 
+prng will usually do this using a fairly small amount of true random data from the system
+Origin: 
+It will usually do this using a fairly small amount of true random data from the system
+
+
+144997
+inline	inlining
+Changed: 
+Some will even do inlining across translation units where they decide inline s helpful
+Origin: 
+Some will even do inlining across translation units where they decide it s helpful
+
+
+145075
+glassfish	weblogic
+Changed: 
+That said one of the pluses of developing a web application in java is that the interface for working with the http is standardized the servlet specification so that you can pick any servlet container you want be http glassfish tomcat jetty or weblogic
+Origin: 
+That said one of the pluses of developing a web application in java is that the interface for working with the http is standardized the servlet specification so that you can pick any servlet container you want be it glassfish tomcat jetty or weblogic
+
+
+146871
+lisp	scheme
+Changed: 
+I have decided that i prefer scheme over common lisp so that narrows scheme down a bit
+Origin: 
+I have decided that i prefer scheme over common lisp so that narrows it down a bit
+
+
+147815
+java.util.calendar	java.util.date
+Changed: 
+In general joda-time is a fantastically useful api i ve stopped using java.util.calendar and java.util.date entirely except for when i need to interface with an api that uses java.util.calendar
+Origin: 
+In general joda-time is a fantastically useful api i ve stopped using java.util.calendar and java.util.date entirely except for when i need to interface with an api that uses them
+
+
+168723
+profiling	debugging
+Changed: 
+profiling should be noted this is for optimizing queries and performance and debugging
+Origin: 
+it should be noted this is for optimizing queries and performance and debugging
+
+
+170478
+opera	safari
+Changed: 
+I tested this in opera 9.5 ie7 ff3 and safari and it works in all of opera
+Origin: 
+I tested this in opera 9.5 ie7 ff3 and safari and it works in all of them
+
+
+171764
+ubuntu	linux
+Changed: 
+If you can bypass that iirc i booted from the cd and downloaded the normal server kernel and all worked fine then you end up with an absolutely minimal linux system but backed by the full ubuntu repositories so it linux s an excellent base for a server
+Origin: 
+If you can bypass that iirc i booted from the cd and downloaded the normal server kernel and it all worked fine then you end up with an absolutely minimal linux system but backed by the full ubuntu repositories so it s an excellent base for a server
+
+
+176071
+opera	firefox	opera	safari
+Changed: 
+Interface degradation is acceptable with ie6 and firefox 2 as long as it is still usable i consider firefox as end of life browsers and frankly rarely worth the effort also here are older versions of opera and safari but i rarely see significant problems with firefox
+Origin: 
+Interface degradation is acceptable with ie6 and firefox 2 as long as it is still usable i consider these as end of life browsers and frankly rarely worth the effort also here are older versions of opera and safari but i rarely see significant problems with these
+
+
+177337
+realloc	malloc
+Changed: 
+I don t know what your whole environment is but you might consider wrapping the calls to malloc realloc free on just the vm so that you can pass realloc off to a handler designed for small pools
+Origin: 
+I don t know what your whole environment is but you might consider wrapping the calls to malloc realloc free on just the vm so that you can pass it off to a handler designed for small pools
+
+
+180384
+google-chrome	firefox
+Changed: 
+Ps you can enable firefox to auto log on via ntlm and firefox is one of the most requested features for google-chrome too so don t let browser issues put you off
+Origin: 
+ps you can enable firefox to auto log on via ntlm and it is one of the most requested features for chrome too so don t let browser issues put you off
+
+
+182664
+ubuntu	linux
+Changed: 
+ubuntu s great for those who want to give linux a try without a system overhaul
+Origin: 
+It s great for those who want to give linux a try without a system overhaul
+
+
+185631
+apache	lighttpd
+Changed: 
+Apache still has to unpack the http packets and parse the request through apache parse tree send proxy requests and then lighttpd has to re-unpack hit the filesystem and send the files back through apache
+Origin: 
+Apache still has to unpack the http packets and parse the request through its parse tree send proxy requests and then lighttpd has to re-unpack hit the filesystem and send the files back through apache
+
+
+186645
+perforce	svn
+Changed: 
+I would certainly recommend perforce for a number of reasons already covered in other answers but i m not in a position to offer a comparison with svn having never really used svn
+Origin: 
+I would certainly recommend perforce for a number of reasons already covered in other answers but i m not in a position to offer a comparison with svn having never really used it
+
+
+194636
+ubuntu	linux
+Changed: 
+ubuntu s so popular that you often get better results in google by replacing linux with ubuntu
+Origin: 
+It s so popular that you often get better results in google by replacing linux with ubuntu
+
+
+196838
+google-chrome	firefox
+Changed: 
+google-chrome seemed to fix some edge cases in firefox for me
+Origin: 
+this seemed to fix some edge cases in firefox for me
+
+
+201400
+bash	zsh
+Changed: 
+Pick whichever you like for interactive use i d tend to go with bash just because bash s the standard on linux but they all have their merits and zsh in particular seems popular
+Origin: 
+Pick whichever you like for interactive use i d tend to go with bash just because it s the standard on linux but they all have their merits and zsh in particular seems popular
+
+
+203266
+web.py	turbogears
+Changed: 
+Personally i like turbogears a lot since web.py is based on well-known components cherrypy for web serving and url routing kid for templates and sqlobject for object-relational mapping
+Origin: 
+Personally i like turbogears a lot since it is based on well-known components cherrypy for web serving and url routing kid for templates and sqlobject for object-relational mapping
+
+
+204279
+vb.net	vb6
+Changed: 
+To make vb.net even more confusing i do a lot of work with excel vba which is still vb6
+Origin: 
+To make it even more confusing i do a lot of work with excel vba which is still vb6
+
+
+215603
+move	drag
+Changed: 
+drag will probably involve mousedown mouse move and mouseup
+Origin: 
+this will probably involve mouse down mouse move and mouse up
+
+
+217361
+dictionary	map
+Changed: 
+If dictionary doesn t map key value the way you want you can always go back to linq
+Origin: 
+If it doesn t map key value the way you want you can always go back to linq
+
+
+218544
+centos	solaris	centos	linux
+Changed: 
+And i do as much work as possible on our linux centos 5 system simply because the tools on centos are still newer than anything i can find readily packaged for aix solaris is somewhat better
+Origin: 
+And i do as much work as possible on our linux centos 5 system simply because the tools on it are still newer than anything i can find readily packaged for aix solaris is somewhat better
+
+
+222080
+httphandler	httpmodule
+Changed: 
+Going to rewrite the httpmodule as a httphandler and bind httpmodule to . aspx so it doesnt interfere with webresource.axd
+Origin: 
+Going to rewrite the httpmodule as a httphandler and bind it to .aspx so it doesnt interfere with webresource.axd
+
+
+223920
+ati	nvidia
+Changed: 
+You won t get the performance of modern ati or nvidia chipsets but nvidia aren t that bad either
+Origin: 
+You won t get the performance of modern ati or nvidia chipsets but they aren t that bad either
+
+
+232382
+subtraction	addition
+Changed: 
+Not shown are subtraction addition and comparison operators cause addition blow all of addition out of the water
+Origin: 
+Not shown are subtraction addition and comparison operators cause they blow all of these out of the water
+
+
+235727
+nemerle	boo
+Changed: 
+nemerle should be possible to create a similar macro for boo
+Origin: 
+It should be possible to create a similar macro for boo
+
+
+235744
+jar	war
+Changed: 
+You can also just work with the ojspc jar directly and avoid trying to configure the oracle compilejsp task the code below takes a war file and pre-compiles the jsps in war
+Origin: 
+You can also just work with the ojspc jar directly and avoid trying to configure the oracle compilejsp task the code below takes a war file and pre-compiles the jsps in it
+
+
+246032
+mvp	presenter
+Changed: 
+presenter runs contrary to the view being independent and ignorant of the presenter and therefore undermines the mvp pattern
+Origin: 
+This runs contrary to the view being independent and ignorant of the presenter and therefore undermines the mvp pattern
+
+
+251002
+bazaar	cvs
+Changed: 
+bazaar are incredibly easy to set up easy to use and offer all the important features of subversion cvs etc
+Origin: 
+They are incredibly easy to set up easy to use and offer all the important features of subversion cvs etc
+
+
+251619
+equals	gethashcode
+Changed: 
+By providing a more unique gethashcode function dictionary excerises the equals function far less often
+Origin: 
+By providing a more unique gethashcode function it excerises the equals function far less often
+
+
+251632
+ironruby	ironpython
+Changed: 
+I d have to say that isn t so much about the individual language ironruby or ironpython as it ironruby is about the style of development that they enable
+Origin: 
+I d have to say that it isn t so much about the individual language ironruby or ironpython as it is about the style of development that they enable
+
+
+255362
+clang	llvm
+Changed: 
+I am not a compiler guy but when i get frustrated with some limitation of llvm or clang llvm is usually pretty easy to dive in and change llvm
+Origin: 
+I am not a compiler guy but when i get frustrated with some limitation of llvm or clang it is usually pretty easy to dive in and change it
+
+
+259080
+bluej	greenfoot
+Changed: 
+greenfoot is developed by the same people that made bluej but greenfoot is way more graphical still allowing full java programming of the applications
+Origin: 
+It is developed by the same people that made bluej but it is way more graphical still allowing full java programming of the applications
+
+
+259460
+postgresql	mysql
+Changed: 
+If you aren t sure if you want to use mysql or postgresql i suggest trying postgresql both out
+Origin: 
+if you aren t sure if you want to use mysql or postgres i suggest trying them both out
+
+
+260485
+direct3d	directx
+Changed: 
+direct3d s an open source . net wrapper over directx
+Origin: 
+It s an open source .net wrapper over directx
+
+
+262706
+bash	zsh
+Changed: 
+However i have started using zsh for all of my scripts and i have found zsh to be far superior to bash in terms of scripting
+Origin: 
+However i have started using zsh for all of my scripts and i have found it to be far superior to bash in terms of scripting
+
+
+264293
+metaphone	soundex
+Changed: 
+If isn t in the array try comparing the soundex or metaphone value of the misspelled word with the words in the array of correct names to find the correct way of spelling it soundex
+Origin: 
+If it isn t in the array try comparing the soundex or metaphone value of the misspelled word with the words in the array of correct names to find the correct way of spelling it
+
+
+276151
+ssl	https
+Changed: 
+ssl is due to the fact that https begins encryption before the host parameter is sent in http and thus ssl can not determine which cipher to use from the hostname - all ssl has is the ip address
+Origin: 
+This is due to the fact that https begins encryption before the host parameter is sent in http and thus it cannot determine which cipher to use from the hostname - all it has is the ip address
+
+
+280580
+phpunit	simpletest
+Changed: 
+My main reason for using phpunit over simpletest is that phpunit has great phing integration
+Origin: 
+My main reason for using phpunit over simpletest is that it has great phing integration
+
+
+282233
+serializable	deserialization
+Changed: 
+deserialization would be a bad practice to have the serializable and deserialization all over the code
+Origin: 
+it would be a bad practice to have the serialization and deserialization all over the code
+
+
+283405
+jboss	glassfish
+Changed: 
+Jboss is a big and quite complex application and glassfish is smaller and i find jboss easier to understand
+Origin: 
+Jboss is a big and quite complex application and glassfish is smaller and i find it easier to understand
+
+
+285627
+cvs	svn
+Changed: 
+Most svn users treat tags the way cvs presented svn
+Origin: 
+Most svn users treat tags the way cvs presented them
+
+
+294101
+hex	binary
+Changed: 
+Typically you d base64 or hex encode binary content so that binary can be transported as text
+Origin: 
+Typically you d base64 or hex encode binary content so that it can be transported as text
+
+
+296057
+centos	linux	ubuntu	centos	ubuntu	linux
+Changed: 
+I would recommend going with a linux distro that has a friendly community ubuntu centos debranded free rhel or rhel you pay ubuntu to help you
+Origin: 
+I would recommend going with a linux distro that has a friendly community ubuntu centos debranded free rhel or rhel you pay them to help you
+
+
+305578
+prepare	execute
+Changed: 
+prepare s execute directly by the database server
+Origin: 
+it s executed directly by the database server
+
+
+307136
+force.com	salesforce
+Changed: 
+This book is called force.com cookbook published by salesforce salesforce
+Origin: 
+This book is called force.com cookbook published by salesforce itself
+
+
+310913
+vb.net	vb6
+Changed: 
+However the other conversion functions those that have names beginning with c which you may have encountered in vb.net code such as cint and cstr do exist in vb6 and you can use vb.net to convert to and from non-object types
+Origin: 
+However the other conversion functions those that have names beginning with c which you may have encountered in vb.net code such as cint and cstr do exist in vb6 and you can use them to convert to and from non-object types
+
+
+313569
+ssl	https
+Changed: 
+Relation b w ssl and https https is secure http communication based on ssl protocol http over ssl as ssl say
+Origin: 
+Relation b w ssl and https https is secure http communication based on ssl protocol http over ssl as they say
+
+
+324070
+ubuntu	linux
+Changed: 
+Desktop linux users are also likely to be running the 64-bit versions of linux favorite distro most likely ubuntu suse or fedora
+Origin: 
+Desktop linux users are also likely to be running the 64-bit versions of their favorite distro most likely ubuntu suse or fedora
+
+
+324355
+lxml	libxml2
+Changed: 
+But i prefer libxml2 and lxml for python because lxml seems to be more actively developed and tested
+Origin: 
+But i prefer libxml2 and lxml for python because it seems to be more actively developed and tested
+
+
+332410
+postgresql	mysql
+Changed: 
+I learned postgresql grudgingly and have since come to like postgresql but at the same time postgresql has helped me appreciate mysql even more
+Origin: 
+I learned postgresql grudgingly and have since come to like it but at the same time it has helped me appreciate mysql even more
+
+
+334793
+gridview	repeater
+Changed: 
+The gridview and repeater controls do this with gridview row itemcommand events
+Origin: 
+The gridview and repeater controls do this with their row itemcommand events
+
+
+351916
+sudo	passwd
+Changed: 
+It d be nice if sudo accepted a pre-encrypted passwd so i could encrypt passwd within my script and not worry about echoing clear text passwd around
+Origin: 
+it d be nice if sudo accepted a pre-encrypted password so i could encrypt it within my script and not worry about echoing clear text passwords around
+
+
+356937
+google-chrome	safari
+Changed: 
+If google-chrome fails on google-chrome chances are good google-chrome s likely breaking on safari nokia s60 browser and the rest as well
+Origin: 
+if it fails on chrome chances are good it s likely breaking on safari nokia s60 browser and the rest as well
+
+
+358281
+trie	tree
+Changed: 
+This seems to be sort of a trie but without the pointers which would surely get space-expensive if every character in the tree had a 4-byte pointer associated with tree
+Origin: 
+This seems to be sort of a trie but without the pointers which would surely get space-expensive if every character in the tree had a 4-byte pointer associated with it
+
+
+358287
+cvs	svn
+Changed: 
+If nobody there knows about version control buy a pragmatic programmer s book on cvs or svn and set svn up yourself
+Origin: 
+If nobody there knows about version control buy a pragmatic programmer s book on cvs or svn and set it up yourself
+
+
+359795
+mktime	strtotime
+Changed: 
+Couple that with either regular expressions or strtotime and you ll have mktime
+Origin: 
+Couple that with either regular expressions or strtotime and you ll have it
+
+
+361157
+uiviewcontroller	uinavigationcontroller	uiviewcontroller	uitabbarcontroller
+Changed: 
+uiviewcontroller parent will be either a uiwindow or the view controlled by something like a uinavigationcontroller or uitabbarcontroller
+Origin: 
+Its parent will be either a uiwindow or the view controlled by something like a uinavigationcontroller or uitabbarcontroller
+
+
+367881
+ubuntu	linux
+Changed: 
+I m not sure how much ram you have to play with on your server but if ubuntu s a lower amount you re going to fit a lot more on a linux host
+Origin: 
+I m not sure how much ram you have to play with on your server but if it s a lower amount you re going to fit a lot more on a linux host
+
+
+371348
+equals	gethashcode
+Changed: 
+If the gethashcode is equals gethashcode is not necessary for them to be the same
+Origin: 
+if the gethashcode is equal it is not necessary for them to be the same
+
+
+372757
+boost	stl
+Changed: 
+The stl and boost which was influenced by the stl just chose one design -- stl s perfectly fine to have a different design for your classes
+Origin: 
+The stl and boost which was influenced by the stl just chose one design -- it s perfectly fine to have a different design for your classes
+
+
+372760
+gridview	sqldatasource
+Changed: 
+For example in webforms you can embed a sqldatasource with selection logic directly in your mark up and tie sqldatasource to a gridview
+Origin: 
+For example in webforms you can embed a sqldatasource with selection logic directly in your mark up and tie it to a gridview
+
+
+373679
+google-chrome	safari
+Changed: 
+Also google-chrome and safari rely on the same webkit for rendering pages but google-chrome javascript engines are totally different so if you use javascript in your pages you need to check both
+Origin: 
+also chrome and safari rely on the same webkit for rendering pages but their javascript engines are totally different so if you use javascript in your pages you need to check both
+
+
+375708
+multiplying	division
+Changed: 
+division would multiplying 2 32-bit integers and split the results across 2 registers but not division as far as i recall
+Origin: 
+it would multiply 2 32-bit integers and split the results across 2 registers but not division as far as i recall
+
+
+377221
+lisp	smalltalk
+Changed: 
+Or something lisp or smalltalk - was once the next big thing but lisp probably never will be again but still a language that changed signficantly my approach to programming in other languages
+Origin: 
+Or something lisp or smalltalk - was once the next big thing but it probably never will be again but still a language that changed signficantly my approach to programming in other languages
+
+
+386070
+udp	tcp
+Changed: 
+The sip communication will use tcp instead of udp because we specified tcp in the url and your application can look up the account information before you speak with the caller
+Origin: 
+The sip communication will use tcp instead of udp because we specified it in the url and your application can look up the account information before you speak with the caller
+
+
+400773
+entity-relationship	diagram
+Changed: 
+A well built entity-relationship diagram will have very little harmful redundancy in diagram but that s largely serendipity and not the result of careful planning
+Origin: 
+a well built er diagram will have very little harmful redundancy in it but that s largely serendipity and not the result of careful planning
+
+
+401421
+ubuntu	linux
+Changed: 
+Some information on how it is done in ubuntu and linux is a generalized guide for linux unix
+Origin: 
+Some information on how it is done in ubuntu and this is a generalized guide for linux unix
+
+
+402233
+coldfusion	railo
+Changed: 
+If you happen to be using railo i ve heard that coldfusion also has a cluster scope
+Origin: 
+If you happen to be using railo i ve heard that it also has a cluster scope
+
+
+407476
+google-chrome	safari
+Changed: 
+Overall with both google-chrome and safari gaining in market share safari is definately a browser to test you only really need to test one
+Origin: 
+overall with both chrome and safari gaining in market share it is definately a browser to test you only really need to test one
+
+
+408830
+awt	swing
+Changed: 
+Because swing tries to do everything possible in java other than the very raw graphics routines provided by a native gui window swing used to incur quite a performance penalty compared to awt
+Origin: 
+Because swing tries to do everything possible in java other than the very raw graphics routines provided by a native gui window it used to incur quite a performance penalty compared to awt
+
+
+410176
+photoshop	fireworks
+Changed: 
+I find fireworks has an easier time dealing with vectors because fireworks re first class objects while in photoshop fireworks re actually a combination of a vector mask and a colour fill
+Origin: 
+I find fireworks has an easier time dealing with vectors because they re first class objects while in photoshop they re actually a combination of a vector mask and a colour fill
+
+
+412091
+postgresql	mysql
+Changed: 
+postgresql s a lot more enterprise-ready than mysql not to mention that postgresql follows the sql standard a lot better
+Origin: 
+it s a lot more enterprise-ready than mysql not to mention that it follows the sql standard a lot better
+
+
+412091
+postgresql	mysql
+Changed: 
+Mysql has improved a lot with mysql later versions but postgresql still beats mysql in every category
+Origin: 
+mysql has improved a lot with its later versions but postgres still beats it in every category
+
+
+412098
+uiview	calayer
+Changed: 
+So the short answer if you made it calayer far is the coordinate system for calayer should match the coordinate system for calayer corresponding uiview
+Origin: 
+So the short answer if you made it this far is the coordinate system for calayer should match the coordinate system for its corresponding uiview
+
+
+417007
+vb.net	vb6
+Changed: 
+vb.net contains vb6 compatibility functions the my namespace features as well as some compiler helper functions and is commonly referred to as the vb.net runtime
+Origin: 
+This contains vb6 compatibility functions the my namespace features as well as some compiler helper functions and is commonly referred to as the vb.net runtime
+
+
+419787
+ubuntu	linux
+Changed: 
+ubuntu will provide you with a working linux o s inside your windows environment without needing to install linux manually
+Origin: 
+This will provide you with a working linux o s inside your windows environment without needing to install linux manually
+
+
+429727
+lisp	scheme
+Changed: 
+I often tell people objective-c will take them a day to learn objective-c coming from c c++ java or lisp scheme or any of the newer dynamic languages such as ruby and python
+Origin: 
+I often tell people it will take them a day to learn objective-c coming from c c++ java or lisp scheme or any of the newer dynamic languages such as ruby and python
+
+
+431670
+monodevelop	sharpdevelop
+Changed: 
+For ide i suggest eclipse tools for microsoft silverlight apparently silverlight is windows-only at the moment you should use monodevelop or sharpdevelop or something like silverlight
+Origin: 
+For ide i suggest eclipse tools for microsoft silverlight apparently it is windows-only at the moment you should use monodevelop or sharpdevelop or something like that
+
+
+438096
+debian	linux
+Changed: 
+linux works only with the debian package system but you could steal the ideas which are really good
+Origin: 
+It works only with the debian package system but you could steal the ideas which are really good
+
+
+440104
+profiling	debugging
+Changed: 
+Second the runtime profiling uses the debugging memory manager when profiling runs the child processes
+Origin: 
+second the runtime profile uses the debug memory manager when it runs the child processes
+
+
+444580
+postgresql	mysql
+Changed: 
+Note the interval syntax varies slightly between databases and that s the one for postgresql so you might have to change postgresql slightly for mysql
+Origin: 
+Note the interval syntax varies slightly between databases and that s the one for postgresql so you might have to change it slightly for mysql
+
+
+451931
+hex	binary
+Changed: 
+When looking at low level commands binary often makes more sense to match the cpu and think in hex
+Origin: 
+When looking at low level commands it often makes more sense to match the cpu and think in hex
+
+
+453151
+ssl	https
+Changed: 
+If you really want to test https functionality you have to setup apache or another webserver with ssl https support using mod _ ssl and configure ssl to run your rails application using mod _ rails or mod _ proxy
+Origin: 
+If you really want to test https functionality you have to setup apache or another webserver with ssl https support using mod_ssl and configure it to run your rails application using mod_rails or mod_proxy
+
+
+455166
+redmine	mantis	redmine	trac	trac	mantis
+Changed: 
+The installers are self-contained redmine won t touch your system and take literally minutes to install or uninstall so you can easily test-drive redmine mantis trac etc
+Origin: 
+The installers are self-contained they won t touch your system and take literally minutes to install or uninstall so you can easily test-drive redmine mantis trac etc
+
+
+456709
+jar	manifest.mf
+Changed: 
+You can access jar in the main method of main-class mentioned in the manifest.mf file of a jar
+Origin: 
+You can access them in the main method of main-class mentioned in the manifest.mf file of a jar
+
+
+459397
+scheme	racket
+Changed: 
+Plt scheme is now known as racket but i haven t experimented with scheme after the change .
+Origin: 
+Plt scheme is now known as racket but i haven t experimented with it after the change.
+
+
+466571
+ubuntu	debian
+Changed: 
+debian does require kernel patching although ubuntu already has the patch applied i m not sure about any other distributions .
+Origin: 
+It does require kernel patching although ubuntu already has the patch applied i m not sure about any other distributions.
+
+
+467363
+backtracking	greedy
+Changed: 
+But although spirit will backtracking greedy won t backtracking to the middle of what a sub-parser would otherwise greedy match
+Origin: 
+but although spirit will backtrack it won t backtrack to the middle of what a sub-parser would otherwise greedily match
+
+
+475541
+testdriven.net	xunit.net
+Changed: 
+Anyway i exported the the the xunit.net registry key from hkey _ local _ machine software wow6432node mutantdesign testdriven.net testrunners xunit.net and edited key removing the wow6432node and then imported xunit.net
+Origin: 
+anyway i exported the the the xunit registry key from hkey_local_machine software wow6432node mutantdesign testdriven.net testrunners xunit and edited it removing the wow6432node and then imported it
+
+
+479578
+awt	swing
+Changed: 
+Early java gui toolkits awt and early versions of swing have very little uptake in desktop applications because awt obstructed developeers from implementing a native look-and-feel for the applications
+Origin: 
+Early java gui toolkits awt and early versions of swing have very little uptake in desktop applications because they obstructed developeers from implementing a native look-and-feel for the applications
+
+
+494379
+vbscript	vba
+Changed: 
+Something like this although i d try to get vbscript to work in vba first
+Origin: 
+Something like this although i d try to get it to work in vba first
+
+
+

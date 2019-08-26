@@ -1,0 +1,42 @@
+in this respect * is less desirable on a server than rhel or * which stick to more mature versions
+
+this is because your * system has newer system libraries than your * one
+
+personally i develop on the windows but deploy on * where couldn t find the scrapyd package at all at the time i was working on it and noticed that performance of scrapy is considerably worse than on * box so you might reconsider your target
+
+it is widely used to have a separated tag with the postfix -alpine in it to indicate that alpine * is used which is a much smaller base-image than the * image
+
+it s true that the * compatibility exists but i ve found that earlier mac machines does not have the propper hardware and you experience some lacks in memory and graphics when upgrading more than one *
+
+both commands works in the same way only difference is * list installed output maybe bigger than * -qa because * will show package dependencies also in its output
+
+i strongly suggest either of the first two options over the latter option as the latter option does not always play nicely with the way * and * handle transactions when more than one * are involved
+
+note that centos software versions are older than * s but versions of * software are newer than * s versions
+
+* however is less forgiving and has a filesystem that is case sensitive at least my dev * version does but i guess it is the default for *
+
+i am new at a firm and i was given a project that was on amazon * ami now we need to transfer project on another server and because i am more familiar with * than with amazon * ami i was wondering if there much difference and will project work perfectly
+
+you can use alpine * docker image it is very light and is better than both * and centos image to be used as the docker
+
+* is getting closer but there are still numerous things with * that will keep the grandmothers of the world from using it
+
+i don t know why arch * is slower than * on your machine
+
+sometimes a * distribution contains far more than an operating system but is informally referred to by a single name such as * and so the line between what the operating system is the * kernel and standard libraries perhaps and the applications that merely ship with that operating system the gnome and kde environments on * is pretty gray
+
+i want test unix-like operating systems on historicial computers like commodore amiga atari st and i386 cpu and run posix compatible apps like pkgsrc x window system and blackbox wm for 40mhz higher versions * 1.5 is best os for those systems better than * but it is not posix-compatible
+
+i believe * is smaller * wheezy smaller still or even alpine for tiny start point
+
+this is because * 15.10 uses a newer version of libc and libstdc++ which is not available on * 8
+
+* is far less conservative than * so you will get closer to the bleeding edge
+
+he says he uses * and is less familiar with * and so i am posting here
+
+note that * software versions are older than * s but versions of opensuse software are newer than * s versions
+
+be aware that the bourne shell in * is more capable than on *
+

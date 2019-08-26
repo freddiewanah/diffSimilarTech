@@ -1,0 +1,8 @@
+22074
+nullpointerexception	illegalargumentexception
+Changed: 
+In my mind illegalargumentexception seems more specific than using a nullpointerexception since nullpointerexception s telling me that the problem was with an argument i passed to the method and not with a value that may have been generated while performing the method
+Origin: 
+in my mind illegalargumentexception seems more specific than using a npe since it s telling me that the problem was with an argument i passed to the method and not with a value that may have been generated while performing the method
+
+

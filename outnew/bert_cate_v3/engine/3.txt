@@ -1,0 +1,116 @@
+in addition the need for polyfills for * complicates matters further as they may handle the interaction differently as can be seen in the sample below when using the button to load *
+
+* seems to be more mature than * judging by the amount of applications and games that is
+
+i m using the module * in my python script and many more such as * and numpy etc * module only works on python2 not for python3
+
+my understanding is * is pretty good smaller than *
+
+so the easiest way is to use one either * or * * has probably better support for svg these days plus i can t find package of * right now
+
+* is stricter than *
+
+somehow * seems to do better than * on the html5 single-page spec scripts and i can t figure out why at this point
+
+* seems to like anti-aliasing more than *
+
+i m developing with canvas too and have found that * based browsers in general handle canvas operations quicker than * in most cases
+
+* is more reliable than *
+
+* has better crash recovery while * is poor at recovering data integrity at system crashes
+
+* is faster than * for reads myth
+
+* is slower than * but in which cases
+
+* has better crash recovery while * is poor at recovering
+
+oracle has kept improving * by so much that they declare that it is better than * in virtually all situations
+
+* table is much faster than * but no rollback is possible
+
+* is more complex while * is simpler
+
+this is a huge performance boost look like * is much more quicker for fulltext in mysql than *
+
+although 4m isn t that many rows with contention and depending on your structure and database engine it may take a while i think * alters take longer than * because * requires whole table locks and handles concurrency less well
+
+there may be some exotic corner cases where * performs marginally better for certain workloads table-scans or high-volume insert-only work but the default choice should be * unless you can prove you have a case that * does better
+
+* is much faster for reads but since it locks the whole table for writes this is where overall throughput drops compared with *
+
+finally even if somehow you could manage * to perform better than * that doesn t mean * is inadecuate at all
+
+after testing it seems that * is faster than * when using when there is no where clause
+
+* is often slower than * being a transactional db engine with acid properties
+
+the engine is * i ve heard people recommend switching to * but many others said * is faster with large amounts of data in terms of counting and * better for safe transactions
+
+ok there are some cases where * is faster than * but rarely enough that it s worth putting up with the lack of acid-compliance
+
+i did a search online comparing * and * but all of the articles i read judged * being faster than * on select queries
+
+if there are many modifications of the data it s said that * works faster because it uses row locking instead of table locking like *
+
+* is more prone to locking problems than * i believe
+
+note however that for high traffic websites we do modify the joomla core and we also switch the tables from * to * regardless what others might think here * is much faster than *
+
+i heard * is faster but others say * can be fast also but it takes abit more to optimize it
+
+edited to add * is faster than * because it is simpler
+
+it is possible that the config of your * engine is more efficient for your searches than the way you have * set up
+
+in some benchmarks i see that * is faster than * but seems i have a little improvement
+
+almost always * is a better choice than *
+
+speed does matter here * is still slightly faster than * especially for reads
+
+* is actually faster than * in quite a few cases so it depends on what your application s mix of selects updates concurrent queries indexes buffer configuration etc
+
+* is actually better than * for spatial data btw because it also supports r-tree spatial indexes but not as powerful queries as postgis. if you just need points though * or * b-trees are adequate
+
+if you have so many records in the table then the first thing is to change the table engine to * if its not * because for large number of records * is much faster as it caches the table data while on the contrary * engine only caches the indexes so each time it has to do a full table scan from disk if the data required cannot be fetched from index
+
+in * the count s when where group by or join is not used execute slower than in * because the row count is not stored internally
+
+now the response i got from my boss is that i need to prove that * will run faster than *
+
+* supports longer rows than * does
+
+mostly * is better choice than a *
+
+* is not faster than * anymore for most types of queries
+
+* is harder to tune since it has more knobs but a properly tuned * system can often have higher throughput than * due to better locking and better i o patterns
+
+this is one way in which * is sometimes better than *
+
+* is better for high read volumes * for high update volumes due to table vs row locking
+
+in a thread i came to know that * is faster for reads * is faster for writes
+
+have you considered changing to * - it has much better concurrency support and in some contexts will run faster than *
+
+newer versions of mysql 5.5+ have extended * to support all the features that were previously only available on * such as fulltext and geospatial indexing and * performance is usually considerably better than * when configured properly
+
+some people have said that for reads * is faster but recent improvements in * have either alleviated or eradicated this difference
+
+* is faster when the query is simple but it s much slower in a high concurrent environment as its table level lock comparing to * s row level lock
+
+unfortunately * has much worse and poorer integration with the rest of qt facilities than *
+
+either way i intend to use * partly because i have lots of experience with it and partly because its much more well documented and has much more functionality than blade and to me the syntax is slightly cleaner than * although the template engine is not the point of this question really
+
+template engines are rarely the cause of performance problems even if * is slightly faster than * i doubt the effort of learning a new template language etc
+
+* is more powerful than *
+
+i m trying to create a template in * since i have more knoledge than *
+
+* has a cleaner api lower system requirements and works better across platforms than * in my opinion
+

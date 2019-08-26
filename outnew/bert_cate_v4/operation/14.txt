@@ -1,0 +1,20 @@
+this * operator occurs within the second brackets and so has a higher precedence than the *
+
+* is a relatively complex operation and is likely to be slower than say * or comparison
+
+* is not more difficult than repeated *
+
+if we look at the speed of operations * is not drastically slower than *
+
+yes pow is slower than * * is slower than *
+
+however in general one could expect that a * is a more expensive operation than a *
+
+i have heard * takes more time then * but beyond that i could not determine whether writing this in one line or multiple assignment lines was more efficient
+
+* is usually faster than *
+
+it s possible though that software could mess things up by making * slower than * - but that s unlikely
+
+the * operator has a higher precendence than the * operator so your function is calculating 1 1 + e -x
+

@@ -1,0 +1,64 @@
+28820
+vbscript	jscript
+i d like this to be a little more friendly for the admins who are familiar with scripting in vbscript jscript etc
+
+28827
+expression-blend	silverlight
+expression-blend code-named sparkle - visual user interface builder for windows presentation foundation and silverlight applications
+
+28878
+domxpath	domdocument
+in php i m using domdocument and domxpath which closely corresponds to c# xmldocument
+
+28885
+solaris	aix
+however having done a lot of development on ancient versions of solaris aix and hp-ux just recently - yes these platforms are still alive in the fortune 50 i can tell you that if you really care about portability you should use templates as little as possible
+
+29004
+put	get	put	get
+i would love some code examples so for instance how can i get the following problem solved
+sometimes i need to quickly extract some arbitrary data from xml files to put into a csv format
+i would love some code examples so for instance how can i get the following problem solved
+
+29053
+firefox	safari
+code notice the extra comma in the array declaration. the code above gives different outputs for various browsers safari 5 firefox 5 ie 6 the extra comma in the array is being ignored by safari and firefox while ie treats it as another object in the array
+
+29053
+firefox	safari
+most people say that ie is correct but then safari is also doing the same thing as firefox
+
+29124
+cos	sin
+my only warning against skipping the parsing tools or just using the shunting yard algorithm or a hand rolled recursive decent parser is that little toy languages 1 may someday turn into big actual languages with functions sin cos log and variables conditions and for loops
+
+29124
+multiplication	exponent
+3 snippet of a haskell parser using parsec a four function calculator extended with exponent parentheses whitespace for multiplication and constants like pi and e
+
+29144
+cvs	svn
+edit to clarify i know both perforce svn allow locking merging but svn encourages a liberal edit merge method whereas as i understand it perforce encourages a checkout-checkin method
+i ve always used subversion or cvs for version control which use a merge methodology
+one of my friends raves about perforce and how great it is with its change lists and check-out methodology
+
+29144
+perforce	svn
+edit to clarify i know both perforce svn allow locking merging but svn encourages a liberal edit merge method whereas as i understand it perforce encourages a checkout-checkin method
+
+29169
+stdout	stderr
+here s an example save it as evil.py when you run this program you will see that nothing went to stdout where print usually prints to the first string that gets written to stderr is the one starting with it the next two lines are the ones that were collected in the stringio object replacing sys.stdout err like this is an application of what s called monkeypatching
+
+29174
+jquery	simplemodal
+i m using jquery and simplemodal in an asp.net project to make some nice dialogs for a web app
+
+29177
+mousemove	mouseleave
+i have found a blog post describing one mechanism but it involves a good deal of manual bookkeeping including status flags mousemove events manual mouseleave checking etc
+
+29238
+perforce	svn	versioning	upgrade
+perforce supports merging and in fact had better merge support than svn until svn 1.5 where named merges were added as well as change lists which perforce has always had and i mis very much moving to a shop that used svn but we won t upgrade until 1.5 has been a bit more time tested. it s worth noting that svn and perforce both allow you to do a locked checkout so you can do the unmerged model if you want but aside perhaps from managing binaries with versioning control i don t see much use for this
+

@@ -1,0 +1,170 @@
+when one of the strings is a prefix of another the performance of B is worse as it still needs to determine the lexicographical ordering while B won t worry any more and return false immediately
+
+in the B method you can decide which fields are used for the comparison greater less than or B
+
+i am using the min value because i read that the B method returns negative 0 or positive whether the first string is less than B to or greater than the second
+
+when one of the strings is a prefix of another the performance of B is worse as it still needs to determine the lexicographical ordering while B won t worry any more and return false immediately
+
+in the B method you can decide which fields are used for the comparison greater less than or B
+
+i am using the min value because i read that the B method returns negative 0 or positive whether the first string is less than B to or greater than the second
+
+term B is more appropriate for run-time dynamic B B
+
+term B is more appropriate for run-time dynamic B B
+
+according to this test - B is slightly faster then B since it doesn t use animations
+
+according to this test - B is slightly faster then B since it doesn t use animations
+
+that s because B is executed faster than B method you can remove the class when animation is complete
+
+that s because B is executed faster than B method you can remove the class when animation is complete
+
+B is more relevant than B since the first method just waits for a delay and executes a logic whereas the second function is meant for repeating a logic on periodic intervals
+
+it uses B however B is a better solution than B because it will only queue a new one if the previous one is complete
+
+B is more relevant than B since the first method just waits for a delay and executes a logic whereas the second function is meant for repeating a logic on periodic intervals
+
+it uses B however B is a better solution than B because it will only queue a new one if the previous one is complete
+
+the B solution is faster than using in and B clauses
+
+the B solution is faster than using in and B clauses
+
+in my fragments data handling is taking place starting from B which happens earlier than B
+
+note that the test bean has a very special design as the B returns a more general type number than the B requests integer
+
+if the calculation is expensive or the B is executed more often than the B for the changeable properties playername by far it can be an optimization to change the property inside the class into a read-write property and set the value every time the changeable properties are changed
+
+the B complexity can be higher than the B and thus validate a unit-test
+
+note that the test bean has a very special design as the B returns a more general type number than the B requests integer
+
+if the calculation is expensive or the B is executed more often than the B for the changeable properties playername by far it can be an optimization to change the property inside the class into a read-write property and set the value every time the changeable properties are changed
+
+the B complexity can be higher than the B and thus validate a unit-test
+
+B is more vulnerable than B as it can be transmitted and stored
+
+B has more capacity it can transfer more data than B
+
+but i believe sending data using curl with B method is better than B method
+
+B B method doesn t have the same lenght limit you can use B to send more data than with B
+
+there is a default limit of B method which is 2mb which is way higher than B
+
+the B request is marginally less secure than the B request
+
+i m searching for the best method to B result with database contain more than 100000 B and more than 100000 cat
+
+if you use B when B is more semantically correct it is less communicative of the intent of your request since B usually means you are sending a payload
+
+usual way with tagging is to B objects by tag but if tags are used by few applications it may give more than B
+
+B is not more secure than B as itâ s also send unencrypted
+
+one reason B is worse for security is that B is logged by default parameters and all data is almost universally logged by your webserver
+
+yes generally B is a better way of submitting data than B
+
+B is more appropriate than B for queries because of its safe semantics
+
+B makes it more indirect to intercept and read the payload than B but not safer
+
+B is more appropiate for idempotent queries while B is more appropiate for action queries but you can shoot yourself in the foot just as easily with any of them if you don t understand the security architecture for the application you re maintaining
+
+yes B is better than B because B data is not usualy logged by a proxy or server but it is not secure
+
+standard B request is not more secure than B one
+
+B gives you more options and dosn t have a limit on parameter query string length like B the only negative is B is slower by a couple of milliseconds to create the request
+
+B is more secure then B and data transfer size limits are also there
+
+as powelljf3 said B is more secure then B though it can still be gotten to
+
+B requests are no less insecure than B requests
+
+B is more performant as it is idempotent and does not contain a message body where as B does
+
+however B is a bit more safe than B because B could be stored in the history
+
+B requests are no safer than restful requests which are no safer than B requests
+
+B is more vulnerable than B as it can be transmitted and stored
+
+B has more capacity it can transfer more data than B
+
+but i believe sending data using curl with B method is better than B method
+
+B B method doesn t have the same lenght limit you can use B to send more data than with B
+
+there is a default limit of B method which is 2mb which is way higher than B
+
+the B request is marginally less secure than the B request
+
+i m searching for the best method to B result with database contain more than 100000 B and more than 100000 cat
+
+if you use B when B is more semantically correct it is less communicative of the intent of your request since B usually means you are sending a payload
+
+usual way with tagging is to B objects by tag but if tags are used by few applications it may give more than B
+
+B is not more secure than B as itâ s also send unencrypted
+
+one reason B is worse for security is that B is logged by default parameters and all data is almost universally logged by your webserver
+
+yes generally B is a better way of submitting data than B
+
+B is more appropriate than B for queries because of its safe semantics
+
+B makes it more indirect to intercept and read the payload than B but not safer
+
+B is more appropiate for idempotent queries while B is more appropiate for action queries but you can shoot yourself in the foot just as easily with any of them if you don t understand the security architecture for the application you re maintaining
+
+yes B is better than B because B data is not usualy logged by a proxy or server but it is not secure
+
+standard B request is not more secure than B one
+
+B gives you more options and dosn t have a limit on parameter query string length like B the only negative is B is slower by a couple of milliseconds to create the request
+
+B is more secure then B and data transfer size limits are also there
+
+as powelljf3 said B is more secure then B though it can still be gotten to
+
+B requests are no less insecure than B requests
+
+B is more performant as it is idempotent and does not contain a message body where as B does
+
+however B is a bit more safe than B because B could be stored in the history
+
+B requests are no safer than restful requests which are no safer than B requests
+
+q1.i know that B is better than B for name-value pair parameters as the get exposes it in url and B doesn t
+
+q1.i know that B is better than B for name-value pair parameters as the get exposes it in url and B doesn t
+
+and that is for performance reasons assuming that a B implementation should always be much faster than an B implementation
+
+in the B method only if you re certain the ensuing B implementation is much more expensive than B which is not vast majority of cases
+
+1 is comparison via B check if the hashcode of both objects are the same faster than B
+
+override both methods but make B more tolerant than B that means make unequal objects have the same hash code and not the opposite
+
+B on the other hand can test accross a larger number of fields - ie its test is more specific than B comparisons
+
+and that is for performance reasons assuming that a B implementation should always be much faster than an B implementation
+
+in the B method only if you re certain the ensuing B implementation is much more expensive than B which is not vast majority of cases
+
+1 is comparison via B check if the hashcode of both objects are the same faster than B
+
+override both methods but make B more tolerant than B that means make unequal objects have the same hash code and not the opposite
+
+B on the other hand can test accross a larger number of fields - ie its test is more specific than B comparisons
+

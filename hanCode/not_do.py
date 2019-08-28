@@ -11,8 +11,7 @@ from nltk.parse import CoreNLPParser
 import spacy
 from spacy.matcher import Matcher
 from multiprocessing.dummy import Pool as ThreadPool
-from big_tag_group import selected_tags
-
+import nltk
 cin = {"than", "over", "beyond", "upon", "as", "against", "out", "behind",
        "under", "between", "after", "unlike", "with", "by", "opposite"}
 cv = {"beat", "beats", "prefer", "prefers", "recommend", "recommends",
@@ -44,6 +43,7 @@ def read_relation(path):
     relations = pickle.load(relations_file)
     relations_file.close()
     return relations
+
 
 
 sid = SentimentIntensityAnalyzer()
@@ -169,7 +169,7 @@ class PatternMatcher:
         if len(words) == 0:
             return []
         words = words.split()
-        tagged_words = CoreNLPParser(url='http://localhost:9002', tagtype='pos').tag(words)
+        tagged_words = CoreNLPParser(url='http://localhost:9000', tagtype='pos').tag(words)
         if len(words) != len(tagged_words):
             tagged_words = pos_tag(words)
         tag_list = []
@@ -363,28 +363,25 @@ def check_tech_pairs(pre, words):
     rtn = []
     for (first, second) in tech_pairs:
 
-        for selected_tag in selected_tags:
-            if first in selected_tag and second in selected_tag:
-
-                if "{} or {}".format(first, second) in ' '.join(words) or "{} and {}".format(first, second) in ' '.join(words) or "{}, {}".format(
+            if "{} or {}".format(first, second) in ' '.join(words) or "{} and {}".format(first, second) in ' '.join(words) or "{}, {}".format(
                         first, second) in ' '.join(words) or "{} or {}".format(second, first) in words or "{} and {}".format(second,
                                                                                                                    first) in ' '.join(words) or "{}, {}".format(
                         second, first) in ' '.join(words):
-                    continue
+                continue
 
-                if "{} or {}".format(first, second) in ' '.join(pre) or "{} and {}".format(first, second) in ' '.join(pre) or "{}, {}".format(
+            if "{} or {}".format(first, second) in ' '.join(pre) or "{} and {}".format(first, second) in ' '.join(pre) or "{}, {}".format(
                         first, second) in ' '.join(pre) or "{} or {}".format(second, first) in ' '.join(pre) or "{} and {}".format(second,
                                                                                                                    first) in ' '.join(pre) or "{}, {}".format(
                         second, first) in ' '.join(pre):
-                    continue
-                if (first in words and second in pre) or (second in words and first in pre):
-                    for n in np:
+                continue
+            if (first in words and second in pre) or (second in words and first in pre):
+                for n in np:
 
-                        if (n in words) or (n in pre):
-                            rtn.append(first)
-                            rtn.append(second)
-                            pre_check = True
-                            break
+                    if (n in words) or (n in pre):
+                        rtn.append(first)
+                        rtn.append(second)
+                        pre_check = True
+                        break
     if len(rtn) > 0 and (pre_check):
         return (" ".join(pre), " ".join(words), "\t".join(rtn))
     else:
@@ -392,6 +389,7 @@ def check_tech_pairs(pre, words):
 
 
 def main(start):
+
     compa_sent_count = 0
     total_sent_count = 0
     post_count = 0
@@ -400,7 +398,7 @@ def main(start):
     try:
         pre_words = []
         post_words = []
-        conn = psycopg2.connect('dbname=stackoverflow port=5433 host=localhost')
+        conn = psycopg2.connect('dbname=stackoverflow port=5432 host=localhost')
         cursor = conn.cursor()
         query = "SELECT Id, Body FROM {} WHERE Score > 0 AND posttypeid != 1 AND Id >= {} AND Id < {}".format(table_name, start, start+batch)
         # query = "SELECT Id, Body FROM Posts WHERE Id = 157785 or Id = 109038"
@@ -436,7 +434,7 @@ def main(start):
                     else:
                         compa_sent_count += 1
                         data_file = open(
-                            os.path.join(os.pardir, "outnew", "{}_v4".format(table_name), "{}.txt".format(os.getpid())),
+                            os.path.join(os.pardir, "outnew", "{}_v4".format(table_name), "leased_{}.txt".format(os.getpid())),
                             "a")
                         data_file.write("{}\n".format(current_id))
                         data_file.write("{}\n".format(rtn[2]))
@@ -469,7 +467,7 @@ def main(start):
 #     proc.join()
 
 
-data = [46000000]
+data = [0]
 pool = ThreadPool()
 pool.map(main, data)
 pool.close()

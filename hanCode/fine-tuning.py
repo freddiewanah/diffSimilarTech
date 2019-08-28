@@ -10,6 +10,7 @@ import bert
 from bert import run_classifier
 from bert import optimization
 from bert import tokenization
+from bert import modeling
 
 OUTPUT_DIR = os.path.join(os.pardir, 'outnew', 'bert-fine')
 #@markdown Whether or not to clear/delete the directory and create a new one
@@ -27,11 +28,11 @@ print('***** Model output directory: {} *****'.format(OUTPUT_DIR))
 DATA_COLUMN = 'sentence'
 LABEL_COLUMN = 'polarity'
 # label_list is the list of labels, i.e. True, False or 0, 1 or 'dog', 'cat'
-label_list = [0, 1]
+label_list = [0, 1, 2]
 
 # read files
-train = pd.read_csv("filename.csv")
-test = pd.read_csv("filename")
+train = pd.read_csv("train_data.csv")
+test = pd.read_csv("test_data.csv")
 
 
 # Use the InputExample class from BERT's run_classifier code to create examples from the data
@@ -46,23 +47,29 @@ test_InputExamples = test.apply(lambda x: bert.run_classifier.InputExample(guid=
                                                                    label = x[LABEL_COLUMN]), axis = 1)
 
 # This is a path to an uncased (all lowercase) version of BERT
-BERT_MODEL_HUB = "https://tfhub.dev/google/bert_uncased_L-12_H-768_A-12/1"
+# BERT_MODEL_HUB = "https://tfhub.dev/google/bert_uncased_L-12_H-768_A-12/1"
 
 
-def create_tokenizer_from_hub_module():
-    """Get the vocab file and casing info from the Hub module."""
-    with tf.Graph().as_default():
-        bert_module = hub.Module(BERT_MODEL_HUB)
-        tokenization_info = bert_module(signature="tokenization_info", as_dict=True)
-        with tf.Session() as sess:
-            vocab_file, do_lower_case = sess.run([tokenization_info["vocab_file"],
-                                                  tokenization_info["do_lower_case"]])
+# def create_tokenizer_from_hub_module():
+#     """Get the vocab file and casing info from the Hub module."""
+#     with tf.Graph().as_default():
+#         bert_module = hub.Module(BERT_MODEL_HUB)
+#         tokenization_info = bert_module(signature="tokenization_info", as_dict=True)
+#         with tf.Session() as sess:
+#             vocab_file, do_lower_case = sess.run([tokenization_info["vocab_file"],
+#                                                   tokenization_info["do_lower_case"]])
 
-    return bert.tokenization.FullTokenizer(
-        vocab_file=vocab_file, do_lower_case=do_lower_case)
+    # return bert.tokenization.FullTokenizer(
+    #     vocab_file=vocab_file, do_lower_case=do_lower_case)
 
 
-tokenizer = create_tokenizer_from_hub_module()
+BERT_VOCAB= '../wwm_uncased_L-24_H-1024_A-16/vocab.txt'
+BERT_INIT_CHKPNT = '../wwm_uncased_L-24_H-1024_A-16/bert_model.ckpt'
+BERT_CONFIG = '../wwm_uncased_L-24_H-1024_A-16/bert_config.json'
+
+tokenization.validate_case_matches_checkpoint(True,BERT_INIT_CHKPNT)
+tokenizer = tokenization.FullTokenizer(
+      vocab_file=BERT_VOCAB, do_lower_case=True)
 
 # We'll set sequences to be at most 128 tokens long.
 MAX_SEQ_LENGTH = 128
@@ -73,22 +80,18 @@ test_features = bert.run_classifier.convert_examples_to_features(test_InputExamp
 def create_model(is_predicting, input_ids, input_mask, segment_ids, labels,
                  num_labels):
   """Creates a classification model."""
-
-  bert_module = hub.Module(
-      BERT_MODEL_HUB,
-      trainable=True)
-  bert_inputs = dict(
+  model = modeling.BertModel(
+      config=BERT_CONFIG,
+      is_training=not is_predicting,
       input_ids=input_ids,
       input_mask=input_mask,
-      segment_ids=segment_ids)
-  bert_outputs = bert_module(
-      inputs=bert_inputs,
-      signature="tokens",
-      as_dict=True)
+      token_type_ids=segment_ids,
+      use_one_hot_embeddings=False)
+
 
   # Use "pooled_output" for classification tasks on an entire sentence.
   # Use "sequence_outputs" for token-level output.
-  output_layer = bert_outputs["pooled_output"]
+  output_layer = model.get_pooled_output()
 
   hidden_size = output_layer.shape[-1].value
 
@@ -283,5 +286,5 @@ pred_sentences = [
   "Absolutely fantastic!"
 ]
 
-predictions = getPrediction(pred_sentences)
-print(predictions)
+# predictions = getPrediction(pred_sentences)
+# print(predictions)

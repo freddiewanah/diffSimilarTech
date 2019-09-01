@@ -1,0 +1,5 @@
+516
+versioning	upgrade
+i choose not to put schema dumps in under versioning control as alumb and others suggest because i want an easy way to upgrade my production database
+for a web application where i ll have a single production database instance i use two techniques database upgrade scripts a sequence database upgrade scripts that contain the ddl necessary to move the schema from versioning n to n+1
+

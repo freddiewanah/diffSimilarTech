@@ -1,0 +1,1520 @@
+20713
+rss feed
+Pattern(s): 3	
+as there are quite a few deprecated versions of rss you might conceivably have to support rss feed that vary quite a bit in their formatting details
+rss does not have a registered media content type
+
+
+
+34338
+phpunit simpletest
+Pattern(s): 3	
+as far as i know phpunit does not include a html gui but there are gui s available to download such as cool
+i found simpletest was even easier than phpunit to set up
+
+
+
+60119
+cassini iis
+Pattern(s): 2	
+cassini does not support https
+however you can use iis to do this if your using iis 5.1 download the ms iis toolpack for iis 6.0 it comes with a tool to create self signed ssl certificates
+
+
+
+70627
+quicksort mergesort
+Pattern(s): 1	
+quicksort is not better it is well suited for a different kind of application than mergesort
+mergesort is worth considering if speed is of the essence bad worst-case performance cannot be tolerated and extra space is available
+
+
+
+76040
+xna slimdx
+Pattern(s): 1	
+xna isn t the only alternative though
+there is also slimdx which is under constant development as a means of providing a lean wrapper of directx in a similar fashion as managed directx which was i believe discontinued by microsoft in favor of xna
+
+
+
+78627
+strtol strtod
+Pattern(s): 1	
+note also that strod strtol skip initial whitespace so if you want to treat strings with initial whitespace as ill-formatted you also need to check the first character
+use strtol strtoll not atoi to check integers. use strtof strtod not atof to check doubles
+
+
+
+78627
+atof strtod
+Pattern(s): 1	
+use strtol strtoll not atoi to check integers. use strtof strtod not atof to check doubles
+atoi and atof convert the initial part of the string but don t tell you whether or not they used all of the string
+
+
+
+78627
+strtol atof
+Pattern(s): 1	
+use strtol strtoll not atoi to check integers. use strtof strtod not atof to check doubles
+atoi and atof convert the initial part of the string but don t tell you whether or not they used all of the string
+
+
+
+79901
+strace systemtap
+Pattern(s): 5	
+some applications can trick strace ptrace not to run so the only real option i ve had is using systemtap systemtap can intercept a bunch of system calls if need be due to its wild card matching
+systemtap is not c but a separate language
+
+
+
+109038
+cairngorm puremvc
+Pattern(s): 1	
+puremvc is anti-flex cairngorm just doesn t use many of the good parts of flex
+by this i mean that puremvc reinvents many things that flex already have because it wants to be platform agnostic and because of its architecture specifically the mediators it makes it harder to use bindings to their full power
+
+
+
+109038
+cairngorm puremvc
+Pattern(s): 5	
+in short cairngorm is the visualbasic of flex it works but will teach you a lot of bad habits
+puremvc isn t so bad it just isn t a very good fit for writing flex applications
+
+
+
+154976
+g++ gcc
+Pattern(s): 1	
+also use the correct gcc frontend executable g++ will treat .c files like c++ files unless you explicitly tell it not too
+so if you are compiling real c then use gcc not g++
+
+
+
+167681
+trac bugzilla
+Pattern(s): 5	
+of course trac doesn t have support for blocking blockedby tickets out of the box so if you want to import this data too you ll have to use the masterticketsplugin and then modify the script yourself which is what we did when we migrated
+for bugzilla trac has a script bugzilla2trac.py that will automate the process of importing bugzilla bugs to trac tickets for you
+
+
+
+168539
+vb.net vb6
+Pattern(s): 1	
+you may also like to take a look at these links this has an example of how to do what you want zipping using windows built-in zip capabilities from vb.net it shouldn t be much different from vba or vb6 transparent zip with dll call this one has a sample application on vb6 using windows built-in capabilities to zip in zip rather than gzip format of course using windows xp compressed folder shell extension to work with .zip files found both thru googling you should be able to find more better examples
+vba which is really a dialect of vb6 is slow for these kind of applications
+
+
+
+169629
+strdup strtok
+Pattern(s): 5	
+use strdup to copy the string
+strtok does not give you a new string
+
+
+
+173101
+int chars
+Pattern(s): 1	
+for example you might do the following -- track information on the player create table players id int not null username varchar2 32 not null password varchar2 32 not null email varchar2 160 constraint pk_players primary key id
+-- track information on the chars create table chars id int not null player_id int not null chars varchar2 32 not null status varchar2 32 hitpoints int constraint pk_characters primary key id
+
+
+
+173101
+int chars
+Pattern(s): 1	
+-- track information on the chars create table chars id int not null player_id int not null chars varchar2 32 not null status varchar2 32 hitpoints int constraint pk_characters primary key id
+-- foreign key reference alter table chars add constraint characters__players foreign key player_id references players id
+
+
+
+177557
+qdialog qobject
+Pattern(s): 5	
+your dialog derives from more than one class and qdialog is not the first class that it derives from
+for qmake to work correctly the qobject derived base class needs to be the first class that is inherited from
+
+
+
+178178
+qspinbox qpalette
+Pattern(s): 5	
+here is what i did to change the background color of a qcombobox i haven t specifically tried for a qspinbox but i guess it ll work the same
+using a qpalette isn t guaranteed to work for all styles because style authors are restricted by the different platforms guidelines and by the native theme engine
+
+
+
+196705
+pylons web2py
+Pattern(s): 1	
+web2py can connect to multiple databases at once django and pylons need to be hacked to do that and web2py has a configuration file at the app not at the project level like them
+webp2y logs all tracebacks server side for the administrator django and pylons do not
+
+
+
+200798
+strsplit substr
+Pattern(s): 5	
+re-reading your question again strsplit is not available in j2me but the same effect can be achieved with substr and indexof
+that depends on what exactly you want to achieve but the function substr will be in there somewhere this will print the substr starting from index 6 to the end of the string system.out.println mystring.substring 6
+
+
+
+226519
+division multiplication
+Pattern(s): 3	
+division isn t going to have a big performance impact in your application
+floating-point division is generally especially slow so while floating-point multiplication is also relatively slow it s probably faster than floating-point division
+
+
+
+232602
+ienumerable ienumerator
+Pattern(s): 1	
+ienumerable t doesn t inherit idisposable
+ienumerator t does inherit idisposable however whereas the non-generic ienumerator doesn t
+
+
+
+234731
+snmp mib
+Pattern(s): 3	
+snmp isn t bad but it may not be able to do everything you need it to do
+depending on the library you use and how it hides the details of interacting with snmp you may have a hard time finding the correct parts of the mib to change and even knowing what or how to change them to do what you want
+
+
+
+236111
+free malloc
+Pattern(s): 5	
+on linux with glibc the memory is actually always returned to the os above a certain size glibc malloc uses mmap for big allocations controlled by mmap_threshold and in that case free calls munmap which frees automatically the reserved memory
+below that threshold it uses brk and free does not return the memory in that case
+
+
+
+256398
+textmate aptana
+Pattern(s): 3	
+if you want something more minimalistic there is e text editor which supports textmate bundles not free though
+i ve been using aptana it s quite good with lots of features even in the free version you probably don t need pro
+
+
+
+261277
+boost stl
+Pattern(s): 5	
+i recommend nicola bonelli s answer to be accepted. that s part of the stl and doesn t require using boost if your code doesn t use boost thanks to the commenters for pointing this out
+boost has a utility called next and its inverse prior for just that purpose
+
+
+
+277445
+innodb myisam
+Pattern(s): 1	
+the main difference is that innodb supports transactions while myisam does not
+there are numerous other differences however the common one s i am aware of are myisam has typically been considered faster at searching but recent innodb improvements are removing this difference and improving high concurrency workload performance innodb support transactions whilst myisam does not innodb supports referential integrity whilst myisam does not innodb handles indexes a bit differently storing the primary key as part of every index making indexes take up more room on the disk but also making a covering index more likely myisam does table level locking while innodb can do row level locking different memory buffer index settings are used in the mysql configuration files innodb is typically said to have better crash recovery as mentioned in another answer the data is store on disk differently
+
+
+
+277445
+innodb myisam
+Pattern(s): 1	
+there are numerous other differences however the common one s i am aware of are myisam has typically been considered faster at searching but recent innodb improvements are removing this difference and improving high concurrency workload performance innodb support transactions whilst myisam does not innodb supports referential integrity whilst myisam does not innodb handles indexes a bit differently storing the primary key as part of every index making indexes take up more room on the disk but also making a covering index more likely myisam does table level locking while innodb can do row level locking different memory buffer index settings are used in the mysql configuration files innodb is typically said to have better crash recovery as mentioned in another answer the data is store on disk differently
+i believe innodb is configurable in this area and can have one file per table etc
+
+
+
+294869
+expander tabitem
+Pattern(s): 5	
+last but not least i was able to get everything working properly with a groupbox and tabitem but not so much luck with an expander and i m not sure why
+the expander handles the contentstringformat properly but not the headercontentstringformat
+
+
+
+322081
+getter setter
+Pattern(s): 1	
+the dbkey property getter is virtual in the il because it is in an interface
+the setter is not virtual because it is not part of the interface but part of the concrete class
+
+
+
+322241
+udp tcp
+Pattern(s): 2	
+udp doesn t provide the safety that tcp does but doesn t require a response but such responses are part of their protocols not yours
+i would suggest using tcp to save you some headache
+
+
+
+338821
+wordpress joomla
+Pattern(s): 3	
+wordpress isn t as good as joomla when it comes to user management though
+for example joomla can specify exactly what content users and user groups have access to
+
+
+
+349805
+salt md5
+Pattern(s): 1	
+the time-based salt will not make md5 any easier to break
+you re still relying on 1 the user having a good password to defeat brute force calculations and 2 md5 being a decent hash
+
+
+
+350167
+gridview repeater
+Pattern(s): 1	
+if you don t need any of the features of a gridview why not use a repeater
+a repeater keeps it simple for implementation but also allows you to have full control over the generated source
+
+
+
+355790
+setinterval settimeout
+Pattern(s): 5	
+well the first thing to say is that if you re calling settimeout but not changing the interval you should be using setinterval
+edit update from comment you can keep a reference from the closure if used as a class and setinterval clearinterval don t require re-referencing
+
+
+
+357081
+printf strncpy
+Pattern(s): 3	
+what you can do is use printf to write to a temporary string and then something like strncpy to copy only the bytes that you want
+there is no way to tell printf not to write a trailing null
+
+
+
+367303
+inline inlining
+Pattern(s): 1	
+but it is up to the compiler if the method is actually inline or not
+the compiler inlining is sophisticated enough to only in-line if this will help in the optimization stratergy being used
+
+
+
+388090
+memcpy memmove
+Pattern(s): 5	
+memcpy should have that behavior
+memmove doesn t by design if the blocks of memory overlap it copies the contents starting at the ends of the buffers to avoid that sort of behavior
+
+
+
+389824
+innodb myisam
+Pattern(s): 1	
+innodb enforces foreign key constraints
+myisam doesn t enforce or even store foreign key constraints
+
+
+
+404802
+try-catch exception-handling
+Pattern(s): 5	
+also since you raised the issue yes the try-catch block does incur some overhead even if the exception-handling is not thrown
+personally and i think this is backed up by convention eafp is never a good way to go. you can look at it as an equivalent to the following as opposed to moreover consider the following this may look a lot less elegant and yes this is a crude example - bear with me but it gives you much greater granularity in handling the error as opposed to wrapping it all in a try-catch to get that nullpointerexception and then try to figure out where and why you got it
+
+
+
+416917
+boost allocator
+Pattern(s): 1	
+replacing your containers with boost containers is not a good idea
+the work to make appropriate custom allocator wouldn t be that bad but you d be violating the spirit of your allocate at startup rule
+
+
+
+430261
+int boolean
+Pattern(s): 5	
+basically c has two main simple data types int and floating point numbers though various precisions
+everything else boolean enums not simple but it fits etc
+
+
+
+435831
+vb.net vb6
+Pattern(s): 2	
+if costs are a constraint you could try this there is a wizard in visual studio that will attempt to upgrade vb6 to vb.net
+it s not 100 accurate and you will have to write code for things vb.net does not support such as control arrays etc
+
+
+
+442181
+postgresql mysql
+Pattern(s): 5	
+in-query variable modification doesn t work in postgresql for instance this will work in mysql but not in postgresql i haven t tested this recently maybe it does work now. set a 1 select id a a+1 from some_table
+i also personally believe that postgresql has better handling of complex queries that include sub-selects and the like which most mysql users used to avoid
+
+
+
+463600
+xpand xtend
+Pattern(s): 3	
+xpand templates are only meant for generating textual artifacts while most logic underlying the generation should be implemented in xtensions
+xtend does not have a loop construct either but it s possible to find an alternative if you re willing to follow the functional programming-paradigm
+
+
+
+482346
+facade mediator
+Pattern(s): 1	
+this way the facade is not adding functionality it is just delegating to some existing objects
+in the other hand the mediator add the new functionality by combining different objects
+
+
+
+500532
+for-loop arrays
+Pattern(s): 2	
+and since you can never be sure that nothing will be added to the prototype chain just use a for-loop to enumerate the arrays this will write 0 foo 1 bar
+because for...in enumerates through the object that holds the arrays not the arrays itself
+
+
+
+525745
+des aes
+Pattern(s): 3	
+des is extremely easy to crack nowadays
+please use aes or at least 3des if aes is not available
+
+
+
+531083
+swt swing
+Pattern(s): 3	
+however there are a few things that swt does that swing doesn t do as well or at all -- such as launch the system s native browser and execute javascript scripts in this browser
+if you consider swt consider it carefully
+
+
+
+538940
+vmware esx
+Pattern(s): 1	
+vmware server is great i use it for compartamentalizing different projects which require different setups and would recommend it if you require different environment setups and your machine has enough resources
+vmware esx is not free thus not for you
+
+
+
+538940
+vmware esx
+Pattern(s): 1	
+vmware esx is not free thus not for you
+vmware esxi is free but can t run on top of an os installation thus might not be for you
+
+
+
+550568
+int double
+Pattern(s): 1	
+using your operator long double myclass operator long double built-in using your built-in conversion int to long double
+i assume you are comparing against a literal int and not a long double if that is the case both alternatives are as good complex
+
+
+
+551301
+vim emacs
+Pattern(s): 3	
+vim does only text editing and that very well without plugins
+its up to you if you like emacs or not
+
+
+
+556757
+x86 mips
+Pattern(s): 1	
+some processors families such as the x86 have special instructions for manipulating the stack of the currently executing thread
+other processor families including powerpc and mips do not have explicit stack support but instead rely on convention and delegate stack management to the operating system s application binary interface abi
+
+
+
+557079
+soappy suds
+Pattern(s): 5	
+soappy has support for attachments on its todo list
+suds does not mention the word attachments anywhere
+
+
+
+568356
+wxhaskell gtk2hs
+Pattern(s): 3	
+when wxhaskell was first announced at the haskell workshop the development of the native haskell api looked extremely promising but was still incomplete
+it looks as if the haskellized api for wxhaskell is still being worked on whereas the gtk2hs project doesn t mention this issue at all
+
+
+
+570707
+boost stl
+Pattern(s): 5	
+clarification boost did not boost up my ood skills
+stl boost is a tool for the job
+
+
+
+586490
+pipe freopen
+Pattern(s): 1	
+you might want to be sure to set up a handler for sigpipe in case your program finds itself on the blocking end of a pipe not fifo pipe
+so . your_program --stdout tmp stdout.txt --stderr tmp stderr.txt should be easily accomplished with freopen and keeping the same actual file descriptors
+
+
+
+603150
+g++ gcc
+Pattern(s): 1	
+if you only installed c compiler you would have command gcc but not command g++
+g++ is c++ compiler not c compiler
+
+
+
+610260
+memcpy strncpy
+Pattern(s): 3	
+but for the example you give it doesn t matter - if it s going to fail it will be in the initial strlen so strncpy doesn t buy you anything in terms of safety and presumbly strncpy is slower as it has to both check bounds and for nul and any difference between memcpy and strcpy isn t worth changing code for speculatively
+i d tend to use memcpy if i have already calculated the length although strcpy is usually optimised to work on machine words it feels that you should provide the library with as much information as you can so it can use the most optimal copying mechanism
+
+
+
+610260
+strcpy strncpy
+Pattern(s): 3	
+but for the example you give it doesn t matter - if it s going to fail it will be in the initial strlen so strncpy doesn t buy you anything in terms of safety and presumbly strncpy is slower as it has to both check bounds and for nul and any difference between memcpy and strcpy isn t worth changing code for speculatively
+i d tend to use memcpy if i have already calculated the length although strcpy is usually optimised to work on machine words it feels that you should provide the library with as much information as you can so it can use the most optimal copying mechanism
+
+
+
+610597
+gif png
+Pattern(s): 1	
+png is capable of every image mode of gif apart from animation and when using the same image mode png will have better compression due to its superior deflate algorithm compared to lzw
+png is also capable of additional modes that gif cannot do such as 24 bit color and alpha transparency but this is where you need to be careful if you forget to convert to palette mode your png image may be saved in 24 bit color which will take more space
+
+
+
+610769
+gif png
+Pattern(s): 1	
+png is capable of every image mode of gif apart from animation and when using the same image mode png will have better compression due to its superior deflate algorithm compared to lzw
+png is also capable of additional modes that gif cannot do such as 24 bit color and alpha transparency but this is where you may run into problems on the web
+
+
+
+639452
+ubuntu debian
+Pattern(s): 1	
+unfortunately this ends up causing you a problem because ubuntu adopted all these packages from debian but doesn t support them in the same way as debian does and debian packagers seem to feel put upon to be asked to support these ubuntu users
+so ubuntu user goes to main exim list and is told to ask their packager for help
+
+
+
+661143
+folder directory
+Pattern(s): 5	
+therefore if you wish to have the compiler access com.stackoverflow.example.class present in the classes directory under project a but not in the build path of project a then you should add classes as a class folder and not classes com stackoverflow as a class folder
+you can add a directory containing the class files to the eclipse project only if it is inside one of your eclipse projects either in a generated directory or in one you have created
+
+
+
+663290
+pycrypto m2crypto
+Pattern(s): 5	
+m2crypto is built on top of openssl supports mostlyl everything you need is still maintained and up to date while pycrypto issues several deprecation warnings
+pycrypto doesn t add the mentioned padding
+
+
+
+665042
+postgresql mysql
+Pattern(s): 1	
+postgresql has better foreign key support better referential integrity transactions views subselects etc
+but that doesn t mean mysql doesn t have its place
+
+
+
+689320
+xna slimdx
+Pattern(s): 1	
+unfortunately microsoft no longer supports managed directx and it s successor xna does not support 64bit either
+slimdx is an open source alternative to managed directx and it supports 64bit
+
+
+
+699484
+cpu processors
+Pattern(s): 5	
+keep in mind that doing this calculation directly affects how much the cpu is in use
+cpu usage cannot be directly measured because unlike an x86 the arm processors doesn t have a register for it
+
+
+
+711712
+super self
+Pattern(s): 5	
+not sure why they have super and parent mean the same thing typical confusion super is the receiver not the parent of its class
+just like self is not the receiver s class
+
+
+
+716454
+webclient httpwebrequest
+Pattern(s): 1	
+if you are worried though you may want to use webclient which is idisposable
+httpwebrequest doesn t implement idisposable since it can create a stream which does implement idisposable
+
+
+
+735392
+int chars
+Pattern(s): 5	
+of unique hash codes avilable 2 32 4294967296 assuming an 32-bit int is used for hash codes size of chars set 2 26 + 1 53 26 lower as upper case letters in the latin alphabet plus underscore then you must consider that a string of length l or less has a total of 54 l representations
+note that the base is 54 rather than 53 because the string can terminate after any chars adding an extra possibility per chars - not that it greatly effects the result
+
+
+
+745963
+innodb myisam
+Pattern(s): 1	
+innodb is not always so lucky
+the myisam can also be backed-up out from under the database
+
+
+
+764215
+hash md5
+Pattern(s): 5	
+an md5 hash is a form of validation
+if a single bit in the file is different the provided hash will not match the one generated from the file you downloaded
+
+
+
+766633
+for-loop loops
+Pattern(s): 3	
+but a for-loop probably isn t what you want
+when you use two for loops your inner loops keeps going back to the start every time the outer loops loops
+
+
+
+778759
+client-side server-side
+Pattern(s): 3	
+server-side validation is required simply because client-side validation can be disabled
+client-side validation isn t required but it makes your application more responsive during error handling as you no longer need to do a form submit to the server and wait for the resulting page to come back
+
+
+
+783534
+vb.net vb6
+Pattern(s): 5	
+i m unusual in that i come from a c c++ background know c# but actually prefer vb.net i severely dislike vb6 vbscript
+i say all this because it s important to remember the vb6 is not vb.net
+
+
+
+784578
+int chars
+Pattern(s): 5	
+if cin reads an invalid number it will go into a failed state which can be checked with if cin.fail however it is easier to read the input as a string and then convert the input to an int or floating point number afterwards
+isdigit c should be called on a chars not an an int
+
+
+
+787394
+vbscript jscript
+Pattern(s): 5	
+vbscript has that ability as a global function but other windows script host languages might not
+for instance jscript does not have a global createobject function i believe it does however have a syntax so you do not need to use wscript.createobject in jscript either
+
+
+
+787579
+udp tcp
+Pattern(s): 1	
+i haven t seen this one per se but i have seen similar problems with large udp datagrams causing ip fragmentation which lead to congestion and ultimately dropped ethernet frames
+since this is tcp ip i wouldn t expect ip fragmentation to be a large issue since it is a stream-based protocol
+
+
+
+812117
+maven pom.xml
+Pattern(s): 2	
+assuming you don t want to download everything don t want to run another server process only want to track a limited number of projects you might want to create a separate pom.xml file with dependencies like this this will tell maven to use jfoo 1.0.0 up to jfoo 2.0.0 so when jfoo releases version 1.2.17 you ll be fetching that in the next build assuming your settings are set to check versions each time
+this pom.xml doesn t have to actually build anything
+
+
+
+816676
+opera firefox
+Pattern(s): 5	
+browsers firefox 2 mac firefox 3 mac firefox 3 windows firefox 2 windows webkit nightly mac safari 3 windows safari 4 mac google-chrome latest version windows opera latest version windows opera latest version mac internet explorer 6 on the xp part of the windows machine internet explorer 8 w ie7 compatibility mode on the vista part of the windows machine e-mail clients covered apple mail thunderbird firefox rendering engine on the xp machine outlook express ie6 rendering engine outlook 2003 on the xp machine outlook 2007 on the vista machine all the popular web clients on all the browsers mentioned above live mail gmail yahoo
+mail things this setup doesn t cover i don t have mac os 10.4 i only test the latest version of opera not any earlier versions due to it s small userbase i test safari 3 and safari 4 both one on windows and one on the mac not both versions on both platforms
+
+
+
+816676
+opera safari
+Pattern(s): 3	
+mail things this setup doesn t cover i don t have mac os 10.4 i only test the latest version of opera not any earlier versions due to it s small userbase i test safari 3 and safari 4 both one on windows and one on the mac not both versions on both platforms
+now safari 4 is still in beta anyway
+
+
+
+821980
+int chars
+Pattern(s): 3	
+op wrote my goal originally was to come up with a specific method to pack 1..n large int aka longs together so that their string representation is notably shorter than writing the actual number
+think multiples of ten 10 6 and 1 000 000 are the same however the representation s length in chars isn t
+
+
+
+827859
+haskell sml
+Pattern(s): 1	
+sml ocaml f# and haskell allow closed sealed algebraic types to be defined to strengthen static typing by conveying more specific constraints implicitly
+ocaml and f# also allow open sum types whereas sml does not and haskell requires an elaborate workaround described by oleg kiselyov
+
+
+
+838734
+integer unsigned
+Pattern(s): 1	
+i don t think c++ deviates from the way c handles signed unsigned conversions conversion rules are more complicated when unsigned operands are involved. the problem is that comparisons between signed and unsigned values are machine-dependent because they depend on the sizes of the various integer types
+k r one important factor to consider is whether one of the types is a long integer or not because that will affect integer promotions
+
+
+
+842610
+interpolation splines
+Pattern(s): 1	
+finding a local maximum of an interpolation splines is an easy enough thing
+note that you should generally use a true splines here not a pchip interpolant
+
+
+
+855978
+hash md5
+Pattern(s): 1	
+it doesn t matter when you digest the salt prefix postfix infix all produce different hash but achieve the same purpose of defeating rainbow tables or other pre-hashed dictionary attacks
+i think that the comment has to do specifically with a vulnerability in md5 not hashing in general
+
+
+
+857827
+button checkbox
+Pattern(s): 5	
+i assume your select all and deselect all button are using javascript to set or unset all the other checkbox in the form
+unset checkbox are not passed on
+
+
+
+886145
+int double
+Pattern(s): 5	
+because you get an int doesn t mean you got the right int
+classic example public static double sqrt double a is the signature for the java square root function
+
+
+
+894539
+opera safari
+Pattern(s): 5	
+google-chrome and opera have this feature
+ie doesn t apple safari doesn t either
+
+
+
+911855
+tput tcsh
+Pattern(s): 2	
+having decided that you are talking to terminal then you can use tput to retrieve the correct escape codes for the particular terminal you are using - this will make the code more portable
+an example script in bash i am afraid as tcsh is not my forte is given below
+
+
+
+927797
+redmine trac
+Pattern(s): 1	
+i know redmine has an additional feature that checks for these bug numbers in the commit logs and attaches the revision to the bug so you can see from the bug all the revisions that were involved in fixing it
+i d be suprised if trac doesn t have something similar
+
+
+
+937696
+floating-point fractions
+Pattern(s): 3	
+short answer python uses binary arithmetic for floating-point numbers not decimal arithmetic
+decimal fractions are not exactly representable in binary
+
+
+
+939691
+rss feed
+Pattern(s): 3	
+rss is there to keep you up to date
+if a feed publishes 10 items an hour but only shows five you ll miss five of those items and the feed isn t serving its purpose
+
+
+
+939808
+calloc malloc
+Pattern(s): 1	
+calloc does set the entire buffer to 0 but i can t imagine it being noticeably faster than malloc+memset
+allocating memory via new or malloc does not clear it
+
+
+
+945533
+postgresql mysql
+Pattern(s): 1	
+you have to use an other database like postgresql to get real blob support sorry
+i do not know which client api you use but when trying to use blobs from own java and objective-c clients it seems mysql does not really support streaming of blobs
+
+
+
+945832
+perforce svn
+Pattern(s): 1	
+as i see it the main reasons for using perforce are mature merge tracking
+svn isn t quite there yet
+
+
+
+960895
+int double
+Pattern(s): 5	
+your oggplayer is an iplay double not an iplay int
+you can t cast an iplay int to an iplay object or an iplay double to an iplay int like that
+
+
+
+961939
+for-loop loops
+Pattern(s): 3	
+for example if you want to perform all your calculations up front so that you can release a resource then a list comprehension or for-loop is probably best
+if you use psyco you ll get a significant speed increase for list expressions and for loops but not for generators
+
+
+
+964014
+perforce svn
+Pattern(s): 3	
+it s been some years since i last time used perforce but i remember it certainly didn t like anyone else messing with its workspaces
+svn doesn t like it either
+
+
+
+975194
+vb6 vba
+Pattern(s): 3	
+this knowledgebase article explains how to do it from vba it s exactly the same in vb6
+the references command is on the project menu in vb6 not the tools menu i think that s the only difference
+
+
+
+991635
+execl fork
+Pattern(s): 5	
+execl doesn t launch a process -- it overlays the existing process with another executable
+fork does launch a process -- and returns the child process s id aka pid to the parent process returns 0 to the child process that s how the child knows it s the child so it can clean things up and exec
+
+
+
+997309
+hash md5
+Pattern(s): 1	
+it is useful to check the integrity of a downloaded package such as ubuntu because generating the md5 hash will be identical if the package is exactly the same as the authenticated source
+if there are errors in the download from network interference etc. or if you downloaded a malicious package that was made to look like ubuntu but contained other code whatever then the md5 would not match and you would know something was different and you should download again from a different source
+
+
+
+999255
+postgresql mysql
+Pattern(s): 5	
+also look at the native postgresql types point lseg box path polygon and circle if you want to understand more about how postgis works and why its 2d feature implementers have a shorter row to hoe in general
+mysql does not implement a lot of spatial queries -- i don t know for sure about contains but there are ways of approximating it and other functions
+
+
+
+1039669
+nexus artifactory
+Pattern(s): 5	
+that said i have never used nexus and cannot really help you with a proper feature comparison
+here are some things off the top of my head that i really like about artifactory keep in mind nexus may have these features too nice web 2.0 interface
+
+
+
+1041539
+apache nginx
+Pattern(s): 1	
+thus using keep alive on the apache side is pointless when using nginx in front of it
+because though nginx doesn t implement keep alive it should drop the connections promptly as it will have no intention of reusing them so you shouldn t suffer if you do forget to turn of keep alive in apache when using nginx as front end
+
+
+
+1046066
+hash salt
+Pattern(s): 5	
+the actual hash in your case is after the 2nd the reason for this is so you can have many types of hash with different salt and feeds that string into a function that knows how to match it with some other value
+if the hash does not use a salt then there is no sign for that
+
+
+
+1088743
+coalesce isnull
+Pattern(s): 1	
+the coalesce is ansi standard and isnull is not
+but more important is the fact that coalesce is more flexible. isnull will only work with two parameters
+
+
+
+1102520
+folder directory
+Pattern(s): 5	
+concerning source files my project directory structure is flat no source code is in sub folder this is the default when you manage code with xcode only
+my doxyfile contains this setting this way .svn directory are not parsed by doxygen
+
+
+
+1106609
+disk ram
+Pattern(s): 1	
+network latency nearly everything that affects application speed said for disk is equivalent for network i o
+ram if your ram is not big enough to store your complete application image you need to store it on an external disk
+
+
+
+1138476
+width height
+Pattern(s): 3	
+strangely this hack only worked by resetting the width not the height
+i came across a similar problem with row height not resizing correctly
+
+
+
+1144289
+g++ gcc
+Pattern(s): 2	
+in general you should be using g++ to compile c++ programs
+either use g++ readclientfile.cpp or gcc readclientfile.cpp -lstdc++ i m guessing gcc isn t linking vs
+
+
+
+1165466
+for-loop loops
+Pattern(s): 1	
+is the same as actually the for-loop is a little better because the i will be out of scope after loops while the i will stick around in the while loops case. a for-loop is just a syntactically prettier way of looping
+no changing the type of loops wouldn t matter
+
+
+
+1218948
+int double
+Pattern(s): 5	
+the rules for type coercion are detailed in the jsp 2.1 spec for example if coercing an int to a string box the int into an int and apply the rule for coercing an int to a string
+or if coercing a string to a double apply the rule for coercing a string to a double then unbox the resulting double making sure the resulting double isn t actually null
+
+
+
+1222199
+wsdl.exe svcutil.exe
+Pattern(s): 5	
+wsdl.exe is part of the asmx web service technology that microsoft now considers to be legacy code which will not have bugs fixed
+actually you should do this with svcutil.exe not with wsdl.exe
+
+
+
+1250008
+lisp scheme
+Pattern(s): 3	
+while common lisp supports a functional programming style that is not its general focus scheme while not purely functional is much closer
+common lisp supports a completely imperative style of programming very well
+
+
+
+1252126
+jsf seam
+Pattern(s): 5	
+i like jsf and i evaluated seam not long ago
+jsf is a web ui framework whereas seam is a more general web application framework that integrates not just jsf but conversational contexts workflow jbpm and object persistance preferably ejb3
+
+
+
+1255091
+dictionary map
+Pattern(s): 5	
+the dictionary is not thread safe so if you let one thread read from it while another thread is changing it you will have problems
+remember that using lock on the map object doesn t protect the map object in itself it s only using the map reference as an identifier to keep more than one thread at a time to run the code inside the lock
+
+
+
+1263645
+for-loop arrays
+Pattern(s): 5	
+if varscount is 0 the for-loop won t execute anyway
+it means one of your arrays isn t actually an arrays
+
+
+
+1270960
+filesystems fat
+Pattern(s): 5	
+with that session handler the age of the session data is calculated on the file s last modification date and not the last access date note if you are using the default file-based session handler your filesystems must keep track of access times atime
+windows fat does not so you will have to come up with another way to handle garbage collecting your session if you are stuck with a fat filesystems or any other filesystems where atime tracking is not available
+
+
+
+1281258
+actionscript mxml
+Pattern(s): 3	
+mxml is simply declarative actionscript so there is no difference between creating your instance in actionscript or using the mxml notation
+your function could be changed to or if your actionscript does not have a reference to the display list than you cannot add the custom component to the display list
+
+
+
+1281258
+actionscript mxml
+Pattern(s): 5	
+your function could be changed to or if your actionscript does not have a reference to the display list than you cannot add the custom component to the display list
+adding an mxml based custom component is no different than adding any other displayobject to the display list is the same as both the sprite and the startsplashpage are extensions of displayobject at their core
+
+
+
+1301375
+division multiplication
+Pattern(s): 5	
+in 64 bits it s okay obviously after the multiplication has overflowed the division isn t going to undo that overflow
+because the multiplication overflows 32 bit integers
+
+
+
+1302763
+directx gdi
+Pattern(s): 5	
+directx is not something you would use to draw simple shapes rather render complicated 3d stuff also using dx api under c# is a bit trickier although not that hard
+read about gdi gdi+ system.drawing namespace for example here
+
+
+
+1417633
+xfs btrfs
+Pattern(s): 3	
+xfs does not always do so which can result in much better performance for applications which use short-lived temporary files if you have enough ram
+i suspect that the modern linux filesystems ext4 btrfs do this too
+
+
+
+1447603
+directsound mixer
+Pattern(s): 5	
+for example directsound has a method idirectsoundbuffer that allows you to set the volume for that sound buffer
+per-application volume control whether it s exposed via the system mixer or not is a dramatically better experience for customers than an application controlling the master volume
+
+
+
+1459435
+freemarker velocity
+Pattern(s): 3	
+freemarker is also a lot more flexible in my experience
+velocity isn t really under active development any more
+
+
+
+1500006
+int chars
+Pattern(s): 1	
+had to google your problem to understand what it was here it is please be considerate of your readers x your code cannot actually work long int is not long enough and this is implementation dependent anyway you will have to read the int chars by chars and roll your own implementation of bigints which is the difficulty of the problem here i surmise
+furthermore you will have to deal with overflow the result of int x int might not fit into an int
+
+
+
+1539011
+getter setter
+Pattern(s): 3	
+if the current value of the property as returned by the getter is same as the value to be set the setter is not called
+traced output get called false set called with true current is false get called true note that the getter was called twice but the setter was called only once
+
+
+
+1539011
+getter setter
+Pattern(s): 3	
+traced output get called false set called with true current is false get called true note that the getter was called twice but the setter was called only once
+in the second assignment since the current value and value to be set are same true the setter is not called
+
+
+
+1557382
+decoder encoder
+Pattern(s): 1	
+an amf3 decoder should not use the traits from a partially-constructed object -- such input should be flagged as erroneous
+the strings-reference table is implemented at the encoder by tagging in-memory string objects as they are serialized
+
+
+
+1618621
+udp tcp
+Pattern(s): 5	
+udp does not guarantee that a given packet was actually received so encoding whatever you transmit as a difference from last time is problematic -- you can t know that your counterpart has the same idea as you about what the last time was
+essentially you d have to build some overhead on top of udp to check what packets have been received tagging each packet with a unique id -- everybody who s tried to go this route will agree that more often than not you find yourself more or less duplicating the tcp streaming infrastructure on top of udp.
+
+
+
+1630987
+postgresql mysql
+Pattern(s): 3	
+pl postgresql is actually a nice language + you can use many other languages
+mysql doesn t have sequences so if you need them you have to roll your own
+
+
+
+1645300
+identifier ambiguous
+Pattern(s): 5	
+an identifier cannot have the same spelling unicode character sequence as a keyword 3.9 boolean literal 3.10.3 or the null literal 3.10.7
+as for why this decision was made probably because this simplifies parsing avoids ambiguous grammar allows introduction of special syntax in a later version of the language and or for historical reasons because most other languages have the same restrictionsimilar restrictions
+
+
+
+1648773
+vim textmate
+Pattern(s): 5	
+vim offers coloration for diff files
+if you d rather go graphical use macvim which is free or textmate not free
+
+
+
+1665680
+salt dpapi
+Pattern(s): 1	
+the salt adds an additional layer of difficulty in doing so
+dpapi cannot usually be used in web farms - the key store is specific to the machine
+
+
+
+1667192
+google-chrome firefox
+Pattern(s): 3	
+for example google-chrome doesn t highlight the options in the drop down
+firefox does but then it doesn t change them back if you move the mouse away and they are still pulled down
+
+
+
+1681855
+uiviewcontroller uinavigationcontroller
+Pattern(s): 5	
+therefore your approach is exactly right use uinavigationcontroller s subclass of uiviewcontroller in place of standard view controllers when you want to achieve navigation within a given tab
+the uitabbarcontroller represents its sub-tabs as an array of uiviewcontroller s not an array of uinavigationcontroller s
+
+
+
+1689550
+smtps smtp-auth
+Pattern(s): 5	
+basic smtps doesn t require auth at all
+smtp-auth is defined in rfc 4954 but it doesn t define the specific type of auth you re using here auth login
+
+
+
+1692137
+pexpect subprocess
+Pattern(s): 1	
+as i ve often said use pexpect not subprocess etc to run subprocess when you need to get their continuous output
+pexpect fools the subprocess into believing it s running on a terminal so the subprocess will provide just the kind of output it would give on a real terminal.
+
+
+
+1711204
+ienumerable iqueryable
+Pattern(s): 5	
+the where extension methods for ienumerable indeed take a system.func which is how you are trying to pass the predicate here
+but you re working with iqueryable not ienumerable
+
+
+
+1715461
+hash md5
+Pattern(s): 5	
+a md5 hash has no internal structure or any kind of signature that allows you detect if a 128 bit value is a md5 hash or not
+a md5 hash is a 128 bit value
+
+
+
+1717875
+cpu processors
+Pattern(s): 2	
+so you may be starving ssis of cpu not memory
+you could try changing processors affinity to allow sql server to use only 16 cores and let the memory find it s own level
+
+
+
+1717875
+cpu affinity
+Pattern(s): 5	
+so you may be starving ssis of cpu not memory
+you could try changing processors affinity to allow sql server to use only 16 cores and let the memory find it s own level
+
+
+
+1726026
+int boolean
+Pattern(s): 3	
+this is especially true if the definition of numeric is a bit different in your case according to code - unsigned int are not numerics
+another thing is that datacolumn.datatype according to msdn only supports following types boolean byte chars datetime decimal double int16 int32 int64 sbyte single string timespan uint16 uint32 uint64 byte the bolded types are numerics as i define it so you need to make sure you check them
+
+
+
+1733555
+octal binary
+Pattern(s): 3	
+hex and octal are close enough to binary
+most data on a hdd is binary data not meant to represent printable characters so if you use cat a command meant to output text not binary you get meaningless mush
+
+
+
+1746127
+int chars
+Pattern(s): 5	
+if you really want to name your property int don t do this you can use the verbatim operator from msdn the prefix enables the use of keywords as identifiers which is useful when interfacing with other programming languages
+the chars is not actually part of the identifier so the identifier might be seen in other languages as a normal identifier without the prefix
+
+
+
+1746956
+fgets getline
+Pattern(s): 5	
+if you can bound the maximum length of a line fgets may be a better way to read each line
+but since you mention c++ you might consider using instead getline caveat fgets also put the n in the buffer it fills getline doesn t
+
+
+
+1753040
+hash salt
+Pattern(s): 5	
+storing the salt unencrypted in the database next to the hash passwords is not a problem
+the purpose of the salt is not to be secret
+
+
+
+1759072
+strlen substr
+Pattern(s): 1	
+you are using multibyte strings and strlen is not mb aware use the idioms substr session 0 -32 to get the payload part of the string
+maybe substr doesn t cope with multibyte strings too use explicitally mb_substr or whatever it is called
+
+
+
+1777759
+innodb myisam
+Pattern(s): 1	
+innodb maintains referential integriry
+myisam does not
+
+
+
+1795117
+postgresql mysql
+Pattern(s): 5	
+some things i ve personally used or seen used in postgresql that don t really exist in mysql afaict
+transactions and full-text search together i know it s popular to use an external fts since mysql doesn t have one
+
+
+
+1802269
+filesystems ntfs
+Pattern(s): 1	
+but the case conversion table is stored on the filesystems itself for ntfs and it does change between versions for instance the vista case conversion table was brought to the unicode 5 level so vista ntfs and xp ntfs have different case conversion rules
+and the thing that matters is the os that formatted the filesystems not the current os
+
+
+
+1812362
+int chars
+Pattern(s): 5	
+note this holds true even if the int was 32 bit - check amnon s answer
+it is implementation dependent and results might vary on a different platform compiler but it seems this is what is happening 515 in binary is 1000000011 padding zeros to make it two bytes assuming 16 bit int 0000001000000011 the two bytes are 00000010 and 00000011 which is 2 and 3 hope someone explains why they are reversed - my guess is that chars are not reversed but the int is little endian
+
+
+
+1884628
+hash salt
+Pattern(s): 3	
+however the combination of a salt and a password may lead to the same string or hash in the end and the hash will be exactly the same so make sure to use a combination of salt and password where two different combination won t lead to the same hash
+another intention behind the use of a salt is to make sure two users with the same password won t end up having the same hash in the users table assuming their salt are not the same
+
+
+
+1893638
+freebsd linux
+Pattern(s): 1	
+all servers are nix-like freebsd os x linux but not all run apache
+my freebsd mirror runs xshttpd somebody most knowledgable must be dedicated maintainer for a long time
+
+
+
+1935879
+integer unsigned
+Pattern(s): 1	
+user_group id integer unsigned not null auto_increment primary key user_id integer unsigned not null group_id integer unsigned not null
+group id integer unsigned not null auto_increment primary key name varchar 75 not null description varchar 255 mailinglist id integer unsigned not null auto_increment primary key user_id integer unsigned not null
+
+
+
+1935879
+integer unsigned
+Pattern(s): 1	
+group id integer unsigned not null auto_increment primary key name varchar 75 not null description varchar 255 mailinglist id integer unsigned not null auto_increment primary key user_id integer unsigned not null
+# mails to be sent out to groups all mailqueue id integer unsigned not null auto_increment primary key group_id integer unsigned time_to_send datetime default current_timestamp
+
+
+
+1951182
+webrat cucumber
+Pattern(s): 5	
+actually the problem lies in webrat not cucumber
+the sequence of events is roughly cucumber runs your feature when the i am on the home page step is reached it invokes webrat to make the request to the controller webrat constructs a request and sends it to the controller step fails because the request does not have an accept-language header apparently webrat does not add this header when it builds the request
+
+
+
+1951458
+hash salt
+Pattern(s): 2	
+edit as op noted just using a hash algorithm isn t enough
+you must to add a salt to make it harder to break
+
+
+
+1952390
+gif png
+Pattern(s): 1	
+the gif format doesn t support this so unfortunately no there isn t a way to do it
+the edges in a png are smooth because of anti-aliasing and thus variable opacity
+
+
+
+1977069
+serializable deserialization
+Pattern(s): 5	
+datacontractserializer it s fast - around 10 faster than xmlserializer it s interoperable - works flawlessly with java ruby - you name it uses explicit opt-in model - you need to mark what gets serializable doesn t require any constructor can serializable non-public members and internal fields doesn t support attributes on xml nodes you tell the dcs explicitly what to serializable but you don t have much influence over how it s done
+xmlserializer serializes only public fields and properties serializes everything except those you exclude opt-out model support attributes and everything it s interoperable - works flawlessly with java ruby - you name it requires a parameterless constructor for deserialization you tell the xmlserializer pretty clearly how and what to serializable but you cannot serializable everything - only publicly visible properties
+
+
+
+1999033
+windows wow64
+Pattern(s): 5	
+if you know you are running on 64-bit windows then if it a process is running in wow64 mode then it must be 32-bit that is what wow64 is for - running 32-bit applications on 64-bit windows if not then you can assume 64-bit
+from msdn wow64 is the x86 emulator that allows 32-bit windows-based applications to run seamlessly on 64-bit windows
+
+
+
+2049167
+folder directory
+Pattern(s): 5	
+if you want the application folder use the application.startuppath property
+yes it s normal and no the current directory is not always the application folder
+
+
+
+2051084
+superclass subclassing
+Pattern(s): 1	
+the is maybe superfluous but it shows the fact that the parent superclass should not be instanciated
+the subclassing has no additional property so the subclassing tag is empty
+
+
+
+2054971
+jlist jtable
+Pattern(s): 5	
+jlist is not yet editable and might never be
+jtable would handle the layout problems for you and you can easily access the values via the table
+
+
+
+2062470
+g++ gcc
+Pattern(s): 5	
+and in a round about way if you had used the c++ compiler driver or g++ in your original example you wouldn t have encountered this problem shell g++ -m64 hello.cc shell . a.out hello world the reason for this is gcc essentially says use c rules when driving the tool chain and g++ says use c++ rules when driving the tool chain
+g++ knows that to create a working executable it needs to pass -lstdc++ to the linker stage whereas gcc obviously doesn t think this is necessary even though it knew to use the c++ compiler at the compile the source code stage because of the .cc file ending
+
+
+
+2068023
+maven pom.xml
+Pattern(s): 5	
+update to cover questions from the op in comments fighting against maven doesn t sound fun
+this is a parent pom.xml used for project aggregation
+
+
+
+2080152
+gmail hotmail
+Pattern(s): 1	
+pop3 available for all users of gmail but not recommended because of pop3 inherent limitations no folder no get new messages
+hotmail pop3 available for all users but again pop3 inherent limitations no folder no sent mail no get new messages in addition to hotmail limitation called 15-minutes-delay-necessary for pop3 access
+
+
+
+2081470
+profiling instrumentation
+Pattern(s): 5	
+a profiling will not be a solution to a coding style that is x slower than optimal however you still need to spend time fine-tuning those parts of your code that are used more often than others
+because of instrumentation profiled code on average will run slower than non-profiled code
+
+
+
+2088188
+daemons systemd
+Pattern(s): 1	
+alternatively you could further raise the technological stakes by having the daemons return not the password but rather the open socket ready to be wrapped in a db-api compliant wrapper
+some unix systemd allow open file descriptors to be sent between unrelated processes a prereq for this approach -- and of course you d have to substantially rework the mysql-based db api to allow opening a connection around an already-open socket rather than a freshly made one
+
+
+
+2096717
+stdout stderr
+Pattern(s): 1	
+stdout is line-buffered by default so that is relatively safe
+stderr is not
+
+
+
+2104528
+post put
+Pattern(s): 5	
+post is not idempotent
+so you should not use for the update or the delete instead use put and delete from rest 2 a better choice is to use the header content-type on the ws call like application xml 3 also on the header content-type u can use it application-v1.0 xml 4 not sure if it is the best but probably the easiest way is to use http s built-in authentication mechanisms in rfc 2617
+
+
+
+2126370
+textarea textbox
+Pattern(s): 3	
+if you want multiline text input you should be using textarea not input textbox
+textbox are only a single line of text so no newlines
+
+
+
+2167218
+maven pom.xml
+Pattern(s): 1	
+with maven things are relative to the directory containing the pom.xml which is represented by the property and is called the base directory
+there are however some situations where you could have to specify a relative path if a pom.xml is not directly above a given module using a element see this example if modules are not nested if you use a flat layout using a relative path in the various elements like in this example
+
+
+
+2188765
+g++ gcc
+Pattern(s): 5	
+you should also use not the old iostream.h use g++ to compile c++ programs it ll link in the standard c++ library
+gcc will not
+
+
+
+2215111
+g++ gcc
+Pattern(s): 5	
+also it was offered to me as an explanation that the x86 has very few registers and g++ was not good at allocating them
+update for a more thorough comparison of microsoft and gnu compilers go to this c compiler benchmark . according to how i read these figures the difference between microsoft and gcc for 32 bit are on par with each other although gcc is tested with profile guided optimization pgo and microsoft isn t there s no pgo in vs express
+
+
+
+2233311
+opera safari
+Pattern(s): 5	
+well firefox and opera do not support non-free codecs such as mp3 as with the opera 10.5 alpha firefox 3.5 and later supports only pcm wav and ogg vorbis for audio
+i believe google-chrome and safari do support mp3 however
+
+
+
+2269313
+haskell ocaml
+Pattern(s): 1	
+secondly the haskell ffi is more powerful that is it does more with less code than ocaml s and more libraries are avaliable via hackage so i don t think foreign interfaces will be a deciding factor
+the only problem i can see is that ocaml doesn t really support multicore parallelism while ghc has excellent support and performance
+
+
+
+2316518
+next except
+Pattern(s): 3	
+a block except lambdas doesn t support return but you can skip to the next statement using next which in a rake task has the same effect of using return in a method
+task foo do puts printed next puts never printed end or you can move the code in a method and use return in the method
+
+
+
+2324542
+client-side server-side
+Pattern(s): 1	
+you cannot affect client-side print settings with a server-side language not even vb.net
+the web server and the browser run in different machines and neither html nor client-side javascript define such features
+
+
+
+2335441
+folder directory
+Pattern(s): 5	
+you have to look at your repository s folder not the program folder
+the directory structure is per repository
+
+
+
+2340109
+condor checkpoint
+Pattern(s): 3	
+i was favoring sge because i was more familiar with that environment but condor won finally because the customer infrastructure is windows oriented and the sge solution requires a unix or linux machine for the central manager + installing ms services for unix on the computation hosts support and installation process of condor on windows was much simpler
+however you cannot use the most interesting features of condor on windows checkpoint is not available nor the condor specific ios
+
+
+
+2364018
+viewmodel caliburn
+Pattern(s): 5	
+the module is responsible for instantiating any views necessary at the start and contributing back to the shell during initialize and that s typically it so when you attack this problem you ll want to focus on your views viewmodel and not the module classes
+options off the top of my head adopt a complimentary framework like caliburn that has support for application events like this as well as some mdi events like viewclosing that kind of thing
+
+
+
+2366350
+mspec nspec
+Pattern(s): 1	
+using bdd style tests reads a lot better for me and mspec is a nice light framework to use
+here some other popular frameworks nbehave nspec another nspec not related to the above nspec edit i ve started using storyq in the past month or so and have found it to be really good
+
+
+
+2370392
+int boolean
+Pattern(s): 3	
+such an int is essentially an abstract data type and can be backed up by say a 64-bit physical memory word on a 64-bit machine
+the same goes for nonprimitive types the java language specification says nothing about how class fields should be aligned in physical memory or that an array of boolean couldn t be implemented as a compact bitvector inside the jvm
+
+
+
+2375539
+java.util.date simpledateformat
+Pattern(s): 1	
+jodatime s datetimeformat to rescue time and timezone difference in tostring is just because i m at gmt-4 and didn t set locale explicitly if you want to end up with java.util.date just use datetime#todate wait for jdk7 jsr-310 jsr-310 the referrence implementation is called threeten hopefully it will make it into java 8 if you want a better formatter in the standard java se api
+the current simpledateformat indeed doesn t eat the colon in the timezone notation
+
+
+
+2393989
+nunit mstest
+Pattern(s): 1	
+nunit allows abstract classes to be test fixtures so you can inherit test fixtures
+mstest does not
+
+
+

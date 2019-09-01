@@ -6,17 +6,12 @@ import datetime
 from multiprocessing import Process
 #import psycopg2
 import operator
-import pymysql
+import psycopg2
 import os.path
 import pickle
-from nltk import pos_tag
 from prepros import get_words
-from nltk.parse import CoreNLPParser
 import spacy
-from spacy.matcher import Matcher
 from multiprocessing.dummy import Pool as ThreadPool
-from big_tag_group import selected_tags, full_list, selected_tags_dict
-from stanfordcorenlp import StanfordCoreNLP
 from old_pattern_matcher import OldPatternMatcher
 from lease_filter_pronoun import Check_new_pattern
 
@@ -314,7 +309,7 @@ def main(start):
     try:
         pre_words = []
         post_words = []
-        conn = pymysql.connect(host='localhost', user='root', password='1234', db='Stackoverflow')
+        conn = psycopg2.connect('dbname=stackoverflow port=5433 host=localhost')
         cursor = conn.cursor()
         query = "SELECT Id, Body FROM {} WHERE Score = 0 AND posttypeid != 1 AND Id >= {} AND Id < {}".format(table_name, start, start+batch)
         # query = "SELECT Id, Body FROM Posts WHERE Id = 90444"

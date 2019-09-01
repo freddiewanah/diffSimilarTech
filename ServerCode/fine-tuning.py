@@ -31,10 +31,9 @@ LABEL_COLUMN = 'polarity'
 label_list = [0, 1, 2]
 
 # read files
-train = pd.read_csv("train_data.csv")
+train = pd.read_csv("train_data200.csv")
 test = pd.read_csv("test_data.csv")
 
-print(train.columns)
 
 # Use the InputExample class from BERT's run_classifier code to create examples from the data
 train_InputExamples = train.apply(lambda x: bert.run_classifier.InputExample(guid=None, # Globally unique ID for bookkeeping, unused in this example
@@ -48,23 +47,29 @@ test_InputExamples = test.apply(lambda x: bert.run_classifier.InputExample(guid=
                                                                    label = x[LABEL_COLUMN]), axis = 1)
 
 # This is a path to an uncased (all lowercase) version of BERT
-BERT_MODEL_HUB = "https://tfhub.dev/google/bert_uncased_L-12_H-768_A-12/1"
+# BERT_MODEL_HUB = "https://tfhub.dev/google/bert_uncased_L-12_H-768_A-12/1"
 
 
-def create_tokenizer_from_hub_module():
-    """Get the vocab file and casing info from the Hub module."""
-    with tf.Graph().as_default():
-        bert_module = hub.Module(BERT_MODEL_HUB)
-        tokenization_info = bert_module(signature="tokenization_info", as_dict=True)
-        with tf.Session() as sess:
-            vocab_file, do_lower_case = sess.run([tokenization_info["vocab_file"],
-                                                  tokenization_info["do_lower_case"]])
+# def create_tokenizer_from_hub_module():
+#     """Get the vocab file and casing info from the Hub module."""
+#     with tf.Graph().as_default():
+#         bert_module = hub.Module(BERT_MODEL_HUB)
+#         tokenization_info = bert_module(signature="tokenization_info", as_dict=True)
+#         with tf.Session() as sess:
+#             vocab_file, do_lower_case = sess.run([tokenization_info["vocab_file"],
+#                                                   tokenization_info["do_lower_case"]])
 
-    return bert.tokenization.FullTokenizer(
-        vocab_file=vocab_file, do_lower_case=do_lower_case)
+    # return bert.tokenization.FullTokenizer(
+    #     vocab_file=vocab_file, do_lower_case=do_lower_case)
 
 
-tokenizer = create_tokenizer_from_hub_module()
+BERT_VOCAB= '../wwm_uncased_L-24_H-1024_A-16/vocab.txt'
+BERT_INIT_CHKPNT = '../wwm_uncased_L-24_H-1024_A-16/bert_model.ckpt'
+BERT_CONFIG = '../wwm_uncased_L-24_H-1024_A-16/bert_config.json'
+
+tokenization.validate_case_matches_checkpoint(True,BERT_INIT_CHKPNT)
+tokenizer = tokenization.FullTokenizer(
+      vocab_file=BERT_VOCAB, do_lower_case=True)
 
 # We'll set sequences to be at most 128 tokens long.
 MAX_SEQ_LENGTH = 128
@@ -75,22 +80,19 @@ test_features = bert.run_classifier.convert_examples_to_features(test_InputExamp
 def create_model(is_predicting, input_ids, input_mask, segment_ids, labels,
                  num_labels):
   """Creates a classification model."""
-
-  bert_module = hub.Module(
-      BERT_MODEL_HUB,
-      trainable=True)
-  bert_inputs = dict(
+  bert_config = modeling.BertConfig.from_json_file(BERT_CONFIG)
+  model = modeling.BertModel(
+      config=bert_config,
+      is_training=not is_predicting,
       input_ids=input_ids,
       input_mask=input_mask,
-      segment_ids=segment_ids)
-  bert_outputs = bert_module(
-      inputs=bert_inputs,
-      signature="tokens",
-      as_dict=True)
+      token_type_ids=segment_ids,
+      use_one_hot_embeddings=False)
+
 
   # Use "pooled_output" for classification tasks on an entire sentence.
   # Use "sequence_outputs" for token-level output.
-  output_layer = bert_outputs["pooled_output"]
+  output_layer = model.get_pooled_output()
 
   hidden_size = output_layer.shape[-1].value
 
@@ -105,7 +107,7 @@ def create_model(is_predicting, input_ids, input_mask, segment_ids, labels,
   with tf.variable_scope("loss"):
 
     # Dropout helps prevent overfitting
-    output_layer = tf.nn.dropout(output_layer, rate=0.1)
+    output_layer = tf.nn.dropout(output_layer, keep_prob=0.9)
 
     logits = tf.matmul(output_layer, output_weights, transpose_b=True)
     logits = tf.nn.bias_add(logits, output_bias)
@@ -152,29 +154,29 @@ def model_fn_builder(num_labels, learning_rate, num_train_steps,
 
             # Calculate evaluation metrics.
             def metric_fn(label_ids, predicted_labels):
-                accuracy = tf.compat.v1.metrics.accuracy(label_ids, predicted_labels)
+                accuracy = tf.metrics.accuracy(label_ids, predicted_labels)
                 f1_score = tf.contrib.metrics.f1_score(
                     label_ids,
                     predicted_labels)
-                auc = tf.compat.v1.metrics.auc(
+                auc = tf.metrics.auc(
                     label_ids,
                     predicted_labels)
-                recall = tf.compat.v1.metrics.recall(
+                recall = tf.metrics.recall(
                     label_ids,
                     predicted_labels)
-                precision = tf.compat.v1.metrics.precision(
+                precision = tf.metrics.precision(
                     label_ids,
                     predicted_labels)
-                true_pos = tf.compat.v1.metrics.true_positives(
+                true_pos = tf.metrics.true_positives(
                     label_ids,
                     predicted_labels)
-                true_neg = tf.compat.v1.metrics.true_negatives(
+                true_neg = tf.metrics.true_negatives(
                     label_ids,
                     predicted_labels)
-                false_pos = tf.compat.v1.metrics.false_positives(
+                false_pos = tf.metrics.false_positives(
                     label_ids,
                     predicted_labels)
-                false_neg = tf.compat.v1.metrics.false_negatives(
+                false_neg = tf.metrics.false_negatives(
                     label_ids,
                     predicted_labels)
                 return {
@@ -216,7 +218,7 @@ def model_fn_builder(num_labels, learning_rate, num_train_steps,
 # These hyperparameters are copied from this colab notebook (https://colab.sandbox.google.com/github/tensorflow/tpu/blob/master/tools/colab/bert_finetuning_with_cloud_tpus.ipynb)
 BATCH_SIZE = 32
 LEARNING_RATE = 2e-5
-NUM_TRAIN_EPOCHS = 4.0
+NUM_TRAIN_EPOCHS = 3.0
 # Warmup is a period of time where hte learning rate
 # is small and gradually increases--usually helps training.
 WARMUP_PROPORTION = 0.1
@@ -267,43 +269,23 @@ def getPrediction(in_sentences):
   input_features = run_classifier.convert_examples_to_features(input_examples, label_list, MAX_SEQ_LENGTH, tokenizer)
   predict_input_fn = run_classifier.input_fn_builder(features=input_features, seq_length=MAX_SEQ_LENGTH, is_training=False, drop_remainder=False)
   predictions = estimator.predict(predict_input_fn)
-  return [(sentence, prediction['probabilities'], prediction['labels']) for sentence, prediction in zip(in_sentences, predictions)]
+  return [(sentence, prediction['probabilities'], labels[prediction['labels']]) for sentence, prediction in zip(in_sentences, predictions)]
 
 
-# test_input_fn = run_classifier.input_fn_builder(
-#     features=test_features,
-#     seq_length=MAX_SEQ_LENGTH,
-#     is_training=False,
-#     drop_remainder=False)
+test_input_fn = run_classifier.input_fn_builder(
+    features=test_features,
+    seq_length=MAX_SEQ_LENGTH,
+    is_training=False,
+    drop_remainder=False)
 
-# print(estimator.evaluate(input_fn=test_input_fn, steps=None))
+print(estimator.evaluate(input_fn=test_input_fn, steps=None))
 
-# pred_sentences = [
-#   "That movie was absolutely awful",
-#   "The acting was a bit lacking",
-#   "The film was creative and surprising",
-#   "Absolutely fantastic!"
-# ]
 pred_sentences = [
-
+  "That movie was absolutely awful",
+  "The acting was a bit lacking",
+  "The film was creative and surprising",
+  "Absolutely fantastic!"
 ]
-test_dict = test.to_dict()
 
-sentences = test_dict["sentence"]
-
-for k in sentences.keys():
-    pred_sentences.append(sentences[k])
-# print(len(pred_sentences))
-predictions = getPrediction(pred_sentences)
-count = 0
-
-print("Showing results")
-for k in sentences.keys():
-    # print(predictions[k])
-    if test_dict["polarity"][k] != predictions[k][-1]:
-        print("truth is {}, prediction is {}".format(test_dict["polarity"][k], predictions[k][-1]))
-        print(k+2)
-        count += 1
-
-
-print(count)
+# predictions = getPrediction(pred_sentences)
+# print(predictions)

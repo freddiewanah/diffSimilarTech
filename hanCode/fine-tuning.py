@@ -32,7 +32,7 @@ label_list = [0, 1, 2]
 
 # read files
 train = pd.read_csv("train_data.csv")
-test = pd.read_csv("test_data.csv")
+test = pd.read_csv("test_data2.csv")
 
 print(train.columns)
 

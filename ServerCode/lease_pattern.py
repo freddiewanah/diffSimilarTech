@@ -270,7 +270,7 @@ def check_tech_pairs(pre, words, post, word_ori, post_ori, current_id):
     for (first, second) in tech_pairs:
 
         if "{} or {}".format(first, second) in words or "{} and {}".format(first, second) in words or "{}, {}".format(first, second) in words or "{} or {}".format(second, first) in words or "{} and {}".format(second, first) in words or "{}, {}".format(second, first) in words:
-        	continue
+            continue
         if first in words and second in words and changed == "words":
             rtn.append(first)
             rtn.append(second)
@@ -309,10 +309,10 @@ def main(start):
     try:
         pre_words = []
         post_words = []
-        conn = psycopg2.connect('dbname=stackoverflow port=5433 host=localhost')
+        conn = psycopg2.connect('dbname=stackoverflow port=5432 host=localhost')
         cursor = conn.cursor()
-        query = "SELECT Id, Body FROM {} WHERE Score = 0 AND posttypeid != 1 AND Id >= {} AND Id < {}".format(table_name, start, start+batch)
-        # query = "SELECT Id, Body FROM Posts WHERE Id = 90444"
+        query = "SELECT Id, Body FROM {} WHERE Score >= 0 AND posttypeid != 1 AND Id >= {} AND Id < {}".format(table_name, start, start+batch)
+        # query = "SELECT Id, Body FROM Posts WHERE Id = 3979"
         # query = "SELECT Id, Body FROM Posts WHERE Id = 115838 "
         cursor.execute(query)
 
@@ -371,7 +371,7 @@ def main(start):
         print("Proc {}: {}/{} from {} to {} ({} posts)".format(os.getpid(), compa_sent_count, total_sent_count, start, current_id, post_count))
 
 
-datalist =[50097354]
+datalist =[53343357]
 
 # procs = []
 # for i in range(3):

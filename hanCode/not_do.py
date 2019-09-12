@@ -1,12 +1,12 @@
 import datetime
 from multiprocessing import Process
-import psycopg2
 import operator
 import os.path
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import pickle
 from nltk import pos_tag
 from prepros import get_words
+import psycopg2
 from nltk.parse import CoreNLPParser
 import spacy
 from spacy.matcher import Matcher
@@ -223,7 +223,7 @@ class PatternMatcher:
                             # print("words: ", words)
                             # print("\n\n\n\n")
                             self.compa_sent_count += 1
-                            data = open(os.path.join(os.pardir, "outnew", "pattern_v4", "not_do_output_{}.txt".format(os.getpid())), "a")
+                            data = open(os.path.join(os.pardir, "outnew", "pattern_v4", "not_do_leased_output_{}.txt".format(os.getpid())), "a")
                             data.write("{}\n".format(current_id))
                             data.write("{}\nPattern(s): ".format(tech_pair))
                             data.write(str(pa[0]) + "\t")
@@ -250,7 +250,7 @@ class PatternMatcher:
                             # print("\n\n\n\n")
                             self.compa_sent_count += 1
                             data = open(os.path.join(os.pardir, "outnew", "pattern_v4",
-                                                     "not_do_output_{}.txt".format(os.getpid())), "a")
+                                                     "not_do_leased_output_{}.txt".format(os.getpid())), "a")
                             data.write("{}\n".format(current_id))
                             data.write("{}\nPattern(s): ".format(tech_pair))
                             data.write(str(pa[0]) + "\t")
@@ -400,7 +400,7 @@ def main(start):
         post_words = []
         conn = psycopg2.connect('dbname=stackoverflow port=5432 host=localhost')
         cursor = conn.cursor()
-        query = "SELECT Id, Body FROM {} WHERE Score > 0 AND posttypeid != 1 AND Id >= {} AND Id < {}".format(table_name, start, start+batch)
+        query = "SELECT Id, Body FROM {} WHERE Score >= 0 AND posttypeid != 1 AND Id >= {} AND Id < {}".format(table_name, start, start+batch)
         # query = "SELECT Id, Body FROM Posts WHERE Id = 157785 or Id = 109038"
         # query = "SELECT Id, Body FROM Posts WHERE Id = 912729"
         cursor.execute(query)
@@ -434,7 +434,7 @@ def main(start):
                     else:
                         compa_sent_count += 1
                         data_file = open(
-                            os.path.join(os.pardir, "outnew", "{}_v4".format(table_name), "leased_{}.txt".format(os.getpid())),
+                            os.path.join(os.pardir, "outnew", "{}_v4".format(table_name), "leased_not_{}.txt".format(os.getpid())),
                             "a")
                         data_file.write("{}\n".format(current_id))
                         data_file.write("{}\n".format(rtn[2]))
@@ -467,7 +467,7 @@ def main(start):
 #     proc.join()
 
 
-data = [0]
+data = [50656522]
 pool = ThreadPool()
 pool.map(main, data)
 pool.close()

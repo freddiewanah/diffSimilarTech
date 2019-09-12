@@ -8,27 +8,10 @@ import os
 import row_processor as Processor
 import six
 import json
-import pymysql
-import paramiko
-import pandas as pd
-from paramiko import SSHClient
-from paramiko import SSHTunnelForwarder
-from os.path import expanduser
-
-sql_hostname = 'localhost'
-sql_username = 'root'
-sql_password = '1234'
-sql_main_database = 'stackoverflow'
-sql_port = 3306
-ssh_host = '101.200.125.7'
-ssh_user = 'wanghan'
-ssh_port = 30022
-ssh_password='hanwang'
-
 
 # Special rules needed for certain tables (esp. for old database dumps)
 specialRules = {
-    ('Post', 'ViewCount'): "NULLIF(%(ViewCount)s, '')::int"
+    ('Posts', 'ViewCount'): "NULLIF(%(ViewCount)s, '')::int"
 }
 
 # part of the file already downloaded
@@ -168,7 +151,7 @@ def _getTableKeys(table):
             , 'CreationDate'
             , 'BountyAmount'
         ]
-    elif table == 'Post':
+    elif table == 'Posts':
         keys = [
             'Id'
             , 'PostTypeId'
@@ -237,59 +220,52 @@ def handleTable(table, insertJson, createFk, mbDbFile, dbConnectionParam):
         sys.exit(-1)
 
     try:
-        with SSHTunnelForwarder(
-                (ssh_host, ssh_port),
-                ssh_username=ssh_user,
-                ssh_password=ssh_password,
-                remote_bind_address=(sql_hostname, sql_port)) as tunnel:
-            with pymysql.connect(host='127.0.0.1', user=sql_username,
-            passwd=sql_password, db=sql_main_database,
-            port=tunnel.local_bind_port) as conn:
-                with conn.cursor() as cur:
-                    try:
-                        with open(dbFile, 'rb') as xml:
-                            # Pre-processing (dropping/creation of tables)
-                            six.print_('Pre-processing ...')
-                            if pre != '':
-                                cur.execute(pre)
+        with pg.connect(dbConnectionParam) as conn:
+            with conn.cursor() as cur:
+                try:
+                    with open(dbFile, 'rb') as xml:
+                        # Pre-processing (dropping/creation of tables)
+                        six.print_('Pre-processing ...')
+                        if pre != '':
+                            cur.execute(pre)
+                            conn.commit()
+                        six.print_('Pre-processing took {:.1f} seconds'.format(time.time() - start_time))
+
+                        # Handle content of the table
+                        start_time = time.time()
+                        six.print_('Processing data ...')
+                        for rows in Processor.batch(Processor.parse(xml), 500):
+                            valuesStr = ',\n'.join(
+                                [_createCmdTuple(cur, keys, tmpl, row_attribs, insertJson).decode('utf-8')
+                                 for row_attribs in rows
+                                 ]
+                            )
+                            if len(valuesStr) > 0:
+                                cmd = 'INSERT INTO ' + table + \
+                                      ' VALUES\n' + valuesStr + ';'
+                                cur.execute(cmd)
                                 conn.commit()
-                            six.print_('Pre-processing took {:.1f} seconds'.format(time.time() - start_time))
+                        six.print_('Table \'{0}\' processing took {1:.1f} seconds'.format(table, time.time() - start_time))
 
-                            # Handle content of the table
+                        # Post-processing (creation of indexes)
+                        start_time = time.time()
+                        six.print_('Post processing ...')
+                        if post != '':
+                            cur.execute(post)
+                            conn.commit()
+                        six.print_('Post processing took {0:.1f} seconds'.format(time.time() - start_time))
+                        if createFk:
+                            # fk-processing (creation of foreign keys)
                             start_time = time.time()
-                            six.print_('Processing data ...')
-                            for rows in Processor.batch(Processor.parse(xml), 500):
-                                valuesStr = ',\n'.join(
-                                    [_createCmdTuple(cur, keys, tmpl, row_attribs, insertJson).decode('utf-8')
-                                     for row_attribs in rows
-                                     ]
-                                )
-                                if len(valuesStr) > 0:
-                                    cmd = 'INSERT INTO ' + table + \
-                                          ' VALUES\n' + valuesStr + ';'
-                                    cur.execute(cmd)
-                                    conn.commit()
-                            six.print_('Table \'{0}\' processing took {1:.1f} seconds'.format(table, time.time() - start_time))
-
-                            # Post-processing (creation of indexes)
-                            start_time = time.time()
-                            six.print_('Post processing ...')
+                            six.print_('Foreign Key processing ...')
                             if post != '':
-                                cur.execute(post)
+                                cur.execute(fk)
                                 conn.commit()
-                            six.print_('Post processing took {0:.1f} seconds'.format(time.time() - start_time))
-                            if createFk:
-                                # fk-processing (creation of foreign keys)
-                                start_time = time.time()
-                                six.print_('Foreign Key processing ...')
-                                if post != '':
-                                    cur.execute(fk)
-                                    conn.commit()
-                                six.print_('Foreign Key processing took {0:.1f} seconds'.format(time.time() - start_time))
+                            six.print_('Foreign Key processing took {0:.1f} seconds'.format(time.time() - start_time))
 
-                    except IOError as e:
-                        six.print_("Could not read from file {}.".format(dbFile), file=sys.stderr)
-                        six.print_("IOError: {0}".format(e.strerror), file=sys.stderr)
+                except IOError as e:
+                    six.print_("Could not read from file {}.".format(dbFile), file=sys.stderr)
+                    six.print_("IOError: {0}".format(e.strerror), file=sys.stderr)
     except pg.Error as e:
         six.print_("Error in dealing with the database.", file=sys.stderr)
         six.print_("pg.Error ({0}): {1}".format(e.pgcode, e.pgerror), file=sys.stderr)
@@ -323,7 +299,7 @@ def moveTableToSchema(table, schemaName, dbConnectionParam):
 parser = argparse.ArgumentParser()
 parser.add_argument('-t', '--table'
                    , help    = 'The table to work on.'
-                   , choices = ['Users', 'Badges', 'Post', 'Tags', 'Votes', 'PostLinks', 'PostHistory', 'Comments']
+                   , choices = ['Users', 'Badges', 'Posts', 'Tags', 'Votes', 'PostLinks', 'PostHistory', 'Comments']
                    , default = None
                    )
 
@@ -374,7 +350,7 @@ parser.add_argument('-H', '--host'
                    )
 
 parser.add_argument('--with-post-body'
-                   , help    = 'Import the posts with the post body. Only used if importing Post.xml'
+                   , help    = 'Import the posts with the post body. Only used if importing Posts.xml'
                    , action  = 'store_true'
                    , default = False
                    )
@@ -410,10 +386,10 @@ dbConnectionParam = buildConnectionString(args.dbname, args.host, args.port, arg
 if args.file and args.table:
     table = args.table
 
-    if table == 'Post':
+    if table == 'Posts':
         # If the user has not explicitly asked for loading the body, we replace it with NULL
         if not args.with_post_body:
-            specialRules[('Post', 'Body')] = 'NULL'
+            specialRules[('Posts', 'Body')] = 'NULL'
 
     choice = input('This will drop the {} table. Are you sure [y/n]?'.format(table))
     if len(choice) > 0 and choice[0].lower() == 'y':
@@ -454,7 +430,7 @@ elif args.so_project:
         six.print_('Error: impossible to extract the {0} archive ({1})'.format(url, e))
         exit(1)
 
-    tables = ['Tags', 'Users', 'Badges', 'Post', 'Comments',
+    tables = ['Tags', 'Users', 'Badges', 'Posts', 'Comments',
               'Votes', 'PostLinks', 'PostHistory']
 
     for table in tables:

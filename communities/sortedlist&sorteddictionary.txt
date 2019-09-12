@@ -1,0 +1,27 @@
+Cluster 1
+from sorted data sortedlist is faster;than sorteddictionary
+to roughly paraphrase if you require raw performance sorteddictionary could be a better choice;if you require lesser memory overhead and indexed retrieval sortedlist fits better
+sorteddictionary offers same advantages than sortedlist but performs better if values to insert are not already sorted
+sorteddictionary has faster insertion and removal operations for unsorted data o logn as opposed to o n for sortedlist
+i had one further issue that related to the oncollectionchanged - the notifycollectionchangedeventargs required an index as opposed to the item of the sorteddictionary which is doesn t come out of the box it s easier with a sortedlist but anyhow
+if the list is populated all at once from sorted data sortedlist is faster than sorteddictionary
+if the sortedlist is populated all at once from sorted data it s faster than sorteddictionary
+sortedlist is faster when you want to enumerate the elements and you can access the elements by index and sorteddictionary is faster if there are a lot of elements and you want to insert a new element in the middle of the collection
+note after doing some benchmarks i found that sorteddictionary is faster for removal but sortedlist is faster for adding and indexing by key
+sorteddictionary has faster insertion and removal operations for unsorted data o log n as opposed to o n for sortedlist
+as you can see on sorted data the sorted list is faster than the sorteddictionary;on unsorted data the sortedlist is slightly quicker on retrieval but about 9 times slower on adding
+
+Cluster 2
+ignoring the cost of providing sorted input the oh of sortedlist is smaller than the oh of sorteddictionary
+â sortedlist uses less memory than sorteddictionary
+sortedlist uses less memory than sorteddictionary
+sortedlist tkey tvalue uses less memory than sorteddictionary tkey
+
+Cluster 3
+sortedlist is faster than sorteddictionary
+in a sortedlist;i think that a sorteddictionary is even more efficient in this case
+sorteddictionary has faster insertion
+
+Cluster 4
+you should also keep in mind that sortedlist performs worse than sorteddictionary during construction if the items are not inserted in already-sorted order although in this particular case it is highly likely that dates are inserted in chronological sorted order which would be perfect
+

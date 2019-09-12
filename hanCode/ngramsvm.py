@@ -5,7 +5,7 @@ from sklearn.svm import LinearSVC
 import pandas as pd
 
 # read files
-trainData = pd.read_csv("../data/train_data.csv")
+trainData = pd.read_csv("../data/train_data2.csv")
 testData = pd.read_csv("../data/test_data3.csv")
 
 
@@ -26,8 +26,7 @@ for c in [0.001, 0.005, 0.01, 0.05, 0.1]:
           % (c, accuracy_score(y_val, svm.predict(X_val))))
 
 
-
-final = LinearSVC(C=0.06)
+final = LinearSVC(C=0.1)
 final.fit(X, trainData['polarity'])
 print("Final Accuracy: %s"
       % accuracy_score(testData['polarity'], final.predict(X_test)))

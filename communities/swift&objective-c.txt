@@ -1,0 +1,147 @@
+Cluster 1
+injecting code in a swift application is harder than it was for an objective-c application but it s still possible
+swift will incur this penalty in fewer situations than objective-c will for instance method calls to swift-only protocol methods do not hit objc_msgsend but if the protocol is declared in objective-c or if the swift protocol is decorated with objective-c such that the swift protocol can be adopted by objective-c objects as well then method calls to methods in that protocol adopted by swift objects appear to be dispatched via objc_msgsend
+so it should have always been gkagent under objective-c in order to be strictly correct however objective-c is less type-safe than swift so you could get away with it with the possibility that you d get an unrecognized selector exception if a gkagent object was ever passed to the delegate method and you assumed it was a gkagent2d
+as objective-c is the older programming language for ios or macos applications swift allows you to use those classes structs in your code
+btw objective-c nsarray performance stinks;if you re going to use the native container objects in both languages swift is dramatically faster
+most importantly for your image processing app the compiler will optimize swift code to run faster than objective-c
+the swift compiler is doing a lot more and is quite a bit newer than the objective-c compiler so it unlikely it will be as stable fast for quite some time
+swift is not much friendly with macros;complex macros are used in c and objective-c but have no counterpart
+minimum deployment target for xcode 9 is 8.0 not 7.0 with coding there is no problem but xcode 9 storyboard add safearea for running layout properly in iphone x also i don t think there is users now running ios 7 regarding swift or objective-c you can accomplish anything with any of users now running ios 7 regarding swift or objective-c but swift is much easier all tutorial now written in swift for new features every wwdc
+the cellclass parameter in objective-c is simply class with the swift equivalent being anyclass;unlike in swift objective-c doesn t support declaring that the value of class anyclass be any specific type
+equatable is a swift protocol not available in objective-c which requires that there is a operator defined for the type;in objective-c there is no operator overloading
+can someone explain what someone explain what objective-c can support that swift fundamentally cannot when developing apps;what i used to take advantage of in objective-c was not so much dynamic typing as dynamic messaging
+in swift it will crash when you try to use an object before it is initialized;objective-c is a little more forgiving and will just do nothing if you tell it to use a nil object at least in the instances you are using
+in short objective-c generics are type-erasing swift generics are type-preserving;you need the latter for tasks like defining type-constrained extensions but you can t because swift doesn t know anything about the objecttype of any particular phfetchresult instance
+his works great in objective-c because the catchall type id has very lax type checking;but the equivalent any class in swift is much more stringent and does not lend the equivalent any class in swift to the same technique if at all
+as you can see the swift example is more complex and error prone than your objective-c code
+swift doesn t support objective-c s dynamicism;for better or for worse this means that in order to swap out the usage of this selector with a block you d probably need to perform some black magic to make it work and you d have to use objective-c constructs to do that
+see also get a user-readable version of the class name in swift in objective-c nsstringfromclass was fine;swift does not have the introspection capabilities yet as objective-c does
+this article seems to suggest that this is possible by swizzling a fake location into apple s cllocationmanager class to be used by other apps but i am unfamiliar with the objective-c code more familiar with swift
+swift won t allow you to do absolutely everything that objective-c does but it will allow you to do almost everything and the code will be probably more robust considering that swift is more modern language with stronger typing than objective-c
+note that with swift this is no longer possible and will result in a compiler error instead;objective-c is not as type-safe as other languages and does not care whether the delegate explicitly declares conformance using
+it is possible for swift to be faster than pure objective-c in things that you would traditionally use c or c++ for anyway
+download xcode free and learn objective-c or swift swift is easier to learn than objective-c
+i know that swift is buggy as heck i run into bugs everyday but ill bet objective-c was even worse when it started out benefits of hindsight so in a couple of years swift will be equal or greater than objective-c keeping its basic simplicity as well
+that s because objective-c is far less strict and is willing to do some implicit casting on primitives;with that said swift has a handful of types that are more equivalent to c c++ and objective-c s int and the other sizes of integers
+if you want to do your app in swift which is better to understand if you have already programmed in java in my opinion use swift;if you want to do your app in objective-c well.
+the specific swift file showing the code required to interact with an nscollectionview is imagelistcontroller.swift;if you want to learn more about the new nscollectionview there s a whole wwdc session and the video is available from apple but the presenter uses objective-c not swift
+i also use objective-c more than swift but here s what my guess is as to what the objective-c code would come to
+first of all a dictionary in swift is struct an nsdictionary is class;objective-c is not type-safe so it doesn t show an error
+swift does not use a preprocessor so pragma flags and macros are not an option;it is still possible though to provide similar functionality to the nlog and fixme macros used with objective-c by making use of the benign warning treating a forced downcast as optional will never produce nil
+im new to swift but i like it more than objective-c as it looks a bit like java does to me from syntax wise compared to objective-c
+therefore the usage of nstimer is not more swifty but the need for late binding is more obfuscated to make swift developers feel better;if i wanted to use objective-c i d not be writing swift.
+objective-c is much more free and easy with types and compilation checks where swift isn t
+we ve seen that swift uses a more static method dispatch than objective-c which unless a class dervices from foundation nsobject prevents the style of swizzling based on remapping method implementations at runtime
+swift doesn t allow protocols to have optional requirements-- if the protocol declares something it s required;objective-c has long had the idea of optional requirements and swift recognizes this when you use objective-c when declaring the protocol
+swift is stricter about runtime type correctness than objective-c so duck typing alone is not enough
+first swift does not use the platform s calling convention;on macos c c++ and objective-c all use the x86_64 system v abi but swift doesn t
+i m learning swift and much less familiar with objective-c but for the life of me i can t figure out how they are trying to achieve the goal stated as build list of encodings sorted and including only those with human readable names.
+the swift designers went through a lot of trouble to make sure that it s more than just objective-c without the constraints of c in fact i almost wish the swift designers hadn t said that since it s so often misquoted
+no a class must be defined in swift or in objective-c not mixed language inside single class file sorry;as you may have already noticed a class in swift is generally made by a single file with .swift extension while objective-c class is defined using two files .h and .m
+there are plenty of patterns where a naive translation of objective-c code will result in slower swift implementations;in particular far more dramatic than your example where the swift code was a little slower i ve been startled by simple situations in which it s quite easy to write a routine in swift that looks logically very similar or even more elegant but is really much much slower or at least prior to the app developer refactoring the swift implementation a bit;bottom line i would personally hesitate to draw any simple conclusions of swift is faster than objective-c or vice versa
+swift won t allow you to do absolutely everything that objective-c does but apps that have been already written will allow you to do almost everything and the code will be probably more robust considering that swift is more modern language with stronger typing than objective-c
+#available and friends in swift are a simplification of and improvement on the more complex ways of dealing with new features and backward compatibility in objective-c;if you re using objective-c there isn t a direct equivalent to #available so you have to fall back to those old ways
+swift will incur this penalty in fewer situations than objective-c will for instance method calls to swift-only protocol methods do not hit objc_msgsend but if the protocol is declared in objective-c or if the swift protocol is decorated with objective-c such that it can be adopted by objective-c objects as well then method calls to methods in that protocol adopted by swift objects appear to be dispatched via objc_msgsend
+note that swift does have a full implementation of generics;objective-c does not have generics so nsarray and nsmutablearray are not strongly typed in the way you desire
+that s because swift knows what a protocol extension is;but objective-c doesn t
+as mentioned by others the whole point is that objective-c provides base class for all classes while swift does not;nsobject in objective-c provides alloc and init methods hence one can expect that a descendant from nsobject will either implement or inherit those methods hence you can have the shortcut-category you mentioned in your question
+i have a objective-c application working fine and smooth to be more comfortable with swift i decided to write the unit tests for this app in swift
+personally i prefer objective-c because you can use c very easily as anything that is legal in c is also legal in objective-c added to which swift is a more procedural in style where objective-c is quite clearly object orientated
+swift s compiler is also doing a lot more than objective-c s compiler considering swift is more strongly typed and does not required specifying imports among other things
+unlike objective-c which is a proper superset of c swift has been built as an entirely new language;swift cannot compile c code because the syntax is not compatible
+stick with objective-c for now;when you re comfortable with the ios sdk and swift is better documented you can consider learning swift
+swift currently doesn t do much in the direction of reflection and metaprogramming;you ll have to resolve to using objective-c to do this
+executable size of swift application is much bigger than size of objective-c application
+ swift 2.0 version;the objective-c version is a little more efficient as the objective-c version does mutable operations on the string
+adding lightweight generics to your objective-c api makes it easier to interface with swift because your api gets translated more precisely
+you can bridge variadic functions in c to swift but not the other direction;see using swift with cocoa and objective-c interacting with c apis variadic functions for more on that
+a big reason you need casts right now in swift is because some objective-c methods return id which was no problem in objective-c but causes trouble in swift;i expect this to diminish as swift becomes more popular and frameworks are adapted
+create a swift file in your objective-c based project;no need to create bridging headers since they re used to see objective-c code from swift not swift code from objective-c
+however note that optional methods do not exist in pure swift they are there only because objective-c have them so there is no big reason for swift to have special grammar for optional methods;also note that even objective-c doesn t have a special grammar for checking of existence of optional methods
+because it requires passing of c callback function and swift does not support it currently xcode 6.1.1;then i had to fallback to objective-c and wrap it again
+you can work around the issue by wrapping your c++ code with objective-c and using the objective c wrapper in swift;swift is not directly compatible with c++
+perhaps you could consider a more literal swift conversion using private stored property which is handled by a computed property;note this is not thread safe but your objective-c rendition isn t either but it accomplishes what you asked for
+as to where you do this it s the same as objective-c;swift makes it easier as it does not require you to import header files so you can either put it in the file of the client the class that uses it or in it s own file
+you can use a similar approach as in swift blocks not working annotate the block with convention block;to use the objective-c block calling convention and explicitly cast
+the swift designers went through a lot of trouble to make sure that it s more than just objective-c without the constraints of c in fact i almost wish they hadn t said that since it s so often misquoted
+those attributes let you create objective-c code which is more understandable by swift and complier warn you when you break the rule for example
+you need the latter for tasks like defining type-constrained extensions but you can t because swift doesn t know anything about the objecttype of any particular phfetchresult instance;the swift-evolution proposal that brought widespread objective-c generics import to swift 3 included a provision for letting objective-c classes provide information about their generic type parameters at runtime.
+
+Cluster 2
+objective-c -documentary provides more content than the documentary for swift
+furthermore swift is stricter than objective-c when furthermore swift comes to initialisers
+as craig revealed within the announcement of swift it is said to be faster than objective-c by far
+you will notice that swift bundles are always about 4-5 mb larger than their objective-c counterparts and this is precisely why
+also note that i use objective-c more than swift
+furthermore swift is stricter than objective-c when it comes to initialisers
+i use objective-c more than swift
+
+Cluster 3
+objective-c print is more readable compared to swift
+still technically yes the library we re appears that an all swift solution is roughly 2x slower than a swift + cocoa solution which should be roughly the same than objective-c + cocoa when compiled with equivalent options iirc
+so i ve started learning swift because it looks way better than objective-c
+wouldn t swift be slower than objective-c in this case since it is layered on top of it
+swift also prevents our i believe from overriding a parent class s property but also still lets us observe changes to a parent class s property--this is much better than objective-c s approach
+if you get a difference between swift and objective-c it s more because swift is probably better on optimisation
+in case the method s helpful since you seem perhaps more familiar with objective-c than swift here s what your swift method would look like if we translated the method back into objective-c
+better if you have a code swift is better but is not problem objective-c
+the swift runtime is smaller than the objective-c runtime
+specifically it makes it possible to write objective-c code that plays nicely with swift which is more strongly typed than objective-c
+swift also prevents us i believe from overriding a parent class s property but also still lets us observe changes to that property--this is much better than objective-c s approach
+swift seems to be less dynamic than objective-c in these stuffs
+but swift is less dynamically typed than objective-c and has less support for reflection
+2 swift size 17 6mb;there is still a big difference if you ask me so i think for small projects objective-c is more suitable
+in objective-c something similar can be done with nsarray s various predicate-based and enumeration methods but they ll be a little more long-winded than they swift counterpart
+however swift is much safer in that regard;note that in objective-c still accesses self
+while i think the move to swift is prudent but i think it overstates the case to argue that swift is significantly more secure that objective-c
+in swift it gets better with nicer block syntax better type inference and auto-closures;objective-c is not known for it s pretty or terse syntax
+swift is lot smarter than objective-c about singleton class
+swift is more strictly typed than objective-c
+after reading some related articles i don t think swift is more effective than objective-c
+there are multiple reasons why the swift code is slower than the objective-c code
+with swift the code is much more readable than with objective-c
+i find that objective-c is much nicer for working with core audio than swift
+this is because the swift dictionary is more strongly typed than the objective-c nsdictionary
+usually i find swift s method naming to be cleaner than objective-c s but init methods can be an exception
+however i read that swift was the successor of objective-c and i would feel more comfortable with swift syntax
+swift is neither easier to read nor understand than objective-c
+on the other hand swift is easier to learn especially if you have objective-c background so it can be adopted during the time slowly and paralelly with using objective-c
+i feel swift is better than objective-c in many aspects but my major question is - will swift dynamic libraries support older version of swift
+the swift one is dramatically slower then objective-c implementation
+my view is that if in some cases objective-c is faster than swift it doesn t mean that all over performance of swift is slower
+swift in that case would not be safer but less safe than objective-c
+as you can see defining a singleton class in swift is much easier than in objective-c
+or is it merely a hint to whatever tool converts between swift and objective-c to better deal with swift optionals
+note that swift s arrays are much more sensible than objective-c s
+it seems to me that swift would be way simpler to learn then objective-c for beginners i know because i learned it in like 2 months and swift is less complicated and better laid out then objective-c
+early this month i started learning swift as i found it fun and easier than objective-c
+one of the reasons we want to move is because swift is more secure than objective-c
+
+Cluster 4
+i don t think that as of today you can run these tests and determine with any certainty whether swift 1.0 is faster or slower than objective-c
+bottom line i would personally hesitate to draw any simple conclusions of swift is faster than objective-c or vice versa;i suspect that there are some algorithms applications where swift is faster and others where it is not
+regarding your reply remember swift isn t fully baked yet and there may be many more apis available to us in future releases such as a unique set api reflection etc;this should not deter you from learning swift as well as objective-c so don t give up
+bottom line i would personally hesitate to draw any simple conclusions of swift is faster than objective-c or vice versa
+swift is clearer on versions releases and i keep asking myself if i am missing something related to objective-c since i can t find this information
+
+Cluster 5
+the idiom is for objective-c not swift;in swift init blocks aren t normal functions and don t return anything
+however when i switch to swift 4.0 the methods declared in swift is no longer visible in objective-c
+objective-c cannot see a swift enum at all;in swift an enum is an object type
+
+Cluster 6
+no objects come magically into existence in swift any more than in objective-c
+
+Cluster 7
+and also apple does might not confidently announce that swift is more faster than objective-c in all the cases
+the perf hit will be ridiculous i know apple say swift execute faster than objective-c but this is low level so it will be harmless
+apple seems to claim that the optional type in swift is safer than nil in objective-c but i don t understand why this is so
+
+Cluster 8
+first note when you mentioned -ofast that s for objective-c not swift;the flag for swift is just -o
+
+Cluster 9
+writing swift 2.0 in my professional work my personal opinion is that it s indeed ready for enterprise applications -- maybe even more than objective-c ever were
+writing swift 2.0 in my professional work my personal opinion is that beta s indeed ready for enterprise applications -- maybe even more than objective-c ever were
+

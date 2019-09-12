@@ -4,9 +4,9 @@ Extract sentences containing similar tech pairs, and also pre and post sentences
 
 import datetime
 from multiprocessing import Process
-#import psycopg2
+import psycopg2
 import operator
-import pymysql
+# import pymysql
 import os.path
 import pickle
 from nltk import pos_tag
@@ -314,9 +314,9 @@ def main(start):
     try:
         pre_words = []
         post_words = []
-        conn = pymysql.connect(host='localhost', user='root', password='1234', db='Stackoverflow')
+        conn = psycopg2.connect('dbname=stackoverflow port=5433 host=localhost')
         cursor = conn.cursor()
-        query = "SELECT Id, Body FROM {} WHERE Score = 0 AND posttypeid != 1 AND Id >= {} AND Id < {}".format(table_name, start, start+batch)
+        query = "SELECT Id, Body FROM {} WHERE Score >= 0 AND posttypeid != 1 AND Id >= {} AND Id < {}".format(table_name, start, start+batch)
         # query = "SELECT Id, Body FROM Posts WHERE Id = 90444"
         # query = "SELECT Id, Body FROM Posts WHERE Id = 115838 "
         cursor.execute(query)

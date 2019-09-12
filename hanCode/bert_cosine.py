@@ -255,3 +255,238 @@ def main():
 
 main()
 
+
+#
+# """
+# This is a simple application for sentence embeddings: clustering
+# Sentences are mapped to sentence embeddings and then k-mean clustering is applied.
+# """
+# from sentence_transformers import SentenceTransformer
+# from sklearn.cluster import AgglomerativeClustering
+# from sklearn.cluster import KMeans
+# import pickle
+# import os, datetime
+# import numpy as np
+# import math
+# import matplotlib.pyplot as plt
+# import networkx as nx
+# from networkx.algorithms import community
+# from textblob import TextBlob as tb
+# import nltk
+# nltk.download('punkt')
+# embedder = SentenceTransformer('bert-large-nli-stsb-mean-tokens')
+# def cosine_sim(a, b):
+#     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+#
+# ver_flag= False
+# print(datetime.datetime.now())
+#
+# # Prepare tf-idf
+# def tf(word, blob):
+#     return blob.words.count(word) / len(blob.words)
+#
+#
+# def n_containing(word, bloblist):
+#     return sum(1 for blob in bloblist if word in blob.words)
+#
+#
+# def idf(word, bloblist):
+#     return math.log(len(bloblist) / (1 + n_containing(word, bloblist)))
+#
+#
+# def tfidf(word, blob, bloblist):
+#     return tf(word, blob) * idf(word, bloblist)
+#
+#
+# def set_shreshold(a, b):
+#     if ver_flag:
+#         if a == b:
+#             return 0.52
+#         return 0.55 - 0.05 ** abs(a - b)
+#     else:
+#         if a == b:
+#             return 0.55
+#         elif a > 3 or b > 3:
+#             return 0.55 - 0.1 ** abs(a - b)
+#         return 0.55 - 0.05 ** abs(a - b)
+#
+#
+# def recursive_detector(G, nnodes, part, communities):
+#     if G.number_of_nodes() < nnodes * part:
+#         communities.append(G.nodes)
+#         return communities
+#     else:
+#         communities_generator = community.girvan_newman(G)
+#         temp_communities = next(communities_generator)
+#         # communities = sorted(map(sorted, temp_communities))
+#         for com in temp_communities:
+#             recursive_detector(G.subgraph(com), nnodes, part, communities)
+#         return communities
+#
+# # read from all sentences
+# def read_relation(path):
+#     """ Read relation files and process
+#
+#         (str) -> (dict)
+#     """
+#
+#     file_path = os.path.join(os.pardir, "outFinal", path)
+#     relations_file = open(file_path, 'rb')
+#     relations = pickle.load(relations_file)
+#     relations_file.close()
+#     return relations
+#
+# all_sentences = read_relation("all_sentences.pkl")
+#
+# def main():
+#     pair = ("rsa", "aes")
+#     setPair = ("rsa", "aes")
+#     information = {}
+#     sentences = set()
+#     details = list(all_sentences[pair])
+#     for items in details:
+#         te = items[-1].replace("\n", "")
+#         sentences.add(te)
+#         information[te] = (items[0], items[1], items[2], items[4])
+#     sentences = list(sentences)
+#     pair = list(pair)
+#     corpus = []
+#     for idx in range(len(sentences)):
+#         temp = sentences[idx].replace(pair[0], "technology")
+#         temp = temp.replace(pair[1], "technology")
+#         temp = temp.replace("\n", "")
+#         corpus.append(temp)
+#     aspects = {}
+#     new_aspects = {}
+#     corpus_embeddings = embedder.encode(corpus)
+#     G = nx.Graph()
+#     l = len(corpus)
+#     sim_metrics = [[0 for i in range(l)] for j in range(l)]
+#     for i in range(l - 1):
+#
+#         # print("query:")
+#         # print(corpus[i])
+#         # print(sentences[i])
+#         # print("sims:")
+#         for j in range(i + 1, l):
+#             sims = cosine_sim(corpus_embeddings[i], corpus_embeddings[j])
+#             sim_metrics[i][j] = sims
+#             sim_metrics[j][i] = sims
+#             # print(sims[j])
+#             # print(corpus[j])
+#             # print(sentences[j])
+#             # print()
+#             # shreshold = set_shreshold(len(corpus[i]), len(corpus[j]))
+#             if sims >= 0.6:
+#                 if i not in G: G.add_node(i)
+#                 if j not in G: G.add_node(j)
+#                 G.add_edge(i, j)
+#                 # G.add_edge(i, j, weight=sims[j])
+#
+#     out_path = os.path.join(os.pardir, "communities", "{}_{}_{}.txt".format("&".join(pair), G.number_of_nodes(), l))
+#     # image_path = os.path.join(os.pardir, com_dir, "{}_{}_{}.png".format("&".join(pair), G.number_of_nodes(), l))
+#     print(sim_metrics)
+#     # Draw graph
+#     pos = nx.spring_layout(G)
+#     plt.figure(figsize=(19,12))
+#     plt.axis('off')
+#     nx.draw_networkx_nodes(G, pos, node_size=50)
+#     nx.draw_networkx_edges(G, pos, width=0.75)
+#     # plt.savefig(image_path)
+#     # plt.show()
+#
+#     nnodes = G.number_of_nodes()
+#
+#     if nnodes < 4:
+#         communities = []
+#         communities.append(G.nodes())
+#         return
+#     elif nnodes <= 15:
+#         communities_generator = community.girvan_newman(G)
+#         temp_communities = next(communities_generator)
+#         communities = sorted(map(sorted, temp_communities))
+#         return
+#     else:
+#         if nnodes < 50:
+#             part = 2 / 3
+#         else:
+#             part = 1 / 3
+#         # Detect communities
+#         communities = recursive_detector(G, nnodes, part, [])
+#     num = 0
+#     graph_indices = set()
+#     bloblist = []
+#     clusters = []
+#     for com in communities:
+#         if len(com) > 1:
+#             doc = ""
+#             for i in com:
+#                 doc += "test" + " "
+#             bloblist.append(tb(doc))
+#             clusters.append(com)
+#
+#     aspects[setPair] = set()
+#     new_aspects[setPair] = {}
+#     # if True:
+#     with open(out_path, "a") as out_file:
+#         for i, blob in enumerate(bloblist):
+#             # print("Top words in document {}".format(i + 1))
+#             scores = {word: tfidf(word, blob, bloblist) for word in blob.words}
+#             sorted_words = sorted(scores.items(), key=lambda x: x[1], reverse=True)
+#             # word_num = 0
+#             aspect_keywords = []
+#             for word, score in sorted_words[:3]:
+#                 out_file.write(word+", ")
+#                 aspect_keywords.append(word)
+#             new_aspects[setPair][" ".join(aspect_keywords)] = set()
+#             # for word, score in sorted_words:
+#             #     if word_num == 3:
+#             #         break
+#             #     if tf(word, blob) >= 0.2:
+#             #         word_num += 1
+#             #         out_file.write(word+", ")
+#             #         print("\tWord: {}, TF-IDF: {}".format(word, round(score, 5)))
+#             out_file.write("---------------------------------------------------\n\n")
+#             for j in clusters[i]:
+#                 temp = information[sentences[j]]
+#                 new_aspects[setPair][" ".join(aspect_keywords)].add((temp[0], temp[1], temp[2], temp[3], sentences[j]))
+#                 aspects[setPair].add((temp[0], temp[1], temp[2], " ".join(aspect_keywords), temp[3], sentences[j]))
+#                 # out_file.write(",".join(sentences[j])+"\n")
+#                 out_file.write(sentences[j]+"\n")
+#                 graph_indices.add(j)
+#             num += 1
+#         out_file.write("other---------------------------------------------------\n\n")
+#         new_aspects[setPair]["other"] = set()
+#         for j in range(len(sentences)):
+#             if j not in graph_indices:
+#                 temp = information[sentences[j]]
+#                 new_aspects[setPair]["other"].add((temp[0], temp[1], temp[2], temp[3], sentences[j]))
+#                 aspects[setPair].add((temp[0], temp[1], temp[2], "", temp[3], sentences[j]))
+#
+#                 # out_file.write(",".join(sentences[j])+"\n")
+#                 out_file.write(corpus[j]+"\n")
+#     plt.close('all')
+#     print(pair)
+#
+# # # Perform kmean clustering
+# # num_clusters = 3
+# # clustering_model = AgglomerativeClustering(n_clusters=num_clusters,affinity='manhattan', linkage='complete')
+# # clustering_model.fit(corpus_embeddings)
+# # cluster_assignment = clustering_model.labels_
+# #
+# # clustered_sentences = [[] for i in range(num_clusters)]
+# # for sentence_id, cluster_id in enumerate(cluster_assignment):
+# #     clustered_sentences[cluster_id].append(sentences[sentence_id])
+# #     print(cluster_id)
+# #
+# #
+# # for i, cluster in enumerate(clustered_sentences):
+# #     print("Cluster ", i+1)
+# #     print(cluster)
+# #     print("")
+# #
+# # for i, cluster in enumerate(clustered_sentences):
+# #     for s in cluster:
+# #         print(s.rstrip())
+#
+# main()

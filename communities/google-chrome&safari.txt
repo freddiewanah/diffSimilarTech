@@ -1,0 +1,85 @@
+Cluster 1
+safari is more secure than ie or google-chrome
+safari comes in at just under 41ms performing better than google-chrome but still not great
+it takes longer than google-chrome or safari to load but it does load successfully
+my ipad 1 safari js benchmarked 38 times slower than google-chrome on my pc
+the one used by google-chrome and is slower than mobile safari s nitro javascript engine
+safari will display fonts without a specified size significantly smaller than in google-chrome
+the safari controller bar is the quicktime bar which is smaller and dark so the movement is less noticeable than google-chrome which has a big blue progress bar
+it seems google-chrome calculates the row height according to the highest image;safari does not calculate the row height according to the images
+safari 5.1.10 6534.59.10 middle handles a smaller viewport but in sort order with a smaller viewport computes new image sizes even smaller than google-chrome
+from testing this in google-chrome and safari this seems google-chrome is more forgiving in that this parses the style string and puts the right style in place for you but safari does not
+safari makes child block s height larger than google-chrome
+google-chrome is very forgiving when it comes to css syntax error;safari not so much
+from testing this in google-chrome and safari it seems google-chrome is more forgiving in that it parses the style string and puts the right style in place for you but safari does not
+total width of button in safari web inspector 6px larger than in google-chrome web inspector
+google-chrome ignoring flex-basis in column layout;google-chrome safari not filling 100 height of flex parent
+google-chrome also is susceptible to this same issue although it does a significantly better job than safari at getting the realtime api re-connected
+i think safari renders the moves better than google-chrome
+if i try to do a google search for website loading slower in google-chrome than in safari i get a lot of results about how safari is slower than google-chrome
+
+Cluster 2
+google-chrome is worse than safari
+
+Cluster 3
+google-chrome does not offer nightly builds although they do have an open source project called chromium that does offer nightly builds google-chrome is based on chromium but they are not identical;similarly safari does not offer nightly builds either though again they have an open source project based on webkit
+in google-chrome you can set the default fonts at google-chrome settings under advanced settings;in safari it is less easy but i could find this post
+for example if you discover that google-chrome takes the 152x152 apple touch icon well now you know what you need;problem you probably want to support all scenarios android google-chrome ios safari etc. not only the new tab of ios google-chrome
+a lot of people use iphones ipads and safari is literally the only option even google-chrome is more like safari in disguise... so it s quite a portion of users who are suffering from this issue
+google-chrome also uses an earlier version of webkit than the current safari so pages should be checked in both browsers
+i used the same approach as kiem nguyen above but google-chrome wouldn t work for me even after editing my .bash_profile as hanshenry90 suggested;to use safari to view the notebook open your terminal and enter
+ios google-chrome is more ios safari than google-chrome itself
+ios google-chrome is more ios safari than google-chrome itself;it seems i found an answer on my question ios safari does not support fullscreen api
+it s not even a webkit issue unless google-chrome s got a newer version than safari
+safari is more funny than google-chrome i can easily make google-chrome cache my page but safari does not
+google-chrome did not display the html-document generated with xml data;firefox and safari however did the job
+i think it s a bug in google-chrome s svg rendering implementation;at least in firefox and safari it looks much better
+that s very interesting as google-chrome isn t anything special on pc;in fact on my windows 7 pc safari is my tertiary browser behind maxthon-3 operates like ie but better and opera 1-key window cycling and page resize beats all
+the do javascript syntax is for safari not google-chrome;for google-chrome it s execute javascript however changing that doesn t fix your code
+google-chrome doesn t have duplicate popup if login credentials are incorrect though;the method of explicitly redirecting document.location with username password in url caused me some problems with safari giving a phishing warning
+dus anyone knows if there is something wrong with my json or if google-chrome is harder to get than safari
+google-chrome is not a supported browser for ssrs report builder;only ie firefox and safari are officially supported
+in any case vorbis clearly has the most coverage google-chrome has more of the market than safari now opera is about half of safari and obviously firefox is huge and it doesn t really have the strong opposition that theora has
+it also gets broken even more in ios google-chrome which is an older version of safari
+okay safari ios is more strict than google-chrome android when it comes to this all fine but it still needs to enable me to allow the connection through
+i also have .js files being redirected to javascript engines as well for main.js in google-chrome it tries main.v8.js in safari main.nitro.js in firefox main.gecko.js
+works with angular on google-chrome but not phantomjs;your safari error is very illuminating and i am kicking myself for not reading it more closely
+from the blog post it seems it is buggy in safari so maybe google-chrome has not implemented it yet;i m unable to activate that experiment myself there s no developer tools experiments in my google-chrome flags but from safari i found this explanation
+so if something works on safari it s more likely to work straightaway on google-chrome more than it is on firefox - but that s just a family resemblance at the end of the day you ll still have to test each as every webkit browser product and version still uses a different version of webkit
+the point is that safari has a functionality google-chrome doesn t when safari auto-completes the request it sends the request;google-chrome doesn t send the request until the enter button is pressed
+the open source browsers are webkit which is used for safari and the mozilla flavoured firefox;there is also chromium which is the open source version of the google flavoured google-chrome which uses a lesser javascript engine squirrel as opposed to v8 and does not have the multi-separate-thread modularisation of google-chrome
+safari renders open sans bolder than in google-chrome so you would need to apply a lighter font weight for safari open sans google web fonts rendering in google-chrome
+this seems to me like a bandwidth error or something like that originally i ve got the error when i played with the html 5 audio api and if i loaded the audio file 10-15 times sequentially then i ve got the error but now i ve discovered that i get the error without the audio api too just by reloading the site a lots of times also safari gives me the error much faster than google-chrome wtf
+i read somewhere that safari has more stringent requirements on cross domain scripting - it and google-chrome share the same code base
+however zooming in on the map in safari hangs the web page;google-chrome is easier on that
+i guess firefox and safari handle huge numbers of elements better than google-chrome
+safari does not store content in the dom google-chrome does;google-chrome keeps each browser window sandboxed in its own operating system process multi-process model
+the tryanchordownload approach should work on modern versions of firefox and google-chrome and is a cleaned-up version of code provided in this forum post;the trysaveasdownload approach should theoretically work on any major modern browser though safari may not respect the specified file name
+in safari the background of my menu navigation drop-down menu s is much wider than in google-chrome firefox
+it s tough to gauge from the parameters you posted but just based on you saying that this works perfectly in safari but doesn t work in google-chrome or firefox it sounds like this could be a cors issue;firefox and google-chrome have different requirements for cross-origin requests than safari
+i used the same code written in this question which worked in firefox and safari but not in google-chrome;in google-chrome it didn t play again
+safari 5.1 still renders smoother than google-chrome but it is now clear that google has done much improvement
+google-chrome javascript console f12 or ctrl + shift + j;mostly the same browser as safari but safari is better imho
+i have had issues with dynamically created nodes that use filters and animatemotion has been a bugged in google-chrome for way too long.. we use ff5+ as our interactive interfaces for this reason safari is getting better too
+important as of writing this safari on os x is the most accessible browser;google-chrome has less support for all the aria features
+the browser does not matter though safari gets way more consistently working results than google-chrome
+in my case google-chrome tools displayed the file name not just author stylesheet;i m not sure if this is 100 accurate but i believe that safari will not show the name of the css file if it is named default.css
+google-chrome has many issues with screen readers that were not primarily written for it such as voiceover safari and nvda firefox;i tested this example myself and the labels were read aloud using voiceover and safari but not with google-chrome - because of these issues
+conclusion diff1 is faster in firefox opera and safari diff2 is faster in ie and google-chrome
+here was my problem if i put the mp4 line first google-chrome would play the video part but there would be no sound;if i put the webm line first google-chrome would play the video and sound correctly but apple safari would not detect the video at all
+so the short answer is no there s no way of stopping this via angular - and currently there doesn t appear to be a way to tell google-chrome not to do it either;it turns out it s not angular that s doing it it s google-chrome safari does not have the same behaviour haven t tested other browsers
+if the chunked response does not end properly google-chrome cannot read it;but firefox and safari are taking care of this internally
+
+Cluster 4
+figure out how to install selenium with the google-chrome driver safari driver may be faster as the google-chrome driver safari driver js engine is faster
+
+Cluster 5
+google-chrome has more of the market than safari not and invitation for flame wars just a personal opinion without any weight -
+
+Cluster 6
+safari still uses the older version while google-chrome uses a more current one
+safari also uses this;google-chrome uses the more modern rfc 6455
+
+Cluster 7
+google-chrome moves the transformation-center over the z-axis safari leaves this center were it was but moves the object itself over the z-axis;the object therefore is zoomed in safari and seems bigger
+

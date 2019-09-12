@@ -4,7 +4,7 @@ Extract sentences containing similar tech pairs, and also pre and post sentences
 
 import datetime
 from multiprocessing import Process
-#import psycopg2
+import psycopg2
 import operator
 import os.path
 import pickle

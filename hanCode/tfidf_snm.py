@@ -5,8 +5,8 @@ from sklearn import svm
 from sklearn.metrics import classification_report
 
 # read files
-trainData = pd.read_csv("../data/train_data.csv")
-testData = pd.read_csv("../data/test_data.csv")
+trainData = pd.read_csv("../data/train_data2.csv")
+testData = pd.read_csv("../data/test_data3.csv")
 
 # Create feature vectors
 vectorizer = TfidfVectorizer(min_df=5,

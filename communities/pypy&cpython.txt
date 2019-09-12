@@ -1,0 +1,70 @@
+Cluster 1
+pypy is currently more than 5x faster than cpython on average
+judging from the benchmarks posted on the pypy speed center it appears as if pypy is faster than cpython for all but two of the tests presented
+cpython runs on more architectures than pypy and has been successfully adapted to run in embedded architectures in ways that may be impractical for pypy
+pypy is now faster than cpython in most cases
+the pypy jit for python is also much more complex than cpython but also typically much faster â increased complexity is a fairly typical cost for speed. the four levels of disassembly for julia code give you access to the representation of a julia method implementation for particular argument types at different stages of the transformation from source code to machine code
+you could try running it in pypy - for some cases it can be significantly faster than cpython
+the real speed difference comes from the fact that unlike cpython which is interpreting whole program as bytecode pypy uses just-in-time jit compilation into machine code for rpython parts;pypy isn t python interpreter implemented in python it s python interpreter and compiler implemented in rpython which is a restricted statically typed subset of python
+i know many of pypy s data structures are actually smaller than cpython s but again that has nothing to do with the jit
+in the competing programming a lot of problems are never meant to be solved with cpython but with pypy which has a faster integer-arithmetic and a git-compiler but otherwise a python interpreter just as cpython
+if that isn t sufficient a lot of standard python code can be run on the pypy implementation which generally faster than the cpython implementation
+if pypy succeeds to be better than cpython in general which is questionable the main weakness affecting pypy wider adoption will be pypy compatibility with cpython
+i presume it s why is pypy faster than cpython some of the time
+pypy which in general is much faster than cpython is considerably slower for this use case
+the waf benchmark has less of a pronounced difference in performance and i d guess that the answer would be more complicated some factors pypy does better some factors cpython does better and overall cpython comes out slightly ahead
+under cpython tests run 4 times faster than under pypy
+that site does not claim pypy is 6.3 times faster than cpython
+i ve tried using pypy because i ve heard its faster than the cpython interpreter but still no good
+you might want to try running your trainer under pypy if you aren t already -- it s significantly faster than cpython for some workloads
+further the relative speed of profiled code may well differ hugely between them - pypy code is low-level and so introducing profiling is likely to slow it down relatively speaking more than cpython
+pypy compiled with jit is almost always faster than cpython frequently by a large margin
+cpython is faster than pypy on the two tests slowspitfire and waf
+if pypy succeeds to be better than cpython in general which is questionable the main weakness affecting its wider adoption will be its compatibility with cpython
+but not the other way around then the pypy runs hugely slower than the cpython interpreter
+can someone please help to how use that script using the pypy as i heard it is much faster than cpython
+however consider that pypy might do the linear search 100 times faster than cpython then a few times might be dozens
+i saw that pypy is generally faster than cpython
+just keep in mind most of the time c is faster than python but then again most of the time pypy is faster than cpython
+the answer is simple here - pickle on pypy is slower because it s implemeneted in pure python as opposed to c in cpython
+as gnibbler pointed out cpython is slower in the simple implementation but pypy is jit compiled for much faster code when you need it
+so how is it possible for pypy to be faster than cpython also becomes fairly obvious
+part of the compiler toolchain includes an experimental jit generator now in its fifth incarnation and starting to work really well - the goal is for a jited pypy to run much faster than cpython
+oh and it can use cpython for it innermost loop or psyco - but pypy is faster than either especially on 32 bit systems
+but for a really useful explanation you d have to tell us exactly which database and library you re using and which python version cpython 3.3.2 s csv module seems to be a lot faster than cpython 2.7.5 s and pypy 2.1 2.7.2 seems to be faster than cpython 2.7.5 as well but then either one also might run your code faster too and so on
+unfortunately as martijn pieters noted there are no accepted solution for python 3.x and only one for python 2.x and according to the amount of memory spent for solving it numerix could have used psyco the library on which pypy is based much faster than cpython
+pypy s jit can make python code execute much faster than cpython
+i finally ran it through pypy and was delighted to discover that when the lists got really deep pypy was running significantly faster than cpython
+pypy is faster than cpython s sum intrinsic because it can figure out that all the elements of the array are numeric and slice out a bunch of per-element overhead
+jython is more unpredictableâ sometimes almost as fast as pypy sometimes much slower than cpython
+but for a really useful explanation you d have to tell us exactly which database and library you re using and which python versionâ cpython 3.3.2 s csv module seems to be a lot faster than cpython 2.7.5 s and pypy 2.1 2.7.2 seems to be faster than cpython 2.7.5 as well but then either one also might run your code faster tooâ and so on
+as mentioned by ifloop this would be running a cpython c extension module on pypy which often works not always but is slower than on cpython
+secondly the current version of pypy consumes much more memory than cpython in a rather large set of cases
+long-term evidence is showing that pypy runs certain python codes slower than cpython and this drawback seems to be rooted very deeply in pypy
+so at this point in time pypy is just over 9 times faster than cpython in this micro benchmark
+it also clearly demonstrates that cpython 3.5 is slower at this than 2.7 which is sad but expected;pypy is not only a solid 5x faster than either of them but all three algorithms perform equally well
+also in cpython using sum lets your code run in the c internals so it can be very fast;but in pypy sum is slower than just writing a straighforward loop that the jit can turn into a wicked fast native loop
+part of the compiler toolchain includes an experimental jit generator now in the compiler toolchain fifth incarnation and starting to work really well - the goal is for a jited pypy to run much faster than cpython
+if the dominant memory usage is program data structures then i wouldn t be at all surprised to find pypy using significantly less memory than cpython whether or not the jit was enabled
+pypy has a higher recursion limit than cpython normally
+cpython s reference counting scheme for memory management arguably has more predictable performance impacts than pypy s various gc systems although this isn t necessarily true of all pure gc strategies;pypy does not yet fully support python 3.x although that is an active work item
+pypy is supposedly faster than cpython while gevent is based on co-routines and greenlets which supposedly makes for a faster web server
+when people talk about pypy using less memory than cpython this is a major part of what they re talking about
+this is why pypy may be slower than cpython sometimes it needs a warm-up phase in which it can actually optimize repeated operations
+profiling is known to slow pypy a lot more than cpython
+for python there is a pypy project which it includes jit making possible the code to run faster than in cpython in many cases
+i haven t tried comparing the two but this pypy bug seems to suggest that multiprocessing in pypy is slower than in cpython
+now there are some implementations like pypy rpython which run a static-typing phase and should favor much better than cpython here
+note that there are plenty of python implementations other than cpython out there - for loopy code pypy tends to be much faster than cpython
+some people may argue with me on this one but i find pypy to be faster than cpython
+
+Cluster 2
+running pypy on cpython wouldn t help besides slowing things down terribly because the api wouldn t interact with pypy s object model it would interact with that of the cpython host environment;pypy has alpha-level support for the cpython extension api via an emulation layer called cpyext
+i did a search on the web but i was unable to find any evidence that suggests that pypy s memory usage is much more than cpython
+the documentation at is misleading the beta versions of vmprof on os x or freebsd are only available for cpython not for pypy;vmprof on pypy is only enabled on 64-bit linux right now
+
+Cluster 3
+edit again one completely different approach would be to use pypy s sandboxing mechanism which should be much more secure than cpython plus a sandboxing module
+it s very hard to do correctly with cpython;pypy has much better sandboxing capabilities
+but pypy s still far from being better than cpython in a lot of very important ways
+

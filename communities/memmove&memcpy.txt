@@ -1,39 +1,37 @@
-Cluster 1
-memmove on the laptop runs slower than memcpy but oddly enough runs at the same speed as the memmove on the server
-bad news is that the asmlib version of memmove is slower than the glibc version it is now running at the 300ms mark on par with the glibc version of memcpy
-this means that memmove might be very slightly slower than memcpy as it cannot make the same assumptions
-as an aside my c c++ is rusty but is not memcpy more efficient than memmove if you know you don t have overlapping memory
-why does memcpy perform slower than memmove on my system
-and it said memmove might be very slightly slower than memcpy
-why is memcpy so much slower than memmove or hand rolled copy on the server
-memcpy is still a little bit slower than memmove
-
-Cluster 2
-while memmove will be only slightly slower than memcpy due to the assumptions it needs to make about the source and destination in memcpy they cannot overlap it should still be far superior to any standard loop
-std copy to be more efficient than memcpy or memmove because std
-so in what platform and how memcpy can be significantly faster than memmove if there is none why providing two similiar functions instead of just memmove and lead to a lots of bug
-memcpy is more efficient than memmove. in your case you most probably are not doing the exact same thing while you run the two functions
-however because of additional checks that memmove performs when the buffers are small and surely does not overlap memcpy is better
-as already pointed out in other answers memmove is more sophisticated than memcpy such that it accounts for memory overlaps
-the question is about is there really any platform where memcpy is faster than memmove
+Cluster 1 memory, faster, efficient
 or you can use memmove which permits overlapping memory space memcpy is not safe for overlapping copies;memmove is more efficient than a loop though optimizing compilers may solve that
-std memmove may be very slightly slower than std memcpy emphasis added because std memmove has to first check whether the source and target ranges overlap
-memcpy should have that behavior;memmove doesn t by design if the blocks of memory overlap it copies the contents starting at the ends of the buffers to avoid that sort of behavior
-memcpy is more efficient than memmove. in general use memmove only if you have to
-on some arm platform im working on memmove was 3 times faster than memcpy for short unalligned load
-the memmove function properly handles overlapping source and destination;memcpy is faster on some platforms and can be safely used to copy between strings
-std memmove may be very slightly slower than std memcpy emphasis added because it has to first check whether the source and target ranges overlap
 if you know buffers cannot overlap memcpy is fine and may in any given library use optimizations that allow it to be faster than memmove
+the memmove function properly handles overlapping source and destination;memcpy is faster on some platforms and can be safely used to copy between strings
+libc s memcpy is likely to be much better optimized using larger-than-byte units platform-specific performance tricks example inline assembly sse on x86 etc;there s also memmove which has better specified behavior when the buffers overlap
+on some arm platform im working on memmove was 3 times faster than memcpy for short unalligned load
+as already pointed out in other answers memmove is more sophisticated than memcpy such that it accounts for memory overlaps
 as already pointed out in other answers memmove is more sophisticated than memcpy such that other answers memmove accounts for memory overlaps
 edit memmove is 2x faster than memcpy on the server
-from reading other so questions such as this or this gives the impression that memcpy should work faster than memmove and intuitively this should be so
 note that memmove has more overhead than memcpy because memmove has to determine which direction of copying is safe
-libc s memcpy is likely to be much better optimized using larger-than-byte units platform-specific performance tricks example inline assembly sse on x86 etc;there s also memmove which has better specified behavior when the buffers overlap
+memcpy should have that behavior;memmove doesn t by design if the blocks of memory overlap it copies the contents starting at the ends of the buffers to avoid that sort of behavior
+the question is about is there really any platform where memcpy is faster than memmove
+std copy to be more efficient than memcpy or memmove because std
 note that memmove has more overhead than memcpy because it has to determine which direction of copying is safe
+from reading other so questions such as this or this gives the impression that memcpy should work faster than memmove and intuitively this should be so
+so in what platform and how memcpy can be significantly faster than memmove if there is none why providing two similiar functions instead of just memmove and lead to a lots of bug
+memcpy is more efficient than memmove. in general use memmove only if you have to
+memcpy is more efficient than memmove. in your case you most probably are not doing the exact same thing while you run the two functions
 
-Cluster 3
-it is entirely possible that in most implementations the cost of a memmove function call will not be significantly greater than memcpy in any scenario in which the behavior of both is defined
-
-Cluster 4
+Cluster 2 slow, 
+and it said memmove might be very slightly slower than memcpy
+why does memcpy perform slower than memmove on my system
 in addition as mats petersson said memmove is cache friendlier than memcpy
+memmove on the laptop runs slower than memcpy but oddly enough runs at the same speed as the memmove on the server
+as an aside my c c++ is rusty but is not memcpy more efficient than memmove if you know you don t have overlapping memory
+memcpy is still a little bit slower than memmove
+this means that memmove might be very slightly slower than memcpy as it cannot make the same assumptions
+why is memcpy so much slower than memmove or hand rolled copy on the server
+bad news is that the asmlib version of memmove is slower than the glibc version it is now running at the 300ms mark on par with the glibc version of memcpy
+
+Cluster 3 reason of slow
+std memmove may be very slightly slower than std memcpy emphasis added because it has to first check whether the source and target ranges overlap
+std memmove may be very slightly slower than std memcpy emphasis added because std memmove has to first check whether the source and target ranges overlap
+while memmove will be only slightly slower than memcpy due to the assumptions it needs to make about the source and destination in memcpy they cannot overlap it should still be far superior to any standard loop
+however because of additional checks that memmove performs when the buffers are small and surely does not overlap memcpy is better
+it is entirely possible that in most implementations the cost of a memmove function call will not be significantly greater than memcpy in any scenario in which the behavior of both is defined
 

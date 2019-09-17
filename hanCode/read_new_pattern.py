@@ -50,72 +50,82 @@ def read_relation(path):
 # Read comparative sentences
 stackoverflow = read_relation("stackoverflow_v1")
 
-# read leased pattern 0,1
-tList = readFile("leased_pattern.txt")
-print(len(tList))
 
-for temp in tList:
-    keyPair = temp[1].split(' ')
-    keyA = (keyPair[0], keyPair[1])
-    keyB = (keyPair[1], keyPair[0])
-    sen = ';'.join(t for t in temp[3:])
-    # print(sen)
-    if keyA in stackoverflow.keys():
-        stackoverflow[keyA].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
-
-    if keyB in stackoverflow.keys():
-        stackoverflow[keyB].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
-
-    if keyA not in stackoverflow.keys() and keyB not in stackoverflow.keys():
-        stackoverflow[keyA] = set()
-        stackoverflow[keyA].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
-
-# read not done
+c = 0
+for pair in stackoverflow.keys():
+    for i in stackoverflow[pair]:
+        if int(i[-2]) > c:
+            c = int(i[-2])
 
 
-
-tList = readFile("leased_not_do.txt")
-print(len(tList))
-
-for temp in tList:
-    keyPair = temp[1].split(' ')
-    keyA = (keyPair[0], keyPair[1])
-    keyB = (keyPair[1], keyPair[0])
-    sen = ';'.join(t for t in temp[3:])
-    # print(sen)
-    if keyA in stackoverflow.keys():
-        stackoverflow[keyA].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
-
-    if keyB in stackoverflow.keys():
-        stackoverflow[keyB].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
-
-    if keyA not in stackoverflow.keys() and keyB not in stackoverflow.keys():
-        stackoverflow[keyA] = set()
-        stackoverflow[keyA].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
-
-
-# read leased old
-
-tList = readFile("leased_old.txt")
-print(len(tList))
-
-for temp in tList:
-    keyPair = temp[1].split('\t')
-    keyA = (keyPair[0], keyPair[1])
-    keyB = (keyPair[1], keyPair[0])
-    sen = temp[3]
-    # print(sen)
-    if keyA in stackoverflow.keys():
-        stackoverflow[keyA].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
-
-    if keyB in stackoverflow.keys():
-        stackoverflow[keyB].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
-
-    if keyA not in stackoverflow.keys() and keyB not in stackoverflow.keys():
-        stackoverflow[keyA] = set()
-        stackoverflow[keyA].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
-
-output = open(os.path.join(os.pardir, 'outFinal', 'all_sentences.pkl'), 'wb')
-pickle.dump(stackoverflow, output)
-output.close()
-
+print(c)
+#
+# # read leased pattern 0,1
+# tList = readFile("leased_pattern.txt")
+# print(len(tList))
+#
+# for temp in tList:
+#     keyPair = temp[1].split(' ')
+#     keyA = (keyPair[0], keyPair[1])
+#     keyB = (keyPair[1], keyPair[0])
+#     sen = ';'.join(t for t in temp[3:])
+#     # print(sen)
+#     if keyA in stackoverflow.keys():
+#         stackoverflow[keyA].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
+#
+#     if keyB in stackoverflow.keys():
+#         stackoverflow[keyB].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
+#
+#     if keyA not in stackoverflow.keys() and keyB not in stackoverflow.keys():
+#         stackoverflow[keyA] = set()
+#         stackoverflow[keyA].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
+#
+# # read not done
+#
+#
+#
+# tList = readFile("leased_not_do.txt")
+# print(len(tList))
+#
+# for temp in tList:
+#     keyPair = temp[1].split(' ')
+#     keyA = (keyPair[0], keyPair[1])
+#     keyB = (keyPair[1], keyPair[0])
+#     sen = ';'.join(t for t in temp[3:])
+#     # print(sen)
+#     if keyA in stackoverflow.keys():
+#         stackoverflow[keyA].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
+#
+#     if keyB in stackoverflow.keys():
+#         stackoverflow[keyB].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
+#
+#     if keyA not in stackoverflow.keys() and keyB not in stackoverflow.keys():
+#         stackoverflow[keyA] = set()
+#         stackoverflow[keyA].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
+#
+#
+# # read leased old
+#
+# tList = readFile("leased_old.txt")
+# print(len(tList))
+#
+# for temp in tList:
+#     keyPair = temp[1].split('\t')
+#     keyA = (keyPair[0], keyPair[1])
+#     keyB = (keyPair[1], keyPair[0])
+#     sen = temp[3]
+#     # print(sen)
+#     if keyA in stackoverflow.keys():
+#         stackoverflow[keyA].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
+#
+#     if keyB in stackoverflow.keys():
+#         stackoverflow[keyB].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
+#
+#     if keyA not in stackoverflow.keys() and keyB not in stackoverflow.keys():
+#         stackoverflow[keyA] = set()
+#         stackoverflow[keyA].add((keyPair[0], '', keyPair[1], '', temp[0], sen))
+#
+# output = open(os.path.join(os.pardir, 'outFinal', 'all_sentences.pkl'), 'wb')
+# pickle.dump(stackoverflow, output)
+# output.close()
+#

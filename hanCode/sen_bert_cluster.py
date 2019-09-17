@@ -11,7 +11,7 @@ import os
 embedder = SentenceTransformer('bert-large-nli-stsb-mean-tokens')
 ps = [("google-chrome", "safari"),("compiled-language", "interpreted-language"),("sortedlist", "sorteddictionary"),
       ("heapsort","quicksort"),("ant","maven"),("pypy","cpython"),("quicksort", "mergesort"),("lxml","beautifulsoup"),
-      ("awt", "swing"),("jackson","gson"),("swift", "objective-c"),("memmove","memcpy")]
+      ("awt", "swing"),("jackson","gson"),("swift", "objective-c"),("memmove","memcpy"),("jruby", "mri")]
 # read from all sentences
 def read_relation(path):
     """ Read relation files and process
@@ -27,7 +27,7 @@ def read_relation(path):
 
 all_sentences = read_relation("all_sentences.pkl")
 
-details = list(all_sentences[("memmove","memcpy")])
+details = list(all_sentences[("jruby", "mri")])
 sentences = []
 for d in details:
     te = d[-1].replace("\n", "")
@@ -35,20 +35,20 @@ for d in details:
         sentences.append(te)
 sentences = list(set(sentences))
 
-pair = ["memmove","memcpy"]
+pair = ["jruby", "mri"]
 corpus = []
 for idx in range(len(sentences)):
-    temp = sentences[idx].replace(pair[0], "")
-    temp = temp.replace(pair[1], "")
-    temp = temp.replace("\n", "")
+    # temp = sentences[idx].replace(pair[0], "")
+    # temp = temp.replace(pair[1], "")
+    temp = sentences[idx].replace("\n", "")
     if temp not in corpus:
         corpus.append(temp)
 
 corpus_embeddings = embedder.encode(corpus)
 print(corpus_embeddings[0])
 # Perform kmean clustering
-num_clusters = 4
-clustering_model = AgglomerativeClustering(n_clusters=num_clusters, affinity='euclidean', linkage='average')
+num_clusters = 3
+clustering_model = AgglomerativeClustering(n_clusters=num_clusters)
 clustering_model.fit(corpus_embeddings)
 cluster_assignment = clustering_model.labels_
 

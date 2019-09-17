@@ -1,56 +1,61 @@
-Cluster 1
-awt componentsare heavy weight;swing occupies less memory space
-alternate way is to use awt - which is an older and worse technology than swing and in that case you can t use flowlayout - it puts all the components into one row
-that is old code when using awt;swing has newer and better api s
-in swing has more features than the awt components
-i find that the swing library is easier to use than awt although you do still have to use awt for listeners
-awt is a thin layer of code on top of the os whereas swing is much larger;swing also has very much richer functionality
-generally swing is more efficient and advanced than awt
-consider using swing which has much better performance over the old heavyweight awt
-swing was said that awt is faster than swing as swing uses the platform component but due the arrival of faster processor etc ..
-that is probably the oldest solution and was used in awt;swing has newer and better api s which you should be using
-if you are planning to move your gui onto multiple platforms then go with awt;otherwise swing gives you a much broader set of components to work with
-its was said that awt is faster than swing as it uses the platform component but due the arrival of faster processor etc ..
-awt is not mvc based;swing works faster
-well swing is richer in terms of out-of-the-box components than awt
-swing has newer and better api s than awt
-swing has more or less deprecated awt so you should extend jframe instead of frame
-i know you re thinking why did i use awt instead of swing but at the moment i am more comfortable with awt
-swing is generally more configurable and flexible to use;you should avoid mixing awt and swing components within the same ui ui tend not to play well together
-that is an old awt solution;swing has newer and better apis
-i mean by light weight i thought maybe the swing components occupy less memory than the awt components
-use swing follow the threading rules which are hardly likely to be more onerous than awt and enjoy
-keep in mind that awt swing have a dedicated thread that does gui work handling event handlers repainting the gui etc;if you do long-running things on that thread swing will not repaint
-as far as when awt may be more useful than swing -
-that is used in old awt applications;swing has newer and better apis
+Cluster 1 other
 swing is relatively similar to awt apart from the fact that swing has more capabilities awt is probably the simplest form to start out with and has most if not all of the tools to complete your project hope this helps
+its was said that awt is faster than swing as it uses the platform component but due the arrival of faster processor etc ..
+swing or javafx would be better than awt
+awt is a thin layer of code on top of the os whereas swing is much larger;swing also has very much richer functionality
+if you are planning to move your gui onto multiple platforms then go with awt;otherwise swing gives you a much broader set of components to work with
+swing will save your more time than awt as all the code of components of swing are purely written in java whereas of awt code of components are written in native language that is other than java thus compilation time of awt is more than swing
+swing is far better then awt and should be educated to people who is writing gui-based java for the first time
+the keylistener is an older interface from the awt days the keylistener still ok to use the keylistener with swing but is more of a general listener
+swing is generally more configurable and flexible to use;you should avoid mixing awt and swing components within the same ui ui tend not to play well together
+if you need to modify swing components from threads other than the awt event dispatch thread use;swing is not thread-safe
+swing has more or less deprecated awt so you should extend jframe instead of frame
+the awt approach seems closer to bare metal but since jdk 6 brought a lot of improvements in swing rendering pipeline i would go the swing java2d approach
+keep in mind that awt swing have a dedicated thread that does gui work handling event handlers repainting the gui etc;if you do long-running things on that thread swing will not repaint
+use swing follow the threading rules which are hardly likely to be more onerous than awt and enjoy
+swing was said that awt is faster than swing as swing uses the platform component but due the arrival of faster processor etc ..
+swing is better and few people remember how to use awt components
+
+Cluster 2 better, faster, space, powerful
+swing is far better than the obsolete awt library
+awt is not mvc based;swing works faster
+it has functionality the same as a canvas but swing is more advanced and has better features than awt
 the swing library is much more portable than the awt library
-you can read all over the web that awt is old and deprecated and swing is old but newer than awt and should be preferred over awt whenever possible
+awt componentsare heavy weight;swing occupies less memory space
+i find that the swing library is easier to use than awt although you do still have to use awt for listeners
+generally swing is more efficient and advanced than awt
+yes swing has newer and better api s than awt
+consider using swing which has much better performance over the old heavyweight awt
+swing occupies less memory space;awt occupies more memory space
+i mean by light weight i thought maybe the swing components occupy less memory than the awt components
+well swing is richer in terms of out-of-the-box components than awt
 that is an old approach when using awt;swing has better api s
 awt does not work faster;swing componets are light weight
-don t use a keylistener that is old code when using awt;swing has newer and better api s
-swing is better and few people remember how to use awt components
-swing occupies less memory space;awt occupies more memory space
-are there any cases where awt is more useful advised to use than swing or vice-versa
-if you need to modify swing components from threads other than the awt event dispatch thread use;swing is not thread-safe
-the keylistener is an older interface from the awt days the keylistener still ok to use the keylistener with swing but is more of a general listener
-it has functionality the same as a canvas but swing is more advanced and has better features than awt
+swing has newer and better api s than awt
+in swing has more features than the awt components
+note first there is no combobox item in awt there is jcombobox in swing which is better to use than choice of awt
 use a swing gui not an awt gui since swing is much more powerful and flexible than awt
 in general avoid awt for swing which has much greater power and flexibility although it too is showing its age just less so than awt
-swing is far better than the obsolete awt library
-note first there is no combobox item in awt there is jcombobox in swing which is better to use than choice of awt
-yes swing has newer and better api s than awt
 
-Cluster 2
+Cluster 3 old, new
+that is probably the oldest solution and was used in awt;swing has newer and better api s which you should be using
+that is old code when using awt;swing has newer and better api s
+don t use a keylistener that is old code when using awt;swing has newer and better api s
+that is used in old awt applications;swing has newer and better apis
+that is an old awt solution;swing has newer and better apis
+
+Cluster 4 usage
+as far as when awt may be more useful than swing -
+i know you re thinking why did i use awt instead of swing but at the moment i am more comfortable with awt
+you can read all over the web that awt is old and deprecated and swing is old but newer than awt and should be preferred over awt whenever possible
+are there any cases where awt is more useful advised to use than swing or vice-versa
+alternate way is to use awt - which is an older and worse technology than swing and in that case you can t use flowlayout - it puts all the components into one row
 due to swt looks more native than awt swing
 
-Cluster 3
-swing or javafx would be better than awt
+Cluster 5 slow, discarded
+performance swing components are generally slower and buggier than awt due to both the fact that cons are pure java and to video issues on various platforms
+awt is really out of date people have more experience with swing no days and even javafx
 applet awt is a relatively discarded technology;the newer japplet swing has no longer that large a browser support too
 performance swing components are generally slower and buggier than awt due to both the fact that they are pure java and to video issues on various platforms
-performance swing components are generally slower and buggier than awt due to both the fact that cons are pure java and to video issues on various platforms
-swing will save your more time than awt as all the code of components of swing are purely written in java whereas of awt code of components are written in native language that is other than java thus compilation time of awt is more than swing
-awt is really out of date people have more experience with swing no days and even javafx
-the awt approach seems closer to bare metal but since jdk 6 brought a lot of improvements in swing rendering pipeline i would go the swing java2d approach
-swing is far better then awt and should be educated to people who is writing gui-based java for the first time
+
 

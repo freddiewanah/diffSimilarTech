@@ -1,47 +1,51 @@
-Cluster 1
-under some conditions gson has proven to be a lot faster than jackson there also exists jsonp and json.simple
-note also that gson comes with less features out of the box than genson or jackson
-code looks correct and even at code worst jackson should be no slower than gson
-performance of jackson is better than gson
-further more gson really seems to be faster than jackson json
-jackson type safety is way better than gson
-very small object google gson performs faster than jackson and simple json
-jackson is a little faster so its up to you what you want
-try and change the gson package to one of the better ones out there jackson for example it might solve your problem
-also i want to know if google gson is better than jackson for json parsing
-we plan to use gson extensively in the application as it seems safer and better than jackson
-gson is simpler jackson is faster
-personally i prefer jackson as according to test benchmarks it s faster than gson
-i ve seen questions like this come up before and the general consensus is that jackson is much faster than gson
-i found jackson better than gson performance project activity better docs ...
-keep in mind though that jackson is a larger library than gson so depending on your case you might prefer gson to avoid 65k methods limitation
-code looks correct and even at its worst jackson should be no slower than gson
-jackson is faster but the api is 37x more complex than the gson api
-take a look at the jackson json parser it s faster than the one in android and faster than gson and supports streaming
-since i am more familiar with jackson here are some aspects where i think jackson has more complete support than gson apologies if i miss a gson feature
-gson is really simple to use and if performance isn t an issue it s quite nice;jackson is much much faster though and is not really that much more effort to use
-gson is faster with smaller documents and jackson is faster with large documents
-it seems gson is more faster than jackson the average time of gson is about 2ms while jackson is about 16ms does i make mistake when using jackson
-jackson is more suitable if you have a complex deep json tree because gson creates a lot of temporary objects which leads to stop the world gcs
+Cluster 1 performance
 large objects google gson performs faster than jackson and simple json
+jackson is faster but the api is 37x more complex than the gson api
+try and change the gson package to one of the better ones out there jackson for example it might solve your problem
+very small object google gson performs faster than jackson and simple json
+gson is faster with smaller documents and jackson is faster with large documents
+in my case i found jackson little faster than gson i used default serialization because so far i don t have a need to customize serialization
+note also that gson comes with less features out of the box than genson or jackson
+gson is really simple to use and if performance isn t an issue it s quite nice;jackson is much much faster though and is not really that much more effort to use
+further more gson really seems to be faster than jackson json
+i looked at gson metrics and it seems slower than jackson
+according to the performance results at for serialization with databind with strings gson.tojson myobject gson is over 10x slower than jackson
+gson is simpler jackson is faster
+deserialization performance is similar with gson over 9x slower than jackson and fastjson about 0.5 faster than jackson
+also it seems jackson lib has better performance than other packages such as gson which i haven t tried personally
+we plan to use gson extensively in the application as it seems safer and better than jackson
+under some conditions gson has proven to be a lot faster than jackson there also exists jsonp and json.simple
+it seems gson is more faster than jackson the average time of gson is about 2ms while jackson is about 16ms does i make mistake when using jackson
 going to go ahead and say that gson is a lot more user friendly albeit less powerful than jackson
 
-Cluster 2
+Cluster 2 deserialize, features
 if using jackson isn t a requirement then you might want to consider using gson instead;you can tell gson how to deserialize your json by just passing it a json string and the class that you want to deserialize
 gson doesn t care about jackson annotations;if you want these annotations to be taken into account use jackson to deserialize your json
-
-Cluster 3
-this is an issue reported to gson team unfortunately seems they insist that javascript has no integer type as if they do not realize that gson is for java not javascript;so they refused to fix it until today 2018 now despite other lib like jackson does not have such issue at all despite how easy to fix it
-try this lib that s a good one with the jackson we use only in the server side because jackson is more slow in the android than gson at least in our test
-after searched in google found that jackson has better performance than gson i plan to replace gson with jackson in my project but i got a diffrent result when run test code
-in my case i found jackson little faster than gson i used default serialization because so far i don t have a need to customize serialization
-gson is not particularly fast but the jackson library can almost compete with most binary serializers jackson is 2-4x faster than gson in most situations and 10-20x faster on utf-8 because it has special code for utf-8
-try the gson lib that s a good one with the jackson we use only in the server side because jackson is more slow in the android than gson at least in we test
-deserialization performance is similar with gson over 9x slower than jackson and fastjson about 0.5 faster than jackson
 gson 1.6 now includes a low-level streaming api and a new parser which is actually faster than jackson
-according to the performance results at for serialization with databind with strings gson.tojson myobject gson is over 10x slower than jackson
-also it seems jackson lib has better performance than other packages such as gson which i haven t tried personally
+after searched in google found that jackson has better performance than gson i plan to replace gson with jackson in my project but i got a diffrent result when run test code
+also i want to know if google gson is better than jackson for json parsing
+take a look at the jackson json parser it s faster than the one in android and faster than gson and supports streaming
+keep in mind though that jackson is a larger library than gson so depending on your case you might prefer gson to avoid 65k methods limitation
+gson is not particularly fast but the jackson library can almost compete with most binary serializers jackson is 2-4x faster than gson in most situations and 10-20x faster on utf-8 because it has special code for utf-8
+jackson is more suitable if you have a complex deep json tree because gson creates a lot of temporary objects which leads to stop the world gcs
 
-Cluster 4
-i looked at gson metrics and it seems slower than jackson
+Cluster 3 slow, faster, better
+code looks correct and even at its worst jackson should be no slower than gson
+code looks correct and even at code worst jackson should be no slower than gson
+jackson is a little faster so its up to you what you want
+jackson type safety is way better than gson
+personally i prefer jackson as according to test benchmarks it s faster than gson
+since i am more familiar with jackson here are some aspects where i think jackson has more complete support than gson apologies if i miss a gson feature
+i found jackson better than gson performance project activity better docs ...
+i ve seen questions like this come up before and the general consensus is that jackson is much faster than gson
+performance of jackson is better than gson
+
+Cluster 4 usecase
+try the gson lib that s a good one with the jackson we use only in the server side because jackson is more slow in the android than gson at least in we test
+try this lib that s a good one with the jackson we use only in the server side because jackson is more slow in the android than gson at least in our test
+this is an issue reported to gson team unfortunately seems they insist that javascript has no integer type as if they do not realize that gson is for java not javascript;so they refused to fix it until today 2018 now despite other lib like jackson does not have such issue at all despite how easy to fix it
+
+
+
+
 

@@ -17,22 +17,28 @@ vectorizer = TfidfVectorizer(min_df=5,
 train_vectors = vectorizer.fit_transform(trainData['sentence'])
 test_vectors = vectorizer.transform(testData['sentence'])
 
-# Perform classification with SVM, kernel=linear
-classifier_linear = svm.SVC(kernel='linear')
-t0 = time.time()
-classifier_linear.fit(train_vectors, trainData['polarity'])
-t1 = time.time()
-prediction_linear = classifier_linear.predict(test_vectors)
-t2 = time.time()
-time_linear_train = t1-t0
-time_linear_predict = t2-t1
 
-# results
-print("Training time: %fs; Prediction time: %fs" % (time_linear_train, time_linear_predict))
+for c in [0.001, 0.005, 0.01, 0.05, 0.1]:
+    # Perform classification with SVM, kernel=linear
+    classifier_linear = svm.SVC(kernel='linear')
+    t0 = time.time()
+    classifier_linear.fit(train_vectors, trainData['polarity'])
+    t1 = time.time()
+    prediction_linear = classifier_linear.predict(test_vectors)
+    t2 = time.time()
+    time_linear_train = t1 - t0
+    time_linear_predict = t2 - t1
+    # results
+    print("Training time: %fs; Prediction time: %fs" % (time_linear_train, time_linear_predict))
 
-report = classification_report(testData['polarity'], prediction_linear, output_dict=True)
+    report = classification_report(testData['polarity'], prediction_linear, output_dict=True)
 
-print(report)
-print('0: ', report['0'])
-print('1: ', report['1'])
-print('2: ', report['2'])
+    print("Accuracy for C={}".format(c))
+    print(report)
+    print('0: ', report['0'])
+    print('1: ', report['1'])
+    print('2: ', report['2'])
+
+
+
+

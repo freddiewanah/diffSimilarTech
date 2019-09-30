@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.svm import LinearSVC
 import pandas as pd
+from sklearn.metrics import classification_report
 
 # read files
 trainData = pd.read_csv("../data/train_data2.csv")
@@ -28,5 +29,8 @@ for c in [0.001, 0.005, 0.01, 0.05, 0.1]:
 
 final = LinearSVC(C=0.1)
 final.fit(X, trainData['polarity'])
+print(final.predict(X_test))
 print("Final Accuracy: %s"
       % accuracy_score(testData['polarity'], final.predict(X_test)))
+report = classification_report(testData['polarity'], final.predict(X_test), output_dict=True)
+print(report)

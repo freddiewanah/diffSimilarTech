@@ -25,9 +25,9 @@ def read_relation(path):
     relations_file.close()
     return relations
 
-all_sentences = read_relation("all_sentences.pkl")
+all_sentences = read_relation("new_sentences.pkl")
 
-details = list(all_sentences[("jruby", "mri")])
+details = list(all_sentences[( "interpreted-language","compiled-language",)])
 sentences = []
 for d in details:
     te = d[-1].replace("\n", "")
@@ -35,36 +35,39 @@ for d in details:
         sentences.append(te)
 sentences = list(set(sentences))
 
-pair = ["jruby", "mri"]
-corpus = []
-for idx in range(len(sentences)):
-    # temp = sentences[idx].replace(pair[0], "")
-    # temp = temp.replace(pair[1], "")
-    temp = sentences[idx].replace("\n", "")
-    if temp not in corpus:
-        corpus.append(temp)
+for i in sentences:
+    print(i)
 
-corpus_embeddings = embedder.encode(corpus)
-print(corpus_embeddings[0])
-# Perform kmean clustering
-num_clusters = 3
-clustering_model = AgglomerativeClustering(n_clusters=num_clusters)
-clustering_model.fit(corpus_embeddings)
-cluster_assignment = clustering_model.labels_
-
-clustered_sentences = [[] for i in range(num_clusters)]
-for sentence_id, cluster_id in enumerate(cluster_assignment):
-    clustered_sentences[cluster_id].append(sentences[sentence_id])
-    print(cluster_id)
-
-out_path = os.path.join(os.pardir, "communities", "{}.txt".format("&".join(pair)))
-with open(out_path, "a") as f:
-    for i, cluster in enumerate(clustered_sentences):
-        f.write("Cluster "+str(i+1)+"\n")
-        for cl in cluster:
-            f.write(str(cl)+"\n")
-        f.write("\n")
-
-for i, cluster in enumerate(clustered_sentences):
-    for s in cluster:
-        print(s.rstrip())
+# pair = ["jruby", "mri"]
+# corpus = []
+# for idx in range(len(sentences)):
+#     # temp = sentences[idx].replace(pair[0], "")
+#     # temp = temp.replace(pair[1], "")
+#     temp = sentences[idx].replace("\n", "")
+#     if temp not in corpus:
+#         corpus.append(temp)
+#
+# corpus_embeddings = embedder.encode(corpus)
+# print(corpus_embeddings[0])
+# # Perform kmean clustering
+# num_clusters = 3
+# clustering_model = AgglomerativeClustering(n_clusters=num_clusters)
+# clustering_model.fit(corpus_embeddings)
+# cluster_assignment = clustering_model.labels_
+#
+# clustered_sentences = [[] for i in range(num_clusters)]
+# for sentence_id, cluster_id in enumerate(cluster_assignment):
+#     clustered_sentences[cluster_id].append(sentences[sentence_id])
+#     print(cluster_id)
+#
+# out_path = os.path.join(os.pardir, "communities", "{}.txt".format("&".join(pair)))
+# with open(out_path, "a") as f:
+#     for i, cluster in enumerate(clustered_sentences):
+#         f.write("Cluster "+str(i+1)+"\n")
+#         for cl in cluster:
+#             f.write(str(cl)+"\n")
+#         f.write("\n")
+#
+# for i, cluster in enumerate(clustered_sentences):
+#     for s in cluster:
+#         print(s.rstrip())

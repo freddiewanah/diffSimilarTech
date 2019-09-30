@@ -15,7 +15,10 @@ def parse(fp):
         if elem.tag=='row':
             # processing goes here
             assert elem.text is None, "The row wasn't empty"
-            yield elem.attrib
+            try:
+                yield elem.attrib
+            except StopIteration:
+                return
 
         # cleanup
         # first empty children from current element
@@ -32,4 +35,7 @@ def batch(iterable, size):
     sourceiter = iter(iterable)
     while True:
         batchiter = islice(sourceiter, size)
-        yield chain([six.next(batchiter)], batchiter)
+        try:
+            yield chain([six.next(batchiter)], batchiter)
+        except StopIteration:
+            return

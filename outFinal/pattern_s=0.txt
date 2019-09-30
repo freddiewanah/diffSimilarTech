@@ -1,0 +1,5381 @@
+22811
+for-loop loops
+Pattern(s): 0	
+a simple for-loop is a better choice
+you can use a while loops more efficiently on a large non-numerically indexed structure like this
+
+
+
+71743
+tapestry sitemesh
+Pattern(s): 1	
+i have used sitemesh and sitemesh is good for wrapping a set of pages in standard headers and footers but tapestry is better for creating components which are used on many pages possibly many times per page
+
+
+
+110605
+codeigniter cakephp
+Pattern(s): 1	
+i tested cakephp but it s too much a la rails style and i didn t like it
+codeigniter gives you more freedom to do whatever you whant
+
+
+
+111340
+post get
+Pattern(s): 0	
+post gives more privacy to the data as it is not displayed anywhere
+
+
+
+119991
+freebsd linux
+Pattern(s): 0	
+the freebsd kernel has a much more relaxed license than linux i think you might find the freebsd kernel worthwhile
+
+
+
+217514
+disk ram
+Pattern(s): 0	
+for example the popular recursive quicksort algorithm provides quite reasonable performance with adequate ram but due to the recursive way that adequate ram copies portions of the array adequate ram becomes much less practical when the array does not fit in ram because adequate ram may cause a number of slow copy or move operations to and from disk
+
+
+
+217675
+inherited subclassing
+Pattern(s): 0	
+note that inherited is harder to maintain than composition
+also i would rename tests to testcollection if you subclassing list or something like testunit if it would contain list of test classes
+
+
+
+229695
+inherited subclassing
+Pattern(s): 0	
+ut a list of childthing1 s cannot handle a childthing2 or indeed any implementor of iparentthing other than childthing1 - in other words if the was allowed to cast as a the would have to be able to deal with all subclassing of iparentthing not just iparentthing and childthing1
+note that java generics have a way to say that i want a list of anything that inherited from this in addition to i want a list of anything that this inherited which allows for more interesting and in my opinion elegant solutions to some problems
+
+
+
+357428
+int chars
+Pattern(s): 1	
+on a most basic level ascii chars string it is a sequential series of memory addresses each of which contain a short int corresponding to a ascii code and terminated by null chars 0
+most higher level languages provide a string object which has a chars array as well as convenience methods because working with chars strings is more or less a pain in the rear
+
+
+
+399039
+postgresql mysql
+Pattern(s): 1	
+postgresql is more oracle-like in syntax and in some of the features indeed it has been occasionally called poor man s oracle
+mysql i am not sure what to compare to
+
+
+
+408402
+inherited base-class
+Pattern(s): 1	
+yours is more in line with class inherited which is typical of smalltalk java and yes c++
+java particularly recently has tended to see inherited as all about managing types and now urges composition instead of inherited for code-reuse this is partly because inherited is less flexible in java than composition so prefering composition is good practice
+and partly because of the brittle base-class problem
+
+
+
+420255
+comparator comparable
+Pattern(s): 1	
+comparable which has comparator requires the objects to be compared in order to use a treemap or to sort a list to implement that interface
+then you have to implement a comparator which is a bit less convenient to use
+
+
+
+495913
+getter setter
+Pattern(s): 1	
+now if this logic was in a viewmodel then i think the getter aspect is a little more forgivable expected
+
+
+
+506252
+multiplying division
+Pattern(s): 0	
+think of the hardware involved and you ll understand a lot better why it takes so much longer to divide than multiplying
+both operations are done down at the floating point unit fpu level and even in the world of integral alus the division circuit is a far busier place than a multiplication circuit
+
+
+
+506929
+division multiplication
+Pattern(s): 0	
+float division is not much slower than integer division but the compiler may be unable to do the same optimizations
+for example the compiler can replace integer division between 3 with a multiplication and a binary shift
+
+
+
+582486
+google-chrome firefox
+Pattern(s): 1	
+i have already run into problems with old javascript code which i thought was standards compliant by firefox or opera standards - which are pretty good but google-chrome was even more picky
+
+
+
+592640
+kerberos ntlm
+Pattern(s): 0	
+kerberos is complex to set up and even though kerberos generally is considered faster than ntlm this is only true when you reach a certain limit of simultanious users on your site
+
+
+
+610563
+gif png
+Pattern(s): 1	
+in general jpeg is better suited for photos while gif is better for graphic objects like buttons or rendered letters
+png is good in both regards but that discussion tends to get a little religious because there are license fees to pay if you develop a programm that reads writes gif or jpeg while png is free
+
+
+
+640951
+xstream jackson
+Pattern(s): 1	
+i ll second suggestion to use jaxb or possibly xstream former is faster latter has more focus on object serialization part
+plus i ll further suggest a decent json-based alternative jackson which can fully serializer deserialize beans to json text to store in the column
+
+
+
+688636
+disk ram
+Pattern(s): 1	
+get a ram disk that supports automatically loading saving disk images so you don t have to use boot scripts to do this
+sequential read write of a single disk image is faster than syncing a lot of small files
+
+
+
+772256
+wsdl.exe svcutil.exe
+Pattern(s): 0	
+wsdl.exe writse wsdl for your web service classes and proxy classes for your wsdl
+svcutil.exe does a wider range of things but can generate proxies for wcf windows communication foundation services
+
+
+
+915641
+direct3d directx
+Pattern(s): 0	
+the way i read it they re simply providing thin wrappers allowing easy access to the direct3d api from .net
+managed directx was a much bigger effort basically a separately designed api
+
+
+
+1094085
+innodb myisam
+Pattern(s): 1	
+just the table locking alone will affect speed such that innodb would be overall faster
+also notice that myisam is much faster on inserts not so much on selects
+
+
+
+1264516
+hash salt
+Pattern(s): 1	
+if you are certain that you will never use a hash scheme to authenticate like http digest auth hash password is more secure
+to avoid rainbow table attack please use a nonce or salt
+
+
+
+1387232
+switching screens
+Pattern(s): 0	
+by automatically switching between these two modes the codec maintains video quality while maximizing compression
+overall the windows media video 9 screens codec delivers better handling of bitmap images and screens motion even on relatively modest cpus
+
+
+
+1443697
+grass proj
+Pattern(s): 0	
+in my experience as soon as you try to use the vs install proj to do anything that can t be drag ndropped in the designer you re asking for trouble
+in other words it sucks but i don t know whether the grass is greener on the other side installshield because i ve never used that
+
+
+
+1546912
+postgresql mysql
+Pattern(s): 0	
+note i m not saying mysql s license won t work for you but postgresql is definitely simpler
+
+
+
+1698436
+division multiplication
+Pattern(s): 1	
+0 but most of the time n 10 seems enough and spare one division which was more expensive
+i simply use multiplication and it seems to make it much faster almost 4x here at least on the 1..100000000 range
+
+
+
+1704423
+strtol atoi
+Pattern(s): 1	
+atoi is a basic one with very limited error handling capability
+strtol is a better one
+
+
+
+1786423
+hash md5
+Pattern(s): 0	
+use a content based hash sha1 is what i use
+md5 is weaker and faster but on modern processors speed isn t a concern
+
+
+
+1890342
+passenger webrick
+Pattern(s): 0	
+mongrel is still a valid option but passenger mod_rails is far more popular
+you can try to use webrick which comes as a standard with rails
+
+
+
+1892498
+division modulo
+Pattern(s): 1	
+just use integers and division will just work for you
+except of course the modulo solution is so much more elegant
+
+
+
+2015064
+postgresql mysql
+Pattern(s): 1	
+the reason is primarily optimizer maturity postgresql can better handle the kinds of queries you re likely to run
+mysql is more likely to get confused on five-way joins go bottom up when you run a subselect etc
+
+
+
+2027294
+post get
+Pattern(s): 1	
+and after reading your question completely -d it seems that your request changes in this case adds data which means using post is the more correct way
+but as you only send it via get to your proxy and then via post to the other app as long as it works it is fine
+
+
+
+2055824
+ubuntu opensuse
+Pattern(s): 0	
+i have the same problem in ubuntu
+but on opensuse it seems a lot better
+
+
+
+2061570
+width height
+Pattern(s): 0	
+irst calculate the size so that the width fits in the box
+then check if the calculated height is larger than the box in that case you calculate the size so that the height fits in the box instead
+
+
+
+2094577
+profiling debugging
+Pattern(s): 0	
+rom your description your description appears that the problem happens in your extension so set up the profiling according to the documentation and look in the error console
+other than that remote debugging requires seeing more of your code
+
+
+
+2140717
+ant maven
+Pattern(s): 1	
+also ant is platform-independent so you can collaborate with those who use other operating systems
+maven offers even more compelling features
+
+
+
+2145814
+inherited subclassing
+Pattern(s): 1	
+inherited thus implies a generalization
+specialization hierarchy wherein a subclassing specializes the more general structure
+
+
+
+2151314
+glut glfw
+Pattern(s): 1	
+also much of your requirements is already handled by the various opengl utilities - namely glut and glfw
+if you intend to stick with opengl both will do the job glfw is more advanced and provides more control
+
+
+
+2169337
+allocator stl
+Pattern(s): 0	
+f you need to pass the objects themselves around modify individual elements after the objects themselves are in the data structure without having to retrieve the objects themselves each and every time or if you re using a custom memory manager to manage the allocator deallocation and cleanup of the objects
+putting the objects the objects themselves in the stl structure is easier and simpler
+
+
+
+2179533
+phpunit simpletest
+Pattern(s): 1	
+however i would like to say simpletest is seriously outdated
+phpunit has way more features and is actively maintained
+
+
+
+2198143
+addition multiplication
+Pattern(s): 0	
+addition is easy just add
+multiplication is slightly harder just multiplying two scaled numbers and then divide by your scale factor
+
+
+
+2212938
+ssl https
+Pattern(s): 0	
+i m using ssl on apache which handles access to our subversion repository on a small windows ec2 instance
+in testing i found that https access was fractionally slower than http but that s for the obvious reason that encryption decryption is not an instantaneous process as you d expect
+
+
+
+2294029
+atexit main
+Pattern(s): 0	
+edit a lot of code will be unsafe to call during an atexit function
+registering for uiapplicationwillterminatenotification on the main thread is safer
+
+
+
+2375759
+strcpy strncpy
+Pattern(s): 1	
+strcpy will generally get the job done
+strncpy is better if available
+
+
+
+2586639
+post get
+Pattern(s): 0	
+post allows bigger and more complex information to be passed
+in terms of vocabulary the purists say that get should get information and post should post get should get information and post
+
+
+
+2605364
+stdout fflush
+Pattern(s): 0	
+occasionally the stdout needs more than a write method fflush is another common one which stringio will handle
+
+
+
+2612738
+codeigniter kohana
+Pattern(s): 0	
+i would personally suggest you to go with codeigniter it is easier and faster than other counterparts
+or you may want to go for kohana said to be extended version of codeigniter
+
+
+
+2678137
+aggregate-functions sum
+Pattern(s): 0	
+hen using group by you should only return columns that are named in group by clause or that include an aggregate-functions
+therefore the inner select here gets the col2 values where the sum is greater than or equal to zero then the outer select grabs the entire row for those values
+
+
+
+2797218
+postgresql mysql
+Pattern(s): 1	
+i don t think that postgresql will affect your performance despite postgresql uses more resource since postgresql a full rdbm implementation in the long term postgresql will be the best option if you are looking for performance
+number of sql queries is relative you must remember that to bring same results mysql and postgresql has their own implementations just to give an example mysql dont implement the full ps sql
+
+
+
+3095876
+integer unsigned
+Pattern(s): 1	1	
+unsigned ints don t exist in math only natural numbers
+and since most programmers have a mathematical background using an integer is more natural
+
+
+
+3108501
+inline inlining
+Pattern(s): 0	0	
+s an important side note it is quite common to find that inlining makes no noticeable improvement in performance and there are many cases where not inlining code is better than inlining it
+i ve found this to even be true of simple one line accessor functions just because the code when inline requires fewer instructions than it does to call the function doesn t always mean the compiler will do a better job with the compiler
+
+
+
+3155805
+memcpy memmove
+Pattern(s): 1	
+memmove instead of memcpy .
+memcpy is faster but it s not safe for moving blocks of memory where the source and destination overlap
+
+
+
+3393794
+versioning upgrade
+Pattern(s): 0	
+the way i fixed it was to upgrade my jquery to 1.4
+versioning 1.3.2 fails with newer prototype on ie8
+
+
+
+3398838
+passenger webrick
+Pattern(s): 0	
+passenger is likely the most popular choice for production now due to its easy configuration speed and features
+if there is a specific use case for webrick that makes it better than any of the other server choices i d love to know
+
+
+
+3440111
+lisp scheme
+Pattern(s): 0	0	
+fter spending years with scheme and common lisp i ve spent a year programming almost exclusively in c
+when i go back to scheme scheme is much easier to express myself because i know the kinds of things the machine is good at
+
+
+
+3455275
+launch4j javaw
+Pattern(s): 1	
+launch4j looks like a good option as alternate to having java installed as it will allow seamless usage of the jar file
+javaw is more or less uses java.exe with security permissions and some launch options
+
+
+
+3524659
+expander itemscontrol
+Pattern(s): 0	
+each of theses child object got another expander with an itemscontrol having around 10 childs
+wpcoder as the itemscontrol rarely contains more than 10 objects and very rarely 45 and because the items can have multiple height and child virtualization did nt help me yes i ve tried
+
+
+
+3572910
+codeigniter yii
+Pattern(s): 1	
+no idea what codeigniter is
+yii is much faster to develop just fyi
+
+
+
+3685845
+quicksort mergesort
+Pattern(s): 0	
+quicksort generally performs better and takes less memory but many examples have worst-case performance of o n 2 which almost never occurs in practice
+mergesort doesn t perform quite as well but is usually implemented to be stable and mergesort s easy to do part in memory and part on disk that is use the built-in sort function
+
+
+
+3690009
+vmware virtualbox
+Pattern(s): 0	
+and frankly if you re doing that then yes it s a real pita and vmware is way easier
+my biggest beef with virtualbox is that you can t take a vm and move a vm plus a vm snapshots and branches to another pc
+
+
+
+3763864
+octal binary
+Pattern(s): 1	
+some languages use a 0 prefix to represent octal notation 0777
+binary notation is less common often hexadecimal is used instead as it makes the notation a bit more compact and ends up using the right padding for octets
+
+
+
+3789816
+rss feed
+Pattern(s): 1	
+rss is more simple that s where its strength is
+atom is better defined yes but that s the problem they made it easy to write a very complex feed when at the end of the day you want a simplified summary
+
+
+
+3920125
+codeigniter kohana
+Pattern(s): 0	
+in codeigniter you will probably have to do everything from scratch
+kohana has cleaner coding style architecture but the lack of documewntation is crippling this could be solved if you arent shy about using their forum.
+
+
+
+3941624
+innodb myisam
+Pattern(s): 1	
+you have an acute limit on how much space you can use innodb tables take up a fair bit more space
+you require full-text search capabilities myisam is better for this purpose
+
+
+
+3966875
+libxml2 xerces
+Pattern(s): 0	
+xerces imo is too large and overwhelming for my needs while expat is too low-level
+my understanding is that libxml2 is a good higher level library
+
+
+
+4010171
+client-side server-side
+Pattern(s): 0	
+you can do this client-side with javascript
+doing the same thing server-side is trickier
+
+
+
+4087592
+innodb myisam
+Pattern(s): 1	
+myisam table is much faster than innodb but no rollback is possible
+
+
+
+4103211
+serializable deserialization
+Pattern(s): 1	
+if you are worried about instantiating too many serializable you can always keep them in a dictionary keyed by type
+deserialization is harder as you have to know the type of object first - if you can t get the caller to tell you what type to expect you will need to read the data before you try deserializing to determine the type
+
+
+
+4150714
+for-loop loops
+Pattern(s): 0	
+i usually see this implemented with a while loops instead of a for-loop
+i think those two will have the same effect but to me the while loops is clearer
+
+
+
+4161458
+udp tcp
+Pattern(s): 1	
+udp is more or less applicable for reliable applications if you take into account that packets will be lost by design
+
+
+
+4410552
+post get
+Pattern(s): 1	
+i can think of a few reasons to use get rather than post
+if the operation simply fetches results semantically the get method is more appropriate
+
+
+
+4410552
+post get
+Pattern(s): 1	
+get is used when you are fetching data
+post is more used when you are submitting a change to the application
+
+
+
+4534715
+client-side server-side
+Pattern(s): 0	
+client-side validation is more of a convenience to the user than anything else
+then the first answer would be are you checking on the server-side
+
+
+
+4552297
+innodb myisam
+Pattern(s): 0	
+while myisam can be faster for some queries innodb is usually quicker if properly tuned
+
+
+
+4586678
+elementtree beautifulsoup
+Pattern(s): 1	
+we do something sort of like this with rss feed using python -- we use elementtree since rss is usually guaranteed to be well-formed
+beautifulsoup is probably better suited for parsing html
+
+
+
+4636530
+getter setter
+Pattern(s): 1	
+the second getter is fragile the second getter will crash if somebody access s the object s title and then releases the object so the first is generally preferable even if marginally slower
+the first setter is more efficient and will work even in situations where an autorelease pool doesn t exist so it s preferable
+
+
+
+4676970
+mvp presenter
+Pattern(s): 0	0	
+from my experience a strongly enforced mvp pattern has been much better for data centric complex lob applications
+mvp offers greater seperation as your presenter have no knowledge of web centric concepts
+
+
+
+4715059
+xsd.exe svcutil.exe
+Pattern(s): 0	
+xsd.exe adheres to what i ll term as a lean and mean interpretation of the xml schema standard
+wcf s svcutil.exe tool recognizes an even smaller footprint of xml schema
+
+
+
+4771539
+liferay alfresco
+Pattern(s): 1	
+liferay seems more appealing at first but it lacks a couple of features at least the versions i tred that will slow you down in the middle of the deployment
+
+
+
+5016045
+udp tcp
+Pattern(s): 1	
+for tcp this is easy once the connection is established the firewall will allow connection in both directions
+for udp this is a bit more tricky since there is no concept of a session
+
+
+
+5045411
+int chars
+Pattern(s): 0	
+if sign magnitude ones complement two s complement are used to represent this value then -3 int requires more than one byte for the representation
+this value when assigned to an unsigned chars will cause an overflow which produces undefined behavior
+
+
+
+5136043
+wordpress joomla
+Pattern(s): 0	
+do note that wordpress is not just for blogs you can create different kinds of websites with it
+another choice is joomla it is also simpler than drupal
+
+
+
+5177403
+hash md5
+Pattern(s): 1	
+was getting weird cases where a different app engine instance was seeing different hash
+using md5 which is faster than sha1 faster than sha256 for now
+
+
+
+5191782
+icriteria fluent
+Pattern(s): 1	
+i ask because the criteria api follows the fluent interface pattern and so might be considered fluent nh
+the pros and cons of criteria vs hql are numerous but basically icriteria is better for programmatically building your queries and hql is better if the given query will never change excepting parameters imho
+
+
+
+5226739
+mouseout mouseenter
+Pattern(s): 0	
+sounds like your problem is because with the .hover because you have the new div opening over the old one the .hover causes the .hover to fire the mouseout function
+the best solution is to add to the .hover so the mouseenter also includes the larger image that grows out of the smaller image
+
+
+
+5269766
+multiplying subtract
+Pattern(s): 0	
+similarly if you skip the five first elements your loop takes o n-5 time but that too is the same as o n because adding or subtract a constant is even weaker than multiplying by a constant
+
+
+
+5381240
+jsf wicket
+Pattern(s): 0	
+i m in the hate it part so anything i said is biased plus in our test prototypes developing in wicket was faster than jsf
+
+
+
+5420141
+lwjgl jogl
+Pattern(s): 0	
+jogl is simply opengl and so hard to learn if you are not used to gl
+lwjgl is a higher level api aimed at games and systems like jmonkeyengine higher level still
+
+
+
+5420483
+width height
+Pattern(s): 0	
+.2 change the fb.canvas.setsize calls to fb.canvas.setsize width 600 height 670 where you can set your own width and height
+this doesn t bring the user to the top of the page but the user resizes the short page to the user real height which is a bit better
+
+
+
+5556127
+inherited properties
+Pattern(s): 0	
+dependency properties in wpf support properties value inherited
+with normal clr properties it is much harder to push values down to any child objects without modifying the child object
+
+
+
+5659030
+wordpress joomla
+Pattern(s): 0	
+wordpress is a very powerful framework
+joomla is even bigger
+
+
+
+5819202
+gtk pygobject
+Pattern(s): 0	
+pygtk is nothing more than a thin layer of glue making gtk available to python
+pygobject is nothing more than a thin layer of glue making gobject gio .
+
+
+
+5819202
+pygtk pygobject
+Pattern(s): 0	0	
+pygtk is nothing more than a thin layer of glue making gtk available to python
+pygobject is nothing more than a thin layer of glue making gobject gio .
+
+
+
+5868061
+jdom dom4j
+Pattern(s): 1	
+jdom and xom are probably the simplest
+dom4j is more powerful but more complex
+
+
+
+5868125
+innodb myisam
+Pattern(s): 0	1	
+so if you know how to use it it can be screaming fast innodb was much slower due to concurrency issues
+myisam is faster for small simple selects is total bull postgres will zap a small simple select in 50-100 microseconds
+
+
+
+5895463
+post get
+Pattern(s): 0	
+if you want to use just get it is much simpler you only call from your php
+depending to the response data format you can output you also want to get the response regarding to your post directly or parse your php first
+
+
+
+5957862
+folder directory
+Pattern(s): 0	
+put the file in some other common location such as in a folder on the c drive
+just have the application work with the copy of the file in the output bin debug directory the directory that the application will be installed to - you can change the properties of the item in your solution to have the item copied to the output directory either all the time or only when the item in the solution directory is newer
+
+
+
+5992872
+versioning upgrade
+Pattern(s): 0	
+v10.3 versioning is much easier and better integrated with mvvm
+not sure if upgrade costs money we had sitewide license
+
+
+
+6058730
+ubuntu linux
+Pattern(s): 0	
+it works fine - in fact i rarely boot into windows anymore
+ubuntu runs much quicker - even my wife prefers it
+it s a bit of a leaning curve using a linux desktop - but that s what i wanted anyway
+
+
+
+6088194
+xslt xquery
+Pattern(s): 1	
+xquery can produce a modified copy of your document but it s not particularly easy because you need to explicitly copy all the parts that you don t want to change
+xslt is a better bet for producing a modified copy of the document
+
+
+
+6092869
+google-chrome firefox
+Pattern(s): 1	
+firefox 4 has started doing the same thing in fact if you look in your task bar you ll see a plugin-container.exe process for firefox when flash is running
+google-chrome just launches more chrome.exe processes
+
+
+
+6104661
+udp tcp
+Pattern(s): 1	
+if you can t afford lost packets then tcp is probably a better option than udp since it provides that guarantee out of the box
+
+
+
+6126448
+post get
+Pattern(s): 1	
+you could try an ajax post
+this will prompt the get and has a bit more flexibility than just using jquery
+
+
+
+6165260
+16-bit 64bit
+Pattern(s): 1	
+without knowing more about what exactly you need to do it seems to me that it would be more efficient to use a struct containing a 32-bit unsigned int for the number of seconds and a 16-bit int for the number of milliseconds the remainder
+or use a 32-bit int for the milliseconds if 64bit alignment is more important than saving a couple of bytes.
+
+
+
+6219147
+post get
+Pattern(s): 0	1	1	
+get is better if you want to navigate back to the a page with a given set of variables
+post is better if you re submitting a lot of content
+however a post request is less efficient as a get request - bear that in mind and only use post if you really need to
+
+
+
+6243852
+recvfrom datagram
+Pattern(s): 0	0	
+socket.error errno 10040 a message sent on a datagram socket was larger than the internal message buffer or some other network limit or the buffer used to receive a datagram into was smaller than the datagram itself
+so i am not sure why you would hang on recvfrom if a 6-byte message was originally sent
+
+
+
+6380342
+vsto add-in
+Pattern(s): 0	
+unfortunately vsto is only a managed wrapper around the office interop libraries so vsto has no more hooks than using the interop libraries
+it just makes add-in development much easier with helpers and giving us designer support
+
+
+
+6456747
+post get
+Pattern(s): 0	
+post makes more sense in terms of http method definitions
+get is supposed to be safe and make no changes to your system state database
+
+
+
+6563020
+disk ram
+Pattern(s): 1	
+relational database systems do relational database systems own disk swapping of course partly because relational database systems were designed when ram was more expensive and partly because relational database systems still sometimes deal with unusually large volumes of data
+
+
+
+6731523
+mouse keyboard
+Pattern(s): 0	
+this is a radical concept i know but a mouse is slower than keyboard shortcuts
+
+
+
+6746429
+post put
+Pattern(s): 0	
+most servers that expect a post will accept only a post
+a put is used much more rarely
+
+
+
+6788006
+authorization access-control
+Pattern(s): 1	
+spring security s anonymous authorization just gives you a more
+convenient way to configure your access-control attributes
+
+
+
+6788970
+setinterval settimeout
+Pattern(s): 1	
+as a rule setinterval is good for doing small processes regularly
+in this case you just want to put a wait into the processing which suggests to me that settimeout is better
+
+
+
+6888070
+post get
+Pattern(s): 1	
+post is more secured cuz it s not gonna be cached or saved in history or bookmarked
+u can clearly notice that post s dont display in the browsers address bar but get do
+
+
+
+6916614
+google-chrome firefox
+Pattern(s): 0	
+firefox has a more advanced plugin than the google-chrome extension but both work
+
+
+
+7013519
+min max
+Pattern(s): 0	
+if the value of min is larger than max a pop-up will occur
+
+
+
+7348124
+alarmmanager timertask
+Pattern(s): 1	
+alarmmanager is better if you need to receive the intent even when your activity is not active
+timer and timertask might be better if you only need the periodic behavior while your activity is running
+
+
+
+7370361
+rtos qnx
+Pattern(s): 0	
+qnx is most famous for being the real time operating system of which there are two versions qnx rtos v4 is an older product but is still used in many existing systems and still supported by the company
+
+
+
+7528159
+wordpress joomla
+Pattern(s): 0	
+in my opinion drupal is better for more complicated sites...joomla and wordpress can be extended to function as more complex websites but more complex websites great strength is that out of the box more complex websites can provide the majority of functionality that s needed for a basic website
+essentially joomla is more of an off-the-shelf solution while drupal is a lot more powerful drupal s entire makeup is extensible and modular but requires more configuration and a slightly steeper learning curve
+
+
+
+7589633
+google-chrome firefox
+Pattern(s): 0	
+google-chrome had less of an issue most likely due to tabs being in isolated processes
+firefox 7 seems to have fixed this problem for firefox
+
+
+
+7724668
+qpainter qrect
+Pattern(s): 1	
+reading the documentation tells that qpainter drawpixamp qrect qpixmap do exactly what you want
+it might be a specific issue with pyqt where the format of the qrect is recognized more as a qrectf
+
+
+
+7771286
+rvm bundler
+Pattern(s): 0	
+in contrast with rvm rbenv does not manage gemsets
+bundler is a better way to manage application dependencies
+
+
+
+7898008
+put get
+Pattern(s): 0	
+since m k+1 m k + m k-2 + 1 you can replace with to get m k+1 m k + m k-2 + 1
+you can make substitutions on the right-hand side of as long as what you put in is less than or equal to what you take out
+
+
+
+7954071
+ocean petrel
+Pattern(s): 1	
+this is not exposed through ocean as it is hard to understand and the side-effects are not predictable
+inside petrel this is less so as the processes in question will update all the zone properties and keep all the zone properties consistent
+
+
+
+7995775
+free malloc
+Pattern(s): 0	
+his means using new gc instead of new gc_malloc instead of malloc and don t bother about free -ing or delete -ing memory objects
+a couple of years ago i measured new gc_malloc versus malloc it was a bit slower perhaps 25µs for new gc_malloc versus 22µs for system malloc
+
+
+
+8018700
+udp tcp
+Pattern(s): 1	
+or example you could have the central core of the application written in c++ set up a tcp server then have toolbar apps written in java send command packets to the core program via a dedicated socket connection
+come to think of the core program udp is probably better for that
+
+
+
+8030863
+innodb myisam
+Pattern(s): 0	
+innodb and myisam
+3 innodb supposedly keeps data safer
+
+
+
+8156982
+hash md5
+Pattern(s): 1	
+instead of storing a list of links as strings store a list of md5 or sha1 hash for those links
+comparing a hash to a list of hash is much faster than comparing a string to a list of strings
+
+
+
+8286895
+public protected
+Pattern(s): 0	
+monotouch sdk follows the .net naming guidelines and public propertie starts with capital letters
+private or protected variables starts with lower case
+
+
+
+8300774
+indesign framemaker
+Pattern(s): 0	
+framemaker is an excellent tool for books manuals and long technical documents
+it is a bit harder to learn than indesign but has a richer set of tools for building variables and running headers and footers if you have the time and inclination to learn how to use them
+
+
+
+8307079
+pcm music
+Pattern(s): 1	
+as far as encoding the raw pcm that comes out of the mic is typically huge for a 16khz sample rate 16bits sample mono channel audio stream that would net out to 32000 bytes per second of audio
+i have not found an easy or free way to encode in mp3 on the sl platform but fortunately speech as opposed to music is better encoded using the speex codec
+
+
+
+8388767
+unix aix
+Pattern(s): 1	
+nawk alas aix don t have sort and unix sort is far more superior then any hand-made sort in awk
+
+
+
+8574057
+remoteview appwidgetprovider
+Pattern(s): 0	
+for screen-resolution normal android design guidelines are necessary and sufficient because widget also follows xml layout techniue difference comes with remoteview methods only which has nothing to do with design
+about implementation i will say extending appwidgetprovider is better then a broadcastreceiver approach to update widget contents
+
+
+
+8640353
+superclass subclassing
+Pattern(s): 0	
+it s because superclass is a lower bound annotation meaning classes that are super to vector
+if vectorb is a subclassing to vector then vectorb is a subclassing to vector won t work
+
+
+
+8672362
+for-loop loops
+Pattern(s): 1	
+other than that if you want to not block other js from running then you need to use the settimeout setinterval method of implementing this loops
+otherwise a regular for-loop is faster
+
+
+
+8768026
+codeigniter cakephp
+Pattern(s): 0	
+for that you would use a php framework
+i would suggest starting with codeigniter which is simpler than zend
+i don t have experience with cakephp so i won t comment on that.
+
+
+
+8809847
+mongodb bson
+Pattern(s): 0	
+you can definitely store the structure in mongodb
+typically bson is a lot easier cleaner than using xml to represent complex relationships and you can also read edit it cleanly from the shell
+
+
+
+8912494
+post get
+Pattern(s): 1	
+i read so many blogs and post but couldn t get the right solution from anywhere else
+even in this post i looked more detail and tried each of solution
+
+
+
+8959673
+udp tcp
+Pattern(s): 0	
+i wish to discover all systems on the same local network as the computer running my program s primary ip address which are listening to a certain tcp port.
+with udp this is a slightly harder problem - you could look for bounces but your packet may be eaten or lost as could the reply
+
+
+
+9193258
+ant maven
+Pattern(s): 1	
+if you want the jar to be created everytime you build try using maven or ant that does these packaging tasks for you automatically
+maven is more powerful and you would love to see that it mainly does dependency management and your library is the dependency for your project
+
+
+
+9264189
+fixed-point fractions
+Pattern(s): 1	
+the primary difference between decimal and double is that decimal is fixed-point and double is floating point
+that means that decimal stores an exact value while double represents a value represented by a fractions and is less precise
+
+
+
+9278610
+syntaxhighlighter highlight.js
+Pattern(s): 0	
+i ve used the first two in the past but i think syntaxhighlighter has better support
+highlight.js
+
+
+
+9279856
+try-catch exception-handling
+Pattern(s): 0	
+in this case the try-catch version is not too bad but you still have to know which type of exception-handling is thrown and in which case
+also in real-world code having a lot of try-catch statements makes code harder to follow
+
+
+
+9352289
+carrierwave minimagick
+Pattern(s): 0	
+when configuring carrierwave you will also need to setup the actual processor
+i use the full-blown rmagick but you can use minimagick which is simpler to setup
+
+
+
+9468534
+opensuse linux
+Pattern(s): 1	
+opensuse and suse enterprise are developed by opensuse and suse gmbh but opensuse is more loosely developed with less testing before release where suse is tested to greater levels to ensure proper operations before it was released
+like most linux distributions opensuse includes both a default graphical user interface gui and a command line interface option
+
+
+
+9505126
+tostring string.format
+Pattern(s): 0	
+you might as well replace showexp with tostring which is declared in object unless you want tostring to do something different
+using string.format is a little cleaner than concatenating several strings in my opinion
+
+
+
+9648919
+post get
+Pattern(s): 0	
+at most simplest you can perform a get as follows
+a post is easier to be performed with httpclient
+
+
+
+9726858
+post get
+Pattern(s): 0	
+and one learns from examples of real-world design concerns not some standards publications or top-down descriptions where you d have to skip first 150 pages or get bogged down
+after review of earlier so post here s an extended older discussion
+
+
+
+9788111
+mpfr mpir
+Pattern(s): 1	
+the mpfr library can use mpir and provides much more complete floating-point support
+
+
+
+9796712
+boost allocator
+Pattern(s): 1	
+some people will suggest using std vector s of std vectors but this is inefficient due to the memory allocator and copying that has to occur when the vectors resize
+boost has a more efficient version of vectors of vectors in its multi_array lib
+
+
+
+9803224
+ssl spdy
+Pattern(s): 0	
+plus once spdy becomes more common ssl slow down won t really account for anything much
+
+
+
+9847406
+post get
+Pattern(s): 0	
+o i get the amount of entries persons in this case
+if someone has a better solution then please post someone has a better solution
+
+
+
+9976913
+try-catch exception-handling
+Pattern(s): 0	
+if you re planning on wrapping your code in a try-catch block with an exception-handling of nullreferenceexception then you should have something in place to handle this type of exception-handling and perform any necessary operations related to this error
+that being said in situations where you know you may have the possibility of having an error which would throw an exception-handling it is better to check for this situation -- and not throw an error at all but gracefully handle it
+
+
+
+10058020
+for-loop while-loop
+Pattern(s): 1	
+you use a for-loop for an unknown number of loops iterations
+this is not wrong but a while-loop is more appropriate
+
+
+
+10058020
+loops while-loop
+Pattern(s): 1	
+you use a for-loop for an unknown number of loops iterations
+this is not wrong but a while-loop is more appropriate
+
+
+
+10070101
+strlen realloc
+Pattern(s): 0	
+- infer a minimum pre-existing buffer size from strlen - this would mean that if you re say writing a long string then a short string then the original long string into the buffer the last operation will needlessly replace the buffer
+clearly realloc is a better bet
+
+
+
+10114896
+profiling debugging
+Pattern(s): 0	
+if so you can use the profiling to find where the profiling is spending more time
+if not you can run the debugger in monodevelop put some breakpoints in the code and press the debugging button
+
+
+
+10162575
+wordpress joomla
+Pattern(s): 0	1	
+wordpress is easier to learn how to customize
+however joomla is more powerful if you would like to add more functionality such as a web shop
+
+
+
+10277598
+post get
+Pattern(s): 0	
+this means the amount of data you could pass by using post verb is much more than by using a query string and a get method
+
+
+
+10378593
+versioning upgrade
+Pattern(s): 0	
+as your device ios versioning is higher than what your xcode support
+upgrade you xcode with the latest one xcode 4.3
+
+
+
+10541637
+children parent
+Pattern(s): 1	
+manipulating id s to find children is more difficult than using built-in jquery selectors to find children
+i realize that in this case children are siblings rather than true children but you can still use .nextuntil parent to find all of the children of a parent
+
+
+
+10640057
+versioning upgrade
+Pattern(s): 0	
+if you upgrade a module versioning a clean build need to be executed
+minimum sdk versioning - checkout that the module min titanium sdk versioning parameter has lower value then the sdk you use
+
+
+
+10691669
+maven pom.xml
+Pattern(s): 0	
+i also answered this other question about .exe files but generating a console .exe without gui wrapping a java command line application with launch4j and maven
+this one have a complete pom.xml and is newer
+
+
+
+10848194
+screens tablet
+Pattern(s): 0	
+an xlarge screens is defined as a screens that is significantly larger than a large screens such as a tablet or something larger and may require special care on the application s part to make good use of the application s though the application s may rely on resizing by the system to fill the screens
+
+
+
+10997549
+codeigniter fuelphp
+Pattern(s): 1	
+or you could use pyrocms which is an awesome content management system built on top of codeigniter
+fuelphp is a more modern framework which can do some cool stuff but if you don t want to build a whole cms then you can t go wrong with pyro
+
+
+
+11067557
+google-chrome firefox
+Pattern(s): 1	
+which seems to work just fine in google-chrome and firefox what i have access to
+i am guessing that google-chrome has a slightly more strict base64 implementation and requires the padding
+
+
+
+11074230
+orientdb neo4j
+Pattern(s): 1	
+orientdb or neo4j are graph databases that can be embedded
+orientdb is less mature but has a better license
+
+
+
+11128247
+udp tcp
+Pattern(s): 1	
+tcp is stream-based which means there s no guarantee everything will be sent received all at once
+you might consider using udp which is less reliable but everything does get sent at once or coming up with your own delimiting scheme
+
+
+
+11136921
+hash salt
+Pattern(s): 0	
+ salt is not a constant if every password is hash with the same salt you re wasting your time
+i would recommend using bcrypt instead of the sha512 salt approach bcrypt instead s much harder to brute force
+
+
+
+11229402
+range median
+Pattern(s): 0	
+o if you are calculating rolling median over a set of integers which vary from 1..65536 then you only need 128kb to store 128kb and can insert delete query using o ln n where n the size of the range 2 16 operations
+this is a big win if the data range is much smaller than your rolling window
+
+
+
+11341261
+gif bmp
+Pattern(s): 0	
+by the way gif is better than jpg in this case jpg can cause unwanted artifacts making the barcode difficult to scan
+bmp is usually too big
+
+
+
+11371300
+ant pom.xml
+Pattern(s): 1	
+a parameterized ant script has some downsides- namely working with both ant and maven so the actual pom.xml is more difficult to comprehend but the actual pom.xml does allow for more flexibility than is otherwise possible with maven
+
+
+
+11581186
+decoder encoder
+Pattern(s): 1	
+for most use cases h.264 will have much better compression than mjpeg but the encode decoder process is a lot more complex which is why things without much computing power webcams spit out mjpeg
+google would have to be a rather pathological case for an good h.264 encoder to perform as badly as a good mjpeg encoder randomly generated pixel values
+
+
+
+11583834
+folder directory
+Pattern(s): 0	
+f a file or directory matches that string then it will not be copied
+if you want to exclude folder it is safer to use the above string instead of simply folderc which might skip a file called folderc_listing.txt
+
+
+
+11744855
+leaflet openlayers
+Pattern(s): 0	
+here are several javascript libraries that you can use to draw maps in a widget on your webpage but the most common are openlayers and leaflet
+each of these libraries has a basic tutorial showing how to use each of these libraries to draw a map on a page though leaflet s is nicer and friendlier
+
+
+
+11765559
+codeigniter yii
+Pattern(s): 1	
+codeigniter is a product of ellislab team and ellislab team main product is expression engine which developed with codeigniter
+after some time of using ci i found that using yii is more convenient
+
+
+
+11796645
+actionlistener listselectionlistener
+Pattern(s): 0	
+actionlistener is used for jbutton it tells just that the gui-element has done something a button can not do anything except be clicked
+listselectionlistener contains more information which element has been choosen
+
+
+
+11865590
+libevent epoll
+Pattern(s): 0	
+libevent sits at a lower level than buffered file i o what you get with stdio.h using file descriptors directly
+you are correct thinking that it is just an epoll select kevent etc wrapper
+
+
+
+11871626
+webclient httpwebrequest
+Pattern(s): 0	
+you have two options webclient and httpwebrequest.
+or you can use httpwebrequest which has more capabilities but is a little tougher to use
+
+
+
+11993839
+integer unsigned
+Pattern(s): 0	
+by the way it would probably be a good idea to use bitwise operations rather than a union to convert the two bytes to a single unsigned int
+that way your code would be more portable to other compilers where unsigned is more than two bytes
+
+
+
+12083121
+webclient httpwebrequest
+Pattern(s): 0	
+webclient has a much simpler interface than httpwebrequest and takes care of reading and writing from the streams for you
+
+
+
+12147389
+webclient httpwebrequest
+Pattern(s): 0	
+you may need to cast the result to httpwebrequest
+note that the webclient class makes this much easier
+
+
+
+12165978
+post get
+Pattern(s): 0	
+this will give you the latest five postings assuming a higher id post is newer forcing each result to be from a different user
+with this method if you need to load other user or post data it would be best to load it separately after you get the desired user ids and post ids
+
+
+
+12237773
+apache nginx
+Pattern(s): 0	
+but then apache s functionality is much bigger than just serving rack based apps
+so apache s functionality makes sense to replace apache s functionality with something more lightweight for example nginx especially because you deploy apache s functionality once for every host you have
+
+
+
+12338464
+int chars
+Pattern(s): 1	
+on all of the computers i work with int is faster than unsigned significantly faster than signed chars
+
+
+
+12399834
+django web.py
+Pattern(s): 1	
+but you should really accept blender s answer as flask and others like bottle and web.py are the right way to accomplish your task
+as you ll see the simple way in django is considerably more involved
+
+
+
+12399834
+flask django
+Pattern(s): 1	
+but you should really accept blender s answer as flask and others like bottle and web.py are the right way to accomplish your task
+as you ll see the simple way in django is considerably more involved
+
+
+
+12684644
+filtering grouping
+Pattern(s): 0	
+but without any useful filtering oracle has to hash the entire table
+tbone s query that only use a grouping by looks nicer and may run faster
+
+
+
+12795730
+apache nginx
+Pattern(s): 0	
+a server which reserves a thread or an entire process per connection such as apache with the usual mpm_prefork or mpm_worker keepalives are usually disabled entirely or kept quite short a few seconds
+for an event-based server such as nginx which uses much less memory per connection the keepalive timeout can be left at a much higher value typically a minute or so
+
+
+
+12808226
+soundpool audiotrack
+Pattern(s): 1	
+mediaplayer and soundpool are the main playback classes
+audiotrack is a more advanced lower level class allowing more control and complexity
+
+
+
+12813429
+innodb myisam
+Pattern(s): 0	
+myisam does not have relations foreign keys if you want to keep integrity between tables you have to code some triggers whereas in innodb you can use delete on cascade and this stuff
+but innodb is slower when in migrations because it has to check constraints
+
+
+
+12822575
+jruby mri
+Pattern(s): 1	
+i ve noticed however that jruby is more sensitive to memory leaks than mri
+
+
+
+12873191
+post get
+Pattern(s): 0	
+you use post
+since you are not changing anything get is better
+
+
+
+12879437
+int boolean
+Pattern(s): 1	
+but take care you should not use this approach to functions that are not uniform in argument set say one function has one int argument and another zero arguments - that would throw an exception
+but given your conditions i d go with boolean if statements because checking a boolean once is even less expensive than calling a function through a variable
+
+
+
+12906984
+innodb myisam
+Pattern(s): 1	
+myisam has historically been viewed as faster than innodb but for recent versions of innodb that is true for a much much smaller set of use cases
+myisam is typically faster for table scans of read-only tables
+
+
+
+12974736
+alarmmanager timertask
+Pattern(s): 0	
+alarmmanager consumes lesser battery power than timertask or thread
+
+
+
+13053667
+ubuntu linux
+Pattern(s): 1	
+so hard i recommend you uses the 32 bits if you want programme on linux
+and in my vision the ubuntu 32 bits is the better plataform to developer to android how to i need make androoid and ios apps i m working on mac but the ubuntu is better if you only programmer on android
+
+
+
+13128258
+hive hdfs
+Pattern(s): 0	
+another way is to tune number of reducers - sometimes hive defines much less reducers then needed - so you can set it manually to better utilize your cluster
+if you have number of queries to run to do your transformation - you can define low replication factor for this temporary data in hdfs
+
+
+
+13145835
+post put
+Pattern(s): 1	
+post can do anything but one use of post creates an object in a container that the client specifies and lets the server return the uri of the newly created object within that container
+put is more limited
+
+
+
+13327353
+mouse keyboard
+Pattern(s): 1	
+so creating your own mouse driver is better
+i needed a safe way so simulate mouse keyboard behavior for my bot and i wrote a detailled article on my blog
+
+
+
+13384678
+integer fractions
+Pattern(s): 0	
+the fractions part if present may have any number of digits but is always preceded by a decimal point
+if the integer part has more than one digit the leading digit must not be zero
+
+
+
+13396640
+try-catch exception-handling
+Pattern(s): 1	
+avoiding that with try-catch is probably better
+exception-handling are fine for catching errors such as badly formed input when it s expected that input normally is valid
+
+
+
+13397461
+versioning upgrade
+Pattern(s): 0	
+i would recommend that you upgrade to the latest versioning it has a much better render engine for html
+
+
+
+13442781
+comparator comparable
+Pattern(s): 0	1	
+that said using a standard sort with either comparable rows or a comparator is much better than mixing up the sort logic and the comparison logic
+comparator is the more flexible way
+
+
+
+13465710
+alarmmanager timertask
+Pattern(s): 0	
+timertask
+both of these are made for repeative execution on certain interval however alarmmanager uses lesser battery
+
+
+
+13479885
+joptionpane jdialog
+Pattern(s): 0	
+as i understand it joptionpane is great for what it can do but you can t really change the functionality beyond that not easily
+jdialog is better to inherit from if you want to create your own custom dialogs
+
+
+
+13597029
+udp tcp
+Pattern(s): 1	
+plus tcp is more complicated because you have to handle the protocol stuff
+so when you create your system you have a choice - either tcp or udp packets depending on what you are trying to achieve and how you want to go about your system
+
+
+
+13597249
+dropbox skydrive
+Pattern(s): 0	
+dropbox officially haven t release sdk for windows phone yet you can still use it using sharpbox project click here
+skydrive is better option specially for windows phone application as both runs on same platform and provide better features
+
+
+
+13629530
+innodb myisam
+Pattern(s): 1	
+myisam is liable to explode in the worst possible way if the system crashes or loses power during heavy write activity it s not journaled and can t always be recovered
+innodb is much more robust
+
+
+
+13633932
+width height
+Pattern(s): 0	
+ou could place a width-greedy-zero height with css empty element where the images are supposed to be loaded and test how much width it can get by selecting him via jquery
+if jquery width is greater than 300 call the jail
+
+
+
+13661451
+post get
+Pattern(s): 0	
+verytime you make an ajax request you post the token you get from the fb.getloginstatus or fb.login and read it out in the php file and set it via facebook - setaccesstoken
+not suitable in all circumstances you definately need to use post is slower and brings some security issues but still works
+
+
+
+13720564
+cpu processors
+Pattern(s): 1	
+then bigger miss then more performance penalty will be introduced by processors
+actually in the modern world cpu performs much faster then memory
+
+
+
+13892105
+ant maven
+Pattern(s): 0	1	
+ ant is kind of out of date today you should check out maven especially if you are new to ant
+1 ant is newer more robust integration and building tool
+
+
+
+13917237
+uploadify plupload
+Pattern(s): 0	
+this does not answer your question but i ve spent too much time messing around with uploadify
+in the end i ditched it and switched to plupload which seems much better
+
+
+
+13950475
+crossover mutation
+Pattern(s): 1	
+add a new operator alongside mutation and crossover that performs your local search
+you might find that the mutation operator is less useful in the hybrid scheme so just replacing that could be viable.
+
+
+
+13976274
+disk ram
+Pattern(s): 0	
+when an index is too large to fit into ram mongodb must read the
+index from disk which is a much slower operation than reading from
+
+
+
+14148166
+qgraphicsscene qgraphicsitem
+Pattern(s): 1	
+technically this could also be done by customizing a qtableview widget but qgraphicsscene is more robust for custom graphics and performance
+from a high level view you can either create a composite object representing a cell item or you can subclass a qgraphicsitem and do all the custom painting yourself
+
+
+
+14169451
+coalesce isnull
+Pattern(s): 1	
+regarding isnull vs coalesce -
+it seems that isnull is faster in this instance
+
+
+
+14232816
+xstream jackson
+Pattern(s): 0	
+if you use jackson you can check this answer and this example
+there are many other json apis jaxb etc but imo xstream is the easier to start with
+
+
+
+14349977
+realloc malloc
+Pattern(s): 0	
+for that you have realloc
+with malloc you would end up with a fixed size for your table just like if you had only declared it has static but with later initialization well i m a bit agains this sentence because malloc is much more than that but for this purpose this purpose is safe to say this purpose
+
+
+
+14650512
+kerberos ntlm
+Pattern(s): 1	
+however kerberos is much more widely supported
+as for how you can use ntlm kerberos with http in the framework you are using
+
+
+
+14761953
+for-loop loops
+Pattern(s): 0	
+at first i tried using while loops but that required a lot more code and was a lot more confusing
+then i started using the for-loop which works a lot better for this type of system
+
+
+
+14767734
+postgresql mysql
+Pattern(s): 1	0	
+in my experience postgresql is a more solid database and performs better with many simultaneous users especially when writing to the database although harder to learn its more strict
+mysql is easier to learn and may be sufficient depending on the total number of request traffic
+
+
+
+15283900
+for-loop arrays
+Pattern(s): 1	1	
+to explain why a for-loop is faster than a for in loops is basically understand the underlying data structures used to store the data in memory
+looping through an indexed based arrays is naturally faster because of the way an arrays is stored in memory
+
+
+
+15402153
+maven pom.xml
+Pattern(s): 0	0	1	1	
+the sensible thing is to use ant or maven maven is easier better in most cases
+you write a build script build.xml or pom.xml respectively and run the builder ant or mvn
+
+
+
+15403397
+profiling instrumentation
+Pattern(s): 1	
+with the code you have here your instrumentation is much much more expensive than the work being done which makes the profiling data useless
+
+
+
+15469131
+fgets strlen
+Pattern(s): 0	
+fgets is simpler when you re reading character strings
+as mentioned in the other answer strlen is a function that you need to call on a variable or char array to get the length of the string it holds
+
+
+
+15565968
+post get
+Pattern(s): 0	
+giving a quick guess here but post looks more like a w3c.org mime request for mail
+you send headers on separate lines crlf add onto a line in that a string in condition similar to a get request by appearence of that string is url encoded unlike the headers just like taken from an html form and similar to json notation
+
+
+
+15725413
+for-loop arrays
+Pattern(s): 0	
+his is wrong because the grade is a value in the arrays not an index
+although the for-loop you wrote is simpler than a for-loop with an index sometimes you do need to know an index so you might want to rewrite your for-loop
+
+
+
+15790529
+jsdom cheerio
+Pattern(s): 1	
+cheerio does not execute these scripts and as a result content may not be visible as you re experiencing
+this is an article i read a while back and caused me to have the same discovery just open the article and search for jsdom is more powerful for a quick answer
+
+
+
+15863773
+udp tcp
+Pattern(s): 0	
+if you need your clients to stay connected and ready to receive data from server for example a push service you should implement it using tcp
+if you want to implement a simple request-response service then udp is better choice
+
+
+
+16053421
+comparator comparable
+Pattern(s): 0	
+econd you can implement a comparator to judge which is bigger
+if you don t want the object to be comparable which means you don t want to change the existing code to let the existing code implement comparable this is a better way
+
+
+
+16060045
+min max
+Pattern(s): 0	
+find axis min and max values
+if min is greater than 0 use 0 as min
+
+
+
+16072349
+for-loop arrays
+Pattern(s): 1	
+try catch inside for-loop is probably closer as long as you don t mind the unassigned values left in the arrays
+
+
+
+16135267
+comparator comparable
+Pattern(s): 1	
+n object should implement comparable if that is the clear natural way to sort the class and anyone would need to sort the class would generally want to do the class that way
+if however the sorting was an unusual use case of the class or there can be multiple sort orders then a comparator is a better option
+
+
+
+16273431
+udp tcp
+Pattern(s): 1	
+but it is designed to work with tcp since here package transmission is ensured alle packages are acutally delivered and in the right order
+udp is less relieable so there was micro transport protocol designed for it
+
+
+
+16374534
+folder directory
+Pattern(s): 0	
+he key is to check the file dates in the tomcat directory of where you deployed the war
+it may happen even though you are deploying an entirely new cleaned war and deleting all folder there were still older cached files in there probably because eclipse keeps older cached files to save compile time thinking older cached files don t have any changes
+
+
+
+16395461
+passenger puma
+Pattern(s): 0	
+but i would recommend phusion passenger over puma
+phusion passenger is a lot easier to setup especially when you hit production
+
+
+
+16487504
+filesystems ntfs
+Pattern(s): 1	
+a fat filesystems saves files into clusters by 16 bytes or 32 bytes explaining the label of fat16 fat32 and basically wasting disk space
+ntfs however is a little more dynamic than that files can be saved as that files own size but again the ram causes the files to be saved randomly on to disk therefor to clean up these empty spaces it is best to run disk defrag a default program on all versions of windows
+
+
+
+16669714
+inherited subclassing
+Pattern(s): 0	
+see if you want to use inherited
+have a base class with fields that you want to share with everyone and a subclassing which has more restricted data
+
+
+
+16725606
+post get
+Pattern(s): 0	
+get requests with url-encoded parameters are somewhat awkward with json-rpc
+i think keeping everything in post requests is a better idea
+
+
+
+17017131
+printwriter bufferedwriter
+Pattern(s): 0	
+printwriter is a richer api compared to bufferedwriter
+
+
+
+17017726
+getter setter
+Pattern(s): 0	
+i think the getter is a better place
+if the setter is called first - well then the setter will set the property to whatever the setter is asked to do so and nobody cares what the previous value of the property was
+
+
+
+17056799
+int chars
+Pattern(s): 0	
+it s just a int number
+technically chars was just a smaller 8-bit number
+
+
+
+17137973
+scheme racket
+Pattern(s): 0	
+see page 25 section 6.3.2 in the scheme r5rs specification for a full list of list accessing functions
+racket probably has more
+
+
+
+17235688
+r-tree quadtree
+Pattern(s): 0	
+if you can use a database you can use the point datatype or you can write your own r-tree
+when you have many overlapping pins maybe a quadtree is better
+
+
+
+17302808
+for-loop loops
+Pattern(s): 1	
+it should be noted that the enhanced for-loop is less efficient for arraylist then standard indexing
+this is because we have to create an iterator object and call hasnext and next on an iterator object on each step of loops causing unnecessary overhead
+
+
+
+17336556
+onclicklistener ontouch
+Pattern(s): 0	
+use an ontouchlistener instead of an onclicklistener
+ontouch gives you better feedback and it does everything onclick already does
+
+
+
+17531361
+sudo passwd
+Pattern(s): 1	
+i would give sudo another look since sudo gives you more control
+also the -s flag on sudo tells sudo to read a passwd from stdin rather than from a terminal so sudo would work in the context you give above
+
+
+
+17604670
+flot highcharts
+Pattern(s): 0	
+also flot does a better job to synchronise common axis scale with many series
+highcharts does a really good job here mixing bubble chart with other kind of series but isn t free for us government context
+
+
+
+17604670
+jqplot flot
+Pattern(s): 0	
+i tried to do the same thing with jqplot which has some advantages but doesn t work with bubbles and other kind of series on the same graph
+also flot does a better job to synchronise common axis scale with many series
+
+
+
+17641528
+strcpy strncpy
+Pattern(s): 0	
+strncpy is safer than strcpy
+
+
+
+17655235
+tinyint varchar
+Pattern(s): 1	
+i always use tinyint
+it takes up less space than a varchar and is much better for speed and indexing
+
+
+
+17772874
+post get
+Pattern(s): 1	
+if you f5 the page it ll update again if the action is get
+post is marginally more difficult to tamper with but should not be relied upon as a security measure in itself.
+
+
+
+17812053
+google-chrome firefox
+Pattern(s): 0	
+if i run this in firefox it works
+google-chrome has tighter security restrictions for loading scripts from local file systems
+
+
+
+17918757
+width height
+Pattern(s): 0	
+height auto
+if you don t want to resize the image s whose width is less than 500
+
+
+
+17944587
+cassini iis
+Pattern(s): 1	
+this only happened when using cassini
+when switching to iis this was no longer that case
+
+
+
+17993556
+codeigniter yii
+Pattern(s): 0	
+regarding performance from my expericnece yii is a lot faster because it comes with way less overhead
+
+
+
+18163668
+range max
+Pattern(s): 0	
+scanning backwards we can stop our scan when d is greater than the middle of the array s range
+or when the current max is greater than the length of the possible sequence for d greater than the largest indexed difference
+
+
+
+18168682
+getter setter
+Pattern(s): 1	
+or maybe a getter is more complex than just getting the value of a variable maybe it does some calculations
+if you didn t have to use a setter and could just access the variable directly some developer might miss the fact some developer re supposed to use a setter for the above reasons which would obviously create issues
+
+
+
+18245604
+for-loop loops
+Pattern(s): 0	
+question 1 - this is a for-loop - it is executing once for each row in the matrix or data frame x not sure what x is here exactly
+changing it to 2 will mean loops happens one less time
+
+
+
+18407020
+width height
+Pattern(s): 1	
+completely removing the viewport width causes more problems than it solves
+in order for webapps to have the correct viewport height the viewport width needs to be greater than 320 which unfortunately is the value that device-width reports to the browser
+
+
+
+18563740
+udp tcp
+Pattern(s): 1	
+udp suits well for passing short messages but for transferring large amounts of data tcp is more preferable
+
+
+
+18569053
+dictionary map
+Pattern(s): 1	
+then you define the function to convert each entry into a two-element list which will be converted into dictionary automatically using the dictionary function
+using map function is faster than just iterating over the list which is the beauty of python
+
+
+
+18570990
+clearinterval settimeout
+Pattern(s): 0	
+clearinterval doesn t take second argument
+and settimeout is easier to wrap head around.
+
+
+
+18711016
+d3.js raphael
+Pattern(s): 1	
+the two vector graphic libraries you can focus are raphael and d3.js but d3.js is much more powerful with data binding
+
+
+
+18757820
+width margin
+Pattern(s): 0	
+i believe it was only one single page whose width is more than the screen s width
+and the default view is achieved by setting the margin or other property which is for you to findout using trial and error
+
+
+
+18843676
+nexus artifactory
+Pattern(s): 1	
+if you don t like big databases underneath artifactory may not be for you since it stores everything in jcr database although the authors stand behind their design choice
+nexus is more file-system friendly and we ended up using it
+
+
+
+18873186
+int chars
+Pattern(s): 0	
+you can add multiplying shift print scan as you would with int short long or long long
+chars has a smaller range than the others
+
+
+
+19253271
+for-loop loops
+Pattern(s): 0	
+also there are a few basic changes i would make to this program first of all - a for-loop should be used where you know how many iterations you will do
+in your case a while loops or better still a do-while loops is better suited
+
+
+
+19386604
+getelementsbytagname getelementbyid
+Pattern(s): 0	
+between queryselector queryselectorall and getelementbyid
+in the same conditions getelementsbytagname is better to use than queryselectorall .
+
+
+
+19396429
+nasm fasm
+Pattern(s): 0	
+ would suggest sticking with some portable assembly language compiler as fasm or nasm
+imo fasm is the better one because imo fasm is self-sufficient and does not depend on any other tools
+
+
+
+19457177
+post get
+Pattern(s): 1	
+the is very little difference to the programming functionality between sending the form as or but the post method is more secure and can transfer more information so most of us use that
+finally on the other end there are three ways to get the variable values php example
+
+
+
+19564465
+versioning upgrade
+Pattern(s): 0	
+then run all upgrade scripts but scripts should be written in such way that they do not execute if current versioning is higher than versioning expected by the script
+
+
+
+19621291
+nsbezierpath appkit
+Pattern(s): 1	
+well in some scenarios nsbezierpath is more beneficial than cgpathref for example in nsbezierpath it provides the api which can draw the path using color but cgpathref does not provide any api to draw the path for drawing the same need to use cgcontext
+this is the one difference and second difference is cgpath derived from applicationservice framework and nsbezierpath derived from appkit framwork
+
+
+
+19689402
+int double
+Pattern(s): 0	
+since double has more mantissa bits than int can have significant bits comparisions between double and int are precise in that regard
+
+
+
+19742481
+portrait landscape
+Pattern(s): 1	
+so my proposed solution that to run all the views in landscape and this one in portrait
+having this view in portrait is more design logical to have the same orientation of the picker
+
+
+
+19875253
+for-loop loops
+Pattern(s): 0	
+remember to think of another cause for the values equalling 0 would be due to the for-loop as set i to zero loops until i is not less than or equal to dataset.length incrementing i by one every loops
+
+
+
+19910684
+range max
+Pattern(s): 0	
+also note that i changed your random range to 1 - 7
+the max is one less so in your code you were never getting a number 6 for an image
+
+
+
+19966067
+thin unicorn
+Pattern(s): 0	
+if you use thin and your code doesn t clear requests very quickly then you re in trouble - since heroku uses random routing requests will stack up on a blocked dyno even if there are free dynos
+using unicorn seems better if you can handle the memory hit because free dynos s less likely that all of your forks will get slow requests at the same time
+
+
+
+20110614
+apache nginx
+Pattern(s): 0	
+much safer to have apache or also my preferred nginx listening on 80 and passing along the requests
+nginx is friendlier for sockets as well and someday you ll want those
+
+
+
+20209624
+multiplying addition
+Pattern(s): 0	
+if multiplying is slower than addition then case 2 is slightly slower than case 1
+
+
+
+20643551
+post get
+Pattern(s): 0	
+to get more post between certain dates you can start by requesting a feed with the max_timestamp parameter and then move backwards in time by 20 post at a time using the next_url which is in the pagination object returned by your request
+do this until a post is older than min_timestamp
+
+
+
+20950402
+post get
+Pattern(s): 1	1	
+get is better for things that should be able to be bookmarked and simple queries with few short parameters
+post is better for sensitive fields that the user shouldn t see for large binary transfers and for transfers with many fields or very long fields
+
+
+
+20964388
+post get
+Pattern(s): 0	
+you can either use post or get since i think post is a bit trickier to handle in wp
+
+
+
+21113484
+for-loop while-loop
+Pattern(s): 0	
+t changes two things using a for-loop instead of a while-loop and counting down instead of up
+for my taste brain the for-loop is easier to grasp a collection is being processed until a collection end is reached
+
+
+
+21126781
+folder dir
+Pattern(s): 0	1	
+folder objects and their properties for example files are more flexible and complete but may be harder to understand
+note dir and dir look the same but dir is marginally more efficient
+
+
+
+21193738
+mp3 wav
+Pattern(s): 0	
+i don t know why the player exception was caught with the mp3 temporary file but nothing goes wrong with wav
+this is not really the answer i sought since the wav files takes a lot more space but at least it works
+
+
+
+21193738
+wav ogg
+Pattern(s): 0	
+this is not really the answer i sought since the wav files takes a lot more space but at least it works
+i also tried ogg format which makes the same problem of mp3 .
+
+
+
+21206426
+mktime strtotime
+Pattern(s): 1	
+yeah entries are strings then mktime is more consistent to use the strtotime function
+
+
+
+21230045
+clientaccesspolicy.xml crossdomain.xml
+Pattern(s): 0	
+first you only need clientaccesspolicy.xml for silverlight and it has more features
+crossdomain.xml is an older security access model with compatibility for flash etc
+
+
+
+21244221
+width height
+Pattern(s): 0	0	
+this is happening to you because the content width is bigger than 480px
+it s the same when your page height is higher than your browser
+
+
+
+21252711
+post put
+Pattern(s): 1	
+the limit of post lies actually more on the server side than on the solr side
+if you put solr into tomcat the it s the limit of tomcat s post which usually interest you if you put your tomcat behind apache or nginx then you put your tomcat behind apache or nginx max post size will also interest you
+
+
+
+21275158
+free malloc
+Pattern(s): 0	
+and your only initializing first variable of struct but while you are trying to free the memory you are unallocating memory which is not yet allocated astruct 1 and so on till 100
+when you use a malloc a malloc actually allocates a bit more memory than you you specified
+
+
+
+21286020
+google-chrome firefox
+Pattern(s): 0	
+there is a firebug version available for google-chrome firebug lite but the firefox version is much better and i d highly recommend you at least try a firebug version available for google-chrome firebug lite out
+
+
+
+21317666
+int chars
+Pattern(s): 0	
+it expects a single chars input
+for int i looks more like c++ than c
+
+
+
+21349390
+switching screens
+Pattern(s): 0	
+you can imagine this pointer switching does not require very much time
+i hope you see now that directly writing an image to the screens actually causes much more delay and annoying flickering
+
+
+
+21353571
+devise cancan
+Pattern(s): 1	
+you may also want to look at a gem to manage permissions as devise is more for authentication
+my personal favorite is the_role but others like cancan very much
+
+
+
+21378968
+int chars
+Pattern(s): 0	
+int has a higher type precedence than any of the n var chars types and so it tries to convert all of the strings to int s to see if they re 0
+
+
+
+21526606
+exif xmp
+Pattern(s): 0	
+xmp does allow richer metadata
+but as the metadata you have got is from a camera raw file i would think they map directly to exif tags given exif was developed by the digital camera industry for exactly the use you describe
+
+
+
+21665739
+interpreted-language compiled-language
+Pattern(s): 0	
+an interpreted-language surely makes an interpreted-language easier but this is still entirely possible with compiled-language like c
+
+
+
+21706038
+maven m2e
+Pattern(s): 1	1	
+if you re doing osgi maven is less great
+m2e however is less helpful and in my experience only leads to confusing headaches
+
+
+
+21763325
+width margin
+Pattern(s): 0	
+if the width is less than the screen size
+margin auto
+
+
+
+21944601
+gridview repeater
+Pattern(s): 0	
+the repeater is still faster than the gridview but the difference shouldn t be big if you code it right
+
+
+
+22095998
+folder dir
+Pattern(s): 1	
+wordpress allow you to put uploads in year- and month-based folder
+custom upload dir is somewhat smarter
+
+
+
+22118467
+magento joomla
+Pattern(s): 1	
+if you don t need all functionalities of joomla just disable those from back-end
+if you need a pure e-commerce site you can use opencart lightweight solution or magento which is a much more complex e-commerce solution
+
+
+
+22178187
+division multiplication
+Pattern(s): 0	
+he line works because of integer division the line works because of modulo
+the line works because of operator precedence multiplication has a higher precedence than addition + so it will be done first
+
+
+
+22178187
+multiplication modulo
+Pattern(s): 0	
+he line works because of integer division the line works because of modulo
+the line works because of operator precedence multiplication has a higher precedence than addition + so it will be done first
+
+
+
+22203178
+int double
+Pattern(s): 0	
+double s length is way more than int that s why you should be checking int first
+
+
+
+22309310
+do-while break
+Pattern(s): 1	
+edit if you want to keep the do-while
+but the break version is clearly more readable
+
+
+
+22407245
+width height
+Pattern(s): 1	1	
+if width is more restrictive use
+else if height is more restrictive use
+
+
+
+22419247
+width margin
+Pattern(s): 0	
+tables are one such instance that don t seem to align without margin auto
+also make sure your div width is larger than your button width
+
+
+
+22452751
+post get
+Pattern(s): 1	
+here might be a cross-domain request problem but i give a cross-domain request problem no so many chances when your wfs post request is working while wms get returns a problem
+usually a cross-domain request problem is vice versa the post is more dangerous and more cross-domain sensitive
+
+
+
+22488897
+multiplying multiplication
+Pattern(s): 1	
+then to estimate the next 64 bit multiplying the highest 64 bit of x with this number and shift everything into the right place
+multiplication is much faster than division
+
+
+
+22509386
+crypt hash
+Pattern(s): 0	
+to generate a bcrypt hash it is much safer to use the new password_hash function though there exists also a compatibility pack for earlier php versions
+
+
+
+22710394
+treemap linkedhashmap
+Pattern(s): 1	
+however a linkedhashmap is faster as seen here treemap has o log n performance for containskey get put and remove according to the javadocs while linkedhashmap is o 1 for each.
+
+
+
+22725662
+for-loop arrays
+Pattern(s): 0	
+you re initializing i to 2 in your for-loop
+if your arrays has less than three items you will get an index out of bounds trying to access a location that does not exist
+
+
+
+22729760
+postgresql mysql
+Pattern(s): 0	
+cleardb mysql database does require more effort than using the default postgresql database though but this guide might help
+
+
+
+22783940
+maven-antrun-plugin pom.xml
+Pattern(s): 0	
+use maven-antrun-plugin it has less external dependencies like ant executable on path etc.
+ant tasks executed by maven-antrun-plugin plugin inherit all properties defined inside the properties section of your pom.xml
+
+
+
+22911417
+rsa aes
+Pattern(s): 0	
+one of the reasons to do so is that rsa is much slower than for example aes
+
+
+
+22918127
+for-loop loops
+Pattern(s): 1	
+ou could manage it using foreach with a manual index setting to 0 before entering loops and manually incrementing it
+but in this case the classic for-loop is probably better suited
+
+
+
+23058020
+versioning upgrade
+Pattern(s): 0	
+it s posible you have update to xcode 5.1 and your versioning cordova is very older
+i advice you upgrade project in cordova to last versioning and xcode too
+
+
+
+23069175
+width margin
+Pattern(s): 0	
+i noticed your website width might is bigger than the browser
+instead of using margin -8px on you .container and .footer just set
+
+
+
+23080381
+udp tcp
+Pattern(s): 1	
+in practice this means that tcp is better suited for continuous transmission of data whereas the more lightweight udp can be used when reliability isn t important
+
+
+
+23134352
+comparator comparable
+Pattern(s): 1	
+if you later want to be able to sort by something else too then that would not be possible using comparable
+so using a separate comparator is more loosely coupled and thus offers more flexibility
+
+
+
+23240206
+typedef struct
+Pattern(s): 1	
+ou also need to typedef the struct to pic_t not make the struct as an structure object
+well the struct is better explained with code in user3386109 s answer
+
+
+
+23306190
+calloc malloc
+Pattern(s): 1	
+tip only use calloc if you actually need your memory zeroed
+malloc is faster
+
+
+
+23328099
+trie tree
+Pattern(s): 1	
+ou can use a binary tree or a trie dependeing on what your id is whether it is a string or an int
+for a trie lookup will be o k o 1 but a trie lookup works better with strings
+
+
+
+23342089
+openssl polarssl
+Pattern(s): 0	
+it shows polarssl rsa encryption and openssl encryption side by side
+i believe the openssl wrapper is older and not maintained
+
+
+
+23432451
+disk ram
+Pattern(s): 1	
+as you stated in-memory databases are usually an order of magnitude faster than disk resident databases for obvious reasons
+however ram is also significantly more expensive than hard drives and consequently not viable for large databases
+
+
+
+23432451
+disk ram
+Pattern(s): 0	
+of course this ends up undermining some of the benefits of in-memory databases by re-introducing disk i o as a performance bottleneck
+in any case in-memory databases will likely become predominant as ram becomes cheaper
+
+
+
+23596420
+filtering grouping
+Pattern(s): 0	
+this would be my first implementation simply filtering out duplicates and seeing if the list shrinks
+and here s another using the groupby method and seeing if any grouping has more than one element
+
+
+
+23671780
+many-to-many one-to-many
+Pattern(s): 0	
+just an advice since you separate mother and father from parent i think you d better avoid a many-to-many relationship
+instead a one-to-many relationship seems better
+
+
+
+23749835
+printf getchar
+Pattern(s): 1	
+i can say that printf is more useful in more ways compared to putchar
+better look in getchar and putchar respective manual pages man 3 printf man 3 putchar in terminal
+
+
+
+23795519
+treemap linkedhashmap
+Pattern(s): 0	
+linkedhashmap additionally provides iteration with a predictable order with only a minimal performance hit
+treemap has a higher complexity and thus lower performance but it constantly keeps all entries sorted based on their keys
+
+
+
+23889231
+couchbase couchdb
+Pattern(s): 1	
+given the throughput i d expect that couchbase is more suitable for your needs
+i ve not used couchbase as much but couchbase s very similar in couchbase s map reduce logic to couchdb
+
+
+
+23936558
+children parent
+Pattern(s): 0	
+it un-hides each and every div tag all children and descendants so this snippet can be used only if there isn t any problem in un-hiding each and every div
+and also when hiding tab content just hiding the parent div is more than enough in most cases
+
+
+
+24016276
+folder directory
+Pattern(s): 0	
+ better solution instead of copying the linked files to the current project directory alongside the associated links copy the linked files to a hiddendebug folder within that directory or any directory you wish
+keeping it in the current project directory makes it easier to manage and then to manipulate the paths during debug as i ll explain below
+
+
+
+24298251
+width height
+Pattern(s): 0	
+specifically the height must be at
+least 120px and if the width is less than 100px then the aspect
+
+
+
+24302157
+feedzirra feedjira
+Pattern(s): 0	
+feedzirra is no more exist last version is 0.8
+authors renamed the project to feedjira so try it
+
+
+
+24370687
+fgets strtol
+Pattern(s): 0	0	
+using fgets strtol offers better error handling than sscanf
+
+
+
+24397037
+google-chrome firefox
+Pattern(s): 0	
+google-chrome uses the older gdi
+firefox and ie use directwrite
+
+
+
+24656056
+getter setter
+Pattern(s): 1	1	
+if we put we filter in between these calls either in getter or setter setter is more efficient as it is called only when filters change we modify original filtered list with we filter and return our filter back through the getter
+
+
+
+24780231
+fgets fread
+Pattern(s): 1	
+remember that fgets reads one line regardless of how long that is up to a maximum of 1024-1 bytes and appends a null-character
+please not that for binary input using fread is probably more appropriate
+
+
+
+24912697
+inherited properties
+Pattern(s): 0	
+an ignore that is inherited has a lower priority than automapper s standard convention-based mapping
+so where the source and destination types both have a referrer properties the convention-based mapping for the most derived types overrides the inherited ignore
+
+
+
+24952975
+subclass superclass
+Pattern(s): 1	
+java.sql.date is a subclass of java.util.date
+this means that sql.date contains more details than java.sql.date s superclass java.sql.date is more specialized
+
+
+
+24975853
+integer unsigned
+Pattern(s): 0	
+the integer to unsigned conversion routine to_unsigned can produce a warning if the input integer value is greater than can be expressed in the number of bits specified 6 so the result is clamped to 6 bits with the mod operator
+
+
+
+25010461
+maven pom.xml
+Pattern(s): 1	
+if you re new to maven but have some experience with pde build then maven is harder
+for maven pom-first there s a need to tweak pom.xml files quite often
+
+
+
+25022918
+versioning upgrade
+Pattern(s): 0	
+note it is preferrable to use a series of if statements instead of a switch as long as the old versioning is smaller than the versioning for the n-th step upgrade that step
+
+
+
+25179071
+children parent
+Pattern(s): 1	
+you always get all associated children because those are going to be managed as well
+selecting the child and fetching the parent is much more appropriate for this task
+
+
+
+25188670
+for-loop loops
+Pattern(s): 1	
+as the simple for-loop is faster than a foreach loops
+
+
+
+25227387
+fadein hide
+Pattern(s): 1	
+he jquery fadein won t work because of the visibility
+so for the latest bootstrap hide is no longer is use but the latest bootstrap hide s still in the min.css file
+
+
+
+25278267
+versioning upgrade
+Pattern(s): 0	
+update_cordova_subproject will not be available if your cordova versioning is older than 3.0
+there is no direct way to upgrade older versions 3.0
+
+
+
+25316061
+button checkbox
+Pattern(s): 0	
+1 find which radio button is selected
+2 if the checkbox are selected previously and the count of selected checkbox is greater
+
+
+
+25343946
+google-chrome firefox
+Pattern(s): 0	
+for elements that are in the same node google-chrome treats later ones as if google-chrome treats have a higher z-index than the previous element even if it is not so
+i has something to do with how google-chrome establishes a stacking context and also explains why preserve-3d is not required in some instances where firefox would require preserve-3d to display correctly
+
+
+
+25588609
+passenger webrick
+Pattern(s): 0	
+ realized that i had switched to using passenger as my web server from a singled threaded process webrick webserver
+passenger has more than one process running on the same dyno and apparently the same dyno sends a callback url with a port number in the request
+
+
+
+25739925
+post get
+Pattern(s): 1	
+you should not be using the post method for requests that contain no actual data get method is better for that
+
+
+
+25829657
+mp4 webm
+Pattern(s): 1	
+the mp4 implementation is more widely used and wouldn t require a webm fallback in most browsers
+
+
+
+25836693
+serializable deserialization
+Pattern(s): 0	
+i wold not bother with self-made serializable
+notice that designing deserialization is harder than serialization...
+
+
+
+25871904
+flask django
+Pattern(s): 0	0	
+yes flask is simpler
+but django has more community has more batteries
+
+
+
+25883163
+public protected
+Pattern(s): 0	
+ subclass may reside outside the package following scope levels again private default protected public - we can not narrow down the scope
+protected is broader scope than default so java does not contradicts so java own guidelines
+
+
+
+25942315
+for-loop loops
+Pattern(s): 0	
+we know that the outer for-loop 1 to t is linear
+the inner loops runs more over time
+
+
+
+25982745
+rsa 3des
+Pattern(s): 0	
+depending on your needs you can chose between des 3des aes or rsa which is in efficient in your case
+des is the least secure 3des is better but i d go for the aes
+
+
+
+26163166
+margin height
+Pattern(s): 0	
+if not this is why the margin is bigger than you expected
+if you set a height for outer you will notice the margin will scale accordingly
+
+
+
+26236624
+serializable deserialization
+Pattern(s): 1	
+and deserialization is not more complex
+
+
+
+26249881
+uiviewcontroller uipageviewcontroller
+Pattern(s): 1	
+if you don t want to do it the proper way with the uiviewcontroller transitioning api introduced in ios7 you ll have to use uiscrollview with pagingenabled
+uipageviewcontroller is meant more for ibook type interfaces and uipageviewcontrollerdelegate s methods aren t very easy to work with ie
+
+
+
+26273263
+ucma ucwa
+Pattern(s): 0	
+i have done this in the past it has just been a case of including reference to ucma 4 and changing the .net version
+ucwa is more of a client end sdk and depending on what your current
+
+
+
+26352193
+udp tcp
+Pattern(s): 0	
+so if you want a entire file of 93mb to be reassembled by transferring fragmented packets over the network such that no packets are dropped then tcp sctp is a better choice
+
+
+
+26448916
+cout cin
+Pattern(s): 1	
+hence cin and cout appear to be slower
+however if the synchronization process is set to not occur cin is faster than scanf
+
+
+
+26458977
+hex binary
+Pattern(s): 0	
+if the hex input is more than 5 hex characters you will overwrite the memory allocated for binary_line
+
+
+
+26509588
+ffmpeg libvpx
+Pattern(s): 1	
+you would want to use ffmpeg instead of avconv ffmpeg is more active and reliable - my opinion
+compile ffmpeg with libvpx support webm guide
+
+
+
+26572258
+openfire ejabberd
+Pattern(s): 1	
+however openfire is better documented and has a much more polished admin interface
+also ejabberd lacks an rtp proxy plugin and the jinglenodes plugin is an enormous pain in the ass to set up on it
+
+
+
+26613205
+for-loop loops
+Pattern(s): 0	
+if you change your if statement to a while loops for example and you can do this as follows
+however a for-loop is a much cleaner solution
+
+
+
+26686515
+int chars
+Pattern(s): 0	
+if your int value is more than single digit
+you need chars or chars to hold the converted data
+
+
+
+26812634
+apache nginx
+Pattern(s): 1	
+this works but only in a default apache environment
+nginx needs more configurations
+
+
+
+26851704
+bower npm
+Pattern(s): 1	
+bower is better suited for front-end packages and has amd libraries which you would use with requirejs etc
+npm on the other hand has many libraries that are packaged as commonjs modules
+
+
+
+26853765
+feof fgetc
+Pattern(s): 0	
+you could instead check say with if feof stream to see if you are at eof but i think just checking the return value of fgetc is nicer
+
+
+
+27047746
+width height
+Pattern(s): 0	0	
+either the original image s width is larger than 300 pixels
+or the original image s height is larger than 100 pixels
+
+
+
+27156615
+for-loop arrays
+Pattern(s): 0	
+loops while card arrays is greater than 0
+
+
+
+27178198
+division modulo
+Pattern(s): 0	
+multiplier the integer division of the value by the divisor
+if modulo is greater than zero the multiplier is incremented
+
+
+
+27220257
+width height
+Pattern(s): 1	
+you could more easily solve this problem by putting #rssnews outside and next to .barredcontent instead of inside and adding static width to instead but if you want a css- hack this is the only one i know of
+i m not sure if this works anymore but if this does remember that this used to force the scrollbar to appear because 100 height is more like 102 of what you can actually see in the browser so you will have to reduce the height to about 98 if not 97
+
+
+
+27310582
+alamofire afnetworking
+Pattern(s): 1	
+fwiw i should have read the alamofire docs more closely-- the file upload i was trying to do needed to be as multipart data which alamofire does not yet support .
+so using afnetworking here with its built-in multipart form uploading support worked
+
+
+
+27479257
+lzo snappy
+Pattern(s): 1	
+these formats allow various data compression codecs note that snappy is now much more popular than lzo and can also provide other benefits such as fast serialization deserialization column pruning and bundled metadata
+
+
+
+27564131
+wadl wsdl
+Pattern(s): 0	
+wadl is much simpler
+so the difference is remote execution ws wsdl vs resource rest wadl
+
+
+
+27659793
+knitr reporters
+Pattern(s): 0	
+you might want to use r markdown and knitr which is easier than using latex and r as also zhaoy suggested
+you might also want to check out the reporters package
+
+
+
+27922709
+division multiplication
+Pattern(s): 0	
+beware of this pitfall when using shifts additions and subtractions to perform multiplication operations
+division is a bit harder need to think.
+
+
+
+28161148
+getter setter
+Pattern(s): 1	
+the jit may even be able to recognize that the same register can be used for both purposes so if using such a getter makes code more readable that s a substantial argument in favor
+unfortunately the inability of struct members to indicate whether or not struct members modify the underlying structure makes the underlying structure impossible to use the same approach for an indexed property setter
+
+
+
+28189916
+folder directory
+Pattern(s): 0	
+try to delete the bin folder on the target server before publishing and check.
+the only problem i could see is if the local bin directory contains newer versions of existing components
+
+
+
+28191176
+swift objective-c
+Pattern(s): 1	
+this is because the swift dictionary is more strongly typed than the objective-c nsdictionary
+
+
+
+28253659
+width height
+Pattern(s): 0	
+he function assumes that grid of rectangles canvas will always fit the height of a container area
+you feed number of rows to the function and the function calculates rect size and determines whether canvas width is bigger than container width or not
+
+
+
+28386962
+super self
+Pattern(s): 0	
+so all super classes must initialize the object.
+self is nothing more than a pointer to the object the method initializer is currently working on
+
+
+
+28391618
+trie tree
+Pattern(s): 1	
+as for a beter datastructure you should consider using a trie
+a beter datastructure s also known as a prefix tree which is a more fitting name in this context
+
+
+
+28487200
+addition multiplication
+Pattern(s): 1	
+but your computer can probably add 64-bit numbers just as quickly as it can add 8-bit numbers and a lot faster than any code you write to do addition of decimal digits
+multiplication is much more dramatic
+
+
+
+28505632
+google-chrome firefox
+Pattern(s): 0	
+google-chrome debugger gave some pretty lame info
+firefox debugger was much clearer
+
+
+
+28526040
+jquery scriptaculous
+Pattern(s): 1	
+so you have to use jquery in noconflict mode
+scriptaculous is no more being updated
+
+
+
+28534187
+fgets strncpy
+Pattern(s): 1	
+source fgets
+strncpy is more recommended that strcpy because protect your code against buffer overflow
+
+
+
+28639620
+wxpython pyqt
+Pattern(s): 0	
+all three of these projects are stable and are currently being developed although wxpython s development is much slower than the others mentioned here
+wxpython and pyqt both have widgets that allow you to load web pages
+
+
+
+28704448
+apache nginx
+Pattern(s): 1	
+in fact many dns and web host providers actually provide this functionality as a service and will host the equivalent of above configuration for you though not necessarily with apache
+nginx is probably more likely for this purpose these days
+
+
+
+28758271
+jar manifest.mf
+Pattern(s): 0	
+a jar file is little more than just a zip of all classes and resource files
+you need to add details into meta-inf manifest.mf file so that the class containing the main method to be executed is know
+
+
+
+28758928
+qtwebengine qtwebkit
+Pattern(s): 1	
+i ve also noticed that qtwebengine is significantly faster and more stable that the old qtwebkit based widgets
+
+
+
+28832020
+versioning upgrade
+Pattern(s): 0	
+this error almost certainly means that your php versioning is older than 5.4
+the only way to fix this is to upgrade php to at least 5.4
+
+
+
+28853038
+ubuntu linux
+Pattern(s): 0	
+perf 1 part of the linux-tools-common package in ubuntu makes use of a kernel-based subsystem called performance counters for linux included in newer kernels
+
+
+
+28907897
+qregularexpression qregexp
+Pattern(s): 0	
+qregularexpression is similar but has some advantages over qregexp
+qregexp is a little older and may have more examples of it
+
+
+
+29213798
+children parent
+Pattern(s): 0	
+ou can do all the calculations in the code measure the parent container add children until the height is exceed etc
+this is not an optimal solution but the parent container works in older browsers too
+
+
+
+29232311
+for-loop loops
+Pattern(s): 0	
+but adding the html directly to the string inside the for-loop solves your problem cleaned code
+also note that if you have a fixed width values arrays using for in loops is much simpler understandable and maintainable than using for
+
+
+
+29245172
+put get
+Pattern(s): 0	
+usually you will also need to put quotes to end the string value and write your own request
+get method is not safer than post data never trust datas coming from the client side
+
+
+
+29288180
+isotope packery
+Pattern(s): 1	
+calling imagesloaded so width and height of elements are correct and isotope is function well
+for my project packery is better then masonry because packery is filling up all gaps masonry is just looking for the first possible gap and doesn t fill empty gaps
+
+
+
+29298903
+width height
+Pattern(s): 0	
+2.now for the view that is immediate subview to your scrollview set all 4 constraints leading trailing top and bottom along with these set height constraints and make width equals to scrollview
+if your immediate subview s height is greater than your screen size or scrollview it will scroll for sure
+
+
+
+29300711
+client-side server-side
+Pattern(s): 0	
+this will make it easy to group the radio buttons on the client-side but requires a bit more work to determine which button was selected on postback
+when i needed this behavior i found this behavior easier to keep the radio buttons as server-side controls and just enforce the button group w jquery
+
+
+
+29327795
+int chars
+Pattern(s): 1	
+this is pretty simple for types sizeof int but unsigned chars short is more complicated and requires compiler specific packing
+
+
+
+29327795
+unsigned short
+Pattern(s): 1	
+this is pretty simple for types sizeof int but unsigned chars short is more complicated and requires compiler specific packing
+
+
+
+29399287
+fflush gets
+Pattern(s): 1	
+fflush stdin is undefined behavior and is always wrong
+never use gets it is no longer part of libc and unsecure
+
+
+
+29411211
+for-loop loops
+Pattern(s): 1	
+you can place the popup markup in the for-loop and use the variables from the for or you can use data-atributes as you sugested to pass data from the looped markup to the popup
+the avantage of data-atributes over placing the popup markup in loops is less markup on the page - small html page - fast render time
+
+
+
+29556469
+flask django
+Pattern(s): 1	
+django is a safe tool it handles many security issues but it might be longer to update the code
+flask development is faster but you might spend more time on database orm settings configuration
+
+
+
+29579783
+division multiplication
+Pattern(s): 0	
+division has higher precedence than subtraction
+this subtraction operator occurs within the second brackets and so has a higher precedence than the multiplication
+
+
+
+29704061
+openfire ejabberd
+Pattern(s): 1	
+i have a user list in a sql-server database and the external authentification is really hard and not supported for updated versions of ejabberd
+for me openfire is more open to different database and easy to integrate in existing plateforms
+
+
+
+30036902
+getter setter
+Pattern(s): 0	
+replacing the getter with a macro is straightforward
+replacing the setter is a bit trickier since you need to return the correct value
+
+
+
+30068523
+strcpy strncpy
+Pattern(s): 0	
+never use strcpy
+strncpy is safer but still not that safe because it may not append a null character to your buffer
+
+
+
+30219361
+hash md5
+Pattern(s): 0	
+so if it takes 1 second to generate each hash it becomes a bigger time sink than it would have been had you used a fast hash such as md5 of a version of sha
+
+
+
+30388289
+swift objective-c
+Pattern(s): 1	
+actually there is no difference at runtime between these two languages at delegate but swift is more easy to learn
+
+
+
+30419422
+heroku openshift
+Pattern(s): 0	
+oth heroku and openshift are within amazon s space but both heroku and openshift customer interface is different
+i thought heroku s was easier for beginners to get started but as i mentioned there s no free lunch on the database side of things
+
+
+
+30424479
+awt swing
+Pattern(s): 0	
+i find that the swing library is easier to use than awt although you do still have to use awt for listeners
+
+
+
+30427685
+nsurlrequest nshttpcookie
+Pattern(s): 1	
+this is the nsurlrequest documentation
+i think the link to the nshttpcookie is more under the hood than is needed for this question
+
+
+
+30428727
+strdup strtok
+Pattern(s): 0	
+now use strtok or sscanf to parse string by tokens into storage variables
+in this setup i suspect strdup is the better choice
+
+
+
+30487079
+comparator comparable
+Pattern(s): 1	
+magine a comparator as a pair of scales a comparator does not measure a comparator but two different objects weights
+for this reference you have to implement another interface comparable which is more similar to the built-in object equals
+
+
+
+30577548
+int double
+Pattern(s): 1	
+don t use int32 it s generally best-practice to use int in this case
+though for your situation double is more appropriate
+
+
+
+30738710
+mouse keyboard
+Pattern(s): 1	
+the ctrl key is usually close by my keyboard hand and in combination with the mouse is faster than the page up page down keys
+
+
+
+30744177
+post get
+Pattern(s): 0	
+post makes post easier to semantically separate getting data from the web server get and sending data to the webserver post
+
+
+
+30745517
+database-normalization denormalization
+Pattern(s): 0	
+database-normalization in many ways boils down to having larger numbers of tables themselves with fewer columns
+denormalization involves having fewer tables with larger numbers of columns
+
+
+
+30825957
+for-loop arrays
+Pattern(s): 0	
+consider using the linq method instead of a for-loop this looks cleaner
+there s no other way you can cast an arrays of value types to an arrays of objects you can t leverage arrays covariance in this case because this only works between arrays of compatible reference types
+
+
+
+30854551
+scrypt pbkdf2
+Pattern(s): 0	
+the scrypt one is clearly better
+pbkdf2 is using 20 000 iterations
+
+
+
+30941825
+awt swing
+Pattern(s): 0	
+keyevents are generally used in awt
+swing has newer and better api s to use in most cases
+
+
+
+31003066
+versioning upgrade
+Pattern(s): 0	
+if you can t or won t upgrade apache you can downgrade the pcre package to the first versioning that contains libpcre.so.0 which is 7.8 i think
+
+
+
+31096212
+post get
+Pattern(s): 1	
+the post method is meant to be used when you are changing data on the server
+in this case you are only retrieving data so get is the more appropriate method to use here
+
+
+
+31158777
+vlookup countif
+Pattern(s): 1	
+i would also try to avoid vlookup which is very slow
+if all you need is to check for the existence a a value in a range countif is much faster
+
+
+
+31218086
+width height
+Pattern(s): 1	
+you re seriously better off using constraints even adding the default constraints will probably get you most of the way there but if you insist on sticking with auto resizing you need to set fixed left and right margins and flexible width
+height is a bit more difficult you have to decide which elements will fill the extra space and have flexible height on those
+
+
+
+31236608
+width margin
+Pattern(s): 1	
+adding margin adds more width making the total width of the two elements and their margin greater than 100 pushing the elements onto separate lines
+
+
+
+31318060
+keydown keyup
+Pattern(s): 1	
+if you insist to use keydown add e.preventdefault to prevent that event s default behavior
+but i think kiirosora09 s answer that switch to keyup is better
+
+
+
+31327579
+cpu processors
+Pattern(s): 1	
+with the larger cache sizes of modern cpu s it is less necessary to need to go out to ram as often
+when the cache needs to go out to ram the cache uses an asynchronous processors dma to grab more information allowing the cpu to switch to a different process entirely
+
+
+
+31408821
+rsa aes
+Pattern(s): 1	
+note however that doing so means that each encrypted chunk has each encrypted chunk own padding and that rsa is much more computationally expensive than aes
+
+
+
+31440882
+subclass inherited
+Pattern(s): 0	
+if you don t want the ihascommonfields interface you could create an abstract generic base class for your converter with abstract methods to get and set the common fields then override those methods in each subclass
+honestly inherited does seem simpler than composition here as other answers have stated.
+
+
+
+31451558
+uilabel uibutton
+Pattern(s): 1	
+as time passes i found out that creating a single sprite + uilabel is much more flexible and useful brings a lot more possibilities
+also if you for example have to have different sprites for uibutton s states disabled highlighted etc it would be a big pain to create n 4 sprites
+
+
+
+31520585
+for-loop loops
+Pattern(s): 0	
+then run the loops
+using javascript s for-loop is usually better than using jquery s .each
+
+
+
+31567108
+stateless stateful
+Pattern(s): 0	
+or in short stateless is better than stateful
+
+
+
+31670255
+width height
+Pattern(s): 0	
+if the width is smaller scale the image so the width is has the minimum width and crop it so the width is has the proper height
+
+
+
+31670255
+width height
+Pattern(s): 0	0	
+if the width is smaller scale the image so it has the minimum width and crop it so it has the proper height
+if the width is bigger then the maximum scale it this way and crop it so it has the right width
+
+
+
+31731835
+sikuli selenium
+Pattern(s): 1	
+sikuli is useful for image recognition based tests
+selenium is better for web and browser if that s what you re looking to do
+
+
+
+31768844
+sse avx
+Pattern(s): 0	
+either it s a problem with mixing sse avx without vzeroupper maybe you compiled the rest of your code with or something and double-precision math is using avx
+or your sse version is bigger and causes i-cache misses
+
+
+
+31960150
+int double
+Pattern(s): 0	
+therefore ieee 754 single precision floating-point format has 23-bits fractions and int type has 32 bits so if the int is larger than 2 24-1 the float type can t represent it exactly
+but double floating-point format can since it has 52-bit fractions
+
+
+
+31993049
+int double
+Pattern(s): 0	0	
+f the int is 0 then the two double are equal
+if the int is less than 0 then val1 is less than val2 and if if the int is greater than 0 val1 is greater than val2
+
+
+
+32042591
+pull push
+Pattern(s): 1	
+push is better for learning too because it is more in harmony with the spirit of xslt
+
+
+
+32065449
+hash md5
+Pattern(s): 1	
+the hash technique is usually more cpu-intensive because you will need to hash every file uploaded but you can then provide the hash to your clients to check the integrity of the file
+
+
+
+32143759
+jsf tapestry
+Pattern(s): 1	
+i think tapestry is more optimized for this
+this doesn t recreate components on every request as jsf does
+
+
+
+32291840
+emacs atom-editor
+Pattern(s): 0	
+atom-editor is lighter and easier to learn while maintaining many emacs-ish capabilities cmd-shift-p in place of meta-x
+
+
+
+32372873
+uialertcontroller uipopovercontroller
+Pattern(s): 0	
+i will suggest to use uipopovercontroller and implement your own dismiss button since uialertcontroller s purpose is more to display alert messages to the user short message per apple documentation
+
+
+
+32380012
+monkeyrunner adb
+Pattern(s): 0	
+for example using a jython script using monkeyrunner you can input touch events like this slightly modified from their documentation
+with adb this is even easier adb shell input tap x y
+
+
+
+32507523
+post get
+Pattern(s): 1	
+if you want to follow the spec then put says that the body is a representation of the url you put to while post is more general purpose
+typically you would post to a substring of the put uri so in other words put some json to posts my-post whereas you can post some json to posts and possibly get a new uri back
+
+
+
+32591457
+kingfisher sdwebimage
+Pattern(s): 0	
+kingfisher - lightweight library written in swift
+similar to sdwebimage but has much less features that sdwebimage and dfimagemanager
+
+
+
+32601480
+kingfisher sdwebimage
+Pattern(s): 0	
+kingfisher - lightweight library written in swift
+similar to sdwebimage but has much less features that sdwebimage and dfimagemanager
+
+
+
+32647879
+strsplit substr
+Pattern(s): 1	
+if you really want to use strsplit you can do what you want by limiting the number of results by doing
+i don t know your exact issue but as has already been said replace or substr is probably a better option
+
+
+
+32686930
+filtering grouping
+Pattern(s): 0	
+ere i am grouping by id and config_id then remove the rows using filtering
+if the number of elements within the grouping is greater than 1 and the number of distinct elements in day is equal to 1 we remove id
+
+
+
+32805847
+screens tablet
+Pattern(s): 0	
+an xlarge screens is defined as a screens that is significantly larger than a large screens such as a tablet or something larger and may require special care on the application s part to make good use of the application s though the application s may rely on resizing by the system to fill the screens
+
+
+
+32935786
+post get
+Pattern(s): 0	
+the default form method is get so either change add or use
+using post is a better option when sending user private user data
+
+
+
+32938580
+qtimer qthread
+Pattern(s): 0	
+qtimer is better and safer solution you will do less mistakes
+sub-classing qthread is bad approach when handling threads i won t explain why since you should not use them
+
+
+
+33094946
+width height
+Pattern(s): 0	
+remember not to set width and height
+ps it will clip when the window width is less than 50 and in such similar cases thats obvious
+
+
+
+33377069
+distance polygons
+Pattern(s): 0	
+o for a polygons and a circle you can use gjk to find the minimal distance between that polygons and the center point of the circle then compare that distance with the radius of the circle
+if the distance is less than or equal to the radius then the distance s a collision
+
+
+
+33457443
+for-loop loops
+Pattern(s): 1	
+in the for-loop the increment gets done after every iteration
+the while loops is more controllable in that and you can do it in whatever place you want
+
+
+
+33511671
+capitalize capitalization
+Pattern(s): 0	
+lso a friendly advice don t use capitalize variable names as to not confuse variable names with class names
+your choice of capitalization made this harder to spot than this should have been
+
+
+
+33580686
+udp tcp
+Pattern(s): 0	
+the dns is normally using udp to transfer quickly principe of udp protocol but not reliably
+tcp is slower with acks and payload but reliable
+
+
+
+33623547
+webclient httpwebrequest
+Pattern(s): 0	
+thats why you are getting full source code when downloading directly but not using webclient or there are certain javascript which we can t download using webclient
+use httpwebrequest as httpwebrequest gives more control for cookies header and other protocols
+
+
+
+33626281
+width height
+Pattern(s): 0	
+if your textview width is smaller than the bounds of the tablelayout cell you can call the gravity on the tablerow instead using tablerow.setgravity gravity.end
+i have a tablelayout where my textviews fill the width of the cell but not the height so i m using
+
+
+
+33714850
+dbcontext objectcontext
+Pattern(s): 1	
+despite the fact that the incident entity had an entitystate of unchanged objectcontext still recognised it as new
+dbcontext seems much more state aware
+
+
+
+33784216
+filtering grouping
+Pattern(s): 1	
+for example this will display only secondlist items which have a grouping property equal to selectedgroup.id
+you can use a custom filtering if your filtering is more complicated or a filtering function in your controller triggered with ng-change if you don t plan to re-use this filtering anywhere else
+
+
+
+33802545
+apache nginx
+Pattern(s): 0	
+but you d be crazy to do so apache uses a thread per connection and websockets uses persistent connections using a whole thread per connection when you re expecting a lot of proxy websockets in apache is a waste of resources a non blocking proxy like nginx makes a lot more sense
+
+
+
+34052470
+versioning upgrade
+Pattern(s): 0	
+ou upgrade tfs versioning tfs migrate your database - versioning tfs became another versioning
+you restored your backup tfs database versioning is now older that tfs versioning itself
+
+
+
+34114806
+versioning upgrade
+Pattern(s): 1	
+ propose the upgrade versioning
+the upgrade is more elegant and universal way to work with tags groups and or logic
+
+
+
+34398541
+junit testng
+Pattern(s): 0	
+in case if you have flexibility to choose another testing framework you can try with testng which has bigger feature set than junit
+
+
+
+35000257
+for-loop arrays
+Pattern(s): 1	
+for-each loops is an iterable form of ordinary for-loop which is a better built data structure
+cars is an arrays then for eg -
+
+
+
+35070892
+virtualbox parallels
+Pattern(s): 0	0	
+the virtualbox shared folder s strange that sequential builds don t cause these errors perhaps compiling the first file causes a sync that prevents the other files from locking until the virtualbox shared folder s done and since the build is parallels the other .cpp files run into the lock
+
+
+
+35220300
+int boolean
+Pattern(s): 0	
+this would require you to get rid of the boolean
+you dont really need it either as you can always check if int bingos is greater than 0
+
+
+
+35399505
+bfg-repo-cleaner git-filter-branch
+Pattern(s): 1	
+but bfg-repo-cleaner is a much faster solution than git-filter-branch
+
+
+
+35465882
+vlc mediainfo
+Pattern(s): 0	
+ou need a player that supports this format vlc
+note that your mediainfo output is not complete your mediainfo output is better to copy paste the text view when you need support rather than a link to a screenshot of the easy view
+
+
+
+35519940
+mp3 wav
+Pattern(s): 0	
+it ll only play base64-encoded wav data though
+if you want to play an mp3 that gets a little trickier
+
+
+
+35524094
+width margin
+Pattern(s): 0	
+using a left margin of auto and a right margin of 0 the div will be flushed to the right
+note that i also used a padding of .5ch for one half of a letter width which is better than 3px hardcoded
+
+
+
+35574474
+lodash underscore.js
+Pattern(s): 0	
+you can transform data using lodash or underscore.js
+here is an example built using lodash btw i added one more array element to show how groupby works
+
+
+
+35735869
+swift objective-c
+Pattern(s): 0	
+i suggest you learn a little bit of the objective-c messaging syntax since a lot of ios code is still in objective-c but don t worry a huge amount about it
+swift is a better language
+
+
+
+35865110
+folder directory
+Pattern(s): 0	
+you would need a mechanism to get the list of images in the public folder using the fs package will do this for you
+consider the following example which uses the fs package to read the public directory which is web.browser app from the server total unix path home user your_app_name .meteor local build programs web.browser app
+
+
+
+36085375
+jspm npm
+Pattern(s): 1	
+in my experience this is weird with jspm as jspm is more geared towards deps for your app that are actually in production in the browser
+what i do in my projects is install modules i need to run with scripts in dev gulp karma express etc using npm then you can run scripts in dev gulp karma with node
+
+
+
+36158869
+for-loop loops
+Pattern(s): 1	
+as you appear to be simply writing out the list in full once it s reversed you can use a foreach loops
+if however you need more control of where you start in the list or jump around in the list then a for-loop is better
+
+
+
+36175976
+disk ram
+Pattern(s): 0	
+owever there is the issue of the index size and whether all the indexes you d be creating will fit into ram alongside the database working set
+if all the indexes you d be creating dont then they dont will hold the index on disk which is significantly slower to read
+
+
+
+36487966
+altera xilinx
+Pattern(s): 0	
+altera on the other hand rather sees qor as a more or less fixed metric which depends on the context
+when comparing both definitions i think xilinx did a better job because they also gave insight into the methodology they use to determine and maintain qor throughout the evolution of their eda tools
+
+
+
+36638122
+screens tablet
+Pattern(s): 0	
+here i am using css media to hide the modal when the screens width is upto 598px mobiles tablet
+if screens width is more than 598 px desktop laptop then the modal will display
+
+
+
+36816500
+eigen openblas
+Pattern(s): 0	
+eigen has much more friendly api compared to openblas which also has arm-optimized code path
+
+
+
+36872655
+comparator comparable
+Pattern(s): 0	
+but if the actual value comparator is simpler it may improve the code
+there s even a parameter-less variant map.entry.comparingbyvalue for the most trivial case that the map values are comparable
+
+
+
+36891978
+jslint grunt-contrib-jshint
+Pattern(s): 0	
+and was getting errors on jenkins machine since jslint 2.9.1 is much stricter than jslint 2.6.0
+
+
+
+36899666
+swing windowbuilder
+Pattern(s): 0	
+in my opinion swing is easier to start because there are tools like the eclipse windowbuilder which enables you to create your application in a graphical interface but javafx is more likely to be used in the future because javafx has some great improvements over swing like css skins etc.
+
+
+
+36909299
+ostringstream std
+Pattern(s): 0	
+in c++ you could associate the output stream with a null device too and test the number of charactes printed with std ostream tellp
+however using ostringstream is a way better solution see the answers by devsolar or angew
+
+
+
+36909299
+ostream ostringstream
+Pattern(s): 0	
+in c++ you could associate the output stream with a null device too and test the number of charactes printed with std ostream tellp
+however using ostringstream is a way better solution see the answers by devsolar or angew
+
+
+
+36964135
+range minimum
+Pattern(s): 0	
+or if you have a fixed range say till row 25 use following formula and change number of rows as required
+if you ve repeating minimum value in column b minimum value occurs more than one then try this formula
+
+
+
+37004098
+versioning upgrade
+Pattern(s): 0	
+i think your opencart versioning is older 1.5.x so there is two options here
+1 you should upgrade your opencart to 2.x.x
+
+
+
+37011229
+ubuntu linux
+Pattern(s): 1	
+it depends on what distro you re using but for example you can shut down lightdm on ubuntu using sudo etc init.d lightdm stop
+unfortunately installing the nvidia drivers on linux is a bit more complicated than it should be so i would recommend that you have another device handy that you can use to search for solutions to problems you may encounter along the way
+
+
+
+37040638
+punctuation words
+Pattern(s): 1	
+since users can just use left right arrow keys to read individual letters it wouldn t take much for regular screen reader users to read the words slowly
+i would say the punctuation is more dangerous if their verbosity settings are set high
+
+
+
+37041431
+width font-size
+Pattern(s): 0	
+he issue appears to be with the font-size or fontfamily that you are using
+the issue may also be affected if the parent element s width is smaller than 200px
+
+
+
+37077801
+alamofire afnetworking
+Pattern(s): 1	
+alamofire for swift
+it s created by the same people as afnetworking but is more directly designed with swift in mind
+
+
+
+37102794
+maven pom.xml
+Pattern(s): 0	
+with maven it is just simpler to gather mongodb java driver dependency
+you just need to declare mongodb java driver dependency in your maven pom.xml file
+
+
+
+37120694
+for-loop loops
+Pattern(s): 0	
+you are looping 2 times one for-loop is more than ok to see all the random elements in the array.
+remove one of the both loops remove the enhanced for-loop to see only the 10 numbers you generated
+
+
+
+37127086
+width height
+Pattern(s): 0	
+for example if set to 900 whenever the browser s width is less than 900 the plugin will scroll like a normal site
+responsiveheight default 0 a normal scroll autoscrolling false will be used under the defined height in pixels
+
+
+
+37433435
+union distinct
+Pattern(s): 1	
+yes the union operator is really more like a union all statement in sql
+excel s union operator does not return the distinct set of cells
+
+
+
+37471330
+viewdidload viewwillappear
+Pattern(s): 0	
+you can t use the value in viewdidload as this method will execute before the property has been set
+the view controller is loaded before prepareforsegue is called so viewwillappear is a better place
+
+
+
+37746747
+quicksort mergesort
+Pattern(s): 0	
+hat you do not need a second array to store like mergesort you do not need a second array to store like mergesort is calculated inside the same memory
+what does author mean by quicksort has a shorter inner loop than most
+
+
+
+38099246
+post get
+Pattern(s): 1	
+hence post is more secure than get
+
+
+
+38101854
+apache nginx
+Pattern(s): 1	
+nginx is faster for static files but if you have a cdn there is no need to worry about static content
+apache is a great server
+
+
+
+38492601
+zoo xts
+Pattern(s): 0	
+however there are many others ts xts which is generally faster than zoo .
+
+
+
+38547032
+for-loop loops
+Pattern(s): 0	
+you forget to give in for-loop
+when a loops has more than one line you must enclosed these statements with
+
+
+
+38582420
+for-loop arrays
+Pattern(s): 0	
+for-loop is the comparison between min and other elements
+if any other element in the arrays is smaller then min then its value is assigned to min and finally it prints the min smallest element in the arrays
+
+
+
+38626906
+firefox safari
+Pattern(s): 1	
+note the above returns reliable results in google-chrome and safari
+firefox seems less reliable out of the box
+
+
+
+38626906
+google-chrome firefox
+Pattern(s): 1	
+note the above returns reliable results in google-chrome and safari
+firefox seems less reliable out of the box
+
+
+
+38682542
+width margin
+Pattern(s): 0	
+for example let s say width of one image you want is 200px then also you d like to have some space as margin between images too so let s say if browser width is more than 700px then we ll have images on the same row else we ll have them one below the other
+
+
+
+38789314
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+38831288
+range minimum
+Pattern(s): 0	
+threshold values are in range of 0 1
+in your case regardless of threshold you will always get all observations into true class as even minimum prediction is greater than 1
+
+
+
+38856993
+partialfunction fold
+Pattern(s): 0	
+an other option would be to use collect since this accepts a partialfunction and ignores all not matching elements
+the suggested fold solution is the better approach here i think
+
+
+
+39085516
+swift objective-c
+Pattern(s): 1	
+one of the main differences between swift and objective-c is the type system and behaviour with nil
+in objective-c it is more or less safe to use nil it may lead to unexpected behaviour but does not crash
+
+
+
+39141667
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+39456529
+for-loop loops
+Pattern(s): 0	
+the for-loop creates integer i to hold its looping index
+and each loops asks is i bigger than scorecount and if not loops again
+
+
+
+39463376
+width height
+Pattern(s): 0	
+et constraint for views like center y vertically in container center x horizontally in container fixed width fixed height
+make sure that your view s height is not more than your view s height fits all buttons with padding between all buttons
+
+
+
+39573040
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+39781764
+apache nginx
+Pattern(s): 0	
+here is a setup i use to redirect blog to a meteor server i don t use passenger with apache
+this works but i must agree with kalid-rafik that nginx is a much easier solution
+
+
+
+40002621
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+40004234
+post get
+Pattern(s): 0	
+nswering your question more directly either perform the get request synchronously and properly declare the variable in the scope you need to use it or restructure your code to use the information retrieved by the get request only inside the callback
+read the post the post mentions for more information
+
+
+
+40032690
+post get
+Pattern(s): 1	
+post is just more practical for transmittng xml objects in the body of a http request or response
+the query string in a get request would be awkward and has limitations
+
+
+
+40131267
+temp tmp
+Pattern(s): 0	
+so temp variable is no more and we have the address of first node of list is in temp so the value start becomes zero in the main function and accessing elements there is always a segmentation fault
+to overcome this use a global head pointer to hold the address of first node or you can have the tmp variable as global
+
+
+
+40170143
+switching screens
+Pattern(s): 0	
+hence am switching over to div
+preferable use which will align automatically if the screens is smaller
+
+
+
+40219523
+comparator comparable
+Pattern(s): 1	
+but if you implement comparable interface you will have to change code of all the model bean classes to override comparator method
+so for loose coupling comparator is better
+
+
+
+40478649
+post put
+Pattern(s): 0	
+this post is slightly uglier than my first approach but this post solves the poster s question the way they d like this post to
+i have decided to put this post as a separate answer.
+
+
+
+40479283
+google-chrome firefox
+Pattern(s): 1	
+if using firefox you can delete or modify the default download behavior by file type
+google-chrome uses a more simplistic approach it just downloads to the destination set as your download folder in your google-chrome settings
+
+
+
+40514933
+scheme prolog
+Pattern(s): 1	
+if you allow supplying the coefficents in reverse order a_n .. a_0 the horner schema is readily implemented in prolog as follows
+as a bonus the horner scheme is numerically more stable
+
+
+
+40597810
+qpainter qgraphicspixmapitem
+Pattern(s): 1	
+the qpainter calls are very easy and very complete and i d strongly encourage exploring that instead
+subclassing qgraphicsitem rather than either qgraphicsrectitem or qgraphicspixmapitem gives you much more control over the drawing so that s the routine i would recommend for your ultimate solution
+
+
+
+40669616
+x86 64bit
+Pattern(s): 0	
+division is variable-latency on many x86 microarchitectures so if there s any speedup to be had when the dividend is really only n bits presumably the hardware already looks for that
+however skylake div idiv r32 are constant 26c latency but 64bit divisor is much slower and still has very variable latency
+
+
+
+40775863
+cocoapods carthage
+Pattern(s): 0	
+building debug frameworks for testing is just a matter of add --configuration debug to carthage s command line arguments
+finally - to be fair there are also two other package managers out there ruby based cocoapods which is an older manager and for swift the swift package manager
+
+
+
+40782208
+kerberos ldap
+Pattern(s): 0	
+if you are using kerberos ad ldap then create a user there setup kerberos which takes a lot more effort
+
+
+
+40793654
+keras tensorflow
+Pattern(s): 0	
+keras is yet to officially provide support but you can proceed at your own risk
+for multiprocessing tensorflow is a better way to go about this my opinion
+
+
+
+40876408
+direct3d direct2d
+Pattern(s): 1	
+direct3d is not a good choice for drawing a circle whether you are using an ancient deprecated c# managed wrapper or a newer one
+direct2d is much more suited to vector graphics such as smooth circles
+
+
+
+40997823
+width height
+Pattern(s): 0	0	
+ur height y is greater than width x
+secondly we check if our height is greater than our maximum height
+
+
+
+41289399
+ecdsa rsa
+Pattern(s): 0	
+so the lowest commonly supported ecdsa keysize keys based on nist p-256 secp256r1 gets 128 bits of security which nist rates as good for 2031+
+rsa is also a better choice than dsa because it has much better breadth of support for signatures still considered secure by nist
+
+
+
+41376419
+matlab s-function
+Pattern(s): 1	0	
+however the matlab function is faster less computing intensive when the same time step is employed
+maybe the least computing-intensive solution is a c s-function
+
+
+
+41396315
+entity-relationship-model relational-model
+Pattern(s): 0	
+the entity-relationship-model is more of a conceptual model than a logical model
+it adds semantics which makes it more familiar to people untrained in formal logic while restricting one to a subset of relational-model and producing reasonably normalized relations
+
+
+
+41484860
+jobs cron
+Pattern(s): 0	
+if the jobs takes more than one hour because of high cpu utilization for example then there will be another instance of the job and likely you will get the duplicated results in the csv file
+so you should prevent the cron jobs from being executed if there is already a running one
+
+
+
+41573969
+screens tablet
+Pattern(s): 0	
+another layout for larger devices like tablet where the screens width is larger than your image
+
+
+
+41592606
+uiview subviews
+Pattern(s): 0	
+because the uiview is smaller the uiview is going to crop out the larger subviews
+
+
+
+41711221
+udp tcp
+Pattern(s): 0	
+tcp is a much larger pain in the .. with udp you can do this kind of thing quite easily swap macs swap ip swap ports fill in the payload checksum if you want or not and send this kind of thing back
+
+
+
+41711221
+arp tcp
+Pattern(s): 0	
+o do it correctly you need to keep a table locally and a timer and if you have never seen that ip address or the last time you saw it was more than a minute ago or whatever your timeout is then you need to arp for it to be able to respond
+tcp is a much larger pain in the .. with udp you can do this kind of thing quite easily swap macs swap ip swap ports fill in the payload checksum if you want or not and send this kind of thing back
+
+
+
+41774940
+folder directory
+Pattern(s): 0	
+if directory folder atob has more than 1 item aaa.xyz let prune other folder file in same way
+
+
+
+41796766
+for-loop arrays
+Pattern(s): 1	
+this will also work but using for-loop is better and more elegant way
+also this cant be used in associative arrays unless you use array_values
+
+
+
+41829712
+geocoding geocode
+Pattern(s): 0	
+the latency difference between place autocomplete and the new forward geocode increases further since the new geocode has greater coverage and better result quality but at the cost of somewhat higher latency
+
+
+
+41864351
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+41900279
+jmeter blazemeter
+Pattern(s): 1	
+as a load testing tool it s better to use jmeter but in some cases especially when you write tests for ajax-rich applications or when you need to imitate real users scenarios it s necessary to combine advantages of jmeter that is more suitable than selenium for generating load and collecting performance metrics and selenium that is more suitable for interacting with a web page
+and of course it s recommended to use blazemeter as a cloud based solution for running tests
+
+
+
+41944770
+dynatree fancytree
+Pattern(s): 1	
+note that dynatree is no longer actively maintained
+i recommend switching to fancytree
+
+
+
+41995275
+atof strtod
+Pattern(s): 0	
+it would be better to use strtod for this purpose as it allows for error-checking but atof is simpler to use and so is used here
+
+
+
+42088650
+client-side server-side
+Pattern(s): 1	
+the server-side flow is considered more secure
+
+
+
+42090702
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+42153082
+int double
+Pattern(s): 0	
+don t use m n on float or double
+int unsigned makes more sense here
+
+
+
+42209378
+int double
+Pattern(s): 0	
+you can t convert a double to int because the double has more information than the int
+
+
+
+42233691
+qtcpsocket qnetworkaccessmanager
+Pattern(s): 1	
+this is the blocking way of waiting for a connection to be established instead of connecting to the qtcpsocket connected signal
+like yuriy pointed out qnetworkaccessmanager is way more convenient to handle http requests as a client
+
+
+
+42267481
+for-loop loops
+Pattern(s): 0	
+i think using let in for-loop is the much better approach to handle this type of cases
+let in loops can re-binds it to each iteration of loops making sure to reassign it the value from the end of the previous loops iteration so it can be used to avoid issue with closures
+
+
+
+42314001
+post get
+Pattern(s): 0	
+i know that this post is older but for this post may helpful for other user
+if you want to get the current url...with the query string you can use this
+
+
+
+42347995
+client-side server-side
+Pattern(s): 1	
+i would advice to switch to server-side processing of table data instead of using client-side it is more preferable if your application works with a lot of rows more than several hundreds
+
+
+
+42550103
+google-chrome firefox
+Pattern(s): 0	
+google-chrome has a few proprietary selectors to change some shadowdom elements but not all
+firefox has even fewer as far as i know and opera has none
+
+
+
+42550238
+inline inlining
+Pattern(s): 0	
+the process of inlining is more than just copy and paste the inline code has to make sense within the inline code the inline code is being injected into
+
+
+
+42598515
+width height
+Pattern(s): 0	0	
+in newpos function you should increment x only until x + width is lower than canvas width
+same for y you should increment it until y + height is less than canvas height
+
+
+
+42640285
+seaborn matplotlib
+Pattern(s): 0	
+consider using seaborn
+it is a wrapper of matplotlib that offers a slightly more streamlined api
+
+
+
+42809206
+sqoop hadoop
+Pattern(s): 1	
+sqoop 1 was originally designed for moving data from relational databases to hadoop
+sqoop 2 is more ambitious and aims to move data between any two sources
+
+
+
+42913978
+cpu processors
+Pattern(s): 1	
+there s a reason why processors reviews use large benchmark suites
+it could be said that the desktop cpu performs better on average but execution times between two small but non-trivial pieces of codes does not have to favor the desktop cpu
+
+
+
+42935224
+hive hdfs
+Pattern(s): 0	
+write output of spark to hdfs and used hive to write to s3
+performance was much better as hive was creating less number of part files
+
+
+
+42972357
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+42979940
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but the right svn2git which is much more suited for this use-case
+
+
+
+43035993
+post get
+Pattern(s): 0	
+however for a post it is more of a fire and forget it is not waiting for a reply
+
+
+
+43233645
+sys.path distribute
+Pattern(s): 0	
+nother egg called distribute was installed and another egg called distribute was at the front of my sys.path
+another egg called distribute had an older version of pkg_resources which did not know about .dist-info egg folders
+
+
+
+43249004
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+43258654
+int chars
+Pattern(s): 0	
+as r.nextint 66-0 + 66 may generate any random number between 0 to 66 and then to that number 66 is added thus the chars has value more than 66 which is inaccessible in the array has length 66 and hence the exception arrayindexoutofboundsexception
+
+
+
+43261384
+accelerometer gyroscope
+Pattern(s): 1	
+the only reliable reading an accelerometer can give you is the direction to the center of the earth thanks to gravity
+gyroscope is usually much more precise sensor but it only detects relative rotation not linear movement
+
+
+
+43311223
+ssl https
+Pattern(s): 0	
+having some ssl tls is worlds better than not having it at all
+after the repeal of fcc privacy requirements for isps all websites on the entire internet need to be https and http should be disallowed entirely
+
+
+
+43372112
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+43428959
+division exponent
+Pattern(s): 0	
+one option not really is to rewrite the problem where is a positive integer making the new power approximation but this introduces division which is inherently slower
+there s however another option which is to decompose the input x as its floating point exponent and mantissa form
+
+
+
+43430497
+interpolation splines
+Pattern(s): 1	0	
+using a zero-padded ifft to upsample produces a similar high quality interpolation except for circular boundary effects
+if you have to use 1 of your 3 available methods splines is less worse than pchip as the latter may clip a bit and both of those are less worse than linear
+
+
+
+43483491
+for-loop arrays
+Pattern(s): 0	
+if element does not exist at the index of the arrays which has less .length set empty string as value of property
+
+
+
+43491224
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as a frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+43496624
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+43528005
+installation upgrade
+Pattern(s): 0	
+the python-virtualenv versioning from your distribution or installation is older than what s required by certbot-auto
+install or upgrade to a compatible virtualenv versioning for python 3 via
+
+
+
+43556195
+min median
+Pattern(s): 1	
+you can do everything in one loop both computing the min max and mean
+the median is much more difficult and i suggest you take a look at some standard algorithms
+
+
+
+43729660
+for-loop loops
+Pattern(s): 1	
+foreach is optimized for this specific case and is faster head to head if iterating a list unless you introduce an int counter in which case for-loop is faster
+words i is doing 3 lookups inefficiently as compared to a foreach loops where it would look it up once
+
+
+
+43844107
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+43946342
+vb6 vba
+Pattern(s): 0	
+you can often get better results by searching vb6 which is almost the exact same thing as vba
+vba just has a few less functions
+
+
+
+43975971
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+44012507
+cordova nativescript
+Pattern(s): 1	
+and about react native to be as powerful as cordova i would say that react native is more promising and very powerful but actually cordova has a ecosystem more mature and consistent
+maybe you should take a look at nativescript
+
+
+
+44021876
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+44097723
+for-loop loops
+Pattern(s): 1	
+for-loop
+i think do-while loops is better for your situation
+
+
+
+44248902
+nullpointerexception illegalargumentexception
+Pattern(s): 0	
+there are some instances of implementations that i have seen for some methods that throw nullpointerexception if argument is null but that is wrong implementation in those cases illegalargumentexception makes much more sense
+
+
+
+44305278
+mktime strtotime
+Pattern(s): 1	
+you don t need to use mktime
+strtotime is more human friendly
+
+
+
+44359704
+width height
+Pattern(s): 0	
+you have to give the id banner a specific width that is less than 100
+you don t need a height t already is automatic
+
+
+
+44460635
+width height
+Pattern(s): 0	
+in case your computer does not support default webgl aa resizing the renderer size and canvas width gives me much better result than fxaa
+mind you the css holds the real width and height values
+
+
+
+44514627
+for-loop loops
+Pattern(s): 0	
+secondly when you put count inside for-loop it is reset to 0 every time with increment in i
+loops terminates when i more than 50 i.e 51
+
+
+
+44565649
+fgets strstr
+Pattern(s): 0	
+the use of fgets here allows more flexibility in inspecting the input
+to handle cases where is part of the title you can use strstr to first find the delimiter and then copy characters up to the delimiter into the array in a loop
+
+
+
+44577839
+strncpy calloc
+Pattern(s): 0	
+i.e strncpy is actually better than the simpler strcpy if you are willing to improve the code
+also have a look at functions to manipulate dynamic memory malloc calloc realloc...
+
+
+
+44577839
+strncpy malloc
+Pattern(s): 0	
+i.e strncpy is actually better than the simpler strcpy if you are willing to improve the code
+also have a look at functions to manipulate dynamic memory malloc calloc realloc...
+
+
+
+44592240
+email dkim
+Pattern(s): 0	
+you may have to take additional measures like implementing spf and or dkim
+overall dealing with email is usually much easier if you just use an api service like mailgun
+
+
+
+44633273
+versioning upgrade
+Pattern(s): 0	
+might be your npm versioning is less than you are running
+upgrade to latest versioning might resolve the problem
+
+
+
+44638473
+onclicklistener onitemclicklistener
+Pattern(s): 1	
+also it s more common to use onitemclicklistener for a listview
+if you use a viewholder for your listview then onclicklistener is better
+
+
+
+44729847
+strcpy strdup
+Pattern(s): 1	
+strcpy str newstr should be strcpy newstr str
+strdup is more convenient
+
+
+
+44791389
+for-loop loops
+Pattern(s): 1	
+i m guessing your for-loop version had more differences than implied with the code you posted but likely ran infinitely because your terminating condition wasn t satisfied due to something like the getlocations call that doesn t succeed
+you need to rethink what you re doing in loops especially if you re making function calls that can fail
+
+
+
+44823584
+theano tensorflow
+Pattern(s): 1	0	
+tensorflow has better computational graph visualizations than theano and torch
+
+
+
+44905080
+for-loop arrays
+Pattern(s): 1	
+i also think the for-loop code is much more readable and therefore maintainable
+
+
+
+44963455
+submit submission
+Pattern(s): 0	
+nothing special but i don t know how many people have learned that you can use and with for two different actions in a single form with a single submit button
+in the code above it seems to call the before the or perhaps it s just because the post submission is slower than calling a javascript function...
+
+
+
+45022621
+keras tensorflow
+Pattern(s): 1	
+lternatively using just tensorflow you could use this strategy
+but i personally think keras is more elegant plus this strategy adds a whole lot of more useful features such as model.output model.input and much more
+
+
+
+45130092
+gitkraken sourcetree
+Pattern(s): 1	
+furthermore gitkraken is much better at doing things like reversing commits so generally better all round
+
+
+
+45198135
+int double
+Pattern(s): 0	
+4 + 4 since int is smaller size compared to double padding of double size is done
+
+
+
+45217926
+versioning upgrade
+Pattern(s): 0	
+ simple cmdlet upgrade addressed the issue
+the issue turned out to be that the azure powershell cmdlets up to and including versioning 4.1.x were using an older versioning of the microsoft.azure.management.streamanalytics assembly namely 1.0
+
+
+
+45347273
+width margin
+Pattern(s): 0	
+the padding and margin are added to that width which makes everything wider than you would think
+
+
+
+45375318
+width height
+Pattern(s): 0	
+in portrait view the width is smaller than the height
+
+
+
+45487322
+width height
+Pattern(s): 0	
+example one limits width when height is below aspect ratio
+example 2 loses aspect when width is greater than 4 3 aspect
+
+
+
+45490250
+button checkbox
+Pattern(s): 1	0	
+adio button is more use when you want a choice between several value
+in you case case s more like a boolean so checkbox seems a better choice
+
+
+
+45568125
+qdialog qwidget
+Pattern(s): 1	
+it seems you cannot use a qdialog for that because it always wants to have exactly one default button even right from the beginning
+qwidget instead is more nice but doesn t set the default property of its button when they get focus
+
+
+
+45621592
+lodash underscore.js
+Pattern(s): 0	
+i believe lodash is a better choice over underscore.js more details in this blog post
+
+
+
+45624049
+lwjgl jzy3d
+Pattern(s): 0	
+also lwjgl being a thin wrapper will force you to learn opengl as soon as you need to do any transformation and that will take you some time
+jzy3d is a higher level api but the tutorial is not free
+
+
+
+45688132
+noexcept throw
+Pattern(s): 1	
+noexcept allows for more efficient code generation in that it does not have to perform rtti on throw exceptions instead if an exception is throw from a call-frame underneath a noexcept-declared function std terminate is called short-circuiting the crazy std unexpected machinery specified by the 98 standard
+
+
+
+45756732
+react-native-router-flux react-navigation
+Pattern(s): 0	
+edit i just realized you re already using a navigation library react-native-router-flux
+i think react-navigation is easier to start with
+
+
+
+45846839
+ionic angular
+Pattern(s): 0	
+ionic 4 is the newer version of ionic the open source sdk that enables developers to build performant high-quality mobile apps using familiar web technologies html css and javascript
+ionic 4 is paired with angular
+
+
+
+45864268
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+45985881
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+46117499
+google-chrome firefox
+Pattern(s): 0	
+so if your timeout is set higher than 995ms google-chrome will ignore your code and puke on your nice clean empty console that you worked hard to keep clean
+firefox is not much better and there are unreliable requests that just timeout for well beyond any patience i have and in doing so ignore the ontimeout handler
+
+
+
+46174970
+post get
+Pattern(s): 1	
+this blog post has a bit more detail as well
+another answer also has a point that if you are trying to request a blacklisted video from an app and not a web page you will get the error message below
+
+
+
+46219134
+luis api.ai
+Pattern(s): 1	
+in my opinion luis is more robust and can extract entities in different languages
+i ve tested in api.ai and dutch did not work for me
+
+
+
+46246735
+dplyr stringr
+Pattern(s): 0	
+you should be able to use stringr str_detect inside of filter at that point
+this link should give you all the info you need for how dbplyr works w dplyr and allows for more of the tidyverse-style we re used to
+
+
+
+46279122
+range minimum
+Pattern(s): 0	
+for example in kinect an object has to be minimum 0.5m meters away to detect depth of any object
+thus kinect v2 could be useful if the range is between 0.5m to 5m though the range is higher for this device
+
+
+
+46311486
+readr tidyverse
+Pattern(s): 1	
+in this situation i think readr read_table is more useful than read_fwf
+the following example is a tidyverse approach to importing and processing one of the source files tb3u2016.txt
+
+
+
+46422569
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+46543327
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+46682350
+pop-up dialog
+Pattern(s): 0	
+if you are asking for the reason of that i believe that simply pop-up aren t intended and deeply tested for a lot of interactive content but just for small hints or small navigation menues
+if you need to present to the user a lot of interactive content imho a page with the dialog option is a better choice
+
+
+
+46713578
+disk ram
+Pattern(s): 0	
+data disk throughput use ssd for best results
+ram more is better
+
+
+
+46857547
+setinterval settimeout
+Pattern(s): 1	
+keep in mind that using setinterval is less efficient for this case then using settimeout which doesn t require comparing times at all as it schedules the alarm to occur at a particular time as setinterval will use more processor cycles to both schedule a check and then to compare the times
+
+
+
+46892611
+ant pom.xml
+Pattern(s): 1	
+ant is more like an imperative programming language
+you don t have the amount of meta-information in your build.xml as you have in a pom.xml
+
+
+
+46955167
+onchange onblur
+Pattern(s): 0	
+that why onchange is a better solution
+
+
+
+47064313
+maven pom.xml
+Pattern(s): 0	
+the first issue is that the maven command is not compatible with the version of cucumber
+the argument cucumber.options was introduced in version 1.1.1 please see this thread but the pom.xml shows an older version
+
+
+
+47077629
+super self
+Pattern(s): 1	
+in python3 super method behaves a bit more magically
+super method automatically figures out the parent of the class and implicitly passes the self as well
+
+
+
+47083949
+jar war
+Pattern(s): 0	
+weblogic 12c has additional libraries bundled and therefore an exception might be thrown because the jar contains older version of the same library and some classes methods might not be present in that jar
+the workaround is to deploy ear that packages your war file and specifying the preferred libraries
+
+
+
+47150236
+multiplying division
+Pattern(s): 0	0	
+repeated add sub is normally a terrible way to multiplying divide but you want to loop that many times anyway so you use that as the loop counter
+this is called a strength reduction optimization because division is stronger slower more expensive than subtraction
+
+
+
+47277584
+awt swing
+Pattern(s): 0	
+consider using swing instead of awt jframe instead of frame
+swing is richer
+
+
+
+47277916
+firefox safari
+Pattern(s): 1	
+i assume safari is the same
+firefox is more lenient but i believe there must be a user click to start with
+
+
+
+47339568
+division addition
+Pattern(s): 1	
+i think division by a power of 10 other than 10 9 would be somewhat cheap but would require an actual division on each limb and propagating the remainder to the next limb
+extended-precision addition is somewhat more expensive this way than with binary limbs because i have to generate the carry-out manually with a compare unsigned comparison
+
+
+
+47342754
+width height
+Pattern(s): 0	
+if i have clearly understood your requirements then you wish to have gray margin left and right side of your main content when the width is more than 800px
+you should set the proper height of main content
+
+
+
+47478289
+swift objective-c
+Pattern(s): 0	
+then the buffers won t need to be treated as arrays of pointers and passing arrays of say floats between objective-c ++ and swift is easier
+
+
+
+47889067
+folder dir
+Pattern(s): 0	
+i could create shortcuts through a python script if this is still a concern however there is no real need and running all the exe s in that one folder is more than fine by me i have found
+
+
+
+48034918
+tex mathjax
+Pattern(s): 0	0	
+this is supported by mathjax as well
+tex is older shorter and functional superior to mathml and well similarly unreadable for humans
+
+
+
+48061275
+int chars
+Pattern(s): 0	
+you need to make sure the second input constraint is smaller than the alphabet - this is implemented by having the condition on the chars for loops as the minimum between the input l and the size of the alphabet
+you don t ensure the third int is greater than the previous two - this can be implemented by starting the third loop from the maximum of the previous two
+
+
+
+48068768
+disk ram
+Pattern(s): 1	
+in client-server model and in computing in general we try to stay away from i o if possible and i o is everything that is not cpu including registers and ram
+with the advent to fast ssds disk became way faster and it is the network that is usually the slowest part in any application that uses it
+
+
+
+48191248
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+48273908
+post get
+Pattern(s): 1	
+you d really only want to use get if you were sending a single term or a short amount of data
+post is better for larger amounts of data and marginally safer
+
+
+
+48318668
+division subtraction
+Pattern(s): 0	
+similar to sam westrick s definition number of times you can subtract n2 from n1 without going negative you could also do integer division with addition and greater-than using the definition number of times you can add n2 to integer division before integer division is greater than n1 .
+addition might seem like a conceptually simpler thing than subtraction
+
+
+
+48345047
+for-loop loops
+Pattern(s): 1	
+a for-loop is used when you know the maximum number of iterations upfront
+in your scenario a while loops is more apropriate
+
+
+
+48366941
+hex binary
+Pattern(s): 0	
+since blob stores binary data and not all bytes are displayable the hex code makes more sense to display the data as hex encoded to human readers
+
+
+
+48396410
+google-chrome firefox
+Pattern(s): 0	
+see the different results in firefox and google-chrome
+i am confused why google-chrome gives faster results for non-recompiled regex though
+
+
+
+48466654
+children parent
+Pattern(s): 0	
+as stated in my comment a dictionary where each key contains the children seems like a more reasonable idea
+to achieve this we can loop through each element in your list which i renamed to l as to not override the built-in list function and append this value to the lists of all its parent in a dictionary d
+
+
+
+48484567
+lxml beautifulsoup
+Pattern(s): 1	
+for beautifulsoup the code like as following
+the lxml is more quickly
+
+
+
+48570303
+int chars
+Pattern(s): 0	
+if the chars type is larger than 11 bits it would be possible for the value a to exceed 3000 and thus for the expression to attempt an access beyond the end of the array which has undefined behavior
+
+
+
+48749278
+width height
+Pattern(s): 0	
+a layout with a set smallest width will be active unless the smaller of the both dimensions width or height is lower than a certain value you can choose
+
+
+
+48764066
+min max
+Pattern(s): 0	
+like if max 20 than you can enter maximum 20 character
+and here min is lower bound so you have to enter minimum 4 character
+
+
+
+48803311
+google-chrome safari
+Pattern(s): 0	
+otherwise browsers cannot seek outside the buffered range hence the behaviour on google-chrome
+safari takes the harder line of blocking playback altogether
+
+
+
+48810588
+union distinct
+Pattern(s): 0	
+the only records having a class_id in the class_fee table would be 10
+--a union approach seems more straight forward
+if you can guarantee that only status 2 records get mapped the union could be a union all to gain a bit of performance by avoiding the distinct
+
+
+
+48840127
+git-svn svn2git
+Pattern(s): 1	
+it is a great tool if you want to use git as frontend for an existing svn server but for one-time conversions you should not use git-svn but svn2git which is much more suited for this use-case
+
+
+
+49073939
+for-loop loops
+Pattern(s): 0	
+the performance of a normal for-loop is slightly better because there is no function call for each element involved
+despite of this this is recommended to avoid for loops when this can be written as a foreach statement
+
+
+
+49164774
+dictionary map
+Pattern(s): 0	
+objects can behave like dictionary because javasript is dynamically typed and there hasn t been a good alternative until now but t really aren t meant to be
+the new map functionality is much nicer because it has the expected get set has delete methods you would expect while also accepting any type for the keys instead of just strings
+
+
+
+49164816
+x86 64bit
+Pattern(s): 0	
+all processors since the opteron in 2003 and the intel pentium 4 prescott the latter editions has 64bit instruction set and will all run 64bit windows
+thus as long a msft continues to support 32 bit architecture x86 is the safer option although x64 would probably still work
+
+
+
+49170111
+tensorflow bazel
+Pattern(s): 0	
+found a similar issue 349 on tensorflow s github and it is very probable that you are running out of memory
+you are running out of memory suggest adding the argument --jobs 1 --local_resources 2048 .5 1.0 so that bazel spawns no more than one compiler process at a time and limits system resource usage
+
+
+
+49182561
+for-loop loops
+Pattern(s): 1	
+first i created the variable selection outside of your for-loop
+this cleans up your loops and is closer to what you re doing
+
+
+
+49635168
+express node.js
+Pattern(s): 0	
+the express framework is unique among http frameworks in that the express framework gets smaller each release
+one of the parts that was removed from the core is body parsing so the express framework now handles request bodies as base node.js does unless you add middleware
+
+
+
+49639764
+folder directory
+Pattern(s): 0	
+directory that contains more than one module and sometimes other folders directory are usually kept in one of two places c program files python lib site-packages and
+
+
+
+49675621
+for-loop loops
+Pattern(s): 0	
+the for-loop construct is less than ideal in this scenario
+alternatively you might use a while loops and a readarray builtin
+
+
+
+49799596
+for-loop loops
+Pattern(s): 1	
+do not use quotes with filter but do use them with a loops
+although being slightly longer the for-loop gives more possibilities of shaping the output
+
+
+
+49822000
+google-chrome firefox
+Pattern(s): 1	
+still if you want do that you could build a browser extension - firefox extensions and ie extensions can access local resources
+google-chrome is much more restrictive however
+
+
+
+49928834
+ggplot2 lattice
+Pattern(s): 1	
+you may find that ggplot2 then becomes overkill and slow for your application lattice is typically faster and so is base plot
+
+
+
+49949315
+for-loop loops
+Pattern(s): 0	
+if it wasn t the cursor for-loop you d first declare a cursor and then a cursor variable open the cursor fetch take care when to exit loops close the cursor such as
+as you can see cursor for-loop is easier to write and maintain because oracle does a lot of tasks for you
+
+
+
+50025985
+pandas seaborn
+Pattern(s): 0	
+there are just so many features that you can control with the plotting capabilities of pandas which leverages matplotlib
+i found that seaborn is a lot easier to produce pretty charts and you have a lot more control over the parameters of your plots
+
+
+
+50226045
+post get
+Pattern(s): 0	
+change the method for the form to post if you want to do it via post
+both are equally insecure although get is easier to hack
+
+
+
+50268772
+wordpress joomla
+Pattern(s): 1	
+ppl s statement that joomla is outdated needs a big citation needed - i ve seen nothing to suggest that
+wordpress is simply more popular
+
+
+
+50361950
+quicksort heapsort
+Pattern(s): 1	
+i generally recommend starting with bottom-up mergesort in haskell but heapsort isn t a bad choice either
+quicksort poses much more serious difficulties
+
+
+
+50361950
+quicksort mergesort
+Pattern(s): 1	
+i generally recommend starting with bottom-up mergesort in haskell but heapsort isn t a bad choice either
+quicksort poses much more serious difficulties
+
+
+
+50400207
+width height
+Pattern(s): 0	
+scrollview.setcontentsize width 5 5
+than if the uiscrollview frame height is greater than 25 the uiscrollview will not scroll
+
+
+
+50430294
+retrofit okhttp
+Pattern(s): 0	
+i always said to my friends why do you use retrofit or valley if it s seems complicated to you
+instead you can use jsoup or okhttp it s s much easier and i realy love jsoup
+
+
+
+50465057
+int chars
+Pattern(s): 0	
+note that if the int is larger then 26 you ll get special chars
+
+
+
+50655948
+stateless stateful
+Pattern(s): 0	
+a stateful service can not be scaled as easily
+if you want to deploy more units on peek times a stateless service is way easier to handle
+
+
+

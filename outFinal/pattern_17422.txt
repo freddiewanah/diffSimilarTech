@@ -1,0 +1,1882 @@
+50692770
+google-chrome firefox
+Pattern(s): 0	
+it sounds like work should be on google-chrome for you since you use firebase and other important things that google-chrome does well
+firefox is more than capable for music and hangouts and non-dev stuff
+
+
+
+50719663
+coalesce isnull
+Pattern(s): 0	
+dbfiddle demo isnull infers data type from first argument coalesce infers from wider one data type precedence
+
+
+
+50776997
+public protected
+Pattern(s): 0	
+making a listener for these three events would be a superior approach if you wanted to make access to these three events public because a superior approach provides a much higher degree of decoupling between the class and a superior approach listeners
+making the access protected implies a higher degree of affinity between the class and the listener the designers of the class would end up making a protected runnerlistener interface for the listener adding a protected defaultrunnerlistener implementation for situations when you need to override one or two methods and adding a protected method for you to supply the listener
+
+
+
+50869671
+16-bit 64bit
+Pattern(s): 0	
+if you write the bottom bits al ah or ax nothing happens to the upper 16-bit of eax which means that if you want to promote a chars into a int you need to clear that memory first but you have no way of actually using only these top 16-bit making this feature more a pain than anything
+now with 64bit amd did a much better job
+
+
+
+50884600
+inherited properties
+Pattern(s): 0	
+use extends properties
+but beware inherited poses more problems than solutions
+
+
+
+50898879
+setinterval settimeout
+Pattern(s): 1	
+to thoroughly understand this behaviour you have to understand all stages of event loop and especially how settimeout and setinterval is handled mdn article on event loop mdn event loop rising stack article will help you in getting a clear understanding of event loop along with micro and macro task rising stack event loop explained in nutshell all settimeout gets processed in same tick of the loop
+also for your case setinterval is much better
+
+
+
+50901044
+rank percentile
+Pattern(s): 1	
+the value of fraction is the fractional part of the rank
+this leads to the result for the values themselves the fraction part have to be zero so it is very easy to do the inverse calculation to get percentile i hope i made it more clear
+
+
+
+50901544
+filesystems ntfs
+Pattern(s): 1	
+quick and dirty answer the simple answer is blobs smaller than 256kb are more efficiently handled by a database while a filesystems is more efficient for those greater than 1mb
+of course this will vary between different databases and filesystems there is a microsoft technical report here compare blob and ntfs filesystems
+
+
+
+50908228
+letter-spacing font-size
+Pattern(s): 1	
+however i have to warn you when you using letter-spacing you had better using -0.3em or -0.31em not others
+
+
+
+50944014
+public protected
+Pattern(s): 0	
+it will be complicated for google to support mutablelivedata since the setvalue and postvalue methods are public
+where as for livedata they are protected which gives more control
+
+
+
+50996743
+median minimum
+Pattern(s): 0	
+the following example used a matrix with 500 500 elements resulting in those timings only for 2 runs unit seconds expr min lq mean median uq max neval cld parapply 191.5861 191.5861 192.6157 192.6157 193.6453 193.6453 2 a dt_parap 135.0570 135.0570 163.4055 163.4055 191.7541 191.7541 2 a the minimum is considerably lower although the maximum is almost the same which is also nicely illustrated in that boxplot full code
+
+
+
+51041732
+multiplying multiplication
+Pattern(s): 1	
+when you multiplying two n-dimensional matrices with numpy i suppose it automatically multiplies the two last dimensions together and keeps the first ones
+the n-dimensional matrix multiplication is more or less like the 2d multiplication
+
+
+
+51073285
+for-loop loops
+Pattern(s): 1	
+any time you need a loops that removes elements from the container that is being looped through a for-loop is a bad choice to use
+a while loops is typically better so that you have more control over the indexing
+
+
+
+51077193
+genfromtxt unpack
+Pattern(s): 1	
+so either stick with loadtxt or don t use unpack with genfromtxt
+i think loading the structured array without unpack gives you more options when doing further processing
+
+
+
+51142142
+coalesce isnull
+Pattern(s): 0	
+coalesce -- although standard -- has the downfall that it evaluates the first argument twice
+so when the first argument is non-trivial isnull is the better approach in sql server
+
+
+
+51174053
+jobs cron
+Pattern(s): 1	
+i suggest you download and install then you can use unix style cronjobs to run your jobs
+you can also look into using the windows task scheduler but using the cron scheduler works better in my opinion because the windows task scheduler only allows once per 5 minute triggers
+
+
+
+51192211
+innodb myisam
+Pattern(s): 0	
+you can create spatial indexes in aurora using the default innodb engine
+edit there is a good article discussion the aurora geospatial indexing at which claims that you absolutely have to have myisam implementation has 10x better performance than mysql
+
+
+
+51229808
+for-loop loops
+Pattern(s): 0	
+if your compiler supports c++11 you can just use range-based for-loop which is much easier to read than this normal loops
+
+
+
+51274640
+udp tcp
+Pattern(s): 1	
+tcp will ensure that your client server has received the whole photo properly
+udp is more used for content streaming
+
+
+
+51331033
+google-chrome firefox
+Pattern(s): 0	
+your google-chrome folder is a folder named google-chrome located under your user profile .mozilla firefox g7fa61h3.default google-chrome
+
+
+
+51333872
+memcpy memset
+Pattern(s): 1	
+also since zero initialization doesn t work on heap-allocated structs there s something to be said for consistency of always using memset
+similar goes for situations when you might want to copy a few adjacent structs part of an array - again if you always use memcpy code is more consistent
+
+
+
+51375418
+cvs svn
+Pattern(s): 0	0	
+cvs is the much older of the two and it has been the standard collaboration tool for a lot of people
+svn is much newer and it introduces a lot of improvements to address the demands of most people
+
+
+
+51404964
+range minimum
+Pattern(s): 0	
+the u+0080..u+009f range is yet more useless control characters which is why those are not showing anything
+1 technically 0 255 is the minimum required range for unsigned char
+
+
+
+51451371
+int chars
+Pattern(s): 0	
+so your table might be represented as then you set clear bits in the following manner to create a mask specifying numbered bits without hard-coding the hex value you can use an expression such as occasionally a visual binary representation is desirable - for chars bitmaps for example the chars a is much easier to visualise when represented in binary 00000000 00011000 00100100 01000010 01111110 01000010 01000010 00000000 the chars is possible to efficiently code such a table while maintaining the visualisation by exhaustively defining a macro for each binary value
+
+
+
+51458654
+prng random
+Pattern(s): 1	
+rogram output 9 8 4 5 1 10 7 3 6 2 the library s prng is not very random but for many cases that is not important
+if program output 9 8 4 5 1 10 7 3 6 2 the library s prng is better algorithms are available
+
+
+
+51539785
+nvda narrator
+Pattern(s): 1	1	
+nvda is more compatible with firefox jaws is more compatible with internet explorer and edge
+narrator is more compatible with edge
+
+
+
+51557804
+pandas xlrd
+Pattern(s): 0	
+check out pandas
+it s a lot better than xlrd and uses less code
+
+
+
+51569166
+post get
+Pattern(s): 1	
+in python post request is more complicated as compare to other requests.but here is the solution for post request in python
+example#1 post request example#2 post request but in your scenario you re using the burp suite to get data and post data in python i don t know which specific version of python are you using but you should follow basic method of post request in python.if you re using the brup suite and must read the brup suite documentation here is the documentation link which ll explain you each step one by one and do keep an eye on the notes and todos while following the step in your scenario
+
+
+
+51604831
+for-loop loops
+Pattern(s): 1	
+ou just need to iterate it using either for or foreach loops inside controller action marked with httppostattribute for -loop version foreach -loop version note with foreach loops if request.files collection has duplicate file names the first matched file name will be stored multiple times even multiple times have different sizes related issue here
+hence for-loop approach is more preferred and you can still get corresponding file name with uploadedfile.filename
+
+
+
+51629512
+post get
+Pattern(s): 0	
+there are some strange things here you make a post request but the view has no side-effects nor does the post transfers any data
+in that case a get makes more sense
+
+
+
+51700720
+width margin
+Pattern(s): 1	
+this creates columns of equal width and your buttons reside within each columns
+you can add spacing between your buttons by providing a margin read more here
+
+
+
+51707529
+google-chrome firefox
+Pattern(s): 0	
+but speed of google-chrome is slower than firefox too
+
+
+
+51805754
+int chars
+Pattern(s): 0	
+vhdl superimposes type on file transactions unfortunately there s no way to declare a natural range value greater than 2 31 -1 if your int were bigger they wouldn t be portable
+the above method treats files as chars files allowing superimposition of size of elements of the contents by conventions here in the host system if you want to read 32 bit unsigned you d want to read 4 chars and assemble a 32 bit value in the correct endian order
+
+
+
+51857592
+fadein removeclass
+Pattern(s): 0	
+the reason for this is because the fade effect is not good for fast changes between fadein and fadeout
+addclass and removeclass works a lot better for this
+
+
+
+51922463
+disk ram
+Pattern(s): 0	
+they re all in the realms of speed of memory ram - nanoseconds
+database disk stored is certainly slower because the medium access time is slower - milliseconds sessions are good practice
+
+
+
+51935176
+folder directory
+Pattern(s): 0	0	
+then i made a new .py file called with apps.py in the main folder same folder that contains settings.py you are put the apps.py module in the wrong location
+a new .py file called with apps.py in the main folder same folder that contains settings.py you are put the apps.py module in the wrong location apps.py should be inside your app s directory
+
+
+
+51964508
+pandas seaborn
+Pattern(s): 1	
+seaborn is more for making the plots more readable with less direct intervention in the script and generally gets the most mileage when dealing with pandas dataframes for example yields as to how to set the styles the way you want for the variables you re trying to show that i m not sure how to handle
+
+
+
+51964508
+seaborn matplotlib
+Pattern(s): 1	
+our simplified case is more appropriate for matplotlib s plot function than anything from seaborn
+seaborn is more for making the plots more readable with less direct intervention in the script and generally gets the most mileage when dealing with pandas dataframes for example yields as to how to set the styles the way you want for the variables you re trying to show that i m not sure how to handle
+
+
+
+51980147
+median percentile
+Pattern(s): 0	
+replace the output value if it is greater or equal than the 90 quantile by the median in all zero action rows before the first row in each group
+note that the op is talking about to find values that more 90 percentile which implies a greater relation but the expected result had also values replaced where return equals the 90 quantile
+
+
+
+51980944
+width height
+Pattern(s): 0	
+your width is larger than 50
+in this regard it is 66.7  if you want to use 50 use it for the height only
+
+
+
+51993188
+mouseover mouseenter
+Pattern(s): 1	
+in this particular case it makes little difference but in other situations mouseover can lead to unexpected outcomes whereas mouseenter is somewhat more predictable
+
+
+
+52005974
+multiplying subtract
+Pattern(s): 0	
+if range limits aren t a problem you could even fold the subtract in using an
+simd fp multiplying has significantly better throughput than integer multiplying so it might be a win overall even with the extra cost of an fp round-to-nearest instruction
+
+
+
+52028247
+spaces delimiter
+Pattern(s): 1	
+the first solution is using results in getting assigned to loop variable b the entire line with leading spaces tabs removed while results in getting assigned to the loop variable b the entire line including leading spaces tabs
+so the definition of an empty list of delimiter is better in general
+
+
+
+52061395
+google-chrome safari
+Pattern(s): 1	
+google-chrome 49 goes a step further and has support for the unhandledrejection event which lets you add a custom event handler to deal with all unhandled rejected promises
+safari also shows a warning and since version 11 also supports the unhandledrejection event
+
+
+
+52072274
+versioning upgrade
+Pattern(s): 0	
+if the production track versioning code is higher than the alpha then as you have found users will get the production versioning
+if the alpha versioning code is then increased to be higher than the production versioning they will get upgrade to the alpha
+
+
+
+52087847
+metaclass subclassing
+Pattern(s): 0	
+the metaclass overrides the __new__ method of deprecatedclass to always return an instance of newclass
+subclassing is not much harder
+
+
+
+52171071
+super extends
+Pattern(s): 0	0	
+extends drink is the upper bound - so every object must then extends from drink to be legally assigned into that list
+super is a lower bound - that means that any instance specified must be no lower in the inheritance hierarchy than the specified type
+super drink is the lower bound - so every object must then either be a type of drink or a type of its ancestor - in this case object
+
+
+
+52214018
+put get
+Pattern(s): 1	0	
+ts get is 2x faster than hashtable
+however its put is 25 slower
+
+
+
+52227984
+for-loop loops
+Pattern(s): 1	
+that s doing it with while loops which may be what the instructor has specifically asked for
+however since this is such a common pattern in c a for-loop allows you a more compact expression does the exact same thing placing the initialization and the increment of the counter variable all on the same line
+
+
+
+52248534
+google-chrome firefox
+Pattern(s): 1	
+comparing the logged values on firefox and google-chrome console should demonstrate the different behaviors
+i should also mention that according to my experience knowledge firefox is more standards-compliant than other browsers
+
+
+
+52348492
+mediacodec mediarecorder
+Pattern(s): 1	
+if you are stuck with the old api consider one of the samples that record video using mediacodec and mediamuxer
+it is more powerful than mediarecorder but requires more work
+
+
+
+52389196
+for-loop arrays
+Pattern(s): 0	
+ou could then write code that loops through the arrays extracts the rate value for each arrays entry and prints the arrays
+as others have said you could do this with a map statement but if you re new to programming then the for-loop approach is easier to understand
+
+
+
+52389196
+for-loop loops
+Pattern(s): 0	
+ou could then write code that loops through the arrays extracts the rate value for each arrays entry and prints the arrays
+as others have said you could do this with a map statement but if you re new to programming then the for-loop approach is easier to understand
+
+
+
+52390493
+versioning upgrade
+Pattern(s): 0	
+as per the error message dart sdk versioning is 2.1.0-dev.4.0.flutter-050561fd82 and flutter_map versioning is less than 0.1.0
+and flutter_map 0.1.0 requires sdk versioning 1.8.0 2.0.0 so either you have to downgrade your sdk to 1.8.0 2.0.0 or upgrade your flutter_map to be 0.1.0
+
+
+
+52393988
+postgresql mysql
+Pattern(s): 1	
+an example of what s possible in postgresql 11 but not mysql 8 is this with t v as values 1 1 3 5 5 5 6 select v array_agg v over o groups between 1 preceding and 1 following exclude current row as current array_agg v over o groups between 1 preceding and 1 following exclude group as group array_agg v over o groups between 1 preceding and 1 following exclude ties as ties array_agg v over o groups between 1 preceding and 1 following exclude no others as no_others from t window o as order by v yielding i ve blogged about these postgresql features more in detail here
+
+
+
+52409239
+igraph networkx
+Pattern(s): 1	
+the igraph package offers significantly more functionality for community detection including an implementation of weighted fastgreedy
+you can save your graph file in networkx as .gml which would make the igraph package easily transferable to igraph
+
+
+
+52412828
+build.gradle gradlew
+Pattern(s): 1	
+when reviewing there some to be several possible causes you are using the wrong buildtoolsversion which can even be omitted in the build.gradle - in order to use the latest version matching api level 27
+using com.android.tools.build gradlew 3.3.0-alpha10 is questionable. better use stable version 3 1 4
+
+
+
+52437330
+int chars
+Pattern(s): 0	
+he chars type chars are converted to int
+cast is done first as the chars type chars precedence is higher than the of  hence is used
+
+
+
+52443372
+post put
+Pattern(s): 0	
+f you can t put all of the changes into a single transaction then patch is the wrong idea
+that said everything you can do with patch can also be done with post -- post just offers fewer guarantees
+
+
+
+52474427
+client-side server-side
+Pattern(s): 0	
+you could do it client-side but you d need to acquire an access token with adal.js msal.js and then request for the file and set it as the content of the img element via javascript
+server-side is probably easier to implement point the img to an http route in your back-end acquire an access token call the api and return the bytes of the image as a result from the route
+
+
+
+52595332
+range minimum
+Pattern(s): 0	
+the limits.h header defines constants for various type ranges - for characters it defines the following constants uchar_max - maximum unsigned character value 255 on most platforms schar_min - minimum signed character value -128 on most platforms schar_max - maximum signed character value 127 on most platforms char_min - minimum character value either 0 or schar_min depending on platform char_max - maximum character value either uchar_max or schar_max depending on value to keep this code simple i m only worrying about character codes in the range
+
+
+
+52628745
+seaborn matplotlib
+Pattern(s): 0	
+when using pure matplotlib the result is as expected
+to replicate the exact look of the seaborn plot is a bit more work then
+
+
+
+52675909
+nsbitmapimagerep nsimage
+Pattern(s): 1	
+that digression past us an nsbitmapimagerep is a much more concrete object
+an nsimage does not have pixels an nsbitmapimagerep does
+
+
+
+52712620
+quicksort mergesort
+Pattern(s): 1	
+a good example of this is quicksort versus mergesort
+they both have an average runtime of o n log n but quicksort is usually faster
+
+
+
+52712620
+mergesort in-place
+Pattern(s): 0	
+additionally mergesort traditionally requires o n of extra memory
+there is an in-place variant but i think an in-place variant is significantly slower
+
+
+
+52718819
+alexa amazon
+Pattern(s): 0	
+no notifications feature in the alexa skills kit is not generally available
+anyone who wants to have notifications feature has to fill this survey and amazon team provides more information if this survey and amazon team think the skill is qualified to have notifications feature
+
+
+
+52733080
+versioning upgrade
+Pattern(s): 0	
+if the versioning is lower - run brew upgrade jmeter command in above setup i need to put jmeter plugins manager jar to usr local cellar jmeter 5.0 libexec lib ext if you installed jmeter by manually fetching it from jmeter downloads page extracted it somewhere and installed the plugins manager in lib ext folder - you should be good to go just make sure you run  jmeter.sh file not jmeter
+
+
+
+52738776
+eigen ublas
+Pattern(s): 1	
+eigen has additions for 3d geometry such as rotations and quaternions not ublas
+ublas is slightly more complete on the most basic operations
+
+
+
+52738776
+eigen ublas
+Pattern(s): 1	
+eigen lacks some things such as projection indexing a matrix using another matrix while ublas has it
+for features that both have eigen is more terse resulting in expressions that are easier to read
+
+
+
+52748441
+concave angle
+Pattern(s): 0	
+a concave edge is an edge which inner angle is bigger than 180
+
+
+
+52762664
+setinterval settimeout
+Pattern(s): 0	
+meaning the time set for settimeout is always less than setinterval s
+
+
+
+52784532
+flask django
+Pattern(s): 1	
+using the django web framework which is harder to learn than flask but provides more functionality
+
+
+
+52862480
+visualvm jmc
+Pattern(s): 0	
+you need to run jmc from the directory to open the .jfr file created
+i find this harder to use than visualvm but produces much more detailed results with less noise
+
+
+
+52917071
+jsdom cheerio
+Pattern(s): 0	
+cheerio does not execute scripts on the page therefore you can t see this specific class
+you can use selenium which is pretty heavy to run on scale or jsdom which is lighter
+
+
+
+52941741
+ssl https
+Pattern(s): 1	
+hen i added https at the last second
+not being very familiar with ssl i made ssl a much harder problem than i had to so that s my defense
+
+
+
+52951354
+apktool jarsigner
+Pattern(s): 1	
+create file res xml network_security_config.xml with following content build patched apk java -jar apktool.jar b app -o app_patched.apk generate keys to sign apk keytool -genkey -alias keys -keystore keys sign apk file jarsigner -verbose -keystore keys app_patched.apk keys if necessary convert apk to jar for further analysis d2j-dex2jar.sh app.apk more information
+
+
+
+52960533
+datediff difference
+Pattern(s): 0	
+the datediff curdate valid_upto will return a negative value until the valid_upto date comes
+when the difference is greater than 0 that means your subscription has expired
+
+
+
+52983792
+vlookup countif
+Pattern(s): 0	
+vlookup is slow and not the right function for this
+countif is a bit better but isnumber match seems to be the fastest combination by far
+
+
+
+53043976
+bash zsh
+Pattern(s): 1	
+in bash this is much faster than running nvm directly
+for timings and zsh see here
+
+
+
+53082631
+strtol atoi
+Pattern(s): 0	
+have a look at strtol and its brethren
+with atoi exists a simpler function which however is not as robust and versatile
+
+
+
+53140021
+range minimum
+Pattern(s): 0	
+for 1 2 answer is 3 for 1 4 2 answer is 3 for the case where answer is 1 if minimum value in the range is greater than 1 then answer is 1
+
+
+
+53141107
+imageview picasso
+Pattern(s): 1	
+version 3.x glide.with mcontext .load url .diskcachestrategy diskcachestrategy.source .into imageview
+would you like to give a shot to picasso i found picasso much better for this
+
+
+
+53251472
+for-loop arrays
+Pattern(s): 1	
+the first error i see is that you need to declare the function type with the type of the returned value in this case the function has to be another error is in the for-loop the operation has to be same for the another see that you didn t declare the i which is a variable too
+another way is doing is the same. if you already know the dimension of the two arrays maybe is better to take the arguments as pointers it will look like and you will have to allocate memory this coul be done with malloc at the end of your program you will want to free that allocated memory doing free wsk
+
+
+
+53257351
+defaultdict enumerate
+Pattern(s): 0	
+if you just use you ll be overwriting the initial keys value each time defaultdict is an easier way of using an expression like see the full working example below and also note that i m using enumerate instead of range 0 len countries which i d also recommend result see
+
+
+
+53284452
+versioning upgrade
+Pattern(s): 0	
+.net framework 3.5 is not compatible with any versioning of .net standard the earliest versioning is 4.5 as published in docs here obviously the further .net standard versioning you chose the higher .net versioning you have to pick on the client side as standard grows continuously and hence drops support for the older frameworks
+if you could upgrade your client project to .net 4.5 having the lib in .net standard 1 would resolve your compatibility issue
+
+
+
+53392712
+width height
+Pattern(s): 0	
+your problem appears because the reference width is bigger then working width of your collectionview to fix this you must calculate your cells reference size properly
+you re using uicollectionviewflowlayout so you can take an advantage of uicollectionviewdelegateflowlayout and implement the following method it is provided for the case when cells has fullscreen width and dynamic height keep in mind that if you re using multiple columns you should calculate cells width accordingly and mininteritemspacing should be taken into account
+
+
+
+53393549
+swift objective-c
+Pattern(s): 1	
+on a personal note i have to say calling core audio api from swift is oftentimes more pain than gain
+because of that it might be faster although a bit unsafer wrapping those portions of code into objective-c or plain c and exposing them via the swift bridging header if your project allows the swift bridging header
+
+
+
+53415089
+int chars
+Pattern(s): 0	0	
+well we need to check what happens with vectors with multi-digits which you seem to have and their corresponding vectors of multi-character strings the int vector still occupies 4 bytes for each element the numeric vector still occupies 8 bytes for each element
+however the size per element in the chars vector is larger for larger strings
+thus the transpose coerced your data frame to a chars matrix and the size of each chars element is larger than its corresponding numeric element
+
+
+
+53441160
+cublas thrust
+Pattern(s): 1	
+cublas itself does not trap errors like this for performance reasons
+however the thrust api uses more rigorous synchronization and error checking in some cases
+
+
+
+53454555
+uitableview uicollectionviewlayout
+Pattern(s): 0	
+with each cell being different size flowlayout will request sizes for each cell separately to calculate total size of collectionview - that is required to properly handle scrolling scrollbars
+uitableview it s a bit simpler as it s layout is much simpler only height matters - that s why it s possible to use estimatedsize there
+the whole core layout process is well explained here to overcome this problem i would recommend using your custom uicollectionviewlayout and move your caching logic and reusing sizes for cells inside collectionviewlayout not in your viewcontroller
+
+
+
+53469086
+folder directory
+Pattern(s): 0	
+he resources directory is for the resources directory uncompiled counterparts so your less sass files and javascript should go there before being processed by mix
+the storage folder is for more general file storage use but i would have a look at the possibility of storing these files with a third party service
+
+
+
+53470524
+int double
+Pattern(s): 0	
+because according to the rules of overload resolution void function int y int w is a better match than void function float y float w and therefore there is no ambiguity
+calls function 1.2 2 and function 1 2.2 both have one argument that is an int and is the exact match with one of the arguments of void function int y int w and so only one type conversion is required double to int
+
+
+
+53504195
+floating-point fractions
+Pattern(s): 1	
+mask by for the fractions part of the sum shift the remaining bits and add them to the integral parts for the integral part of the sum
+floating-point is a little more finicky but not too much harder
+
+
+
+53510046
+for-loop loops
+Pattern(s): 0	
+a for-loop is generally better for doing something a fixed number of times
+and calculating the percentage inside the inner loops is a bit wasteful you re recalculating the inner loops for every number in the inner arrays but only using the last one
+
+
+
+53510046
+for-loop arrays
+Pattern(s): 0	
+a for-loop is generally better for doing something a fixed number of times
+and calculating the percentage inside the inner loops is a bit wasteful you re recalculating the inner loops for every number in the inner arrays but only using the last one
+
+
+
+53514132
+dictionary map
+Pattern(s): 0	
+he reason for that is because map is a built-in function and works perfectly better with functions of a built-in function kind chain rule
+based on your update you can just use str.replace instead of your function and a generator expression withing dict.fromkeys note that alternatively you could also use for constructing an empty dictionary which is also slightly faster than directly calling the dictionary type
+
+
+
+53570256
+for-loop arrays
+Pattern(s): 0	
+prints 3 to console so you could use numbeo.length the -1 is because the for-loop uses less or equal condition in your case
+the for-loop goes from 0 to 100 because your numbeo arrays s size is 100
+
+
+
+53593499
+ubuntu linux
+Pattern(s): 1	1	
+windows xampp had a lot less to configure compare to mac ios but now with linux ubuntu i had a few more since there are more going in linux a good thing
+
+
+
+53613333
+median minimum
+Pattern(s): 1	
+that is because we have the same amount of elements at both side but the median value is closer to the minimum thus there should be elements with smaller difference between both side
+
+
+
+53677985
+explode fgetcsv
+Pattern(s): 0	
+you ve already explode all the commas away
+looping over the file using fgetcsv makes more sense
+
+
+
+53689247
+igraph networkx
+Pattern(s): 0	
+the networkx graph will only connect to the 4 nearest neighbors
+so igraph has a lot more connections
+
+
+
+53760764
+ubuntu debian
+Pattern(s): 0	
+note the below test results are on debian
+testing on ubuntu wsl is indeed much worse
+
+
+
+53807154
+integer fractions
+Pattern(s): 0	
+xtra info so answer article 1 i supposed it is a random integer positive number although it s easy to generalize for negative numbers too which i suppose it is your problem case
+for fractions numbers is s a bit harder to generalize this formulae 2 the log notation refers to logarithm in base 2
+
+
+
+53807563
+post get
+Pattern(s): 1	
+although this question already has an answer this blog post is probably more complete
+please visit the site and get their metrics up but for posterity here s a copy-paste
+
+
+
+53808458
+client-side server-side
+Pattern(s): 0	
+client-side is also harder to scale however this may not be an issue if this is a small personal project
+i personally am using server-side sessions in my current rest api because authentication was easier and i wanted the scalability
+
+
+
+53818152
+clang icc
+Pattern(s): 1	
+often because the compiler was only designed for one or a couple targets like msvc or icc or various compilers that started out as x86-only or many vendor-supplied compilers for embedded chips
+clang llvm was designed much more recently than gcc
+
+
+
+53845615
+flask django
+Pattern(s): 1	
+if in fact you just need a web api wrapper flask is probably a much better choice than django simply because django is huge and you d be using only a fraction of fact capability
+
+
+
+53905441
+ubuntu linux
+Pattern(s): 1	
+some details can be found at consider using linux distribution for development
+event virtualbox vm with ubuntu works faster than windows for all sap hybris related tasks
+
+
+
+53946740
+snmp mib
+Pattern(s): 1	
+for further information on how to use the device s snmp interface you should ask the vendor
+the vendor seems highly likely to me that these names are built-in and cannot be altered even if the mib provides for more lenient devices
+
+
+
+53965792
+gdi direct2d
+Pattern(s): 0	
+gdi functions have limited transparency support so you might want to use a different technology like direct2d which has better integration with the gpu
+
+
+
+53970630
+typedef struct
+Pattern(s): 1	
+o assign to items you must assign the address of each struct to each element in items remember you have storage for pointers not storage for struct item -- and you must ensure fruits remains in scope for the duration of your use of basket putting those pieces together you could do something similar to the following note i have simply used typedef and removed the struct labels themselves -- typedef s up to you
+further you should validate the return from find_first_in_range is not null before printing example use output also note i ve bracket the high low range for memory use error check in any code you write that dynamically allocates memory you have 2 responsibilities regarding any block of memory allocated 1 always preserve a pointer to the starting address for the block of memory so 2 typedef can be freed when typedef is no longer needed
+
+
+
+53997252
+dictionary map
+Pattern(s): 1	
+you can use a list comprehension within a dictionary comprehension
+since you need both keys and values use dict.items to iterate key-value pairs map works more efficiently with built-ins so you may wish to use or since you have coordinates for tuple values the problem with your logic is python lists do not support vectorised indexing so you need to be explicit the verbose
+
+
+
+54010640
+ubuntu linux
+Pattern(s): 1	
+one macos the other an ubuntu 16.04-based linux os elementaryos loki both using the official packages from docker.com
+my theory is that the linux package is just more restrictive out of the box security-wise than the macos one
+
+
+
+54060048
+client-side server-side
+Pattern(s): 1	
+in some cases i use same approach but i recommend to do same approach on client-side via javascript if same approach s possible and my next recommendation is to send all forms via ajax always
+less code on server-side brings more benefits less cpu and memory consuption on server-side output of view can be cached better performance smaller transmission data here is a flash module with same functionality as in express.js but i don t recommend it for rendering some flash messages you can use controller.repository object or model or you can create some view engine helper
+
+
+
+54067493
+quicksort mergesort
+Pattern(s): 0	
+however at least quicksort is not slower than mergesort for the random case
+
+
+
+54100086
+for-loop loops
+Pattern(s): 1	
+the for-loop is more concise
+notice how we need a counter variable in this case i with the while loops
+
+
+
+54183894
+innodb myisam
+Pattern(s): 0	
+count with innodb is slower than count id because innodb doesn t cache the row count
+on the other hand with myisam count query would be faster and return result in no time because myisam maintains the count of rows
+
+
+
+54190274
+mapr cloudera
+Pattern(s): 0	
+mapr has a faster version called mapr streams which implements kafka
+i was not wanting to use that for what i was wanting to do but mapr sandbox has a lot of up-to-date items straight out of the box -certainly compared to cloudera
+
+
+
+54204471
+woocommerce shopp
+Pattern(s): 0	
+eav is somewhat necessary for a shopp site where only some items have dress size or f-stop or transmission type
+in this case json may be a better pattern than eav. schema review yuck woocommerce is worse than wp reference prefix indexing meta_key 32 is rarely useful and often counter-productive
+
+
+
+54208581
+for-loop loops
+Pattern(s): 0	
+nd since we re using i as the index for the arrays element to examine the value of would never change and therefore loops would go on forever
+and for what it s worth when you re iterating over an arrays a for-loop is a better fit because a for-loop allows you to define the iteration variable the condition and the increment all in one place
+
+
+
+54260042
+unix bsd
+Pattern(s): 0	
+macos is based on bsd unix which is way older than linux
+
+
+
+54263969
+treemap linkedhashmap
+Pattern(s): 1	0	
+stream linkedhashmap code style
+using treemap is more cleaner since you can achieve it in one line
+
+
+
+54264093
+treemap linkedhashmap
+Pattern(s): 1	
+to make things a bit more efficient with linkedhashmap you should provide an good estimator of the required size at construction so that there is not need for dynamic resizing so instead of linkedhashmap new you say
+i m my opinion the use of a treemap is more neat.
+
+
+
+54300159
+namedtuple dictionary
+Pattern(s): 0	
+alternatively you can use pd.namedagg essentially a namedtuple which makes things more explicit
+it is even simpler for series just pass the aggfunc to a keyword argument.t lastly if your column names aren t valid python identifiers use a dictionary with unpacking pandas 0.25 in more recent versions of pandas leading upto 0.24 if using a dictionary for specifying column names for the aggregation output you will get a futurewarning using a dictionary for renaming columns is deprecated in v0.20
+
+
+
+54327594
+post put
+Pattern(s): 1	
+eturn error range codes when the expected mutation has not occured a delete didn t happen or a put didn t change anything
+however a post is more interesting because the spec says the spec should be used to either create resources at a new location or just process a payload
+
+
+
+54361347
+pyenv virtualenv
+Pattern(s): 1	
+pyenv is for installing and managing different versions of python so you might not need it
+this way your virtualenv is more robost and easier to get up and running if you move it around or share it with others
+
+
+
+54410046
+vim emacs
+Pattern(s): 1	
+f you re writing prose you may be able to get by just with the evil mode plugin for emacs which is not complete but is a pretty sophisticated version of vim inside emacs
+in general emacs is a little more pliable for people who really like to tinker and touch every part of the system to do new things so someone has probably written some good prose modes for general emacs
+
+
+
+54453418
+doc rtf
+Pattern(s): 0	
+documentdiagram method in documentgenerator class will help you inserting diagrams inside the rtf documentation. more details on documentgenerator class refer these blogs to know more about generating complex documentation generate complex documents from enterprise architect with a two-step semi-automated approach generating documents using document scripts in enterprise architect
+
+
+
+54460199
+google-chrome firefox
+Pattern(s): 0	
+if you are seeing similar error on google-chrome on ubuntu the reason is probably you have a pre-installed version of google-chrome and firefox which is older
+
+
+
+54478022
+sorting grouping
+Pattern(s): 0	
+the second sorting condition i added breaks the tie should two aggregate_id grouping happen to have the same maximum update value
+in this case the sort falls back to whichever grouping has the greater detection time to decide which comes first
+
+
+
+54537919
+for-loop arrays
+Pattern(s): 0	
+here are two solutions at least the first is o n 2 and require to have two for loops to compare all the elements between two solutions at least the first is o n 2 self the second solution that you should use and that the problem force you to choose because the problem says that you can loops the arrays only once it is to find in one for-loop the minimum and the maximum of the arrays and control the arrays difference
+if the arrays difference is more than the given number return true otherwise false
+
+
+
+54566201
+min max
+Pattern(s): 1	
+b our pop method returns the smallest item not the largest called a min heap in textbooks
+a max heap is more common in texts because of a max heap suitability for in-place sorting
+
+
+
+54603551
+for-loop loops
+Pattern(s): 1	
+you can use for-loop while loops or do while loops according to your need
+a for-loop is more common
+
+
+
+54604415
+for-loop loops
+Pattern(s): 1	
+but say you are doing something like this as suggested by elliott smith it might be better to simply do this for clarity reasons there is no major difference between for and while loops aside from the fact for-loop is neater to write in certain situations
+
+
+
+54615358
+versioning upgrade
+Pattern(s): 0	
+if you want to re-run expo build then you ll need to upgrade from sdk 25 preferably to sdk 32 so you won you want to re-run expo build need to update again for a while and also because each expo versioning is better than the last
+
+
+
+54677492
+google-chrome firefox
+Pattern(s): 0	
+changing web.config security policy to object self fixed the problem in our case our could open pdfs in firefox and ie but not in google-chrome so google-chrome has a stricter implementation of the security policies
+
+
+
+54687394
+button checkbox
+Pattern(s): 1	
+from the usecase it looks like you want the user to select the address type either residential or commercial so a raido button group seems more suitable
+i have edited the html to create the radio button instead of checkbox
+
+
+
+54710896
+google-chrome firefox
+Pattern(s): 0	
+for firefox there is browser_console
+from first look the google-chrome solution seems easier
+
+
+
+54720073
+versioning upgrade
+Pattern(s): 1	
+the tilde versioning modifier is less aggressive than the caret versioning modifier in the upgrade it will allow
+
+
+
+54721057
+setinterval settimeout
+Pattern(s): 1	
+so if you called setinterval mycustomfunction 1000 it will repeatedly execute mycustomfunction after every 1s
+this is not the behavior you want you only want a delay of 1s and for that settimeout is more appropriate
+
+
+
+54745651
+chart.js c3.js
+Pattern(s): 1	
+for future readers i was unable to create custom gridlines using chart.js
+the c3.js package contains far more customisation options for gridlines and gives the option of providing custom user-defined grid lines described here
+
+
+
+54747421
+for-loop loops
+Pattern(s): 0	
+the difference between array.map and a for-loop is that the for-loop does nothing more than iterating over the values of the arrays
+within the body of loops you can do whatever with these values
+
+
+
+54763245
+pdfsharp migradoc
+Pattern(s): 0	
+pdfsharp was created as a tool for migradoc
+maybe migradoc is a better solution for you if you do not want to deal with line-breaks and page-breaks
+
+
+
+54783793
+installation upgrade
+Pattern(s): 0	
+your visual studio 2017 installation has an older versioning of the git credential manager for windows
+upgrade to the latest versioning and configure this specific installation in your global git config to ensure visual studio is aware of the latest gcm that s available to it
+
+
+
+54889852
+gif bmp
+Pattern(s): 1	
+oadbmp just loads a bmp file into a bitmap which is a single image
+however an animated gif is a more complex file format which has several frames in an animated gif
+
+
+
+54894046
+sudo passwd
+Pattern(s): 0	
+sudo -u postgres createuser viter -s this also makes viter a superuser
+then you need to set the passwd for viter to match what is used in database.yml by using this command while in psql as the postgres user yourpassword viter next create each db with viter as the owner while still in the psql terminal
+
+
+
+54958557
+cpu processors
+Pattern(s): 1	
+but here s my 2 cents anyway confluent s documentation might shed some light cpus most kafka deployments tend to be rather light on cpu requirements
+as such the exact processors setup matters less than the other resources
+
+
+
+54963329
+strncpy malloc
+Pattern(s): 1	
+the easier way is to use the function strncpy which is more secure than just using strcpy
+another way is to allocate with malloc space for where you wish to copy the string after you can modify the string at your please
+
+
+
+54964903
+for-loop arrays
+Pattern(s): 0	
+you probably thought you needed the - 1 there since arrays index s start at 0 except since the for-loop is less than and not less than or equal to it will end at the last index
+
+
+
+55033022
+client-side server-side
+Pattern(s): 1	
+if you use cookies you may have to provide a disclaimer. if you want users to be redirected with client-side javascript such as by assigning to window.location.href when the visitor visits the landing page and the server has no need to see their locale information on every connection then use local storage
+server-side redirection is probably more elegant but both methods are ok options
+
+
+
+55064017
+width height
+Pattern(s): 0	
+what you may want to do is prompt the user for width in pixels or inches and their string and calculate what size font to use based on the number of characters in their string
+then calculate how tall that would make the barcode and if that height is larger than the user height requirement draw a white rectangle across the top of the barcode to snip the bars off at the correct height
+
+
+
+55065451
+coalesce isnull
+Pattern(s): 0	
+you also are missing the on clause on your first join a full join is not necessary as a left join to your catalog table covers what you need coalesce is sql iso standard but as you are comparing only two values and you are using sql server isnull is better to perform that operation use two left joins or you can use union all
+
+
+
+55092748
+domcontentloaded addeventlistener
+Pattern(s): 1	
+the changes i made were adding a document.addeventlistener domcontentloaded function to make sure your html was loaded before you tyr to run the javascript
+change the way you bind your onchange function to be document.getelementbyid length .addeventlistener change function evt basically the addeventlistener is more flexible than onchange
+
+
+
+55106923
+for-loop loops
+Pattern(s): 0	
+you shouldn t shy away from for loops in c++ since there is much less overhead compared to r
+in this case a for-loop does significantly better than using the built in r side
+
+
+
+55138861
+versioning upgrade
+Pattern(s): 0	
+use maven surefire 3.x maven surefire versioning 3.x provides better support regarding the junit platform
+please upgrade surefire to 3.0.0-m3 or higher
+
+
+
+55292075
+for-loop loops
+Pattern(s): 0	
+the issue with your solution was that you were modifying the value of numbere by using inside the second for-loop this changes the value globally
+moving the final column in to the nested for loops also makes it easier as you wouldn t need to define the temporary variable outside of loops
+
+
+
+55297555
+setinterval settimeout
+Pattern(s): 0	
+and your logoutfunction will look something like this i mistakenly said in comments to use setinterval
+i assume this will be a one time execution settimeout is better to use
+
+
+
+55304116
+bash zsh
+Pattern(s): 1	
+consider this totally unsurprising bash exchange now look at the result in other shells like dash ksh or zsh this is perhaps more correct but i doubt many people would expect it
+
+
+
+55324661
+build.gradle gradlew
+Pattern(s): 0	0	
+install the latest version and for android after manual linking installation if your minsdkversion in the top most build.gradle file is anywhere lower then 19 please turn your minsdkversion in the top most build.gradle file is anywhere lower then 19 to 19 because that s the lowest version for which react-native-razorpay supports
+then clean the gradlew and build the gradlew again i.e go into android and gradlew clean and in the root project folder - react-native run android
+
+
+
+55340748
+multiplying division
+Pattern(s): 0	
+you can reason directly by multiplying one side of the inequality by the unity h x h x and then multiplying through by h x
+but i thought canceling by division was clearer
+
+
+
+55357403
+distance polygons
+Pattern(s): 0	
+if you want to do the same for lines and polygons and use the nearest distance shapely is your friend
+now calculate the euclidean distance as the square sum of the differences over axis 1 the coordinates and retrieve the points where the distance is smaller than max_distance to compare the numpy solutions to the other answers in terms of speed i timed the answers for the same set of 1e6 random points the code above takes 49 ms the optimized solution by peter collingridge 44ms list solution by vurmax using list comprehension see below 2.88s 60x slower the list solution with peter collingridge s optimization 2.48s toy shapely solution by christian sloper 15.2s 300x slower
+
+
+
+55475018
+git-svn svn2git
+Pattern(s): 1	0	
+git-svn is better suited if you re going to push pull commits between git and svn
+for a straight export svn2git is a much better solution and way faster
+
+
+
+55484047
+for-loop arrays
+Pattern(s): 0	
+first your for-loop goes through the bullet arraylist however you are using that index to modify the enemy arraylist as well
+so if bul.size enm.size the bullet arrays is bigger than the enemy arrays this would be what is causing the indexoutofboundsexception
+
+
+
+55499865
+floating-point integer
+Pattern(s): 0	
+floating-point remainder for the float and double operands the result of x y for the finite x and y is the value z such that the sign of z if non-zero is the same as the sign of x
+the absolute value of z is the value produced by |x| - n |y| where n is the largest possible integer that is less than or equal to |x| |y| and |x| and |y| are the absolute values of x and y respectively
+
+
+
+55503607
+notsupportedexception argumentexception
+Pattern(s): 1	
+according to msdn notsupportedexception the exception that is thrown when an invoked method is not supported or when there is an attempt to read seek or write to a stream that does not support the invoked functionality
+argumentexception class the exception that is thrown when one of the arguments provided to a method is not valid so according to msdn argumentexception is more suitable to your case edit if there is absolutely need for more arguments or custom return you can write your own custom exception however there is no problem in using msdn argumentexception if msdn argumentexception fits your needs
+
+
+
+55563556
+post get
+Pattern(s): 1	
+this post goes more into details about why that s the case
+having said all that here s a quick way to get your test to pass
+
+
+
+55602902
+cypher gremlin
+Pattern(s): 0	
+gremlin is harder to learn but it s more powerful than cypher and apoc
+
+
+
+55623764
+int double
+Pattern(s): 0	
+but general 32-bit int multiply has worse throughput than packed- float multiply
+because the simd alus optimized for float double only need 24x24-bit significand multipliers per 32 bits of vector element
+
+
+
+55626722
+virtualenv conda
+Pattern(s): 1	
+if you are using much more complex libs such as numpy pandas virtualenv is a better way you can add -archives to send the env to cluster
+refer to the writing updated i tried above virtualenv in our online env and find some problems.in the cluster there is some errors like could not find platform independent libraries then i tried the conda to create python env the conda worked well
+
+
+
+55659997
+children parent
+Pattern(s): 0	
+he largest item is always at the top of the tree which will be o 1 to remove and replace with the next biggest of the largest item s two children
+adding to the largest item is about the speed of a binary tree search because you would have to traverse down to a branch where the parent is larger than the value you are adding and the child is smaller..
+
+
+
+55701488
+filesystems fat
+Pattern(s): 1	
+a filesystems is more or less nothing but some description how files are stored on a disk
+if a disk uses the fat16 filesystems there are three areas on a disk the fat the root directory and the clusters
+
+
+
+55706231
+post put
+Pattern(s): 0	
+put is a better choice than post when what you are intending is to provide the server with a new representation of a resource and so on
+
+
+
+55706231
+put get
+Pattern(s): 0	
+put is a better choice than post when what you are intending is to provide the server with a new representation of a resource and so on
+i am not able to understand why the payload of the http get is forbidden payload of the http get is forbidden because the standard says don t do that
+
+
+
+55755507
+x86 64bit
+Pattern(s): 1	
+when building for x86 using the x86 compiler is faster and slightly more stable
+most users who wanted the 64bit tools generally wanted a larger working memory for large application
+
+
+
+55808163
+udp tcp
+Pattern(s): 0	
+as long as the send low-water mark for a udp socket is less than the send buffer size which should always be the default relationship the udp socket is always writable since a connection is not required
+a related read from the same book tcp socket send buffer and udp socket pseudo send buffer
+
+
+
+55833042
+division subtraction
+Pattern(s): 1	
+floating point number division is faster than integer division because of the exponent part in floating point number representation
+to divide one exponent by another one plain subtraction is used
+
+
+
+55844834
+post get
+Pattern(s): 0	
+as the post is more than 2 years old by now the setting the article talks about to fix it is now on by default
+meaning that you get a yellow message stating that your messages are end-to-end encrypted
+
+
+
+55846250
+ggplot2 aesthetics
+Pattern(s): 0	
+as background info you can read this chapter of r for data science focusing on the grammar of graphics
+i m sure hadley wickham s book on ggplot2 is even a better source but i don t have that one
+the main steps for building a graph with one layer and no facet are apply aesthetics mapping on input data in simple cases this is a selection and renaming on columns apply scale transformation if any on each data column compute stat on each data group per species in this case apply aesthetics mapping on stat data detected with or stat name apply position adjustment build graphical objects apply coordinate transformations as you guessed the behaviour at step 3 is similar to dplyr transmute it consumes all aesthetics columns and outputs a data frame having as columns all freshly computed stats and all columns that are constant within the group
+
+
+
+55876233
+min max
+Pattern(s): 0	0	
+the minimum range input property min is always less than the min property of the maximum range input
+the maximum range input property max is always more than the max property of the minimum range input
+
+
+
+55889365
+imagemagick graphicsmagick
+Pattern(s): 0	
+cli interface design graphicsmagick imagemagick imho i prefer in fact only use graphicsmagick gm over imagemagick as the latter has higher chance of tool name clash which causes lots of issues in finding out why certain tools are not running especially during server side automation tasks
+in summary graphicsmagick has much clearer design
+
+
+
+55893743
+minimum max
+Pattern(s): 0	
+basically you create all your variables on top of the file then loop until 5 numbers are entered in this example and do the necessary operations to calculate total average max and min values
+the minimum value is trickier there is a workaround in the code below you could also add the check in your if elif block for minimum with a little help from the or operator
+
+
+
+55910644
+uninstall upgrade
+Pattern(s): 0	
+for me on macos mojave using imagick with craftcms i had to reinstall imagick with pecl uninstall imagick and pecl install imagick and then restart apache with sudo apachectl -k restart
+i must have run brew upgrade and got a newer version of imagemagick which caused imagick to barf up a similar error of nodecodedelegateforthisimageformat jpeg error constitute.c readimage 556
+
+
+
+55912265
+dictionary map
+Pattern(s): 0	
+despite a list with those names and indexes might work i believe a dictionary is semantically better for this case because a dictionary job is to map a key value relation
+
+
+
+55951216
+qlikview qliksense
+Pattern(s): 0	
+one way is to set dimension manually it is like this in qlikview class age 10 in qliksense is easier just drag and drop histogram from left choose age as dimensions and customize it see here if you still have problems please let me know so i will update post
+
+
+
+55955003
+folder directory
+Pattern(s): 0	
+when you don t need empty directory there is an even easier way to get folders
+
+
+
+55958938
+for-loop arrays
+Pattern(s): 1	
+keep in mind the data is within an arrays so there will be multiple .interval.title
+using a for-loop is probably a better option here unless you re after a certain index
+
+
+
+55964671
+dictionary map
+Pattern(s): 0	
+rather than making a copy of the entire dictionary there is an easier scheme in which you ll just need to make a copy of all the keys in another linked-list
+and in the original dictionary in each of the entries just also keep a reference to the linked-list entry corresponding to that key now if you want to iterate the 3 entries at a distance of 5 entries from 4297256046 you just need to do now the reason i mentioned linked-list was so that in case you want to delete any entries from the map you ll be also able to delete the corresponding entry from the linked list in o 1 time
+
+
+
+55964813
+std ostream
+Pattern(s): 0	
+just use std string and std ostream
+ostream works with more of the stl and with strings you don t have to care about its memory usage and potential memory-leaks
+
+
+
+55969318
+post get
+Pattern(s): 0	
+the problem you re experiencing arises when you make a request api gateway and get back a cached authorizer response that doesn t match the requested arn of the current request
+this post explains more about how lambda authorizers work including caching
+
+
+
+55969600
+uistackview uicollectionview
+Pattern(s): 1	
+if your data is static then you should use uistackview
+and if your data is dynamic then uicollectionview is better option
+
+
+
+55971083
+innodb myisam
+Pattern(s): 1	
+those are things that are sometimes needed for myisam tables
+innodb is more robust
+
+
+
+55981763
+jline readline
+Pattern(s): 0	
+simply instead of bufferedreader you use linereader string readline string prompt character mask string buffer prompt can be null is the unexpanded prompt pattern that will be displayed to the user on the left of the input line mask can also be null is the character used to hide user input when reading a password for example buffer is the initial content of the input line edit in jline s docs i found an even better solution printabove void printabove attributedstring str prints a string before the prompt and redraw everything
+
+
+
+56090857
+for-loop loops
+Pattern(s): 1	
+that is just the wonderful thing about list comprehension if it can work normally like the for-loop people wont create it because the for-loop is more readable and understandable
+you may find out that the result of list comprehension is always a list meanwhile the result of for-loop would always many single values and these single values is a part of iterable x +1 for x in range 1 5 2 3 4 5 for x in range 1 10 print x+1 2 3 4 5 you can simply understand that loops comprehension already have the list of values then loops comprehension already have the list of values just simply feed orderly to the condition value by value
+
+
+
+56154646
+int chars
+Pattern(s): 0	
+printf is showing you a -1 since the format of d is a signed int which is smaller than unsigned usually by 1 bit
+function local chars arrays go on the stack so that s the value you re looking for
+
+
+
+56165018
+dictionary map
+Pattern(s): 1	
+if array is long i suggest turning array is long i suggest into a since dictionary is faster has o 1 time complexity vs
+o n for array.indexof then or if item.name can be abscent in map
+
+
+
+56191313
+getter setter
+Pattern(s): 1	
+in any case the getter is solved easily enough by using # instead of
+the setter is more problematic however
+
+
+
+56276292
+udp rtp
+Pattern(s): 0	
+rtp applications can use the transmission control protocol tcp but most use the user datagram protocol udp instead because udp allows for faster delivery of data
+
+
+
+56338462
+drawingvisual rendertargetbitmap
+Pattern(s): 0	
+i tried to apply dpi scaling to the drawingvisual but the drawingvisual produced less image quality
+also i tried to set the canvas to 756x378 the 96 dpi size then set the rendertargetbitmap to 2362x1181 and 300 dpi but that produced less image quality too
+
+
+
+56340749
+google-chrome firefox
+Pattern(s): 0	
+based on w3c s specification cache.addall method google-chrome behaviour should be the right one
+but firefox behaviour is simplier
+
+
+
+56373070
+factors matrix
+Pattern(s): 0	
+benchmarking parallel work correctly is a tough task it is affected by the great many factors and features of a cpu cache
+try to replace your workload with one that is very suited for multiprocessing working in a parallel on different parts of an array matrix multiplication.. one more important thing spawning the new processes also takes time and for one more important thing spawning the new processes to pay off the work done in each process needs to be significant if you increase your loop s range a little bit the difference should be in favor of the multi-process version on my machine this outputs 0.44509196281433105 1.3775699138641357
+
+
+
+56435134
+versioning upgrade
+Pattern(s): 0	
+this happened to me trying to run a watchos app on device because my apple watch s watchos versioning was higher than my currently-installed xcode supported
+i upgrade to the newest xcode which did also require me to upgrade to the newest macos and watchos versioning ran fine after that
+
+
+
+56443598
+median max
+Pattern(s): 0	
+you can solve it using divide and conquer approach find a random element in between the minimum and maximum check if it s median if the median is lower or higher than the median and reduce the problem to a smaller size only on a subrange of the array
+
+
+
+56475837
+integer unsigned
+Pattern(s): 0	
+reference 1.5.3 otherwise if the operand that has unsigned integer type has rank greater than or equal to the rank of the type of the other operand the operand with signed integer type shall be converted to the type of the operand with unsigned integer type
+
+
+
+56535855
+dictionary map
+Pattern(s): 1	
+different mappings have different ways to hash the input values unless you want to use a sorted dictionary which is more memory efficient but slower
+
+
+
+56548390
+folder directory
+Pattern(s): 1	
+2- ctrl+z to stop after your project folder creates master directory folder you can see your project folder in your cocoa pods folder location .cocoapods repos download .zip from master branch your project folder 301 mb extract your project folder
+
+
+
+56564595
+width height
+Pattern(s): 0	0	
+for horizontal blocks where width is greater than height height auto
+
+
+
+56576346
+width height
+Pattern(s): 0	0	
+for horizontal blocks where width is greater than height height auto
+
+
+
+56586832
+submit submission
+Pattern(s): 1	
+i would certainly use trigger like this from jquery docs on submit forms can be submitted either by clicking an explicit or or by pressing enter when certain form elements have focus
+it seems to me that manually triggering form submission is a better workable approach
+
+
+
+56589831
+shadowing named
+Pattern(s): 0	
+in scheme you are making a local binding shadowing whatever is higher with let
+since + and are just variables that just happen to evaluate to procedures you are just giving old procedures other variable named
+
+
+
+56621397
+ecdsa rsa
+Pattern(s): 0	
+for rsa as implemented in the modern era since about 1980 signing is much slower than verifying
+for dsa and ecdsa verifying is slightly slower than signing
+
+
+
+56637652
+cpython pypy
+Pattern(s): 0	
+interestingly pypy is worse than cpython with __slots__ and stays stable for extreme field counts
+
+
+
+56649715
+distance mercator
+Pattern(s): 0	
+i do not need a great accuracy a variation of 5 from the real distance is definitely acceptable for me in this case you can definitely use web mercator
+possible implementation in python note that web mercator implementation is much simpler than for example utm so the performance will be much better
+
+
+
+56657622
+post put
+Pattern(s): 0	1	
+when your case should use put if you know the id then your best bet is to do why post is meant more strictly for new resource creation
+put is used more in situations where you want to create or replace which fits your requirement as closely as you re gonna get in my opinion
+
+
+
+56692723
+installation upgrade
+Pattern(s): 0	
+the col function was added in solr 7 so if your solr installation is older than that the function won t be available
+upgrade to a more recent version
+
+
+
+56699527
+cpu processors
+Pattern(s): 1	
+but here s my 2 cents anyway confluent s documentation might shed some light cpus most kafka deployments tend to be rather light on cpu requirements
+as such the exact processors setup matters less than the other resources
+
+
+
+56723020
+pandas seaborn
+Pattern(s): 1	
+so if you are using pandas for basic plot you can use matplotlib for plot customization
+however i propose an alternative method here using seaborn which allows more customization of the plot while not going into the basic level of matplotlib
+
+
+
+56775160
+post get
+Pattern(s): 1	
+on the other hand if republishing is expensive or should otherwise only be done on purpose then post is a more appropriate choice
+that s ok then using get is fine -- and it even has some advantages when the requests are being sent across an unreliable network
+
+
+
+56777094
+for-loop loops
+Pattern(s): 0	
+you can speed it up a bit by not using foreach which uses an interator and instead use a for-loop
+you can also break once you locate your id assuming they are unique assuming your id s are unique you could also make a duplicate of the items list and drop those that have been located so each loops is shorter like this you could also consider creating a map where the key is your id so you do not have to loops and instead you retrieve the item by id directly
+
+
+
+56830622
+realloc malloc
+Pattern(s): 0	
+this is evidently what happened in your example since your realloc call asks for less memory than was allocated by calloc and we can see that it didn t do that here since the address of ptr when free is called is the same as the block allocated by calloc
+if the existing allocation is much bigger than the request realloc may choose to copy the existing memory block into a smaller allocation possibly acquired with malloc
+
+
+
+56844327
+int chars
+Pattern(s): 0	
+the int type is smaller than the float type
+in general byte short and chars int long float double
+
+
+
+56844327
+int double
+Pattern(s): 0	
+the int type is smaller than the float type
+in general byte short and chars int long float double
+
+
+
+56957047
+prometheus metrics
+Pattern(s): 0	
+he prometheus server will pull metrics from your metrics api
+but i can recommend that the prometheus server is better to use official jmx exporter
+
+
+
+56985581
+multiplying division
+Pattern(s): 0	
+use the product computed in the previous step multiplying it by the number entering the window and divide by the number exiting the window
+division is slower but it will pay off for larger values of c
+
+
+
+57008369
+width height
+Pattern(s): 0	
+adjust your body s width and height to your desired width and height and if necessary you could create a div to surround the svg and set a lower width height there
+the percentages will prevent your svg from clipping when the screen width is less than 800px width currently specified
+
+
+
+57049751
+post put
+Pattern(s): 1	
+remote authoring semantics put patch delete really don t fit well with a single actions endpoint
+post does a bit better in that the constraints are minimal
+
+
+
+57074827
+for-loop loops
+Pattern(s): 0	
+so that is why the for-loop executes one more time than the body
+the same reasoning applies to for loops of course
+
+
+
+57206170
+post get
+Pattern(s): 0	
+so on you can configure your own decider your own job steps as you said above for two different configurations like below and use your own decider seperately in commandline runners since the post is getting bigger i am giving the details of just the job and command line runner these are the two jobs here are the command line runners i am making sure that the first job is completed before the second job is initialized but it is totally up to the user to execute the two jobs here in parallel following a different stratergy hope this gives a complete idea of how this can be done
+
+
+
+57208186
+keras word2vec
+Pattern(s): 0	
+after poking around i found a research paper introducing focal loss and conveniently a github implementation of a research paper for keras
+that combined with meowongac s suggestion i used google word2vec embeddings resulted in much better sampling of words with lower frequencies
+
+
+
+57258117
+for-loop loops
+Pattern(s): 0	
+only loops for odd numbers in d loops
+switch b and d loops so that code in outer loops runs less times
+
+
+
+57303330
+aggregate-functions sum
+Pattern(s): 0	
+having is used to calculate aggregate-functions
+like in your above case if you want to find out name of the countries having sum population is greater then 2 000 000 then you can apply having clause like this for more info about the same you may find this link
+
+
+
+57304579
+d3.js c3.js
+Pattern(s): 0	
+ just happened to need 4 for my code in your case you can do in data you can declare an x to have your supplied x labels i m not sure about the other libraries but c3.js is essentially a wrapper for d3.js so anything that can be done in one is most likely theoretically possible in both
+c3.js is just easier to understand my code for
+
+
+
+57354895
+setinterval settimeout
+Pattern(s): 0	0	
+if the code inside the setinterval takes longer than the time you have set the setinterval will create another process before the function finishes messing everything up
+so choosing settimeout is actually better
+
+
+
+57438399
+apktool jarsigner
+Pattern(s): 1	
+apktool build output_folder next you need to re-sign the apk with the original keystore file jarsigner -verbose -keystore keystore_path -storepass keystore_password -keypass keystore_key_password apk_path keystore_key_name android-sdk build-tools 21.1.1 zipalign -v 4 apk_path apk_out_path
+
+
+
+57483699
+datediff difference
+Pattern(s): 0	
+you ll need lag and datediff to get the number of minutes between tran_date and the previous row
+then basically a running total on the evaluation of whether or not the time difference is greater than 30
+
+
+
+57489346
+innodb myisam
+Pattern(s): 0	
+if you cannot control the server configuration you could switch your table to innodb which uses a significantly smaller stopword list
+some additional notes the fulltext index uses a minimum word length by default 4 for myisam and 3 for innodb
+
+
+
+57505047
+uinavigationcontroller uipageviewcontroller
+Pattern(s): 0	
+i m not sure uinavigationcontroller is the correct container controller to provide what you need
+you might find that uipageviewcontroller is a better choice i think uipageviewcontroller will provide the natural swipe gesture you are looking for out of the box although uipageviewcontroller s quite an opaque class with some quirks of uipageviewcontroller own
+
+
+
+57554447
+ostringstream std
+Pattern(s): 1	
+olding a lock while logging isn t great for performance although t s better than your existing log method which should use std lock_guard for exception safety
+building and discarding a temporary ostringstream is probably better but if you care about performance you ll need to benchmark and may well end up requiring something more elaborate per-thread circular buffers mmapped files or something
+
+
+
+57555123
+imagemagick wand
+Pattern(s): 0	
+method 2 - write with opencv but modify afterwards with some tool you could use python s subprocess module to shell out to say imagemagick and set the dpi like this magick opencvimage.png -set units pixelspercentimeter -density 28.3 result.png all you need to know is that png uses metric dots per centimetre rather than imperial dots per inch and there are 2.54cm in an inch so 72 dpi becomes 28.3 dots per cm
+if your imagemagick version is older than v7 replace magick with convert
+
+
+
+57610953
+for-loop loops
+Pattern(s): 1	
+here is a way to do it using a for-loop is faster than using a dictionnary since you don t have to iterate through the animal list for each dictionnary key
+the update is done the other way around here is a performance comparison for-loop 5.21 µs 20.2 ns per loops mean std
+
+
+
+57686469
+for-loop loops
+Pattern(s): 0	
+also as mentioned is the answer of the question a for-each loops is better performance wise than the regular for-loop so using a for-each loops would turn in into
+
+
+
+57708249
+decoder encoder
+Pattern(s): 1	
+f you re concerned about performance you could write something like this that decoder the singleton object the singleton though and in our desired representation our have a wrapper
+we can accommodate that with a single extra line at the end this will fit right in with a generically derived instance for our updated item class import io.circe.generic.auto._ io.circe.jawn.decode case class item id long name localizedstring and then the customized encoder is a little more straightforward and then this approach will work for any number of dynamic fields like this you can transform the input into either a or jsonobject and work with the key-value pairs directly
+
+
+

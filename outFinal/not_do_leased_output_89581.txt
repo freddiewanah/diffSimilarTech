@@ -1,0 +1,3128 @@
+50657644
+box-sizing margin
+Pattern(s): 3	
+it s relative to the box-sizing property which is by default content-box example #1 box-sizing content-box includes only the content
+border padding and margin are not included means when we set width 300px it is set to the content only then you add the padding and border
+
+
+
+50657644
+margin border-box
+Pattern(s): 1	
+border padding and margin are not included means when we set width 300px it is set to the content only then you add the padding and border
+console.log document.queryselector .test .getboundingclientrect .width example #2 box-sizing border-box includes content padding and border
+
+
+
+50657644
+box-sizing margin
+Pattern(s): 1	
+console.log document.queryselector .test .getboundingclientrect .width example #2 box-sizing border-box includes content padding and border
+margin is not included means when we set width 300px content the padding and border
+
+
+
+50724661
+fpdf fpdi
+Pattern(s): 1	
+some information to the things you d used before fpdf cannot handle existing pdfs so i guess you d used fpdi in combination with fpdf to re-create the initial document
+the free version of fpdi does not support a compression feature introduced in pdf 1.5
+
+
+
+50739795
+hive hdfs
+Pattern(s): 5	
+as an example if you create an external table called table_test in hive using hive-ql and link the table to file file then deleting table_test from hive will not delete file from hdfs
+external table files are accessible to anyone who has access to hdfs file structure and therefore security needs to be managed at the hdfs file folder level
+
+
+
+50747897
+subnet packets
+Pattern(s): 1	
+if you don t want to do things that way you have 2 other choices subnet broadcasting works with ipv4 only - your sender can create a udp socket then use setsockopt to enable the so_broadcast option on it and then sendto data packets to the broadcast ip address of a given subnet or use send if it connect s to the broadcast ip beforehand
+each packets sent will be automatically delivered to every machine that is connected to that same subnet whether the machines want the packets or not
+
+
+
+50764759
+daemons launchd
+Pattern(s): 5	
+since i ve had the same issue with my launchd not being launchd on startup i read some of the apple doc about daemons and agents containing this important if your daemons shuts down too quickly after being launchd launchd may think it has crashed
+daemons that continue this behavior may be suspended and not launchd again when future requests arrive
+
+
+
+50766272
+openmpi mpich
+Pattern(s): 5	
+from my experience one good feature that openmpi supports but mpich does not is process affinity
+for example in openmpi using -npersocket you can set the number of ranks launched on each socket
+
+
+
+50769952
+irix linux
+Pattern(s): 5	
+other systems sunos solaris irix define tiocgwinsz and struct winsize
+#ifdef tiocgsize # define ioctl_winsize tiocgsize # define struct_winsize struct ttysize # define winsize_rows n int n.ts_lines # define winsize_cols n int n.ts_cols #else # ifdef tiocgwinsz # define ioctl_winsize tiocgwinsz # define struct_winsize struct winsize # define winsize_rows n int n.ws_row # define winsize_cols n int n.ws_col # endif #endif you might notice that linux is not mentioned in the comment
+
+
+
+50770228
+imagemagick libjpeg
+Pattern(s): 3	
+if you are going to install imagemagick into not standard path then you will need to specify it s path like below cimg imagemagick_path c imagemagick-6.9.2-q16 convert.exe
+if you don t want to install imagemagick then you should link your code with libjpeg library and enable native jpg file support in cimg putting this before including cimg.h #define cimg_use_jpeg #include cimg.h using cimg with libjpeg is definitely better
+
+
+
+50771588
+google-chrome firefox
+Pattern(s): 5	
+explanation firefox has a play button center poster and google-chrome does not
+this is an obvious indicator that firefox has controls attribute that covers the entire tag and google-chrome does not it s controls are accessible only at the bottom where the bar is
+
+
+
+50776212
+int double
+Pattern(s): 3	
+this is why the short overflew but the int did not
+the first three outputs from both int and short are easy to explain -2147483648 your method returns an int so overflows 2.147483648e9 math.pow returns a double so formatted like this 2147483648 double casted to a long 2147483648 inside the possible range for long 32768 your method returns an int 32768 is inside the possible range for int 32768.0 math.pow returns a double so formatted like this 32768 double casted to an int 32768 is inside the possible range for int the hard to explain bit is the fourth result
+
+
+
+50778838
+uninstall upgrade
+Pattern(s): 1	
+in this case it will never be uninstalled during upgrade but not during a real uninstall either
+accordingly you have to manually clean out the service installation and file installation on real uninstall as opposed to a major upgrade initiated uninstall which sets upgradingproductcode
+
+
+
+50800594
+bionic libc
+Pattern(s): 5	
+you re building against the android libc bionic which isn t a tested or supported libc to build against
+where it has differences or idiosyncracies compared to glibc the standard linux libc you ll need to change qemu to work around those
+
+
+
+50847136
+ppm pgm
+Pattern(s): 1	
+using imagemagick i think you want to output to ppm not pbm
+try convert image.jpg image.ppm or try the ascii version by using convert image.jpg -compress none image.ppm pbm is binary black white and pgm is grayscale
+
+
+
+50847136
+ppm pbm
+Pattern(s): 1	
+using imagemagick i think you want to output to ppm not pbm
+try convert image.jpg image.ppm or try the ascii version by using convert image.jpg -compress none image.ppm pbm is binary black white and pgm is grayscale
+
+
+
+50859647
+postgresql mysql
+Pattern(s): 1	
+postgresql pl postgresql oracle s pl sql mysql s procedural dialect are somewhat similar to that but far from being compliant with the sql psm standard
+i think the closest to the sql psm standard is db2 and maybe hsqldb sql in postgresql is not the same thing as sql per sql standard
+
+
+
+50897289
+fgets fgetc
+Pattern(s): 5	
+indeed fscanf can set the end of file condition of a stream if it reaches the end of file which it does for s if the file does not contain a trailing newline whereas fgets would not set this condition if the file ends with a newline
+fgetc sets the condition only when it returns eof
+
+
+
+50934141
+folder directory
+Pattern(s): 1	
+if you wanted to something more like require_relative you have to use some sort of workaround to turn it into an absolute path such as file.dirname __file__ which gives the absolute path of the folder containing the current file
+give the path relative to the working directory not the file that you call file.write from
+
+
+
+50938501
+virtualenv miniconda
+Pattern(s): 5	
+virtualenv does not work because it uses local python interpreter
+my solution is to use conda anoconda or miniconda to build the environment so if you need some packages you can just conda install them
+
+
+
+50974659
+textblob nltk
+Pattern(s): 5	
+i explained it here with examples of the better results that replaces this textblob implementation the nltk classifier also has better documentation on how to use your own custom made corpus for sentiment analysis textblob always crashed my computer with as little as 5000 examples
+i wasn t able to be certain that a nltk corpus cannot work with textblob and that would surprise me since textblob imports all of the nltk functions in its source code and is basically a wrapper
+
+
+
+51009362
+google-chrome firefox
+Pattern(s): 5	
+webm works in google-chrome firefox not safari
+i converted to mp4 mp4 h.264 which does not work in google-chrome firefox but does work in safari
+
+
+
+51010641
+namenode hdfs
+Pattern(s): 5	
+command for formatting hdfs hdfs namenode -format when namenode was not working after formatting hdfs
+i was facing the same issue formatting hdfs solved my issue
+
+
+
+51018576
+g++ gcc
+Pattern(s): 1	
+c++ source files should be compiled by g++ not by gcc
+remember that gcc means gnu compiler collection and also contains gfortran and gccgo etc.
+
+
+
+51086296
+udp tcp
+Pattern(s): 1	
+but udp may have a considerable packet loss so try webrtc-tcp for your quake idea
+here is 2018 update for you your off-the-shelf solutions are red 5 pro wowza kurento unreal media server flashphoner also note that in modern public networks tcp is not much slower than udp
+
+
+
+51089278
+children parent
+Pattern(s): 5	
+children shouldn t mutate their parent data
+they should tell their parent about something and the parent should do something about it
+
+
+
+51090185
+subclass superclass
+Pattern(s): 1	
+note that dagger.android will only be able to inject your subclass youractivity not activity itself
+this is partly for consistency fragments can be nested inside other fragments such that injecting fragment would be ambiguous if the superclass bindings were automatic
+
+
+
+51146679
+int chars
+Pattern(s): 3	
+both str.isnumeric and str.isdigit include decimal-like chars that aren t compatible with int
+and as abarnert has mentioned in the comments the most guaranteed way to test if a string can be passed to int is to simply do it in a try block
+
+
+
+51148417
+folder directory
+Pattern(s): 5	
+in your case the destination is a folder not file
+in this case you may get some exception like could not find a part of the path f new folder while executing the application the current directory will be the bin folder
+
+
+
+51149525
+vb.net vb6
+Pattern(s): 5	
+vb.net doesn t support byte-oriented string methods
+vb migration partner provides the chrb6 replacement method which approximates the original vb6 method s behavior but isn t guaranteed to work well in all circumstances
+
+
+
+51161749
+for-loop loops
+Pattern(s): 5	
+i would rather go with a for-loop that way you can have your an if statement inside the for-loop to switch your loggedon then check it again outside the for-loop
+your while loops does not terminate if it doesn t receive a pin that is in your arrays
+
+
+
+51257522
+email dkim
+Pattern(s): 5	
+a lot of factors can lead to your email being delivered to junk
+just to name a few - your server s ip address is blacklisted you can check it using tools like - you do not have a proper hostname defined for your server - you do not have a proper reverse dns for your server - spf and or dkim are not configured properly try sending an email from your server to a gmail address for example a gmail address that you own
+
+
+
+51257522
+email dkim
+Pattern(s): 5	
+just to name a few - your server s ip address is blacklisted you can check it using tools like - you do not have a proper hostname defined for your server - you do not have a proper reverse dns for your server - spf and or dkim are not configured properly try sending an email from your server to a gmail address for example a gmail address that you own
+then go to gmail and even if the email landed on junk please check the email headers
+
+
+
+51260920
+tidyverse dplyr
+Pattern(s): 5	
+but you can do it this way or in tidyverse language using also purrr package
+in dplyr it doesn t exist in base r most probably not
+
+
+
+51274969
+google-chrome safari
+Pattern(s): 3	
+it looks like there has been some work at firefox and google-chrome so isn t treated as mixed content
+looks like the crowd at webkit safari are still thinking about it
+
+
+
+51274969
+google-chrome safari
+Pattern(s): 1	
+google-chrome allows mixed content on and
+safari does not allow any mixed content
+
+
+
+51280396
+folder directory
+Pattern(s): 1	
+prerequisitions install git in your local machine check if the local folder already in a git repo in the directory of the folder you want to import to bitbucket repo execute git rev-parse --show-toplevel if it shows not a git reposiroty that means the local folder has not been managed in git repo
+else if it shows a parent directory that means the local folder has been managed in git repo steps to import create a local git repo if the local folder not in a local git repo as the prerequisition 2 shows if the local folder has not been managed in a local git repo then create by below commands assume the folder myfolder is what you want to import and it s in c test example myfolder # in the directory c test example git init git add . git commit -am initial commit else if the folder has already managed in a git repo skip this step
+
+
+
+51297124
+google-chrome safari
+Pattern(s): 1	
+google-chrome is being more generous in parsing the date you re giving it which is a string that looks like 7 1 2018
+google-chrome accepts that as a valid date safari doesn t
+
+
+
+51298215
+children parent
+Pattern(s): 3	
+be default the behavior of checkboxtreecell is if no children are selected then the parent is not selected
+if some but not all children are selected then the parent is indeterminate
+
+
+
+51318300
+int chars
+Pattern(s): 1	
+it should read note that the value is read into an int not a chars
+the getchar getc and fgetc functions return an int which either contains a positive number representing the chars byte treated as an unsigned chars or it returns the negative value eof which is customarily but not necessarily -1
+
+
+
+51320932
+viewdidload viewdidappear
+Pattern(s): 5	
+you need to set the region of the map in viewdidappear not viewdidload
+when viewdidload is called the map view has just been loaded - the map hasn t been rendered yet so you can t set its region
+
+
+
+51322396
+spaces linefeed
+Pattern(s): 1	
+syntax notation the following core rules are included by reference as defined in rfc5234 appendix b.1 alpha letters cr carriage return crlf cr linefeed ctl controls digit decimal 0-9 dquote double quote hexdig hexadecimal 0-9 a-f a-f htab horizontal tab linefeed linefeed octet any 8-bit sequence of data sp spaces and vchar any visible usascii character . so whitespace is not allowed in the name of a header
+spaces is not a valid character in a header name
+
+
+
+51347776
+int double
+Pattern(s): 1	
+for any application-side date-time-values use an int unsigned a bigint signed a double signed or a decimal n p to simply store unix-epoch-deltas. make sure to show the resolution in a column name suffix if it is not seconds
+examples mysql_row_created_at timestamp 3 default current_timestamp mysql_row_updated_at timestamp 3 default current_timestamp on update current_timestamp epoch int unsigned not null epoch_ms bigint not null epoch_us bigint not null epoch double not null epoch6 decimal 16 6 treat your database as much as dumb storage as possible
+
+
+
+51354904
+disk ram
+Pattern(s): 1	
+at first you have to pick up a place for storing your information hard disk your own server other service firebase ... ram is not useable in this case
+supposing you like hard disk option let s select a method for storing create a file json text file ... save your information every time user enter a new one open it to get information back
+
+
+
+51365045
+int chars
+Pattern(s): 5	
+i first create a chars pointer assign an int address no you create a pointer-to-char and assign the address of an int to it
+an int address isn t a thing and integers don t live in some magically different address space to chars
+
+
+
+51379062
+for-loop loops
+Pattern(s): 3	
+i would set your range at the start use a for-loop and do away with selecting things rarely a good idea
+your current code doesn t change aktywnakomorka it remains d2 you just activate the next cell below but your loops does not reference the active cell
+
+
+
+51387491
+des aes
+Pattern(s): 1	
+ek3 dk2 ek1 plaintext that is the definition of triple des 3des not des that is encrypt plaintext with des as with key 1 decrypt that result with key 2 encrypt that result with key 3 3des or triple des encrypts three time with des
+so aes would be ek plaintext with aes
+
+
+
+51387491
+3des aes
+Pattern(s): 1	
+ek3 dk2 ek1 plaintext that is the definition of triple des 3des not des that is encrypt plaintext with des as with key 1 decrypt that result with key 2 encrypt that result with key 3 3des or triple des encrypts three time with des
+so aes would be ek plaintext with aes
+
+
+
+51393834
+for-loop arrays
+Pattern(s): 1	
+as ulrich eckhardt pointed out a better way to implement this is to use a for-loop it s more clear this way and the scope of ptr is limited to loops which is good because we don t need it later
+str is a 50 element char arrays not a pointer
+
+
+
+51399302
+try-catch exception-handling
+Pattern(s): 3	
+in a normal situation try-catch should not be that expensive performance wise as discussed in this thread do try catch blocks hurt performance when exception-handling are not thrown
+however throwing and handling an exception-handling is usually a relatively expensive operation
+
+
+
+51401598
+int chars
+Pattern(s): 1	
+here s one of the approaches create table job id int not null title chars varying not null constraint pk_job primary key id
+-- simple job-job dependency time-based dependency complex job-job-dependency construct create table dependency_type id int not null title chars varying not null constraint pk_dependency_type primary key id
+
+
+
+51421004
+accessor properties
+Pattern(s): 1	
+a properties that has both accessor is read-write
+unlike fields properties are not classified as variables
+
+
+
+51424698
+getter setter
+Pattern(s): 5	
+the correct getter should be getbmdc and not getbmdc as it is in your code now
+the correct model class should look like this the setter are not required are always optional because if there is no setter for a json property the firebase client will set the value directly onto the field
+
+
+
+51431426
+filesystems fat
+Pattern(s): 1	
+also take into consideration that std filesystems might not be available on all platforms the filesystems library facilities may be unavailable if a hierarchical filesystems is not accessible to the implementation or if it does not provide the necessary capabilities
+some features may not be available if they are not supported by the underlying filesystems the fat filesystems lacks symbolic links and forbids multiple hardlinks
+
+
+
+51443153
+int chars
+Pattern(s): 1	
+single quotation marks around one chars are used for chars literals single quotation marks around multiple chars are interpreted as a literal of int type see here whereas double quotation marks around zero or more chars is interpreted as a c-string
+therefore your a+ is an int not a chars or string as you may have intended
+
+
+
+51444212
+for-loop loops
+Pattern(s): 5	
+row1 a 1 b 2 name 0 dtype int64 row2 a 3 b 4 name 1 dtype int64 row1 a 3 b 4 name 1 dtype int64 row2 a 5 b 6 name 2 dtype int64 row1 a 5 b 6 name 2 dtype int64 row2 a 7 b 8 name 3 dtype int64 but as said rafaelc doing for-loop might not be the best method for your general problem
+if you want to keep loops for using zip and iterrows could be a way to access the next row at the same time start the second iterrow one row after with
+
+
+
+51459054
+folder directory
+Pattern(s): 5	
+both dp0 can be replaced also by any other folder path ending with a backlash
+the command for with the used options runs in a separate command process started with cmd c in background the command line the command dir searches for just non hidden files because of a-d-h attribute not directory and not hidden in directory of the batch file for files matching the wildcard pattern and outputs just file name + file extension to handle stdout standard output because of b bare format order alphabetically by name because of on
+
+
+
+51469306
+ucma ucwa
+Pattern(s): 5	
+ucwa is a web sdk version of ucma kind-of
+the ucwa is a lot more limited than the ucma sdk but ucwa works for skype for business online whereas the ucma doesn t directly work with skype for business online
+
+
+
+51487568
+xsl-fo xslt
+Pattern(s): 5	
+you might generate xsl-fo via xslt 1.0 or 2.0 but the table you cited lists functions that you might include in the xsl-fo not functions that you can include in your xslt
+note that your xslt is generating html not xsl-fo
+
+
+
+51506066
+pdfsharp migradoc
+Pattern(s): 1	
+can manipulate via pdfsharp migradoc i did not read document manipulation into the op but i see other answers commenting on the fact
+a few stackoverflow q as from 2008-2012 including robert gowland from this question say that pdfsharp migradoc have poor documentation
+
+
+
+51621210
+for-loop loops
+Pattern(s): 5	
+your function has a nested for-loop which iterates the intermediatelist every time where the outer loops is running
+then you push a value with index i instead of index j but this should work only if the two for loops are not nested but chained
+
+
+
+51622464
+valgrind memcheck
+Pattern(s): 5	
+if now hdf5 really uses the standard allocators and valgrind cannot track what it does then file a bug on valgrind bugzilla
+valgrind memcheck tool detects memory allocated released by the standard allocators such as malloc free new delete .
+
+
+
+51629720
+repa criterion
+Pattern(s): 5	
+so here is a slightly improved version frombytestring function and b representation in repa isn t particularly fast for some reason so there is a faster way to do it namely to construct an array by directly indexing the bytestring switching to sequential computation with repa.computeunboxeds will give you a factor of x2 slow down but since we are trying optimize it we need go all the way with parallel computation
+not to steal all the thunder from a very nice repa library i d like to also show how all that would work with new massiv library just to present some concrete numbers showing the optimizations in action here is a stripped down criterion benchmarks benchmarking frombytestring massiv parallel time 1.114 ms 1.079 ms
+
+
+
+51637376
+avr microcontroller
+Pattern(s): 5	
+if the avr fuse bits that specify its clock source get corrupted and the avr expects you to connect an external clock or crystal but you do not have such a clock or crystal in your circuit then the avr will not have a clock signal and you be unable to program it
+luckily there is actually a way to revive such avrs you can get another microcontroller to generate a pwm signal and apply it to the xtal2 or xtal1 pin of your avr as a low-speed clock signal 100 khz
+
+
+
+51655354
+public protected
+Pattern(s): 5	
+you can just make the property public and not worry about it
+you can define public read access with protected write access
+
+
+
+51663436
+for-loop loops
+Pattern(s): 1	
+you generaly can render an arrays of components in react 16 something like this but you have bigger issues beside new_message never being called in that function your for-loop is not executing because when you evaluate it it looks like this so you never populate mes_for_show
+also don t set state on every iteration of loops store new components in an arrays and when loops is done set new state
+
+
+
+51665626
+folder directory
+Pattern(s): 1	
+but if you want to use your existing folder as a local repo of an existing remote repo follow desktop desktop issue 2883 drag an ordinary folder into the app or use add local repository and choose the folder you ll get a message saying this directory does not appear to be a git repository
+and the add repository folder is disabled click create a repository here select the repository - repository settings.
+
+
+
+51672087
+isnull nullif
+Pattern(s): 5	
+important your code is not showing any error because isnull is masking the error
+also nullif is not a valid coldfusion function
+
+
+
+51672846
+google-chrome firefox
+Pattern(s): 5	
+error on sigma not being defined firefox was having no trouble displaying the graph -- google-chrome was
+i ll need to look into why google-chrome is not working well with sigmajs
+
+
+
+51709418
+try-catch exception-handling
+Pattern(s): 5	
+your try-catch does not do anything different
+never catch the unchecked exception-handling including the nullpointerexception
+
+
+
+51736933
+filesystems ntfs
+Pattern(s): 5	
+this makes use of the ntfs journaling which applies to filesystems metadata not the contents of your files assuring that only one of two possibilities can happen either you have the old file entirely intact or else the new one also entirely intact
+if power dies in the middle of making a change ntfs will use its journal to roll back the transaction
+
+
+
+51749481
+int chars
+Pattern(s): 1	
+these two int do not compare equal
+on the other hand the standard in basic.fundamental requires that all chars types occupy the same amount of storage and have the same alignment requirements
+
+
+
+51757311
+google-chrome firefox
+Pattern(s): 5	
+when i tried to load the json in firefox i did not get any fatal errors however opening it in google-chrome did
+google-chrome also gave a reason and doing this from memory but it had to do with security issues my guess to help prevent potential xss
+
+
+
+51781373
+dictionary map
+Pattern(s): 5	
+a map is a key-value pair dictionary not a simple list array as you mentioned in your title
+this is my assumption and i might be wrong but something that looks weird to me is this line this one gets via the key i and not by the i th position in the list because a map is not a list
+
+
+
+51794348
+for-loop loops
+Pattern(s): 5	
+option 2 the split apply combine way by way of a new function write a function that combines the row things there is a shorter way to do this but this makes your task explicit the reduce does the same thing as the for-loop repeatedly apply set_union and the lapply turns the matrix into a list of pairs also like a for-loop would
+option 1 do nothing for loops aren t always the end of the world this doesn t look too bad if your matrices aren t enormous
+
+
+
+51802000
+multiplication modulo
+Pattern(s): 5	
+here multiplication done by summation
+if modder 1e12 then your modulo not work
+
+
+
+51804977
+int chars
+Pattern(s): 5	
+if you want byte_1 to store the representation of any unsigned int you should make it more like 12 chars wide two chars is not enough to store the string 8000 so when sprintf writes to byte_1 those extra chars are most likely overwriting a
+also note that the correct conversion specifier for an unsigned int is u not i
+
+
+
+51849818
+google-chrome firefox
+Pattern(s): 1	
+it looks like it just works in google-chrome because google-chrome doesn t support allow from
+firefox does the right thing here but you can intercept this header like any other with the webrequest api specifically webrequest.onheadersreceived
+
+
+
+51886455
+gulp-sass node-sass
+Pattern(s): 2	
+we use gulp-sass to compile our css
+from what i understand gulp-sass which uses node-sass have not provided any way to stop charset utf-8
+
+
+
+51891479
+for-loop loops
+Pattern(s): 5	
+in for-loop when run to continue the spaces will update but while loops would not this isn t because the continue behaves differently it s because for and while loops are different
+the for-loop always executes the iteration_expression after each pass through the body and before evaluating the condition
+
+
+
+51906731
+int chars
+Pattern(s): 5	
+int is one float is another
+chars is not
+
+
+
+51921008
+virtualenv conda
+Pattern(s): 5	
+supposed i were to call pip freeze or pip list whether i m in a virtualenv or not wouldn t matter
+it returns exactly the same list of packages from conda s corresponding site-packages folder
+
+
+
+51978037
+for-loop loops
+Pattern(s): 5	
+an alternative could be move the script tag outside of your for-loop then do something along the lines of
+i don t have access to your arrays but try replacing with then replace the two instances of with that being said running the same script three times or however many times your loops iterates isn t very good practice
+
+
+
+51980100
+virtualenv conda
+Pattern(s): 3	
+and they sometimes need different python versions this can be done in conda but not virtualenv
+virtualenv environment is usually for python developer
+
+
+
+52045041
+stringbuilder bufferedreader
+Pattern(s): 5	
+additionally you could benefit from using stringbuilder and not using with the built in method map.containskey x
+scanner is used for parsing tokens from the contents of the stream while bufferedreader just reads the stream and does not do any special parsing
+
+
+
+52058615
+super self
+Pattern(s): 3	
+super does not alter the type of the self reference
+super ... self .method will still pass in that self reference to the method being called so self is in all three cases the grandchild instance
+
+
+
+52066134
+folder directory
+Pattern(s): 5	
+so with buildkit if you do not have a copy command that includes back in your front image then that folder will not be included in the context without you needing to specify it in your .dockerignore file
+there currently isn t a way to have two different .dockerignore files in the same directory that i m aware of
+
+
+
+52078739
+for-loop loops
+Pattern(s): 3	
+the if condition you added to fix your consecutive for-loop is exactly what the first nested loops do implicitly if not found do nothing
+the root of your problem is that when is always false your nested loops behave correctly the inner for-loop is not executed but your consecutive for-loop will trigger a bug because the following for will be executed with a value of k equal to -1 since you say you initialize k with -1 and you will do an out-of-boud arrays access str -1
+
+
+
+52082427
+cpython pypy
+Pattern(s): 1	
+many things that are builtins in cpython are plain old python code in pypy
+1 of course that isn t always an option pypy doesn t support 3.7 features yet there are a few third-party extension modules that are still way too slow to use it s harder to build yourself if you re on some uncommon platform so let s go back to cpython
+
+
+
+52100049
+for-loop arrays
+Pattern(s): 5	
+just a side note a for-loop makes more sense in this case case rather than the for-each .
+it s because the arrays is not being updated this is applicable to both code snippets neither is updating the arrays
+
+
+
+52148514
+ubuntu linux
+Pattern(s): 1	
+prebuilt distribution packages are only available one some of those architectures though all of centos debian fedora and ubuntu are available for 64bit x86 and ubuntu packages are available for all supported architectures
+lists the supported architectures and 32-bit x86 linux isn t one of them
+
+
+
+52151759
+docx .doc
+Pattern(s): 5	
+the module docx seems not support encrypted files
+the api in pywin32 can open a .doc or .docx file protected with password
+
+
+
+52184548
+setinterval settimeout
+Pattern(s): 5	
+setinterval doesn t play well with promises because it triggers a callback multiple times while promise resolves once
+it seems that it s settimeout that fits the case
+
+
+
+52192811
+width height
+Pattern(s): 5	
+a block-level box is too wide for the containing block. this may happen when an element s width property has a value that causes the generated block box to spill over sides of the containing block
+an element s height exceeds an explicit height assigned to the containing block the containing block s height is determined by the height property not by content height
+
+
+
+52206580
+folder directory
+Pattern(s): 1	
+in intellij right-click your test resources or test java resources directory select the mark directory as... sub-menu select test resources root this directory will appear with a decorator graphic symbolizing that it is in the classpath in eclipse go to run- run configurations... in case of debug run- debug configurations... open run debug configuration which you use open classpath tab select user entries and click advanced... on the right in the opened window select add folder point to your src test resources this folder will appear under user entries then you should move it up to make it the first on your classpath
+depending on your ide it is possible that your resource directory is not in the classpath
+
+
+
+52209618
+jobs cron
+Pattern(s): 1	
+cron jobs do not only or particularly need absoute paths
+the main differences compared to interactive shells is that cron jobs run with a different and more spare environment where the shell s path various library paths environment variables etc can be different or missing altogether
+
+
+
+52231950
+post get
+Pattern(s): 2	
+added on server side a route to accept also post to retrieve users data then added method post url new-url-for-post in table options
+now it works but i still cannot understand why get is not working
+
+
+
+52232370
+printf feof
+Pattern(s): 1	
+for e.g also if is true then just wrinting printf is not enough you have to ask user to give correct command line input don t let user proceed further
+it should be secondly read here why feof is wrong
+
+
+
+52234222
+serializable deserialization
+Pattern(s): 1	
+1 there is a special case though when you can register only an abstract class for the purposes of serializable deserialization not for kryo.copy though
+this case is when your serializable is the same for all subclasses and during deserialization you can decide which subclass to return based on the data
+
+
+
+52266773
+folder directory
+Pattern(s): 1	
+your hadoop_conf_dir need to be spark s or hadoop s conf folder not the base folder from the spark extraction
+this directory must contain core-site.xml yarn-site.xml hdfs-site.xml and hive-site.xml if using hivecontext then if yarn-site.xml is in the above location you don t need yarn_conf_dir but if you do set it it needs to be an actual directory not directly to the file
+
+
+
+52282899
+quicksort mergesort
+Pattern(s): 1	
+quicksort is slow for lists mergesort is not in-place for arrays
+short answer quicksort is advantageous for arrays in-place fast but not worst-case optimal
+
+
+
+52284817
+for-loop arrays
+Pattern(s): 1	
+thus it is better to use a traditional for-loop with a numeric index when iterating over arrays because the for...in statement iterates over user-defined properties in addition to the arrays elements if you modify the arrays object such as adding custom properties or methods.
+its best to use a for-loop not a for in when using with an arrays although it may be tempting to use this as a way to iterate over arrays elements the for...in statement will return the name of your user-defined properties in addition to the numeric indexes
+
+
+
+52327928
+tostring getter
+Pattern(s): 5	
+tostring is not considered an accessor since it doesn t access an attribute properties of the object but rather the object as a whole though i do see your point
+accessors are getter usually named getsomething or issomething for boolean s and setters usually named setsomething
+
+
+
+52331238
+build.gradle dex
+Pattern(s): 5	
+you can also configure it directly in the corresponding build.gradle file read use java 8 language features
+error error converting bytecode to dex cause dex cannot parse version 52 byte code
+
+
+
+52347336
+valgrind glibc
+Pattern(s): 5	
+doing that is needed to ensure that valgrind doesn t incorrectly report space leaks in glibc
+the problem is that running __libc_freeres in older glibc versions causes this crash
+
+
+
+52415907
+calloc malloc
+Pattern(s): 1	
+notice calloc takes different parameters
+malloc does not initialize the memory space you allocated it will often contain garbage from whatever that memory space was used for previously
+
+
+
+52437827
+for-loop loops
+Pattern(s): 1	
+assigning values to loops variable of the enhanced for-loop doesn t change the corresponding element of the arrays or iterable you are iterating over
+your loops is equivalent to which clearly doesn t update the values in the arrays
+
+
+
+52438891
+d3.js highcharts
+Pattern(s): 5	
+chart plug-ins like echarts highcharts antv d3.js learning some program is very important the common language is js often used in designing front-end web page
+when you are developing a product these open-source visual plug-ins may be integrated highcharts is not open source . ready-made chart and bi tools
+
+
+
+52448317
+strlen realloc
+Pattern(s): 1	
+this is because strlen does not include the string termination
+so your realloc is wrong
+
+
+
+52450879
+pull push
+Pattern(s): 5	
+using git pull means run git fetch then run git merge
+that s an extra step that git push does not and cannot do
+
+
+
+52451714
+folder dir
+Pattern(s): 3	
+the subroutine renamefile is never executed if the specified folder does not exist or is currently not accessible
+fourth solution the folder path is used on command dir and passed together with the file name to the subroutine which works mainly just with name of file without path this works also with a unc path
+
+
+
+52451714
+folder dir
+Pattern(s): 3	
+fourth solution the folder path is used on command dir and passed together with the file name to the subroutine which works mainly just with name of file without path this works also with a unc path
+the subroutine renamefile is never executed if the specified folder does not exist or is currently not accessible
+
+
+
+52451714
+folder directory
+Pattern(s): 5	
+the subroutine renamefile is never executed if the specified folder does not exist or is currently not accessible
+fifth solution the folder path is used on command dir which is executed with option s to search also in subdirectories of specified directory resulting in output of name of files with full path
+
+
+
+52455413
+valgrind memcheck
+Pattern(s): 5	
+valgrind will tell you only approximate location of uninitialised values origin in terms of valgrind but not exact variable name
+see valgrind manual for --track-origins when set to yes memcheck keeps track of the origins of all uninitialised values
+
+
+
+52488426
+gunicorn daphne
+Pattern(s): 5	
+now looks your problem is with production and gunicorn couldn t handle both requests so daphne comes to play
+a bf way to solve it is to start the daphne asgi within another file which contains- exec daphne -b 0.0.0.0 -p 8001 django_asgi_module application note the different port used here other parts of the two files should be quite similar
+
+
+
+52500865
+boost allocator
+Pattern(s): 5	
+you can almost achieve the desired effect of 1 memory allocator using boost transform_iterator instead of std transform with std back_inserter
+the problem though is that because boost transform_iterator cannot return a reference to an element it is tagged as std input_iterator_tag
+
+
+
+52516793
+keras tensorflow
+Pattern(s): 3	
+i was having similar issue with keras cannot import abs
+tried updating and found tensorflow file was still in use
+
+
+
+52542927
+for-loop loops
+Pattern(s): 3	
+still the for-loop is clearly slower
+because a comprehension dictionary set list comprehensions or a generator expression is under the hood implemented as a new function and calling that function has a base cost the plain loops doesn t have to pay
+
+
+
+52543712
+int double
+Pattern(s): 5	
+d takes an int not a size_t should be zu
+g takes a double not a long double should be lg
+
+
+
+52550323
+for-loop arrays
+Pattern(s): 5	
+correct syntax is whether you can use a for-loop or not depends on how your std_logic_vectors are provided
+if you take them from another arrays or a concatenated std_logic_vector you can use a loops
+
+
+
+52582519
+int double
+Pattern(s): 5	
+stick to consistent quoting and you should be ok create table trade prodid int references product productid transid int references transaction transactionid quantitypurchased int not null primary key transid prodid -- here ----- ------- -- ------
+using double quotes makes an identifier in this case a column name case-sensitive
+
+
+
+52584065
+rsa aes
+Pattern(s): 1	
+rsa is not a replacement of aes nor the other way
+aes is a symmetrical algorithm and rsa is any asymmetric one
+
+
+
+52618806
+clickhouse mysql
+Pattern(s): 5	
+clickhouse doesn t support writing to odbc tables yet
+mysql has this functionality
+
+
+
+52674654
+maven pom.xml
+Pattern(s): 2	
+the reason you cannot build the plugin with mvn install is because you have configured maven to expect the plugin to already be built
+this section belongs in a different pom.xml file not the plugin pom.xml file
+
+
+
+52675909
+nsbitmapimagerep nsimage
+Pattern(s): 1	
+that digression past us an nsbitmapimagerep is a much more concrete object
+an nsimage does not have pixels an nsbitmapimagerep does
+
+
+
+52675909
+nsbitmapimagerep nsimage
+Pattern(s): 5	
+an nsimage does not have pixels an nsbitmapimagerep does
+an nsbitmapimagerep is a chunk of data together with pixel format information and colorspace information that allows us to interpret the data as a rectangular array of color values
+
+
+
+52678199
+for-loop loops
+Pattern(s): 1	
+that for-loop was crafted by a talented hacker
+it s much more elegant than much of the rest of the code s approach to iterating through a loops what i wouldn t give for comments though
+
+
+
+52690286
+int double
+Pattern(s): 5	
+so to fix this either make min and max be double or leave them be int decreasing accuracy and print them as what there are namely int printf minimum d nmaximum d n min max
+printing an int using a conversion specifier for double is not a good idea but invokes the infamous undefined behaviour
+
+
+
+52690906
+spaces delimiter
+Pattern(s): 1	
+with -escaping but spaces moved to previous line c program files test.bat becomes c program files test.bat but the command line reports c program is not recognized.
+this is because with the spaces character on the first line and the character -escaped the is interpreted as a delimiter and not as a character
+
+
+
+52710390
+installation upgrade
+Pattern(s): 5	
+i find msi s per-user installation constructs not ideal
+it relates to poor serviceability upgrade patching etc... and a number of other details
+
+
+
+52710960
+realloc malloc
+Pattern(s): 3	
+however functions like realloc do not have this property as they can return a pointer to storage containing pointers
+as you pointed out yourself nonnull and malloc are just macros
+
+
+
+52713781
+for-loop loops
+Pattern(s): 1	
+so if the slowdown ends up being in your for-loop here are a few things you can try python might be computing loops condition every iteration for i in range int n - 4 2 + 1 calculate int n - 4 2 + 1 once before loops
+don t recalculate stuff inside the loops that doesn t change
+
+
+
+52714644
+folder directory
+Pattern(s): 1	
+by the looks of it you want to get a list of directory containing a single _ and then every .jpg file inside those folder appending it to a text file
+this is pretty simple there are a few issues in your code the usage of -name here returns only the folder name not the full path
+
+
+
+52728780
+qgraphicsview qgraphicsitem
+Pattern(s): 1	
+for example you say that you want to have a moveable rectangle because that task is simple is qgraphicsview it is not necessary to overwrite if you want to change the way you paint the rectangle you must overwrite the paint method as shown below update
+first of all a qgraphicsitem is not a qwidget so it has those events and does not handle them directly that s what qgraphicsview and qgraphicsscene do
+
+
+
+52750230
+clang llvm
+Pattern(s): 5	
+debug information is best effort but if you haven t run any other transforms since clang emitted the ir then it will usually work
+this is an intentional design decision llvm normally shouldn t be treating system and non-system functions differently
+
+
+
+52795413
+button checkbox
+Pattern(s): 3	
+the following code will work in cart page for your privacy policy checkbox using mandatory jquery code to make it work as proceed to checkout button is just linked to checkout page without submitting any data
+the code will disable the button on start it use sweet alert 2 js message to display an error message on button click when the checkbox is not checked the complete code code goes in function.php file of your active child theme or active theme
+
+
+
+52811283
+grafana metrics
+Pattern(s): 5	
+if cadvisor is able to get required metrics then configure cadvisor storage plugin influxdb is a good start and visualize them in the grafana
+grafana doesn t collect and store any data
+
+
+
+52815920
+for-loop loops
+Pattern(s): 5	
+because your for-loop doesn t bind your newly defined variable data to the objects within your
+you are redefining data within each loops without changing train or test
+
+
+
+52886580
+waitpid posix
+Pattern(s): 5	
+see posix waitpid which documents wait too
+and most unix-based systems also provide a wcoredump too but posix does not mandate it
+
+
+
+52894109
+integer fractions
+Pattern(s): 3	
+therefore the fractions will be more accurate since the denominator can be any integer not only powers of 2
+floating point numbers are already rational numbers so the conversion to the fractions type comes directly from the underlying representation of the float
+
+
+
+52896228
+int chars
+Pattern(s): 1	
+1 size_type is nothing more than an unsigned int which is commonly used as a type for sizes since an unsigned int cannot have a negative value except zero 0 being a plus-minus number which is still allowed.
+2 is obviously since the string is a std string a string buffer of chars alternatively wchar_t or unsigned short instead of chars for wide string std wstring .
+
+
+
+52934758
+children parent
+Pattern(s): 3	
+zombies are not the only possible cause for this problem -- stopped children may not be reported for a variety of reasons
+the existence of a zombie typically means that the parent has not properly waited on them
+
+
+
+52961588
+hash salt
+Pattern(s): 1	
+but unlike encryption algorithms password hash are one-way deterministic trap door calculations
+also unlike secret-key encryption the salt does not need to remain secret
+
+
+
+52979274
+hex binary
+Pattern(s): 5	
+hex is a text serialization format for binary integers
+the value in is a 32-bit binary number not hex or decimal
+
+
+
+52998857
+post get
+Pattern(s): 3	
+app config security.yml security encoders appbundle entity security algorithm bcrypt src appbundle controller securitycontroller.php form view javascript submit function side note should be obvious but you should use post and not get with your ajax query
+first because get parameters are as clear as day.
+
+
+
+53007450
+for-loop loops
+Pattern(s): 1	
+a common pattern for a server handling connections might be the for-loop is necessary to read multiple lines of data from the connection
+if the handleclient can read the input all in one chunk then a loops isn t necessary so yes you are right the for is not always necessary but it depends what data is being read
+
+
+
+53053775
+pandas dask
+Pattern(s): 1	
+it lets you use most of the standard pandas commands in parallel out-of-memory
+the only problem is dask doesn t have an excel reader from what i can tell
+
+
+
+53062101
+cpython pypy
+Pattern(s): 5	
+for example pypy does jit compilations cpython does some low-level tricks
+no python cpython does not do variable inlining reason for this is that you can run your script with python -i non-optimized.py and you should be able to reach all vars
+
+
+
+53114125
+width height
+Pattern(s): 5	
+but when it comes to height divs don t have height by default so here set height or min-height to your required value and add max-height 100 optional a block-level element always starts on a new line and takes up the full width available stretches out to the left and right as far as it can reference
+it is always recommended to mention height to the parent grandparent before you use height 100 to a child element try this if you still don t want to mention height to the body element parent you can define them like this because by default the div elements were block elements block elements always have 100 width but not a definite height so define the max-width the actual size and set its width to 100 so that it won t escape the given width
+
+
+
+53155981
+int double
+Pattern(s): 1	
+from significant digits and largest int by length for sas variables under windows | length | largest int | exponential | bytes | represented exactly | notation +---------+-----------------------+------------ | 3 | 8 192 | 2 13 | 4 | 2 097 152 | 2 21 | 5 | 536 870 912 | 2 29 | 6 | 137 438 953 472 | 2 37 | 7 | 35 184 372 088 832 | 2 45 | 8 | 9 007 199 254 740 992 | 2 53 so while all 16-digit hex values in c can fit distinctly in a 64-bit int not all such can distinctly fit in sas numeric those
+the 64-bit double however is ieee standard and can deal with numbers up to 10 51 albeit with some loss of precision
+
+
+
+53186248
+ckeditor summernote
+Pattern(s): 3	
+we had no choice but to change to ckeditor which is working really well for our needs
+after much research it seems because summernote does not reside within it s own iframe any css included within will naturally propogate to the surrounding page
+
+
+
+53231144
+firefox safari
+Pattern(s): 1	
+for example firefox does not expose anything about its windows through the accessibility api
+with safari i was able to find the url but it was a bit buried within the ui element hierarchy
+
+
+
+53239472
+keras tensorflow
+Pattern(s): 5	
+it appears that keras doesn t seem to suit the needs of deepmind
+so deepmind came up with sonnet a high-level object oriented programming library built on top of tensorflow to address its research needs
+
+
+
+53241259
+for-loop loops
+Pattern(s): 5	
+this is because the async for-loop ensures the async generator cleanup on loops exhaustion
+the question is what happens when loops is not exhausted here gen got out of scope but the cleanup simply didn t occur
+
+
+
+53266790
+base-class derived-class
+Pattern(s): 3	
+neither the d1 nor the d2 object can exist until after the base-class subobject has been successfully created
+this means that during creation of the base-class subobject the derived-class object cannot yet exist and likewise the dynamic type of your base-class object cannot yet be the derived type
+
+
+
+53355454
+min max
+Pattern(s): 5	
+suppose i sampled n numbers d i from dirichlet and then map them to min...max interval x i min + d i max-min then i sum them all using property that all d i sums to 1 sum n min + max - min n-1 min + max if sum is fixed then it mean we have to redefine maximum value - lets call it sampling max s
+so sampling procedure would be as following - sample n 0...1 numbers from dirichlet map them to min...max s interval and check if any of those numbers are below desired max original not redefined
+
+
+
+53367465
+sudo passwd
+Pattern(s): 3	
+example 1 - simple remote command in this example we send a simple whoami command we re telling sudo not to issue a prompt and to take its input from stdin
+this makes the sudo passwd passing completely silent so the only response you get back is the output from whoami
+
+
+
+53378725
+debian centos
+Pattern(s): 3	
+for example the openjdk 11 on debian is still in buster testing and sid unstable and therefore not available in any stable branch
+i guess in centos i am not that familiar with it tbh. it s the same situation
+
+
+
+53385856
+strtol atoi
+Pattern(s): 5	
+or 3 tokenizing the string with strtok and then using strtol as atoi should not be used as it provides absolutely zero error checking
+there really isn t any need to use both strtok and strtol as strtol already provides a way to advance past the digits converted
+
+
+
+53401399
+persistent transient
+Pattern(s): 3	
+the second case the operation is persistent not merge therefore not cascaded
+the persistent context sees contacttype as transient and cannot go further with the persistent because one of the dependencies is in transient state
+
+
+
+53407221
+ssl https
+Pattern(s): 2	
+it should be noted that you must use ssl to send the request
+https not http in the following string here is where i put my api key and now my application works like it did before i needed the key
+
+
+
+53417718
+versioning upgrade
+Pattern(s): 1	
+if you want to keep the data you need to export it in some flat files because once attached to newer server versioning a database is upgrade and cannot be attached to an older one
+even restoring a backup made with newer versioning is not possible
+
+
+
+53431222
+width height
+Pattern(s): 3	
+also it just has width and not height
+another thing to point out here is that since you re using you can use the width and the height attributes right there instead of creating another or attribute binding
+
+
+
+53468886
+erlang elixir
+Pattern(s): 3	
+erlang and hence elixir is a dynamically typed language and you might want to have different clauses for different types passed an error message if the types do not conform or just sink the input out or whatever
+erlang does not take out the liberty to deal with not proper input in the way you need that is why guards you use is the way to go
+
+
+
+53509483
+daemons systemd
+Pattern(s): 1	
+current systemd uptime is available and i d expect the software watchdog -- the daemons -- to be able to handle changes with the wall-clock time without reboot the systemd
+first off the watchdog daemons shouldn t be updating the systemd time ever and that would include prior to causing the systemd to reboot
+
+
+
+53525565
+xslt schematron
+Pattern(s): 5	
+the resulting modified xslt that i ll leave to you to turn back into schematron is
+as this is a schematron question it might have been clearer if you d posted the schematron not the xslt that gets generated from the schematron
+
+
+
+53538520
+onclick onchange
+Pattern(s): 5	
+you need to assign the click event to card like check this answer for more details applying classname onclick onchange not working on custom react component in general if you need to pass on all the props passed from parents you can use the following syntax destructuring all the props would ensure that the props are passed and this you won t need to do it manually for each prop
+onclick needs a function the way you are using it you are assigining the returned value of imageselected to onclick which isn t a function and thus on every render it is executed
+
+
+
+53548641
+mouseover mouseleave
+Pattern(s): 5	
+try this instead or to make use of jquery to reduce code you could simply do this mouseover will cause this to fire every time the mouse moves one pixel over the element so this could result in rapid flashing you may want to use the mouseenter and mouseleave to have better control over this behavior
+the problem is that you are assigning the result of the function to the mouseover event not the function itself
+
+
+
+53566134
+dns spf
+Pattern(s): 5	
+with content distribution networks load balancing the ehlo name and ip reverse dns often don t match
+you could check the ip s validity against spf records not every domain has spf records but it is quite common
+
+
+
+53577460
+folder directory
+Pattern(s): 3	
+as written your code says if this folder does not exist make the directory and copy the file
+if the directory exists it never gets to the copy the file part
+
+
+
+53581817
+int double
+Pattern(s): 5	
+0 is a 32-bit int you want 0d for 64-bit double s
+you want to define transformtree for double not for an arbitrary type bound to type variable called double
+
+
+
+53588636
+for-loop loops
+Pattern(s): 5	
+the else clause of a for-loop is triggered any time loops completes normally rather than through a break statement
+since your loops does not contain a break the else will always be triggered
+
+
+
+53659983
+for-loop arrays
+Pattern(s): 5	
+your code not only allocate memory for arrays of pointers the blue arrays but in the for-loop you also allocate memory for the red arrays as well
+so free arrays line alone will just free the memory allocated by the blue arrays but not the red ones
+
+
+
+53665298
+terraform packer
+Pattern(s): 1	
+i m not sure how packer is necessary alongside terraform sense it seems to me that terraform has the same exact built-in functionality
+a big difference is that terraform doesn t handle the lifecycle of creating a ami
+
+
+
+53688155
+folder directory
+Pattern(s): 1	
+this is because the .htaccess file is disabling directory listing withing public folder for your second problem which is you are unable to visit laravel index page links this is because laravel rewrite url rules are not working and to enable them you sould enable apache2 rewrite module as follow sudo a2enmod rewrite then restart your webserver sudo systemctl restart apache2 now your problem should be fixed
+for your first problem the public folder is not showing but you can visit it
+
+
+
+53692409
+post put
+Pattern(s): 3	
+unprofessionally i myself use all post and get alone so i dont have to deal with put and delete my workaround and on ajax call and the route
+you have used post instead of put i am not sure if put is used in ajax as well but u could try that if that alone fails
+
+
+
+53718488
+integer unsigned
+Pattern(s): 1	
+if we take a look at this so post we can see what unsigned values actually means quoting what pubby has said in the so post i just linked above we can understand a signed integer can represent negative numbers
+unsigned cannot
+
+
+
+53784817
+alexa amazon
+Pattern(s): 5	
+alexa isn t alexa without skills and avs essentially just allows alexa to work on devices that amazon didn t create
+once you create your third-party alexa-enabled device choose the best option from that documentation to allow users to authenticate with their amazon account allowing access to the skills they have chosen to enable
+
+
+
+53788026
+google-chrome firefox
+Pattern(s): 1	
+google-chrome ignores the writing mode of the cells firefox doesn t give the cells enough height and edge makes the rotated table super tall
+css allows this but none of edge firefox or google-chrome does it right
+
+
+
+53800654
+int chars
+Pattern(s): 5	
+that is the purpose of the while loop within that code block once you have a good int value recall that endptr will be set to the next chars after the last digit converted
+a quick check whether is not the nul-terminating chars and not the line-ending will tell you whether charters remain that are available for conversion
+
+
+
+53821167
+stdout stderr
+Pattern(s): 5	
+a better solution would be using this batch file the command for runs in a separate command process with cmd.exe c more precisely compspec c in background the command line dir outputs to handle stdout of started command process in bare format because of option b the file names with extension and with full path because of option s of all only non-hidden files because of option a-d-h attribute not directory and not hidden with file name index.js found in specified directory or any subdirectory because of option s
+the error message output by dir to handle stderr on not finding anything matching these criteria is suppressed by redirecting to device nul
+
+
+
+53876265
+oncreate onstart
+Pattern(s): 1	
+you should be setting your content view in oncreate not onstart
+onstart can be invoked multiple times for the same activity instance
+
+
+
+53896834
+children parent
+Pattern(s): 1	
+concrete parent with concrete children multi-table inheritance the parent class has a database table with its own fields and each child class has its own table with its own fields and a foreign-key as primary-key to the parent table. this looks like class table inheritance in the database
+concrete parent with proxy children proxy models the parent class has a database table but the children do not . instead the child classes interact directly with the parent table. now if we add all the fields from the children as defined in our data-model to the parent class this could be interpreted as an implementation of single table inheritance . the proxy models provide a convenient way of dealing with the application side of the single large database table
+
+
+
+53904304
+ord chr
+Pattern(s): 1	
+however your other attempt map c str.upper chr ord is equivalent to map c lambda x ord chr str.upper c and ord chr x simply isn t defined
+chr cannot take a string as an argument
+
+
+
+53918670
+superclass subclassing
+Pattern(s): 5	
+if at some point you need to talk to a subclassing in a way that the superclass would not understand or cause an error needing to use instanceof then what you need is a different class not a subclassing
+try to find ways to use inherited and polymorphism instead say for example in your base class you can have a method called performmainjob and using polymorphism you would define that to be a call to a method solveproblem for an engineer subclassing and a call to a method verifybooks for an accountant subclassing
+
+
+
+53924449
+integer unsigned
+Pattern(s): 3	
+your loop continues while but an unsigned integer is always greater than or equal to zero
+unsigned integers cannot be negative so your loop never terminates
+
+
+
+53975258
+strdup malloc
+Pattern(s): 1	
+note that strdup is not part of the c standard
+the newemployee function return type is but you are not returning anything from this function if the malloc is successful
+
+
+
+53982467
+setinterval settimeout
+Pattern(s): 2	
+you can see this in action here you can change setinterval to be settimeout and you will get the exact same behaviour
+settimeout is not a persistent clock but it doesn t matter since they both get cleaned up anyways
+
+
+
+53991505
+for-loop loops
+Pattern(s): 3	
+for instance is virtually the same as the for-loop itself doesn t add any significant overhead to the cpu
+although you would probably want to write a single loops anyway if your code readability is improved when you do two loops go ahead and do it
+
+
+
+54058208
+jlabel jlayeredpane
+Pattern(s): 5	
+not wrapping the jlabel unnecessarily in another component thus the mouse listeners would be added directly on the jlabel and not on a wrapper object
+not changing the jlayeredpane s default and unique layout explicitly removing the old components before adding new ones calling repaint on the jlayeredpane after adding or removing components
+
+
+
+54073784
+for-loop loops
+Pattern(s): 5	
+assuming a scenario each loops runs up to n so we can say complexity of each for-loop is o n as each loops will run n times
+so you specified these loops are not nested in a linear scenario for first loops o n + second loops o n + third loops o n which will give you 3o n . now as we are mostly concentrating on variable part of the complexity we will exclude constant part and will say it s o n for this scenario. but in practical scenario i will suggest you to keep in mind constant will also play a vital role so never exclude them. for example consider time complexity to find smallest integer from an integer arrays any one will say it s o n but to find second largest or smallest of the same arrays will be o 2n
+
+
+
+54114329
+fgets strcmp
+Pattern(s): 5	
+other issues concerning comparing files not covered in answers yet file data with 0 should a file contain a null character fgets will read that character like any other non-end-of-line character
+then a following strcmp will not compare all the line that was read
+
+
+
+54116712
+tbb thrust
+Pattern(s): 1	
+these provide a first-class programming environment and thrust provides easy-to-use parallel primitives as does tbb
+no tbb is not supported for nvidia gpus
+
+
+
+54136723
+scylla cassandra
+Pattern(s): 1	
+scylla considered such an implementation but hasn t implemented it either see
+there is a reason why cassandra doesn t support the feature you describe - it s because it can be inefficient first the secondary-index must indeed list as you noted all the matching row keys and not just distinct matching partition keys
+
+
+
+54150671
+folder directory
+Pattern(s): 5	
+if you want to copy the folder specify the target as the folder you want to create copy .git . .git
+you copied the contents of the .git folder into the dist directory not the .git folder itself
+
+
+
+54162786
+google-chrome firefox
+Pattern(s): 3	
+your example would then remain the same only for the fieldset selector you have the following css properties edit flexbox on element is supported only on firefox 64+ not yet supported on google-chrome
+i found this after posting and testing to see if it works in google-chrome as i tested it only on firefox before posting
+
+
+
+54183894
+innodb myisam
+Pattern(s): 5	
+count with innodb is slower than count id because innodb doesn t cache the row count
+on the other hand with myisam count query would be faster and return result in no time because myisam maintains the count of rows
+
+
+
+54186346
+int chars
+Pattern(s): 2	
+a chars is not an int
+you cannot read an int to expect something like a
+
+
+
+54189679
+google-chrome firefox
+Pattern(s): 5	
+it worked fine in google-chrome but had no response using firefox
+turns out firefox did not trust the self-signed security certificate
+
+
+
+54204324
+bash tcsh
+Pattern(s): 1	
+requisites qdbus klipper xargs bash create a bash executable foo.sh
+note this needs to be bash as tcsh does not support multi-line arguments
+
+
+
+54211053
+for-loop loops
+Pattern(s): 1	
+just remove the following line from your for-loop and the code should work fine declaring these variables inside the for-loop is creating new variables which have their scope limited to the for-loop only
+hence when you execute the following statement inside the for-loop it s actually initializing the pointer ptr declared inside loops and not the one declared outside loops
+
+
+
+54243178
+int chars
+Pattern(s): 3	
+first create a int64_t object initialise to zero get length of the string check that it fits copy the bytes of the chars sequence onto the int as long as the int type doesn t have trap representations the behaviour is well defined and the generated int will be the same across compiler versions as long as the cpu endianness and negative number representation remains the same
+reading the chars string back doesn t require copying because chars is exceptionally allowed to alias all other types note the qualification in the last section
+
+
+
+54263267
+unsigned short
+Pattern(s): 3	
+when in a math operation you put together a signed type with a unsigned type and the unsigned type doesn t have a lower rank the signed typed will get converted to the unsigned type see 6.3.1.8 usual arithmetic conversions i m linking to the c standard but rules for int arithmetic are foundational and need to be common to both languages
+in other words assuming that size_t isn t unsigned chars or unsigned short it s usually unsigned long and the c standard recommends it shouldn t be unsigned long long unless necessary size_t 0 - 1 gets implicitly translated to size_t 0 - size_t 1 which is a positive number equal to size_max -1 cannot be represented in an unsigned type so it gets converted converted by formally repeatedly adding or subtracting one more than the maximum value that can be represented in the new type until the value is in the range of the new type 6.3.1.3p
+
+
+
+54290945
+for-loop loops
+Pattern(s): 1	
+your for-loop is equivalent to as you can see it increments after printing and your while increments before printing
+all numbers are larger by one in the second loops not just the last
+
+
+
+54307419
+yacc bison
+Pattern(s): 5	
+you must have by now found your answer but for anyone else who might stumble upon this post about morpha you can download morpha directly from but this requires flex to be installed first decompressed and compiled i m using the linux terminal command line below tar -xzf flex-for-morph.tar.gz then change the current working directory to flex and make it . configure make if the make command gives the following error make yacc command not found makefile 105 recipe for target parse.c failed make parse.c error 127 it means it cannot get yacc
+so you need to install bison via command line sudo apt-get install bison now run the make command again it should give you something similar to this at the last line gcc -g -o -o flex ccl.o dfa.o ecs.o gen.o main.o misc.o nfa.o parse.o scan.o skel.o sym.o tblcmp.o yylex.o libfl.a now you re good to compile morpha which you downloaded from above link .. flex-2.5.4 flex -i -cfe -8 -omorpha.yy.c morpha.lex gcc -o morpha morpha.yy.c morpha takes the already-pos-tagged files as input
+
+
+
+54319614
+google-chrome firefox
+Pattern(s): 1	
+google-chrome does not allow loading of assets in your hard-drive due to same-origin security concerns
+however firefox does allow it you can see that firefox has a few console.log s that get executed on completion
+
+
+
+54321942
+for-loop loops
+Pattern(s): 5	
+simply change your second main for-loop to start from d-1 here is the code
+if you notice your code the second for-loop is starting from i d in but your first loops is not ending at d you are doing i d there which will stop before d so it will go from 1 to 5 if your d value is 6
+
+
+
+54330498
+for-loop loops
+Pattern(s): 5	
+the problem is with the for-loop and calling the promise inside this loops
+loops doesn t wait for the promise to be fully resolved
+
+
+
+54333775
+int chars
+Pattern(s): 5	
+for an input of an int i also assume whitespace chars are allowed in the left and right side of the input string
+whitespace chars between non-whitespace chars are not allowed
+
+
+
+54365306
+html2canvas jspdf
+Pattern(s): 5	
+according to one gihtub issue there is problem when using images with html2canvas here is the link to that issue use that to modify addhtml function or try using jspdf the way it is meant to be used and add image like this
+jspdf does not support adding image the way you are trying to add it because addthtml function uses html2canvas module to convert your html to canvas so jspdf can render it into pdf
+
+
+
+54386306
+cpu processors
+Pattern(s): 1	
+the possible reasons for using chacha20-poly1305 which is a stream cipher based authenticated encryption algorithm over aes-gcm which is an authenticated block cipher algorithm are chacha20-poly1305 is almost 3 times faster than aes when the cpu does not provide dedicated aes instructions
+intel processors provide aes-ni instruction set 1 chacha20-poly1305 does not need the nonce to be unpredictable random unlike the iv of aes-gcm
+
+
+
+54395371
+children parent
+Pattern(s): 5	
+to answer your other questions the parent automatically propagates all state changes to all children that care for it all child components are independent of the parent eg if they have their own states the parent doesn t care
+it s only when they share a state and a state update function that this becomes relevant so only if you specifically pass such function to the children if the children share a state then it should be lift up which is explained in the doc linked
+
+
+
+54396537
+ciimage uiimage
+Pattern(s): 5	
+you need to use the ciimage created on top from the current image as below
+you are using uiimage instead of ciimage in combinedparameters and uiimage doesn t have extent method so you are getting the crash
+
+
+
+54405126
+for-loop loops
+Pattern(s): 5	
+to receive a vector with all values in the end insert this line in the beginning before the outer for-loop then in every inner for-loop add this line hist.append id now you ll have all values available after you re done with the loops and can print them or do whatever you like with them
+you need to put at the end of every inner for-loop but still inside of loops so not on the same line as the for that it gets printed for every single iteration
+
+
+
+54419034
+apache nginx
+Pattern(s): 1	
+nginx apache are general purpose web servers
+apache does not know how to serve rack applications and puma doesn t know how to do a bunch of other things nginx apache do cgi scripts url rewriting proxies balancing blacklisting... rack is a library for ruby that accepts parsed http requests from an app server funnels them through a configurable stack of middleware such as session handling passing the request object to a handler and returning the response object the app server making web development in ruby easy
+
+
+
+54419917
+stardog graphdb
+Pattern(s): 5	
+geof area does not appear to be a part of the core geosparql specification so stardog must have created an extension on it
+graphdb does not have the exact same extensions
+
+
+
+54425070
+udp tcp
+Pattern(s): 5	
+the fact that udp isn t connection-oriented is irrelevant
+sure tcp has the concept of sessions but both have port numbers and that s really all the nat needs
+
+
+
+54436501
+ciimage uiimage
+Pattern(s): 1	
+update in case if you are fatalerror means uiimage doesn t exists with ciimage so you need to convert uiimage to ciimage
+let s say your scaledimage is an uiimage so you can directly get an ciimage without creating a new one
+
+
+
+54457269
+jmeter soapui
+Pattern(s): 1	
+because soapui takes more than a second to respond the jmeter requests are held open for this time
+if the jmeter thread pool for requests is exhausted all threads are waiting for an answer from soapui it cannot further scale
+
+
+
+54459158
+alexa amazon
+Pattern(s): 1	
+there were some updates to the alexa interaction model so the dialogflow alexa importer doesn t seem to work anymore
+there are a few things to consider when porting an alexa model into a dialogflow agent built-in intents you need to create custom dialogflow intents for built-in alexa intents like amazon.helpintent built-in slots amazon offers a large variety of slots amazon.number that need to be converted to dialogflow
+
+
+
+54528926
+perl tcl
+Pattern(s): 5	
+in perl empty elements are undef so i guess the closest translation to perl would be test output
+the tcl syntax isn t clear so i went to the source tclsh tcl foreach values in each list are used in order from first to last and each value is used exactly once
+
+
+
+54560853
+pandas dask
+Pattern(s): 3	
+pandas does not support this
+dask arrays are mostly api compatible with pandas and support parallel execution for apply
+
+
+
+54575330
+for-loop arrays
+Pattern(s): 3	
+the problem is that if the input arrays is length 0 the for-loop never runs and so you have no return statement
+that way if the check is successful the last recursive call is run on an empty arrays and doesn t return anything so you get an answer of none
+
+
+
+54591440
+jobs cron
+Pattern(s): 5	
+now all cron jobs are working fine
+i have found issue for this it was path issue cron jobs were not including up file above directory include .. config.php
+
+
+
+54600914
+int boolean
+Pattern(s): 5	
+vartype function returns an int indicating the subtype of a variable
+isnumeric returns a boolean doesn t tell you what the type of data user entered only if it passed or failed numeric check
+
+
+
+54604780
+int chars
+Pattern(s): 3	
+that said not all conversions preserve value a conversion from signed int to unsigned int doesn t preserve negative values however they are converted in a well-defined manner and that may be surprising evaluates to 1 which seems absurd to anyone knowing a bit of math especially to the ones new to the language
+. if one inspects the standard c library functions they ll find that values of type chars are almost
+
+
+
+54614957
+stdout stderr
+Pattern(s): 1	
+i guess that is because stdout is buffered while stderr is not or not so much
+so stderr get s fflush after the line agent no process killed is streamed while stdout is fflush after the script . somescript.sh exists
+
+
+
+54619212
+org-mode flyspell
+Pattern(s): 1	
+the only robust solution i found was to disable flyspell mode m-x flyspell-mode when i want to use auto-completion in org-mode emacs 26.1 gtk+ 3.22.30 org mode version 9.1.14 spacemacs 0.200.13
+the suggestion add-to-list ac-modes org-mode did not work and i was unable to find ac-flyspell-workaround
+
+
+
+54626863
+getter setter
+Pattern(s): 1	
+another way around this is to not set the property value in the constructor but instead to define the property with a getter and a setter in fact in this case a setter is not needed as a read only value is helpful
+as we are using a getter this is not a normal property and is not set in the constructor
+
+
+
+54628350
+scikit-learn xgboost
+Pattern(s): 5	
+but the scikit-learn wrapper for xgboost doesn t have that parameter. so if you want to go for incremental training you might have to switch to the official api version of xgboost
+i don t think the scikit-learn wrapper has an option to incrementally train a model
+
+
+
+54635868
+vsto add-in
+Pattern(s): 1	
+note that a vsto ribbon cannot be called by vba code.
+and the ribbon is not stored in any document. with ribbon xml in vba and com add-in it s possible to share ribbon controls by assigning them a q id
+
+
+
+54647731
+bids ssis
+Pattern(s): 5	
+by default bids creates a backup of package during upgrade
+thus the questions are how exactly to check the current ssis version not ssis package or sql server or ssdt one server can have multiple versions of ssis installed
+
+
+
+54663417
+build.gradle gradlew
+Pattern(s): 5	
+for me removing apply plugin io.fabric from the library s build.gradle file but leaving it in the application build.gradle solved this error
+it seems the new gradlew plugin doesn t work if the setup is different from the one recommended here
+
+
+
+54667172
+pdfsharp migradoc
+Pattern(s): 2	
+migradoc uses pdfsharp to create the pdf and thus you can use pdfsharp for modifications without adding an additional tool to the process
+i m afraid migradoc cannot rotate the image
+
+
+
+54677305
+luis bots
+Pattern(s): 5	
+dispatch feature provided for luis is language dependant as you mentioned because luis is language dependant
+the best way to handle this case is to detect the language on your bots side not on luis side and then call the right luis model given the detected language
+
+
+
+54681411
+google-chrome firefox
+Pattern(s): 5	
+for some reason i don t understand google-chrome doesn t propagate opacity to children of an element with display initial
+on firefox you see nothing on google-chrome you see text inside paragraph and nothing else
+
+
+
+54682137
+for-loop loops
+Pattern(s): 5	
+marklogic returns the value of the last expression but the for-loop doesn t return a value
+what you want to do is declare an arrays variable before loops add to it during loops then return that variable
+
+
+
+54689980
+hide show
+Pattern(s): 5	
+the part that show hide isn t in any particular element. which means there s no way to implement a media-query override that says if the screen is big enough show this all the time
+so it doesn t replace all your show hide navigation widgets
+
+
+
+54702514
+folder directory
+Pattern(s): 1	
+regardless it seems that i would need to be more cognizant of how rstudio establishes a folder which retains its initial settings
+an adaptation to the email i sent my colleagues that were assisting me with a similar issue to review i was unable to open any files through rstudio because rstudio returned error messages indicating either that the file itself or the work directory did not exist
+
+
+
+54730004
+kerberos ntlm
+Pattern(s): 5	
+when you use kerberos and enable delegation which the domain admin needs to do you can have the original integrated auth credentials flow over the linked server link to the next connection
+ntlm does not do this
+
+
+
+54734843
+getter setter
+Pattern(s): 5	
+an alternative method to access the child component as early as possible is to associate the contentchild decorator to a getter setter property and to set the child flag in the setter see this stackblitz for a demo
+please note that the private variable _child and the getter are not needed to set the flag
+
+
+
+54734864
+gdal ogr
+Pattern(s): 5	
+geospatial data abstraction library gdal is a library designed for vector geospatial data formats
+it s a prerequisite for installing fiona the python api for ogr which doesn t really stand for anything which is in turn a prerequisite for geopandas
+
+
+
+54744136
+build.gradle gradlew
+Pattern(s): 1	
+if the build.gradle is not to complicated i would just rewrite it as pom
+if you do not want to do that one could have a closer look at the commands you mentioned afaik mvn clean and gradlew clean do the same so no need to worry
+
+
+
+54757389
+gunicorn waitress
+Pattern(s): 3	
+without this buffering gunicorn will be easily susceptible to denial-of-service attacks
+here is waitress s rationale for the same often people will set up pure python web servers behind reverse proxies especially if they need tls support waitress does not natively support tls
+
+
+
+54771200
+int chars
+Pattern(s): 5	
+there are ways around that if reading directly into int is not a requirement
+for example you can read into a chars buffer string and then check if the input was numeric and if it will fit into an int
+
+
+
+54893184
+strncpy malloc
+Pattern(s): 5	
+also the strncpy function doesn t always null terminate the destination string and malloc returns uninitialized memory so atoi will can read past the end of allocated memory when it reads the strings
+you can fix this by using calloc instead of malloc which returns memory initialized to all 0 s
+
+
+
+54905909
+children parent
+Pattern(s): 1	
+you need to do things to parent after iterating children not during doing it
+get children for each parent they have not whole .kb-item elements
+
+
+
+54909764
+portrait landscape
+Pattern(s): 1	
+this happens because portrait image doesn t have an info about its orientation at conversion stage and thus an image in portrait remains in portrait mode even though it s converted to ciimage or cgimage
+to fix this you should compare standard landscape s width height with a non-standard portrait s width height and if these values are different rotate an image to 180 degrees cw or apply orientation case .portraitupsidedown
+
+
+
+54912660
+int double
+Pattern(s): 5	
+define a type for the precision parameter int define a return type double
+it was nearly correct use double and not float because this is the default floating point number in kotlin
+
+
+
+54924117
+int chars
+Pattern(s): 1	
+so chars 0xffff becomes int 0x0000ffff not 0xffffffff
+chars is unsigned
+
+
+
+54933843
+folder directory
+Pattern(s): 3	
+while amazon s3 does support the concept of a common prefix which can make things appear as though they are in folder directory folder do not actually exist
+for example you could run a command like this aws s3 cp foo.txt s3 my-bucket folder1 folder2 foo.txt this would work even if the folder do not exist
+
+
+
+54950845
+int boolean
+Pattern(s): 1	
+the scala standard library s built-in to-binary-digits string formatters tobinarystring for the int types byte short chars int and long are very limited
+and an implementation for boolean isn t provided
+
+
+
+54954572
+nullreferenceexception invalidoperationexception
+Pattern(s): 5	
+the answer to the question in your edit now i m getting the error nullreferenceexception object reference not set to an instance of an object is because key should be text change to full code then add to your .cshtml
+the answer to the original question why am i getting this error invalidoperationexception could not create an instance of type microsoft.aspnetcore.mvc.rendering.selectlist
+
+
+
+54968982
+folder directory
+Pattern(s): 1	
+fastest way make a folder directory named raw under the res folder directory and put files of your desired like mp3 images etc it will be included to the final apk file as raw resource
+you can also put some png images to drawable folder but not sure it would work in release mode latest version of android studio may give you error while generating signed apk if the size of files is too large not recommended increase your code base like increasing size of java files adding more number of lines to your xml files etc
+
+
+
+55072621
+rank max
+Pattern(s): 5	
+intermediary dataframe the intermediary dataframe is col1 col2 col3 group feature g1 f1 12 9.500000 1000 f2 0 8.000000 200 g2 f1 2 7.000000 330 f2 3 7.000000 331 f3 1 7.000000 100 g3 f1 7 7.666667 101 now for the final dataframe which finally gives group feature col1 col2 col3 0 g1 f1 1.0 1.0 1.0 1 g1 f2 2.0 2.0 2.0 2 g2 f1 2.0 1.0 2.0 3 g2 f2 1.0 1.0 1.0 4 g2 f3 3.0 1.0 3.0 5 g3 f1 1.0 1.0 1.0 for the second part of the question i would just change the indexing of the intermediary dataframe and compute rank after grouping on feature which gives feature group col1 col2 col3 0 f1 g1 1.0 1.0 1.0 1 f1 g2 3.0 3.0 2.0 2 f1 g3 2.0 2.0 3.0 3 f2 g1 2.0 1.0 2.0 4 f2 g2 1.0 2.0 1.0 5 f3 g2 1.0 1.0 1.0
+i would use groupby on to produce an intermediary dataframe containing the sum avg and max columns not the rank and then again groupby on group only to produce the rank
+
+
+
+55078057
+circe argonaut
+Pattern(s): 3	
+if you care about why we ve made the design decision in circe not to expose the constructors you can skip to the end of this answer but this kind of question comes up a lot so i also want to address a few related points first
+a side note about naming note that the use of the name fold for this method is inherited from argonaut and is arguably inaccurate
+
+
+
+55100761
+int double
+Pattern(s): 1	
+with argument int it works perfect
+sometimes reading the exception helps a lot - my rowindex was double not int
+
+
+
+55103774
+queue fifo
+Pattern(s): 1	
+my mistake was to think that the queue proxy is not iterable because it is the proxy
+however the proxy works fine in place of the actual queue if put get are used also a fifo queue cannot be closed and does not have a natural end which i found annoying because it means one has to send around special end of queue entries but not too many of them to not unintentionally block the queue
+
+
+
+55168288
+fish bash
+Pattern(s): 1	
+you need to either start fish from bash and have all necessary variables exported rewrite the necessary configuration for use with fish and add it to config.fish or use something like to read bash s changed environment from fish
+fish is not in general bash compatible
+
+
+
+55171842
+onix xml
+Pattern(s): 2	
+helpful links similar issue loading onix xml to database check this link it may contains some workaround using script component as source ssis script component as source creating a source with the script component script component as source ssis handling onix xml in .net onix-data project onixnow project validating xml against the onix 2.1 dtd with dotnet deserializing relative path xml
+use script component as source xml source doesn t support these types of xml files you should add a script component as source use a c# script to deserialize the xml file using system.xml namespace or similar assemblies and generate the output rows
+
+
+
+55173328
+prometheus metrics
+Pattern(s): 2	
+the configuration for cloudwatch_exporter to monitor sqs is going to be something like this is only two metrics you ll need to add more based on what you re looking to monitor you ll then need to configure prometheus to scrape the cloudwatch_exporter endpoint at an interval for ex what i do you would then configure alertmanager to alert based on those scraped metrics
+i do not alert on those metrics so i cannot give you an example
+
+
+
+55195031
+react-native-fbsdk expo
+Pattern(s): 5	
+react-native-fbsdk requires a link
+however expo does not apply to link
+
+
+
+55198754
+treemap linkedhashmap
+Pattern(s): 5	
+so using a treemap would not be the best choice in your case
+you could either use a linkedhashmap or changing your map to a list
+
+
+
+55203853
+width border-box
+Pattern(s): 3	
+this happens because the property width is explicitly defined as relative to content-box default
+setting the parent s box-sizing as border-box doesn t change this behavior
+
+
+
+55214520
+integer unsigned
+Pattern(s): 1	
+it might be something like this create table ingredient id integer unsigned not null auto_increment primary key imagepath varchar 63 description text -- other ingredient s non-name dependent properties
+create table ingredientname id integer unsigned not null auto_increment primary key ingredientid integer unsigned not null ismain tinyint 1 unsigned not null default 0 name varchar 63 not null key ix_ingredientname_ingredientid_ismain ingredientid ismain unique key ix_ingredientname_ingredientid_name ingredientid name constraint fk_ingredientname_ingredientid foreign key ingredientid references ingredient id on delete cascade on update cascade
+
+
+
+55260678
+spaces delimiter
+Pattern(s): 3	
+you want that at the start instead of the spaces stuff is only removing the first character of the entirety of the xml not the first character of every delimiter item created within the xml
+char 13 is your delimiter here not a whitespace so put char 13 at the start instead
+
+
+
+55271015
+filesystems ntfs
+Pattern(s): 5	
+even if the ntfs wikipedia page mentions the guid ebd0a0a2-b9e5-4433-87c0-68b6b72699c7 for ntfs in the gpt case this guid is in fact unrelated to filesystems see comment below about this
+it s probably easier to use getvolumeinformation instead and just compare if the result is the ntfs string as in the other answer in my particular case i initially wanted to test if a volume is ntfs or not before attempting an indexing with deviceiocontrol hvol fsctl_enum_usn_data ... because i thought such mft querying would be limited to ntfs volumes
+
+
+
+55271286
+mersenne-twister random
+Pattern(s): 1	
+first of all initializing seeding a default_random_engine with one number of a mersenne-twister does not really make sense
+if the simple random engine is good enough directly seed it with time 0 or whatever you prefer
+
+
+
+55313108
+keras tensorflow
+Pattern(s): 2	
+unfortunately keras does not have a convenient way to get each components of the gradients
+therefore i used tensorflow to resolved this problem
+
+
+
+55360322
+filesystems ntfs
+Pattern(s): 1	
+your filesystems is not set up correctly
+by default ntfs is case-preserving but case-insensitive
+
+
+
+55362458
+for-loop loops
+Pattern(s): 5	
+use for-loop not for each loops
+for each loops use with a list
+
+
+
+55368092
+png ico
+Pattern(s): 5	
+your icon file should be icon type not png may be because png is not supported by cx_freeze
+in your setup.py change to please note the icon file must be in ico format don t act smart and just change the extension
+
+
+
+55369492
+getter setter
+Pattern(s): 5	
+your getter setter doesn t follow standard java bean naming conventions and thus spring is not able to find getter for coursecode
+getter should be getcoursecode not getcoursecode
+
+
+
+55389998
+folder directory
+Pattern(s): 1	
+i am assuming this is because your node_modules folder is getting uploaded as well
+there is a skip_files option for the app.yaml which you might need to use to ensure that the node_modules directory isn t getting pushed
+
+
+
+55398564
+dbvisualizer dbeaver
+Pattern(s): 1	
+you can use the following query to find out which statemets were sent to the database within an exaplus meta session for sessions of the sql client dbvisualizer you cannot distinguish so easy between user sessions and meta sessions
+for the client dbeaver it s similar to exaplus
+
+
+
+55404182
+prometheus metrics
+Pattern(s): 5	
+i emailed the prometheus-users mailing list and someone responded that prometheus cannot fix metrics names with dashes hyphens
+since i prefer to not edit the application emitting the metrics i found a workaround
+
+
+
+55433401
+swift objective-c
+Pattern(s): 5	
+if i m correct the next lines read like put the outcome of in a new array named nameofarray if you know swift and not objective-c you may be thinking that arrays are value types so an assignment from one array into a var creates a new array
+however in objective-c arrays are reference types and assignment of an value doesn t create a new array it just copies a reference to an existing array
+
+
+
+55433519
+nvda voiceover
+Pattern(s): 5	
+using a semantic tag is good too although support for navigating directly to an article tag is only supported in some screen readers jaws and voiceover but not nvda
+if you have a snippet of the article and end with ellipses and a read more type link make sure the read more has additional contextual information such as the element helps some screen readers voiceover will announce it but nvda won t but i wouldn t recommend hiding information in a time element
+
+
+
+55442132
+testng qaf
+Pattern(s): 1	
+you can also take a look to gherkin with qaf which is pure testng implementation for gherkin
+it is using testng not cucumber runner and provides you all the features of testng including parallel execution listeners grouping priority etc.
+
+
+
+55450172
+range min
+Pattern(s): 1	
+however that should not stop you from being able to define range that would include any value or that they are open in one end they have a min but not a max or viceversa
+for example if the range is to be specified as two arguments in the signature of the method that is going to use such a range then you can simply designate the null as to indicate that that min or max does not exist that is that end of the range is open
+
+
+
+55478020
+udp tcp
+Pattern(s): 5	
+the broadcast is done by keeping a list of all the connected clients and their file descriptors updated and by iterating through it to send each client the message you can t do a broadcast in tcp as you would in udp because tcp is a connected protocol while udp isn t
+if it can be of any use here is a repo with a multi-user tcp server i made in c for a school project
+
+
+
+55479202
+jobs cron
+Pattern(s): 5	
+i was able to get cron jobs working by touch home ubuntu crontest.log to create a log file sudo vim etc crontab which edits the system-wide crontab add your own cron job on the second to last line using the root user such as which dumps stdout and stderr into the logfile you created in step 1 verify it is working by waiting 1 minute and then cat home ubuntu crontest.log to see the output of the cron job
+on aws ubuntu ec2 machines cron jobs cannot be edited or made to run by using crontab -e or even sudo crontab -e for whatever reason
+
+
+
+55556975
+filesystems btrfs
+Pattern(s): 1	
+the clever way is simply mount the partition on mnt like mount dev sda1 mnt this mounts it read-write and you just edit mnt etc fstab to change the new uuid for your partition which you can get from either blkid or ls -lha dev disk by-uuid however the readonly filesystems will not see your changes so you think you ve failed
+you ll look at etc fstab and it will appear unchanged at least under btrfs it looks unchanged
+
+
+
+55625695
+for-loop arrays
+Pattern(s): 2	
+or use for-loop to iterate all values from arraylist
+your response is an arrays not an object
+
+
+
+55635440
+int double
+Pattern(s): 5	
+since the value of the string is not an int but a floating point number we have to parse it as a double first
+but to convert a string to the primitive double is not possible so we have to use the wrapper class double for this
+
+
+
+55647144
+calloc malloc
+Pattern(s): 3	
+here s a comment now deleted i made to another answer which turns out to not be strictly speaking accurate i checked the glibc source for the default gnu linux malloc library and verified that calloc does not normally manually clear memory which has just been mmap d
+and malloc doesn t touch the memory at all
+
+
+
+55662565
+folder directory
+Pattern(s): 5	
+go to root project cd android . gradlew clean in root folder run following command if there was index.js file react-native bundle --platform android --dev false --entry-file index.js --bundle-output android app src main assets index.android.bundle --assets-dest android app src main res if there are two files index.android.js and index.ios.js then run react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android app src main assets index.android.bundle --assets-dest android app src main res above two are single line commands
+go to your project folder android app src main assets delete index.android.bundle and index.android.bundle.meta if assets directory not there create new one
+
+
+
+55679355
+ienumerable iqueryable
+Pattern(s): 5	
+an ienumerable object has everything in it to enumerate over all the elements you can ask for the first element of the sequence and once you ve got an element you can ask for the next element until there are no more elements
+an iqueryable seems similar however the iqueryable does not hold everything to enumerate the sequence
+
+
+
+55679542
+client-side server-side
+Pattern(s): 3	
+as a side note if you are validating any kind of input you have to make sure that you also validate it on the server-side and not only client-side validation
+client-side validation is just for ux and can be easily escaped
+
+
+
+55716229
+salt md5
+Pattern(s): 3	
+so i will write it partly as pseudo code note that i m merging the password bytes and the salt bytes not the password string and the salt string
+then the md5 it taken only once from these merged bytes
+
+
+
+55755136
+daemons systemd
+Pattern(s): 5	
+in general systemd doesn t send a message to your daemons
+your daemons should generate the status notifications every time the internal status changes
+
+
+
+55770006
+std ostream
+Pattern(s): 5	
+you cannot use since std ostream does not have a copy constructor
+even if std ostream had a copy constructor using the above interface would cause the following problems
+
+
+
+55782360
+content-length content-type
+Pattern(s): 1	
+charset utf-8 host graph.microsoft.com content-length 111 expect 100-continue connection keep-alive odata.type microsoft.graph.opentypeextension extensionname com.test.nickname date openextension
+content-type was not specified and it was going as text
+
+
+
+55785822
+stdout stderr
+Pattern(s): 1	
+see this running in an online interpreter at advice re best-practice usage prompts are conventionally written to stderr on unix so for prompting-related purposes retaining the original stdout isn t generally called for
+prompting on stderr is what read -p does
+
+
+
+55858093
+maven pom.xml
+Pattern(s): 5	
+execution order in maven is based on two components first the lifecycle phase to which the execution is bound for executions bound to the same phase the ordering in the pom.xml takes precedence
+maven doesn t allow the same plugin to be configured twice so it s not possible to move the docker stop execution below spring
+
+
+
+55919559
+int chars
+Pattern(s): 1	
+also more information focusing on the differences between having and where is located in this piece of information i build a sample of your database in sqlfiddle for completeness reasons the sample database is build like that create table table_choice field_choiceid int unsigned not null primary key field_choicename varchar 2 chars set utf8 collate utf8_unicode_ci field_choicemaximumslot int unsigned null
+create table table_select field_selectedid int unsigned not null primary key auto_increment field_selectedchoice int unsigned not null foreign key fk_select field_selectedchoice references table_choice field_choiceid on delete cascade on update cascade
+
+
+
+55929508
+client-side server-side
+Pattern(s): 5	
+so the productviewmodel can stay the same but then we introduce a simple orderedproductviewmodel to represent the ordered products when calling order the concept of a cart is strictly client-side but if we do have a cart model that exists server-side just not an entity so the product list still returns a collection of productviewmodels to the view
+when the user goes to add a product to the cart client-side you store an array of objects consisting of the product id and quantity
+
+
+
+55973102
+nscache uiimage
+Pattern(s): 5	
+i was also having same issue cached images in nscache evicted when app goes into background
+i did create an example to handle this issue available in github import thing is to not here uiimage is not cached into nscache directly
+
+
+
+56032185
+google-chrome safari
+Pattern(s): 5	
+and here is the screenshot - google-chrome left safari right
+this is going to seem dumb - but move the into the filter element instead of the fecomponenttransfer - safari doesn t seem to check for it when it s put into a primitive
+
+
+
+56038238
+superclass subclassing
+Pattern(s): 1	
+this is not a python convention it is what oo best practice suggests you should do given the language you happen to be using leaves this decision up to you the superclass doesn t know about the subclassing but the subclassing is expected to know about the semantics of the superclass it inherited from
+ultimately it is up to the subclassing to maintain a consistent behavior of a true sub-typing which unfortunately the python language does little to help the programmer with
+
+
+
+56081613
+keras tensorflow
+Pattern(s): 5	
+adding to the above two answers ensure your tensorflow keras environment is using python 3.6
+keras tensorflow doesn t work very well with python 3.7 as of may 10 2019
+
+
+
+56101390
+children parent
+Pattern(s): 1	
+this should cause the element to wrap the floated children and make them visible that way
+you don t write which element has the dimensions 659.08 x 0 but this sounds very much like all its child elements are floated and the parent therefore doesn t have any height because it doesn t wrap floated elements by default
+
+
+
+56119344
+filesystems ntfs
+Pattern(s): 5	
+for example the virtualbox shared-folder filesystems allows control characters colon and pipe in filenames
+in windows ntfs filenames cannot contain the ascii control characters 0x01 - 0x1f
+
+
+
+56124867
+pyenv virtualenv
+Pattern(s): 1	
+or you can just install python from source to somewhere under your home dir -- but pyenv makes it easy to switch to that installation and back.
+a virtualenv doesn t have a full python installation
+
+
+
+56154713
+cpu processors
+Pattern(s): 1	
+for more visit android your cpu does not support vt-x
+a solution from android studio documentation if you have an amd processors in your computer you need the following setup requirements to be in place amd processors recommended amd ryzen processors android studio 3.2 beta or higher download via android studio preview page android emulator v27.3.8+ download via android studio sdk manager x86 android virtual device avd create avd windows 10 with april 2018 update enable via windows features windows hypervisor platform
+
+
+
+56206348
+super self
+Pattern(s): 5	
+note that super does not always return the parent object
+if the method dedicatedmasterstrategymixin.propose_update self ... calls super dedicatedmasterstrategymixin self .propose_update ... it finds the next propose_update method according to the method resolution order mro
+
+
+
+56215961
+maven pom.xml
+Pattern(s): 5	
+by default maven will not process copy resource files from the directory with sources
+you need to explicitly configure it in pom.xml or move the resource files into folder that will be of a resource type
+
+
+
+56236441
+ngrx rxjs
+Pattern(s): 1	
+combilelatest - when any observable emits a value emit the latest value from each notice ngrx selectors not completes if your input observables it s ngrx selectors use combinelatest
+rxjs provides several operators for combining streams you can find list of this operators here in your case i can recommend you use combinelatest or forkjoin which to use depend on type of input observables forkjoin - when all observables complete emit the last emitted value from each
+
+
+
+56265741
+viewdidload viewdidappear
+Pattern(s): 5	
+the sample code for that library has you call fpc.addpanel in your view controller s viewdidload not in viewdidappear
+the viewdidload function is only called once in the lifetime of a view controller but viewdidappear is called every time a view controller get s re-shown like when it is redisplayed after being covered by a modal and then uncovered again. the two are not interchangeable for that reason
+
+
+
+56268217
+strtol atoi
+Pattern(s): 5	
+you ll also notice that strtol has a lot of error-checking involved while atoi does not
+this is precisely why using atoi is not recommended
+
+
+
+56281698
+folder directory
+Pattern(s): 5	
+so when doing -v c data c app you hidden from your container all your application files inside app and left with only the files that exists in the host s c data directory possible solution create entrypoint script then mount the host folder to temp docker run -v c data c temp test
+when you are mounting volume with docker you are overriding the directory not adding to it
+
+
+
+56353153
+gunicorn uwsgi
+Pattern(s): 2	
+you can use gunicorn uwsgi to serve django
+but gunicorn uwsgi does not serve static files hence using reverse proxy server to serve static files
+
+
+
+56354107
+strtol atoi
+Pattern(s): 5	
+a possible way to achieve what you want is to use atoi or better strtol to convert the user input to integer type and then use the modulo operaptor to extract each digit and add them
+atoi does not do what you think it does
+
+
+
+56376599
+filesystems fat
+Pattern(s): 1	
+it says the filesystems library facilities may be unavailable if a hierarchical filesystems is not accessible to the implementation or if it does not provide the necessary capabilities
+some features may not be available if they are not supported by the underlying filesystems the fat filesystems lacks symbolic links and forbids multiple hardlinks
+
+
+
+56424762
+int chars
+Pattern(s): 3	
+the reason you see the large value in your first printf statement is that you are casting a signed chars to an unsigned int where the chars has already overflowed
+the machine interprets the chars as -126 first and then casts to unsigned int which cannot represent that negative value so you get the max value of the signed int and subtract 126
+
+
+
+56424832
+int chars
+Pattern(s): 1	
+int doesn t match the format specifier u which requires unsigned int
+on exotic systems which your target is not where unsigned chars is as large as int it will be promoted to unsigned int instead in which case 4 would have ub since it requires an int
+
+
+
+56515676
+width height
+Pattern(s): 1	
+plus normally you should set carousel width not height
+if you want to set it s height see complete answer
+
+
+
+56523497
+paramiko subprocess
+Pattern(s): 1	
+using encrypted private key in paramiko is not possible because ssh-agent doesn t give private key without memory dump
+the solution would be to use subprocess and call ssh command from that as any usual command
+
+
+
+56568360
+for-loop arrays
+Pattern(s): 5	
+you can do something like remember to add +1 to the index and your method would be this will be better that using a for-loop its not optimal it will increase o n .
+you need to iterate over an arrays to make the ngfor work this means that you need to make an arrays from the number of days as srjkaa said on his example
+
+
+
+56583994
+for-loop loops
+Pattern(s): 1	
+take a closer look at this section in this for-loop i is not an integer
+since this is evaluated as a for each loops it represents the current variable not the index at which that variable exists
+
+
+
+56596624
+san workgroup
+Pattern(s): 5	
+they generally require subject and san to contain in addition to dns name s and possibly ip address es validated as belonging to the applicant see next only human-understandable and non-misleading identifiers like the company name
+but see below. cas not used trusted publicly such as private cas within a business agency society or workgroup do not necessarily have to follow these rules although violating them may cause issues with software that was designed on the expectation or assumption they are followed
+
+
+
+56634095
+range max
+Pattern(s): 1	
+luckily the range class offers the handy method tolist which you can leverage for converting the range into a list and resolve the problem like in the following code snippet
+2 to max is not a scala.collection.immutable.list indeed but a scala.collection.immutable.range more precisely an instance of scala.collection.immutable.range.inclusive as mentioned in your error message
+
+
+
+56660363
+foreground tray
+Pattern(s): 5	
+fcm response with only data block in this case removing notification blocks from json to device token list data body body of your notification in data title title of your notification in title key_1 value for key_1 image_url www.abc.com xyz.jpeg key_2 value for key_2 app in foreground onmessagereceived remotemessage remotemessage called shows largeicon and bigpicture in the notification bar
+we can read the content from both notification and data block app in background onmessagereceived remotemessage remotemessage called system tray will not receive the message because of notification key is not in the response
+
+
+
+56661533
+foreground tray
+Pattern(s): 5	
+fcm response with only data block in this case removing notofocation blocks from json to device token list data body body of your notification in data title title of your notification in title key_1 value for key_1 image_url www.abc.com xyz.jpeg key_2 value for key_2 app in foreground onmessagereceived remotemessage remotemessage called shows largeicon and bigpicture in the notification bar
+we can read the content from both notification and data block app in background onmessagereceived remotemessage remotemessage called system tray will not receive the message because of notification key is not in the response
+
+
+
+56695223
+keras tensorflow
+Pattern(s): 1	
+i had the same problem with this tutorial and as others have mentioned the version of keras doesn t support separableconv1d
+however just updating the version of keras without also updating tensorflow caused other errors in the jupyter notebook
+
+
+
+56714658
+calloc malloc
+Pattern(s): 1	
+the name calloc means contiguous allocation
+no of blocks malloc assigns single block of demanded memory calloc assigns multiple blocks of the requested memory initialization malloc doesn t clear and initialize the allocated memory
+
+
+
+56718965
+clang icc
+Pattern(s): 1	
+footnote 1 except for x86-64 system v where clang uses an extra un-documented feature of the calling convention narrow integer types as function args in registers are assumed to be sign-extended to 32 bits
+gcc and clang both do this when calling but icc does not so calling clang functions from icc-compiled code can cause breakage
+
+
+
+56721429
+calloc malloc
+Pattern(s): 5	
+calloc function assigns memory that is the size of what s equal to num size
+you can see the following difference for mallac and calloc function initialization malloc doesn t clear and initialize the allocated memory
+
+
+
+56756400
+rcharts plotly
+Pattern(s): 1	
+i was a heavy rcharts user but nowadays in my opinion plotly is a better supported option rcharts is not in cran anymore
+furthermore plotly has an automatic way to make ggplot2 charts interactive
+
+
+
+56770287
+width height
+Pattern(s): 1	
+one caveat that you need to be aware of when using this method is that the row height and column width may not carry over to the new workbook
+to keep row height and column width you can first do move or copy sheet to the new workbook to ensure column width and row height are acceptable and then copy the content using source format again
+
+
+
+56787379
+google-chrome firefox
+Pattern(s): 5	
+google-chrome displays the disappearance of the cookie immediatly
+for me it seems this is an firefox issue not updating the developer information correctly
+
+
+
+56799215
+background-color transparency
+Pattern(s): 1	
+background-color is not inherited so it will use its initial value which is transparency that s why you see no color
+now if we consider the fallback cases 3 using initial means the initial value of background color so transparency using inherit means inherit the color but there is nothing to inherit so transparency again using unset we will have a mix of inherit and initial the unset css keyword resets a properties to its inherited value if it inherits from its parent and to its initial value if not
+
+
+
+56811503
+superclass subclassing
+Pattern(s): 1	
+no because subclassing are not forced to have the same constructors as their superclass they can have more or fewer constructors
+superclass has no explicit constructors subclassing are not forced to have an explicit constructor
+
+
+
+56828319
+superclass subclassing
+Pattern(s): 3	
+i get no error when i run the following output in init and without init first read this automatic initializer inherited as mentioned above subclassing do not inherited their superclass initializers by default
+however superclass initializers are automatically inherited if certain conditions are met
+
+
+
+56828612
+folder directory
+Pattern(s): 1	
+one of the problems is that you are hard-coding paths for just image 1.jpeg and therefore any other images within the folder are not moved
+take a look at this code snippet this code snippet will scan the source directory containing several images and will move these images to the destination directory
+
+
+
+56859418
+hash salt
+Pattern(s): 1	
+the salt is stored together with the hash to make it possible to validate it
+had the salt not been stored it would be impossible to validate the hash since you don t know the full input to the hash which includes the salt
+
+
+
+56863484
+imagemagick mogrify
+Pattern(s): 5	
+the bottom line is that it is not a proper imagemagick convert command
+if you want to process all images in a folder use mogrify not convert
+
+
+
+56867043
+maven pom.xml
+Pattern(s): 3	
+given that the pom.xml extract is mostly about a custom plugin and its configuration you will have to develop a matching gradle plugin to replicate the features of the maven plugin
+maven plugins cannot be used by gradle
+
+
+
+56889523
+jobs cron
+Pattern(s): 1	
+the overlapping jobs are not queued and are skipped
+the behaviour of fixedrate and cron is different
+
+
+
+57014989
+quicksort mergesort
+Pattern(s): 3	
+quicksorta performs marginally better than mergesort for large datasets on my system but performance will depend on the actual implementation of quicksort which does not necessarily use a quicksort algorithm
+mergesort does not allocate any extra memory and performs a stable sort which makes it a clear winner to sort lists
+
+
+
+57020510
+margin border-box
+Pattern(s): 5	
+for example on large screens you want them to be 33.33 wide but if you add margin on the left right the card will have a width of 33.33 + margin which makes the flexbox container wrap after two items because otherwise the total width would be more than 100
+you can solve this by a setting things to box-sizing border-box doesn t help with margin tough
+
+
+
+57030380
+division multiplication
+Pattern(s): 5	
+when tried with only multiplication division try without sum assignment operations
+edit as you can see multiplication is not necessarily the faster operation here
+
+
+
+57069443
+ionic angular
+Pattern(s): 2	
+i recommend you to use ionic and doesn t care about things like this
+in order to help you with this you should tell us if you re using angular router to navigate
+
+
+
+57140596
+folder directory
+Pattern(s): 5	
+got solution for me go to your project directory and check if this folder exists android app src main assets i if it exists then delete two files viz index.android.bundle and index.android.bundle.meta ii if the folder assets doesn t exist then create the assets directory there
+from your root project directory do cd android . gradlew clean finally navigate back to the root directory and check i if there is only one file index.js then run following command react-native bundle --platform android --dev false --entry-file index.js --bundle-output android app src main assets index.android.bundle --assets-dest android app src main res note that is one single command
+
+
+
+57143711
+isnull nullif
+Pattern(s): 3	
+introduction darkrob s answer probably contains the code you actually need - the change of nullif to isnull is probably the correct solution to your problem
+this answer is not an attempt to solve the problem but to explain why it happens in the first place and how a code that actually need nullif and not isnull should be written
+
+
+
+57159083
+jquery jsignature
+Pattern(s): 1	
+i use jquery 3.4 had the same issue
+im not quite sure where the problem came from but it was the phantom. first i added all recommended libs to my project and accessed the element as used to i received the same jsignature is not a function afterwards i assumed the problem might be in jquery version compatability so added few lines it was keeping throw the same error jsignature is not a function
+
+
+
+57159811
+virtualenv setuptools
+Pattern(s): 5	
+what i ve found is that you need to investigate your python interpreter location and make sure the virtualenv is not causing problems
+for instance if setuptools won t update then most likely there is already a part of your code or project that is continually using setuptools - prohibiting it from updating - and other packages need new versions of setuptools to install
+
+
+
+57182043
+innodb myisam
+Pattern(s): 1	
+innodb is a transactional storage engine of mysql whereas myisam is a non-transactional storage engine
+in other words innodb follows the acid properties to maintain the integrity of data but myisam doesn t follow acid properties thus failing to maintain the integrity of the data
+
+
+
+57214679
+cpython ironpython
+Pattern(s): 5	
+i wanted to verify that cpython was in fact waiting to verify the error handler until a decoding error was encountered and that ironpython was not so i checked the source code for both implementations
+cpython below is the code for the pyunicode_decodeutf8stateful function found in the unicodeobject.c file for python 2.6.2
+
+
+
+57231921
+windows wow64
+Pattern(s): 5	
+the file system redirector of wow64 emulator redirects file system paths of systemroot system32 to systemroot syswow64 where systemroot is the a system environment variable which refers to the windows directory c windows
+so normally the wow64 processes 32-bit processes running on 64-bit windows can not access the system32 directory
+
+
+
+57237468
+int chars
+Pattern(s): 5	
+the second last else statement checks the utf-16 values of the alphabet you can cast a chars to an int which determines ist value in utf-16 encoding for the lower cases it is 97-122 and for the upper cases their values are 65-90
+if the int value of the chars is not in this range the chars is not in the alphabet
+
+
+
+57241965
+for-loop arrays
+Pattern(s): 1	
+removing the empty rows in the arrays and giving the right limit in the for-loop fixed the problem
+per tehhowch the problem is that my for-loop did not account for the header rows in my spreadsheet or that an arrays is 0-indexed
+
+
+
+57245740
+html2canvas jspdf
+Pattern(s): 5	
+steps to reproduce stackblitz angular.json dependancies i ve avoided an issue with html2canvas by using html2canvas 1.0.0-rc.1
+see - the latest version of jspdf is not working with some issue with file-saver so i ve just gone for the version i know works jspdf 1.4.1 include types types html2canvas types jspdf for some reason in stackblitz you need to import these using import jspdf from jspdf
+
+
+
+57269585
+google-chrome firefox
+Pattern(s): 5	
+google-chrome supports both path it was google s original idea and composedpath
+firefox dose not supports e.path so change e.path to firefox supports composedpath
+
+
+
+57275380
+google-chrome firefox
+Pattern(s): 5	
+strict-transport-security in the deployment recommendations of hsts preload list it is stated add the strict-transport-security header to all https responses in apache this would look like note i did not include the preload directive developers should read the hsts preload list s deployment recommendations first before adding that x-xss-protection if you are using csp without allowing unsafe-inline then you probably don t need to worry about x-xss-protection anymore google-chrome has an intent to deprecate and remove the xss auditor
+firefox have not and will not implement x-xss-protection
+
+
+
+57296290
+flatmap concatmap
+Pattern(s): 5	
+flatmap still doesn t care
+concatmap however waits for a stream to complete before subscribing to the next
+
+
+
+57300748
+folder directory
+Pattern(s): 5	
+android app src main assets if the folder assets doesn t exist then create the assets directory there
+if it exists then delete two files viz index.android.bundle and index.android.bundle.meta then return to the root project directory and execute the command
+
+
+
+57339610
+setinterval settimeout
+Pattern(s): 5	
+as mentioned above setinterval does not play well with promises if you do not stop it
+in case you clear the interval you can use it like it seems that it s settimeout that fits the case
+
+
+
+57342597
+postgresql mysql
+Pattern(s): 5	
+08 00 00 time is how you do a type cast in postgresql not mysql
+mysql uses the sql standard cast
+
+
+
+57343034
+folder directory
+Pattern(s): 5	
+for maximum flexibility use the layouts folder as mentioned by dan
+if you need to provide custom routes to your users like domain.com then putting a file with a name _.vue in your pages directory will not work because you ll need it for your custom user routes
+
+
+
+57352574
+bytearrayoutputstream inputstream
+Pattern(s): 5	
+once done close out the bytearrayoutputstream and do whatever processing is needed
+by doing so the original inputstream does not have to be touched or interrupted in any way
+
+
+
+57354683
+kombu celery
+Pattern(s): 5	
+to communicate with rabbitmq kombu uses either py-amqp or if installed librabbitmq
+celery is not made to be arbitrary mq consumer
+
+
+
+57364462
+cpu processors
+Pattern(s): 3	
+for example you lose the ability to cull out-of-frustum objects on the cpu which is highly recommended best practice even on a more modern gpu
+mali-400 is an old design with a very single vertex processors which doesn t scale with increasing core count so it can definitely struggle with vertex complexity where complexity is
+
+
+
+57373441
+hive hdfs
+Pattern(s): 5	
+hive cannot extract the schema from the data
+in order to read the data from the avro files in hdfs using a hive query hive requires a schema
+
+
+
+57403372
+google-chrome firefox
+Pattern(s): 5	
+and with all set up correctly you might get something like most likely related to google-chrome devtools listening on ws 127.0.0.1 57725 devtools browser 34a42518-c3d9-4e14-af8e-9a137b11625b 0808 012434.304 info console 0 the content-security-policy directive prefetch-src is implemented behind a flag which is currently disabled. source 0 0808 012437.286 info console 240 no signed in google accounts available - visit accounts.google.com to ensure that at least one account is signed in otherwise no data will be returned from this api. source mss boq-identity js k boq-identity.identityyolowebmoduleset.en_us.fufh6x86rzu.es5.o am aw d 1 rs aoaemlh5bdy58s_qoulxsyv6tympthlvyw m yolo_frame_library 240
+you ll get that error if firefox isn t installed or isn t accessible on your path
+
+
+
+57407675
+inline constexpr
+Pattern(s): 3	
+constexpr does not imply inline for variables c++17 inline variables while constexpr does imply inline for functions it does not have that effect for variables considering c++17 inline variables
+and remove the inline leaving just constexpr then the variable gets multiple addresses which is the main thing inline variables avoid
+
+
+
+57441498
+int double
+Pattern(s): 5	
+also from the same javadoc regarding the conversion d integral the result is formatted as a decimal int so the format specifier you need for int is d which you are correctly using however an int does not have precision
+a float or a double may have precision but int does not
+
+
+
+57452719
+apache nginx
+Pattern(s): 1	
+you can have nginx take error response codes coming from apache in consideration and act differently by use of proxy_intercept_errors which combined with error_page can allow you to rewrite response codes error messages from apache to masquarade app failures as service unavailable
+nginx will not alter the 500 from the app as long as it doesn t step on a problem contacting fetching data from apache
+
+
+
+57452719
+apache nginx
+Pattern(s): 3	
+if apache is completely down you should be getting a 502 bad gateway because in your setup apache is the gateway for nginx
+the same will happen if nginx does not like apache s response in a way when apache sends a response which has headers exceeding nginx s proxy_buffer_size yes you should be getting 504 gateway timeout when apache app is timing out in relation to nginx timeouts see point 2
+
+
+
+57481041
+sudo passwd
+Pattern(s): 5	
+get into mysql instance sudo mysql -u root note mysql -u root will throw error error 1698 28000 access denied for user root localhost so use sudo to run this command
+now to change the passwd of the root user i tried the following commands this has thrown an error error 1348 hy000 column passwd is not updatable this has thrown an error error 1348 hy000 column authentication_string is not updatable but the following command worked alter user root localhost identified by mypassword
+
+
+
+57481499
+int chars
+Pattern(s): 1	
+cur.execute create table guvy1 id int not null primary key autoincrement unique ertrag int betriebskosten int bruttobetriebsgewinn int betriebsausgaben int forschung_und_entwicklung int vertriebs_und_verwaltungskosten int personalkosten int abschreibung_und_abgrenzungen int sonstige_betriebskosten int geschäftsaufwand int betriebseinnahmen_vor_zinsen_und_steuern int neutrale_ertrage int gewinn_vor_einkommenssteuer int steueraufwand int nettogewinn_fur_weitere_geschaftstatigkeit int nettogewinn int nettogewinn_verfugbar_fur_aktionare int
+sqlite is perhaps the only well-used dbms that supports multiple forms of escaping spaces symbols chars and keywords double quotes ansi standard used by oracle db2 postgres teradata cur.execute create table guvy1 id int not null primary key autoincrement unique ertrag int betriebskosten int bruttobetriebsgewinn int betriebsausgaben int forschung und entwicklung int vertriebs- und verwaltungskosten int personalkosten int abschreibung und abgrenzungen int sonstige betriebskosten int geschäftsaufwand int betriebseinnahmen vor zinsen und steuern int neutrale erträge int gewinn vor einkommenssteuer int steueraufwand int nettogewinn für weitere geschäftstätigkeit int nettogewinn int nettogewinn verfügbar für aktionäre int backticks for mysql mariadb compatibility cur.execute create table guvy1 id int not null primary key autoincrement unique ertrag int betriebskosten int bruttobetriebsgewinn int betriebsausgaben int forschung und entwicklung int vertriebs- und verwaltungskosten int personalkosten int abschreibung und abgrenzungen int sonstige betriebskosten int geschäftsaufwand int betriebseinnahmen vor zinsen und steuern int neutrale erträge int gewinn vor einkommenssteuer int steueraufwand int nettogewinn für weitere geschäftstätigkeit int nettogewinn int nettogewinn verfügbar für aktionäre int square brackets for sql server ms access compatibility nonetheless as commented above consider naming table column identifiers with alphanumeric chars not starting with a number with underscore as only symbol and avoid keywords reserved words of dbms
+
+
+
+57481499
+int chars
+Pattern(s): 1	
+sqlite is perhaps the only well-used dbms that supports multiple forms of escaping spaces symbols chars and keywords double quotes ansi standard used by oracle db2 postgresql teradata cur.execute create table guvy1 id int not null primary key autoincrement unique ertrag int betriebskosten int bruttobetriebsgewinn int betriebsausgaben int forschung und entwicklung int vertriebs- und verwaltungskosten int personalkosten int abschreibung und abgrenzungen int sonstige betriebskosten int geschäftsaufwand int betriebseinnahmen vor zinsen und steuern int neutrale erträge int gewinn vor einkommenssteuer int steueraufwand int nettogewinn für weitere geschäftstätigkeit int nettogewinn int nettogewinn verfügbar für aktionäre int backticks for mysql mariadb compatibility cur.execute create table guvy1 id int not null primary key autoincrement unique ertrag int betriebskosten int bruttobetriebsgewinn int betriebsausgaben int forschung und entwicklung int vertriebs- und verwaltungskosten int personalkosten int abschreibung und abgrenzungen int sonstige betriebskosten int geschäftsaufwand int betriebseinnahmen vor zinsen und steuern int neutrale erträge int gewinn vor einkommenssteuer int steueraufwand int nettogewinn für weitere geschäftstätigkeit int nettogewinn int nettogewinn verfügbar für aktionäre int square brackets for sql server ms access compatibility nonetheless as commented above consider naming table column identifiers with alphanumeric chars not starting with a number with underscore as only symbol and avoid keywords reserved words of dbms
+this includes avoiding accented chars as used by various languages
+
+
+
+57492152
+prometheus metrics
+Pattern(s): 5	
+if you don t see the metrics in apis custom.metrics.k8s.io v1beta1 it means that the prometheus adapter couldn t discover it
+the prometheus adapter discovers metrics by using the value of your seriesquery field for an api v1 series request to prometheus done periodically with a frequency defined by the relist interval
+
+
+
+57495483
+keras tensorflow
+Pattern(s): 1	
+keras doesn t have an eager mode like tensorflow and it depends on models or functions with placeholders to receive and output data
+so it s a little more complicated than tensorflow to do basic calculations like this
+
+
+
+57498612
+free realloc
+Pattern(s): 5	
+since the argument to free is not declared neither is the first argument to realloc
+realloc can free the memory that its argument points to if it can t reuse the same memory
+
+
+
+57500044
+google-chrome safari
+Pattern(s): 5	
+google-chrome doesn t load the same video multiple times
+i only loaded that video once on safari but according to web inspector it loads different sections of the video to reduce the load on your computers memory
+
+
+
+57515886
+folder directory
+Pattern(s): 5	
+this class has properties that represent a directory including parent which returns a new directoryinfo for the parent folder
+it also has a name property which is the name of the folder not to be confused with fullname which is the full path to the folder which we don t need
+
+
+
+57549142
+ienumerable ilist
+Pattern(s): 1	
+i suspect the main problem you are encountering is the fact that indexing into ienumerable is not possible
+i would guess that ilist may be a more appropriate interface for the items which would allow greater control over the items in general
+
+
+
+57556023
+istio microservices
+Pattern(s): 1	
+istio implements the side-car pattern to be coupled to each microservices
+the microservices not necessarily but usually are deployed in infrastructures that allow elastic scaling in which the system is delegated the task of adjusting the number of instances of each microservices based on the scaling strategy configured
+
+
+
+57591885
+velocity thymeleaf
+Pattern(s): 3	
+like nathan hugues said you can still use velocity it s just that spring dropped a support package for it
+as mentionned in the blog post you quoted thymeleaf has spring support it is just provided by the thymeleaf team not the spring team
+
+
+
+57606421
+folder directory
+Pattern(s): 1	
+for that reason a command line with dir and findstr is executed by for in a separate command process executed in background started with comspec c and the specified command line appended to get all file names to copy with filtering out all file names in source folder tree starting with folder path being equal target folder path
+so executed by for is for example dir searches in specified directory c old and all its subdirectories because of option s for non-hidden files because of option a-d-h attribute not directory and not hidden matching the wildcard pattern any file name and outputs found in bare format just the file names because of option b with full path because of option s
+
+
+
+57612062
+installation upgrade
+Pattern(s): 5	
+you may also need to run the database upgrade several times. also make sure you move your old 1.14 wiki installation to an extra folder and upload a fresh mediawiki installation do not just overwrite your existing files in the 1.14 one with the new mediawiki versioning
+in the end i went the long route and upgrade versioning by versioning first on a local xampp dump then on the server after i identified all the issues for each versioning upgrade checked the release notes for each versioning and made the required changes to my custom skins replaced deprecated extensions etc
+
+
+
+57621783
+width height
+Pattern(s): 3	
+swift 5.0 code for pavel alexeev s solution. accounting for some syntax updates and also screen width because i ve found that if the device is being held in the landscape orientation when the app is launched the screen height is not the actual portrait height but the current landscape height
+so i check that the width is accounted for too
+
+
+
+57628015
+for-loop loops
+Pattern(s): 3	
+your for-loop will iterate only two times because you zip list with all mondays with list that contains only two elements that means as well that you will check only two first mondays of this year as well
+this for complicated loops is not necessary
+
+
+
+57632974
+luis bots
+Pattern(s): 3	
+if you ve done your reading you should see that dispatch works like this your bots calls only the parent dispatch luis app the parent dispatch luis app looks at its intents to see if any match any of its connected child apps luis or qnamaker if it matches luis it returns the top intent from that child app
+if it matches qnamaker it returns the qnamaker intent and your code should call qnamaker i have a sneaking suspicion that your luis apps aren t laid out correctly
+
+
+
+57675329
+folder directory
+Pattern(s): 1	
+i ve seen the security error when an asp.net application failed to generate temporary files xml serialization assembly in the following circumstances running under an account without a profile so no account-specific temp directory did not have permission to access the windows temp folder
+it s a subjective question but i would treat its unavailability as a fatal error the same as i would do with a temp folder that is inaccessible due to security permissions
+
+
+
+57676956
+google-chrome firefox
+Pattern(s): 1	
+according to the discussion about this google-chrome bug google-chrome has a hard limit of 500 peer connections and closed connections are also included until they are garbage collected by the browser
+it seems like firefox does not have the same problem
+
+
+
+57697032
+for-loop loops
+Pattern(s): 3	
+if you would want use while loops you should use 6 instead not 6 because when for finally a 6 and then the for-loop would run again
+use while loops is not necessary because for stop when there aren t more dict in the list
+
+
+
+57720702
+folder directory
+Pattern(s): 5	
+in your file directory that contains your ipynb file there is a folder called .ipynb_checkpoints
+this folder does not show in the jupyter application so find it through windows explorer. inside there s will be a file called urfilenamehere-checkpoint.ipynb copy paste it to your file directory and open through the jupyter application it should probably work
+
+
+
+57733609
+google-chrome firefox
+Pattern(s): 3	
+i had a similar issue but the headless worked in firefox and not google-chrome
+the xpath for the google-chrome element worked only in headed mode
+
+
+
+57739718
+hive hdfs
+Pattern(s): 1	
+you can see below pages for more info my answer about msck repair language ddl - apache hive hope the above answer helps you
+when you add partitions manually in hdfs and not through hive query statements hive does not capture these directory details automatically and we need to make the hms to be aware of the newly added hdfs directory by running msck repair
+
+
+

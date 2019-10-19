@@ -1,0 +1,174 @@
+56662732
+free	malloc
+Pattern(s): 3	
+because system calls are costly your standard library will try to avoid system calls and prefer marking free -d memory zones as reusable in future malloc -s
+
+
+56672107
+equals	gethashcode
+Pattern(s): 7	
+a correct answer will depend on what type the key and value parts are if one of the key and value parts is a for example the equals comparison is trickier but in general assuming that all the keys and values have all the keys and values equals and gethashcode methods implemented correctly we can use the system.linq extension methods any and except to get the result
+
+
+56721826
+inherited	properties
+Pattern(s): 10	
+this is the real form of inherited built into javascript and the foo properties is missing in all the objects composing the entire prototype chain then the value undefined is returned s the business which really seats behind the es6 class keywork which is a convenience which hides this mess and gives you the impression that javascript has a form of class inherited class inherited is more widely known and most of programmers find it easier to think of than prototypal inherited
+
+
+56758103
+range	max
+Pattern(s): 0	
+better compression with range constraints adding a self-imposed constraint partitions are sorted from largest to lowest part we can deduce for p in parts num size max constraints 2 3 can be applied recursively to all by noting that is in therefore we can compute better imin imax and inject better imin imax in the previous implementation live demo todo sanity checks the provided implementations can go into undefined behaviour if the partition is not sorted or the partition index is not valid
+
+
+56781298
+google-chrome	firefox
+Pattern(s): 10	
+google-chrome node.js firefox apparently firefox wants this year to have 4 digits exactly while google-chrome v8 is more flexible
+
+
+56811503
+superclass	subclassing
+Pattern(s): 7	
+the constructor in the subclassing doesn t have to match the one in superclass but it should call it using super .. subclassing should provide a constructor that calls super . like this or even this superclass has more than one explicit constructor subclassing are forced to provide at least one constructor that calls any of the superclass s constructors subclassing could be any of the following or or or any combination of those constructors
+
+
+56892939
+integer	fractions
+Pattern(s): 0	
+they first find the best solution with fractions values for the variables number of steps then successively divide the allowed region into smaller sections with integer edges and eventually stop when they find the best solution at an edge
+
+
+56919769
+gam	mgcv
+Pattern(s): 0	
+just giving the sampling weights to mgcv gam won t do either of gam treats the weights as frequency weights and so will think gam has a lot more data than gam actually has
+
+
+56959567
+cstring	bstr
+Pattern(s): 8	
+about allocsysstring cstringw servicenamew servicename creates a copy in bstr they re more complex than cstring they re null-terminated too but they also have length at negative offset
+
+
+56990602
+disk	ram
+Pattern(s): 7	
+it has nothing in common with selenium you need to get a snapshot of what s going on with your operating system when you launch the browser for example using windows performance monitor blind shot chrome browser is very memory intensive you can check how much ram it consumes using windows task manager and if your machine is short on ram your machine starts intensively using page file to store some memory pages to disk and since disk is much slower comparing to the ram - you re getting inconsistent results
+
+
+56999051
+nullreferenceexception	objectdisposedexception
+Pattern(s): 7	
+sure ideally you d want an objectdisposedexception out of an object which has been disposed when something attempts to access any of this practice s functions but in place of that a nullreferenceexception is better than no exception at all
+
+
+57010562
+range	minimum
+Pattern(s): 0	
+the query also makes little sens to check both for an id to be greater than minimum less than maximum and within that range
+
+
+57032106
+multiplying	division	multiplying	multiplication	division	multiplication
+Pattern(s): 0	10	
+this explains why you are not seeing multiplication as faster than division when timing with instead let s write setup code which performs multiplication and division on random numbers yields on my machine multiplying is faster 99.00 of the time
+
+
+57062091
+children	parent
+Pattern(s): 0	
+this will hide any children that would overflow an elements height when less than this children 1 the reason the bg color is in between is because you set the background color of the parent element
+
+
+57073230
+sorting	grouping
+Pattern(s): 0	
+and in case of how many times the input size is executed then bubble sort is executed up to o n 2 distribution sort grouping more than one sorting alghorithm but there is no sorting faster than ps if this comes from high school professor there is good chance this comes from high school professor does not have full understanding of complexity theory either
+
+
+57076814
+uninstall	upgrade	versioning	upgrade
+Pattern(s): 7	
+the issue may also turn into an install problem when the uninstall runs as part of a major upgrade that requires the older versioning to be removed first
+
+
+57153085
+rsa	dsa	ecdsa	rsa
+Pattern(s): 0	0	
+dsa in general s slower than rsa and ecdsa dsa in general has more perfect or broken states than rsa and dsa in general key generation is several orders of magnitude slower than rsa and ecdsa
+
+
+57174465
+16-bit	64bit
+Pattern(s): 7	
+rax is the total 64bit eax is the lower 32 bits ax is the lower 16-bit ah represents the h igh 8 bits of ax al represents the l ow 8 bits of ax therefore if your 64bit register contains a0b1c2d3e4f5a6b7 eax e4f5a6b7 ax a6b7 ah a6 al b7 you can identify this visually very easily by opening the windows calculator and setting this to programmer mode hexadecimal mode and a qword value
+
+
+57244204
+superclass	subclassing
+Pattern(s): 0	
+as described in the above diagram we have here a superclass called animal which has three subclassing mammal bird and fish some animals share common behavior a cat and a dove can both walk but the cat cannot fly these kinds of behavior are orthogonal to this classification so we cannot implements these behavior in the superclasses if a class could have more than one superclass it would be easy we could create three other classes walker swimmer flyer
+
+
+57259652
+swift	objective-c
+Pattern(s): 0	
+swift does not make swift code accessible to objective-c by default to avoid making its code larger than swift needs to be
+
+
+57325379
+width	height
+Pattern(s): 7	7	
+in scrollviewer scrolling only when the content width height is larger than the container width height but the internal viewable area of the scrollviewer is infinite so if you want the child scrollviewer to work you need to set the width height for the child
+
+
+57332156
+scylla	cassandra
+Pattern(s): 2	
+details here given your use case if you envision storing multiple tb of data i would recommend scylla over cassandra
+
+
+57386013
+width	height
+Pattern(s): 7	
+your image component is actual vertically bottom set backgroundcolor and you ll see your image component but as the actual image not image component will resize to fit the image componenti in this case because of width is bigger height so the image will verticaly center inside image component you need either set resizemode cover or change abosolute property top bottom
+
+
+57386889
+subtract	add
+Pattern(s): 10	
+attempt 2 check whether adding or subtract is better with two bits of information start x01 add x10 divide x1 add x+1 0 divide x+1 4 operations subtract x0 divide x 4 operations subtract x00 divide x0 divide x 3 operations add x+1 possibly not optimal 4 operations conclusion for x01 subtract will result in at least as few operations as adding 3 and 4 operations versus 4 and 4 operations to reach x and x+1
+
+
+57501764
+getter	setter
+Pattern(s): 3	
+also i recommend using setter and getter and making your class variables private rather than making setter and getter public
+
+
+57530075
+setinterval	settimeout
+Pattern(s): 3	
+i prefer using settimeout and call the function object each time when needed that way you don t need a global variable to maintain the value returned by setinterval
+
+
+57708587
+move	drag
+Pattern(s): 3	
+read more here i would recommend using drag and drop feature to move files into xcode
+
+
+57718746
+width	height
+Pattern(s): 0	
+anything outside of the svg will not be visible so if those coordinates are greater than the width or height of the svg your circle will appear outside of the svg bounds
+
+
+57737953
+post	get
+Pattern(s): 0	
+your form should be this you should use post method when you re creating a something new this is safer than using get method
+
+

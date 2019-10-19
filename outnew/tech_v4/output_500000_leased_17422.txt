@@ -1,222 +1,1332 @@
+50851552
+ratingbar	imageview
+Pattern(s): 7	
 the user can touch drag or use arrow keys to set the rating when using the default size ratingbar as per ypur requirement you need to make custom ratingbar using imagebutton or imageview which you want to use with touchlistener but is not good way as ratingbar when using a ratingbar that supports user interaction placing widgets to the left or right of ratingbar is discouraged the number of stars set via setnumstars int or in an xml layout will be shown when the layout width is set to wrap content if another layout width is set the results may be unpredictable
+
+
+50874563
+int	chars
+Pattern(s): 0	
 instead you can search for the last space in the string and take anything before sscanf as the name make sure sscanf is less than 15 chars + 1 null terminator and everything after the space you pass to strtol which converts sscanf to int
+
+
+50877546
+prometheus	grafana
+Pattern(s): 3	
 the question is old but if you were to do the question nowadays i d recommend using prometheus as data source for grafana along with the question s jmxexporter agent on cassandra
+
+
+50882842
+lxml	libxml2	lxml	libxslt	libxml2	libxslt
+Pattern(s): 10	
 it s installed with lxml in fact you probably want to use lxml instead of libxml2 because lxml is based on libxml2 is more pythonic sudo pip install lxml libxml2 page says note that some of the python purist dislike the default set of python bindings rather than complaining i suggest some of the python purist have a look at lxml the more pythonic bindings for libxml2 and libxslt and check the mailing-list
+
+
+50957270
+versioning	upgrade
+Pattern(s): 7	
 though your values table would require the application to be adjusted in probably many places and if your mysql versioning is older an upgrade of the database
+
+
+50978927
+min	max
+Pattern(s): 0	0	
 edit as klutt pointed out this solution adds some bias of this solution own since the obtained number has a 50 chance to be lower than your min and a 50 chance to be higher than your max regardless of size difference between the two intervals
+
+
+51025256
+width	height
+Pattern(s): 0	
 and assign this method on list group click important although this code should work in most cases i had some problems when child list items were textviews with hence child list items height depended on child list items width which might be connected to this problem viewgroup textview .. .getmeasuredheight gives wrong value is smaller than real height
+
+
+51086974
+int	chars
+Pattern(s): 7	0	
 i tried what the previous post recommanded but it doesn t really work here is the code based on the previous post change one of example 1 since unsigned chars is smaller than int to unsigned int since x is already an unsigned int we only apply the int promotion to y
+
+
+51117368
+switching	screens
+Pattern(s): 10	
 i m pretty sure stop gets called when you force kill the app switching apps lock the screens phone auto locks or anything really where the app switching apps is no longer visible
+
+
+51140241
+children	parent
+Pattern(s): 10	10	
 the issue with children referring to children parent is more complex
+
+
+51145298
+int	double
+Pattern(s): 7	
 if this operation overflows this operation means the range of double is smaller than the range of int and we can use dbl_max -dbl_max as max_double_to_int and min_double_to_int respectively
+
+
+51229306
+for-loop	loops
+Pattern(s): 10	
 this question doesn t make much sense as t excludes sed and awk which would be the obvious answers and also restricts the solution to a for-loop whereas a while loops is the more usual choise
+
+
+51379585
+flask	django
+Pattern(s): 8	
 flask abstracts all the boring wsgi http stuff nicely but flask s more minimal than django
+
+
+51388053
+getattr	setattr
+Pattern(s): 7	
 a typical reader can figure out what a getattr means more easily than figuring out a setattr plus a descriptor __get__ call to manually bind a method obviously and it still won t help many static tools understand your type s methods
+
+
+51393834
+for-loop	loops
+Pattern(s): 7	
 as ulrich eckhardt pointed out a better way to implement this is to use a for-loop this s more clear this way and the scope of ptr is limited to loops which is good because we don t need it later
+
+
+51461217
+children	parent
+Pattern(s): 7	
 as i mentioned in a comment if the parent consumes the output from the children the parent is usually easier to use an unix domain datagram socket pair or pair per child process
+
+
+51597753
+min	max
+Pattern(s): 7	0	
 looking at that last line if max is less than min then min prevails
+
+
+51698372
+min	max
+Pattern(s): 7	0	
 if min is strictly less than max then tabbing will cycle naturally until either the min or the max is reached
+
+
+51756429
+git-rebase	amend
+Pattern(s): 0	
 it s certainly easier and safer than git-rebase it doesn t modify true history and it keeps the branch tree clean using amend is also a good choice if you are correcting the most recent commit but an errata commit may be a good choice for older commits
+
+
+51836755
+width	height
+Pattern(s): 0	0	
 and i ve found that you use input.mouseposition as the index to seek pixel in texture.you also should note that once the index to seek pixel in texture.you donnot match if the pixel coordinates are out of bounds larger than width height or small than 0 the index to seek pixel in texture.you will be clamped or repeated based on the texture s wrap mode
+
+
+51871968
+width	height
+Pattern(s): 0	
 you can set the width and height of an iframe to configure how much of the website will be visible at one time but making the width and height smaller than the width and height of the website will just cause scrollbars to appear so the user can scroll to see the whole website
+
+
+51919938
+strcpy	strncpy
+Pattern(s): 10	8	
 merged by junio c hamano -- gitster -- in commit e28daf2 15 aug 2018 banned.h mark strncpy as banned the strncpy function is less horrible than strcpy but is still pretty easy to misuse because of strcpy funny termination semantics
+
+
+51935176
+folder	directory
+Pattern(s): 7	
 a new .py file called with apps.py in the main folder same folder that contains settings.py you are put the apps.py module in the wrong location apps.py should be inside your app s directory
+
+
+51964508
+pandas	seaborn
+Pattern(s): 7	
 seaborn is more for making the plots more readable with less direct intervention in the script and generally gets the most mileage when dealing with pandas dataframes for example yields as to how to set the styles the way you want for the variables you re trying to show that i m not sure how to handle
+
+
+51993188
+mouseover	mouseenter
+Pattern(s): 10	
 in this particular case it makes little difference but in other situations mouseover can lead to unexpected outcomes whereas mouseenter is somewhat more predictable
+
+
+52000660
+mvp	presenter
+Pattern(s): 2	
 i prefer mvvm over mvp for the below reasons reactive mvvm is short term for model view viewmodel where view model is a similar layer of abstraction over presenter which provide data to view
+
+
+52001610
+bufferedreader	filechannel
+Pattern(s): 0	
 lines filechannel might perform better than the bufferedreader - but i also find lines filechannel a lot more low-level in lines filechannel api so unless you have very special performance requirements i would leave the readahead buffering to bufferedreader and filereader
+
+
+52045658
+range	minimum
+Pattern(s): 0	
 here is the conditional formatting equation i came up with to highlight cells that do not pass muster to highlight cells that do pass test first equation for each cell in my range a3 a100 i am checking if 1 my cell is less than the minimum between the start of the range and a mycurrentrow and that the value of cell is not 0 we could set up dynamic range to... second equation here we are doing the same thing but simply flipping the to a and adding an to account for the fact that at times cell was the earliest wake up time in the range
+
+
+52050008
+chisel	verilog
+Pattern(s): 0	
 what chisel did better than verilog is the diplomacy pattern design which means instead of declare every details of circuits like the bit width or register delays chisel does this automatically this can automatically infers the interface connection and thus generate your desired circuit
+
+
+52106945
+fold	catamorphism
+Pattern(s): 10	
 clojure s fold seems to be constrained to reductions with a monoid whereas scala s fold is closer to the general list catamorphism at the expense of parallelism
+
+
+52122606
+stateless	stateful
+Pattern(s): 2	
 this post will also guide which one to choose between stateful component and stateless component
+
+
+52136614
+folder	directory
+Pattern(s): 10	
 here is a simple program to list all files and directory in a folder it seems less complicated than your code it should be easy to find out by looking at the dirent structure for each entry in a folder whether or not it is a directory and if so abort
+
+
+52226988
+bottle	flask
+Pattern(s): 7	10	0	
 as of sep18 also have a look on quart apistar as of mar19 add fastapi looks very promising nota bottle is lighter faster than flask but with less bells whistles falcon is fast
+
+
+52248708
+int	chars
+Pattern(s): 0	
 the chars are large enough to require a full int value - and there may be more than one chars per cell the video attributes and color are stored in separate fields of a structure each cell row and column in a window is stored as a cchar_t for the video attributes pay attention to the portability section of the attributes manual page
+
+
+52294885
+qlist	qvector
+Pattern(s): 10	
 edit if you dont need the qpair.first to interact with other api alot you can use qvector to replace qlist which is faster according to qt official
+
+
+52316621
+minimum	max
+Pattern(s): 0	
 use linq it will return record that it price more than minimum value and less than max value
+
+
+52334302
+sorting	grouping
+Pattern(s): 0	
 will work as long as all your users are on the planet after making all the calculations use an array sorting method to find the x closest nodes to each node and there you have it you may or may not want to prevent a user being grouping on more than one grouping but that s just business logic actual code would be a little too much to provide at this time without seeing some of your progress first but this is basically what you need to do algoritmically
+
+
+52338691
+uistackview	uicollectionview
+Pattern(s): 3	
 for your current problem i recommend using uistackview horizontal with distribution set to fillequally and if items exceed screen width embed your current problem inside a uiscrollview or use a uicollectionview instead
+
+
+52365808
+ssl	https
+Pattern(s): 0	
 the most simple solution go to settings change from https to http try it now if it works there is a issue with woocommerce forcing autentication you can simply leave it be and use wp force ssl to keep runing the ssl certification and have no more problems with the ssl certification
+
+
+52387073
+stdout	fflush
+Pattern(s): 0	
 i m pretty sure you guys aren t experiencing any errors the adding of n does nothing more than fflush your printing buffer and make your printing buffer in fact a visible indication within your stdout or a terminal for this matter
+
+
+52393988
+postgresql	mysql
+Pattern(s): 10	
 an example of what s possible in postgresql 11 but not mysql 8 is this with t v as values 1 1 3 5 5 5 6 select v array_agg v over o groups between 1 preceding and 1 following exclude current row as current array_agg v over o groups between 1 preceding and 1 following exclude group as group array_agg v over o groups between 1 preceding and 1 following exclude ties as ties array_agg v over o groups between 1 preceding and 1 following exclude no others as no_others from t window o as order by v yielding i ve blogged about these postgresql features more in detail here
+
+
+52454347
+int	double
+Pattern(s): 10	10	
 that case is highly probable that representing small maps by an array of pairs of int double is more efficient both in terms of memory and in terms of cpu time
+
+
+52457528
+for-loop	arrays
+Pattern(s): 10	
 to check by doing would require you to implement your arrays as below and it will look for keys that are identical to your search or if you want to search for a word in the keys of an associative arrays or with a foreach however doing a foreach with a for-loop is faster and more optimized
+
+
+52498368
+uiviewcontroller	uitabbarcontroller
+Pattern(s): 0	
 in a typical application there is a uitabbarcontroller and a uitabbarcontroller embeds 3 or more uiviewcontroller as a uitabbarcontroller tabs
+
+
+52602396
+min	max
+Pattern(s): 0	7	0	
 in your case for instance you initialise a variable called value to be the minimum your test to continue is whether value is less than max which it will be unless min is greater than max the thing you do each time after executing the body of loops is .
+
+
+52604045
+min	max	subtract	add
+Pattern(s): 0	
 this is a lot simpler how this works strips off the minutes and seconds from the time reducing every date to just the date and the hour finds the max consumption in that hour finds the max consumption value whose id is less than the min id in the hour the max consumption value from the previous hour subtract the max consumption this hour from the max consumption last hour to give the consumption for this hour there are other ways to skin this cat this works by join the data to the data on id id-1 gets you a this table and a previous table work out the change in consumption between successive records this.value - previous.value and then group them up by the hour same technique as above reduce the datetime to a date and add on the hour s and sum them edit modified the first query to work with your revised sample data the significant change is added a where clause to restrict the rows to just the subset day and device
+
+
+52607451
+width	height
+Pattern(s): 7	
 visibility means that the element is not only displayed but also has a height and width that is greater than 0 element_to_be_clickable element_to_be_clickable locator is defined as follows class selenium.webdriver.support.expected_conditions.element_to_be_clickable locator parameter locator - used to find the element returns the webelement once the webelement is visible enabled and interactable clickable  description an expectation for checking an element is visible enabled and interactable such that you can click an element
+
+
+52630768
+namedtuple	dictionary
+Pattern(s): 0	
 also namedtuple use less memory than a dictionary since namedtuple implements __slots__
+
+
+52641112
+int	double
+Pattern(s): 7	
 the answer should be because 10000000000 is int and 10000000000 is int can not be stored because 10000000000 is int is more than 2 147 483 647 that is why you are getting the error int number too large to fix the issue make the issue double by appending d
+
+
+52714457
+quicksort	timsort	quicksort	mergesort	mergesort	timsort
+Pattern(s): 10	0	7	
 timsort is faster than mergesort but timsort still slower than quicksort because quicksort has fewer data movements on random data quicksort requires o log n extra space while timsort requires o n to provide stability which also leads to an overhead
+
+
+52763512
+width	height
+Pattern(s): 7	0	
 you have to respect the aspect ration when you calculate the distance to the center point of the circular view note if you have a rectangular viewport where the width is greater than the height then a perfect circle is squeezed at a perfect circle left and right to an ellipse when the coordinates are transformed from view space the normalized devices space
+
+
+52769950
+range	max	range	min	min	max
+Pattern(s): 7	
 what happens when the range has a negative number or the max is lower than the min
+
+
+52840920
+jasmine	mocha
+Pattern(s): 2	
 ive never heard of loading a class from another file without a class being exported and i dont know what mocha.addfile does since i prefer jasmine over mocha and chai...especially for typescript projects
+
+
+52843769
+inherited	subclassing
+Pattern(s): 0	
 in your case using inherited is tight coupling and also breaks in encapsulation if you have more than one subclassing also same for abstract class
+
+
+52909402
+int	double
+Pattern(s): 0	
 you probably need arrays of int which makes some sense since it probably wants more precision than an int can give to be double or floats
+
+
+52921784
+median	max
+Pattern(s): 7	
 this is just binary search by median value compare with example code stops iterations when borders collide when we call self.findmedianinlargefile numbers k max result+1 guess right because we guess was too small and median value is bigger than quessed value
+
+
+52940857
+hash	md5
+Pattern(s): 0	
 you should also strongly consider a better hash than md5 as the file s considered weak these days
+
+
+52952960
+width	height
+Pattern(s): 7	7	
 as you already state content mode option aspect fill tries to fill up the live view and you are also right that the live view crops some rectangle from center cropping top-bottom or left-right depending upon the image size and the image view size for generic solution there are two possible case the image needed to be cropped along the height to fit the image view proportional drawing height is smaller the image needed to be cropped along the width to fit the image view proportional drawing width is smaller considering your size notation is 4000x3000 height 4000 width 3000 a portrait image and your drawing canvas size is 375x800 height 375 width 800 then your cropping would be height wise while setting the content mode aspect fill
+
+
+52995946
+width	height
+Pattern(s): 0	
 this will cut you bitmap from top and bottom and takes the center path and the condition tells if width greater than height then the condition will cut horizontally
+
+
+53011919
+google-chrome	firefox
+Pattern(s): 7	0	7	
 threads -- threads shares a memory space it is an abstraction of the cpu it is lightweight processes -- processes have processes own memory space it is an abstraction of a computer to parallelise task you need to abstract a cpu however the advantages of using a process over a thread is security stability while a thread uses lesser memory than process and offers lesser latency an example in terms of web would be google-chrome and firefox in case of google-chrome each tab is a new process hence memory usage of google-chrome is higher than firefox while the security and stability provided is better than firefox the security here provided by google-chrome is better since each tab is a new process different tab cannot snoop into the memory space of a given process
+
+
+53029824
+firefox	safari	google-chrome	safari	google-chrome	firefox
+Pattern(s): 0	
 result for n 10 fastest m was fastest on google-chrome 17.3m and safari 13.3m firefox 4.7m a b was similar and fastest on firefox 16.9m google-chrome 15.6m safari 3.5m slowest o for safari 0.35m k for google-chrome 0.35m n for firefox 0.31m conclusion the fastest solution on all browsers except small n on firefox was m however is not typical array - for it the fastest browser was safari for large n 6x faster than google-chrome 9x faster than firefox for typical arrays preferred solution is a fast and short code you can perform test on your machine here
+
+
+53052811
+memcpy	memcmp
+Pattern(s): 3	
 then you can copy the keys into the map using memcpy compare using memcmp and hash the keys using any hash algorithm that can hash byte sequences almost every hash algorithm
+
+
+53109311
+docx	xlsx
+Pattern(s): 10	
 if you plan to hit these doc docx xls xlsx that means way more code as you have to use the default apps word excel to open and read text csv files
+
+
+53140021
+range	minimum
+Pattern(s): 7	
 for 1 2 answer is 3 for 1 4 2 answer is 3 for the case where answer is 1 if minimum value in the range is greater than 1 then answer is 1
+
+
+53140021
+range	minimum	range	max	minimum	max
+Pattern(s): 0	
 for the case where answer is neither 1 nor max of the range +1 for this case we will need a segment tree that will give smallest missing positive value that is greater than minimum value of the range and less than maximum value of the range  we will use value 0 to represent there is no missing value for this range  for leaf node we will set missing value to 0
+
+
+53165257
+for-loop	arrays
+Pattern(s): 7	
 afterwards return false if the number of 7s is 0 or true if the number of 7s the number of 7s found in the arrays in a for-loop is higher than 0 2 another much quicker way would be to return true in the for -loop when you encounter a 7 and after the for -loop just return false
+
+
+53186096
+int	double
+Pattern(s): 0	
 however this introduces manual memory management and this can become tricky in more complex code memory leaks double deallocations dangling pointers so a more c++ like solution would be assuming the pointers point to something more interesting than an int because now there seems to be no need for pointers
+
+
+53220265
+range	median
+Pattern(s): 0	
 the block timestamp is within the valid range in bitcoin the timestamp cannot be greater than 2 hours from the current network time and cannot be earlier than the median time of the past 11 blocks
+
+
+53241142
+width	height	portrait	landscape
+Pattern(s): 7	0	7	0	7	0	
 if that tag does not exist you could examine the width and height of the image and make a guess if the width is greater than the height it might be landscape if the height is greater than the width the height might be portrait this will fail for square images and this will fail for cropped images the photo was taken portrait but the user cropped it such that the width is now greater than the height
+
+
+53246236
+children	parent
+Pattern(s): 7	0	
 this means that the parent always has a higher value than the parent children
+
+
+53246236
+children	parent
+Pattern(s): 0	
 the children of a maximum value are no higher than the parent so the maximum value in the priority queue never increases
+
+
+53247907
+int	double
+Pattern(s): 0	
 if you wrap a c type as an nsnumber and then unwrap you application needs to have an actual pointer on the swift side as above could the type change due to argument promotion which means that int types smaller than int get passed as int values float values as double in c
+
+
+53318144
+ant	maven
+Pattern(s): 10	8	
 maven is way more standardized than ant and this means that you will not always be able to do exactly the same in maven and ant
+
+
+53379772
+realloc	malloc
+Pattern(s): 7	0	
 if no storage is allocated or deallocated between the malloc and realloc the size of the realloc is known when the malloc is performed and the realloc size is larger than the malloc size then the malloc may make sense to consolidate the malloc and realloc operations into a single larger allocation
+
+
+53402575
+fgets	getline
+Pattern(s): 0	
 yes it s possible to use fgets and fputs  if you re using posix systems you might find getline better than fgets but you d still use fputs with d
+
+
+53428643
+react-router	styled-components
+Pattern(s): 7	
 if react-router is less than v4 try inline style if you want to use styled-components you could do something like this or you can do styled-components with navlink in react-router v4
+
+
+53449894
+robocopy	xcopy
+Pattern(s): 7	
 as hans passant pointed out in a comment xcopy d is an easier solution it is- and if no other properties or parameters of robocopy are useful this could be preferred
+
+
+53488438
+firefox	safari	google-chrome	firefox	google-chrome	safari
+Pattern(s): 8	
 my issue is a duplicate and the answer to my question was given by stefan-peshikj in turns out google-chrome and safari are more permissive than firefox which doesn t accept an turn url with username not accepted accepted this solves my issue
+
+
+53501759
+range	max
+Pattern(s): 0	
 the max values of the rgb channels are lower than that of the n channel but look at the mean values of the rgb channels the max values of the rgb channels are much smaller than max 2 you have a high dynamic range hdr image here and want to compress its high range to 8 bits for displaying
+
+
+53522619
+google-chrome	firefox
+Pattern(s): 10	
 firefox is more likely that there is a cached redirect in google-chrome which causes firefox to visit a former redirect target directly without visiting the original url
+
+
+53522806
+width	height
+Pattern(s): 7	
 the long contour is considered a line if a line width is much longer than a line height or a line aspect ratio is large such as 8 and you need also to optimize this value finally you should get something like that
+
+
+53526459
+int	chars
+Pattern(s): 0	
 int is in your case probably 4 times bigger than chars resulting in looping over whole of your data structure of type chars 4 times quicker as you expected
+
+
+53545862
+sorting	grouping
+Pattern(s): 7	
 the first solution likely will be faster with smaller list of dicts since the sorting is easier but you would need to test that it is not required in the solution that i gave that the keys be grouping the keys is required for groupby to work
+
+
+53602775
+bower	npm
+Pattern(s): 3	
 but during npm install -g bower i saw warning npm warn deprecated bower 1.8.4 bower don t recommend using bower for new projects
+
+
+53606328
+int	chars
+Pattern(s): 8	
 500-599 for errors rejections i prefer this to simple int and while this can be less descriptive than chars this can also be less ambiguous
+
+
+53606554
+google-chrome	firefox
+Pattern(s): 10	
 as you mentioned in your question geckodriver firefox combination is faster then chromedriver google-chrome at this point geckodriver firefox combination is worth to mention that diferent browsers render the html dom in a different way
+
+
+53613333
+median	minimum
+Pattern(s): 10	
 that is because we have the same amount of elements at both side but the median value is closer to the minimum thus there should be elements with smaller difference between both side
+
+
+53655952
+sys	argparse
+Pattern(s): 7	
 copy-paste from official python documentation import getopt sys official documentation is here for tutorials see for example on the other hand argparse is easier if you like to get the other hand argparse done in an easier but not c-like way
+
+
+53681490
+int	boolean
+Pattern(s): 7	
 i made some minor changes -use enum instead of 4 boolean makes cleaner code -do not use me.refresh it s slow and does things you do not need here -it s better to use not two int lists but one point list hope it helps
+
+
+53689487
+setsid	pty
+Pattern(s): 7	
 setsid is easier and it is usually preferable to have the child run in a new process group anyway as the child and the child children can be sent a signal without affecting any other processes now whenever a process that has no controlling terminal opens a terminal device a tty or a pty that device will become device controlling terminal unless the o_noctty flag was used when opening the device
+
+
+53718638
+versioning	upgrade
+Pattern(s): 7	
 can you verify your nss versioning in your machines using  incase your nss versioning is lower than 3.23 you might need to upgrade your nss versioning
+
+
+53756837
+opera	google-chrome	opera	firefox	google-chrome	firefox
+Pattern(s): 7	
 and while pwa s work on android through firefox and opera only google-chrome has proper standalone support
+
+
+53782234
+post	get
+Pattern(s): 10	
 try to send your request as post method you don t see get requests with the body very often and that s why post is more secure the body s never cached and most importantly there s no size limit maybe that s the reason cause your get request is not working
+
+
+53813887
+pandas	astropy
+Pattern(s): 8	
 python s collection.counter is an easy way to get the answer here to do python s collection.counter with astropy one way would be to add a column of 1 that you can then aggregate but this is probably less flexible than pandas as i think that the aggregate function must be applied to all columns
+
+
+53845615
+flask	django
+Pattern(s): 0	
 if in fact you just need a web api wrapper flask is probably a much better choice than django simply because django is huge and you d be using only a fraction of fact capability
+
+
+53907705
+int	chars	unsigned	short
+Pattern(s): 0	
 be warned that the standard requires all operations on types smaller than int to be implicitly converted in the c abstract machine to int or unsigned int if the standard won t fit in an int and then converted again back to the original _bool chars or short
+
+
+53908617
+min	max
+Pattern(s): 0	
 you should first initialize those variables to the first element in the array and then loop the rest of the array starting with and updating the values of min and max only if the current element is lower or higher respectively than min and max
+
+
+53909735
+children	parent
+Pattern(s): 7	0	
 you can rely on element.getboundingclientrect for both parent and child and set a private property on children if children .bottom is bigger than the parent s pun intended
+
+
+53924864
+width	height
+Pattern(s): 10	
 let s add some border and we will clearly see what is happening as you can see the nested sticky elements are both having both width equal to parent width since both are block element so there is no room for the left-sticky to have any sticky behavior 1 since it has width 100 unlike the top one that can still stick because it height is less that the parent height
+
+
+53928702
+width	height
+Pattern(s): 7	0	
 this condition should be because when width is bigger than height we calculate and set measure dimension base on width not height
+
+
+53943481
+debian	linux
+Pattern(s): 10	
 i recommend installing and using some linux distribution in particular because debian sid is more developer friendly and provides valgrind which is very useful to hunt bugs
+
+
+53965792
+gdi	direct2d
+Pattern(s): 7	
 gdi functions have limited transparency support so you might want to use a different technology like direct2d which has better integration with the gpu
+
+
+54042498
+folder	directory
+Pattern(s): 7	
 we got an error because we have missing vendor folder in we project the vendor directory contains we composer dependencies
+
+
+54063403
+orchestration	microservices	stateless	stateful
+Pattern(s): 7	
 advantages 1.decentralized and decoupled architecture using choreography rather than orchestration makes services publish-subscribe based and as a result fully decentralized 2.do one thing and do it well unix philosophy more focused and singular with very narrow functionality 3.easy to have parallelism and load balancing because of being more fine-grained from the business process point of view 4.statelessness however having a stateful microservices is valid but it is not the ideal 5.individual data storage makes services relaxed to keep tracing the data-flow 6.easy and automated deployment and discovery due to use of container engine-based technologies such as docker 7.more interoperability which makes services able to have more flexibility in accepting dropping a new current service or protocol 8.fully compatible with representational state transfer rest which allows creating stateless services 9.suitable for discrete systems for example for batch automation process disadvantages 1.service synchronization keeping services synchronized in a cooperative way 2.difficult to find systematic problems for example finding a problem in a chain of business activities when there is a logical error in the process is more difficult and the process requires to combine several log files into one piece 3.automated deployment and discovery is a must when the number of microservices is more than a few 4.difficult to find the right service granularity which can lead the entire system into instability due to overwhelmed network communication and error rations 5.challenging when the entire system is not discrete enough like continues process control 6.developing an automated test is significant difficult than monolithic systems following are a set of articles that published about microservices in code-project you can read and comment on your questions if you like
+
+
+54079224
+screens	tablet
+Pattern(s): 7	10	
 this is a result for a responsive bootstrap4 carousel on mobile and tablet but when the screens width is more than 676px the screens width is no longer a carousel
+
+
+54113686
+tunnel	packets
+Pattern(s): 7	
 unfortunately there is a problem with this setup the mtu of the tunnel is smaller than the mtu of the network so the traffic s not guaranteed that you can replay all the packets
+
+
+54147944
+temp	tmp
+Pattern(s): 0	
 this gives the following strategy try environment variables first xdg_cache_home if this s nonempty this s a posix system with xdg conventions then tmp if this s nonempty this s a posix system and you don t have a better option than tmp anyway finally temp in case this s windows
+
+
+54148360
+range	max
+Pattern(s): 7	
 say you now want 0..9 so you modulo by 10 and now your upper part has a range 0..4294967 42949672 100 as max is less than 16m we can now bring in the next byte
+
+
+54182659
+filewriter	bufferedwriter
+Pattern(s): 7	
 bufferedwriter has a better buffer writing implementation than filewriter performance wise unless prompt output is required prompt output is advisable to wrap a bufferedwriter around any writer whose write operations may be costly such as filewriters and outputstreamwriters
+
+
+54189372
+width	height
+Pattern(s): 0	
 so when moving right or down just ensure the values don t grow larger than the width or height of the window -- minus the width and height of the image of course since the position is from the top-left
+
+
+54208581
+for-loop	arrays
+Pattern(s): 7	
 and for what it s worth when you re iterating over an arrays a for-loop is a better fit because a for-loop allows you to define the iteration variable the condition and the increment all in one place
+
+
+54209428
+temp	junction
+Pattern(s): 10	
 it was explicitly typed as an integer in the code i saw so presumably it s central to ensuring the algorithm works didn t change became didn t change became this time the condition containing the junction reads in english as if temp is less than or equal to both acu and acu times value
+
+
+54218098
+post	get
+Pattern(s): 0	
 what this observation by roy fielding helped me http does not attempt to require the results of a get to be safe does is require that the semantics of the operation be safe and therefore the operation is a fault of the implementation not the interface or the user of that interface if anything happens as a result that causes loss of property patch has stricter semantics than post
+
+
+54249552
+uibutton	uiappearance
+Pattern(s): 7	
 updated answer for swift 4.2 working with uiappearance is a cleaner way of solving the problem but the problem would cause all the uibutton to have a clear text
+
+
+54320786
+raft	paxos
+Pattern(s): 0	
 this behavior is why tcp exists because each individual packet can go through separate routes between servers and there is a high chance of out-of-order messages and most applications prefer the ease-of-mind of a strict ordering other protocols such as plain old paxos can work with out-of-order messages but are typically much slower than raft
+
+
+54418167
+put	get
+Pattern(s): 7	
 for all the others the value of data those could get is much less than the work those would have to put in getting it
+
+
+54460199
+google-chrome	firefox
+Pattern(s): 7	
 if you are seeing similar error on google-chrome on ubuntu the reason is probably you have a pre-installed version of google-chrome and firefox which is older
+
+
+54483232
+keras	tensorflow
+Pattern(s): 7	
 loose the tf.reset_default_graph and you should be good as for the memory leaks be sure you are running keras 2.2.4 and preferably tensorflow 1.10 has better keras integration i had a similar issue with keras 2.2.2 crashing when loading multiple models in sequence and a similar issue with keras disapeared after i updated to keras 2.2.4
+
+
+54506912
+aesthetics	gganimate
+Pattern(s): 10	
 you may be familiar with the group aesthetics from plotting lines and polygons but in gganimate the group aesthetics takes a more central place
+
+
+54543097
+for-loop	loops
+Pattern(s): 7	
 whereas in python a for-loop is more of a for each loops - you give -loop an iterable object and -loop runs the code for every item in that iterable object
+
+
+54544226
+versioning	upgrade
+Pattern(s): 7	
 the conda documentation explicitly mentions this issue in the conda documentation troubleshooting documentation conda upgrade error cause downgrading conda from 4.6.1 to 4.5.x and then trying to conda install conda or conda upgrade conda will produce a solving and upgrade error similar to the following solving environment failed condaupgradeerror this environment has previously been operated on by a conda versioning that s newer than the conda currently being used
+
+
+54615358
+versioning	upgrade
+Pattern(s): 10	
 if you want to re-run expo build then you ll need to upgrade from sdk 25 preferably to sdk 32 so you won you want to re-run expo build need to update again for a while and also because each expo versioning is better than the last
+
+
+54642546
+xlsx	xlsm
+Pattern(s): 10	
 if you were to do this manually by going to file saveas to save an xlsm as an xlsx and clicking yes to continue saving as a macro-free workbook you d see that an xlsm is no longer open only the new xlsx is
+
+
+54670378
+children	parent
+Pattern(s): 0	
 in cases where the sum of children s flex-grow value is less than 1 children s will not fill the entire parent s width and only the corresponding fraction instead
+
+
+54681767
+int	chars
+Pattern(s): 0	
 if it takes more than 2 chars to print out an int it will print out two asterisks instead
+
+
+54758938
+subtraction	addition
+Pattern(s): 0	0	
 the third is that there is an operation that is much better than addition subtraction for cryptographic purposes xor or - the beauty of which is that it is it own inverse
+
+
+54793739
+google-chrome	firefox
+Pattern(s): 0	
 the results are clearly visible here you can see that although google-chrome and firefox are rendering the stripe slightly differently google-chrome is antialiasing google-chrome and firefox are rendering the stripe slightly differently google-chrome correctly so google-chrome and firefox are rendering the stripe slightly differently google-chrome looks much smoother than google-chrome and firefox are rendering the stripe slightly differently google-chrome did before
+
+
+54873757
+16-bit	64bit
+Pattern(s): 0	
 although depending how your inputs were written using 32-bit xor could be better than 16-bit xor maybe avoiding partial-register stalls if something later reads the full 32 or 64bit registers
+
+
+54894124
+folder	dir
+Pattern(s): 10	
 for exemple run your docker image with a volume maaping between you host folder and a temp folder docker run -v host empty dir some-temp-folder -it myimage copy your container folder with code files content into some-temp-folder to fill you host folder with you container folder run you container with a volum mapping on host empty dir but now container folder is no longer empty run -v host empty dir container folder with code files -it myimage note that steps 1 2 may be replaced by copying files from docker container to host
+
+
+55010039
+int	chars
+Pattern(s): 7	
 dividing an unsigned chars by another unsigned chars is faster than divisions involving unsigned int
+
+
+55031207
+fftw	fftpack	pyfftw	fftpack
+Pattern(s): 10	
 pyfftw wrapping the fftw library is likely faster than the fftpack library wrapped by np.fft and scipy.fftpack  after all fftw stands for fastest fourier transform in the west
+
+
+55050926
+integer	unsigned
+Pattern(s): 7	
 what happens when you assign that to bit_flag depends on the type of that variable but if bit_flag is an integer type that is either unsigned or has more than 7 value bits then the assignment is well-defined and value-preserving
+
+
+55066530
+lxml	beautifulsoup
+Pattern(s): 10	
 ok beautifulsoup seems way better than raw lxml for that purpose this code works pretty well edit this code is important to use html.parser
+
+
+55094783
+mouseover	mouseout	mouseover	mouseenter	mouseover	mouseleave	mouseleave	mouseenter	mouseout	mouseenter	mouseout	mouseleave
+Pattern(s): 7	
 if your app uses #2 javascript events you can use a workaround triggering the mouseover mouseout events manually cy.get .menu.button.overlay_button.projects_popover .click cy.contains automation .trigger mouseover cy.contains shots .trigger mouseover .click there is also a possibility your app is listening to the mouseenter mouseleave events in which case you can trigger those as well
+
+
+55152348
+min	max	min	median	median	max
+Pattern(s): 0	
 this will move the bottom quarter of the values to the top call quart again to find the quartile of the new values which will be the median of the original values iterate through the array and subtract max - min + 1 from all values greater than the max to return the array to the max original state you might need some additional rules to handle special cases if there are multiple values equal to the quartile
+
+
+55171000
+for-loop	loops
+Pattern(s): 10	
 you can do the list using append with a while loops but the for-loop is less error-prone i think
+
+
+55187150
+range	max
+Pattern(s): 0	
 your program is creating a range of numbers between 1 and 19 range go to one less than the max number you specify like your program is initializing the variable total to equal 0 for i in a you start looping through the range you made earlier the first iteration the next and so on until you are selecting only the data where the modulo of 5 or 3 is 0
+
+
+55190576
+maven	pom.xml
+Pattern(s): 10	
 however if you really need to use maven for that you might use the following pom.xml this is more ore less an equivalent of the build.gradle file
+
+
+55193139
+decimal	ieee
+Pattern(s): 0	
 above number.max_safe_integer for example its precision is less than 0 decimal places to convert a number to a string with a fixed number of decimal places use .tofixed as epascarello suggested as for doing financial calculations some say you should never use ieee 754 floats such as javascript s number s although many of the largest companies in finance do just that
+
+
+55255372
+int	double
+Pattern(s): 7	
 3 one way is rounding your double value before you use this int initalizer from this double will be passed for int initializer to one decimal place and then round result by following rule for this purpose you can use rounded method with floatingpointroundingrule .tonearestorawayfromzero which is default value for this parameter also you can use failable initalizer since if double is bigger then int can be code crashes
+
+
+55349844
+unsigned	short
+Pattern(s): 7	7	
 because the size of unsigned short is smaller than the size of int when comparing a value of 0xffff to eof the unsigned short 0xffff will be converted to an int with a value of 0x0000ffff extra digits shown for clarity
+
+
+55350701
+maven	pom.xml
+Pattern(s): 7	
 you can configure the deploy plugin to provide the maven coordinates more information can be found here and the file name definition with in the pom.xml itself and invoke the pom.xml itself to the install phase maven profile should be helpful in achieving this task
+
+
+55362209
+versioning	upgrade
+Pattern(s): 0	
 if it s less than versioning 236 and you can t don t want to upgrade you could simply update your execstart line to ...then put back the standardoutput line back to the default
+
+
+55364441
+width	height
+Pattern(s): 0	0	
 similar to martin prikryl s answer in order to deal with different dpi settings and placing a bitmap setup your machine to 100 dpi make a bitmap with size width height to fit on your innosetup page form get these width and height right click properties on your bmp file use the code below setup your machine to 150 dpi and create your bitmap to fit for 150 dpi and use your machine instead the first one which fits for 100 dpi this way your machine will look nice for 100 and for 200 the code change 544 with the width of your bitmap and 211 with the height of your bitmap from step 3 stretch true does the bitmap to expand if 3 stretch true is smaller or shrink if 3 stretch true is bigger than width height properties p.s
+
+
+55379435
+multiplying	multiplication
+Pattern(s): 0	
 in practice this method is not fundamentally different from your multiplying by a large prime approach but in this case the factor is chosen more carefully and the fact that sometimes more than 1 multiplication is required adding to the apparent randomness
+
+
+55402738
+super	extends
+Pattern(s): 0	
 in airflow source repo one word of caution due to the way logging multiprocessing and airflow default handlers interact it is safer to override handler methods than to extends handler methods by calling super in a derived handler class
+
+
+55425057
+min	max
+Pattern(s): 0	0	
 if the scalarformatter object calls that function any number less than 10 min or greater than 10 max will be expressed in scientific notation
+
+
+55438173
+ionic	angular
+Pattern(s): 2	
 ionic vs cordova first of all i would recommend starting with ionic because its better to have with some ui widgets to start with rather than a blank screen cordova and to start from scratch hybrid apps these are not native apps but rather use webviews browser built-in your app to display your views coded in html and fetch user input and then use javascript or angular etc to process these
+
+
+55441008
+jobs	cron
+Pattern(s): 8	
 a more common approach with cron for this is by simply adding multiple cron jobs and imposing an increasing delay on each of multiple cron jobs
+
+
+55472342
+keras	tensorflow
+Pattern(s): 10	
 another thing is in the event where you re not actually messing with the internals of layers is to just use keras which is much more straightforward to use for the layman than tensorflow and this sits on top of tensorflow so you re using the same tech
+
+
+55489356
+switching	screens
+Pattern(s): 0	
 by default it does not handle back actions and it resets routes to actions default state when you switching away you can perform goback action inside goalstack if you have more than one screens
+
+
+55525858
+children	parent
+Pattern(s): 0	
 and only keeping the rotate transform so i m using flex i think grid will do too if the parent of the element would be smaller than the children i would use margin to position my child to center
+
+
+55539068
+hide	show
+Pattern(s): 10	
 i m not sure to understand the thing what do you want to do but if you want show and hide the content show s better like
+
+
+55638494
+hidapi	libusb
+Pattern(s): 0	
 that hidapi doesn t give you the same level of control over the packets you send s higher level than libusb and some of the parameters that that hidapi doesn t give you the same level of control over the packets you send uses for requests are fixed brequest value
+
+
+55639793
+interpolation	splines
+Pattern(s): 7	
 i think you re using few values for the interpolation by changing to i get the following and changint the splines degree to i get the following i think a good starting point for the interpolation could be n 2 and as the interpolation presents less data deformation
+
+
+55644267
+range	minimum
+Pattern(s): 0	
 an example which shows this using some random data i generated it before you added the data is this will produce the easiest way to fix this though this does not fix the underlying data and won t work in all cases is simply to set the limits manually to account for the offset - which will give you if you want to include the months lower than the minimum 0 1 2 you can set the xticks and xticklabels manually - ax.set_xticks range -3 9 ax.set_xticklabels range 0 12 which will give you
+
+
+55646515
+firefox	safari	google-chrome	firefox	google-chrome	safari
+Pattern(s): 8	
 the solution seems that google-chrome and firefox were more forgiving than safari
+
+
+55676139
+for-loop	loops	for-loop	arrays
+Pattern(s): 10	
 if this method does not apply there is a fallback a couple lines later again using a simple for-loop index is set earlier already used for calling the methods mentioned above what is big o of all javascript object method specially keys values object is in the neighboring to arrays runtime file but do not expect magic there either magic also ends up in various for loops in like a simple one checking if an arrays is built of valid keys numbers and strings or another one called from various places to build a single collection from multiple sources big o 1 is said to be constant time but what is exact time in terms of ms there is no such thing
+
+
+55678298
+min	max
+Pattern(s): 0	
 i think this could be the reason the abs min returns a value that is 1 bigger than max of a certain type
+
+
+55695676
+simctl	xcrun
+Pattern(s): 7	0	
 to boot a simulator xcrun simctl boot iphone x a simulator will boot as a headless mode to make a simulator visible open -a simulator xcrun simctl boot is simpler than xcrun instruments -w
+
+
+55759019
+punctuation	words
+Pattern(s): 10	
 you can check if it is inside the words the important line is this we have 3 rules for 3 rules to count the puntuation p is in the words 2 the words w does not start by the punctuation p the words w does not ends by the punctuation p a more pythonic way of doing such would be to use the str available methods endswith and startswith .. if p in w and not w.startswith p and not w.endswith p ...
+
+
+55777360
+children	parent
+Pattern(s): 0	0	
 it is important to note that for a min heap the minimum element is the root so instead of having all parent bigger than all parent children it becomes all children bigger than all parent parent
+
+
+55838662
+memcpy	strcpy
+Pattern(s): 10	8	
 if source_str is certain to point to a properly-terminated c string of no more than length - 1 characters and if it is it string value that you want to copy then strcpy is more natural than memcpy
+
+
+55894855
+width	margin
+Pattern(s): 0	
 of course you need first to check there is enough place before to write a word supposing the separator are only spaces all the separators are produced even consecutively or at the beginning of a line in case a word is longer than the width a word is not cut case of azeryuiop in the execution later a proposal from your code where the program receives in argument the left margin the width and the string compilation and execution
+
+
+55912265
+dictionary	map
+Pattern(s): 7	
 despite a list with those names and indexes might work i believe a dictionary is semantically better for this case because a dictionary job is to map a key value relation
+
+
+55941319
+width	height
+Pattern(s): 7	0	
 this remains true even if the width is much longer than the height and where this becomes tempting to speak about lengths and widths
+
+
+55955979
+google-chrome	firefox
+Pattern(s): 10	
 firefox seems google-chrome is simply more lenient
+
+
+56004461
+filewriter	bufferedwriter
+Pattern(s): 10	
 wrap your filewriter in a bufferedwriter that way you can use the writer.newline method an additional benefit is that a bufferedwriter is more efficient then using the filewriter directly
+
+
+56050896
+range	max
+Pattern(s): 0	
 use intersect and do a binary search the above should work for any arbitrary range and a binary search does not iterate through the entire range nor does a binary search use cells.count which can raise an error if there are more cells than the max value for a long integer
+
+
+56063552
+width	height
+Pattern(s): 0	
 while asking the question i wondered if checking the height and width of both parent and child would work out and decrease the fontsize until the height and width of child is not bigger than the height and width of the parent and it seems like it actually did work out
+
+
+56093696
+integer	unsigned
+Pattern(s): 7	0	
 the warning is not issued if signed integer is of larger size than the unsigned integer in this case the unsigned integer is converted to larger signed integer and fits into positive range of the larger type
+
+
+56141684
+virtualenv	conda
+Pattern(s): 7	
 also conda can has larger control over the environment and can for example have a different version of python installed inside of conda virtualenv - only the python available in the system
+
+
+56154464
+post	put
+Pattern(s): 10	
 post should work in all cases put is probably more intuitive to typical updates done in web forms while patching would require your client to actually calculate the steps needed to transform the current resource representation to the desired one if you use application json-patch+json in particular
+
+
+56171017
+128bit	64bit
+Pattern(s): 0	
 decodes to a pure load uop on intel cpus no alu uop needed so it has 2 per clock throughput instead of 1 old cpus like merom and k8 have slow shuffle units that are only 64bit wide so shufps is pretty slow because it s a full 128bit shuffle with granularity smaller than 64bit
+
+
+56210331
+cout	cin
+Pattern(s): 7	7	
 to have the function more equivalent to the java version change your c++ main to note that by default c++ s console i o iostream cin cout is even slower than o iostream cin cout could be because syncronization with c s console i o stdio scanf printf is enabled to let a program not do weird things if both cout and printf are used here you can read about cout s performance when synchronization is turned off
+
+
+56227031
+punctuation	words
+Pattern(s): 0	
 this adds words s to a buffer until your conditions are met words contains punctuation and a buffer is longer than 7 words
+
+
+56258932
+int	double
+Pattern(s): 7	
 except it is theoretically possible that int is wider than uint64_t in which case the arithmetic would be done with int but that is still satisfactory performing a cast guarantees the arithmetic will be done with at least that width for real numbers the usual arithmetic conversions are largely if either operand is long double the other is converted to long double
+
+
+56261712
+ionic	angular
+Pattern(s): 10	
 there is a more updated fork of this plugin available at you could probably use ionic native for angular which gives a more angular like api otherwise you should be able to work with filechooser directly as this is the js object that is added to the global scope make sure to wait for the deviceready event before trying to access the deviceready event
+
+
+56264076
+vtk	paraview
+Pattern(s): 10	
 maybe them were generated with a version of vtk that is more recent than the one used for your version of paraview
+
+
+56303590
+distance	polygons
+Pattern(s): 0	
 use intersection area minus non-common area as a metric of similarity shapely can be used for that non-common area is union - intersection or simply symmetric difference final metric intersection.area - symmetric_difference.area intersection area this approach might be better than processing distance in some situations for example you want to prefer fewer points covering whole area over huge amount of very close points that cover only half of that non-common area only half of the area s more obvious way to compare candidates with different number of points but only half of the area has only half of the area s disadvantages too just draw some examples on paper and experiment to find them other ideas instead of using polygons or concave hull you can build a linear ring from your points and then use contour.buffer some_distance
+
+
+56306602
+for-loop	arrays
+Pattern(s): 7	
 this function returns true if there are one or less items in the arrays the arrays doesn t pass the condition in the for-loop if there is more than one item in the arrays there is more than one item in the arrays will check the value there is more than one item in the arrays is iterating over with the previous one
+
+
+56352925
+pandas	dask
+Pattern(s): 0	
 it will be quicker than pandas method dask write function will break your file into mulitple chuncks and store mulitple chuncks
+
+
+56362987
+int	chars
+Pattern(s): 0	
 in s is a wrong format because you write a chars not a string out of that the natural type for an index is size_t not int use size_t for both i and len and in that case change the loop to use index without supposing it can be negative if the input string has more than 19 chars scanf will write out of word with an undefined behavior limit the size using the format 19s 19 rather than 20 to have the place for the ending null chars word is an array do not use a to give the ending null chars word address in scanf check the result of scanf if you want to detect eof flush the output writing a newline after the loop so a possible way is
+
+
+56386276
+atoi	malloc	strtol	atoi
+Pattern(s): 0	
 as a matter of good habit a diagnostic message s also better to check the return value of the malloc also strtol is better than atoi as the former provides error checking
+
+
+56393506
+alloca	malloc
+Pattern(s): 7	0	
 alloca is worse than malloc because alloca causes unpredictable stack usage and can lead to a stack overflow which won t be detected at all or which will only be detected by a program crash
+
+
+56443598
+median	minimum
+Pattern(s): 7	0	
 you can solve it using divide and conquer approach find a random element in between the minimum and maximum check if it s median if the median is lower or higher than the median and reduce the problem to a smaller size only on a subrange of the array
+
+
+56451549
+children	parent
+Pattern(s): 0	
 you can set max-width 100 on children to keep children from growing wider than the parent s width
+
+
+56478993
+getter	setter
+Pattern(s): 10	
 if we re just going to cast to the expected type we could use  a dictionary of getter with the property name as the key would look like this to store the getter for a property propertyinfo discovered by reflection storing setter is more complicated
+
+
+56505004
+dplyr	sqldf
+Pattern(s): 3	
 i anyway recommend learning dplyr many bugs i could not figure out in your sqldf code s the standard others programmers also use
+
+
+56523368
+pyenv	virtualenv
+Pattern(s): 3	
 i would highly recommend using pyenv to manage multiple verions of python and pyenv makes switching between they really easy both locally and globally and use pyenv in combination with a virtualenv per project you are working on
+
+
+56582186
+min	max
+Pattern(s): 0	0	
 if there are less than this it will create more if there are more than this it will terminate some according to the termination policy oldest first newest first etc min and max define boundaries on desired count - desired will never be less than min or more than max
+
+
+56583626
+for-loop	loops	for-loop	arrays
+Pattern(s): 7	
 using a foreach loops is somewhat easier than using a for-loop as the delegate eliminates the need for an index variable and an indexed arrays access
+
+
+56587249
+versioning	upgrade
+Pattern(s): 7	0	
 you likely have some versioning of requests installed that is at least 2.10.0 but you can check with the following if your installed versioning is less than 2.10.0 upgrade with proxy configuration according to the linked answer we set up a dict of we proxy using https in place of http because all of praw s requests happen over https we then have to pass this to the session that praw uses
+
+
+56662732
+free	malloc
+Pattern(s): 3	
 because system calls are costly your standard library will try to avoid system calls and prefer marking free -d memory zones as reusable in future malloc -s
+
+
+56672107
+equals	gethashcode
+Pattern(s): 7	
 a correct answer will depend on what type the key and value parts are if one of the key and value parts is a for example the equals comparison is trickier but in general assuming that all the keys and values have all the keys and values equals and gethashcode methods implemented correctly we can use the system.linq extension methods any and except to get the result
+
+
+56721826
+inherited	properties
+Pattern(s): 10	
 this is the real form of inherited built into javascript and the foo properties is missing in all the objects composing the entire prototype chain then the value undefined is returned s the business which really seats behind the es6 class keywork which is a convenience which hides this mess and gives you the impression that javascript has a form of class inherited class inherited is more widely known and most of programmers find it easier to think of than prototypal inherited
+
+
+56758103
+range	max
+Pattern(s): 0	
 better compression with range constraints adding a self-imposed constraint partitions are sorted from largest to lowest part we can deduce for p in parts num size max constraints 2 3 can be applied recursively to all by noting that is in therefore we can compute better imin imax and inject better imin imax in the previous implementation live demo todo sanity checks the provided implementations can go into undefined behaviour if the partition is not sorted or the partition index is not valid
+
+
+56781298
+google-chrome	firefox
+Pattern(s): 10	
 google-chrome node.js firefox apparently firefox wants this year to have 4 digits exactly while google-chrome v8 is more flexible
+
+
+56811503
+superclass	subclassing
+Pattern(s): 7	
 the constructor in the subclassing doesn t have to match the one in superclass but it should call it using super .. subclassing should provide a constructor that calls super . like this or even this superclass has more than one explicit constructor subclassing are forced to provide at least one constructor that calls any of the superclass s constructors subclassing could be any of the following or or or any combination of those constructors
+
+
+56892939
+integer	fractions
+Pattern(s): 0	
 they first find the best solution with fractions values for the variables number of steps then successively divide the allowed region into smaller sections with integer edges and eventually stop when they find the best solution at an edge
+
+
+56919769
+gam	mgcv
+Pattern(s): 0	
 just giving the sampling weights to mgcv gam won t do either of gam treats the weights as frequency weights and so will think gam has a lot more data than gam actually has
+
+
+56959567
+cstring	bstr
+Pattern(s): 8	
 about allocsysstring cstringw servicenamew servicename creates a copy in bstr they re more complex than cstring they re null-terminated too but they also have length at negative offset
+
+
+56990602
+disk	ram
+Pattern(s): 7	
 it has nothing in common with selenium you need to get a snapshot of what s going on with your operating system when you launch the browser for example using windows performance monitor blind shot chrome browser is very memory intensive you can check how much ram it consumes using windows task manager and if your machine is short on ram your machine starts intensively using page file to store some memory pages to disk and since disk is much slower comparing to the ram - you re getting inconsistent results
+
+
+56999051
+nullreferenceexception	objectdisposedexception
+Pattern(s): 7	
 sure ideally you d want an objectdisposedexception out of an object which has been disposed when something attempts to access any of this practice s functions but in place of that a nullreferenceexception is better than no exception at all
+
+
+57010562
+range	minimum
+Pattern(s): 0	
 the query also makes little sens to check both for an id to be greater than minimum less than maximum and within that range
+
+
+57032106
+multiplying	division	multiplying	multiplication	division	multiplication
+Pattern(s): 0	10	
 this explains why you are not seeing multiplication as faster than division when timing with instead let s write setup code which performs multiplication and division on random numbers yields on my machine multiplying is faster 99.00 of the time
+
+
+57062091
+children	parent
+Pattern(s): 0	
 this will hide any children that would overflow an elements height when less than this children 1 the reason the bg color is in between is because you set the background color of the parent element
+
+
+57073230
+sorting	grouping
+Pattern(s): 0	
 and in case of how many times the input size is executed then bubble sort is executed up to o n 2 distribution sort grouping more than one sorting alghorithm but there is no sorting faster than ps if this comes from high school professor there is good chance this comes from high school professor does not have full understanding of complexity theory either
+
+
+57076814
+uninstall	upgrade	versioning	upgrade
+Pattern(s): 7	
 the issue may also turn into an install problem when the uninstall runs as part of a major upgrade that requires the older versioning to be removed first
+
+
+57153085
+rsa	dsa	ecdsa	rsa
+Pattern(s): 0	0	
 dsa in general s slower than rsa and ecdsa dsa in general has more perfect or broken states than rsa and dsa in general key generation is several orders of magnitude slower than rsa and ecdsa
+
+
+57174465
+16-bit	64bit
+Pattern(s): 7	
 rax is the total 64bit eax is the lower 32 bits ax is the lower 16-bit ah represents the h igh 8 bits of ax al represents the l ow 8 bits of ax therefore if your 64bit register contains a0b1c2d3e4f5a6b7 eax e4f5a6b7 ax a6b7 ah a6 al b7 you can identify this visually very easily by opening the windows calculator and setting this to programmer mode hexadecimal mode and a qword value
+
+
+57244204
+superclass	subclassing
+Pattern(s): 0	
 as described in the above diagram we have here a superclass called animal which has three subclassing mammal bird and fish some animals share common behavior a cat and a dove can both walk but the cat cannot fly these kinds of behavior are orthogonal to this classification so we cannot implements these behavior in the superclasses if a class could have more than one superclass it would be easy we could create three other classes walker swimmer flyer
+
+
+57259652
+swift	objective-c
+Pattern(s): 0	
 swift does not make swift code accessible to objective-c by default to avoid making its code larger than swift needs to be
+
+
+57325379
+width	height
+Pattern(s): 7	7	
 in scrollviewer scrolling only when the content width height is larger than the container width height but the internal viewable area of the scrollviewer is infinite so if you want the child scrollviewer to work you need to set the width height for the child
+
+
+57332156
+scylla	cassandra
+Pattern(s): 2	
 details here given your use case if you envision storing multiple tb of data i would recommend scylla over cassandra
+
+
+57386013
+width	height
+Pattern(s): 7	
 your image component is actual vertically bottom set backgroundcolor and you ll see your image component but as the actual image not image component will resize to fit the image componenti in this case because of width is bigger height so the image will verticaly center inside image component you need either set resizemode cover or change abosolute property top bottom
+
+
+57386889
+subtract	add
+Pattern(s): 10	
 attempt 2 check whether adding or subtract is better with two bits of information start x01 add x10 divide x1 add x+1 0 divide x+1 4 operations subtract x0 divide x 4 operations subtract x00 divide x0 divide x 3 operations add x+1 possibly not optimal 4 operations conclusion for x01 subtract will result in at least as few operations as adding 3 and 4 operations versus 4 and 4 operations to reach x and x+1
+
+
+57501764
+getter	setter
+Pattern(s): 3	
 also i recommend using setter and getter and making your class variables private rather than making setter and getter public
+
+
+57530075
+setinterval	settimeout
+Pattern(s): 3	
 i prefer using settimeout and call the function object each time when needed that way you don t need a global variable to maintain the value returned by setinterval
+
+
+57708587
+move	drag
+Pattern(s): 3	
 read more here i would recommend using drag and drop feature to move files into xcode
+
+
+57718746
+width	height
+Pattern(s): 0	
 anything outside of the svg will not be visible so if those coordinates are greater than the width or height of the svg your circle will appear outside of the svg bounds
+
+
+57737953
+post	get
+Pattern(s): 0	
 your form should be this you should use post method when you re creating a something new this is safer than using get method
+
+

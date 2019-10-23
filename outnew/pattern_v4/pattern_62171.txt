@@ -1,0 +1,221 @@
+56692723
+installation upgrade
+Pattern(s): 0	
+the col function was added in solr 7 so if your solr installation is older than that the function won t be available
+upgrade to a more recent version
+
+
+
+56699527
+cpu processors
+Pattern(s): 1	
+but here s my 2 cents anyway confluent s documentation might shed some light cpus most kafka deployments tend to be rather light on cpu requirements
+as such the exact processors setup matters less than the other resources
+
+
+
+56723020
+pandas seaborn
+Pattern(s): 1	
+so if you are using pandas for basic plot you can use matplotlib for plot customization
+however i propose an alternative method here using seaborn which allows more customization of the plot while not going into the basic level of matplotlib
+
+
+
+56775160
+post get
+Pattern(s): 1	
+on the other hand if republishing is expensive or should otherwise only be done on purpose then post is a more appropriate choice
+that s ok then using get is fine -- and it even has some advantages when the requests are being sent across an unreliable network
+
+
+
+56777094
+for-loop loops
+Pattern(s): 0	
+you can speed it up a bit by not using foreach which uses an interator and instead use a for-loop
+you can also break once you locate your id assuming they are unique assuming your id s are unique you could also make a duplicate of the items list and drop those that have been located so each loops is shorter like this you could also consider creating a map where the key is your id so you do not have to loops and instead you retrieve the item by id directly
+
+
+
+56830622
+realloc malloc
+Pattern(s): 0	
+this is evidently what happened in your example since your realloc call asks for less memory than was allocated by calloc and we can see that it didn t do that here since the address of ptr when free is called is the same as the block allocated by calloc
+if the existing allocation is much bigger than the request realloc may choose to copy the existing memory block into a smaller allocation possibly acquired with malloc
+
+
+
+56844327
+int chars
+Pattern(s): 0	
+the int type is smaller than the float type
+in general byte short and chars int long float double
+
+
+
+56844327
+int double
+Pattern(s): 0	
+the int type is smaller than the float type
+in general byte short and chars int long float double
+
+
+
+56957047
+prometheus metrics
+Pattern(s): 0	
+he prometheus server will pull metrics from your metrics api
+but i can recommend that the prometheus server is better to use official jmx exporter
+
+
+
+56985581
+multiplying division
+Pattern(s): 0	
+use the product computed in the previous step multiplying it by the number entering the window and divide by the number exiting the window
+division is slower but it will pay off for larger values of c
+
+
+
+57008369
+width height
+Pattern(s): 0	
+adjust your body s width and height to your desired width and height and if necessary you could create a div to surround the svg and set a lower width height there
+the percentages will prevent your svg from clipping when the screen width is less than 800px width currently specified
+
+
+
+57049751
+post put
+Pattern(s): 1	
+remote authoring semantics put patch delete really don t fit well with a single actions endpoint
+post does a bit better in that the constraints are minimal
+
+
+
+57074827
+for-loop loops
+Pattern(s): 0	
+so that is why the for-loop executes one more time than the body
+the same reasoning applies to for loops of course
+
+
+
+57206170
+post get
+Pattern(s): 0	
+so on you can configure your own decider your own job steps as you said above for two different configurations like below and use your own decider seperately in commandline runners since the post is getting bigger i am giving the details of just the job and command line runner these are the two jobs here are the command line runners i am making sure that the first job is completed before the second job is initialized but it is totally up to the user to execute the two jobs here in parallel following a different stratergy hope this gives a complete idea of how this can be done
+
+
+
+57208186
+keras word2vec
+Pattern(s): 0	
+after poking around i found a research paper introducing focal loss and conveniently a github implementation of a research paper for keras
+that combined with meowongac s suggestion i used google word2vec embeddings resulted in much better sampling of words with lower frequencies
+
+
+
+57258117
+for-loop loops
+Pattern(s): 0	
+only loops for odd numbers in d loops
+switch b and d loops so that code in outer loops runs less times
+
+
+
+57303330
+aggregate-functions sum
+Pattern(s): 0	
+having is used to calculate aggregate-functions
+like in your above case if you want to find out name of the countries having sum population is greater then 2 000 000 then you can apply having clause like this for more info about the same you may find this link
+
+
+
+57304579
+d3.js c3.js
+Pattern(s): 0	
+ just happened to need 4 for my code in your case you can do in data you can declare an x to have your supplied x labels i m not sure about the other libraries but c3.js is essentially a wrapper for d3.js so anything that can be done in one is most likely theoretically possible in both
+c3.js is just easier to understand my code for
+
+
+
+57354895
+setinterval settimeout
+Pattern(s): 0	0	
+if the code inside the setinterval takes longer than the time you have set the setinterval will create another process before the function finishes messing everything up
+so choosing settimeout is actually better
+
+
+
+57438399
+apktool jarsigner
+Pattern(s): 1	
+apktool build output_folder next you need to re-sign the apk with the original keystore file jarsigner -verbose -keystore keystore_path -storepass keystore_password -keypass keystore_key_password apk_path keystore_key_name android-sdk build-tools 21.1.1 zipalign -v 4 apk_path apk_out_path
+
+
+
+57483699
+datediff difference
+Pattern(s): 0	
+you ll need lag and datediff to get the number of minutes between tran_date and the previous row
+then basically a running total on the evaluation of whether or not the time difference is greater than 30
+
+
+
+57489346
+innodb myisam
+Pattern(s): 0	
+if you cannot control the server configuration you could switch your table to innodb which uses a significantly smaller stopword list
+some additional notes the fulltext index uses a minimum word length by default 4 for myisam and 3 for innodb
+
+
+
+57505047
+uinavigationcontroller uipageviewcontroller
+Pattern(s): 0	
+i m not sure uinavigationcontroller is the correct container controller to provide what you need
+you might find that uipageviewcontroller is a better choice i think uipageviewcontroller will provide the natural swipe gesture you are looking for out of the box although uipageviewcontroller s quite an opaque class with some quirks of uipageviewcontroller own
+
+
+
+57554447
+ostringstream std
+Pattern(s): 1	
+olding a lock while logging isn t great for performance although t s better than your existing log method which should use std lock_guard for exception safety
+building and discarding a temporary ostringstream is probably better but if you care about performance you ll need to benchmark and may well end up requiring something more elaborate per-thread circular buffers mmapped files or something
+
+
+
+57555123
+imagemagick wand
+Pattern(s): 0	
+method 2 - write with opencv but modify afterwards with some tool you could use python s subprocess module to shell out to say imagemagick and set the dpi like this magick opencvimage.png -set units pixelspercentimeter -density 28.3 result.png all you need to know is that png uses metric dots per centimetre rather than imperial dots per inch and there are 2.54cm in an inch so 72 dpi becomes 28.3 dots per cm
+if your imagemagick version is older than v7 replace magick with convert
+
+
+
+57610953
+for-loop loops
+Pattern(s): 1	
+here is a way to do it using a for-loop is faster than using a dictionnary since you don t have to iterate through the animal list for each dictionnary key
+the update is done the other way around here is a performance comparison for-loop 5.21 µs 20.2 ns per loops mean std
+
+
+
+57686469
+for-loop loops
+Pattern(s): 0	
+also as mentioned is the answer of the question a for-each loops is better performance wise than the regular for-loop so using a for-each loops would turn in into
+
+
+
+57708249
+decoder encoder
+Pattern(s): 1	
+f you re concerned about performance you could write something like this that decoder the singleton object the singleton though and in our desired representation our have a wrapper
+we can accommodate that with a single extra line at the end this will fit right in with a generically derived instance for our updated item class import io.circe.generic.auto._ io.circe.jawn.decode case class item id long name localizedstring and then the customized encoder is a little more straightforward and then this approach will work for any number of dynamic fields like this you can transform the input into either a or jsonobject and work with the key-value pairs directly
+
+
+

@@ -778,3 +778,1041 @@ Pattern(s): 1
 to absolutely continuous piecewise-continuity with calculus in l 2 0 2 pi
 
 
+1012923
+calculus	real-analysis	real-analysis	calculus
+Pattern(s): 10	
+the usual statement of the real-analysis theorem is closer to the functional calculus version except that there s no pointwise convergent which doesn t make sense for a set and the set is assumed to be equicontinuous
+
+
+1049976
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 1	
+i am somewhat familiar with cylindrical-coordinates riemannian coordinate-systems but not an expert
+
+
+1059569
+nonlinear-optimization	integer-programming	integer-programming	nonlinear-optimization
+Pattern(s): 1	
+i am not very clear with integer-programming time-series nonlinear-optimization
+
+
+1068237
+calculus	real-analysis	real-analysis	calculus
+Pattern(s): 0	
+what measure-theoretic calculus gives you is a way to do this interchange provided you have pointwise real-analysis and much weaker conditions than uniform real-analysis
+
+
+1074248
+calculus	real-analysis	real-analysis	calculus
+Pattern(s): 0	
+you need stronger conditions than uniform real-analysis to ensure that f_n x to f x implies f_n x to f x . here is a standard theorem found in virtually all real calculus books
+
+
+1080535
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 0	
+then frac 2 golden-ratio k_ 19 3 36 m frac 2 golden-ratio k_ 20 3 36 m ldots frac 2 golden-ratio k_ 36 3 36 m is an arithmetic-progressions sequence with common difference at least golden-ratio 54 but less than 2 golden-ratio 3
+
+
+1081509
+coordinate-systems	polar-coordinates	polar-coordinates	coordinate-systems
+Pattern(s): 7	
+using simpson s rule and and interval of d 0.5 approximate the coordinate-systems of the region bounded by the curve defined by y sqrt x+2 and the x-axis this is in my coordinate-systems book however there wasn t even an example on how to use simpson s rule what i only know is substitue x 1 and get y sqrt 1+2 and so on until i reach x 4 whenever i type simpson s rule on the internet it always shows polar-coordinates which makes me more confuse
+
+
+1088886
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 7	
+if f g are two egyptian-fractions quadratic forms f and g are equivalent if there is an integer matrix m with jordan-normal-form pm1 such that g m t f m where f g are the diagonalization that define f g
+
+
+1093181
+limits-without-lhopital	real-analysis	real-analysis	limits-without-lhopital
+Pattern(s): 7	0	
+as we know from limits-without-lhopital uniform real-analysis is stronger than pointwise real-analysis
+
+
+1099507
+mathematica	lagrange-interpolation	lagrange-interpolation	mathematica
+Pattern(s): 10	
+the distinction is important at least statistically lagrange-interpolation is far more likely to give you a reliable result than mathematica
+
+
+1102616
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 1	
+newcommand b 1 left #1 right newcommand d rm d newcommand f frac newcommand s sqrt newcommand t text newcommand u underbrace bf answer this belongs to a large category of piecewise-continuity that are easily solvable with calculus by parts like int frac x arctan x sqrt 1+x 2 d x sqrt 1+x 2 arctan x - ln|x+ sqrt x 2+1 |+c so let our piecewise-continuity be f x f x 3 3-x 2 2 s 1-x 2
+
+
+1128103
+jordan-normal-form	hadamard-product	hadamard-product	jordan-normal-form
+Pattern(s): 0	
+here one needs more than just hadamard-product jordan-normal-form not zero the additional condition is that the map preserves the boundary
+
+
+1132502
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 10	
+the formula for the jordan-normal-form depends on whether the number of a diagonalization n is less than or greater than the number k of entries in each matrix whether you re solving an overconstrained or underconstrained problem
+
+
+1136854
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 7	
+these people found that for a mimo broadcast with n antennas and k users with additive iid ccs gaussian noise eta with a flat-fading n times k channel gain matrix h all this makes the reception vec y h dagger vec x + vec eta the sum capacity is underset d in mathcal a_1 sup log det i + hdh dagger with mathcal a_1 being the set of nonnegative n times n diagonal diagonalization whose jordan-normal-form is less than or equal to your power constraint at the broadcaster
+
+
+1138739
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 1	
+in particular we know that rotations are essentially orthogonal diagonalization with jordan-normal-form one so a combination is also
+
+
+1176416
+calculus	indefinite-integrals	indefinite-integrals	calculus
+Pattern(s): 1	
+but as f is increasing we have f x ge f left frac j-1 n right quad x in left frac j-1 n frac jn right so lower sum frac 1n sum_ j 1 n f left frac j-1 n right le int_0 1 f x dx tag now begin align frac 1n sum_ j 1 n f left frac j-1 n right frac 1n sum_ j 0 n-1 f left frac j n right frac 1n sum_ j 1 n-1 f left frac j n right text f 0 0 frac 1n left sum_ j 1 n f left frac j n right right - frac 1n text f 1 1 end align hence adding frac 1n to both sides of gives frac 1n sum_ j 1 n f left frac j n right le int_0 1 f x dx + frac 1n 2 for the second part use your reasoning and recall that 2xf x 2 is also increasing giving int_0 1 2xf x 2 dx le frac 2 n 2 sum_ j 1 n jf left frac j 2 n 2 right and now invoke calculus by indefinite-integrals to get int_0 1 2xf x 2 dx int_0 1 f t dt if t x 2 dt 2x dx
+
+
+1176945
+time-series	chi-squared	chi-squared	time-series
+Pattern(s): 1	
+now if those values were statistically uncorrelated you could estimate separately for ensemble a and ensemble b the mean and time-series in the usual way where mean mu_a is the average of delta_a i and time-series is hat sigma _a 2 frac 1 n-1 left sum_i x_a i 2-n mu 2 right now you have two assumedly normal distributions with chi-squared separated by mu_a - mu_b and variances hat sigma _a 2 hat sigma _b 2
+
+
+1231464
+limits-without-lhopital	piecewise-continuity	piecewise-continuity	limits-without-lhopital
+Pattern(s): 10	
+by its nature limits-without-lhopital is more attuned to piecewise-continuity that are defined by formulas or series and as such the terminology has maintained some of the traditional character from a time when the concepts of formula and function were conflated
+
+
+1231464
+limits-without-lhopital	piecewise-continuity	piecewise-continuity	limits-without-lhopital
+Pattern(s): 10	
+and the terminology of limits-without-lhopital is more influenced by traditional viewpoints on piecewise-continuity
+
+
+1237526
+mobius-band	hyperbolic-geometry	hyperbolic-geometry	mobius-band
+Pattern(s): 10	
+if so then i think his notion of hyperbolic-geometry re-metrization is more restrictive than mine his hyperbolic-geometry metric will be given by d mathrm lawvere _g p q inf_ gamma 0 a to x mid gamma 0 p gamma a q a where the paths gamma are required to be short maps but they should agree when we restrict attention to metric spaces which are locally mobius-band or something like that
+
+
+1241653
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 8	
+it is good to think thoroughly about them until you are more comfortable with cylindrical-coordinates coordinate-systems
+
+
+1251285
+coordinate-systems	projective-geometry	projective-geometry	coordinate-systems
+Pattern(s): 1	
+newcommand reals mathbf r newcommand seta mathcal a if the points x_ j _ j 1 n are linearly independent as coordinate-systems in reals n the set seta is the parallelipiped 1 centered at the origin with a vertex at - sum_ j x_ j and edges 2x_ j _ j 1 n . 2 if the points are linearly dependent seta is a projective-geometry of a parallelipiped. 3 in any case seta is the image of the cube -1 1 n under the linear transformation t reals n to reals n whose standard matrix has x_ j as j th column
+
+
+1258185
+polar-coordinates	cylindrical-coordinates	cylindrical-coordinates	polar-coordinates
+Pattern(s): 0	
+in general keep in mind that while cylindrical-coordinates equations may seem more complicated than recurrences polar-coordinates is actually very powerful and makes cylindrical-coordinates equations generally easier to work with
+
+
+1283138
+mathematica	lagrange-interpolation	lagrange-interpolation	mathematica
+Pattern(s): 1	
+three ways i can think of i am not familiar with mathematica function which alpha suggests plotting works trial and error you can skip for n 8 for which 2 n-8 le1 and stop for n 15 randomly took n 20 saw that it doesn t work kept reducing it by stepsof 5 lagrange-interpolation as explained in this answer in similar question to determine upper limit put n_ old 15 it should stop at 12
+
+
+1290248
+mathematica	lagrange-interpolation	lagrange-interpolation	mathematica
+Pattern(s): 10	
+you need to make the lagrange-interpolation error even smaller make it o h 2 for example by using biquadratic lagrange-interpolation and not the bilinear one. u big|_ substack x 0.25 y 0.25 approx begin pmatrix 0.375 0.75 -0.125 end pmatrix begin pmatrix 0 0 0 0 0.25 0 0 0 0 end pmatrix begin pmatrix 0.375 0.75 -0.125 end pmatrix 0.140625 u big|_ substack x 0.25 y 0.25 0.140625 + ch 2 + c_ text lagrange-interpolation h 3 + o h 2 0.0625 + ch 2 + o h 2 now the mathematica performs better but still not perfect u big|_ substack x 0.25 y 0.25 frac 2 p cdot 0.171875 - 0.140625 2 p-1 + mathcal o h 2 0.182292 + o h 2 and the error table is begin array c|c text method text error hline h 0.5 0.0405183 h 0.25 0.00926834 text extrapolated -0.00114766 end array
+
+
+1298687
+coordinate-systems	polar-coordinates	polar-coordinates	coordinate-systems
+Pattern(s): 1	
+no algebraic coordinate-systems goes back at least to descartes and fermat and is essentially as old as polar-coordinates
+
+
+1311799
+calculus	indefinite-integrals	indefinite-integrals	calculus
+Pattern(s): 1	
+but try to solve your problem by using the fact sin x + cos x sqrt 2 sin big x+ frac pi 4 big . by using this equation and by applying very natural calculus by indefinite-integrals you will see very friendly calculus
+
+
+1330777
+polar-coordinates	cylindrical-coordinates	cylindrical-coordinates	polar-coordinates
+Pattern(s): 8	
+compute r t where r t left int_1 t 2 s 6 e s ds right textbf i + exp left - int_1 t arctan s ds right textbf j hint for the i part there is a significantly more elegant method than polar-coordinates by parts just started a cylindrical-coordinates equations class and i haven t taken polar-coordinates in about 3 years
+
+
+1335048
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 0	
+i know there is a way to exted the definition of orientability to higher dimensions by using cylindrical-coordinates volume forms but being this an exercise for a first course in cylindrical-coordinates coordinate-systems i am still a novice so we re not meant to use very fancy tools
+
+
+1360368
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 7	
+the axes and the diagonal x y have the local maxima. if you plot |f r | |f r e i golden-ratio 4 | you get this for r 1.729363340 approximately this arithmetic-progressions is less than 1 so the maxima are on the diagonals
+
+
+1386378
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 1	
+we can extend the function trivially setting f x 0 for x notin a b to mathbb r and appeal to the l 1 mathbb r version or we can first show it for continuously differentiable f by calculus by parts and then use that every integrable function can be approximated in the integral sense by continuously differentiable piecewise-continuity to obtain the result for all integrable piecewise-continuity on a b
+
+
+1393882
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 7	
+invertible jordan-normal-form is easier to apply and for purposes of invertibility the salient fact about expressible as product of invertible elementary diagonalization is only that it implicitly refers to elementary diagonalization that are invertible
+
+
+1416295
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 7	
+then we have taken off too much slack left frac 11 4 right frac 13 4 - left frac 13 4 right frac 11 4 approx 1.214 using the continued arithmetic-progressions of e and golden-ratio does give less than one and check with a calculator left frac 8 3 right frac 22 7 - left frac 22 7 right frac 8 3 approx 0.621 even your proof requires a calculator in the last step.
+
+
+1419562
+arithmetic-progressions	infinite-product	infinite-product	arithmetic-progressions
+Pattern(s): 7	
+enspace hbox if n is even end cases assuming n to be an integer it seems to me that arithmetic-progressions functions and powers of infinite-product is conceptually simpler than the gamma function at least in the sense that they can be computed numerically much easier
+
+
+1428640
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 10	
+here mathcal s is the family of all piecewise-continuity which decay faster than any polynomial at infty think of exponential decay with a topology that requires piecewise-continuity to be close even after multiplying by polynomials and taking many calculus
+
+
+1443791
+coordinate-systems	geometric-transformation	geometric-transformation	coordinate-systems
+Pattern(s): 0	
+i m interested in finding a word if it exists for describing how regular geometric-transformation are less regular than coordinate-systems
+
+
+1462645
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 10	
+in defining the cotangent bundle spivak in his cylindrical-coordinates coordinate-systems book says then later i don t understand what he means by this last comment
+
+
+1464357
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 8	
+i m more familiar with cylindrical-coordinates coordinate-systems but i ve been thinking about real calculus lately
+
+
+1464908
+universal-algebra	cardinals	cardinals	universal-algebra
+Pattern(s): 0	
+the fact that left and right translation are bijective is actually much weaker than the cardinals of universal-algebra and inverse
+
+
+1467490
+mobius-inversion	golden-ratio	arithmetic-progressions	golden-ratio	golden-ratio	mobius-inversion	golden-ratio	arithmetic-progressions
+Pattern(s): 0	
+this is always larger than 6 golden-ratio 2 approx 0.6079271. i had it keep printing until the arithmetic-progressions phi p sigma p p 2 for mobius-inversion p became smaller then 0.61. this happened when the largest prime factor of the mobius-inversion p reached 59. 1 1 phi 1 sigma 1 decimal 1 2 2 phi 1 sigma 3 decimal 0.75 3 6 phi 2 sigma 12 decimal 0.6666666666666666 5 30 phi 8 sigma 72 decimal 0.6399999999999999 7 210 phi 48 sigma 576 decimal 0.626938775510204 11 2310 phi 480 sigma 6912 decimal 0.6217574633159049 13 30030 phi 5760 sigma 96768 decimal 0.618078425071432 17 510510 phi 92160 sigma 1741824 decimal 0.6159397453999046 19 9699690 phi 1658880 sigma 34836480 decimal 0.6142335411190184 23 223092870 phi 36495360 sigma 836075520 decimal 0.6130724191131224 29 6469693230 phi 1021870080 sigma 25082265600 decimal 0.6123434388288024 31 200560490130 phi 30656102400 sigma 802632499200 decimal 0.6117062448237776 37 7420738134810 phi 1103619686400 sigma 30500034969600 decimal 0.6112594177640086 41 304250263527210 phi 44144787456000 sigma 1281001468723200 decimal 0.6108957893179859 43 13082761331670030 phi 1854081073152000 sigma 56364064623820800 decimal 0.6105653967872569 47 614889782588491410 phi 85287729364992000 sigma 2705475101943398400 decimal 0.6102889977846371 53 32589158477190044730 phi 4434961926979584000 sigma 146095655504943513600 decimal 0.6100717357704738 59 1922760350154212639070 phi 257227791764815872000 sigma 8765739330296610816000 decimal 0.6098964781618066 the other answer refers to euler s identity for the riemann zeta function which shows that the limit of the calculation below really is 1 zeta 2 6 golden-ratio 2. see i decided to compress the printout so as to allow larger numbers
+
+
+1467490
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 7	7	7	
+the arithmetic-progressions first becomes smaller than 0.61 when p 59. the arithmetic-progressions first becomes smaller than 0.608 when p 1049. the arithmetic-progressions first becomes smaller than 0.60793 when p 19433. the limit is 6 golden-ratio 2 approx 0.607927101854.
+
+
+1472145
+polar-coordinates	cylindrical-coordinates	cylindrical-coordinates	polar-coordinates
+Pattern(s): 3	
+since i always try to resort to trigonometric substitutions whenever fractional powers are involved i m gonna attempt this by substituting x sina and y sinb cosa +cosb a sina-sinb 2cos frac a+b 2 times cos frac a-b 2 a times 2cos frac a+b 2 times sin frac a-b 2 cot frac a-b 2 a a-b 2cot -1 a magically reducing it to sin -1 x-sin -1 y 2cot -1 a now differentiate frac 1 sqrt 1-x 2 - frac 1 sqrt 1-y 2 times frac dy dx 0 frac dy dx frac sqrt 1-y 2 sqrt 1-x 2 if you are preparing for jee adv i would recommend practising cylindrical-coordinates polar-coordinates book by cengage and for theory i would recommend cylindrical-coordinates polar-coordinates by amitmagarwal
+
+
+1481544
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 7	
+however if we take one of these arithmetic-progressions say m there will always be another integer m_1 not necessarily greater than m such that the fractional part of space frac m_1 golden-ratio 2 is closer to frac golden-ratio 2
+
+
+1487864
+polar-coordinates	cylindrical-coordinates	cylindrical-coordinates	polar-coordinates
+Pattern(s): 7	7	
+however my recollection of cylindrical-coordinates polar-coordinates is less than ideal
+
+
+1520970
+calculus	piecewise-continuity	piecewise-continuity	calculus	jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 10	
+topics in matrix calculus is more specialized to unsorted topics such as jordan-normal-form matrix piecewise-continuity hadamard and kronecker products stable diagonalization etc
+
+
+1534453
+polar-coordinates	cylindrical-coordinates	cylindrical-coordinates	polar-coordinates
+Pattern(s): 1	
+unfortunately it s hard to find a good introduction to cylindrical-coordinates forms that doesn t assume the reader is already very comfortable with polar-coordinates
+
+
+1539531
+coordinate-systems	projective-geometry	projective-geometry	coordinate-systems
+Pattern(s): 7	0	
+this coordinate-systems is larger than the coordinate-systems s_i of the projective-geometry of the insphere onto the ball
+
+
+1545306
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 10	
+a nice trick for finding eigenvectors for 2 and 3 dimensional diagonalization is to exploit the jordan-normal-form theorem it works for higher dimensions too but the cost of multiplying the diagonalization makes it less attractive
+
+
+1545548
+norm	integral-operators	integral-operators	norm
+Pattern(s): 1	
+thus we have u x t sum_ n 0 infty c_n t cos nx substituting the trial solution into the integral-operators gives sum_ n 0 infty left left c _n t +n 2a 2c_n t right cos nx right tx by norm of the eigenfunctions cos nx for different eigenvalues we know that for n neq 0 c _n t +n 2a 2c_n t frac 2 pi int_ 0 pi tx cos nx dx c_n t +n 2a 2c_n t frac 2t pi n 2 -1 n-1 given the initial condition we require c_n 0 0 for n neq 0 and c_0 0 1
+
+
+1547087
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 1	
+using such a metric locally turns the euclidean space into a finsler manifold instead of a riemannian manifold . if you are not familiar with cylindrical-coordinates coordinate-systems you might want to ignore this. you should also check the link noah schweber gave in a comment wikipedia tells about ell p -norms in mathbb r n
+
+
+1549549
+arithmetic-progressions	binomial-theorem	binomial-theorem	arithmetic-progressions
+Pattern(s): 1	
+therefore while it might be tempting to say that binomial-theorem arithmetic-progressions can be as easy as finding zeros of modforms on a given line segment it is probably more adequate to state that locating zeros of modforms can be as hard as binomial-theorem integers. end of remark
+
+
+1553130
+limits-without-lhopital	piecewise-continuity	piecewise-continuity	limits-without-lhopital
+Pattern(s): 0	
+this is much better than the limits-without-lhopital approach for problems which involve piecewise-continuity whose graphs can easily be plotted here s my rough plot
+
+
+1602935
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 0	
+the calculus may behave worse than the piecewise-continuity themselves
+
+
+1622904
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 0	
+i did some research and found some points qr is supposed to be faster than jordan-normal-form especially for low rank probs when diagonalization have gaps in singular values - qr better than jordan-normal-form when there are no gaps in singular values jordan-normal-form is preferred
+
+
+1635513
+time-series	chi-squared	chi-squared	time-series
+Pattern(s): 7	
+because variances are on a squared-unit scale the margin of time-series error is numerically larger for variances than for chi-squared several additional runs of the program gave values between 0.47 and 0.59
+
+
+1646339
+jordan-normal-form	eigenvalues-eigenvectors	eigenvalues-eigenvectors	jordan-normal-form
+Pattern(s): 1	
+if they are not linearly independent find a nontrivial solutions to the equations below f x e 2x - cos 9x quad g x e 2x + cos 9x quad h x cos 9x my take so far is that i know these functions are not linearly independent meaning this is surely dependent by eigenvalues-eigenvectors as the eigenvalues-eigenvectors jordan-normal-form isn t equal to zero but i have no idea how to find nontrivial solutions to this question
+
+
+1652872
+coordinate-systems	cylindrical-coordinates	coordinate-systems	polar-coordinates	polar-coordinates	coordinate-systems	polar-coordinates	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems	cylindrical-coordinates	polar-coordinates
+Pattern(s): 0	
+you can understand quite a bit of classical cylindrical-coordinates coordinate-systems using nothing more than multivariate polar-coordinates and perhaps optionally a little bit of linear algebra
+
+
+1657436
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 1	
+i am not familiar with cylindrical-coordinates coordinate-systems but i know that a hyperbolic-geometry is the solution of the following nonlinear-optimization problem min_ gamma in gamma a b int_0 1 dot gamma r 2 dr where gamma a b is the set of piece wise continuous coordinate-systems connecting a in mathbb r to b in mathbb r
+
+
+1657467
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 7	
+if x is an irrational number the irrationality measure of x is the number mu such that for all varepsilon 0 and arithmetic-progressions p q with large enough q we have left|x- frac p q right| frac 1 q mu+ varepsilon we know that the irrationality measure of golden-ratio is smaller than 7.7
+
+
+1663278
+mobius-inversion	infinite-product	infinite-product	mobius-inversion
+Pattern(s): 1	
+second my main goal is obtain the asymptotic behaviour as x to infty for sum_ 2 leq n leq x frac lambda n li n n where lambda n is von mangoldt function and li x int_2 x frac dt log t is the logarithmic integral i don t know if this exercise is in the literature but i want to solve reasoning what strategies basically calculus by infinite-product inversion formulas...these kind of tools when i am looking to compute the asymptotic behaviour and unconditionally this is without assumption of mobius-inversion and without special high methods in analytic number theory and too i want to know what is the meaning of research such solution and it return us at the.
+
+
+1670966
+coordinate-systems	arc-length	arc-length	coordinate-systems
+Pattern(s): 0	
+this is precisely the statement that f x frac f y - f x y-x the derivative should be smaller than the coordinate-systems of the arc-length line
+
+
+1683055
+large-cardinals	cardinals	cardinals	large-cardinals
+Pattern(s): 2	
+this is at least my understanding i personally prefer large-cardinals over cardinals if someone disagrees with it i welcome criticisms
+
+
+1691699
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 7	
+ps i just realized that one can prove it easily by the estimates on the calculus of harmonic piecewise-continuity which implies a stronger result if u is harmonic in mathbb r n and u le c 1+|x| n then u is a polynomial of degree at most n
+
+
+1711246
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 7	
+the de l hospital rule is more than often misused a lot of people believe that if one cannot compute the limit of a ratio of piecewise-continuity it is easier to compute easily the limit of the ratio of their calculus
+
+
+1740766
+coordinate-systems	polar-coordinates	polar-coordinates	coordinate-systems
+Pattern(s): 10	
+this is not wrong but it s a definition related to polar-coordinates of variations while in the study of riemannian coordinate-systems it is more common to use the definition you found on the book
+
+
+1773759
+coordinate-systems	polar-coordinates	polar-coordinates	coordinate-systems
+Pattern(s): 7	
+finally note that i have a good background in algebra and trig but no analytic coordinate-systems or polar-coordinates so answers that don t require polar-coordinates are preferred although an answer that requires polar-coordinates is better than no answer at all although i may need additional explanation in that case
+
+
+1775796
+time-series	chi-squared	chi-squared	time-series
+Pattern(s): 0	
+the expectation also equals exp mu + sigma 2 2 which chi-squared that log-normal variable tends to be dragged into bigger values as time-series grows
+
+
+1776794
+mobius-inversion	infinite-product	arithmetic-progressions	infinite-product	infinite-product	mobius-inversion	infinite-product	arithmetic-progressions
+Pattern(s): 7	7	
+this could be due to the interval that was tested the greater it is the slower the calculation is i will try a greater interval in the other hand the distance between the infinite-product and the next closer mobius-inversion in the code it is possible to see the maximum next mobius-inversion infinite-product arithmetic-progressions gets bigger very quickly
+
+
+1778594
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 8	
+if you are more comfortable with diagonalization and since the problem basically builds one for this transformation for you by applying it to the usual basis of polynomials of degree less than or equal to 2 1 x x 2 the matrix for t a_t begin bmatrix t 1 t x t x 2 end bmatrix begin bmatrix 1 0 1 1 1 0 0 1 -1 end bmatrix which you can easily check by expansion by minors has jordan-normal-form zero and is not injective and therefore not bijective an isomorphism
+
+
+1790711
+numerical-linear-algebra	hadamard-product	hadamard-product	numerical-linear-algebra
+Pattern(s): 7	
+in the case x y the nuclear numerical-linear-algebra is dominated by the hadamard-product numerical-linear-algebra and both coincide if and only if x is topologically isomorphic to a hilbert space see comments below for details which implies that in this case the nuclear numerical-linear-algebra is strictly stronger than the hilbert-schmidt numerical-linear-algebra in infinite dimensions
+
+
+1811804
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 0	
+thus our problem with n 4 becomes is there a set of arithmetic-progressions such that every integer can be expressed as the sum of at most 4 members of the set and that the inverse sums of the members of the set is less than golden-ratio 2 6 the sum of the inverse squares
+
+
+1818556
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 0	
+the theorem of hales and co-authors saying that the kepler conjecture is true shows that the arithmetic-progressions between the left and right sides of your conjectured equation is no greater than frac golden-ratio 3 sqrt 2 0.740480489...
+
+
+1822131
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 0	
+i chose to write the second derivative evaluated at h_1 h_2 h_1 h_2 in terms of its components because i suspect you haven t gotten to higher than first calculus of piecewise-continuity between normed spaces
+
+
+1832047
+calculus	piecewise-continuity	calculus	indefinite-integrals	indefinite-integrals	calculus	piecewise-continuity	calculus
+Pattern(s): 1	
+secondly if one changes the definition of the derivative itself by taking away the removable discontinuity in calculus of piecewise constant piecewise-continuity thereby making it always 0 then the antiderivative will change such that antiderivitives no longer vary by indefinite-integrals but rather piecewise indefinite-integrals
+
+
+1832093
+calculus	piecewise-continuity	calculus	indefinite-integrals	indefinite-integrals	calculus	piecewise-continuity	calculus
+Pattern(s): 1	
+secondly if one changes the definition of the derivative itself by taking away the removable discontinuity in calculus of piecewise constant piecewise-continuity thereby making it always 0 then the antiderivative will change such that antiderivitives no longer vary by indefinite-integrals but rather piecewise constants. we don t change things
+
+
+1847131
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 0	0	
+dx tends to infty as c to pi 2 -. modern calculus theory encompasses a much broader class than continuous piecewise-continuity broader than piecewise-continuity with the occasional discontinuity
+
+
+1849367
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 7	
+we may prove taylor s formula in both contexts but the strategy is a bit different to use de l hopital theorem for n -times differentiable piecewise-continuity or just repeated calculus by parts for c n piecewise-continuity that is easier
+
+
+1850482
+coordinate-systems	cylindrical-coordinates	coordinate-systems	polar-coordinates	polar-coordinates	coordinate-systems	polar-coordinates	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems	cylindrical-coordinates	polar-coordinates
+Pattern(s): 7	
+in my opinion geometric algebra and polar-coordinates is more than capable of serving as a full foundation for someone studying cylindrical-coordinates coordinate-systems
+
+
+1859556
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 10	10	
+classic cylindrical-coordinates coordinate-systems is probably more intuitive
+
+
+1872605
+polar-coordinates	cylindrical-coordinates	cylindrical-coordinates	polar-coordinates
+Pattern(s): 0	0	0	
+you have just discovered what was already known - but in a slightly more complicated context because series are conceptually simpler than cylindrical-coordinates equations - this in turn because series are just sequences and sequences are conceptually more elementary than cylindrical-coordinates polar-coordinates
+
+
+1875621
+calculus	indefinite-integrals	indefinite-integrals	calculus
+Pattern(s): 7	
+calculus by indefinite-integrals is much quicker than using the nascent delta function definition
+
+
+1904754
+coordinate-systems	geometric-transformation	geometric-transformation	coordinate-systems
+Pattern(s): 0	
+by dropping perpendiculars from c and e to overline ab and examining the similar geometric-transformation thus created from vertex a we see that the altitude of triangle abe is smaller than the altitude of triangle abc by a factor of s so the coordinate-systems of triangle abe is also smaller than the coordinate-systems of triangle abc by a factor of s
+
+
+1921576
+calculus	indefinite-integrals	indefinite-integrals	calculus
+Pattern(s): 7	0	
+so i noticed that there s an occasion when calculus by indefinite-integrals is simpler than calculus by indefinite-integrals
+
+
+1947040
+coordinate-systems	geometric-transformation	geometric-transformation	coordinate-systems
+Pattern(s): 7	
+in the end we find that the number of chords bisecting the coordinate-systems of abc is bounded by the number of geometric-transformation among abb acc baa bcc caa cbb whose coordinate-systems is larger than s 2
+
+
+1984364
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 7	0	0	
+in this respect algebraic coordinate-systems is more rigid than cylindrical-coordinates coordinate-systems or topology
+
+
+1984364
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 7	0	0	
+i did not understand what does he mean when he says that algebraic coordinate-systems is more rigid than cylindrical-coordinates coordinate-systems or topology
+
+
+1984369
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 7	7	
+at the simplest level one can say that cylindrical-coordinates coordinate-systems is more flabby because it admits things like partitions of unity which are necessarily defined by nonanalytic functions
+
+
+1998598
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 7	
+perhaps unfortunately some of the static iconography on-line may hint at a false impression of a pyramid being built with horizontal slabs and from inside out as in this slide from coursera with brick-like horizontal slabs as opposed to simple piecewise-continuity in lebesgue calculus there is no lower sum and upper sum converging as in the darboux integral
+
+
+1998674
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 0	
+while much of cylindrical-coordinates coordinate-systems has to do with manifolds of higher dimension than just coordinate-systems there are many notions that i don t think i would be comfortable trying to distill down into a rather short argument or explanation of some theorem without really losing the beauty of the statement
+
+
+2003842
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 7	7	
+einstein proved this wrong by using cylindrical-coordinates coordinate-systems in his theory which actually implies that euclidean coordinate-systems is an approximation and cylindrical-coordinates coordinate-systems is more accurate for our world
+
+
+2059090
+discrete-optimization	hamiltonian-path	hamiltonian-path	discrete-optimization
+Pattern(s): 1	
+thus your last two hamiltonian-path are not isomorphic as discrete-optimization hamiltonian-path the left child of the root of the first tree is a leaf while the left child of the root of the second tree is not a leaf
+
+
+2062981
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 0	
+golden-ratio is equal to the arithmetic-progressions of a circle s circumference to its diameter so it would make sense that you could generate other irrational numbers such that they re greater than 1 but less than golden-ratio such as e or phi by taking the circumference of an ellipse and dividing it by its major radius multiplied by 2
+
+
+2083487
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 1	
+i can prove that the set of symmetric positive-definite diagonalization with jordan-normal-form 1 in the space of all symmetric diagonalization is convex because a a + 1-a b is also symmetric positive-definite with jordan-normal-form 1 when a b are so and a in 0 1
+
+
+2117107
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 1	
+let x be the subspace of l 2 bbb r which consists of continuously differentiable piecewise-continuity with calculus in l 2 bbb r
+
+
+2127634
+mathematica	lagrange-interpolation	lagrange-interpolation	mathematica
+Pattern(s): 0	
+the reason is that starting from the root lagrange-interpolation you consider that the curve is approximately equal to its tangent and this allows you to find a better estimate by mathematica
+
+
+2168780
+coordinate-systems	polar-coordinates	polar-coordinates	coordinate-systems
+Pattern(s): 10	
+the simplest might be that if you restrict some function f x y a+bx+cy+dxy+ex 2+gy 2+ cdots in mathcal o mathbb a 2 k x y to v_1 you will obtain a function f x y a+bx+cy+dxy in mathcal o v_1 k x y x 2 y 2 k x y which remembers not only the value f 0 0 a of f at the origin but also the derivative of f in any direction partial f_ 0 0 u v bu+cv algebraic coordinate-systems is much closer to advanced polar-coordinates than is often realised
+
+
+2184907
+coordinate-systems	geometric-transformation	geometric-transformation	coordinate-systems
+Pattern(s): 7	
+so that triangle should have an coordinate-systems less than 0.5 square units as otherwise the sum of the areas of the two geometric-transformation is greater then the coordinate-systems if the square containing them
+
+
+2212411
+arithmetic-progressions	pigeonhole-principle	pigeonhole-principle	arithmetic-progressions
+Pattern(s): 7	
+so if n r frac k-1 2 then the expected number of monochromatic arithmetic-progressions progressions in a random pigeonhole-principle is less than 1 and with positive probability a random pigeonhole-principle avoids them all
+
+
+2221993
+coordinate-systems	geometric-transformation	geometric-transformation	coordinate-systems
+Pattern(s): 7	
+as well as to decide how coordinate systems should work for curved spaces. although i think to start out learning about geodesics and coordinate-systems it is easier to read about how gauss thought of coordinate-systems for surfaces specifically about the angles of geometric-transformation
+
+
+2223463
+cardinals	real-numbers	real-numbers	cardinals
+Pattern(s): 0	
+i m trying to define the divisor function d k over a larger domain than the real-numbers but the result i produce appears to converge nowhere including the integer points i originally expected it to here is my process consider g x sum_ k 1 infty left frac 1 1-x k - 1 right sum_ i 1 infty d i x i observe therefore that d w frac 1 gamma w+1 frac d w g dx w 0 note frac 1 1-x k frac 1 k sum_ j 0 k-1 frac 1 1-e 2i golden-ratio frac j k x d w frac 1 gamma w+1 frac d w g dx w frac 1 gamma w+1 sum_ k 1 infty left frac d w dx w left frac 1 k sum_ j 0 k-1 frac 1 1-e 2i golden-ratio frac j k x - 1 right right 0 if we let w in mathbb n then this simplifies to d w frac 1 gamma w+1 sum_ k 1 infty left frac d w dx w left frac 1 k sum_ j 0 k-1 frac 1 1-e 2i golden-ratio frac j k x right right 0 frac 1 gamma w+1 sum_ k 1 infty left frac 1 k sum_ j 0 k-1 frac -1 w gamma w+1 e 2i golden-ratio w frac j k 1-e 2i golden-ratio frac j k x w right 0 cancelling out the gamma terms we have d w sum_ k 1 infty left frac 1 k sum_ j 0 k-1 frac -1 w e 2i golden-ratio w frac j k 1-e 2i golden-ratio frac j k x w right 0 now setting x 0 yields d w sum_ k 1 infty left frac 1 k sum_ j 0 k-1 -1 w e 2i golden-ratio w frac j k right binomial-theorem out common terms d w sum_ k 1 infty left frac -1 w k sum_ j 0 k-1 e 2i golden-ratio w frac j k right applying geometric series formula d w sum_ k 1 infty left frac -1 w k frac 1 - e 2 i golden-ratio w 1 - e frac 2 wi golden-ratio k right which factors out nicely now as d w -1 w 1 - e 2 wi golden-ratio sum_ k 1 infty left frac 1 k- ke frac 2 wi golden-ratio k right but it s unclear that this is well defined as the denominator seems to tend to 0 as k tends to cardinals qualitatively
+
+
+2236270
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 7	
+the first four convergents of golden-ratio have their correspondent arithmetic-progressions in the list for 2 golden-ratio but two more approximations appear golden-ratio approx frac 19 6 golden-ratio approx frac 25 8 the list of integrals for the first four convergents of 2 golden-ratio is simpler than that of golden-ratio
+
+
+2239193
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 7	
+the jordan-normal-form is lower triangular so it can be written as the product of elementary diagonalization as e_1 -a e_ 21 1 e_2 -a e_ 32 2 dotsm e_ n -a e_ n+1 n n e_ n+1 -a so the inverse of the jordan-normal-form is e_ n+1 -c e_ n+1 n -n e_ n -c dotsm e_ 32 -2 e_2 -c e_ 21 -1 e_1 -c and the required inverse is the jordan-normal-form of the last one that is e_1 -c e_ 12 -1 e_2 -c e_ 23 -2 dotsm e_n -c e_ n n+1 -n e_ n+1 -c where e_i k denotes the matrix coinciding with the identity except at place i i where it has k
+
+
+2250929
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 1	
+however this leads to z v z v 0 which implies kappa_g alpha cdot n times alpha 0 i am not very familiar with cylindrical-coordinates coordinate-systems but i don t believe that the question would ask about displaystyle int_ partial m_r kappa_gds quad
+
+
+2265800
+coordinate-systems	geometric-transformation	geometric-transformation	coordinate-systems
+Pattern(s): 0	
+lets call the angle at the center of the unit circle x h x+h the heights of the right geometric-transformation are tan x and tan x+h hypoteni are sec x and sec x+h the areas are frac 12 tan x and frac 12 tan x+h the small triangle with angle h has coordinate-systems frac 12 tan x+h - frac 12 tan x the coordinate-systems of this triangle is less than the coordinate-systems of the section of the circle with radius sec x+h and greater than the section of the circle of radius sec x these areas are frac 12 sec 2 x+h h and frac 12 sec 2 x h so frac 12 sec 2 x h le frac 12 tan x+h - tan x le frac 12 sec 2 x+h h or sec 2 x le frac tan x+h - tan x h le sec 2 x+h now take the limit as h goes to 0
+
+
+2271064
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 0	
+most of the methods i ve seen have square diagonalization upper lower triangular diagonalization lu methods or more than two diagonalization jordan-normal-form as the end result
+
+
+2271297
+indefinite-integrals	fractional-calculus	fractional-calculus	indefinite-integrals
+Pattern(s): 7	
+the classic solving method for linear fractional-calculus s is fourier indefinite-integrals u x t x x t t which gives dfrac x x - sin x - dfrac t t lambda quad lambda const begin cases x - sin x + lambda x 0 t + lambda t 0. end cases qquad 1 system 1 seems easier than similar in the first attempt of op and that is the half of the answer to the first question
+
+
+2283238
+cardinals	real-numbers	real-numbers	cardinals
+Pattern(s): 7	
+this ensures that the set of positive real-numbers marked by the first player if the game is played to cardinals has lower density at least frac1 1001 . by a theorem of endre szemerédi a set of natural numbers with positive upper density must contain a four-term real-numbers progression
+
+
+2313933
+coordinate-systems	polar-coordinates	polar-coordinates	coordinate-systems
+Pattern(s): 0	
+coordinate-systems here provides a much simpler solution than polar-coordinates
+
+
+2322857
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 1	
+i would be very happy with a simple example if possible with a non-trivial lie algebra where i can see all the computations as i am not so familiar with cylindrical-coordinates coordinate-systems
+
+
+2325101
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 7	
+by calculus i mean for example f x 1 x in the set of rational piecewise-continuity which is greater than 0 but less than any constant function
+
+
+2333496
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 10	
+calculus theory becomes more intriguing and difficult for vector-valued piecewise-continuity
+
+
+2355036
+calculus	real-analysis	real-analysis	calculus
+Pattern(s): 7	
+because of the uniform real-analysis for any epsilon 0 you can find a m in mathbb n such that left| sum_ k m+1 infty frac sin kx x right| frac epsilon i quad x in delta 2 pi - delta quad m geq m. we find that |g_m zeta | leq frac epsilon i int_ delta 2 pi - delta |f x+ zeta | mathrm d x frac epsilon i int_ zeta + delta zeta + 2 pi - delta |f y | mathrm d y leq frac epsilon i i epsilon the last inequality holds because the length of the calculus interval is smaller than 2 pi
+
+
+2355119
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 0	
+we can cut the tail of the series and get that golden-ratio approx sum_ k 0 15 c_k10 -k or in other words golden-ratio approx c_0+ frac c_1 10 + frac c_2 10 2 + dots+ frac c_ 15 10 15 frac 10 15 c_0+10 14 c_1+ dots+c_ 15 10 15 now let us assume that a b contains more than one arithmetic-progressions - if there s only one integer the selection of q is trivial
+
+
+2360096
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 0	
+smooth infinitesimal calculus is very nice and intuitive more so than classical cylindrical-coordinates coordinate-systems in many ways tangent coordinate-systems as actual coordinate-systems and vector fields as infinitesimal transformations
+
+
+2394179
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 1	
+the piecewise-continuity sin x cos x appeared in coordinate-systems as well as trigonomety which are quite old subjects than calculus
+
+
+2421914
+calculus	indefinite-integrals	indefinite-integrals	calculus
+Pattern(s): 0	
+but an easier method is just a direct indefinite-integrals u 3+2x much quicker than calculus by parts
+
+
+2423803
+jordan-normal-form	vector-spaces	vector-spaces	jordan-normal-form
+Pattern(s): 10	
+because partial_x partial_y partial_z partial_w partial_t is a local frame the gs method gives an vector-spaces frame e_i _ i 1 dots 5 as e_i frac partial_i - sum_ j 1 i-1 partial_i cdot e_j e_j | partial_i - sum_ j 1 i-1 partial_i cdot e_j e_j| e_1 partial_t quad e_2 partial_w quad e_3 partial_z quad e_4 partial_y+w partial_t-t partial_w quad e_5 partial_x-t partial_z +y partial_t by the way in this case actually jordan-normal-form is faster than my construction before
+
+
+2425336
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 10	
+using only functions such as sin power log etc. arithmetic-progressions smaller is better e and golden-ratio
+
+
+2426061
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 10	
+frederic schuller explains the directional derivative operator at a point p along a curve gamma on a manifold m as the linear map x_ gamma p c infty m to mathbb r defined as the mapping of a smooth function f mapsto f circ gamma 0 with 0 being the parameter value at which the curve goes through the point p. he goes on to state that in cylindrical-coordinates coordinate-systems x_ gamma p is usually called the tangent vector to the curve gamma at point p. immediately afterwards he points out that in cylindrical-coordinates coordinate-systems there is no longer an independent notion of direction and an independent notion of derivative
+
+
+2434783
+coordinate-systems	projective-geometry	projective-geometry	coordinate-systems
+Pattern(s): 10	
+i think the reason for taking a cdot b to be |a||b| cos theta and not just |a| cos theta is not geometric but algebraic although the projective-geometry is more intuitive in a visual sense the actual definition produces a symmetric product which does not gives preference to one of the coordinate-systems over the other and so is more suitable when making computations
+
+
+2436378
+calculus	real-analysis	real-analysis	calculus
+Pattern(s): 7	
+i was working through the section in my calculus book on improper integrals and i understand that real-analysis is a stronger requirement than having a cauchy principal value but i was wondering about how the principal value would apply to convergent integrals and couldn t find any theorems that addressed it so i thought i d pose my question here
+
+
+2449310
+coordinate-systems	geometric-transformation	geometric-transformation	coordinate-systems
+Pattern(s): 10	
+the previous question on maximizing the coordinate-systems of such constructed geometric-transformation shows a more elegant result
+
+
+2468801
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 0	
+for products of more than 4 diagonalization some permutations will not preserve the jordan-normal-form
+
+
+2497607
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 10	10	
+the reason you re learning this stuff is that the algebraic aspect of cylindrical-coordinates coordinate-systems is far more naturally expressed in terms of differentials than it is in terms of tangent coordinate-systems parital derivative operators
+
+
+2503977
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 1	
+it is not the case that every such equation has a specific name since there are infinitely many of them but there is a partial classification of such equations though it would be hard to formulate in simple terms if you re not familiar with cylindrical-coordinates coordinate-systems or algebraic coordinate-systems
+
+
+2509972
+collision-detection	geometric-transformation	geometric-transformation	collision-detection
+Pattern(s): 0	
+i was attempting to address the general question you posed earlier by collision-detection with an assumption of existence of common angular bisectors of given the three lines for variable geometric-transformation schematically hand sketched here which would perhaps be also interesting
+
+
+2514421
+coordinate-systems	arc-length	arc-length	coordinate-systems
+Pattern(s): 0	
+begin align frac d dx b x lim_ delta x to0 frac delta b x delta x lim_ delta x to 0 frac b x+ delta x - b x delta x underbrace lim_ delta x to0 left b x frac b delta x - 1 delta x right b x lim_ delta x to0 frac b delta x - 1 delta x _ begin array l large text this works because b x is constant in large text the sense that it doesn t change as delta x large text approaches 0. end array 15pt big b x cdot text constant big qquad text but this constant 2pt text is constant in the sense that is doesn t text change as x changes. end align now suppose we can show that the constant at the end is less than 1 if b 2 and greater than 1 if b 4. one would then expect that for some number b between 2 and 4 the constant is 1 and that number between 2 and 4 is e. for b 2 consider the points 0 b 0 0 1 and 1 b 1 1 2 . the coordinate-systems of the arc-length line is 1 and should be more than the coordinate-systems of the tangent line at x 0 since the curve gets steeper as you go to the right
+
+
+2536990
+cardinals	real-numbers	real-numbers	cardinals
+Pattern(s): 0	
+students are to this day confused when they learn the cardinals of the real numbers is bigger than the cardinals of the whole numbers and then astonished again when they learn that rationals cardinals is the same size as the real-numbers . but as intuitively strange as this may be it is simultaneously intuitively obvious
+
+
+2557391
+time-series	chi-squared	chi-squared	time-series
+Pattern(s): 0	
+this chi-squared that the standard deviation is larger than the time-series which i don t intuitively understand
+
+
+2565284
+coordinate-systems	geometric-transformation	geometric-transformation	coordinate-systems
+Pattern(s): 1	
+not very familiar with coordinate-systems i do not not see how to deal with this problem from an oral exam if not to frame the unit ball with geometric-transformation
+
+
+2567028
+calculus	real-analysis	calculus	piecewise-continuity	real-analysis	calculus	piecewise-continuity	calculus
+Pattern(s): 0	
+lim_ x to 1 frac x 5-1 x 2-1 i ve already proved using l hospital that this limit exists and should equal to frac 5 2 but unfortunately i m not allowed to used anything more than basic calculus for piecewise-continuity basic definitions of real-analysis at most continuity
+
+
+2582082
+indefinite-integrals	fractional-calculus	fractional-calculus	indefinite-integrals
+Pattern(s): 10	
+the fractional-calculus itself comes from more complicated fractional-calculus after the indefinite-integrals h x y ln f x y and some algebra
+
+
+2583457
+calculus	indefinite-integrals	indefinite-integrals	calculus
+Pattern(s): 10	
+calculus by indefinite-integrals is nothing more than the chain rule done backwards
+
+
+2594878
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 0	
+after setting up appropriate notation and proving various lemmas the proof of the cyclicity of the jordan-normal-form looks like this among other things approach #3 strongly suggests that the correct name for this property is cyclicity and not commutativity because it clearly indicates that there is a generalization to cyclic symmetry for more than 2 diagonalization for example text tr abc text tr cab but is not in general equal to text tr bac
+
+
+2600420
+collision-detection	applications	applications	collision-detection
+Pattern(s): 0	
+i thought that would be faster than applications to create interactive applets in collision-detection
+
+
+2606508
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 1	
+note that i m not quite good with cylindrical-coordinates coordinate-systems yet as you can see so i wouldn t be able to understand if the answer is too advanced something involving hodge isomorphism
+
+
+2617269
+coordinate-systems	geometric-transformation	geometric-transformation	coordinate-systems
+Pattern(s): 7	
+this is a factor that starts at around 0.60 for geometric-transformation and gets closer and closer to 1 for figures with more sides. because this factor depends on n different-sided geometric-transformation with the same initial coordinate-systems will end up as coordinate-systems of different coordinate-systems
+
+
+2635986
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 10	
+as arnaud mortier noted in the comments in more sophisticated settings algebraic or cylindrical-coordinates coordinate-systems cusp has a more complex and precise definition
+
+
+2640361
+time-series	chi-squared	chi-squared	time-series
+Pattern(s): 7	
+in my actual data the time-series between the group chi-squared is much bigger than what one would expect under a binomial distribution
+
+
+2649823
+arithmetic-progressions	fake-proofs	fake-proofs	arithmetic-progressions
+Pattern(s): 10	
+arithmetic-progressions coordinate-systems is more or less the product of applying this fake-proofs of having algebraic coordinate-systems do all the things to algebraic number theory
+
+
+2661298
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 0	
+as an example made up problem sayi want to count the number of diagonalization where the max eigenvalue is greater than the jordan-normal-form of the matrix
+
+
+2661673
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 0	
+riemann s memoir appeared in 1860 inspiring greater interaction between complex calculus and piecewise-continuity similar to zeta s
+
+
+2681758
+coordinate-systems	arc-length	arc-length	coordinate-systems
+Pattern(s): 0	
+using the power series expansion of e x one immediately sees that the average height is greater than the coordinate-systems of the arc-length line
+
+
+2716535
+coordinate-systems	geometric-transformation	geometric-transformation	coordinate-systems
+Pattern(s): 7	
+the preceding proposition in that book that the areas of similar geometric-transformation inscribed in coordinate-systems are in the same arithmetic-progressions as the squares of the diameters of the coordinate-systems gives us a method to approximate p from below by using sequences of geometric-transformation that cover more and more of the circle
+
+
+2726408
+coordinate-systems	cylindrical-coordinates	cylindrical-coordinates	coordinate-systems
+Pattern(s): 7	7	7	
+in words if the cylindrical-coordinates jordan-normal-form is always less than 1 then the coordinate-systems is less than itself and if the jordan-normal-form is always greater than 1 then the coordinate-systems is greater than itself
+
+
+2734075
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 1	
+a rigorous way to define the radon transform of a function f mathbb r 2 rightarrow mathbb r is to restrict f in mathcal s mathbb r 2 the schwartz space of piecewise-continuity that are infinitely differentiable with calculus that decay rapidly
+
+
+2738128
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 0	
+if only the inheritance property is proven one can obtain such stupid results as all natural arithmetic-progressions are larger than golden-ratio corresponding predicate mathcal p n n geq golden-ratio
+
+
+2768404
+mathematical-physics	applications	applications	mathematical-physics
+Pattern(s): 7	
+similarly mathematical-physics is easier to learn by starting with newtonian mechanics which generally is mathbb r n and the euclidean numerical-linear-algebra and then later applications about relativity and quantum mechanics
+
+
+2768705
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 0	
+for any two consecutive arithmetic-progressions at least one of them is distant from a non-integer half-integer multiple of golden-ratio by at least frac 1 2 which is more than frac golden-ratio 8
+
+
+2774713
+large-cardinals	cardinals	cardinals	large-cardinals
+Pattern(s): 7	
+cardinals is mysterious but large-cardinals is even worse and it can be misleading for non-logicians sometimes
+
+
+2799075
+limits-without-lhopital	indefinite-integrals	indefinite-integrals	limits-without-lhopital
+Pattern(s): 0	
+one can do even less limits-without-lhopital but slightly more algebra with the indefinite-integrals x 2+ frac 1 z-1 which simply gives int z 4-z 5 dz
+
+
+2820378
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 7	
+doing calculus with analytic piecewise-continuity is simply easier than with more general piecewise-continuity
+
+
+2820378
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 1	
+to my mind it lies in the fact that in calculus one is largely occupied with piecewise-continuity which can be expressed by powers
+
+
+2822004
+jordan-normal-form	vector-spaces	vector-spaces	jordan-normal-form
+Pattern(s): 1	
+that is why is it when taking double integrals da dxdy left| begin bmatrix frac partial x partial u frac partial y partial u frac partial x partial v frac partial y partial v end bmatrix right|dudv preferably i m looking for an explanation that just justifies the formula that you get from expanding the jordan-normal-form formula so that it can be equally well understood by people not familiar with vector-spaces basis
+
+
+2824631
+jordan-normal-form	hadamard-product	hadamard-product	jordan-normal-form
+Pattern(s): 7	
+dot x -2y -x 3 + x 2 y 2 dot y x - x 2 y hadamard-product evaluation at 0 0 begin pmatrix 0 -2 1 0 end pmatrix clearly the jordan-normal-form is greater than zero but the jordan-normal-form is zero
+
+
+2825937
+calculus	piecewise-continuity	piecewise-continuity	calculus
+Pattern(s): 10	
+every distribution has a distributional derivative and most piecewise-continuity you will encounter are distributions. for example any locally l 1 function is a distribution. taking calculus typically makes regularity worse so the distributional derivative of a function is not always a function mdash
+
+
+2835458
+mathematical-physics	applications	applications	mathematical-physics
+Pattern(s): 10	
+then by needs self-teaching i think i acquired a lot and today in my applications group i am more concerned by the pure and applied mathematical aspects of the project than with the mathematical-physics
+
+
+2836661
+polar-coordinates	cylindrical-coordinates	cylindrical-coordinates	polar-coordinates
+Pattern(s): 7	
+firstly i have seen that the gamma function clearly has a minimum point at about 1.462 0.886 and that this cannot be completely calculated using polar-coordinates as shown below gamma z int_ 0 infty t z-1 e -t dt and since the simplified liebniz integral rule states that frac d dx int_ a b f x t dt int_ a b frac partial partial_ x f x t dt so if we rewrite the gamma function as gamma z int_ 0 infty e z-1 ln t e -t dt then we can deduce that gamma z int_ 0 infty ln t t z-1 e -t dt and since we want to find the minimum point we can let gamma z 0 in addition to this since it is a minimum point we know that the second cylindrical-coordinates is greater than zero so gamma z 0 however after this point i have got stuck on how people have got from this result to a numerical answer my only thought was frac d dt gamma z ln t t z-1 e -t _ 0 infty so maybe lim_ t to infty ln t t z-1 e -t - lim_ t to0 ln t t z-1 e -t 0 but i am not sure if this is correct and how this would help find a solution
+
+
+2837443
+coordinate-systems	kinematics	kinematics	coordinate-systems
+Pattern(s): 10	
+the case of corners is often the first generalization which is introduced as admissible since that class of coordinate-systems is often more convenient in kinematics
+
+
+2839303
+coordinate-systems	geometric-transformation	geometric-transformation	coordinate-systems
+Pattern(s): 0	
+so in this case the probability for the triangle to be obtuse is only frac34- frac4 pi 2 approx0.3447 which makes sense since for a given radius of the circumcircle obtuse geometric-transformation tend to have less coordinate-systems than acute geometric-transformation
+
+
+2847999
+calculus	real-analysis	real-analysis	calculus
+Pattern(s): 7	
+of course you could shift the power series to some other point and this calculus would apply there as well. we ll also start by assuming that f has a radius of real-analysis which is strictly greater than 1 this implies that sum |a_n| is convergent
+
+
+2860383
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 7	
+however the group gl n mathbb r + of all n times n diagonalization whose jordan-normal-form is greater than 0 is the direct sum of sl n mathbb r and the group of all scalar diagonalization with real entries
+
+
+2862853
+calculus	indefinite-integrals	indefinite-integrals	calculus
+Pattern(s): 10	
+now in reverse order it s possible to deduce the decomposition from the integrand but carrying out the calculus by indefinite-integrals is way more complicated
+
+
+2867012
+universal-algebra	cardinals	cardinals	universal-algebra
+Pattern(s): 0	
+part of their meaning is well captured by the zfc cardinals plus maybe some large universal-algebra but the intuition seems to contain a lot more than the cardinals and it s not clear how to make that lot more rigorous
+
+
+2867649
+arithmetic-progressions	golden-ratio	golden-ratio	arithmetic-progressions
+Pattern(s): 10	
+leq dfrac 256 1+e - golden-ratio 245.395... now you can simply observe that the lhs is eventually decreasing eventually because a arithmetic-progressions is increasing more rapidly than an exponent
+
+
+2873506
+cardinals	real-numbers	real-numbers	cardinals
+Pattern(s): 0	
+for example you could have sequences of real-numbers as real-numbers are totally ordered by the usual smaller than or greater than cardinals s_1 1 2 2 4 quad s_2 2 2 6 1 but the same can t be said of sequences of pairs of real-numbers for the pointwise order a b a b a a b b in this case you only have a partial order you can t compare 0 1 and 1 0 for example
+
+
+2893344
+arithmetic-progressions	binomial-theorem	binomial-theorem	arithmetic-progressions
+Pattern(s): 1	
+for odd n the problem reduces to binomial-theorem a polynomial of degree dfrac n-1 2 however that is not solvable by arithmetic-progressions in general for n gt 9
+
+
+2931900
+coordinate-systems	geometric-transformation	geometric-transformation	coordinate-systems
+Pattern(s): 10	
+the more general question of comparing geometric-transformation seems more complicated since you need to get geometric-transformation of equal coordinate-systems before you can apply the rectangle dissection
+
+
+2949613
+limits-without-lhopital	piecewise-continuity	piecewise-continuity	limits-without-lhopital
+Pattern(s): 8	8	
+these should at least get you more comfortable working with limits-without-lhopital on more sophisticated objects than piecewise-continuity from mathbb r n to mathbb r
+
+
+2955890
+coordinate-systems	arc-length	arc-length	coordinate-systems
+Pattern(s): 0	
+when i tried to prove it i thought that it was obvious that the tangent line has more coordinate-systems than some arc-length lines assume that point p goes clockwise until it gets to the point of tangency
+
+
+2969855
+coordinate-systems	geometric-transformation	geometric-transformation	coordinate-systems
+Pattern(s): 10	
+when you use narrower coordinate-systems there are more geometric-transformation but the coordinate-systems of the geometric-transformation decreases faster because both the base and height decrease
+
+
+2987464
+calculus	indefinite-integrals	indefinite-integrals	calculus
+Pattern(s): 0	
+even shorter by the indefinite-integrals x mapsto frac 1 x we have f s f 2-s and by calculus by parts frac f s 1-s is an even function
+
+
+2997019
+jordan-normal-form	diagonalization	diagonalization	jordan-normal-form
+Pattern(s): 0	
+how do you jordan-normal-form more than 2 diagonalization
+
+

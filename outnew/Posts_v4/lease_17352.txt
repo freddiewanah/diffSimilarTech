@@ -1,0 +1,6 @@
+3979
+mbunit	nunit
+nunit does have a litter bit better tool support though
+i am using resharper to run mbunit tests
+i ve had problems with testdriven.net running my setup methods for mbunit
+

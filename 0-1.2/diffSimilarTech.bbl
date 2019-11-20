@@ -69,6 +69,11 @@ J.~Devlin, M.-W. Chang, K.~Lee, and K.~Toutanova, ``Bert: Pre-training of deep
   bidirectional transformers for language understanding,'' \emph{arXiv preprint
   arXiv:1810.04805}, 2018.
 
+\bibitem{huang2018tell}
+Y.~Huang, C.~Chen, Z.~Xing, T.~Lin, and Y.~Liu, ``Tell them apart: distilling
+  technology differences from crowd-scale comparison discussions.'' in
+  \emph{ASE}, 2018, pp. 214--224.
+
 \bibitem{barua2014developers}
 A.~Barua, S.~W. Thomas, and A.~E. Hassan, ``What are developers talking about?
   an analysis of topics and trends in stack overflow,'' \emph{Empirical
@@ -122,6 +127,10 @@ D.~Ye, Z.~Xing, C.~Y. Foo, Z.~Q. Ang, J.~Li, and N.~Kapre, ``Software-specific
   International Conference on}, vol.~1.\hskip 1em plus 0.5em minus 0.4em\relax
   IEEE, 2016, pp. 90--101.
 
+\bibitem{clark2016deep}
+K.~Clark and C.~D. Manning, ``Deep reinforcement learning for mention-ranking
+  coreference models,'' \emph{arXiv preprint arXiv:1609.08667}, 2016.
+
 \bibitem{chen2019sethesaurus}
 X.~Chen, C.~Chen, D.~Zhang, and Z.~Xing, ``Sethesaurus: Wordnet in software
   engineering,'' \emph{IEEE Transactions on Software Engineering}, 2019.
@@ -138,9 +147,20 @@ O.~Pele and M.~Werman, ``Fast and robust earth mover's distances,'' in
 
 \bibitem{web:bertblog}
 ``Open sourcing bert: State-of-the-art pre-training for natural language
-  processing =
-  {\url{https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html}},
-  year = {2018}, note = {Accessed: 2019-09-12}.''
+  processing,''
+  \url{https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html},
+  2018, accessed: 2019-09-12.
+
+\bibitem{web:bertmodel}
+``Bidirectional encoder representations from transformers (bert),''
+  \url{https://tfhub.dev/tensorflow/bert_en_wwm_uncased_L-24_H-1024_A-16/1},
+  2019, accessed: 2019-11-15.
+
+\bibitem{moviebook}
+Y.~Zhu, R.~Kiros, R.~Zemel, R.~Salakhutdinov, R.~Urtasun, A.~Torralba, and
+  S.~Fidler, ``Aligning books and movies: Towards story-like visual
+  explanations by watching movies and reading books,'' in \emph{arXiv preprint
+  arXiv:1506.06724}, 2015.
 
 \bibitem{sparck1972statistical}
 K.~Sparck~Jones, ``A statistical interpretation of term specificity and its
@@ -185,11 +205,19 @@ C.~Cortes and V.~Vapnik, ``Support-vector networks,'' \emph{Machine Learning},
   \url{https://doi.org/10.1023/A:1022627411411}
 \BIBentrySTDinterwordspacing
 
+\bibitem{joulin2016fasttext}
+A.~Joulin, E.~Grave, P.~Bojanowski, M.~Douze, H.~J{\'e}gou, and T.~Mikolov,
+  ``Fasttext.zip: Compressing text classification models,'' \emph{arXiv
+  preprint arXiv:1612.03651}, 2016.
+
+\bibitem{web:macroAverage}
+``sklearn.metrics.precision\_recall\_fscore\_support,''
+  \url{https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html},
+  2019, accessed: 2019-11-02.
+
 \bibitem{mcmillan2012detecting}
 C.~McMillan, M.~Grechanik, and D.~Poshyvanyk, ``Detecting similar software
-  applications,'' in \emph{Proceedings of the 34th International Conference on
-  Software Engineering}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE Press,
-  2012, pp. 364--374.
+  applications,'' pp. 364--374, 2012.
 
 \bibitem{thung2012detecting}
 F.~Thung, D.~Lo, and L.~Jiang, ``Detecting similar applications with
@@ -250,6 +278,33 @@ G.~Chen, C.~Chen, Z.~Xing, and B.~Xu, ``Learning a dual-language vector space
   Software Engineering (ASE), 2016 31st IEEE/ACM International Conference
   on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2016, pp. 744--755.
 
+\bibitem{uddin2017opiner}
+G.~Uddin and F.~Khomh, ``Opiner: an opinion search and summarization engine for
+  apis,'' in \emph{Proceedings of the 32nd IEEE/ACM International Conference on
+  Automated Software Engineering}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE
+  Press, 2017, pp. 978--983.
+
+\bibitem{uddin2017automatic}
+------, ``Automatic summarization of api reviews,'' in \emph{Automated Software
+  Engineering (ASE), 2017 32nd IEEE/ACM International Conference on}.\hskip 1em
+  plus 0.5em minus 0.4em\relax IEEE, 2017, pp. 159--170.
+
+\bibitem{ahasanuzzaman2019caps}
+M.~Ahasanuzzaman, M.~Asaduzzaman, C.~K. Roy, and K.~A. Schneider, ``Caps: a
+  supervised technique for classifying stack overflow posts concerning api
+  issues,'' \emph{Empirical Software Engineering}, pp. 1--40, 2019.
+
+\bibitem{sutton2012introduction}
+C.~Sutton, A.~McCallum \emph{et~al.}, ``An introduction to conditional random
+  fields,'' \emph{Foundations and Trends{\textregistered} in Machine Learning},
+  vol.~4, no.~4, pp. 267--373, 2012.
+
+\bibitem{lin2019pattern}
+B.~Lin, F.~Zampetti, G.~Bavota, M.~Di~Penta, and M.~Lanza, ``Pattern-based
+  mining of opinions in q\&a websites,'' in \emph{Proceedings of the 41st
+  International Conference on Software Engineering}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE Press, 2019, pp. 548--559.
+
 \bibitem{jones2004traffic}
 S.~L. Jones, A.~J. Sullivan, N.~Cheekoti, M.~D. Anderson, and D.~Malave,
   ``Traffic simulation software comparison study,'' \emph{UTCA report}, vol.
@@ -271,21 +326,22 @@ A.~Michail and D.~Notkin, ``Assessing software libraries by browsing similar
   international conference on Software engineering}.\hskip 1em plus 0.5em minus
   0.4em\relax ACM, 1999, pp. 463--472.
 
-\bibitem{uddin2017opiner}
-G.~Uddin and F.~Khomh, ``Opiner: an opinion search and summarization engine for
-  apis,'' in \emph{Proceedings of the 32nd IEEE/ACM International Conference on
-  Automated Software Engineering}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE
-  Press, 2017, pp. 978--983.
-
-\bibitem{uddin2017automatic}
-------, ``Automatic summarization of api reviews,'' in \emph{Automated Software
-  Engineering (ASE), 2017 32nd IEEE/ACM International Conference on}.\hskip 1em
-  plus 0.5em minus 0.4em\relax IEEE, 2017, pp. 159--170.
-
 \bibitem{li2017mining}
 Y.~Li, B.~Jia, Y.~Guo, and X.~Chen, ``Mining user reviews for mobile app
   comparisons,'' \emph{Proceedings of the ACM on Interactive, Mobile, Wearable
   and Ubiquitous Technologies}, vol.~1, no.~3, p.~75, 2017.
+
+\bibitem{de2018library}
+F.~L. de~la Mora and S.~Nadi, ``Which library should i use?: a metric-based
+  comparison of software libraries,'' in \emph{Proceedings of the 40th
+  International Conference on Software Engineering: New Ideas and Emerging
+  Results}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2018, pp. 37--40.
+
+\bibitem{de2018empirical}
+------, ``An empirical study of metric-based comparisons of software
+  libraries,'' in \emph{Proceedings of the 14th International Conference on
+  Predictive Models and Data Analytics in Software Engineering}.\hskip 1em plus
+  0.5em minus 0.4em\relax ACM, 2018, pp. 22--31.
 
 \bibitem{web:similarweb}
 ``Similarweb,'' \url{https://www.similarweb.com/}, 2018, accessed: 2018-04-05.

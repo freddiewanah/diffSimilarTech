@@ -36,7 +36,7 @@ We lowercase all sentences to make the sentence tokens consistent with the techn
 \end{figure}
 
 \revise{Note that within the technical discussion in Stack Overflow, developers may adopt some pronoun like ``it'', ``that'', ``which'' to represent the technology.
-For example, given the paragraph ``\textit{For any application that wants to use an open source database, the hands-down answer is postgresql. It's a lot more enterprise-ready than mysql, not ot mention that it follows the SQL standard a lot better. Mysql has improved a lot with its later versions, but Postgresql still beats it in every category.}'' as seen in Figure~\ref{fig:coreference}, the two ``it'' in the second sentence refers to ``postgresql'' in the first sentence. 
+For example, given the paragraph ``\textit{For any application that wants to use an open source database, the hands-down answer is postgresql. It's a lot more enterprise-ready than mysql, not ot mention that it follows the SQL standard a lot better. Mysql has improved a lot with its later versions, but Postgresql still beats it in every category.}'' as seen in Figure~\ref{fig:coreference}, the two ``it'' in the second sentence refers to ``postgresql'' in the first sentence.
 But with some cases, the reference may be too far from its source, leading to the negative influence to the location of comparative sentences. 
 Therefore, we adopt the coreference resolution algorithm~\cite{clark2016deep} to recover the pronoun before locating comparative sentences.}
 
@@ -100,7 +100,7 @@ More specifically, we create four comparative POS tags: \textit{CV} (comparative
 
 \begin{table*}
 	\centering
-	\caption{\revise{Patterns of comparative single sentences} \chen{1. Please change the examples 2. For each pattern, should we have both TECHs appearing in each pattern?}}
+	\caption{\revise{Patterns of comparative single sentences} \chen{1. There should be two examples in the first pattern.}}
 	\vspace{-3mm}
 % 	\setlength{\tabcolsep}{0.1em}
 \renewcommand{\arraystretch}{1.2}
@@ -128,13 +128,26 @@ To make the patterns more flexible, we use a wildcard character to represent a l
 For each sentence mentioning the two comparable technologies, we obtain its POS tags and check if it matches any one of four patterns.
 If so, the sentence will be selected as a single comparative sentence.
 
-\revise{For contextual candidate sentences, we develop three patterns for identifying comparative opinions in Table~\ref{tab:patternMultiple}. First, ... Second, ...}
+\revise{For contextual candidate sentences, we develop three patterns for identifying comparative opinions in Table~\ref{tab:patternMultiple}. 
+The first two patterns are similar to the first two patterns in single sentence, as sometimes developers in Stack Overflow may tell the comparison in two consecutive sentences e.g., ``\textbf{Postgres} has a richer set of abilities and a better optimizer. Its ability to do hash joins often makes it much faster than \textbf{MySQL} for joins.''
+Therefore, for consecutive sentences containing comparable technologies separately, we will check if either sentence fit in these two patterns. 
+Note that there are four single-sentence patterns, while we only take the first two of them into the contextual-sentence patterns.
+According to our observation, the last two single-sentence patterns are not very accurate (The details will be discussed in Section~\ref{sec:accuracy}).
+}
+
+\begin{comment}
 \wang{The first two patterns are similar to the first two patterns in single sentence. Instead, those sentences tend to split the comparable technologies into each sentence respectfully. So we collect those sentences mentioned both of the comparable technology pairs, check if one of them match the POS tags pattern and the other sentence is using the second technology as a subject or an object, then we find a match.}
 \chen{The first two patterns are further needed for discussion as there is some obvious flaw with it. For example, what if one sentence contain the pattern, the other sentence is not related to the pattern?}
-\revise{The other pattern is that one contextual sentences is the affirmation (AFF) while the other is negation (NEG) with at least one comparable technology appears as the subject of one sentence.
-For example, the prior sentence ``Cassini does not support HTTPs'' is the negation sentence, and the latter sentence ``However, you can use IIS to do this'' is the affirmation sentence, resulting in the comparison opinion that IIS can support the feature that is not owned by Cassini.}
-\chen{How do we know one sentence is positive while the other is negative, and this example is not very good.}
-\wang{In order to extract the \textit{AFF-NEG} pattern, We firstly create a list of negation words defined as ``\textit{NW}'' in POS tag. For each pair of sentences we check if either of them match the pattern ``\textit{TECH NW}'',so that we locate the negation sentence. Then, for the other sentence, we make sure it contains the other comparative tag and match the following one of the pattern:``\textit{TECH VB NN}'', ``\textit{TECH VB JJ}'', ``\textit{TECH VB RB}'', and ``\textit{VB TECH TO VB}''. All of which are making sure the other sentence is a affirmation sentence talking about the comparative tag. If the selected pair of sentences match the rules we talked above, we select them as \textit{AFF-NEG} pattern comparative sentences.  }
+\end{comment}
+
+\revise{The other pattern is that one contextual sentences is the affirmation (AFF) while the other is negation (NEG) with at least one comparable technology as the subject of one sentence.
+For example, the prior sentence ``Cassini does not support HTTPs'' is the negation sentence, and the latter sentence ``However, you can use IIS to do this'' is the affirmation sentence, resulting in the comparison opinion that IIS can support the feature that is not owned by Cassini.
+To detect such pattern, we first create a list of negation words defined as ``\textit{NW}'' in POS tag such as \textit{\chen{??, ??, ??}}\footnote{The full list can be seen at \url{??}}.
+For each pair of sentences we check if either of them match the pattern ``\textit{TECH NW}'', so that we locate the negation sentence. 
+Then, for the other affirmation sentence, it must match any one of the following  pattern:``\textit{TECH VB NN}'', ``\textit{TECH VB JJ}'', ``\textit{TECH VB RB}'', and ``\textit{VB TECH TO VB}''. 
+}
+%All of which are making sure the other sentence is a affirmation sentence talking about the comparative tag. If the selected pair of sentences match the rules we talked above, we select them as \textit{AFF-NEG} pattern comparative sentences.
+
 
 %\wang{During the process of exploring and observing real data, we find out that users also tend to describe a tech pair in two sentences, so we further develop the Contextual sentence. For two contextual sentences, if they contain two comparable technologies respectfully, and either of them match the first 2 patterns, we select them as contextual comparative sentence. For the \textit{POS-NEG} pattern, we collect sentences that contain comparable technologies but have different semantic statements, whereas one is positive the other is negative. Table~\ref{tab:pattern} shows these patterns and the corresponding examples of comparative sentences. s}
 %According to these comparative patterns, we can determine whether a sentence is a comparative sentence or not. 
@@ -142,7 +155,7 @@ For example, the prior sentence ``Cassini does not support HTTPs'' is the negati
 
 \begin{table*}
 	\centering
-	\caption{\revise{Patterns of comparative contextual sentences} \chen{1. The first two patterns need to be further discussed. 2. Please preserve the original style of the example}}
+	\caption{\revise{Patterns of comparative contextual sentences}}
 	\begin{tabular}{l|l|l|l}
 		\hline 
 		\textbf{No.} & \textbf{Pattern} & \textbf{Sequence example} & \textbf{Original sentence} \\ \hline
@@ -150,8 +163,8 @@ For example, the prior sentence ``Cassini does not support HTTPs'' is the negati
 		\hline
 		\multirow{2}{*}{2} & \multirow{2}{*}{\textit{((RBR JJ) } $\lor$\textit{ JJR) * CIN * TECH}} & \multirow{2}{*}{faster than MySQL}  & Postgres has a richer set of abilities and a better optimizer.\\& & &  Its ability to do hash joins often makes it much faster than MySQL for joins. \\
 		\hline
-		\multirow{2}{*}{3} & \multirow{2}{*}{\textit{AFF | NEG}} & cassini does not & Cassini does not support https. \\ & &iis to do  & However you can use iis to do this.
-		
+		\multirow{2}{*}{3} & \multirow{2}{*}{\textit{AFF | NEG}} & cassini does not & Cassini does not support https. \\ & &iis to do  & However you can use iis to do this.\\
+		\hline
 	\end{tabular}
 	\label{tab:patternMultiple}
 \end{table*}
@@ -187,7 +200,7 @@ Getting such minimum cost actually is a well-studied optimization problem of ear
 	\centering
 	\includegraphics[width=0.49\textwidth]{figures/wmd1.pdf}
 	\vspace{-7mm}
-	\caption{An illustration of measuring similarity of two comparative sentences \chen{Please use the PDF file.}}
+	\caption{An illustration of measuring similarity of two comparative sentences \chen{This figure is blurred}}
 	\vspace{-3mm}
 	\label{fig:wmd}
 \end{figure}

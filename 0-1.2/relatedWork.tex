@@ -1,5 +1,4 @@
 \section{Related Works}
-\chen{May need to add state-of-the-art related works like API recommendation}
 \subsection{Mining similar software artefects}
 Finding similar software artefacts can help developers migrate from one tool to the other which is more suitable to their requirement.
 But it is a challenging task to identify similar software artefacts from the existing large pool of candidates.
@@ -9,11 +8,13 @@ Compared with these research studies, the mined software technologies in this wo
 
 \subsection{Extracting opinions about software technologies}
 \revise{
-Extraction opinions about technologies from sentences using is also important to developers, as it tells them others thoughts on technologies and give them a general vision on the technologies. Using Sentiment Analysis~\cite{pang2008opinion} to solve this type of problem seems to become common, like extracting
-sentiments in tweets that are strongly correlate to human
-judgment ~\cite{guzman2017exploratory}.
-Uddin and Khomh~\cite{uddin2017opiner, uddin2017automatic} extract API opinion sentences in different aspects to show developers' sentiment to that API. Ahasanuzzaman et.al ~\cite{ahasanuzzaman2019caps} classify StackOverflow posts concerning API issues-only with Conditional Random Field (CRF)~\cite{sutton2012introduction}. Lin et.al~\cite{lin2019pattern} produced a pattern-based approach that can identify overall quality, pros, and cons
-of APIs. Different from the works mentioned above, our method intended to use sentiment analysis in comparing two similar technologies instead of one single API. And we adopt the the state-of-art BERT model for the classification, which has a higher accuracy on prediction.
+Extraction opinions about technology preference is also important to developers, as the opinions from other developers may provide a general vision especially for novice developers on the technology selection for their own tasks. 
+%Using Sentiment Analysis~\cite{pang2008opinion} to solve this type of problem seems to become common, like extracting sentiments in tweets that are strongly correlate to human judgment ~\cite{guzman2017exploratory}.
+Uddin and Khomh~\cite{uddin2017opiner, uddin2017automatic} extract API opinion sentences in different aspects to show developers' sentiment to that API. 
+Ahasanuzzaman et.al ~\cite{ahasanuzzaman2019caps} classify StackOverflow posts concerning API issues-only with Conditional Random Field (CRF)~\cite{sutton2012introduction}. 
+Lin et.al~\cite{lin2019pattern} produced a pattern-based approach that can identify overall quality, pros, and cons of APIs.
+Different from the works mentioned above for only extracting opinion about one certain API or library, our method tries to extract the comparison opinions of two similar technologies. 
+%And we adopt the the state-of-art BERT model for the classification, which has a higher accuracy on prediction.
 }
 
 \subsection{Comparison in Software Engineering}
@@ -23,9 +24,10 @@ Michail and Notkin~\cite{michail1999assessing} assess different third-party libr
 But it can only work for library comparison without the possibility to be extended to other higher/lower-level technologies in Software Engineering.
 Instead, we find developers's preference of certain software technologies highly depends on other developers' usage experience and report of similar technology comparisons.
 Li et al.~\cite{li2017mining} adopt NLP methods to distill comparative user review about similar mobile Apps.
-Different from their works, we first explicitly extract a large pool of comparable technologies.
-In addition, apart from extracting comparative sentences, we further organize them into different clusters and represent each cluster with some keywords to help developers understand comparative opinions more easily.
-\chen{\cite{de2018library, de2018empirical}}
+De et al~\cite{de2018library, de2018empirical} compare the software libraries by a set of metrics.
+\revise{Different from their works, we adopt a light-weight approach by extracting a large pool of comparable technologies and corresponding explicit comparison in natural-language sentences, rather than heavy-weight program analysis.
+In addition, apart from extracting comparative sentences, we further organize them into different clusters and represent each cluster with some keywords to help developers understand technology comparison more easily.
+}
 
 Finally, it is worth mentioning some related practical projects. 
 SimilarWeb~\cite{web:similarweb} is a website that provides both users engagement statistics and similar competitors for websites and mobile applications. 

@@ -46,19 +46,23 @@ We can see that the model with the word embedding dimension as 800 achieves the 
 Finally, we take the Skip-gram model with 800 word-embedding dimension as the word embedding model to obtain the comparable technologies in this work.   
 
 \subsection{Accuracy and coverage of comparative sentences}
+\label{sec:accuracy}
 We evaluate the accuracy and coverage of our approach in finding comparative sentences from the corpus.
-\wang{We first randomly sample 350 sentences (50 sentences for each comparative sentence pattern in Table~\ref{tab:patternSingle} and Table~\ref{tab:patternMultiple}) which are extracted by our model.
+\revise{We first randomly sample 350 extracted comparative sentences (50 sentences for each comparative sentence pattern in Table~\ref{tab:patternSingle} and Table~\ref{tab:patternMultiple}).
 We manually check the accuracy of the sampled sentences and Table~\ref{tab:patternAccuracy} shows the results.
 The overall accuracy of comparative sentence extraction is 89.1\%, and our approach is especially accurate for the first 2 patterns for single sentence and all three patterns for contextual sentences.
-The last two patterns for single sentence do not get good performance due to the relatively loose conditions.}
+The last two patterns for single sentence do not get good performance due to the relatively loose conditions.
+That is also why we do not take those two patterns into extracting contextual comparative sentences.}
 
-\wang{
+\revise{
 We further check the wrong extraction of comparative sentences and find that most errors from single sentence patterns are caused when the two comparative technologies are listed together for a similar feature, i.e. ``\textit{Java framework awt or swing makes more sense for something this simple}''} or when the two comparative technologies are used to compare with a third technology like ``\textit{I mean it came as a surprise to me that drupal is so much faster than wordpress and joomla}''.
 In addition, although some sentences do not contain the question mark, they are actually interrogative sentence such as ``\textit{I also wonder if postgresql will be a win over mysql}''.
+\begin{comment}
 \wang{
 For contextual sentences, we also find out that sometimes the sentence is comparing the two selected technology pairs with a third one. And sometimes for the AFF-NEG pattern, it seems although both sentences mentioned two comparative technologies respectively, they aren't tended to compare them, i.e. ``\textit{Vim does only text editing and that very well without plugins.
 Its up to you if you like emacs or not.}''}
 %Second, the comparison between the two similar technologies is quantitive (e.g., a \textit{ng-app} can have more than one \textit{ng-controller}).
+\end{comment}
 
 \begin{comment}
 \begin{figure}
@@ -110,15 +114,15 @@ Among \textcolor{red}{??} comparative sentences, \textcolor{red}{?? (??\%) of th
 We evaluate the performance of our opinion clustering method by comparing it with the baseline methods.
 
 \subsubsection{Baseline}
-\wang{
+\revise{
 We set up three baselines to compare with our comparative sentence clustering method. 
-The first baseline is the traditional TF-IDF~\cite{sparck1972statistical} with K-means~\cite{hartigan1979algorithm}, the second baseline is based on the document-to-vector deep learning model (i.e., Doc2vec~\cite{le2014distributed}) with K-means, and the last one is BERT~\cite{devlin2018bert} with K-means.
-All of methods first convert the comparative sentences for a pair of comparable technologies into a list of vectors.
+The first baseline is the traditional TF-IDF~\cite{sparck1972statistical} with K-means~\cite{hartigan1979algorithm}, the second baseline is based on the document-to-vector deep learning model (i.e., Doc2vec~\cite{le2014distributed}) with K-means.
+The last baseline is BERT~\cite{devlin2018bert} model with K-means, and the pretrained BERT model is directly downloaded from the Google Official Site\footnote{\url{??}}.
+All of methods first convert the comparative sentences into a list of vectors for each pair of comparable technologies .
 %We train both models with all comparative sentences in our corpus.
 Then, we carry out K-means algorithms to cluster the sentence vectors into $N$ clusters.
 To make the baseline as competitive as possible, we set $N$ at the cluster number of the ground truth.
 In contrast, our method specifies its cluster number by community detection which may differ from the cluster number of the ground truth.}
-\chen{Will check this paragraph later.}
 
 \subsubsection{Ground Truth}
 \label{sec:clusteringGroundTruth}
@@ -190,17 +194,17 @@ $$ FMI = \frac{TP}{\sqrt{(TP+FP)(TP+FN)}} $$
 where $TP$ is the number of True Positive (i.e. the number of pairs of comparative sentences that belong to the same clusters in both the ground truth and the algorithm prediction), $FP$ is the number of False Positive (i.e. the number of pairs of comparative sentences that belong to the same clusters in the ground-truth labels but not in the algorithm prediction) and $FN$ is the number of False Negative (i.e the number of pairs of comparative sentences that belongs in the same clusters in the algorithm prediction but not in the ground truth labels).
 
 \subsubsection{Overall Performance}
-\wang{
 Table~\ref{tab:clusterEvaluation} shows the evaluation results.
-the three baseline methods has similar results whereas tf-idf and Sentence-Bert are slitly better, but our model significantly outperforms all models in all six metrics.}
+Three baseline methods has similar results whereas tf-idf and Sentence-Bert are slitly better, but our model significantly outperforms all models in all six metrics.
 
-According to our inspection of detailed results, we find two reasons why our model outperforms the baselines.
+\revise{According to our inspection of detailed results, we find two reasons why our model outperforms the baselines.
 First, our model can capture the semantic meaning of comparative sentences.
 TF-IDF can only find similar sentences using the same words but count similar words like ``secure'' and ``safe'' as unrelated.
-While the sentence vector from Doc2vec is easily influenced by the noise as it takes all words in the sentence into consideration. \wang{The Bert model would break word that it doesn't recognised into pieces, i.e.heapsort to heap-, -sort. In this way they might conduct vectors that is not close to the original words. Also, the BERT model is trained by general corpus(like wikipeidia), which is different from our technology-specific dataset.}
+While the sentence vector from Doc2vec is easily influenced by the noise as it takes all words in the sentence into consideration. 
+The BERT model is trained by general corpus (like wikipeidia), which is different from our technology-specific dataset, resulting in the low-quality representation of domain-specific words.
 Second, constructing the similar sentences as a graph in our model explicitly encodes the sentence relationships.
 The community detection based on the graph can then easily put similar sentences into clusters.
-In contrast, for the four baselines, the error brought from them is accumulated and amplified to K-means in the clustering phase.
+In contrast, for the four baselines, the error brought from them is accumulated and amplified to K-means in the clustering phase.}
 
 \begin{table}
 	\centering
@@ -223,17 +227,25 @@ In contrast, for the four baselines, the error brought from them is accumulated 
 
 \subsection{Accuracy of Opinion Summarization}
 \label{sec:summarization}
-\wang{All of this section are newly added}
-\chen{Please add more details in this section}
-In this section, we evaluate the accuracy of our overall opinion summarization. We compare our methods with five different baselines that are commonly used in sentence analysis. We implement those baselines and use four metrics to compare them with our methods, and our methods performs better in opinion summarization than the rest of them.
+In this section, we evaluate the accuracy of our overall opinion summarization. 
+We compare our methods with five different baselines that are commonly used in sentence categorization. 
+We implement those baselines and use four metrics to compare them with our methods, and our methods performs better in opinion summarization than the rest of them.
 
 \subsubsection{Baselines}
-\chen{Where is FastText?}
-In this section, we set up five baselines to compare with our method. The first baseline is TF-IDF\cite{sparck1972statistical} with SVM \cite{Cortes1995}, whereas the second one is N-gram vectorizer with SVM. The two models firstly covert the train sentences into vectors. Then, we use the Support Vector Machines(SVM) to make predictions for the given sentences. For both of the models, we tried to use different size of C in SVM in order to avoid the misclassifying of the vectors. Then, we also build another two baselines which are Convolutional Neural Network(CNN) and Long Short Term Memory(LSTM). Both of them are neural networks that can be trained for classification after text embedding. The last baseline is FastText~\cite{joulin2016fasttext}, which is a pre-trained model released by Facebook for text classification and representation learning.
+We set up five baselines to compare with our method. 
+The first baseline is TF-IDF~\cite{sparck1972statistical} with SVM~\cite{Cortes1995}, whereas the second one is N-gram vectorizer with SVM. 
+The two models firstly covert the train sentences into vectors. 
+Then, we use the Support Vector Machines(SVM) to make predictions for the given sentences. 
+%For both of the models, we tried to use different size of C in SVM in order to avoid the misclassifying of the vectors. 
+Another two baselines are more advanced neural network based approaches including Convolutional Neural Network(CNN) and Long Short Term Memory(LSTM). 
+%Both of them are neural networks that can be trained for classification after text embedding. 
+The last baseline is FastText~\cite{joulin2016fasttext}, which is a pre-trained model released by Facebook for text classification and representation learning.
+To keep the comparison fair, the dataset used for training and testing our model and baselines is the same.
+
 \begin{table}
 	\scriptsize
 	\center	
-	\caption{Examples of labeled sentences \chen{1) Please replace the first example, and it can be regarded as a wrong case, 2)Please give one example for each case 3) Please use label ``support A'', ``neutral'' as the name.}}
+	\caption{Examples of labeled sentences \chen{All three examples are not good.}}
 	\vspace{-4mm}
 	%\setlength{\tabcolsep}{0.3em}
 	\begin{tabular}{c |l}
@@ -269,7 +281,7 @@ As this is a typical multi-class classification task, we adopt four metrics for 
 All of these metrics are based on the four statistics: TP (true positive) represents the number of sentences that are correctly classified as one label; 
 TN (true negative) represents the number of sentences that are corrected classified as not that label; 
 FP (false positive) represents the number of sentences that are predicted as the label, but the it's not;
-FN (false negative) represents the number of sentences that as not the label, but actually it is in the label;
+FN (false negative) represents the number of sentences that are predicted as not the label, but actually it is of the label;
 }
 
 \textbf{Accuracy} is the proportion of correct result among the whole test case: 
@@ -293,13 +305,19 @@ A higher value represents better performance for all the metrics.
 }
 
 \subsubsection{Overall Performance}
-\chen{One paragraph is needed to analyze why other models do not work well, and another paragraph for analyzing the reasons of our wrong cases?}
-Table~\ref{tab:opinionSummarizationPerformance} shows the experiment results. We can see that TF-IDF with SVM has the worst performance, CNN and LSTM have similar performance which are both better than TF-IDF, FastText is slightly better than them, and n-gram with SVM has the highest among other baselines. Our model performs the best out of the five methods. \wang{TF-IDF has the worst performance is probably because it can't capture the semantic information of complex sentences. For CNN, LSTM, and FastText the problem could be the size of our training corpus is not large enough. N-gram with SVM model performs good is because it takes a sequence words together, so that the model can read the sentence semantics better.}
-We think the reason our model performs the best is that we use BERT. It offers sentence level classification, and has been trained with large data corpus. It results in a better performance when dealing with such sentiment analysis problems.
-
+\revise{Table~\ref{tab:opinionSummarizationPerformance} shows the experiment results. 
+We can see that TF-IDF with SVM has the worst performance.
+CNN, LSTM and FastText are both better than TF-IDF, while n-gram model with SVM has the highest among other baselines. 
+But compared with all baselines, our model has the best performance with \chen{??\%, ??\%, ??\%, ??\%} increase than the best baseline in term of accuracy, precision, recall and f1-score.
+Note that TF-IDF has the worst performance as it can't capture the semantic information of complex sentences. 
+For deep-learning based methods, CNN, LSTM, and FastText, their performance is not good as expected due to the small size of our training corpus. 
+In contrast, our model is based on the pre-trained BERT model which both distill the knowledge from large-scale general corpus and also provide sentence-level semantic encoding.
+%N-gram with SVM model performs good is because it takes a sequence words together, so that the model can read the sentence semantics better.
+%We think the reason our model performs the best is that we use BERT. It offers sentence level classification, and has been trained with large data corpus. It results in a better performance when dealing with such sentiment analysis problems.
+}
 \begin{table}
 	\centering
-	\caption{Opinion summarization performance \chen{Please use decimals within 0 to 1}}
+	\caption{Opinion summarization performance}
 	\vspace{-2mm}
 	\setlength{\tabcolsep}{0.5em}
 	\begin{tabular}{lllll}
@@ -323,11 +341,7 @@ For example, our model make mistake in the sentence ``I am not sure if VMware Se
 The sentence structure may be too complicated for the BERT model, but more labeled dataset in the future may help mitigate that effect. And some of the wrong predicted cases are the sentence is comparing two technologies, but they are not expressing their feelings on which they prefer, but focus on how different they are. For example in the sentence ``char is guaranteed to be smaller than int'' is simply indicate that char type takes less storage space than int type, it's a neutral express, but our model would take it into support int.}
 %  \chen{Please replace TechA, TechB with the real examples, and add more analysis of wrong predictions.}}
  
- \subsection{Experiments on Generality}
-\wang{Besides the Stack Overflow site, we also carry out our method to other Stack Exchange Sites, like Super User and Unix and Linux. Just like Stack Overflow, both of the sites are Q\&A sites, but they focus on different perspectives. For the experiments, we also use the dataset released on 4 September 2019. }
-
-\wang{After conduct our methods to those two datasets, we randomly sampled 50 comparative sentences from each site. From the Table \ref{tab:generality} we can see that both of the website have an accuracy over 80\%. Based on the experiments we can say that our method construct domain-specific thesaurus, showing that our method has the generality for most of the Q\&A websites.}
-
+\subsection{Generality of DiffTech}
 \begin{table}
 	\centering
 	\caption{The accuracy of comparative sentences extraction}
@@ -342,3 +356,29 @@ The sentence structure may be too complicated for the BERT model, but more label
 	\vspace{-2mm}
 	\label{tab:generality}
 \end{table}
+
+\revise{
+In order to show the generality of our method, we select another two Q\&A sites from the Stack Exchange Networks.
+The two sites are Super User\footnote{\url{??}}, which is the Q\&A site for computer enthusiasts and power users, and Unix \& Linux~\footnote{\url{??}}, which is for users of Linux, FreeBSD and other Unix-like operating systems. 
+We adopt our approach to both sites, and collect 858 comparative sentences from Super User site as well as 611 comparative sentences from Unix \& Linux. 
+Note that the overall questions of Super User and Unix \& Linux is less than 3\% of that in Stack Overflow, hence only a small number of comparative sentences.
+We also cluster the comparative sentences based on technology pairs, and summarize the overall opinions.}
+
+\revise{
+As the extraction and clustering of the comparative sentences are the core parts of our \tool, we only evaluate the performance of these two steps. 
+%Based on the low number of comparative sentences we have for the two sites, we simplify the experiment to justify the accuracy of our method. 
+For the accuracy of extracting comparative sentences, we randomly select 50 sentences from each site and manually label them. 
+For Super User site, the acucracy is 88\%, and the accuracy for Unix \& Linux is 84\%. 
+In regards of the accuracy of clustering, our model also outperforms the other baselines. }
+\chen{Finally, similar to what we did in Section~\ref{sec:summarization}, we decrease the test samples from 150 to 50 for each site. The accuracy for Super User is 0.78. For Unix \& Linux, the accuracy is 0.76. ???What do you mean by this?}
+\chen{The detailed results of our experiments can be seen in our website\footnote{\url{??}}.}
+
+\revise{
+Note that the performance of our model in this two datasets are not as good as that of Stack Overflow due to several reasons. 
+First, the mistake could come from the very first step while we find similar technology pairs. 
+For example, the pair \textit{Linux} and \textit{Ubuntu} are not used for comparing, \textit{Ubuntu} is a subset of \textit{Linux}, but they are often mentioned in the same sentence, which happens a lot in Unix \& Linux. 
+Second, it seems that users in the two sites are more likely to use the technology pairs side by side to compare with the third technology like ``\textit{Make sure with shortcuts etc that \textbf{opera} \textbf{firefox} is easier to start find than internet explorer}''. 
+These also explain the decrease of accuracy in summarize the overall opinion, for there are more neutral sentences which are harder to predict. 
+Despite of all the decrease in accuracy, our model still has a relatively high accuracy and performs the best out of all the baselines. 
+These show that given a corpus of domain-specific data, our approach can still be used to distill similar technologies. }
+\chen{Actually these two reasons also occur much in the Stack Overflow, why will they degrade the performance?}

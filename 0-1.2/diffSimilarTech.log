@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.8.31)  26 OCT 2019 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.8.31)  19 NOV 2019 22:08
 entering extended mode
 **./diffSimilarTech.tex
 (diffSimilarTech.tex
@@ -440,20 +440,20 @@ LaTeX Warning: Label `sec:clusteringGroundTruth' multiply defined.
 )
 \openout1 = `diffSimilarTech.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 386.
-LaTeX Font Info:    ... okay on input line 386.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 386.
-LaTeX Font Info:    ... okay on input line 386.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 386.
-LaTeX Font Info:    ... okay on input line 386.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 386.
-LaTeX Font Info:    ... okay on input line 386.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 386.
-LaTeX Font Info:    ... okay on input line 386.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 386.
-LaTeX Font Info:    ... okay on input line 386.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 386.
-LaTeX Font Info:    ... okay on input line 386.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 388.
+LaTeX Font Info:    ... okay on input line 388.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 388.
+LaTeX Font Info:    ... okay on input line 388.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 388.
+LaTeX Font Info:    ... okay on input line 388.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 388.
+LaTeX Font Info:    ... okay on input line 388.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 388.
+LaTeX Font Info:    ... okay on input line 388.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 388.
+LaTeX Font Info:    ... okay on input line 388.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 388.
+LaTeX Font Info:    ... okay on input line 388.
 
 -- Lines per column: 61 (exact).
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -483,7 +483,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring OFF on input line 386.
+Package hyperref Info: Link coloring OFF on input line 388.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -493,45 +493,45 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count134
 )
-LaTeX Info: Redefining \ref on input line 386.
-LaTeX Info: Redefining \pageref on input line 386.
-LaTeX Info: Redefining \nameref on input line 386.
+LaTeX Info: Redefining \ref on input line 388.
+LaTeX Info: Redefining \pageref on input line 388.
+LaTeX Info: Redefining \nameref on input line 388.
 
 (diffSimilarTech.out) (diffSimilarTech.out)
 \@outlinefile=\write4
 \openout4 = `diffSimilarTech.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 511.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 513.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11.04124> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 511.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 513.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8.03> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 511.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 513.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.03> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 511.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 513.
 LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 51
-1.
-LaTeX Font Info:    Try loading font information for U+pzd on input line 511.
+3.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 513.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 511.
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 513.
  (introduction.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11.04124> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <11.04124> not available
 
 (Font)              Font shape `OT1/phv/b/sc' tried instead on input line 1.
-<figures/example.png, id=160, 735.7086pt x 351.2322pt>
-File: figures/example.png Graphic file (type png)
-<use figures/example.png>
-Package pdftex.def Info: figures/example.png  used on input line 26.
-(pdftex.def)             Requested size: 243.43007pt x 116.21246pt.
+<figures/fig1.pdf, id=168, 752.8125pt x 241.90375pt>
+File: figures/fig1.pdf Graphic file (type pdf)
+<use figures/fig1.pdf>
+Package pdftex.def Info: figures/fig1.pdf  used on input line 26.
+(pdftex.def)             Requested size: 243.43007pt x 78.22282pt.
 LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 38.
 
 LaTeX Font Info:    Calculating math sizes for size <7.02625> on input line 68.
@@ -540,139 +540,197 @@ LaTeX Font Info:    Calculating math sizes for size <7.02625> on input line 68.
 [1{C:/Users/cche0090/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <./figures/example.png>] Excluding 'comment' comment.
-Underfull \hbox (badness 1742) in paragraph at lines 114--115
-[]\OT1/ppl/m/n/9.53561 Our method au-to-mat-i-cally dis-tills and ag-gre-gates
+ <./figures/fig1.pdf>] Excluding 'comment' comment.
+Underfull \hbox (badness 1668) in paragraph at lines 116--116
+[][]\OT1/ppl/m/n/9.53561 This pa-per is an ex-tended ver-sion of our ear-lier
  []
 
-<figures/overview_new.png, id=192, 476.78125pt x 685.56125pt>
-File: figures/overview_new.png Graphic file (type png)
-<use figures/overview_new.png>
-Package pdftex.def Info: figures/overview_new.png  used on input line 122.
-(pdftex.def)             Requested size: 248.60658pt x 357.47722pt.
-) (similarTech.tex [2 <./figures/overview_new.png>]
+
+Underfull \vbox (badness 5771) has occurred while \output is active []
+
+<figures/overview.pdf, id=211, 536.0025pt x 904.33856pt>
+File: figures/overview.pdf Graphic file (type pdf)
+<use figures/overview.pdf>
+Package pdftex.def Info: figures/overview.pdf  used on input line 120.
+(pdftex.def)             Requested size: 248.60658pt x 419.43677pt.
+)
+(similarTech.tex [2 <./figures/overview.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/overview.pdf): PDF inclusion: inva
+lid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 13.
-<figures/w2v_skip.pdf, id=211, 384.23549pt x 227.6505pt>
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 12.
+<figures/w2v_skip.pdf, id=255, 384.23549pt x 227.6505pt>
 File: figures/w2v_skip.pdf Graphic file (type pdf)
 <use figures/w2v_skip.pdf>
-Package pdftex.def Info: figures/w2v_skip.pdf  used on input line 21.
+Package pdftex.def Info: figures/w2v_skip.pdf  used on input line 20.
 (pdftex.def)             Requested size: 119.12283pt x 70.57439pt.
-<figures/w2v_cbow.pdf, id=212, 320.61581pt x 173.00937pt>
+<figures/w2v_cbow.pdf, id=256, 320.61581pt x 173.00937pt>
 File: figures/w2v_cbow.pdf Graphic file (type pdf)
 <use figures/w2v_cbow.pdf>
-Package pdftex.def Info: figures/w2v_cbow.pdf  used on input line 26.
+Package pdftex.def Info: figures/w2v_cbow.pdf  used on input line 25.
 (pdftex.def)             Requested size: 119.12283pt x 64.27908pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 []\OT1/ppl/m/n/8.03 (b) Con-tin-u-ous bag-of-words
  []
 
 Excluding 'comment' comment. Excluding 'comment' comment.
-<figures/pos.pdf, id=221, 530.19112pt x 60.55925pt>
+<figures/pos.pdf, id=265, 530.19112pt x 60.55925pt>
 File: figures/pos.pdf Graphic file (type pdf)
 <use figures/pos.pdf>
-Package pdftex.def Info: figures/pos.pdf  used on input line 99.
+Package pdftex.def Info: figures/pos.pdf  used on input line 98.
 (pdftex.def)             Requested size: 238.25357pt x 27.2135pt.
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 115.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 114.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9.53561> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
  [3 <./figures/w2v_skip.pdf> <./figures/w2v_cbow.pdf, page is rotated 90 degree
 s> <./figures/pos.pdf>]
-LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 174
+LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 173
 .
 
-Overfull \hbox (29.90614pt too wide) in paragraph at lines 174--188
+Overfull \hbox (29.90614pt too wide) in paragraph at lines 173--187
  [] 
  []
 
 ) (comparativeOpinion.tex
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 23.
-<figures/coreference.png, id=298, 723.70375pt x 201.75375pt>
-File: figures/coreference.png Graphic file (type png)
-<use figures/coreference.png>
-Package pdftex.def Info: figures/coreference.png  used on input line 32.
-(pdftex.def)             Requested size: 243.43007pt x 67.86267pt.
- [4]
-
-LaTeX Warning: Citation `??' on page 5 undefined on input line 42.
-
-LaTeX Font Info:    Calculating math sizes for size <5.01874> on input line 68.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <2.50937> not available
-(Font)              size <5> substituted on input line 68.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <2.50937> not available
-(Font)              size <5> substituted on input line 68.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <2.50937> not available
-(Font)              size <5> substituted on input line 68.
-
-Excluding 'comment' comment. [5 <./figures/coreference.png>]
-<figures/wmd.png, id=328, 717.68124pt x 304.13625pt>
-File: figures/wmd.png Graphic file (type png)
-<use figures/wmd.png>
-Package pdftex.def Info: figures/wmd.png  used on input line 176.
-(pdftex.def)             Requested size: 253.79099pt x 107.54913pt.
-
-Overfull \hbox (0.846pt too wide) in paragraph at lines 176--178
- [][] 
- []
-
-Excluding 'comment' comment.
-Overfull \hbox (155.68462pt too wide) in paragraph at lines 209--220
- [][] 
- []
-
-<figures/communities.png, id=333, 609.27625pt x 449.68pt>
-File: figures/communities.png Graphic file (type png)
-<use figures/communities.png>
-Package pdftex.def Info: figures/communities.png  used on input line 231.
-(pdftex.def)             Requested size: 233.06917pt x 172.01918pt.
-[6 <./figures/wmd.png>] Excluding 'comment' comment.
-Excluding 'comment' comment.) (summarizeOpinion.tex
-Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment.
-Overfull \hbox (7.94208pt too wide) in paragraph at lines 50--67
+<figures/coreference.pdf, id=343, 846.0408pt x 213.67828pt>
+File: figures/coreference.pdf Graphic file (type pdf)
+<use figures/coreference.pdf>
+Package pdftex.def Info: figures/coreference.pdf  used on input line 31.
+(pdftex.def)             Requested size: 243.43007pt x 61.4793pt.
+ [4] Excluding 'comment' comment.
+Overfull \hbox (15.51881pt too wide) in paragraph at lines 107--120
  [] 
  []
 
-[7 <./figures/communities.png>]) (Implementation.tex) (experiment.tex [8]
+Excluding 'comment' comment. [5 <./figures/coreference.pdf
 
-LaTeX Warning: Reference `tab:pattern' on page 9 undefined on input line 54.
+pdfTeX warning: pdflatex.exe (file ./figures/coreference.pdf): PDF inclusion: i
+nvalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 
-Excluding 'comment' comment. Excluding 'comment' comment. [9]
-Overfull \hbox (16.31105pt too wide) in paragraph at lines 139--156
+>]
+Overfull \hbox (21.83768pt too wide) in paragraph at lines 159--170
+ [][] 
+ []
+
+Excluding 'comment' comment.
+<figures/wmd1.pdf, id=390, 678.535pt x 289.08pt>
+File: figures/wmd1.pdf Graphic file (type pdf)
+<use figures/wmd1.pdf>
+Package pdftex.def Info: figures/wmd1.pdf  used on input line 201.
+(pdftex.def)             Requested size: 253.79099pt x 108.12242pt.
+
+Overfull \hbox (0.846pt too wide) in paragraph at lines 201--203
+ [][] 
+ []
+
+Excluding 'comment' comment.
+<figures/communities.pdf, id=395, 585.77567pt x 337.05743pt>
+File: figures/communities.pdf Graphic file (type pdf)
+<use figures/communities.pdf>
+Package pdftex.def Info: figures/communities.pdf  used on input line 256.
+(pdftex.def)             Requested size: 233.06917pt x 134.10568pt.
+ [6 <./figures/wmd1.pdf>]
+Overfull \hbox (1.12561pt too wide) in paragraph at lines 287--297
+ [][] 
+ []
+
+Excluding 'comment' comment. Excluding 'comment' comment.)
+(summarizeOpinion.tex
+<figures/bert.pdf, id=422, 895.42526pt x 284.02109pt>
+File: figures/bert.pdf Graphic file (type pdf)
+<use figures/bert.pdf>
+Package pdftex.def Info: figures/bert.pdf  used on input line 4.
+(pdftex.def)             Requested size: 233.06917pt x 73.92607pt.
+ Excluding 'comment' comment.
+<figures/website.pdf, id=425, 1063.09169pt x 665.60669pt>
+File: figures/website.pdf Graphic file (type pdf)
+<use figures/website.pdf>
+Package pdftex.def Info: figures/website.pdf  used on input line 21.
+(pdftex.def)             Requested size: 408.99147pt x 256.0748pt.
+
+Excluding 'comment' comment. Excluding 'comment' comment. [7 <./figures/communi
+ties.pdf> <./figures/bert.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/bert.pdf): PDF inclusion: invalid 
+other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Excluding 'comment' comment. Excluding 'comment' comment.) (Implementation.tex
+<figures/stats.pdf, id=479, 385.44pt x 201.75375pt>
+File: figures/stats.pdf Graphic file (type pdf)
+<use figures/stats.pdf>
+Package pdftex.def Info: figures/stats.pdf  used on input line 6.
+(pdftex.def)             Requested size: 155.38206pt x 81.33116pt.
+<figures/theworld.pdf, id=480, 790.955pt x 484.81125pt>
+File: figures/theworld.pdf Graphic file (type pdf)
+<use figures/theworld.pdf>
+Package pdftex.def Info: figures/theworld.pdf  used on input line 10.
+(pdftex.def)             Requested size: 155.38206pt x 95.23688pt.
+<figures/returning.pdf, id=481, 241.90375pt x 227.85126pt>
+File: figures/returning.pdf Graphic file (type pdf)
+<use figures/returning.pdf>
+Package pdftex.def Info: figures/returning.pdf  used on input line 14.
+(pdftex.def)             Requested size: 103.58542pt x 97.56734pt.
+
+[8 <./figures/website.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/website.pdf): PDF inclusion: inval
+id other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+
+LaTeX Warning: Citation `??' on page 9 undefined on input line 39.
+
+
+LaTeX Warning: Citation `??' on page 9 undefined on input line 39.
+
+<figures/barChart.pdf, id=504, 1027.84pt x 495.8525pt>
+File: figures/barChart.pdf Graphic file (type pdf)
+<use figures/barChart.pdf>
+Package pdftex.def Info: figures/barChart.pdf  used on input line 66.
+(pdftex.def)             Requested size: 253.79099pt x 122.43446pt.
+
+Overfull \hbox (0.846pt too wide) in paragraph at lines 66--68
+ [][] 
+ []
+
+) (experiment.tex [9 <./figures/stats.pdf> <./figures/theworld.pdf> <./figures/
+returning.pdf> <./figures/barChart.pdf>] Excluding 'comment' comment.
+Excluding 'comment' comment.
+Overfull \hbox (2.56706pt too wide) in paragraph at lines 80--102
+ [][] 
+ []
+
+Excluding 'comment' comment. [10]
+Overfull \hbox (8.2892pt too wide) in paragraph at lines 143--160
  [][] 
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 174--177
+Underfull \hbox (badness 1496) in paragraph at lines 178--181
 \OT1/ppl/m/n/9.53561 where $\OML/cmm/m/it/10 H\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
  G\OT1/cmr/m/n/10 )$ \OT1/ppl/m/n/9.53561 is the en-tropy of set $\OML/cmm/m/it
 /10 G$ \OT1/ppl/m/n/9.53561 i.e., $\OML/cmm/m/it/10 H\OT1/cmr/m/n/10 (\OML/cmm/
 m/it/10 G\OT1/cmr/m/n/10 ) =
  []
 
-[10]
+[11]
+Overfull \hbox (9.79654pt too wide) in paragraph at lines 251--264
+ [] 
+ []
 
-LaTeX Warning: Reference `{sec:fineTuning}' on page 11 undefined on input line 
-234.
-
-
-LaTeX Warning: Reference `sec:clusteringMetrics' on page 11 undefined on input 
-line 239.
-
-) (relatedWork.tex [11]) (conclusion.tex) Excluding 'comment' comment.
+[12]) (relatedWork.tex [13]) (conclusion.tex) Excluding 'comment' comment.
 (diffSimilarTech.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 47--50
 []\OT1/ppl/m/n/8.03 ``Mysql vs post-gres,'' []$https : / / www . upguard . com 
@@ -680,30 +738,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--50
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 140--144
+Underfull \hbox (badness 1838) in paragraph at lines 131--133
+[]\OT1/ppl/m/n/8.03 K. Clark and C. D. Man-ning, ``Deep re-in-force-ment learn-
+
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 131--133
+\OT1/ppl/m/n/8.03 ing for mention-ranking coref-er-ence mod-els,'' \OT1/ppl/m/i
+t/8.03 arXiv preprint
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 149--153
 []\OT1/ppl/m/n/8.03 ``Open sourc-ing bert: State-of-the-art pre-training for na
 t-u-
  []
 
-[12]
-Underfull \hbox (badness 1824) in paragraph at lines 291--292
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 155--158
+[]$\OT1/ppl/m/n/8.03 https : / / tfhub . dev / tensorow / bert[]en[]wwm[]uncas
+ed[]L-[]24[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--217
+[]\OT1/ppl/m/n/8.03 ``sklearn.metrics.precision[]recall[]fscore[]support,'' []$
+https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--217
+\OT1/ppl/m/n/8.03 / / scikit-[]learn . org / stable / modules / generated / skl
+earn . metrics .
+ []
+
+LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <8.03> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 299.
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <8.03> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 299.
+
+Underfull \hbox (badness 1824) in paragraph at lines 347--348
 []\OT1/ppl/m/n/8.03 ``Similarweb,'' []$https : / / www . similarweb . com/$[], 
 2018, ac-cessed:
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 602.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 602.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 605.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 605.
  (diffSimilarTech.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 602.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 602.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 605.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 605.
 Package rerunfilecheck Info: File `diffSimilarTech.out' has not changed.
-(rerunfilecheck)             Checksum: C488032CC8D2A5AEDC673F112C44A6E9;2836.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.49063pt have occurred.
+(rerunfilecheck)             Checksum: B503C6AFFF99EF6F83E0FD3B5DCC52DF;3017.
 
 
 LaTeX Warning: There were undefined references.
@@ -711,16 +799,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 602.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 605.
  ) 
 Here is how much of TeX's memory you used:
- 8400 strings out of 492973
- 127342 string characters out of 3135923
- 243853 words of memory out of 3000000
- 11977 multiletter control sequences out of 15000+200000
- 61282 words of font info for 130 fonts, out of 3000000 for 9000
+ 8483 strings out of 492973
+ 128851 string characters out of 3135923
+ 244847 words of memory out of 3000000
+ 12021 multiletter control sequences out of 15000+200000
+ 66339 words of font info for 135 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 31i,11n,44p,1007b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,11n,44p,1230b,461s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -734,12 +822,13 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr
 o8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/urw/zapfding/uzdr.pfb>
-Output written on diffSimilarTech.pdf (13 pages, 1246707 bytes).
+ogram Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/z
+apfding/uzdr.pfb>
+Output written on diffSimilarTech.pdf (15 pages, 3447788 bytes).
 PDF statistics:
- 565 PDF objects out of 1000 (max. 8388607)
- 129 named destinations out of 1000 (max. 500000)
- 345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 805 PDF objects out of 1000 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
+ 391 words of extra memory for PDF output out of 10000 (max. 10000000)
 

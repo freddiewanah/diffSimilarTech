@@ -8,8 +8,8 @@
 \end{figure} 
 \revise{For some comparable technologies, there may be too many comparison opinions which are too time-consuming for developers to read all of them.
 Therefore, we further develop a sentiment classifier based on the BERT model~\cite{devlin2018bert} for automatically distilling the overall opinion towards the comparable technologies.
-That summarization can be an important criteria for developers to determine which technology to adopt.}
-\chen{Please draw a flow chart for this process including: 1) preprocessing the data, labeling data, splitting data 2) introduce the pretrained BERT model 3) fine tune the model 4) get the summarization sentiment.}\wang{The general process of summarising overall opinion is shown in Fig.~\ref{fig:finetune}}
+That summarization can be an important criteria for developers to determine which technology for adopting.
+The general process of summarising overall opinion is shown in Fig.~\ref{fig:finetune}}
 
 \begin{comment}
 While comparing two techniques, users also would like to see an overall opinion on which technology is better or which one should they use.  
@@ -37,6 +37,7 @@ As mentioned above, we use BERT, which stands for Bidirectional Encoder Represen
 Transformers, for deploying sentence analysis. There are already plenty of pre-trained models in the market, we choose BERT because it supposed to be the first deeply bidirectional, unsupervised language representation, pre-trained using only a plain text corpus\cite{web:bertblog}. And quite a lot works have proved that BERT model \wang{find some reference} has surpassed other  transformers.
 \end{comment}
 
+\begin{comment}
 \begin{figure}
 	\centering
 	\includegraphics[height=50mm]{figures/bertmodel.pdf}
@@ -45,12 +46,15 @@ Transformers, for deploying sentence analysis. There are already plenty of pre-t
 	\vspace{-3mm}
 	\label{fig:bertmodel}
 \end{figure}
+\end{comment}
+
 %\subsection{Constructing the classifier}
 %\label{sec:fineTuning}
 \revise{
 However, the supervised learn requires a large-scale labeled dataset which labour-extensive and time-consuming.
 To overcome this issue, we adopt the state-of-the-art model, BERT for this work.
-BERT (Bidirectional Encoder Representations)~\cite{devlin2018bert} is \wang{the first deeply bidirectional unsupervised language representation, pre-trained using only a plain text corpus\cite{web:bertblog}. Fig~\ref{fig:bertmodel} shows its architecture compare with a unidrectional representation. For each word, BERT considers its different meanings in different contextual environments. For example, the word `chair' would have same representation in `seat a the chair' and `the chair of the committee' for a context-free models. A contextual model like BERT would have one representation of each word that is based on the other words in its surroundings.  BERT also introduce the ``masked language modeling'', which is to make sure BERT is a deep bidirectional representation. While doing the training, the model will randomly mask some percentage of the input tokens, and predict them. For example, the \textbf{Input} is ``A Lady went to the [MASK1]. She bought a [MASK2] of pork belly.'' and the \textbf{Labels} are ``MASK1=butcher,MASK2=tray''. Those features make BERT different but powerful than other pre-trained representations. }
+BERT (Bidirectional Encoder Representations)~\cite{devlin2018bert} is \wang{the first deeply bidirectional unsupervised language representation, pre-trained using only a plain text corpus\cite{web:bertblog}. 
+For each word, BERT considers its different meanings in different contextual environments. For example, the word `chair' would have same representation in `seat a the chair' and `the chair of the committee' for a context-free models. A contextual model like BERT would have one representation of each word that is based on the other words in its surroundings.  BERT also introduce the ``masked language modeling'', which is to make sure BERT is a deep bidirectional representation. While doing the training, the model will randomly mask some percentage of the input tokens, and predict them. For example, the \textbf{Input} is ``A Lady went to the [MASK1]. She bought a [MASK2] of pork belly.'' and the \textbf{Labels} are ``MASK1=butcher,MASK2=tray''. Those features make BERT different but powerful than other pre-trained representations. }
 In addition, Google release a pretrained BERT model~\cite{web:bertmodel} based on the large-scale corpus including Wikipedia and BookCorpus~\cite{moviebook} which contains 2,500 million words from English wikipedia sentences and 800 million words from 11,038 unpublished books.
 As the pretrained model is well trained based on such big data and long time, it already encodes a lot of information about our general language. 
 To leverage that learned knowledge, we only fine tune the pretrained BERT model by adding a new layer on the top of it.
@@ -70,5 +74,6 @@ Then, we further process the sentences to structures that BERT can understand. T
 We use the TensorFlow estimator to train and predict data. After preprocing the data input, we load the BERT model and create a new layer on the top of it. The new layer then get trained, and after a few epoch of training, the new model will be able to predict sentences based on the training samples.
 
 \end{comment}
+
 
 

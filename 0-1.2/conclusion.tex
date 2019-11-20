@@ -1,0 +1,13 @@
+\section{Conclusion and Future Work}
+\wang{
+In this paper, we present an automatic approach to distill and aggregate comparative opinions of comparable technologies from Q\&A websites.
+We first obtain a large pool of comparable technologies by incorporating categorical knowledge into word embedding of tags in Stack Overflow, and then locate comparative sentences about these technologies by Coreference and POS-tag based pattern matching, organize comparative sentences into clusters for easier understanding, and finally summarize comparative sentences to obtain a general opinion for each comparable technologies.
+The evaluation shows that our system covers a large set of comparable technologies and their corresponding comparative sentences with high accuracy. We implement our method not only on Stack Overflow, but also on Super User and Unix and Linux shows that our method has a general usage on most of the Q\&A sites.}
+We also demonstrate the potential of our system to answer questions about comparing comparable technologies, because the technology comparison knowledge mined using our system largely overlap with the original answers in Stack Overflow.
+
+
+\wang{Maybe mention on using Bert in clustering or compare clusters of comparative techs instead of two techs only. Find relations between questions and link similar answers to certain questions}
+Apart from comparative sentences explicitly mentioning both comparable technologies, some comparative opinions may hide deeper.
+For example, one developer expresses his opinions about one technology in one paragraph while discussing the other technology in the next paragraph. 
+Therefore, we will improve our system to distill technology comparison knowledge from the current sentence level to post level.
+In addition, we also plan to summarize higher-level opinions or preferences from separated individual comparative sentences for easier understanding.

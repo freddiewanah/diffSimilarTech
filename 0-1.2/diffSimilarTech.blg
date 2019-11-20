@@ -1,0 +1,23 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: diffSimilarTech.aux
+The style file: IEEEtran.bst
+Database file #1: reference.bib
+Repeated entry---line 265 of file reference.bib
+ : @article{girvan2002community
+ :                             ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 416 of file reference.bib
+ : 
+ : @inproceedings{chen2016similartech,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 434 of file reference.bib
+ : @inproceedings{chen2016techland
+ :                                ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "??"
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+(There were 3 error messages)

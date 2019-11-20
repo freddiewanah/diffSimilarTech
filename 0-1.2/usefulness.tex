@@ -1,0 +1,99 @@
+\section{Usefulness Evaluation}
+\label{sec:usefulness}
+Experiments in Section~\ref{sec:experiment} have shown the accuracy of our approach.
+In this section, we further demonstrate the usefulness of our approach.
+According to our observation of Stack Overflow, there are some questions discussing comparable technologies such as ``\textit{What is the difference between Swing and AWT}''.
+We demonstrate the usefulness of the technology-comparison knowledge our approach distills from Stack Overflow discussions by checking how well the distilled knowledge by our approach can answer those questions.
+%\textcolor{blue}{We exclude these explicit technology comparison questions from the dataset to distill comparative sentences.}
+
+\begin{table*}
+	\centering
+	\caption{Comparative questions}
+	\vspace{-3mm}
+	\begin{tabular}{c|c|c|c|c}
+	\hline
+	\textbf{Question ID} & \textbf{Question title} & \textbf{Tech pair} & \textbf{Tech category} & \textbf{\#answers} \\ \hline
+	70402 & Why is quicksort better than mergesort? & \textit{quicksort \& mergesort} & Algorithm & 29 \\
+	5970383 & Difference between TCP and UDP & \textit{tcp \& udp} & Protocol & 9 \\
+	630179 & Benchmark: VMware vs Virtualbox & \textit{vmware \& virtualbox} & IDE & 13 \\
+	408820 & What is the difference between Swing and AWT? & \textit{swing \& awt} & Library & 8 \\
+	46585 & When do you use POST and when do you use GET? & \textit{post \& get} & Method & 28 \\
+	\hline
+	\end{tabular}
+	\vspace{-1mm}
+	\label{tab:comparativeQuestion}
+\end{table*}
+
+\subsection{Evaluation Procedures}
+We use the name of comparable technologies with several keywords such as \textit{compare}, \textit{vs}, \textit{difference} to search questions in Stack Overflow.
+We then manually check which of them are truly about comparable technology comparison, and randomly sample five questions that discuss comparable technologies in different categories and have at least five answers.
+The testing dataset can be seen in Table~\ref{tab:comparativeQuestion}.
+
+
+\begin{comment}
+\textcolor{red}{CCY: There are two options for this experiment, one is the user study for comparison, and the other is to semi-automatically find that how many comparative opinions in original answers have counterparts in our model.}
+
+\textcolor{blue}{
+I feel the second option would be easier and should be sufficient. 
+Basically, we collect ground truth from explicit comparison posts, and use the ground-truth to evaluate our comparison sentence results.}
+
+\textcolor{blue}{
+One question, do we compare the ground-truth sentences and the extracted sentences at the sentence level or at the cluster level, or both?
+The section ``Accuracy of Clustering Comparative Opinions'' somehow shows the usefulness of the clusters.
+Do we have any evaluation of the usefulness of individual comparison sentences extracted?
+If not, maybe here is a good place to evaluate the usefulness of individual comparison sentences extracted?}
+
+
+We ask the 8 Master students mentioned in Section~\ref{sec:clusterEvaluate} to mark three metrics for each question on 5-point likert scale (1 being the worst and 5 being the best), i.e., \textcolor{red}{completeness and satisfaction ??Anything more?}, after inspecting the information in our model and reading the original question answers.	
+\end{comment}
+
+We then ask the two Master students to read each sentence in all answers and cluster all sentences into several clusters which represent developers' opinions in different aspects.
+To make the data as valid as possible, they still first carry out the clustering individually and then reach an agreement after discussions.
+For each comparative opinion in the answer, we manually check if that opinion also appears in the knowledge base of comparative sentences extracted by our method.
+To make this study fair, our method does not extract comparative sentences from answers of questions used in this experiment.	
+\begin{comment}
+\textcolor{red}{\textbf{Do next few sentences sound reasonable?}}
+Some comparative sentences from different answers actually share the same meaning such as \textcolor{red}{\textit{A??} is faster than \textit{B??} (post can transmit a larger amount of information than get)} and \textcolor{red}{\textit{B??} is slower than \textit{A??} (post has more capacity it can transfer more data than get)}.
+We manually cluster all comparative sentences into different opinions.
+And for each comparative opinion, we manually check if that opinion also appears in results from our model, and vice versa.
+Note that to keep fair, our model will not extract comparative sentences from  those answers mentioned in this experiment.	
+\end{comment}
+
+\begin{table}
+	\centering
+	\caption{Distilled knowledge by our approach versus original answers}
+	\vspace{-3mm}
+	\setlength{\tabcolsep}{0.3em}
+	\begin{tabular}{cccc}
+	\hline
+	\textbf{Question ID} & \textbf{\#Aspects} & \textbf{\#Covered} & \textbf{\#Unique in our model} \\ \hline
+	70402   & 6  & 4 (66.67\%)   & 2 \\
+	5970383 & 3  & 3  (100\%)  & 5 \\
+	630179  & 7  & 4  (57.1\%)  & 1 \\
+	408820  & 5  & 3  (60\%) & 4 \\
+	46585   & 4  & 4  (100\%) & 2\\
+	\hline
+	\textbf{Total} & 25 & 18 (72\%) & 14\\
+	\hline
+	\end{tabular}	
+	\vspace{-1mm}
+	\label{tab:usefulenessEvaluation}
+\end{table}
+
+
+\subsection{Results}
+Table~\ref{tab:usefulenessEvaluation} shows the evaluation results.
+We can see that most comparison (72\%) aspects can be covered by our knowledge base.
+For two questions (\#5970383 and \#46585), the technology-comparison knowledge distilled by our method can cover all of comparison aspects in the original answers such as speed, reliability, data size for comparing \textit{post} and \textit{get}.
+While for the other three questions, our model can still cover more than half of the comparison aspects.
+
+We miss some comparison aspects for the other three questions, such as ``\textit{One psychological reason that has not been given is simply that Quicksort is more cleverly named, i.e. good marketing.}'', ``\textit{The VMWare Workstation client provides a nicer end-user experience (subjective, I know...)}'' and ``\textit{Another statement which I saw is that swing is MVC based and awt is not.}''.
+Such opinions are either too subjective or too detailed which rarely appear again in other Stack Overflow discussions, leading to not having them in our knowledge base.
+
+Apart from comparison aspects appeared in the original answers, our tool can provide some unique opinions from other aspects, such as ``\textit{In my experience, udp based code is generally less complex than tcp based code}'' for comparing \textit{tcp} and \textit{udp}, ``\textit{however I found that vmware is much more stable in full screen resolution to handle the iphone connection via usb}'' for comparing \textit{vmware} and \textit{virtualbox}, and ``\textit{GET would obviously allow for a user to change the value a lot easier than POST}'' for comparing \textit{post} and \textit{get}.
+As seen in Table~\ref{tab:usefulenessEvaluation}, our model can provide more than one unique comparative aspects which are not in the existing answers for each technology pair.
+%NOTE that as we put all single sentences which are not in any community into one cluster in last section. So we may have \#covered + \#unique in this section > \#cluster in last section
+Therefore, our knowledge base can be a good complement to these existing technology-comparison questions with answers.
+Furthermore, our knowledge base contains the comparison knowledge of 2074 pairs of comparable technologies, many of which have not been explicitly asked and discussed in Stack Overflow, such as \textit{swift} and \textit{objective-c}, \textit{nginx} and \textit{apache}.
+
+%The high coverage can demonstrate the potential of our model in answering questions about comparative 

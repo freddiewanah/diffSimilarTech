@@ -1,0 +1,34 @@
+\section{Related Works}
+\chen{May need to add state-of-the-art related works like API recommendation}
+\subsection{Mining similar software artefects}
+Finding similar software artefacts can help developers migrate from one tool to the other which is more suitable to their requirement.
+But it is a challenging task to identify similar software artefacts from the existing large pool of candidates.
+Therefore, much research effort has been put into this domain.
+Different methods has been adopted to mine similar artefacts ranging from high-level software~\cite{mcmillan2012detecting, thung2012detecting}, mobile applications~\cite{chen2015simapp, linares2016automatically}, github projects\cite{zhang2017detecting} to low-level third-party libraries~\cite{teyton2013automatic, chen2016mining, chen2016similartech}, APIs~\cite{gu2017deepam, nguyen2017exploring}, code snippets~\cite{su2016identifying}, or Q\&A questions~\cite{chen2016learning}.
+Compared with these research studies, the mined software technologies in this work has much broader scope including not only software-specific artefacts, but also general software concepts (e.g., algorithm, protocol),  tools (e.g., IDE).
+
+\subsection{Extracting opinions about software technologies}
+\revise{
+Extraction opinions about technologies from sentences using is also important to developers, as it tells them others thoughts on technologies and give them a general vision on the technologies. Using Sentiment Analysis~\cite{pang2008opinion} to solve this type of problem seems to become common, like extracting
+sentiments in tweets that are strongly correlate to human
+judgment ~\cite{guzman2017exploratory}.
+Uddin and Khomh~\cite{uddin2017opiner, uddin2017automatic} extract API opinion sentences in different aspects to show developers' sentiment to that API. Ahasanuzzaman et.al ~\cite{ahasanuzzaman2019caps} classify StackOverflow posts concerning API issues-only with Conditional Random Field (CRF)~\cite{sutton2012introduction}. Lin et.al~\cite{lin2019pattern} produced a pattern-based approach that can identify overall quality, pros, and cons
+of APIs. Different from the works mentioned above, our method intended to use sentiment analysis in comparing two similar technologies instead of one single API. And we adopt the the state-of-art BERT model for the classification, which has a higher accuracy on prediction.
+}
+
+\subsection{Comparison in Software Engineering}
+Given a list of similar technologies, developers may further compare and contrast them for the final selection.
+Some researcher investigate such comparison, the comparison is highly domain-specific such as software for traffic simulation~\cite{jones2004traffic}, regression models~\cite{horton2001multiple}, x86 virtualization~\cite{adams2006comparison}, etc.
+Michail and Notkin~\cite{michail1999assessing} assess different third-party libraries by matching similar components (such as classes and functions) across similar libraries.
+But it can only work for library comparison without the possibility to be extended to other higher/lower-level technologies in Software Engineering.
+Instead, we find developers's preference of certain software technologies highly depends on other developers' usage experience and report of similar technology comparisons.
+Li et al.~\cite{li2017mining} adopt NLP methods to distill comparative user review about similar mobile Apps.
+Different from their works, we first explicitly extract a large pool of comparable technologies.
+In addition, apart from extracting comparative sentences, we further organize them into different clusters and represent each cluster with some keywords to help developers understand comparative opinions more easily.
+\chen{\cite{de2018library, de2018empirical}}
+
+Finally, it is worth mentioning some related practical projects. 
+SimilarWeb~\cite{web:similarweb} is a website that provides both users engagement statistics and similar competitors for websites and mobile applications. 
+AlternativeTo~\cite{web:alternativeto} is a social software recommendation website in which users can find alternatives to a given software based on user recommendations. 
+SimilarTech~\cite{web:similartechgraph} is a site to recommend analogical third-party libraries across different programming languages.
+These websites can help users find similar or alternative websites or software applications without detailed comparison.  
